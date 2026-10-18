@@ -1,4 +1,4 @@
-// node verify.mjs out/file.mp4 [--size 1920x1080] [--solo <scene id>] [--frames N]
+// node verify.mjs out/file.mp4 [--size 1920x1080] [--solo <scene id>] [--aspect 9x16] [--edit full|short] [--frames N]
 // Runs ffprobe on an encoded file and asserts width, height, fps and nb_frames ==
 // round(DURATION * FPS), with FPS and DURATION read from the page (via `render.mjs info`, so
 // --solo checks one scene). Prints the bitrate and file size. Exits 1 on any mismatch.
@@ -15,7 +15,7 @@ for (let i = 0; i < argv.length; i++) {
 const file = pos[0];
 if (!file) { console.error('usage: node verify.mjs file.mp4 [--size WxH] [--solo ID] [--frames N]'); process.exit(2); }
 
-const page = JSON.parse(execFileSync(process.execPath, [join(ROOT, 'render.mjs'), 'info', ...(flags.solo ? ['--solo', flags.solo] : [])], { encoding: 'utf8' }).trim().split('\n').at(-1));
+const page = JSON.parse(execFileSync(process.execPath, [join(ROOT, 'render.mjs'), 'info', ...['solo', 'aspect', 'edit'].flatMap((k) => (flags[k] ? [`--${k}`, flags[k]] : []))], { encoding: 'utf8' }).trim().split('\n').at(-1));
 const [W, H] = (flags.size ?? '1920x1080').split('x').map(Number);
 const frames = Number(flags.frames ?? Math.round(page.DURATION * page.FPS));
 
