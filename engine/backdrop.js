@@ -1,16 +1,10 @@
 import { hash } from './rng.js';
+import { noiseTile } from './draw.js';
 import { W, H, FPS, colors } from '../tokens.js';
 
-// Grain tile, built once at load from the stateless hash.
 let grain;
 export async function loadBackdrop() {
-  const c = new OffscreenCanvas(256, 256), g = c.getContext('2d'), img = g.createImageData(256, 256);
-  for (let i = 0; i < 256 * 256; i++) {
-    const v = hash(i, 7) * 255;
-    img.data.set([v, v, v, 255], i * 4);
-  }
-  g.putImageData(img, 0, 0);
-  grain = c;
+  grain = noiseTile(256, 7);
 }
 
 // Background colour, slow drifting light, vignette and grain. Pass global time so the light

@@ -13,7 +13,13 @@
 
 Each `scenes/sNN_*.js` exports `start`, `dur`, `draw(ctx, t, dur)` (t local to the scene) and an
 optional async `load()`. Register them in `scenes/index.js`. Design values live in `tokens.js`.
-Shared drawing: `engine/backdrop.js` (background) and `engine/type.js` (kinetic type moves).
+Shared drawing: `engine/backdrop.js` (background), `engine/type.js` (kinetic type moves),
+`engine/draw.js` (lighting, grain, boil, shadows, draw-on, pulses) and `engine/props.js` (lit props).
+`engine/layer.js` hands out the full-frame scratch layers (0–1 type.js, 2 draw.js).
+
+Illustration rules: only the stroke, radius, shadowAlpha and hue tokens; at most 4 hues plus
+neutrals. Outlines are a darker tone of each piece's own fill, never a shared black keyline.
+The rim light sits on the right edge only, drawn over the outline.
 
 # Commands
 

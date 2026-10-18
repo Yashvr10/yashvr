@@ -4,6 +4,7 @@
 // family (a key of tokens.fonts), track (em), color, accent.
 import { win, outExpo, outCubic, inOutQuint } from './ease.js';
 import { hash } from './rng.js';
+import { layer, blit } from './layer.js';
 import { W, H, FPS, colors, fonts, sizes, tracking } from '../tokens.js';
 
 const base = (o) => ({
@@ -44,22 +45,6 @@ function lay(ctx, o, str = o.text) {
   for (const g of l.glyphs) g.x += dx + shift + (g.i >= e ? 2 * px : g.i >= s ? px : 0);
   ctx.textBaseline = 'alphabetic';
   return l;
-}
-
-// Two full-frame scratch layers, cleared before every use, so nothing carries between calls.
-const scratch = [0, 1].map(() => new OffscreenCanvas(W, H).getContext('2d'));
-function layer(k, ctx) {
-  const s = scratch[k];
-  s.reset();
-  s.setTransform(ctx.getTransform());
-  return s;
-}
-function blit(ctx, src, alpha, dx = 0, dy = 0) {
-  ctx.save();
-  ctx.setTransform(1, 0, 0, 1, 0, 0);
-  ctx.globalAlpha = alpha;
-  ctx.drawImage(src.canvas, dx, dy);
-  ctx.restore();
 }
 
 // Draws fn into a layer, then composites it at alpha, shifted dy. Fading the whole layer keeps
