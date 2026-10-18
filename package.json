@@ -1,0 +1,24 @@
+{
+  "name": "yashvr",
+  "version": "1.0.0",
+  "description": "vox",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yashvr10/yashvr.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yashvr10/yashvr/issues"
+  },
+  "homepage": "https://github.com/Yashvr10/yashvr#readme",
+  "type": "module",
+  "dependencies": {
+    "puppeteer": "^25.14.0"
+  }
+}
