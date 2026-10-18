@@ -1,7 +1,7 @@
 const query = new URLSearchParams(globalThis.location?.search ?? '');
-// Aspect: ?aspect=16x9 (default) or 9x16. The same scenes re-compose for each through
-// engine/layout.js; W, H, the type sizes and the safe margins below follow the aspect.
-export const ASPECT = query.get('aspect') === '9x16' ? '9x16' : '16x9';
+// Aspect: ?aspect=9x16 (default: this video is vertical-first) or 16x9. The same scenes re-compose
+// for each through engine/layout.js; W, H, the type sizes and the safe margins follow the aspect.
+export const ASPECT = query.get('aspect') === '16x9' ? '16x9' : '9x16';
 const VERTICAL = ASPECT === '9x16';
 export const W = VERTICAL ? 1080 : 1920;
 export const H = VERTICAL ? 1920 : 1080;
@@ -12,34 +12,45 @@ export const TH = 1080 * TYPE;
 // Supersampling: ?ss=N renders the backing store at W*N × H*N while layout stays in W × H units.
 // Every constant measured in device pixels (blur radii, grain cells, CA, point sizes) is × SS.
 export const SS = Math.max(1, Math.round(Number(query.get('ss')) || 1));
-// The reference runs at 23.976 fps; we stay at 30 and convert its frame counts to seconds.
 export const FPS = 30;
-const REF_FPS = 24000 / 1001;
-const refFrames = (n) => n / REF_FPS;
+export const DURATION = 10; // seconds: the whole video
 
-// Every value below comes from STYLE.md (measured from the private reference).
-// Palette: paper 48.8%, paper shade 21.1%, ink 10.2%, graphite 9.8%, red 4.8%, yellow 0.3%.
-// Ink is the solid core (darkest decile over 74 paper frames), not the k-means centroid #2a2725,
-// which averages in anti-aliased edges.
+// Style: Vox-like Mixed Media collage (STYLE.md). Flat colour fields, paper cutouts with white
+// borders, halftone, tape, hand-drawn marker marks, Anton type. One dominant field per scene.
+// Contrast (WCAG, measured): ink on yellow 11.6, on paper 15.8, on white 18.4; paper on navy 11.9,
+// white on navy 13.9. Coral and dim are under 7:1 on every field: marks and shapes only, never text.
 export const colors = {
-  bg: '#eae9e9', paper: '#dbdad9', ink: '#111111', dim: '#5d5b58', accent: '#d64647', highlight: '#e8e60d',
+  yellow: '#F5C842', paper: '#F2EDE3', navy: '#1D2B4F', coral: '#EE6352',
+  ink: '#141414', white: '#FFFFFF', dim: '#5E5A52',
+  // Engine roles (older modules read these names): bg = the light field and the text halo,
+  // accent = marks, highlight = marker fills.
+  bg: '#F2EDE3', accent: '#EE6352', highlight: '#F5C842',
 };
-// High-contrast serif for titles, captions and hero letters; slab serif for quoted phrases.
-// The reference has no monospace; mono stays for older scenes only.
-export const fonts = { display: '"Playfair Display"', body: '"Playfair Display"', slab: '"Zilla Slab"', mono: '"JetBrains Mono"' };
+// The field each scene type sits on, and the text colour that goes with it.
+export const fields = {
+  yellow: { fill: colors.yellow, text: colors.ink },
+  paper: { fill: colors.paper, text: colors.ink },
+  navy: { fill: colors.navy, text: colors.paper },
+};
 
-// Font size from a cap height in % of TH and the face's cap height in em (measured in Chrome:
-// Playfair Display 0.719, Zilla Slab 0.656).
+// Anton (condensed display, the brief's caption face) for everything loud; Inter Tight for small
+// labels; Inter for the source line. All SIL OFL (fonts/LICENSE-*.txt).
+export const fonts = { display: '"Anton"', body: '"Anton"', label: '"Inter Tight"', small: '"Inter"', mono: '"JetBrains Mono"' };
+// Cap heights in em, measured in Chrome: Anton 0.859, Inter Tight and Inter 0.734.
+const CAP = { display: 0.859, label: 0.734 };
+// Font size from a cap height in % of TH (so 9:16 type is 90% of 16:9 type).
 const fromCap = (pct, capEm) => Math.round(((pct / 100) * TH) / capEm);
 export const sizes = {
-  giant: fromCap(81.1, 0.719), // hero letters, 900 roman (1218)
-  hero: fromCap(10.8, 0.719), // name title, 700 italic (162)
-  h1: fromCap(9.7, 0.656), // quoted phrase, slab 700 (160)
-  h2: fromCap(8.3, 0.719), // two-line caption, 400 roman (125)
-  body: fromCap(6.7, 0.719), // place label in a red box, 700 italic (101)
-  label: fromCap(3.1, 0.719), // subtitle under a title, 400 italic (47)
+  giant: fromCap(16, CAP.display), // the answer number (201; 181 in 9:16)
+  hero: fromCap(9.5, CAP.display), // a scene's main line (119; 107)
+  h1: fromCap(7, CAP.display), // second line, year labels (88; 79)
+  h2: fromCap(5, CAP.display), // supporting line (63; 57)
+  body: fromCap(3.6, CAP.display), // short caption (45; 41)
+  label: fromCap(2.2, CAP.label), // Inter Tight 700 caps label (32; 29)
+  small: fromCap(1.6, CAP.label), // Inter source line (24; 21)
 };
-export const tracking = { display: 0, body: 0, label: 0 }; // em: default spacing throughout
+export const tracking = { display: 0.01, body: 0.01, label: 0.08 }; // em
+
 // Layout margins in px from each edge. 16:9: text edges at 11.1–11.4% W and from 11.7% H.
 // 9:16: clear of the platform UI, which covers more of the bottom (caption, buttons) than the top.
 export const safe = VERTICAL
@@ -53,42 +64,41 @@ export const titleSafe = rect(0.05 * W, 0.05 * H, 0.9 * W, 0.9 * H);
 const crop = (H * 9) / 16;
 export const cropSafe = VERTICAL ? null : rect((W - crop) / 2 + 0.05 * crop, 0.05 * H, 0.9 * crop, 0.9 * H);
 export const captionBand = VERTICAL ? rect(0.1 * W, 0.15 * H, 0.8 * W, 0.55 * H) : null;
-export const hold = 2.3; // seconds: median hold after an entrance (55 reference frames)
+// Holds: every caption stays settled at least `hold` seconds (and longer for more words; see
+// engine/copy.js holdFor). Transitions are 0.1 to 0.3 s.
+export const hold = 1.2;
 
-// Motion, in seconds (reference frame counts at 23.976 fps).
+// Motion: Vox-snappy. Entrances ease out with a slight overshoot; one loud thing at a time.
 export const motion = {
-  titleWipe: refFrames(7), // title wipes on left to right
-  titleDelay: refFrames(2), // after its cut
-  typePerChar: refFrames(0.73), // quoted phrase types on
-  marker: refFrames(4.5), // highlight wipes behind the text
-  drawOn: refFrames(8), // annotation circle or underline
-  drawDelay: refFrames(9), // annotation after its clipping's cut
-  move: refFrames(20), // camera move between items, inOut, peak/mean velocity 3.4
-  montage: { cuts: 5, every: refFrames(2), settle: refFrames(7) }, // clippings cut on twos
+  enter: 0.35, // s: an element's entrance
+  overshoot: 1.4, // outBack strength for pops
+  stagger: 0.06, // s between siblings
+  drawOn: 0.4, // s: a marker circle or underline
+  push: 0.04, // camera push-in over a scene
+  impact: 0.06, // punch() scale on an impact frame
 };
-// Rhythm: 17.0 editorial cuts per minute, 3.28 s mean shot, a montage burst every 3.0 s.
-export const rhythm = { cutsPerMin: 17, shot: 3.28, montageGap: 3.0 };
 
-// Texture, as post-chain defaults: no bloom, CA or vignette; grain at the measured mean frame
-// difference (0.22 / 255 on paper shots, matched at 360p). The reference is untone-mapped SDR with a
-// neutral paper, so ACES, the S-curve and the warm/cool tint are off (1 = the earlier look).
-export const post = { bloom: 0, ca: 0, vig: 0, grain: 0.0073, exposure: 1, tone: 0, curve: 0, warm: 0 };
-// Paper: static (drift 0), mottled between paper and paper shade (21.1% coverage in the
-// reference), with static fibre noise of std 2.2 / 255 in cells of one reference pixel (H / 360).
+// Post: flat print. No bloom, CA or tone mapping; a light vignette; grain; and the paper texture
+// (mottling + fibre) multiplied over every layer, so cutouts and fields read as printed paper.
+export const post = { bloom: 0, ca: 0, vig: 0.12, grain: 0.012, exposure: 1, tone: 0, curve: 0, warm: 0, paper: 1 };
+// Paper texture: a neutral mottle (amount of the paper → shade ramp) and static fibre noise of std
+// fibre in cells of fibreScale px. Only its variation is used (normalised to the paper colour).
 export const background = {
-  ramp: [colors.bg, colors.paper, colors.paper], amount: 0.6, drift: 0, fibre: 2.2 / 255, fibreScale: Math.min(W, H) / 360,
+  ramp: [colors.paper, '#E4DCCB', '#E4DCCB'], amount: 0.35, drift: 0, fibre: 3 / 255, fibreScale: Math.min(W, H) / 540,
 };
 
-// Illustration. Line widths in screen px, whatever an object's scale.
-// annotate: red circles and underlines, 0.56–1.11% H in the reference.
-export const stroke = { outline: 4.5, detail: 3, annotate: 9 };
-export const radius = 16;
-export const shadowAlpha = 0.3;
-// At most 4 hues plus neutrals. In use: red and marker yellow. Neutrals: bg, paper, ink, dim.
-export const hues = [colors.accent, colors.highlight];
+// Collage pieces (engine/collage.js): white paper border, drop shadow, halftone dots, tape.
+export const collage = {
+  border: 14, // px of white paper around a cutout
+  shadow: { x: 6, y: 10, blur: 14, alpha: 0.22 },
+  halftone: { cell: 9, angle: Math.PI / 4 }, // px, radians
+  tape: { w: 120, h: 36, color: 'rgba(243, 236, 214, 0.82)' },
+};
+
+// Illustration. Line widths in screen px whatever an object's scale; annotate = marker strokes.
+export const stroke = { outline: 4, detail: 3, annotate: 10 };
+export const radius = 10;
+export const shadowAlpha = collage.shadow.alpha;
 
 // Every face the scenes use. index.html waits for each before READY.
-export const fontLoads = [
-  `italic 700 1em ${fonts.display}`, `700 1em ${fonts.display}`, `900 1em ${fonts.display}`,
-  `400 1em ${fonts.body}`, `italic 400 1em ${fonts.body}`, `700 1em ${fonts.slab}`, `400 1em ${fonts.mono}`,
-];
+export const fontLoads = [`400 1em ${fonts.display}`, `700 1em ${fonts.label}`, `400 1em ${fonts.small}`];

@@ -1,48 +1,17 @@
 // The edit. Scenes play back to back; each transition sits on the cut between two of them.
 // A scene entry shows its scene from local time `from` for `dur` seconds, so transitions can
 // skip a scene's own entrance and exit. Cuts are on frame boundaries.
-import * as s01 from './scenes/s01_title.js';
-import * as s02 from './scenes/s02_type_demo.js';
-import * as s03 from './scenes/s03_diagram.js';
-import * as s04 from './scenes/s04_particles.js';
-import * as s05 from './scenes/s05_cards.js';
-import * as s06 from './scenes/s06_ledger.js';
-import { whip, zoomThrough, glitch, matchCut } from './engine/transitions.js';
-import { FPS, ASPECT } from './tokens.js';
+import * as s00 from './scenes/s00_empty.js';
+import { FPS } from './tokens.js';
 
-export const SCENES = { s01_title: s01, s02_type_demo: s02, s03_diagram: s03, s04_particles: s04, s05_cards: s05, s06_ledger: s06 };
+export const SCENES = { s00_empty: s00 };
 
 // The edit, in order. Each scene plays from its in-point `from` to its `end` (where its last
 // caption's hold ends, sized by holdFor from copy.json), plus an optional `trim` in seconds.
 // Cuts follow from those lengths, snapped to frames: moving a cut is editing one `trim`.
-// Each transition sits on the cut between its neighbours.
-export const FULL = [
-  { scene: 's01_title', from: 0 },
-  { tr: whip },
-  { scene: 's02_type_demo', from: 0.6 },
-  { tr: zoomThrough },
-  { scene: 's03_diagram', from: 0.5 },
-  { tr: glitch },
-  { scene: 's04_particles', from: 1.15 },
-  {
-    // From the s04 total at its last frame to s05's chart card, landed in its slot.
-    tr: matchCut, opts: { from: s04.totalRect, to: s05.landedRect },
-  },
-  { scene: 's05_cards', from: 1.0 },
-  // Hard cut (no transition entry), the reference's most common transition.
-  { scene: 's06_ledger', from: 0 },
-];
-
-// The vertical edit (17.5 s): title, the counter, the ledger. It drops s02 (11.7 s of type
-// demos, too long for the format), s03 (generic props with small mono labels) and s05 (card
-// text set at 18–26 px, unreadable on a phone, and the costliest scene to render). It ends on
-// s06's exit to bare paper, which is also s01's first frame, so the loop is seamless.
-export const SHORT = [
-  { scene: 's01_title', from: 0 },
-  { tr: whip },
-  { scene: 's04_particles', from: 1.15 },
-  { tr: glitch },
-  { scene: 's06_ledger', from: 0, trim: s06.dur - s06.end },
+// Each transition ({ tr: whip }, …) sits on the cut between its neighbours.
+export const ORDER = [
+  { scene: 's00_empty', from: 0 },
 ];
 
 const snap = (s) => Math.round(s * FPS) / FPS;
@@ -55,10 +24,7 @@ function place(order) {
     return { ...x, start, dur: t - start };
   });
 }
-// ?edit=full|short picks the edit; by default 9:16 plays the short one.
-const EDIT = new URLSearchParams(globalThis.location?.search ?? '').get('edit') ?? (ASPECT === '9x16' ? 'short' : 'full');
-export const TIMELINE = place(EDIT === 'short' ? SHORT : FULL);
-
+export const TIMELINE = place(ORDER);
 // Builds the lookup for a timeline. resolve(t) returns either { entry } or, inside a
 // transition window, { tr, t0, dur, A, B }; `primary` is the scene that owns the GL and 3D
 // layers at t (A until the cut, then B).

@@ -5,7 +5,9 @@ import { W, H, SS, post as look, background } from '../tokens.js';
 // thresh is linear luminance. 0.95 keeps our ink (0.88) and accent (0.32) text out of the bloom;
 // a scene lowers it per frame when it wants things to glow.
 // radial is a zoom blur toward the centre (a fraction of the distance to it), for transitions.
-// The look (bloom, ca, vig, grain, exposure, tone, curve, warm) comes from tokens.post.
+// The look (bloom, ca, vig, grain, exposure, tone, curve, warm, paper) comes from tokens.post.
+// paper multiplies the background's texture over every layer (see composite.frag); anything a scene
+// draws with drawGL lands in that background, so with paper > 0 it multiplies rather than adds.
 export const POST_DEFAULTS = { thresh: 0.95, radial: 0, ...look };
 const LEVELS = 5;
 
@@ -20,6 +22,7 @@ export async function createPost(canvas) {
   // Mips stay at W × H halvings whatever SS is, so bloom spreads the same share of the frame.
   const mips = Array.from({ length: LEVELS }, (_, i) => target(gl, W >> (i + 1), H >> (i + 1)));
   const [b0, b1, b2] = background.ramp.map(linearRGB);
+  const paperRef = linearRGB(background.ramp[0]);
   const paper = { uBg: b0, uDim: b1, uAccent: b2, uAmt: background.amount, uDrift: background.drift, uFibre: background.fibre, uFibreScale: background.fibreScale * SS };
 
   // Draws one frame from t and the frame index. layers.layer is the Canvas2D layer; layers.three,
@@ -30,7 +33,7 @@ export async function createPost(canvas) {
     if (three) uploadCanvas(gl, threeTex, three);
     pass(gl, bg, back, { uTime: t, uRes: [PW, PH], uFrame: { i: frame }, uOne: { i: 1 }, ...paper });
     if (drawGL) drawGL(gl);
-    pass(gl, comp, scene, { uBack: { tex: back.tex }, uThree: { tex: threeTex }, uLayer: { tex: layerTex }, uHasThree: { i: +!!three } });
+    pass(gl, comp, scene, { uBack: { tex: back.tex }, uThree: { tex: threeTex }, uLayer: { tex: layerTex }, uHasThree: { i: +!!three }, uPaper: P.paper ?? 0, uPaperRef: paperRef });
 
     // Bloom: 13-tap downsample through LEVELS halvings, then tent upsample added back up.
     // Every level is fully rewritten each frame, so nothing carries over.
