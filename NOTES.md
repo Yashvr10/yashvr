@@ -97,7 +97,7 @@ frames (they reset every frame); nothing in this video needs to.
 | s01_hook | scenes/s01_hook.js | 0.000 | 2.700 | kinetic type over collage | done, EXEMPLAR, frozen |
 | s02_growth | scenes/s02_growth.js | 2.700 | 2.533 (from 0.15) | chart built from pieces | done, EXEMPLAR, frozen |
 | s03_reveal | scenes/s03_reveal.js | 5.233 | 2.000 (from 0.1, hard cut in) | tiles assemble into ₹ (navy) | done (built by the lead; determinism PASS on 10, 40) |
-| s04_answer | scenes/s04_answer.js | 7.233 | ≈2.767 (trimmed to end at 10.000) | the answer: number + marks | TODO (task 2) |
+| s04_answer | scenes/s04_answer.js | 7.233 | 2.767 (no trim; ends at 10.000) | the answer: number + marks | done (determinism PASS on 15, 60; self-check below) |
 
 ## 6. Exemplar scenes
 - `scenes/s01_hook.js`: the pattern every scene follows (its header lists the 5 steps): copy via
@@ -131,8 +131,16 @@ assemble pattern is `demos/particles.js`.
   tried here blended paper and navy into a grey smear for a frame or two.)
 - Stills: `node compare.mjs s03_reveal s02_growth`; determinism on frames 10 and 40.
 
-**Task 2: s04_answer: NEXT.** Copy the structure of `s01_hook.js` (type over collage). s03 is in
-the edit, which runs 7.233 s before s04, so s04 plays about 2.767 s.
+**Task 2: s04_answer: DONE** (scenes/s04_answer.js, 137 lines; the spec below is kept as a record).
+Built as specified, with two deviations: (1) the kicker "≈20,000× SINCE 2016" lands at 1.08 s, not
+0.7 s. With the specified beats the last hold ended at about 2.39 s, but the edit gives s04 a slot of
+2.767 s, which would have needed a trim into the exit fade (blank paper for the last ~0.18 s). At
+1.08 s its hold ends at 2.7675 s, `trim` is 0, and the video ends on the full composition, the
+punchline landing last. (2) The number is fitted to 90% of its column (not 100%) so the coral loop
+round it stays in the frame; it also fits `line` and `kicker` the same way. On-screen credit: "SOURCE:
+NPCI" is verified through the press (Business Today names no source; Punjab Kesari cites NPCI data),
+not read from NPCI's own site, which would not load. Anton has ≈, × and ₹ (checked).
+Copy the structure of `s01_hook.js` (type over collage).
 - Field `fields.paper`. copy.json `"s04_answer": ["21.6 BILLION", "A MONTH, DEC 2025",
   "≈20,000× SINCE 2016", "SOURCE: NPCI"]`.
 - Layout `column()`: the QR tile (callback to s01, at 0.6 scale) / number (`sizes.giant`, fit to
@@ -143,8 +151,8 @@ the edit, which runs 7.233 s before s04, so s04 plays about 2.767 s.
   `markerWipe` (accent colors.yellow, on colors.ink, word 0) at 0.7; source riseIn at 0.6.
 - Captions: four separate windows (number, line, kicker, source), so no hold runs past ~2.4 s.
 - No exit beyond the edit's end: the video ends on this hold. Keep `dur = end + EXIT` anyway.
-- timeline.js: `{ tr: flash, dur: 0.1 }` then `{ scene: 's04_answer', from: 0, trim: X }` with X
-  chosen so `node render.mjs info` prints `"DURATION":10` and `"frames":300`.
+- timeline.js (as built): `{ tr: flash, dur: 0.1 }` then `{ scene: 's04_answer', from: 0 }`; with the
+  kicker at 1.08 s no trim is needed and `node render.mjs info` prints `"DURATION":10`, `"frames":300`.
 - Stills: `node compare.mjs s04_answer s01_hook`; determinism on frames 15 and 60.
 
 **Task 3: final render.** `node render.mjs video --workers 2`, `./encode.sh final1080`,
@@ -167,6 +175,10 @@ the edit, which runs 7.233 s before s04, so s04 plays about 2.767 s.
 12. The status table and Next tasks above are updated.
 
 ## 9. Known issues
+- s04's "×" in "≈20,000×" is a small glyph in Anton (its design); it reads, but it is the faintest
+  character on screen.
+- s04's source line is `sizes.small` (21 px in 9:16): legible on a phone, but the smallest type in the video.
+- s04's `flash` cut paints coral at 60% over the first 3 frames of the scene (the tile is still falling).
 - s01's burst isn't covered by `test-particles.mjs` (needs an `alphas(t)` export); its fade-in is
   the engine's linear ramp, inside the 0.2/frame limit.
 - The s01→s02 whip: at the frame after the cut, s02 is still mostly motion blur (one near-blank
