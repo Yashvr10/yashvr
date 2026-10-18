@@ -39,6 +39,15 @@ ff() { ffmpeg -hide_banner -loglevel error -y "$@"; }
 X264=(-c:v libx264 -pix_fmt yuv420p -movflags +faststart)
 CAP=(); [ "$CAPPED" = 1 ] && CAP=(-maxrate 12M -bufsize 24M)
 SOLO_ARGS=(--aspect "$ASPECT"); [ -n "$SOLO" ] && SOLO_ARGS+=(--solo "$SOLO"); [ -n "$EDIT" ] && SOLO_ARGS+=(--edit "$EDIT")
+# The default output name's suffix: _vertical and/or _capped. It uses if, not `[ … ] && echo`: that
+# form returns 1 when the test is false, and under set -e a substitution that returns 1 in an
+# assignment aborts the script with no message (this is what broke runs without --out).
+name_suffix() {
+  local s=""
+  if [ "$VERTICAL" = 1 ]; then s="${s}_vertical"; fi
+  if [ "$CAPPED" = 1 ]; then s="${s}_capped"; fi
+  printf '%s' "$s"
+}
 # A landscape size w h as WxH in this aspect (swapped for native 9:16 frames).
 dims() { if [ "$ASPECT" = 9x16 ]; then echo "${2}x${1}"; else echo "${1}x${2}"; fi; }
 
@@ -81,7 +90,7 @@ case "$mode" in
       [ "$mode" = final2160 ] && warn "vertical 2160×3840 upscales a 1215 px wide crop: it adds no detail"
       T=$W; W=$H; H=$T
     fi
-    OUT="${OUT:-out/${mode}$([ "$VERTICAL" = 1 ] && echo _vertical)$([ "$CAPPED" = 1 ] && echo _capped).mp4}"
+    OUT="${OUT:-out/${mode}$(name_suffix).mp4}"
     mkdir -p "$(dirname "$OUT")"
     # -framerate must come before -i: it sets the rate the image sequence is read at.
     ff -framerate "$FPS" -start_number 0 -i "$IN/f%05d.png" ${VF:+-vf "$VF"} "${X264[@]}" "${Q[@]}" ${CAP[@]+"${CAP[@]}"} -r "$FPS" "$OUT"
@@ -92,7 +101,7 @@ case "$mode" in
     [ -f "$IN" ] || { echo "no input file $IN" >&2; exit 1; }
     warn "upscale2160 resamples a 1080p file to 2160p: it adds no detail, only pixels. Render --ss 2 and use final2160 for real 4K."
     if [ "$VERTICAL" = 1 ] || [ "$ASPECT" = 9x16 ]; then W=2160; H=3840; else W=3840; H=2160; fi
-    OUT="${OUT:-out/upscale2160$([ "$VERTICAL" = 1 ] && echo _vertical)$([ "$CAPPED" = 1 ] && echo _capped).mp4}"
+    OUT="${OUT:-out/upscale2160$(name_suffix).mp4}"
     ff -i "$IN" -map 0:v:0 -vf "scale=${W}:${H}:flags=lanczos" "${X264[@]}" -preset slow -crf 18 ${CAP[@]+"${CAP[@]}"} "$OUT"
     node verify.mjs "$OUT" --size "${W}x${H}" ${SOLO_ARGS[@]+"${SOLO_ARGS[@]}"}
     ;;

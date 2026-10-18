@@ -180,9 +180,10 @@ crosses a safe line. Steps run: `node render.mjs video --workers 2`, `./encode.s
 12. The status table and Next tasks above are updated.
 
 ## 9. Known issues
-- `encode.sh` exits 1 without printing anything if `--out` is omitted (its default-name line, a
-  `$([ … ] && echo …)` substitution, returns 1 under `set -e`). Always pass `--out FILE`. Not fixed:
-  `encode.sh` is on the leave-alone list.
+- `encode.sh` without `--out` writes `out/<mode>[_vertical][_capped].mp4` and has no aspect in the name,
+  so a 16:9 encode without `--out` overwrites the 9:16 `out/final1080.mp4`. Pass `--out` for 16:9.
+  (The silent exit-1 when `--out` was omitted is fixed: the name suffix is now a helper, not a
+  `$([ … ] && echo …)` substitution, which returns 1 under `set -e`.)
 - s04's "×" in "≈20,000×" is a small glyph in Anton (its design); it reads, but it is the faintest
   character on screen.
 - s04's source line is `sizes.small` (21 px in 9:16): legible on a phone, but the smallest type in the video.
