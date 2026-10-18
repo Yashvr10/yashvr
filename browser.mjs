@@ -15,7 +15,7 @@ export function serve(port = 8080) {
       const body = await readFile(join(process.cwd(), path));
       res.writeHead(200, { 'Content-Type': TYPES[extname(path)] || 'application/octet-stream' });
       res.end(body);
-    } catch { res.writeHead(404); res.end(); }
+    } catch { res.writeHead(404, { 'Content-Type': 'text/plain' }); res.end('not found'); }
   }).listen(port);
 }
 

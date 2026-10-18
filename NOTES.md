@@ -13,11 +13,13 @@
 
 Each `scenes/sNN_*.js` exports `start`, `dur`, `draw(ctx, t, dur)` (t local to the scene) and an
 optional async `load()`. Register them in `scenes/index.js`. Design values live in `tokens.js`.
+Shared drawing: `engine/backdrop.js` (background) and `engine/type.js` (kinetic type moves).
 
 # Commands
 
 - `node render.mjs` writes frames/, then encode with ffmpeg (see README).
 - `node still.mjs 0.4 1.2` writes qa/t0.40.png, qa/t1.20.png, ...
+- `node sheet.mjs` renders s02 stills at the middle of each entrance, hold and exit, then tiles them into qa/type_sheet.png.
 - `node test-determinism.mjs` checks the contract.
 
 Fonts: Inter Tight, Inter and JetBrains Mono, under the SIL OFL (licenses in fonts/).

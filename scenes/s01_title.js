@@ -1,6 +1,6 @@
 import { win, lerp, outExpo, inOutQuint } from '../engine/ease.js';
-import { hash } from '../engine/rng.js';
-import { W, H, FPS, colors, fonts, sizes, tracking, safe } from '../tokens.js';
+import { backdrop, loadBackdrop } from '../engine/backdrop.js';
+import { W, H, colors, fonts, sizes, tracking, safe } from '../tokens.js';
 
 export const start = 0;
 export const dur = 5;
@@ -15,48 +15,12 @@ const STAGGER = 0.09, ENTER = 0.3, WORD_DUR = 0.8, EXIT = 0.5, PUSH = 1.03;
 // Safe box in scene space, inset so the camera push ends exactly on the safe margins.
 const SX = W / 2 - (W / 2 - safe.x) / PUSH, SY = H / 2 - (H / 2 - safe.y) / PUSH;
 
-// Grain tile, built once at load from the stateless hash. The word layer is scratch space,
-// cleared before every use, so it never carries anything between calls.
-let grain, layer, lctx;
+// The word layer is scratch space, cleared before every use, so it carries nothing between calls.
+let layer, lctx;
 export async function load() {
   layer = new OffscreenCanvas(W, H);
   lctx = layer.getContext('2d');
-  const c = new OffscreenCanvas(256, 256), g = c.getContext('2d'), img = g.createImageData(256, 256);
-  for (let i = 0; i < 256 * 256; i++) {
-    const v = hash(i, 7) * 255;
-    img.data.set([v, v, v, 255], i * 4);
-  }
-  g.putImageData(img, 0, 0);
-  grain = c;
-}
-
-function background(ctx, t) {
-  ctx.fillStyle = colors.bg;
-  ctx.fillRect(0, 0, W, H);
-
-  // Slow drifting light, warm from the accent.
-  const x = W * 0.5 + 260 * Math.sin(t * 0.35), y = H * 0.42 + 90 * Math.cos(t * 0.27);
-  const light = ctx.createRadialGradient(x, y, 0, x, y, 1100);
-  light.addColorStop(0, 'rgba(255,106,61,0.13)');
-  light.addColorStop(0.5, 'rgba(255,106,61,0.04)');
-  light.addColorStop(1, 'rgba(255,106,61,0)');
-  ctx.fillStyle = light;
-  ctx.fillRect(0, 0, W, H);
-
-  const vig = ctx.createRadialGradient(W / 2, H / 2, H * 0.35, W / 2, H / 2, W * 0.75);
-  vig.addColorStop(0, 'rgba(0,0,0,0)');
-  vig.addColorStop(1, 'rgba(0,0,0,0.55)');
-  ctx.fillStyle = vig;
-  ctx.fillRect(0, 0, W, H);
-
-  // Grain: tile offset jumps each frame, chosen by hash of the frame index.
-  const f = Math.round(t * FPS);
-  ctx.globalAlpha = 0.03;
-  ctx.fillStyle = ctx.createPattern(grain, 'repeat');
-  ctx.translate(-hash(f, 11) * 256, -hash(f, 12) * 256);
-  ctx.fillRect(0, 0, W + 256, H + 256);
-  ctx.setTransform(1, 0, 0, 1, 0, 0);
-  ctx.globalAlpha = 1;
+  await loadBackdrop();
 }
 
 // One line if it fits at 85% of hero or more; otherwise greedy wrap to two, shrinking if needed.
@@ -91,9 +55,7 @@ function wrap(ctx, words, size, maxW) {
 export function draw(ctx, t, d = dur) {
   const push = lerp(1, PUSH, t / d);
   ctx.setTransform(push, 0, 0, push, (W * (1 - push)) / 2, (H * (1 - push)) / 2);
-  const cam = ctx.getTransform();
-  background(ctx, t);
-  ctx.setTransform(cam);
+  backdrop(ctx, t);
 
   const out = inOutQuint(win(t, d - EXIT, d));
   ctx.translate(0, -40 * out);
