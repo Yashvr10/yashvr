@@ -6,9 +6,12 @@
 import { mkdir, writeFile } from 'node:fs/promises';
 import { serve, launch, openPage, grab } from './browser.mjs';
 
-const SCENES = ['s01_title', 's02_type_demo', 's03_diagram', 's04_particles', 's05_cards', 's06_ledger'];
 const server = serve();
 const browser = await launch();
+// Every scene registered in timeline.js.
+const probe = await openPage(browser, '');
+const SCENES = await probe.evaluate(async () => Object.keys((await import(`${location.origin}/timeline.js`)).SCENES));
+await probe.close();
 await mkdir('qa/aspects', { recursive: true });
 const report = {};
 for (const aspect of ['16x9', '9x16']) {

@@ -1,11 +1,12 @@
-// node test-particles.mjs [scene] [first] [last] [limit]
+// node test-particles.mjs <scene> [first] [last] [limit]  (the scene must export alphas(t))
 // Evaluates the scene's alphas(t) (every Canvas2D particle, as drawn) for scene frames
 // first..last and reports any particle whose alpha changes by more than limit between
-// consecutive frames. Default: s04_particles, frames 0..180, limit 0.2.
+// consecutive frames. Defaults: frames 0..180, limit 0.2.
 import { serve, launch, openPage } from './browser.mjs';
 
-const [scene = 's04_particles', first = 0, last = 180, limit = 0.2] = process.argv.slice(2)
+const [scene, first = 0, last = 180, limit = 0.2] = process.argv.slice(2)
   .map((a, i) => (i ? Number(a) : a));
+if (!scene) { console.error('usage: node test-particles.mjs <scene> [first] [last] [limit]'); process.exit(2); }
 
 const server = serve();
 const browser = await launch();

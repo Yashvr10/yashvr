@@ -1,4 +1,4 @@
-// node test-determinism.mjs [frames...] [--scene s04_particles]
+// node test-determinism.mjs [frames...] [--scene s01_hook]
 // Each frame is rendered alone in a fresh page, then again by one page that renders every frame
 // from 0 up to the last target in order; the SHA-256 hashes must match. With --scene, that
 // scene plays alone (?solo=) and frames count from its local time 0. Default: frame 150 of

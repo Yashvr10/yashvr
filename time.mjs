@@ -3,7 +3,7 @@
 // renderFrame, so it never reads the clock.
 import { serve, launch, openPage } from './browser.mjs';
 
-const [scene = 's05_cards', every = 1] = process.argv.slice(2).map((a, i) => (i ? Number(a) : a));
+const [scene = 's01_hook', every = 1] = process.argv.slice(2).map((a, i) => (i ? Number(a) : a));
 const server = serve();
 const browser = await launch();
 const page = await openPage(browser, `solo=${scene}`);

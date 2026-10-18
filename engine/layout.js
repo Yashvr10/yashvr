@@ -9,6 +9,8 @@ export const L = {
   left, right, top, bottom, width: right - left, height: bottom - top,
   // Where text may start: the safe top, or in 9:16 the caption band's top (15% H = 288) if lower.
   textTop: Math.max(top, captionBand?.y ?? 0),
+  // Where text must end: the safe bottom, or in 9:16 the caption band's bottom (70% H) if higher.
+  textBottom: Math.min(bottom, captionBand ? captionBand.y + captionBand.h : bottom),
   // True when the frame is taller than wide.
   stack: H > W,
   // Centre of the safe band (in 16:9 the frame centre; in 9:16 above it, clear of the bottom UI).

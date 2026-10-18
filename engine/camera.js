@@ -43,3 +43,10 @@ export function punch(t, tb, amt = motion.impact) {
 
 // The same camera for engine/particles.js, which projects each particle at its own depth.
 export const particleCam = (cam) => ({ dx: cam.x, dy: cam.y, z: cam.s - 1 });
+
+// Where to draw a point so that defaultPush's full push and drift never carry it past (x, y):
+// for text anchored on a safe edge. Points at the centre stay put.
+export const inPush = (x, y) => [
+  W / 2 + (x - W / 2 - Math.sign(x - W / 2) * DRIFT.x) / (1 + PUSH),
+  H / 2 + (y - H / 2 - Math.sign(y - H / 2) * DRIFT.y) / (1 + PUSH),
+];

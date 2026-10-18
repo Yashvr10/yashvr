@@ -11,15 +11,14 @@
 #
 # Options: --capped (cap any mode at 12 Mb/s), --vertical (centred 9:16 crop: 1080×1920 for the 1080
 # modes, 2160×3840 for the 2160 ones), --solo <scene id> (FPS and frame count from that scene alone),
-# --aspect 9x16 (frames rendered natively vertical with `render.mjs --aspect 9x16`: every size
-# above turns portrait, 1080×1920 or 2160×3840, no crop; FPS and frame count come from the vertical
-# edit), --edit full|short, --in PATH, --out FILE. Every mode uses libx264 -pix_fmt yuv420p -movflags +faststart.
+# --aspect 9x16|16x9 (default 9x16, the page's default: every size above is portrait, 1080×1920 or
+# 2160×3840, no crop; pass --aspect 16x9 for frames rendered with `render.mjs --aspect 16x9`), --edit full|short, --in PATH, --out FILE. Every mode uses libx264 -pix_fmt yuv420p -movflags +faststart.
 # Frames come from `node render.mjs video` (1×) or `node render.mjs video --ss 2 --out frames_ss2` (2×).
 set -euo pipefail
 cd "$(dirname "$0")"
 
 mode="${1:-}"; shift || true
-IN=""; OUT=""; CAPPED=0; VERTICAL=0; SOLO=""; ASPECT=16x9; EDIT=""
+IN=""; OUT=""; CAPPED=0; VERTICAL=0; SOLO=""; ASPECT=9x16; EDIT=""  # 9:16 is the page default (tokens.js)
 while [ $# -gt 0 ]; do
   case "$1" in
     --in) IN="$2"; shift 2 ;;

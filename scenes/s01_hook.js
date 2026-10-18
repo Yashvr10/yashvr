@@ -14,7 +14,7 @@
 import { win, outExpo, outBack, outCubic } from '../engine/ease.js';
 import { riseIn, fade, base, fontOf } from '../engine/type.js';
 import { lines, windows } from '../engine/copy.js';
-import { withCamera, defaultPush, layerScale, punch, Z } from '../engine/camera.js';
+import { withCamera, defaultPush, layerScale, punch, inPush, Z } from '../engine/camera.js';
 import { field, cutout, rect, tape, qrTile, underline, marker } from '../engine/collage.js';
 import { burst } from '../engine/particles.js';
 import { measure } from '../engine/draw.js';
@@ -55,12 +55,17 @@ const TILE = collage.tile.size, CAP = { label: sizes.label * 0.734, number: size
 const LINE_H = sizes.h1 * 1.05, GAP = { tile: 90, label: 40, number: 64 };
 
 // Where everything sits, measured once per frame from the copy (pure: depends only on fonts).
+// The number shrinks to fit its column if it must (16:9's half-width column); 9:16 never needs it.
 function layout(ctx) {
+  // Column width as it will stand after the full push (inPush): the number must fit that.
+  const colW = (L.stack ? L.width : L.width / 2) - 2 * (L.right - inPush(L.right, 0)[0]);
   ctx.save();
   ctx.font = fontOf(base(STYLE.rest));
-  const rows = rowsOf(ctx, REST, L.stack ? L.width : L.width / 2);
+  const rows = rowsOf(ctx, REST, colW);
+  ctx.font = fontOf(base(STYLE.number));
+  const numberSize = Math.min(sizes.giant, Math.floor((sizes.giant * colW) / ctx.measureText(NUMBER).width));
   ctx.restore();
-  const text = [CAP.label, CAP.number, CAP.rest + (rows.length - 1) * LINE_H];
+  const cap = numberSize * 0.859, text = [CAP.label, cap, CAP.rest + (rows.length - 1) * LINE_H];
   // 9:16: tile, label, number, rest in one centred column. 16:9: the tile in the left column,
   // the type stacked in the right one.
   const tops = L.stack
@@ -71,10 +76,11 @@ function layout(ctx) {
   return {
     tile: { x: L.stack ? L.cx() : L.col(0, 2), y: tileTop + TILE / 2 },
     x,
+    numberSize,
     label: labelTop + CAP.label,
-    number: numberTop + CAP.number,
+    number: numberTop + cap,
     rows: rows.map((text, k) => ({ text, y: baselines(rows.length, 0, LINE_H)[k] + restTop + CAP.rest + ((rows.length - 1) * LINE_H) / 2 })),
-    underlineY: numberTop + CAP.number + GAP.number * 0.45,
+    underlineY: numberTop + cap + GAP.number * 0.45,
   };
 }
 
@@ -82,8 +88,8 @@ const SQUARE = rect(TILE, TILE);
 let rule; // the marker underline, in layout px (built once: measure() caches its length)
 export async function load() {
   const ctx = new OffscreenCanvas(1, 1).getContext('2d');
-  const { x, underlineY } = layout(ctx);
-  ctx.font = fontOf(base(STYLE.number));
+  const { x, underlineY, numberSize } = layout(ctx);
+  ctx.font = fontOf(base({ ...STYLE.number, size: numberSize }));
   const w = ctx.measureText(NUMBER).width;
   rule = underline(x - w / 2 - 10, x + w / 2 + 10, underlineY, { seed: 3 });
   measure(rule);
@@ -112,7 +118,7 @@ function content(ctx, t) {
   }
 
   riseIn(ctx, t - LABEL_IN, { ...STYLE.label, text: LABEL, x: P.x, y: P.label });
-  riseIn(ctx, t - NUMBER_IN, { ...STYLE.number, text: NUMBER, x: P.x, y: P.number });
+  riseIn(ctx, t - NUMBER_IN, { ...STYLE.number, size: P.numberSize, text: NUMBER, x: P.x, y: P.number });
   for (const r of P.rows) riseIn(ctx, t - REST_IN, { ...STYLE.rest, text: r.text, label: REST, x: P.x, y: r.y });
   marker(ctx, rule, outCubic(win(t, ...UNDERLINE)));
 }
