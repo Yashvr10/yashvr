@@ -74,7 +74,14 @@ The rim light sits on the right edge only, drawn over the outline.
 
 # Commands
 
-- `node render.mjs` writes frames/, then encode with ffmpeg (see README).
+- `node render.mjs video [from] [to]` writes frames/f%05d.png (resumable: existing frames are skipped,
+  each is written as .tmp then renamed). `--workers N` splits the range across child processes,
+  `--batch N` (default 60) relaunches Chrome every N frames, `--out DIR` changes the folder.
+  A frame slower than 8× the running median is retried; 5+ identical frame sizes in a row warn;
+  any page error or console error exits non-zero.
+- `node render.mjs stills 0.5,2,4.25` writes qa/still_<t>.png.
+- `node render.mjs preview --every 3` writes JPEGs to frames_preview/ and out/preview.mp4 at 10 fps.
+- `node render.mjs pipe out/draft.mp4 [from] [to]` streams PNGs straight into ffmpeg (no frames on disk).
 - `node still.mjs 0.4 1.2` writes qa/t0.40.png, qa/t1.20.png, ...
 - `node sheet.mjs` renders s02 stills at the middle of each entrance, hold and exit, then tiles them into qa/type_sheet.png.
 - `node ab.mjs 1 3` renders post off/on pairs into qa/post_ab.png.

@@ -3,3 +3,5 @@ frames/*.png
 out/*.mp4
 qa/*.png
 ref/
+frames_preview/
+frames_test/
