@@ -2,3 +2,4 @@ node_modules/
 frames/*.png
 out/*.mp4
 qa/*.png
+ref/
