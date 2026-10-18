@@ -184,8 +184,3 @@ frames (they reset every frame); nothing in this video needs to.
 - `node demo.mjs` → qa/demo_*.png and the 300-line check on engine/.
 - Page flags: `?solo=ID`, `?demo=NAME`, `?aspect=16x9`, `?ss=2`, `?check`, `?guides`, `?nopost`, `?render`.
 - `PORT=8091 node …` runs a tool on another port so two can run at once.
-EOF
-wc -l NOTES.md scenes/*.js; git add -A && git commit -q -m "Phase 7: NOTES.md handoff, STYLE.md for the Mixed Media look, FROZEN headers, compare.mjs
-
-Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>
-Claude-Session: https://claude.ai/code/session_01829LPFMNJz7qZ6h3cDZL17" && git push -q -u origin HEAD 2>&1 | tail -2; git log --oneline -1
