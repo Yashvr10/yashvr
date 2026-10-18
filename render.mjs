@@ -5,10 +5,12 @@
 //   node render.mjs preview --every 3        every 3rd frame as JPEG 0.9 → frames_preview/,
 //                                            then out/preview.mp4 at 10 fps
 //   node render.mjs pipe out/draft.mp4 [from] [to]   PNGs straight into ffmpeg
+//   node render.mjs info                     prints { FPS, DURATION, frames, width, height } as JSON
 //
 // Options: --batch N (relaunch the browser every N frames, default 60), --workers N (split a
 // video range across N child processes), --every N (preview stride), --out DIR (frame folder
-// for video, default frames). CHROME_PATH picks the browser binary.
+// for video, default frames), --ss N (supersample: frames are 1920N × 1080N), --solo <scene id>
+// (that scene alone, from 0). CHROME_PATH picks the browser binary.
 //
 // Frames are captured with canvas.toDataURL after `await window.renderFrame(i / FPS)`, so the
 // resolution is the canvas's. Any page error or console error exits non-zero. A watchdog kills
@@ -34,6 +36,8 @@ for (let i = 0; i < argv.length; i++) {
 const mode = pos.shift();
 const BATCH = Number(flags.batch ?? 60), WORKERS = Number(flags.workers ?? 1), EVERY = Number(flags.every ?? 3);
 const OUT = resolve(ROOT, flags.out ?? 'frames');
+const SS = Number(flags.ss ?? 1);
+const QUERY = `render&ss=${SS}${flags.solo ? `&solo=${encodeURIComponent(flags.solo)}` : ''}`;
 const TAG = flags.worker ? `[w${flags.worker}] ` : '';
 const log = (...a) => console.log(TAG + a.join(' '));
 const warn = (...a) => console.warn(`${TAG}WARN ${a.join(' ')}`);
@@ -86,9 +90,10 @@ async function openSession(port) {
   page.on('pageerror', (e) => reject(new Fatal(`page error: ${e.message}`)));
   page.on('console', (m) => { if (m.type() === 'error') reject(new Fatal(`console error: ${m.text()}`)); });
   await page.setViewport({ width: 1920, height: 1080, deviceScaleFactor: 1 });
-  await page.goto(`http://127.0.0.1:${port}/index.html?render`);
+  await page.goto(`http://127.0.0.1:${port}/index.html?${QUERY}`);
   await Promise.race([page.waitForFunction('window.READY === true', { timeout: 180000 }), failed]);
-  const info = await page.evaluate(() => ({ FPS: window.FPS, DURATION: window.DURATION }));
+  const info = await page.evaluate(() => ({ FPS: window.FPS, DURATION: window.DURATION, SS: window.SS }));
+  if (info.SS !== SS) throw new Fatal(`page ran at ss=${info.SS}, asked for ${SS}`);
   return { browser, page, failed, ...info };
 }
 const closeSession = async (s) => { try { await s?.browser.close(); } catch { s?.browser.process()?.kill('SIGKILL'); } };
@@ -191,7 +196,7 @@ async function video(port) {
     const n = to - from, size = Math.ceil(n / WORKERS), kids = [];
     for (let w = 0; w < WORKERS && from + w * size < to; w++) {
       const a = from + w * size, b = Math.min(to, a + size);
-      const args = [SELF, 'video', a, b, '--batch', BATCH, '--out', OUT, '--worker', w + 1].map(String);
+      const args = [SELF, 'video', a, b, '--batch', BATCH, '--out', OUT, '--ss', SS, '--worker', w + 1, ...(flags.solo ? ['--solo', flags.solo] : [])].map(String);
       kids.push(new Promise((ok) => spawn(process.execPath, args, { stdio: 'inherit' }).on('exit', ok)));
     }
     const codes = await Promise.all(kids);
@@ -216,9 +221,9 @@ async function stills(port) {
   const s = await openSession(port);
   try {
     for (const t of ts) {
-      const file = join(ROOT, 'qa', `still_${t}.png`);
-      await writeAtomic(file, await capture(s, Number(t)));
-      log(`qa/still_${t}.png`);
+      const name = `still_${t}${SS > 1 ? `_ss${SS}` : ''}.png`;
+      await writeAtomic(join(ROOT, 'qa', name), await capture(s, Number(t)));
+      log(`qa/${name}`);
     }
   } finally { await closeSession(s); }
 }
@@ -267,8 +272,17 @@ async function pipe(port) {
 }
 
 // ---------- main ----------
-const modes = { video, stills, preview, pipe };
-if (!modes[mode]) die('usage: node render.mjs video [from] [to] | stills t1,t2 | preview [--every N] | pipe out.mp4 [from] [to]  [--batch N] [--workers N] [--out DIR]');
+// Prints what encode.sh and verify.mjs need, read from the page rather than assumed.
+async function info(port) {
+  const s = await openSession(port);
+  try {
+    const [width, height] = await s.page.evaluate(() => [document.getElementById('c').width, document.getElementById('c').height]);
+    console.log(JSON.stringify({ FPS: s.FPS, DURATION: s.DURATION, frames: Math.round(s.DURATION * s.FPS), width, height, SS: s.SS }));
+  } finally { await closeSession(s); }
+}
+
+const modes = { video, stills, preview, pipe, info };
+if (!modes[mode]) die('usage: node render.mjs video [from] [to] | stills t1,t2 | preview [--every N] | pipe out.mp4 [from] [to] | info  [--batch N] [--workers N] [--out DIR] [--ss N] [--solo ID]');
 const { server, port } = await startServer();
 try {
   await modes[mode](port);

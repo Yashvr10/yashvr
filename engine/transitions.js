@@ -1,28 +1,28 @@
 // Transitions between two scenes. Each is fn(ctx, t, drawA, drawB, t0, dur, opts): t is global
 // time, the window is [t0, t0 + dur], and drawA(c) / drawB(c) draw each scene at its own local
 // time for this t. fn.dur is the default length; fn.anchor is where the cut sits in the window
-// (0.5 = middle, 0 = the window starts on the cut). Transitions draw at identity; scenes apply
+// (0.5 = middle, 0 = the window starts on the cut). Transitions draw at layout identity (unit()); scenes apply
 // their own cameras. A transition may set POST values (ca, radial) for its frames.
 import { win, lerp, inOutQuint } from './ease.js';
 import { hash } from './rng.js';
-import { layer } from './layer.js';
-import { W, H, FPS, colors, stroke } from '../tokens.js';
+import { layer, unit } from './layer.js';
+import { W, H, SS, FPS, colors, stroke } from '../tokens.js';
 
 // Draws a scene into scratch layer k at identity and returns that layer.
 function render(k, ctx, draw) {
   const l = layer(k, ctx);
-  l.setTransform(1, 0, 0, 1, 0, 0);
+  unit(l);
   draw(l);
   return l;
 }
 function put(ctx, src, { x = 0, y = 0, s = 1, alpha = 1, op = 'source-over' } = {}) {
   ctx.save();
-  ctx.setTransform(1, 0, 0, 1, 0, 0);
+  unit(ctx);
   ctx.globalAlpha = alpha;
   ctx.globalCompositeOperation = op;
   ctx.translate(W / 2 + x, H / 2 + y);
   ctx.scale(s, s);
-  ctx.drawImage(src.canvas, -W / 2, -H / 2);
+  ctx.drawImage(src.canvas, -W / 2, -H / 2, W, H);
   ctx.restore();
 }
 const post = () => globalThis.POST;
@@ -36,10 +36,10 @@ function smear(ctx, src, spread, tmp1, tmp2) {
     for (let k = 0; k < 8; k++) put(dst, from, { x: (span * k) / 7, alpha: 1 / 8, op: 'lighter' });
   };
   const mid = layer(tmp1, ctx);
-  mid.setTransform(1, 0, 0, 1, 0, 0);
+  unit(mid);
   taps(mid, src, spread / 8);
   const out = layer(tmp2, ctx);
-  out.setTransform(1, 0, 0, 1, 0, 0);
+  unit(out);
   taps(out, mid, (spread * 7) / 8);
   put(ctx, out);
 }
@@ -50,7 +50,7 @@ export function whip(ctx, t, drawA, drawB, t0, dur = whip.dur) {
   const x = travel(t), moved = x - travel(t - 1 / FPS);
   const a = render(4, ctx, drawA), b = render(5, ctx, drawB);
   const frame = layer(6, ctx);
-  frame.setTransform(1, 0, 0, 1, 0, 0);
+  unit(frame);
   put(frame, a, { x: -x });
   put(frame, b, { x: W - x });
   // Content moves left by `moved`, so its trail lies to the right. A's layer is free again.
@@ -90,10 +90,10 @@ export function glitch(ctx, t, drawA, drawB) {
   const f = Math.round(t * FPS), a = render(4, ctx, drawA), b = render(5, ctx, drawB);
   if (post()) post().ca = 6;
   ctx.save();
-  ctx.setTransform(1, 0, 0, 1, 0, 0);
+  unit(ctx);
   for (let j = 0, y = 0; y < H; j++) {
     const h = Math.round(12 + 70 * hash(j, 31 * f)), dx = Math.round((hash(j, 31 * f + 1) * 2 - 1) * 40);
-    ctx.drawImage((j % 2 ? b : a).canvas, 0, y, W, h, dx, y, W, h);
+    ctx.drawImage((j % 2 ? b : a).canvas, 0, y * SS, W * SS, h * SS, dx, y, W, h);
     y += h;
   }
   ctx.restore();
@@ -106,7 +106,7 @@ export function dip(ctx, t, drawA, drawB, t0, dur = dip.dur, { color = '#000' } 
   const u = win(t, t0, t0 + dur);
   (u < 0.5 ? drawA : drawB)(ctx);
   ctx.save();
-  ctx.setTransform(1, 0, 0, 1, 0, 0);
+  unit(ctx);
   ctx.globalAlpha = u < 0.5 ? u * 2 : (1 - u) * 2;
   ctx.fillStyle = color;
   ctx.fillRect(0, 0, W, H);
@@ -123,7 +123,7 @@ export function matchCut(ctx, t, drawA, drawB, t0, dur = matchCut.dur, { from, t
   (u < 0.5 ? drawA : drawB)(ctx);
   const s = Object.fromEntries(['x', 'y', 'w', 'h', 'r'].map((k) => [k, lerp(from[k], to[k], e)]));
   ctx.save();
-  ctx.setTransform(1, 0, 0, 1, 0, 0);
+  unit(ctx);
   ctx.globalAlpha = Math.min(1, u / 0.2, (1 - u) / 0.2);
   ctx.strokeStyle = color;
   ctx.lineWidth = stroke.outline;
@@ -139,7 +139,7 @@ matchCut.anchor = 0.5;
 export function flash(ctx, t, drawA, drawB, t0, dur = flash.dur, { color = colors.accent, alpha = 0.6 } = {}) {
   drawB(ctx);
   ctx.save();
-  ctx.setTransform(1, 0, 0, 1, 0, 0);
+  unit(ctx);
   ctx.globalAlpha = alpha;
   ctx.fillStyle = color;
   ctx.fillRect(0, 0, W, H);

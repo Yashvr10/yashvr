@@ -2,8 +2,8 @@
 // once at load and path lengths are cached by measure().
 import { clamp01 } from './ease.js';
 import { hash } from './rng.js';
-import { layer, blit } from './layer.js';
-import { W, H, FPS, colors, stroke, shadowAlpha } from '../tokens.js';
+import { layer, blit, unit } from './layer.js';
+import { W, H, SS, FPS, colors, stroke, shadowAlpha } from '../tokens.js';
 
 // Lighting model: one key light at the top left. Lightness shifts for the lit and shaded ends
 // of a fill, and the strength of the rim light on the far edge.
@@ -65,6 +65,7 @@ export function grain(ctx, t) {
   l.globalCompositeOperation = 'overlay';
   l.globalAlpha = 0.08;
   l.fillStyle = l.createPattern(tile, 'repeat');
+  unit(l); // grain cells are layout px, so SS× device px
   l.translate(-hash(f, 31) * 512, -hash(f, 32) * 512);
   l.fillRect(0, 0, W + 512, H + 512);
   l.setTransform(1, 0, 0, 1, 0, 0);
@@ -104,7 +105,7 @@ export function boilPath(ctx, pts, t, { amp = 1.5, fps = 8, seed = 0, width = st
 // Soft ellipse under an object of width w standing at (x, y).
 export function contactShadow(ctx, x, y, w) {
   ctx.save();
-  ctx.filter = `blur(${w * 0.04}px)`;
+  ctx.filter = `blur(${w * 0.04 * SS}px)`;
   ctx.globalAlpha = shadowAlpha;
   ctx.fillStyle = '#000';
   ctx.beginPath();
@@ -180,7 +181,7 @@ export function pulseAlong(ctx, pts, p, { color = colors.accent, r = 7, gap = 12
   if (head >= 0 && head <= L) {
     const [x, y] = pointAt(pts, head);
     ctx.globalAlpha = 0.35;
-    ctx.filter = `blur(${r}px)`;
+    ctx.filter = `blur(${r * SS}px)`;
     ctx.beginPath();
     ctx.arc(x, y, r * 2.4, 0, Math.PI * 2);
     ctx.fill();

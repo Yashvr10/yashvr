@@ -18,13 +18,14 @@ html,body{margin:0;background:#eae9e9}canvas{display:block}
 <body>
 <canvas id="c" width="1920" height="1080"></canvas>
 <script type="module">
-import { W, H, FPS, fontLoads, safe16x9, safe9x16 } from './tokens.js';
+import { W, H, SS, FPS, fontLoads, safe16x9, safe9x16 } from './tokens.js';
 import { resetBoxes, checkContrast, duckAt, DUCK } from './engine/copy.js';
 import { main, solo } from './timeline.js';
 import { createPost, POST_DEFAULTS } from './engine/post.js';
 
 // Scenes draw with Canvas2D into this layer; #c is WebGL2 and composites it over the background.
-const layer = new OffscreenCanvas(W, H);
+// With ?ss=N both are W*N × H*N; ctx starts every frame scaled by N, so scenes lay out in W × H.
+const layer = new OffscreenCanvas(W * SS, H * SS);
 const ctx = layer.getContext('2d');
 const params = new URLSearchParams(location.search);
 const postOn = !params.has('nopost');
@@ -45,6 +46,7 @@ window.renderFrame = (t) => {
   Object.assign(window.POST, POST_DEFAULTS);
   resetBoxes();
   ctx.reset();
+  ctx.setTransform(SS, 0, 0, SS, 0, 0);
   const { entry, tr, primary: p } = timeline.resolve(t);
   if (tr) tr.tr(ctx, t, timeline.drawer(tr.A, t), timeline.drawer(tr.B, t), tr.t0, tr.dur, tr.opts);
   else timeline.drawer(entry, t)(ctx);
@@ -58,14 +60,19 @@ window.renderFrame = (t) => {
 };
 window.DURATION = timeline.DURATION;
 window.FPS = FPS;
+window.SS = SS;
 
 for (const f of fontLoads) {
   if (!(await document.fonts.load(f)).length) throw new Error(`font did not load: ${f}`);
 }
 await document.fonts.ready;
 await Promise.all([...new Set(timeline.scenes.map((e) => e.mod))].map((m) => m.load?.()));
-post = await createPost(document.getElementById('c'));
-const gl2 = document.getElementById('c').getContext('webgl2'); // the same context post uses
+const canvas = document.getElementById('c');
+canvas.width = W * SS;
+canvas.height = H * SS;
+canvas.style.width = `${W}px`;
+post = await createPost(canvas);
+const gl2 = canvas.getContext('webgl2'); // the same context post uses
 window.CAPTIONS = timeline.captions;
 window.READY = true;
 

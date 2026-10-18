@@ -7,7 +7,7 @@ import { clamp01, lerp } from './ease.js';
 import { hash } from './rng.js';
 import { layer } from './layer.js';
 import { program, setUniforms, linearRGB } from './gl.js';
-import { W, H, colors } from '../tokens.js';
+import { W, H, SS, colors } from '../tokens.js';
 
 const TAU = Math.PI * 2;
 const smooth = (a, b, x) => {
@@ -67,7 +67,7 @@ export function motes(ctx, t, opts = {}) {
   ctx.save();
   ctx.setTransform(1, 0, 0, 1, 0, 0);
   ctx.globalAlpha = 1;
-  ctx.filter = 'blur(2.5px)';
+  ctx.filter = `blur(${2.5 * SS}px)`;
   ctx.drawImage(far.canvas, 0, 0);
   ctx.restore();
   for (const m of near) dot(ctx, m);
@@ -214,7 +214,7 @@ export function glParticles(gl, t, opts = {}) {
   const o = { n: 40000, size: 3, alpha: 0.35, color: colors.ink, cam: {}, density: 1, ...opts };
   if (!glProgs.has(gl)) glProgs.set(gl, program(gl, GL_FRAG, 'glParticles', GL_VERT));
   setUniforms(gl, glProgs.get(gl), {
-    uTime: t, uSize: o.size, uAlpha: o.alpha, uDensity: o.density, uRes: [W, H], uColor: linearRGB(o.color),
+    uTime: t, uSize: o.size * SS, uAlpha: o.alpha, uDensity: o.density, uRes: [W, H], uColor: linearRGB(o.color),
     uCam: [o.cam.dx ?? 0, o.cam.dy ?? 0, o.cam.z ?? 0],
   });
   gl.enable(gl.BLEND);

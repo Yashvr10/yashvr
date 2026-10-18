@@ -5,3 +5,7 @@ qa/*.png
 ref/
 frames_preview/
 frames_test/
+frames_ss2/
+frames_s01/
+frames_s01_ss2/
+qa/ss/

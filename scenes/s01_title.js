@@ -1,7 +1,7 @@
 import { win, outExpo, inOutQuint } from '../engine/ease.js';
 import { withCamera, defaultPush, layerScale, Z, PUSH, DRIFT } from '../engine/camera.js';
 import { lines, windows, registerText } from '../engine/copy.js';
-import { W, H, colors, fonts, sizes, tracking, safe } from '../tokens.js';
+import { W, H, SS, colors, fonts, sizes, tracking, safe } from '../tokens.js';
 
 // Copy: [headline, slate label].
 const [HEADLINE, LABEL] = lines('s01_title');
@@ -23,8 +23,9 @@ const SX = W / 2 - (W / 2 - safe.x - DRIFT.x) / (1 + PUSH), SY = H / 2 - (H / 2 
 // The word layer is scratch space, cleared before every use, so it carries nothing between calls.
 let layer, lctx;
 export async function load() {
-  layer = new OffscreenCanvas(W, H);
+  layer = new OffscreenCanvas(W * SS, H * SS);
   lctx = layer.getContext('2d');
+  lctx.setTransform(SS, 0, 0, SS, 0, 0);
 }
 
 // One line if it fits at 85% of hero or more; otherwise greedy wrap to two, shrinking if needed.
@@ -92,9 +93,9 @@ function content(ctx, t, d) {
     lctx.fillStyle = colors.ink; // captions are ink (contrast ≥ 7:1 on paper)
     lctx.fillText(p.w, SX + p.x, top + p.line * lineH + size * 0.8);
     const blur = 12 * (1 - u);
-    ctx.filter = blur > 0.05 ? `blur(${blur}px)` : 'none';
+    ctx.filter = blur > 0.05 ? `blur(${blur * SS}px)` : 'none';
     ctx.globalAlpha = fade * u;
-    ctx.drawImage(layer, 0, 60 * (1 - u));
+    ctx.drawImage(layer, 0, 60 * (1 - u), W, H);
   }
   ctx.filter = 'none';
   ctx.globalAlpha = 1;

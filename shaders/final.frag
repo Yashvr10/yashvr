@@ -8,6 +8,7 @@ out vec4 o;
 uniform sampler2D uScene, uBloomTex;
 uniform vec2 uRes;
 uniform float uBloom, uExposure, uCA, uVig, uGrain, uRadial;
+uniform float uGrainCell; // grain cell size in px: SS, so grain survives the downscale at its 1× size
 uniform float uTone, uCurve, uWarm; // 0..1: how much of ACES, the S-curve and the warm/cool tint
 uniform int uFrame;
 uniform int uOne; // always 1: a runtime loop bound
@@ -70,7 +71,7 @@ void main() {
   c *= 1.0 - uVig * smoothstep(0.35, 1.05, length(p));
 
   // Grain, strongest in the mid-tones, re-seeded every frame.
-  uvec2 q = uvec2(gl_FragCoord.xy);
+  uvec2 q = uvec2(gl_FragCoord.xy / uGrainCell);
   float n = float(pcg(q.x + pcg(q.y + pcg(uint(uFrame))))) / 4294967295.0 - 0.5;
   float l = dot(c, vec3(0.2126, 0.7152, 0.0722));
   c += n * uGrain * (0.35 + 0.65 * 4.0 * l * (1.0 - l));

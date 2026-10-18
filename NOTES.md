@@ -9,6 +9,16 @@
   then `document.fonts.ready`, then each scene's `load()`.
 - The preview loop runs only when the URL has no `?render`.
 
+# Supersampling
+
+`?ss=N` (render.mjs `--ss N`) sizes #c, the 2D layer, the scratch layers and the three.js canvas at
+W·N × H·N. renderFrame starts the 2D context at setTransform(N, 0, 0, N, 0, 0), so scenes still lay out
+in 1920×1080 units; `unit(ctx)` (engine/layer.js) resets to that layout identity, and only code that
+copies whole layers uses the true identity. Canvas2D `filter` blur and `shadowBlur` ignore the
+transform, so every blur radius is × SS. In GL: uRes is in real px, and the fibre cell, grain cell, CA
+offset, first bloom tap spacing and particle point size are × SS. Text boxes stay in layout px.
+At ss=1 frames are pixel-identical to before.
+
 # Frame pipeline
 
 Scenes draw with Canvas2D into an offscreen layer. `engine/post.js` then, on the WebGL2 canvas #c:
@@ -82,6 +92,11 @@ The rim light sits on the right edge only, drawn over the outline.
 - `node render.mjs stills 0.5,2,4.25` writes qa/still_<t>.png.
 - `node render.mjs preview --every 3` writes JPEGs to frames_preview/ and out/preview.mp4 at 10 fps.
 - `node render.mjs pipe out/draft.mp4 [from] [to]` streams PNGs straight into ffmpeg (no frames on disk).
+- `node render.mjs info [--solo ID] [--ss N]` prints the page's FPS, DURATION, frame count and canvas size.
+- `./encode.sh <draft|final1080|final1080ss|final2160|upscale2160|capped|addsilence> [--vertical] [--capped]
+  [--solo ID] [--in PATH] [--out FILE]` encodes frames/ (1×) or frames_ss2/ (2×) and runs verify.mjs.
+  upscale2160 adds no detail; vertical takes the centred 9:16 crop (from 1× frames that is an upscale).
+- `node verify.mjs out/x.mp4 [--size WxH] [--solo ID]` asserts size, fps and nb_frames == round(DURATION × FPS).
 - `node still.mjs 0.4 1.2` writes qa/t0.40.png, qa/t1.20.png, ...
 - `node sheet.mjs` renders s02 stills at the middle of each entrance, hold and exit, then tiles them into qa/type_sheet.png.
 - `node ab.mjs 1 3` renders post off/on pairs into qa/post_ab.png.

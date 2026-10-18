@@ -6,7 +6,7 @@ import { win, outExpo, outCubic, inOutQuint } from './ease.js';
 import { hash } from './rng.js';
 import { layer, blit } from './layer.js';
 import { registerText } from './textboxes.js';
-import { W, H, FPS, colors, fonts, sizes, tracking } from '../tokens.js';
+import { W, H, SS, FPS, colors, fonts, sizes, tracking } from '../tokens.js';
 
 const base = (o) => ({
   family: 'display', weight: 700, size: sizes.hero, track: tracking.display,
@@ -68,7 +68,7 @@ export function riseIn(ctx, t, opts) {
     const u = outExpo(win(t, g.i * o.stagger, g.i * o.stagger + o.dur));
     if (u <= 0 || g.ch === ' ') continue;
     ctx.globalAlpha = u;
-    ctx.filter = u < 0.995 ? `blur(${o.blur * (1 - u)}px)` : 'none';
+    ctx.filter = u < 0.995 ? `blur(${o.blur * (1 - u) * SS}px)` : 'none';
     ctx.fillText(g.ch, g.x, g.y + o.rise * (1 - u));
   }
   ctx.filter = 'none';

@@ -1,9 +1,9 @@
-import { W, H } from '../tokens.js';
+import { W, H, SS } from '../tokens.js';
 
 // Full-frame scratch layers, cleared before every use, so nothing carries between calls.
 // Owners: 0 and 1 for engine/type.js, 2 for engine/draw.js, 3 for engine/particles.js,
 // 4 to 7 for engine/transitions.js (scenes draw into 4 and 5 and may use 0 to 3 meanwhile).
-const scratch = [0, 1, 2, 3, 4, 5, 6, 7].map(() => new OffscreenCanvas(W, H).getContext('2d'));
+const scratch = [0, 1, 2, 3, 4, 5, 6, 7].map(() => new OffscreenCanvas(W * SS, H * SS).getContext('2d'));
 
 // Returns layer k cleared, with ctx's current transform.
 export function layer(k, ctx) {
@@ -12,6 +12,9 @@ export function layer(k, ctx) {
   s.setTransform(ctx.getTransform());
   return s;
 }
+
+// Resets c to layout identity: one unit = one 1920×1080 pixel, whatever SS is.
+export const unit = (c) => c.setTransform(SS, 0, 0, SS, 0, 0);
 
 // Composites a layer onto ctx in device pixels.
 export function blit(ctx, src, alpha, dx = 0, dy = 0) {

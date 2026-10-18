@@ -1,5 +1,8 @@
 export const W = 1920;
 export const H = 1080;
+// Supersampling: ?ss=N renders the backing store at W*N × H*N while layout stays in W × H units.
+// Every constant measured in device pixels (blur radii, grain cells, CA, point sizes) is × SS.
+export const SS = Math.max(1, Math.round(Number(new URLSearchParams(globalThis.location?.search ?? '').get('ss')) || 1));
 // The reference runs at 23.976 fps; we stay at 30 and convert its frame counts to seconds.
 export const FPS = 30;
 const REF_FPS = 24000 / 1001;

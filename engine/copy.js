@@ -5,7 +5,7 @@ import copy from '../copy.json' with { type: 'json' };
 import { win, clamp01 } from './ease.js';
 import { riseIn } from './type.js';
 import { boxes } from './textboxes.js';
-import { W, H, hold, colors, fonts, sizes, tracking } from '../tokens.js';
+import { W, H, SS, hold, colors, fonts, sizes, tracking } from '../tokens.js';
 
 export const lines = (id) => copy[id];
 
@@ -82,7 +82,7 @@ export function caption(ctx, t, text, opts = {}) {
   ctx.restore();
 
   ctx.shadowColor = `rgba(${halo},0.4)`;
-  ctx.shadowBlur = 24;
+  ctx.shadowBlur = 24 * SS; // shadowBlur ignores the transform
   // riseIn registers each line's box itself.
   rows.forEach((r, i) => riseIn(ctx, t - i * o.stagger, { ...o, text: r, y: o.y + i * o.size * o.lineH }));
   ctx.restore();
@@ -93,11 +93,12 @@ export function caption(ctx, t, text, opts = {}) {
 // colour. Logs a warning below `min` (once per text if `seen` is a Set) and returns every result.
 export function checkContrast(gl, min = 7, seen = null) {
   return boxes.map((b) => {
-    const x = Math.max(0, Math.floor(b.x0)), y = Math.max(0, Math.floor(b.y0));
-    const w = Math.min(W, Math.ceil(b.x1)) - x, h = Math.min(H, Math.ceil(b.y1)) - y;
+    // Boxes are in layout px; the frame is SS× that.
+    const x = Math.max(0, Math.floor(b.x0 * SS)), y = Math.max(0, Math.floor(b.y0 * SS));
+    const w = Math.min(W * SS, Math.ceil(b.x1 * SS)) - x, h = Math.min(H * SS, Math.ceil(b.y1 * SS)) - y;
     if (w <= 0 || h <= 0) return { ...b, ratio: null };
     const px = new Uint8Array(w * h * 4);
-    gl.readPixels(x, H - y - h, w, h, gl.RGBA, gl.UNSIGNED_BYTE, px);
+    gl.readPixels(x, H * SS - y - h, w, h, gl.RGBA, gl.UNSIGNED_BYTE, px);
     const lt = relLum(hexRGB(b.color)), ls = [];
     for (let i = 0; i < px.length; i += 4) ls.push(relLum([px[i], px[i + 1], px[i + 2]]));
     ls.sort((p, q) => (lt < 0.5 ? q - p : p - q)); // far side from the text colour first

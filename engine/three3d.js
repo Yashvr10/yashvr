@@ -4,7 +4,7 @@
 import * as THREE from './vendor/three.module.js';
 import { RoomEnvironment } from './vendor/RoomEnvironment.js';
 import { clamp01, win, lerp, outExpo, inOutQuint } from './ease.js';
-import { W, H, radius, shadowAlpha } from '../tokens.js';
+import { W, H, SS, radius, shadowAlpha } from '../tokens.js';
 
 export { THREE };
 
@@ -18,7 +18,7 @@ export function renderer3D() {
   renderer = new THREE.WebGLRenderer({
     canvas: document.createElement('canvas'), antialias: true, preserveDrawingBuffer: true, alpha: true,
   });
-  renderer.setPixelRatio(1);
+  renderer.setPixelRatio(SS);
   renderer.setSize(W, H, false);
   renderer.toneMapping = THREE.NoToneMapping;
   renderer.outputColorSpace = THREE.SRGBColorSpace;
@@ -71,7 +71,7 @@ function setOpacity(obj, a) {
 
 // A rounded card, its front face at z = 0, textured from a 2D canvas (res × its size) with UVs
 // normalised to its bounds. Returns a Group; position, rotation and opacity go on the group.
-export function card(w, h, { r = 24, depth = 0, res = 2 } = {}) {
+export function card(w, h, { r = 24, depth = 0, res = 2 * SS } = {}) {
   const geo = depth > 0
     ? new THREE.ExtrudeGeometry(rounded(w, h, r), { depth, bevelEnabled: false, curveSegments: 12 }).translate(0, 0, -depth)
     : new THREE.ShapeGeometry(rounded(w, h, r), 12);
