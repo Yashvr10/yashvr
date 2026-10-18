@@ -1,0 +1,134 @@
+import { win, lerp, outExpo, inOutQuint } from '../engine/ease.js';
+import { hash } from '../engine/rng.js';
+import { W, H, FPS, colors, fonts, sizes, tracking, safe } from '../tokens.js';
+
+export const start = 0;
+export const dur = 5;
+
+// Stand-in copy: the brief's {{HEADLINE}} and {{LABEL}} were never filled in.
+const HEADLINE = 'Motion, written in code.';
+const ACCENT_WORD = 3;
+const LABEL = 'S01 / TITLE CARD';
+
+const STAGGER = 0.09, ENTER = 0.3, WORD_DUR = 0.8, EXIT = 0.5, PUSH = 1.03;
+
+// Safe box in scene space, inset so the camera push ends exactly on the safe margins.
+const SX = W / 2 - (W / 2 - safe.x) / PUSH, SY = H / 2 - (H / 2 - safe.y) / PUSH;
+
+// Grain tile, built once at load from the stateless hash. The word layer is scratch space,
+// cleared before every use, so it never carries anything between calls.
+let grain, layer, lctx;
+export async function load() {
+  layer = new OffscreenCanvas(W, H);
+  lctx = layer.getContext('2d');
+  const c = new OffscreenCanvas(256, 256), g = c.getContext('2d'), img = g.createImageData(256, 256);
+  for (let i = 0; i < 256 * 256; i++) {
+    const v = hash(i, 7) * 255;
+    img.data.set([v, v, v, 255], i * 4);
+  }
+  g.putImageData(img, 0, 0);
+  grain = c;
+}
+
+function background(ctx, t) {
+  ctx.fillStyle = colors.bg;
+  ctx.fillRect(0, 0, W, H);
+
+  // Slow drifting light, warm from the accent.
+  const x = W * 0.5 + 260 * Math.sin(t * 0.35), y = H * 0.42 + 90 * Math.cos(t * 0.27);
+  const light = ctx.createRadialGradient(x, y, 0, x, y, 1100);
+  light.addColorStop(0, 'rgba(255,106,61,0.13)');
+  light.addColorStop(0.5, 'rgba(255,106,61,0.04)');
+  light.addColorStop(1, 'rgba(255,106,61,0)');
+  ctx.fillStyle = light;
+  ctx.fillRect(0, 0, W, H);
+
+  const vig = ctx.createRadialGradient(W / 2, H / 2, H * 0.35, W / 2, H / 2, W * 0.75);
+  vig.addColorStop(0, 'rgba(0,0,0,0)');
+  vig.addColorStop(1, 'rgba(0,0,0,0.55)');
+  ctx.fillStyle = vig;
+  ctx.fillRect(0, 0, W, H);
+
+  // Grain: tile offset jumps each frame, chosen by hash of the frame index.
+  const f = Math.round(t * FPS);
+  ctx.globalAlpha = 0.03;
+  ctx.fillStyle = ctx.createPattern(grain, 'repeat');
+  ctx.translate(-hash(f, 11) * 256, -hash(f, 12) * 256);
+  ctx.fillRect(0, 0, W + 256, H + 256);
+  ctx.setTransform(1, 0, 0, 1, 0, 0);
+  ctx.globalAlpha = 1;
+}
+
+// One line if it fits at 85% of hero or more; otherwise greedy wrap to two, shrinking if needed.
+function layout(ctx) {
+  const words = HEADLINE.split(' '), maxW = W - 2 * SX;
+  for (let size = sizes.hero; size >= sizes.hero * 0.85; size -= 2) {
+    ctx.font = `700 ${size}px ${fonts.display}`;
+    ctx.letterSpacing = `${tracking.display * size}px`;
+    if (ctx.measureText(HEADLINE).width <= maxW) return wrap(ctx, words, size, Infinity);
+  }
+  for (let size = sizes.hero; ; size -= 4) {
+    const l = wrap(ctx, words, size, maxW);
+    if (l.lines <= 2 || size <= sizes.h1) return l;
+  }
+}
+
+function wrap(ctx, words, size, maxW) {
+  ctx.font = `700 ${size}px ${fonts.display}`;
+  ctx.letterSpacing = `${tracking.display * size}px`;
+  const space = ctx.measureText(' ').width;
+  let x = 0, line = 0;
+  const placed = words.map((w, i) => {
+    const ww = ctx.measureText(w).width;
+    if (x > 0 && x + ww > maxW) { line++; x = 0; }
+    const p = { w, i, x, line };
+    x += ww + space;
+    return p;
+  });
+  return { size, placed, lines: line + 1 };
+}
+
+export function draw(ctx, t, d = dur) {
+  const push = lerp(1, PUSH, t / d);
+  ctx.setTransform(push, 0, 0, push, (W * (1 - push)) / 2, (H * (1 - push)) / 2);
+  const cam = ctx.getTransform();
+  background(ctx, t);
+  ctx.setTransform(cam);
+
+  const out = inOutQuint(win(t, d - EXIT, d));
+  ctx.translate(0, -40 * out);
+  const fade = 1 - out;
+
+  // Label types on between 0.2 and 0.7 s.
+  const n = Math.floor(win(t, 0.2, 0.7) * LABEL.length + 1e-9);
+  ctx.font = `400 ${sizes.label}px ${fonts.mono}`;
+  ctx.letterSpacing = `${tracking.label * sizes.label}px`;
+  ctx.textBaseline = 'top';
+  ctx.fillStyle = colors.dim;
+  ctx.globalAlpha = fade;
+  ctx.fillText(LABEL.slice(0, n), SX, SY);
+  if (t >= 0.2 && t < 1.4 && Math.floor(t * 4) % 2 === 0) {
+    const cx = SX + ctx.measureText(LABEL.slice(0, n)).width;
+    ctx.fillRect(cx + 4, SY, 14, sizes.label);
+  }
+
+  // Headline, left-aligned on the safe margin and vertically centred.
+  const { size, placed, lines } = layout(ctx);
+  const lineH = size * 1.02, top = H / 2 - (lines * lineH) / 2;
+  lctx.font = ctx.font;
+  lctx.letterSpacing = ctx.letterSpacing;
+  for (const p of placed) {
+    const u = outExpo(win(t, ENTER + p.i * STAGGER, ENTER + p.i * STAGGER + WORD_DUR));
+    if (u <= 0) continue;
+    // Draw the word opaque, then fade the whole layer, so overlapping glyphs don't double up.
+    lctx.clearRect(0, 0, W, H);
+    lctx.fillStyle = p.i === ACCENT_WORD ? colors.accent : colors.ink;
+    lctx.fillText(p.w, SX + p.x, top + p.line * lineH + size * 0.8);
+    const blur = 12 * (1 - u);
+    ctx.filter = blur > 0.05 ? `blur(${blur}px)` : 'none';
+    ctx.globalAlpha = fade * u;
+    ctx.drawImage(layer, 0, 60 * (1 - u));
+  }
+  ctx.filter = 'none';
+  ctx.globalAlpha = 1;
+}

@@ -1,7 +1,7 @@
 import { createHash } from 'node:crypto';
 import { serve, launch, openPage, grab } from './browser.mjs';
 
-const FRAME = 150;
+const WANT = 150; // falls back to the last frame when the timeline is shorter
 const sha = (buf) => createHash('sha256').update(buf).digest('hex');
 
 const server = serve();
@@ -10,7 +10,7 @@ let ok = false;
 try {
   const cold = await openPage(browser);
   const { DURATION, FPS } = await cold.evaluate(() => ({ DURATION: window.DURATION, FPS: window.FPS }));
-  if (FRAME >= DURATION * FPS) throw new Error(`frame ${FRAME} is past the end (${DURATION * FPS} frames)`);
+  const FRAME = Math.min(WANT, Math.round(DURATION * FPS) - 1);
   const a = sha(await grab(cold, FRAME / FPS));
 
   const warm = await openPage(browser);
