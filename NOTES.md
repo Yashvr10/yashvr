@@ -39,7 +39,10 @@ sets each hold, scenes derive their `end` from it, and `timeline.js` places cuts
 draw registers its box; `?check` (and preview) reads the frame back and warns below 7:1.
 Background particle density and bloom drop 40% while a caption is fully visible.
 `?guides` (preview only) outlines `tokens.safe16x9` and `tokens.safe9x16`.
-`node export-srt.mjs` writes out/captions.srt.
+`node export-srt.mjs` writes out/captions.srt. `node qa-captions.mjs` renders one still per caption
+(middle of its hold) to qa/captions/ and flags lines under 7:1 or outside safe16x9.
+Captions are ink on paper; scrim and shadow take the opposite polarity to the text.
+3D text (s05 cards) registers its boxes by projecting card rectangles through the camera.
 
 # Camera
 

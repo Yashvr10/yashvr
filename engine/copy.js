@@ -37,10 +37,19 @@ export function duckAt(wins, t, ramp = 0.5) {
   return d;
 }
 
-export { boxes, resetBoxes, registerText } from './textboxes.js';
+export { boxes, resetBoxes, registerText, registerBox } from './textboxes.js';
+
+// WCAG relative luminance of an sRGB triple, and hex → triple.
+const relLum = ([r, g, b]) => {
+  const f = (c) => { c /= 255; return c <= 0.04045 ? c / 12.92 : ((c + 0.055) / 1.055) ** 2.4; };
+  return 0.2126 * f(r) + 0.7152 * f(g) + 0.0722 * f(b);
+};
+const hexRGB = (hex) => [1, 3, 5].map((i) => parseInt(hex.slice(i, i + 2), 16));
 
 // A caption block: lines rise in (kinetic riseIn, per-glyph), over an automatic soft radial
-// scrim (30% black, feathered) sized to the block, with a 24 px blur shadow at 40% alpha.
+// scrim (30%, feathered) sized to the block, with a 24 px blur shadow at 40% alpha. Scrim and
+// shadow take the opposite polarity to the text: black behind light text, paper behind dark
+// text, so they always add contrast.
 // opts: x, y (first baseline), align, size, family, weight, color, lineH (× size), stagger
 // between lines (s), and riseIn's own options.
 export function caption(ctx, t, text, opts = {}) {
@@ -58,20 +67,21 @@ export function caption(ctx, t, text, opts = {}) {
   const top = o.y - o.size * 0.8, bottom = o.y + (rows.length - 1) * o.size * o.lineH + o.size * 0.25;
 
   // Scrim: an ellipse 1.5× the block, 30% black at the centre, fading to 0 at its edge.
+  const dark = relLum(hexRGB(o.color)) < 0.18, halo = dark ? hexRGB(colors.bg).join(',') : '0,0,0';
   const show = clamp01(t / 0.3), cx = left + bw / 2, cy = (top + bottom) / 2;
   const rx = bw * 0.75 + o.size * 0.5, ry = (bottom - top) * 0.75 + o.size * 0.5;
   ctx.save();
   ctx.translate(cx, cy);
   ctx.scale(1, ry / rx);
   const g = ctx.createRadialGradient(0, 0, 0, 0, 0, rx);
-  g.addColorStop(0, `rgba(0,0,0,${0.3 * show})`);
-  g.addColorStop(0.6, `rgba(0,0,0,${0.18 * show})`);
-  g.addColorStop(1, 'rgba(0,0,0,0)');
+  g.addColorStop(0, `rgba(${halo},${0.3 * show})`);
+  g.addColorStop(0.6, `rgba(${halo},${0.18 * show})`);
+  g.addColorStop(1, `rgba(${halo},0)`);
   ctx.fillStyle = g;
   ctx.fillRect(-rx, -rx, 2 * rx, 2 * rx);
   ctx.restore();
 
-  ctx.shadowColor = 'rgba(0,0,0,0.4)';
+  ctx.shadowColor = `rgba(${halo},0.4)`;
   ctx.shadowBlur = 24;
   // riseIn registers each line's box itself.
   rows.forEach((r, i) => riseIn(ctx, t - i * o.stagger, { ...o, text: r, y: o.y + i * o.size * o.lineH }));
@@ -81,11 +91,6 @@ export function caption(ctx, t, text, opts = {}) {
 // WCAG contrast of each recorded box against the finished frame behind it (read back from the
 // WebGL canvas). Background = the median of the box's pixels on the far side from the text
 // colour. Logs a warning below `min` (once per text if `seen` is a Set) and returns every result.
-const relLum = ([r, g, b]) => {
-  const f = (c) => { c /= 255; return c <= 0.04045 ? c / 12.92 : ((c + 0.055) / 1.055) ** 2.4; };
-  return 0.2126 * f(r) + 0.7152 * f(g) + 0.0722 * f(b);
-};
-const hexRGB = (hex) => [1, 3, 5].map((i) => parseInt(hex.slice(i, i + 2), 16));
 export function checkContrast(gl, min = 7, seen = null) {
   return boxes.map((b) => {
     const x = Math.max(0, Math.floor(b.x0)), y = Math.max(0, Math.floor(b.y0));

@@ -1,10 +1,10 @@
 import { win, lerp, outCubic, inOutQuint } from '../engine/ease.js';
 import { shade } from '../engine/draw.js';
 import {
-  stage, render3D, renderer3D, card, tile, softShadow, setCardContent, landCard, fan, wallDolly,
+  THREE, stage, render3D, renderer3D, card, tile, softShadow, setCardContent, landCard, fan, wallDolly,
 } from '../engine/three3d.js';
-import { lines, windows, parseNumber } from '../engine/copy.js';
-import { colors, fonts, tracking } from '../tokens.js';
+import { lines, windows, parseNumber, registerBox } from '../engine/copy.js';
+import { W, H, colors, fonts, tracking } from '../tokens.js';
 
 const ID = 's05_cards';
 // Copy: [chart label, stat label, stat total, stat delta, checklist label, 4 checklist items].
@@ -18,7 +18,8 @@ const CW = 440, CH = 320, LAND = [0.3, 0.75, 1.2], FAN = 2.0, SLOT = 0.95, COUNT
 export const captions = windows(ID, [{ lines: [1, 2], in: COUNT[0], at: COUNT[1] }]);
 export const dur = Math.max(7, captions[0].out);
 export const end = dur;
-const surface = shade(colors.dim, -0.4);
+// Paper-style faces: paper-shade surface, ink type (dark faces lost the ink text after the palette moved to paper).
+const surface = colors.paper;
 
 let st, cards, tiles;
 
@@ -28,7 +29,7 @@ function face(ctx, w, h, label) {
   ctx.fillRect(0, 0, w, h);
   ctx.font = `400 18px ${fonts.mono}`;
   ctx.letterSpacing = `${tracking.label * 18}px`;
-  ctx.fillStyle = colors.dim;
+  ctx.fillStyle = colors.ink;
   ctx.fillText(label, 32, 48);
   ctx.letterSpacing = '0px';
 }
@@ -99,6 +100,23 @@ export async function load() {
   renderer3D().compile(st.scene, st.camera);
 }
 
+// Text on a card lives in its texture, so register its screen boxes for the copy checks by
+// projecting the card-pixel rectangles [x0, y0, x1, y1, text] through the camera.
+const corner = new THREE.Vector3();
+function registerCardText(c, rects) {
+  if (!c.visible) return;
+  c.updateMatrixWorld();
+  st.camera.updateMatrixWorld();
+  for (const [x0, y0, x1, y1, text] of rects) {
+    const ps = [[x0, y0], [x1, y0], [x0, y1], [x1, y1]].map(([u, v]) => {
+      corner.set(u - CW / 2, CH / 2 - v, 0).applyMatrix4(c.matrixWorld).project(st.camera);
+      return [((corner.x + 1) / 2) * W, ((1 - corner.y) / 2) * H];
+    });
+    const xs = ps.map((p) => p[0]), ys = ps.map((p) => p[1]);
+    registerBox(Math.min(...xs), Math.min(...ys), Math.max(...xs), Math.max(...ys), colors.ink, text);
+  }
+}
+
 // Nothing on the 2D layer: this scene is all 3D, framed by its own camera (wallDolly).
 export function draw() {}
 
@@ -113,5 +131,6 @@ export function draw3D(t) {
     m.rotation.set(lerp(0.5, 0.2, settle) * (i ? -1 : 1), lerp(-0.6, 0.35, settle), lerp(0.2, -0.1, settle));
   });
   wallDolly(st.camera, t, 0, SETTLE);
+  registerCardText(cards[1], [[32, 30, CW - 32, 54, T[1]], [30, 106, CW - 30, 206, T[2]]]);
   return render3D(st);
 }

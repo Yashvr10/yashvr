@@ -100,11 +100,11 @@ function ledger(ctx, t) {
   ctx.restore();
   registerText(ctx, right - tw, titleY - 0.108 * H, right, titleY + sizes.hero * 0.25, colors.ink, T[0]);
   ctx.font = font('italic', 400, sizes.label);
-  ctx.fillStyle = colors.dim;
+  ctx.fillStyle = colors.ink;
   ctx.textAlign = 'right';
   ctx.fillText(T[1], right, titleY + 64);
   const sw = ctx.measureText(T[1]).width;
-  registerText(ctx, right - sw, titleY + 64 - sizes.label * 0.72, right, titleY + 64 + sizes.label * 0.25, colors.dim, T[1]);
+  registerText(ctx, right - sw, titleY + 64 - sizes.label * 0.72, right, titleY + 64 + sizes.label * 0.25, colors.ink, T[1]);
 
   // Years, bars (ink hatching, drawn on left to right) and values.
   ctx.font = font('', 400, sizes.body);
@@ -174,11 +174,11 @@ function quote(ctx, u) {
   }
   ctx.setLineDash([]);
   ctx.font = font('italic', 400, sizes.label);
-  ctx.fillStyle = colors.dim;
+  ctx.fillStyle = colors.ink;
   ctx.textAlign = 'center';
   ctx.fillText(T[3], W / 2, 1000);
   const cw = ctx.measureText(T[3]).width;
-  registerText(ctx, W / 2 - cw / 2, 1000 - sizes.label * 0.72, W / 2 + cw / 2, 1000 + sizes.label * 0.25, colors.dim, T[3]);
+  registerText(ctx, W / 2 - cw / 2, 1000 - sizes.label * 0.72, W / 2 + cw / 2, 1000 + sizes.label * 0.25, colors.ink, T[3]);
 }
 
 export function draw(ctx, t) {

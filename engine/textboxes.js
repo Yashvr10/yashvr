@@ -3,6 +3,9 @@
 export const boxes = [];
 export const resetBoxes = () => { boxes.length = 0; };
 
+// Registers a box already in screen px (e.g. projected from 3D).
+export const registerBox = (x0, y0, x1, y1, color, text) => boxes.push({ x0, y0, x1, y1, color, text });
+
 // Registers a box given in ctx's current coordinates.
 export function registerText(ctx, x0, y0, x1, y1, color, text) {
   const m = ctx.getTransform();

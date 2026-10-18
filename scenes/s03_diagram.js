@@ -63,7 +63,7 @@ function content(ctx, t) {
     fade(ctx, a, 24 * (1 - outCubic(u)), (c) => p.draw(c, t, { x: p.x, y: GROUND, s, seed: i + 1, grow: outCubic(u) }));
     caption(ctx, t - p.enter - 0.2, LABELS[p.label], {
       x: p.x, y: GROUND + 64, family: 'mono', weight: 400, size: sizes.label,
-      track: tracking.label, color: colors.dim, stagger: 0.02, dur: 0.3, rise: 16, blur: 4,
+      track: tracking.label, color: colors.ink, stagger: 0.02, dur: 0.3, rise: 16, blur: 4,
     });
   });
 }

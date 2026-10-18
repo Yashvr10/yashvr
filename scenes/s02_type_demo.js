@@ -2,7 +2,7 @@ import { win, outCubic } from '../engine/ease.js';
 import { fade, riseIn, scramble, odometer, typeOn, markerWipe, splitExit } from '../engine/type.js';
 import { withCamera, defaultPush, layerScale, Z } from '../engine/camera.js';
 import { lines, holdFor, windows, parseNumber } from '../engine/copy.js';
-import { W, H } from '../tokens.js';
+import { W, H, colors } from '../tokens.js';
 
 const ID = 's02_type_demo';
 // Copy: [riseIn statement, scramble statement, odometer value, typed-then-marked line].
@@ -41,7 +41,8 @@ const at = { x: W / 2, y: H / 2 + 50 };
 const LINE = { ...at, text: T[3], size: 140 };
 const LAST = T[3].split(' ').length - 1; // the word that gets marked
 const NUM = parseNumber(T[2]);
-const PAD = 0.16, MARK = { ...LINE, word: LAST, pad: PAD };
+// The marker is the reference's yellow with ink text (≈ 14:1), not ink-on-red (≈ 4:1).
+const PAD = 0.16, MARK = { ...LINE, word: LAST, pad: PAD, accent: colors.highlight, on: colors.ink };
 
 // Fade and lift a statement out over X seconds after its hold.
 function statement(ctx, t, b, draw) {

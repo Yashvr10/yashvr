@@ -25,7 +25,7 @@ const ODO = { t0: 1.0, from: 0, to: NUM.value, prefix: NUM.prefix, suffix: NUM.s
 const BURST = { t0: 2.0, x: W / 2, y: H / 2 - 40, n: 220, speed: 900 };
 const CAPTION = {
   t0: 2.15, dur: 0.6, text: T[1], x: W / 2, y: H / 2 + 140,
-  family: 'mono', weight: 400, size: 34, track: 0.12, color: colors.dim,
+  family: 'mono', weight: 400, size: 34, track: 0.12, color: colors.ink,
 };
 const CONFETTI = { t0: 3.2, x: W / 2, y: H * 0.86, n: 160, speed: [1000, 1900], drag: 1.6 };
 

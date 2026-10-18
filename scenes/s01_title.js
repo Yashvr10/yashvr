@@ -3,7 +3,7 @@ import { withCamera, defaultPush, layerScale, Z, PUSH, DRIFT } from '../engine/c
 import { lines, windows, registerText } from '../engine/copy.js';
 import { W, H, colors, fonts, sizes, tracking, safe } from '../tokens.js';
 
-// Copy: [headline, slate label]. The last headline word takes the accent.
+// Copy: [headline, slate label].
 const [HEADLINE, LABEL] = lines('s01_title');
 const ACCENT_WORD = HEADLINE.split(' ').length - 1;
 
@@ -71,7 +71,7 @@ function content(ctx, t, d) {
   ctx.font = `400 ${sizes.label}px ${fonts.mono}`;
   ctx.letterSpacing = `${tracking.label * sizes.label}px`;
   ctx.textBaseline = 'top';
-  ctx.fillStyle = colors.dim;
+  ctx.fillStyle = colors.ink;
   ctx.globalAlpha = fade;
   ctx.fillText(LABEL.slice(0, n), SX, SY);
   if (t >= 0.2 && t < 1.4 && Math.floor(t * 4) % 2 === 0) {
@@ -89,7 +89,7 @@ function content(ctx, t, d) {
     if (u <= 0) continue;
     // Draw the word opaque, then fade the whole layer, so overlapping glyphs don't double up.
     lctx.clearRect(0, 0, W, H);
-    lctx.fillStyle = p.i === ACCENT_WORD ? colors.accent : colors.ink;
+    lctx.fillStyle = colors.ink; // captions are ink (contrast ≥ 7:1 on paper)
     lctx.fillText(p.w, SX + p.x, top + p.line * lineH + size * 0.8);
     const blur = 12 * (1 - u);
     ctx.filter = blur > 0.05 ? `blur(${blur}px)` : 'none';
@@ -100,5 +100,5 @@ function content(ctx, t, d) {
   ctx.globalAlpha = 1;
   const right = Math.max(...placed.map((p) => SX + p.x + lctx.measureText(p.w).width));
   registerText(ctx, SX, top, right, top + lines * lineH + size * 0.25, colors.ink, HEADLINE);
-  registerText(ctx, SX, SY, SX + ctx.measureText(LABEL).width, SY + sizes.label, colors.dim, LABEL);
+  registerText(ctx, SX, SY, SX + ctx.measureText(LABEL).width, SY + sizes.label, colors.ink, LABEL);
 }
