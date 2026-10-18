@@ -2,9 +2,11 @@
 // A scene entry shows its scene from local time `from` for `dur` seconds, so transitions can
 // skip a scene's own entrance and exit. Cuts are on frame boundaries.
 import * as s01 from './scenes/s01_hook.js';
+import * as s02 from './scenes/s02_growth.js';
+import { whip } from './engine/transitions.js';
 import { FPS } from './tokens.js';
 
-export const SCENES = { s01_hook: s01 };
+export const SCENES = { s01_hook: s01, s02_growth: s02 };
 
 // The edit, in order. Each scene plays from its in-point `from` to its `end` (where its last
 // caption's hold ends, sized by holdFor from copy.json), plus an optional `trim` in seconds.
@@ -12,6 +14,9 @@ export const SCENES = { s01_hook: s01 };
 // Each transition ({ tr: whip }, …) sits on the cut between its neighbours.
 export const ORDER = [
   { scene: 's01_hook', from: 0 },
+  { tr: whip },
+  // In at 0.15 s: the whip lands on the baseline and the first tile, not on bare paper.
+  { scene: 's02_growth', from: 0.15 },
 ];
 
 const snap = (s) => Math.round(s * FPS) / FPS;
