@@ -1,11 +1,9 @@
 import { win, outCubic } from '../engine/ease.js';
-import { backdrop, loadBackdrop } from '../engine/backdrop.js';
 import { fade, riseIn, scramble, odometer, typeOn, markerWipe, splitExit } from '../engine/type.js';
 import { W, H } from '../tokens.js';
 
 export const start = 5;
 export const dur = 8;
-export const load = loadBackdrop;
 
 // Scene-time windows. Each exit (0.2 s, front-loaded fade) is half over before the next
 // entrance starts. The typed line is marked mid-statement, so its final, marked state is the
@@ -32,8 +30,6 @@ function statement(ctx, t, b, draw) {
 }
 
 export function draw(ctx, t) {
-  backdrop(ctx, start + t);
-
   statement(ctx, t, B1, (c, u) => riseIn(c, u, { ...at, text: 'Kinetic type' }));
   statement(ctx, t, B2, (c, u) => scramble(c, u, {
     ...at, text: 'SIGNAL / NOISE', family: 'mono', weight: 400, size: 120, track: 0.02, dur: 0.45,

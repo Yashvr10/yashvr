@@ -1,5 +1,4 @@
 import { win, outCubic, outBack } from '../engine/ease.js';
-import { backdrop, loadBackdrop } from '../engine/backdrop.js';
 import { loadDraw, grain, measure, drawOn, pulseAlong } from '../engine/draw.js';
 import { drawLaptop, drawChatBubble, drawChartCard } from '../engine/props.js';
 import { fade, riseIn } from '../engine/type.js';
@@ -31,7 +30,7 @@ const LINES = [
 const PULSES = [[2.6, 3.8], [3.5, 4.7]];
 
 export async function load() {
-  await Promise.all([loadBackdrop(), loadDraw()]);
+  await loadDraw();
   LINES.forEach((l) => measure(l.pts));
 }
 
@@ -60,7 +59,6 @@ function content(ctx, t) {
 }
 
 export function draw(ctx, t, d = dur) {
-  backdrop(ctx, start + t);
   const e = outCubic(win(t, d - EXIT, d));
   fade(ctx, 1 - e, -30 * e, (c) => content(c, t));
   grain(ctx, start + t);

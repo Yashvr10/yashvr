@@ -55,16 +55,26 @@ export async function loadDraw() {
   tile = noiseTile(512, 23);
 }
 
-// Film grain over the whole frame: overlay at 8%, tile offset re-picked every frame.
+// Film grain on whatever is drawn so far: overlay at 8%, tile offset re-picked every frame.
+// Worked on a copy and masked back to the content's alpha, so transparent areas stay
+// transparent for the GL background underneath.
 export function grain(ctx, t) {
-  const f = Math.round(t * FPS);
+  const f = Math.round(t * FPS), l = layer(2, ctx);
+  l.setTransform(1, 0, 0, 1, 0, 0);
+  l.drawImage(ctx.canvas, 0, 0);
+  l.globalCompositeOperation = 'overlay';
+  l.globalAlpha = 0.08;
+  l.fillStyle = l.createPattern(tile, 'repeat');
+  l.translate(-hash(f, 31) * 512, -hash(f, 32) * 512);
+  l.fillRect(0, 0, W + 512, H + 512);
+  l.setTransform(1, 0, 0, 1, 0, 0);
+  l.globalCompositeOperation = 'destination-in';
+  l.globalAlpha = 1;
+  l.drawImage(ctx.canvas, 0, 0);
   ctx.save();
   ctx.setTransform(1, 0, 0, 1, 0, 0);
-  ctx.globalCompositeOperation = 'overlay';
-  ctx.globalAlpha = 0.08;
-  ctx.fillStyle = ctx.createPattern(tile, 'repeat');
-  ctx.translate(-hash(f, 31) * 512, -hash(f, 32) * 512);
-  ctx.fillRect(0, 0, W + 512, H + 512);
+  ctx.globalCompositeOperation = 'copy';
+  ctx.drawImage(l.canvas, 0, 0);
   ctx.restore();
 }
 

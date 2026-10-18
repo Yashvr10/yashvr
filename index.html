@@ -12,16 +12,27 @@ html,body{margin:0;background:#0b0b0f}canvas{display:block}
 <body>
 <canvas id="c" width="1920" height="1080"></canvas>
 <script type="module">
-import { FPS, fontLoads } from './tokens.js';
+import { W, H, FPS, fontLoads } from './tokens.js';
 import { SCENES, DURATION, sceneAt } from './scenes/index.js';
+import { createPost, POST_DEFAULTS } from './engine/post.js';
 
-const ctx = document.getElementById('c').getContext('2d');
+// Scenes draw with Canvas2D into this layer; #c is WebGL2 and composites it over the background.
+const layer = new OffscreenCanvas(W, H);
+const ctx = layer.getContext('2d');
+const params = new URLSearchParams(location.search);
+const postOn = !params.has('nopost');
+let post;
+
+// Scenes may override window.POST values while drawing; they reset to defaults every frame.
+window.POST = { ...POST_DEFAULTS };
 
 // Pure function of t (seconds): clears and redraws everything, reads no clock or randomness.
 window.renderFrame = (t) => {
+  Object.assign(window.POST, POST_DEFAULTS);
   ctx.reset();
   const s = sceneAt(t);
   s.draw(ctx, t - s.start, s.dur);
+  post(t, Math.round(t * FPS), layer, window.POST, postOn);
 };
 window.DURATION = DURATION;
 window.FPS = FPS;
@@ -31,10 +42,11 @@ for (const f of fontLoads) {
 }
 await document.fonts.ready;
 await Promise.all(SCENES.map((s) => s.load?.()));
+post = await createPost(document.getElementById('c'));
 window.READY = true;
 
 // Live preview only. The clock picks t; it never reaches renderFrame.
-if (!new URLSearchParams(location.search).has('render')) {
+if (!params.has('render')) {
   const t0 = performance.now();
   const loop = () => {
     window.renderFrame(((performance.now() - t0) / 1000) % DURATION);

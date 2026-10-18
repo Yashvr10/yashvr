@@ -1,5 +1,4 @@
 import { win, lerp, outExpo, inOutQuint } from '../engine/ease.js';
-import { backdrop, loadBackdrop } from '../engine/backdrop.js';
 import { W, H, colors, fonts, sizes, tracking, safe } from '../tokens.js';
 
 export const start = 0;
@@ -20,7 +19,6 @@ let layer, lctx;
 export async function load() {
   layer = new OffscreenCanvas(W, H);
   lctx = layer.getContext('2d');
-  await loadBackdrop();
 }
 
 // One line if it fits at 85% of hero or more; otherwise greedy wrap to two, shrinking if needed.
@@ -55,7 +53,6 @@ function wrap(ctx, words, size, maxW) {
 export function draw(ctx, t, d = dur) {
   const push = lerp(1, PUSH, t / d);
   ctx.setTransform(push, 0, 0, push, (W * (1 - push)) / 2, (H * (1 - push)) / 2);
-  backdrop(ctx, t);
 
   const out = inOutQuint(win(t, d - EXIT, d));
   ctx.translate(0, -40 * out);
