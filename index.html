@@ -15,7 +15,7 @@ html,body{margin:0;background:#eae9e9}canvas{display:block}
 <script type="module">
 import { W, H, SS, FPS, ASPECT, fontLoads, safe, titleSafe, cropSafe, captionBand } from './tokens.js';
 import { resetBoxes, checkContrast, duckAt, DUCK } from './engine/copy.js';
-import { main, solo } from './timeline.js';
+import { main, solo, single } from './timeline.js';
 import { createPost, POST_DEFAULTS } from './engine/post.js';
 
 // Scenes draw with Canvas2D into this layer; #c is WebGL2 and composites it over the background.
@@ -25,7 +25,9 @@ const ctx = layer.getContext('2d');
 const params = new URLSearchParams(location.search);
 const postOn = !params.has('nopost');
 // ?solo=<scene id> plays one scene alone from its local time 0 (QA tools use it).
-const timeline = params.has('solo') ? solo(params.get('solo')) : main;
+// ?demo=<name> plays demos/<name>.js, an engine module's demo (node demo.mjs renders them all).
+const demo = params.get('demo');
+const timeline = demo ? single(demo, await import(`./demos/${demo}.js`)) : params.has('solo') ? solo(params.get('solo')) : main;
 let post;
 
 // Scenes and transitions may override window.POST values while drawing; they reset every frame.

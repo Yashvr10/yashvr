@@ -29,7 +29,7 @@ export const TIMELINE = place(ORDER);
 // transition window, { tr, t0, dur, A, B }; `primary` is the scene that owns the GL and 3D
 // layers at t (A until the cut, then B).
 export function build(list) {
-  const scenes = list.filter((e) => e.scene).map((e) => ({ ...e, mod: SCENES[e.scene] }));
+  const scenes = list.filter((e) => e.scene).map((e) => ({ ...e, mod: e.mod ?? SCENES[e.scene] }));
   const trs = list.filter((e) => e.tr).map((x) => {
     const dur = x.dur ?? x.tr.dur, t0 = x.at - (x.tr.anchor ?? 0.5) * dur;
     const f0 = Math.round(t0 * FPS), at = Math.round(x.at * FPS);
@@ -68,5 +68,7 @@ export function build(list) {
 export const main = build(TIMELINE);
 // One scene alone from its local time 0, for QA tools (index.html?solo=<id>).
 export const solo = (id) => build([{ scene: id, start: 0, dur: SCENES[id].dur, from: 0 }]);
+// A module that isn't in SCENES (an engine demo) as a one-scene timeline (index.html?demo=<name>).
+export const single = (id, mod) => build([{ scene: id, mod, start: 0, dur: mod.dur, from: 0 }]);
 // A scene's entry in the main timeline.
 export const entryOf = (id) => main.scenes.find((e) => e.scene === id);

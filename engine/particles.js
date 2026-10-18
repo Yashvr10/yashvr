@@ -3,7 +3,7 @@
 // return what the drawers draw, so a test can check alphas without rendering.
 // Every drawer takes opts.cam = { dx, dy, z }: a pan in px and a zoom (0.05 = 5%) about the
 // centre, both at depth 1. Particles scale them by their own depth, so near ones parallax more.
-import { clamp01, lerp } from './ease.js';
+import { clamp01, lerp, outBack } from './ease.js';
 import { hash } from './rng.js';
 import { layer } from './layer.js';
 import { program, setUniforms, linearRGB } from './gl.js';
@@ -29,7 +29,7 @@ export function project(cam = {}, x, y, depth = 1) {
 
 // 1. Motes: dust rising in depth layers (0 = far). Each loops on its own lifetime and respawns
 // somewhere new every cycle, at alpha 0.
-const MOTES = { n: 600, layers: 3, color: colors.ink, drift: 6, cam: {}, density: 1 };
+const MOTES = { n: 600, layers: 3, color: colors.ink, drift: 6, cam: {}, density: 1, op: 'source-over' };
 export function moteState(i, t, opts) {
   const o = { ...MOTES, ...opts };
   const L = i % o.layers, depth = (L + 1) / o.layers;
@@ -44,12 +44,12 @@ export function moteState(i, t, opts) {
   };
 }
 
-// Additive. The far layer is drawn on its own and blurred as one image.
+// Painted with o.op ('lighter' adds, for dark fields). The far layer is drawn on its own and blurred as one image.
 export function motes(ctx, t, opts = {}) {
   const o = { ...MOTES, ...opts }, far = layer(3, ctx);
   for (const c of [far, ctx]) {
     c.save();
-    c.globalCompositeOperation = 'lighter';
+    c.globalCompositeOperation = o.op;
     c.fillStyle = o.color;
   }
   const dot = (c, m) => {
@@ -76,7 +76,8 @@ export function motes(ctx, t, opts = {}) {
 }
 
 // 2. Burst: ballistic sparks. seed separates bursts that share indices.
-const BURST = { n: 220, speed: 620, gravity: 900, colors: [colors.accent, colors.ink], life: [0.8, 1.4], width: 2.4, seed: 0, depth: 1, cam: {} };
+// op: the blend. 'source-over' paints, which reads on light fields; 'lighter' adds (glows on navy).
+const BURST = { n: 220, speed: 620, gravity: 900, colors: [colors.accent, colors.ink], life: [0.8, 1.4], width: 2.4, seed: 0, depth: 1, cam: {}, op: 'source-over' };
 export function burstState(i, age, opts) {
   const o = { ...BURST, ...opts }, k = 16 * o.seed;
   const life = lerp(o.life[0], o.life[1], hash(i, k + 1));
@@ -96,7 +97,7 @@ export function burst(ctx, t, opts) {
   const o = { ...BURST, ...opts }, age = t - o.t0;
   if (age < 0) return;
   ctx.save();
-  ctx.globalCompositeOperation = 'lighter';
+  ctx.globalCompositeOperation = o.op;
   ctx.lineCap = 'round';
   for (let i = 0; i < o.n; i++) {
     const p = burstState(i, age, o);
@@ -221,4 +222,55 @@ export function glParticles(gl, t, opts = {}) {
   gl.blendFunc(gl.ONE, gl.ONE);
   gl.drawArrays(gl.POINTS, 0, o.n);
   gl.disable(gl.BLEND);
+}
+
+// 5. Assemble: pieces fly in from scattered starts and land on target points with an overshoot,
+// each after its own hashed delay (up to opts.spread s). Pair with targetsFromText for a shape.
+// opts: t0 (s), dur (each flight, s), spread (s), dist (start distance, px), turn (start rotation,
+// rad), draw(ctx, state, i) (default: a small ink square). All landed by assembleEnd(opts).
+const ASSEMBLE = { t0: 0, dur: 0.5, spread: 0.4, dist: 900, turn: 1.2, overshoot: 1.4 };
+export const assembleEnd = (opts = {}) => { const o = { ...ASSEMBLE, ...opts }; return o.t0 + o.spread + o.dur; };
+export function assembleState(i, t, [tx, ty], opts = {}) {
+  const o = { ...ASSEMBLE, ...opts }, start = o.t0 + o.spread * hash(i, 11);
+  const u = clamp01((t - start) / o.dur), e = u >= 1 ? 1 : outBack(u, o.overshoot), ang = TAU * hash(i, 12);
+  const d = o.dist * lerp(0.6, 1, hash(i, 13));
+  return {
+    x: lerp(tx + Math.cos(ang) * d, tx, e), y: lerp(ty + Math.sin(ang) * d, ty, e),
+    r: lerp((hash(i, 14) * 2 - 1) * o.turn, 0, e), s: lerp(0.6, 1, Math.min(1, e)),
+    a: clamp01((t - start) / RAMP), u,
+  };
+}
+export function assemble(ctx, t, targets, opts = {}) {
+  const draw = opts.draw ?? ((c, p) => {
+    c.save();
+    c.translate(p.x, p.y);
+    c.rotate(p.r);
+    c.globalAlpha = p.a;
+    c.fillStyle = colors.ink;
+    c.fillRect(-6 * p.s, -6 * p.s, 12 * p.s, 12 * p.s);
+    c.restore();
+  });
+  targets.forEach((tg, i) => {
+    const p = assembleState(i, t, tg, opts);
+    if (p.a > 0) draw(ctx, p, i);
+  });
+}
+
+// Target points in the shape of text: drawn once at load time (not inside renderFrame) and
+// sampled on a `step` px grid wherever the glyphs are solid. Centred on (x, y).
+export function targetsFromText(text, font, { step = 24, x = W / 2, y = H / 2 } = {}) {
+  const probe = new OffscreenCanvas(1, 1).getContext('2d');
+  probe.font = font;
+  const m = probe.measureText(text), w = Math.ceil(m.width) + 2 * step;
+  const asc = Math.ceil(m.actualBoundingBoxAscent), h = asc + Math.ceil(m.actualBoundingBoxDescent) + 2 * step;
+  const c = new OffscreenCanvas(w, h).getContext('2d', { willReadFrequently: true });
+  c.font = font;
+  c.fillText(text, step, step + asc);
+  const px = c.getImageData(0, 0, w, h).data, out = [];
+  for (let j = step / 2; j < h; j += step) {
+    for (let i = step / 2; i < w; i += step) {
+      if (px[(Math.floor(j) * w + Math.floor(i)) * 4 + 3] > 128) out.push([x - w / 2 + i, y - h / 2 + j]);
+    }
+  }
+  return out;
 }

@@ -1,13 +1,13 @@
 // Virtual 2D camera. A camera is { s, x, y, r }: scale and rotation about the frame centre,
 // then a pan in px. Scenes draw every layer through withCamera, each at a declared depth z.
 import { clamp01 } from './ease.js';
-import { W, H } from '../tokens.js';
+import { W, H, motion } from '../tokens.js';
 
 export const IDENTITY = { s: 1, x: 0, y: 0, r: 0 };
 // Layer depths for layerScale.
 export const Z = { far: 0.4, subject: 1, fore: 1.3 };
 // The largest scale defaultPush reaches, and its drift amplitudes in px.
-export const PUSH = 0.04, DRIFT = { x: 6, y: 4 };
+export const PUSH = motion.push, DRIFT = { x: 6, y: 4 };
 
 export function withCamera(ctx, cam, draw) {
   ctx.save();
@@ -37,7 +37,7 @@ export function layerScale(cam, z) {
 
 // A scale hit at tb: jumps by amt, then settles exponentially (under 1% left after 0.3 s).
 // Multiply it into cam.s.
-export function punch(t, tb, amt = 0.06) {
+export function punch(t, tb, amt = motion.impact) {
   return t < tb ? 1 : 1 + amt * Math.exp(-(t - tb) / 0.065);
 }
 

@@ -163,11 +163,12 @@ export function drawOn(ctx, pts, p) {
   ctx.restore();
 }
 
-// A bright head at fraction p along pts with an 8-dot additive tail behind it.
-export function pulseAlong(ctx, pts, p, { color = colors.accent, r = 7, gap = 12 } = {}) {
+// A bright head at fraction p along pts with an 8-dot tail behind it. op 'lighter' adds (for dark
+// fields); the default paints, which reads on light ones.
+export function pulseAlong(ctx, pts, p, { color = colors.accent, r = 7, gap = 12, op = 'source-over' } = {}) {
   const L = measure(pts).at(-1), head = p * L;
   ctx.save();
-  ctx.globalCompositeOperation = 'lighter';
+  ctx.globalCompositeOperation = op;
   ctx.fillStyle = color;
   for (let i = 8; i >= 1; i--) {
     const d = head - i * gap;
