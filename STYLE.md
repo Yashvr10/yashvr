@@ -15,12 +15,14 @@ k-means (k = 6) over all 92 frames at 2 fps; yellow measured separately on its p
 |---|---|---|
 | paper | `#eae9e9` | 48.8% |
 | paper shade | `#dbdad9` | 21.1% |
-| ink | `#2a2725` | 10.2% |
+| ink | `#2a2725` centroid; solid core `#111111` | 10.2% |
 | graphite (engraving mid-tones) | `#5d5b58` | 9.8% |
 | red (annotation, labels, hero type) | `#d64647` | 4.8% |
 | marker yellow | `#e8e60d` | 0.3% |
 
-Remainder 5.3% is a light grey `#a4a09a` between paper and graphite. Saturated pixels
+Remainder 5.3% is a light grey `#a4a09a` between paper and graphite. The ink centroid averages
+solid ink with anti-aliased edges; the solid core (darkest decile of ink pixels, median over 74
+paper frames) is `#111111`, which is the value to draw with. Saturated pixels
 (HSV S > 110/255): 6.6% of all pixels; 2 hues in use (red 5.2%, yellow 0.3%). Imagery is
 monochrome: archival engravings and newspaper scans at 0% saturation.
 

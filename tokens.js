@@ -7,8 +7,10 @@ const refFrames = (n) => n / REF_FPS;
 
 // Every value below comes from STYLE.md (measured from the private reference).
 // Palette: paper 48.8%, paper shade 21.1%, ink 10.2%, graphite 9.8%, red 4.8%, yellow 0.3%.
+// Ink is the solid core (darkest decile over 74 paper frames), not the k-means centroid #2a2725,
+// which averages in anti-aliased edges.
 export const colors = {
-  bg: '#eae9e9', paper: '#dbdad9', ink: '#2a2725', dim: '#5d5b58', accent: '#d64647', highlight: '#e8e60d',
+  bg: '#eae9e9', paper: '#dbdad9', ink: '#111111', dim: '#5d5b58', accent: '#d64647', highlight: '#e8e60d',
 };
 // High-contrast serif for titles, captions and hero letters; slab serif for quoted phrases.
 // The reference has no monospace; mono stays for older scenes only.
@@ -45,9 +47,14 @@ export const motion = {
 export const rhythm = { cutsPerMin: 17, shot: 3.28, montageGap: 3.0 };
 
 // Texture, as post-chain defaults: no bloom, CA or vignette; grain at the measured mean frame
-// difference (≈ 0.5 / 255 → amplitude 3 × 0.5 / 255); static paper texture std 2.2 / 255.
-export const post = { bloom: 0, ca: 0, vig: 0, grain: 0.006 };
-export const paperTexture = 2.2 / 255;
+// difference (0.22 / 255 on paper shots, matched at 360p). The reference is untone-mapped SDR with a
+// neutral paper, so ACES, the S-curve and the warm/cool tint are off (1 = the earlier look).
+export const post = { bloom: 0, ca: 0, vig: 0, grain: 0.0073, exposure: 1, tone: 0, curve: 0, warm: 0 };
+// Paper: static (drift 0), mottled between paper and paper shade (21.1% coverage in the
+// reference), with static fibre noise of std 2.2 / 255 in cells of one reference pixel (H / 360).
+export const background = {
+  ramp: [colors.bg, colors.paper, colors.paper], amount: 0.6, drift: 0, fibre: 2.2 / 255, fibreScale: H / 360,
+};
 
 // Illustration. Line widths in screen px, whatever an object's scale.
 // annotate: red circles and underlines, 0.56–1.11% H in the reference.

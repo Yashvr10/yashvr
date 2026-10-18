@@ -1,13 +1,13 @@
 // GL frame: fbm background, Canvas2D layer composited over it in linear space, then the post chain.
 import { createGL, program, target, canvasTexture, uploadCanvas, pass, linearRGB } from './gl.js';
-import { W, H, colors, post as look } from '../tokens.js';
+import { W, H, post as look, background } from '../tokens.js';
 
 // thresh is linear luminance. 0.95 keeps our ink (0.88) and accent (0.32) text out of the bloom;
 // a scene lowers it per frame when it wants things to glow.
 // radial is a zoom blur toward the centre (a fraction of the distance to it), for transitions.
-// bloom, ca, vig and grain come from the style (tokens.post).
-export const POST_DEFAULTS = { thresh: 0.95, exposure: 1, radial: 0, ...look };
-const BG_AMOUNT = 0.035, LEVELS = 5;
+// The look (bloom, ca, vig, grain, exposure, tone, curve, warm) comes from tokens.post.
+export const POST_DEFAULTS = { thresh: 0.95, radial: 0, ...look };
+const LEVELS = 5;
 
 export async function createPost(canvas) {
   const gl = createGL(canvas);
@@ -17,7 +17,8 @@ export async function createPost(canvas) {
   );
   const back = target(gl, W, H), scene = target(gl, W, H), layerTex = canvasTexture(gl), threeTex = canvasTexture(gl);
   const mips = Array.from({ length: LEVELS }, (_, i) => target(gl, W >> (i + 1), H >> (i + 1)));
-  const tint = { uBg: linearRGB(colors.bg), uDim: linearRGB(colors.dim), uAccent: linearRGB(colors.accent) };
+  const [b0, b1, b2] = background.ramp.map(linearRGB);
+  const paper = { uBg: b0, uDim: b1, uAccent: b2, uAmt: background.amount, uDrift: background.drift, uFibre: background.fibre, uFibreScale: background.fibreScale };
 
   // Draws one frame from t and the frame index. layers.layer is the Canvas2D layer; layers.three,
   // if given, a three.js canvas composited under it; layers.drawGL(gl), if given, draws into the
@@ -25,7 +26,7 @@ export async function createPost(canvas) {
   return function render(t, frame, { layer, three = null, drawGL = null }, P, on = true) {
     uploadCanvas(gl, layerTex, layer);
     if (three) uploadCanvas(gl, threeTex, three);
-    pass(gl, bg, back, { uTime: t, uRes: [W, H], uFrame: { i: frame }, uOne: { i: 1 }, uAmt: BG_AMOUNT, ...tint });
+    pass(gl, bg, back, { uTime: t, uRes: [W, H], uFrame: { i: frame }, uOne: { i: 1 }, ...paper });
     if (drawGL) drawGL(gl);
     pass(gl, comp, scene, { uBack: { tex: back.tex }, uThree: { tex: threeTex }, uLayer: { tex: layerTex }, uHasThree: { i: +!!three } });
 
@@ -49,7 +50,7 @@ export async function createPost(canvas) {
     pass(gl, fin, null, {
       uScene: { tex: scene.tex }, uBloomTex: { tex: mips[0].tex }, uRes: [W, H], uFrame: { i: frame },
       uBloom: bloom ? P.bloom : 0, uExposure: P.exposure, uCA: P.ca, uVig: P.vig, uGrain: P.grain, uPost: { i: +on },
-      uRadial: P.radial, uOne: { i: 1 },
+      uRadial: P.radial, uOne: { i: 1 }, uTone: P.tone, uCurve: P.curve, uWarm: P.warm,
     });
   };
 }

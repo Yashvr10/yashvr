@@ -6,14 +6,15 @@ import * as s02 from './scenes/s02_type_demo.js';
 import * as s03 from './scenes/s03_diagram.js';
 import * as s04 from './scenes/s04_particles.js';
 import * as s05 from './scenes/s05_cards.js';
+import * as s06 from './scenes/s06_ledger.js';
 import { whip, zoomThrough, glitch, matchCut } from './engine/transitions.js';
 import { W, H, FPS } from './tokens.js';
 
-export const SCENES = { s01_title: s01, s02_type_demo: s02, s03_diagram: s03, s04_particles: s04, s05_cards: s05 };
+export const SCENES = { s01_title: s01, s02_type_demo: s02, s03_diagram: s03, s04_particles: s04, s05_cards: s05, s06_ledger: s06 };
 
 // Moving a cut is editing one number here: it ends one scene, starts the next and centres
 // the transition between them.
-const CUT = [0, 4.3, 11.3, 16.2, 20.6, 26.6];
+const CUT = [0, 4.3, 11.3, 16.2, 20.6, 26.6, 35.6];
 
 export const TIMELINE = [
   { scene: 's01_title', start: CUT[0], dur: CUT[1] - CUT[0], from: 0 },
@@ -30,6 +31,8 @@ export const TIMELINE = [
     },
   },
   { scene: 's05_cards', start: CUT[4], dur: CUT[5] - CUT[4], from: 1.0 },
+  // Hard cut (no transition entry), the reference's most common transition.
+  { scene: 's06_ledger', start: CUT[5], dur: CUT[6] - CUT[5], from: 0 },
 ];
 
 // Builds the lookup for a timeline. resolve(t) returns either { entry } or, inside a

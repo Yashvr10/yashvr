@@ -8,6 +8,7 @@ out vec4 o;
 uniform sampler2D uScene, uBloomTex;
 uniform vec2 uRes;
 uniform float uBloom, uExposure, uCA, uVig, uGrain, uRadial;
+uniform float uTone, uCurve, uWarm; // 0..1: how much of ACES, the S-curve and the warm/cool tint
 uniform int uFrame;
 uniform int uOne; // always 1: a runtime loop bound
 uniform bool uPost;
@@ -26,12 +27,13 @@ vec3 aces(vec3 c) {
   return clamp(OUT * c, 0.0, 1.0);
 }
 
-// Display-space grade: gentle S-curve, warm highs and cool lows, each at most 6%.
+// Display-space grade: gentle S-curve, warm highs and cool lows, each at most 6%, scaled by
+// uCurve and uWarm.
 vec3 grade(vec3 c) {
-  c = mix(c, c * c * (3.0 - 2.0 * c), 0.2);
+  c = mix(c, c * c * (3.0 - 2.0 * c), 0.2 * uCurve);
   float l = dot(c, vec3(0.2126, 0.7152, 0.0722));
-  c *= mix(vec3(1.0), vec3(1.06, 1.02, 0.94), smoothstep(0.5, 1.0, l));
-  c *= mix(vec3(1.0), vec3(0.94, 0.99, 1.06), 1.0 - smoothstep(0.0, 0.4, l));
+  c *= mix(vec3(1.0), vec3(1.06, 1.02, 0.94), smoothstep(0.5, 1.0, l) * uWarm);
+  c *= mix(vec3(1.0), vec3(0.94, 0.99, 1.06), (1.0 - smoothstep(0.0, 0.4, l)) * uWarm);
   return clamp(c, 0.0, 1.0);
 }
 
@@ -45,7 +47,8 @@ vec3 sceneAt(vec2 uv) {
 
 vec3 chain(vec2 uv) {
   vec3 c = sceneAt(uv) + texture(uBloomTex, uv).rgb * uBloom;
-  return grade(srgb(aces(c * uExposure)));
+  c *= uExposure;
+  return grade(mix(srgb(c), srgb(aces(c)), uTone));
 }
 
 uint pcg(uint v) {

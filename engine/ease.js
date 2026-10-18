@@ -3,6 +3,7 @@ export const win = (t, a, b) => clamp01((t - a) / (b - a));
 export const lerp = (a, b, u) => a + (b - a) * u;
 
 export const outCubic = (x) => 1 - (1 - x) ** 3;
+export const inOutCubic = (x) => (x < 0.5 ? 4 * x ** 3 : 1 - (-2 * x + 2) ** 3 / 2);
 export const inOutQuint = (x) => (x < 0.5 ? 16 * x ** 5 : 1 - (-2 * x + 2) ** 5 / 2);
 export const outExpo = (x) => (x >= 1 ? 1 : 1 - 2 ** (-10 * x));
 export const outBack = (x, s = 1.70158) => 1 + (s + 1) * (x - 1) ** 3 + s * (x - 1) ** 2;
