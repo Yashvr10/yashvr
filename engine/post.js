@@ -1,11 +1,12 @@
 // GL frame: fbm background, Canvas2D layer composited over it in linear space, then the post chain.
 import { createGL, program, target, canvasTexture, uploadCanvas, pass, linearRGB } from './gl.js';
-import { W, H, colors } from '../tokens.js';
+import { W, H, colors, post as look } from '../tokens.js';
 
 // thresh is linear luminance. 0.95 keeps our ink (0.88) and accent (0.32) text out of the bloom;
 // a scene lowers it per frame when it wants things to glow.
 // radial is a zoom blur toward the centre (a fraction of the distance to it), for transitions.
-export const POST_DEFAULTS = { bloom: 0.6, thresh: 0.95, ca: 0.8, grain: 0.045, vig: 0.35, exposure: 1, radial: 0 };
+// bloom, ca, vig and grain come from the style (tokens.post).
+export const POST_DEFAULTS = { thresh: 0.95, exposure: 1, radial: 0, ...look };
 const BG_AMOUNT = 0.035, LEVELS = 5;
 
 export async function createPost(canvas) {
