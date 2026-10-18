@@ -97,7 +97,9 @@ frames (they reset every frame); nothing in this video needs to.
 | s01_hook | scenes/s01_hook.js | 0.000 | 2.700 | kinetic type over collage | done, EXEMPLAR, frozen |
 | s02_growth | scenes/s02_growth.js | 2.700 | 2.533 (from 0.15) | chart built from pieces | done, EXEMPLAR, frozen |
 | s03_reveal | scenes/s03_reveal.js | 5.233 | 2.000 (from 0.1, hard cut in) | tiles assemble into ₹ (navy) | done (built by the lead; determinism PASS on 10, 40) |
-| s04_answer | scenes/s04_answer.js | 7.233 | 2.767 (no trim; ends at 10.000) | the answer: number + marks | done (determinism PASS on 15, 60; self-check below) |
+| s04_answer | scenes/s04_answer.js | 7.233 | 2.767 (no trim; ends at 10.000) | the answer: number + marks | done (determinism PASS on 15, 60; self-check passed) |
+
+All four scenes are done and the edit is final: s01 → whip → s02 → hard cut → s03 → flash → s04.
 
 ## 6. Exemplar scenes
 - `scenes/s01_hook.js`: the pattern every scene follows (its header lists the 5 steps): copy via
@@ -155,7 +157,10 @@ Copy the structure of `s01_hook.js` (type over collage).
   kicker at 1.08 s no trim is needed and `node render.mjs info` prints `"DURATION":10`, `"frames":300`.
 - Stills: `node compare.mjs s04_answer s01_hook`; determinism on frames 15 and 60.
 
-**Task 3: final render.** `node render.mjs video --workers 2`, `./encode.sh final1080`,
+**Task 3: final render: DONE.** Outputs (git-ignored, in `out/`): `final1080.mp4` (1080×1920),
+`final1080_16x9.mp4` (1920×1080), `final1080_silent_audio.mp4` (the 9:16 with a silent AAC track, for
+platforms that need audio). Each verified: 300 frames, 30 fps, exactly 10.000 s; qa-aspects: no text
+crosses a safe line. Steps run: `node render.mjs video --workers 2`, `./encode.sh final1080`,
 `node verify.mjs out/final1080.mp4`; the same with `--aspect 16x9` (frames into frames_16x9).
 `node qa-aspects.mjs` must print "no text crosses a safe line". Update this table.
 
@@ -175,6 +180,9 @@ Copy the structure of `s01_hook.js` (type over collage).
 12. The status table and Next tasks above are updated.
 
 ## 9. Known issues
+- `encode.sh` exits 1 without printing anything if `--out` is omitted (its default-name line, a
+  `$([ … ] && echo …)` substitution, returns 1 under `set -e`). Always pass `--out FILE`. Not fixed:
+  `encode.sh` is on the leave-alone list.
 - s04's "×" in "≈20,000×" is a small glyph in Anton (its design); it reads, but it is the faintest
   character on screen.
 - s04's source line is `sizes.small` (21 px in 9:16): legible on a phone, but the smallest type in the video.
