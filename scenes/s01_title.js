@@ -1,7 +1,8 @@
 import { win, outExpo, inOutQuint } from '../engine/ease.js';
 import { withCamera, defaultPush, layerScale, Z, PUSH, DRIFT } from '../engine/camera.js';
 import { lines, windows, registerText } from '../engine/copy.js';
-import { W, H, SS, colors, fonts, sizes, tracking, safe } from '../tokens.js';
+import { L, rowsOf } from '../engine/layout.js';
+import { W, H, SS, colors, fonts, sizes, tracking } from '../tokens.js';
 
 // Copy: [headline, slate label].
 const [HEADLINE, LABEL] = lines('s01_title');
@@ -18,7 +19,7 @@ export const end = captions[0].out;
 export const dur = end + EXIT;
 
 // Safe box in scene space, inset so the full camera push plus drift never crosses the margins.
-const SX = W / 2 - (W / 2 - safe.x - DRIFT.x) / (1 + PUSH), SY = H / 2 - (H / 2 - safe.y - DRIFT.y) / (1 + PUSH);
+const SX = W / 2 - (W / 2 - L.left - DRIFT.x) / (1 + PUSH), SY = H / 2 - (H / 2 - L.top - DRIFT.y) / (1 + PUSH);
 
 // The word layer is scratch space, cleared before every use, so it carries nothing between calls.
 let layer, lctx;
@@ -28,8 +29,10 @@ export async function load() {
   lctx.setTransform(SS, 0, 0, SS, 0, 0);
 }
 
-// One line if it fits at 85% of hero or more; otherwise greedy wrap to two, shrinking if needed.
+// 16:9: one line if it fits at 85% of hero or more; otherwise greedy wrap to two, shrinking if needed.
+// 9:16: stacked, the accent word alone on the last line under the others, balanced over one or two lines.
 function layout(ctx) {
+  if (L.stack) return stacked(ctx);
   const words = HEADLINE.split(' '), maxW = W - 2 * SX;
   for (let size = sizes.hero; size >= sizes.hero * 0.85; size -= 2) {
     ctx.font = `700 ${size}px ${fonts.display}`;
@@ -40,6 +43,29 @@ function layout(ctx) {
     const l = wrap(ctx, words, size, maxW);
     if (l.lines <= 2 || size <= sizes.h1) return l;
   }
+}
+
+function stacked(ctx) {
+  const words = HEADLINE.split(' '), maxW = W - 2 * SX, head = words.slice(0, ACCENT_WORD).join(' ');
+  for (let size = sizes.hero; ; size -= 2) {
+    ctx.font = `700 ${size}px ${fonts.display}`;
+    ctx.letterSpacing = `${tracking.display * size}px`;
+    const rows = [...(head ? rowsOf(ctx, head, maxW, 2) : []), words[ACCENT_WORD]];
+    if (Math.max(...rows.map((r) => ctx.measureText(r).width)) <= maxW || size <= sizes.h2) return place(ctx, rows, size);
+  }
+}
+
+// Word positions for fixed rows.
+function place(ctx, rows, size) {
+  const space = ctx.measureText(' ').width, placed = [];
+  rows.forEach((row, line) => {
+    let x = 0;
+    for (const w of row.split(' ')) {
+      placed.push({ w, i: placed.length, x, line });
+      x += ctx.measureText(w).width + space;
+    }
+  });
+  return { size, placed, lines: rows.length };
 }
 
 function wrap(ctx, words, size, maxW) {
@@ -80,9 +106,9 @@ function content(ctx, t, d) {
     ctx.fillRect(cx + 4, SY, 14, sizes.label);
   }
 
-  // Headline, left-aligned on the safe margin and vertically centred.
+  // Headline, left-aligned on the safe margin and centred in the safe band.
   const { size, placed, lines } = layout(ctx);
-  const lineH = size * 1.02, top = H / 2 - (lines * lineH) / 2;
+  const lineH = size * 1.02, top = L.cy() - (lines * lineH) / 2;
   lctx.font = ctx.font;
   lctx.letterSpacing = ctx.letterSpacing;
   for (const p of placed) {

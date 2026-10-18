@@ -1,15 +1,18 @@
 // node qa-captions.mjs: renders one still per caption at the middle of its hold into
 // qa/captions/, tiles them into qa/captions.png, and flags any caption line below 7:1 contrast
-// or outside tokens.safe16x9 (and reports which also leave the 9:16 crop's title-safe).
+// or outside tokens.titleSafe (and reports which also leave the 9:16 crop's title-safe in 16:9, or the
+// caption band in 9:16). Pass --aspect 9x16 for the vertical frame (and its edit).
 import { mkdir, writeFile } from 'node:fs/promises';
 import { serve, launch, openPage, grab, contactSheet } from './browser.mjs';
 
+const aspect = process.argv.includes('--aspect') ? process.argv[process.argv.indexOf('--aspect') + 1] : '16x9';
+
 const server = serve();
 const browser = await launch();
-const page = await openPage(browser, 'check');
-const { caps, safe16x9, safe9x16 } = await page.evaluate(async () => {
+const page = await openPage(browser, `check&aspect=${aspect}`);
+const { caps, safeA, safeB } = await page.evaluate(async () => {
   const t = await import(`${location.origin}/tokens.js`);
-  return { caps: window.CAPTIONS, safe16x9: t.safe16x9, safe9x16: t.safe9x16 };
+  return { caps: window.CAPTIONS, safeA: t.titleSafe, safeB: t.captionBand ?? t.cropSafe };
 });
 const inside = (b, s) => b.x0 >= s.x && b.y0 >= s.y && b.x1 <= s.x + s.w && b.y1 <= s.y + s.h;
 
@@ -25,7 +28,7 @@ for (const [k, c] of caps.entries()) {
     const mine = boxes.filter((b) => b.text === line);
     if (!mine.length) { rows.push({ k: k + 1, t, line, ratio: null, s169: null, s916: null }); continue; }
     const b = mine.reduce((p, q) => ((q.ratio ?? 99) < (p.ratio ?? 99) ? q : p));
-    rows.push({ k: k + 1, t, line, ratio: b.ratio, s169: mine.every((m) => inside(m, safe16x9)), s916: mine.every((m) => inside(m, safe9x16)) });
+    rows.push({ k: k + 1, t, line, ratio: b.ratio, s169: mine.every((m) => inside(m, safeA)), s916: mine.every((m) => inside(m, safeB)) });
   }
   shots.push({ file, label: `${k + 1} · ${c.scene} · ${t.toFixed(2)}s` });
 }
@@ -34,7 +37,7 @@ await browser.close();
 server.close();
 
 let fails = 0;
-console.log('#  t(s)    contrast  16:9 safe  9:16 safe  line');
+console.log(`#  t(s)    contrast  title-safe ${aspect === '9x16' ? 'cap band ' : '9:16 crop'}  line`);
 for (const r of rows) {
   const bad = r.ratio === null || r.ratio < 7 || !r.s169;
   fails += bad;

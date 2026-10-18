@@ -10,7 +10,8 @@
 // Options: --batch N (relaunch the browser every N frames, default 60), --workers N (split a
 // video range across N child processes), --every N (preview stride), --out DIR (frame folder
 // for video, default frames), --ss N (supersample: frames are 1920N × 1080N), --solo <scene id>
-// (that scene alone, from 0). CHROME_PATH picks the browser binary.
+// (that scene alone, from 0), --aspect 16x9|9x16 (9:16 plays the short edit unless --edit full).
+// CHROME_PATH picks the browser binary.
 //
 // Frames are captured with canvas.toDataURL after `await window.renderFrame(i / FPS)`, so the
 // resolution is the canvas's. Any page error or console error exits non-zero. A watchdog kills
@@ -37,7 +38,8 @@ const mode = pos.shift();
 const BATCH = Number(flags.batch ?? 60), WORKERS = Number(flags.workers ?? 1), EVERY = Number(flags.every ?? 3);
 const OUT = resolve(ROOT, flags.out ?? 'frames');
 const SS = Number(flags.ss ?? 1);
-const QUERY = `render&ss=${SS}${flags.solo ? `&solo=${encodeURIComponent(flags.solo)}` : ''}`;
+// Page parameters passed through: --aspect 16x9|9x16, --edit full|short, --solo <scene id>.
+const QUERY = `render&ss=${SS}${['aspect', 'edit', 'solo'].map((k) => (flags[k] ? `&${k}=${encodeURIComponent(flags[k])}` : '')).join('')}`;
 const TAG = flags.worker ? `[w${flags.worker}] ` : '';
 const log = (...a) => console.log(TAG + a.join(' '));
 const warn = (...a) => console.warn(`${TAG}WARN ${a.join(' ')}`);
@@ -196,7 +198,8 @@ async function video(port) {
     const n = to - from, size = Math.ceil(n / WORKERS), kids = [];
     for (let w = 0; w < WORKERS && from + w * size < to; w++) {
       const a = from + w * size, b = Math.min(to, a + size);
-      const args = [SELF, 'video', a, b, '--batch', BATCH, '--out', OUT, '--ss', SS, '--worker', w + 1, ...(flags.solo ? ['--solo', flags.solo] : [])].map(String);
+      const pass = ['aspect', 'edit', 'solo'].flatMap((k) => (flags[k] ? [`--${k}`, flags[k]] : []));
+      const args = [SELF, 'video', a, b, '--batch', BATCH, '--out', OUT, '--ss', SS, '--worker', w + 1, ...pass].map(String);
       kids.push(new Promise((ok) => spawn(process.execPath, args, { stdio: 'inherit' }).on('exit', ok)));
     }
     const codes = await Promise.all(kids);

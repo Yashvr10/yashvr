@@ -6,6 +6,7 @@
 import { win, lerp, inOutQuint } from './ease.js';
 import { hash } from './rng.js';
 import { layer, unit } from './layer.js';
+import { L } from './layout.js';
 import { W, H, SS, FPS, colors, stroke } from '../tokens.js';
 
 // Draws a scene into scratch layer k at identity and returns that layer.
@@ -27,13 +28,14 @@ function put(ctx, src, { x = 0, y = 0, s = 1, alpha = 1, op = 'source-over' } = 
 }
 const post = () => globalThis.POST;
 
-// Horizontal motion blur over `spread` px of travel (the distance the content moved since the
-// previous frame, sampled backwards along it). An 8-tap box run twice, so 64 samples in all
-// and no visible ghost copies even at whip speeds. tmp1 and tmp2 are scratch layers other than src's.
-function smear(ctx, src, spread, tmp1, tmp2) {
+// Motion blur along x (or y, when vertical) over `spread` px of travel (the distance the content
+// moved since the previous frame, sampled backwards along it). An 8-tap box run twice, so 64
+// samples in all and no visible ghost copies even at whip speeds. tmp1 and tmp2 are scratch
+// layers other than src's.
+function smear(ctx, src, spread, tmp1, tmp2, vertical = false) {
   if (Math.abs(spread) < 0.5) return put(ctx, src);
   const taps = (dst, from, span) => {
-    for (let k = 0; k < 8; k++) put(dst, from, { x: (span * k) / 7, alpha: 1 / 8, op: 'lighter' });
+    for (let k = 0; k < 8; k++) put(dst, from, { [vertical ? 'y' : 'x']: (span * k) / 7, alpha: 1 / 8, op: 'lighter' });
   };
   const mid = layer(tmp1, ctx);
   unit(mid);
@@ -44,17 +46,19 @@ function smear(ctx, src, spread, tmp1, tmp2) {
   put(ctx, out);
 }
 
-// A slides out left as B slides in from the right, inOutQuint, motion-blurred along x.
+// A slides out left as B slides in from the right, inOutQuint, motion-blurred along x. In a
+// stacked (9:16) layout it whips vertically: A slides out the top as B comes up from below.
 export function whip(ctx, t, drawA, drawB, t0, dur = whip.dur) {
-  const travel = (tt) => W * inOutQuint(win(tt, t0, t0 + dur));
-  const x = travel(t), moved = x - travel(t - 1 / FPS);
+  const v = L.stack, span = v ? H : W, axis = v ? 'y' : 'x';
+  const travel = (tt) => span * inOutQuint(win(tt, t0, t0 + dur));
+  const d = travel(t), moved = d - travel(t - 1 / FPS);
   const a = render(4, ctx, drawA), b = render(5, ctx, drawB);
   const frame = layer(6, ctx);
   unit(frame);
-  put(frame, a, { x: -x });
-  put(frame, b, { x: W - x });
-  // Content moves left by `moved`, so its trail lies to the right. A's layer is free again.
-  smear(ctx, frame, moved, 7, 4);
+  put(frame, a, { [axis]: -d });
+  put(frame, b, { [axis]: span - d });
+  // Content moves left (up) by `moved`, so its trail lies to the right (below). A's layer is free again.
+  smear(ctx, frame, moved, 7, 4, v);
 }
 whip.dur = 0.2;
 whip.anchor = 0.5;

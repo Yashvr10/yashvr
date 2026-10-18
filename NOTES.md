@@ -9,6 +9,18 @@
   then `document.fonts.ready`, then each scene's `load()`.
 - The preview loop runs only when the URL has no `?render`.
 
+# Aspects
+
+`?aspect=16x9|9x16` (render.mjs `--aspect`). tokens.js sets W, H, the type sizes (9:16 at 90%,
+measured against TH = 1080 × TYPE) and `safe` = { x, top, bottom } (9:16: 108, 280, 560). Scenes
+place everything through `engine/layout.js`: `L.cx()`, `L.cy()` (centre of the safe band), `L.col`,
+`L.row`, `L.slot` (columns in 16:9, a stack in 9:16), `L.type(px)` for type-sized offsets,
+`L.cap(pct)`, `L.textTop`, and `L.stack` (H > W). `rowsOf` re-breaks lines into balanced rows only
+when stacked, so 16:9 stays as composed. 9:16 plays the short edit (`SHORT` in timeline.js, 17.5 s)
+unless `?edit=full`. `?guides` adds the safe margins (yellow) and the 9:16 caption band (magenta).
+`node qa-aspects.mjs && python3 qa-sheet.py` renders every scene in both aspects into
+qa/sheet_16x9.png and qa/sheet_9x16.png and lists text crossing a safe line.
+
 # Supersampling
 
 `?ss=N` (render.mjs `--ss N`) sizes #c, the 2D layer, the scratch layers and the three.js canvas at

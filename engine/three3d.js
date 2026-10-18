@@ -145,20 +145,28 @@ export function landCard(c, t, t0, { z = 0, dur = 0.7 } = {}) {
 // Spreads cards into a fan: x by spacing, a slight arc down and a tilt out. from is the
 // spread before the fan (0 = stacked; above 0 lets each card land in its own clear slot,
 // since a card landing behind another stays hidden until it passes through it).
-export function fan(cards, t, t0, { dur = 0.9, spacing = 470, angle = 4, arc = 22, from = 0 } = {}) {
+// vertical: the fan runs top to bottom instead, the arc pushing the outer cards right.
+// y0 offsets the whole fan (world units, y up).
+export function fan(cards, t, t0, { dur = 0.9, spacing = 470, angle = 4, arc = 22, from = 0, vertical = false, y0 = 0 } = {}) {
   const u = inOutQuint(win(t, t0, t0 + dur)), mid = (cards.length - 1) / 2;
   cards.forEach((c, i) => {
-    const k = i - mid;
-    c.position.x = k * spacing * lerp(from, 1, u);
-    c.position.y = -Math.abs(k) * arc * u;
-    c.rotation.z = -k * angle * DEG * u;
+    const k = i - mid, along = k * spacing * lerp(from, 1, u);
+    if (vertical) {
+      c.position.set(Math.abs(k) * arc * u, y0 - along, c.position.z);
+      c.rotation.z = -k * angle * 0.5 * DEG * u;
+    } else {
+      c.position.x = along;
+      c.position.y = y0 - Math.abs(k) * arc * u;
+      c.rotation.z = -k * angle * DEG * u;
+    }
   });
 }
 
 // Camera trucks along the wall from −pan to +pan while pushing in by push (a fraction of the
-// pixel distance), inOutQuint between t0 and t1. It always looks straight ahead.
-export function wallDolly(camera, t, t0, t1, { pan = 60, push = 0.06 } = {}) {
-  const u = inOutQuint(win(t, t0, t1));
-  camera.position.set(lerp(-pan, pan, u), 0, PIXEL_Z * (1 - push * u));
+// pixel distance), inOutQuint between t0 and t1. It always looks straight ahead. vertical trucks
+// down the wall instead of across it. PIXEL_Z comes from H, so the framing holds in either aspect.
+export function wallDolly(camera, t, t0, t1, { pan = 60, push = 0.06, vertical = false } = {}) {
+  const u = inOutQuint(win(t, t0, t1)), p = lerp(-pan, pan, u);
+  camera.position.set(vertical ? 0 : p, vertical ? -p : 0, PIXEL_Z * (1 - push * u));
   camera.rotation.set(0, 0, 0);
 }

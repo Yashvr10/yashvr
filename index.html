@@ -18,7 +18,7 @@ html,body{margin:0;background:#eae9e9}canvas{display:block}
 <body>
 <canvas id="c" width="1920" height="1080"></canvas>
 <script type="module">
-import { W, H, SS, FPS, fontLoads, safe16x9, safe9x16 } from './tokens.js';
+import { W, H, SS, FPS, ASPECT, fontLoads, safe, titleSafe, cropSafe, captionBand } from './tokens.js';
 import { resetBoxes, checkContrast, duckAt, DUCK } from './engine/copy.js';
 import { main, solo } from './timeline.js';
 import { createPost, POST_DEFAULTS } from './engine/post.js';
@@ -61,6 +61,7 @@ window.renderFrame = (t) => {
 window.DURATION = timeline.DURATION;
 window.FPS = FPS;
 window.SS = SS;
+window.ASPECT = ASPECT;
 
 for (const f of fontLoads) {
   if (!(await document.fonts.load(f)).length) throw new Error(`font did not load: ${f}`);
@@ -76,21 +77,28 @@ const gl2 = canvas.getContext('webgl2'); // the same context post uses
 window.CAPTIONS = timeline.captions;
 window.READY = true;
 
-// ?guides (preview only, never with ?render): 16:9 title-safe in cyan, the 9:16 crop's
-// title-safe in magenta, drawn on a separate canvas over the frame so no render ever sees it.
+// ?guides (preview only, never with ?render), on a separate canvas over the frame so no render
+// ever sees it: the layout's safe margins (tokens.safe) in yellow, title-safe in cyan, and in
+// magenta the 9:16 caption band (15–70% of the height, 10% side margins) or, in 16:9, the
+// title-safe of a centred 9:16 crop.
 if (params.has('guides') && !params.has('render')) {
   const g = document.createElement('canvas');
   g.width = W;
   g.height = H;
-  g.style.cssText = 'position:absolute;left:0;top:0;pointer-events:none';
+  g.style.cssText = `position:absolute;left:0;top:0;width:${W}px;pointer-events:none`;
   document.body.appendChild(g);
   const c = g.getContext('2d');
   c.lineWidth = 2;
   c.setLineDash([12, 8]);
-  [[safe16x9, '#00c8ff'], [safe9x16, '#ff2bd6']].forEach(([s, color]) => {
+  const band = { x: safe.x, y: safe.top, w: W - 2 * safe.x, h: H - safe.top - safe.bottom };
+  [[band, '#f0c000'], [titleSafe, '#00c8ff'], [captionBand ?? cropSafe, '#ff2bd6']].forEach(([s, color]) => {
     c.strokeStyle = color;
     c.strokeRect(s.x + 0.5, s.y + 0.5, s.w - 1, s.h - 1);
   });
+  if (captionBand) {
+    c.fillStyle = 'rgba(255, 43, 214, 0.08)';
+    c.fillRect(captionBand.x, captionBand.y, captionBand.w, captionBand.h);
+  }
 }
 
 // Live preview only. The clock picks t; it never reaches renderFrame.

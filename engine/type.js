@@ -1,18 +1,20 @@
 // Kinetic type for Canvas2D. Every move is move(ctx, t, opts): t is seconds since the move
 // started, it draws immediately and depends only on t and opts.
 // Common opts: text, x, y (baseline), align ('center' | 'left' | 'right'), size, weight,
-// family (a key of tokens.fonts), track (em), color, accent.
+// family (a key of tokens.fonts), track (em), color, accent, label (the copy line this text is
+// part of, for the contrast and safe checks; defaults to text).
 import { win, outExpo, outCubic, inOutQuint } from './ease.js';
 import { hash } from './rng.js';
 import { layer, blit } from './layer.js';
 import { registerText } from './textboxes.js';
+import { L } from './layout.js';
 import { W, H, SS, FPS, colors, fonts, sizes, tracking } from '../tokens.js';
 
-const base = (o) => ({
+export const fontOf = (o) => `${o.weight} ${o.size}px ${fonts[o.family]}`;
+export const base = (o) => ({
   family: 'display', weight: 700, size: sizes.hero, track: tracking.display,
-  color: colors.ink, accent: colors.accent, align: 'center', x: W / 2, y: H / 2, ...o,
+  color: colors.ink, accent: colors.accent, align: 'center', x: L.cx(), y: L.cy(), ...o,
 });
-const fontOf = (o) => `${o.weight} ${o.size}px ${fonts[o.family]}`;
 const leftOf = (o, width) => (o.align === 'center' ? o.x - width / 2 : o.align === 'right' ? o.x - width : o.x);
 
 // Glyph positions keep the font's kerning: each x is the width of the prefix up to and
@@ -46,7 +48,7 @@ function lay(ctx, o, str = o.text) {
   for (const g of l.glyphs) g.x += dx + shift + (g.i >= e ? 2 * px : g.i >= s ? px : 0);
   ctx.textBaseline = 'alphabetic';
   const last = l.glyphs.at(-1);
-  if (last) registerText(ctx, l.glyphs[0].x, o.y - o.size * 0.8, last.x + last.w, o.y + o.size * 0.25, o.color, str);
+  if (last) registerText(ctx, l.glyphs[0].x, o.y - o.size * 0.8, last.x + last.w, o.y + o.size * 0.25, o.color, o.label ?? str);
   return l;
 }
 

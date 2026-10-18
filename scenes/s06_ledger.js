@@ -2,13 +2,16 @@
 // Shot 1 (0–6.5 s): a ruled ledger page; bars draw on year by year; the camera moves down the
 // page to 2020–2024; a red underline and circle mark the steepest year.
 // Shot 2 (6.5–9 s, hard cut): a slab-serif quoted phrase types on with a marker behind it,
-// above a dashed outline of an absent card.
+// above a dashed outline of an absent card. Its exit (lift and fade to bare paper, after `end`)
+// plays only where an edit includes it: the vertical edit ends on it, so it loops into s01's empty first frame.
 import { win, inOutCubic } from '../engine/ease.js';
 import { hash } from '../engine/rng.js';
 import { measure, pointAt, drawOn } from '../engine/draw.js';
 import { withCamera } from '../engine/camera.js';
+import { fade } from '../engine/type.js';
+import { L, rowsOf, baselines } from '../engine/layout.js';
 import { lines, windows, registerText } from '../engine/copy.js';
-import { W, H, colors, fonts, sizes, safe, motion, stroke, radius } from '../tokens.js';
+import { FPS, colors, fonts, sizes, motion, stroke, radius } from '../tokens.js';
 
 const ID = 's06_ledger';
 // Copy: [title, subtitle, quoted phrase, caption under the absent card].
@@ -28,13 +31,17 @@ export const captions = windows(ID, [
   { lines: [2], in: CUT + motion.titleDelay, at: CUT + TYPED + motion.marker },
   { lines: [3], in: CUT, at: CUT },
 ]);
-export const dur = Math.max(9, ...captions.map((c) => c.out));
-export const end = dur;
-const ROW = 150, ROW0 = 420; // row centres in page px
-const RULE_X = safe.x + 290, BAR_X = RULE_X + 44, BAR_H = 56;
-const BAR_PER = (W - safe.x - 210 - BAR_X) / 70; // px per percentage point
-// The move ends with 2019's top rule on the frame edge, so no row is cut in half.
-const MOVE = [3.3, 3.3 + motion.move], OFFSET = ROW0 + ROW * 5 - ROW / 2; // page scroll in px
+export const end = Math.max(9, ...captions.map((c) => c.out));
+const EXIT = 0.5;
+export const dur = end + EXIT;
+// The page, in the layout: header on the safe top, rows sized with the type, bars filling the band.
+const TITLE_Y = L.textTop + L.cap(10.8); // title baseline: its cap height under the text top
+const ROW = L.type(150), ROW0 = TITLE_Y + L.type(177); // row centres in page px
+const RULE_X = L.left + L.type(290), BAR_X = RULE_X + L.type(44), BAR_H = L.type(56);
+const BAR_PER = (L.right - L.type(210) - BAR_X) / 70; // px per percentage point
+// The move ends with 2019's top rule on the frame edge (16:9) or the safe top (9:16, under the
+// platform's top bar), so no row is cut in half.
+const MOVE = [3.3, 3.3 + motion.move], OFFSET = ROW0 + ROW * 5 - ROW / 2 - (L.stack ? L.top : 0); // page scroll in px
 const rowY = (i) => ROW0 + ROW * i;
 const growAt = (i) => (i < 5 ? 0.6 + 0.12 * i : MOVE[1] + 0.07 + 0.12 * (i - 5));
 const font = (style, weight, size, family = fonts.display) => `${style} ${weight} ${size}px ${family}`;
@@ -42,22 +49,27 @@ const font = (style, weight, size, family = fonts.display) => `${style} ${weight
 // Annotations are fixed polylines in page px, measured once at load.
 let underline, circle, card;
 export async function load() {
-  const y = rowY(STEEPEST) + BAR_H / 2 + 22, x1 = BAR_X + SHARE[STEEPEST] * BAR_PER + 170;
-  underline = Array.from({ length: 25 }, (_, k) => [safe.x - 10 + ((x1 - safe.x + 10) * k) / 24, y + 4 * Math.sin(k * 0.9) + (k / 24) * 6]);
+  const y = rowY(STEEPEST) + BAR_H / 2 + L.type(22), x1 = BAR_X + SHARE[STEEPEST] * BAR_PER + L.type(170);
+  underline = Array.from({ length: 25 }, (_, k) => [L.left - 10 + ((x1 - L.left + 10) * k) / 24, y + 4 * Math.sin(k * 0.9) + (k / 24) * 6]);
   // A hand-drawn loop: 1.1 turns with a slightly uneven, fixed radius.
-  const cx = BAR_X + SHARE[STEEPEST] * BAR_PER + 95, cy = rowY(STEEPEST) - 4;
+  const cx = BAR_X + SHARE[STEEPEST] * BAR_PER + L.type(95), cy = rowY(STEEPEST) - 4;
   circle = Array.from({ length: 61 }, (_, k) => {
     const a = -2.4 + (k / 60) * Math.PI * 2 * 1.1, r = 1 + 0.05 * (hash(k >> 3, 61) - 0.5) + 0.04 * (k / 60);
-    return [cx + 112 * r * Math.cos(a), cy + 64 * r * Math.sin(a)];
+    return [cx + L.type(112) * r * Math.cos(a), cy + L.type(64) * r * Math.sin(a)];
   });
-  // The absent card: a rounded-rectangle loop, centred below the quote.
-  const cw = 560, ch = 350, x0 = W / 2 - cw / 2, y0 = 560, r = radius * 1.75, pts = [];
+  // The absent card: a rounded-rectangle loop, centred below the quote, its top just under the band's centre.
+  const cw = CARD.w, ch = CARD.h, x0 = L.cx() - cw / 2, y0 = CARD.y, r = radius * 1.75, pts = [];
   const corner = (cx2, cy2, a0) => { for (let k = 0; k <= 6; k++) { const a = ((a0 + 15 * k) * Math.PI) / 180; pts.push([cx2 + r * Math.cos(a), cy2 + r * Math.sin(a)]); } };
   corner(x0 + r, y0 + r, 180); corner(x0 + cw - r, y0 + r, 270); corner(x0 + cw - r, y0 + ch - r, 0); corner(x0 + r, y0 + ch - r, 90);
   pts.push(pts[0]);
   card = pts;
   [underline, circle, card].forEach(measure);
 }
+
+// The absent card and its caption, 90 px under it: the card's top just under the band's centre,
+// raised if that would put the caption's descenders past the safe bottom.
+const CARD_CAPTION = Math.min(L.cy() + 460, L.bottom - sizes.label * 0.25);
+const CARD = { w: 560, h: 350, y: CARD_CAPTION - 90 - 350 };
 
 // The first fraction p of a polyline as points (for dashed partial strokes).
 function partial(pts, p) {
@@ -79,17 +91,17 @@ function ledger(ctx, t) {
   // Ruled lines and the red margin rule.
   ctx.fillStyle = colors.dim;
   ctx.globalAlpha = 0.45;
-  for (let i = 0; i <= YEARS.length; i++) ctx.fillRect(safe.x - 40, rowY(i) - ROW / 2, W - 2 * safe.x + 80, 2);
+  for (let i = 0; i <= YEARS.length; i++) ctx.fillRect(L.left - 40, rowY(i) - ROW / 2, L.width + 80, 2);
   ctx.globalAlpha = 1;
   ctx.fillStyle = colors.accent;
   ctx.fillRect(RULE_X, rowY(0) - ROW / 2 - 40, 3, ROW * YEARS.length + 80);
   ctx.fillRect(RULE_X + 9, rowY(0) - ROW / 2 - 40, 3, ROW * YEARS.length + 80);
 
   // Header, right-aligned: bold italic title wipes on, italic subtitle under it.
-  const titleY = safe.y + Math.round(0.108 * H);
+  const titleY = TITLE_Y;
   ctx.save();
   ctx.beginPath();
-  const right = W - safe.x, wipe = win(t, motion.titleDelay, motion.titleDelay + motion.titleWipe);
+  const right = L.right, wipe = win(t, motion.titleDelay, motion.titleDelay + motion.titleWipe);
   ctx.font = font('italic', 700, sizes.hero);
   const tw = ctx.measureText(T[0]).width;
   ctx.rect(right - tw - 20, 0, (tw + 40) * wipe, titleY + 40);
@@ -98,13 +110,14 @@ function ledger(ctx, t) {
   ctx.textAlign = 'right';
   ctx.fillText(T[0], right, titleY);
   ctx.restore();
-  registerText(ctx, right - tw, titleY - 0.108 * H, right, titleY + sizes.hero * 0.25, colors.ink, T[0]);
+  registerText(ctx, right - tw, titleY - L.cap(10.8), right, titleY + sizes.hero * 0.25, colors.ink, T[0]);
   ctx.font = font('italic', 400, sizes.label);
   ctx.fillStyle = colors.ink;
   ctx.textAlign = 'right';
-  ctx.fillText(T[1], right, titleY + 64);
+  const subY = titleY + L.type(64);
+  ctx.fillText(T[1], right, subY);
   const sw = ctx.measureText(T[1]).width;
-  registerText(ctx, right - sw, titleY + 64 - sizes.label * 0.72, right, titleY + 64 + sizes.label * 0.25, colors.ink, T[1]);
+  registerText(ctx, right - sw, subY - sizes.label * 0.72, right, subY + sizes.label * 0.25, colors.ink, T[1]);
 
   // Years, bars (ink hatching, drawn on left to right) and values.
   ctx.font = font('', 400, sizes.body);
@@ -113,7 +126,7 @@ function ledger(ctx, t) {
     const y = rowY(i), grow = win(t, growAt(i), growAt(i) + motion.drawOn);
     ctx.fillStyle = colors.ink;
     ctx.textAlign = 'left';
-    ctx.fillText(String(year), safe.x, y + 4);
+    ctx.fillText(String(year), L.left, y + 4);
     if (grow <= 0) return;
     const w = SHARE[i] * BAR_PER * grow;
     ctx.save();
@@ -131,7 +144,7 @@ function ledger(ctx, t) {
     ctx.strokeRect(BAR_X + 1.5, y - BAR_H / 2 + 1.5, w - 3, BAR_H - 3);
     ctx.restore();
     ctx.fillStyle = colors.ink;
-    typeOn(ctx, `${SHARE[i]}%`, BAR_X + SHARE[i] * BAR_PER + 30, y + 4, growAt(i) + motion.drawOn, t);
+    typeOn(ctx, `${SHARE[i]}%`, BAR_X + SHARE[i] * BAR_PER + L.type(30), y + 4, growAt(i) + motion.drawOn, t);
   });
   ctx.textBaseline = 'alphabetic';
 
@@ -146,19 +159,23 @@ function ledger(ctx, t) {
 }
 
 function quote(ctx, u) {
-  const text = T[2], size = sizes.h1, baseline = safe.y + Math.round(0.097 * H);
+  const size = sizes.h1, cap = L.type(0.097 * 1080), first = L.textTop + Math.ceil(cap); // box top on or under textTop
   ctx.font = font('', 700, size, fonts.slab);
-  const full = ctx.measureText(text).width, x0 = W / 2 - full / 2;
-  // Marker behind the text: from half the cap height above the baseline to just below it.
-  const typed = TYPED;
-  const m = win(u, typed, typed + motion.marker), cap = 0.097 * H;
-  if (m > 0) {
-    ctx.fillStyle = colors.highlight;
-    ctx.fillRect(x0 + size * 0.12, baseline - cap * 0.5, (full - size * 0.24) * m, cap * 0.6);
+  // One line in 16:9; balanced rows in 9:16, typed one after the other (same total time).
+  // Marker behind each row: from half the cap height above the baseline to just below it.
+  const m = win(u, TYPED, TYPED + motion.marker);
+  let off = 0;
+  for (const [k, text] of rowsOf(ctx, T[2], L.width).entries()) {
+    const baseline = first + k * size * 1.1, full = ctx.measureText(text).width, x0 = L.cx() - full / 2;
+    if (m > 0) {
+      ctx.fillStyle = colors.highlight;
+      ctx.fillRect(x0 + size * 0.12, baseline - cap * 0.5, (full - size * 0.24) * m, cap * 0.6);
+    }
+    ctx.fillStyle = colors.ink;
+    typeOn(ctx, text, L.cx(), baseline, motion.titleDelay + motion.typePerChar * off, u, 'center');
+    registerText(ctx, x0, baseline - cap, x0 + full, baseline + size * 0.25, colors.ink, T[2]);
+    off += [...text].length + 1;
   }
-  ctx.fillStyle = colors.ink;
-  typeOn(ctx, text, W / 2, baseline, motion.titleDelay, u, 'center');
-  registerText(ctx, x0, baseline - cap, x0 + full, baseline + size * 0.25, colors.ink, text);
 
   // The absent card: a dashed red outline drawing on, with a caption under it.
   ctx.strokeStyle = colors.accent;
@@ -176,9 +193,9 @@ function quote(ctx, u) {
   ctx.font = font('italic', 400, sizes.label);
   ctx.fillStyle = colors.ink;
   ctx.textAlign = 'center';
-  ctx.fillText(T[3], W / 2, 1000);
+  ctx.fillText(T[3], L.cx(), CARD_CAPTION);
   const cw = ctx.measureText(T[3]).width;
-  registerText(ctx, W / 2 - cw / 2, 1000 - sizes.label * 0.72, W / 2 + cw / 2, 1000 + sizes.label * 0.25, colors.ink, T[3]);
+  registerText(ctx, L.cx() - cw / 2, CARD_CAPTION - sizes.label * 0.72, L.cx() + cw / 2, CARD_CAPTION + sizes.label * 0.25, colors.ink, T[3]);
 }
 
 export function draw(ctx, t) {
@@ -187,6 +204,8 @@ export function draw(ctx, t) {
     const y = -OFFSET * inOutCubic(win(t, MOVE[0], MOVE[1]));
     withCamera(ctx, { s: 1, x: 0, y, r: 0 }, (c) => ledger(c, t));
   } else {
-    withCamera(ctx, { s: 1, x: 0, y: 0, r: 0 }, (c) => quote(c, t - CUT));
+    // After `end`, the exit: lift and fade to bare paper, gone by the scene's last frame.
+    const e = inOutCubic(win(t, end, dur - 1 / FPS));
+    withCamera(ctx, { s: 1, x: 0, y: 0, r: 0 }, (c) => fade(c, 1 - e, -40 * e, (l) => quote(l, t - CUT)));
   }
 }

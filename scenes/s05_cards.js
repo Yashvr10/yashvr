@@ -5,6 +5,7 @@ import {
 } from '../engine/three3d.js';
 import { lines, windows, parseNumber, registerBox } from '../engine/copy.js';
 import { W, H, colors, fonts, tracking } from '../tokens.js';
+import { L } from '../engine/layout.js';
 
 const ID = 's05_cards';
 // Copy: [chart label, stat label, stat total, stat delta, checklist label, 4 checklist items].
@@ -20,6 +21,14 @@ export const dur = Math.max(7, captions[0].out);
 export const end = dur;
 // Paper-style faces: paper-shade surface, ink type (dark faces lost the ink text after the palette moved to paper).
 const surface = colors.paper;
+// 16:9 fans the cards in a row; 9:16 stacks them, CH + 40 apart, centred on the safe band
+// (world y is up from the frame centre). Spacing, pan and offset in world units = px at z = 0.
+const SPACING = L.stack ? CH + 40 : 470, PAN = 60, Y0 = H / 2 - L.cy();
+const FAN_OPTS = { from: SLOT, spacing: SPACING, vertical: L.stack, y0: Y0 };
+// The first (chart) card in its landing slot on screen, at t = 0 of the dolly, for a match cut into it.
+export const landedRect = L.stack
+  ? { x: W / 2, y: H / 2 - Y0 - SLOT * SPACING + PAN, w: CW, h: CH, r: 24 }
+  : { x: W / 2 + PAN - SLOT * SPACING, y: H / 2 - Y0, w: CW, h: CH, r: 24 };
 
 let st, cards, tiles;
 
@@ -90,7 +99,8 @@ export async function load() {
     return c;
   });
   // Two glossy accent tiles far behind the cards, clear of the fanned layout.
-  tiles = [[-960, 360, -500, 150], [980, -380, -420, 120]].map(([x, y, z, size]) => {
+  // Their positions follow the frame: left edge a third up, right edge a third down.
+  tiles = [[-W / 2, H / 3, -500, 150], [W / 2 + 20, -(H / 3 + 20), -420, 120]].map(([x, y, z, size]) => {
     const m = tile(size, { color: colors.accent });
     m.position.set(x, y, z);
     st.scene.add(m);
@@ -122,7 +132,7 @@ export function draw() {}
 
 export function draw3D(t) {
   cards.forEach((c, i) => landCard(c, t, LAND[i], { z: 4 * i }));
-  fan(cards, t, FAN, { from: SLOT });
+  fan(cards, t, FAN, FAN_OPTS);
   const value = Math.round(TOTAL * outCubic(win(t, COUNT[0], COUNT[1])));
   setCardContent(cards[1], drawStat(value), value);
 
@@ -130,7 +140,7 @@ export function draw3D(t) {
   tiles.forEach((m, i) => {
     m.rotation.set(lerp(0.5, 0.2, settle) * (i ? -1 : 1), lerp(-0.6, 0.35, settle), lerp(0.2, -0.1, settle));
   });
-  wallDolly(st.camera, t, 0, SETTLE);
+  wallDolly(st.camera, t, 0, SETTLE, { pan: PAN, vertical: L.stack });
   registerCardText(cards[1], [[32, 30, CW - 32, 54, T[1]], [30, 106, CW - 30, 206, T[2]]]);
   return render3D(st);
 }

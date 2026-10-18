@@ -6,7 +6,8 @@ import {
 import { fade, odometer, scramble, glyphsOf, scrambleLocks } from '../engine/type.js';
 import { withCamera, defaultPush, layerScale, punch, particleCam, Z } from '../engine/camera.js';
 import { lines, windows, parseNumber, duckAt, DUCK } from '../engine/copy.js';
-import { W, H, colors } from '../tokens.js';
+import { H, colors } from '../tokens.js';
+import { L } from '../engine/layout.js';
 
 const ID = 's04_particles';
 const T = lines(ID); // [the counted number, its caption]
@@ -21,15 +22,19 @@ const camAt = (t) => {
 };
 
 const MOTES = { n: 600, layers: 3 };
-const ODO = { t0: 1.0, from: 0, to: NUM.value, prefix: NUM.prefix, suffix: NUM.suffix, dur: 1.0, x: W / 2, y: H / 2 + 40, size: 220 };
-const BURST = { t0: 2.0, x: W / 2, y: H / 2 - 40, n: 220, speed: 900 };
+// Number, burst and caption sit about the centre of the safe band; type offsets scale with type.
+const ODO = { t0: 1.0, from: 0, to: NUM.value, prefix: NUM.prefix, suffix: NUM.suffix, dur: 1.0, x: L.cx(), y: L.cy() + L.type(40), size: L.type(220) };
+const BURST = { t0: 2.0, x: L.cx(), y: L.cy() - L.type(40), n: 220, speed: 900 };
 const CAPTION = {
-  t0: 2.15, dur: 0.6, text: T[1], x: W / 2, y: H / 2 + 140,
-  family: 'mono', weight: 400, size: 34, track: 0.12, color: colors.ink,
+  t0: 2.15, dur: 0.6, text: T[1], x: L.cx(), y: L.cy() + L.type(140),
+  family: 'mono', weight: 400, size: L.type(34), track: 0.12, color: colors.ink,
 };
-const CONFETTI = { t0: 3.2, x: W / 2, y: H * 0.86, n: 160, speed: [1000, 1900], drag: 1.6 };
+const CONFETTI = { t0: 3.2, x: L.cx(), y: H * 0.86, n: 160, speed: [1000, 1900], drag: 1.6 };
 
 // Number and caption together are one caption, settled when the caption's scramble locks.
+// The total's frame on screen at the scene's last frame, for a match cut out of it.
+export const totalRect = { x: L.cx(), y: L.cy() - L.type(36), w: L.type(760), h: L.type(240), r: 24 };
+
 export const captions = windows(ID, [{ lines: [0, 1], in: ODO.t0, at: CAPTION.t0 + CAPTION.dur }]);
 export const end = captions[0].out;
 export const dur = Math.max(6, end + 0.4);

@@ -8,7 +8,7 @@ import * as s04 from './scenes/s04_particles.js';
 import * as s05 from './scenes/s05_cards.js';
 import * as s06 from './scenes/s06_ledger.js';
 import { whip, zoomThrough, glitch, matchCut } from './engine/transitions.js';
-import { W, H, FPS } from './tokens.js';
+import { FPS, ASPECT } from './tokens.js';
 
 export const SCENES = { s01_title: s01, s02_type_demo: s02, s03_diagram: s03, s04_particles: s04, s05_cards: s05, s06_ledger: s06 };
 
@@ -16,7 +16,7 @@ export const SCENES = { s01_title: s01, s02_type_demo: s02, s03_diagram: s03, s0
 // caption's hold ends, sized by holdFor from copy.json), plus an optional `trim` in seconds.
 // Cuts follow from those lengths, snapped to frames: moving a cut is editing one `trim`.
 // Each transition sits on the cut between its neighbours.
-const ORDER = [
+export const FULL = [
   { scene: 's01_title', from: 0 },
   { tr: whip },
   { scene: 's02_type_demo', from: 0.6 },
@@ -25,14 +25,24 @@ const ORDER = [
   { tr: glitch },
   { scene: 's04_particles', from: 1.15 },
   {
-    tr: matchCut, opts: {
-      from: { x: W / 2, y: H / 2 - 36, w: 760, h: 240, r: 24 }, // the s04 total, at its last frame
-      to: { x: W / 2 + 60 - 0.95 * 470, y: H / 2, w: 440, h: 320, r: 24 }, // s05's chart card, landed in its slot
-    },
+    // From the s04 total at its last frame to s05's chart card, landed in its slot.
+    tr: matchCut, opts: { from: s04.totalRect, to: s05.landedRect },
   },
   { scene: 's05_cards', from: 1.0 },
   // Hard cut (no transition entry), the reference's most common transition.
   { scene: 's06_ledger', from: 0 },
+];
+
+// The vertical edit (17.5 s): title, the counter, the ledger. It drops s02 (11.7 s of type
+// demos, too long for the format), s03 (generic props with small mono labels) and s05 (card
+// text set at 18–26 px, unreadable on a phone, and the costliest scene to render). It ends on
+// s06's exit to bare paper, which is also s01's first frame, so the loop is seamless.
+export const SHORT = [
+  { scene: 's01_title', from: 0 },
+  { tr: whip },
+  { scene: 's04_particles', from: 1.15 },
+  { tr: glitch },
+  { scene: 's06_ledger', from: 0, trim: s06.dur - s06.end },
 ];
 
 const snap = (s) => Math.round(s * FPS) / FPS;
@@ -45,7 +55,9 @@ function place(order) {
     return { ...x, start, dur: t - start };
   });
 }
-export const TIMELINE = place(ORDER);
+// ?edit=full|short picks the edit; by default 9:16 plays the short one.
+const EDIT = new URLSearchParams(globalThis.location?.search ?? '').get('edit') ?? (ASPECT === '9x16' ? 'short' : 'full');
+export const TIMELINE = place(EDIT === 'short' ? SHORT : FULL);
 
 // Builds the lookup for a timeline. resolve(t) returns either { entry } or, inside a
 // transition window, { tr, t0, dur, A, B }; `primary` is the scene that owns the GL and 3D
