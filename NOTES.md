@@ -96,8 +96,8 @@ frames (they reset every frame); nothing in this video needs to.
 |---|---|---|---|---|---|
 | s01_hook | scenes/s01_hook.js | 0.000 | 2.700 | kinetic type over collage | done, EXEMPLAR, frozen |
 | s02_growth | scenes/s02_growth.js | 2.700 | 2.533 (from 0.15) | chart built from pieces | done, EXEMPLAR, frozen |
-| s03_reveal | scenes/s03_reveal.js | 5.233 | ≈2.100 | tiles assemble into ₹ (navy) | TODO (task 1) |
-| s04_answer | scenes/s04_answer.js | ≈7.333 | ≈2.667 (trimmed to end at 10.000) | the answer: number + marks | TODO (task 2) |
+| s03_reveal | scenes/s03_reveal.js | 5.233 | 2.100 | tiles assemble into ₹ (navy) | done (built by the lead; determinism PASS on 10, 40) |
+| s04_answer | scenes/s04_answer.js | 7.333 | ≈2.667 (trimmed to end at 10.000) | the answer: number + marks | TODO (task 2) |
 
 ## 6. Exemplar scenes
 - `scenes/s01_hook.js`: the pattern every scene follows (its header lists the 5 steps): copy via
@@ -110,8 +110,12 @@ frames (they reset every frame); nothing in this video needs to.
   `demos/particles.js` shows assemble() + targetsFromText('₹') with qrTile pieces: s03's pattern.
 
 ## 7. Next tasks (in order; one scene per task)
-**Task 1: s03_reveal.** Copy the structure of `s02_growth.js`; the assemble pattern is
-`demos/particles.js`.
+**Task 1: s03_reveal: DONE** (scenes/s03_reveal.js; the spec below is kept as a record).
+Built as specified except the glyph size: it is measured in load() and fitted to 75% of the band's
+width and 85% of its height (height decides in both aspects), with tiles on a 1/26 grid of that
+size, instead of a fixed L.height × 0.8. Anton contains ₹ (checked: it renders unlike the fallback
+fonts), so the shape is the same on every machine. Copy the structure of `s02_growth.js`; the
+assemble pattern is `demos/particles.js`.
 - Field `fields.navy`. No copy: `captions = []`, no copy.json entry.
 - load(): `TARGETS = targetsFromText('₹', `400 ${S}px ${fonts.display}`, { step, x: L.cx(), y: L.cy() })`
   with S = L.height × 0.8 and step = L.width / 28 (rounded).
@@ -125,7 +129,8 @@ frames (they reset every frame); nothing in this video needs to.
 - timeline.js: after s02, add `{ tr: zoomThrough }` then `{ scene: 's03_reveal', from: 0 }`.
 - Stills: `node compare.mjs s03_reveal s02_growth`; determinism on frames 10 and 40.
 
-**Task 2: s04_answer.** Copy the structure of `s01_hook.js` (type over collage).
+**Task 2: s04_answer: NEXT.** Copy the structure of `s01_hook.js` (type over collage). s03 is in
+the edit, which runs 7.333 s before s04.
 - Field `fields.paper`. copy.json `"s04_answer": ["21.6 BILLION", "A MONTH, DEC 2025",
   "≈20,000× SINCE 2016", "SOURCE: NPCI"]`.
 - Layout `column()`: the QR tile (callback to s01, at 0.6 scale) / number (`sizes.giant`, fit to

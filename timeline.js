@@ -3,10 +3,11 @@
 // skip a scene's own entrance and exit. Cuts are on frame boundaries.
 import * as s01 from './scenes/s01_hook.js';
 import * as s02 from './scenes/s02_growth.js';
-import { whip } from './engine/transitions.js';
+import * as s03 from './scenes/s03_reveal.js';
+import { whip, zoomThrough } from './engine/transitions.js';
 import { FPS } from './tokens.js';
 
-export const SCENES = { s01_hook: s01, s02_growth: s02 };
+export const SCENES = { s01_hook: s01, s02_growth: s02, s03_reveal: s03 };
 
 // The edit, in order. Each scene plays from its in-point `from` to its `end` (where its last
 // caption's hold ends, sized by holdFor from copy.json), plus an optional `trim` in seconds.
@@ -17,6 +18,8 @@ export const ORDER = [
   { tr: whip },
   // In at 0.15 s: the whip lands on the baseline and the first tile, not on bare paper.
   { scene: 's02_growth', from: 0.15 },
+  { tr: zoomThrough },
+  { scene: 's03_reveal', from: 0 },
 ];
 
 const snap = (s) => Math.round(s * FPS) / FPS;
