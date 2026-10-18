@@ -4,22 +4,29 @@
 <body>
 <canvas id="c" width="1920" height="1080"></canvas>
 <script type="module">
+import { DURATION, FONTS, load, draw } from './scenes/main.js';
+
 const ctx = document.getElementById('c').getContext('2d');
 
-window.renderFrame = (t) => {
-  ctx.fillStyle = '#0b0b0f';
-  ctx.fillRect(0, 0, 1920, 1080);
-  ctx.fillStyle = '#fff';
-  ctx.font = '120px system-ui, -apple-system, "Segoe UI", Helvetica, Arial, sans-serif';
-  ctx.textAlign = 'center';
-  ctx.textBaseline = 'middle';
-  ctx.fillText('PIPELINE OK', 960, 540);
-};
-
-window.DURATION = 1;
+// Pure function of t (seconds): clears and redraws everything, reads no clock or randomness.
+window.renderFrame = (t) => draw(ctx, t);
+window.DURATION = DURATION;
 window.FPS = 30;
+
+await Promise.all(FONTS.map((f) => document.fonts.load(f)));
 await document.fonts.ready;
+await load();
 window.READY = true;
+
+// Live preview only. The clock picks t; it never reaches renderFrame.
+if (!new URLSearchParams(location.search).has('render')) {
+  const t0 = performance.now();
+  const loop = () => {
+    window.renderFrame(((performance.now() - t0) / 1000) % DURATION);
+    requestAnimationFrame(loop);
+  };
+  requestAnimationFrame(loop);
+}
 </script>
 </body>
 </html>
