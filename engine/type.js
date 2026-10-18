@@ -75,6 +75,11 @@ export function riseIn(ctx, t, opts) {
 // 2. Glyphs lock left to right over dur. Unlocked cells cycle through POOL at `rate` Hz,
 // centred in the final glyph's cell so the line never shifts.
 const POOL = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789/<>';
+// Where a move places each glyph, and when scramble locks each one (seconds after it starts).
+// For effects that follow the type, such as sparksFromGlyphs in engine/particles.js.
+export const glyphsOf = (ctx, opts) => lay(ctx, base(opts)).glyphs;
+export const scrambleLocks = (glyphs, dur = 0.45) => glyphs.map((g) => (dur * (g.i + 1)) / glyphs.length);
+
 export function scramble(ctx, t, opts) {
   const o = base({ dur: 0.45, seed: 1, rate: 20, ...opts });
   if (t < 0) return;

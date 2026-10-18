@@ -25,7 +25,14 @@ Each `scenes/sNN_*.js` exports `start`, `dur`, `draw(ctx, t, dur)` (t local to t
 optional async `load()`. Register them in `scenes/index.js`. Design values live in `tokens.js`.
 Shared drawing: `engine/type.js` (kinetic type moves),
 `engine/draw.js` (lighting, grain, boil, shadows, draw-on, pulses) and `engine/props.js` (lit props).
-`engine/layer.js` hands out the full-frame scratch layers (0–1 type.js, 2 draw.js).
+`engine/particles.js` (closed-form motes, bursts, confetti, glyph sparks and GPU point sprites).
+`engine/layer.js` hands out the full-frame scratch layers (0–1 type.js, 2 draw.js, 3 particles.js).
+
+Particles: no per-frame state. Each is a pure function of (i, t) with attributes from hash(i, k),
+and every drawer takes cam = { dx, dy, z } for parallax. A scene may export drawGL(gl, t, dur) to
+draw into the GL background target (behind the 2D layer, before post). A scene that uses particles
+exports alphas(t), and `node test-particles.mjs <scene>` fails if any alpha steps more than 0.2
+between frames. Fades that touch particles should be linear or eased in: outCubic starts at 3× speed.
 
 Illustration rules: only the stroke, radius, shadowAlpha and hue tokens; at most 4 hues plus
 neutrals. Outlines are a darker tone of each piece's own fill, never a shared black keyline.
@@ -37,6 +44,7 @@ The rim light sits on the right edge only, drawn over the outline.
 - `node still.mjs 0.4 1.2` writes qa/t0.40.png, qa/t1.20.png, ...
 - `node sheet.mjs` renders s02 stills at the middle of each entrance, hold and exit, then tiles them into qa/type_sheet.png.
 - `node ab.mjs 1 3` renders post off/on pairs into qa/post_ab.png.
-- `node test-determinism.mjs` checks the contract.
+- `node test-determinism.mjs [frames…] [--scene name]` checks the contract (frames relative to the scene).
+- `node test-particles.mjs [scene]` scans particle alphas for frame-to-frame jumps.
 
 Fonts: Inter Tight, Inter and JetBrains Mono, under the SIL OFL (licenses in fonts/).

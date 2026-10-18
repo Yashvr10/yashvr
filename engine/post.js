@@ -1,16 +1,11 @@
 // GL frame: fbm background, Canvas2D layer composited over it in linear space, then the post chain.
-import { createGL, program, target, canvasTexture, uploadCanvas, pass } from './gl.js';
+import { createGL, program, target, canvasTexture, uploadCanvas, pass, linearRGB } from './gl.js';
 import { W, H, colors } from '../tokens.js';
 
 // thresh is linear luminance. 0.95 keeps our ink (0.88) and accent (0.32) text out of the bloom;
 // a scene lowers it per frame when it wants things to glow.
 export const POST_DEFAULTS = { bloom: 0.6, thresh: 0.95, ca: 0.8, grain: 0.045, vig: 0.35, exposure: 1 };
 const BG_AMOUNT = 0.035, LEVELS = 5;
-
-const linear = (hex) => [0, 2, 4].map((i) => {
-  const c = parseInt(hex.slice(1 + i, 3 + i), 16) / 255;
-  return c <= 0.04045 ? c / 12.92 : ((c + 0.055) / 1.055) ** 2.4;
-});
 
 export async function createPost(canvas) {
   const gl = createGL(canvas);
@@ -20,12 +15,14 @@ export async function createPost(canvas) {
   );
   const back = target(gl, W, H), scene = target(gl, W, H), layerTex = canvasTexture(gl);
   const mips = Array.from({ length: LEVELS }, (_, i) => target(gl, W >> (i + 1), H >> (i + 1)));
-  const tint = { uBg: linear(colors.bg), uDim: linear(colors.dim), uAccent: linear(colors.accent) };
+  const tint = { uBg: linearRGB(colors.bg), uDim: linearRGB(colors.dim), uAccent: linearRGB(colors.accent) };
 
-  // Draws one frame from t, the frame index, the 2D layer and the post settings P.
-  return function render(t, frame, layer, P, on = true) {
+  // Draws one frame from t, the frame index, the 2D layer and the post settings P. drawGL(gl),
+  // if given, draws into the background target (linear HDR, behind the 2D layer).
+  return function render(t, frame, layer, P, on = true, drawGL = null) {
     uploadCanvas(gl, layerTex, layer);
     pass(gl, bg, back, { uTime: t, uRes: [W, H], uFrame: { i: frame }, uOne: { i: 1 }, uAmt: BG_AMOUNT, ...tint });
+    if (drawGL) drawGL(gl);
     pass(gl, comp, scene, { uBack: { tex: back.tex }, uLayer: { tex: layerTex } });
 
     // Bloom: 13-tap downsample through LEVELS halvings, then tent upsample added back up.

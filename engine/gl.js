@@ -27,10 +27,10 @@ function shader(gl, type, src, name) {
   return s;
 }
 
-// Compiles VERT + frag. Throws with the info log on failure. loc(name) caches uniform locations.
-export function program(gl, frag, name = 'shader') {
+// Compiles vert + frag. Throws with the info log on failure. loc(name) caches uniform locations.
+export function program(gl, frag, name = 'shader', vert = VERT) {
   const p = gl.createProgram();
-  gl.attachShader(p, shader(gl, gl.VERTEX_SHADER, VERT, `${name} (vertex)`));
+  gl.attachShader(p, shader(gl, gl.VERTEX_SHADER, vert, `${name} (vertex)`));
   gl.attachShader(p, shader(gl, gl.FRAGMENT_SHADER, frag, name));
   gl.linkProgram(p);
   if (!gl.getProgramParameter(p, gl.LINK_STATUS)) throw new Error(`${name}: ${gl.getProgramInfoLog(p)}`);
@@ -71,11 +71,15 @@ export function uploadCanvas(gl, tex, canvas) {
   gl.texImage2D(gl.TEXTURE_2D, 0, gl.SRGB8_ALPHA8, gl.RGBA, gl.UNSIGNED_BYTE, canvas);
 }
 
-// Draws prog into dst (a target, or null for the canvas). Uniform values: number → float,
-// { i } → int/bool, [x, y(, z)] → vec2/vec3, { tex } → sampler on the next texture unit.
-export function pass(gl, prog, dst, uniforms) {
-  gl.bindFramebuffer(gl.FRAMEBUFFER, dst ? dst.fb : null);
-  gl.viewport(0, 0, dst ? dst.w : gl.drawingBufferWidth, dst ? dst.h : gl.drawingBufferHeight);
+// sRGB hex → linear [r, g, b].
+export const linearRGB = (hex) => [0, 2, 4].map((i) => {
+  const c = parseInt(hex.slice(1 + i, 3 + i), 16) / 255;
+  return c <= 0.04045 ? c / 12.92 : ((c + 0.055) / 1.055) ** 2.4;
+});
+
+// Uses prog and sets uniforms. Values: number → float, { i } → int/bool,
+// [x, y(, z)] → vec2/vec3, { tex } → sampler on the next texture unit.
+export function setUniforms(gl, prog, uniforms) {
   gl.useProgram(prog.p);
   let unit = 0;
   for (const [name, v] of Object.entries(uniforms)) {
@@ -89,5 +93,12 @@ export function pass(gl, prog, dst, uniforms) {
       gl.uniform1i(l, unit++);
     }
   }
+}
+
+// Draws prog as one fullscreen triangle into dst (a target, or null for the canvas).
+export function pass(gl, prog, dst, uniforms) {
+  gl.bindFramebuffer(gl.FRAMEBUFFER, dst ? dst.fb : null);
+  gl.viewport(0, 0, dst ? dst.w : gl.drawingBufferWidth, dst ? dst.h : gl.drawingBufferHeight);
+  setUniforms(gl, prog, uniforms);
   gl.drawArrays(gl.TRIANGLES, 0, 3);
 }
