@@ -1,3 +1,4 @@
+// FROZEN: read-only from phase 7 on. Need something it lacks? Write it in your scene file and report it (NOTES.md).
 // Illustration helpers for Canvas2D. Pure functions of their inputs; the noise tile is built
 // once at load and path lengths are cached by measure().
 import { clamp01 } from './ease.js';

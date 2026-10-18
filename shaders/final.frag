@@ -1,4 +1,5 @@
 #version 300 es
+// FROZEN: read-only from phase 7 on. Need something it lacks? Write it in your scene file and report it (NOTES.md).
 // Post chain, in order: (zoom blur, for transitions) bloom, exposure, ACES fitted, grade, radial
 // chromatic aberration, vignette, luminance-weighted grain. Output is sRGB. With uPost off:
 // plain sRGB encode.

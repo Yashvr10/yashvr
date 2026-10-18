@@ -1,3 +1,4 @@
+// FROZEN: read-only from phase 7 on. Need something it lacks? Write it in your scene file and report it (NOTES.md).
 // Collage pieces for the Mixed Media look: flat fields, paper cutouts (white border, one drop
 // shadow), halftone dots, torn edges, tape strips, hand-drawn marker loops and underlines, and the
 // decorative QR tile that runs through the video. Shapes are closed polylines in local px about

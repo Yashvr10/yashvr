@@ -1,3 +1,4 @@
+// FROZEN: read-only from phase 7 on. Need something it lacks? Write it in your scene file and report it (NOTES.md).
 // s01_hook: the cold open. Scene type: KINETIC TYPE OVER A COLLAGE (exemplar).
 // Yellow field. The QR tile, the object that runs through the video, drops in as a paper cutout
 // and lands with an impact (camera punch and a puff of paper bits); tape slaps it down; the label

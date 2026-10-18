@@ -1,3 +1,4 @@
+// FROZEN: read-only from phase 7 on. Need something it lacks? Write it in your scene file and report it (NOTES.md).
 // Kinetic type for Canvas2D. Every move is move(ctx, t, opts): t is seconds since the move
 // started, it draws immediately and depends only on t and opts.
 // Common opts: text, x, y (baseline), align ('center' | 'left' | 'right'), size, weight,

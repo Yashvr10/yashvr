@@ -1,4 +1,5 @@
 #version 300 es
+// FROZEN: read-only from phase 7 on. Need something it lacks? Write it in your scene file and report it (NOTES.md).
 // 13-tap downsample (Jimenez, "Next Generation Post Processing in Call of Duty: AW").
 // The first pass also applies a soft-knee threshold on luminance, with a narrow knee (10% of
 // the threshold) so text just below it, white ink or saturated accent, stays out of the bloom.

@@ -1,3 +1,4 @@
+// FROZEN: read-only from phase 7 on. Need something it lacks? Write it in your scene file and report it (NOTES.md).
 const query = new URLSearchParams(globalThis.location?.search ?? '');
 // Aspect: ?aspect=9x16 (default: this video is vertical-first) or 16x9. The same scenes re-compose
 // for each through engine/layout.js; W, H, the type sizes and the safe margins follow the aspect.

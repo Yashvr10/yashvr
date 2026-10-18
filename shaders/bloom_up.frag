@@ -1,4 +1,5 @@
 #version 300 es
+// FROZEN: read-only from phase 7 on. Need something it lacks? Write it in your scene file and report it (NOTES.md).
 // 3x3 tent upsample, blended additively into the next larger level.
 precision highp float;
 in vec2 vUv;

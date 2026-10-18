@@ -1,3 +1,4 @@
+// FROZEN: read-only from phase 7 on. Need something it lacks? Write it in your scene file and report it (NOTES.md).
 export const HZ = 120;
 
 // Fixed-timestep simulation replayed from t = 0 and cached by step index, so the state

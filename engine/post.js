@@ -1,3 +1,4 @@
+// FROZEN: read-only from phase 7 on. Need something it lacks? Write it in your scene file and report it (NOTES.md).
 // GL frame: fbm background, Canvas2D layer composited over it in linear space, then the post chain.
 import { createGL, program, target, canvasTexture, uploadCanvas, pass, linearRGB } from './gl.js';
 import { W, H, SS, post as look, background } from '../tokens.js';

@@ -1,3 +1,4 @@
+// FROZEN: read-only from phase 7 on. Need something it lacks? Write it in your scene file and report it (NOTES.md).
 // Deterministic particles. Nothing is stepped or stored: each particle's state is a closed-form
 // function of its index i and the time, with attributes from hash(i, k). The *State functions
 // return what the drawers draw, so a test can check alphas without rendering.

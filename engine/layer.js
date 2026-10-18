@@ -1,3 +1,4 @@
+// FROZEN: read-only from phase 7 on. Need something it lacks? Write it in your scene file and report it (NOTES.md).
 import { W, H, SS } from '../tokens.js';
 
 // Full-frame scratch layers, cleared before every use, so nothing carries between calls.

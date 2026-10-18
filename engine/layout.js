@@ -1,3 +1,4 @@
+// FROZEN: read-only from phase 7 on. Need something it lacks? Write it in your scene file and report it (NOTES.md).
 // Layout in the current aspect. Scenes place everything through L, so the same scene composes
 // for 16:9 and re-composes for 9:16 (L.stack: rows become stacks, comparisons go top and bottom).
 // All positions are frame px; the safe band is the frame inset by tokens.safe.

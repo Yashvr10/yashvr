@@ -1,3 +1,4 @@
+// FROZEN: read-only from phase 7 on. Need something it lacks? Write it in your scene file and report it (NOTES.md).
 // Transitions between two scenes. Each is fn(ctx, t, drawA, drawB, t0, dur, opts): t is global
 // time, the window is [t0, t0 + dur], and drawA(c) / drawB(c) draw each scene at its own local
 // time for this t. fn.dur is the default length; fn.anchor is where the cut sits in the window

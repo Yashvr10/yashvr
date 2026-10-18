@@ -1,4 +1,5 @@
 #version 300 es
+// FROZEN: read-only from phase 7 on. Need something it lacks? Write it in your scene file and report it (NOTES.md).
 // Background, then the three.js layer, then the Canvas2D layer, all in linear light.
 // Both layers are straight alpha and decoded from sRGB to linear on upload.
 // uPaper (0..1) multiplies the paper texture over everything: the layers are composited over the

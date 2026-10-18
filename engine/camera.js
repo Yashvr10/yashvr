@@ -1,3 +1,4 @@
+// FROZEN: read-only from phase 7 on. Need something it lacks? Write it in your scene file and report it (NOTES.md).
 // Virtual 2D camera. A camera is { s, x, y, r }: scale and rotation about the frame centre,
 // then a pan in px. Scenes draw every layer through withCamera, each at a declared depth z.
 import { clamp01 } from './ease.js';

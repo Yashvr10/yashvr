@@ -1,4 +1,5 @@
 #version 300 es
+// FROZEN: read-only from phase 7 on. Need something it lacks? Write it in your scene file and report it (NOTES.md).
 // Domain-warped fbm mapped through a three-colour ramp (uBg → uDim → uAccent, from
 // tokens.background) and mixed over uBg by uAmt; uDrift scales its motion (0 = static paper).
 // uFibre adds static paper noise with that standard deviation in display units, in cells of

@@ -1,3 +1,4 @@
+// FROZEN: read-only from phase 7 on. Need something it lacks? Write it in your scene file and report it (NOTES.md).
 import { SS } from '../tokens.js';
 
 // Text boxes drawn this frame, in screen px of the 1920×1080 layout (whatever SS is), for the contrast and safe-area checks.

@@ -1,3 +1,4 @@
+// FROZEN: read-only from phase 7 on. Need something it lacks? Write it in your scene file and report it (NOTES.md).
 export const clamp01 = (x) => Math.min(1, Math.max(0, x));
 export const win = (t, a, b) => clamp01((t - a) / (b - a));
 export const lerp = (a, b, u) => a + (b - a) * u;

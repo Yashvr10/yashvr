@@ -1,3 +1,4 @@
+// FROZEN: read-only from phase 7 on. Need something it lacks? Write it in your scene file and report it (NOTES.md).
 // s02_growth: the build. Scene type: DATA CHART FROM PIECES (exemplar).
 // Paper field. A baseline draws on; ten bars, one per year 2016–2025, build up out of QR tiles
 // (the through-line object), each bar starting a beat after the last and stacking faster, because

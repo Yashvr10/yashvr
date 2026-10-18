@@ -1,3 +1,4 @@
+// FROZEN: read-only from phase 7 on. Need something it lacks? Write it in your scene file and report it (NOTES.md).
 // Stateless: the same (i, seed) always gives the same value in 0..1. Safe inside renderFrame.
 export function hash(i, seed = 0) {
   let x = (i | 0) ^ Math.imul(seed | 0, 0x9e3779b9);

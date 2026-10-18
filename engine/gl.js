@@ -1,3 +1,4 @@
+// FROZEN: read-only from phase 7 on. Need something it lacks? Write it in your scene file and report it (NOTES.md).
 // Minimal WebGL2 helpers: context, programs, float render targets, canvas upload, passes.
 // Every pass draws one fullscreen triangle generated from gl_VertexID; there are no buffers.
 

@@ -1,3 +1,4 @@
+// FROZEN: read-only from phase 7 on. Need something it lacks? Write it in your scene file and report it (NOTES.md).
 // On-screen copy as a system. All visible text lives in copy.json, keyed by scene id; scenes
 // read it with lines(id). A scene declares its captions (which lines, when they enter and when
 // they are fully settled), and holdFor sizes how long each stays fully legible.
