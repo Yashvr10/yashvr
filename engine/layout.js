@@ -45,3 +45,14 @@ export function rowsOf(ctx, text, maxW, max = 3) {
 
 // Baselines for n lines lineH apart, centred on y.
 export const baselines = (n, y, lineH) => Array.from({ length: n }, (_, k) => y + (k - (n - 1) / 2) * lineH);
+
+// Tops of a vertical stack of blocks (heights in px, gaps between them) centred on y.
+export function column(heights, gaps, y = L.cy()) {
+  const total = heights.reduce((a, b) => a + b, 0) + gaps.reduce((a, b) => a + b, 0);
+  let top = y - total / 2;
+  return heights.map((h, k) => {
+    const at = top;
+    top += h + (gaps[k] ?? 0);
+    return at;
+  });
+}

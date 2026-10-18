@@ -1,17 +1,17 @@
 // The edit. Scenes play back to back; each transition sits on the cut between two of them.
 // A scene entry shows its scene from local time `from` for `dur` seconds, so transitions can
 // skip a scene's own entrance and exit. Cuts are on frame boundaries.
-import * as s00 from './scenes/s00_empty.js';
+import * as s01 from './scenes/s01_hook.js';
 import { FPS } from './tokens.js';
 
-export const SCENES = { s00_empty: s00 };
+export const SCENES = { s01_hook: s01 };
 
 // The edit, in order. Each scene plays from its in-point `from` to its `end` (where its last
 // caption's hold ends, sized by holdFor from copy.json), plus an optional `trim` in seconds.
 // Cuts follow from those lengths, snapped to frames: moving a cut is editing one `trim`.
 // Each transition ({ tr: whip }, …) sits on the cut between its neighbours.
 export const ORDER = [
-  { scene: 's00_empty', from: 0 },
+  { scene: 's01_hook', from: 0 },
 ];
 
 const snap = (s) => Math.round(s * FPS) / FPS;

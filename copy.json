@@ -1,38 +1,7 @@
 {
-  "s01_title": [
-    "Code writes the motion.",
-    "01 · TITLE"
-  ],
-  "s02_type_demo": [
-    "Type that moves",
-    "SIGNAL BEATS NOISE",
-    "$120K+",
-    "Type it. Mark it."
-  ],
-  "s03_diagram": [
-    "01 CAPTURE",
-    "02 DISCUSS",
-    "03 REPORT"
-  ],
-  "s04_particles": [
-    "12840",
-    "FRAMES RENDERED"
-  ],
-  "s05_cards": [
-    "RENDERS PER WEEK",
-    "FRAMES RENDERED",
-    "12,840",
-    "Up 12.4% this week",
-    "PIPELINE CHECKS",
-    "Fonts loaded",
-    "Shaders compiled",
-    "Frames hashed",
-    "Video encoded"
-  ],
-  "s06_ledger": [
-    "Paid online",
-    "Illustrative: % of payments online",
-    "“card not present”",
-    "No card on the counter"
+  "s01_hook": [
+    "INDIA · UPI · 2016",
+    "1 MILLION",
+    "PAYMENTS A MONTH"
   ]
 }

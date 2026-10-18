@@ -93,6 +93,8 @@ export const collage = {
   shadow: { x: 6, y: 10, blur: 14, alpha: 0.22 },
   halftone: { cell: 9, angle: Math.PI / 4 }, // px, radians
   tape: { w: 120, h: 36, color: 'rgba(243, 236, 214, 0.82)' },
+  // The QR tile that runs through every scene: one seed, so it is the same tile everywhere.
+  tile: { size: 360, seed: 16 },
 };
 
 // Illustration. Line widths in screen px whatever an object's scale; annotate = marker strokes.
