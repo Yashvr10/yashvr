@@ -32,8 +32,9 @@ window.renderFrame = (t) => {
   ctx.reset();
   const s = sceneAt(t);
   s.draw(ctx, t - s.start, s.dur);
-  const gl = s.drawGL && ((g) => s.drawGL(g, t - s.start, s.dur));
-  post(t, Math.round(t * FPS), layer, window.POST, postOn, gl);
+  const three = s.draw3D?.(t - s.start, s.dur) ?? null;
+  const drawGL = s.drawGL && ((gl) => s.drawGL(gl, t - s.start, s.dur));
+  post(t, Math.round(t * FPS), { layer, three, drawGL }, window.POST, postOn);
 };
 window.DURATION = DURATION;
 window.FPS = FPS;

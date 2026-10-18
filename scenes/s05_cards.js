@@ -1,0 +1,109 @@
+import { win, lerp, outCubic, inOutQuint } from '../engine/ease.js';
+import { shade } from '../engine/draw.js';
+import {
+  stage, render3D, renderer3D, card, tile, softShadow, setCardContent, landCard, fan, wallDolly,
+} from '../engine/three3d.js';
+import { colors, fonts, tracking } from '../tokens.js';
+
+export const start = 25;
+export const dur = 7;
+
+// Cards land 0.3 / 0.75 / 1.2 s, fan at 2.0–2.9 s, the counter runs 3.4–5.2 s and the camera
+// settles at 5.5 s, so the final layout holds still for the last 1.5 s.
+const CW = 440, CH = 320, LAND = [0.3, 0.75, 1.2], FAN = 2.0, COUNT = [3.4, 5.2], SETTLE = 5.5, TOTAL = 12840;
+const surface = shade(colors.dim, -0.4);
+
+let st, cards, tiles;
+
+// Card faces, in card pixels.
+function face(ctx, w, h, label) {
+  ctx.fillStyle = surface;
+  ctx.fillRect(0, 0, w, h);
+  ctx.font = `400 18px ${fonts.mono}`;
+  ctx.letterSpacing = `${tracking.label * 18}px`;
+  ctx.fillStyle = colors.dim;
+  ctx.fillText(label, 32, 48);
+  ctx.letterSpacing = '0px';
+}
+function drawChart(ctx, w, h) {
+  face(ctx, w, h, 'WEEKLY RENDERS');
+  [0.42, 0.58, 0.5, 0.71, 0.64, 0.82, 1].forEach((v, i) => {
+    ctx.fillStyle = i === 6 ? colors.accent : shade(colors.dim, -0.1);
+    ctx.beginPath();
+    ctx.roundRect(36 + i * 54, h - 40 - v * 190, 34, v * 190, 6);
+    ctx.fill();
+  });
+  ctx.fillStyle = colors.dim;
+  ctx.fillRect(32, h - 38, w - 64, 2);
+}
+const thousands = (n) => String(n).replace(/\B(?=(\d{3})+(?!\d))/g, ',');
+const drawStat = (value) => (ctx, w, h) => {
+  face(ctx, w, h, 'FRAMES RENDERED');
+  ctx.font = `700 104px ${fonts.display}`;
+  ctx.letterSpacing = `${tracking.display * 104}px`;
+  ctx.fillStyle = colors.ink;
+  ctx.fillText(thousands(value), 30, 186);
+  ctx.letterSpacing = '0px';
+  ctx.font = `400 26px ${fonts.body}`;
+  ctx.fillStyle = colors.accent;
+  ctx.fillText('+12.4% this week', 32, 250);
+};
+function drawChecklist(ctx, w, h) {
+  face(ctx, w, h, 'PIPELINE');
+  ['Fonts loaded', 'Shaders compiled', 'Frames hashed', 'Video encoded'].forEach((item, i) => {
+    const y = 100 + i * 52;
+    ctx.fillStyle = colors.accent;
+    ctx.beginPath();
+    ctx.arc(46, y - 9, 13, 0, Math.PI * 2);
+    ctx.fill();
+    ctx.strokeStyle = colors.bg;
+    ctx.lineWidth = 3;
+    ctx.lineCap = 'round';
+    ctx.beginPath();
+    ctx.moveTo(40, y - 9);
+    ctx.lineTo(45, y - 4);
+    ctx.lineTo(53, y - 14);
+    ctx.stroke();
+    ctx.font = `400 26px ${fonts.body}`;
+    ctx.fillStyle = colors.ink;
+    ctx.fillText(item, 74, y);
+  });
+}
+
+export async function load() {
+  st = stage();
+  cards = [drawChart, drawStat(0), drawChecklist].map((draw, i) => {
+    const c = card(CW, CH, { depth: 6 });
+    const shadow = softShadow(CW, CH);
+    shadow.position.set(10, -22, -40);
+    c.add(shadow);
+    setCardContent(c, draw, i === 1 ? 0 : 'static');
+    st.scene.add(c);
+    return c;
+  });
+  // Two glossy accent tiles far behind the cards, clear of the fanned layout.
+  tiles = [[-960, 360, -500, 150], [980, -380, -420, 120]].map(([x, y, z, size]) => {
+    const m = tile(size, { color: colors.accent });
+    m.position.set(x, y, z);
+    st.scene.add(m);
+    return m;
+  });
+  // Compile every program now, so the first renderFrame never does it.
+  renderer3D().compile(st.scene, st.camera);
+}
+
+export function draw() {} // nothing on the 2D layer
+
+export function draw3D(t) {
+  cards.forEach((c, i) => landCard(c, t, LAND[i], { z: 4 * i }));
+  fan(cards, t, FAN);
+  const value = Math.round(TOTAL * outCubic(win(t, COUNT[0], COUNT[1])));
+  setCardContent(cards[1], drawStat(value), value);
+
+  const settle = inOutQuint(win(t, 0, SETTLE));
+  tiles.forEach((m, i) => {
+    m.rotation.set(lerp(0.5, 0.2, settle) * (i ? -1 : 1), lerp(-0.6, 0.35, settle), lerp(0.2, -0.1, settle));
+  });
+  wallDolly(st.camera, t, 0, SETTLE);
+  return render3D(st);
+}

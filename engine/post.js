@@ -13,17 +13,19 @@ export async function createPost(canvas) {
   const [bg, comp, down, up, fin] = await Promise.all(
     ['bg', 'composite', 'bloom_down', 'bloom_up', 'final'].map(async (n) => program(gl, await src(n), `${n}.frag`)),
   );
-  const back = target(gl, W, H), scene = target(gl, W, H), layerTex = canvasTexture(gl);
+  const back = target(gl, W, H), scene = target(gl, W, H), layerTex = canvasTexture(gl), threeTex = canvasTexture(gl);
   const mips = Array.from({ length: LEVELS }, (_, i) => target(gl, W >> (i + 1), H >> (i + 1)));
   const tint = { uBg: linearRGB(colors.bg), uDim: linearRGB(colors.dim), uAccent: linearRGB(colors.accent) };
 
-  // Draws one frame from t, the frame index, the 2D layer and the post settings P. drawGL(gl),
-  // if given, draws into the background target (linear HDR, behind the 2D layer).
-  return function render(t, frame, layer, P, on = true, drawGL = null) {
+  // Draws one frame from t and the frame index. layers.layer is the Canvas2D layer; layers.three,
+  // if given, a three.js canvas composited under it; layers.drawGL(gl), if given, draws into the
+  // background target (linear HDR, behind both). P holds the post settings.
+  return function render(t, frame, { layer, three = null, drawGL = null }, P, on = true) {
     uploadCanvas(gl, layerTex, layer);
+    if (three) uploadCanvas(gl, threeTex, three);
     pass(gl, bg, back, { uTime: t, uRes: [W, H], uFrame: { i: frame }, uOne: { i: 1 }, uAmt: BG_AMOUNT, ...tint });
     if (drawGL) drawGL(gl);
-    pass(gl, comp, scene, { uBack: { tex: back.tex }, uLayer: { tex: layerTex } });
+    pass(gl, comp, scene, { uBack: { tex: back.tex }, uThree: { tex: threeTex }, uLayer: { tex: layerTex }, uHasThree: { i: +!!three } });
 
     // Bloom: 13-tap downsample through LEVELS halvings, then tent upsample added back up.
     // Every level is fully rewritten each frame, so nothing carries over.

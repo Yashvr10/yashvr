@@ -3,11 +3,14 @@ import { readFile } from 'node:fs/promises';
 import { extname, join, normalize } from 'node:path';
 import puppeteer from 'puppeteer';
 
+// PORT env var picks the static server's port (default 8080), e.g. to run two jobs at once.
+const PORT = Number(process.env.PORT ?? 8080);
+
 const TYPES = { '.html': 'text/html', '.js': 'text/javascript', '.mjs': 'text/javascript',
   '.css': 'text/css', '.json': 'application/json', '.png': 'image/png',
   '.woff2': 'font/woff2', '.ttf': 'font/ttf', '.otf': 'font/otf' };
 
-export function serve(port = 8080) {
+export function serve(port = PORT) {
   return http.createServer(async (req, res) => {
     let path = normalize(decodeURIComponent(new URL(req.url, 'http://x').pathname)).replace(/^(\.\.[/\\])+/, '');
     if (path.endsWith('/')) path += 'index.html';
@@ -39,7 +42,7 @@ export async function openPage(browser, query = '') {
   const page = await (await browser.createBrowserContext()).newPage();
   const failed = new Promise((_, reject) => page.on('pageerror', reject));
   await page.setViewport({ width: 1920, height: 1080, deviceScaleFactor: 1 });
-  await page.goto(`http://localhost:8080/index.html?render${query ? `&${query}` : ''}`);
+  await page.goto(`http://localhost:${PORT}/index.html?render${query ? `&${query}` : ''}`);
   await Promise.race([page.waitForFunction('window.READY === true'), failed]);
   failed.catch(() => {});
   return page;
@@ -61,7 +64,7 @@ export async function grab(page, t) {
 // shots: [{ file, label }]. Any page on our origin can draw them without tainting its canvas.
 export async function contactSheet(browser, shots, { cols = 4, tw = 480, th = 270 } = {}) {
   const page = await browser.newPage();
-  await page.goto('http://localhost:8080/qa/');
+  await page.goto(`http://localhost:${PORT}/qa/`);
   const url = await page.evaluate(async (shots, cols, tw, th) => {
     const LABEL = 34, rows = Math.ceil(shots.length / cols), c = document.createElement('canvas');
     c.width = cols * tw;

@@ -26,6 +26,9 @@ optional async `load()`. Register them in `scenes/index.js`. Design values live 
 Shared drawing: `engine/type.js` (kinetic type moves),
 `engine/draw.js` (lighting, grain, boil, shadows, draw-on, pulses) and `engine/props.js` (lit props).
 `engine/particles.js` (closed-form motes, bursts, confetti, glyph sparks and GPU point sprites).
+`engine/three3d.js` (three.js stage, cards, tiles, shadows and motion helpers; three r186 vendored in
+`engine/vendor/`). A scene may export draw3D(t, dur) returning the three canvas; post composites it
+between the background and the 2D layer. three's tone mapping stays off: post applies ACES.
 `engine/layer.js` hands out the full-frame scratch layers (0–1 type.js, 2 draw.js, 3 particles.js).
 
 Particles: no per-frame state. Each is a pure function of (i, t) with attributes from hash(i, k),
@@ -45,6 +48,8 @@ The rim light sits on the right edge only, drawn over the outline.
 - `node sheet.mjs` renders s02 stills at the middle of each entrance, hold and exit, then tiles them into qa/type_sheet.png.
 - `node ab.mjs 1 3` renders post off/on pairs into qa/post_ab.png.
 - `node test-determinism.mjs [frames…] [--scene name]` checks the contract (frames relative to the scene).
+- `node time.mjs [scene]` times renderFrame and PNG readback per frame.
+- `PORT=8091 node …` runs any script on another port, so two can run at once.
 - `node test-particles.mjs [scene]` scans particle alphas for frame-to-frame jumps.
 
 Fonts: Inter Tight, Inter and JetBrains Mono, under the SIL OFL (licenses in fonts/).
