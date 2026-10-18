@@ -4,7 +4,7 @@
 import * as s01 from './scenes/s01_hook.js';
 import * as s02 from './scenes/s02_growth.js';
 import * as s03 from './scenes/s03_reveal.js';
-import { whip, zoomThrough } from './engine/transitions.js';
+import { whip } from './engine/transitions.js';
 import { FPS } from './tokens.js';
 
 export const SCENES = { s01_hook: s01, s02_growth: s02, s03_reveal: s03 };
@@ -18,8 +18,8 @@ export const ORDER = [
   { tr: whip },
   // In at 0.15 s: the whip lands on the baseline and the first tile, not on bare paper.
   { scene: 's02_growth', from: 0.15 },
-  { tr: zoomThrough },
-  { scene: 's03_reveal', from: 0 },
+  // Hard cut into navy (no transition entry), in at 0.1 s so the first frame already has tiles in flight.
+  { scene: 's03_reveal', from: 0.1 },
 ];
 
 const snap = (s) => Math.round(s * FPS) / FPS;

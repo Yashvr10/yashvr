@@ -96,8 +96,8 @@ frames (they reset every frame); nothing in this video needs to.
 |---|---|---|---|---|---|
 | s01_hook | scenes/s01_hook.js | 0.000 | 2.700 | kinetic type over collage | done, EXEMPLAR, frozen |
 | s02_growth | scenes/s02_growth.js | 2.700 | 2.533 (from 0.15) | chart built from pieces | done, EXEMPLAR, frozen |
-| s03_reveal | scenes/s03_reveal.js | 5.233 | 2.100 | tiles assemble into ₹ (navy) | done (built by the lead; determinism PASS on 10, 40) |
-| s04_answer | scenes/s04_answer.js | 7.333 | ≈2.667 (trimmed to end at 10.000) | the answer: number + marks | TODO (task 2) |
+| s03_reveal | scenes/s03_reveal.js | 5.233 | 2.000 (from 0.1, hard cut in) | tiles assemble into ₹ (navy) | done (built by the lead; determinism PASS on 10, 40) |
+| s04_answer | scenes/s04_answer.js | 7.233 | ≈2.767 (trimmed to end at 10.000) | the answer: number + marks | TODO (task 2) |
 
 ## 6. Exemplar scenes
 - `scenes/s01_hook.js`: the pattern every scene follows (its header lists the 5 steps): copy via
@@ -126,11 +126,13 @@ assemble pattern is `demos/particles.js`.
   paper bits (`colors: [colors.white, colors.paper]`, n 40) at the glyph's bottom edge.
 - Camera: a pull-back, cam.s from 1.12 to 1 over [0, LAND] with `inOutCubic`, times defaultPush.
 - `end = LAND + hold` (no text, so the hold is `hold` from tokens); `dur = end + 0.2` (exit as s01).
-- timeline.js: after s02, add `{ tr: zoomThrough }` then `{ scene: 's03_reveal', from: 0 }`.
+- timeline.js (as built, by request): a HARD CUT from s02, no transition entry, with
+  `{ scene: 's03_reveal', from: 0.1 }` so the cut lands on tiles in flight. (The zoom-through first
+  tried here blended paper and navy into a grey smear for a frame or two.)
 - Stills: `node compare.mjs s03_reveal s02_growth`; determinism on frames 10 and 40.
 
 **Task 2: s04_answer: NEXT.** Copy the structure of `s01_hook.js` (type over collage). s03 is in
-the edit, which runs 7.333 s before s04.
+the edit, which runs 7.233 s before s04, so s04 plays about 2.767 s.
 - Field `fields.paper`. copy.json `"s04_answer": ["21.6 BILLION", "A MONTH, DEC 2025",
   "≈20,000× SINCE 2016", "SOURCE: NPCI"]`.
 - Layout `column()`: the QR tile (callback to s01, at 0.6 scale) / number (`sizes.giant`, fit to
