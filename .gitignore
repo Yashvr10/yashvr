@@ -11,3 +11,4 @@ frames_s01_ss2/
 qa/ss/
 frames_9x16/
 frames_16x9/
+qa/**/*.png
