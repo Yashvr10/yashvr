@@ -18,6 +18,9 @@ const smooth = (a, b, x) => {
 const envelope = (u, edge = 0.2) => smooth(0, edge, u) * (1 - smooth(1 - edge, 1, u));
 // Sparks and confetti fade in over RAMP s: linear, so at 30 fps no frame adds more than 0.19.
 const RAMP = 0.18;
+// density (0..1) keeps that share of particles: each has a fixed rank, and one ranked above the
+// density fades out over a band of 0.25, so a smoothly changing density never pops a particle.
+const kept = (i, density = 1) => clamp01((density - hash(i, 977)) / 0.25 + 1);
 
 export function project(cam = {}, x, y, depth = 1) {
   const s = 1 + (cam.z ?? 0) * depth;
@@ -26,7 +29,7 @@ export function project(cam = {}, x, y, depth = 1) {
 
 // 1. Motes: dust rising in depth layers (0 = far). Each loops on its own lifetime and respawns
 // somewhere new every cycle, at alpha 0.
-const MOTES = { n: 600, layers: 3, color: colors.ink, drift: 6, cam: {} };
+const MOTES = { n: 600, layers: 3, color: colors.ink, drift: 6, cam: {}, density: 1 };
 export function moteState(i, t, opts) {
   const o = { ...MOTES, ...opts };
   const L = i % o.layers, depth = (L + 1) / o.layers;
@@ -37,7 +40,7 @@ export function moteState(i, t, opts) {
     x: hash(i, k) * W + o.drift * depth * age + 10 * depth * Math.sin(0.5 * t + TAU * hash(i, 4)),
     y: hash(i, k + 1) * (H + speed * life) - speed * age,
     r: lerp(0.8, 2.8, depth) * lerp(0.6, 1.4, hash(i, 5)),
-    a: lerp(0.1, 0.45, depth) * lerp(0.5, 1, hash(i, 6)) * envelope(u),
+    a: lerp(0.1, 0.45, depth) * lerp(0.5, 1, hash(i, 6)) * envelope(u) * kept(i, o.density),
   };
 }
 
@@ -171,7 +174,7 @@ export function sparksFromGlyphs(ctx, t, glyphs, lockTimes, opts = {}) {
 // 4. GPU point sprites: position, size and alpha computed in the vertex shader from
 // gl_VertexID and uTime. Draws additively into whatever framebuffer is bound.
 const GL_VERT = `#version 300 es
-uniform float uTime, uSize, uAlpha;
+uniform float uTime, uSize, uAlpha, uDensity;
 uniform vec2 uRes;
 uniform vec3 uCam; // dx, dy, z
 out float vA;
@@ -195,6 +198,7 @@ void main() {
   gl_Position = vec4(p.x / uRes.x * 2.0 - 1.0, 1.0 - p.y / uRes.y * 2.0, 0.0, 1.0);
   gl_PointSize = max(1.0, uSize * mix(0.6, 2.2, depth) * s);
   vA = uAlpha * mix(0.15, 1.0, depth) * smoothstep(0.0, 0.2, u) * (1.0 - smoothstep(0.8, 1.0, u));
+  vA *= clamp((uDensity - h(i, 977u)) / 0.25 + 1.0, 0.0, 1.0); // as kept() in JS
 }`;
 const GL_FRAG = `#version 300 es
 precision highp float;
@@ -207,10 +211,10 @@ void main() {
 }`;
 const glProgs = new WeakMap(); // compiled once per context
 export function glParticles(gl, t, opts = {}) {
-  const o = { n: 40000, size: 3, alpha: 0.35, color: colors.ink, cam: {}, ...opts };
+  const o = { n: 40000, size: 3, alpha: 0.35, color: colors.ink, cam: {}, density: 1, ...opts };
   if (!glProgs.has(gl)) glProgs.set(gl, program(gl, GL_FRAG, 'glParticles', GL_VERT));
   setUniforms(gl, glProgs.get(gl), {
-    uTime: t, uSize: o.size, uAlpha: o.alpha, uRes: [W, H], uColor: linearRGB(o.color),
+    uTime: t, uSize: o.size, uAlpha: o.alpha, uDensity: o.density, uRes: [W, H], uColor: linearRGB(o.color),
     uCam: [o.cam.dx ?? 0, o.cam.dy ?? 0, o.cam.z ?? 0],
   });
   gl.enable(gl.BLEND);

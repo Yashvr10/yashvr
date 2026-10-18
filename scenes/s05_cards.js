@@ -3,14 +3,21 @@ import { shade } from '../engine/draw.js';
 import {
   stage, render3D, renderer3D, card, tile, softShadow, setCardContent, landCard, fan, wallDolly,
 } from '../engine/three3d.js';
+import { lines, windows, parseNumber } from '../engine/copy.js';
 import { colors, fonts, tracking } from '../tokens.js';
 
-export const dur = 7;
+const ID = 's05_cards';
+// Copy: [chart label, stat label, stat total, stat delta, checklist label, 4 checklist items].
+const T = lines(ID);
 
 // Cards land 0.3 / 0.75 / 1.2 s, fan at 2.0–2.9 s, the counter runs 3.4–5.2 s and the camera
 // settles at 5.5 s, so the final layout holds still for the last 1.5 s.
 // Cards land in their own slots (95% of the fanned spacing, just apart) so none lands hidden behind another.
-const CW = 440, CH = 320, LAND = [0.3, 0.75, 1.2], FAN = 2.0, SLOT = 0.95, COUNT = [3.4, 5.2], SETTLE = 5.5, TOTAL = 12840;
+const CW = 440, CH = 320, LAND = [0.3, 0.75, 1.2], FAN = 2.0, SLOT = 0.95, COUNT = [3.4, 5.2], SETTLE = 5.5, TOTAL = parseNumber(T[2]).value;
+// The stat card's label and total are the caption, settled when the count lands.
+export const captions = windows(ID, [{ lines: [1, 2], in: COUNT[0], at: COUNT[1] }]);
+export const dur = Math.max(7, captions[0].out);
+export const end = dur;
 const surface = shade(colors.dim, -0.4);
 
 let st, cards, tiles;
@@ -26,7 +33,7 @@ function face(ctx, w, h, label) {
   ctx.letterSpacing = '0px';
 }
 function drawChart(ctx, w, h) {
-  face(ctx, w, h, 'WEEKLY RENDERS');
+  face(ctx, w, h, T[0]);
   [0.42, 0.58, 0.5, 0.71, 0.64, 0.82, 1].forEach((v, i) => {
     ctx.fillStyle = i === 6 ? colors.accent : shade(colors.dim, -0.1);
     ctx.beginPath();
@@ -38,7 +45,7 @@ function drawChart(ctx, w, h) {
 }
 const thousands = (n) => String(n).replace(/\B(?=(\d{3})+(?!\d))/g, ',');
 const drawStat = (value) => (ctx, w, h) => {
-  face(ctx, w, h, 'FRAMES RENDERED');
+  face(ctx, w, h, T[1]);
   ctx.font = `700 104px ${fonts.display}`;
   ctx.letterSpacing = `${tracking.display * 104}px`;
   ctx.fillStyle = colors.ink;
@@ -46,11 +53,11 @@ const drawStat = (value) => (ctx, w, h) => {
   ctx.letterSpacing = '0px';
   ctx.font = `400 26px ${fonts.body}`;
   ctx.fillStyle = colors.accent;
-  ctx.fillText('+12.4% this week', 32, 250);
+  ctx.fillText(T[3], 32, 250);
 };
 function drawChecklist(ctx, w, h) {
-  face(ctx, w, h, 'PIPELINE');
-  ['Fonts loaded', 'Shaders compiled', 'Frames hashed', 'Video encoded'].forEach((item, i) => {
+  face(ctx, w, h, T[4]);
+  T.slice(5, 9).forEach((item, i) => {
     const y = 100 + i * 52;
     ctx.fillStyle = colors.accent;
     ctx.beginPath();

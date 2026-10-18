@@ -1,18 +1,28 @@
 import { win, outCubic, outBack } from '../engine/ease.js';
 import { loadDraw, grain, measure, drawOn, pulseAlong } from '../engine/draw.js';
 import { drawLaptop, drawChatBubble, drawChartCard } from '../engine/props.js';
-import { fade, riseIn } from '../engine/type.js';
+import { fade } from '../engine/type.js';
+import { lines, windows, caption } from '../engine/copy.js';
 import { withCamera, defaultPush, layerScale, Z } from '../engine/camera.js';
 import { colors, stroke, sizes, tracking } from '../tokens.js';
 
-export const dur = 6;
+const ID = 's03_diagram';
+const LABELS = lines(ID); // one label per prop
 
 const GROUND = 660, S = 1.15, POP = 0.5, EXIT = 0.4;
 const PROPS = [
-  { draw: drawLaptop, x: 420, enter: 0.2, label: '01 CAPTURE' },
-  { draw: drawChatBubble, x: 960, enter: 1.1, label: '02 DISCUSS' },
-  { draw: drawChartCard, x: 1500, enter: 2.0, label: '03 REPORT' },
+  { draw: drawLaptop, x: 420, enter: 0.2, label: 0 },
+  { draw: drawChatBubble, x: 960, enter: 1.1, label: 1 },
+  { draw: drawChartCard, x: 1500, enter: 2.0, label: 2 },
 ];
+
+// Each label is a caption, settled when its rise-in finishes (0.02 s stagger, 0.3 s per glyph).
+export const captions = windows(ID, PROPS.map((p) => {
+  const at = p.enter + 0.2 + 0.02 * ([...LABELS[p.label]].length - 1) + 0.3;
+  return { lines: [p.label], in: p.enter + 0.2, at };
+}));
+export const end = Math.max(...captions.map((c) => c.out));
+export const dur = Math.max(6, end + 0.4);
 
 // Gentle arcs between neighbouring props, sampled once.
 function arc([x0, y0], [x1, y1], lift, n = 32) {
@@ -51,8 +61,8 @@ function content(ctx, t) {
     const u = win(t, p.enter, p.enter + POP), a = outCubic(win(t, p.enter, p.enter + POP / 2));
     const s = S * (0.85 + 0.15 * outBack(u));
     fade(ctx, a, 24 * (1 - outCubic(u)), (c) => p.draw(c, t, { x: p.x, y: GROUND, s, seed: i + 1, grow: outCubic(u) }));
-    riseIn(ctx, t - p.enter - 0.2, {
-      text: p.label, x: p.x, y: GROUND + 64, family: 'mono', weight: 400, size: sizes.label,
+    caption(ctx, t - p.enter - 0.2, LABELS[p.label], {
+      x: p.x, y: GROUND + 64, family: 'mono', weight: 400, size: sizes.label,
       track: tracking.label, color: colors.dim, stagger: 0.02, dur: 0.3, rise: 16, blur: 4,
     });
   });

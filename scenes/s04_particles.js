@@ -5,9 +5,12 @@ import {
 } from '../engine/particles.js';
 import { fade, odometer, scramble, glyphsOf, scrambleLocks } from '../engine/type.js';
 import { withCamera, defaultPush, layerScale, punch, particleCam, Z } from '../engine/camera.js';
+import { lines, windows, parseNumber, duckAt, DUCK } from '../engine/copy.js';
 import { W, H, colors } from '../tokens.js';
 
-export const dur = 6;
+const ID = 's04_particles';
+const T = lines(ID); // [the counted number, its caption]
+const NUM = parseNumber(T[0]);
 
 const EXIT = 0.4;
 // Default push and drift, with a punch as the odometer lands. Particles get the camera through
@@ -18,13 +21,20 @@ const camAt = (t) => {
 };
 
 const MOTES = { n: 600, layers: 3 };
-const ODO = { t0: 1.0, from: 0, to: 12840, dur: 1.0, x: W / 2, y: H / 2 + 40, size: 220 };
+const ODO = { t0: 1.0, from: 0, to: NUM.value, prefix: NUM.prefix, suffix: NUM.suffix, dur: 1.0, x: W / 2, y: H / 2 + 40, size: 220 };
 const BURST = { t0: 2.0, x: W / 2, y: H / 2 - 40, n: 220, speed: 900 };
 const CAPTION = {
-  t0: 2.15, dur: 0.6, text: 'FRAMES RENDERED', x: W / 2, y: H / 2 + 140,
+  t0: 2.15, dur: 0.6, text: T[1], x: W / 2, y: H / 2 + 140,
   family: 'mono', weight: 400, size: 34, track: 0.12, color: colors.dim,
 };
 const CONFETTI = { t0: 3.2, x: W / 2, y: H * 0.86, n: 160, speed: [1000, 1900], drag: 1.6 };
+
+// Number and caption together are one caption, settled when the caption's scramble locks.
+export const captions = windows(ID, [{ lines: [0, 1], in: ODO.t0, at: CAPTION.t0 + CAPTION.dur }]);
+export const end = captions[0].out;
+export const dur = Math.max(6, end + 0.4);
+// Background particle density: 40% lower while the caption is fully visible.
+const density = (t) => 1 - DUCK * duckAt(captions, t);
 
 // Linear, not outCubic: outCubic starts at 3× the average rate and dropped alpha 0.25 in the
 // first exit frame (caught by test-particles.mjs). Linear is at most 0.083 per frame.
@@ -39,7 +49,7 @@ export async function load() {
 // test-particles.mjs diffs consecutive frames of this.
 export function alphas(t) {
   const f = exitFade(t), out = [];
-  for (let i = 0; i < MOTES.n; i++) out.push(moteState(i, t, MOTES).a * f);
+  for (let i = 0; i < MOTES.n; i++) out.push(moteState(i, t, { ...MOTES, density: density(t) }).a * f);
   for (let i = 0; i < BURST.n; i++) out.push((burstState(i, t - BURST.t0, BURST)?.a ?? 0) * f);
   for (const b of glyphBursts(caption, scrambleLocks(caption, CAPTION.dur), { t0: CAPTION.t0, size: CAPTION.size })) {
     for (let i = 0; i < b.n; i++) out.push((burstState(i, t - b.t0, b)?.a ?? 0) * f);
@@ -50,7 +60,7 @@ export function alphas(t) {
 
 function content(ctx, t) {
   const view = camAt(t), cam = particleCam(view);
-  motes(ctx, t, { ...MOTES, cam });
+  motes(ctx, t, { ...MOTES, cam, density: density(t) });
   burst(ctx, t, { ...BURST, cam });
 
   withCamera(ctx, layerScale(view, Z.subject), (c) => {
@@ -70,5 +80,5 @@ export function draw(ctx, t) {
 
 // Deep dust on the GPU, behind everything.
 export function drawGL(gl, t) {
-  glParticles(gl, t, { cam: particleCam(camAt(t)), size: 2.5, alpha: 0.08 * exitFade(t) });
+  glParticles(gl, t, { cam: particleCam(camAt(t)), size: 2.5, alpha: 0.08 * exitFade(t), density: density(t) });
 }

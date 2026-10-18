@@ -5,6 +5,7 @@
 import { win, outExpo, outCubic, inOutQuint } from './ease.js';
 import { hash } from './rng.js';
 import { layer, blit } from './layer.js';
+import { registerText } from './textboxes.js';
 import { W, H, FPS, colors, fonts, sizes, tracking } from '../tokens.js';
 
 const base = (o) => ({
@@ -44,6 +45,8 @@ function lay(ctx, o, str = o.text) {
   const dx = leftOf(o, l.width);
   for (const g of l.glyphs) g.x += dx + shift + (g.i >= e ? 2 * px : g.i >= s ? px : 0);
   ctx.textBaseline = 'alphabetic';
+  const last = l.glyphs.at(-1);
+  if (last) registerText(ctx, l.glyphs[0].x, o.y - o.size * 0.8, last.x + last.w, o.y + o.size * 0.25, o.color, str);
   return l;
 }
 
@@ -132,6 +135,7 @@ export function odometer(ctx, t, opts) {
   const show = outCubic(win(t, 0, 0.15)), grow = outCubic(win(t, 0, o.dur * 0.6));
 
   ctx.globalAlpha = show;
+  registerText(ctx, x0, top, x0 + pre + cols * cell + (o.suffix ? ctx.measureText(o.suffix).width : 0), o.y + m, o.color, `${o.prefix}${o.to}${o.suffix}`);
   ctx.fillStyle = o.color;
   ctx.fillText(o.prefix, x0, o.y);
   ctx.fillText(o.suffix, x0 + pre + cols * cell, o.y);

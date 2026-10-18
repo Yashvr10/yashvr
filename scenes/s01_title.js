@@ -1,15 +1,21 @@
 import { win, outExpo, inOutQuint } from '../engine/ease.js';
 import { withCamera, defaultPush, layerScale, Z, PUSH, DRIFT } from '../engine/camera.js';
+import { lines, windows, registerText } from '../engine/copy.js';
 import { W, H, colors, fonts, sizes, tracking, safe } from '../tokens.js';
 
-export const dur = 5;
-
-// Stand-in copy: the brief's {{HEADLINE}} and {{LABEL}} were never filled in.
-const HEADLINE = 'Motion, written in code.';
-const ACCENT_WORD = 3;
-const LABEL = 'S01 / TITLE CARD';
+// Copy: [headline, slate label]. The last headline word takes the accent.
+const [HEADLINE, LABEL] = lines('s01_title');
+const ACCENT_WORD = HEADLINE.split(' ').length - 1;
 
 const STAGGER = 0.09, ENTER = 0.3, WORD_DUR = 0.8, EXIT = 0.5;
+
+// The headline is the caption: settled once its last word is 70% through outExpo (99%).
+export const captions = windows('s01_title', [
+  { lines: [0], in: ENTER, at: ENTER + (ACCENT_WORD * STAGGER) + 0.7 * WORD_DUR },
+]);
+// Cut where the hold ends; the exit plays after it.
+export const end = captions[0].out;
+export const dur = end + EXIT;
 
 // Safe box in scene space, inset so the full camera push plus drift never crosses the margins.
 const SX = W / 2 - (W / 2 - safe.x - DRIFT.x) / (1 + PUSH), SY = H / 2 - (H / 2 - safe.y - DRIFT.y) / (1 + PUSH);
@@ -92,4 +98,7 @@ function content(ctx, t, d) {
   }
   ctx.filter = 'none';
   ctx.globalAlpha = 1;
+  const right = Math.max(...placed.map((p) => SX + p.x + lctx.measureText(p.w).width));
+  registerText(ctx, SX, top, right, top + lines * lineH + size * 0.25, colors.ink, HEADLINE);
+  registerText(ctx, SX, SY, SX + ctx.measureText(LABEL).width, SY + sizes.label, colors.dim, LABEL);
 }

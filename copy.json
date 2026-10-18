@@ -1,0 +1,38 @@
+{
+  "s01_title": [
+    "Motion, written in code.",
+    "S01 / TITLE CARD"
+  ],
+  "s02_type_demo": [
+    "Kinetic type",
+    "SIGNAL / NOISE",
+    "$120K+",
+    "Typed, then marked."
+  ],
+  "s03_diagram": [
+    "01 CAPTURE",
+    "02 DISCUSS",
+    "03 REPORT"
+  ],
+  "s04_particles": [
+    "12840",
+    "FRAMES RENDERED"
+  ],
+  "s05_cards": [
+    "WEEKLY RENDERS",
+    "FRAMES RENDERED",
+    "12,840",
+    "+12.4% this week",
+    "PIPELINE",
+    "Fonts loaded",
+    "Shaders compiled",
+    "Frames hashed",
+    "Video encoded"
+  ],
+  "s06_ledger": [
+    "Paid online",
+    "Share of payments made online, % · illustrative figures",
+    "“card not present”",
+    "a payment with no card on the counter"
+  ]
+}

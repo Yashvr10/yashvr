@@ -30,6 +30,13 @@ export const sizes = {
 export const tracking = { display: 0, body: 0, label: 0 }; // em: default spacing throughout
 // Text edges at 11.1–11.4% W and from 11.7% H.
 export const safe = { x: Math.round(0.113 * W), y: Math.round(0.117 * H) };
+// Broadcast safe areas as rects { x, y, w, h }: 16:9 title-safe (90% of the frame), and the
+// title-safe of a centred 9:16 crop (90% of a 607.5 × 1080 window), for vertical re-cuts.
+const crop = (H * 9) / 16;
+export const safe16x9 = { x: Math.round(0.05 * W), y: Math.round(0.05 * H), w: Math.round(0.9 * W), h: Math.round(0.9 * H) };
+export const safe9x16 = {
+  x: Math.round((W - crop) / 2 + 0.05 * crop), y: Math.round(0.05 * H), w: Math.round(0.9 * crop), h: Math.round(0.9 * H),
+};
 export const hold = 2.3; // seconds: median hold after an entrance (55 reference frames)
 
 // Motion, in seconds (reference frame counts at 23.976 fps).

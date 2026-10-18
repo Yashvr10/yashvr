@@ -29,6 +29,18 @@ the 2D layer; GL and 3D layers come from A until the cut, then B. `node qa-trans
 renders every transition frame to qa/tr_<name>/ with a strip, and checks for blank frames, both
 scenes at full opacity in the same pixels, and blur direction (whip: x, zoomThrough: radial).
 
+# Copy
+
+All visible text lives in `copy.json`, keyed by scene id (arrays of lines); scenes read it with
+`lines(id)` from `engine/copy.js` and hold no copy literals. Each scene declares `captions`
+(which lines, entrance `in`, settled `at`); `holdFor(text) = max(tokens.hold, 0.35 + words/3.2)`
+sets each hold, scenes derive their `end` from it, and `timeline.js` places cuts from those ends.
+`caption()` draws a riseIn block with a feathered 30% black scrim and a 24 px shadow. Every text
+draw registers its box; `?check` (and preview) reads the frame back and warns below 7:1.
+Background particle density and bloom drop 40% while a caption is fully visible.
+`?guides` (preview only) outlines `tokens.safe16x9` and `tokens.safe9x16`.
+`node export-srt.mjs` writes out/captions.srt.
+
 # Camera
 
 Every scene draws through `withCamera` (`engine/camera.js`) with `defaultPush` or its own camera,

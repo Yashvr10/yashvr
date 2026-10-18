@@ -12,28 +12,40 @@ import { W, H, FPS } from './tokens.js';
 
 export const SCENES = { s01_title: s01, s02_type_demo: s02, s03_diagram: s03, s04_particles: s04, s05_cards: s05, s06_ledger: s06 };
 
-// Moving a cut is editing one number here: it ends one scene, starts the next and centres
-// the transition between them.
-const CUT = [0, 4.3, 11.3, 16.2, 20.6, 26.6, 35.6];
-
-export const TIMELINE = [
-  { scene: 's01_title', start: CUT[0], dur: CUT[1] - CUT[0], from: 0 },
-  { tr: whip, at: CUT[1] },
-  { scene: 's02_type_demo', start: CUT[1], dur: CUT[2] - CUT[1], from: 0.6 },
-  { tr: zoomThrough, at: CUT[2] },
-  { scene: 's03_diagram', start: CUT[2], dur: CUT[3] - CUT[2], from: 0.5 },
-  { tr: glitch, at: CUT[3] },
-  { scene: 's04_particles', start: CUT[3], dur: CUT[4] - CUT[3], from: 1.15 },
+// The edit, in order. Each scene plays from its in-point `from` to its `end` (where its last
+// caption's hold ends, sized by holdFor from copy.json), plus an optional `trim` in seconds.
+// Cuts follow from those lengths, snapped to frames: moving a cut is editing one `trim`.
+// Each transition sits on the cut between its neighbours.
+const ORDER = [
+  { scene: 's01_title', from: 0 },
+  { tr: whip },
+  { scene: 's02_type_demo', from: 0.6 },
+  { tr: zoomThrough },
+  { scene: 's03_diagram', from: 0.5 },
+  { tr: glitch },
+  { scene: 's04_particles', from: 1.15 },
   {
-    tr: matchCut, at: CUT[4], opts: {
+    tr: matchCut, opts: {
       from: { x: W / 2, y: H / 2 - 36, w: 760, h: 240, r: 24 }, // the s04 total, at its last frame
       to: { x: W / 2 + 60 - 0.95 * 470, y: H / 2, w: 440, h: 320, r: 24 }, // s05's chart card, landed in its slot
     },
   },
-  { scene: 's05_cards', start: CUT[4], dur: CUT[5] - CUT[4], from: 1.0 },
+  { scene: 's05_cards', from: 1.0 },
   // Hard cut (no transition entry), the reference's most common transition.
-  { scene: 's06_ledger', start: CUT[5], dur: CUT[6] - CUT[5], from: 0 },
+  { scene: 's06_ledger', from: 0 },
 ];
+
+const snap = (s) => Math.round(s * FPS) / FPS;
+function place(order) {
+  let t = 0;
+  return order.map((x) => {
+    if (!x.scene) return { ...x, at: t };
+    const start = t;
+    t = snap(t + SCENES[x.scene].end - x.from + (x.trim ?? 0));
+    return { ...x, start, dur: t - start };
+  });
+}
+export const TIMELINE = place(ORDER);
 
 // Builds the lookup for a timeline. resolve(t) returns either { entry } or, inside a
 // transition window, { tr, t0, dur, A, B }; `primary` is the scene that owns the GL and 3D
@@ -60,6 +72,11 @@ export function build(list) {
     local,
     // Draws scene entry e at global time t, at its local time.
     drawer: (e, t) => (ctx) => e.mod.draw(ctx, local(e, t), e.mod.dur),
+    // Every caption in global time, clipped to its scene's window: { scene, text, in, at, out }.
+    captions: scenes.flatMap((e) => (e.mod.captions ?? []).map((c) => {
+      const g = (s) => e.start + s - (e.from ?? 0), end = e.start + e.dur;
+      return { scene: e.scene, text: c.text, in: Math.max(g(c.in), e.start), at: g(c.at), out: Math.min(g(c.out), end) };
+    }).filter((c) => c.out > c.in && c.at < c.out)),
     resolve(t) {
       const f = Math.round(t * FPS);
       const x = trs.find((x) => f >= x.f0 && f < x.f1);

@@ -7,9 +7,12 @@ import { win, inOutCubic } from '../engine/ease.js';
 import { hash } from '../engine/rng.js';
 import { measure, pointAt, drawOn } from '../engine/draw.js';
 import { withCamera } from '../engine/camera.js';
+import { lines, windows, registerText } from '../engine/copy.js';
 import { W, H, colors, fonts, sizes, safe, motion, stroke, radius } from '../tokens.js';
 
-export const dur = 9;
+const ID = 's06_ledger';
+// Copy: [title, subtitle, quoted phrase, caption under the absent card].
+const T = lines(ID);
 
 // ILLUSTRATIVE figures (share of payments made online, %). Replace with sourced data.
 const YEARS = [2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024];
@@ -17,6 +20,16 @@ const SHARE = [10, 12, 15, 19, 24, 30, 41, 48, 54, 59, 63];
 const STEEPEST = 6; // 2019 → 2020, the largest one-year rise
 
 const CUT = 6.5; // hard cut to shot 2
+const TYPED = motion.titleDelay + motion.typePerChar * [...T[2]].length; // quote typed, shot-local
+
+// Captions: the header (title + subtitle), the quote (settled once marked), the card caption.
+export const captions = windows(ID, [
+  { lines: [0, 1], in: motion.titleDelay, at: motion.titleDelay + motion.titleWipe },
+  { lines: [2], in: CUT + motion.titleDelay, at: CUT + TYPED + motion.marker },
+  { lines: [3], in: CUT, at: CUT },
+]);
+export const dur = Math.max(9, ...captions.map((c) => c.out));
+export const end = dur;
 const ROW = 150, ROW0 = 420; // row centres in page px
 const RULE_X = safe.x + 290, BAR_X = RULE_X + 44, BAR_H = 56;
 const BAR_PER = (W - safe.x - 210 - BAR_X) / 70; // px per percentage point
@@ -78,17 +91,20 @@ function ledger(ctx, t) {
   ctx.beginPath();
   const right = W - safe.x, wipe = win(t, motion.titleDelay, motion.titleDelay + motion.titleWipe);
   ctx.font = font('italic', 700, sizes.hero);
-  const tw = ctx.measureText('Paid online').width;
+  const tw = ctx.measureText(T[0]).width;
   ctx.rect(right - tw - 20, 0, (tw + 40) * wipe, titleY + 40);
   ctx.clip();
   ctx.fillStyle = colors.ink;
   ctx.textAlign = 'right';
-  ctx.fillText('Paid online', right, titleY);
+  ctx.fillText(T[0], right, titleY);
   ctx.restore();
+  registerText(ctx, right - tw, titleY - 0.108 * H, right, titleY + sizes.hero * 0.25, colors.ink, T[0]);
   ctx.font = font('italic', 400, sizes.label);
   ctx.fillStyle = colors.dim;
   ctx.textAlign = 'right';
-  ctx.fillText('Share of payments made online, % · illustrative figures', right, titleY + 64);
+  ctx.fillText(T[1], right, titleY + 64);
+  const sw = ctx.measureText(T[1]).width;
+  registerText(ctx, right - sw, titleY + 64 - sizes.label * 0.72, right, titleY + 64 + sizes.label * 0.25, colors.dim, T[1]);
 
   // Years, bars (ink hatching, drawn on left to right) and values.
   ctx.font = font('', 400, sizes.body);
@@ -130,11 +146,11 @@ function ledger(ctx, t) {
 }
 
 function quote(ctx, u) {
-  const text = '“card not present”', size = sizes.h1, baseline = safe.y + Math.round(0.097 * H);
+  const text = T[2], size = sizes.h1, baseline = safe.y + Math.round(0.097 * H);
   ctx.font = font('', 700, size, fonts.slab);
   const full = ctx.measureText(text).width, x0 = W / 2 - full / 2;
   // Marker behind the text: from half the cap height above the baseline to just below it.
-  const typed = motion.titleDelay + motion.typePerChar * text.length;
+  const typed = TYPED;
   const m = win(u, typed, typed + motion.marker), cap = 0.097 * H;
   if (m > 0) {
     ctx.fillStyle = colors.highlight;
@@ -142,6 +158,7 @@ function quote(ctx, u) {
   }
   ctx.fillStyle = colors.ink;
   typeOn(ctx, text, W / 2, baseline, motion.titleDelay, u, 'center');
+  registerText(ctx, x0, baseline - cap, x0 + full, baseline + size * 0.25, colors.ink, text);
 
   // The absent card: a dashed red outline drawing on, with a caption under it.
   ctx.strokeStyle = colors.accent;
@@ -159,7 +176,9 @@ function quote(ctx, u) {
   ctx.font = font('italic', 400, sizes.label);
   ctx.fillStyle = colors.dim;
   ctx.textAlign = 'center';
-  ctx.fillText('a payment with no card on the counter', W / 2, 1000);
+  ctx.fillText(T[3], W / 2, 1000);
+  const cw = ctx.measureText(T[3]).width;
+  registerText(ctx, W / 2 - cw / 2, 1000 - sizes.label * 0.72, W / 2 + cw / 2, 1000 + sizes.label * 0.25, colors.dim, T[3]);
 }
 
 export function draw(ctx, t) {

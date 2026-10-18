@@ -1,0 +1,54 @@
+1
+00:00:00,300 --> 00:00:03,430
+Motion, written in code.
+
+2
+00:00:03,433 --> 00:00:05,713
+Kinetic type
+
+3
+00:00:05,813 --> 00:00:08,563
+SIGNAL / NOISE
+
+4
+00:00:08,663 --> 00:00:11,463
+$120K+
+
+5
+00:00:11,563 --> 00:00:15,000
+Typed, then marked.
+
+6
+00:00:15,000 --> 00:00:17,680
+01 CAPTURE
+
+7
+00:00:15,800 --> 00:00:18,580
+02 DISCUSS
+
+8
+00:00:16,700 --> 00:00:19,460
+03 REPORT
+
+9
+00:00:19,467 --> 00:00:23,367
+12840
+FRAMES RENDERED
+
+10
+00:00:25,767 --> 00:00:29,867
+FRAMES RENDERED
+12,840
+
+11
+00:00:29,950 --> 00:00:34,030
+Paid online
+Share of payments made online, % · illustrative figures
+
+12
+00:00:36,367 --> 00:00:39,217
+a payment with no card on the counter
+
+13
+00:00:36,450 --> 00:00:39,486
+“card not present”
