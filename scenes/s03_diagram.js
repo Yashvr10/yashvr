@@ -2,9 +2,9 @@ import { win, outCubic, outBack } from '../engine/ease.js';
 import { loadDraw, grain, measure, drawOn, pulseAlong } from '../engine/draw.js';
 import { drawLaptop, drawChatBubble, drawChartCard } from '../engine/props.js';
 import { fade, riseIn } from '../engine/type.js';
+import { withCamera, defaultPush, layerScale, Z } from '../engine/camera.js';
 import { colors, stroke, sizes, tracking } from '../tokens.js';
 
-export const start = 13;
 export const dur = 6;
 
 const GROUND = 660, S = 1.15, POP = 0.5, EXIT = 0.4;
@@ -58,8 +58,9 @@ function content(ctx, t) {
   });
 }
 
+// One layer, the subject: props, lines, pulses and labels. Grain is screen-space, after it.
 export function draw(ctx, t, d = dur) {
   const e = outCubic(win(t, d - EXIT, d));
-  fade(ctx, 1 - e, -30 * e, (c) => content(c, t));
-  grain(ctx, start + t);
+  withCamera(ctx, layerScale(defaultPush(t, d), Z.subject), (c) => fade(c, 1 - e, -30 * e, (l) => content(l, t)));
+  grain(ctx, t);
 }

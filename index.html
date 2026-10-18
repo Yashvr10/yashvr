@@ -13,7 +13,7 @@ html,body{margin:0;background:#0b0b0f}canvas{display:block}
 <canvas id="c" width="1920" height="1080"></canvas>
 <script type="module">
 import { W, H, FPS, fontLoads } from './tokens.js';
-import { SCENES, DURATION, sceneAt } from './scenes/index.js';
+import { main, solo } from './timeline.js';
 import { createPost, POST_DEFAULTS } from './engine/post.js';
 
 // Scenes draw with Canvas2D into this layer; #c is WebGL2 and composites it over the background.
@@ -21,29 +21,35 @@ const layer = new OffscreenCanvas(W, H);
 const ctx = layer.getContext('2d');
 const params = new URLSearchParams(location.search);
 const postOn = !params.has('nopost');
+// ?solo=<scene id> plays one scene alone from its local time 0 (QA tools use it).
+const timeline = params.has('solo') ? solo(params.get('solo')) : main;
 let post;
 
-// Scenes may override window.POST values while drawing; they reset to defaults every frame.
+// Scenes and transitions may override window.POST values while drawing; they reset every frame.
 window.POST = { ...POST_DEFAULTS };
 
 // Pure function of t (seconds): clears and redraws everything, reads no clock or randomness.
+// Inside a transition both scenes draw (through the transition) on the 2D layer; the GL and
+// 3D layers come from whichever scene is primary at t.
 window.renderFrame = (t) => {
   Object.assign(window.POST, POST_DEFAULTS);
   ctx.reset();
-  const s = sceneAt(t);
-  s.draw(ctx, t - s.start, s.dur);
-  const three = s.draw3D?.(t - s.start, s.dur) ?? null;
-  const drawGL = s.drawGL && ((gl) => s.drawGL(gl, t - s.start, s.dur));
+  const { entry, tr, primary: p } = timeline.resolve(t);
+  if (tr) tr.tr(ctx, t, timeline.drawer(tr.A, t), timeline.drawer(tr.B, t), tr.t0, tr.dur, tr.opts);
+  else timeline.drawer(entry, t)(ctx);
+  const lt = timeline.local(p, t);
+  const three = p.mod.draw3D?.(lt, p.mod.dur) ?? null;
+  const drawGL = p.mod.drawGL && ((gl) => p.mod.drawGL(gl, lt, p.mod.dur));
   post(t, Math.round(t * FPS), { layer, three, drawGL }, window.POST, postOn);
 };
-window.DURATION = DURATION;
+window.DURATION = timeline.DURATION;
 window.FPS = FPS;
 
 for (const f of fontLoads) {
   if (!(await document.fonts.load(f)).length) throw new Error(`font did not load: ${f}`);
 }
 await document.fonts.ready;
-await Promise.all(SCENES.map((s) => s.load?.()));
+await Promise.all([...new Set(timeline.scenes.map((e) => e.mod))].map((m) => m.load?.()));
 post = await createPost(document.getElementById('c'));
 window.READY = true;
 
@@ -51,7 +57,7 @@ window.READY = true;
 if (!params.has('render')) {
   const t0 = performance.now();
   const loop = () => {
-    window.renderFrame(((performance.now() - t0) / 1000) % DURATION);
+    window.renderFrame(((performance.now() - t0) / 1000) % window.DURATION);
     requestAnimationFrame(loop);
   };
   requestAnimationFrame(loop);

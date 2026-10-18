@@ -1,13 +1,15 @@
 #version 300 es
-// Post chain, in order: bloom, exposure, ACES fitted, grade, radial chromatic aberration,
-// vignette, luminance-weighted grain. Output is sRGB. With uPost off: plain sRGB encode.
+// Post chain, in order: (zoom blur, for transitions) bloom, exposure, ACES fitted, grade, radial
+// chromatic aberration, vignette, luminance-weighted grain. Output is sRGB. With uPost off:
+// plain sRGB encode.
 precision highp float;
 in vec2 vUv;
 out vec4 o;
 uniform sampler2D uScene, uBloomTex;
 uniform vec2 uRes;
-uniform float uBloom, uExposure, uCA, uVig, uGrain;
+uniform float uBloom, uExposure, uCA, uVig, uGrain, uRadial;
 uniform int uFrame;
+uniform int uOne; // always 1: a runtime loop bound
 uniform bool uPost;
 
 vec3 srgb(vec3 c) {
@@ -33,8 +35,16 @@ vec3 grade(vec3 c) {
   return clamp(c, 0.0, 1.0);
 }
 
+// Zoom blur: the average of 12 samples on the line from uv toward the centre, uRadial long.
+vec3 sceneAt(vec2 uv) {
+  if (uRadial <= 0.0) return texture(uScene, uv).rgb;
+  vec3 s = vec3(0.0);
+  for (int i = 0; i < 12 * uOne; i++) s += texture(uScene, 0.5 + (uv - 0.5) * (1.0 - uRadial * float(i) / 11.0)).rgb;
+  return s / 12.0;
+}
+
 vec3 chain(vec2 uv) {
-  vec3 c = texture(uScene, uv).rgb + texture(uBloomTex, uv).rgb * uBloom;
+  vec3 c = sceneAt(uv) + texture(uBloomTex, uv).rgb * uBloom;
   return grade(srgb(aces(c * uExposure)));
 }
 

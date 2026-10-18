@@ -1,17 +1,21 @@
-import { win, lerp } from '../engine/ease.js';
+import { win } from '../engine/ease.js';
 import {
   motes, moteState, burst, burstState, confetti, confettiState,
   glyphBursts, sparksFromGlyphs, glParticles,
 } from '../engine/particles.js';
 import { fade, odometer, scramble, glyphsOf, scrambleLocks } from '../engine/type.js';
+import { withCamera, defaultPush, layerScale, punch, particleCam, Z } from '../engine/camera.js';
 import { W, H, colors } from '../tokens.js';
 
-export const start = 19;
 export const dur = 6;
 
 const EXIT = 0.4;
-// Slow push and drift; particles parallax by depth, the type sits at depth 1.
-const camAt = (t) => ({ dx: lerp(0, -40, t / dur), dy: lerp(0, 10, t / dur), z: lerp(0, 0.05, t / dur) });
+// Default push and drift, with a punch as the odometer lands. Particles get the camera through
+// particleCam and parallax at their own depths; the type is the subject layer.
+const camAt = (t) => {
+  const cam = defaultPush(t, dur);
+  return { ...cam, s: cam.s * punch(t, 2.0) };
+};
 
 const MOTES = { n: 600, layers: 3 };
 const ODO = { t0: 1.0, from: 0, to: 12840, dur: 1.0, x: W / 2, y: H / 2 + 40, size: 220 };
@@ -45,15 +49,14 @@ export function alphas(t) {
 }
 
 function content(ctx, t) {
-  const cam = camAt(t), s = 1 + cam.z;
+  const view = camAt(t), cam = particleCam(view);
   motes(ctx, t, { ...MOTES, cam });
   burst(ctx, t, { ...BURST, cam });
 
-  ctx.save();
-  ctx.setTransform(s, 0, 0, s, (W / 2) * (1 - s) + cam.dx, (H / 2) * (1 - s) + cam.dy);
-  odometer(ctx, t - ODO.t0, ODO);
-  scramble(ctx, t - CAPTION.t0, CAPTION);
-  ctx.restore();
+  withCamera(ctx, layerScale(view, Z.subject), (c) => {
+    odometer(c, t - ODO.t0, ODO);
+    scramble(c, t - CAPTION.t0, CAPTION);
+  });
 
   sparksFromGlyphs(ctx, t, caption, scrambleLocks(caption, CAPTION.dur), {
     t0: CAPTION.t0, size: CAPTION.size, cam, colors: [colors.accent],
@@ -67,5 +70,5 @@ export function draw(ctx, t) {
 
 // Deep dust on the GPU, behind everything.
 export function drawGL(gl, t) {
-  glParticles(gl, t, { cam: camAt(t), size: 2.5, alpha: 0.08 * exitFade(t) });
+  glParticles(gl, t, { cam: particleCam(camAt(t)), size: 2.5, alpha: 0.08 * exitFade(t) });
 }

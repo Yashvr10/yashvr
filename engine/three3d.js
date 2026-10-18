@@ -142,12 +142,14 @@ export function landCard(c, t, t0, { z = 0, dur = 0.7 } = {}) {
   setOpacity(c, clamp01((t - t0) / 0.12));
 }
 
-// Spreads a stack of cards into a fan: x by spacing, a slight arc down and a tilt out.
-export function fan(cards, t, t0, { dur = 0.9, spacing = 470, angle = 4, arc = 22 } = {}) {
+// Spreads cards into a fan: x by spacing, a slight arc down and a tilt out. from is the
+// spread before the fan (0 = stacked; above 0 lets each card land in its own clear slot,
+// since a card landing behind another stays hidden until it passes through it).
+export function fan(cards, t, t0, { dur = 0.9, spacing = 470, angle = 4, arc = 22, from = 0 } = {}) {
   const u = inOutQuint(win(t, t0, t0 + dur)), mid = (cards.length - 1) / 2;
   cards.forEach((c, i) => {
     const k = i - mid;
-    c.position.x = k * spacing * u;
+    c.position.x = k * spacing * lerp(from, 1, u);
     c.position.y = -Math.abs(k) * arc * u;
     c.rotation.z = -k * angle * DEG * u;
   });

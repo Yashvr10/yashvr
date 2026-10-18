@@ -1,7 +1,7 @@
-import { win, lerp, outExpo, inOutQuint } from '../engine/ease.js';
+import { win, outExpo, inOutQuint } from '../engine/ease.js';
+import { withCamera, defaultPush, layerScale, Z, PUSH, DRIFT } from '../engine/camera.js';
 import { W, H, colors, fonts, sizes, tracking, safe } from '../tokens.js';
 
-export const start = 0;
 export const dur = 5;
 
 // Stand-in copy: the brief's {{HEADLINE}} and {{LABEL}} were never filled in.
@@ -9,10 +9,10 @@ const HEADLINE = 'Motion, written in code.';
 const ACCENT_WORD = 3;
 const LABEL = 'S01 / TITLE CARD';
 
-const STAGGER = 0.09, ENTER = 0.3, WORD_DUR = 0.8, EXIT = 0.5, PUSH = 1.03;
+const STAGGER = 0.09, ENTER = 0.3, WORD_DUR = 0.8, EXIT = 0.5;
 
-// Safe box in scene space, inset so the camera push ends exactly on the safe margins.
-const SX = W / 2 - (W / 2 - safe.x) / PUSH, SY = H / 2 - (H / 2 - safe.y) / PUSH;
+// Safe box in scene space, inset so the full camera push plus drift never crosses the margins.
+const SX = W / 2 - (W / 2 - safe.x - DRIFT.x) / (1 + PUSH), SY = H / 2 - (H / 2 - safe.y - DRIFT.y) / (1 + PUSH);
 
 // The word layer is scratch space, cleared before every use, so it carries nothing between calls.
 let layer, lctx;
@@ -50,10 +50,12 @@ function wrap(ctx, words, size, maxW) {
   return { size, placed, lines: line + 1 };
 }
 
+// One layer, the subject: label and headline.
 export function draw(ctx, t, d = dur) {
-  const push = lerp(1, PUSH, t / d);
-  ctx.setTransform(push, 0, 0, push, (W * (1 - push)) / 2, (H * (1 - push)) / 2);
+  withCamera(ctx, layerScale(defaultPush(t, d), Z.subject), (c) => content(c, t, d));
+}
 
+function content(ctx, t, d) {
   const out = inOutQuint(win(t, d - EXIT, d));
   ctx.translate(0, -40 * out);
   const fade = 1 - out;

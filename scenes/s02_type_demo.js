@@ -1,8 +1,8 @@
 import { win, outCubic } from '../engine/ease.js';
 import { fade, riseIn, scramble, odometer, typeOn, markerWipe, splitExit } from '../engine/type.js';
+import { withCamera, defaultPush, layerScale, Z } from '../engine/camera.js';
 import { W, H } from '../tokens.js';
 
-export const start = 5;
 export const dur = 8;
 
 // Scene-time windows. Each exit (0.2 s, front-loaded fade) is half over before the next
@@ -29,7 +29,12 @@ function statement(ctx, t, b, draw) {
   fade(ctx, 1 - e, -30 * e, (c) => draw(c, t - b.enter[0]));
 }
 
-export function draw(ctx, t) {
+// One layer, the subject.
+export function draw(ctx, t, d = dur) {
+  withCamera(ctx, layerScale(defaultPush(t, d), Z.subject), (c) => content(c, t));
+}
+
+function content(ctx, t) {
   statement(ctx, t, B1, (c, u) => riseIn(c, u, { ...at, text: 'Kinetic type' }));
   statement(ctx, t, B2, (c, u) => scramble(c, u, {
     ...at, text: 'SIGNAL / NOISE', family: 'mono', weight: 400, size: 120, track: 0.02, dur: 0.45,

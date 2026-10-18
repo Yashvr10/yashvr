@@ -19,10 +19,26 @@ Scenes leave transparent wherever the background should show. `window.POST`
 override values while drawing. Add `&nopost` to the URL for background + composite only.
 WebGL2 with EXT_color_buffer_float is required; the page throws without it.
 
+# Edit
+
+`timeline.js` lists scenes and transitions in order. Each scene entry plays its scene from local
+time `from` for `dur`; each transition is centred on a cut (flash starts on it). The cuts are one
+array: moving a cut is editing one number. `?solo=<scene id>` plays a scene alone from 0.
+Transitions (`engine/transitions.js`) draw both scenes into scratch layers and composite them on
+the 2D layer; GL and 3D layers come from A until the cut, then B. `node qa-transitions.mjs`
+renders every transition frame to qa/tr_<name>/ with a strip, and checks for blank frames, both
+scenes at full opacity in the same pixels, and blur direction (whip: x, zoomThrough: radial).
+
+# Camera
+
+Every scene draws through `withCamera` (`engine/camera.js`) with `defaultPush` or its own camera,
+and every layer declares its depth via `layerScale(cam, Z.far | Z.subject | Z.fore)`. Particles
+take `particleCam(cam)` and parallax per particle. s05 is all 3D and frames itself with wallDolly.
+
 # Scenes
 
-Each `scenes/sNN_*.js` exports `start`, `dur`, `draw(ctx, t, dur)` (t local to the scene) and an
-optional async `load()`. Register them in `scenes/index.js`. Design values live in `tokens.js`.
+Each `scenes/sNN_*.js` exports `dur`, `draw(ctx, t, dur)` (t local to the scene) and optionally
+`load()`, `draw3D(t, dur)` and `drawGL(gl, t, dur)`. Register them in `timeline.js`. Design values live in `tokens.js`.
 Shared drawing: `engine/type.js` (kinetic type moves),
 `engine/draw.js` (lighting, grain, boil, shadows, draw-on, pulses) and `engine/props.js` (lit props).
 `engine/particles.js` (closed-form motes, bursts, confetti, glyph sparks and GPU point sprites).

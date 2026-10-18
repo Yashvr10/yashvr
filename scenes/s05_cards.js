@@ -5,12 +5,12 @@ import {
 } from '../engine/three3d.js';
 import { colors, fonts, tracking } from '../tokens.js';
 
-export const start = 25;
 export const dur = 7;
 
 // Cards land 0.3 / 0.75 / 1.2 s, fan at 2.0–2.9 s, the counter runs 3.4–5.2 s and the camera
 // settles at 5.5 s, so the final layout holds still for the last 1.5 s.
-const CW = 440, CH = 320, LAND = [0.3, 0.75, 1.2], FAN = 2.0, COUNT = [3.4, 5.2], SETTLE = 5.5, TOTAL = 12840;
+// Cards land in their own slots (95% of the fanned spacing, just apart) so none lands hidden behind another.
+const CW = 440, CH = 320, LAND = [0.3, 0.75, 1.2], FAN = 2.0, SLOT = 0.95, COUNT = [3.4, 5.2], SETTLE = 5.5, TOTAL = 12840;
 const surface = shade(colors.dim, -0.4);
 
 let st, cards, tiles;
@@ -92,11 +92,12 @@ export async function load() {
   renderer3D().compile(st.scene, st.camera);
 }
 
-export function draw() {} // nothing on the 2D layer
+// Nothing on the 2D layer: this scene is all 3D, framed by its own camera (wallDolly).
+export function draw() {}
 
 export function draw3D(t) {
   cards.forEach((c, i) => landCard(c, t, LAND[i], { z: 4 * i }));
-  fan(cards, t, FAN);
+  fan(cards, t, FAN, { from: SLOT });
   const value = Math.round(TOTAL * outCubic(win(t, COUNT[0], COUNT[1])));
   setCardContent(cards[1], drawStat(value), value);
 
