@@ -174,7 +174,13 @@ and the layout/fit of `s01_hook` / `s04_answer`; numbers at `sizes.giant` fitted
 coral arrow's points are built locally in the scene (the engine has none); a taped tile pops onto
 strip B. Edit: s03 → hard cut → s05 (from 0.05) → flash → s04. Stills: `node compare.mjs s05_milestones s02_growth`.
 
-**Task 3: final render: DONE (for the 10.000 s edit, before s05).** Outputs (git-ignored, in `out/`): `final1080.mp4` (1080×1920),
+**Task 5: final render of the 12.7 s edit: DONE.** `out/final1080.mp4` (1080×1920, 8.4 MiB, 5.6 Mb/s),
+`out/final1080_16x9.mp4` (1920×1080, 7.4 MiB, 4.9 Mb/s), `out/final1080_silent_audio.mp4` (the 9:16 with
+a silent AAC track). Each verified by `verify.mjs`: 381 frames, 30 fps, 12.700 s. `node qa-aspects.mjs`:
+no text crosses a safe line. Reviewed the whole encoded file at 0.5 s steps (9:16) and five frames of the
+16:9: pacing and cuts fine, ends on the full answer composition. Nothing is open. The project is finished.
+
+**Task 3: final render: DONE (for the 10.000 s edit, before s05; superseded by Task 5).** Outputs (git-ignored, in `out/`): `final1080.mp4` (1080×1920),
 `final1080_16x9.mp4` (1920×1080), `final1080_silent_audio.mp4` (the 9:16 with a silent AAC track, for
 platforms that need audio). Each verified: 300 frames, 30 fps, exactly 10.000 s; qa-aspects: no text
 crosses a safe line. Steps run: `node render.mjs video --workers 2`, `./encode.sh final1080`,
@@ -197,9 +203,6 @@ crosses a safe line. Steps run: `node render.mjs video --workers 2`, `./encode.s
 12. The status table and Next tasks above are updated.
 
 ## 9. Known issues
-- **The files in `out/` are stale:** they are the 10.000 s edit. Task 5: re-render for 12.7 s (`node
-  render.mjs video --workers 2`, `./encode.sh final1080 --out out/final1080.mp4`, then 16:9 with
-  `--aspect 16x9 --out frames_16x9`; `node verify.mjs` on each).
 - `tokens.DURATION` (10) is stale and frozen; nothing reads it (the page's timeline gives the real
   length). Use `node render.mjs info`.
 - s05's first frames after the hard cut are a blank white strip slamming in (about 3 frames, same slam
