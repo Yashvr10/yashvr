@@ -1,0 +1,17 @@
+{
+ "tokens": "night-amber",
+ "aspect": "16x9",
+ "scenes": [
+  {
+   "tpl": "headline",
+   "dur": 2.0,
+   "head": "Israel launched a military campaign.",
+   "sub": "Its stated aim: destroy Hamas."
+  },
+  {
+   "tpl": "end",
+   "dur": 3,
+   "title": "End"
+  }
+ ]
+}

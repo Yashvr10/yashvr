@@ -1,0 +1,186 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+@font-face { font-family: "Anton"; font-weight: 400; src: url(fonts/Anton-400.ttf) format("truetype"); }
+@font-face { font-family: "Inter Tight"; font-weight: 700; src: url(fonts/InterTight-700.woff2) format("woff2"); }
+@font-face { font-family: "Inter"; font-weight: 400; src: url(fonts/Inter-400.woff2) format("woff2"); }
+@font-face { font-family: "JetBrains Mono"; font-weight: 400; src: url(fonts/JetBrainsMono-400.woff2) format("woff2"); }
+@font-face { font-family: "Playfair Display"; font-weight: 700; src: url(fonts/PlayfairDisplay-700.woff2) format("woff2"); }
+html,body{margin:0;background:#eae9e9}canvas{display:block}
+#err{font:16px/1.4 "JetBrains Mono",monospace;color:#b00020;white-space:pre-wrap;padding:24px}
+</style>
+</head>
+<body>
+<canvas id="c" width="1920" height="1080"></canvas>
+<script type="module">
+// The data-driven player: player.html?job=jobs/<name>.json plays a job
+//   { "tokens": "<look>", "aspect": "16x9" | "9x16", "scenes": [{ "tpl", "dur", "tr"?, "trDur"?, ...params }] }
+// Scenes play back to back in slots of `dur` seconds (rounded to whole frames). Each cut gets a whip
+// unless the scene after it says otherwise with "tr": "cut" (a hard cut), "dip", "zoomThrough",
+// "matchCut", "flash" or "glitch" ("trDur" overrides its length). The job is validated before
+// anything is drawn: an unknown template, a missing or unknown param, a param of the wrong type,
+// or a caption whose hold (holdFor of its copy) doesn't fit before its scene is covered stops the
+// page with an error naming the scene and the fix. Errors go to the console (render.mjs fails on
+// them at once) and onto the page; READY is never set.
+// Then the renderFrame(t) contract of the projects it came from: renderFrame is a pure function of
+// t, render harnesses call window.renderChecked(t), and window.READY is set when everything is loaded.
+// Other flags: ?ss=N (supersample), ?render (no live loop, no contrast read-back), ?check.
+const params = new URLSearchParams(location.search);
+const fail = (msg) => {
+  const e = new Error(`job ${params.get('job') ?? '(none)'}: ${msg}`);
+  window.JOB_ERROR = e.message;
+  document.body.insertAdjacentHTML('afterbegin', `<div id="err"></div>`);
+  document.getElementById('err').textContent = e.message;
+  console.error(e.message);
+  throw e;
+};
+
+// 1. The job file and its top level.
+if (!params.get('job')) fail('no job: open player.html?job=jobs/<name>.json');
+let job;
+try {
+  const res = await fetch(params.get('job'));
+  if (!res.ok) throw new Error(`HTTP ${res.status}`);
+  job = await res.json();
+} catch (e) { fail(`could not read the job file: ${e.message}`); }
+const LOOK_NAMES = ['night-amber', 'paper-red', 'chrome-blue'];
+if (!LOOK_NAMES.includes(job.tokens)) fail(`"tokens" is ${JSON.stringify(job.tokens)}; it must be one of ${LOOK_NAMES.join(', ')}`);
+if (!['16x9', '9x16'].includes(job.aspect)) fail(`"aspect" is ${JSON.stringify(job.aspect)}; it must be "16x9" or "9x16"`);
+if (!Array.isArray(job.scenes) || !job.scenes.length) fail('"scenes" must be a non-empty array');
+// The look and aspect are read by tokens.js when it is first imported, so they are set first.
+globalThis.KIT = { tokens: job.tokens, aspect: job.aspect };
+
+const T = await import('./tokens.js');
+const { holdFor, resetBoxes, checkContrast } = await import('./engine/copy.js');
+const TR = await import('./engine/transitions.js');
+const { createPost, POST_DEFAULTS } = await import('./engine/post.js');
+const { TEMPLATES } = await import('./templates/index.js');
+const { withDefaults, ruleRect } = await import('./templates/_lib.js');
+const { W, H, SS, FPS } = T;
+
+// 2. Each scene: its template, its slot, its transition in, and its params against the schema.
+const TRANSITIONS = { whip: TR.whip, dip: TR.dip, zoomThrough: TR.zoomThrough, matchCut: TR.matchCut, flash: TR.flash, glitch: TR.glitch };
+const OWN = new Set(['tpl', 'dur', 'tr', 'trDur']);
+const isLonLat = (v) => Array.isArray(v) && v.length === 2 && v.every(Number.isFinite);
+const CHECK = {
+  string: (v) => typeof v === 'string', 'string[]': (v) => Array.isArray(v) && v.every((x) => typeof x === 'string' && x.trim()),
+  number: Number.isFinite, int: Number.isInteger, 'number[]': (v) => Array.isArray(v) && v.every(Number.isFinite), bool: (v) => typeof v === 'boolean',
+  lonlat: isLonLat, 'lonlat[]': (v) => Array.isArray(v) && v.every(isLonLat),
+  object: (v) => v === null || (typeof v === 'object' && !Array.isArray(v)), 'object[]': (v) => Array.isArray(v) && v.every((x) => x && typeof x === 'object'),
+};
+const scenes = job.scenes.map((s, i) => {
+  const where = `scene ${i + 1}${s.tpl ? ` (${s.tpl})` : ''}`;
+  const mod = TEMPLATES[s.tpl];
+  if (!mod) fail(`${where}: unknown tpl ${JSON.stringify(s.tpl)}; the templates are ${Object.keys(TEMPLATES).join(', ')}`);
+  if (!Number.isFinite(s.dur) || s.dur <= 0) fail(`${where}: "dur" must be a number of seconds above 0 (got ${JSON.stringify(s.dur)})`);
+  if (s.tr !== undefined && s.tr !== 'cut' && !TRANSITIONS[s.tr]) fail(`${where}: unknown "tr" ${JSON.stringify(s.tr)}; use cut or ${Object.keys(TRANSITIONS).join(', ')}`);
+  if (i === 0 && s.tr !== undefined) fail(`${where}: the first scene has no cut before it, so it takes no "tr"`);
+  const p = Object.fromEntries(Object.entries(s).filter(([k]) => !OWN.has(k)));
+  for (const [k, spec] of Object.entries(mod.params)) {
+    if (spec.required && (p[k] === undefined || p[k] === '')) fail(`${where}: missing param "${k}" (${spec.type}); ${s.tpl} needs ${Object.entries(mod.params).filter(([, q]) => q.required).map(([n]) => n).join(', ')}`);
+    if (p[k] === undefined) continue;
+    if (!CHECK[spec.type](p[k])) fail(`${where}: param "${k}" must be ${spec.type} (got ${JSON.stringify(p[k])})`);
+    if (spec.min !== undefined && p[k].length < spec.min) fail(`${where}: param "${k}" needs at least ${spec.min} item(s)`);
+    if (spec.max !== undefined && p[k].length > spec.max) fail(`${where}: param "${k}" takes at most ${spec.max} item(s) (got ${p[k].length})`);
+  }
+  for (const k of Object.keys(p)) if (!mod.params[k]) fail(`${where}: unknown param "${k}"; ${s.tpl} takes ${Object.keys(mod.params).join(', ')}`);
+  return { i, where, tpl: s.tpl, mod, p, dur: s.dur, tr: s.tr ?? (i ? 'whip' : null), trDur: s.trDur };
+});
+
+// 3. Slots on whole frames, transitions centred on the cuts (each at its own anchor).
+let f = 0;
+const entries = scenes.map((s) => {
+  const n = Math.round(s.dur * FPS), e = { ...s, start: f / FPS, slot: n / FPS };
+  f += n;
+  return e;
+});
+const DURATION = f / FPS;
+const trs = entries.slice(1).filter((e) => e.tr !== 'cut').map((B) => {
+  const A = entries[B.i - 1], fn = TRANSITIONS[B.tr], dur = B.trDur ?? fn.dur, at = B.start, t0 = at - (fn.anchor ?? 0.5) * dur;
+  const opts = B.tr === 'matchCut' ? { from: ruleRect(T), to: ruleRect(T), color: T.colors.accent } : B.tr === 'dip' ? { color: T.colors.ground } : undefined;
+  const f0 = Math.round(t0 * FPS);
+  return { A, B, fn, dur, at, t0, f0, f1: f0 + Math.round(dur * FPS), opts };
+});
+
+// 4. Holds: each caption, in its scene's local time, must be out (settled + holdFor of its copy)
+// before its scene is covered: the start of the transition leaving it (the match cut shows it
+// unchanged up to the cut), or its slot's end.
+for (const e of entries) {
+  const leave = trs.find((x) => x.A === e);
+  const covered = leave && leave.fn !== TR.matchCut ? leave.f0 / FPS - e.start : e.slot;
+  e.captions = e.mod.captions(e.p, T);
+  for (const c of e.captions) {
+    if (c.out <= covered + 1e-6) continue;
+    const need = c.at + holdFor(c.text) + (e.slot - covered);
+    fail(`${e.where}: the hold of "${c.text}" is too short: it is settled at ${c.at.toFixed(2)} s and needs holdFor = ${holdFor(c.text).toFixed(2)} s, `
+      + `but the scene is covered at ${covered.toFixed(2)} s${leave ? ` (the ${leave.B.tr} into scene ${leave.B.i + 1} starts there)` : ''}; `
+      + `make "dur" at least ${(Math.ceil(need * FPS) / FPS).toFixed(2)} s or shorten the copy`);
+  }
+}
+
+// 5. Fonts, then each scene's prepare() (it measures type and builds 3D stages).
+for (const fl of T.fontLoads) if (!(await document.fonts.load(fl)).length) fail(`font did not load: ${fl}`);
+await document.fonts.ready;
+for (const e of entries) await e.mod.prepare(e.p, T);
+
+// 6. Drawing: the same compositing as the projects' index.html (2D layer over the GL background
+// and post chain), with templates in place of scenes.
+const layer = new OffscreenCanvas(W * SS, H * SS);
+const ctx = layer.getContext('2d');
+const drawer = (e, t) => (c) => e.mod.default(c, t - e.start, e.slot, e.p, T);
+function resolve(t) {
+  const fr = Math.round(t * FPS);
+  const x = trs.find((x) => fr >= x.f0 && fr < x.f1);
+  if (x) return { tr: x };
+  return { e: entries.findLast((e) => fr >= Math.round(e.start * FPS)) ?? entries[0] };
+}
+const postOn = !params.has('nopost');
+const checking = params.has('check') || !params.has('render');
+const warned = new Set();
+let post, gl2;
+window.POST = { ...POST_DEFAULTS };
+window.renderFrame = (t) => {
+  Object.assign(window.POST, POST_DEFAULTS);
+  window.TRACE = null;
+  resetBoxes();
+  ctx.reset();
+  ctx.setTransform(SS, 0, 0, SS, 0, 0);
+  const { tr, e } = resolve(t);
+  if (tr) tr.fn(ctx, t, drawer(tr.A, t), drawer(tr.B, t), tr.t0, tr.dur, tr.opts);
+  else drawer(e, t)(ctx);
+  post(t, Math.round(t * FPS), { layer }, window.POST, postOn);
+  if (checking) window.COPY_CHECKS = checkContrast(gl2, 7, warned);
+};
+const BANNED = [[Math, 'random'], [Date, 'now'], [performance, 'now'], [window, 'setTimeout'], [window, 'setInterval'], [window, 'requestAnimationFrame']];
+window.renderChecked = async (t) => {
+  const saved = BANNED.map(([o, k]) => o[k]), RealDate = window.Date;
+  BANNED.forEach(([o, k]) => { o[k] = () => { throw new Error(`banned call in renderFrame: ${k}`); }; });
+  window.Date = new Proxy(RealDate, { construct() { throw new Error('banned call in renderFrame: new Date'); } });
+  try { await window.renderFrame(t); } finally { BANNED.forEach(([o, k], i) => { o[k] = saved[i]; }); window.Date = RealDate; }
+};
+window.DURATION = DURATION;
+window.FPS = FPS;
+window.SS = SS;
+window.ASPECT = T.ASPECT;
+window.JOB = { tokens: job.tokens, aspect: job.aspect, scenes: entries.map((e) => ({ tpl: e.tpl, start: e.start, dur: e.slot, tr: e.tr })) };
+window.CAPTIONS = entries.flatMap((e) => e.captions.map((c) => ({ scene: e.i, tpl: e.tpl, text: c.text, in: e.start + c.in, at: e.start + c.at, out: Math.min(e.start + c.out, e.start + e.slot) })));
+
+const canvas = document.getElementById('c');
+canvas.width = W * SS;
+canvas.height = H * SS;
+canvas.style.width = `${W}px`;
+post = await createPost(canvas);
+gl2 = canvas.getContext('webgl2');
+window.READY = true;
+
+// Live preview only: the clock picks t; it never reaches renderFrame.
+if (!params.has('render')) {
+  const t0 = performance.now();
+  const loop = () => { window.renderFrame(((performance.now() - t0) / 1000) % DURATION); requestAnimationFrame(loop); };
+  requestAnimationFrame(loop);
+}
+</script>
+</body>
+</html>

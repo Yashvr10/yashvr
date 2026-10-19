@@ -1,0 +1,15 @@
+{
+ "tokens": "night-amber",
+ "aspect": "16x9",
+ "scenes": [
+  {
+   "tpl": "cards",
+   "dur": 4.6,
+   "cards": [
+    "Civilians killed.",
+    "Families displaced.",
+    "Hostages taken."
+   ]
+  }
+ ]
+}

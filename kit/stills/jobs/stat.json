@@ -1,0 +1,14 @@
+{
+ "tokens": "night-amber",
+ "aspect": "16x9",
+ "scenes": [
+  {
+   "tpl": "stat",
+   "dur": 3.8,
+   "value": 20,
+   "suffix": " billion",
+   "label": "UPI payments in August 2025",
+   "source": "Source: NPCI, via Storyboard18"
+  }
+ ]
+}

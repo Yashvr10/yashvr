@@ -1,0 +1,11 @@
+{
+ "tokens": "night-amber",
+ "aspect": "16x9",
+ "scenes": [
+  {
+   "tpl": "stat",
+   "dur": 4,
+   "value": 20
+  }
+ ]
+}

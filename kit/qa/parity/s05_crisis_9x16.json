@@ -1,0 +1,11 @@
+{
+ "tokens": "night-amber",
+ "aspect": "9x16",
+ "scenes": [
+  {
+   "tpl": "wall",
+   "dur": 4.4,
+   "text": "A humanitarian crisis in Gaza."
+  }
+ ]
+}

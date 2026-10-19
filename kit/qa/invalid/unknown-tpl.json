@@ -1,0 +1,20 @@
+{
+ "tokens": "night-amber",
+ "aspect": "16x9",
+ "scenes": [
+  {
+   "tpl": "title",
+   "dur": 3,
+   "lines": [
+    "Hello."
+   ]
+  },
+  {
+   "tpl": "carousel",
+   "dur": 3,
+   "items": [
+    "a"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,38 @@
+{
+ "tokens": "paper-red",
+ "aspect": "16x9",
+ "scenes": [
+  {
+   "tpl": "title",
+   "dur": 3.4,
+   "lines": [
+    "India's phone payments",
+    "run on UPI."
+   ]
+  },
+  {
+   "tpl": "stat",
+   "dur": 3.8,
+   "value": 20,
+   "suffix": " billion",
+   "label": "UPI payments in August 2025",
+   "source": "Source: NPCI, via Storyboard18"
+  },
+  {
+   "tpl": "cards",
+   "dur": 3.6,
+   "cards": [
+    "Scan a QR code",
+    "Enter your PIN",
+    "Paid"
+   ]
+  },
+  {
+   "tpl": "end",
+   "dur": 3.0,
+   "tr": "dip",
+   "title": "UPI",
+   "line": "Source: NPCI"
+  }
+ ]
+}

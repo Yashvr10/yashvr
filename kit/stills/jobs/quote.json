@@ -1,0 +1,12 @@
+{
+ "tokens": "night-amber",
+ "aspect": "16x9",
+ "scenes": [
+  {
+   "tpl": "quote",
+   "dur": 3.4,
+   "text": "Each frame: a function of time.",
+   "attribution": "The renderFrame(t) contract"
+  }
+ ]
+}

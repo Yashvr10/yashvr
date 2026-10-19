@@ -1,0 +1,33 @@
+{
+ "tokens": "chrome-blue",
+ "aspect": "9x16",
+ "scenes": [
+  {
+   "tpl": "title",
+   "dur": 3.0,
+   "lines": [
+    "One engine.",
+    "Three looks."
+   ]
+  },
+  {
+   "tpl": "quote",
+   "dur": 3.4,
+   "text": "Each frame: a function of time.",
+   "attribution": "The renderFrame(t) contract"
+  },
+  {
+   "tpl": "wall",
+   "dur": 3.8,
+   "tr": "zoomThrough",
+   "text": "Same scene, new tokens."
+  },
+  {
+   "tpl": "end",
+   "dur": 3.0,
+   "tr": "dip",
+   "title": "Template kit",
+   "line": "kit/player.html?job=…"
+  }
+ ]
+}

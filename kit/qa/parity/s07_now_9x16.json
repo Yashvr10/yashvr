@@ -1,0 +1,11 @@
+{
+ "tokens": "night-amber",
+ "aspect": "9x16",
+ "scenes": [
+  {
+   "tpl": "quote",
+   "dur": 3.0,
+   "text": "The search for peace continues."
+  }
+ ]
+}

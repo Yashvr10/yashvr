@@ -18,3 +18,5 @@ promo/qa/**/*.png
 promo/qa/*.txt
 promo/qa/t[0-9]
 promo/qa/*.log
+kit/qa/parity/*.png
+kit/qa/*.png

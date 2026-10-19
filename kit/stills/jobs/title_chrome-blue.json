@@ -1,0 +1,14 @@
+{
+ "tokens": "chrome-blue",
+ "aspect": "16x9",
+ "scenes": [
+  {
+   "tpl": "title",
+   "dur": 3.4,
+   "lines": [
+    "One engine.",
+    "Three looks."
+   ]
+  }
+ ]
+}

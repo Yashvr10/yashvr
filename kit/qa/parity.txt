@@ -1,0 +1,19 @@
+s06_talks     16x9  t 20.2000  orig 624807a6a7c8aaf9  tpl 624807a6a7c8aaf9  IDENTICAL
+s06_talks     16x9  t 21.7000  orig 5b8cb358f5765c6e  tpl 5b8cb358f5765c6e  IDENTICAL
+s06_talks     16x9  t 23.4000  orig bd26f2954d289820  tpl bd26f2954d289820  IDENTICAL
+s06_talks     9x16  t 20.2000  orig bdce423a6118a3cc  tpl bdce423a6118a3cc  IDENTICAL
+s06_talks     9x16  t 21.7000  orig 6cca3a0afb4ac116  tpl 6cca3a0afb4ac116  IDENTICAL
+s06_talks     9x16  t 23.4000  orig 2a766c5e69f16128  tpl 2a766c5e69f16128  IDENTICAL
+s07_now       16x9  t 0.4000  orig 2fbb6a3e79a12927  tpl 2fbb6a3e79a12927  IDENTICAL
+s07_now       16x9  t 1.5000  orig 3515ecded9909962  tpl 3515ecded9909962  IDENTICAL
+s07_now       16x9  t 2.8000  orig 529d1087f8cb6a87  tpl 529d1087f8cb6a87  IDENTICAL
+s07_now       9x16  t 0.4000  orig 8274a8a9b230543f  tpl 8274a8a9b230543f  IDENTICAL
+s07_now       9x16  t 1.5000  orig 737c2b7f5ca93f21  tpl 737c2b7f5ca93f21  IDENTICAL
+s07_now       9x16  t 2.8000  orig 54f32bed5a81002d  tpl 54f32bed5a81002d  IDENTICAL
+s08_end       16x9  t 0.4000  orig e3fca9cf3d586058  tpl e3fca9cf3d586058  IDENTICAL
+s08_end       16x9  t 1.7000  orig f670fc8efd1fd315  tpl f670fc8efd1fd315  IDENTICAL
+s08_end       16x9  t 3.2000  orig c3fcd100fa49d0df  tpl c3fcd100fa49d0df  IDENTICAL
+s08_end       9x16  t 0.4000  orig 46f9466a59c9d523  tpl 46f9466a59c9d523  IDENTICAL
+s08_end       9x16  t 1.7000  orig c22666b8db06f990  tpl c22666b8db06f990  IDENTICAL
+s08_end       9x16  t 3.2000  orig 412d5fc74b142c17  tpl 412d5fc74b142c17  IDENTICAL
+PASS: all 18 frames byte-identical
