@@ -43,18 +43,17 @@ export async function openPage(browser, query = '') {
   const failed = new Promise((_, reject) => page.on('pageerror', reject));
   await page.setViewport({ width: 1920, height: 1080, deviceScaleFactor: 1 });
   await page.goto(`http://localhost:${PORT}/index.html?render${query ? `&${query}` : ''}`);
-  await Promise.race([page.waitForFunction('window.READY === true'), failed]);
+  // 180 s, as render.mjs: under load (parallel renders on SwiftShader) READY can take over 30 s.
+  await Promise.race([page.waitForFunction('window.READY === true', { timeout: 180000 }), failed]);
   failed.catch(() => {});
   return page;
 }
 
-// Renders time t to PNG bytes. Clock, random and timer calls throw while renderFrame runs.
+// Renders time t to PNG bytes through the page's renderChecked (index.html): awaited, and every
+// clock, random, timer or frame-callback call throws while the frame draws.
 export async function grab(page, t) {
-  const url = await page.evaluate((t) => {
-    const banned = [[Math, 'random'], [Date, 'now'], [performance, 'now'], [window, 'setTimeout'], [window, 'setInterval']];
-    const saved = banned.map(([o, k]) => o[k]);
-    banned.forEach(([o, k]) => { o[k] = () => { throw new Error(`banned call in renderFrame: ${k}`); }; });
-    try { window.renderFrame(t); } finally { banned.forEach(([o, k], i) => { o[k] = saved[i]; }); }
+  const url = await page.evaluate(async (t) => {
+    await window.renderChecked(t);
     return document.getElementById('c').toDataURL('image/png');
   }, t);
   return Buffer.from(url.split(',')[1], 'base64');

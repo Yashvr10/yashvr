@@ -103,7 +103,7 @@ const closeSession = async (s) => { try { await s?.browser.close(); } catch { s?
 async function capture(s, t, type = 'image/png', quality) {
   const url = await Promise.race([
     s.page.evaluate(async (t, type, quality) => {
-      await window.renderFrame(t);
+      await window.renderChecked(t); // awaited and guarded: a banned call throws, failing the render
       return document.getElementById('c').toDataURL(type, quality);
     }, t, type, quality),
     s.failed,

@@ -41,6 +41,7 @@ const checking = params.has('check') || !params.has('render');
 const warned = new Set();
 window.renderFrame = (t) => {
   Object.assign(window.POST, POST_DEFAULTS);
+  window.TRACE = null; // ?trace=<id>: engine/trace.js sets it while this frame draws
   resetBoxes();
   ctx.reset();
   ctx.setTransform(SS, 0, 0, SS, 0, 0);
@@ -54,6 +55,21 @@ window.renderFrame = (t) => {
   const drawGL = p.mod.drawGL && ((gl) => p.mod.drawGL(gl, lt, p.mod.dur));
   post(t, Math.round(t * FPS), { layer, three, drawGL }, window.POST, postOn);
   if (checking) window.COPY_CHECKS = checkContrast(gl2, 7, warned);
+};
+// The render harnesses (render.mjs capture, browser.mjs grab) call this, never renderFrame directly:
+// it awaits the frame (so an async renderFrame is finished before the canvas is read) and makes
+// every clock, random, timer and frame-callback call throw while it draws.
+const BANNED = [[Math, 'random'], [Date, 'now'], [performance, 'now'], [window, 'setTimeout'], [window, 'setInterval'], [window, 'requestAnimationFrame']];
+window.renderChecked = async (t) => {
+  const saved = BANNED.map(([o, k]) => o[k]), RealDate = window.Date;
+  BANNED.forEach(([o, k]) => { o[k] = () => { throw new Error(`banned call in renderFrame: ${k}`); }; });
+  window.Date = new Proxy(RealDate, { construct() { throw new Error('banned call in renderFrame: new Date'); } });
+  try {
+    await window.renderFrame(t);
+  } finally {
+    BANNED.forEach(([o, k], i) => { o[k] = saved[i]; });
+    window.Date = RealDate;
+  }
 };
 window.DURATION = timeline.DURATION;
 window.FPS = FPS;

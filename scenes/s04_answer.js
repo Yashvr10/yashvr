@@ -17,6 +17,7 @@ import { withCamera, defaultPush, layerScale, punch, inPush, Z } from '../engine
 import { field, cutout, rect, tape, qrTile, loop, marker } from '../engine/collage.js';
 import { burst } from '../engine/particles.js';
 import { measure } from '../engine/draw.js';
+import { trace } from '../engine/trace.js';
 import { L, column } from '../engine/layout.js';
 import { colors, fields, sizes, tracking, motion, collage } from '../tokens.js';
 
@@ -101,6 +102,7 @@ function content(ctx, t) {
   // The tile falls from above the frame, turning from −14° to −2°, and lands with an overshoot.
   const fall = win(t, ...DROP), e = fall >= 1 ? 1 : outBack(fall, motion.overshoot);
   const ty = P.tile.y - (1 - e) * (P.tile.y + TILE), r = -0.24 + 0.2 * Math.min(1, e);
+  trace(ctx, 's04.tile', P.tile.x, ty);
   cutout(ctx, SQUARE, { x: P.tile.x, y: ty, s: SCALE, r, fill: colors.white, paint: (c) => qrTile(c, 0, 0, collage.tile.size - 24, { seed: collage.tile.seed }) });
   // Impact: paper bits kicked out from under the tile's bottom edge.
   burst(ctx, t, { t0: IMPACT, x: P.tile.x, y: P.tile.y + TILE / 2, n: 28, speed: 360, gravity: 1400, life: [0.25, 0.5], width: 4, colors: [colors.ink, colors.white] });

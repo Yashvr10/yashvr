@@ -19,6 +19,7 @@ import { lines, windows } from '../engine/copy.js';
 import { withCamera, defaultPush, layerScale, inPush, Z } from '../engine/camera.js';
 import { field, cutout, tornRect, qrTile } from '../engine/collage.js';
 import { drawOn, measure } from '../engine/draw.js';
+import { trace } from '../engine/trace.js';
 import { L } from '../engine/layout.js';
 import { colors, fields, sizes, tracking, motion, collage, stroke } from '../tokens.js';
 
@@ -102,6 +103,7 @@ function question(ctx, t) {
   if (u <= 0) return;
   const s = u >= 1 ? 1 : 1.4 - 0.4 * outBack(u, motion.overshoot), y = QUESTION_Y - sizes.hero * 0.43;
   cutout(ctx, STRIP, { x: L.cx(), y, s, r: -0.02, fill: colors.white, alpha: Math.min(1, u * 4) });
+  trace(ctx, 's02.strip', L.cx() - L.width * 0.46 * s, y - sizes.hero * 0.75 * s); // the strip's top-left corner
   riseIn(ctx, t - QUESTION_IN, { ...STYLE.question, text: QUESTION, x: L.cx(), y: QUESTION_Y });
 }
 

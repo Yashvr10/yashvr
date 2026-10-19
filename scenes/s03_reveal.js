@@ -12,6 +12,7 @@ import { withCamera, defaultPush, layerScale, punch, Z } from '../engine/camera.
 import { field, qrTile } from '../engine/collage.js';
 import { assemble, assembleEnd, burst, targetsFromText } from '../engine/particles.js';
 import { L } from '../engine/layout.js';
+import { trace } from '../engine/trace.js';
 import { colors, fields, fonts, motion, hold, collage } from '../tokens.js';
 
 const F = fields.navy;
@@ -42,6 +43,7 @@ export async function load() {
 
 // One tile at an assemble() state p: translated, turned, faded and scaled as it flies.
 const tile = (c, p, i) => {
+  if (i === 0) trace(c, 's03.tile0', p.x, p.y);
   c.save();
   c.globalAlpha = p.a;
   c.translate(p.x, p.y);

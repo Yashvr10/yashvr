@@ -1,7 +1,7 @@
 # NOTES.md: handoff
 
 ## 1. Goal
-A silent vertical (1080×1920, 30 fps) Vox-style Mixed Media explainer, 12.7 s / 381 frames (the
+A silent vertical (1080×1920, 30 fps) Vox-style Mixed Media explainer, 12.8 s / 384 frames (the
 original brief was 10.0 s / 300 frames; s05 was added later by request, which is why it grew): **how
 India's UPI went from about 1 million payments a month (Aug 2016) to 21.6 billion (Dec 2025)**.
 Rendered from code: `renderFrame(t)` in `index.html` draws each frame; headless Chrome captures it;
@@ -100,14 +100,14 @@ frames (they reset every frame); nothing in this video needs to.
 ## 5. Scene status
 | id | file | in edit | dur in edit | type | status |
 |---|---|---|---|---|---|
-| s01_hook | scenes/s01_hook.js | 0.000 | 2.700 | kinetic type over collage | done, EXEMPLAR, frozen |
-| s02_growth | scenes/s02_growth.js | 2.700 | 2.533 (from 0.15) | chart built from pieces | done, EXEMPLAR, frozen |
-| s03_reveal | scenes/s03_reveal.js | 5.233 | 2.000 (from 0.1, hard cut in) | tiles assemble into ₹ (navy) | done (built by the lead; determinism PASS on 10, 40) |
-| s05_milestones | scenes/s05_milestones.js | 7.233 | 2.700 (from 0.05, hard cut in) | cutouts slam in over a field (yellow) | done (determinism PASS on 20, 50; self-check below) |
-| s04_answer | scenes/s04_answer.js | 9.933 | 2.767 (no trim; the video ends on it) | the answer: number + marks | done (determinism PASS on 15, 60; self-check passed) |
+| s01_hook | scenes/s01_hook.js | 0.000 | 2.733 | kinetic type over collage | done, EXEMPLAR, frozen |
+| s02_growth | scenes/s02_growth.js | 2.733 | 2.567 (from 0.15) | chart built from pieces | done, EXEMPLAR, frozen |
+| s03_reveal | scenes/s03_reveal.js | 5.300 | 2.000 (from 0.1, hard cut in) | tiles assemble into ₹ (navy) | done (built by the lead; determinism PASS on 10, 40) |
+| s05_milestones | scenes/s05_milestones.js | 7.300 | 2.700 (from 0.05, hard cut in) | cutouts slam in over a field (yellow) | done (determinism PASS on 20, 50; self-check below) |
+| s04_answer | scenes/s04_answer.js | 10.000 | 2.800 (no trim; the video ends on it) | the answer: number + marks | done (determinism PASS on 15, 60; self-check passed) |
 
 All five scenes are done. The edit: s01 → whip → s02 → hard cut → s03 → hard cut → s05 → flash → s04.
-Total 12.700 s, 381 frames (`node render.mjs info`).
+Total 12.800 s, 384 frames (`node render.mjs info`). Cuts round UP to a whole frame (see §11).
 
 ## 6. Exemplar scenes
 - `scenes/s01_hook.js`: the pattern every scene follows (its header lists the 5 steps): copy via
@@ -174,9 +174,10 @@ and the layout/fit of `s01_hook` / `s04_answer`; numbers at `sizes.giant` fitted
 coral arrow's points are built locally in the scene (the engine has none); a taped tile pops onto
 strip B. Edit: s03 → hard cut → s05 (from 0.05) → flash → s04. Stills: `node compare.mjs s05_milestones s02_growth`.
 
-**Task 5: final render of the 12.7 s edit: DONE.** `out/final1080.mp4` (1080×1920, 8.4 MiB, 5.6 Mb/s),
-`out/final1080_16x9.mp4` (1920×1080, 7.4 MiB, 4.9 Mb/s), `out/final1080_silent_audio.mp4` (the 9:16 with
-a silent AAC track). Each verified by `verify.mjs`: 381 frames, 30 fps, 12.700 s. `node qa-aspects.mjs`:
+**Task 5: final render: DONE.** `out/final1080.mp4` (1080×1920, 8.4 MiB, 5.5 Mb/s),
+`out/final1080_16x9.mp4` (1920×1080, 7.4 MiB, 4.8 Mb/s), `out/final1080_silent_audio.mp4` (the 9:16 with
+a silent AAC track). Re-encoded after the render-bug audit (§11): each verified by `verify.mjs`, 384
+frames, 30 fps, 12.800 s. `node qa-aspects.mjs`:
 no text crosses a safe line. Reviewed the whole encoded file at 0.5 s steps (9:16) and five frames of the
 16:9: pacing and cuts fine, ends on the full answer composition. Nothing is open. The project is finished.
 
@@ -239,3 +240,29 @@ crosses a safe line. Steps run: `node render.mjs video --workers 2`, `./encode.s
 - `node demo.mjs` → qa/demo_*.png and the 300-line check on engine/.
 - Page flags: `?solo=ID`, `?demo=NAME`, `?aspect=16x9`, `?ss=2`, `?check`, `?guides`, `?nopost`, `?render`.
 - `PORT=8091 node …` runs a tool on another port so two can run at once.
+
+## 11. Render-bug audit (qa/*.mjs)
+Five tests, run from the repo root (`PORT=… node qa/<test>.mjs`); each exits 1 on failure.
+- `qa/determinism.mjs [frames…] [--aspect 16x9]`: frames (default 0, 45, 150, last) rendered cold, in
+  order, in reverse and twice in a row; SHA-256 of each must match. PASS (both aspects).
+- `qa/flicker.mjs`: draft encode → `tblend=all_mode=difference` + `signalstats` YAVG into `qa/diff.txt`;
+  spikes over 3× median away from cuts are classified with the two-frame difference (`qa/diff2.txt`):
+  an A-B-A frame is flicker, anything else motion. PASS: no flicker; the spikes are the five motion
+  beats (s01 drop, s02 build, s03 flight + landing, s05 strip slam, s04 drop).
+- `qa/trace.mjs --allow …`: `?trace=<id>` (engine/trace.js; each scene traces its main moving element:
+  s01.tile, s02.strip, s03.tile0, s05.stripB, s04.tile) and flags jerk spikes against the frames
+  around them. The only flags are the designed camera `punch` (a 6% one-frame scale step on an impact:
+  s01 f5, s04 f5, s05 f20–21, s03 f26–28) and the end of an outBack (s03 f21: acceleration 2s → 0,
+  velocity continuous); run with `--allow s01.tile:5,s04.tile:5,s05.stripB:20,s05.stripB:21,s03.tile0:21,s03.tile0:26,s03.tile0:27,s03.tile0:28`.
+- `qa/frames-check.mjs [--frames DIR]`: fonts (every drawn glyph is in a face READY waited for, not a
+  fallback), no images, preserveDrawingBuffer, the harness awaits and guards each frame, and no 5+ run
+  of equal file sizes or byte-identical neighbours in the rendered frames. PASS.
+- `qa/boundaries.mjs [--aspect 16x9]`: every frame resolves once, local time steps 1/FPS, holds keep
+  their last frame, transitions fit, t = start + dur belongs to the next scene. PASS (both aspects).
+
+Fixed by the audit: (1) cuts rounded to the nearest frame cut holds up to ~1.2 frames short of
+`holdFor` and ended the video 0.034 s before s04's hold: `timeline.js` now rounds cuts up (381 → 384
+frames). (2) `browser.mjs` grab() didn't await renderFrame; (3) its guard missed `new Date` and
+`requestAnimationFrame`; (4) `render.mjs` production captures had no guard at all. All captures now go
+through `window.renderChecked(t)` in index.html (awaited, guarded). (5) `openPage` waited 30 s for READY
+(flaky under load); now 180 s like render.mjs. Not changed: the punch step (a designed hit).

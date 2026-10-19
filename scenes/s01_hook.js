@@ -19,6 +19,7 @@ import { withCamera, defaultPush, layerScale, punch, inPush, Z } from '../engine
 import { field, cutout, rect, tape, qrTile, underline, marker } from '../engine/collage.js';
 import { burst } from '../engine/particles.js';
 import { measure } from '../engine/draw.js';
+import { trace } from '../engine/trace.js';
 import { L, rowsOf, baselines, column } from '../engine/layout.js';
 import { colors, fields, sizes, tracking, motion, collage } from '../tokens.js';
 
@@ -102,6 +103,7 @@ function content(ctx, t) {
   // The tile falls from above the frame, turning from −14° to −2°, and lands with an overshoot.
   const fall = win(t, ...DROP), e = fall >= 1 ? 1 : outBack(fall, motion.overshoot);
   const ty = P.tile.y - (1 - e) * (P.tile.y + TILE), r = -0.24 + 0.2 * Math.min(1, e);
+  trace(ctx, 's01.tile', P.tile.x, ty);
   if (t >= DROP[0]) {
     cutout(ctx, SQUARE, { x: P.tile.x, y: ty, r, fill: colors.white, paint: (c) => qrTile(c, 0, 0, TILE - 2 * 12, { seed: collage.tile.seed }) });
   }

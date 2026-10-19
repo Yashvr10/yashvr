@@ -17,6 +17,7 @@ import { withCamera, defaultPush, layerScale, punch, inPush, Z } from '../engine
 import { field, cutout, rect, tornRect, tape, qrTile, marker } from '../engine/collage.js';
 import { burst } from '../engine/particles.js';
 import { measure } from '../engine/draw.js';
+import { trace } from '../engine/trace.js';
 import { L, column } from '../engine/layout.js';
 import { colors, fields, sizes, tracking, motion, collage } from '../tokens.js';
 
@@ -120,6 +121,7 @@ function strip(ctx, t, slam, inT, at, date, num, turn) {
   if (u <= 0) return;
   const k = u >= 1 ? 1 : 1.4 - 0.4 * outBack(u, S);
   cutout(ctx, STRIP, { x: at.x, y: at.y, s: k, r: turn, fill: colors.white, alpha: Math.min(1, u * 4) });
+  trace(ctx, slam === SLAM_B ? 's05.stripB' : 's05.stripA', at.x - (G.w / 2) * k, at.y - (G.h / 2) * k); // top-left corner
   const top = at.y - G.h / 2 + PAD.y + CAP_LABEL;
   riseIn(ctx, t - inT, { ...STYLE.date, text: date, x: at.x, y: top });
   riseIn(ctx, t - inT, { ...STYLE.num, size: G.numSize, text: num, x: at.x, y: top + GAP.inner + G.capNum });

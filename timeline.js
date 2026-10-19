@@ -13,7 +13,8 @@ export const SCENES = { s01_hook: s01, s02_growth: s02, s03_reveal: s03, s05_mil
 
 // The edit, in order. Each scene plays from its in-point `from` to its `end` (where its last
 // caption's hold ends, sized by holdFor from copy.json), plus an optional `trim` in seconds.
-// Cuts follow from those lengths, snapped to frames: moving a cut is editing one `trim`.
+// Cuts follow from those lengths, rounded UP to a whole frame (rounding to the nearest could cut a
+// hold up to half a frame short of holdFor): moving a cut is editing one `trim`.
 // Each transition ({ tr: whip }, …) sits on the cut between its neighbours.
 export const ORDER = [
   { scene: 's01_hook', from: 0 },
@@ -29,7 +30,7 @@ export const ORDER = [
   { scene: 's04_answer', from: 0 },
 ];
 
-const snap = (s) => Math.round(s * FPS) / FPS;
+const snap = (s) => Math.ceil(s * FPS - 1e-9) / FPS; // the 1e-9 keeps exact frame times exact
 function place(order) {
   let t = 0;
   return order.map((x) => {
