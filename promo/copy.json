@@ -1,0 +1,10 @@
+{
+  "s01_open": ["It began with an attack.", "On Israel, led by Hamas."],
+  "s02_map": ["Israel", "Gaza", "Hostages were taken into Gaza."],
+  "s03_response": ["Israel launched a military campaign.", "Its stated aim: destroy Hamas."],
+  "s04_cost": ["Civilians killed.", "Families displaced.", "Hostages taken."],
+  "s05_crisis": ["A humanitarian crisis in Gaza."],
+  "s06_talks": ["Talks. Pauses. Ceasefires."],
+  "s07_now": ["The search for peace continues."],
+  "s08_end": ["Israel–Hamas war", "Sources: UN OCHA, UN News"]
+}

@@ -1,0 +1,34 @@
+[w2] video: frames 300–599, 0 already on disk, 300 to render
+[w3] video: frames 600–899, 0 already on disk, 300 to render
+[w1] video: frames 0–299, 0 already on disk, 300 to render
+[w2] frame 329 (30/300) 0.62 fps
+[w3] frame 629 (30/300) 0.56 fps
+[w1] frame 29 (30/300) 0.55 fps
+[w3] frame 659 (60/300) 0.65 fps
+[w2] frame 359 (60/300) 0.65 fps
+[w1] frame 59 (60/300) 0.65 fps
+[w3] frame 689 (90/300) 0.65 fps
+[w1] frame 89 (90/300) 0.64 fps
+[w2] frame 389 (90/300) 0.58 fps
+[w1] frame 119 (120/300) 0.67 fps
+[w3] frame 719 (120/300) 0.67 fps
+[w2] frame 419 (120/300) 0.57 fps
+[w3] frame 749 (150/300) 0.65 fps
+[w1] frame 149 (150/300) 0.65 fps
+[w3] frame 779 (180/300) 0.68 fps
+[w1] frame 179 (180/300) 0.67 fps
+[w2] frame 449 (150/300) 0.55 fps
+[w1] frame 209 (210/300) 0.67 fps
+[w3] frame 809 (210/300) 0.66 fps
+[w2] frame 479 (180/300) 0.53 fps
+[w3] frame 839 (240/300) 0.67 fps
+[w1] frame 239 (240/300) 0.67 fps
+[w3] frame 869 (270/300) 0.67 fps
+[w2] frame 509 (210/300) 0.52 fps
+[w1] frame 269 (270/300) 0.66 fps
+[w3] frame 899 (300/300) 0.69 fps
+[w1] frame 299 (300/300) 0.68 fps
+[w2] frame 539 (240/300) 0.53 fps
+[w2] frame 569 (270/300) 0.56 fps
+[w2] frame 599 (300/300) 0.59 fps
+video: frames 0–899 complete in /home/user/yashvr/promo/frames_16x9, no gaps

@@ -1,0 +1,128 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+@font-face { font-family: "Anton"; font-weight: 400; src: url(fonts/Anton-400.ttf) format("truetype"); }
+@font-face { font-family: "Inter Tight"; font-weight: 700; src: url(fonts/InterTight-700.woff2) format("woff2"); }
+@font-face { font-family: "Inter"; font-weight: 400; src: url(fonts/Inter-400.woff2) format("woff2"); }
+@font-face { font-family: "JetBrains Mono"; font-weight: 400; src: url(fonts/JetBrainsMono-400.woff2) format("woff2"); }
+html,body{margin:0;background:#eae9e9}canvas{display:block}
+</style>
+</head>
+<body>
+<canvas id="c" width="1920" height="1080"></canvas>
+<script type="module">
+import { W, H, SS, FPS, ASPECT, fontLoads, safe, titleSafe, cropSafe, captionBand } from './tokens.js';
+import { resetBoxes, checkContrast, duckAt, DUCK } from './engine/copy.js';
+import { main, solo, single } from './timeline.js';
+import { createPost, POST_DEFAULTS } from './engine/post.js';
+
+// Scenes draw with Canvas2D into this layer; #c is WebGL2 and composites it over the background.
+// With ?ss=N both are W*N × H*N; ctx starts every frame scaled by N, so scenes lay out in W × H.
+const layer = new OffscreenCanvas(W * SS, H * SS);
+const ctx = layer.getContext('2d');
+const params = new URLSearchParams(location.search);
+const postOn = !params.has('nopost');
+// ?solo=<scene id> plays one scene alone from its local time 0 (QA tools use it).
+// ?demo=<name> plays demos/<name>.js, an engine module's demo (node demo.mjs renders them all).
+const demo = params.get('demo');
+const timeline = demo ? single(demo, await import(`./demos/${demo}.js`)) : params.has('solo') ? solo(params.get('solo')) : main;
+let post;
+
+// Scenes and transitions may override window.POST values while drawing; they reset every frame.
+window.POST = { ...POST_DEFAULTS };
+
+// Pure function of t (seconds): clears and redraws everything, reads no clock or randomness.
+// Inside a transition both scenes draw (through the transition) on the 2D layer; the GL and
+// 3D layers come from whichever scene is primary at t.
+// Contrast is checked in preview and with ?check (QA); plain ?render skips the read-back.
+const checking = params.has('check') || !params.has('render');
+const warned = new Set();
+window.renderFrame = (t) => {
+  Object.assign(window.POST, POST_DEFAULTS);
+  window.TRACE = null; // ?trace=<id>: engine/trace.js sets it while this frame draws
+  resetBoxes();
+  ctx.reset();
+  ctx.setTransform(SS, 0, 0, SS, 0, 0);
+  const { entry, tr, primary: p } = timeline.resolve(t);
+  if (tr) tr.tr(ctx, t, timeline.drawer(tr.A, t), timeline.drawer(tr.B, t), tr.t0, tr.dur, tr.opts);
+  else timeline.drawer(entry, t)(ctx);
+  const lt = timeline.local(p, t);
+  // Bloom drops 40% while a caption is fully visible.
+  window.POST.bloom *= 1 - DUCK * duckAt(p.mod.captions ?? [], lt);
+  const three = p.mod.draw3D?.(lt, p.mod.dur) ?? null;
+  const drawGL = p.mod.drawGL && ((gl) => p.mod.drawGL(gl, lt, p.mod.dur));
+  post(t, Math.round(t * FPS), { layer, three, drawGL }, window.POST, postOn);
+  if (checking) window.COPY_CHECKS = checkContrast(gl2, 7, warned);
+};
+// The render harnesses (render.mjs capture, browser.mjs grab) call this, never renderFrame directly:
+// it awaits the frame (so an async renderFrame is finished before the canvas is read) and makes
+// every clock, random, timer and frame-callback call throw while it draws.
+const BANNED = [[Math, 'random'], [Date, 'now'], [performance, 'now'], [window, 'setTimeout'], [window, 'setInterval'], [window, 'requestAnimationFrame']];
+window.renderChecked = async (t) => {
+  const saved = BANNED.map(([o, k]) => o[k]), RealDate = window.Date;
+  BANNED.forEach(([o, k]) => { o[k] = () => { throw new Error(`banned call in renderFrame: ${k}`); }; });
+  window.Date = new Proxy(RealDate, { construct() { throw new Error('banned call in renderFrame: new Date'); } });
+  try {
+    await window.renderFrame(t);
+  } finally {
+    BANNED.forEach(([o, k], i) => { o[k] = saved[i]; });
+    window.Date = RealDate;
+  }
+};
+window.DURATION = timeline.DURATION;
+window.FPS = FPS;
+window.SS = SS;
+window.ASPECT = ASPECT;
+
+for (const f of fontLoads) {
+  if (!(await document.fonts.load(f)).length) throw new Error(`font did not load: ${f}`);
+}
+await document.fonts.ready;
+await Promise.all([...new Set(timeline.scenes.map((e) => e.mod))].map((m) => m.load?.()));
+const canvas = document.getElementById('c');
+canvas.width = W * SS;
+canvas.height = H * SS;
+canvas.style.width = `${W}px`;
+post = await createPost(canvas);
+const gl2 = canvas.getContext('webgl2'); // the same context post uses
+window.CAPTIONS = timeline.captions;
+window.READY = true;
+
+// ?guides (preview only, never with ?render), on a separate canvas over the frame so no render
+// ever sees it: the layout's safe margins (tokens.safe) in yellow, title-safe in cyan, and in
+// magenta the 9:16 caption band (15–70% of the height, 10% side margins) or, in 16:9, the
+// title-safe of a centred 9:16 crop.
+if (params.has('guides') && !params.has('render')) {
+  const g = document.createElement('canvas');
+  g.width = W;
+  g.height = H;
+  g.style.cssText = `position:absolute;left:0;top:0;width:${W}px;pointer-events:none`;
+  document.body.appendChild(g);
+  const c = g.getContext('2d');
+  c.lineWidth = 2;
+  c.setLineDash([12, 8]);
+  const band = { x: safe.x, y: safe.top, w: W - 2 * safe.x, h: H - safe.top - safe.bottom };
+  [[band, '#f0c000'], [titleSafe, '#00c8ff'], [captionBand ?? cropSafe, '#ff2bd6']].forEach(([s, color]) => {
+    c.strokeStyle = color;
+    c.strokeRect(s.x + 0.5, s.y + 0.5, s.w - 1, s.h - 1);
+  });
+  if (captionBand) {
+    c.fillStyle = 'rgba(255, 43, 214, 0.08)';
+    c.fillRect(captionBand.x, captionBand.y, captionBand.w, captionBand.h);
+  }
+}
+
+// Live preview only. The clock picks t; it never reaches renderFrame.
+if (!params.has('render')) {
+  const t0 = performance.now();
+  const loop = () => {
+    window.renderFrame(((performance.now() - t0) / 1000) % window.DURATION);
+    requestAnimationFrame(loop);
+  };
+  requestAnimationFrame(loop);
+}
+</script>
+</body>
+</html>

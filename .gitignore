@@ -12,3 +12,7 @@ qa/ss/
 frames_9x16/
 frames_16x9/
 qa/**/*.png
+promo/frames*/
+promo/out/
+promo/qa/**/*.png
+promo/qa/*.txt
