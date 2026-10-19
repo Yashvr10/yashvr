@@ -1,12 +1,14 @@
 # NOTES.md: handoff
 
 ## 1. Goal
-A silent 10.0 s vertical (1080×1920, 30 fps, 300 frames) Vox-style Mixed Media explainer: **how
+A silent vertical (1080×1920, 30 fps) Vox-style Mixed Media explainer, 12.7 s / 381 frames (the
+original brief was 10.0 s / 300 frames; s05 was added later by request, which is why it grew): **how
 India's UPI went from about 1 million payments a month (Aug 2016) to 21.6 billion (Dec 2025)**.
 Rendered from code: `renderFrame(t)` in `index.html` draws each frame; headless Chrome captures it;
 ffmpeg encodes. 16:9 comes from the same scenes (`?aspect=16x9`). Look: `STYLE.md`.
 Through-line object: one QR tile (`collage.qrTile`, seed `collage.tile.seed`) in every scene.
-Story: s01 states 2016, s02 asks "how many now?", s03 is the reveal (tiles form ₹), s04 answers.
+Story: s01 states 2016, s02 asks "how many now?", s03 is the reveal (tiles form ₹), s05 shows the
+recent doubling (10 → 20 billion), s04 answers (21.6 billion, ≈20,000×).
 
 Facts (only these; nothing else is a number on screen):
 - About 1 million UPI transactions a month in Aug 2016, its first live month. Sources: YourStory,
@@ -16,6 +18,10 @@ Facts (only these; nothing else is a number on screen):
   on a high…" (2026-01-03); Punjab Kesari, "Record UPI Transaction 2025" (citing NPCI data).
 - So about 20,000× (21.63 billion ÷ about 1 million ≈ 21,600). Say "≈20,000×", never more precise.
 - s02's bars between 2016 and 2025 are an ILLUSTRATIVE curve and stay unlabelled.
+- UPI first crossed 10 billion transactions in a month in Aug 2023 (10.58 billion for the full month,
+  per YourStory; Business Today and Business Standard report the milestone; some reports give 10.24
+  billion through Aug 30), and reached 20.01 billion in Aug 2025 (Storyboard18). 20.01 / 10.58 =
+  1.89, so s05 says "NEARLY DOUBLED", never "doubled". (First 1 billion month: Oct 2019, All India Radio.)
 
 ## 2. Frozen files (read-only)
 Every file whose first line (second in a shader) says `// FROZEN`:
@@ -97,9 +103,11 @@ frames (they reset every frame); nothing in this video needs to.
 | s01_hook | scenes/s01_hook.js | 0.000 | 2.700 | kinetic type over collage | done, EXEMPLAR, frozen |
 | s02_growth | scenes/s02_growth.js | 2.700 | 2.533 (from 0.15) | chart built from pieces | done, EXEMPLAR, frozen |
 | s03_reveal | scenes/s03_reveal.js | 5.233 | 2.000 (from 0.1, hard cut in) | tiles assemble into ₹ (navy) | done (built by the lead; determinism PASS on 10, 40) |
-| s04_answer | scenes/s04_answer.js | 7.233 | 2.767 (no trim; ends at 10.000) | the answer: number + marks | done (determinism PASS on 15, 60; self-check passed) |
+| s05_milestones | scenes/s05_milestones.js | 7.233 | 2.700 (from 0.05, hard cut in) | cutouts slam in over a field (yellow) | done (determinism PASS on 20, 50; self-check below) |
+| s04_answer | scenes/s04_answer.js | 9.933 | 2.767 (no trim; the video ends on it) | the answer: number + marks | done (determinism PASS on 15, 60; self-check passed) |
 
-All four scenes are done and the edit is final: s01 → whip → s02 → hard cut → s03 → flash → s04.
+All five scenes are done. The edit: s01 → whip → s02 → hard cut → s03 → hard cut → s05 → flash → s04.
+Total 12.700 s, 381 frames (`node render.mjs info`).
 
 ## 6. Exemplar scenes
 - `scenes/s01_hook.js`: the pattern every scene follows (its header lists the 5 steps): copy via
@@ -157,7 +165,16 @@ Copy the structure of `s01_hook.js` (type over collage).
   kicker at 1.08 s no trim is needed and `node render.mjs info` prints `"DURATION":10`, `"frames":300`.
 - Stills: `node compare.mjs s04_answer s01_hook`; determinism on frames 15 and 60.
 
-**Task 3: final render: DONE.** Outputs (git-ignored, in `out/`): `final1080.mp4` (1080×1920),
+**Task 4: s05_milestones: DONE** (added by request after the final render; scenes/s05_milestones.js,
+155 lines). Copy: "AUG 2023", "10 BILLION", "AUG 2025", "20 BILLION", "NEARLY DOUBLED" (the planned
+kicker "NEARLY DOUBLED IN TWO YEARS" is 5 words: holdFor 1.91 s would have made the scene ~3.5 s and
+the video ~13.5 s; the two dates already show the two years. Restoring it is one string in copy.json
+plus a longer edit). Structure: the strip slam of `s02_growth` (tornRect + cutout, 1.4 → 1, outBack)
+and the layout/fit of `s01_hook` / `s04_answer`; numbers at `sizes.giant` fitted to the strip; the
+coral arrow's points are built locally in the scene (the engine has none); a taped tile pops onto
+strip B. Edit: s03 → hard cut → s05 (from 0.05) → flash → s04. Stills: `node compare.mjs s05_milestones s02_growth`.
+
+**Task 3: final render: DONE (for the 10.000 s edit, before s05).** Outputs (git-ignored, in `out/`): `final1080.mp4` (1080×1920),
 `final1080_16x9.mp4` (1920×1080), `final1080_silent_audio.mp4` (the 9:16 with a silent AAC track, for
 platforms that need audio). Each verified: 300 frames, 30 fps, exactly 10.000 s; qa-aspects: no text
 crosses a safe line. Steps run: `node render.mjs video --workers 2`, `./encode.sh final1080`,
@@ -180,6 +197,13 @@ crosses a safe line. Steps run: `node render.mjs video --workers 2`, `./encode.s
 12. The status table and Next tasks above are updated.
 
 ## 9. Known issues
+- **The files in `out/` are stale:** they are the 10.000 s edit. Task 5: re-render for 12.7 s (`node
+  render.mjs video --workers 2`, `./encode.sh final1080 --out out/final1080.mp4`, then 16:9 with
+  `--aspect 16x9 --out frames_16x9`; `node verify.mjs` on each).
+- `tokens.DURATION` (10) is stale and frozen; nothing reads it (the page's timeline gives the real
+  length). Use `node render.mjs info`.
+- s05's first frames after the hard cut are a blank white strip slamming in (about 3 frames, same slam
+  as s02's question strip) before its text rises.
 - `encode.sh` default names: `out/<mode>[_16x9][_vertical][_capped].mp4` (`_16x9` when the output is
   landscape, so it never overwrites the 9:16 default). (A silent exit-1 when `--out` was omitted is
   fixed: the suffix is a helper, not a `$([ … ] && echo …)` substitution, which returns 1 under
