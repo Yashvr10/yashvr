@@ -1,0 +1,7 @@
+frames 0, 45, 150, 380 of 0..380 (aspect 9x16)
+frame    0  cold 054a040ad057c0e2  order 054a040ad057c0e2  reverse 054a040ad057c0e2  repeat 054a040ad057c0e2  same
+frame   45  cold 9c2cacc03f1047b2  order 9c2cacc03f1047b2  reverse 9c2cacc03f1047b2  repeat 9c2cacc03f1047b2  same
+frame  150  cold df14c8816860d699  order df14c8816860d699  reverse df14c8816860d699  repeat df14c8816860d699  same
+frame  380  cold 33678049c33da761  order 33678049c33da761  reverse 33678049c33da761  repeat 33678049c33da761  same
+PASS
+exit 0

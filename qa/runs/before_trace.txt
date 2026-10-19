@@ -1,0 +1,14 @@
+s01.tile (s01_hook): frames 0–86, 1 flag(s)
+  frame   5 t 0.167  jump  jerk 46.3 px (around it 11.87), |a| 67.3 → 21.0, |v| 122.5 → 55.2 → 34.2
+s02.strip (s02_growth): frames 25–86, 0 flag(s)
+s03.tile0 (s03_reveal): frames 6–68, 4 flag(s)
+  frame  21 t 0.700  jump  jerk 6.9 px (around it 1.35), |a| 7.5 → 0.6, |v| 9.2 → 1.6 → 1.0
+  frame  26 t 0.867  onset jerk 36.9 px (around it 2.38), |a| 0.2 → 37.1, |v| 0.2 → 0.3 → 37.3
+  frame  27 t 0.900  onset jerk 88.8 px (around it 2.38), |a| 37.1 → 51.8, |v| 0.3 → 37.3 → 14.4
+  frame  28 t 0.933  jump  jerk 57.7 px (around it 2.38), |a| 51.8 → 5.9, |v| 37.3 → 14.4 → 8.5
+s05.stripB (s05_milestones): frames 16–87, 2 flag(s)
+  frame  20 t 0.667  jump  jerk 39.4 px (around it 2.96), |a| 23.6 → 15.8, |v| 18.4 → 5.2 → 10.5
+  frame  21 t 0.700  jump  jerk 22.9 px (around it 2.96), |a| 15.8 → 7.1, |v| 5.2 → 10.5 → 3.4
+s04.tile (s04_answer): frames 0–88, 1 flag(s)
+  frame   5 t 0.167  jump  jerk 51.7 px (around it 10.15), |a| 58.9 → 7.2, |v| 95.3 → 36.4 → 29.2
+FAIL: 8 unexplained flag(s)

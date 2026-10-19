@@ -1,0 +1,16 @@
+ok   fonts     700 Inter Tight (as bold 29px "Inter Tight"): 14 glyphs; READY waits for it: true; loaded: true; missing from the face: none
+ok   fonts     400 Anton (as 181px Anton): 6 glyphs; READY waits for it: true; loaded: true; missing from the face: none
+ok   fonts     400 Anton (as 79px Anton): 20 glyphs; READY waits for it: true; loaded: true; missing from the face: none
+ok   fonts     400 Anton (as 107px Anton): 8 glyphs; READY waits for it: true; loaded: true; missing from the face: none
+ok   fonts     400 Anton (as 148px Anton): 8 glyphs; READY waits for it: true; loaded: true; missing from the face: none
+ok   fonts     400 Anton (as 164px Anton): 9 glyphs; READY waits for it: true; loaded: true; missing from the face: none
+ok   fonts     400 Inter (as 21px Inter): 10 glyphs; READY waits for it: true; loaded: true; missing from the face: none
+ok   fonts     400 Anton (as 57px Anton): 13 glyphs; READY waits for it: true; loaded: true; missing from the face: none
+ok   assets    0 img/video elements, image fetches: none; shaders compile before READY (a failure is a page error)
+ok   buffer    preserveDrawingBuffer: true
+FAIL harness   grab() captures what an async renderFrame drew after an await: false
+FAIL harness   guard throws on: Math.random, Date.now, performance.now, setTimeout, setInterval; MISSES new Date, requestAnimationFrame
+FAIL harness   render.mjs capture guarded: false; browser.mjs grab guarded: false
+ok   frames    381 frames in frames/; runs of 5+ equal sizes: none; byte-identical neighbours: none
+FAIL: 3 check(s)
+exit 1

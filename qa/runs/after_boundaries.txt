@@ -1,0 +1,10 @@
+384 frames (9x16)
+  s01_hook        frames 0–81, local 0.000–2.700 (end 2.708, dur 2.908)
+  s02_growth      frames 82–158, local 0.150–2.683 (end 2.693, dur 2.893)
+  s03_reveal      frames 159–218, local 0.100–2.067 (end 2.100, dur 2.300)
+  s05_milestones  frames 219–299, local 0.050–2.717 (end 2.741, dur 2.941)
+  s04_answer      frames 300–383, local 0.000–2.767 (end 2.768, dur 2.968)
+  whip            window 79–84 around cut 82 (s01_hook → s02_growth), dur 0.200 = 6 frames
+  flash           window 300–302 around cut 300 (s05_milestones → s04_answer), dur 0.100 = 3 frames
+PASS
+exit 0

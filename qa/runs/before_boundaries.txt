@@ -1,0 +1,13 @@
+381 frames (9x16)
+  s01_hook        frames 0–80, local 0.000–2.667 (end 2.708, dur 2.908)
+  s02_growth      frames 81–156, local 0.150–2.650 (end 2.693, dur 2.893)
+  s03_reveal      frames 157–216, local 0.100–2.067 (end 2.100, dur 2.300)
+  s05_milestones  frames 217–297, local 0.050–2.717 (end 2.741, dur 2.941)
+  s04_answer      frames 298–380, local 0.000–2.733 (end 2.768, dur 2.968)
+  whip            window 78–83 around cut 81 (s01_hook → s02_growth), dur 0.200 = 6 frames
+  flash           window 298–300 around cut 298 (s05_milestones → s04_answer), dur 0.100 = 3 frames
+FAIL s01_hook: last frame 80 at local 2.6667 cuts the hold short of end 2.7075 by more than a frame
+FAIL s02_growth: last frame 156 at local 2.6500 cuts the hold short of end 2.6933 by more than a frame
+FAIL s04_answer: the video ends 0.034 s before the last hold does
+FAIL: 3 boundary problem(s)
+exit 1
