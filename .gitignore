@@ -16,3 +16,6 @@ promo/frames*/
 promo/out/
 promo/qa/**/*.png
 promo/qa/*.txt
+promo/qa/t0
+promo/qa/t1
+promo/qa/*.log
