@@ -68,7 +68,18 @@ Slots are fixed. `timeline.js` build() throws if any caption's holdFor would run
 
 | file | size | resolution | bitrate |
 |---|---|---|---|
-| out/final1080ss.mp4 | 14.5 MiB | 1920×1080 | 4.06 Mb/s |
-| out/final2160.mp4 | 163 MiB | 3840×2160 | 45.7 Mb/s |
-| out/final1080ss_vertical.mp4 | 15.7 MiB | 1080×1920 | 4.38 Mb/s, recomposed from `--aspect 9x16` frames, not cropped |
+| out/final_1080_ss.mp4 | 14.5 MiB | 1920×1080 | 4.06 Mb/s |
+| out/final_2160.mp4 | 163 MiB | 3840×2160 | 45.7 Mb/s |
+| out/final_9x16.mp4 | 15.7 MiB | 1080×1920 | 4.38 Mb/s, recomposed from `--aspect 9x16` frames, not cropped |
 | out/draft.mp4 | 2.35 MiB | 1920×1080 | 0.66 Mb/s, the ss=1 draft |
+
+## Upload package (out/, git-ignored)
+- The masters were renamed to final_2160.mp4, final_1080_ss.mp4 and final_9x16.mp4. They were already encoded with libx264 `-preset slow -crf 18 -pix_fmt yuv420p -movflags +faststart`, so nothing was re-encoded.
+- The `*_a.mp4` copies add a silent 48 kHz stereo AAC track (anullsrc, `-shortest`, `-c:v copy`).
+- **Thumbnail:**
+  - `scenes/thumb.js`, reached with `index.html?thumb` (not in the timeline). Run `node qa/thumb.mjs`.
+  - The page renders at a whole-number SS, so the thumbnail is rendered at ss=2 (3840×2160) and downscaled with lanczos to 2560×1440 (`qa/thumb_2560.png`), then to `out/thumb.jpg` (1280×720) and `out/thumb_320.jpg`.
+  - The words are the video's title (copy.json s08_end), because `{{THUMB_WORDS}}` arrived unfilled.
+- **Cover:** `out/cover_9x16.jpg` is frame 57 (1.9 s) of the 9:16 cut, taken from its ss=2 PNG: both opening lines are settled and the rule has finished drawing.
+- **Captions:** `out/captions.srt` comes from `node qa/export-srt.mjs`. Captions that are on screen together merge into one cue, so cues never overlap.
+- **Probe:** `node qa/probe-all.mjs` asserts codec, pix_fmt, size, fps, duration and frame count of every video against the timeline.

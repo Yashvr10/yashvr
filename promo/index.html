@@ -27,7 +27,10 @@ const postOn = !params.has('nopost');
 // ?solo=<scene id> plays one scene alone from its local time 0 (QA tools use it).
 // ?demo=<name> plays demos/<name>.js, an engine module's demo (node demo.mjs renders them all).
 const demo = params.get('demo');
-const timeline = demo ? single(demo, await import(`./demos/${demo}.js`)) : params.has('solo') ? solo(params.get('solo')) : main;
+// ?thumb plays scenes/thumb.js, the thumbnail still (not in the timeline).
+const timeline = demo ? single(demo, await import(`./demos/${demo}.js`))
+  : params.has('thumb') ? single('thumb', await import('./scenes/thumb.js'))
+  : params.has('solo') ? solo(params.get('solo')) : main;
 let post;
 
 // Scenes and transitions may override window.POST values while drawing; they reset every frame.
