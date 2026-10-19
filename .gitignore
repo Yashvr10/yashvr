@@ -20,3 +20,7 @@ promo/qa/t[0-9]
 promo/qa/*.log
 kit/qa/parity/*.png
 kit/qa/*.png
+kit/frames*/
+kit/out/
+kit/qa/**/*.png
+kit/qa/*.log
