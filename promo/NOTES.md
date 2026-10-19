@@ -52,3 +52,23 @@ Slots are fixed. `timeline.js` build() throws if any caption's holdFor would run
 - The 3D scenes (s04, s05) render with three.js and **draw the 3D canvas into the 2D layer**, not into post's three slot. That way the zoomThrough carries both scenes.
 - s05's tile backs use Lambert, with no specular: a glossy sheen greyed the dark type.
 - matchCut runs 0.3 s; the engine default of 0.4 s is over the ceiling. Its shape is the rule rect, so its outline lands on the rule s02 starts from.
+
+## QA and renders (19 Oct 2026, SwiftShader, 4 cores)
+- **Holds:** timeline build() passes in both aspects: every caption holds at least holdFor before its scene is covered.
+- **Contrast:** every 2D caption measured 14.1–16.0:1 (qa/stills.mjs). Card and wall text is drawn in 3D and isn't measured; by eye it reads near-white on dark and near-black on white.
+- **Determinism** (qa/determinism.mjs): **PASS**. Tested on 12 frames in 16:9 and 6 frames in 9:16, covering every scene and transition; the cold, in-order, reverse and repeat renders were byte-identical.
+- **Flicker** (qa/flicker.mjs, 16:9): **PASS**. No frame jumps away and back.
+  - Most of the 202 spikes are motion: the wall turning, the zoom and the dips.
+  - Isolated single-pair bumps at 59, 128 and 265 come from text edges stepping by about 1 px under the slow camera push (text rendering snaps sub-pixel positions). They're minor; ss=2 halves them.
+- **Render time:**
+  - ss=1: 900 frames in 524 s on 3 workers, about 1.7 s per frame per worker. A single page takes 0.7–1.9 s per frame, slowest on the 3D scenes.
+  - ss=2: 16:9 took 1730 s and 9:16 took 1664 s on 3 workers, about 5.6–5.8 s per frame per worker.
+  - Encodes of final1080ss and final2160: 438 s.
+- **Outputs**, all verified by verify.mjs at 30 fps with nb_frames 900:
+
+| file | size | resolution | bitrate |
+|---|---|---|---|
+| out/final1080ss.mp4 | 14.5 MiB | 1920×1080 | 4.06 Mb/s |
+| out/final2160.mp4 | 163 MiB | 3840×2160 | 45.7 Mb/s |
+| out/final1080ss_vertical.mp4 | 15.7 MiB | 1080×1920 | 4.38 Mb/s, recomposed from `--aspect 9x16` frames, not cropped |
+| out/draft.mp4 | 2.35 MiB | 1920×1080 | 0.66 Mb/s, the ss=1 draft |
