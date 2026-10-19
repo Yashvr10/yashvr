@@ -180,10 +180,10 @@ crosses a safe line. Steps run: `node render.mjs video --workers 2`, `./encode.s
 12. The status table and Next tasks above are updated.
 
 ## 9. Known issues
-- `encode.sh` without `--out` writes `out/<mode>[_vertical][_capped].mp4` and has no aspect in the name,
-  so a 16:9 encode without `--out` overwrites the 9:16 `out/final1080.mp4`. Pass `--out` for 16:9.
-  (The silent exit-1 when `--out` was omitted is fixed: the name suffix is now a helper, not a
-  `$([ … ] && echo …)` substitution, which returns 1 under `set -e`.)
+- `encode.sh` default names: `out/<mode>[_16x9][_vertical][_capped].mp4` (`_16x9` when the output is
+  landscape, so it never overwrites the 9:16 default). (A silent exit-1 when `--out` was omitted is
+  fixed: the suffix is a helper, not a `$([ … ] && echo …)` substitution, which returns 1 under
+  `set -e`.) `addsilence` names its output after its input.
 - s04's "×" in "≈20,000×" is a small glyph in Anton (its design); it reads, but it is the faintest
   character on screen.
 - s04's source line is `sizes.small` (21 px in 9:16): legible on a phone, but the smallest type in the video.

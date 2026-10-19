@@ -39,11 +39,13 @@ ff() { ffmpeg -hide_banner -loglevel error -y "$@"; }
 X264=(-c:v libx264 -pix_fmt yuv420p -movflags +faststart)
 CAP=(); [ "$CAPPED" = 1 ] && CAP=(-maxrate 12M -bufsize 24M)
 SOLO_ARGS=(--aspect "$ASPECT"); [ -n "$SOLO" ] && SOLO_ARGS+=(--solo "$SOLO"); [ -n "$EDIT" ] && SOLO_ARGS+=(--edit "$EDIT")
-# The default output name's suffix: _vertical and/or _capped. It uses if, not `[ … ] && echo`: that
+# The default output name's suffix: _16x9 (output is landscape: --aspect 16x9 without --vertical, so
+# a landscape encode never overwrites the portrait default), _vertical, _capped. It uses if, not `[ … ] && echo`: that
 # form returns 1 when the test is false, and under set -e a substitution that returns 1 in an
 # assignment aborts the script with no message (this is what broke runs without --out).
 name_suffix() {
   local s=""
+  if [ "$ASPECT" = 16x9 ] && [ "$VERTICAL" != 1 ]; then s="${s}_16x9"; fi
   if [ "$VERTICAL" = 1 ]; then s="${s}_vertical"; fi
   if [ "$CAPPED" = 1 ]; then s="${s}_capped"; fi
   printf '%s' "$s"
