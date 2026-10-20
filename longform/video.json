@@ -14,11 +14,9 @@
     },
     "align": "whisper",
     "pronounce": {
-      "Odoacer": "Oh-doh-AY-ser",
-      "Augustulus": "Aw-GUS-tyoo-lus",
-      "Adrianople": "Ay-dree-uh-NO-pul",
-      "Theodosius": "Thee-oh-DOH-shus",
-      "Demandt": "DEH-mant",
+      "Odoacer": "Odo-acer",
+      "Augustulus": "Aw-gustulus",
+      "Demandt": "Day-mant",
       "Stilicho": "Stillikoh",
       "Ravenna": "Ra-venna"
     }

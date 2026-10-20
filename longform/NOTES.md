@@ -118,3 +118,10 @@ How this compares with the lesson's own run (72.567 s planned, 72.533 s in the f
 `engine/scenes/quote.js` shows a quotation and who said it, following lesson 23's recipe and the seven scene rules. Its `need` keys in `validate.mjs` are `text` and `by`; `kicker` and `source` are optional.
 - **Contact sheet:** on the first pass the opening quote mark touched the first letter. It is now right-aligned 18 px before the text. Rendered with `--stills --only s095`, because the 3×3 sheet shows only the first nine scenes.
 - **Rome film re-render:** `render (final): 1 rendered, 10 cached, 262 frames in 29.8s`. Report: planned 106.233 s, file 106.166 s, −14.4 LUFS, −1.4 dBTP. All scenes print `h264,1920,1080,yuv420p,30/1`. The silence, black-frame and frozen-frame detectors found nothing. `srt.mjs` wrote 40 cues.
+
+## Voice test and pronunciation fix (20 Oct 2026)
+
+- **Engines:** `say` doesn't exist on Linux. Kokoro works only inside `.venv`; the system `python3` doesn't have it. I compared `af_heart`, `am_michael`, `bf_emma` and `bm_george` on three test sentences in `build/voice-test/`. `af_heart` stays the voice for this film.
+- **Lesson learned:** Kokoro reads capitalised syllables as letters, so `"Oh-doh-AY-ser"` was spoken "Oh-doh-A-Y-ser". Write respellings in lowercase, with hyphens only (`"Odo-acer"`), and check them with `kokoro.tokenizer.phonemize(...)` before building.
+- **Changes to `meta.pronounce`:** new values for Odoacer, Augustulus and Demandt; Adrianople and Theodosius removed (Kokoro says them correctly); Stilicho and Ravenna added.
+- **Re-render:** s040, s060 and s090 were re-voiced and re-rendered (`3 rendered, 8 cached`). Report: planned 104.633 s, file 104.566 s, −14.3 LUFS, −1.4 dBTP. All 11 scenes print the same format line. The silence, black-frame and frozen-frame detectors found nothing. `srt.mjs` wrote 40 cues.
