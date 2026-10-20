@@ -112,3 +112,9 @@ How this compares with the lesson's own run (72.567 s planned, 72.533 s in the f
 - **Floating point (lesson 21).** The gotcha's example doesn't reproduce in Node 22: `7.2 * 30` is exactly `216`. The risk is real, though: `8.3 * 30 = 249.00000000000003`, which `Math.ceil` would turn into 250. The `- 1e-6` in `plan.mjs` guards against it.
 - **Workers.** This machine has 4 cores, so the lesson's "one worker per three cores" rule suggests 1. `render.mjs` defaults to 3; the draft rendered 2,170 frames in 6.5 s with 3 workers. Try `--workers 2` on the final render if frames per second drop.
 - **Temporary.** This cloud container is reclaimed when the session ends. The installs (whisper, Kokoro, the `builder` user, the model files) live only in the container, so re-run the setup block above in a new session.
+
+## New scene type: `quote` (branch `feat/quote-scene`, merged)
+
+`engine/scenes/quote.js` shows a quotation and who said it, following lesson 23's recipe and the seven scene rules. Its `need` keys in `validate.mjs` are `text` and `by`; `kicker` and `source` are optional.
+- **Contact sheet:** on the first pass the opening quote mark touched the first letter. It is now right-aligned 18 px before the text. Rendered with `--stills --only s095`, because the 3×3 sheet shows only the first nine scenes.
+- **Rome film re-render:** `render (final): 1 rendered, 10 cached, 262 frames in 29.8s`. Report: planned 106.233 s, file 106.166 s, −14.4 LUFS, −1.4 dBTP. All scenes print `h264,1920,1080,yuv420p,30/1`. The silence, black-frame and frozen-frame detectors found nothing. `srt.mjs` wrote 40 cues.
