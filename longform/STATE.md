@@ -1,6 +1,6 @@
 # STATE
 Film: How many people actually built the Great Pyramid?     Slug: great-pyramid-workforce
-Stage: 7 (stills) - in progress. Owner away 5-6 h and delegated every gate to Claude ("choose whatever you feel like is right"); each delegated call is marked [delegated] below.
+Stage: 9 (final render) - running. Owner away 5-6 h and delegated every gate to Claude ("choose whatever you feel like is right"); each delegated call is marked [delegated] below.
 Approved so far:
   stage 0 setup (owner); brief (owner, films/great-pyramid-workforce/brief.md); ledger v1 25 rows (owner)
   stage 3 fact-check: fresh helper agent, packet only -> 20 confirmed, L25 wrong source, L17 cannot check; resolved in ledger.md v2 + L26, L27 [delegated]
@@ -16,4 +16,7 @@ Decisions:
 Commands that work here:
   su builder -s /bin/bash -c 'cd /home/user/yashvr/longform && source .venv/bin/activate && <cmd>'
   validate / tts / align / sfx / plan / render --stills / build --draft --workers 4 / build; chapters.mjs; scene-at.mjs
-Open issues: none yet for this film
+  stage 7 stills: 3 fixes in video.json (s070 timeline end labels <=320 px; s100 flow subs; s140 bar values plain) -> sheets clean [delegated]
+  stage 8 draft: plan 18 scenes, 3m 28.1s, 6243 frames; render (draft) 18 rendered in 19.0s; report 208.1/208.1 s, -14.2 LUFS, -1.1 dBTP;
+    silence/black/freeze 0/0/0; whisper hears names as intended; bed 18.6 LU under voice. Approved, no changes [delegated]
+Open issues: none

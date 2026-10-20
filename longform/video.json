@@ -134,7 +134,7 @@
         "events": [
           {
             "when": "1988",
-            "label": "Digging begins on a lost town south of the Sphinx"
+            "label": "Lost town dug up"
           },
           {
             "when": "1990",
@@ -142,7 +142,7 @@
           },
           {
             "when": "2011–13",
-            "label": "An inspector's logbook is found at Wadi el-Jarf"
+            "label": "Logbook found"
           }
         ]
       }
@@ -179,15 +179,15 @@
         "nodes": [
           {
             "label": "Slaves?",
-            "sub": "Lehner: “certainly not”"
+            "sub": "“certainly not”"
           },
           {
             "label": "Conscripts?",
-            "sub": "Lehner's question"
+            "sub": "Lehner asks"
           },
           {
             "label": "Rotations",
-            "sub": "three months at a time",
+            "sub": "3 months each",
             "accent": true
           }
         ],
@@ -259,14 +259,14 @@
       ],
       "narration": "Modern estimates disagree, but look at their size. Lehner counts about five thousand core builders. Hawass has said twenty thousand, and thirty six thousand. A contractor's ten year schedule peaks at forty thousand.",
       "data": {
-        "title": "Modern estimates of the workforce",
+        "title": "Modern estimates, from core crew to peak",
         "unit": "",
         "highlight": 3,
         "items": [
           {
             "label": "Lehner",
             "value": 5000,
-            "display": "5,000 core"
+            "display": "5,000"
           },
           {
             "label": "Hawass",
@@ -281,7 +281,7 @@
           {
             "label": "Smith",
             "value": 40000,
-            "display": "40,000 peak"
+            "display": "40,000"
           }
         ]
       }
