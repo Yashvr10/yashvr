@@ -53,12 +53,13 @@
     },
     {
       "id": "s020",
-      "type": "title",
+      "type": "image",
       "sfx": [],
       "narration": "Let's count the builders ourselves, using what they left behind. Their town, their tombs, and the logbook of one of their inspectors.",
       "data": {
-        "kicker": "The Ledger",
-        "title": "How many people built the Great Pyramid?"
+        "src": "assets/maps/map-egypt.png",
+        "label": "Where the evidence was found",
+        "credit": "Map data: Natural Earth (public domain)"
       }
     },
     {
@@ -149,13 +150,13 @@
     },
     {
       "id": "s080",
-      "type": "stat",
+      "type": "image",
       "sfx": [],
       "narration": "The town covered more than seven hectares. The crown built it, with bakeries, workshops and royal grain silos. It looks less like a slave camp than a supply base.",
       "data": {
-        "value": 7,
-        "unit": "HECTARES, AT LEAST",
-        "label": "Built by the crown: bakeries, workshops, royal silos"
+        "src": "assets/maps/map-giza.png",
+        "label": "The workers' town, 400 m south of the Sphinx",
+        "credit": "Positions: Wikipedia coordinates, AERA"
       }
     },
     {
@@ -214,26 +215,13 @@
     },
     {
       "id": "s120",
-      "type": "flow",
+      "type": "image",
       "sfx": [],
       "narration": "They shipped fine limestone by boat from the quarries at Tura to the pyramid. One boat may have carried about thirty blocks. The short round trip took about two days.",
       "data": {
-        "nodes": [
-          {
-            "label": "Tura",
-            "sub": "limestone quarries"
-          },
-          {
-            "label": "By boat",
-            "sub": "~30 blocks a load"
-          },
-          {
-            "label": "Giza",
-            "sub": "the Great Pyramid",
-            "accent": true
-          }
-        ],
-        "caption": "From Tura North: about a two-day round trip"
+        "src": "assets/maps/map-tura.png",
+        "label": "Merer's run: Tura to Giza",
+        "credit": "Map data: Natural Earth (public domain)"
       }
     },
     {

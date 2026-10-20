@@ -60,3 +60,13 @@ New rows from the resolution (opened by me in the same Lehner 2020 PDF):
 | L26 | From Tura North, Merer's crew made "a two-day round trip, including loading and offloading stone" | 2 days | Lehner 2020, PDF text line 2370-2372 | OK |
 | L27 | A phyle of about 40 men like Merer's "would have just fit inside one of the galleries" of the workers' town | ~40 per gallery | Lehner 2020, PDF text line 2175-2177, citing Tallet 2017 and Lehner 2002 | OK |
 | L28 | Merer's logbook is more than 4,500 years old (used in the description only) | > 4,500 years | COMPUTED: Khufu's reign c. 2589-2566 BC (Wikipedia, "Diary of Merer", opened 20 Oct 2026); 2026 + 2566 = 4,592 years at the latest date | COMPUTED, SECONDARY dates |
+
+## Map rows (added 20 Oct 2026 for the maps in s020, s080, s120; all opened today)
+| L29 | Great Pyramid coordinates | 29.97917 N, 31.13417 E | Wikipedia, "Great Pyramid of Giza" (infobox), https://en.wikipedia.org/wiki/Great_Pyramid_of_Giza | SECONDARY |
+| L30 | Great Sphinx coordinates | 29.97526 N, 31.13758 E | Wikipedia, "Great Sphinx of Giza", https://en.wikipedia.org/wiki/Great_Sphinx_of_Giza | SECONDARY |
+| L31 | Tura coordinates (limestone quarries by modern Tora) | 29.94583 N, 31.31806 E | Wikipedia, "Tura, Egypt", https://en.wikipedia.org/wiki/Tura,_Egypt | SECONDARY |
+| L32 | Wadi al-Jarf coordinates, Red Sea coast, 119 km south of Suez | 28.89167 N, 32.65833 E | Wikipedia, "Wadi al-Jarf", https://en.wikipedia.org/wiki/Wadi_al-Jarf | SECONDARY |
+| L33 | Workers' town drawn 400 m due south of the Sphinx | 400 m (L18) = 0.00359 deg latitude | COMPUTED: 400 / 111,320 m per degree; "south" per AERA (L18); the town's outline is not drawn, only its position | COMPUTED |
+| L34 | Giza to Tura, straight line | about 18 km | COMPUTED: haversine(L29, L31), R = 6371 km -> 18.10 km | COMPUTED |
+| L35 | Base map: coastlines, lakes, the Nile and its delta branches (modern courses); canals removed | - | Natural Earth 10m (ne_10m_land, ne_10m_lakes, ne_10m_rivers_lake_centerlines), github.com/nvkelso/natural-earth-vector; terms of use: "in the public domain", https://www.naturalearthdata.com/about/terms-of-use/ | OK (licence recorded) |
+| L36 | Great Pyramid square drawn to scale | 230.3 m a side (L06) | COMPUTED in maps.py | COMPUTED |

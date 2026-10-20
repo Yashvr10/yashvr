@@ -19,4 +19,8 @@ Commands that work here:
   stage 7 stills: 3 fixes in video.json (s070 timeline end labels <=320 px; s100 flow subs; s140 bar values plain) -> sheets clean [delegated]
   stage 8 draft: plan 18 scenes, 3m 28.1s, 6243 frames; render (draft) 18 rendered in 19.0s; report 208.1/208.1 s, -14.2 LUFS, -1.1 dBTP;
     silence/black/freeze 0/0/0; whisper hears names as intended; bed 18.6 LU under voice. Approved, no changes [delegated]
-Open issues: none
+  owner request mid-run: "include maps as frequently as possible" -> 3 map image scenes (s020 Egypt, s080 Giza plateau, s120 Tura-Giza) replacing title/stat/flow
+    pictures; narration unchanged; ledger L29-L36; maps.py + make-maps.sh in films/great-pyramid-workforce/; Natural Earth public domain
+    Maps only where the narration is about a place; the other 15 scenes are numbers, quotes or lists with no geography to show [delegated]
+  draft after maps: render (draft) 3 rendered, 15 cached; report 208.1/208.1 s, -14.2 LUFS, -1.1 dBTP
+Open issues: image files are not part of the scene fingerprint (NOTES.md); rename a map file when redrawing it

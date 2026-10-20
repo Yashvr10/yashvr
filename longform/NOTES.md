@@ -157,3 +157,9 @@ Machine: Intel Xeon @ 2.10 GHz, **4 cores** (`nproc` = 4, 1 thread per core), 15
 The "in parallel" column uses the 3-worker final-render rate. A 4-worker final render hasn't been measured: x264 also uses several threads per encoder, so the workers compete for the same 4 cores. Re-measure the next time a whole film is rendered at full quality.
 
 **Format check (lesson 27).** `build/scenes/` held 19 files, all `h264,1920,1080,yuv420p,30/1`. `build/scenes-draft/` held 11, all `h264,960,540,yuv420p,30/1`. Each folder has a single format, so the files join cleanly.
+
+## Maps as image scenes (great-pyramid-workforce, 20 Oct 2026)
+- The long-form engine has no `map` scene type. Maps are drawn by `films/<slug>/maps.py` (SVG from Natural Earth, public domain), rasterised by puppeteer's Chrome (`make-maps.sh`) into `assets/maps/*.png`, and shown with the existing `image` scene. No engine change.
+- Keep every map label inside x 260-1690, y 170-640: the image scene zooms to 1.12x, drifts 40 px left and puts its own label at y = 780.
+- **Cache gap (library task, not fixed):** `sceneKey` hashes the scene's data, including the image *path*, but not the image *file*. Re-drawing a PNG under the same name will NOT re-render its scene. Until the engine hashes image bytes, change the file name (e.g. `map-tura-v2.png`) when a map changes.
+- Final render at `--workers 4`: 6,243 frames in 341.2 s = 18.3 fps (vs 17.0 fps measured with 3 workers).
