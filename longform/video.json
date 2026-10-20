@@ -224,6 +224,18 @@
       }
     },
     {
+      "id": "s095",
+      "type": "quote",
+      "sfx": [],
+      "narration": "Edward Gibbon gave his own answer. Rome's decline, he wrote, was the natural and inevitable effect of immoderate greatness.",
+      "data": {
+        "kicker": "The fall of mighty Rome",
+        "text": "The decline of Rome was the natural and inevitable effect of immoderate greatness.",
+        "by": "Edward Gibbon",
+        "source": "The Decline and Fall of the Roman Empire, 1781"
+      }
+    },
+    {
       "id": "s100",
       "type": "outro",
       "sfx": [],

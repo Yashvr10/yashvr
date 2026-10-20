@@ -7,6 +7,7 @@ import compare from './compare.js';
 import list from './list.js';
 import outro from './outro.js';
 import image from './image.js';
+import quote from './quote.js';
 
 // One file per scene type. Add a type = add a file + one line here.
-export const SCENES = { title, stat, bars, timeline, flow, compare, list, outro, image };
+export const SCENES = { title, stat, bars, timeline, flow, compare, list, outro, image, quote };

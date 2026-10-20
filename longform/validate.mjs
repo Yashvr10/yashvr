@@ -18,6 +18,7 @@ const need = {
   list: ['title', 'items'],
   outro: ['title'],
   image: ['src'],
+  quote: ['text', 'by'],
 };
 
 const problems = [];
