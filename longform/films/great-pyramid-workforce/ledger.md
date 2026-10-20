@@ -59,3 +59,4 @@ Resolutions (decided by Claude under the owner's delegation; the owner was away)
 New rows from the resolution (opened by me in the same Lehner 2020 PDF):
 | L26 | From Tura North, Merer's crew made "a two-day round trip, including loading and offloading stone" | 2 days | Lehner 2020, PDF text line 2370-2372 | OK |
 | L27 | A phyle of about 40 men like Merer's "would have just fit inside one of the galleries" of the workers' town | ~40 per gallery | Lehner 2020, PDF text line 2175-2177, citing Tallet 2017 and Lehner 2002 | OK |
+| L28 | Merer's logbook is more than 4,500 years old (used in the description only) | > 4,500 years | COMPUTED: Khufu's reign c. 2589-2566 BC (Wikipedia, "Diary of Merer", opened 20 Oct 2026); 2026 + 2566 = 4,592 years at the latest date | COMPUTED, SECONDARY dates |
