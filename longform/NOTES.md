@@ -38,8 +38,18 @@ say -v '?'                                                          # "say: comm
 # every build runs as builder, with the venv on PATH so tts.mjs's `python3` finds Kokoro
 su builder -s /bin/bash -c 'cd longform && source .venv/bin/activate && node validate.mjs'
 su builder -s /bin/bash -c 'cd longform && source .venv/bin/activate && node build.mjs --draft'
-# not run yet: node render.mjs --stills, node build.mjs (final), node srt.mjs
+su builder -s /bin/bash -c 'cd longform && source .venv/bin/activate && node render.mjs --stills'
+su builder -s /bin/bash -c 'cd longform && source .venv/bin/activate && node build.mjs'
+# not run yet: node srt.mjs
 ```
+
+## Stills and final render (20 Oct 2026)
+
+- **`node render.mjs --stills`** printed `stills + build/contact-sheet.jpg`. There is one layout bug, in **s002 (stat)**: the commas of `299,792,458` hang down into "METRES PER SECOND" under it. The cause is `engine/scenes/stat.js`, which places the unit at a fixed `S.H * 0.48 + 90` whatever size `fit()` chose for the number. It is **not fixed**, because `engine/` is frozen until the user says otherwise. Fixing it would re-render only s002. Everything else passes lesson 23's checklist.
+- **`node build.mjs`** reused the cached voice, timings and timeline, then rendered 8 scenes (2,170 frames) at full quality in 127.4 s. That's about 6–8 fps per scene with 3 workers on 4 cores, against 51–91 fps for the draft. `mix.mjs` took 10.5 s.
+- **Report:** planned 72.333 s, file 72.267 s (0.066 s apart), −14.4 LUFS, −1.3 dBTP.
+- **Checks:** lesson 27's join check printed `8 h264,1920,1080,yuv420p,30/1`. The silence, black-frame and frozen-frame detectors found nothing.
+- **Output:** `out/how-fast-is-light.mp4`, 1920×1080, H.264 with AAC 48 kHz, 6.6 MB.
 
 ## What each step printed (draft build, 20 Oct 2026)
 
