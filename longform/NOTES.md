@@ -51,6 +51,14 @@ su builder -s /bin/bash -c 'cd longform && source .venv/bin/activate && node bui
 - **Checks:** lesson 27's join check printed `8 h264,1920,1080,yuv420p,30/1`. The silence, black-frame and frozen-frame detectors found nothing.
 - **Output:** `out/how-fast-is-light.mp4`, 1920×1080, H.264 with AAC 48 kHz, 6.6 MB.
 
+## Library fix: stat unit overlap (branch `fix/stat-unit-overlap`, at the user's request)
+
+`engine/scenes/stat.js` now places the unit line under how far the *final* number actually reaches below its baseline: `max(90, descent + 72)` px below it. The label follows 100 px below the unit, as before. A number without commas keeps the old layout exactly. Because the layout is measured from the final number, nothing moves while the digits count up.
+
+- **Check:** the contact sheet shows a clear gap between the commas and "METRES PER SECOND", and the label stays above y = 860.
+- **Re-render:** only s002 re-rendered (`render (final): 1 rendered, 7 cached, 308 frames in 33.8s`), as lesson 23's per-type fingerprint promises.
+- **Report:** unchanged, 72.333 / 72.267 s, −14.4 LUFS, −1.3 dBTP. The join check still prints one line, `8 h264,1920,1080,yuv420p,30/1`.
+
 ## What each step printed (draft build, 20 Oct 2026)
 
 ```
