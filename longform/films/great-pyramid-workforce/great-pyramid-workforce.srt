@@ -19,317 +19,729 @@ of three months each.
 Was he right?
 
 6
-00:00:10,833 --> 00:00:13,653
+00:00:10,833 --> 00:00:13,693
 Let's count the builders ourselves, using what they left
 
 7
-00:00:13,653 --> 00:00:14,853
+00:00:13,693 --> 00:00:14,873
 behind.
 
 8
-00:00:14,853 --> 00:00:17,533
+00:00:14,873 --> 00:00:17,753
 Their town, their tombs, and the logbook of one
 
 9
-00:00:17,533 --> 00:00:18,535
+00:00:17,753 --> 00:00:19,233
 of their inspectors.
 
 10
-00:00:19,600 --> 00:00:21,000
-The ancient numbers only grew.
+00:00:19,233 --> 00:00:21,673
+From the Giza plateau to a desert harbour on
 
 11
-00:00:21,000 --> 00:00:24,260
-Herodotus gave a hundred thousand.
+00:00:21,673 --> 00:00:22,375
+the Red Sea.
 
 12
-00:00:24,260 --> 00:00:27,360
-Diodorus gave three hundred sixty thousand.
+00:00:23,433 --> 00:00:24,833
+The ancient numbers only grew.
 
 13
-00:00:27,360 --> 00:00:30,040
-But Herodotus wrote, they said.
+00:00:24,833 --> 00:00:28,093
+Herodotus gave a hundred thousand.
 
 14
-00:00:30,040 --> 00:00:31,560
-Diodorus wrote, as they say.
+00:00:28,093 --> 00:00:31,193
+Diodorus gave three hundred sixty thousand.
 
 15
-00:00:31,560 --> 00:00:33,040
-Neither man counted anyone.
+00:00:31,193 --> 00:00:33,873
+But Herodotus wrote, they said.
 
 16
-00:00:34,100 --> 00:00:37,640
-Read him closely, and the word slaves never appears.
+00:00:33,873 --> 00:00:35,393
+Diodorus wrote, as they say.
 
 17
-00:00:37,640 --> 00:00:40,540
-He says the king compelled Egyptians to work.
+00:00:35,393 --> 00:00:36,873
+Neither man counted anyone.
 
 18
-00:00:40,540 --> 00:00:42,900
-Ten years went on the road, and twenty on
+00:00:37,933 --> 00:00:40,153
+And neither man was there.
 
 19
-00:00:42,900 --> 00:00:43,913
-the pyramid itself.
+00:00:40,153 --> 00:00:45,453
+Herodotus probably reached Egypt sometime after four hundred fifty
 
 20
-00:00:44,967 --> 00:00:47,027
-Now the size of the job.
+00:00:45,453 --> 00:00:45,873
+four BC.
 
 21
-00:00:47,027 --> 00:00:49,887
-The pyramid holds an estimated two point three million
+00:00:45,873 --> 00:00:48,713
+The pyramid was already more than two thousand years
 
 22
-00:00:49,887 --> 00:00:50,827
-blocks.
+00:00:48,713 --> 00:00:48,893
+old.
 
 23
-00:00:50,827 --> 00:00:53,223
-Together they weigh about six million tonnes.
+00:00:48,893 --> 00:00:50,893
+He stood about as far from Khufu as we
 
 24
-00:00:54,300 --> 00:00:57,700
-Spread over Herodotus's twenty years, that is about three
+00:00:50,893 --> 00:00:52,355
+stand from Julius Caesar.
 
 25
-00:00:57,700 --> 00:01:00,300
-hundred fifteen blocks every day.
+00:00:53,433 --> 00:00:56,613
+Read literally, Herodotus says even more.
 
 26
-00:01:00,300 --> 00:01:03,520
-In daylight, one block every two or three minutes.
+00:00:56,613 --> 00:00:58,813
+A new gang of a hundred thousand every three
 
 27
-00:01:03,520 --> 00:01:05,052
-So how many hands does that take?
+00:00:58,813 --> 00:01:00,833
+months means four gangs a year.
 
 28
-00:01:06,133 --> 00:01:08,693
-The modern answer starts in the sand.
+00:01:00,833 --> 00:01:03,695
+That is four hundred thousand men, every single year.
 
 29
-00:01:08,693 --> 00:01:12,613
-In nineteen eighty eight, archaeologists began digging a lost
+00:01:04,767 --> 00:01:08,307
+Read him closely, and the word slaves never appears.
 
 30
-00:01:12,613 --> 00:01:14,253
-town south of the Sphinx.
+00:01:08,307 --> 00:01:11,207
+He says the king compelled Egyptians to work.
 
 31
-00:01:14,253 --> 00:01:17,393
-In nineteen ninety, a tourist's horse stumbled on the
+00:01:11,207 --> 00:01:13,567
+Ten years went on the road, and twenty on
 
 32
-00:01:17,393 --> 00:01:18,613
-builders' tombs.
+00:01:13,567 --> 00:01:14,580
+the pyramid itself.
 
 33
-00:01:18,613 --> 00:01:19,509
-Then came a logbook.
+00:01:15,633 --> 00:01:18,433
+Yet the slave story keeps being repeated.
 
 34
-00:01:20,567 --> 00:01:23,467
-The town covered more than seven hectares.
+00:01:18,433 --> 00:01:22,253
+In two thousand ten, a news agency report said
 
 35
-00:01:23,467 --> 00:01:26,787
-The crown built it, with bakeries, workshops and royal
+00:01:22,253 --> 00:01:24,793
+Herodotus described the builders as slaves.
 
 36
-00:01:26,787 --> 00:01:28,267
-grain silos.
+00:01:24,793 --> 00:01:27,213
+As we just read, he did not.
 
 37
-00:01:28,267 --> 00:01:30,007
-It looks less like a slave camp than a
+00:01:27,213 --> 00:01:30,673
+The same report says Egyptologists blame Hollywood for spreading
 
 38
-00:01:30,007 --> 00:01:30,700
-supply base.
+00:01:30,673 --> 00:01:31,185
+the myth.
 
 39
-00:01:31,767 --> 00:01:34,387
-The tombs point the same way.
+00:01:32,267 --> 00:01:33,447
+Now the size of the job.
 
 40
-00:01:34,387 --> 00:01:38,187
-Zahi Hawass, then Egypt's archaeology chief, said slaves would
+00:01:33,447 --> 00:01:37,107
+The pyramid holds an estimated two point three million
 
 41
-00:01:38,187 --> 00:01:39,959
-never have been buried so honorably.
+00:01:37,107 --> 00:01:37,407
+blocks.
 
 42
-00:01:41,033 --> 00:01:43,833
-But not slaves is not the same as free.
+00:01:37,407 --> 00:01:40,807
+Together they weigh about six million tonnes, and it
 
 43
-00:01:43,833 --> 00:01:47,893
-The archaeologist Mark Lehner asks whether they were conscripts.
+00:01:40,807 --> 00:01:43,851
+stood about one hundred forty seven metres tall.
 
 44
-00:01:47,893 --> 00:01:51,193
-Hawass describes crews rotating in, three months at a
+00:01:44,933 --> 00:01:46,993
+Not all that stone was local.
 
 45
-00:01:51,193 --> 00:01:51,487
-time.
+00:01:46,993 --> 00:01:50,493
+Most blocks were quarried right on the Giza plateau.
 
 46
-00:01:52,567 --> 00:01:55,967
-That logbook belonged to an inspector named Merer.
+00:01:50,493 --> 00:01:53,633
+The fine white casing came from Tura, across the
 
 47
-00:01:55,967 --> 00:01:58,227
-He ran a crew of about forty men, late
+00:01:53,633 --> 00:01:54,293
+river.
 
 48
-00:01:58,227 --> 00:01:59,457
-in King Khufu's reign.
+00:01:54,293 --> 00:01:56,973
+And granite for the king's chamber came from Aswan,
 
 49
-00:02:00,533 --> 00:02:03,293
-They shipped fine limestone by boat from the quarries
+00:01:56,973 --> 00:01:57,968
+far to the south.
 
 50
-00:02:03,293 --> 00:02:05,473
-at Tura to the pyramid.
+00:01:59,033 --> 00:02:02,393
+Aswan lies about six hundred eighty kilometres south of
 
 51
-00:02:05,473 --> 00:02:07,873
-One boat may have carried about thirty blocks.
+00:02:02,393 --> 00:02:04,413
+Giza, in a straight line.
 
 52
-00:02:07,873 --> 00:02:09,877
-The short round trip took about two days.
+00:02:04,413 --> 00:02:06,353
+Some of its granite blocks weighed up to eighty
 
 53
-00:02:10,933 --> 00:02:14,313
-Back at the town, long galleries look like barracks.
+00:02:06,353 --> 00:02:07,353
+tonnes.
 
 54
-00:02:14,313 --> 00:02:16,713
-A crew of about forty, like Merer's, would just
+00:02:07,353 --> 00:02:09,313
+Even so, they ended up at the heart of
 
 55
-00:02:16,713 --> 00:02:18,073
-fit inside one.
+00:02:09,313 --> 00:02:09,913
+the pyramid.
 
 56
-00:02:18,073 --> 00:02:20,235
-The workforce came in units we can count.
+00:02:10,967 --> 00:02:14,367
+Spread over Herodotus's twenty years, that is about three
 
 57
-00:02:21,300 --> 00:02:25,020
-Modern estimates disagree, but look at their size.
+00:02:14,367 --> 00:02:16,967
+hundred fifteen blocks every day.
 
 58
-00:02:25,020 --> 00:02:28,100
-Lehner counts about five thousand core builders.
+00:02:16,967 --> 00:02:20,187
+In daylight, one block every two or three minutes.
 
 59
-00:02:28,100 --> 00:02:31,760
-Hawass has said twenty thousand, and thirty six thousand.
+00:02:20,187 --> 00:02:21,719
+So how many hands does that take?
 
 60
-00:02:31,760 --> 00:02:34,868
-A contractor's ten year schedule peaks at forty thousand.
+00:02:22,800 --> 00:02:25,960
+That pace sounds impossible, and some people use it
 
 61
-00:02:35,933 --> 00:02:39,613
-Even the highest modern estimate is well under Herodotus's
+00:02:25,960 --> 00:02:29,020
+to argue the pyramid was not built by hand.
 
 62
-00:02:39,613 --> 00:02:41,373
-hundred thousand.
+00:02:29,020 --> 00:02:31,080
+Lehner's answer is simple.
 
 63
-00:02:41,373 --> 00:02:44,173
-Diodorus's figure is nine times bigger.
+00:02:31,080 --> 00:02:33,760
+The stones did not go in one after another.
 
 64
-00:02:44,173 --> 00:02:46,433
-They measured different things, but they were the wrong
+00:02:33,760 --> 00:02:35,365
+Many teams worked at once.
 
 65
-00:02:46,433 --> 00:02:46,984
-size.
+00:02:36,433 --> 00:02:37,873
+Lehner tested it.
 
 66
-00:02:48,067 --> 00:02:50,107
-Here is what we still don't know.
+00:02:37,873 --> 00:02:40,453
+In a NOVA experiment, twelve men pulled a one
 
 67
-00:02:50,107 --> 00:02:52,527
-How many men cut stone far away, at Aswan
+00:02:40,453 --> 00:02:42,513
+and a half ton block across a slick surface
 
 68
-00:02:52,527 --> 00:02:53,047
-and Tura.
+00:02:42,513 --> 00:02:43,913
+with ease.
 
 69
-00:02:53,047 --> 00:02:55,067
-How many blocks there really are.
+00:02:43,913 --> 00:02:46,053
+Moving stone did not need armies.
 
 70
-00:02:55,067 --> 00:02:58,687
-Even Hawass has given figures from ten thousand to
+00:02:46,053 --> 00:02:47,633
+It needed well drilled teams.
 
 71
-00:02:58,687 --> 00:03:00,013
-thirty six thousand.
+00:02:48,700 --> 00:02:50,800
+From there he worked out the rest.
 
 72
-00:03:01,067 --> 00:03:03,527
-So, a hundred thousand men in gangs of three
+00:02:50,800 --> 00:02:53,320
+About twelve hundred men in the quarry, and two
 
 73
-00:03:03,527 --> 00:03:04,507
-months?
+00:02:53,320 --> 00:02:54,820
+thousand hauling.
 
 74
-00:03:04,507 --> 00:03:05,487
-No.
+00:02:54,820 --> 00:02:57,140
+Add the stone setters, and the total for twenty
 
 75
-00:03:05,487 --> 00:03:08,027
-Thousands, tens of thousands at the peak, and every
+00:02:57,140 --> 00:02:59,623
+years of work is five thousand men or fewer.
 
 76
-00:03:08,027 --> 00:03:08,967
-one of them had to eat.
+00:03:00,700 --> 00:03:03,260
+The modern answer starts in the sand.
 
 77
-00:03:08,967 --> 00:03:13,007
-Hawass estimated twenty one cattle and twenty three sheep
+00:03:03,260 --> 00:03:07,180
+In nineteen eighty eight, archaeologists began digging a lost
 
 78
-00:03:13,007 --> 00:03:13,419
-a day.
+00:03:07,180 --> 00:03:08,820
+town south of the Sphinx.
 
 79
-00:03:14,500 --> 00:03:16,940
-The Great Pyramid was not built by a vast
+00:03:08,820 --> 00:03:11,960
+In nineteen ninety, a tourist's horse stumbled on the
 
 80
-00:03:16,940 --> 00:03:18,180
-slave army.
+00:03:11,960 --> 00:03:13,180
+builders' tombs.
 
 81
-00:03:18,180 --> 00:03:21,700
-It was built by organised crews, housed, fed and
+00:03:13,180 --> 00:03:14,076
+Then came a logbook.
 
 82
-00:03:21,700 --> 00:03:23,100
-buried with honour.
+00:03:15,133 --> 00:03:18,033
+The town covered more than seven hectares.
 
 83
-00:03:23,100 --> 00:03:26,060
-Next, why half of Rome survived nearly a thousand
+00:03:18,033 --> 00:03:21,353
+The crown built it, with bakeries, workshops and royal
 
 84
-00:03:26,060 --> 00:03:26,873
+00:03:21,353 --> 00:03:22,833
+grain silos.
+
+85
+00:03:22,833 --> 00:03:24,573
+It looks less like a slave camp than a
+
+86
+00:03:24,573 --> 00:03:25,267
+supply base.
+
+87
+00:03:26,333 --> 00:03:29,093
+At its centre stood a royal administrative building with
+
+88
+00:03:29,093 --> 00:03:31,833
+ten massive grain silos.
+
+89
+00:03:31,833 --> 00:03:33,853
+Grain came in, and bread and beer went out
+
+90
+00:03:33,853 --> 00:03:35,133
+to the workforce.
+
+91
+00:03:35,133 --> 00:03:37,473
+In Arabic, the site is called the Wall of
+
+92
+00:03:37,473 --> 00:03:37,960
+the Crow.
+
+93
+00:03:39,033 --> 00:03:41,713
+The tombs point the same way.
+
+94
+00:03:41,713 --> 00:03:45,833
+Zahi Hawass, then Egypt's archaeology chief, said slaves would
+
+95
+00:03:45,833 --> 00:03:48,013
+never have been buried so honorably.
+
+96
+00:03:48,013 --> 00:03:50,913
+Some tombs even held jars that once contained beer
+
+97
+00:03:50,913 --> 00:03:53,391
+and bread, provisions for the afterlife.
+
+98
+00:03:54,467 --> 00:03:57,247
+The skeletons also show medical care.
+
+99
+00:03:57,247 --> 00:04:00,587
+Twelve workers had injured hands supported with wood.
+
+100
+00:04:00,587 --> 00:04:02,787
+One man's leg was crushed by a stone and
+
+101
+00:04:02,787 --> 00:04:03,187
+cut off.
+
+102
+00:04:03,187 --> 00:04:05,187
+He lived fourteen more years.
+
+103
+00:04:05,187 --> 00:04:08,387
+The workers he studied died between thirty and thirty
+
+104
+00:04:08,387 --> 00:04:09,016
+five.
+
+105
+00:04:10,067 --> 00:04:12,867
+But not slaves is not the same as free.
+
+106
+00:04:12,867 --> 00:04:16,927
+The archaeologist Mark Lehner asks whether they were conscripts.
+
+107
+00:04:16,927 --> 00:04:20,227
+Hawass describes crews rotating in, three months at a
+
+108
+00:04:20,227 --> 00:04:20,520
+time.
+
+109
+00:04:21,600 --> 00:04:24,280
+The builders also left their own names.
+
+110
+00:04:24,280 --> 00:04:27,280
+Gangs painted them on blocks, even in hidden chambers
+
+111
+00:04:27,280 --> 00:04:29,680
+above the king's burial chamber.
+
+112
+00:04:29,680 --> 00:04:32,040
+One gang was the Friends of Khufu.
+
+113
+00:04:32,040 --> 00:04:34,741
+Another called itself the Drunkards of Menkaure.
+
+114
+00:04:35,800 --> 00:04:39,440
+Lehner reads the graffiti like an organisation chart.
+
+115
+00:04:39,440 --> 00:04:41,120
+Each gang had two crews.
+
+116
+00:04:41,120 --> 00:04:43,620
+Each crew had five phyles, from the Greek word
+
+117
+00:04:43,620 --> 00:04:44,680
+for tribe.
+
+118
+00:04:44,680 --> 00:04:48,540
+Each phyle had divisions, with names meaning endurance, perfection
+
+119
+00:04:48,540 --> 00:04:49,261
+and strong.
+
+120
+00:04:50,333 --> 00:04:53,693
+That logbook belonged to an inspector named Merer.
+
+121
+00:04:53,693 --> 00:04:55,993
+He ran a crew of about forty men, late
+
+122
+00:04:55,993 --> 00:04:57,753
+in King Khufu's reign.
+
+123
+00:04:57,753 --> 00:04:59,912
+His logbook records the work day by day.
+
+124
+00:05:00,967 --> 00:05:04,447
+Merer's journal was found in two thousand thirteen, at
+
+125
+00:05:04,447 --> 00:05:07,007
+an ancient harbour on the Red Sea coast.
+
+126
+00:05:07,007 --> 00:05:10,867
+That is about a hundred nineteen kilometres south of
+
+127
+00:05:10,867 --> 00:05:10,867
+Suez.
+
+128
+00:05:10,867 --> 00:05:14,347
+It is the oldest surviving papyrus document, more than
+
+129
+00:05:14,347 --> 00:05:15,601
+four and a half thousand years old.
+
+130
+00:05:16,667 --> 00:05:19,427
+They shipped fine limestone by boat from the quarries
+
+131
+00:05:19,427 --> 00:05:21,607
+at Tura to the pyramid.
+
+132
+00:05:21,607 --> 00:05:24,007
+One boat may have carried about thirty blocks.
+
+133
+00:05:24,007 --> 00:05:26,011
+The short round trip took about two days.
+
+134
+00:05:27,067 --> 00:05:30,027
+Merer's trips ran from July to November.
+
+135
+00:05:30,027 --> 00:05:32,707
+That was the flood season, when the Nile rose
+
+136
+00:05:32,707 --> 00:05:35,147
+by six or seven metres.
+
+137
+00:05:35,147 --> 00:05:37,567
+High water was the only practical time for big
+
+138
+00:05:37,567 --> 00:05:38,267
+cargo boats.
+
+139
+00:05:39,333 --> 00:05:42,093
+Crews also combined for big jobs.
+
+140
+00:05:42,093 --> 00:05:45,153
+For ten days, Merer's men worked on a dam.
+
+141
+00:05:45,153 --> 00:05:48,153
+On one day they joined about fifteen other phyles,
+
+142
+00:05:48,153 --> 00:05:50,373
+perhaps six hundred more men.
+
+143
+00:05:50,373 --> 00:05:53,813
+Their supervisor was most likely Ankh-haf, overseer of all
+
+144
+00:05:53,813 --> 00:05:54,672
+the king's works.
+
+145
+00:05:55,733 --> 00:05:59,113
+Back at the town, long galleries look like barracks.
+
+146
+00:05:59,113 --> 00:06:01,513
+A crew of about forty, like Merer's, would just
+
+147
+00:06:01,513 --> 00:06:02,873
+fit inside one.
+
+148
+00:06:02,873 --> 00:06:05,035
+The workforce came in units we can count.
+
+149
+00:06:06,100 --> 00:06:09,820
+Modern estimates disagree, but look at their size.
+
+150
+00:06:09,820 --> 00:06:12,900
+Lehner counts about five thousand core builders.
+
+151
+00:06:12,900 --> 00:06:16,560
+Hawass has said twenty thousand, and thirty six thousand.
+
+152
+00:06:16,560 --> 00:06:19,668
+A contractor's ten year schedule peaks at forty thousand.
+
+153
+00:06:20,733 --> 00:06:24,293
+Hawass sees the pyramid as a national project.
+
+154
+00:06:24,293 --> 00:06:27,093
+Households, he says, sent food to feed the workmen,
+
+155
+00:06:27,093 --> 00:06:28,913
+and everyone took part.
+
+156
+00:06:28,913 --> 00:06:31,313
+It is a generous reading of the evidence, but
+
+157
+00:06:31,313 --> 00:06:33,384
+it fits the bakeries and the silos.
+
+158
+00:06:34,467 --> 00:06:38,107
+Even the highest modern estimate is well under Herodotus's
+
+159
+00:06:38,107 --> 00:06:39,567
+hundred thousand.
+
+160
+00:06:39,567 --> 00:06:42,007
+His figure is two and a half times bigger,
+
+161
+00:06:42,007 --> 00:06:44,667
+and Diodorus's is nine times.
+
+162
+00:06:44,667 --> 00:06:47,007
+They measured different things, but they were the wrong
+
+163
+00:06:47,007 --> 00:06:47,523
+size.
+
+164
+00:06:48,600 --> 00:06:50,640
+Here is what we still don't know.
+
+165
+00:06:50,640 --> 00:06:53,060
+How many men cut stone far away, at Aswan
+
+166
+00:06:53,060 --> 00:06:53,580
+and Tura.
+
+167
+00:06:53,580 --> 00:06:55,600
+How many blocks there really are.
+
+168
+00:06:55,600 --> 00:06:59,220
+Even Hawass has given figures from ten thousand to
+
+169
+00:06:59,220 --> 00:07:00,547
+thirty six thousand.
+
+170
+00:07:01,600 --> 00:07:04,060
+So, a hundred thousand men in gangs of three
+
+171
+00:07:04,060 --> 00:07:05,040
+months?
+
+172
+00:07:05,040 --> 00:07:06,020
+No.
+
+173
+00:07:06,020 --> 00:07:08,560
+Thousands, tens of thousands at the peak, and every
+
+174
+00:07:08,560 --> 00:07:09,500
+one of them had to eat.
+
+175
+00:07:09,500 --> 00:07:13,540
+Hawass estimated twenty one cattle and twenty three sheep
+
+176
+00:07:13,540 --> 00:07:13,952
+a day.
+
+177
+00:07:15,033 --> 00:07:17,193
+Over a year, that is more than seven thousand
+
+178
+00:07:17,193 --> 00:07:19,073
+six hundred cattle.
+
+179
+00:07:19,073 --> 00:07:21,153
+Moving the stone was hard.
+
+180
+00:07:21,153 --> 00:07:22,653
+Feeding the people who moved it may have been
+
+181
+00:07:22,653 --> 00:07:23,460
+the bigger job.
+
+182
+00:07:24,533 --> 00:07:26,973
+The Great Pyramid was not built by a vast
+
+183
+00:07:26,973 --> 00:07:28,213
+slave army.
+
+184
+00:07:28,213 --> 00:07:31,733
+It was built by organised crews, housed, fed and
+
+185
+00:07:31,733 --> 00:07:33,133
+buried with honour.
+
+186
+00:07:33,133 --> 00:07:36,093
+Next, why half of Rome survived nearly a thousand
+
+187
+00:07:36,093 --> 00:07:36,907
 years longer.

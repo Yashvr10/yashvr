@@ -16,7 +16,13 @@ A true "NOT 100,000" cover needs a cover scene in video.json; adding one would c
 Herodotus was told that the Great Pyramid was built by gangs of 100,000 men, and the myth of a slave army has been repeated ever since. The builders' own town, their tombs, their gang graffiti and an inspector's logbook more than 4,500 years old tell a different story: thousands, tens of thousands at the peak, organised, fed and buried with honour.
 
 CHAPTERS
-(see chapters.txt; regenerated after the final render)
+0:00 The claim
+1:31 The size of the job
+3:00 The town they lived in
+4:21 Names on the stones
+4:49 An inspector's logbook
+6:05 The modern count
+7:01 The answer
 
 SOURCES on upload: "Maps: Natural Earth (public domain); coordinates from Wikipedia; drawn for this film."
 

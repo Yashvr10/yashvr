@@ -1,6 +1,6 @@
 # STATE
 Film: How many people actually built the Great Pyramid?     Slug: great-pyramid-workforce
-Stage: 11 (QA) done - waiting for the OWNER's sign-off and title choice (Claude chose provisionally under delegation). Owner away 5-6 h and delegated every gate to Claude ("choose whatever you feel like is right"); each delegated call is marked [delegated] below.
+Stage: 11 (QA) done for v2 (7:38, 35 scenes) - waiting for the OWNER to watch it, pick the title and upload. Owner said: finish without asking.
 Approved so far:
   stage 0 setup (owner); brief (owner, films/great-pyramid-workforce/brief.md); ledger v1 25 rows (owner)
   stage 3 fact-check: fresh helper agent, packet only -> 20 confirmed, L25 wrong source, L17 cannot check; resolved in ledger.md v2 + L26, L27 [delegated]
@@ -28,4 +28,8 @@ Commands that work here:
   stage 11 QA: films/.../qa.md, all rows pass; silence/black/freeze 0/0/0; 18 identical scene formats [delegated sign-off]
   Archived in films/great-pyramid-workforce/: srt, timeline.json, chapters.txt, contact sheets, maps.py, make-maps.sh
 For the owner to decide: final title; a true "NOT 100,000" cover scene; upload (nothing was uploaded)
-Open issues: image files are not part of the scene fingerprint (NOTES.md); rename a map file when redrawing it
+  v2 (owner: "make it about 8 min", then "complete without asking"): +17 scenes from new sourced beats (ledger L37-L60), 4th map (Aswan),
+    plan 35 scenes 7m 38.1s; final render: --workers 4 and 3 both hit render.mjs:52 READY timeout (60 s) -> --workers 1:
+    21 rendered, 14 cached, 8559 frames in 936.6 s; report 458.133 / 458.066 s, -14.1 LUFS, -1.3 dBTP; QA all pass (qa.md)
+Open issues: final renders on this machine time out at 3-4 workers (READY > 60 s); use --workers 1-2 until the cause is found
+  image files are not part of the scene fingerprint (NOTES.md); rename a map file when redrawing it
