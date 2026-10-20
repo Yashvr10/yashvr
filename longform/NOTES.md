@@ -40,7 +40,7 @@ su builder -s /bin/bash -c 'cd longform && source .venv/bin/activate && node val
 su builder -s /bin/bash -c 'cd longform && source .venv/bin/activate && node build.mjs --draft'
 su builder -s /bin/bash -c 'cd longform && source .venv/bin/activate && node render.mjs --stills'
 su builder -s /bin/bash -c 'cd longform && source .venv/bin/activate && node build.mjs'
-# not run yet: node srt.mjs
+su builder -s /bin/bash -c 'cd longform && node srt.mjs'   # 28 caption cues -> out/how-fast-is-light.srt
 ```
 
 ## Stills and final render (20 Oct 2026)
