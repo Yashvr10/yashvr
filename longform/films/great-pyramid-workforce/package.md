@@ -9,10 +9,9 @@
 
 ## Thumbnail
 Idea (4 words or fewer): **NOT 100,000**, with the number struck through, centred, away from the bottom-right duration label.
-File made now: thumbnail.jpg (1280x720) = the s150 still (Herodotus 100,000 vs highest modern 40,000), made with the lesson 29 commands.
-A true "NOT 100,000" cover needs a cover scene in video.json; adding one would change the film, so it waits for the owner.
+File: thumbnail.jpg (1280x720, 55 KB) = "NOT 100,000" cover, built from thumbnail.html in the film's colours and Inter font, rasterised by Chrome and scaled with ffmpeg; bottom-right kept clear for the duration label.
 
-## Description
+## Description (final text: description.txt, ready to paste)
 Herodotus was told that the Great Pyramid was built by gangs of 100,000 men, and the myth of a slave army has been repeated ever since. The builders' own town, their tombs, their gang graffiti and an inspector's logbook more than 4,500 years old tell a different story: thousands, tens of thousands at the peak, organised, fed and buried with honour.
 
 CHAPTERS
@@ -26,7 +25,7 @@ CHAPTERS
 
 SOURCES on upload: "Maps: Natural Earth (public domain); coordinates from Wikipedia; drawn for this film."
 
-## Description
+## Description (final text: description.txt, ready to paste)
 Herodotus was told that the Great Pyramid was built by gangs of 100,000 men, and the myth of a slave army has been repeated ever since. The builders' own town, their tombs, their gang graffiti and an inspector's logbook more than 4,500 years old tell a different story: thousands, tens of thousands at the peak, organised, fed and buried with honour.
 
 CHAPTERS
