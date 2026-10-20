@@ -1,0 +1,249 @@
+{
+  "meta": {
+    "slug": "how-rome-fell",
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "lead": 0.5,
+    "tail": 0.55,
+    "captions": true,
+    "captionStyle": "pill",
+    "voice": {
+      "engine": "kokoro",
+      "name": "af_heart",
+      "speed": 1.0
+    },
+    "align": "whisper",
+    "pronounce": {
+      "Odoacer": "Odo-acer",
+      "Augustulus": "Aw-gustulus",
+      "Demandt": "Day-mant",
+      "Stilicho": "Stillikoh",
+      "Ravenna": "Ra-venna"
+    }
+  },
+  "style": {
+    "bg": "#0b0d12",
+    "fg": "#f4f1ea",
+    "muted": "rgba(244,241,234,0.62)",
+    "accent": "#d97757",
+    "card": "#171a22",
+    "sans": "'Helvetica Neue', Helvetica, Arial, sans-serif",
+    "mono": "Menlo, 'SF Mono', Consolas, monospace"
+  },
+  "scenes": [
+    {
+      "id": "s010",
+      "type": "title",
+      "chapter": "How did Rome fall?",
+      "sfx": [
+        {
+          "name": "whoosh",
+          "at": 0.05,
+          "gain": 0.5
+        }
+      ],
+      "narration": "Rome wasn't built in a day, and it didn't fall in one either. So when did the Western Roman Empire really end?",
+      "data": {
+        "kicker": "A short history",
+        "title": "How did Rome fall?"
+      }
+    },
+    {
+      "id": "s020",
+      "type": "stat",
+      "sfx": [
+        {
+          "name": "hit",
+          "at": 0.5,
+          "gain": 0.6
+        }
+      ],
+      "narration": "At its largest, under the emperor Trajan, the empire covered roughly five million square kilometres. It looked permanent.",
+      "data": {
+        "value": 5000000,
+        "unit": "SQUARE KILOMETRES",
+        "label": "Estimated extent under Trajan, around AD 117"
+      }
+    },
+    {
+      "id": "s030",
+      "type": "stat",
+      "sfx": [],
+      "narration": "Then came half a century of chaos. Between two hundred thirty five and two hundred eighty four, more than twenty emperors rose and fell.",
+      "data": {
+        "value": 20,
+        "unit": "EMPERORS IN FIFTY YEARS",
+        "label": "More than twenty rose and fell, AD 235 to 284"
+      }
+    },
+    {
+      "id": "s040",
+      "type": "timeline",
+      "chapter": "An empire in two halves",
+      "sfx": [
+        {
+          "name": "whoosh",
+          "at": 0.05,
+          "gain": 0.35
+        }
+      ],
+      "narration": "Power drifted east. Constantinople became a new capital in three hundred thirty. In three hundred seventy eight, Goths killed the emperor Valens at Adrianople. By three hundred ninety five, two brothers ruled two halves.",
+      "data": {
+        "events": [
+          {
+            "when": "330",
+            "label": "Constantinople dedicated as a new capital"
+          },
+          {
+            "when": "378",
+            "label": "Emperor Valens killed by the Goths at Adrianople"
+          },
+          {
+            "when": "395",
+            "label": "Theodosius I dies and his two sons rule East and West"
+          }
+        ]
+      }
+    },
+    {
+      "id": "s050",
+      "type": "bars",
+      "chapter": "The last eighty years",
+      "sfx": [
+        {
+          "name": "whoosh",
+          "at": 0.05,
+          "gain": 0.35
+        }
+      ],
+      "narration": "Then the blows came faster. Rome was sacked fifteen years after the split, and again after sixty. After eighty one years, the West was gone.",
+      "data": {
+        "title": "Years after the split of 395",
+        "unit": "years",
+        "highlight": 2,
+        "items": [
+          {
+            "label": "410",
+            "value": 15,
+            "display": "15"
+          },
+          {
+            "label": "455",
+            "value": 60,
+            "display": "60"
+          },
+          {
+            "label": "476",
+            "value": 81,
+            "display": "81"
+          }
+        ]
+      }
+    },
+    {
+      "id": "s060",
+      "type": "flow",
+      "sfx": [],
+      "narration": "In four hundred seventy six, the general Odoacer deposed the young emperor Romulus Augustulus. He named no successor in the West.",
+      "data": {
+        "nodes": [
+          {
+            "label": "Revolt",
+            "sub": "Odoacer's troops"
+          },
+          {
+            "label": "Deposed",
+            "sub": "Romulus Augustulus"
+          },
+          {
+            "label": "Vacant",
+            "sub": "none named",
+            "accent": true
+          }
+        ],
+        "caption": "The date traditionally taken as the end of the Western Empire"
+      }
+    },
+    {
+      "id": "s070",
+      "type": "compare",
+      "sfx": [
+        {
+          "name": "whoosh",
+          "at": 0.05,
+          "gain": 0.35
+        }
+      ],
+      "narration": "But only half of Rome fell. The western half lasted eighty one years after the split. The eastern half lasted over a thousand.",
+      "data": {
+        "left": {
+          "label": "Western half",
+          "value": 81,
+          "unit": "YEARS AFTER 395",
+          "note": "Ended in 476, when Odoacer deposed its last emperor."
+        },
+        "right": {
+          "label": "Eastern half",
+          "value": 1058,
+          "unit": "YEARS AFTER 395",
+          "note": "Ended in 1453, when Constantinople fell to the Ottomans."
+        }
+      }
+    },
+    {
+      "id": "s080",
+      "type": "list",
+      "chapter": "Why it fell",
+      "sfx": [
+        {
+          "name": "whoosh",
+          "at": 0.05,
+          "gain": 0.35
+        }
+      ],
+      "narration": "So why did the West fall? Historians follow several threads. Constant civil war at the top. Invaders who reached Rome itself. And an empire split in two.",
+      "data": {
+        "title": "Threads historians follow",
+        "items": [
+          "Civil wars and short-lived emperors",
+          "Invaders who reached Rome itself",
+          "An empire divided between two courts"
+        ]
+      }
+    },
+    {
+      "id": "s090",
+      "type": "stat",
+      "sfx": [],
+      "narration": "In nineteen eighty four, the historian Alexander Demandt gathered the explanations people had offered. He counted two hundred ten.",
+      "data": {
+        "value": 210,
+        "unit": "EXPLANATIONS FOR THE FALL",
+        "label": "Collected by Alexander Demandt in 1984"
+      }
+    },
+    {
+      "id": "s095",
+      "type": "quote",
+      "sfx": [],
+      "narration": "Edward Gibbon gave his own answer. Rome's decline, he wrote, was the natural and inevitable effect of immoderate greatness.",
+      "data": {
+        "kicker": "The fall of mighty Rome",
+        "text": "The decline of Rome was the natural and inevitable effect of immoderate greatness.",
+        "by": "Edward Gibbon",
+        "source": "The Decline and Fall of the Roman Empire, 1781"
+      }
+    },
+    {
+      "id": "s100",
+      "type": "outro",
+      "sfx": [],
+      "narration": "Rome didn't fall in a day. It came apart over centuries, and half of it lasted another thousand years.",
+      "data": {
+        "title": "Rome didn't fall in a day",
+        "sub": "FOLLOW FOR MORE HISTORY"
+      }
+    }
+  ]
+}
