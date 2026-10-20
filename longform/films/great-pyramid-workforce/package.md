@@ -11,12 +11,18 @@
 Idea (4 words or fewer): **NOT 100,000**, with the number struck through, centred, away from the bottom-right duration label.
 File made now: thumbnail.jpg (1280x720) = the s150 still (Herodotus 100,000 vs highest modern 40,000), made with the lesson 29 commands.
 A true "NOT 100,000" cover needs a cover scene in video.json; adding one would change the film, so it waits for the owner.
+Add to SOURCES on upload: "Maps: Natural Earth (public domain); coordinates from Wikipedia; drawn for this film."
 
 ## Description
 Herodotus was told that the Great Pyramid was built by gangs of 100,000 men. The builders' own town, their tombs and an inspector's logbook more than 4,500 years old tell a different story: thousands, tens of thousands at the peak, housed, fed and buried with honour.
 
 CHAPTERS
-(paste the output of `node chapters.mjs`)
+0:00 The claim
+0:44 The size of the job
+1:05 The town they lived in
+1:52 An inspector's logbook
+2:20 The modern count
+3:00 The answer
 
 SOURCES
 - Herodotus, Histories 2.124, tr. A. D. Godley (Loeb, 1920): https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0126:book=2:chapter=124

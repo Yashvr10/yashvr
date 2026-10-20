@@ -1,6 +1,6 @@
 # STATE
 Film: How many people actually built the Great Pyramid?     Slug: great-pyramid-workforce
-Stage: 9 (final render) - running. Owner away 5-6 h and delegated every gate to Claude ("choose whatever you feel like is right"); each delegated call is marked [delegated] below.
+Stage: 11 (QA) done - waiting for the OWNER's sign-off and title choice (Claude chose provisionally under delegation). Owner away 5-6 h and delegated every gate to Claude ("choose whatever you feel like is right"); each delegated call is marked [delegated] below.
 Approved so far:
   stage 0 setup (owner); brief (owner, films/great-pyramid-workforce/brief.md); ledger v1 25 rows (owner)
   stage 3 fact-check: fresh helper agent, packet only -> 20 confirmed, L25 wrong source, L17 cannot check; resolved in ledger.md v2 + L26, L27 [delegated]
@@ -23,4 +23,9 @@ Commands that work here:
     pictures; narration unchanged; ledger L29-L36; maps.py + make-maps.sh in films/great-pyramid-workforce/; Natural Earth public domain
     Maps only where the narration is about a place; the other 15 scenes are numbers, quotes or lists with no geography to show [delegated]
   draft after maps: render (draft) 3 rendered, 15 cached; report 208.1/208.1 s, -14.2 LUFS, -1.1 dBTP
+  stage 9 final: render (final) 3 rendered, 15 cached; report planned 208.1 / file 208.1 s, -14.2 LUFS, -1.1 dBTP -> out/great-pyramid-workforce.mp4 (20.0 MB)
+  stage 10 package: srt 84 cues; chapters 6 (exit 0); thumbnail films/.../thumbnail.jpg (s150 still); title #2 chosen [delegated] (package.md)
+  stage 11 QA: films/.../qa.md, all rows pass; silence/black/freeze 0/0/0; 18 identical scene formats [delegated sign-off]
+  Archived in films/great-pyramid-workforce/: srt, timeline.json, chapters.txt, contact sheets, maps.py, make-maps.sh
+For the owner to decide: final title; a true "NOT 100,000" cover scene; upload (nothing was uploaded)
 Open issues: image files are not part of the scene fingerprint (NOTES.md); rename a map file when redrawing it
