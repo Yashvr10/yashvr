@@ -1,7 +1,7 @@
 # STATE
 Film: How many people actually built the Great Pyramid?     Slug: great-pyramid-workforce
-Stage: 2 (ledger) - waiting for the owner to approve or strike rows (films/great-pyramid-workforce/ledger.md, 25 rows)
-Approved so far: stage 0 setup; brief (films/great-pyramid-workforce/brief.md)
+Stage: 3 (fact-check) - owner runs films/great-pyramid-workforce/factcheck-packet.md in a NEW chat and pastes the result back
+Approved so far: stage 0 setup; brief; ledger (25 rows as written, 20 Oct 2026; L17 stays UNVERIFIED and unused)
 Decisions: director prompt (lesson 30) in force; editable files: video.json, NOTES.md, STATE.md, films/<slug>/, assets/
   Voice kokoro af_heart 1.0; respellings lowercase only; captionStyle pill; fonts not pinned (Inter/DejaVu here)
 Commands that work here:
