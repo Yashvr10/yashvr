@@ -1,0 +1,207 @@
+{
+  "meta": {
+    "slug": "how-fast-is-light",
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "lead": 0.5,
+    "tail": 0.55,
+    "captions": true,
+    "voice": {
+      "engine": "kokoro",
+      "name": "af_heart",
+      "speed": 1.0
+    },
+    "align": "whisper",
+    "pronounce": {
+      "Roemer": "Roh-mer",
+      "Fizeau": "Fee-zoh"
+    }
+  },
+  "style": {
+    "bg": "#0b0d12",
+    "fg": "#f4f1ea",
+    "muted": "rgba(244,241,234,0.62)",
+    "accent": "#d97757",
+    "card": "#171a22",
+    "sans": "'Helvetica Neue', Helvetica, Arial, sans-serif",
+    "mono": "Menlo, 'SF Mono', Consolas, monospace"
+  },
+  "scenes": [
+    {
+      "id": "s001",
+      "type": "title",
+      "chapter": "Why light speed matters",
+      "sfx": [
+        {
+          "name": "whoosh",
+          "at": 0.05,
+          "gain": 0.5
+        }
+      ],
+      "narration": "How fast is light, really? And why does it matter for everything you see?",
+      "data": {
+        "kicker": "A 60 second explainer",
+        "title": "How fast is light?"
+      }
+    },
+    {
+      "id": "s002",
+      "type": "stat",
+      "sfx": [
+        {
+          "name": "hit",
+          "at": 0.5,
+          "gain": 0.6
+        }
+      ],
+      "narration": "In a vacuum, light travels at exactly two hundred ninety nine million, seven hundred ninety two thousand, four hundred fifty eight metres every second.",
+      "data": {
+        "value": 299792458,
+        "unit": "METRES PER SECOND",
+        "label": "Exact, because the metre is defined from it"
+      }
+    },
+    {
+      "id": "s003",
+      "type": "timeline",
+      "chapter": "How we measured it",
+      "narration": "People tried to measure it for centuries. Roemer made the first estimate in sixteen seventy six, Fizeau timed it on Earth in eighteen forty nine, and by nineteen eighty three the metre itself was defined by light.",
+      "data": {
+        "events": [
+          {
+            "when": "1676",
+            "label": "Roemer's first estimate, from Jupiter's moons"
+          },
+          {
+            "when": "1849",
+            "label": "Fizeau times it on Earth with a toothed wheel"
+          },
+          {
+            "when": "1983",
+            "label": "The metre is defined by the speed of light"
+          }
+        ]
+      }
+    },
+    {
+      "id": "s004",
+      "type": "bars",
+      "chapter": "How far light really goes",
+      "sfx": [
+        {
+          "name": "whoosh",
+          "at": 0.05,
+          "gain": 0.35
+        }
+      ],
+      "narration": "It sounds fast, but space is big. Sunlight takes about eight minutes to reach Earth, forty three minutes to reach Jupiter, and over four hours to reach Neptune.",
+      "data": {
+        "title": "Light travel time from the Sun",
+        "unit": "min",
+        "highlight": 0,
+        "items": [
+          {
+            "label": "Earth",
+            "value": 8.3,
+            "display": "8.3"
+          },
+          {
+            "label": "Jupiter",
+            "value": 43,
+            "display": "43"
+          },
+          {
+            "label": "Saturn",
+            "value": 79,
+            "display": "79"
+          },
+          {
+            "label": "Neptune",
+            "value": 250,
+            "display": "250"
+          }
+        ]
+      }
+    },
+    {
+      "id": "s005",
+      "type": "flow",
+      "narration": "So when you look at the Sun, you are seeing it as it was eight minutes ago.",
+      "data": {
+        "nodes": [
+          {
+            "label": "Sun",
+            "sub": "emits light"
+          },
+          {
+            "label": "8 min 20 s",
+            "sub": "in transit",
+            "accent": true
+          },
+          {
+            "label": "Your eyes",
+            "sub": "see the past"
+          }
+        ],
+        "caption": "Every glance at the sky is a look back in time"
+      }
+    },
+    {
+      "id": "s006",
+      "type": "compare",
+      "sfx": [
+        {
+          "name": "tick",
+          "at": 0.2,
+          "gain": 0.5
+        }
+      ],
+      "narration": "Compare that with sound. Light is roughly eight hundred seventy thousand times faster than sound travelling through air.",
+      "data": {
+        "left": {
+          "label": "Sound in air",
+          "value": 343,
+          "unit": "METRES PER SECOND",
+          "note": "A thunderclap arrives long after the flash."
+        },
+        "right": {
+          "label": "Light",
+          "value": 299792458,
+          "unit": "METRES PER SECOND",
+          "note": "About 874,000 times faster."
+        }
+      }
+    },
+    {
+      "id": "s007",
+      "type": "list",
+      "chapter": "Why nothing outruns it",
+      "narration": "Why can nothing outrun it? Anything with mass would need unlimited energy to reach that speed. Light has no rest mass, so it has no choice. And space and time adjust so that everyone measures the same speed.",
+      "data": {
+        "title": "Why nothing outruns light",
+        "items": [
+          "Anything with mass would need unlimited energy",
+          "Light has no rest mass, so it must travel at that speed",
+          "Space and time adjust so every observer measures the same speed"
+        ]
+      }
+    },
+    {
+      "id": "s008",
+      "type": "outro",
+      "sfx": [
+        {
+          "name": "rise",
+          "at": 0,
+          "gain": 0.3
+        }
+      ],
+      "narration": "That is the speed limit of the universe. Follow for the next one.",
+      "data": {
+        "title": "The speed limit of the universe",
+        "sub": "FOLLOW FOR THE NEXT ONE"
+      }
+    }
+  ]
+}

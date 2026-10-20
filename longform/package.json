@@ -1,0 +1,19 @@
+{
+  "name": "longform-kit",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs",
+    "draft": "node build.mjs --draft",
+    "stills": "node render.mjs --stills"
+  },
+  "dependencies": {
+    "puppeteer": "^25.14.0"
+  },
+  "version": "1.0.0",
+  "description": "",
+  "main": "stage.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
