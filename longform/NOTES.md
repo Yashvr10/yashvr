@@ -125,3 +125,35 @@ How this compares with the lesson's own run (72.567 s planned, 72.533 s in the f
 - **Lesson learned:** Kokoro reads capitalised syllables as letters, so `"Oh-doh-AY-ser"` was spoken "Oh-doh-A-Y-ser". Write respellings in lowercase, with hyphens only (`"Odo-acer"`), and check them with `kokoro.tokenizer.phonemize(...)` before building.
 - **Changes to `meta.pronounce`:** new values for Odoacer, Augustulus and Demandt; Adrianople and Theodosius removed (Kokoro says them correctly); Stilicho and Ravenna added.
 - **Re-render:** s040, s060 and s090 were re-voiced and re-rendered (`3 rendered, 8 cached`). Report: planned 104.633 s, file 104.566 s, −14.3 LUFS, −1.4 dBTP. All 11 scenes print the same format line. The silence, black-frame and frozen-frame detectors found nothing. `srt.mjs` wrote 40 cues.
+
+## Render budget (measured 20 Oct 2026)
+
+Machine: Intel Xeon @ 2.10 GHz, **4 cores** (`nproc` = 4, 1 thread per core), 15 GB RAM.
+
+**Draft benchmark.** Each run did the same work: `build/scenes-draft/` was deleted first, and all 11 scenes were rendered. That is 3,139 output frames, of which 1,572 are drawn because drafts draw every second frame. I ran two passes.
+
+| `--workers` | Pass 1 | Pass 2 | Drawn fps (pass 1) | Output fps (pass 1) | vs 1 worker |
+|---|---|---|---|---|---|
+| 1 | 20.5 s | 19.2 s | 76.7 | 153 | 1.00× |
+| 2 | 11.3 s | 11.2 s | 139.1 | 278 | 1.81× |
+| 3 | 9.6 s | 9.4 s | 163.8 | 327 | 2.14× |
+| **4** | **8.4 s** | **8.4 s** | **187.1** | **374** | **2.44×** |
+
+- **Best worker count: 4 (`--workers 4`)**, one worker per core.
+- Gains shrink after 2 workers: going 1→2 saves 45%, 2→3 saves 15%, and 3→4 saves 12.5%. More than 4 workers would put more work than cores on the CPU, so I didn't test it.
+
+**Full quality, measured.** `node render.mjs --only s100` rendered 235 frames in 26.9 s, which is **8.7 fps for a single worker**. The earlier whole-film final render ran 3 workers together and reached **17.0 fps** combined (2,170 frames in 127.4 s).
+- Draft at 4 workers is about 374 output fps, roughly **22× faster** than final with workers in parallel.
+- Before measuring, I had assumed a draft-to-final factor of **20×**. That predicted 16.1 min for a 10-minute film.
+
+**Expected render time, full quality, 30 fps.** Rendering the scenes only; voice, alignment and the mix come on top.
+
+| Film length | Frames | With workers in parallel (17.0 fps) | Single worker (8.7 fps) | Draft, 4 workers (374 fps) |
+|---|---|---|---|---|
+| 5 min | 9,000 | ~9 min | ~17 min | ~24 s |
+| 10 min | 18,000 | ~18 min | ~34 min | ~48 s |
+| 30 min | 54,000 | ~53 min | ~1 h 43 min | ~2.4 min |
+
+The "in parallel" column uses the 3-worker final-render rate. A 4-worker final render hasn't been measured: x264 also uses several threads per encoder, so the workers compete for the same 4 cores. Re-measure the next time a whole film is rendered at full quality.
+
+**Format check (lesson 27).** `build/scenes/` held 19 files, all `h264,1920,1080,yuv420p,30/1`. `build/scenes-draft/` held 11, all `h264,960,540,yuv420p,30/1`. Each folder has a single format, so the files join cleanly.
