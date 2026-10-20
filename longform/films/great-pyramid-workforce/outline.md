@@ -13,3 +13,11 @@ Target was 6-8 min. The ledger supports about 4 min without padding; per the dir
 | 3:45-4:15 | Payoff in the hook's words, plus who fed them | s160 stat | |
 | 4:15-4:30 | Next: why half of Rome survived | s170 outro | |
 Chapters (6): s010 The claim; s050 The size of the job; s070 The town they lived in; s110 A foreman's logbook; s130 The modern count; s160 The answer.
+
+
+## v2 (owner asked for ~8 min; all new beats sourced in ledger rows L37-L60)
+Added: s035 Herodotus 2,000 years late; s037 400,000 a year read literally; s045 the myth repeated by the press; s053/s056 three sources of stone + Aswan map;
+s062/s063/s065 the two-minute myth and Lehner's own count; s083 silos; s093 medical care; s105/s107 gang graffiti and organisation;
+s113 the oldest papyrus; s123 flood season; s126 crews combining under Ankh-haf; s145 "a national project?"; s175 cattle a year.
+Chapters (7): The claim / The size of the job / The town they lived in / Names on the stones / An inspector's logbook / The modern count / The answer.
+Length: 35 scenes, 1,186 words, plan 7m 38.1s.

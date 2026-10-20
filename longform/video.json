@@ -18,7 +18,8 @@
       "Diodorus": "Dye-uh-dorus",
       "Hawass": "Ha-wass",
       "Tura": "Toora",
-      "Merer": "Meh-rer"
+      "Merer": "Meh-rer",
+      "Menkaure": "Men-kow-ray"
     },
     "musicGain": 0.8
   },
@@ -55,7 +56,7 @@
       "id": "s020",
       "type": "image",
       "sfx": [],
-      "narration": "Let's count the builders ourselves, using what they left behind. Their town, their tombs, and the logbook of one of their inspectors.",
+      "narration": "Let's count the builders ourselves, using what they left behind. Their town, their tombs, and the logbook of one of their inspectors. From the Giza plateau to a desert harbour on the Red Sea.",
       "data": {
         "src": "assets/maps/map-egypt.png",
         "label": "Where the evidence was found",
@@ -83,6 +84,28 @@
       }
     },
     {
+      "id": "s035",
+      "type": "stat",
+      "sfx": [],
+      "narration": "And neither man was there. Herodotus probably reached Egypt sometime after four hundred fifty four BC. The pyramid was already more than two thousand years old. He stood about as far from Khufu as we stand from Julius Caesar.",
+      "data": {
+        "value": 2000,
+        "unit": "YEARS OLD, AT LEAST",
+        "label": "The pyramid when Herodotus saw it: c. 2600 BC vs after 454 BC"
+      }
+    },
+    {
+      "id": "s037",
+      "type": "stat",
+      "sfx": [],
+      "narration": "Read literally, Herodotus says even more. A new gang of a hundred thousand every three months means four gangs a year. That is four hundred thousand men, every single year.",
+      "data": {
+        "value": 400000,
+        "unit": "MEN A YEAR, READ LITERALLY",
+        "label": "Four gangs of 100,000, three months each"
+      }
+    },
+    {
       "id": "s040",
       "type": "list",
       "sfx": [],
@@ -97,6 +120,18 @@
       }
     },
     {
+      "id": "s045",
+      "type": "quote",
+      "sfx": [],
+      "narration": "Yet the slave story keeps being repeated. In two thousand ten, a news agency report said Herodotus described the builders as slaves. As we just read, he did not. The same report says Egyptologists blame Hollywood for spreading the myth.",
+      "data": {
+        "kicker": "How the myth gets repeated",
+        "text": "The ancient Greek historian Herodotus once described the pyramid builders as slaves",
+        "by": "Associated Press",
+        "source": "11 January 2010"
+      }
+    },
+    {
       "id": "s050",
       "type": "stat",
       "chapter": "The size of the job",
@@ -107,11 +142,46 @@
           "gain": 0.35
         }
       ],
-      "narration": "Now the size of the job. The pyramid holds an estimated two point three million blocks. Together they weigh about six million tonnes.",
+      "narration": "Now the size of the job. The pyramid holds an estimated two point three million blocks. Together they weigh about six million tonnes, and it stood about one hundred forty seven metres tall.",
       "data": {
         "value": 2300000,
         "unit": "BLOCKS, ESTIMATED",
         "label": "About 6,000,000 tonnes of stone in all"
+      }
+    },
+    {
+      "id": "s053",
+      "type": "flow",
+      "sfx": [],
+      "narration": "Not all that stone was local. Most blocks were quarried right on the Giza plateau. The fine white casing came from Tura, across the river. And granite for the king's chamber came from Aswan, far to the south.",
+      "data": {
+        "nodes": [
+          {
+            "label": "Giza",
+            "sub": "core blocks"
+          },
+          {
+            "label": "Tura",
+            "sub": "white casing"
+          },
+          {
+            "label": "Aswan",
+            "sub": "granite, to 80 t",
+            "accent": true
+          }
+        ],
+        "caption": "Three sources of stone"
+      }
+    },
+    {
+      "id": "s056",
+      "type": "image",
+      "sfx": [],
+      "narration": "Aswan lies about six hundred eighty kilometres south of Giza, in a straight line. Some of its granite blocks weighed up to eighty tonnes. Even so, they ended up at the heart of the pyramid.",
+      "data": {
+        "src": "assets/maps/map-aswan.png",
+        "label": "Aswan granite, about 680 km south",
+        "credit": "Map data: Natural Earth (public domain)"
       }
     },
     {
@@ -123,6 +193,57 @@
         "value": 315,
         "unit": "BLOCKS A DAY",
         "label": "2.3 million blocks over 20 years, every day of the year"
+      }
+    },
+    {
+      "id": "s062",
+      "type": "quote",
+      "sfx": [],
+      "narration": "That pace sounds impossible, and some people use it to argue the pyramid was not built by hand. Lehner's answer is simple. The stones did not go in one after another. Many teams worked at once.",
+      "data": {
+        "kicker": "The two-minute myth",
+        "text": "But the stones didn't go in one after another, you see.",
+        "by": "Mark Lehner",
+        "source": "NOVA interview"
+      }
+    },
+    {
+      "id": "s063",
+      "type": "stat",
+      "sfx": [],
+      "narration": "Lehner tested it. In a NOVA experiment, twelve men pulled a one and a half ton block across a slick surface with ease. Moving stone did not need armies. It needed well drilled teams.",
+      "data": {
+        "value": 12,
+        "unit": "MEN, ONE 1.5-TON BLOCK",
+        "label": "NOVA pulling experiment, described by Mark Lehner"
+      }
+    },
+    {
+      "id": "s065",
+      "type": "bars",
+      "sfx": [],
+      "narration": "From there he worked out the rest. About twelve hundred men in the quarry, and two thousand hauling. Add the stone setters, and the total for twenty years of work is five thousand men or fewer.",
+      "data": {
+        "title": "Lehner's count for a twenty-year build",
+        "unit": "",
+        "highlight": 2,
+        "items": [
+          {
+            "label": "Quarry",
+            "value": 1200,
+            "display": "1,200"
+          },
+          {
+            "label": "Haulers",
+            "value": 2000,
+            "display": "2,000"
+          },
+          {
+            "label": "In all",
+            "value": 5000,
+            "display": "5,000"
+          }
+        ]
       }
     },
     {
@@ -160,15 +281,37 @@
       }
     },
     {
+      "id": "s083",
+      "type": "stat",
+      "sfx": [],
+      "narration": "At its centre stood a royal administrative building with ten massive grain silos. Grain came in, and bread and beer went out to the workforce. In Arabic, the site is called the Wall of the Crow.",
+      "data": {
+        "value": 10,
+        "unit": "ROYAL GRAIN SILOS",
+        "label": "Royal Administrative Building, Heit el-Ghurab (AERA)"
+      }
+    },
+    {
       "id": "s090",
       "type": "quote",
       "sfx": [],
-      "narration": "The tombs point the same way. Zahi Hawass, then Egypt's archaeology chief, said slaves would never have been buried so honorably.",
+      "narration": "The tombs point the same way. Zahi Hawass, then Egypt's archaeology chief, said slaves would never have been buried so honorably. Some tombs even held jars that once contained beer and bread, provisions for the afterlife.",
       "data": {
         "kicker": "The builders' tombs",
         "text": "No way would they have been buried so honorably if they were slaves.",
         "by": "Zahi Hawass",
         "source": "Egypt's archaeology chief, to the Associated Press, 2010"
+      }
+    },
+    {
+      "id": "s093",
+      "type": "stat",
+      "sfx": [],
+      "narration": "The skeletons also show medical care. Twelve workers had injured hands supported with wood. One man's leg was crushed by a stone and cut off. He lived fourteen more years. The workers he studied died between thirty and thirty five.",
+      "data": {
+        "value": 14,
+        "unit": "MORE YEARS OF LIFE",
+        "label": "after a crushed leg was amputated (Hawass, NOVA)"
       }
     },
     {
@@ -196,6 +339,43 @@
       }
     },
     {
+      "id": "s105",
+      "type": "quote",
+      "chapter": "Names on the stones",
+      "sfx": [],
+      "narration": "The builders also left their own names. Gangs painted them on blocks, even in hidden chambers above the king's burial chamber. One gang was the Friends of Khufu. Another called itself the Drunkards of Menkaure.",
+      "data": {
+        "kicker": "Work-gang graffiti",
+        "text": "the Friends of Khufu gang, the Drunks of Menkaura gang",
+        "by": "Mark Lehner",
+        "source": "NOVA, on the builders' graffiti"
+      }
+    },
+    {
+      "id": "s107",
+      "type": "flow",
+      "sfx": [],
+      "narration": "Lehner reads the graffiti like an organisation chart. Each gang had two crews. Each crew had five phyles, from the Greek word for tribe. Each phyle had divisions, with names meaning endurance, perfection and strong.",
+      "data": {
+        "nodes": [
+          {
+            "label": "1 gang",
+            "sub": "named for a king"
+          },
+          {
+            "label": "2 crews",
+            "sub": "per gang"
+          },
+          {
+            "label": "5 phyles",
+            "sub": "per crew",
+            "accent": true
+          }
+        ],
+        "caption": "Then divisions: “endurance”, “perfection”, “strong”"
+      }
+    },
+    {
       "id": "s110",
       "type": "stat",
       "chapter": "An inspector's logbook",
@@ -206,11 +386,21 @@
           "gain": 0.35
         }
       ],
-      "narration": "That logbook belonged to an inspector named Merer. He ran a crew of about forty men, late in King Khufu's reign.",
+      "narration": "That logbook belonged to an inspector named Merer. He ran a crew of about forty men, late in King Khufu's reign. His logbook records the work day by day.",
       "data": {
         "value": 40,
         "unit": "MEN IN MERER'S CREW",
         "label": "Tallet's estimate, from the logbook of Khufu's year 26–27"
+      }
+    },
+    {
+      "id": "s113",
+      "type": "title",
+      "sfx": [],
+      "narration": "Merer's journal was found in two thousand thirteen, at an ancient harbour on the Red Sea coast. That is about a hundred nineteen kilometres south of Suez. It is the oldest surviving papyrus document, more than four and a half thousand years old.",
+      "data": {
+        "kicker": "Wadi el-Jarf, 2013",
+        "title": "The oldest papyrus document known"
       }
     },
     {
@@ -222,6 +412,39 @@
         "src": "assets/maps/map-tura.png",
         "label": "Merer's run: Tura to Giza",
         "credit": "Map data: Natural Earth (public domain)"
+      }
+    },
+    {
+      "id": "s123",
+      "type": "timeline",
+      "sfx": [],
+      "narration": "Merer's trips ran from July to November. That was the flood season, when the Nile rose by six or seven metres. High water was the only practical time for big cargo boats.",
+      "data": {
+        "events": [
+          {
+            "when": "July",
+            "label": "First trips"
+          },
+          {
+            "when": "Aug–Oct",
+            "label": "Best water for big boats"
+          },
+          {
+            "when": "Nov",
+            "label": "Last trips"
+          }
+        ]
+      }
+    },
+    {
+      "id": "s126",
+      "type": "stat",
+      "sfx": [],
+      "narration": "Crews also combined for big jobs. For ten days, Merer's men worked on a dam. On one day they joined about fifteen other phyles, perhaps six hundred more men. Their supervisor was most likely Ankh-haf, overseer of all the king's works.",
+      "data": {
+        "value": 600,
+        "unit": "EXTRA MEN ON ONE DAM",
+        "label": "Merer's phyle plus some 15 others (Tallet, via Lehner)"
       }
     },
     {
@@ -237,7 +460,6 @@
     {
       "id": "s140",
       "type": "bars",
-      "chapter": "The modern count",
       "sfx": [
         {
           "name": "whoosh",
@@ -272,13 +494,26 @@
             "display": "40,000"
           }
         ]
+      },
+      "chapter": "The modern count"
+    },
+    {
+      "id": "s145",
+      "type": "quote",
+      "sfx": [],
+      "narration": "Hawass sees the pyramid as a national project. Households, he says, sent food to feed the workmen, and everyone took part. It is a generous reading of the evidence, but it fits the bakeries and the silos.",
+      "data": {
+        "kicker": "A national project?",
+        "text": "the households will send food to feed the workmen",
+        "by": "Zahi Hawass",
+        "source": "NOVA interview"
       }
     },
     {
       "id": "s150",
       "type": "compare",
       "sfx": [],
-      "narration": "Even the highest modern estimate is well under Herodotus's hundred thousand. Diodorus's figure is nine times bigger. They measured different things, but they were the wrong size.",
+      "narration": "Even the highest modern estimate is well under Herodotus's hundred thousand. His figure is two and a half times bigger, and Diodorus's is nine times. They measured different things, but they were the wrong size.",
       "data": {
         "left": {
           "label": "Herodotus",
@@ -324,6 +559,17 @@
         "value": 21,
         "unit": "CATTLE A DAY, AND 23 SHEEP",
         "label": "Hawass's estimate for about 10,000 workers (AP, 2010)"
+      }
+    },
+    {
+      "id": "s175",
+      "type": "stat",
+      "sfx": [],
+      "narration": "Over a year, that is more than seven thousand six hundred cattle. Moving the stone was hard. Feeding the people who moved it may have been the bigger job.",
+      "data": {
+        "value": 7665,
+        "unit": "CATTLE A YEAR",
+        "label": "21 a day x 365 days (Hawass's figure)"
       }
     },
     {

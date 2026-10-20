@@ -11,10 +11,17 @@
 Idea (4 words or fewer): **NOT 100,000**, with the number struck through, centred, away from the bottom-right duration label.
 File made now: thumbnail.jpg (1280x720) = the s150 still (Herodotus 100,000 vs highest modern 40,000), made with the lesson 29 commands.
 A true "NOT 100,000" cover needs a cover scene in video.json; adding one would change the film, so it waits for the owner.
-Add to SOURCES on upload: "Maps: Natural Earth (public domain); coordinates from Wikipedia; drawn for this film."
 
 ## Description
-Herodotus was told that the Great Pyramid was built by gangs of 100,000 men. The builders' own town, their tombs and an inspector's logbook more than 4,500 years old tell a different story: thousands, tens of thousands at the peak, housed, fed and buried with honour.
+Herodotus was told that the Great Pyramid was built by gangs of 100,000 men, and the myth of a slave army has been repeated ever since. The builders' own town, their tombs, their gang graffiti and an inspector's logbook more than 4,500 years old tell a different story: thousands, tens of thousands at the peak, organised, fed and buried with honour.
+
+CHAPTERS
+(see chapters.txt; regenerated after the final render)
+
+SOURCES on upload: "Maps: Natural Earth (public domain); coordinates from Wikipedia; drawn for this film."
+
+## Description
+Herodotus was told that the Great Pyramid was built by gangs of 100,000 men, and the myth of a slave army has been repeated ever since. The builders' own town, their tombs, their gang graffiti and an inspector's logbook more than 4,500 years old tell a different story: thousands, tens of thousands at the peak, organised, fed and buried with honour.
 
 CHAPTERS
 0:00 The claim
@@ -32,8 +39,12 @@ SOURCES
 - AERA, "The Lost City of the Pyramids" (Heit el-Ghurab): https://www.aeraweb.org/lost-city/
 - K. Kratovac (AP), "Egypt says Jewish slaves didn't build pyramids", Christian Science Monitor, 11 Jan 2010: https://www.csmonitor.com/World/2010/0111/Egypt-says-Jewish-slaves-didn-t-build-pyramids
 - Mark Lehner, "Lake Khufu: On the Waterfront at Giza" (2020), citing P. Tallet, Les papyrus de la mer Rouge I (2017): https://www.ancientportsantiques.com/wp-content/uploads/Documents/PLACES/Egypt-Libya/GizehPorts-Lehner2020.pdf
-- Block count and mass (estimates): Wikipedia, "Great Pyramid of Giza": https://en.wikipedia.org/wiki/Great_Pyramid_of_Giza
-- 315 blocks a day = 2,300,000 / (20 x 365), my arithmetic; "every two to three minutes" assumes 10- to 14-hour working days.
+- Guinness World Records, "Oldest papyrus" (Diary of Merer): https://www.guinnessworldrecords.com/world-records/711805-oldest-papyrus
+- Herodotus's travels (after 454 BC): Wikipedia, "Herodotus": https://en.wikipedia.org/wiki/Herodotus
+- Date of Caesar's death (44 BC): Wikipedia, "Assassination of Julius Caesar": https://en.wikipedia.org/wiki/Assassination_of_Julius_Caesar
+- Map coordinates: Wikipedia pages for the Great Pyramid, the Great Sphinx, Tura, Wadi al-Jarf and Aswan; maps drawn from Natural Earth (public domain): https://www.naturalearthdata.com/about/terms-of-use/
+- Block count, mass, quarries and granite weights (estimates): Wikipedia, "Great Pyramid of Giza": https://en.wikipedia.org/wiki/Great_Pyramid_of_Giza
+- My arithmetic: 315 blocks a day = 2,300,000 / (20 x 365); "every two to three minutes" assumes 10- to 14-hour days; 400,000 a year = 4 gangs x 100,000; 7,665 cattle = 21 x 365; Giza-Aswan 678 km and Giza-Tura 18 km are straight-line distances.
 
 NEXT: Why did half of Rome survive for nearly a thousand more years? [link to the next film]
 

@@ -14,6 +14,7 @@ GREAT_PYRAMID = (29.97917, 31.13417)
 SPHINX = (29.97526, 31.13758)
 TURA = (29.94583, 31.31806)
 WADI_EL_JARF = (28.89167, 32.65833)
+ASWAN = (24.08889, 32.89972)  # L45
 # L18: the workers' town lies 400 m south of the Sphinx (AERA). 400 m / 111,320 m per degree of latitude.
 TOWN = (SPHINX[0] - 400 / 111320, SPHINX[1])
 
@@ -132,4 +133,22 @@ body += f'<text x="{(gx + tx2) / 2 - 60:.1f}" y="{(gy + ty2) / 2 + 40:.1f}" text
 nx, ny = p(29.915, 31.255)
 body += f'<text x="{nx + 150:.0f}" y="{ny:.0f}" font-size="28" font-weight="600" fill="#4f7894" letter-spacing="5">NILE (MODERN COURSE)</text>'
 page('map-tura', body)
+# Map 4 (s056): Aswan granite. Written to a NEW file name (map-aswan.png) - the scene cache does not hash image bytes.
+p = Proj(27.03, 32.0, 72)
+bbox = (22.0, 32.5, 27.0, 37.0)
+body = f'<path d="{paths(land, p, bbox, True)}" fill="{LAND}" stroke="none" fill-rule="evenodd"/>'
+body += f'<path d="{paths(lakes, p, bbox, True)}" fill="{BG}"/>'
+body += f'<path d="{paths(rivers, p, bbox, False)}" fill="none" stroke="{WATER}" stroke-width="5" stroke-linejoin="round"/>'
+gx, gy = p(*GREAT_PYRAMID)
+ax, ay = p(*ASWAN)
+body += f'<path d="M{ax:.1f},{ay:.1f}L{gx:.1f},{gy:.1f}" stroke="{ACCENT}" stroke-width="5" stroke-dasharray="16 12"/>'
+body += dot(p, GREAT_PYRAMID, 'Giza', 'the Great Pyramid', side='left')
+body += dot(p, ASWAN, 'Aswan', 'granite quarries', side='right')
+da = km(GREAT_PYRAMID, ASWAN)
+mx, my = (gx + ax) / 2, (gy + ay) / 2
+body += f'<text x="{mx + 40:.1f}" y="{my:.1f}" font-size="34" font-weight="600" fill="{FG}">about {round(da, -1):.0f} km,</text><text x="{mx + 40:.1f}" y="{my + 44:.1f}" font-size="34" font-weight="600" fill="{FG}">straight line</text>'
+x, y = p(26.2, 31.55)
+body += f'<text x="{x:.0f}" y="{y:.0f}" text-anchor="end" font-size="28" font-weight="600" fill="#4f7894" letter-spacing="6">NILE</text>'
+page('map-aswan', body)
+print(f'Giza-Aswan straight line: {da:.1f} km')
 print(f'Giza-Tura straight line: {d:.2f} km; town offset 400 m = {400 / 111320:.5f} deg lat')

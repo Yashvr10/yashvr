@@ -70,3 +70,29 @@ New rows from the resolution (opened by me in the same Lehner 2020 PDF):
 | L34 | Giza to Tura, straight line | about 18 km | COMPUTED: haversine(L29, L31), R = 6371 km -> 18.10 km | COMPUTED |
 | L35 | Base map: coastlines, lakes, the Nile and its delta branches (modern courses); canals removed | - | Natural Earth 10m (ne_10m_land, ne_10m_lakes, ne_10m_rivers_lake_centerlines), github.com/nvkelso/natural-earth-vector; terms of use: "in the public domain", https://www.naturalearthdata.com/about/terms-of-use/ | OK (licence recorded) |
 | L36 | Great Pyramid square drawn to scale | 230.3 m a side (L06) | COMPUTED in maps.py | COMPUTED |
+
+## Expansion rows (owner asked for ~8 min, 20 Oct 2026; all opened today)
+| L37 | Herodotus probably travelled to Egypt "sometime after 454 BC or possibly earlier" | after 454 BC | Wikipedia, "Herodotus", https://en.wikipedia.org/wiki/Herodotus | SECONDARY |
+| L38 | The Great Pyramid "was built c. 2600 BC over a period of about 26 years" | c. 2600 BC | Wikipedia, "Great Pyramid of Giza" (lead, citing Tallet 2017) | SECONDARY |
+| L39 | Julius Caesar was assassinated on 15 March 44 BC | 44 BC | Wikipedia, "Assassination of Julius Caesar" | SECONDARY |
+| L40 | The pyramid was more than 2,000 years old when Herodotus came; that gap (~2,146 y) is about our distance from Caesar (2,070 y) | > 2,000 y | COMPUTED: 2600 - 454 = 2,146; 2026 + 44 = 2,070 | COMPUTED |
+| L41 | AP (2010): "The ancient Greek historian Herodotus once described the pyramid builders as slaves, creating what Egyptologists say is a myth later propagated by Hollywood films" | quote | CS Monitor / AP, 11 Jan 2010 (as L19), page text opened with curl | SECONDARY; contradicted by L01 (he does not say slaves) - the film uses this contrast |
+| L42 | Most blocks were quarried at Giza just south of the pyramid; primarily local limestone | - | Wikipedia, "Great Pyramid of Giza" (Construction; footnote 106) | SECONDARY |
+| L43 | White limestone from Tura for the casing | - | same (intro, citing Lehner 1997 p. 207) | SECONDARY |
+| L44 | Granite from Aswan for the King's Chamber, blocks weighing up to 80 tonnes (25 to 80 t for the chamber ceilings) | up to 80 t | same (citing Lehner 1997 p. 207) | SECONDARY |
+| L45 | Aswan coordinates; Aswan's quarries supplied granite to many ancient monuments | 24.08889 N, 32.89972 E | Wikipedia, "Aswan" | SECONDARY |
+| L46 | Giza to Aswan, straight line | about 680 km | COMPUTED: haversine(L29, L45), R 6371 km (printed by maps.py) | COMPUTED |
+| L47 | Lehner's arithmetic: 340 stones a day = 34 an hour in a 10-hour day; a NOVA experiment found 12 men could pull a 1.5 ton block on a slick surface; ~1,200 men in the quarry, ~2,000 delivering (3,200); with setters "5,000 or less men" for 20 years | 12; 1,200; 2,000; 5,000 | NOVA builders page (as L12), full passage opened with curl | OK (interview) |
+| L48 | Royal Administrative Building: "one of ten massive Old Kingdom grain silos"; grain distributed "to create the beer and bread used to help feed this massive workforce"; site known in Arabic as Heit el-Ghurab, "Wall of the Crow" | 10 silos | AERA, "The Lost City of the Pyramids" (as L18) | OK |
+| L49 | Hawass: 12 skeletons with hand injuries "supported ... with wood"; a stone fell on one man's leg, "they cut his leg and he lived 14 years after that" | 12; 14 years | NOVA builders page (as L12) | OK (interview) |
+| L50 | Lehner: gangs named after kings, e.g. "the Friends of Khufu gang, the Drunks of Menkaura gang", attested in the relieving chambers above the Great Pyramid; "None of this sounds like slavery, does it?" | - | NOVA builders page | OK (interview) |
+| L51 | Lehner: a gang "was organized into two crews. And the crews were subdivided into five phyles" (Greek for tribe; Egyptian za); divisions named "endurance, perfection, strong" | 2; 5 | NOVA builders page | OK (interview) |
+| L52 | The Diary of Merer is the oldest surviving papyrus document, c. 2570 BC, found by Pierre Tallet in 2013 at Wadi el-Jarf | 2013; c. 2570 BC | Guinness World Records, "Oldest papyrus", https://www.guinnessworldrecords.com/world-records/711805-oldest-papyrus | SECONDARY |
+| L53 | Merer's team made round trips from July to November, the season of best navigability; the flood season (August-October) was the only practical period for large cargo boats; the Nile rose 6-7 m (about 7 m near Cairo) | Jul-Nov; 6-7 m | Lehner 2020 PDF, text lines 696-700 and 738-744 | OK (scholarly) |
+| L54 | For a ten-day period Merer's phyle worked on the dyke (dam) of Ro-She Khufu; on Day 13 it joined some 15 phyles, "perhaps amounting to 600 additional men", most probably under Ankh-haf (overseer of all the king's works and vizier) | 15; ~600 | Lehner 2020 PDF, lines 1740-1743, 2263-2270, citing Tallet 2017 | OK (scholarly) |
+| L55 | Hawass: "the households will send food to feed the workmen"; "everyone had to participate" | quote | NOVA builders page | OK (interview); the film calls it "a generous reading" |
+| L56 | 21 cattle a day for a year | 7,665 | COMPUTED: 21 x 365 = 7,665 (uses L21, Hawass's press figure) | COMPUTED |
+| L57 | Some builders' tombs held jars that once held beer and bread, provisions for the afterlife | - | CS Monitor / AP 2010 (as L19) | SECONDARY |
+| L58 | Herodotus's 100,000 is two and a half times the highest modern estimate | 2.5x | COMPUTED: 100,000 / 40,000 (L01, L16) | COMPUTED |
+| L59 | Read literally, gangs of 100,000 changing every three months means 400,000 men a year | 400,000 | COMPUTED: 12 / 3 = 4 gangs a year x 100,000 (L01); the fact-checker flagged this reading as possible, not certain | COMPUTED |
+| L60 | Lehner: "it's often said that the stones were delivered at a rate of one every two minutes or so. And New Agers sometimes point that out as an impossibility ... But the stones didn't go in one after another" | quote | NOVA builders page (as L12), passage opened with curl | OK (interview) |
