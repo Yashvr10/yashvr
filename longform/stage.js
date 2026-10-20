@@ -49,25 +49,62 @@ function chunk(words) {
 }
 const chunks = chunk(slot.words);
 
+// meta.captionStyle: "pill" (default), "karaoke" (words fill left to right as they
+// are spoken) or "outline" (no pill, 3 px dark outline, larger text). Same line
+// timing for all three; only the look changes. Baseline stays at H - 120.
 function captions(t) {
   if (video.meta.captions === false || scene.captions === false) return;
   const tv = t - slot.lead; // time inside the voice clip
   const line = chunks.find((ch) => tv >= ch[0].s - 0.05 && tv < ch[ch.length - 1].e + 0.15);
   if (!line) return;
-  ctx.font = font(S, 56, 700);
-  const gap = ctx.measureText(' ').width;
-  const widths = line.map((w) => ctx.measureText(w.w).width);
-  const total = widths.reduce((a, b) => a + b, 0) + gap * (line.length - 1);
+  const style = video.meta.captionStyle || 'pill';
   const y = S.H - 120;
-  ctx.fillStyle = 'rgba(0,0,0,0.5)';
-  ctx.beginPath();
-  ctx.roundRect(S.W / 2 - total / 2 - 36, y - 68, total + 72, 98, 24);
-  ctx.fill();
+  // Karaoke and outline shrink a long line to stay inside the 160 px side margins.
+  let px = style === 'outline' ? 68 : 56;
+  ctx.font = font(S, px, 700);
+  let gap = ctx.measureText(' ').width;
+  let widths = line.map((w) => ctx.measureText(w.w).width);
+  let total = widths.reduce((a, b) => a + b, 0) + gap * (line.length - 1);
+  if (style !== 'pill' && total > S.W - 320) {
+    px = Math.floor((px * (S.W - 320)) / total);
+    ctx.font = font(S, px, 700);
+    gap = ctx.measureText(' ').width;
+    widths = line.map((w) => ctx.measureText(w.w).width);
+    total = widths.reduce((a, b) => a + b, 0) + gap * (line.length - 1);
+  }
+  if (style !== 'outline') {
+    ctx.fillStyle = 'rgba(0,0,0,0.5)';
+    ctx.beginPath();
+    ctx.roundRect(S.W / 2 - total / 2 - 36, y - 68, total + 72, 98, 24);
+    ctx.fill();
+  }
+  ctx.textAlign = 'left';
+  ctx.lineJoin = 'round';
   let x = S.W / 2 - total / 2;
   line.forEach((w, i) => {
-    ctx.fillStyle = tv >= w.s && tv < w.e ? S.accent : S.fg;
-    ctx.textAlign = 'left';
-    ctx.fillText(w.w, x, y);
+    if (style === 'karaoke') {
+      // Unspoken text is dim; a clip sweeps the bright fill across each word as it is said.
+      const fill = clamp01((tv - w.s) / Math.max(0.05, w.e - w.s));
+      ctx.fillStyle = 'rgba(244,241,234,0.38)';
+      ctx.fillText(w.w, x, y);
+      if (fill > 0) {
+        ctx.save();
+        ctx.beginPath();
+        ctx.rect(x - 4, y - px * 1.2, (widths[i] + 8) * fill, px * 1.6);
+        ctx.clip();
+        ctx.fillStyle = tv < w.e ? S.accent : S.fg;
+        ctx.fillText(w.w, x, y);
+        ctx.restore();
+      }
+    } else {
+      if (style === 'outline') {
+        ctx.lineWidth = 6; // centred on the glyph edge: 3 px shows outside the fill
+        ctx.strokeStyle = 'rgba(0,0,0,0.9)';
+        ctx.strokeText(w.w, x, y);
+      }
+      ctx.fillStyle = tv >= w.s && tv < w.e ? S.accent : S.fg;
+      ctx.fillText(w.w, x, y);
+    }
     x += widths[i] + gap;
   });
 }
