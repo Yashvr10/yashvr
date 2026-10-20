@@ -1,6 +1,6 @@
 {
   "meta": {
-    "slug": "how-fast-is-light",
+    "slug": "how-rome-fell",
     "width": 1920,
     "height": 1080,
     "fps": 30,
@@ -14,8 +14,11 @@
     },
     "align": "whisper",
     "pronounce": {
-      "Roemer": "Roh-mer",
-      "Fizeau": "Fee-zoh"
+      "Odoacer": "Oh-doh-AY-ser",
+      "Augustulus": "Aw-GUS-tyoo-lus",
+      "Adrianople": "Ay-dree-uh-NO-pul",
+      "Theodosius": "Thee-oh-DOH-shus",
+      "Demandt": "DEH-mant"
     }
   },
   "style": {
@@ -29,9 +32,9 @@
   },
   "scenes": [
     {
-      "id": "s001",
+      "id": "s010",
       "type": "title",
-      "chapter": "Why light speed matters",
+      "chapter": "How did Rome fall?",
       "sfx": [
         {
           "name": "whoosh",
@@ -39,14 +42,14 @@
           "gain": 0.5
         }
       ],
-      "narration": "How fast is light, really? And why does it matter for everything you see?",
+      "narration": "Rome wasn't built in a day, and it didn't fall in one either. So when did the Western Roman Empire really end?",
       "data": {
-        "kicker": "A 60 second explainer",
-        "title": "How fast is light?"
+        "kicker": "A short history",
+        "title": "How did Rome fall?"
       }
     },
     {
-      "id": "s002",
+      "id": "s020",
       "type": "stat",
       "sfx": [
         {
@@ -55,39 +58,28 @@
           "gain": 0.6
         }
       ],
-      "narration": "In a vacuum, light travels at exactly two hundred ninety nine million, seven hundred ninety two thousand, four hundred fifty eight metres every second.",
+      "narration": "At its largest, under the emperor Trajan, the empire covered roughly five million square kilometres. It looked permanent.",
       "data": {
-        "value": 299792458,
-        "unit": "METRES PER SECOND",
-        "label": "Exact, because the metre is defined from it"
+        "value": 5000000,
+        "unit": "SQUARE KILOMETRES",
+        "label": "Estimated extent under Trajan, around AD 117"
       }
     },
     {
-      "id": "s003",
+      "id": "s030",
+      "type": "stat",
+      "sfx": [],
+      "narration": "Then came half a century of chaos. Between two hundred thirty five and two hundred eighty four, more than twenty emperors rose and fell.",
+      "data": {
+        "value": 20,
+        "unit": "EMPERORS IN FIFTY YEARS",
+        "label": "More than twenty rose and fell, AD 235 to 284"
+      }
+    },
+    {
+      "id": "s040",
       "type": "timeline",
-      "chapter": "How we measured it",
-      "narration": "People tried to measure it for centuries. Roemer made the first estimate in sixteen seventy six, Fizeau timed it on Earth in eighteen forty nine, and by nineteen eighty three the metre itself was defined by light.",
-      "data": {
-        "events": [
-          {
-            "when": "1676",
-            "label": "Roemer's first estimate, from Jupiter's moons"
-          },
-          {
-            "when": "1849",
-            "label": "Fizeau times it on Earth with a toothed wheel"
-          },
-          {
-            "when": "1983",
-            "label": "The metre is defined by the speed of light"
-          }
-        ]
-      }
-    },
-    {
-      "id": "s004",
-      "type": "bars",
-      "chapter": "How far light really goes",
+      "chapter": "An empire in two halves",
       "sfx": [
         {
           "name": "whoosh",
@@ -95,112 +87,150 @@
           "gain": 0.35
         }
       ],
-      "narration": "It sounds fast, but space is big. Sunlight takes about eight minutes to reach Earth, forty three minutes to reach Jupiter, and over four hours to reach Neptune.",
+      "narration": "Power drifted east. Constantinople became a new capital in three hundred thirty. In three hundred seventy eight, Goths killed the emperor Valens at Adrianople. By three hundred ninety five, two brothers ruled two halves.",
       "data": {
-        "title": "Light travel time from the Sun",
-        "unit": "min",
-        "highlight": 0,
-        "items": [
+        "events": [
           {
-            "label": "Earth",
-            "value": 8.3,
-            "display": "8.3"
+            "when": "330",
+            "label": "Constantinople dedicated as a new capital"
           },
           {
-            "label": "Jupiter",
-            "value": 43,
-            "display": "43"
+            "when": "378",
+            "label": "Emperor Valens killed by the Goths at Adrianople"
           },
           {
-            "label": "Saturn",
-            "value": 79,
-            "display": "79"
-          },
-          {
-            "label": "Neptune",
-            "value": 250,
-            "display": "250"
+            "when": "395",
+            "label": "Theodosius I dies and his two sons rule East and West"
           }
         ]
       }
     },
     {
-      "id": "s005",
+      "id": "s050",
+      "type": "bars",
+      "chapter": "The last eighty years",
+      "sfx": [
+        {
+          "name": "whoosh",
+          "at": 0.05,
+          "gain": 0.35
+        }
+      ],
+      "narration": "Then the blows came faster. Rome was sacked fifteen years after the split, and again after sixty. After eighty one years, the West was gone.",
+      "data": {
+        "title": "Years after the split of 395",
+        "unit": "years",
+        "highlight": 2,
+        "items": [
+          {
+            "label": "410",
+            "value": 15,
+            "display": "15"
+          },
+          {
+            "label": "455",
+            "value": 60,
+            "display": "60"
+          },
+          {
+            "label": "476",
+            "value": 81,
+            "display": "81"
+          }
+        ]
+      }
+    },
+    {
+      "id": "s060",
       "type": "flow",
-      "narration": "So when you look at the Sun, you are seeing it as it was eight minutes ago.",
+      "sfx": [],
+      "narration": "In four hundred seventy six, the general Odoacer deposed the young emperor Romulus Augustulus. He named no successor in the West.",
       "data": {
         "nodes": [
           {
-            "label": "Sun",
-            "sub": "emits light"
+            "label": "Revolt",
+            "sub": "Odoacer's troops"
           },
           {
-            "label": "8 min 20 s",
-            "sub": "in transit",
+            "label": "Deposed",
+            "sub": "Romulus Augustulus"
+          },
+          {
+            "label": "No successor",
+            "sub": "in the West",
             "accent": true
-          },
-          {
-            "label": "Your eyes",
-            "sub": "see the past"
           }
         ],
-        "caption": "Every glance at the sky is a look back in time"
+        "caption": "The date traditionally taken as the end of the Western Empire"
       }
     },
     {
-      "id": "s006",
+      "id": "s070",
       "type": "compare",
+      "chapter": "Half an empire survived",
       "sfx": [
         {
-          "name": "tick",
-          "at": 0.2,
-          "gain": 0.5
+          "name": "whoosh",
+          "at": 0.05,
+          "gain": 0.35
         }
       ],
-      "narration": "Compare that with sound. Light is roughly eight hundred seventy thousand times faster than sound travelling through air.",
+      "narration": "But only half of Rome fell. The western half lasted eighty one years after the split. The eastern half lasted over a thousand.",
       "data": {
         "left": {
-          "label": "Sound in air",
-          "value": 343,
-          "unit": "METRES PER SECOND",
-          "note": "A thunderclap arrives long after the flash."
+          "label": "Western half",
+          "value": 81,
+          "unit": "YEARS AFTER 395",
+          "note": "Ended in 476, when Odoacer deposed its last emperor."
         },
         "right": {
-          "label": "Light",
-          "value": 299792458,
-          "unit": "METRES PER SECOND",
-          "note": "About 874,000 times faster."
+          "label": "Eastern half",
+          "value": 1058,
+          "unit": "YEARS AFTER 395",
+          "note": "Ended in 1453, when Constantinople fell to the Ottomans."
         }
       }
     },
     {
-      "id": "s007",
+      "id": "s080",
       "type": "list",
-      "chapter": "Why nothing outruns it",
-      "narration": "Why can nothing outrun it? Anything with mass would need unlimited energy to reach that speed. Light has no rest mass, so it has no choice. And space and time adjust so that everyone measures the same speed.",
+      "chapter": "Why it fell",
+      "sfx": [
+        {
+          "name": "whoosh",
+          "at": 0.05,
+          "gain": 0.35
+        }
+      ],
+      "narration": "So why did the West fall? Historians follow several threads. Constant civil war at the top. Invaders who reached Rome itself. And an empire split in two.",
       "data": {
-        "title": "Why nothing outruns light",
+        "title": "Threads historians follow",
         "items": [
-          "Anything with mass would need unlimited energy",
-          "Light has no rest mass, so it must travel at that speed",
-          "Space and time adjust so every observer measures the same speed"
+          "Civil wars and short-lived emperors",
+          "Invaders who reached Rome itself",
+          "An empire divided between two courts"
         ]
       }
     },
     {
-      "id": "s008",
-      "type": "outro",
-      "sfx": [
-        {
-          "name": "rise",
-          "at": 0,
-          "gain": 0.3
-        }
-      ],
-      "narration": "That is the speed limit of the universe. Follow for the next one.",
+      "id": "s090",
+      "type": "stat",
+      "sfx": [],
+      "narration": "In nineteen eighty four, the historian Alexander Demandt gathered the explanations people had offered. He counted two hundred ten.",
       "data": {
-        "title": "The speed limit of the universe",
-        "sub": "FOLLOW FOR THE NEXT ONE"
+        "value": 210,
+        "unit": "EXPLANATIONS FOR THE FALL",
+        "label": "Collected by Alexander Demandt in 1984"
+      }
+    },
+    {
+      "id": "s100",
+      "type": "outro",
+      "sfx": [],
+      "narration": "Rome didn't fall in a day. It came apart over centuries, and half of it lasted another thousand years.",
+      "data": {
+        "title": "Rome didn't fall in a day",
+        "sub": "FOLLOW FOR MORE HISTORY"
       }
     }
   ]
