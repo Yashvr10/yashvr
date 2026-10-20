@@ -31,6 +31,6 @@ For the owner to decide: final title; a true "NOT 100,000" cover scene; upload (
   v2 (owner: "make it about 8 min", then "complete without asking"): +17 scenes from new sourced beats (ledger L37-L60), 4th map (Aswan),
     plan 35 scenes 7m 38.1s; final render: --workers 4 and 3 both hit render.mjs:52 READY timeout (60 s) -> --workers 1:
     21 rendered, 14 cached, 8559 frames in 936.6 s; report 458.133 / 458.066 s, -14.1 LUFS, -1.3 dBTP; QA all pass (qa.md)
-  owner: "running at 3x" -> file timing measured correct; delivered out/great-pyramid-workforce.single.mp4 (one-pass re-encode, CFR 30, timescale 30000, GOP 60) - awaiting owner's confirmation in their player
+  owner: "running at 3x" -> file timing measured correct; delivered out/great-pyramid-workforce.single.mp4 (one-pass re-encode, CFR 30, timescale 30000, GOP 60) - owner confirmed it plays correctly; deliver the .single.mp4 from now on
 Open issues: final renders on this machine time out at 3-4 workers (READY > 60 s); use --workers 1-2 until the cause is found
   image files are not part of the scene fingerprint (NOTES.md); rename a map file when redrawing it
