@@ -4,6 +4,7 @@
   "description": "vox",
   "main": "index.js",
   "scripts": {
+    "dev": "npx --yes http-server -p 3000 -c-1 .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
