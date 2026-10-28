@@ -4,7 +4,7 @@
   "description": "vox",
   "main": "index.js",
   "scripts": {
-    "dev": "npx --yes http-server -p 3000 -c-1 .",
+    "dev": "http-server -p 3000 -c-1 .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -21,5 +21,8 @@
   "type": "module",
   "dependencies": {
     "puppeteer": "^25.14.0"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
   }
 }
