@@ -1,6 +1,6 @@
 {
   "meta": {
-    "slug": "how-the-us-captured-maduro",
+    "slug": "psychology-of-a-fearless-man",
     "width": 1920,
     "height": 1080,
     "fps": 30,
@@ -15,25 +15,25 @@
     },
     "align": "whisper",
     "pronounce": {
-      "Maduro": "Madooro",
-      "Higuerote": "Eega-roteh",
-      "Cilia": "Seelia"
+      "Wiethe": "Veeta",
+      "Rachman": "Rack-man",
+      "Diogenes": "Dye-ojuneez"
     },
     "musicGain": 0.8
   },
   "style": {
-    "bg": "#0b0d12",
-    "fg": "#f4f1ea",
-    "muted": "rgba(244,241,234,0.62)",
-    "accent": "#f2c94c",
-    "card": "#171a22",
+    "bg": "#14100b",
+    "fg": "#efe6d2",
+    "muted": "rgba(239,230,210,0.62)",
+    "accent": "#d9a54c",
+    "card": "#211a12",
     "sans": "Inter, sans-serif",
     "mono": "'DejaVu Sans Mono', monospace"
   },
   "scenes": [
     {
       "id": "s010",
-      "type": "title",
+      "type": "image",
       "chapter": "The question",
       "sfx": [
         {
@@ -42,538 +42,350 @@
           "gain": 0.3
         }
       ],
-      "narration": "At one minute past one in the morning, Eastern Time, American helicopters reached a fortified compound in Caracas. Inside was Venezuela's president, Nicolás Maduro. About two and a half hours later, he was gone.",
+      "narration": "Some men walk toward the storm that everyone else runs from. We call them fearless. But what is really happening inside a fearless mind? Science has a surprising answer.",
       "data": {
-        "kicker": "01:01 ET · 3 January 2026",
-        "title": "How do you capture a president in his own capital?"
+        "src": "assets/paintings/storm.png",
+        "label": "The psychology of a fearless man",
+        "credit": "Painted with p5.brush"
       }
     },
     {
       "id": "s020",
-      "type": "image",
+      "type": "title",
       "sfx": [],
-      "narration": "This is how the United States did it. It was not one daring raid. It was months of spying, rehearsal and patience. Then came a whole air armada, built to protect a few helicopters for about two hours.",
+      "narration": "To understand fearlessness, we first have to understand fear, and the small part of the brain that sets it off. Because fearlessness turns out to come in very different forms. Some are a gift, some are trained, and some are a warning.",
       "data": {
-        "src": "assets/photos/caracas-night.jpg",
-        "label": "Caracas, Venezuela's capital",
-        "credit": "Photo: Wilfredor, CC0 (Wikimedia Commons)"
+        "kicker": "A short psychology",
+        "title": "The Psychology of a Fearless Man"
       }
     },
     {
       "id": "s030",
       "type": "image",
       "sfx": [],
-      "narration": "The target was Nicolás Maduro, Venezuela's president since twenty thirteen. In twenty twenty, federal prosecutors in New York charged him with narco-terrorism. He denies the charges.",
+      "narration": "For most of human history, fear kept us alive. A rustle in the dark, a drop at the cliff edge. The people who flinched lived long enough to become our ancestors.",
       "data": {
-        "src": "assets/photos/maduro-2019.jpg",
-        "label": "Nicolás Maduro, 2019",
-        "credit": "Photo: Press Service of the President of Russia, CC BY 4.0"
+        "src": "assets/paintings/campfire.png",
+        "label": "Fear kept us alive",
+        "credit": "Painted with p5.brush"
       }
     },
     {
       "id": "s040",
-      "type": "stat",
-      "sfx": [],
-      "narration": "Washington kept raising the price on his head. In August twenty twenty five, it doubled the reward for his arrest to fifty million dollars. Five months later, it came for him itself.",
+      "type": "title",
+      "chapter": "The missing alarm",
+      "sfx": [
+        {
+          "name": "whoosh",
+          "at": 0.05,
+          "gain": 0.3
+        }
+      ],
+      "narration": "Deep in each side of the brain sits an almond shaped structure called the amygdala. Scientists call it a pivotal trigger for the feeling of fear.",
       "data": {
-        "value": 50000000,
-        "unit": "DOLLAR REWARD",
-        "label": "Doubled in August 2025 by the Justice and State Departments"
+        "kicker": "The alarm",
+        "title": "The amygdala"
       }
     },
     {
       "id": "s050",
       "type": "image",
-      "chapter": "The build-up",
-      "sfx": [
-        {
-          "name": "whoosh",
-          "at": 0.05,
-          "gain": 0.35
-        }
-      ],
-      "narration": "First came the build-up. In September twenty twenty five, the United States began striking boats it said were carrying drugs. In mid November, the world's largest aircraft carrier arrived.",
+      "sfx": [],
+      "narration": "So what happens when it is gone? A woman known as S M has a rare disease, Urbach Wiethe, that destroyed her amygdala on both sides. In twenty eleven, a team led by Justin Feinstein published how she responds to danger.",
       "data": {
-        "src": "assets/photos/ford-2025.jpg",
-        "label": "USS Gerald R. Ford, 24 November 2025",
-        "credit": "U.S. Navy photo (public domain)"
+        "src": "assets/paintings/corridor.png",
+        "label": "Patient S.M.",
+        "credit": "Painted with p5.brush"
       }
     },
     {
       "id": "s060",
-      "type": "stat",
+      "type": "quote",
       "sfx": [],
-      "narration": "The Gerald R. Ford entered the Caribbean on the sixteenth of November, with more than four thousand sailors. The deployment was named Operation Southern Spear. By then, American ships sat off Venezuela's coast.",
+      "narration": "Researchers took her to a pet store. She went straight for the snakes. In one of the world's scariest haunted houses, she laughed, and poked one of the monsters in the head.",
       "data": {
-        "value": 4000,
-        "unit": "SAILORS ON ONE CARRIER",
-        "label": "USS Gerald R. Ford enters the Caribbean, 16 Nov 2025"
-      }
-    },
-    {
-      "id": "s065",
-      "type": "stat",
-      "sfx": [],
-      "narration": "The boat strikes kept coming. By the nineteenth of December, there had been twenty eight known strikes. At least one hundred four people were killed, according to the administration's own figures.",
-      "data": {
-        "value": 28,
-        "unit": "BOAT STRIKES BY 19 DEC",
-        "label": "At least 104 killed (US figures, AP count)"
+        "kicker": "Feinstein et al., 2011",
+        "text": "Across all questionnaires, measures, and scenarios, SM failed to experience fear.",
+        "by": "Cell Press",
+        "source": "Report on Feinstein et al., Current Biology, 2011"
       }
     },
     {
       "id": "s070",
       "type": "image",
       "sfx": [],
-      "narration": "The ship that mattered most was this one, the amphibious assault ship USS Iwo Jima, already in the Caribbean. Special operations helicopters would launch from her deck, and Maduro would end up aboard.",
+      "narration": "In real life, she had been threatened with a knife and with a gun. Once, after escaping a man with a knife, she did not run. She calmly walked away.",
       "data": {
-        "src": "assets/photos/iwo-jima-2025.jpg",
-        "label": "USS Iwo Jima, Caribbean Sea, Sept. 2025",
-        "credit": "U.S. Navy photo (public domain)"
+        "src": "assets/paintings/street.png",
+        "label": "No alarm at all",
+        "credit": "Painted with p5.brush"
       }
     },
     {
       "id": "s080",
-      "type": "image",
+      "type": "title",
       "sfx": [],
-      "narration": "Fighter jets were seen launching from Puerto Rico, about eight hundred ninety kilometres north of Caracas. In all, aircraft would take off from twenty different bases, on land and at sea.",
+      "narration": "Is she the perfect fearless person? Not quite. Without the alarm, nothing warned her. Her fearlessness was not a strength. It was a missing part. One patient cannot prove everything, critics warned. But her case shows exactly what fear is for.",
       "data": {
-        "src": "assets/maps/map-theatre.png",
-        "label": "The theatre: Puerto Rico to Caracas",
-        "credit": "Map data: Natural Earth (public domain)"
+        "kicker": "A missing alarm",
+        "title": "Fearless is not the same as brave"
       }
     },
     {
       "id": "s090",
-      "type": "title",
-      "chapter": "Finding him",
+      "type": "image",
+      "chapter": "The trained brain",
       "sfx": [
         {
           "name": "whoosh",
           "at": 0.05,
-          "gain": 0.35
+          "gain": 0.3
         }
       ],
-      "narration": "Next, they had to know exactly where he would be. General Dan Caine said intelligence teams studied how Maduro moved and where he lived. They knew what he ate, what he wore, even his pets. Caine credited the CIA, the NSA and the NGA.",
+      "narration": "Now meet Alex Honnold. On the third of June, twenty seventeen, he climbed El Capitan. That is nearly nine hundred metres of granite, and he used no rope at all.",
       "data": {
-        "kicker": "Finding him",
-        "title": "What he ate, what he wore, his pets"
+        "src": "assets/paintings/elcap.png",
+        "label": "El Capitan, without a rope",
+        "credit": "Painted with p5.brush"
       }
     },
     {
       "id": "s100",
-      "type": "timeline",
+      "type": "quote",
       "sfx": [],
-      "narration": "According to people familiar with the operation, a small CIA team was inside Venezuela from August. Reuters' sources describe an informant close to Maduro, tracking his movements. By early December, the force was set.",
+      "narration": "A year earlier, neuroscientist Jane Joseph scanned his brain while he looked at disturbing images. A control climber's amygdala lit up. Honnold's barely responded.",
       "data": {
-        "events": [
-          {
-            "when": "Aug",
-            "label": "CIA team inside"
-          },
-          {
-            "when": "Early Dec",
-            "label": "Strike force “set”"
-          },
-          {
-            "when": "2 Jan",
-            "label": "Weather breaks"
-          }
-        ]
+        "kicker": "Nautilus, 2016",
+        "text": "Honnold's is gray. He shows zero activation.",
+        "by": "J. B. MacKinnon",
+        "source": "on Jane Joseph's brain scan"
       }
     },
     {
       "id": "s110",
       "type": "quote",
       "sfx": [],
-      "narration": "Then they practised. Troops, including Delta Force, rehearsed on a replica of Maduro's safe house, built from intelligence. Trump said they even trained with massive blowtorches, to cut through steel walls.",
+      "narration": "But Honnold has always rejected the word fearless. Joseph wondered whether his brain simply regulates fear very well. On one climb, he talked himself through it.",
       "data": {
-        "kicker": "The rehearsal",
-        "text": "We rehearse again and again, not to get it right, but to ensure that we cannot get it wrong.",
-        "by": "Gen. Dan Caine",
-        "source": "Chairman of the Joint Chiefs, 3 January 2026"
-      }
-    },
-    {
-      "id": "s115",
-      "type": "quote",
-      "sfx": [],
-      "narration": "There was also a warning. About a week before the raid, Trump says he told Maduro on a phone call that he had to surrender. Maduro stayed.",
-      "data": {
-        "kicker": "The phone call",
-        "text": "You got to surrender.",
-        "by": "Donald Trump",
-        "source": "Recalling his call with Maduro, January 2026"
+        "kicker": "Honnold, to himself",
+        "text": "This is not scary, because this is what I do.",
+        "by": "Alex Honnold",
+        "source": "Nautilus, 2016"
       }
     },
     {
       "id": "s120",
-      "type": "title",
-      "chapter": "The wait",
+      "type": "image",
       "sfx": [],
-      "narration": "Then they waited. The force sat ready through Christmas and New Year. The obstacle was the weather. Ocean, mountains and low cloud made the flight too risky on most nights.",
+      "narration": "Psychologist Stanley Rachman studied another kind of nerve. In a nineteen eighty three study, decorated bomb disposal experts stayed calmer and more accurate under stress than others.",
       "data": {
-        "kicker": "December 2025 – January 2026",
-        "title": "Waiting for the weather"
-      }
-    },
-    {
-      "id": "s125",
-      "type": "flow",
-      "sfx": [],
-      "narration": "Why wait at all? Caine said the date was chosen for three reasons. Fewer civilians hurt. Maximum surprise. And the two indicted people kept unharmed, so they could stand trial.",
-      "data": {
-        "nodes": [
-          {
-            "label": "Civilians",
-            "sub": "minimise harm"
-          },
-          {
-            "label": "Surprise",
-            "sub": "maximise it"
-          },
-          {
-            "label": "Targets",
-            "sub": "alive for trial",
-            "accent": true
-          }
-        ],
-        "caption": "Choosing the night (Gen. Caine)"
+        "src": "assets/paintings/bomb.png",
+        "label": "Bomb disposal",
+        "credit": "Painted with p5.brush"
       }
     },
     {
       "id": "s130",
-      "type": "timeline",
-      "chapter": "The night",
-      "sfx": [
-        {
-          "name": "whoosh",
-          "at": 0.05,
-          "gain": 0.35
-        }
-      ],
-      "narration": "On the second of January, the weather broke just enough. At ten forty six PM Eastern, the president gave the order. The message passed to the whole force was simple. Good luck, and Godspeed.",
+      "type": "flow",
+      "sfx": [],
+      "narration": "From work like this, Rachman drew a sharp line. Fearlessness is feeling no fear. Courage is moving forward while you still feel it. By that measure, the bravest person in a room may be the most frightened one.",
       "data": {
-        "events": [
+        "nodes": [
           {
-            "when": "22:46",
-            "label": "Go order (ET)"
+            "label": "Fear",
+            "sub": "the alarm rings"
           },
           {
-            "when": "01:01",
-            "label": "At the compound"
+            "label": "Approach",
+            "sub": "you go anyway"
           },
           {
-            "when": "03:29",
-            "label": "Back over water"
+            "label": "Courage",
+            "sub": "Rachman",
+            "accent": true
           }
-        ]
+        ],
+        "caption": "Courage is approach despite fear"
       }
     },
     {
       "id": "s140",
-      "type": "stat",
-      "sfx": [],
-      "narration": "What followed was enormous. More than one hundred fifty aircraft took off from twenty bases across the Western Hemisphere. All of them were timed to meet over a single city. Thousands of hours of flying experience were in the air, Caine said.",
+      "type": "image",
+      "chapter": "The philosophers",
+      "sfx": [
+        {
+          "name": "whoosh",
+          "at": 0.05,
+          "gain": 0.3
+        }
+      ],
+      "narration": "Philosophers drew the same line more than two thousand years earlier. Aristotle called courage a middle path, between cowardice and rashness.",
       "data": {
-        "value": 150,
-        "unit": "AIRCRAFT, AT LEAST",
-        "label": "Launched from 20 bases on land and sea (Gen. Caine)"
+        "src": "assets/paintings/athens.png",
+        "label": "Aristotle's middle path",
+        "credit": "Painted with p5.brush"
       }
     },
     {
       "id": "s150",
-      "type": "list",
+      "type": "quote",
       "sfx": [],
-      "narration": "Caine listed them. F twenty twos, F thirty fives and F eighteens. E A eighteen jets that jam radar. E two radar planes. B one bombers. And numerous drones. The crews were between twenty and forty nine years old.",
+      "narration": "And the man who fears nothing at all? Aristotle had a blunt verdict. Such a man would be a sort of madman, afraid of neither earthquakes nor the waves.",
       "data": {
-        "title": "What flew (Gen. Caine)",
-        "items": [
-          "F-22, F-35 and F-18 fighters",
-          "EA-18 jammers and E-2 radar planes",
-          "B-1 bombers",
-          "Numerous remotely piloted drones"
-        ]
+        "kicker": "Nicomachean Ethics, III.7",
+        "text": "He would be a sort of madman or insensible person if he feared nothing.",
+        "by": "Aristotle",
+        "source": "tr. W. D. Ross"
       }
     },
     {
       "id": "s160",
-      "type": "stat",
-      "sfx": [],
-      "narration": "All of it existed to protect a handful of helicopters. They skimmed the sea at about a hundred feet, carrying the assault force and law enforcement officers. The timing was the darkest hours of the night.",
-      "data": {
-        "value": 100,
-        "unit": "FEET ABOVE THE WATER",
-        "label": "Helicopter approach altitude (Gen. Caine)"
-      }
-    },
-    {
-      "id": "s165",
       "type": "image",
       "sfx": [],
-      "narration": "Videos analysed by The Aviationist suggest the Army's elite helicopter regiment, the hundred and sixtieth, flew the mission. Its Chinooks carried the troops. Armed Black Hawks like this one gave close support.",
+      "narration": "Then there is Diogenes, who owned almost nothing. When Alexander the Great stood over him and offered him any favour he liked, Diogenes gave a famous reply.",
       "data": {
-        "src": "assets/photos/mh60m-dap.jpg",
-        "label": "160th SOAR MH-60M gunship",
-        "credit": "U.S. Army photo (public domain)"
+        "src": "assets/paintings/diogenes.png",
+        "label": "Diogenes and Alexander",
+        "credit": "Painted with p5.brush"
       }
     },
     {
       "id": "s170",
-      "type": "flow",
-      "chapter": "Opening the door",
-      "sfx": [],
-      "narration": "As they neared the coast, the United States began layering effects. Space Command and Cyber Command acted first, to create a pathway. Then jets began dismantling Venezuela's air defences.",
-      "data": {
-        "nodes": [
-          {
-            "label": "Space",
-            "sub": "SPACECOM"
-          },
-          {
-            "label": "Cyber",
-            "sub": "CYBERCOM"
-          },
-          {
-            "label": "Strikes",
-            "sub": "air defences",
-            "accent": true
-          }
-        ],
-        "caption": "Layered effects to “create a pathway” (Gen. Caine)"
-      }
-    },
-    {
-      "id": "s173",
       "type": "quote",
       "sfx": [],
-      "narration": "Then Caracas went dark. Trump said the city's lights were largely turned off by a certain American expertise. The White House never said how. Analysts suggested a strike on the grid, or a cyber attack.",
+      "narration": "A man who wants nothing cannot be threatened with losing it. That is a rarer kind of fearlessness. Not bravery, but freedom from wanting. Alexander had an empire. Diogenes had almost nothing to lose.",
       "data": {
-        "kicker": "The blackout",
-        "text": "It was dark, the lights of Caracas were largely turned off due to a certain expertise that we have.",
-        "by": "Donald Trump",
-        "source": "After the operation, January 2026"
-      }
-    },
-    {
-      "id": "s176",
-      "type": "image",
-      "sfx": [],
-      "narration": "Explosions were reported along the coast. The port of La Guaira was damaged. At Higuerote, about ninety kilometres east, a Russian made Buk air defence system was reportedly destroyed.",
-      "data": {
-        "src": "assets/maps/map-coast.png",
-        "label": "Reported strike sites on the coast",
-        "credit": "Map data: Natural Earth (public domain)"
+        "kicker": "Diogenes Laertius, 6.38",
+        "text": "Stand out of my light.",
+        "by": "Diogenes",
+        "source": "to Alexander the Great"
       }
     },
     {
       "id": "s180",
-      "type": "quote",
+      "type": "image",
       "sfx": [],
-      "narration": "To reach the city, the helicopters had to cross the coastal mountains. Caine said they hid in the clutter of the high ground. When they crossed the last ridge, he judged that surprise was total.",
+      "narration": "The Roman philosopher Seneca noticed where most fear actually lives. Not out in the world, but at night, in our own heads, rehearsing what might go wrong.",
       "data": {
-        "kicker": "The last ridge",
-        "text": "As the Force crossed the last point of high terrain, where they'd been hiding in the clutter, we assessed that we had maintained totally the element of surprise.",
-        "by": "Gen. Dan Caine",
-        "source": "3 January 2026"
+        "src": "assets/paintings/desk.png",
+        "label": "Where fear lives",
+        "credit": "Painted with p5.brush"
       }
     },
     {
       "id": "s190",
-      "type": "image",
-      "chapter": "The raid",
-      "sfx": [
-        {
-          "name": "whoosh",
-          "at": 0.05,
-          "gain": 0.35
-        }
-      ],
-      "narration": "Their target was Fort Tiuna, Venezuela's largest military complex, according to Venezuelan officials. Nearby, the La Carlota air base was also reported hit.",
+      "type": "quote",
+      "sfx": [],
+      "narration": "He wrote to his friend Lucilius that there are more things likely to frighten us than to crush us. Then came the line people still quote.",
       "data": {
-        "src": "assets/maps/map-caracas-v2.png",
-        "label": "Inside Caracas",
-        "credit": "Positions: Wikipedia coordinates; AP"
+        "kicker": "Seneca, Letter 13",
+        "text": "We suffer more often in imagination than in reality.",
+        "by": "Seneca",
+        "source": "Moral Letters, tr. R. M. Gummere"
       }
     },
     {
       "id": "s200",
-      "type": "title",
+      "type": "image",
+      "chapter": "The counterfeit",
       "sfx": [
         {
-          "name": "hit",
-          "at": 0.1,
+          "name": "whoosh",
+          "at": 0.05,
           "gain": 0.3
         }
       ],
-      "narration": "At one minute past one Eastern, one minute past two in Caracas, the helicopters reached Maduro's compound. They came under fire, and answered with what Caine called overwhelming force.",
+      "narration": "Then there is the performer, the man who boasts that nothing scares him. Real fearlessness rarely needs a crowd. Bravado is often fear, wearing a costume.",
       "data": {
-        "kicker": "01:01 ET · 02:01 Caracas",
-        "title": "On target"
+        "src": "assets/paintings/strongman.png",
+        "label": "The performer",
+        "credit": "Painted with p5.brush"
       }
     },
     {
       "id": "s210",
-      "type": "stat",
+      "type": "image",
       "sfx": [],
-      "narration": "One helicopter was hit. It stayed in the air, and every American aircraft made it home. Overhead, intelligence teams fed the ground force live updates as it moved through the compound.",
+      "narration": "And some fearlessness is a warning sign. In nineteen fifty seven, David Lykken found that psychopaths reacted less to threats. The evidence since then is mixed. Fear without a conscience is not courage. It is danger with a calm face.",
       "data": {
-        "value": 1,
-        "unit": "HELICOPTER HIT, STILL FLYING",
-        "label": "All US aircraft returned (Gen. Caine)"
+        "src": "assets/paintings/shadow.png",
+        "label": "Fear without a conscience",
+        "credit": "Painted with p5.brush"
       }
     },
     {
       "id": "s220",
-      "type": "quote",
-      "sfx": [],
-      "narration": "Inside, officials told CBS News that Delta Force led the assault, alongside FBI agents. Trump said Maduro ran for a steel safe room, but did not reach the door in time.",
+      "type": "flow",
+      "chapter": "Training courage",
+      "sfx": [
+        {
+          "name": "whoosh",
+          "at": 0.05,
+          "gain": 0.3
+        }
+      ],
+      "narration": "So can fear be trained? Psychologists treat phobias with exposure. You face the fear in small steps, again and again, and over time the alarm grows quieter.",
       "data": {
-        "kicker": "The safe room",
-        "text": "The safe place is all steel, and he wasn't able to make it to the door because our guys were so fast.",
-        "by": "Donald Trump",
-        "source": "3 January 2026 (CBS News)"
+        "nodes": [
+          {
+            "label": "Small step",
+            "sub": "face it briefly"
+          },
+          {
+            "label": "Repeat",
+            "sub": "again and again"
+          },
+          {
+            "label": "Quieter",
+            "sub": "the alarm fades",
+            "accent": true
+          }
+        ],
+        "caption": "Graded exposure (American Psychological Association)"
+      }
+    },
+    {
+      "id": "s225",
+      "type": "image",
+      "sfx": [],
+      "narration": "That is how courage grows. It does not come from silencing the alarm. It comes from walking the path anyway, one step at a time.",
+      "data": {
+        "src": "assets/paintings/forestpath.png",
+        "label": "One step at a time",
+        "credit": "Painted with p5.brush"
       }
     },
     {
       "id": "s230",
-      "type": "flow",
+      "type": "quote",
       "sfx": [],
-      "narration": "Caine said Maduro and his wife, Cilia Flores, gave up. Legally, this was an arrest by the Justice Department. The military's job was to get the arrest team in, and get it out.",
+      "narration": "Mark Twain put the whole idea into a single line, more than a century ago.",
       "data": {
-        "nodes": [
-          {
-            "label": "Breach",
-            "sub": "Delta Force"
-          },
-          {
-            "label": "Arrest",
-            "sub": "Justice Dept."
-          },
-          {
-            "label": "Exit",
-            "sub": "helicopters",
-            "accent": true
-          }
-        ],
-        "caption": "An arrest, carried in by an army"
+        "kicker": "Pudd'nhead Wilson, 1894",
+        "text": "Courage is resistance to fear, mastery of fear—not absence of fear.",
+        "by": "Mark Twain",
+        "source": "Chapter twelve"
       }
     },
     {
       "id": "s240",
-      "type": "stat",
-      "chapter": "Getting out",
-      "sfx": [
-        {
-          "name": "whoosh",
-          "at": 0.05,
-          "gain": 0.35
-        }
-      ],
-      "narration": "Getting out was its own fight. Fighters and drones covered the helicopters through several more firefights. At three twenty nine Eastern, they were back over open water. Trump announced the capture on social media less than an hour later.",
+      "type": "image",
+      "sfx": [],
+      "narration": "So the fearless man is not the one who feels nothing. That is a missing alarm, or a madman. He hears the alarm clearly, and walks into the storm anyway.",
       "data": {
-        "value": 148,
-        "unit": "MINUTES, COMPOUND TO OPEN SEA",
-        "label": "01:01 to 03:29 ET (Gen. Caine's times)"
+        "src": "assets/paintings/road.png",
+        "label": "The answer",
+        "credit": "Painted with p5.brush"
       }
     },
     {
       "id": "s250",
-      "type": "flow",
-      "sfx": [],
-      "narration": "Maduro was flown to the USS Iwo Jima, then to Guantanamo Bay, then to New York. He landed at Stewart Air National Guard Base that afternoon. In court, he pleaded not guilty.",
-      "data": {
-        "nodes": [
-          {
-            "label": "Iwo Jima",
-            "sub": "at sea"
-          },
-          {
-            "label": "Guantanamo",
-            "sub": "Cuba"
-          },
-          {
-            "label": "New York",
-            "sub": "Stewart ANGB",
-            "accent": true
-          }
-        ],
-        "caption": "The journey to a courtroom"
-      }
-    },
-    {
-      "id": "s260",
-      "type": "compare",
-      "chapter": "The cost",
-      "sfx": [],
-      "narration": "No Americans were killed. Officials said several were injured. Cuba said thirty two of its officers, protecting Maduro, died. Venezuela acknowledged deaths, but has not given a full count.",
-      "data": {
-        "left": {
-          "label": "United States",
-          "value": 0,
-          "unit": "KILLED",
-          "note": "Several injured, all stable (US officials)."
-        },
-        "right": {
-          "label": "Cuba",
-          "value": 32,
-          "unit": "OFFICERS KILLED",
-          "note": "Cuban government. Venezuela gave no full count."
-        }
-      }
-    },
-    {
-      "id": "s270",
-      "type": "list",
-      "chapter": "The strategy",
-      "sfx": [
-        {
-          "name": "whoosh",
-          "at": 0.05,
-          "gain": 0.35
-        }
-      ],
-      "narration": "So what was the strategy? Know exactly where the target will be. Rehearse on a copy of his house. Wait for the right night. Then blind the defences, and surround a few helicopters with an air force.",
-      "data": {
-        "title": "The playbook",
-        "items": [
-          "Months of intelligence on one man",
-          "Rehearsals on a full-size replica",
-          "Patience: wait for the right night",
-          "Blind the defences, then fly in low"
-        ]
-      }
-    },
-    {
-      "id": "s280",
-      "type": "quote",
-      "sfx": [],
-      "narration": "Caine summed up the air plan in one line. The air component exists to protect the helicopters and the ground force. Its job is to get them to the target, and to get them home.",
-      "data": {
-        "kicker": "The whole idea",
-        "text": "The goal of our air component is, was, and always will be, to protect the helicopters and the Ground Force and get them to the target and get them home.",
-        "by": "Gen. Dan Caine",
-        "source": "3 January 2026"
-      }
-    },
-    {
-      "id": "s290",
-      "type": "title",
-      "sfx": [],
-      "narration": "Much is still unconfirmed. The Pentagon has not officially named the units. It has not explained the blackout. And the death toll in Venezuela remains incomplete. Caine also said there is always a chance they will be asked to do this again.",
-      "data": {
-        "kicker": "What we still don't know",
-        "title": "The parts that stay secret"
-      }
-    },
-    {
-      "id": "s300",
       "type": "outro",
       "sfx": [],
-      "narration": "The raid on Caracas took about two and a half hours. It worked because almost everything around it was slow, patient and enormous. The fast part was the smallest part.",
+      "narration": "Fear is not the enemy. It is information. The fearless man listens to it, and then decides for himself. Feel the fear. Then take the next step anyway.",
       "data": {
-        "title": "Two and a half hours, months in the making",
-        "sub": "SOURCES IN THE DESCRIPTION"
+        "title": "Feel the fear. Walk anyway.",
+        "sub": "THE PSYCHOLOGY OF A FEARLESS MAN"
       }
     }
   ]

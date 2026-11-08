@@ -1,0 +1,580 @@
+{
+  "meta": {
+    "slug": "how-the-us-captured-maduro",
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "lead": 0.5,
+    "tail": 0.55,
+    "captions": true,
+    "captionStyle": "pill",
+    "voice": {
+      "engine": "kokoro",
+      "name": "af_heart",
+      "speed": 1.0
+    },
+    "align": "whisper",
+    "pronounce": {
+      "Maduro": "Madooro",
+      "Higuerote": "Eega-roteh",
+      "Cilia": "Seelia"
+    },
+    "musicGain": 0.8
+  },
+  "style": {
+    "bg": "#0b0d12",
+    "fg": "#f4f1ea",
+    "muted": "rgba(244,241,234,0.62)",
+    "accent": "#f2c94c",
+    "card": "#171a22",
+    "sans": "Inter, sans-serif",
+    "mono": "'DejaVu Sans Mono', monospace"
+  },
+  "scenes": [
+    {
+      "id": "s010",
+      "type": "title",
+      "chapter": "The question",
+      "sfx": [
+        {
+          "name": "hit",
+          "at": 0.1,
+          "gain": 0.3
+        }
+      ],
+      "narration": "At one minute past one in the morning, Eastern Time, American helicopters reached a fortified compound in Caracas. Inside was Venezuela's president, Nicolás Maduro. About two and a half hours later, he was gone.",
+      "data": {
+        "kicker": "01:01 ET · 3 January 2026",
+        "title": "How do you capture a president in his own capital?"
+      }
+    },
+    {
+      "id": "s020",
+      "type": "image",
+      "sfx": [],
+      "narration": "This is how the United States did it. It was not one daring raid. It was months of spying, rehearsal and patience. Then came a whole air armada, built to protect a few helicopters for about two hours.",
+      "data": {
+        "src": "assets/photos/caracas-night.jpg",
+        "label": "Caracas, Venezuela's capital",
+        "credit": "Photo: Wilfredor, CC0 (Wikimedia Commons)"
+      }
+    },
+    {
+      "id": "s030",
+      "type": "image",
+      "sfx": [],
+      "narration": "The target was Nicolás Maduro, Venezuela's president since twenty thirteen. In twenty twenty, federal prosecutors in New York charged him with narco-terrorism. He denies the charges.",
+      "data": {
+        "src": "assets/photos/maduro-2019.jpg",
+        "label": "Nicolás Maduro, 2019",
+        "credit": "Photo: Press Service of the President of Russia, CC BY 4.0"
+      }
+    },
+    {
+      "id": "s040",
+      "type": "stat",
+      "sfx": [],
+      "narration": "Washington kept raising the price on his head. In August twenty twenty five, it doubled the reward for his arrest to fifty million dollars. Five months later, it came for him itself.",
+      "data": {
+        "value": 50000000,
+        "unit": "DOLLAR REWARD",
+        "label": "Doubled in August 2025 by the Justice and State Departments"
+      }
+    },
+    {
+      "id": "s050",
+      "type": "image",
+      "chapter": "The build-up",
+      "sfx": [
+        {
+          "name": "whoosh",
+          "at": 0.05,
+          "gain": 0.35
+        }
+      ],
+      "narration": "First came the build-up. In September twenty twenty five, the United States began striking boats it said were carrying drugs. In mid November, the world's largest aircraft carrier arrived.",
+      "data": {
+        "src": "assets/photos/ford-2025.jpg",
+        "label": "USS Gerald R. Ford, 24 November 2025",
+        "credit": "U.S. Navy photo (public domain)"
+      }
+    },
+    {
+      "id": "s060",
+      "type": "stat",
+      "sfx": [],
+      "narration": "The Gerald R. Ford entered the Caribbean on the sixteenth of November, with more than four thousand sailors. The deployment was named Operation Southern Spear. By then, American ships sat off Venezuela's coast.",
+      "data": {
+        "value": 4000,
+        "unit": "SAILORS ON ONE CARRIER",
+        "label": "USS Gerald R. Ford enters the Caribbean, 16 Nov 2025"
+      }
+    },
+    {
+      "id": "s065",
+      "type": "stat",
+      "sfx": [],
+      "narration": "The boat strikes kept coming. By the nineteenth of December, there had been twenty eight known strikes. At least one hundred four people were killed, according to the administration's own figures.",
+      "data": {
+        "value": 28,
+        "unit": "BOAT STRIKES BY 19 DEC",
+        "label": "At least 104 killed (US figures, AP count)"
+      }
+    },
+    {
+      "id": "s070",
+      "type": "image",
+      "sfx": [],
+      "narration": "The ship that mattered most was this one, the amphibious assault ship USS Iwo Jima, already in the Caribbean. Special operations helicopters would launch from her deck, and Maduro would end up aboard.",
+      "data": {
+        "src": "assets/photos/iwo-jima-2025.jpg",
+        "label": "USS Iwo Jima, Caribbean Sea, Sept. 2025",
+        "credit": "U.S. Navy photo (public domain)"
+      }
+    },
+    {
+      "id": "s080",
+      "type": "image",
+      "sfx": [],
+      "narration": "Fighter jets were seen launching from Puerto Rico, about eight hundred ninety kilometres north of Caracas. In all, aircraft would take off from twenty different bases, on land and at sea.",
+      "data": {
+        "src": "assets/maps/map-theatre.png",
+        "label": "The theatre: Puerto Rico to Caracas",
+        "credit": "Map data: Natural Earth (public domain)"
+      }
+    },
+    {
+      "id": "s090",
+      "type": "title",
+      "chapter": "Finding him",
+      "sfx": [
+        {
+          "name": "whoosh",
+          "at": 0.05,
+          "gain": 0.35
+        }
+      ],
+      "narration": "Next, they had to know exactly where he would be. General Dan Caine said intelligence teams studied how Maduro moved and where he lived. They knew what he ate, what he wore, even his pets. Caine credited the CIA, the NSA and the NGA.",
+      "data": {
+        "kicker": "Finding him",
+        "title": "What he ate, what he wore, his pets"
+      }
+    },
+    {
+      "id": "s100",
+      "type": "timeline",
+      "sfx": [],
+      "narration": "According to people familiar with the operation, a small CIA team was inside Venezuela from August. Reuters' sources describe an informant close to Maduro, tracking his movements. By early December, the force was set.",
+      "data": {
+        "events": [
+          {
+            "when": "Aug",
+            "label": "CIA team inside"
+          },
+          {
+            "when": "Early Dec",
+            "label": "Strike force “set”"
+          },
+          {
+            "when": "2 Jan",
+            "label": "Weather breaks"
+          }
+        ]
+      }
+    },
+    {
+      "id": "s110",
+      "type": "quote",
+      "sfx": [],
+      "narration": "Then they practised. Troops, including Delta Force, rehearsed on a replica of Maduro's safe house, built from intelligence. Trump said they even trained with massive blowtorches, to cut through steel walls.",
+      "data": {
+        "kicker": "The rehearsal",
+        "text": "We rehearse again and again, not to get it right, but to ensure that we cannot get it wrong.",
+        "by": "Gen. Dan Caine",
+        "source": "Chairman of the Joint Chiefs, 3 January 2026"
+      }
+    },
+    {
+      "id": "s115",
+      "type": "quote",
+      "sfx": [],
+      "narration": "There was also a warning. About a week before the raid, Trump says he told Maduro on a phone call that he had to surrender. Maduro stayed.",
+      "data": {
+        "kicker": "The phone call",
+        "text": "You got to surrender.",
+        "by": "Donald Trump",
+        "source": "Recalling his call with Maduro, January 2026"
+      }
+    },
+    {
+      "id": "s120",
+      "type": "title",
+      "chapter": "The wait",
+      "sfx": [],
+      "narration": "Then they waited. The force sat ready through Christmas and New Year. The obstacle was the weather. Ocean, mountains and low cloud made the flight too risky on most nights.",
+      "data": {
+        "kicker": "December 2025 – January 2026",
+        "title": "Waiting for the weather"
+      }
+    },
+    {
+      "id": "s125",
+      "type": "flow",
+      "sfx": [],
+      "narration": "Why wait at all? Caine said the date was chosen for three reasons. Fewer civilians hurt. Maximum surprise. And the two indicted people kept unharmed, so they could stand trial.",
+      "data": {
+        "nodes": [
+          {
+            "label": "Civilians",
+            "sub": "minimise harm"
+          },
+          {
+            "label": "Surprise",
+            "sub": "maximise it"
+          },
+          {
+            "label": "Targets",
+            "sub": "alive for trial",
+            "accent": true
+          }
+        ],
+        "caption": "Choosing the night (Gen. Caine)"
+      }
+    },
+    {
+      "id": "s130",
+      "type": "timeline",
+      "chapter": "The night",
+      "sfx": [
+        {
+          "name": "whoosh",
+          "at": 0.05,
+          "gain": 0.35
+        }
+      ],
+      "narration": "On the second of January, the weather broke just enough. At ten forty six PM Eastern, the president gave the order. The message passed to the whole force was simple. Good luck, and Godspeed.",
+      "data": {
+        "events": [
+          {
+            "when": "22:46",
+            "label": "Go order (ET)"
+          },
+          {
+            "when": "01:01",
+            "label": "At the compound"
+          },
+          {
+            "when": "03:29",
+            "label": "Back over water"
+          }
+        ]
+      }
+    },
+    {
+      "id": "s140",
+      "type": "stat",
+      "sfx": [],
+      "narration": "What followed was enormous. More than one hundred fifty aircraft took off from twenty bases across the Western Hemisphere. All of them were timed to meet over a single city. Thousands of hours of flying experience were in the air, Caine said.",
+      "data": {
+        "value": 150,
+        "unit": "AIRCRAFT, AT LEAST",
+        "label": "Launched from 20 bases on land and sea (Gen. Caine)"
+      }
+    },
+    {
+      "id": "s150",
+      "type": "list",
+      "sfx": [],
+      "narration": "Caine listed them. F twenty twos, F thirty fives and F eighteens. E A eighteen jets that jam radar. E two radar planes. B one bombers. And numerous drones. The crews were between twenty and forty nine years old.",
+      "data": {
+        "title": "What flew (Gen. Caine)",
+        "items": [
+          "F-22, F-35 and F-18 fighters",
+          "EA-18 jammers and E-2 radar planes",
+          "B-1 bombers",
+          "Numerous remotely piloted drones"
+        ]
+      }
+    },
+    {
+      "id": "s160",
+      "type": "stat",
+      "sfx": [],
+      "narration": "All of it existed to protect a handful of helicopters. They skimmed the sea at about a hundred feet, carrying the assault force and law enforcement officers. The timing was the darkest hours of the night.",
+      "data": {
+        "value": 100,
+        "unit": "FEET ABOVE THE WATER",
+        "label": "Helicopter approach altitude (Gen. Caine)"
+      }
+    },
+    {
+      "id": "s165",
+      "type": "image",
+      "sfx": [],
+      "narration": "Videos analysed by The Aviationist suggest the Army's elite helicopter regiment, the hundred and sixtieth, flew the mission. Its Chinooks carried the troops. Armed Black Hawks like this one gave close support.",
+      "data": {
+        "src": "assets/photos/mh60m-dap.jpg",
+        "label": "160th SOAR MH-60M gunship",
+        "credit": "U.S. Army photo (public domain)"
+      }
+    },
+    {
+      "id": "s170",
+      "type": "flow",
+      "chapter": "Opening the door",
+      "sfx": [],
+      "narration": "As they neared the coast, the United States began layering effects. Space Command and Cyber Command acted first, to create a pathway. Then jets began dismantling Venezuela's air defences.",
+      "data": {
+        "nodes": [
+          {
+            "label": "Space",
+            "sub": "SPACECOM"
+          },
+          {
+            "label": "Cyber",
+            "sub": "CYBERCOM"
+          },
+          {
+            "label": "Strikes",
+            "sub": "air defences",
+            "accent": true
+          }
+        ],
+        "caption": "Layered effects to “create a pathway” (Gen. Caine)"
+      }
+    },
+    {
+      "id": "s173",
+      "type": "quote",
+      "sfx": [],
+      "narration": "Then Caracas went dark. Trump said the city's lights were largely turned off by a certain American expertise. The White House never said how. Analysts suggested a strike on the grid, or a cyber attack.",
+      "data": {
+        "kicker": "The blackout",
+        "text": "It was dark, the lights of Caracas were largely turned off due to a certain expertise that we have.",
+        "by": "Donald Trump",
+        "source": "After the operation, January 2026"
+      }
+    },
+    {
+      "id": "s176",
+      "type": "image",
+      "sfx": [],
+      "narration": "Explosions were reported along the coast. The port of La Guaira was damaged. At Higuerote, about ninety kilometres east, a Russian made Buk air defence system was reportedly destroyed.",
+      "data": {
+        "src": "assets/maps/map-coast.png",
+        "label": "Reported strike sites on the coast",
+        "credit": "Map data: Natural Earth (public domain)"
+      }
+    },
+    {
+      "id": "s180",
+      "type": "quote",
+      "sfx": [],
+      "narration": "To reach the city, the helicopters had to cross the coastal mountains. Caine said they hid in the clutter of the high ground. When they crossed the last ridge, he judged that surprise was total.",
+      "data": {
+        "kicker": "The last ridge",
+        "text": "As the Force crossed the last point of high terrain, where they'd been hiding in the clutter, we assessed that we had maintained totally the element of surprise.",
+        "by": "Gen. Dan Caine",
+        "source": "3 January 2026"
+      }
+    },
+    {
+      "id": "s190",
+      "type": "image",
+      "chapter": "The raid",
+      "sfx": [
+        {
+          "name": "whoosh",
+          "at": 0.05,
+          "gain": 0.35
+        }
+      ],
+      "narration": "Their target was Fort Tiuna, Venezuela's largest military complex, according to Venezuelan officials. Nearby, the La Carlota air base was also reported hit.",
+      "data": {
+        "src": "assets/maps/map-caracas-v2.png",
+        "label": "Inside Caracas",
+        "credit": "Positions: Wikipedia coordinates; AP"
+      }
+    },
+    {
+      "id": "s200",
+      "type": "title",
+      "sfx": [
+        {
+          "name": "hit",
+          "at": 0.1,
+          "gain": 0.3
+        }
+      ],
+      "narration": "At one minute past one Eastern, one minute past two in Caracas, the helicopters reached Maduro's compound. They came under fire, and answered with what Caine called overwhelming force.",
+      "data": {
+        "kicker": "01:01 ET · 02:01 Caracas",
+        "title": "On target"
+      }
+    },
+    {
+      "id": "s210",
+      "type": "stat",
+      "sfx": [],
+      "narration": "One helicopter was hit. It stayed in the air, and every American aircraft made it home. Overhead, intelligence teams fed the ground force live updates as it moved through the compound.",
+      "data": {
+        "value": 1,
+        "unit": "HELICOPTER HIT, STILL FLYING",
+        "label": "All US aircraft returned (Gen. Caine)"
+      }
+    },
+    {
+      "id": "s220",
+      "type": "quote",
+      "sfx": [],
+      "narration": "Inside, officials told CBS News that Delta Force led the assault, alongside FBI agents. Trump said Maduro ran for a steel safe room, but did not reach the door in time.",
+      "data": {
+        "kicker": "The safe room",
+        "text": "The safe place is all steel, and he wasn't able to make it to the door because our guys were so fast.",
+        "by": "Donald Trump",
+        "source": "3 January 2026 (CBS News)"
+      }
+    },
+    {
+      "id": "s230",
+      "type": "flow",
+      "sfx": [],
+      "narration": "Caine said Maduro and his wife, Cilia Flores, gave up. Legally, this was an arrest by the Justice Department. The military's job was to get the arrest team in, and get it out.",
+      "data": {
+        "nodes": [
+          {
+            "label": "Breach",
+            "sub": "Delta Force"
+          },
+          {
+            "label": "Arrest",
+            "sub": "Justice Dept."
+          },
+          {
+            "label": "Exit",
+            "sub": "helicopters",
+            "accent": true
+          }
+        ],
+        "caption": "An arrest, carried in by an army"
+      }
+    },
+    {
+      "id": "s240",
+      "type": "stat",
+      "chapter": "Getting out",
+      "sfx": [
+        {
+          "name": "whoosh",
+          "at": 0.05,
+          "gain": 0.35
+        }
+      ],
+      "narration": "Getting out was its own fight. Fighters and drones covered the helicopters through several more firefights. At three twenty nine Eastern, they were back over open water. Trump announced the capture on social media less than an hour later.",
+      "data": {
+        "value": 148,
+        "unit": "MINUTES, COMPOUND TO OPEN SEA",
+        "label": "01:01 to 03:29 ET (Gen. Caine's times)"
+      }
+    },
+    {
+      "id": "s250",
+      "type": "flow",
+      "sfx": [],
+      "narration": "Maduro was flown to the USS Iwo Jima, then to Guantanamo Bay, then to New York. He landed at Stewart Air National Guard Base that afternoon. In court, he pleaded not guilty.",
+      "data": {
+        "nodes": [
+          {
+            "label": "Iwo Jima",
+            "sub": "at sea"
+          },
+          {
+            "label": "Guantanamo",
+            "sub": "Cuba"
+          },
+          {
+            "label": "New York",
+            "sub": "Stewart ANGB",
+            "accent": true
+          }
+        ],
+        "caption": "The journey to a courtroom"
+      }
+    },
+    {
+      "id": "s260",
+      "type": "compare",
+      "chapter": "The cost",
+      "sfx": [],
+      "narration": "No Americans were killed. Officials said several were injured. Cuba said thirty two of its officers, protecting Maduro, died. Venezuela acknowledged deaths, but has not given a full count.",
+      "data": {
+        "left": {
+          "label": "United States",
+          "value": 0,
+          "unit": "KILLED",
+          "note": "Several injured, all stable (US officials)."
+        },
+        "right": {
+          "label": "Cuba",
+          "value": 32,
+          "unit": "OFFICERS KILLED",
+          "note": "Cuban government. Venezuela gave no full count."
+        }
+      }
+    },
+    {
+      "id": "s270",
+      "type": "list",
+      "chapter": "The strategy",
+      "sfx": [
+        {
+          "name": "whoosh",
+          "at": 0.05,
+          "gain": 0.35
+        }
+      ],
+      "narration": "So what was the strategy? Know exactly where the target will be. Rehearse on a copy of his house. Wait for the right night. Then blind the defences, and surround a few helicopters with an air force.",
+      "data": {
+        "title": "The playbook",
+        "items": [
+          "Months of intelligence on one man",
+          "Rehearsals on a full-size replica",
+          "Patience: wait for the right night",
+          "Blind the defences, then fly in low"
+        ]
+      }
+    },
+    {
+      "id": "s280",
+      "type": "quote",
+      "sfx": [],
+      "narration": "Caine summed up the air plan in one line. The air component exists to protect the helicopters and the ground force. Its job is to get them to the target, and to get them home.",
+      "data": {
+        "kicker": "The whole idea",
+        "text": "The goal of our air component is, was, and always will be, to protect the helicopters and the Ground Force and get them to the target and get them home.",
+        "by": "Gen. Dan Caine",
+        "source": "3 January 2026"
+      }
+    },
+    {
+      "id": "s290",
+      "type": "title",
+      "sfx": [],
+      "narration": "Much is still unconfirmed. The Pentagon has not officially named the units. It has not explained the blackout. And the death toll in Venezuela remains incomplete. Caine also said there is always a chance they will be asked to do this again.",
+      "data": {
+        "kicker": "What we still don't know",
+        "title": "The parts that stay secret"
+      }
+    },
+    {
+      "id": "s300",
+      "type": "outro",
+      "sfx": [],
+      "narration": "The raid on Caracas took about two and a half hours. It worked because almost everything around it was slow, patient and enormous. The fast part was the smallest part.",
+      "data": {
+        "title": "Two and a half hours, months in the making",
+        "sub": "SOURCES IN THE DESCRIPTION"
+      }
+    }
+  ]
+}
