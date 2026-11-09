@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=1920, height=1080">
+<link rel="stylesheet" href="lib/fw.css">
+<script src="lib/gsap.min.js"></script>
+
+<script src="lib/d3.min.js"></script>
+<script src="lib/topojson-client.min.js"></script>
+<style>body { background: var(--ground); } svg { position: absolute; inset: 0; width: 1920px; height: 1080px; }</style>
+
+<title>The Western Front</title>
+</head>
+<body>
+<svg id="map"></svg>
+<script type="module">
+import { play, europe, ISO, pin, label, line, chrome } from "./lib/fw.js";
+const tl = gsap.timeline({ paused: true });
+const ready = (async () => {
+  const m = await europe(document.getElementById("map"), { view: [[-1.6, 46.4], [10.6, 51.9]] });
+  m.paths[ISO.germany].style.fill = "#3a2a24";
+  const head = chrome(document.body, { kicker: "1914 – 1918", title: "The Western Front", note: "Front line approximate, end of 1914." });
+  head.in(tl, 0.1);
+  const front = [[2.75, 51.13], [2.86, 51.03], [2.93, 50.85], [2.88, 50.69], [2.81, 50.53], [2.8, 50.29], [2.7, 50.0], [2.79, 49.7],
+    [3.0, 49.58], [3.32, 49.4], [3.79, 49.44], [4.03, 49.3], [4.53, 49.18], [5.03, 49.23], [5.4, 49.27], [5.62, 49.15],
+    [5.54, 48.89], [6.06, 48.9], [6.6, 48.65], [6.9, 48.5], [7.05, 48.2], [7.1, 47.81], [7.15, 47.47]];
+  const glow = line(m.overlay, m, front, { stroke: "var(--poppy)", "stroke-width": 16, "stroke-opacity": 0.25, "stroke-linecap": "round" });
+  const fl = line(m.overlay, m, front, { stroke: "var(--poppy)", "stroke-width": 5, "stroke-linecap": "round" });
+  const paris = pin(m.overlay, m, [2.35, 48.86], "Paris", { size: 28, dx: -18, anchor: "end" });
+  const sea = label(m.overlay, m, [1.7, 51.45], "NORTH SEA", { size: 20, ls: ".3em", fill: "var(--paper)" });
+  const swiss = label(m.overlay, m, [8.3, 46.85], "SWITZERLAND", { size: 20, ls: ".3em", fill: "var(--paper)" });
+  const towns = [[[2.93, 50.85], "Ypres"], [[2.7, 50.0], "The Somme"], [[5.4, 49.16], "Verdun"]]
+    .map(([ll, t]) => label(m.overlay, m, [ll[0] - 0.22, ll[1] + 0.04], t, { size: 24, cls: "serif", fill: "var(--paper)", anchor: "end" }));
+  tl.to(paris.g, { opacity: 1, duration: 0.5 }, 0.4);
+  const T = 4.28;
+  tl.to(sea, { opacity: 1, duration: 0.4 }, T - 0.4);
+  tl.to([fl, glow], { strokeDashoffset: 0, duration: 3.2, ease: "power1.inOut" }, T);
+  tl.to(swiss, { opacity: 1, duration: 0.4 }, T + 2.8);
+  towns.forEach((t, i) => tl.to(t, { opacity: 1, duration: 0.4 }, T + 0.6 + i * 0.9));
+  tl.fromTo(glow, { strokeWidth: 16 }, { strokeWidth: 30, duration: 0.6, yoyo: true, repeat: 1, ease: "sine.inOut" }, 8.86);
+  tl.to({}, { duration: 12 }, 0);
+})();
+play(tl, { ready });
+</script>
+</body>
+</html>

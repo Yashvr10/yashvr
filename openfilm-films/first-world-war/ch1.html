@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=1920, height=1080">
+<link rel="stylesheet" href="lib/fw.css">
+<script src="lib/gsap.min.js"></script>
+
+<title>The Spark</title>
+<style>
+  body { background: var(--ink); }
+  #wrap { position: absolute; left: 0; right: 0; top: 380px; text-align: center; }
+  #num { font-size: 64px; font-style: italic; color: var(--poppy); opacity: 0; }
+  #name { font-size: 120px; font-weight: 700; margin-top: 6px; clip-path: inset(0 0 100% 0); }
+  #rule { margin: 34px auto 0; width: 180px; height: 3px; background: var(--dim); transform-origin: 50% 50%; }
+</style>
+</head>
+<body>
+<div id="wrap">
+  <div id="num" class="serif">I</div>
+  <div id="name" class="serif">The Spark</div>
+  <div id="rule"></div>
+</div>
+<script type="module">
+import { play } from "./lib/fw.js";
+const tl = gsap.timeline({ paused: true });
+gsap.set("#rule", { scaleX: 0 });
+gsap.set("#name", { y: 30 });
+tl.to("#num", { opacity: 1, duration: 0.5, ease: "power2.out" }, 0.1);
+tl.to("#name", { clipPath: "inset(0 0 0% 0)", y: 0, duration: 0.8, ease: "power3.out" }, 0.25);
+tl.to("#rule", { scaleX: 1, duration: 0.7, ease: "power4.out" }, 0.55);
+tl.to("#wrap", { scale: 1.03, duration: 2.8, ease: "none" }, 0);
+play(tl, { duration: 2.8 });
+</script>
+</body>
+</html>

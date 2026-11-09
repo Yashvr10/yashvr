@@ -1,0 +1,170 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=1920, height=1080">
+<title>The First World War</title>
+<style>
+  /* Photographs fill the frame; a slow move over each (Ken Burns), timed to the clip with --clip-length. */
+  .photo { object-fit: cover; }
+  .archival { filter: grayscale(1) sepia(.22) contrast(1.08) brightness(.94); }
+  .painted { filter: saturate(.78) contrast(1.04) brightness(.95); }
+  .colour { filter: saturate(.7) sepia(.15) contrast(1.05); }
+  @keyframes kb-in { from { scale: 1.02 } to { scale: 1.13 } }
+  @keyframes kb-out { from { scale: 1.14 } to { scale: 1.02 } }
+  @keyframes kb-left { from { scale: 1.12; translate: 2.4% 0 } to { scale: 1.12; translate: -2.4% 0 } }
+  @keyframes kb-right { from { scale: 1.12; translate: -2.4% 0 } to { scale: 1.12; translate: 2.4% 0 } }
+  @keyframes kb-up { from { scale: 1.14; translate: 0 3% } to { scale: 1.14; translate: 0 -3% } }
+  @keyframes kb-down { from { scale: 1.14; translate: 0 -3% } to { scale: 1.14; translate: 0 3% } }
+  .kb-in { animation: kb-in var(--clip-length) linear both; }
+  .kb-out { animation: kb-out var(--clip-length) linear both; }
+  .kb-left { animation: kb-left var(--clip-length) linear both; }
+  .kb-right { animation: kb-right var(--clip-length) linear both; }
+  .kb-up { animation: kb-up var(--clip-length) linear both; }
+  .kb-down { animation: kb-down var(--clip-length) linear both; }
+</style>
+</head>
+<body>
+<section>
+  <iframe id="grain" src="grain.html#t=0,317.836"></iframe>
+</section>
+<section>
+  <iframe id="leak-1" src="leak.html" at="118.608"></iframe>
+  <iframe id="leak-2" src="leak.html" at="268.712"></iframe>
+</section>
+<section>
+  <iframe id="lt-s03" src="lt-s03.html" at="24.752"></iframe>
+  <iframe id="lt-s08" src="lt-s08.html" at="86.756"></iframe>
+  <iframe id="lt-s11" src="lt-s11.html" at="118.808"></iframe>
+  <iframe id="lt-s12" src="lt-s12.html" at="135.892"></iframe>
+  <iframe id="lt-s13" src="lt-s13.html" at="148.352"></iframe>
+  <iframe id="lt-s15" src="lt-s15.html" at="169.288"></iframe>
+  <iframe id="lt-s17" src="lt-s17.html" at="193.608"></iframe>
+  <iframe id="lt-s18" src="lt-s18.html" at="208.22"></iframe>
+  <iframe id="lt-s19" src="lt-s19.html" at="222.888"></iframe>
+  <iframe id="lt-s21" src="lt-s21.html" at="243.248"></iframe>
+  <iframe id="lt-s22" src="lt-s22.html" at="258.172"></iframe>
+  <iframe id="lt-s24" src="lt-s24.html" at="289.619"></iframe>
+</section>
+<section>
+  <iframe id="title" src="title.html" at="16.352" overrides='[{"fade":[0.8,0.6]}]'></iframe>
+  <iframe id="ch1" src="ch1.html" at="21.352" overrides='[{"fade":[0.25,0.4]}]'></iframe>
+  <iframe id="map-sarajevo" src="map-sarajevo.html#t=0,5.48" at="34.956" overrides='[{"fade":[0.35,0.35]}]'></iframe>
+  <iframe id="dominoes" src="dominoes.html#t=0,17.908" at="43.168" overrides='[{"fade":[0.35,0.35]}]'></iframe>
+  <iframe id="map-alliances" src="map-alliances.html#t=0,11.548" at="61.076" overrides='[{"fade":[0.35,0.35]}]'></iframe>
+  <iframe id="ch2" src="ch2.html" at="72.624" overrides='[{"fade":[0.25,0.4]}]'></iframe>
+  <iframe id="map-schlieffen" src="map-schlieffen.html#t=0,10.732" at="75.424" overrides='[{"fade":[0.35,0.35]}]'></iframe>
+  <iframe id="map-front" src="map-front.html#t=0,10.348" at="96.048" overrides='[{"fade":[0.35,0.35]}]'></iframe>
+  <iframe id="ch3" src="ch3.html" at="132.492" overrides='[{"fade":[0.25,0.4]}]'></iframe>
+  <iframe id="stat-somme" src="stat-somme.html#t=0,10.12" at="182.888" overrides='[{"fade":[0.35,0.35]}]'></iframe>
+  <iframe id="ch4" src="ch4.html" at="204.82" overrides='[{"fade":[0.25,0.4]}]'></iframe>
+  <iframe id="map-spring" src="map-spring.html#t=0,11.404" at="231.244" overrides='[{"fade":[0.35,0.35]}]'></iframe>
+  <iframe id="ch5" src="ch5.html" at="254.772" overrides='[{"fade":[0.25,0.4]}]'></iframe>
+  <iframe id="stat-toll" src="stat-toll.html#t=0,9.772" at="273.2" overrides='[{"fade":[0.35,0.35]}]'></iframe>
+  <iframe id="map-empires" src="map-empires.html#t=0,6.047" at="282.972" overrides='[{"fade":[0.35,0.35]}]'></iframe>
+  <iframe id="end" src="end.html" at="309.836" overrides='[{"fade":[0.25,0.4]}]'></iframe>
+</section>
+<section>
+  <img id="s01-departure" src="assets/photos/departure.jpg#t=0,8.788" at="0" class="photo archival kb-right" style="object-position: 50% 55%" overrides='[{"fade":[0.35,0.35]}]'>
+  <img id="s02-chateau-wood" src="assets/photos/chateau-wood.jpg#t=0,7.564" at="8.788" class="photo archival kb-left" style="object-position: 50% 50%" overrides='[{"fade":[0.35,0.35]}]'>
+  <img id="s03-sarajevo-car" src="assets/photos/sarajevo-car.jpg#t=0,10.804" at="24.152" class="photo archival kb-in" style="object-position: 55% 55%" overrides='[{"fade":[0.35,0.35]}]'>
+  <img id="s04-petit-journal" src="assets/photos/petit-journal.jpg#t=0,2.732" at="40.436" class="photo painted kb-down" style="object-position: 50% 30%" overrides='[{"fade":[0.35,0.35]}]'>
+  <img id="s08-paris-cars" src="assets/photos/paris-cars.jpg#t=0,9.892" at="86.156" class="photo archival kb-right" style="object-position: 50% 55%" overrides='[{"fade":[0.35,0.35]}]'>
+  <img id="s10-trench" src="assets/photos/trench.jpg#t=0,4.76" at="106.396" class="photo archival kb-in" style="object-position: 45% 50%" overrides='[{"fade":[0.35,0.35]}]'>
+  <img id="s10-ration-party" src="assets/photos/ration-party.jpg#t=0,7.052" at="111.156" class="photo archival kb-left" style="object-position: 50% 50%" overrides='[{"fade":[0.35,0.35]}]'>
+  <img id="s11-truce" src="assets/photos/truce.jpg#t=0,14.284" at="118.208" class="photo archival kb-in" style="object-position: 50% 50%" overrides='[{"fade":[0.35,0.35]}]'>
+  <img id="s12-gassed" src="assets/photos/gassed.jpg#t=0,12.46" at="135.292" class="photo painted kb-right" style="object-position: 40% 50%" overrides='[{"fade":[0.35,0.35]}]'>
+  <img id="s13-anzac" src="assets/photos/anzac.jpg#t=0,10.18" at="147.752" class="photo archival kb-left" style="object-position: 50% 50%" overrides='[{"fade":[0.35,0.35]}]'>
+  <img id="s14-lusitania" src="assets/photos/lusitania.jpg#t=0,10.756" at="157.932" class="photo archival kb-right" style="object-position: 50% 50%" overrides='[{"fade":[0.35,0.35]}]'>
+  <img id="s15-verdun" src="assets/photos/verdun.jpg#t=0,10.78" at="168.688" class="photo archival kb-in" style="object-position: 50% 45%" overrides='[{"fade":[0.35,0.35]}]'>
+  <img id="s16-over-the-top" src="assets/photos/over-the-top.jpg#t=0,3.42" at="179.468" class="photo archival kb-in" style="object-position: 50% 45%" overrides='[{"fade":[0.35,0.35]}]'>
+  <img id="s17-tank" src="assets/photos/tank.jpg#t=0,11.812" at="193.008" class="photo archival kb-left" style="object-position: 50% 50%" overrides='[{"fade":[0.35,0.35]}]'>
+  <img id="s18-wilson" src="assets/photos/wilson.jpg#t=0,14.668" at="207.62" class="photo archival kb-in" style="object-position: 50% 40%" overrides='[{"fade":[0.35,0.35]}]'>
+  <img id="s19-petrograd" src="assets/photos/petrograd.jpg#t=0,8.956" at="222.288" class="photo archival kb-right" style="object-position: 50% 50%" overrides='[{"fade":[0.35,0.35]}]'>
+  <img id="s21-amiens" src="assets/photos/amiens.jpg#t=0,5.8" at="242.648" class="photo painted kb-right" style="object-position: 50% 50%" overrides='[{"fade":[0.35,0.35]}]'>
+  <img id="s21-doughboys" src="assets/photos/doughboys.jpg#t=0,6.324" at="248.448" class="photo archival kb-left" style="object-position: 50% 50%" overrides='[{"fade":[0.35,0.35]}]'>
+  <img id="s22-armistice" src="assets/photos/armistice.jpg#t=0,10.74" at="257.572" class="photo colour kb-in" style="object-position: 50% 50%" overrides='[{"fade":[0.35,0.35]}]'>
+  <img id="s22-celebration" src="assets/photos/celebration.jpg#t=0,4.888" at="268.312" class="photo archival kb-left" style="object-position: 50% 50%" overrides='[{"fade":[0.35,0.35]}]'>
+  <img id="s24-versailles" src="assets/photos/versailles.jpg#t=0,7.685" at="289.019" class="photo painted kb-up" style="object-position: 50% 88%" overrides='[{"fade":[0.35,0.35]}]'>
+  <img id="s25-tyne-cot" src="assets/photos/tyne-cot.jpg#t=0,13.132" at="296.704" class="photo archival kb-out" style="object-position: 50% 55%" overrides='[{"fade":[0.35,0.35]}]'>
+</section>
+<section>
+  <audio id="vo-s01" src="assets/vo/s01.mp3" at="0.3"></audio>
+  <audio id="vo-s02" src="assets/vo/s02.mp3" at="9.088"></audio>
+  <audio id="vo-s03" src="assets/vo/s03.mp3" at="24.452"></audio>
+  <audio id="vo-s04" src="assets/vo/s04.mp3" at="35.256"></audio>
+  <audio id="vo-s05" src="assets/vo/s05.mp3" at="43.468"></audio>
+  <audio id="vo-s06" src="assets/vo/s06.mp3" at="61.376"></audio>
+  <audio id="vo-s07" src="assets/vo/s07.mp3" at="75.724"></audio>
+  <audio id="vo-s08" src="assets/vo/s08.mp3" at="86.456"></audio>
+  <audio id="vo-s09" src="assets/vo/s09.mp3" at="96.348"></audio>
+  <audio id="vo-s10" src="assets/vo/s10.mp3" at="106.696"></audio>
+  <audio id="vo-s11" src="assets/vo/s11.mp3" at="118.508"></audio>
+  <audio id="vo-s12" src="assets/vo/s12.mp3" at="135.592"></audio>
+  <audio id="vo-s13" src="assets/vo/s13.mp3" at="148.052"></audio>
+  <audio id="vo-s14" src="assets/vo/s14.mp3" at="158.232"></audio>
+  <audio id="vo-s15" src="assets/vo/s15.mp3" at="168.988"></audio>
+  <audio id="vo-s16" src="assets/vo/s16.mp3" at="179.768"></audio>
+  <audio id="vo-s17" src="assets/vo/s17.mp3" at="193.308"></audio>
+  <audio id="vo-s18" src="assets/vo/s18.mp3" at="207.92"></audio>
+  <audio id="vo-s19" src="assets/vo/s19.mp3" at="222.588"></audio>
+  <audio id="vo-s20" src="assets/vo/s20.mp3" at="231.544"></audio>
+  <audio id="vo-s21" src="assets/vo/s21.mp3" at="242.948"></audio>
+  <audio id="vo-s22" src="assets/vo/s22.mp3" at="257.872"></audio>
+  <audio id="vo-s23" src="assets/vo/s23.mp3" at="273.5"></audio>
+  <audio id="vo-s24" src="assets/vo/s24.mp3" at="283.272"></audio>
+  <audio id="vo-s25" src="assets/vo/s25.mp3" at="297.004"></audio>
+</section>
+<section>
+  <audio id="music-aase-1" src="assets/music/aase.mp3#t=0,133.092" at="0" volume="0.6" overrides='[{"fade":[2.5,2.2]}]'></audio>
+  <audio id="music-aase-2" src="assets/music/aase.mp3#t=95,151.064" at="254.772" volume="0.6" overrides='[{"fade":[2,3]}]'></audio>
+</section>
+<section>
+  <audio id="music-mars" src="assets/music/mars.mp3#t=0,122.88" at="132.492" volume="0.3" overrides='[{"fade":[0.4,2.4]}]'></audio>
+  <audio id="music-last-post" src="assets/music/last-post.mp3#t=0,8.3" at="309.536" volume="0.55" overrides='[{"fade":[0.2,2.5]}]'></audio>
+</section>
+<section>
+  <audio src="assets/sfx/distant-thunder-rumble-202961.mp3" at="0.2" volume="0.55"></audio>
+  <audio src="assets/sfx/hf-impact-bass-1.mp3" at="16.402" volume="0.5"></audio>
+  <audio src="assets/sfx/hf-impact-bass-1.mp3" at="21.402" volume="0.5"></audio>
+  <audio src="assets/sfx/hf-typing.mp3" at="24.802" volume="0.22"></audio>
+  <audio src="assets/sfx/single-low-hit-cebd39.mp3" at="40.736" volume="0.75"></audio>
+  <audio src="assets/sfx/telegraph-key-ticks-3e7c48.mp3" at="45.338" volume="0.28"></audio>
+  <audio src="assets/sfx/telegraph-key-ticks-3e7c48.mp3" at="48.378" volume="0.28"></audio>
+  <audio src="assets/sfx/telegraph-key-ticks-3e7c48.mp3" at="51.898" volume="0.28"></audio>
+  <audio src="assets/sfx/telegraph-key-ticks-3e7c48.mp3" at="55.058" volume="0.28"></audio>
+  <audio src="assets/sfx/telegraph-key-ticks-3e7c48.mp3" at="57.198" volume="0.28"></audio>
+  <audio src="assets/sfx/hf-impact-bass-1.mp3" at="72.674" volume="0.5"></audio>
+  <audio src="assets/sfx/hf-typing.mp3" at="86.806" volume="0.22"></audio>
+  <audio src="assets/sfx/distant-thunder-rumble-202961.mp3" at="106.696" volume="0.45"></audio>
+  <audio src="assets/sfx/distant-church-bell-fe3669.mp3" at="118.808" volume="0.3"></audio>
+  <audio src="assets/sfx/hf-impact-bass-1.mp3" at="132.542" volume="0.5"></audio>
+  <audio src="assets/sfx/hf-typing.mp3" at="135.942" volume="0.22"></audio>
+  <audio src="assets/sfx/gas-venting-hiss-0c7a49.mp3" at="140.052" volume="0.35"></audio>
+  <audio src="assets/sfx/hf-typing.mp3" at="148.402" volume="0.22"></audio>
+  <audio src="assets/sfx/ship-deck-at-sea-0ecce7.mp3" at="158.132" volume="3"></audio>
+  <audio src="assets/sfx/distant-explosion-rumble-0d81c0.mp3" at="170.188" volume="0.45"></audio>
+  <audio src="assets/sfx/distant-explosion-rumble-0d81c0.mp3" at="173.888" volume="0.35"></audio>
+  <audio src="assets/sfx/distant-explosion-rumble-0d81c0.mp3" at="180.468" volume="0.45"></audio>
+  <audio src="assets/sfx/hf-typing.mp3" at="193.658" volume="0.22"></audio>
+  <audio src="assets/sfx/hf-impact-bass-1.mp3" at="204.87" volume="0.5"></audio>
+  <audio src="assets/sfx/hf-typing.mp3" at="208.27" volume="0.22"></audio>
+  <audio src="assets/sfx/telegraph-key-ticks-3e7c48.mp3" at="213" volume="0.3"></audio>
+  <audio src="assets/sfx/hf-typing.mp3" at="222.938" volume="0.22"></audio>
+  <audio src="assets/sfx/distant-thunder-rumble-202961.mp3" at="231.544" volume="0.4"></audio>
+  <audio src="assets/sfx/hf-impact-bass-1.mp3" at="254.822" volume="0.5"></audio>
+  <audio src="assets/sfx/hf-typing.mp3" at="258.222" volume="0.22"></audio>
+  <audio src="assets/sfx/distant-church-bell-toll-f328e5.mp3" at="265.982" volume="0.45"></audio>
+  <audio src="assets/sfx/hf-typing.mp3" at="289.669" volume="0.22"></audio>
+</section>
+<section>
+  <audio src="assets/sfx/distant-explosion-rumble-0d81c0.mp3" at="4.2" volume="0.5"></audio>
+  <audio src="assets/sfx/distant-explosion-rumble-0d81c0.mp3" at="11.288" volume="0.4"></audio>
+  <audio src="assets/sfx/telegraph-key-ticks-3e7c48.mp3" at="53.118" volume="0.28"></audio>
+  <audio src="assets/sfx/hf-typing.mp3" at="118.858" volume="0.22"></audio>
+  <audio src="assets/sfx/hf-typing.mp3" at="169.338" volume="0.22"></audio>
+  <audio src="assets/sfx/hf-typing.mp3" at="243.298" volume="0.22"></audio>
+  <audio src="assets/sfx/distant-church-bell-fe3669.mp3" at="268.282" volume="0.3"></audio>
+</section>
+</body>
+</html>

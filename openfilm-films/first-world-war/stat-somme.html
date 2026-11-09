@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=1920, height=1080">
+<link rel="stylesheet" href="lib/fw.css">
+<script src="lib/gsap.min.js"></script>
+
+<title>1 July 1916</title>
+<style>
+  body { background: var(--ink); }
+  #wrap { position: absolute; left: 0; right: 0; top: 230px; text-align: center; }
+  .k { font-size: 24px; color: var(--poppy); }
+  #a { font-size: 230px; font-weight: 900; line-height: 1.12; margin-top: 18px; display: inline-block; }
+  .u { font-size: 30px; color: var(--dim); margin-top: 18px; }
+  #brow { margin-top: 46px; opacity: 0; }
+  #b { font-size: 110px; font-weight: 900; color: var(--poppy); display: inline-block; }
+  #foot { position: absolute; left: 0; right: 0; bottom: 92px; text-align: center; font-size: 34px; font-style: italic; opacity: 0; }
+</style>
+</head>
+<body>
+<div id="wrap">
+  <div class="k label" id="k">1 July 1916 · The Somme</div>
+  <div class="serif" id="a">0</div>
+  <div class="u label" id="au">British casualties in one day</div>
+  <div id="brow"><span class="serif" id="b">0</span> <span class="u label" style="vertical-align:22px;margin-left:16px">killed</span></div>
+</div>
+<div id="foot" class="serif">The bloodiest day in the history of the British Army</div>
+<script type="module">
+import { play, countUp } from "./lib/fw.js";
+const tl = gsap.timeline({ paused: true });
+gsap.set(["#k", "#a", "#au"], { opacity: 0, y: 24 });
+tl.to(["#k", "#a", "#au"], { opacity: 1, y: 0, duration: 0.5, stagger: 0.08, ease: "power3.out" }, 0.1);
+countUp(tl, "#a", { to: 57470, at: Math.max(0.3, 1.66 - 0.4), dur: 1.6 });
+tl.to("#brow", { opacity: 1, duration: 0.4 }, 3.36 - 0.3);
+countUp(tl, "#b", { to: 19240, at: 3.36 - 0.2, dur: 1.2 });
+tl.to("#foot", { opacity: 1, duration: 0.6 }, 6.84 - 0.2);
+tl.to("#wrap", { scale: 1.025, duration: 12, ease: "none" }, 0);
+play(tl, { ready: Promise.resolve() });
+</script>
+</body>
+</html>

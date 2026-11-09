@@ -1,0 +1,26 @@
+{{head}}
+<title>End</title>
+<style>
+  body { background: var(--ink); }
+  #a { position: absolute; left: 0; right: 0; top: 380px; text-align: center; font-size: 46px; letter-spacing: .5em; color: var(--dim); opacity: 0; }
+  #b { position: absolute; left: 0; right: 0; top: 470px; text-align: center; font-size: 96px; font-style: italic; opacity: 0; }
+  #c { position: absolute; left: 0; right: 0; bottom: 80px; text-align: center; font-size: 19px; line-height: 1.7; color: var(--dim); opacity: 0; }
+</style>
+</head>
+<body>
+<div id="a" class="mono">1914 — 1918</div>
+<div id="b" class="serif">Lest we forget</div>
+<div id="c" class="mono">Narration: Kokoro TTS · Photographs and paintings: public domain, via Wikimedia Commons<br>
+Music: Grieg, “The Death of Åse” (Musopen Symphony) · Holst, “Mars” (U.S. Air Force Band) · “Last Post” (U.S. Marine Corps)<br>
+Made with OpenFilm and HyperFrames registry blocks</div>
+<script type="module">
+import { play } from "./lib/fw.js";
+const tl = gsap.timeline({ paused: true });
+tl.to("#a", { opacity: 1, duration: 1.2, ease: "power2.out" }, 0.4);
+tl.fromTo("#b", { opacity: 0, y: 16 }, { opacity: 1, y: 0, duration: 1.6, ease: "power2.out" }, 1.1);
+tl.to("#c", { opacity: 1, duration: 1.0 }, 2.4);
+tl.to({}, { duration: {{len}} }, 0);
+play(tl, { duration: {{len}} });
+</script>
+</body>
+</html>

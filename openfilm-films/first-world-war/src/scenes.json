@@ -1,0 +1,395 @@
+{
+ "voice": "bm_george",
+ "speed": 1.08,
+ "gap": 0.55,
+ "scenes": [
+  {
+   "id": "s01",
+   "text": "In the summer of nineteen fourteen, Europe's soldiers marched off expecting a short war. Many were told they would be home by Christmas.",
+   "visuals": [
+    {
+     "photo": "departure",
+     "kb": "right",
+     "focus": "50% 55%"
+    }
+   ]
+  },
+  {
+   "id": "s02",
+   "text": "Instead, the war lasted more than four years. It killed somewhere between fifteen and twenty-two million people.",
+   "visuals": [
+    {
+     "photo": "chateau-wood",
+     "kb": "left",
+     "focus": "50% 50%"
+    }
+   ]
+  },
+  {
+   "id": "title",
+   "card": "title",
+   "len": 5.0
+  },
+  {
+   "id": "ch1",
+   "card": "chapter",
+   "num": "I",
+   "title": "The Spark",
+   "len": 2.8
+  },
+  {
+   "id": "s03",
+   "text": "On the twenty-eighth of June, nineteen fourteen, Archduke Franz Ferdinand, heir to the throne of Austria-Hungary, was driven through Sarajevo with his wife, Sophie.",
+   "visuals": [
+    {
+     "photo": "sarajevo-car",
+     "kb": "in",
+     "focus": "55% 55%",
+     "lt": [
+      "Sarajevo, Bosnia",
+      "28 June 1914"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s04",
+   "text": "A nineteen-year-old Bosnian Serb named Gavrilo Princip stepped up to the car, and shot them both at close range.",
+   "visuals": [
+    {
+     "page": "map-sarajevo"
+    },
+    {
+     "photo": "petit-journal",
+     "kb": "down",
+     "focus": "50% 30%",
+     "cut": "shot"
+    }
+   ]
+  },
+  {
+   "id": "s05",
+   "text": "Austria-Hungary blamed Serbia, and declared war on the twenty-eighth of July. Russia mobilised to defend Serbia. Germany declared war on Russia, and then on France. And when German troops marched into neutral Belgium, Britain declared war on Germany, on the fourth of August.",
+   "visuals": [
+    {
+     "page": "dominoes"
+    }
+   ]
+  },
+  {
+   "id": "s06",
+   "text": "On one side stood the Allies: France, Britain and Russia. On the other, the Central Powers: Germany and Austria-Hungary, soon joined by the Ottoman Empire and Bulgaria.",
+   "visuals": [
+    {
+     "page": "map-alliances"
+    }
+   ]
+  },
+  {
+   "id": "ch2",
+   "card": "chapter",
+   "num": "II",
+   "title": "The Trenches",
+   "len": 2.8
+  },
+  {
+   "id": "s07",
+   "text": "Germany's plan was to knock France out fast, sweeping through Belgium, before turning east to face Russia. Its armies came within seventy kilometres of Paris.",
+   "visuals": [
+    {
+     "page": "map-schlieffen"
+    }
+   ]
+  },
+  {
+   "id": "s08",
+   "text": "But at the Battle of the Marne, in September, French and British troops forced them back. Paris even rushed soldiers to the front in some six hundred taxis.",
+   "visuals": [
+    {
+     "photo": "paris-cars",
+     "kb": "right",
+     "focus": "50% 55%",
+     "lt": [
+      "Paris",
+      "Cars requisitioned, August 1914"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s09",
+   "text": "Both sides dug in. By the end of nineteen fourteen, a line of trenches ran from the North Sea to the Swiss border. For three years, it would barely move.",
+   "visuals": [
+    {
+     "page": "map-front"
+    }
+   ]
+  },
+  {
+   "id": "s10",
+   "text": "Life in the trenches meant mud, rats, lice, and constant shellfire. Between the lines lay no man's land: barbed wire, craters, and the bodies of those who had tried to cross it.",
+   "visuals": [
+    {
+     "photo": "trench",
+     "kb": "in",
+     "focus": "45% 50%"
+    },
+    {
+     "photo": "ration-party",
+     "kb": "left",
+     "focus": "50% 50%",
+     "cut": "between"
+    }
+   ]
+  },
+  {
+   "id": "s11",
+   "text": "And yet, at Christmas nineteen fourteen, along parts of the front, the guns fell silent. Roughly a hundred thousand men joined an unofficial truce. They swapped gifts, sang carols, and in places, even played football.",
+   "visuals": [
+    {
+     "photo": "truce",
+     "kb": "in",
+     "focus": "50% 50%",
+     "leak": true,
+     "lt": [
+      "No man's land",
+      "Christmas 1914"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ch3",
+   "card": "chapter",
+   "num": "III",
+   "title": "Industrial War",
+   "len": 2.8
+  },
+  {
+   "id": "s12",
+   "text": "In April nineteen fifteen, near Ypres, the German army released a cloud of chlorine gas over the Allied lines. Chemical weapons had arrived, and soon every major army used them.",
+   "visuals": [
+    {
+     "photo": "gassed",
+     "kb": "right",
+     "focus": "40% 50%",
+     "lt": [
+      "Gassed",
+      "John Singer Sargent, 1919"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s13",
+   "text": "The war spread far beyond France. At Gallipoli, the Allies tried to knock the Ottoman Empire out of the war. After eight months of slaughter, they withdrew.",
+   "visuals": [
+    {
+     "photo": "anzac",
+     "kb": "left",
+     "focus": "50% 50%",
+     "lt": [
+      "Anzac Cove, Gallipoli",
+      "25 April 1915"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s14",
+   "text": "In May nineteen fifteen, a German U-boat sank the British liner Lusitania. Nearly twelve hundred people died, about a hundred and twenty-eight of them American.",
+   "visuals": [
+    {
+     "photo": "lusitania",
+     "kb": "right",
+     "focus": "50% 50%"
+    }
+   ]
+  },
+  {
+   "id": "s15",
+   "text": "Nineteen sixteen became the year of attrition. At Verdun, the Germans set out to bleed the French army dry. The battle lasted three hundred and two days.",
+   "visuals": [
+    {
+     "photo": "verdun",
+     "kb": "in",
+     "focus": "50% 45%",
+     "lt": [
+      "Verdun",
+      "21 February to 18 December 1916"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s16",
+   "text": "On the first of July, the British attacked at the Somme. By nightfall, they had suffered fifty-seven thousand casualties, nineteen thousand of them killed. It is still the bloodiest day in the history of the British Army.",
+   "visuals": [
+    {
+     "photo": "over-the-top",
+     "kb": "in",
+     "focus": "50% 45%"
+    },
+    {
+     "page": "stat-somme",
+     "cut": "nightfall"
+    }
+   ]
+  },
+  {
+   "id": "s17",
+   "text": "The Somme also saw a new machine. In September nineteen sixteen, tanks went into battle for the first time. By November, more than a million men had been killed or wounded there.",
+   "visuals": [
+    {
+     "photo": "tank",
+     "kb": "left",
+     "focus": "50% 50%",
+     "lt": [
+      "The Somme",
+      "Mark I tank, September 1916"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ch4",
+   "card": "chapter",
+   "num": "IV",
+   "title": "The Turning",
+   "len": 2.8
+  },
+  {
+   "id": "s18",
+   "text": "In nineteen seventeen, Germany resumed unrestricted submarine warfare, and a secret telegram revealed that it had offered Mexico an alliance against the United States. On the sixth of April, America declared war.",
+   "visuals": [
+    {
+     "photo": "wilson",
+     "kb": "in",
+     "focus": "50% 40%",
+     "lt": [
+      "Washington",
+      "Wilson asks Congress for war, 2 April 1917"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s19",
+   "text": "In Russia, revolution toppled the Tsar. The new Bolshevik government made a separate peace with Germany, in March nineteen eighteen.",
+   "visuals": [
+    {
+     "photo": "petrograd",
+     "kb": "right",
+     "focus": "50% 50%",
+     "lt": [
+      "Petrograd",
+      "July 1917"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s20",
+   "text": "Freed from the east, Germany threw everything into one last offensive that spring. Its armies advanced nearly a hundred kilometres. Then they ran out of men and supplies.",
+   "visuals": [
+    {
+     "page": "map-spring"
+    }
+   ]
+  },
+  {
+   "id": "s21",
+   "text": "On the eighth of August, the Allies struck back at Amiens, with more than five hundred tanks. With fresh American troops pouring in, the Hundred Days Offensive drove the German army back.",
+   "visuals": [
+    {
+     "photo": "amiens",
+     "kb": "right",
+     "focus": "50% 50%",
+     "lt": [
+      "Amiens",
+      "8 August 1918"
+     ]
+    },
+    {
+     "photo": "doughboys",
+     "kb": "left",
+     "focus": "50% 50%",
+     "cut": "fresh"
+    }
+   ]
+  },
+  {
+   "id": "ch5",
+   "card": "chapter",
+   "num": "V",
+   "title": "The Silence",
+   "len": 2.8
+  },
+  {
+   "id": "s22",
+   "text": "Before dawn on the eleventh of November, in a railway carriage in the forest of Compiègne, Germany signed an armistice. At eleven o'clock that morning, the guns stopped. Even on that last day, more than two thousand seven hundred men were killed.",
+   "visuals": [
+    {
+     "photo": "armistice",
+     "kb": "in",
+     "focus": "50% 50%",
+     "lt": [
+      "Forest of Compiègne",
+      "11 November 1918"
+     ]
+    },
+    {
+     "photo": "celebration",
+     "kb": "left",
+     "focus": "50% 50%",
+     "leak": true,
+     "cut": "even"
+    }
+   ]
+  },
+  {
+   "id": "s23",
+   "text": "Some sixty million European soldiers had been mobilised. Between nine and eleven million of them were dead, along with millions of civilians.",
+   "visuals": [
+    {
+     "page": "stat-toll"
+    }
+   ]
+  },
+  {
+   "id": "s24",
+   "text": "Four empires collapsed: the German, the Austro-Hungarian, the Russian, and the Ottoman. On the twenty-eighth of June, nineteen nineteen, five years to the day after Sarajevo, the Treaty of Versailles was signed.",
+   "visuals": [
+    {
+     "page": "map-empires"
+    },
+    {
+     "photo": "versailles",
+     "kb": "up",
+     "focus": "50% 88%",
+     "lt": [
+      "Hall of Mirrors, Versailles",
+      "28 June 1919"
+     ],
+     "cut": "twenty-eighth"
+    }
+   ]
+  },
+  {
+   "id": "s25",
+   "text": "They called it the war to end all wars. Barely twenty years later, Europe was at war again. But this first catastrophe had already redrawn the map of the world, and changed the way nations fight, for ever.",
+   "visuals": [
+    {
+     "photo": "tyne-cot",
+     "kb": "out",
+     "focus": "50% 55%"
+    }
+   ]
+  },
+  {
+   "id": "end",
+   "card": "end",
+   "len": 8.0
+  }
+ ]
+}

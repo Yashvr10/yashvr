@@ -1,0 +1,45 @@
+{{maphead}}
+<title>Through Belgium</title>
+</head>
+<body>
+<svg id="map"><defs><marker id="head" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="4.5" markerHeight="4.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#b8322a"/></marker></defs></svg>
+<script type="module">
+import { play, europe, ISO, pin, label, line, chrome } from "./lib/fw.js";
+const tl = gsap.timeline({ paused: true });
+const ready = (async () => {
+  const m = await europe(document.getElementById("map"), { view: [[-3.5, 45.2], [17, 55]] });
+  m.paths[ISO.germany].style.fill = "var(--central)";
+  m.paths[ISO.belgium].style.fill = "var(--land-hi)";
+  const head = chrome(document.body, { kicker: "August – September 1914", title: "Through Belgium to Paris", note: "Routes simplified." });
+  head.in(tl, 0.1);
+  const paris = pin(m.overlay, m, [2.35, 48.86], "Paris", { size: 34, dx: -20, anchor: "end" });
+  const bel = label(m.overlay, m, [4.6, 50.55], "BELGIUM", { size: 18, ls: ".2em", fill: "var(--paper)" });
+  const ger = label(m.overlay, m, [10.4, 51.2], "GERMANY", { size: 22, ls: ".2em", fill: "var(--paper)" });
+  tl.to([paris.g, ger], { opacity: 1, duration: 0.5 }, 0.5);
+  const arrows = [
+    [[7.0, 51.25], [5.6, 50.7], [4.35, 50.85], [3.1, 50.55], [2.4, 49.95], [2.05, 49.25]],
+    [[6.6, 50.4], [5.1, 50.2], [3.9, 49.9], [3.3, 49.35], [2.85, 49.05]],
+    [[6.7, 49.65], [5.3, 49.45], [4.2, 49.1], [3.55, 48.85]],
+  ].map((pts) => line(m.overlay, m, pts, { stroke: "var(--poppy)", "stroke-width": 9, "stroke-linecap": "round", "marker-end": "url(#head)" }));
+  const B = {{cue:belgium}};
+  tl.to(bel, { opacity: 1, duration: 0.4 }, B - 0.2);
+  arrows.forEach((a, i) => tl.to(a, { strokeDashoffset: 0, duration: 2.2, ease: "power2.inOut" }, B + i * 0.2));
+  const east = line(m.overlay, m, [[12.4, 52.2], [16.4, 52.2]], { stroke: "var(--dim)", "stroke-width": 6, "stroke-dasharray": "0", "marker-end": "url(#head)" });
+  const eastL = label(m.overlay, m, [14.4, 52.75], "THEN EAST, TO RUSSIA", { size: 15, ls: ".14em" });
+  tl.to(east, { strokeDashoffset: 0, duration: 1, ease: "power2.out" }, {{cue:east}});
+  tl.to(eastL, { opacity: 1, duration: 0.4 }, {{cue:east}} + 0.3);
+  // 70 km around Paris
+  const [px, py] = m.project([2.35, 48.86]), [qx] = m.project([2.35 + 70 / (111.32 * Math.cos(48.86 * Math.PI / 180)), 48.86]);
+  const ring = d3.select(m.overlay).append("circle").attr("cx", px).attr("cy", py).attr("r", qx - px)
+    .attr("fill", "none").attr("stroke", "var(--paper)").attr("stroke-width", 2.5).attr("stroke-dasharray", "8 8")
+    .attr("vector-effect", "non-scaling-stroke").style("opacity", 0).node();
+  const ringL = label(m.overlay, m, [3.6, 48.25], "70 KM", { size: 20, fill: "var(--paper)", ls: ".14em" });
+  const S = {{cue:seventy}};
+  tl.fromTo(ring, { opacity: 0, scale: 1.4, transformOrigin: `${px}px ${py}px` }, { opacity: 1, scale: 1, duration: 0.6, ease: "power3.out" }, S);
+  tl.to(ringL, { opacity: 1, duration: 0.4 }, S + 0.3);
+  tl.to({}, { duration: 12 }, 0);
+})();
+play(tl, { ready });
+</script>
+</body>
+</html>

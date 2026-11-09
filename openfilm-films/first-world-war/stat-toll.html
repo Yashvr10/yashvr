@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=1920, height=1080">
+<link rel="stylesheet" href="lib/fw.css">
+<script src="lib/gsap.min.js"></script>
+
+<title>The toll</title>
+<style>
+  body { background: var(--ink); }
+  .row { position: absolute; left: 300px; opacity: 0; }
+  .n { font-size: 150px; font-weight: 900; line-height: 1; display: inline-block; }
+  .u { font-size: 28px; color: var(--dim); margin-top: 10px; }
+  #r2 .n { color: var(--poppy); }
+  #src { position: absolute; left: 300px; bottom: 60px; font-size: 18px; color: var(--dim); opacity: 0; }
+</style>
+</head>
+<body>
+<div class="row" id="r1" style="top:150px"><div class="n serif" id="n1">0</div><div class="u label">European soldiers mobilised</div></div>
+<div class="row" id="r2" style="top:450px"><div class="n serif"><span id="n2a">0</span> – <span id="n2b">0</span> million</div><div class="u label">soldiers killed</div></div>
+<div class="row" id="r3" style="top:750px"><div class="n serif" style="font-size:96px">+ 6 – 13 million</div><div class="u label">civilians, by estimate</div></div>
+<div id="src" class="mono">Estimates vary between sources.</div>
+<script type="module">
+import { play, countUp } from "./lib/fw.js";
+const tl = gsap.timeline({ paused: true });
+gsap.set(".row", { y: 24 });
+const A = 0.46, B = 4.4, C = 8.44;
+tl.to("#r1", { opacity: 1, y: 0, duration: 0.5, ease: "power3.out" }, Math.max(0.1, A - 0.3));
+countUp(tl, "#n1", { to: 60000000, at: Math.max(0.2, A - 0.2), dur: 1.6 });
+tl.to("#r2", { opacity: 1, y: 0, duration: 0.5, ease: "power3.out" }, B - 0.3);
+countUp(tl, "#n2a", { to: 9, at: B - 0.2, dur: 0.8 });
+countUp(tl, "#n2b", { to: 11, at: B + 0.3, dur: 0.9 });
+tl.to("#r3", { opacity: 1, y: 0, duration: 0.5, ease: "power3.out" }, C - 0.3);
+tl.to("#src", { opacity: 1, duration: 0.5 }, C + 0.4);
+tl.to({}, { duration: 11 }, 0);
+play(tl, { ready: Promise.resolve() });
+</script>
+</body>
+</html>

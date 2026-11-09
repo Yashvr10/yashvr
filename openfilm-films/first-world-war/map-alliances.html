@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=1920, height=1080">
+<link rel="stylesheet" href="lib/fw.css">
+<script src="lib/gsap.min.js"></script>
+
+<script src="lib/d3.min.js"></script>
+<script src="lib/topojson-client.min.js"></script>
+<style>body { background: var(--ground); } svg { position: absolute; inset: 0; width: 1920px; height: 1080px; }</style>
+
+<title>Alliances 1914</title>
+</head>
+<body>
+<svg id="map"></svg>
+<div style="position:absolute;right:96px;top:84px;text-align:right" class="label">
+  <div id="lg-a" style="font-size:24px;opacity:0"><span style="display:inline-block;width:22px;height:22px;background:var(--allies);vertical-align:-3px;margin-right:12px"></span>THE ALLIES</div>
+  <div id="lg-c" style="font-size:24px;margin-top:14px;opacity:0"><span style="display:inline-block;width:22px;height:22px;background:var(--central);vertical-align:-3px;margin-right:12px"></span>THE CENTRAL POWERS</div>
+</div>
+<script type="module">
+import { play, europe, ISO, label, chrome } from "./lib/fw.js";
+const tl = gsap.timeline({ paused: true });
+const ready = (async () => {
+  const m = await europe(document.getElementById("map"), { view: [[-10, 34], [44, 62]] });
+  const head = chrome(document.body, { kicker: "August 1914", title: "Two alliances", note: "Today's borders, for reference. In 1914 the empires held far more of the map." });
+  head.in(tl, 0.1);
+  const fillOn = (keys, color, at) => keys.forEach((k, i) => tl.to(m.paths[ISO[k]], { fill: color, duration: 0.5, ease: "power1.out" }, at + i * 0.05));
+  const A = 1.34, C = 5.02;
+  tl.to("#lg-a", { opacity: 1, duration: 0.4 }, A);
+  fillOn(["france"], "var(--allies)", 2.1);
+  fillOn(["uk", "ireland"], "var(--allies)", 2.76);
+  fillOn(["russia", "ukraine", "belarus", "finland", "estonia", "latvia", "lithuania"], "var(--allies)", 3.32);
+  fillOn(["serbia", "belgium", "montenegro"], "#4a6176", 3.32 + 0.4);
+  tl.to("#lg-c", { opacity: 1, duration: 0.4 }, C);
+  fillOn(["germany"], "var(--central)", 6.22);
+  fillOn(["austria", "hungary", "czechia", "slovakia", "slovenia", "croatia", "bosnia"], "var(--central)", 6.92);
+  fillOn(["turkey", "syria", "iraq", "lebanon", "jordan", "israel", "palestine"], "var(--central)", 9.06);
+  fillOn(["bulgaria"], "var(--central)", 10.26);
+  const labs = [[[2.4, 46.6], "FRANCE", 2.1], [[-1.8, 52.6], "BRITAIN", 2.76], [[36, 56.5], "RUSSIA", 3.32],
+    [[10.3, 51.0], "GERMANY", 6.22], [[18.5, 47.6], "AUSTRIA-HUNGARY", 6.92],
+    [[34, 39.2], "OTTOMAN EMPIRE", 9.06], [[25.3, 42.7], "BULGARIA", 10.26]];
+  for (const [ll, t, at] of labs) tl.to(label(m.overlay, m, ll, t, { size: 21, fill: "var(--paper)", ls: ".16em" }), { opacity: 1, duration: 0.4 }, at + 0.1);
+  tl.to({}, { duration: 14 }, 0);
+})();
+play(tl, { ready });
+</script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+/* The First World War: shared look for every page. */
+@font-face { font-family: "Playfair"; src: url("../fonts/PlayfairDisplay-700.woff2") format("woff2"); font-weight: 700; }
+@font-face { font-family: "Playfair"; src: url("../fonts/PlayfairDisplay-900.woff2") format("woff2"); font-weight: 900; }
+@font-face { font-family: "Playfair"; src: url("../fonts/PlayfairDisplay-400i.woff2") format("woff2"); font-weight: 400; font-style: italic; }
+@font-face { font-family: "Inter"; src: url("../fonts/Inter-400.woff2") format("woff2"); font-weight: 400; }
+@font-face { font-family: "Inter Tight"; src: url("../fonts/InterTight-700.woff2") format("woff2"); font-weight: 700; }
+@font-face { font-family: "Mono"; src: url("../fonts/JetBrainsMono-400.woff2") format("woff2"); font-weight: 400; }
+
+:root {
+  --ink: #0c0b09;        /* night, card ground */
+  --ground: #15130f;     /* map ground */
+  --paper: #ece4d2;      /* text */
+  --dim: #8d8473;        /* small labels, rules */
+  --line: #3a352c;       /* borders, graticule */
+  --poppy: #b8322a;      /* the one accent: rules, pins, the front */
+  --allies: #5d7f9e;
+  --central: #8e3a2c;
+  --land: #2a2620;
+  --land-hi: #3b352c;
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html, body { width: 1920px; height: 1080px; overflow: hidden; background: transparent; }
+body { font-family: "Inter", sans-serif; color: var(--paper); }
+.serif { font-family: "Playfair", serif; }
+.mono { font-family: "Mono", monospace; }
+.label { font-family: "Inter Tight", sans-serif; font-weight: 700; text-transform: uppercase; letter-spacing: .14em; }
+.fill { position: absolute; inset: 0; }

@@ -1,0 +1,40 @@
+{{maphead}}
+<title>Spring 1918</title>
+</head>
+<body>
+<svg id="map"><defs><marker id="head" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="4" markerHeight="4" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#b8322a"/></marker></defs></svg>
+<script type="module">
+import { play, europe, pin, label, line, chrome } from "./lib/fw.js";
+const tl = gsap.timeline({ paused: true });
+const ready = (async () => {
+  const m = await europe(document.getElementById("map"), { view: [[0.2, 48.45], [5.4, 50.95]] });
+  const head = chrome(document.body, { kicker: "March – July 1918", title: "Germany's last offensive", note: "Lines approximate." });
+  head.in(tl, 0.1);
+  const before = [[2.78, 50.29], [3.1, 50.1], [3.29, 49.85], [3.37, 49.66], [3.6, 49.44], [4.03, 49.25]];
+  const after = [[2.78, 50.29], [2.65, 50.0], [2.52, 49.87], [2.57, 49.65], [2.95, 49.5], [3.15, 49.38], [3.4, 49.05], [3.75, 49.1], [4.03, 49.25]];
+  const area = d3.select(m.overlay).append("path")
+    .attr("d", "M" + [...before, ...after.slice().reverse()].map(m.project).join("L") + "Z")
+    .attr("fill", "var(--poppy)").attr("fill-opacity", 0.22).style("opacity", 0).node();
+  const old = line(m.overlay, m, before, { stroke: "var(--dim)", "stroke-width": 4, "stroke-dasharray": "0" });
+  const nw = line(m.overlay, m, after, { stroke: "var(--poppy)", "stroke-width": 5, "stroke-linecap": "round" });
+  const arrows = [[[3.25, 49.95], [2.75, 49.85]], [[3.4, 49.6], [2.85, 49.55]], [[3.7, 49.35], [3.45, 49.12]]]
+    .map((p) => line(m.overlay, m, p, { stroke: "var(--poppy)", "stroke-width": 7, "stroke-linecap": "round", "marker-end": "url(#head)" }));
+  const pins = [pin(m.overlay, m, [2.30, 49.89], "Amiens", { size: 26, dx: -16, anchor: "end" }),
+    pin(m.overlay, m, [2.35, 48.86], "Paris", { size: 26, dx: -16, anchor: "end" }),
+    pin(m.overlay, m, [4.03, 49.25], "Reims", { size: 22 })];
+  const l1 = label(m.overlay, m, [3.65, 50.2], "FRONT, EARLY 1918", { size: 15, ls: ".14em" });
+  const l2 = label(m.overlay, m, [1.75, 49.45], "JULY 1918", { size: 15, ls: ".14em", fill: "var(--poppy)" });
+  tl.to(old, { strokeDashoffset: 0, duration: 1.2, ease: "power1.inOut" }, 0.4);
+  tl.to([...pins.map((p) => p.g), l1], { opacity: 1, duration: 0.5 }, 0.8);
+  const O = {{cue:offensive}};
+  arrows.forEach((a, i) => tl.to(a, { strokeDashoffset: 0, duration: 1.1, ease: "power2.out" }, O + i * 0.15));
+  tl.to(nw, { strokeDashoffset: 0, duration: 2.6, ease: "power1.inOut" }, O + 0.4);
+  tl.to(area, { opacity: 1, duration: 1.6 }, O + 0.8);
+  tl.to(l2, { opacity: 1, duration: 0.4 }, O + 2.2);
+  tl.to(arrows, { opacity: 0.25, duration: 0.8 }, {{cue:ran}});
+  tl.to({}, { duration: 12 }, 0);
+})();
+play(tl, { ready });
+</script>
+</body>
+</html>

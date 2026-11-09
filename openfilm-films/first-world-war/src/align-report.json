@@ -1,0 +1,102 @@
+{
+ "s01": {
+  "heard": "In the summer of 1914, Europe's soldiers marched off, expecting a short war. Many were told they would be home by Christmas.",
+  "matched": 0.9130434782608695
+ },
+ "s02": {
+  "heard": "Instead, the war lasted more than four years. It killed somewhere between 15 and 22 million people.",
+  "matched": 0.8823529411764706
+ },
+ "s03": {
+  "heard": "On 28 June 1914, Archduke -France Ferdinand, ear to the throne of Austria -Hungary, was driven through Sarajevo with his wife Sophie.",
+  "matched": 0.6666666666666666
+ },
+ "s04": {
+  "heard": "A 19 -year -old Bosnian Serb named Gavrilo Princip stepped up to the car and shot them both at close range.",
+  "matched": 0.9473684210526315
+ },
+ "s05": {
+  "heard": "Austria -Hungary blamed Serbia and declared war on the 28th of July. Russia mobilized to defend Serbia. Germany declared war on Russia and then on France. And when German troops marched into neutral Belgium, Britain declared war on Germany on the 4th of August.",
+  "matched": 0.9069767441860465
+ },
+ "s06": {
+  "heard": "On one side stood the Allies, France, Britain and Russia. On the other, the Central Powers, Germany and Austria -Hungary soon joined by the Ottoman Empire and Bulgaria.",
+  "matched": 0.9629629629629629
+ },
+ "s07": {
+  "heard": "Germany's plan was to knock France out fast, sweeping through Belgium before turning east to face Russia. Its armies came within 70 kilometres of Paris.",
+  "matched": 0.96
+ },
+ "s08": {
+  "heard": "But at the Battle of the Marne, in September, French and British troops forced them back. Paris even rushed soldiers to the front in some 600 taxis.",
+  "matched": 0.9285714285714286
+ },
+ "s09": {
+  "heard": "Both sides dug in. By the end of 1914, a line of trenches ran from the North Sea to the Swiss border. For three years, it would barely move.",
+  "matched": 0.9333333333333333
+ },
+ "s10": {
+  "heard": "Life in the trenches meant mud, rats, lice and constant shellfire. Between the lines lay no man's land, barbed wire, craters and the bodies of those who had tried to cross it.",
+  "matched": 1.0
+ },
+ "s11": {
+  "heard": "And yet at Christmas 1914, along parts of the front, the guns fell silent. Roughly 100 ,000 men joined an unofficial truce. They swapped gifts, sang carols, and in places even played football.",
+  "matched": 0.8571428571428571
+ },
+ "s12": {
+  "heard": "In April 1915, near Ypres, the German army released a cloud of chlorine gas over the Allied lines. Chemical weapons had arrived and soon every major army used them.",
+  "matched": 0.9333333333333333
+ },
+ "s13": {
+  "heard": "The war spread far beyond France. At Gallipoli, the Allies tried to knock the Ottoman Empire out of the war. After eight months of slaughter, they withdrew.",
+  "matched": 1.0
+ },
+ "s14": {
+  "heard": "In May 1915, a German U -boat sank the British line allucetania. Nearly 1 ,200 people died, about 128 of them American.",
+  "matched": 0.56
+ },
+ "s15": {
+  "heard": "1916 became the year of attrition. At Verdun, the Germans set out to bleed the French army dry. The battle lasted 302 days.",
+  "matched": 0.7777777777777778
+ },
+ "s16": {
+  "heard": "On the 1st of July, the British attacked at the Somme. By nightfall, they had suffered 57 ,000 casualties, 19 ,000 of them killed. It is still the bloodiest day in the history of the British Army.",
+  "matched": 0.8648648648648649
+ },
+ "s17": {
+  "heard": "The Somme also saw a new machine. In September 1916, tanks went into battle for the first time. By November, more than a million men had been killed or wounded there.",
+  "matched": 0.9375
+ },
+ "s18": {
+  "heard": "In 1917, Germany resumed unrestricted submarine warfare and a secret telegram revealed that it had offered Mexico an alliance against the United States. On the 6th of April, America declared war.",
+  "matched": 0.90625
+ },
+ "s19": {
+  "heard": "In Russia, revolution toppled the Tsar. The new Bolshevik government made a separate peace with Germany in March 1918.",
+  "matched": 0.9
+ },
+ "s20": {
+  "heard": "Freed from the east, Germany threw everything into one last offensive that spring. Its armies advanced nearly a hundred kilometers, then they ran out of men and supplies.",
+  "matched": 0.9642857142857143
+ },
+ "s21": {
+  "heard": "On the 8th of August, the Allies struck back at Amiens with more than 500 tanks, with fresh American troops pouring in, the 100 days offensive drove the German army back.",
+  "matched": 0.875
+ },
+ "s22": {
+  "heard": "Before dawn on the 11th of November, in a railway carriage in the forest of Compien, Germany signed an armistice. At 11 o 'clock that morning, the guns stopped. Even on that last day, more than 2 ,700 men were killed.",
+  "matched": 0.8095238095238095
+ },
+ "s23": {
+  "heard": "Some 60 million European soldiers had been mobilized. Between 9 and 11 million of them were dead, along with millions of civilians.",
+  "matched": 0.8181818181818182
+ },
+ "s24": {
+  "heard": "Four empires collapsed, the German, the Austro -Hungarian, the Russian, and the Ottoman. On 28 June 1919, five years to the day after Sarajevo, the Treaty of Versailles was signed.",
+  "matched": 0.8125
+ },
+ "s25": {
+  "heard": "They called it the war to end all wars. Barely 20 years later, Europe was at war again. But this first catastrophe had already redrawn the map of the world and changed the way nations fight forever.",
+  "matched": 0.9210526315789473
+ }
+}

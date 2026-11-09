@@ -1,0 +1,42 @@
+{{maphead}}
+<title>Four empires</title>
+</head>
+<body>
+<svg id="map"></svg>
+<script type="module">
+import { play, europe, ISO, label, chrome } from "./lib/fw.js";
+const tl = gsap.timeline({ paused: true });
+const ready = (async () => {
+  const m = await europe(document.getElementById("map"), { view: [[-6, 29], [50, 61]] });
+  const head = chrome(document.body, { kicker: "1917 – 1922", title: "Four empires fall", note: "Today's borders, roughly where each empire stood." });
+  head.in(tl, 0.1);
+  const groups = [
+    ["german", ["germany"], [10.3, 51.0], "GERMAN"],
+    ["austro-hungarian", ["austria", "hungary", "czechia", "slovakia", "slovenia", "croatia", "bosnia"], [17.6, 47.4], "AUSTRO-HUNGARIAN"],
+    ["russian", ["russia", "ukraine", "belarus", "finland", "estonia", "latvia", "lithuania", "moldova"], [33, 54.5], "RUSSIAN"],
+    ["ottoman", ["turkey", "syria", "iraq", "lebanon", "jordan", "israel", "palestine"], [35, 37.2], "OTTOMAN"],
+  ];
+  const cues = { german: {{cue:german}}, "austro-hungarian": {{cue:austro-hungarian}}, russian: {{cue:russian}}, ottoman: {{cue:ottoman}} };
+  const strikes = [];
+  for (const [k, keys, ll, name] of groups) {
+    const at = cues[k];
+    keys.forEach((c) => tl.to(m.paths[ISO[c]], { fill: "var(--central)", duration: 0.45 }, at));
+    const t = label(m.overlay, m, ll, name, { size: 22, fill: "var(--paper)", ls: ".16em" });
+    tl.to(t, { opacity: 1, duration: 0.35 }, at + 0.1);
+    const bb = { x: +t.getAttribute("x"), y: +t.getAttribute("y") };
+    const w = name.length * 15.5;
+    const s = d3.select(m.overlay).append("line").attr("x1", bb.x - w / 2).attr("x2", bb.x + w / 2).attr("y1", bb.y - 8).attr("y2", bb.y - 8)
+      .attr("stroke", "var(--poppy)").attr("stroke-width", 3).attr("stroke-dasharray", `${w} ${w}`).attr("stroke-dashoffset", w).node();
+    strikes.push([s, keys]);
+  }
+  const end = cues.ottoman + 1.0;
+  strikes.forEach(([s, keys], i) => {
+    tl.to(s, { attr: { "stroke-dashoffset": 0 }, duration: 0.35, ease: "power3.out" }, end + i * 0.18);
+    keys.forEach((c) => tl.to(m.paths[ISO[c]], { fill: "#3d2f28", duration: 0.6 }, end + i * 0.18));
+  });
+  tl.to({}, { duration: 9 }, 0);
+})();
+play(tl, { ready });
+</script>
+</body>
+</html>
