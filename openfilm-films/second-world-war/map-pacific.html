@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=1920, height=1080">
+<link rel="stylesheet" href="lib/fw.css">
+<script src="lib/gsap.min.js"></script>
+
+<script src="lib/d3.min.js"></script>
+<script src="lib/topojson-client.min.js"></script>
+<style>body { background: var(--ground); } svg { position: absolute; inset: 0; width: 1920px; height: 1080px; }</style>
+
+<title>Japan's empire</title>
+</head>
+<body>
+<svg id="map"></svg>
+<script type="module">
+import { play, europe, ISO, pin, label, chrome } from "./lib/fw.js";
+const tl = gsap.timeline({ paused: true });
+const ready = (async () => {
+  const m = await europe(document.getElementById("map"), { view: [[88, -14], [205, 52]], pacific: true });
+  const head = chrome(document.body, { kicker: "December 1941 – mid 1942", title: "Japan's empire", note: "Today's borders, roughly the furthest extent." });
+  head.in(tl, 0.1);
+  ["japan", "korea", "nkorea", "taiwan"].forEach((k) => (m.paths[ISO[k]].style.fill = "var(--japan)"));
+  const ph = pin(m.overlay, m, [-157.95, 21.35], "Pearl Harbor", { size: 24, dx: -14, anchor: "end" });
+  tl.to(ph.g, { opacity: 1, duration: 0.4 }, 0.5);
+  const jp = label(m.overlay, m, [139, 38.5], "JAPAN", { size: 18, ls: ".2em", fill: "var(--paper)" });
+  tl.to(jp, { opacity: 1, duration: 0.4 }, 0.6);
+  const steps = [
+    ["hong", ["hongkong"], [114.17, 22.3], "Hong Kong"],
+    ["malaya", ["malaysia", "brunei"], [101.5, 4.2], "Malaya"],
+    ["singapore", ["singapore"], [103.82, 1.35], "Singapore"],
+    ["philippines", ["philippines"], [122.0, 12.5], "Philippines"],
+    ["dutch", ["indonesia", "timor"], [114.0, -1.0], "Dutch East Indies"],
+  ];
+  for (const [cue, keys, ll, name] of steps) {
+    const at = { hong: 5.57, malaya: 6.41, singapore: 7.19, philippines: 7.93, dutch: 9.21 }[cue];
+    keys.forEach((k) => m.paths[ISO[k]] && tl.to(m.paths[ISO[k]], { fill: "var(--japan)", duration: 0.5 }, at));
+    const p = pin(m.overlay, m, ll, name, { size: 22 });
+    tl.to(p.g, { opacity: 1, duration: 0.35 }, at);
+  }
+  ["myanmar", "thailand", "vietnam", "laos", "cambodia", "png"].forEach((k, i) => tl.to(m.paths[ISO[k]], { fill: "#7a4c30", duration: 0.6 }, 9.21 + 0.8 + i * 0.08));
+  tl.to({}, { duration: 14 }, 0);
+})();
+play(tl, { ready });
+</script>
+</body>
+</html>

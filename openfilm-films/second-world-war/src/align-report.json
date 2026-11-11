@@ -1,0 +1,142 @@
+{
+ "s01": {
+  "heard": "On the 1st of September 1939, German forces invaded Poland. Over the next six years, war would reach almost every corner of the globe.",
+  "matched": 0.88
+ },
+ "s02": {
+  "heard": "It became the deadliest conflict in human history. Somewhere between 60 and 75 million people died, most of them civilians.",
+  "matched": 0.9
+ },
+ "s03": {
+  "heard": "The seeds were sown in the peace that ended the First World War. Germany lost territory, was made to accept the blame, and was ordered to pay vast reparations. Then the Great Depression threw millions out of work.",
+  "matched": 1.0
+ },
+ "s04": {
+  "heard": "into that despair stepped Adolf Hitler. In January 1933, he was appointed chancellor of Germany. Within months, he had swept aside democracy and made himself a dictator.",
+  "matched": 0.9285714285714286
+ },
+ "s05": {
+  "heard": "He re -armed and tested the world. In 1936, his troops marched into the Rhineland. In March 1938, Germany annexed Austria. That September, at Munich, Britain and France agreed to hand him part of Czechoslovakia.",
+  "matched": 0.8611111111111112
+ },
+ "s06": {
+  "heard": "Britain's Prime Minister, Neville Chamberlain, came home promising peace for our time. In March 1939, Hitler seized the rest of Czechoslovakia anyway.",
+  "matched": 0.9130434782608695
+ },
+ "s07": {
+  "heard": "Then in August, he signed a pact with the Soviet dictator Joseph Stalin. In a secret protocol, the two agreed to divide Poland between them. The road to war was open.",
+  "matched": 1.0
+ },
+ "s08": {
+  "heard": "On the 1st of September, Germany invaded Poland from the West. Two days later, Britain and France declared war. On the 17th, the Soviet Union invaded from the East. Within five weeks, Poland had fallen.",
+  "matched": 0.9428571428571428
+ },
+ "s09": {
+  "heard": "In the spring of 1940, Germany turned west. Denmark and Norway fell in April. In May, German armies poured into the Netherlands, Belgium and France, punching through the forests of the Ardennes.",
+  "matched": 0.9393939393939394
+ },
+ "s10": {
+  "heard": "Trapped against the sea at Dunkirk, more than 338 ,000 Allied soldiers were rescued by warships and a fleet of small boats.",
+  "matched": 0.8
+ },
+ "s11": {
+  "heard": "Paris fell on the 14th of June. Eight days later, France signed an armistice. In six weeks, Germany had defeated an army many believed was the strongest in Europe.",
+  "matched": 0.9655172413793104
+ },
+ "s12": {
+  "heard": "Britain now stood alone. That summer, the German Air Force tried to win control of the skies to clear the way for an invasion. In the Battle of Britain, the Royal Air Force held it off.",
+  "matched": 1.0
+ },
+ "s13": {
+  "heard": "So Germany bombed Britain's cities instead. The Blitz lasted from September 1940 to May 1941. More than 40 ,000 civilians were killed, but Britain did not surrender.",
+  "matched": 0.7931034482758621
+ },
+ "s14": {
+  "heard": "On the 22nd of June, 1941, Hitler turned on Stalin. More than 3 .8 million Axis troops invaded the Soviet Union, along a front nearly 3 ,000 kilometers long.",
+  "matched": 0.7096774193548387
+ },
+ "s15": {
+  "heard": "They drove deep into Soviet territory and reached the edge of Moscow. But in December, in bitter cold, the Red Army struck back and pushed them away from the capital.",
+  "matched": 1.0
+ },
+ "s16": {
+  "heard": "That same month, on the 7th of December, Japan attacked the American naval base at Pearl Harbor in Hawaii. 2 ,403 Americans were killed. The next day, the United States declared war on Japan. Three days later, Germany and Italy declared war on the United States.",
+  "matched": 0.86
+ },
+ "s17": {
+  "heard": "Within months, Japan had seized a vast empire across Asia and the Pacific, Hong Kong, Malaya, Singapore, the Philippines and the Dutch East Indies.",
+  "matched": 1.0
+ },
+ "s18": {
+  "heard": "In occupied Europe, the Nazis carried out the Holocaust, the systematic murder of around 6 million Jews two -thirds of Europe's Jewish population. At Auschwitz alone, more than a million people were killed.",
+  "matched": 0.9696969696969697
+ },
+ "s19": {
+  "heard": "In June 1942, at the Battle of Midway, American aircraft sank four Japanese aircraft carriers. Japan's Navy never recovered.",
+  "matched": 0.9
+ },
+ "s20": {
+  "heard": "In North Africa, British and Commonwealth forces defeated the German and Italian armies at El Alamin in November 1942.",
+  "matched": 0.85
+ },
+ "s21": {
+  "heard": "But the turning point came at Stalingrad, for months German and Soviet soldiers fought street by street. In February 1943 the trapped German 6th Army surrendered. Around 91 ,000 men were taken prisoner, most of them never came home.",
+  "matched": 0.875
+ },
+ "s22": {
+  "heard": "That summer at Kursk, the Soviets broke Germany's last great offensive in the east. In the west, the Allies landed in Sicily, and then in Italy, Mussolini was overthrown.",
+  "matched": 1.0
+ },
+ "s23": {
+  "heard": "Meanwhile, American factories were outproducing the Axis, and night after night, Allied bombers struck at the cities of Germany.",
+  "matched": 1.0
+ },
+ "s24": {
+  "heard": "On the 6th of June 1944 came D -Day, the largest seaborn invasion in history. Nearly 160 ,000 Allied troops crossed the English Channel to Normandy.",
+  "matched": 0.6551724137931034
+ },
+ "s25": {
+  "heard": "Americans landed at Utah and Omaha, the British at Gold and Sword, and the Canadians at Juno. By nightfall, the Allies had a foothold in France.",
+  "matched": 1.0
+ },
+ "s26": {
+  "heard": "In the East, that same month, the Red Army smashed 28 divisions of Germany's Army Group Center and swept West towards Germany. In August, Paris was liberated.",
+  "matched": 0.9259259259259259
+ },
+ "s27": {
+  "heard": "In December, Hitler gambled on one last attack in the Ardennes, the Battle of the Bulge. It failed.",
+  "matched": 1.0
+ },
+ "s28": {
+  "heard": "As the Allies closed in, they uncovered the full horror of the Nazi camps. In April 1945, Soviet troops fought their way into Berlin. On the 30th, Hitler took his own life.",
+  "matched": 0.9090909090909091
+ },
+ "s29": {
+  "heard": "On the 8th of May, Germany's surrender took effect. In Moscow, where it was already passed midnight, they celebrated on the 9th. In Europe, the war was over.",
+  "matched": 0.8928571428571429
+ },
+ "s30": {
+  "heard": "In the Pacific, the fighting went on, island by island, with terrible losses on both sides.",
+  "matched": 1.0
+ },
+ "s31": {
+  "heard": "On the 6th of August, 1945, the United States dropped an atomic bomb on Hiroshima. Two days later, the Soviet Union declared war on Japan. And on the 9th, a second bomb destroyed Nagasaki. Together, they killed at least 150 ,000 people.",
+  "matched": 0.8043478260869565
+ },
+ "s32": {
+  "heard": "Japan announced its surrender on the 15th of August. On the 2nd of September aboard the battleship USS Missouri, it was signed. The Second World War was over.",
+  "matched": 0.9285714285714286
+ },
+ "s33": {
+  "heard": "Between 60 and 75 million people had died, about 3 % of everyone alive in 1940.",
+  "matched": 0.6470588235294118
+ },
+ "s34": {
+  "heard": "From the ruins came a new world. The United Nations founded to stop such a war from happening again and two superpowers, America and the Soviet Union, whose rivalry would shape the next half century.",
+  "matched": 1.0
+ },
+ "s35": {
+  "heard": "Those who lived through it often called it simply the war. Its shadow still falls across the world we live in today.",
+  "matched": 1.0
+ }
+}

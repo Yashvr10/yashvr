@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=1920, height=1080">
+<link rel="stylesheet" href="lib/fw.css">
+<script src="lib/gsap.min.js"></script>
+
+<title>The Ardennes</title>
+<style>
+  /* From the HyperFrames registry block lt-kicker-name, restyled: a date tag drops in, the place slams up, a rule draws. */
+  #lt { position: absolute; left: 112px; bottom: 112px; display: flex; flex-direction: column; align-items: flex-start; gap: 14px; }
+  #kickwrap { overflow: hidden; }
+  #kicker { display: inline-block; font-size: 22px; color: var(--paper); background: var(--poppy); padding: 6px 14px; letter-spacing: .12em; text-transform: uppercase; white-space: nowrap; }
+  #name { font-size: 62px; font-weight: 700; line-height: 1; white-space: nowrap; text-shadow: 0 2px 24px rgba(0,0,0,.75), 0 0 2px rgba(0,0,0,.6); }
+  #baseline { height: 4px; width: 100%; background: var(--poppy); transform-origin: 0% 50%; }
+</style>
+</head>
+<body>
+<div id="lt">
+  <div id="kickwrap"><span id="kicker" class="mono">December 1944</span></div>
+  <div id="name" class="serif">The Ardennes</div>
+  <div id="baseline"></div>
+</div>
+<script type="module">
+import { play } from "./lib/fw.js";
+const L = 5.2;
+const tl = gsap.timeline({ paused: true });
+gsap.set("#kicker", { y: -44 });
+gsap.set("#name", { y: 34, opacity: 0 });
+gsap.set("#baseline", { scaleX: 0 });
+tl.to("#kicker", { y: 0, duration: 0.42, ease: "back.out(2)" }, 0.1);
+tl.to("#name", { y: 0, opacity: 1, duration: 0.45, ease: "back.out(1.5)" }, 0.32);
+tl.to("#baseline", { scaleX: 1, duration: 0.5, ease: "power4.out" }, 0.5);
+tl.to("#baseline", { scaleX: 0, duration: 0.3, ease: "power2.in" }, L - 0.55);
+tl.to("#name", { y: -16, opacity: 0, duration: 0.32, ease: "power2.in" }, L - 0.5);
+tl.to("#kicker", { y: -44, duration: 0.3, ease: "power2.in" }, L - 0.48);
+tl.to({}, { duration: L }, 0);
+play(tl, { duration: L });
+</script>
+</body>
+</html>

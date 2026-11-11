@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=1920, height=1080">
+<link rel="stylesheet" href="lib/fw.css">
+<script src="lib/gsap.min.js"></script>
+
+<script src="lib/d3.min.js"></script>
+<script src="lib/topojson-client.min.js"></script>
+<style>body { background: var(--ground); } svg { position: absolute; inset: 0; width: 1920px; height: 1080px; }</style>
+
+<title>Barbarossa</title>
+</head>
+<body>
+<svg id="map"><defs><marker id="head" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="3.6" markerHeight="3.6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#b8322a"/></marker></defs></svg>
+<script type="module">
+import { play, europe, ISO, pin, label, line, chrome } from "./lib/fw.js";
+const tl = gsap.timeline({ paused: true });
+const ready = (async () => {
+  const m = await europe(document.getElementById("map"), { view: [[12, 43], [48, 62]] });
+  ["russia", "belarus", "ukraine", "lithuania", "latvia", "estonia", "moldova"].forEach((k) => (m.paths[ISO[k]].style.fill = "#3c3446"));
+  m.paths[ISO.germany].style.fill = "var(--central)"; m.paths[ISO.poland].style.fill = "#5a2e26";
+  const head = chrome(document.body, { kicker: "22 June 1941", title: "Operation Barbarossa", note: "Today's borders. Routes simplified." });
+  head.in(tl, 0.1);
+  const front = line(m.overlay, m, [[21.2, 55.7], [22.9, 54.4], [23.9, 53.6], [23.7, 52.1], [24.0, 50.9], [23.4, 50.3], [22.7, 49.2], [24.6, 48.0], [26.6, 48.3], [28.2, 46.6], [28.2, 45.5], [29.7, 45.3]],
+    { stroke: "var(--paper)", "stroke-width": 3, "stroke-dasharray": "0" });
+  const thrusts = [
+    [[21.5, 55.2], [24.1, 56.9], [27.0, 58.2], [30.3, 59.9]],
+    [[23.7, 52.4], [27.6, 53.9], [32.0, 54.8], [36.6, 55.6]],
+    [[24.0, 50.6], [27.0, 50.4], [30.5, 50.45], [34.5, 48.6]],
+  ].map((p) => line(m.overlay, m, p, { stroke: "var(--poppy)", "stroke-width": 11, "stroke-linecap": "round", "marker-end": "url(#head)" }));
+  const pins = [[[30.3, 59.94], "Leningrad"], [[37.62, 55.75], "Moscow"], [[30.52, 50.45], "Kiev"]].map(([ll, t]) => pin(m.overlay, m, ll, t, { size: 30 }));
+  tl.to(pins.map((p) => p.g), { opacity: 1, duration: 0.4, stagger: 0.15 }, 0.6);
+  const I = 7.91, F = 10.81;
+  thrusts.forEach((a, i) => tl.to(a, { strokeDashoffset: 0, duration: 2.6, ease: "power2.inOut" }, I + i * 0.25));
+  tl.to(front, { strokeDashoffset: 0, duration: 1.8, ease: "power1.inOut" }, F - 0.3);
+  const fl = label(m.overlay, m, [20.0, 47.3], "≈ 2,900 KM FRONT", { size: 17, ls: ".12em", fill: "var(--paper)" });
+  tl.to(fl, { opacity: 1, duration: 0.4 }, F + 0.8);
+  tl.to({}, { duration: 16 }, 0);
+})();
+play(tl, { ready });
+</script>
+</body>
+</html>

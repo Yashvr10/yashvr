@@ -1,0 +1,517 @@
+{
+ "voice": "bm_george",
+ "speed": 1.0,
+ "gap": 0.55,
+ "scenes": [
+  {
+   "id": "s01",
+   "text": "On the first of September, nineteen thirty-nine, German forces invaded Poland. Over the next six years, war would reach almost every corner of the globe.",
+   "visuals": [
+    {
+     "photo": "poland-1939",
+     "kb": "in",
+     "focus": "50% 50%"
+    }
+   ]
+  },
+  {
+   "id": "s02",
+   "text": "It became the deadliest conflict in human history. Somewhere between sixty and seventy-five million people died, most of them civilians.",
+   "visuals": [
+    {
+     "photo": "warsaw-ruins",
+     "kb": "left",
+     "focus": "50% 50%"
+    }
+   ]
+  },
+  {
+   "id": "title",
+   "card": "title",
+   "len": 6.0
+  },
+  {
+   "id": "ch1",
+   "card": "chapter",
+   "num": "I",
+   "title": "The Road to War",
+   "len": 3.2
+  },
+  {
+   "id": "s03",
+   "text": "The seeds were sown in the peace that ended the First World War. Germany lost territory, was made to accept the blame, and was ordered to pay vast reparations. Then the Great Depression threw millions out of work.",
+   "visuals": [
+    {
+     "photo": "breadline",
+     "kb": "right",
+     "focus": "50% 50%"
+    }
+   ]
+  },
+  {
+   "id": "s04",
+   "text": "Into that despair stepped Adolf Hitler. In January nineteen thirty-three, he was appointed chancellor of Germany. Within months, he had swept aside democracy and made himself a dictator.",
+   "visuals": [
+    {
+     "photo": "hitler-1933",
+     "kb": "in",
+     "focus": "50% 40%",
+     "lt": [
+      "Berlin",
+      "30 January 1933"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s05",
+   "text": "He rearmed, and tested the world. In nineteen thirty-six, his troops marched into the Rhineland. In March nineteen thirty-eight, Germany annexed Austria. That September, at Munich, Britain and France agreed to hand him part of Czechoslovakia.",
+   "visuals": [
+    {
+     "page": "road"
+    }
+   ]
+  },
+  {
+   "id": "s06",
+   "text": "Britain's prime minister, Neville Chamberlain, came home promising peace for our time. In March nineteen thirty-nine, Hitler seized the rest of Czechoslovakia anyway.",
+   "visuals": [
+    {
+     "photo": "chamberlain",
+     "kb": "in",
+     "focus": "50% 45%",
+     "lt": [
+      "Heston Aerodrome",
+      "30 September 1938"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s07",
+   "text": "Then, in August, he signed a pact with the Soviet dictator, Joseph Stalin. In a secret protocol, the two agreed to divide Poland between them. The road to war was open.",
+   "visuals": [
+    {
+     "page": "map-pact"
+    }
+   ]
+  },
+  {
+   "id": "ch2",
+   "card": "chapter",
+   "num": "II",
+   "title": "Lightning War",
+   "len": 3.2
+  },
+  {
+   "id": "s08",
+   "text": "On the first of September, Germany invaded Poland from the west. Two days later, Britain and France declared war. On the seventeenth, the Soviet Union invaded from the east. Within five weeks, Poland had fallen.",
+   "visuals": [
+    {
+     "page": "map-poland"
+    }
+   ]
+  },
+  {
+   "id": "s09",
+   "text": "In the spring of nineteen forty, Germany turned west. Denmark and Norway fell in April. In May, German armies poured into the Netherlands, Belgium and France, punching through the forests of the Ardennes.",
+   "visuals": [
+    {
+     "page": "map-france"
+    }
+   ]
+  },
+  {
+   "id": "s10",
+   "text": "Trapped against the sea at Dunkirk, more than three hundred and thirty-eight thousand Allied soldiers were rescued by warships and a fleet of small boats.",
+   "visuals": [
+    {
+     "photo": "dunkirk",
+     "kb": "left",
+     "focus": "50% 50%",
+     "lt": [
+      "Dunkirk",
+      "26 May to 4 June 1940"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s11",
+   "text": "Paris fell on the fourteenth of June. Eight days later, France signed an armistice. In six weeks, Germany had defeated an army many believed was the strongest in Europe.",
+   "visuals": [
+    {
+     "photo": "paris-1940",
+     "kb": "right",
+     "focus": "50% 50%",
+     "lt": [
+      "Paris",
+      "June 1940"
+     ],
+     "framed": true
+    }
+   ]
+  },
+  {
+   "id": "s12",
+   "text": "Britain now stood alone. That summer, the German air force tried to win control of the skies, to clear the way for an invasion. In the Battle of Britain, the Royal Air Force held it off.",
+   "visuals": [
+    {
+     "photo": "spitfire",
+     "kb": "left",
+     "focus": "50% 50%",
+     "lt": [
+      "Battle of Britain",
+      "July to October 1940"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s13",
+   "text": "So Germany bombed Britain's cities instead. The Blitz lasted from September nineteen forty to May nineteen forty-one. More than forty thousand civilians were killed. But Britain did not surrender.",
+   "visuals": [
+    {
+     "photo": "st-pauls",
+     "kb": "in",
+     "focus": "50% 30%",
+     "lt": [
+      "London",
+      "The Blitz, 1940 to 1941"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ch3",
+   "card": "chapter",
+   "num": "III",
+   "title": "A World at War",
+   "len": 3.2
+  },
+  {
+   "id": "s14",
+   "text": "On the twenty-second of June, nineteen forty-one, Hitler turned on Stalin. More than three point eight million Axis troops invaded the Soviet Union, along a front nearly three thousand kilometres long.",
+   "visuals": [
+    {
+     "page": "map-barbarossa"
+    }
+   ]
+  },
+  {
+   "id": "s15",
+   "text": "They drove deep into Soviet territory and reached the edge of Moscow. But in December, in bitter cold, the Red Army struck back, and pushed them away from the capital.",
+   "visuals": [
+    {
+     "photo": "eastern-front",
+     "kb": "right",
+     "focus": "50% 50%",
+     "lt": [
+      "The Eastern Front",
+      "1941"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s16",
+   "text": "That same month, on the seventh of December, Japan attacked the American naval base at Pearl Harbor, in Hawaii. Two thousand four hundred and three Americans were killed. The next day, the United States declared war on Japan. Three days later, Germany and Italy declared war on the United States.",
+   "visuals": [
+    {
+     "photo": "pearl-harbor",
+     "kb": "in",
+     "focus": "50% 50%",
+     "lt": [
+      "Pearl Harbor, Hawaii",
+      "7 December 1941"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s17",
+   "text": "Within months, Japan had seized a vast empire across Asia and the Pacific: Hong Kong, Malaya, Singapore, the Philippines, and the Dutch East Indies.",
+   "visuals": [
+    {
+     "page": "map-pacific"
+    }
+   ]
+  },
+  {
+   "id": "s18",
+   "text": "In occupied Europe, the Nazis carried out the Holocaust: the systematic murder of around six million Jews, two thirds of Europe's Jewish population. At Auschwitz alone, more than a million people were killed.",
+   "visuals": [
+    {
+     "photo": "auschwitz",
+     "kb": "in",
+     "focus": "50% 50%",
+     "w": 0.55
+    },
+    {
+     "page": "stat-holocaust",
+     "cut": "around",
+     "w": 0.45
+    }
+   ]
+  },
+  {
+   "id": "ch4",
+   "card": "chapter",
+   "num": "IV",
+   "title": "The Tide Turns",
+   "len": 3.2
+  },
+  {
+   "id": "s19",
+   "text": "In June nineteen forty-two, at the Battle of Midway, American aircraft sank four Japanese aircraft carriers. Japan's navy never recovered.",
+   "visuals": [
+    {
+     "photo": "midway",
+     "kb": "left",
+     "focus": "50% 50%",
+     "lt": [
+      "Midway",
+      "June 1942"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s20",
+   "text": "In North Africa, British and Commonwealth forces defeated the German and Italian armies at El Alamein, in November nineteen forty-two.",
+   "visuals": [
+    {
+     "photo": "el-alamein",
+     "kb": "right",
+     "focus": "50% 50%",
+     "lt": [
+      "El Alamein, Egypt",
+      "23 October to 4 November 1942"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s21",
+   "text": "But the turning point came at Stalingrad. For months, German and Soviet soldiers fought street by street. In February nineteen forty-three, the trapped German Sixth Army surrendered. Around ninety-one thousand men were taken prisoner. Most of them never came home.",
+   "visuals": [
+    {
+     "photo": "stalingrad",
+     "kb": "in",
+     "focus": "50% 50%",
+     "w": 0.6,
+     "lt": [
+      "Stalingrad",
+      "German officers after the surrender, 1943"
+     ]
+    },
+    {
+     "page": "stat-stalingrad",
+     "cut": "around",
+     "w": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s22",
+   "text": "That summer, at Kursk, the Soviets broke Germany's last great offensive in the east. In the west, the Allies landed in Sicily, and then in Italy. Mussolini was overthrown.",
+   "visuals": [
+    {
+     "page": "map-1943"
+    }
+   ]
+  },
+  {
+   "id": "s23",
+   "text": "Meanwhile, American factories were out-producing the Axis. And night after night, Allied bombers struck at the cities of Germany.",
+   "visuals": [
+    {
+     "photo": "b17",
+     "kb": "left",
+     "focus": "50% 50%"
+    }
+   ]
+  },
+  {
+   "id": "ch5",
+   "card": "chapter",
+   "num": "V",
+   "title": "Endgame",
+   "len": 3.2
+  },
+  {
+   "id": "s24",
+   "text": "On the sixth of June, nineteen forty-four, came D-Day: the largest seaborne invasion in history. Nearly a hundred and sixty thousand Allied troops crossed the English Channel to Normandy.",
+   "visuals": [
+    {
+     "photo": "dday",
+     "kb": "in",
+     "focus": "50% 50%",
+     "lt": [
+      "Omaha Beach, Normandy",
+      "6 June 1944"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s25",
+   "text": "Americans landed at Utah and Omaha, the British at Gold and Sword, and the Canadians at Juno. By nightfall, the Allies had a foothold in France.",
+   "visuals": [
+    {
+     "page": "map-normandy"
+    }
+   ]
+  },
+  {
+   "id": "s26",
+   "text": "In the east, that same month, the Red Army smashed twenty-eight divisions of Germany's Army Group Centre, and swept west towards Germany. In August, Paris was liberated.",
+   "visuals": [
+    {
+     "photo": "paris-1944",
+     "kb": "right",
+     "focus": "50% 50%",
+     "lt": [
+      "Paris",
+      "25 August 1944"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s27",
+   "text": "In December, Hitler gambled on one last attack in the Ardennes: the Battle of the Bulge. It failed.",
+   "visuals": [
+    {
+     "photo": "bulge",
+     "kb": "left",
+     "focus": "50% 50%",
+     "lt": [
+      "The Ardennes",
+      "December 1944"
+     ],
+     "framed": true
+    }
+   ]
+  },
+  {
+   "id": "s28",
+   "text": "As the Allies closed in, they uncovered the full horror of the Nazi camps. In April nineteen forty-five, Soviet troops fought their way into Berlin. On the thirtieth, Hitler took his own life.",
+   "visuals": [
+    {
+     "photo": "berlin-1945",
+     "kb": "in",
+     "focus": "50% 50%",
+     "lt": [
+      "Berlin",
+      "April 1945"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s29",
+   "text": "On the eighth of May, Germany's surrender took effect. In Moscow, where it was already past midnight, they celebrated on the ninth. In Europe, the war was over.",
+   "visuals": [
+    {
+     "photo": "ve-day",
+     "kb": "right",
+     "focus": "50% 45%",
+     "leak": true,
+     "lt": [
+      "London",
+      "VE Day, 8 May 1945"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ch6",
+   "card": "chapter",
+   "num": "VI",
+   "title": "The Final Act",
+   "len": 3.2
+  },
+  {
+   "id": "s30",
+   "text": "In the Pacific, the fighting went on, island by island, with terrible losses on both sides.",
+   "visuals": [
+    {
+     "photo": "okinawa",
+     "kb": "left",
+     "focus": "50% 50%",
+     "lt": [
+      "Okinawa",
+      "1945"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s31",
+   "text": "On the sixth of August, nineteen forty-five, the United States dropped an atomic bomb on Hiroshima. Two days later, the Soviet Union declared war on Japan. And on the ninth, a second bomb destroyed Nagasaki. Together, they killed at least a hundred and fifty thousand people.",
+   "visuals": [
+    {
+     "photo": "hiroshima",
+     "kb": "out",
+     "focus": "50% 40%"
+    }
+   ]
+  },
+  {
+   "id": "s32",
+   "text": "Japan announced its surrender on the fifteenth of August. On the second of September, aboard the battleship USS Missouri, it was signed. The Second World War was over.",
+   "visuals": [
+    {
+     "photo": "missouri",
+     "kb": "in",
+     "focus": "50% 50%",
+     "lt": [
+      "USS Missouri, Tokyo Bay",
+      "2 September 1945"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s33",
+   "text": "Between sixty and seventy-five million people had died. About three percent of everyone alive in nineteen forty.",
+   "visuals": [
+    {
+     "page": "stat-toll"
+    }
+   ]
+  },
+  {
+   "id": "s34",
+   "text": "From the ruins came a new world: the United Nations, founded to stop such a war from happening again, and two superpowers, America and the Soviet Union, whose rivalry would shape the next half century.",
+   "visuals": [
+    {
+     "photo": "un",
+     "kb": "right",
+     "focus": "50% 50%",
+     "lt": [
+      "San Francisco",
+      "The UN Charter, 26 June 1945"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s35",
+   "text": "Those who lived through it often called it, simply, the war. Its shadow still falls across the world we live in today.",
+   "visuals": [
+    {
+     "photo": "cemetery",
+     "kb": "out",
+     "focus": "50% 55%"
+    }
+   ]
+  },
+  {
+   "id": "end",
+   "card": "end",
+   "len": 10.0
+  }
+ ]
+}

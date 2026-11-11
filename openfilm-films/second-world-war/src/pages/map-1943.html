@@ -1,0 +1,31 @@
+{{maphead}}
+<title>1943</title>
+</head>
+<body>
+<svg id="map"><defs><marker id="head" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="4" markerHeight="4" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#5d7f9e"/></marker></defs></svg>
+<script type="module">
+import { play, europe, ISO, pin, label, line, chrome } from "./lib/fw.js";
+const tl = gsap.timeline({ paused: true });
+const ready = (async () => {
+  const m = await europe(document.getElementById("map"), { view: [[-4, 33], [44, 58]] });
+  const head = chrome(document.body, { kicker: "Summer 1943", title: "The tide turns", note: "Today's borders. Routes simplified." });
+  head.in(tl, 0.1);
+  m.paths[ISO.germany].style.fill = "var(--central)";
+  m.paths[ISO.italy].style.fill = "#6b3a2e";
+  const K = {{cue:kursk}};
+  const kursk = pin(m.overlay, m, [36.19, 51.73], "Kursk", { size: 30, sub: "July 1943" });
+  tl.to(kursk.g, { opacity: 1, duration: 0.4 }, K - 0.2);
+  tl.fromTo(kursk.ring, { attr: { r: 10 } }, { attr: { r: 60 }, opacity: 0, duration: 1.4, ease: "power2.out" }, K);
+  const sic = line(m.overlay, m, [[10.2, 36.9], [12.3, 37.0], [13.8, 37.4]], { stroke: "var(--allies)", "stroke-width": 9, "stroke-linecap": "round", "marker-end": "url(#head)" });
+  const ita = line(m.overlay, m, [[15.6, 38.3], [16.0, 39.6], [15.4, 40.6]], { stroke: "var(--allies)", "stroke-width": 9, "stroke-linecap": "round", "marker-end": "url(#head)" });
+  tl.to(sic, { strokeDashoffset: 0, duration: 1.0, ease: "power2.out" }, {{cue:sicily}} - 0.2);
+  tl.to(ita, { strokeDashoffset: 0, duration: 1.0, ease: "power2.out" }, {{cue:italy}} - 0.2);
+  const rome = pin(m.overlay, m, [12.5, 41.9], "Rome", { size: 26, dx: -16, anchor: "end", sub: "Mussolini falls, July 1943" });
+  tl.to(rome.g, { opacity: 1, duration: 0.4 }, {{cue:mussolini}});
+  tl.to(m.paths[ISO.italy], { fill: "var(--land-hi)", duration: 0.8 }, {{cue:overthrown}});
+  tl.to({}, { duration: 12 }, 0);
+})();
+play(tl, { ready });
+</script>
+</body>
+</html>

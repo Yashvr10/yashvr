@@ -1,0 +1,46 @@
+{{maphead}}
+<title>Normandy</title>
+</head>
+<body>
+<svg id="map"><defs><marker id="head" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="4" markerHeight="4" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#ece4d2"/></marker></defs></svg>
+<script type="module">
+import { play, europe, pin, label, line, chrome } from "./lib/fw.js";
+const tl = gsap.timeline({ paused: true });
+const ready = (async () => {
+  const m = await europe(document.getElementById("map"), { view: [[-2.2, 48.75], [0.6, 50.1]] });
+  const head = chrome(document.body, { kicker: "6 June 1944", title: "Five beaches", note: "Beach positions approximate." });
+  head.in(tl, 0.1);
+  // Arrows are drawn straight down in screen space and end on this map's (coarse) coastline.
+  const beaches = [
+    ["utah", [-1.19, 49.40], "Utah", "US", "#7aa0c4"],
+    ["omaha", [-0.88, 49.355], "Omaha", "US", "#7aa0c4"],
+    ["gold", [-0.57, 49.30], "Gold", "UK", "var(--poppy)"],
+    ["juno", [-0.42, 49.28], "Juno", "CANADA", "#d9a441"],
+    ["sword", [-0.27, 49.25], "Sword", "UK", "var(--poppy)"],
+  ];
+  const cues = { utah: {{cue:utah}}, omaha: {{cue:omaha}}, gold: {{cue:gold}}, sword: {{cue:sword}}, juno: {{cue:juno}} };
+  const svg = d3.select(m.overlay);
+  beaches.forEach(([k, ll, name, who, col], i) => {
+    const [x, y] = m.project(ll), top = y - 190 - (i % 2) * 70;
+    const a = svg.append("path").attr("d", `M${x},${top + 18}L${x},${y - 6}`).attr("stroke", col).attr("stroke-width", 7)
+      .attr("stroke-linecap", "round").attr("marker-end", "url(#head)").attr("fill", "none").node();
+    const len = a.getTotalLength(); a.style.strokeDasharray = `${len} ${len}`; a.style.strokeDashoffset = len;
+    const t = svg.append("text").attr("x", x).attr("y", top - 22).attr("text-anchor", "middle").attr("class", "label")
+      .attr("font-size", 26).attr("fill", col).attr("letter-spacing", ".14em").style("opacity", 0).text(name.toUpperCase()).node();
+    const w = svg.append("text").attr("x", x).attr("y", top + 4).attr("text-anchor", "middle").attr("class", "label")
+      .attr("font-size", 14).attr("fill", "var(--dim)").attr("letter-spacing", ".2em").style("opacity", 0).text(who).node();
+    tl.to(a, { strokeDashoffset: 0, duration: 0.8, ease: "power2.out" }, cues[k] - 0.1);
+    tl.to([t, w], { opacity: 1, duration: 0.35 }, cues[k]);
+  });
+  const caen = pin(m.overlay, m, [-0.37, 49.18], "Caen", { size: 22, dx: 14 });
+  const bay = pin(m.overlay, m, [-0.70, 49.28], "Bayeux", { size: 22, dx: -14, anchor: "end" });
+  tl.to([caen.g, bay.g], { opacity: 1, duration: 0.4 }, 0.6);
+  const N = {{cue:nightfall}};
+  const head2 = label(m.overlay, m, [-0.75, 48.95], "A FOOTHOLD IN FRANCE", { size: 22, fill: "var(--paper)", ls: ".2em" });
+  tl.to(head2, { opacity: 1, duration: 0.5 }, N + 0.2);
+  tl.to({}, { duration: 12 }, 0);
+})();
+play(tl, { ready });
+</script>
+</body>
+</html>

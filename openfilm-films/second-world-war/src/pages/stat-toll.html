@@ -1,0 +1,36 @@
+{{head}}
+<title>The toll</title>
+<style>
+  body { background: var(--ink); }
+  #wrap { position: absolute; left: 0; right: 0; top: 280px; text-align: center; }
+  #n { font-size: 200px; font-weight: 900; line-height: 1.1; }
+  #u { font-size: 30px; color: var(--dim); margin-top: 16px; }
+  #p { margin-top: 80px; opacity: 0; }
+  #pn { font-size: 120px; font-weight: 900; color: var(--poppy); display: inline-block; }
+  #pu { font-size: 28px; color: var(--dim); }
+  #src { position: absolute; left: 0; right: 0; bottom: 60px; text-align: center; font-size: 18px; color: var(--dim); opacity: 0; }
+</style>
+</head>
+<body>
+<div id="wrap">
+  <div id="n" class="serif"><span id="a">0</span> – <span id="b">0</span> million</div>
+  <div id="u" class="label">dead</div>
+  <div id="p"><span id="pn" class="serif">0%</span><div id="pu" class="label">of the world's people in 1940</div></div>
+</div>
+<div id="src" class="mono">Estimates vary between sources.</div>
+<script type="module">
+import { play, countUp } from "./lib/fw.js";
+const tl = gsap.timeline({ paused: true });
+gsap.set("#wrap", { opacity: 0, y: 20 });
+tl.to("#wrap", { opacity: 1, y: 0, duration: 0.5, ease: "power3.out" }, 0.1);
+const A = {{cue:sixty}};
+countUp(tl, "#a", { to: 60, at: Math.max(0.3, A - 0.2), dur: 1.0 });
+countUp(tl, "#b", { to: 75, at: Math.max(0.5, A + 0.3), dur: 1.1 });
+tl.to("#p", { opacity: 1, duration: 0.4 }, {{cue:three}} - 0.3);
+countUp(tl, "#pn", { to: 3, at: {{cue:three}} - 0.2, dur: 0.8, format: (v) => Math.round(v) + "%" });
+tl.to("#src", { opacity: 1, duration: 0.5 }, {{cue:three}} + 1);
+tl.to({}, { duration: 10 }, 0);
+play(tl, { ready: Promise.resolve() });
+</script>
+</body>
+</html>

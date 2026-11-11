@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=1920, height=1080">
+<link rel="stylesheet" href="lib/fw.css">
+<script src="lib/gsap.min.js"></script>
+
+<title>Testing the world</title>
+<style>
+  body { background: var(--ink); }
+  #track { position: absolute; left: 240px; right: 240px; top: 600px; height: 3px; background: var(--line); }
+  #fill { position: absolute; left: 0; top: 0; height: 3px; width: 100%; background: var(--poppy); transform-origin: 0 50%; }
+  .stop { position: absolute; top: 600px; width: 440px; margin-left: -220px; text-align: center; opacity: 0; }
+  .dot { width: 22px; height: 22px; border-radius: 50%; background: var(--poppy); margin: -10px auto 0; }
+  .date { font-size: 26px; color: var(--poppy); margin-top: 26px; letter-spacing: .08em; }
+  .what { font-size: 46px; font-weight: 700; margin-top: 10px; line-height: 1.1; }
+  .sub { font-size: 22px; color: var(--dim); margin-top: 10px; }
+</style>
+</head>
+<body>
+<div style="position:absolute;left:240px;top:150px">
+  <div class="label" style="font-size:22px;color:var(--poppy)">1936 – 1938</div>
+  <div class="serif" style="font-size:72px;font-weight:700;margin-top:10px">Testing the world</div>
+</div>
+<div id="track"><div id="fill"></div></div>
+<div class="stop" id="a" style="left:400px"><div class="dot"></div><div class="date mono">7 MARCH 1936</div><div class="what serif">The Rhineland</div><div class="sub">troops march in</div></div>
+<div class="stop" id="b" style="left:960px"><div class="dot"></div><div class="date mono">12 MARCH 1938</div><div class="what serif">Austria</div><div class="sub">annexed</div></div>
+<div class="stop" id="c" style="left:1520px"><div class="dot"></div><div class="date mono">30 SEPTEMBER 1938</div><div class="what serif">Munich</div><div class="sub">the Sudetenland handed over</div></div>
+<script type="module">
+import { play } from "./lib/fw.js";
+const tl = gsap.timeline({ paused: true });
+gsap.set("#fill", { scaleX: 0 });
+gsap.set(".stop", { y: 26 });
+const cues = [5.61, 9.31, 11.79];
+cues.forEach((c, i) => {
+  tl.to("#fill", { scaleX: [0.18, 0.5, 0.82][i], duration: 0.7, ease: "power2.inOut" }, c - 0.5);
+  tl.to(["#a", "#b", "#c"][i], { opacity: 1, y: 0, duration: 0.5, ease: "power3.out" }, c - 0.1);
+});
+tl.to("#fill", { scaleX: 1, duration: 3, ease: "none" }, cues[2] + 0.8);
+tl.to({}, { duration: 20 }, 0);
+play(tl, { ready: Promise.resolve() });
+</script>
+</body>
+</html>

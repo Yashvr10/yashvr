@@ -1,0 +1,218 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=1920, height=1080">
+<title>The First World War</title>
+<style>
+  /* Photographs fill the frame; a slow move over each (Ken Burns), timed to the clip with --clip-length. */
+  .photo { object-fit: cover; }
+  .print { object-fit: cover; border: 14px solid #e9e2d2; box-shadow: 0 30px 80px rgba(0,0,0,.6); }
+  .archival { filter: grayscale(1) sepia(.22) contrast(1.08) brightness(.94); }
+  .painted { filter: saturate(.78) contrast(1.04) brightness(.95); }
+  .colour { filter: saturate(.7) sepia(.15) contrast(1.05); }
+  @keyframes kb-in { from { scale: 1.02 } to { scale: 1.13 } }
+  @keyframes kb-out { from { scale: 1.14 } to { scale: 1.02 } }
+  @keyframes kb-left { from { scale: 1.12; translate: 2.4% 0 } to { scale: 1.12; translate: -2.4% 0 } }
+  @keyframes kb-right { from { scale: 1.12; translate: -2.4% 0 } to { scale: 1.12; translate: 2.4% 0 } }
+  @keyframes kb-up { from { scale: 1.14; translate: 0 3% } to { scale: 1.14; translate: 0 -3% } }
+  @keyframes kb-down { from { scale: 1.14; translate: 0 -3% } to { scale: 1.14; translate: 0 3% } }
+  .kb-in { animation: kb-in var(--clip-length) linear both; }
+  .kb-out { animation: kb-out var(--clip-length) linear both; }
+  .kb-left { animation: kb-left var(--clip-length) linear both; }
+  .kb-right { animation: kb-right var(--clip-length) linear both; }
+  .kb-up { animation: kb-up var(--clip-length) linear both; }
+  .kb-down { animation: kb-down var(--clip-length) linear both; }
+</style>
+</head>
+<body>
+<section>
+  <iframe id="grain" src="grain.html#t=0,473.644"></iframe>
+</section>
+<section>
+  <iframe id="leak-1" src="leak.html" at="380.792"></iframe>
+</section>
+<section>
+  <iframe id="lt-s04" src="lt-s04.html" at="45.956"></iframe>
+  <iframe id="lt-s06" src="lt-s06.html" at="76.004"></iframe>
+  <iframe id="lt-s10" src="lt-s10.html" at="132.316"></iframe>
+  <iframe id="lt-s11" src="lt-s11.html" at="142.648"></iframe>
+  <iframe id="lt-s12" src="lt-s12.html" at="154.876"></iframe>
+  <iframe id="lt-s13" src="lt-s13.html" at="167.92"></iframe>
+  <iframe id="lt-s15" src="lt-s15.html" at="199.32"></iframe>
+  <iframe id="lt-s16" src="lt-s16.html" at="210.948"></iframe>
+  <iframe id="lt-s19" src="lt-s19.html" at="259.832"></iframe>
+  <iframe id="lt-s20" src="lt-s20.html" at="270.668"></iframe>
+  <iframe id="lt-s21" src="lt-s21.html" at="280.952"></iframe>
+  <iframe id="lt-s24" src="lt-s24.html" at="323.644"></iframe>
+  <iframe id="lt-s26" src="lt-s26.html" at="347.932"></iframe>
+  <iframe id="lt-s27" src="lt-s27.html" at="360.184"></iframe>
+  <iframe id="lt-s28" src="lt-s28.html" at="367.588"></iframe>
+  <iframe id="lt-s29" src="lt-s29.html" at="380.992"></iframe>
+  <iframe id="lt-s30" src="lt-s30.html" at="395.508"></iframe>
+  <iframe id="lt-s32" src="lt-s32.html" at="421.476"></iframe>
+  <iframe id="lt-s34" src="lt-s34.html" at="442.26"></iframe>
+</section>
+<section>
+  <iframe id="title" src="title.html" at="21.216" overrides='[{"fade":[0.8,0.6]}]'></iframe>
+  <iframe id="ch1" src="ch1.html" at="27.216" overrides='[{"fade":[0.25,0.4]}]'></iframe>
+  <iframe id="road" src="road.html#t=0,16.788" at="58.616" overrides='[{"fade":[0.35,0.35]}]'></iframe>
+  <iframe id="map-pact" src="map-pact.html#t=0,12.684" at="87.248" overrides='[{"fade":[0.35,0.35]}]'></iframe>
+  <iframe id="ch2" src="ch2.html" at="99.932" overrides='[{"fade":[0.25,0.4]}]'></iframe>
+  <iframe id="map-poland" src="map-poland.html#t=0,14.724" at="103.132" overrides='[{"fade":[0.35,0.35]}]'></iframe>
+  <iframe id="map-france" src="map-france.html#t=0,13.86" at="117.856" overrides='[{"fade":[0.35,0.35]}]'></iframe>
+  <iframe id="ch3" src="ch3.html" at="181.156" overrides='[{"fade":[0.25,0.4]}]'></iframe>
+  <iframe id="map-barbarossa" src="map-barbarossa.html#t=0,14.364" at="184.356" overrides='[{"fade":[0.35,0.35]}]'></iframe>
+  <iframe id="map-pacific" src="map-pacific.html#t=0,11.004" at="230.496" overrides='[{"fade":[0.35,0.35]}]'></iframe>
+  <iframe id="stat-holocaust" src="stat-holocaust.html#t=0,9.122" at="246.91" overrides='[{"fade":[0.35,0.35]}]'></iframe>
+  <iframe id="ch4" src="ch4.html" at="256.032" overrides='[{"fade":[0.25,0.4]}]'></iframe>
+  <iframe id="stat-stalingrad" src="stat-stalingrad.html#t=0,5.414" at="292.182" overrides='[{"fade":[0.35,0.35]}]'></iframe>
+  <iframe id="map-1943" src="map-1943.html#t=0,12.732" at="297.596" overrides='[{"fade":[0.35,0.35]}]'></iframe>
+  <iframe id="ch5" src="ch5.html" at="319.844" overrides='[{"fade":[0.25,0.4]}]'></iframe>
+  <iframe id="map-normandy" src="map-normandy.html#t=0,11.292" at="336.04" overrides='[{"fade":[0.35,0.35]}]'></iframe>
+  <iframe id="ch6" src="ch6.html" at="391.708" overrides='[{"fade":[0.25,0.4]}]'></iframe>
+  <iframe id="stat-toll" src="stat-toll.html#t=0,8.724" at="432.936" overrides='[{"fade":[0.35,0.35]}]'></iframe>
+  <iframe id="end" src="end.html" at="463.644" overrides='[{"fade":[0.25,0.4]}]'></iframe>
+</section>
+<section>
+  <img id="s01-poland-1939" src="assets/photos/poland-1939.png#t=0,11.1" at="0" class="photo archival kb-in" style="object-position: 50% 50%" overrides='[{"fade":[0.35,0.35]}]'>
+  <img id="s02-warsaw-ruins" src="assets/photos/warsaw-ruins.jpg#t=0,10.116" at="11.1" class="photo archival kb-left" style="object-position: 50% 50%" overrides='[{"fade":[0.35,0.35]}]'>
+  <img id="s03-breadline" src="assets/photos/breadline.jpg#t=0,14.94" at="30.416" class="photo archival kb-right" style="object-position: 50% 50%" overrides='[{"fade":[0.35,0.35]}]'>
+  <img id="s04-hitler-1933" src="assets/photos/hitler-1933.jpg#t=0,13.26" at="45.356" class="photo archival kb-in" style="object-position: 50% 40%" overrides='[{"fade":[0.35,0.35]}]'>
+  <img id="s06-chamberlain" src="assets/photos/chamberlain.jpg#t=0,11.844" at="75.404" class="photo archival kb-in" style="object-position: 50% 45%" overrides='[{"fade":[0.35,0.35]}]'>
+  <img id="s10-dunkirk" src="assets/photos/dunkirk.jpg#t=0,10.332" at="131.716" class="photo archival kb-left" style="object-position: 50% 50%" overrides='[{"fade":[0.35,0.35]}]'>
+  <img id="s11-paris-1940" src="assets/photos/paris-1940.jpg#t=0,12.228" at="142.048" class="print archival kb-in" style="left: 401px; top: 160px; width: 1118px; height: 760px" overrides='[{"fade":[0.35,0.35]}]'>
+  <img id="s12-spitfire" src="assets/photos/spitfire.jpg#t=0,13.044" at="154.276" class="photo archival kb-left" style="object-position: 50% 50%" overrides='[{"fade":[0.35,0.35]}]'>
+  <img id="s13-st-pauls" src="assets/photos/st-pauls.jpg#t=0,13.836" at="167.32" class="photo archival kb-in" style="object-position: 50% 30%" overrides='[{"fade":[0.35,0.35]}]'>
+  <img id="s15-eastern-front" src="assets/photos/eastern-front.jpg#t=0,11.628" at="198.72" class="photo archival kb-right" style="object-position: 50% 50%" overrides='[{"fade":[0.35,0.35]}]'>
+  <img id="s16-pearl-harbor" src="assets/photos/pearl-harbor.jpg#t=0,20.148" at="210.348" class="photo archival kb-in" style="object-position: 50% 50%" overrides='[{"fade":[0.35,0.35]}]'>
+  <img id="s18-auschwitz" src="assets/photos/auschwitz.jpg#t=0,5.41" at="241.5" class="photo colour kb-in" style="object-position: 50% 50%" overrides='[{"fade":[0.35,0.35]}]'>
+  <img id="s19-midway" src="assets/photos/midway.jpg#t=0,10.836" at="259.232" class="photo archival kb-left" style="object-position: 50% 50%" overrides='[{"fade":[0.35,0.35]}]'>
+  <img id="s20-el-alamein" src="assets/photos/el-alamein.jpg#t=0,10.284" at="270.068" class="photo archival kb-right" style="object-position: 50% 50%" overrides='[{"fade":[0.35,0.35]}]'>
+  <img id="s21-stalingrad" src="assets/photos/stalingrad.jpg#t=0,11.83" at="280.352" class="photo archival kb-in" style="object-position: 50% 50%" overrides='[{"fade":[0.35,0.35]}]'>
+  <img id="s23-b17" src="assets/photos/b17.jpg#t=0,9.516" at="310.328" class="photo archival kb-left" style="object-position: 50% 50%" overrides='[{"fade":[0.35,0.35]}]'>
+  <img id="s24-dday" src="assets/photos/dday.jpg#t=0,12.996" at="323.044" class="photo archival kb-in" style="object-position: 50% 50%" overrides='[{"fade":[0.35,0.35]}]'>
+  <img id="s26-paris-1944" src="assets/photos/paris-1944.jpg#t=0,12.252" at="347.332" class="photo colour kb-right" style="object-position: 50% 50%" overrides='[{"fade":[0.35,0.35]}]'>
+  <img id="s27-bulge" src="assets/photos/bulge.jpg#t=0,7.404" at="359.584" class="print archival kb-in" style="left: 284.5px; top: 160px; width: 1351px; height: 760px" overrides='[{"fade":[0.35,0.35]}]'>
+  <img id="s28-berlin-1945" src="assets/photos/berlin-1945.jpg#t=0,13.404" at="366.988" class="photo archival kb-in" style="object-position: 50% 50%" overrides='[{"fade":[0.35,0.35]}]'>
+  <img id="s29-ve-day" src="assets/photos/ve-day.jpg#t=0,11.316" at="380.392" class="photo archival kb-right" style="object-position: 50% 45%" overrides='[{"fade":[0.35,0.35]}]'>
+  <img id="s30-okinawa" src="assets/photos/okinawa.jpg#t=0,7.188" at="394.908" class="photo archival kb-left" style="object-position: 50% 50%" overrides='[{"fade":[0.35,0.35]}]'>
+  <img id="s31-hiroshima" src="assets/photos/hiroshima.jpg#t=0,18.78" at="402.096" class="photo archival kb-out" style="object-position: 50% 40%" overrides='[{"fade":[0.35,0.35]}]'>
+  <img id="s32-missouri" src="assets/photos/missouri.jpg#t=0,12.06" at="420.876" class="photo archival kb-in" style="object-position: 50% 50%" overrides='[{"fade":[0.35,0.35]}]'>
+  <img id="s34-un" src="assets/photos/un.jpg#t=0,13.884" at="441.66" class="photo colour kb-right" style="object-position: 50% 50%" overrides='[{"fade":[0.35,0.35]}]'>
+  <img id="s35-cemetery" src="assets/photos/cemetery.jpg#t=0,8.1" at="455.544" class="photo colour kb-out" style="object-position: 50% 55%" overrides='[{"fade":[0.35,0.35]}]'>
+</section>
+<section>
+  <audio id="vo-s01" src="assets/vo/s01.mp3" at="0.35"></audio>
+  <audio id="vo-s02" src="assets/vo/s02.mp3" at="11.45"></audio>
+  <audio id="vo-s03" src="assets/vo/s03.mp3" at="30.766"></audio>
+  <audio id="vo-s04" src="assets/vo/s04.mp3" at="45.706"></audio>
+  <audio id="vo-s05" src="assets/vo/s05.mp3" at="58.966"></audio>
+  <audio id="vo-s06" src="assets/vo/s06.mp3" at="75.754"></audio>
+  <audio id="vo-s07" src="assets/vo/s07.mp3" at="87.598"></audio>
+  <audio id="vo-s08" src="assets/vo/s08.mp3" at="103.482"></audio>
+  <audio id="vo-s09" src="assets/vo/s09.mp3" at="118.206"></audio>
+  <audio id="vo-s10" src="assets/vo/s10.mp3" at="132.066"></audio>
+  <audio id="vo-s11" src="assets/vo/s11.mp3" at="142.398"></audio>
+  <audio id="vo-s12" src="assets/vo/s12.mp3" at="154.626"></audio>
+  <audio id="vo-s13" src="assets/vo/s13.mp3" at="167.67"></audio>
+  <audio id="vo-s14" src="assets/vo/s14.mp3" at="184.706"></audio>
+  <audio id="vo-s15" src="assets/vo/s15.mp3" at="199.07"></audio>
+  <audio id="vo-s16" src="assets/vo/s16.mp3" at="210.698"></audio>
+  <audio id="vo-s17" src="assets/vo/s17.mp3" at="230.846"></audio>
+  <audio id="vo-s18" src="assets/vo/s18.mp3" at="241.85"></audio>
+  <audio id="vo-s19" src="assets/vo/s19.mp3" at="259.582"></audio>
+  <audio id="vo-s20" src="assets/vo/s20.mp3" at="270.418"></audio>
+  <audio id="vo-s21" src="assets/vo/s21.mp3" at="280.702"></audio>
+  <audio id="vo-s22" src="assets/vo/s22.mp3" at="297.946"></audio>
+  <audio id="vo-s23" src="assets/vo/s23.mp3" at="310.678"></audio>
+  <audio id="vo-s24" src="assets/vo/s24.mp3" at="323.394"></audio>
+  <audio id="vo-s25" src="assets/vo/s25.mp3" at="336.39"></audio>
+  <audio id="vo-s26" src="assets/vo/s26.mp3" at="347.682"></audio>
+  <audio id="vo-s27" src="assets/vo/s27.mp3" at="359.934"></audio>
+  <audio id="vo-s28" src="assets/vo/s28.mp3" at="367.338"></audio>
+  <audio id="vo-s29" src="assets/vo/s29.mp3" at="380.742"></audio>
+  <audio id="vo-s30" src="assets/vo/s30.mp3" at="395.258"></audio>
+  <audio id="vo-s31" src="assets/vo/s31.mp3" at="402.446"></audio>
+  <audio id="vo-s32" src="assets/vo/s32.mp3" at="421.226"></audio>
+  <audio id="vo-s33" src="assets/vo/s33.mp3" at="433.286"></audio>
+  <audio id="vo-s34" src="assets/vo/s34.mp3" at="442.01"></audio>
+  <audio id="vo-s35" src="assets/vo/s35.mp3" at="455.894"></audio>
+</section>
+<section>
+  <audio id="music-aase" src="assets/music/aase.mp3#t=0,100.532" at="0" volume="0.6" overrides='[{"fade":[2.5,2.2]}]'></audio>
+  <audio id="music-mars-2" src="assets/music/mars.mp3#t=150,214.412" at="256.032" volume="0.26" overrides='[{"fade":[2,2.4]}]'></audio>
+  <audio id="music-last-post" src="assets/music/last-post.mp3#t=0,10.3" at="463.344" volume="0.55" overrides='[{"fade":[0.2,2.5]}]'></audio>
+</section>
+<section>
+  <audio id="music-mars-1" src="assets/music/mars.mp3#t=0,142.368" at="99.932" volume="0.3" overrides='[{"fade":[0.4,2.5]}]'></audio>
+  <audio id="music-late" src="assets/music/aase.mp3#t=95,239.8" at="319.844" volume="0.6" overrides='[{"fade":[2,3]}]'></audio>
+</section>
+<section>
+  <audio src="assets/sfx/low-engine-hum-drone-685bbb.mp3" at="0.3" volume="0.7"></audio>
+  <audio src="assets/sfx/distant-explosion-rumble-0d81c0.mp3" at="3" volume="0.55"></audio>
+  <audio src="assets/sfx/deep-boom-with-long-tail-c5ebbb.mp3" at="12.6" volume="0.45"></audio>
+  <audio src="assets/sfx/hf-impact-bass-1.mp3" at="21.266" volume="0.5"></audio>
+  <audio src="assets/sfx/hf-impact-bass-1.mp3" at="27.266" volume="0.5"></audio>
+  <audio src="assets/sfx/radio-tuning-static-sweep-f7864a.mp3" at="45.556" volume="0.25"></audio>
+  <audio src="assets/sfx/telegraph-key-ticks-3e7c48.mp3" at="64.076" volume="0.26"></audio>
+  <audio src="assets/sfx/telegraph-key-ticks-3e7c48.mp3" at="67.776" volume="0.26"></audio>
+  <audio src="assets/sfx/telegraph-key-ticks-3e7c48.mp3" at="70.256" volume="0.26"></audio>
+  <audio src="assets/sfx/hf-typing.mp3" at="76.054" volume="0.22"></audio>
+  <audio src="assets/sfx/radio-tuning-static-sweep-f7864a.mp3" at="79.154" volume="0.22"></audio>
+  <audio src="assets/sfx/telegraph-key-ticks-3e7c48.mp3" at="93.088" volume="0.26"></audio>
+  <audio src="assets/sfx/hf-impact-bass-1.mp3" at="99.982" volume="0.5"></audio>
+  <audio src="assets/sfx/low-engine-hum-drone-685bbb.mp3" at="105.022" volume="0.6"></audio>
+  <audio src="assets/sfx/distant-explosion-rumble-0d81c0.mp3" at="111.102" volume="0.4"></audio>
+  <audio src="assets/sfx/distant-explosion-rumble-0d81c0.mp3" at="130.346" volume="0.45"></audio>
+  <audio src="assets/sfx/distant-ocean-wave-a9887b.mp3" at="132.016" volume="0.6"></audio>
+  <audio src="assets/sfx/distant-ocean-wave-a9887b.mp3" at="135.716" volume="0.45"></audio>
+  <audio src="assets/sfx/hf-typing.mp3" at="142.698" volume="0.22"></audio>
+  <audio src="assets/sfx/low-engine-hum-drone-685bbb.mp3" at="154.676" volume="0.7"></audio>
+  <audio src="assets/sfx/siren.mp3" at="167.42" volume="0.32"></audio>
+  <audio src="assets/sfx/hf-impact-bass-1.mp3" at="181.206" volume="0.5"></audio>
+  <audio src="assets/sfx/distant-thunder-rumble-202961.mp3" at="191.966" volume="0.5"></audio>
+  <audio src="assets/sfx/hf-typing.mp3" at="210.998" volume="0.22"></audio>
+  <audio src="assets/sfx/massive-deep-boom-9c0eda.mp3" at="213.418" volume="0.55"></audio>
+  <audio src="assets/sfx/hf-impact-bass-1.mp3" at="256.082" volume="0.5"></audio>
+  <audio src="assets/sfx/low-engine-hum-drone-685bbb.mp3" at="259.432" volume="0.6"></audio>
+  <audio src="assets/sfx/deep-boom-with-long-tail-c5ebbb.mp3" at="263.942" volume="0.45"></audio>
+  <audio src="assets/sfx/distant-thunder-rumble-202961.mp3" at="270.268" volume="0.4"></audio>
+  <audio src="assets/sfx/low-engine-hum-drone-685bbb.mp3" at="310.628" volume="0.75"></audio>
+  <audio src="assets/sfx/low-engine-hum-drone-685bbb.mp3" at="312.928" volume="0.6"></audio>
+  <audio src="assets/sfx/hf-impact-bass-1.mp3" at="319.894" volume="0.5"></audio>
+  <audio src="assets/sfx/distant-ocean-wave-a9887b.mp3" at="323.144" volume="0.6"></audio>
+  <audio src="assets/sfx/distant-explosion-rumble-0d81c0.mp3" at="325.244" volume="0.5"></audio>
+  <audio src="assets/sfx/hf-typing.mp3" at="347.982" volume="0.22"></audio>
+  <audio src="assets/sfx/distant-explosion-rumble-0d81c0.mp3" at="360.084" volume="0.45"></audio>
+  <audio src="assets/sfx/hf-typing.mp3" at="367.638" volume="0.22"></audio>
+  <audio src="assets/sfx/crowd-cheering-and-chanting-e73b13.mp3" at="380.592" volume="0.4"></audio>
+  <audio src="assets/sfx/hf-typing.mp3" at="395.558" volume="0.22"></audio>
+  <audio src="assets/sfx/low-engine-hum-drone-685bbb.mp3" at="402.396" volume="0.5"></audio>
+  <audio src="assets/sfx/massive-deep-boom-9c0eda.mp3" at="408.146" volume="0.6"></audio>
+  <audio src="assets/sfx/hf-typing.mp3" at="421.526" volume="0.22"></audio>
+  <audio src="assets/sfx/hf-typing.mp3" at="442.31" volume="0.22"></audio>
+  <audio src="assets/sfx/distant-church-bell-toll-f328e5.mp3" at="455.944" volume="0.3"></audio>
+</section>
+<section>
+  <audio src="assets/sfx/hf-typing.mp3" at="46.006" volume="0.22"></audio>
+  <audio src="assets/sfx/hf-typing.mp3" at="132.366" volume="0.22"></audio>
+  <audio src="assets/sfx/hf-typing.mp3" at="154.926" volume="0.22"></audio>
+  <audio src="assets/sfx/hf-typing.mp3" at="167.97" volume="0.22"></audio>
+  <audio src="assets/sfx/air-whistle-fading-out-179de2.mp3" at="172.32" volume="0.3"></audio>
+  <audio src="assets/sfx/hf-typing.mp3" at="199.37" volume="0.22"></audio>
+  <audio src="assets/sfx/distant-explosion-rumble-0d81c0.mp3" at="215.018" volume="0.45"></audio>
+  <audio src="assets/sfx/hf-typing.mp3" at="259.882" volume="0.22"></audio>
+  <audio src="assets/sfx/hf-typing.mp3" at="270.718" volume="0.22"></audio>
+  <audio src="assets/sfx/hf-typing.mp3" at="281.002" volume="0.22"></audio>
+  <audio src="assets/sfx/hf-typing.mp3" at="323.694" volume="0.22"></audio>
+  <audio src="assets/sfx/hf-typing.mp3" at="360.234" volume="0.22"></audio>
+  <audio src="assets/sfx/hf-typing.mp3" at="381.042" volume="0.22"></audio>
+  <audio src="assets/sfx/hf-impact-bass-1.mp3" at="391.758" volume="0.5"></audio>
+</section>
+<section>
+  <audio src="assets/sfx/deep-boom-with-long-tail-c5ebbb.mp3" at="173.92" volume="0.5"></audio>
+  <audio src="assets/sfx/distant-explosion-rumble-0d81c0.mp3" at="281.552" volume="0.45"></audio>
+</section>
+</body>
+</html>

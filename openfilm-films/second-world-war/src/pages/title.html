@@ -1,0 +1,25 @@
+{{head}}
+<title>Title</title>
+<style>
+  body { background: var(--ink); }
+  #t { position: absolute; left: 0; right: 0; top: 400px; text-align: center; font-size: 136px; font-weight: 900; letter-spacing: .34em; opacity: 0; }
+  #rule { position: absolute; left: 760px; width: 400px; top: 596px; height: 3px; background: var(--poppy); transform-origin: 50% 50%; }
+  #years { position: absolute; left: 0; right: 0; top: 636px; text-align: center; font-size: 34px; letter-spacing: .5em; color: var(--dim); opacity: 0; }
+</style>
+</head>
+<body>
+<div id="t" class="serif">THE SECOND WORLD WAR</div>
+<div id="rule"></div>
+<div id="years" class="mono">1939 &nbsp;—&nbsp; 1945</div>
+<script type="module">
+import { play } from "./lib/fw.js";
+const tl = gsap.timeline({ paused: true });
+gsap.set("#rule", { scaleX: 0 });
+tl.to("#t", { opacity: 1, letterSpacing: ".12em", duration: 2.4, ease: "power2.out" }, 0.2);
+tl.to("#rule", { scaleX: 1, duration: 1.1, ease: "power4.out" }, 1.0);
+tl.to("#years", { opacity: 1, duration: 0.9, ease: "power2.out" }, 1.4);
+tl.to({}, { duration: {{len}} }, 0);
+play(tl, { duration: {{len}} });
+</script>
+</body>
+</html>

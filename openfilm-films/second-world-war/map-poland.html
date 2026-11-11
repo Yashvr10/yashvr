@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=1920, height=1080">
+<link rel="stylesheet" href="lib/fw.css">
+<script src="lib/gsap.min.js"></script>
+
+<script src="lib/d3.min.js"></script>
+<script src="lib/topojson-client.min.js"></script>
+<style>body { background: var(--ground); } svg { position: absolute; inset: 0; width: 1920px; height: 1080px; }</style>
+
+<title>Poland 1939</title>
+</head>
+<body>
+<svg id="map"><defs><marker id="head" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="4" markerHeight="4" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#b8322a"/></marker><marker id="headS" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="4" markerHeight="4" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#8f78ad"/></marker></defs></svg>
+<div id="decl" class="label" style="position:absolute;right:96px;top:96px;font-size:22px;text-align:right;opacity:0">3 September<br><span class="serif" style="font-size:40px;text-transform:none;letter-spacing:0">Britain and France declare war</span></div>
+<script type="module">
+import { play, europe, ISO, pin, label, line, chrome } from "./lib/fw.js";
+const tl = gsap.timeline({ paused: true });
+const ready = (async () => {
+  const m = await europe(document.getElementById("map"), { view: [[11, 47.5], [29, 56]] });
+  m.paths[ISO.germany].style.fill = "var(--central)";
+  ["russia", "belarus", "ukraine", "lithuania"].forEach((k) => (m.paths[ISO[k]].style.fill = "#3c3446"));
+  m.paths[ISO.poland].style.fill = "var(--land-hi)";
+  const head = chrome(document.body, { kicker: "September 1939", title: "Poland, from both sides", note: "Today's borders. Routes simplified." });
+  head.in(tl, 0.1);
+  const warsaw = pin(m.overlay, m, [21.01, 52.23], "Warsaw", { size: 30 });
+  tl.to(warsaw.g, { opacity: 1, duration: 0.4 }, 0.5);
+  const west = [[[13.5, 52.5], [17.0, 52.4], [20.2, 52.25]], [[20.5, 54.3], [20.9, 53.0]], [[18.9, 50.3], [19.9, 51.4], [20.6, 51.9]], [[19.5, 49.2], [21.0, 50.5]]]
+    .map((p) => line(m.overlay, m, p, { stroke: "var(--poppy)", "stroke-width": 8, "stroke-linecap": "round", "marker-end": "url(#head)" }));
+  const east = [[[27.6, 53.9], [24.8, 53.0]], [[27.5, 51.0], [24.6, 50.9]], [[26.5, 49.6], [24.5, 49.8]]]
+    .map((p) => line(m.overlay, m, p, { stroke: "#8f78ad", "stroke-width": 8, "stroke-linecap": "round", "marker-end": "url(#headS)" }));
+  const A = 2.19;
+  west.forEach((a, i) => tl.to(a, { strokeDashoffset: 0, duration: 1.4, ease: "power2.out" }, A + i * 0.15));
+  tl.to("#decl", { opacity: 1, duration: 0.5 }, 5.49);
+  east.forEach((a, i) => tl.to(a, { strokeDashoffset: 0, duration: 1.2, ease: "power2.out" }, 7.97 + i * 0.15));
+  tl.to(warsaw.ring, { attr: { r: 40 }, opacity: 0, duration: 1.2 }, 13.43 - 0.3);
+  tl.to({}, { duration: 14 }, 0);
+})();
+play(tl, { ready });
+</script>
+</body>
+</html>

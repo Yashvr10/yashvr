@@ -1,0 +1,29 @@
+{{head}}
+<title>Stalingrad</title>
+<style>
+  body { background: var(--ink); }
+  #wrap { position: absolute; left: 0; right: 0; top: 320px; text-align: center; }
+  #n { font-size: 220px; font-weight: 900; line-height: 1.1; display: inline-block; }
+  #u { font-size: 30px; color: var(--dim); margin-top: 18px; }
+  #t { font-size: 46px; font-style: italic; margin-top: 64px; opacity: 0; color: var(--poppy); }
+</style>
+</head>
+<body>
+<div id="wrap">
+  <div class="label" style="font-size:24px;color:var(--poppy)">2 February 1943 · Stalingrad</div>
+  <div id="n" class="serif">0</div>
+  <div id="u" class="label">German soldiers taken prisoner</div>
+  <div id="t" class="serif">Most never came home</div>
+</div>
+<script type="module">
+import { play, countUp } from "./lib/fw.js";
+const tl = gsap.timeline({ paused: true });
+gsap.set("#wrap", { opacity: 0, y: 20 });
+tl.to("#wrap", { opacity: 1, y: 0, duration: 0.5, ease: "power3.out" }, 0.1);
+countUp(tl, "#n", { to: 91000, at: Math.max(0.3, {{cue:ninety-one}} - 0.3), dur: 1.4 });
+tl.to("#t", { opacity: 1, duration: 0.8 }, {{cue:most}} - 0.1);
+tl.to({}, { duration: 10 }, 0);
+play(tl, { ready: Promise.resolve() });
+</script>
+</body>
+</html>
