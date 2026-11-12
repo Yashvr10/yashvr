@@ -1,0 +1,407 @@
+{
+ "voice": "bm_george",
+ "speed": 0.82,
+ "gap": 0.6,
+ "scenes": [
+  {
+   "id": "s01",
+   "text": "Every age has its comfortable men. They are safe, well fed, and forgotten. The names we remember belong to a different kind of man. Look closely at almost any of them, and you will find a wound.",
+   "visuals": [
+    {
+     "photo": "steen-merry",
+     "kb": "in",
+     "focus": "50% 50%",
+     "fit": true
+    }
+   ]
+  },
+  {
+   "id": "s02",
+   "text": "In eighteen eighty-six, Friedrich Nietzsche asked a question that still unsettles us. The discipline of suffering, of great suffering, he wrote, know ye not that it is only this discipline that has produced all the elevations of humanity hitherto? The tension of soul in misfortune, he went on, which communicates to it its energy. Its inventiveness and bravery in undergoing, enduring, interpreting, and exploiting misfortune.",
+   "visuals": [
+    {
+     "photo": "nietzsche",
+     "kb": "in",
+     "focus": "50% 50%",
+     "fit": true
+    }
+   ]
+  },
+  {
+   "id": "s03",
+   "text": "Is he right? Is suffering the price of greatness, or just its excuse? To answer that, we have to go back two thousand years, to the men who thought about it hardest.",
+   "visuals": [
+    {
+     "photo": "david-socrates",
+     "kb": "in",
+     "focus": "50% 50%",
+     "fit": true
+    }
+   ]
+  },
+  {
+   "id": "s04",
+   "text": "Seneca was one of the richest men in Rome, and the tutor of the emperor Nero. Yet he wrote an entire essay on one question: why, if the gods are good, do misfortunes fall on good men?",
+   "visuals": [
+    {
+     "photo": "catel-colosseum",
+     "kb": "in",
+     "focus": "50% 50%",
+     "fit": true
+    },
+    {
+     "photo": "peyron-seneca",
+     "kb": "in",
+     "focus": "50% 50%",
+     "fit": true,
+     "cut": "yet"
+    }
+   ]
+  },
+  {
+   "id": "s05",
+   "text": "His answer was blunt. God does not pet the good man, he wrote. He tries him, hardens him, and fits him for Himself. Fire tries gold, misfortune tries brave men. See how high virtue has to climb: you may be sure that it has no safe path to tread.",
+   "visuals": [
+    {
+     "photo": "rottmayr-forge",
+     "kb": "in",
+     "focus": "50% 50%",
+     "fit": true
+    }
+   ]
+  },
+  {
+   "id": "s06",
+   "text": "For Seneca, hardship was not a punishment. It was a test, and the only way a man could ever discover what he was made of. It does not matter what you bear, he wrote, but how you bear it.",
+   "visuals": [
+    {
+     "photo": "homer-herring",
+     "kb": "in",
+     "focus": "50% 50%",
+     "fit": true
+    }
+   ]
+  },
+  {
+   "id": "s07",
+   "text": "A century later, the emperor Marcus Aurelius spent much of his reign at war on the frontier, while plague swept through the empire. At night, he wrote notes to himself.",
+   "visuals": [
+    {
+     "photo": "robert-marcus",
+     "kb": "in",
+     "focus": "50% 50%",
+     "fit": true
+    },
+    {
+     "photo": "vandyck-plague",
+     "kb": "in",
+     "focus": "50% 50%",
+     "fit": true,
+     "cut": "plague"
+    }
+   ]
+  },
+  {
+   "id": "s08",
+   "text": "The mind, he wrote, converts and changes every hindrance to its activity into an aid. And so that which is a hindrance is made a furtherance to an act, and that which is an obstacle on the road helps us on this road.",
+   "visuals": [
+    {
+     "photo": "corenzio-battle",
+     "kb": "in",
+     "focus": "50% 50%",
+     "fit": true
+    }
+   ]
+  },
+  {
+   "id": "s09",
+   "text": "The obstacle was not in the way. The obstacle was the way. The art of life, Marcus wrote, is more like the wrestler's art than the dancer's. It should stand ready and firm to meet onsets which are sudden and unexpected.",
+   "visuals": [
+    {
+     "photo": "courbet-alpine",
+     "kb": "in",
+     "focus": "50% 50%",
+     "fit": true
+    }
+   ]
+  },
+  {
+   "id": "s10",
+   "text": "The man who taught this most clearly had suffered more than either of them. Epictetus was born the son of a slave woman, and was himself a slave, in the household of one of Nero's freedmen.",
+   "visuals": [
+    {
+     "photo": "captive-slave",
+     "kb": "in",
+     "focus": "50% 50%",
+     "fit": true
+    }
+   ]
+  },
+  {
+   "id": "s11",
+   "text": "Men are disturbed, he taught, not by things, but by the views which they take of things. Sickness is an impediment to the body, but not to the will. Lameness is an impediment to the leg, but not to the will.",
+   "visuals": [
+    {
+     "photo": "jerome",
+     "kb": "in",
+     "focus": "50% 50%",
+     "fit": true
+    }
+   ]
+  },
+  {
+   "id": "s12",
+   "text": "He could not choose his chains. He could only choose what he made of them. And a slave became one of the most influential teachers in the history of philosophy.",
+   "visuals": [
+    {
+     "photo": "hammershoi-reading",
+     "kb": "in",
+     "focus": "50% 50%",
+     "fit": true
+    }
+   ]
+  },
+  {
+   "id": "s13",
+   "text": "In October eighteen hundred and two, a young composer wrote a letter to his brothers. His name was Ludwig van Beethoven, and he was going deaf.",
+   "visuals": [
+    {
+     "photo": "beethoven",
+     "kb": "in",
+     "focus": "50% 50%",
+     "fit": true
+    }
+   ]
+  },
+  {
+   "id": "s14",
+   "text": "I must live like an exile, he wrote. He described the humiliation of standing beside someone who heard a flute in the distance, while he heard nothing. Such things, he wrote, brought me to the verge of desperation, and well nigh caused me to put an end to my life.",
+   "visuals": [
+    {
+     "photo": "potter-shepherd",
+     "kb": "in",
+     "focus": "50% 50%",
+     "fit": true
+    }
+   ]
+  },
+  {
+   "id": "s15",
+   "text": "Then he wrote the line that saved him. Art! Art alone deterred me. Ah! How could I possibly quit the world, before bringing forth all that I felt it was my vocation to produce?",
+   "visuals": [
+    {
+     "photo": "hammershoi-music",
+     "kb": "in",
+     "focus": "50% 50%",
+     "fit": true
+    }
+   ]
+  },
+  {
+   "id": "s16",
+   "text": "It is decreed that I must now choose patience for my guide, he wrote. Constrained to become a philosopher in my twenty-eighth year! He kept working. Some of the greatest music ever written came after that letter, much of it composed by a man who could no longer hear it.",
+   "visuals": [
+    {
+     "photo": "inness-heron",
+     "kb": "in",
+     "focus": "50% 50%",
+     "fit": true
+    }
+   ]
+  },
+  {
+   "id": "s17",
+   "text": "In fifteen seventy-one, a young Spanish soldier fought at the naval battle of Lepanto. He took three gunshot wounds, and lost the use of his left hand.",
+   "visuals": [
+    {
+     "photo": "coello-donjuan",
+     "kb": "in",
+     "focus": "50% 50%",
+     "fit": true
+    },
+    {
+     "photo": "whistler-sea",
+     "kb": "in",
+     "focus": "50% 50%",
+     "fit": true,
+     "cut": "took"
+    }
+   ]
+  },
+  {
+   "id": "s18",
+   "text": "On his way home, his ship was taken by pirates, and he spent five years as a captive in Algiers. Later, back in Spain, he was thrown into prison at Seville, over money owed to the treasury.",
+   "visuals": [
+    {
+     "photo": "roman-galley",
+     "kb": "in",
+     "focus": "50% 50%",
+     "fit": true
+    },
+    {
+     "photo": "muller-rollcall",
+     "kb": "in",
+     "focus": "50% 50%",
+     "fit": true,
+     "cut": "later"
+    }
+   ]
+  },
+  {
+   "id": "s19",
+   "text": "His name was Miguel de Cervantes. And it is generally believed that he conceived Don Quixote in a prison. It was published in sixteen oh five, and it is still read all over the world.",
+   "visuals": [
+    {
+     "photo": "daumier-quixote",
+     "kb": "in",
+     "focus": "50% 50%",
+     "fit": true
+    },
+    {
+     "photo": "aic-quixote-mountains",
+     "kb": "in",
+     "focus": "50% 50%",
+     "fit": true,
+     "cut": "published"
+    }
+   ]
+  },
+  {
+   "id": "s20",
+   "text": "John Milton had long dreamed of writing a great epic poem. By the time he wrote it, he had lost his sight.",
+   "visuals": [
+    {
+     "photo": "rembrandt-star",
+     "kb": "in",
+     "focus": "50% 50%",
+     "fit": true
+    }
+   ]
+  },
+  {
+   "id": "s21",
+   "text": "When I consider how my light is spent, he wrote, ere half my days, in this dark world and wide. He could have stopped there.",
+   "visuals": [
+    {
+     "photo": "mola-homer",
+     "kb": "in",
+     "focus": "50% 50%",
+     "fit": true
+    }
+   ]
+  },
+  {
+   "id": "s22",
+   "text": "Instead, he dictated Paradise Lost, line by line. So much the rather thou, Celestial light, shine inward, he wrote, that I may see and tell of things invisible to mortal sight.",
+   "visuals": [
+    {
+     "photo": "lorrain-sunrise",
+     "kb": "in",
+     "focus": "50% 50%",
+     "fit": true
+    }
+   ]
+  },
+  {
+   "id": "s23",
+   "text": "None of these men chose their suffering. Epictetus did not ask for his chains, nor Beethoven for silence, nor Milton for darkness. And suffering does not make everyone great. It breaks many people.",
+   "visuals": [
+    {
+     "photo": "vedder-storm",
+     "kb": "in",
+     "focus": "50% 50%",
+     "fit": true
+    }
+   ]
+  },
+  {
+   "id": "s24",
+   "text": "What separates them is not the size of the wound, but what they did with it. Each of them turned pain into a work: a book, a symphony, a philosophy, a poem.",
+   "visuals": [
+    {
+     "photo": "monks-landscape",
+     "kb": "in",
+     "focus": "50% 50%",
+     "fit": true
+    }
+   ]
+  },
+  {
+   "id": "s25",
+   "text": "Nietzsche put it in a single line. From the military school of life: that which does not kill me, makes me stronger.",
+   "visuals": [
+    {
+     "photo": "pille-soldiers",
+     "kb": "in",
+     "focus": "50% 50%",
+     "fit": true
+    }
+   ]
+  },
+  {
+   "id": "s26",
+   "text": "So how do you carry your own weight? First, separate the thing from your view of it, as Epictetus did. Ask what part of this is the event, and what part is the story you are telling about it.",
+   "visuals": [
+    {
+     "photo": "dupre-road",
+     "kb": "in",
+     "focus": "50% 50%",
+     "fit": true
+    }
+   ]
+  },
+  {
+   "id": "s27",
+   "text": "Second, use the obstacle. Ask what this hardship makes possible, that comfort never would. What is it training in you?",
+   "visuals": [
+    {
+     "photo": "momper-road",
+     "kb": "in",
+     "focus": "50% 50%",
+     "fit": true
+    }
+   ]
+  },
+  {
+   "id": "s28",
+   "text": "Third, give your pain a work. Beethoven did not wait to feel better before he composed. Put the weight into something that will outlast it.",
+   "visuals": [
+    {
+     "photo": "whistler-studio",
+     "kb": "in",
+     "focus": "50% 50%",
+     "fit": true
+    }
+   ]
+  },
+  {
+   "id": "s29",
+   "text": "And fourth, choose patience. They also serve, Milton wrote, who only stand and wait.",
+   "visuals": [
+    {
+     "photo": "heade-harbor",
+     "kb": "in",
+     "focus": "50% 50%",
+     "fit": true
+    }
+   ]
+  },
+  {
+   "id": "s30",
+   "text": "The greatest men did not suffer less than us. They suffered, and built anyway. That is the whole secret. And it is open to anyone.",
+   "visuals": [
+    {
+     "photo": "church-cotopaxi",
+     "kb": "in",
+     "focus": "50% 50%",
+     "fit": true
+    }
+   ]
+  },
+  {
+   "id": "end",
+   "card": "end",
+   "len": 7.0
+  }
+ ]
+}

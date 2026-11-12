@@ -1,0 +1,49 @@
+{{head}}
+<title>Old film</title>
+<style>
+  /* Old projected film over everything, as in the reference: grain, dust, a hair, a scratch, flicker, a soft vignette
+     and faint coloured gate lines at the frame's edges. Every frame is chosen from t, so the same t draws the same picture. */
+  #grain { position: absolute; top: -50%; left: -50%; width: 200%; height: 200%; opacity: .28; background-size: 384px 384px; }
+  #dust { position: absolute; inset: 0; }
+  #vig { position: absolute; inset: 0; background: radial-gradient(ellipse 72% 70% at 50% 50%, transparent 55%, rgba(0,0,0,.62) 100%); }
+  #flick { position: absolute; inset: 0; background: #000; opacity: 0; }
+  .gate { position: absolute; top: 0; bottom: 0; width: 3px; opacity: .35; }
+</style>
+</head>
+<body>
+<div id="grain"></div><canvas id="dust" width="1920" height="1080"></canvas><div id="vig"></div><div id="flick"></div>
+<div class="gate" style="left: 9px; background: #7a1d14"></div><div class="gate" style="left: 15px; background: #1d5a4a; opacity: .2"></div>
+<div class="gate" style="right: 11px; background: #7a1d14; opacity: .25"></div>
+<script type="module">
+import { hash } from "./lib/fw.js";
+const c = document.createElement("canvas"); c.width = c.height = 384;
+const x = c.getContext("2d"), img = x.createImageData(384, 384);
+for (let i = 0; i < 384 * 384; i++) { const v = hash(i, 7), on = hash(i, 11) < 0.5;
+  img.data[i*4] = img.data[i*4+1] = img.data[i*4+2] = on ? 255 : 0; img.data[i*4+3] = Math.max(0, v - 0.3) * 140; }
+x.putImageData(img, 0, 0);
+const grain = document.getElementById("grain"), flick = document.getElementById("flick"), d = document.getElementById("dust").getContext("2d");
+grain.style.backgroundImage = `url(${c.toDataURL()})`;
+window.film = {
+  frame(t) {
+    const f = Math.floor(t * 24);
+    grain.style.transform = `translate(${(hash(f, 3) * 30 - 15).toFixed(2)}%, ${(hash(f, 5) * 30 - 15).toFixed(2)}%)`;
+    flick.style.opacity = (0.02 + hash(f, 9) * 0.05).toFixed(3);
+    d.clearRect(0, 0, 1920, 1080);
+    const n = Math.floor(hash(f, 13) * 5);            // a few specks of dust, new every frame
+    for (let i = 0; i < n; i++) {
+      const light = hash(f * 7 + i, 17) < 0.35;
+      d.fillStyle = light ? "rgba(235,225,200,.55)" : "rgba(10,8,6,.7)";
+      d.beginPath(); d.arc(hash(f * 7 + i, 19) * 1920, hash(f * 7 + i, 23) * 1080, 1 + hash(f * 7 + i, 29) * 3.5, 0, 7); d.fill();
+    }
+    if (hash(f, 31) < 0.04) {                          // now and then a hair
+      d.strokeStyle = "rgba(15,12,10,.5)"; d.lineWidth = 1.2; d.beginPath();
+      const hx = hash(f, 37) * 1920, hy = hash(f, 41) * 1080; d.moveTo(hx, hy);
+      d.bezierCurveTo(hx + 30, hy + 20, hx - 10, hy + 50, hx + 25, hy + 80); d.stroke();
+    }
+    const s = Math.floor(t / 7);                         // a long vertical scratch that holds for a few seconds
+    if (hash(s, 43) < 0.35) { d.fillStyle = "rgba(230,220,200,.12)"; d.fillRect(hash(s, 47) * 1920 + Math.sin(t * 3) * 2, 0, 1.5, 1080); }
+  },
+};
+</script>
+</body>
+</html>

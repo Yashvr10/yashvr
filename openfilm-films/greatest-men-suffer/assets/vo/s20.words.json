@@ -1,0 +1,112 @@
+[
+{
+"word": "John",
+"start": 0.0,
+"end": 0.32
+},
+{
+"word": "Milton",
+"start": 0.32,
+"end": 0.72
+},
+{
+"word": "had",
+"start": 0.72,
+"end": 1.22
+},
+{
+"word": "long",
+"start": 1.22,
+"end": 1.58
+},
+{
+"word": "dreamed",
+"start": 1.58,
+"end": 2.1
+},
+{
+"word": "of",
+"start": 2.1,
+"end": 2.36
+},
+{
+"word": "writing",
+"start": 2.36,
+"end": 2.72
+},
+{
+"word": "a",
+"start": 2.72,
+"end": 3.0
+},
+{
+"word": "great",
+"start": 3.0,
+"end": 3.36
+},
+{
+"word": "epic",
+"start": 3.36,
+"end": 3.82
+},
+{
+"word": "poem.",
+"start": 3.82,
+"end": 4.38
+},
+{
+"word": "By",
+"start": 5.06,
+"end": 5.22
+},
+{
+"word": "the",
+"start": 5.22,
+"end": 5.36
+},
+{
+"word": "time",
+"start": 5.36,
+"end": 5.58
+},
+{
+"word": "he",
+"start": 5.58,
+"end": 5.78
+},
+{
+"word": "wrote",
+"start": 5.78,
+"end": 6.04
+},
+{
+"word": "it,",
+"start": 6.04,
+"end": 6.44
+},
+{
+"word": "he",
+"start": 6.72,
+"end": 6.82
+},
+{
+"word": "had",
+"start": 6.82,
+"end": 6.94
+},
+{
+"word": "lost",
+"start": 6.94,
+"end": 7.16
+},
+{
+"word": "his",
+"start": 7.16,
+"end": 7.42
+},
+{
+"word": "sight.",
+"start": 7.42,
+"end": 7.76
+}
+]

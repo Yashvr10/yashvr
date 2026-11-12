@@ -1,0 +1,18 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><meta name="viewport" content="width=1920, height=1080">
+<link rel="stylesheet" href="lib/fw.css">
+<title>Thumbnail</title>
+<style>
+  body { background: #000; }
+  #img { position: absolute; inset: 0; background: url("assets/photos/homer-herring.jpg") 62% 45% / 128% auto no-repeat;
+         filter: contrast(1.18) saturate(1.05) brightness(.9) sepia(.15); }
+  #vig { position: absolute; inset: 0; background: radial-gradient(ellipse 65% 75% at 66% 48%, transparent 35%, rgba(0,0,0,.82) 100%),
+         linear-gradient(90deg, rgba(0,0,0,.85) 0%, rgba(0,0,0,.35) 36%, transparent 52%); }
+  #t { position: absolute; left: 100px; top: 360px; color: #f2e9d6; text-shadow: 0 4px 30px rgba(0,0,0,.85); }
+  #a { font-size: 128px; line-height: 1; letter-spacing: .1em; }
+  #b { font-size: 60px; font-style: italic; color: #d9b86c; margin-top: 30px; }
+</style></head>
+<body><div id="img"></div><div id="vig"></div>
+<div id="t"><div id="a" class="caps" style="letter-spacing:.1em">They suffered</div><div id="b" class="corm">and built anyway</div></div>
+<script>window.film = { frame() {}, ready: document.fonts.ready };</script>
+</body></html>

@@ -1,0 +1,22 @@
+{{head}}
+<title>{{title}}</title>
+<style>
+  body { background: #0b0a08; }
+  #wrap { position: absolute; left: 0; right: 0; top: 420px; text-align: center; }
+  #num { font-size: 96px; font-weight: 600; color: var(--gold); opacity: 0; line-height: 1; }
+  #name { font-size: 24px; color: #9a8f7a; margin-top: 26px; opacity: 0; }
+</style>
+</head>
+<body>
+<div id="wrap"><div id="num" class="corm">{{num}}</div><div id="name" class="caps">{{title}}</div></div>
+<script type="module">
+import { play } from "./lib/fw.js";
+const tl = gsap.timeline({ paused: true });
+tl.fromTo("#num", { opacity: 0, scale: 0.96 }, { opacity: 1, scale: 1, duration: 1.2, ease: "power2.out" }, 0.2);
+tl.fromTo("#name", { opacity: 0, letterSpacing: ".5em" }, { opacity: 1, letterSpacing: ".32em", duration: 1.4, ease: "power2.out" }, 0.7);
+tl.to("#wrap", { opacity: 0, duration: 0.6 }, {{len}} - 0.7);
+tl.to({}, { duration: {{len}} }, 0);
+play(tl, { duration: {{len}} });
+</script>
+</body>
+</html>

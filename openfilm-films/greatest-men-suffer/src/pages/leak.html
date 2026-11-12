@@ -1,0 +1,29 @@
+{{head}}
+<title>Light leak</title>
+<style>
+  /* From the HyperFrames registry block organic-light-leak-overlay. A page is drawn on its own, so no screen blend:
+     the leak is warm light at partial alpha over the shot below. */
+  #leak { position: absolute; inset: -16%; opacity: 0; overflow: hidden; }
+  .layer { position: absolute; inset: -20%; }
+  .amber { background: radial-gradient(ellipse 52% 110% at 10% 58%, rgb(255 230 180 / 55%), transparent 45%), radial-gradient(ellipse 72% 120% at 24% 54%, rgb(255 140 70 / 40%), transparent 66%); filter: blur(2.8vmin); }
+  .red { background: radial-gradient(ellipse 58% 105% at 78% 34%, rgb(255 90 60 / 32%), rgb(255 60 90 / 12%) 48%, transparent 76%); filter: blur(4vmin); }
+  .gold { background: linear-gradient(104deg, transparent 24%, rgb(255 150 70 / 16%) 40%, rgb(255 240 200 / 34%) 51%, rgb(255 130 50 / 12%) 62%, transparent 78%); filter: blur(2vmin); }
+</style>
+</head>
+<body>
+<div id="leak"><div class="layer amber"></div><div class="layer red"></div><div class="layer gold"></div></div>
+<script type="module">
+import { play } from "./lib/fw.js";
+const D = 4;
+const tl = gsap.timeline({ paused: true });
+tl.to({}, { duration: D, ease: "none" }, 0);
+tl.fromTo("#leak", { opacity: 0 }, { opacity: 0.9, duration: D * 0.24, ease: "sine.out" }, D * 0.08);
+tl.to("#leak", { opacity: 0.46, duration: D * 0.2, ease: "sine.inOut" }, D * 0.42);
+tl.to("#leak", { opacity: 0, duration: D * 0.26, ease: "sine.in" }, D * 0.68);
+tl.fromTo(".amber", { xPercent: -20, scale: 0.92, rotation: -4 }, { xPercent: 18, scale: 1.1, rotation: 2, duration: D, ease: "sine.inOut" }, 0);
+tl.fromTo(".red", { xPercent: 20, yPercent: -8, scale: 1.08 }, { xPercent: -16, yPercent: 8, scale: 0.94, duration: D, ease: "sine.inOut" }, 0);
+tl.fromTo(".gold", { xPercent: -28, rotation: -6 }, { xPercent: 24, rotation: 4, duration: D, ease: "sine.inOut" }, 0);
+play(tl, { duration: D });
+</script>
+</body>
+</html>
