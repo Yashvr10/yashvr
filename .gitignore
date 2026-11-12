@@ -24,3 +24,6 @@ kit/frames*/
 kit/out/
 kit/qa/**/*.png
 kit/qa/*.log
+
+# rea-video working files: a downloaded reference video and its analysis (not ours to publish, and large)
+rea/
