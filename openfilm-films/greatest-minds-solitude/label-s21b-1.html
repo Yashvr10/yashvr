@@ -15,7 +15,7 @@
 <body><div id="c" class="caps">Friedrich Nietzsche</div>
 <script type="module">
 import { play } from "./lib/fw.js";
-const L = 3.5, tl = gsap.timeline({ paused: true });
+const L = 3.64, tl = gsap.timeline({ paused: true });
 tl.fromTo("#c", { opacity: 0, letterSpacing: ".5em" }, { opacity: 1, letterSpacing: ".32em", duration: 1.4, ease: "power2.out" }, 0.2);
 tl.to("#c", { opacity: 0, duration: 0.7 }, L - 0.8);
 tl.to({}, { duration: L }, 0);

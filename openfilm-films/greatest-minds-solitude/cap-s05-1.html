@@ -16,7 +16,7 @@
 <body><div id="c" class="corm">Why?</div>
 <script type="module">
 import { play } from "./lib/fw.js";
-const L = 6.5, tl = gsap.timeline({ paused: true });
+const L = 1.7, tl = gsap.timeline({ paused: true });
 tl.fromTo("#c", { opacity: 0, y: 8 }, { opacity: 1, y: 0, duration: 0.9, ease: "power2.out" }, 0.2);
 tl.to("#c", { opacity: 0, duration: 0.7, ease: "power1.in" }, L - 0.8);
 tl.to({}, { duration: L }, 0);

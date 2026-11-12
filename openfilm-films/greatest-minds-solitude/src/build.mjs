@@ -27,6 +27,9 @@ const FADE = 0.6;   // each shot's way in and out: slow dissolves through dark
 
 // ---- words: from each scene's .vtt, [{ w, t }] with t from the voice's start ----
 function words(id) {
+  // openai-whisper word timings (src/align_whisper.py) when present: start and end of every script word
+  const wj = path.join(ROOT, "assets/vo", id + ".words.json");
+  if (fs.existsSync(wj)) return JSON.parse(fs.readFileSync(wj, "utf8")).map((x) => ({ w: norm(x.word), t: x.start, e: x.end }));
   const vtt = fs.readFileSync(path.join(ROOT, "assets/vo", id + ".vtt"), "utf8");
   const sec = (s) => { const [h, m, x] = s.split(":"); return +h * 3600 + +m * 60 + +x; };
   const out = [];
@@ -40,6 +43,20 @@ function words(id) {
     }
   }
   return out;
+}
+// The longest run of a caption's words that the narrator says in [from, to) (seconds from the voice's start).
+function phraseIn(ws, text, from, to) {
+  const C = text.split(/\s+/).map(norm).filter(Boolean);
+  let best = null;
+  for (let i = 0; i < ws.length; i++) {
+    if (ws[i].t < from - 0.05 || ws[i].t >= to) continue;
+    for (let j = 0; j < C.length; j++) {
+      let k = 0;
+      while (i + k < ws.length && j + k < C.length && ws[i + k].w === C[j + k]) k++;
+      if (k && (!best || k > best.k)) best = { k, start: ws[i].t, end: ws[i + k - 1].e ?? ws[i + k - 1].t + 0.4 };
+    }
+  }
+  return best;
 }
 function cueTime(ws, key) {
   const [w, nth = "1"] = key.split("#");
@@ -114,8 +131,18 @@ for (const s of cfg.scenes) {
       const [num, text] = kind === "step" ? v.step : ["", v[kind]];
       const html = tpl(kind).replaceAll("{{head}}", HEAD).replaceAll("{{len}}", L).replaceAll("{{text}}", text).replaceAll("{{num}}", num);
       fs.writeFileSync(path.join(ROOT, name + ".html"), html);
-      // a caption lands near the end of the shot, as the line it sums up is said; a name or a step appears at once
-      lts.push({ id: name, src: name + ".html", at: r3(kind === "cap" ? Math.max(at + 0.4, end - L - 0.3) : at + 0.5), len: L });
+      // Sync to the voice: find the caption's own words in what the narrator says during this shot (Whisper word times)
+      // and show it from the first of them; it stays until the phrase is finished, and at least 2.5 s.
+      // a name label names the portrait on screen, so it stays with the picture; captions and steps follow the voice
+      const hit = kind === "label" ? null : phraseIn(ws, text, at - voAt, end - voAt);
+      let cAt = at + 0.5, cLen = L;
+      if (hit) {
+        cAt = Math.max(at + 0.15, voAt + hit.start - 0.15);
+        cLen = Math.min(end - 0.2 - cAt, Math.max(2.5, voAt + hit.end + 1.6 - cAt));
+      }
+      const syncedHtml = tpl(kind).replaceAll("{{head}}", HEAD).replaceAll("{{len}}", r3(cLen)).replaceAll("{{text}}", text).replaceAll("{{num}}", num);
+      fs.writeFileSync(path.join(ROOT, name + ".html"), syncedHtml);
+      lts.push({ id: name, src: name + ".html", at: r3(cAt), len: r3(cLen), synced: !!hit });
     }
     if (v.lt) {
       const name = `lt-${s.id}`;
@@ -225,3 +252,4 @@ fs.writeFileSync(path.join(ROOT, "film.html"), L.join("\n"));
 const mmss = (x) => `${Math.floor(x / 60)}:${String(Math.round(x % 60)).padStart(2, "0")}`;
 console.log(`film.html: ${mmss(FILM)} (${FILM} s), ${shots.length} photographs, ${pages.length} pages, ${lts.length} lower thirds, ${vo.length} voice clips, ${sfx.length} sounds on ${sfxTracks.length} tracks`);
 console.log("chapters at", chapters.map(mmss).join(", "));
+for (const x of lts) console.log(`  ${x.synced ? "synced " : "at shot"}  ${mmss(x.at).padStart(5)}  ${x.len.toFixed(1)}s  ${x.id}  “${fs.readFileSync(path.join(ROOT, x.src), "utf8").match(/<title>(.*?)<\/title>/)[1]}”`);

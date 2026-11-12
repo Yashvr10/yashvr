@@ -8,9 +8,9 @@
    "text": "In the sixteen hundreds, the French mathematician Blaise Pascal, who built one of the first calculating machines, wrote down a strange idea, in notes that were only published after his death.",
    "visuals": [
     {
-     "photo": "hammershoi-moonlight",
+     "photo": "latour-magdalen",
      "kb": "in",
-     "focus": "50% 50%",
+     "focus": "50% 17%",
      "cap": "A strange idea."
     }
    ]
@@ -49,9 +49,9 @@
    "text": "And look at how we live now. We fill every quiet moment: a phone in the queue, a podcast on the walk, a screen before sleep. Silence has become something to escape.",
    "visuals": [
     {
-     "photo": "hammershoi-moonlight",
+     "photo": "caillebotte-street",
      "kb": "left",
-     "focus": "50% 50%",
+     "focus": "50% 55%",
      "cap": "Something to escape."
     }
    ]
@@ -95,7 +95,7 @@
      "kb": "left",
      "focus": "50% 50%",
      "cut": "some",
-     "cap": "Written for no one but himself."
+     "cap": "In army camps on the northern frontier."
     }
    ]
   },

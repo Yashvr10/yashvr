@@ -237,5 +237,23 @@
   "artist": "Benjamin D. Maxham",
   "license": "Public domain",
   "source": "https://commons.wikimedia.org/wiki/File:Henry_David_Thoreau.jpg"
+ },
+ {
+  "key": "latour-magdalen",
+  "file": "latour-magdalen.jpg",
+  "title": "The Penitent Magdalen",
+  "artist": "Georges de La Tour",
+  "date": "ca. 1640",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/436839"
+ },
+ {
+  "key": "caillebotte-street",
+  "file": "caillebotte-street.jpg",
+  "title": "Paris Street; Rainy Day",
+  "artist": "Gustave Caillebotte",
+  "date": "1877",
+  "license": "Public domain (Art Institute of Chicago, CC0)",
+  "source": "https://www.artic.edu/artworks/20684"
  }
 ]

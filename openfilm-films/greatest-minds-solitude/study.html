@@ -27,9 +27,9 @@
 import { play } from "./lib/fw.js";
 const tl = gsap.timeline({ paused: true });
 tl.to(["#k", "#s"], { opacity: 1, duration: 0.8 }, 0.3);
-tl.fromTo("#a", { opacity: 0, y: 10 }, { opacity: 1, y: 0, duration: 0.8 }, Math.max(0.4, 1.96 - 0.3));
-tl.fromTo("#b", { opacity: 0, y: 10 }, { opacity: 1, y: 0, duration: 0.8 }, 5.04 - 0.2);
-tl.fromTo("#c", { opacity: 0, y: 10 }, { opacity: 1, y: 0, duration: 0.9 }, 13.18 - 0.4);
+tl.fromTo("#a", { opacity: 0, y: 10 }, { opacity: 1, y: 0, duration: 0.8 }, Math.max(0.4, 2.02 - 0.3));
+tl.fromTo("#b", { opacity: 0, y: 10 }, { opacity: 1, y: 0, duration: 0.8 }, 5.08 - 0.2);
+tl.fromTo("#c", { opacity: 0, y: 10 }, { opacity: 1, y: 0, duration: 0.9 }, 13.42 - 0.4);
 tl.to({}, { duration: 18 }, 0);
 play(tl, { ready: Promise.resolve() });
 </script></body></html>

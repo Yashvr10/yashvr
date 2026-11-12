@@ -1,0 +1,187 @@
+[
+{
+"word": "On",
+"start": 0.0,
+"end": 0.16
+},
+{
+"word": "the",
+"start": 0.16,
+"end": 0.24
+},
+{
+"word": "fourth",
+"start": 0.24,
+"end": 0.64
+},
+{
+"word": "of",
+"start": 0.64,
+"end": 0.84
+},
+{
+"word": "July,",
+"start": 0.84,
+"end": 1.24
+},
+{
+"word": "eighteen",
+"start": 1.24,
+"end": 2.37
+},
+{
+"word": "forty-five,",
+"start": 2.37,
+"end": 3.5
+},
+{
+"word": "Henry",
+"start": 3.5,
+"end": 3.6
+},
+{
+"word": "David",
+"start": 3.6,
+"end": 4.04
+},
+{
+"word": "Thoreau",
+"start": 4.04,
+"end": 4.5
+},
+{
+"word": "moved",
+"start": 4.5,
+"end": 4.92
+},
+{
+"word": "into",
+"start": 4.92,
+"end": 5.18
+},
+{
+"word": "a",
+"start": 5.18,
+"end": 5.36
+},
+{
+"word": "cabin",
+"start": 5.36,
+"end": 5.64
+},
+{
+"word": "by",
+"start": 5.64,
+"end": 5.98
+},
+{
+"word": "Walden",
+"start": 5.98,
+"end": 6.46
+},
+{
+"word": "Pond,",
+"start": 6.46,
+"end": 6.72
+},
+{
+"word": "in",
+"start": 6.72,
+"end": 7.46
+},
+{
+"word": "Concord,",
+"start": 7.46,
+"end": 8.02
+},
+{
+"word": "Massachusetts.",
+"start": 8.38,
+"end": 8.94
+},
+{
+"word": "He",
+"start": 9.92,
+"end": 10.0
+},
+{
+"word": "had",
+"start": 10.0,
+"end": 10.12
+},
+{
+"word": "built",
+"start": 10.12,
+"end": 10.34
+},
+{
+"word": "it",
+"start": 10.34,
+"end": 10.56
+},
+{
+"word": "himself.",
+"start": 10.56,
+"end": 11.1
+},
+{
+"word": "The",
+"start": 11.9,
+"end": 12.02
+},
+{
+"word": "materials,",
+"start": 12.02,
+"end": 12.56
+},
+{
+"word": "he",
+"start": 12.72,
+"end": 12.84
+},
+{
+"word": "noted,",
+"start": 12.84,
+"end": 13.22
+},
+{
+"word": "cost",
+"start": 13.6,
+"end": 13.9
+},
+{
+"word": "twenty-eight",
+"start": 13.9,
+"end": 14.24
+},
+{
+"word": "dollars,",
+"start": 14.24,
+"end": 14.58
+},
+{
+"word": "twelve",
+"start": 14.58,
+"end": 14.92
+},
+{
+"word": "and",
+"start": 14.92,
+"end": 15.26
+},
+{
+"word": "a",
+"start": 15.26,
+"end": 15.6
+},
+{
+"word": "half",
+"start": 15.6,
+"end": 15.94
+},
+{
+"word": "cents.",
+"start": 15.94,
+"end": 16.28
+}
+]

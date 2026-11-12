@@ -33,7 +33,7 @@ const c = document.getElementById("paper"), x = c.getContext("2d"), img = x.crea
 for (let i = 0; i < 530 * 470; i++) { const v = 200 + hash(i, 3) * 55 - hash(Math.floor(i / 9), 5) * 18; img.data[i*4] = v; img.data[i*4+1] = v * .97; img.data[i*4+2] = v * .9; img.data[i*4+3] = 255; }
 x.putImageData(img, 0, 0);
 const tl = gsap.timeline({ paused: true });
-const runs = [["r0",0.3,9.7]];   // [class, first spoken second, last spoken second] per highlighted run
+const runs = [["r0",0.3,9.62]];   // [class, first spoken second, last spoken second] per highlighted run
 const ready = document.fonts.ready.then(() => {
   // keep the highlighted lines in view: move the text up so the first highlight sits about a third of the way down
   const inner = document.getElementById("inner"), first = document.querySelector(".w");

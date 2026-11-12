@@ -15,7 +15,7 @@
 <body><div id="c" class="caps">Isaac Newton</div>
 <script type="module">
 import { play } from "./lib/fw.js";
-const L = 5.78, tl = gsap.timeline({ paused: true });
+const L = 5.84, tl = gsap.timeline({ paused: true });
 tl.fromTo("#c", { opacity: 0, letterSpacing: ".5em" }, { opacity: 1, letterSpacing: ".32em", duration: 1.4, ease: "power2.out" }, 0.2);
 tl.to("#c", { opacity: 0, duration: 0.7 }, L - 0.8);
 tl.to({}, { duration: L }, 0);
