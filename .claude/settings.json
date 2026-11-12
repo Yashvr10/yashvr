@@ -9,5 +9,8 @@
   },
   "enabledPlugins": {
     "hyperframes@hyperframes": true
+  },
+  "permissions": {
+    "allow": ["Bash(python3 -m yt_dlp:*)"]
   }
 }
