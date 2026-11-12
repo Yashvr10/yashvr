@@ -1,0 +1,241 @@
+[
+ {
+  "key": "hammershoi-moonlight",
+  "file": "hammershoi-moonlight.jpg",
+  "title": "Moonlight, Strandgade 30",
+  "artist": "Vilhelm Hammershøi",
+  "date": "1900–1906",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/441933"
+ },
+ {
+  "key": "hammershoi-reading",
+  "file": "hammershoi-reading.jpg",
+  "title": "Figure Reading at a Table in an Interior at Night",
+  "artist": "Vilhelm Hammershøi",
+  "date": "ca. 1891",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/406969"
+ },
+ {
+  "key": "hammershoi-self",
+  "file": "hammershoi-self.jpg",
+  "title": "Self-Portrait at Spurveskjul",
+  "artist": "Vilhelm Hammershøi",
+  "date": "1911",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/698749"
+ },
+ {
+  "key": "friedrich-moon",
+  "file": "friedrich-moon.jpg",
+  "title": "Two Men Contemplating the Moon",
+  "artist": "Caspar David Friedrich",
+  "date": "ca. 1825–30",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/438417"
+ },
+ {
+  "key": "dahl-waterfall",
+  "file": "dahl-waterfall.jpg",
+  "title": "Two Men before a Waterfall at Sunset",
+  "artist": "Johan Christian Dahl",
+  "date": "1823",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/439344"
+ },
+ {
+  "key": "dahl-elbe",
+  "file": "dahl-elbe.jpg",
+  "title": "The River Elbe in Moonlight",
+  "artist": "Johan Christian Dahl",
+  "date": "1833",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/359382"
+ },
+ {
+  "key": "robert-marcus",
+  "file": "robert-marcus.jpg",
+  "title": "Equestrian Statue of Marcus Aurelius",
+  "artist": "Hubert Robert",
+  "date": "1757",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/459379"
+ },
+ {
+  "key": "robert-arches",
+  "file": "robert-arches.jpg",
+  "title": "Arches in Ruins",
+  "artist": "Hubert Robert",
+  "date": "",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/437472"
+ },
+ {
+  "key": "robert-colonnade",
+  "file": "robert-colonnade.jpg",
+  "title": "A Colonnade in Ruins",
+  "artist": "Hubert Robert",
+  "date": "",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/437475"
+ },
+ {
+  "key": "corot-tower",
+  "file": "corot-tower.jpg",
+  "title": "River with a Distant Tower",
+  "artist": "Camille Corot",
+  "date": "1865",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/435983"
+ },
+ {
+  "key": "schreyer-snow",
+  "file": "schreyer-snow.jpg",
+  "title": "Man with Lance Riding through the Snow",
+  "artist": "Adolphe Schreyer",
+  "date": "c. 1880",
+  "license": "Public domain (Art Institute of Chicago, CC0)",
+  "source": "https://www.artic.edu/artworks/895"
+ },
+ {
+  "key": "twachtman-icebound",
+  "file": "twachtman-icebound.jpg",
+  "title": "Icebound",
+  "artist": "John Henry Twachtman",
+  "date": "c. 1889",
+  "license": "Public domain (Art Institute of Chicago, CC0)",
+  "source": "https://www.artic.edu/artworks/72801"
+ },
+ {
+  "key": "inness-old-mill",
+  "file": "inness-old-mill.jpg",
+  "title": "The Old Mill",
+  "artist": "George Inness",
+  "date": "1849",
+  "license": "Public domain (Art Institute of Chicago, CC0)",
+  "source": "https://www.artic.edu/artworks/30701"
+ },
+ {
+  "key": "inness-heron",
+  "file": "inness-heron.jpg",
+  "title": "The Home of the Heron",
+  "artist": "George Inness",
+  "date": "1893",
+  "license": "Public domain (Art Institute of Chicago, CC0)",
+  "source": "https://www.artic.edu/artworks/64724"
+ },
+ {
+  "key": "corot-reading",
+  "file": "corot-reading.jpg",
+  "title": "Interrupted Reading",
+  "artist": "Jean Baptiste Camille Corot",
+  "date": "c. 1870",
+  "license": "Public domain (Art Institute of Chicago, CC0)",
+  "source": "https://www.artic.edu/artworks/81512"
+ },
+ {
+  "key": "diaz-pond",
+  "file": "diaz-pond.jpg",
+  "title": "Pond in the Woods",
+  "artist": "Narcisse Virgile Diaz de la Peña",
+  "date": "1862",
+  "license": "Public domain (Art Institute of Chicago, CC0)",
+  "source": "https://www.artic.edu/artworks/95993"
+ },
+ {
+  "key": "inness-catskill",
+  "file": "inness-catskill.jpg",
+  "title": "Catskill Mountains",
+  "artist": "George Inness",
+  "date": "1870",
+  "license": "Public domain (Art Institute of Chicago, CC0)",
+  "source": "https://www.artic.edu/artworks/68388"
+ },
+ {
+  "key": "cole-newengland",
+  "file": "cole-newengland.jpg",
+  "title": "New England Scenery",
+  "artist": "Thomas Cole",
+  "date": "1839",
+  "license": "Public domain (Art Institute of Chicago, CC0)",
+  "source": "https://www.artic.edu/artworks/57163"
+ },
+ {
+  "key": "beers-river",
+  "file": "beers-river.jpg",
+  "title": "Looking upon the River",
+  "artist": "Julie Hart Beers",
+  "date": "1880",
+  "license": "Public domain (Art Institute of Chicago, CC0)",
+  "source": "https://www.artic.edu/artworks/262794"
+ },
+ {
+  "key": "jerome",
+  "file": "jerome.jpg",
+  "title": "Saint Jerome in Penitence",
+  "artist": "Master of the Lille Adoration",
+  "date": "1525–30",
+  "license": "Public domain (Art Institute of Chicago, CC0)",
+  "source": "https://www.artic.edu/artworks/236975"
+ },
+ {
+  "key": "mola-homer",
+  "file": "mola-homer.jpg",
+  "title": "Homer Dictating",
+  "artist": "Pier Francesco Mola",
+  "date": "1660–65",
+  "license": "Public domain (Art Institute of Chicago, CC0)",
+  "source": "https://www.artic.edu/artworks/5304"
+ },
+ {
+  "key": "courbet-alpine",
+  "file": "courbet-alpine.jpg",
+  "title": "An Alpine Scene",
+  "artist": "Gustave Courbet",
+  "date": "1874",
+  "license": "Public domain (Art Institute of Chicago, CC0)",
+  "source": "https://www.artic.edu/artworks/39554"
+ },
+ {
+  "key": "monks-landscape",
+  "file": "monks-landscape.jpg",
+  "title": "Two Monks in a Landscape",
+  "artist": "Italian",
+  "date": "c. 1645",
+  "license": "Public domain (Art Institute of Chicago, CC0)",
+  "source": "https://www.artic.edu/artworks/27309"
+ },
+ {
+  "key": "pascal",
+  "file": "pascal.jpg",
+  "title": "21 Anonyme, d'après François Quesnel II, Portrait de Blaise Pascal, XVIIe siècle",
+  "artist": "DCHNwam",
+  "license": "PDM (via Openverse)",
+  "source": "https://www.flickr.com/photos/57179180@N07/54685893301"
+ },
+ {
+  "key": "descartes",
+  "file": "descartes.jpg",
+  "title": "Portrait René Descartes (1596-1650), Frans",
+  "artist": null,
+  "license": "CC0 (via Openverse)",
+  "source": "https://www.rawpixel.com/image/8921175/portrait-rene-descartes-1596-1650"
+ },
+ {
+  "key": "newton",
+  "file": "newton.jpg",
+  "title": "Sir Isaac Newton. Mezzotint T",
+  "artist": null,
+  "license": "CC0 (via Openverse)",
+  "source": "https://www.rawpixel.com/image/13990771/sir-isaac-newton-mezzotint-barlow-1868-after-sir-kneller-1689"
+ },
+ {
+  "key": "thoreau",
+  "file": "thoreau.jpg",
+  "title": "Henry David Thoreau, daguerreotype by Benjamin D. Maxham, 1856",
+  "artist": "Benjamin D. Maxham",
+  "license": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Henry_David_Thoreau.jpg"
+ }
+]

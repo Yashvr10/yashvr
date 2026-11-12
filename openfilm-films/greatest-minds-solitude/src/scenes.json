@@ -1,0 +1,472 @@
+{
+ "voice": "bm_george",
+ "speed": 0.86,
+ "gap": 0.55,
+ "scenes": [
+  {
+   "id": "s01",
+   "text": "In the sixteen hundreds, the French mathematician Blaise Pascal, who built one of the first calculating machines, wrote down a strange idea, in notes that were only published after his death.",
+   "visuals": [
+    {
+     "photo": "hammershoi-moonlight",
+     "kb": "in",
+     "focus": "50% 50%",
+     "cap": "A strange idea."
+    }
+   ]
+  },
+  {
+   "id": "s02",
+   "text": "I have discovered, he wrote, that all the unhappiness of men arises from one single fact: that they cannot stay quietly in their own chamber.",
+   "visuals": [
+    {
+     "page": "q-pascal"
+    }
+   ]
+  },
+  {
+   "id": "s03",
+   "text": "It sounds like an exaggeration. But in twenty fourteen, a team of psychologists decided to test it.",
+   "visuals": [
+    {
+     "photo": "hammershoi-reading",
+     "kb": "left",
+     "focus": "50% 50%"
+    }
+   ]
+  },
+  {
+   "id": "s04",
+   "text": "They left people alone in a plain room, with nothing to do but think, for six to fifteen minutes. Most of them did not enjoy it. And many, given the choice, preferred to give themselves electric shocks rather than sit alone with their thoughts.",
+   "visuals": [
+    {
+     "page": "study"
+    }
+   ]
+  },
+  {
+   "id": "s04b",
+   "text": "And look at how we live now. We fill every quiet moment: a phone in the queue, a podcast on the walk, a screen before sleep. Silence has become something to escape.",
+   "visuals": [
+    {
+     "photo": "hammershoi-moonlight",
+     "kb": "left",
+     "focus": "50% 50%",
+     "cap": "Something to escape."
+    }
+   ]
+  },
+  {
+   "id": "s05",
+   "text": "And yet, again and again, the people who changed the way we think did their deepest work alone. Why?",
+   "visuals": [
+    {
+     "photo": "friedrich-moon",
+     "kb": "in",
+     "focus": "50% 45%",
+     "cap": "Why?"
+    }
+   ]
+  },
+  {
+   "id": "title",
+   "card": "title",
+   "len": 6.0
+  },
+  {
+   "id": "ch1",
+   "card": "chapter",
+   "num": "I",
+   "title": "The Inner Citadel",
+   "len": 4.0
+  },
+  {
+   "id": "s06",
+   "text": "Nearly two thousand years ago, the most powerful man in the world kept a private notebook. Marcus Aurelius, emperor of Rome, wrote it for no one but himself, some of it in army camps on the northern frontier.",
+   "visuals": [
+    {
+     "photo": "robert-marcus",
+     "kb": "up",
+     "focus": "50% 40%",
+     "label": "Marcus Aurelius"
+    },
+    {
+     "photo": "robert-arches",
+     "kb": "left",
+     "focus": "50% 50%",
+     "cut": "some",
+     "cap": "Written for no one but himself."
+    }
+   ]
+  },
+  {
+   "id": "s07",
+   "text": "They seek for themselves private retiring places, he wrote: country villages, the sea shore, mountains. But at what time soever thou wilt, it is in thy power to retire into thyself.",
+   "visuals": [
+    {
+     "page": "q-marcus"
+    }
+   ]
+  },
+  {
+   "id": "s08",
+   "text": "For Marcus, solitude was not a place you travel to. It was a skill: a room inside the mind, that no crowd, no war, and no flatterer could enter.",
+   "visuals": [
+    {
+     "photo": "dahl-waterfall",
+     "kb": "in",
+     "focus": "50% 50%",
+     "cap": "A room inside the mind."
+    }
+   ]
+  },
+  {
+   "id": "s08b",
+   "text": "He was no hermit. He ruled an empire and led its armies. But again and again, he went back into that inner room, and came out steadier.",
+   "visuals": [
+    {
+     "photo": "robert-colonnade",
+     "kb": "right",
+     "focus": "50% 50%",
+     "cap": "He came out steadier."
+    }
+   ]
+  },
+  {
+   "id": "ch2",
+   "card": "chapter",
+   "num": "II",
+   "title": "The Winter Room",
+   "len": 4.0
+  },
+  {
+   "id": "s09",
+   "text": "In the winter of sixteen nineteen, a young Frenchman named René Descartes was serving as a soldier in Germany, when the cold set in and stranded him.",
+   "visuals": [
+    {
+     "photo": "schreyer-snow",
+     "kb": "right",
+     "focus": "50% 50%",
+     "cap": "Germany, 1619."
+    }
+   ]
+  },
+  {
+   "id": "s10",
+   "text": "With no company to distract him, he later wrote, I remained the whole day in seclusion, with full opportunity to occupy my attention with my own thoughts.",
+   "visuals": [
+    {
+     "photo": "descartes",
+     "framed": true,
+     "label": "René Descartes"
+    },
+    {
+     "page": "q-descartes",
+     "cut": "i"
+    }
+   ]
+  },
+  {
+   "id": "s11",
+   "text": "Out of those quiet days came the method he published in sixteen thirty-seven, and the habit of doubting everything he had been taught. It made him a founder of modern philosophy.",
+   "visuals": [
+    {
+     "photo": "twachtman-icebound",
+     "kb": "in",
+     "focus": "50% 50%",
+     "cap": "Doubt everything."
+    }
+   ]
+  },
+  {
+   "id": "s12",
+   "text": "Half a century later, plague closed the University of Cambridge. A young Isaac Newton went home to his family's farm at Woolsthorpe. In the quiet months that followed, he worked out the beginnings of calculus, his theory of light, and his first thoughts on gravity.",
+   "visuals": [
+    {
+     "photo": "newton",
+     "framed": true,
+     "label": "Isaac Newton"
+    },
+    {
+     "photo": "inness-old-mill",
+     "kb": "left",
+     "focus": "50% 50%",
+     "cut": "home",
+     "cap": "Woolsthorpe."
+    }
+   ]
+  },
+  {
+   "id": "s13",
+   "text": "Neither man was running away from the world. Each had simply found a place where he could hear himself think.",
+   "visuals": [
+    {
+     "photo": "inness-heron",
+     "kb": "in",
+     "focus": "50% 50%"
+    }
+   ]
+  },
+  {
+   "id": "ch3",
+   "card": "chapter",
+   "num": "III",
+   "title": "The Back Shop",
+   "len": 4.0
+  },
+  {
+   "id": "s14",
+   "text": "In fifteen seventy-one, at the age of thirty-eight, the French nobleman Michel de Montaigne withdrew from public life, to a library on the third storey of a tower on his estate.",
+   "visuals": [
+    {
+     "photo": "corot-tower",
+     "kb": "right",
+     "focus": "50% 50%",
+     "label": "The tower"
+    }
+   ]
+  },
+  {
+   "id": "s15",
+   "text": "We must reserve a back shop, he wrote, wholly our own and entirely free, wherein to settle our true liberty, our principal solitude and retreat.",
+   "visuals": [
+    {
+     "page": "q-montaigne"
+    }
+   ]
+  },
+  {
+   "id": "s16",
+   "text": "He spent his days there among his books, walking to and fro, as he put it, dictating his thoughts. In that room he wrote his Essays: a mind talking honestly to itself, page after page. He did not abandon his family or his duties. He simply kept one room that belonged to no one else.",
+   "visuals": [
+    {
+     "photo": "corot-reading",
+     "kb": "in",
+     "focus": "50% 16%",
+     "cap": "One room that belonged to no one else."
+    }
+   ]
+  },
+  {
+   "id": "ch4",
+   "card": "chapter",
+   "num": "IV",
+   "title": "The Cabin",
+   "len": 4.0
+  },
+  {
+   "id": "s17",
+   "text": "On the fourth of July, eighteen forty-five, Henry David Thoreau moved into a cabin by Walden Pond, in Concord, Massachusetts. He had built it himself. The materials, he noted, cost twenty-eight dollars, twelve and a half cents.",
+   "visuals": [
+    {
+     "photo": "thoreau",
+     "framed": true,
+     "label": "Henry David Thoreau"
+    },
+    {
+     "photo": "diaz-pond",
+     "kb": "left",
+     "focus": "50% 50%",
+     "cut": "walden",
+     "cap": "Walden Pond, 1845."
+    }
+   ]
+  },
+  {
+   "id": "s18",
+   "text": "I went to the woods because I wished to live deliberately, he wrote, to front only the essential facts of life, and see if I could not learn what it had to teach, and not, when I came to die, discover that I had not lived.",
+   "visuals": [
+    {
+     "page": "q-thoreau"
+    }
+   ]
+  },
+  {
+   "id": "s19",
+   "text": "He stayed two years and two months. I never found the companion, he wrote, that was so companionable as solitude.",
+   "visuals": [
+    {
+     "photo": "inness-catskill",
+     "kb": "right",
+     "focus": "50% 50%",
+     "cap": "So companionable as solitude."
+    }
+   ]
+  },
+  {
+   "id": "ch5",
+   "card": "chapter",
+   "num": "V",
+   "title": "Alone, Not Lonely",
+   "len": 4.0
+  },
+  {
+   "id": "s20",
+   "text": "But solitude is not loneliness. Loneliness is the ache of company you do not have. Solitude is choosing, for a while, to keep company with yourself.",
+   "visuals": [
+    {
+     "photo": "dahl-elbe",
+     "kb": "in",
+     "focus": "50% 50%",
+     "label": "Solitude"
+    }
+   ]
+  },
+  {
+   "id": "s21",
+   "text": "Even at Walden, Thoreau strolled into the village every day or two. I had three chairs in my house, he wrote: one for solitude, two for friendship, three for society.",
+   "visuals": [
+    {
+     "photo": "cole-newengland",
+     "kb": "left",
+     "focus": "50% 60%"
+    },
+    {
+     "page": "q-chairs",
+     "cut": "had"
+    }
+   ]
+  },
+  {
+   "id": "s21b",
+   "text": "Decades later, Friedrich Nietzsche put it more fiercely. Flee, my friend, into thy solitude! I see thee deafened with the noise of the great men, and stung all over with the stings of the little ones.",
+   "visuals": [
+    {
+     "photo": "friedrich-moon",
+     "kb": "right",
+     "focus": "60% 50%",
+     "label": "Friedrich Nietzsche"
+    },
+    {
+     "page": "q-nietzsche",
+     "cut": "flee"
+    }
+   ]
+  },
+  {
+   "id": "s22",
+   "text": "The great solitaries did not escape from people. They went away for a while, and came back with something to give.",
+   "visuals": [
+    {
+     "photo": "beers-river",
+     "kb": "up",
+     "focus": "50% 50%",
+     "cap": "Something to give."
+    }
+   ]
+  },
+  {
+   "id": "s22b",
+   "text": "Pascal himself knew what solitude could give. On the night of the twenty-third of November, sixteen fifty-four, alone, he had an experience so intense that he wrote it down, and kept the note on him for the rest of his life. It was found after his death, sewn into his coat.",
+   "visuals": [
+    {
+     "photo": "pascal",
+     "framed": true,
+     "label": "Blaise Pascal"
+    },
+    {
+     "photo": "hammershoi-reading",
+     "kb": "in",
+     "focus": "50% 50%",
+     "cut": "found",
+     "cap": "Sewn into his coat."
+    }
+   ]
+  },
+  {
+   "id": "ch6",
+   "card": "chapter",
+   "num": "VI",
+   "title": "The Room Inside You",
+   "len": 4.0
+  },
+  {
+   "id": "s23",
+   "text": "Pascal's room is still there, in every life. The difference is that today it is full of screens. So how do you learn to sit in it?",
+   "visuals": [
+    {
+     "photo": "hammershoi-self",
+     "kb": "in",
+     "focus": "50% 45%"
+    }
+   ]
+  },
+  {
+   "id": "s24",
+   "text": "First, begin small. Sit alone for ten minutes, with no phone, no music, nothing to read. Notice how much you want to escape. That restlessness is the muscle you are training. Do it again tomorrow.",
+   "visuals": [
+    {
+     "photo": "jerome",
+     "kb": "in",
+     "focus": "50% 35%",
+     "step": [
+      "I",
+      "Sit in the room"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s25",
+   "text": "Second, build a back shop, like Montaigne. A time and a place, every day, that belong to no one else. An early hour, a walk, a corner of a room. Guard it.",
+   "visuals": [
+    {
+     "photo": "mola-homer",
+     "kb": "left",
+     "focus": "50% 40%",
+     "step": [
+      "II",
+      "Build a back shop"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s26",
+   "text": "Third, walk without input. No headphones. Thoreau walked the woods around Walden. Let your mind go wherever it wants. That wandering is not wasted time. It is where your own thoughts finally get a turn.",
+   "visuals": [
+    {
+     "photo": "courbet-alpine",
+     "kb": "right",
+     "focus": "50% 50%",
+     "step": [
+      "III",
+      "Walk without input"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s27",
+   "text": "And fourth, come back. Solitude is not the goal. Bring what you found to the people around you. Keep all three chairs.",
+   "visuals": [
+    {
+     "photo": "monks-landscape",
+     "kb": "in",
+     "focus": "50% 50%",
+     "step": [
+      "IV",
+      "Keep three chairs"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s28",
+   "text": "Few of us will ever be emperors, philosophers or scientists. But every one of us has a room. The question Pascal left us is whether we can sit in it.",
+   "visuals": [
+    {
+     "photo": "friedrich-moon",
+     "kb": "out",
+     "focus": "50% 45%",
+     "cap": "Can you sit in it?"
+    }
+   ]
+  },
+  {
+   "id": "end",
+   "card": "end",
+   "len": 8.0
+  }
+ ]
+}

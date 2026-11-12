@@ -1,0 +1,130 @@
+{
+ "s01": {
+  "heard": "In the 1600s, the French mathematician Blaze Paschal, who built one of the first calculating machines, wrote down a strange idea in notes that were only published after his death.",
+  "matched": 0.8709677419354839
+ },
+ "s02": {
+  "heard": "I have discovered, he wrote, that all the unhappiness of men arises from one single fact, that they cannot stay quietly in their own chamber.",
+  "matched": 1.0
+ },
+ "s03": {
+  "heard": "It sounds like an exaggeration, but in 2014, a team of psychologists decided to test it.",
+  "matched": 0.8823529411764706
+ },
+ "s04": {
+  "heard": "They left people alone in a plane room with nothing to do but think for 6 -15 minutes. Most of them did not enjoy it, and many, given the choice, preferred to give themselves electric shocks rather than sit alone with their thoughts.",
+  "matched": 0.9090909090909091
+ },
+ "s04b": {
+  "heard": "and look at how we live now, we fill every quiet moment, a phone in the queue, a podcast on the walk, a screen before sleep. Silence has become something to escape.",
+  "matched": 1.0
+ },
+ "s05": {
+  "heard": "And yet again and again, the people who changed the way we think did their deepest work alone. Why?",
+  "matched": 1.0
+ },
+ "s06": {
+  "heard": "Nearly 2 ,000 years ago, the most powerful man in the world kept a private notebook. Marcus Aurelius, Emperor of Rome, wrote it for no one but himself, some of it in army camps on the northern frontier.",
+  "matched": 0.9473684210526315
+ },
+ "s07": {
+  "heard": "They seek for themselves private retiring places, he wrote, country villages, the seashore mountains. But at what time so ever thou wilt, it is in thy power to retire into thyself.",
+  "matched": 0.9032258064516129
+ },
+ "s08": {
+  "heard": "For Marcus, solitude was not a place you travel to. It was a skill, a room inside the mind, that no crowd, no war, and no flatter could enter.",
+  "matched": 0.9655172413793104
+ },
+ "s08b": {
+  "heard": "He was no hermit, he ruled an empire and led its armies, but again and again he went back into that inner room and came out steadier.",
+  "matched": 1.0
+ },
+ "s09": {
+  "heard": "In the winter of 1619, a young Frenchman named Ren\u00e9 Descartes was serving as a soldier in Germany when the cold set in and stranded him.",
+  "matched": 0.9259259259259259
+ },
+ "s10": {
+  "heard": "With no company to distract him, he later wrote, I remain the whole day in seclusion with full opportunity to occupy my attention with my own thoughts.",
+  "matched": 0.9629629629629629
+ },
+ "s11": {
+  "heard": "Out of those quiet days came the method he published in 1637 and the habit of doubting everything he had been taught. It made him a founder of modern philosophy.",
+  "matched": 0.9354838709677419
+ },
+ "s12": {
+  "heard": "Half a century later, Plague closed the University of Cambridge. A young Isaac Newton went home to his family's farm at Woolsthorpe. In the quiet months that followed, he worked out the beginnings of calculus, his theory of light, and his first thoughts on gravity.",
+  "matched": 1.0
+ },
+ "s13": {
+  "heard": "Neither man was running away from the world. Each had simply found a place where he could hear himself think.",
+  "matched": 1.0
+ },
+ "s14": {
+  "heard": "In 1571, at the age of 38, the French nobleman Michel de Montaine withdrew from public life to a library on the third story of a tower on his estate.",
+  "matched": 0.8387096774193549
+ },
+ "s15": {
+  "heard": "We must reserve a back shop. He wrote, holy our own and entirely free, we're in to settle our true liberty, our principal solitude and retreat.",
+  "matched": 0.92
+ },
+ "s16": {
+  "heard": "He spent his days there among his books, walking to and fro as he put it, dictating his thoughts. In that room he wrote his essays, a mind talking honestly to itself, page after page. He did not abandon his family or his duties. He simply kept one room that belonged to no one else.",
+  "matched": 1.0
+ },
+ "s17": {
+  "heard": "On the 4th of July, 1845, Henry David Thoreau moved into a cabin by Walden Pond in Concord, Massachusetts. He had built it himself. The materials he noted cost $28 .12 .5.",
+  "matched": 0.7297297297297297
+ },
+ "s18": {
+  "heard": "I went to the woods because I wished to live deliberately. He wrote to front only the essential facts of life and see if I could not learn what it had to teach and not, when I came to die, discover that I had not lived.",
+  "matched": 1.0
+ },
+ "s19": {
+  "heard": "He stayed two years and two months. I never found the companion he wrote that was so companionable as solitude.",
+  "matched": 1.0
+ },
+ "s20": {
+  "heard": "But solitude is not loneliness. Loneliness is the ache of company you do not have. Solitude is choosing for a while to keep company with yourself.",
+  "matched": 1.0
+ },
+ "s21": {
+  "heard": "Even at Walden, Thoreau strolled into the village every day or two. I had three chairs in my house, he wrote, one for solitude, two for friendship, three for society.",
+  "matched": 1.0
+ },
+ "s21b": {
+  "heard": "Decades later, Friedrich Nietzsche put it more fiercely, Flee, my friend, into thy solitude. I see thee deafened with the noise of the great men, and stung all over with the stings of the little ones.",
+  "matched": 1.0
+ },
+ "s22": {
+  "heard": "The great solitaries did not escape from people. They went away for a while and came back with something to give.",
+  "matched": 1.0
+ },
+ "s22b": {
+  "heard": "Pascal himself knew what solitude could give. On the night of the 23rd of November, 1654, alone, he had an experience so intense that he wrote it down and kept the note on him for the rest of his life. It was found after his death, sewn into his coat.",
+  "matched": 0.9411764705882353
+ },
+ "s23": {
+  "heard": "Pascal's room is still there in every life. The difference is that today it is full of screens. So how do you learn to sit in it?",
+  "matched": 1.0
+ },
+ "s24": {
+  "heard": "First, begin small. Sit alone for 10 minutes with no phone, no music, nothing to read. Notice how much you want to escape. That restlessness is the muscle you are training. Do it again tomorrow.",
+  "matched": 0.9714285714285714
+ },
+ "s25": {
+  "heard": "Second, build a back shop like Montaigne, a time and a place every day that belonged to no one else. An early hour, a walk, a corner of a room, guarded.",
+  "matched": 0.90625
+ },
+ "s26": {
+  "heard": "Third, walk without input. No headphones. Thoreau walked the woods around Walden. Let your mind go wherever it wants. That wandering is not wasted time. It is where your own thoughts finally get a turn.",
+  "matched": 1.0
+ },
+ "s27": {
+  "heard": "And fourth, come back, solitude is not the goal, bring what you found to the people around you, keep all three chairs.",
+  "matched": 1.0
+ },
+ "s28": {
+  "heard": "Few of us will ever be emperors, philosophers or scientists, but every one of us has a room. The question Pascal left us is whether we can sit in it.",
+  "matched": 1.0
+ }
+}

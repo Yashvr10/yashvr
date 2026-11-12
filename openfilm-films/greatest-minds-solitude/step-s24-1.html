@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=1920, height=1080">
+<link rel="stylesheet" href="lib/fw.css">
+<script src="lib/gsap.min.js"></script>
+
+<title>Sit in the room</title>
+<style>
+  #w { position: absolute; left: 0; right: 0; bottom: 100px; text-align: center; color: var(--ivory); text-shadow: 0 2px 16px rgba(0,0,0,.9); opacity: 0; }
+  #n { font-size: 40px; color: var(--gold); letter-spacing: .1em; }
+  #t { font-size: 34px; margin-top: 10px; }
+</style>
+</head>
+<body><div id="w"><div id="n" class="corm">I</div><div id="t" class="caps">Sit in the room</div></div>
+<script type="module">
+import { play } from "./lib/fw.js";
+const L = 14.882, tl = gsap.timeline({ paused: true });
+tl.fromTo("#w", { opacity: 0, y: 10 }, { opacity: 1, y: 0, duration: 1.0, ease: "power2.out" }, 0.3);
+tl.to("#w", { opacity: 0, duration: 0.7 }, L - 0.8);
+tl.to({}, { duration: L }, 0);
+play(tl, { duration: L });
+</script></body></html>

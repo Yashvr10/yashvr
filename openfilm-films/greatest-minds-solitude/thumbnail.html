@@ -1,0 +1,18 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><meta name="viewport" content="width=1920, height=1080">
+<link rel="stylesheet" href="lib/fw.css">
+<title>Thumbnail</title>
+<style>
+  body { background: #000; }
+  #img { position: absolute; inset: 0; background: url("assets/photos/hammershoi-moonlight.jpg") 70% 40% / 112% auto no-repeat;
+         filter: saturate(1.05) contrast(1.15) brightness(1.02) sepia(.12); }
+  #vig { position: absolute; inset: 0; background: radial-gradient(ellipse 70% 75% at 62% 45%, transparent 40%, rgba(0,0,0,.78) 100%),
+         linear-gradient(90deg, rgba(0,0,0,.72) 0%, rgba(0,0,0,.25) 38%, transparent 55%); }
+  #t { position: absolute; left: 110px; top: 380px; color: #f2e9d6; text-shadow: 0 4px 30px rgba(0,0,0,.8); }
+  #a { font-size: 150px; line-height: .95; letter-spacing: .12em; }
+  #b { font-size: 58px; font-style: italic; color: #d9b86c; margin-top: 26px; }
+</style></head>
+<body><div id="img"></div><div id="vig"></div>
+<div id="t"><div id="a" class="caps" style="letter-spacing:.12em">Alone</div><div id="b" class="corm">by choice</div></div>
+<script>window.film = { frame() {}, ready: document.fonts.ready };</script>
+</body></html>

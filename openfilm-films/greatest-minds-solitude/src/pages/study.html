@@ -1,0 +1,28 @@
+{{head}}
+<title>Just think</title>
+<style>
+  body { background: #0b0a08; }
+  .l { position: absolute; left: 0; right: 0; text-align: center; color: var(--ivory); opacity: 0; }
+  #k { top: 250px; font-size: 26px; color: var(--gold); }
+  #a { top: 330px; font-size: 64px; font-style: italic; }
+  #b { top: 470px; font-size: 64px; font-style: italic; }
+  #c { top: 610px; font-size: 64px; font-style: italic; color: var(--gold); }
+  #s { top: 900px; font-size: 22px; color: #8d8473; font-style: italic; }
+</style>
+</head>
+<body>
+<div class="l caps" id="k">2014 · Science</div>
+<div class="l corm" id="a">Alone in a plain room.</div>
+<div class="l corm" id="b">Six to fifteen minutes. Nothing to do but think.</div>
+<div class="l corm" id="c">Many chose electric shocks instead.</div>
+<div class="l corm" id="s">Wilson et al., “Just think: The challenges of the disengaged mind”, Science, 2014</div>
+<script type="module">
+import { play } from "./lib/fw.js";
+const tl = gsap.timeline({ paused: true });
+tl.to(["#k", "#s"], { opacity: 1, duration: 0.8 }, 0.3);
+tl.fromTo("#a", { opacity: 0, y: 10 }, { opacity: 1, y: 0, duration: 0.8 }, Math.max(0.4, {{cue:plain}} - 0.3));
+tl.fromTo("#b", { opacity: 0, y: 10 }, { opacity: 1, y: 0, duration: 0.8 }, {{cue:six}} - 0.2);
+tl.fromTo("#c", { opacity: 0, y: 10 }, { opacity: 1, y: 0, duration: 0.9 }, {{cue:shocks}} - 0.4);
+tl.to({}, { duration: 18 }, 0);
+play(tl, { ready: Promise.resolve() });
+</script></body></html>
