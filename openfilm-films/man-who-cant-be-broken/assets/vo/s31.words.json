@@ -1,0 +1,177 @@
+[
+{
+"word": "You",
+"start": 0.0,
+"end": 0.14
+},
+{
+"word": "train",
+"start": 0.14,
+"end": 0.44
+},
+{
+"word": "on",
+"start": 0.44,
+"end": 0.66
+},
+{
+"word": "the",
+"start": 0.66,
+"end": 0.8
+},
+{
+"word": "day",
+"start": 0.8,
+"end": 1.06
+},
+{
+"word": "you'd",
+"start": 1.06,
+"end": 1.42
+},
+{
+"word": "rather",
+"start": 1.42,
+"end": 1.68
+},
+{
+"word": "sleep.",
+"start": 1.68,
+"end": 2.2
+},
+{
+"word": "You",
+"start": 2.74,
+"end": 2.84
+},
+{
+"word": "ask",
+"start": 2.84,
+"end": 3.14
+},
+{
+"word": "the",
+"start": 3.14,
+"end": 3.36
+},
+{
+"word": "question",
+"start": 3.36,
+"end": 3.74
+},
+{
+"word": "that",
+"start": 3.74,
+"end": 3.98
+},
+{
+"word": "might",
+"start": 3.98,
+"end": 4.18
+},
+{
+"word": "get",
+"start": 4.18,
+"end": 4.4
+},
+{
+"word": "a",
+"start": 4.4,
+"end": 4.54
+},
+{
+"word": "no.",
+"start": 4.54,
+"end": 4.78
+},
+{
+"word": "You",
+"start": 5.34,
+"end": 5.48
+},
+{
+"word": "take",
+"start": 5.48,
+"end": 5.68
+},
+{
+"word": "on",
+"start": 5.68,
+"end": 5.88
+},
+{
+"word": "a",
+"start": 5.88,
+"end": 6.04
+},
+{
+"word": "job",
+"start": 6.04,
+"end": 6.38
+},
+{
+"word": "that",
+"start": 6.38,
+"end": 6.72
+},
+{
+"word": "could",
+"start": 6.72,
+"end": 6.88
+},
+{
+"word": "show",
+"start": 6.88,
+"end": 7.18
+},
+{
+"word": "the",
+"start": 7.18,
+"end": 7.36
+},
+{
+"word": "world",
+"start": 7.36,
+"end": 7.62
+},
+{
+"word": "your",
+"start": 7.62,
+"end": 7.88
+},
+{
+"word": "limits.",
+"start": 7.88,
+"end": 8.28
+},
+{
+"word": "Nobody",
+"start": 8.94,
+"end": 9.14
+},
+{
+"word": "else",
+"start": 9.14,
+"end": 9.5
+},
+{
+"word": "may",
+"start": 9.5,
+"end": 9.74
+},
+{
+"word": "notice.",
+"start": 9.74,
+"end": 10.22
+},
+{
+"word": "You",
+"start": 10.76,
+"end": 10.98
+},
+{
+"word": "will.",
+"start": 10.98,
+"end": 11.3
+}
+]

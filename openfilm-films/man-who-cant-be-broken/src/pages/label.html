@@ -1,0 +1,16 @@
+{{head}}
+<title>{{text}}</title>
+<style>
+  #c { position: absolute; left: 0; right: 0; bottom: 116px; text-align: center; font-size: 30px; color: var(--ivory);
+       text-shadow: 0 2px 16px rgba(0,0,0,.9); opacity: 0; }
+</style>
+</head>
+<body><div id="c" class="caps">{{text}}</div>
+<script type="module">
+import { play } from "./lib/fw.js";
+const L = {{len}}, tl = gsap.timeline({ paused: true });
+tl.fromTo("#c", { opacity: 0, letterSpacing: ".5em" }, { opacity: 1, letterSpacing: ".32em", duration: 1.4, ease: "power2.out" }, 0.2);
+tl.to("#c", { opacity: 0, duration: 0.7 }, L - 0.8);
+tl.to({}, { duration: L }, 0);
+play(tl, { duration: L });
+</script></body></html>

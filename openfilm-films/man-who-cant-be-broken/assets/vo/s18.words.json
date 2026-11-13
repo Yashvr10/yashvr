@@ -1,0 +1,107 @@
+[
+{
+"word": "Lincoln",
+"start": 0.0,
+"end": 0.38
+},
+{
+"word": "at",
+"start": 0.38,
+"end": 0.6
+},
+{
+"word": "thirty-one",
+"start": 0.6,
+"end": 1.28
+},
+{
+"word": "could",
+"start": 1.28,
+"end": 1.92
+},
+{
+"word": "not",
+"start": 1.92,
+"end": 2.1
+},
+{
+"word": "see",
+"start": 2.1,
+"end": 2.42
+},
+{
+"word": "Lincoln",
+"start": 2.42,
+"end": 2.76
+},
+{
+"word": "at",
+"start": 2.76,
+"end": 3.04
+},
+{
+"word": "fifty-one.",
+"start": 3.04,
+"end": 4.38
+},
+{
+"word": "You",
+"start": 4.38,
+"end": 4.46
+},
+{
+"word": "cannot",
+"start": 4.46,
+"end": 4.7
+},
+{
+"word": "see",
+"start": 4.7,
+"end": 5.02
+},
+{
+"word": "the",
+"start": 5.02,
+"end": 5.16
+},
+{
+"word": "man",
+"start": 5.16,
+"end": 5.42
+},
+{
+"word": "you",
+"start": 5.42,
+"end": 5.62
+},
+{
+"word": "will",
+"start": 5.62,
+"end": 5.78
+},
+{
+"word": "be",
+"start": 5.78,
+"end": 6.0
+},
+{
+"word": "in",
+"start": 6.0,
+"end": 6.24
+},
+{
+"word": "ten",
+"start": 6.24,
+"end": 6.52
+},
+{
+"word": "years",
+"start": 6.52,
+"end": 7.0
+},
+{
+"word": "either.",
+"start": 7.0,
+"end": 7.42
+}
+]

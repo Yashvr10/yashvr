@@ -1,0 +1,57 @@
+[
+{
+"word": "Two",
+"start": 0.0,
+"end": 0.22
+},
+{
+"word": "years",
+"start": 0.22,
+"end": 0.5
+},
+{
+"word": "later,",
+"start": 0.5,
+"end": 1.0
+},
+{
+"word": "he",
+"start": 1.44,
+"end": 1.54
+},
+{
+"word": "was",
+"start": 1.54,
+"end": 1.72
+},
+{
+"word": "elected",
+"start": 1.72,
+"end": 2.1
+},
+{
+"word": "President",
+"start": 2.1,
+"end": 2.58
+},
+{
+"word": "of",
+"start": 2.58,
+"end": 3.2
+},
+{
+"word": "the",
+"start": 3.2,
+"end": 3.32
+},
+{
+"word": "United",
+"start": 3.32,
+"end": 3.64
+},
+{
+"word": "States.",
+"start": 3.64,
+"end": 4.2
+}
+]

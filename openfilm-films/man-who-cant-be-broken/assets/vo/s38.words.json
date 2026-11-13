@@ -1,0 +1,367 @@
+[
+{
+"word": "A",
+"start": 0.0,
+"end": 0.12
+},
+{
+"word": "very",
+"start": 0.12,
+"end": 0.42
+},
+{
+"word": "large",
+"start": 0.42,
+"end": 0.82
+},
+{
+"word": "Oak",
+"start": 0.82,
+"end": 1.14
+},
+{
+"word": "was",
+"start": 1.14,
+"end": 1.38
+},
+{
+"word": "uprooted",
+"start": 1.38,
+"end": 1.82
+},
+{
+"word": "by",
+"start": 1.82,
+"end": 2.04
+},
+{
+"word": "the",
+"start": 2.04,
+"end": 2.2
+},
+{
+"word": "wind",
+"start": 2.2,
+"end": 2.6
+},
+{
+"word": "and",
+"start": 2.6,
+"end": 3.0
+},
+{
+"word": "thrown",
+"start": 3.0,
+"end": 3.26
+},
+{
+"word": "across",
+"start": 3.26,
+"end": 3.58
+},
+{
+"word": "a",
+"start": 3.58,
+"end": 3.78
+},
+{
+"word": "stream.",
+"start": 3.78,
+"end": 4.18
+},
+{
+"word": "It",
+"start": 4.84,
+"end": 5.0
+},
+{
+"word": "fell",
+"start": 5.0,
+"end": 5.2
+},
+{
+"word": "among",
+"start": 5.2,
+"end": 5.42
+},
+{
+"word": "some",
+"start": 5.42,
+"end": 5.74
+},
+{
+"word": "Reeds,",
+"start": 5.74,
+"end": 6.26
+},
+{
+"word": "which",
+"start": 6.26,
+"end": 6.54
+},
+{
+"word": "it",
+"start": 6.54,
+"end": 6.68
+},
+{
+"word": "thus",
+"start": 6.68,
+"end": 6.86
+},
+{
+"word": "addressed:",
+"start": 6.86,
+"end": 7.24
+},
+{
+"word": "I",
+"start": 7.98,
+"end": 8.1
+},
+{
+"word": "wonder",
+"start": 8.1,
+"end": 8.26
+},
+{
+"word": "how",
+"start": 8.26,
+"end": 8.56
+},
+{
+"word": "you,",
+"start": 8.56,
+"end": 8.82
+},
+{
+"word": "who",
+"start": 8.84,
+"end": 9.08
+},
+{
+"word": "are",
+"start": 9.08,
+"end": 9.18
+},
+{
+"word": "so",
+"start": 9.18,
+"end": 9.38
+},
+{
+"word": "light",
+"start": 9.38,
+"end": 9.6
+},
+{
+"word": "and",
+"start": 9.6,
+"end": 9.8
+},
+{
+"word": "weak,",
+"start": 9.8,
+"end": 10.1
+},
+{
+"word": "are",
+"start": 10.48,
+"end": 10.56
+},
+{
+"word": "not",
+"start": 10.56,
+"end": 10.74
+},
+{
+"word": "entirely",
+"start": 10.74,
+"end": 11.28
+},
+{
+"word": "crushed",
+"start": 11.28,
+"end": 11.66
+},
+{
+"word": "by",
+"start": 11.66,
+"end": 11.94
+},
+{
+"word": "these",
+"start": 11.94,
+"end": 12.14
+},
+{
+"word": "strong",
+"start": 12.14,
+"end": 12.48
+},
+{
+"word": "winds.",
+"start": 12.48,
+"end": 12.82
+},
+{
+"word": "They",
+"start": 13.54,
+"end": 13.74
+},
+{
+"word": "replied,",
+"start": 13.74,
+"end": 14.16
+},
+{
+"word": "You",
+"start": 14.58,
+"end": 14.66
+},
+{
+"word": "fight",
+"start": 14.66,
+"end": 14.98
+},
+{
+"word": "and",
+"start": 14.98,
+"end": 15.24
+},
+{
+"word": "contend",
+"start": 15.24,
+"end": 15.58
+},
+{
+"word": "with",
+"start": 15.58,
+"end": 15.84
+},
+{
+"word": "the",
+"start": 15.84,
+"end": 16.0
+},
+{
+"word": "wind,",
+"start": 16.0,
+"end": 16.42
+},
+{
+"word": "and",
+"start": 16.76,
+"end": 16.96
+},
+{
+"word": "consequently",
+"start": 16.96,
+"end": 17.46
+},
+{
+"word": "you",
+"start": 17.46,
+"end": 17.8
+},
+{
+"word": "are",
+"start": 17.8,
+"end": 17.92
+},
+{
+"word": "destroyed;",
+"start": 17.92,
+"end": 18.62
+},
+{
+"word": "while",
+"start": 19.1,
+"end": 19.32
+},
+{
+"word": "we",
+"start": 19.32,
+"end": 19.44
+},
+{
+"word": "on",
+"start": 19.44,
+"end": 19.56
+},
+{
+"word": "the",
+"start": 19.56,
+"end": 19.7
+},
+{
+"word": "contrary",
+"start": 19.7,
+"end": 20.08
+},
+{
+"word": "bend",
+"start": 20.08,
+"end": 20.5
+},
+{
+"word": "before",
+"start": 20.5,
+"end": 20.84
+},
+{
+"word": "the",
+"start": 20.84,
+"end": 21.02
+},
+{
+"word": "least",
+"start": 21.02,
+"end": 21.2
+},
+{
+"word": "breath",
+"start": 21.2,
+"end": 21.52
+},
+{
+"word": "of",
+"start": 21.52,
+"end": 21.74
+},
+{
+"word": "air,",
+"start": 21.74,
+"end": 22.04
+},
+{
+"word": "and",
+"start": 22.04,
+"end": 22.58
+},
+{
+"word": "therefore",
+"start": 22.58,
+"end": 22.96
+},
+{
+"word": "remain",
+"start": 22.96,
+"end": 23.34
+},
+{
+"word": "unbroken,",
+"start": 23.34,
+"end": 23.98
+},
+{
+"word": "and",
+"start": 23.98,
+"end": 24.58
+},
+{
+"word": "escape.",
+"start": 24.58,
+"end": 25.0
+}
+]

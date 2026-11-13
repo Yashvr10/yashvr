@@ -1,0 +1,686 @@
+{
+ "voice": "bm_george",
+ "speed": 0.86,
+ "gap": 0.55,
+ "scenes": [
+  {
+   "id": "s01",
+   "text": "Two and a half thousand years ago, the story goes, Rome was saved by one man on a bridge. The enemy had taken the hill across the river. The Roman soldiers were running. One of them, Horatius, turned around and stood still.",
+   "visuals": [
+    {
+     "photo": "goltzius-horatius",
+     "kb": "in",
+     "focus": "50% 35%",
+     "framed": true,
+     "label": "Horatius Cocles"
+    }
+   ]
+  },
+  {
+   "id": "s02",
+   "text": "The historian Livy tells what came next. They hurl their weapons from all sides on their single adversary; and when they all stuck in the shield held before him, he with no less obstinacy kept possession of the bridge with firm step.",
+   "visuals": [
+    {
+     "photo": "vercellae",
+     "kb": "down",
+     "focus": "50% 40%"
+    },
+    {
+     "page": "q-livy",
+     "cut": "hurl"
+    }
+   ]
+  },
+  {
+   "id": "s03",
+   "text": "A man under a rain of spears, his shield heavy with them, still on his feet. Something in us wants to be him. Not for his strength. For whatever was underneath it, the part the spears never reached.",
+   "visuals": [
+    {
+     "photo": "wanderer-storm",
+     "kb": "in",
+     "focus": "45% 60%",
+     "cap": "The part the spears never reached."
+    }
+   ]
+  },
+  {
+   "id": "s04",
+   "text": "We have names for that part. Grit. Toughness. Resilience. And we get it wrong more often than we get it right. The man who can't be broken is not the man who can't be hurt.",
+   "visuals": [
+    {
+     "photo": "isabey-storm",
+     "kb": "left",
+     "focus": "50% 50%",
+     "cap": "Not the man who can't be hurt."
+    }
+   ]
+  },
+  {
+   "id": "s05",
+   "text": "He is not fearless, and he is not numb. He knows rejection, grief, embarrassment, doubt and defeat, like every man who has ever lived. The hardest men in history knew all of them well.",
+   "visuals": [
+    {
+     "photo": "rosa-self",
+     "kb": "in",
+     "focus": "50% 35%"
+    }
+   ]
+  },
+  {
+   "id": "s06",
+   "text": "What set them apart was narrower than that. Life could reach them. It could wound them, sometimes badly. What it never got was the last word on what they would do next.",
+   "visuals": [
+    {
+     "photo": "homer-prisoners",
+     "kb": "right",
+     "focus": "50% 50%",
+     "cap": "Never the last word."
+    }
+   ]
+  },
+  {
+   "id": "s07",
+   "text": "And the spears still fly. They just wear different clothes now. The promotion that goes to someone else. The marriage that ends. The account that never seems to grow. The plan you were sure of, that quietly fails.",
+   "visuals": [
+    {
+     "photo": "seurat-parapet",
+     "kb": "in",
+     "focus": "50% 45%"
+    }
+   ]
+  },
+  {
+   "id": "s08",
+   "text": "Or the quietest one of all: watching men your age pull ahead while you seem to stand in place. Nobody is storming your bridge. But sooner or later, every man gets hit from the one direction he wasn't watching.",
+   "visuals": [
+    {
+     "photo": "heade-thunder",
+     "kb": "right",
+     "focus": "50% 55%",
+     "cap": "The direction he wasn't watching."
+    }
+   ]
+  },
+  {
+   "id": "s09",
+   "text": "This film is about what he does next. Because the aim was never a life that cannot hurt you. The aim is a man who can take the hit, and keep walking.",
+   "visuals": [
+    {
+     "photo": "bierstadt-afterstorm",
+     "kb": "in",
+     "focus": "50% 55%",
+     "cap": "Take the hit, and keep walking."
+    }
+   ]
+  },
+  {
+   "id": "title",
+   "card": "title",
+   "len": 6.5
+  },
+  {
+   "id": "ch1",
+   "card": "chapter",
+   "num": "I",
+   "title": "The Bad Chapter",
+   "len": 4.5
+  },
+  {
+   "id": "s10",
+   "text": "In January of eighteen forty-one, a young lawyer in Springfield, Illinois, sat down to write to his law partner. He was thirty-one years old. And he was in the darkest place of his life.",
+   "visuals": [
+    {
+     "photo": "michel-storm",
+     "kb": "in",
+     "focus": "50% 55%"
+    }
+   ]
+  },
+  {
+   "id": "s11",
+   "text": "I am now the most miserable man living, he wrote. If what I feel were equally distributed to the whole human family, there would not be one cheerful face on earth. Whether I shall ever be better, I cannot tell.",
+   "visuals": [
+    {
+     "page": "q-lincoln1"
+    }
+   ]
+  },
+  {
+   "id": "s12",
+   "text": "The man was Abraham Lincoln. And the hard years were far from over. He served a single term in Congress, went home, and buried himself in his law practice. In his own words, he was losing interest in politics.",
+   "visuals": [
+    {
+     "photo": "lincoln-marsh",
+     "kb": "in",
+     "focus": "50% 40%",
+     "framed": true,
+     "label": "Abraham Lincoln"
+    }
+   ]
+  },
+  {
+   "id": "s13",
+   "text": "In eighteen fifty-eight, he ran for the Senate against Stephen Douglas, and lost. He was forty-nine. Close the book there, and you are reading about a man whose best days seem to be behind him.",
+   "visuals": [
+    {
+     "photo": "lincoln-volk",
+     "kb": "in",
+     "focus": "50% 40%",
+     "framed": true
+    }
+   ]
+  },
+  {
+   "id": "s14",
+   "text": "If he lived now, he could take out his phone and find a thousand men his age who looked further along. Bigger houses. Better titles.",
+   "visuals": [
+    {
+     "photo": "salmon-customhouse",
+     "kb": "left",
+     "focus": "50% 50%"
+    }
+   ]
+  },
+  {
+   "id": "s15",
+   "text": "A few weeks after the defeat, Lincoln answered a supporter's letter. The fight must go on, he wrote. The cause of civil liberty must not be surrendered at the end of one or even one hundred defeats.",
+   "visuals": [
+    {
+     "page": "q-lincoln2"
+    }
+   ]
+  },
+  {
+   "id": "s16",
+   "text": "Two years later, he was elected President of the United States.",
+   "visuals": [
+    {
+     "photo": "inness-sunrise",
+     "kb": "in",
+     "focus": "50% 50%",
+     "cap": "Two years later."
+    }
+   ]
+  },
+  {
+   "id": "s17",
+   "text": "The point is not that suffering long enough makes the world see how special you are. Life signs no such contract. The point is smaller, and harder. A bad chapter is not a verdict on the whole book.",
+   "visuals": [
+    {
+     "photo": "cole-oxbow",
+     "kb": "right",
+     "focus": "50% 50%",
+     "cap": "A bad chapter is not a verdict."
+    }
+   ]
+  },
+  {
+   "id": "s18",
+   "text": "Lincoln at thirty-one could not see Lincoln at fifty-one. You cannot see the man you will be in ten years either.",
+   "visuals": [
+    {
+     "photo": "eakins-thinker",
+     "kb": "in",
+     "focus": "50% 30%",
+     "framed": true
+    }
+   ]
+  },
+  {
+   "id": "ch2",
+   "card": "chapter",
+   "num": "II",
+   "title": "What Happened, and Who You Are",
+   "len": 4.5
+  },
+  {
+   "id": "s19",
+   "text": "There is a long distance between two short sentences. I lost. And: I am a loser. The first is a report about something that happened. The second is a sentence passed on everything that hasn't happened yet.",
+   "visuals": [
+    {
+     "photo": "rembrandt-aristotle",
+     "kb": "in",
+     "focus": "45% 40%",
+     "cap": "I lost. I am a loser."
+    }
+   ]
+  },
+  {
+   "id": "s20",
+   "text": "Men cross that distance without noticing. One woman says no, and he decides no woman will say yes. One venture folds, and he decides he is not a builder.",
+   "visuals": [
+    {
+     "photo": "daumier-quixote",
+     "kb": "in",
+     "focus": "50% 55%"
+    }
+   ]
+  },
+  {
+   "id": "s22",
+   "text": "The man who can't be broken refuses that second sentence. He can say: I lost. I was wrong. I wasn't ready. I need to change. Not one of them requires the final sentence: and that is all I will ever be.",
+   "visuals": [
+    {
+     "photo": "sargent-marble",
+     "kb": "in",
+     "focus": "50% 45%"
+    }
+   ]
+  },
+  {
+   "id": "ch3",
+   "card": "chapter",
+   "num": "III",
+   "title": "The Arena",
+   "len": 4.5
+  },
+  {
+   "id": "s23",
+   "text": "There is another way men try to become unbreakable, and it looks like strength from a distance. They grow so afraid of being hurt that, one by one, they remove everything from their lives that could hurt them.",
+   "visuals": [
+    {
+     "photo": "old-castle",
+     "kb": "in",
+     "focus": "35% 45%"
+    }
+   ]
+  },
+  {
+   "id": "s24",
+   "text": "They never fully commit, in case they lose. They never start the thing, in case it fails. They never begin anything new, because beginners look foolish. They raise walls, and they call the walls discipline.",
+   "visuals": [
+    {
+     "photo": "bocklin-dead",
+     "kb": "in",
+     "focus": "50% 50%",
+     "cap": "They call the walls discipline."
+    }
+   ]
+  },
+  {
+   "id": "s25",
+   "text": "But a man who can't be hurt because nothing matters to him has not become strong. He has become absent.",
+   "visuals": [
+    {
+     "photo": "robert-arches",
+     "kb": "right",
+     "focus": "50% 50%"
+    }
+   ]
+  },
+  {
+   "id": "s26",
+   "text": "In April of nineteen-ten, Theodore Roosevelt stood before a crowd at the Sorbonne in Paris, and told them which kind of man deserves respect.",
+   "visuals": [
+    {
+     "photo": "goya-bullfight",
+     "kb": "in",
+     "focus": "50% 50%"
+    }
+   ]
+  },
+  {
+   "id": "s27",
+   "text": "It is not the critic who counts. The credit belongs to the man who is actually in the arena, whose face is marred by dust and sweat and blood; who strives valiantly; who errs, and comes short again and again. Who at the worst, if he fails, at least fails while daring greatly.",
+   "visuals": [
+    {
+     "page": "q-roosevelt"
+    }
+   ]
+  },
+  {
+   "id": "s28",
+   "text": "Modern life makes the walls very easy to build. Afraid she'll say no? Don't ask. Afraid it won't work? Don't start. Dreading the hard conversation? Leave it for next week.",
+   "visuals": [
+    {
+     "photo": "hoppner-boxer",
+     "kb": "in",
+     "focus": "50% 12%"
+    }
+   ]
+  },
+  {
+   "id": "ch4",
+   "card": "chapter",
+   "num": "IV",
+   "title": "The Evidence",
+   "len": 4.5
+  },
+  {
+   "id": "s30",
+   "text": "It works the other way too. You walk into a room full of strangers, and you are fine. You have the conversation you dreaded, and the silence passes. You try something hard, you fail, and the next morning your life is still there.",
+   "visuals": [
+    {
+     "photo": "homer-rainy",
+     "kb": "left",
+     "focus": "50% 55%"
+    }
+   ]
+  },
+  {
+   "id": "s31",
+   "text": "You train on the day you'd rather sleep. You ask the question that might get a no. You take on a job that could show the world your limits. Nobody else may notice. You will.",
+   "visuals": [
+    {
+     "photo": "homer-campfire",
+     "kb": "in",
+     "focus": "50% 55%",
+     "cap": "Nobody else may notice. You will."
+    }
+   ]
+  },
+  {
+   "id": "s32",
+   "text": "Slowly, you build a case. That is where real confidence comes from. Not from telling yourself you are strong, but from remembering every time it got hard, and you got through.",
+   "visuals": [
+    {
+     "photo": "defrance-forge",
+     "kb": "in",
+     "focus": "50% 45%"
+    }
+   ]
+  },
+  {
+   "id": "s33",
+   "text": "Homer knew this almost three thousand years ago. When Odysseus finally reaches home after twenty years, he finds strangers feasting in his hall and insulting his house. And he speaks to his own heart.",
+   "visuals": [
+    {
+     "photo": "apollonio-ulysses",
+     "kb": "right",
+     "focus": "50% 50%",
+     "framed": true
+    }
+   ]
+  },
+  {
+   "id": "s34",
+   "text": "Endure, my heart; yea, a baser thing thou once didst bear, on that day when the Cyclops, unrestrained in fury, devoured the mighty men of my company; but still thou didst endure till thy craft found a way for thee forth from out the cave, where thou thoughtest to die.",
+   "visuals": [
+    {
+     "page": "q-odyssey"
+    }
+   ]
+  },
+  {
+   "id": "s35",
+   "text": "He doesn't promise himself that everything will be fine. He reminds himself of the cave. I have been somewhere worse than this, and I found a way out. That is the voice of a man who kept his evidence.",
+   "visuals": [
+    {
+     "photo": "tempesta-polyphemus",
+     "kb": "in",
+     "focus": "50% 45%",
+     "framed": true
+    }
+   ]
+  },
+  {
+   "id": "ch5",
+   "card": "chapter",
+   "num": "V",
+   "title": "The Oak and the Reeds",
+   "len": 4.5
+  },
+  {
+   "id": "s37",
+   "text": "But a man who can't be broken also has to know how to bend. Aesop told a story about it more than two thousand years ago.",
+   "visuals": [
+    {
+     "photo": "corot-reeds",
+     "kb": "in",
+     "focus": "50% 55%"
+    }
+   ]
+  },
+  {
+   "id": "s38",
+   "text": "A very large Oak was uprooted by the wind and thrown across a stream. It fell among some Reeds, which it thus addressed: I wonder how you, who are so light and weak, are not entirely crushed by these strong winds. They replied, You fight and contend with the wind, and consequently you are destroyed; while we on the contrary bend before the least breath of air, and therefore remain unbroken, and escape.",
+   "visuals": [
+    {
+     "page": "q-aesop"
+    }
+   ]
+  },
+  {
+   "id": "s39",
+   "text": "A rigid man can look enormously strong, right up to the moment he snaps. He has one plan, one picture of how his life is supposed to go. When reality refuses it, changing course feels like losing.",
+   "visuals": [
+    {
+     "photo": "cropsey-tree",
+     "kb": "in",
+     "focus": "50% 40%",
+     "framed": true
+    }
+   ]
+  },
+  {
+   "id": "s40",
+   "text": "Sometimes the strongest sentence a man can say is: I was wrong. This isn't working. I'm starting over. A man who can change his road without changing his principles is very hard to beat.",
+   "visuals": [
+    {
+     "photo": "brueghel-road",
+     "kb": "right",
+     "focus": "50% 50%",
+     "cap": "Change the road. Keep the principles."
+    }
+   ]
+  },
+  {
+   "id": "s41",
+   "text": "Plans are tools. Principles are you. You can lose a job and keep your work ethic. Lose your savings and keep the skill that earned them. Lose a love and keep the capacity to love again.",
+   "visuals": [
+    {
+     "photo": "bruegel-harvesters",
+     "kb": "in",
+     "focus": "50% 50%"
+    }
+   ]
+  },
+  {
+   "id": "s42",
+   "text": "You can find out at thirty-five that the life you planned at twenty-five is gone, and still build something good at forty-five. Starting over doesn't wipe out what came before. It is built out of it.",
+   "visuals": [
+    {
+     "photo": "berg-shipyard",
+     "kb": "left",
+     "focus": "50% 50%",
+     "cap": "Starting over is built out of what came before."
+    }
+   ]
+  },
+  {
+   "id": "ch6",
+   "card": "chapter",
+   "num": "VI",
+   "title": "What Remains",
+   "len": 4.5
+  },
+  {
+   "id": "s43",
+   "text": "Daniel Defoe learned this the hard way. In his early thirties, he was a merchant, and he went bankrupt, with debts that followed him for years. In seventeen-oh-three, he was locked in the pillory in London, for a pamphlet that had angered the government.",
+   "visuals": [
+    {
+     "photo": "rowlandson-pillory",
+     "kb": "in",
+     "focus": "50% 50%",
+     "framed": true
+    }
+   ]
+  },
+  {
+   "id": "s44",
+   "text": "He kept writing. And near the age of sixty, he published a novel about a man who loses everything in a single night. He called it Robinson Crusoe.",
+   "visuals": [
+    {
+     "photo": "pillement-wreck",
+     "kb": "in",
+     "focus": "50% 50%",
+     "cap": "Robinson Crusoe."
+    }
+   ]
+  },
+  {
+   "id": "s45",
+   "text": "Crusoe is thrown onto an empty island, the only survivor of a wreck. And the first thing he does, once the terror passes, is swim back out to the broken ship, again and again, and bring back whatever can be saved. Then he sits down and writes out his situation like an account book, the bad on one side, the good on the other.",
+   "visuals": [
+    {
+     "photo": "bradford-wreck",
+     "kb": "right",
+     "focus": "50% 50%"
+    }
+   ]
+  },
+  {
+   "id": "s47",
+   "text": "I am cast upon a horrible, desolate island, void of all hope of recovery. But I am alive; and not drowned, as all my ship's company were. I have no soul to speak to or relieve me. But God wonderfully sent the ship in near enough to the shore, that I have got out as many necessary things as will either supply my wants or enable me to supply myself.",
+   "visuals": [
+    {
+     "page": "q-crusoe"
+    }
+   ]
+  },
+  {
+   "id": "s48",
+   "text": "The lesson is not that suffering makes men great. Very often, it doesn't. The lesson is that a life can split into before and after, and the after does not have to be the smaller half.",
+   "visuals": [
+    {
+     "photo": "homer-veteran",
+     "kb": "in",
+     "focus": "45% 45%",
+     "cap": "The after does not have to be smaller."
+    }
+   ]
+  },
+  {
+   "id": "s50",
+   "text": "There is the life you expected, and there is the life that is left. The man who can't be broken stops shouting at the sea for what it took. He swims out to the wreck, takes what can be saved, and starts to build.",
+   "visuals": [
+    {
+     "photo": "house-raising",
+     "kb": "right",
+     "focus": "50% 50%",
+     "cap": "Takes what can be saved, and starts to build."
+    }
+   ]
+  },
+  {
+   "id": "ch7",
+   "card": "chapter",
+   "num": "VII",
+   "title": "The Next Thing",
+   "len": 4.5
+  },
+  {
+   "id": "s51",
+   "text": "Maybe you are in one of those seasons now. Maybe something didn't work. Maybe you are behind on money, or your work has stalled, or someone walked out.",
+   "visuals": [
+    {
+     "photo": "friedrich-moon",
+     "kb": "in",
+     "focus": "45% 50%"
+    }
+   ]
+  },
+  {
+   "id": "s53",
+   "text": "Make it smaller. Do the next thing that is yours to do. Lift. Work. Return the call. Send the application. Say the hard sentence. Own the mistake. Learn the skill. Go again.",
+   "visuals": [
+    {
+     "photo": "homer-harvest",
+     "kb": "right",
+     "focus": "50% 50%",
+     "cap": "Do the next thing that is yours to do."
+    }
+   ]
+  },
+  {
+   "id": "s54",
+   "text": "Not because one of these will change your life by morning. Because each time you do what you said you would do, you hand yourself one more reason to trust yourself.",
+   "visuals": [
+    {
+     "photo": "hubbard-morning",
+     "kb": "in",
+     "focus": "50% 45%",
+     "framed": true
+    }
+   ]
+  },
+  {
+   "id": "s55",
+   "text": "And that may be the most valuable thing a man can own. Not the belief that he will always win. The knowledge that he will not walk out on himself when he loses.",
+   "visuals": [
+    {
+     "photo": "daubigny-morning",
+     "kb": "in",
+     "focus": "50% 50%",
+     "cap": "He will not walk out on himself."
+    }
+   ]
+  },
+  {
+   "id": "s56",
+   "text": "Marcus Aurelius, writing to himself through years of war and plague, put the whole idea into a single picture. Thou must be like a promontory of the sea, against which though the waves beat continually, yet it both itself stands, and about it are those swelling waves stilled and quieted.",
+   "visuals": [
+    {
+     "photo": "meissonier-friedland",
+     "kb": "right",
+     "focus": "50% 50%"
+    },
+    {
+     "page": "q-marcus",
+     "cut": "thou"
+    }
+   ]
+  },
+  {
+   "id": "s57",
+   "text": "History keeps the dramatic kind of strength. The soldier on the bridge. The president after his defeats. The bankrupt in the pillory who wrote a classic. Your kind may never be dramatic enough for history. It doesn't need to be.",
+   "visuals": [
+    {
+     "photo": "homer-northeaster",
+     "kb": "in",
+     "focus": "55% 50%"
+    }
+   ]
+  },
+  {
+   "id": "s58",
+   "text": "Most strength is built where no one is watching. On mornings when getting up costs more than it should. In conversations you'd rather skip. In the quiet decision to try once more. In the humility to turn around.",
+   "visuals": [
+    {
+     "photo": "tryon-dawn",
+     "kb": "in",
+     "focus": "50% 50%",
+     "cap": "Where no one is watching."
+    }
+   ]
+  },
+  {
+   "id": "s59",
+   "text": "The spears look different now. A no. A loss. A debt. A betrayal. A comparison. Years that refuse to follow the plan. You will not block all of them. Some will land. Some will leave scars.",
+   "visuals": [
+    {
+     "photo": "homer-cannonrock",
+     "kb": "in",
+     "focus": "50% 50%"
+    }
+   ]
+  },
+  {
+   "id": "s60",
+   "text": "The goal was never to become a man the world can't wound. It was to understand that a wound is not an ending. You may bend. You may have to start again. But while the next move is still yours, there is something in you the world has not taken. That is the man who can't be broken.",
+   "visuals": [
+    {
+     "photo": "bierstadt-matterhorn",
+     "kb": "up",
+     "focus": "50% 35%",
+     "cap": "A wound is not an ending."
+    }
+   ]
+  },
+  {
+   "id": "end",
+   "card": "end",
+   "len": 9.0
+  }
+ ]
+}

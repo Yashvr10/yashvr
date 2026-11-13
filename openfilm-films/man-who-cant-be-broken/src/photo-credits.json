@@ -1,0 +1,488 @@
+[
+ {
+  "key": "vercellae",
+  "file": "vercellae.jpg",
+  "title": "The Battle of Vercellae",
+  "artist": "Giovanni Battista Tiepolo",
+  "date": "1725–29",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/437794"
+ },
+ {
+  "key": "wanderer-storm",
+  "file": "wanderer-storm.jpg",
+  "title": "Wanderer in the Storm",
+  "artist": "Julius von Leypold",
+  "date": "1835",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/439333"
+ },
+ {
+  "key": "rosa-self",
+  "file": "rosa-self.jpg",
+  "title": "Self-Portrait",
+  "artist": "Salvator Rosa",
+  "date": "ca. 1647",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/437508"
+ },
+ {
+  "key": "isabey-storm",
+  "file": "isabey-storm.jpg",
+  "title": "A Storm off the Normandy Coast",
+  "artist": "Eugène Isabey",
+  "date": "probably 1850s",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/438950"
+ },
+ {
+  "key": "seurat-parapet",
+  "file": "seurat-parapet.jpg",
+  "title": "A Man Leaning on a Parapet",
+  "artist": "Georges Seurat",
+  "date": "ca. 1881",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/438123"
+ },
+ {
+  "key": "heade-thunder",
+  "file": "heade-thunder.jpg",
+  "title": "Approaching Thunder Storm",
+  "artist": "Martin Johnson Heade",
+  "date": "1859",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/11050"
+ },
+ {
+  "key": "bierstadt-afterstorm",
+  "file": "bierstadt-afterstorm.jpg",
+  "title": "After the Storm",
+  "artist": "Albert Bierstadt",
+  "date": "ca. 1870–80 (?)",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/12849"
+ },
+ {
+  "key": "lincoln-marsh",
+  "file": "lincoln-marsh.jpg",
+  "title": "Abraham Lincoln",
+  "artist": "William Marsh",
+  "date": "May 20, 1860",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/283191"
+ },
+ {
+  "key": "lincoln-volk",
+  "file": "lincoln-volk.jpg",
+  "title": "Abraham Lincoln",
+  "artist": "Leonard Wells Volk",
+  "date": "1860, cast ca. 1914",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/13079"
+ },
+ {
+  "key": "salmon-customhouse",
+  "file": "salmon-customhouse.jpg",
+  "title": "The Custom House at Greenock, Scotland",
+  "artist": "Robert Salmon",
+  "date": "1828",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/12024"
+ },
+ {
+  "key": "inness-sunrise",
+  "file": "inness-sunrise.jpg",
+  "title": "Sunrise",
+  "artist": "George Inness",
+  "date": "1887",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/11235"
+ },
+ {
+  "key": "cole-oxbow",
+  "file": "cole-oxbow.jpg",
+  "title": "View from Mount Holyoke, Northampton, Massachusetts, after a Thunderstorm—The Oxbow",
+  "artist": "Thomas Cole",
+  "date": "1836",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/10497"
+ },
+ {
+  "key": "eakins-thinker",
+  "file": "eakins-thinker.jpg",
+  "title": "The Thinker: Portrait of Louis N. Kenton",
+  "artist": "Thomas Eakins",
+  "date": "1900",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/10827"
+ },
+ {
+  "key": "rembrandt-aristotle",
+  "file": "rembrandt-aristotle.jpg",
+  "title": "Aristotle with a Bust of Homer",
+  "artist": "Rembrandt (Rembrandt van Rijn)",
+  "date": "1653",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/437394"
+ },
+ {
+  "key": "daumier-quixote",
+  "file": "daumier-quixote.jpg",
+  "title": "Don Quixote and the Dead Mule",
+  "artist": "Honoré Daumier",
+  "date": "after 1864",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/436092"
+ },
+ {
+  "key": "degas-nude",
+  "file": "degas-nude.jpg",
+  "title": "Male Nude",
+  "artist": "Edgar Degas",
+  "date": "1856",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/438857"
+ },
+ {
+  "key": "sargent-marble",
+  "file": "sargent-marble.jpg",
+  "title": "Bringing Down Marble from the Quarries to Carrara",
+  "artist": "John Singer Sargent",
+  "date": "1911",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/12052"
+ },
+ {
+  "key": "bocklin-dead",
+  "file": "bocklin-dead.jpg",
+  "title": "Island of the Dead",
+  "artist": "Arnold Böcklin",
+  "date": "1880",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/435683"
+ },
+ {
+  "key": "old-castle",
+  "file": "old-castle.jpg",
+  "title": "The Old Castle",
+  "artist": "Emanuel Murant",
+  "date": "",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/437171"
+ },
+ {
+  "key": "robert-arches",
+  "file": "robert-arches.jpg",
+  "title": "Arches in Ruins",
+  "artist": "Hubert Robert",
+  "date": "",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/437472"
+ },
+ {
+  "key": "goya-bullfight",
+  "file": "goya-bullfight.jpg",
+  "title": "Bullfight in a Divided Ring",
+  "artist": "Goya (Francisco de Goya y Lucientes)",
+  "date": "ca. 1810",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/436554"
+ },
+ {
+  "key": "hoppner-boxer",
+  "file": "hoppner-boxer.jpg",
+  "title": "Richard Humphreys, the Boxer",
+  "artist": "John Hoppner",
+  "date": "",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/436691"
+ },
+ {
+  "key": "vlieger-calm",
+  "file": "vlieger-calm.jpg",
+  "title": "Calm Sea",
+  "artist": "Simon de Vlieger",
+  "date": "after 1640",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/437914"
+ },
+ {
+  "key": "ruisdael-torrent",
+  "file": "ruisdael-torrent.jpg",
+  "title": "Mountain Torrent",
+  "artist": "Jacob van Ruisdael",
+  "date": "1670s",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/437548"
+ },
+ {
+  "key": "homer-rainy",
+  "file": "homer-rainy.jpg",
+  "title": "Rainy Day in Camp",
+  "artist": "Winslow Homer",
+  "date": "1871",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/11134"
+ },
+ {
+  "key": "homer-campfire",
+  "file": "homer-campfire.jpg",
+  "title": "Camp Fire",
+  "artist": "Winslow Homer",
+  "date": "1880",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/11112"
+ },
+ {
+  "key": "defrance-forge",
+  "file": "defrance-forge.jpg",
+  "title": "The Forge",
+  "artist": "Léonard Defrance",
+  "date": "",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/436118"
+ },
+ {
+  "key": "tempesta-polyphemus",
+  "file": "tempesta-polyphemus.jpg",
+  "title": "Plate 143: Polyphemus Eating Ulysses' Men, as Achaemides Watches (Ulyssis socios deuorat Polyphemus), from Ovid's 'Metamorphoses'",
+  "artist": "Antonio Tempesta",
+  "date": "1606",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/401167"
+ },
+ {
+  "key": "vernet-harbor",
+  "file": "vernet-harbor.jpg",
+  "title": "Harbor Scene with a Grotto and Fishermen Hauling in Nets",
+  "artist": "Joseph Vernet",
+  "date": "",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/437886"
+ },
+ {
+  "key": "corot-reeds",
+  "file": "corot-reeds.jpg",
+  "title": "Boatman among the Reeds",
+  "artist": "Camille Corot",
+  "date": "ca. 1865",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/435966"
+ },
+ {
+  "key": "brueghel-road",
+  "file": "brueghel-road.jpg",
+  "title": "A Woodland Road with Travelers",
+  "artist": "Jan Brueghel the Elder",
+  "date": "1607",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/435810"
+ },
+ {
+  "key": "bruegel-harvesters",
+  "file": "bruegel-harvesters.jpg",
+  "title": "The Harvesters",
+  "artist": "Pieter Bruegel the Elder",
+  "date": "1565",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/435809"
+ },
+ {
+  "key": "berg-shipyard",
+  "file": "berg-shipyard.jpg",
+  "title": "Berg's Ship Yard",
+  "artist": "William P. Chappel",
+  "date": "1870s",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/10441"
+ },
+ {
+  "key": "rowlandson-pillory",
+  "file": "rowlandson-pillory.jpg",
+  "title": "Pillory, Charing Cross",
+  "artist": "Thomas Rowlandson",
+  "date": "April 1, 1809",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/744511"
+ },
+ {
+  "key": "pillement-wreck",
+  "file": "pillement-wreck.jpg",
+  "title": "A Shipwreck in a Storm",
+  "artist": "Jean Pillement",
+  "date": "1782",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/437292"
+ },
+ {
+  "key": "bradford-wreck",
+  "file": "bradford-wreck.jpg",
+  "title": "Shipwreck off Nantucket (Wreck off Nantucket after a Storm)",
+  "artist": "William Bradford",
+  "date": "ca. 1860–61",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/10209"
+ },
+ {
+  "key": "homer-veteran",
+  "file": "homer-veteran.jpg",
+  "title": "The Veteran in a New Field",
+  "artist": "Winslow Homer",
+  "date": "1865",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/11145"
+ },
+ {
+  "key": "shaw-deluge",
+  "file": "shaw-deluge.jpg",
+  "title": "The Deluge towards Its Close",
+  "artist": "Joshua Shaw",
+  "date": "ca. 1813",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/12569"
+ },
+ {
+  "key": "house-raising",
+  "file": "house-raising.jpg",
+  "title": "House Raising",
+  "artist": "William P. Chappel",
+  "date": "1870s",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/10453"
+ },
+ {
+  "key": "millet-retreat",
+  "file": "millet-retreat.jpg",
+  "title": "Retreat from the Storm",
+  "artist": "Jean-François Millet",
+  "date": "ca. 1846",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/438616"
+ },
+ {
+  "key": "friedrich-moon",
+  "file": "friedrich-moon.jpg",
+  "title": "Two Men Contemplating the Moon",
+  "artist": "Caspar David Friedrich",
+  "date": "ca. 1825–30",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/438417"
+ },
+ {
+  "key": "homer-harvest",
+  "file": "homer-harvest.jpg",
+  "title": "Harvest Scene",
+  "artist": "Winslow Homer",
+  "date": "ca. 1873",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/11123"
+ },
+ {
+  "key": "hubbard-morning",
+  "file": "hubbard-morning.jpg",
+  "title": "Morning on the Mountain",
+  "artist": "Richard William Hubbard",
+  "date": "1856",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/11170"
+ },
+ {
+  "key": "daubigny-morning",
+  "file": "daubigny-morning.jpg",
+  "title": "The Seine: Morning",
+  "artist": "Charles-François Daubigny",
+  "date": "1874",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/436086"
+ },
+ {
+  "key": "meissonier-friedland",
+  "file": "meissonier-friedland.jpg",
+  "title": "1807, Friedland",
+  "artist": "Ernest Meissonier",
+  "date": "ca. 1861–75",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/437052"
+ },
+ {
+  "key": "homer-northeaster",
+  "file": "homer-northeaster.jpg",
+  "title": "Northeaster",
+  "artist": "Winslow Homer",
+  "date": "1895; reworked by 1901",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/11130"
+ },
+ {
+  "key": "tryon-dawn",
+  "file": "tryon-dawn.jpg",
+  "title": "Dawn—Early Spring",
+  "artist": "Dwight William Tryon",
+  "date": "1894",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/12831"
+ },
+ {
+  "key": "bierstadt-matterhorn",
+  "file": "bierstadt-matterhorn.jpg",
+  "title": "Sunrise on the Matterhorn",
+  "artist": "Albert Bierstadt",
+  "date": "after 1875",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/10158"
+ },
+ {
+  "key": "michel-storm",
+  "file": "michel-storm.jpg",
+  "title": "The Storm",
+  "artist": "Georges Michel",
+  "date": "c. 1814–c. 1830",
+  "license": "Public domain (Art Institute of Chicago, CC0)",
+  "source": "https://www.artic.edu/artworks/21914"
+ },
+ {
+  "key": "apollonio-ulysses",
+  "file": "apollonio-ulysses.jpg",
+  "title": "The Adventures of Ulysses",
+  "artist": "Apollonio di Giovanni",
+  "date": "1435–45",
+  "license": "Public domain (Art Institute of Chicago, CC0)",
+  "source": "https://www.artic.edu/artworks/110760"
+ },
+ {
+  "key": "cropsey-tree",
+  "file": "cropsey-tree.jpg",
+  "title": "Blasted Tree",
+  "artist": "Jasper Francis Cropsey",
+  "date": "1850",
+  "license": "Public domain (Art Institute of Chicago, CC0)",
+  "source": "https://www.artic.edu/artworks/129639"
+ },
+ {
+  "key": "goltzius-horatius",
+  "file": "goltzius-horatius.jpg",
+  "title": "Horatius Cocles, from \"The Roman Heroes\"",
+  "artist": "Hendrick Goltzius",
+  "date": "1586",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/343571"
+ },
+ {
+  "key": "homer-cannonrock",
+  "file": "homer-cannonrock.jpg",
+  "title": "Cannon Rock",
+  "artist": "Winslow Homer",
+  "date": "1895",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/11113"
+ },
+ {
+  "key": "homer-prisoners",
+  "file": "homer-prisoners.jpg",
+  "title": "Prisoners from the Front",
+  "artist": "Winslow Homer",
+  "date": "1866",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/11133"
+ }
+]

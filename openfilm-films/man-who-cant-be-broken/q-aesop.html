@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=1920, height=1080">
+<link rel="stylesheet" href="lib/fw.css">
+<script src="lib/gsap.min.js"></script>
+
+<title>THE OAK AND THE REEDS</title>
+<style>
+  body { background: #0b0a08; }
+  #page { position: absolute; left: 430px; top: 70px; width: 1060px; height: 940px; background: #e8dfc9; transform-origin: 50% 50%;
+          box-shadow: 0 40px 120px rgba(0,0,0,.7); overflow: hidden; }
+  #paper { position: absolute; inset: 0; width: 100%; height: 100%; opacity: .5; mix-blend-mode: multiply; }
+  #head { position: absolute; left: 90px; right: 90px; top: 58px; display: flex; justify-content: space-between; color: #4a4134; font-size: 21px; }
+  #body { position: absolute; left: 90px; right: 90px; top: 120px; bottom: 70px; overflow: hidden; color: #2a241c; font-size: 33px; line-height: 1.5;
+          text-align: justify; hyphens: auto; -webkit-mask-image: linear-gradient(transparent 0, #000 9%, #000 88%, transparent 100%); }
+  .w { background-image: linear-gradient(rgba(214,178,92,.55), rgba(214,178,92,.55)); background-repeat: no-repeat; background-size: 0% 100%;
+       background-position: 0 60%; padding: 0 2px; margin: 0 -2px; }
+  #cite { position: absolute; left: 0; right: 0; bottom: 18px; text-align: center; color: #8d8473; font-size: 22px; font-style: italic; opacity: 0; }
+</style>
+</head>
+<body>
+<div id="page"><canvas id="paper" width="530" height="470"></canvas>
+  <div id="head" class="caps"><span>THE OAK AND THE REEDS</span><span></span></div>
+  <div id="body" class="book"><div id="inner">deeds had been as good as your words, and if your hands had not been traitors to your speech.” The Oak and the Reeds <span class="w r0">A</span> <span class="w r0">VERY</span> <span class="w r0">LARGE</span> <span class="w r0">OAK</span> <span class="w r0">was</span> <span class="w r0">uprooted</span> <span class="w r0">by</span> <span class="w r0">the</span> <span class="w r0">wind</span> <span class="w r0">and</span> <span class="w r0">thrown</span> <span class="w r0">across</span> <span class="w r0">a</span> <span class="w r0">stream.</span> <span class="w r1">It</span> <span class="w r1">fell</span> <span class="w r1">among</span> <span class="w r1">some</span> <span class="w r1">Reeds,</span> <span class="w r1">which</span> <span class="w r1">it</span> <span class="w r1">thus</span> <span class="w r1">addressed:</span> <span class="w r2">“I</span> <span class="w r2">wonder</span> <span class="w r2">how</span> <span class="w r2">you,</span> <span class="w r2">who</span> <span class="w r2">are</span> <span class="w r2">so</span> <span class="w r2">light</span> <span class="w r2">and</span> <span class="w r2">weak,</span> <span class="w r2">are</span> <span class="w r2">not</span> <span class="w r2">entirely</span> <span class="w r2">crushed</span> <span class="w r2">by</span> <span class="w r2">these</span> <span class="w r2">strong</span> <span class="w r2">winds.”</span> <span class="w r3">They</span> <span class="w r3">replied,</span> <span class="w r3">“You</span> <span class="w r3">fight</span> <span class="w r3">and</span> <span class="w r3">contend</span> <span class="w r3">with</span> <span class="w r3">the</span> <span class="w r3">wind,</span> <span class="w r3">and</span> <span class="w r3">consequently</span> <span class="w r3">you</span> <span class="w r3">are</span> <span class="w r3">destroyed;</span> <span class="w r3">while</span> <span class="w r3">we</span> <span class="w r3">on</span> <span class="w r3">the</span> <span class="w r3">contrary</span> <span class="w r3">bend</span> <span class="w r3">before</span> <span class="w r3">the</span> <span class="w r3">least</span> <span class="w r3">breath</span> <span class="w r3">of</span> <span class="w r3">air,</span> <span class="w r3">and</span> <span class="w r3">therefore</span> <span class="w r3">remain</span> <span class="w r3">unbroken,</span> <span class="w r3">and</span> <span class="w r3">escape.”</span> Stoop to conquer. The Lion in a Farmyard A LION entered a</div></div>
+</div>
+<div id="cite" class="corm">Aesop’s Fables · translated by George Fyler Townsend</div>
+<script type="module">
+import { play, hash } from "./lib/fw.js";
+// paper: seeded mottling, drawn once
+const c = document.getElementById("paper"), x = c.getContext("2d"), img = x.createImageData(530, 470);
+for (let i = 0; i < 530 * 470; i++) { const v = 200 + hash(i, 3) * 55 - hash(Math.floor(i / 9), 5) * 18; img.data[i*4] = v; img.data[i*4+1] = v * .97; img.data[i*4+2] = v * .9; img.data[i*4+3] = 255; }
+x.putImageData(img, 0, 0);
+const tl = gsap.timeline({ paused: true });
+const runs = [["r0",0.72,4.38],["r1",5.6,7.46],["r2",8.7,13.08],["r3",14.34,25.18]];   // [class, first spoken second, last spoken second] per highlighted run
+const ready = document.fonts.ready.then(() => {
+  // keep the highlighted lines in view: move the text up so the first highlight sits about a third of the way down
+  const inner = document.getElementById("inner"), first = document.querySelector(".w");
+  inner.style.transform = `translateY(${-Math.max(0, first.offsetTop - 230)}px)`;
+  gsap.set("#page", { rotation: -0.6, scale: 0.97, opacity: 0 });
+  tl.to("#page", { opacity: 1, duration: 0.7, ease: "power2.out" }, 0);
+  tl.to("#page", { scale: 1.04, duration: 18, ease: "none" }, 0);
+  tl.to("#cite", { opacity: 1, duration: 0.8 }, 0.6);
+  // the highlight follows the narrator, word by word, between the run's first and last spoken word
+  runs.forEach(([cls, a, b]) => {
+    const ws = [...document.querySelectorAll("." + cls)], d = Math.max(0.3, b - a) / ws.length;
+    ws.forEach((w, i) => tl.to(w, { backgroundSize: "100% 100%", duration: Math.max(0.12, d), ease: "none" }, Math.max(0.3, a + i * d)));
+  });
+  tl.to({}, { duration: 18 }, 0);
+});
+play(tl, { ready });
+</script>
+</body>
+</html>

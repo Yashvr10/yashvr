@@ -1,0 +1,18 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><meta name="viewport" content="width=1920, height=1080">
+<link rel="stylesheet" href="lib/fw.css">
+<title>Thumbnail</title>
+<style>
+  body { background: #000; }
+  #img { position: absolute; top: 0; bottom: 0; left: 760px; right: 0; background: url("assets/photos/hoppner-boxer.jpg") 50% 16% / 100% auto no-repeat;
+         filter: contrast(1.15) saturate(1.05) brightness(1.05) sepia(.12); }
+  #vig { position: absolute; inset: 0; background: radial-gradient(ellipse 50% 80% at 72% 40%, transparent 40%, rgba(0,0,0,.8) 100%),
+         linear-gradient(90deg, #000 0%, #000 40%, rgba(0,0,0,.5) 50%, transparent 62%); }
+  #t { position: absolute; left: 100px; top: 300px; color: #f2e9d6; text-shadow: 0 4px 30px rgba(0,0,0,.85); }
+  #a { font-size: 84px; line-height: 1; letter-spacing: .14em; }
+  #b { font-size: 170px; line-height: .98; font-style: italic; color: #d9b86c; margin-top: 18px; }
+</style></head>
+<body><div id="img"></div><div id="vig"></div>
+<div id="t"><div id="a" class="caps">The man who</div><div id="b" class="corm">can’t be<br>broken</div></div>
+<script>window.film = { frame() {}, ready: document.fonts.ready };</script>
+</body></html>
