@@ -1,0 +1,18 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><meta name="viewport" content="width=1920, height=1080">
+<link rel="stylesheet" href="lib/fw.css">
+<title>Thumbnail</title>
+<style>
+  body { background: #000; }
+  #img { position: absolute; inset: 0; background: url("assets/photos/millet-woodchopper.jpg") 50% 28% / 112% auto no-repeat; left: 520px; right: -520px;
+         filter: contrast(1.2) saturate(1.05) brightness(1.35) sepia(.12); }
+  #vig { position: absolute; inset: 0; background: radial-gradient(ellipse 55% 80% at 62% 40%, transparent 35%, rgba(0,0,0,.82) 100%),
+         linear-gradient(90deg, #000 0%, #000 28%, rgba(0,0,0,.45) 42%, transparent 58%); }
+  #t { position: absolute; left: 100px; top: 330px; color: #f2e9d6; text-shadow: 0 4px 30px rgba(0,0,0,.85); }
+  #a { font-size: 92px; line-height: 1; letter-spacing: .12em; }
+  #b { font-size: 250px; line-height: .95; font-style: italic; color: #d9b86c; margin-top: 10px; }
+</style></head>
+<body><div id="img"></div><div id="vig"></div>
+<div id="t"><div id="a" class="caps">A man needs a</div><div id="b" class="corm">Why</div></div>
+<script>window.film = { frame() {}, ready: document.fonts.ready };</script>
+</body></html>

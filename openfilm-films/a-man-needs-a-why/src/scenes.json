@@ -1,0 +1,468 @@
+{
+ "voice": "bm_george",
+ "speed": 0.82,
+ "gap": 0.55,
+ "scenes": [
+  {
+   "id": "s01",
+   "text": "There is a moment most men know. You wake before the alarm, and lie there in the dark, and a question arrives that you cannot answer. What is all this for?",
+   "visuals": [
+    {
+     "photo": "vermeer-maid",
+     "kb": "in",
+     "focus": "50% 40%",
+     "cap": "What is all this for?"
+    }
+   ]
+  },
+  {
+   "id": "s02",
+   "text": "Nearly two thousand years ago, a Roman emperor knew that moment too. In the morning when thou risest unwillingly, he wrote to himself, let this thought be present: I am rising to the work of a human being.",
+   "visuals": [
+    {
+     "photo": "robert-marcus",
+     "kb": "up",
+     "focus": "50% 40%",
+     "label": "Marcus Aurelius"
+    },
+    {
+     "page": "q-marcus",
+     "cut": "morning"
+    }
+   ]
+  },
+  {
+   "id": "s03",
+   "text": "Marcus Aurelius ruled the greatest empire on earth. And still, some mornings, he did not want to get out of bed. Dost thou exist then to take thy pleasure, he asked himself, and not at all for action or exertion?",
+   "visuals": [
+    {
+     "photo": "caesar-funeral",
+     "kb": "left",
+     "focus": "50% 50%",
+     "cap": "Not at all for action?"
+    }
+   ]
+  },
+  {
+   "id": "s03b",
+   "text": "He answered with what he saw around him. Dost thou not see the little plants, the little birds, the ants, the spiders, the bees working together to put in order their several parts of the universe? And art thou unwilling to do the work of a human being?",
+   "visuals": [
+    {
+     "photo": "courbet-brook",
+     "kb": "in",
+     "focus": "50% 50%",
+     "cap": "The work of a human being."
+    }
+   ]
+  },
+  {
+   "id": "s04",
+   "text": "What got him up was not pleasure. It was a reason. Centuries later, Friedrich Nietzsche put the same idea in a single line. If a man knows the wherefore of his existence, he wrote, then the manner of it can take care of itself.",
+   "visuals": [
+    {
+     "photo": "nietzsche",
+     "kb": "in",
+     "focus": "50% 45%",
+     "framed": true,
+     "label": "Friedrich Nietzsche"
+    },
+    {
+     "page": "q-nietzsche",
+     "cut": "if"
+    }
+   ]
+  },
+  {
+   "id": "s05",
+   "text": "A why can carry almost any how. Without one, even an easy life starts to feel heavy. This film is about that why: what it is, what happens to a man who loses it, and how to build one.",
+   "visuals": [
+    {
+     "photo": "song-lark",
+     "kb": "in",
+     "focus": "50% 40%",
+     "cap": "A why can carry almost any how."
+    }
+   ]
+  },
+  {
+   "id": "title",
+   "card": "title",
+   "len": 7.0
+  },
+  {
+   "id": "ch1",
+   "card": "chapter",
+   "num": "I",
+   "title": "The Work of Man",
+   "len": 5.0
+  },
+  {
+   "id": "s06",
+   "text": "Aristotle asked the question more coldly than anyone. Every craftsman has a work. The flute player has his music, the sculptor his statue, the carpenter and the cobbler their trade. Their good, he said, lies in doing that work well.",
+   "visuals": [
+    {
+     "photo": "sargent-glass",
+     "kb": "right",
+     "focus": "50% 50%"
+    },
+    {
+     "photo": "ostade-cobbler",
+     "kb": "in",
+     "focus": "50% 50%",
+     "cut": "carpenter"
+    }
+   ]
+  },
+  {
+   "id": "s07",
+   "text": "Are we then to suppose, he wrote, that while carpenter and cobbler have certain works and courses of action, Man as Man has none, but is left by Nature without a work?",
+   "visuals": [
+    {
+     "page": "q-aristotle"
+    }
+   ]
+  },
+  {
+   "id": "s08",
+   "text": "His answer was no. A human being also has a work: to live actively, by reason, and to live well. Happiness, for Aristotle, was not a feeling that happens to you. It was something you do.",
+   "visuals": [
+    {
+     "photo": "millet-woodchopper",
+     "kb": "in",
+     "focus": "50% 40%",
+     "cap": "Something you do."
+    }
+   ]
+  },
+  {
+   "id": "ch2",
+   "card": "chapter",
+   "num": "II",
+   "title": "The Lost Years",
+   "len": 5.0
+  },
+  {
+   "id": "s09",
+   "text": "Seneca watched the rich men of Rome fill their days with banquets, errands and ambitions, and then complain, at the end, that life had been too short.",
+   "visuals": [
+    {
+     "photo": "jordaens-king",
+     "kb": "left",
+     "focus": "50% 50%"
+    }
+   ]
+  },
+  {
+   "id": "s10",
+   "text": "We do not have a very short time assigned to us, he wrote, but we lose a great deal of it. Life is long enough, if we do but arrange the whole of it aright. But when it is not devoted to any good purpose, then at the last we are forced to feel that it is all over.",
+   "visuals": [
+    {
+     "page": "q-seneca"
+    }
+   ]
+  },
+  {
+   "id": "s10b",
+   "text": "Thus it is, Seneca wrote: we do not receive a short life, but we make it a short one, and we are not poor in days, but wasteful of them. One man is possessed by an avarice which nothing can satisfy. Another, by a laborious diligence in doing what is totally useless.",
+   "visuals": [
+    {
+     "photo": "christus-goldsmith",
+     "kb": "in",
+     "focus": "50% 45%",
+     "cap": "Not poor in days, but wasteful of them."
+    }
+   ]
+  },
+  {
+   "id": "s11",
+   "text": "Life was not too short, he said. It was spent on nothing. A day without a purpose is not a day saved. It is a day lost.",
+   "visuals": [
+    {
+     "photo": "rembrandt-oldwoman",
+     "kb": "in",
+     "focus": "50% 40%",
+     "cap": "It is a day lost."
+    }
+   ]
+  },
+  {
+   "id": "ch3",
+   "card": "chapter",
+   "num": "III",
+   "title": "Quiet Desperation",
+   "len": 5.0
+  },
+  {
+   "id": "s12",
+   "text": "Eighteen centuries later, in a small town in Massachusetts, Henry David Thoreau looked at his comfortable neighbours, and saw the same thing.",
+   "visuals": [
+    {
+     "photo": "cole-newengland",
+     "kb": "in",
+     "focus": "50% 60%"
+    }
+   ]
+  },
+  {
+   "id": "s13",
+   "text": "As if you could kill time without injuring eternity, he wrote. The mass of men lead lives of quiet desperation. What is called resignation is confirmed desperation. From the desperate city you go into the desperate country, and have to console yourself with the bravery of minks and muskrats.",
+   "visuals": [
+    {
+     "page": "q-thoreau"
+    }
+   ]
+  },
+  {
+   "id": "s13b",
+   "text": "A few lines later, he goes further. A stereotyped but unconscious despair, he writes, is concealed even under what are called the games and amusements of mankind. There is no play in them. A man can fill every evening with amusement, and still not know what his days are for.",
+   "visuals": [
+    {
+     "photo": "marcola-comedy",
+     "kb": "in",
+     "focus": "50% 50%",
+     "cap": "There is no play in them."
+    }
+   ]
+  },
+  {
+   "id": "s14",
+   "text": "Not loud despair. Quiet. The despair of a man who has a job, a house and a routine, and no idea what any of it is for.",
+   "visuals": [
+    {
+     "photo": "vermeer-pitcher",
+     "kb": "in",
+     "focus": "50% 35%",
+     "cap": "No idea what any of it is for."
+    }
+   ]
+  },
+  {
+   "id": "ch4",
+   "card": "chapter",
+   "num": "IV",
+   "title": "Vanity",
+   "len": 5.0
+  },
+  {
+   "id": "s15",
+   "text": "An older book had already described where that road ends. The writer of Ecclesiastes says he denied himself nothing. I made me great works, he writes. I builded me houses. I planted me vineyards. I gathered me also silver and gold.",
+   "visuals": [
+    {
+     "photo": "gionima-belshazzar",
+     "kb": "right",
+     "focus": "50% 50%"
+    }
+   ]
+  },
+  {
+   "id": "s16",
+   "text": "Then I looked on all the works that my hands had wrought, and on the labour that I had laboured to do: and, behold, all was vanity and vexation of spirit, and there was no profit under the sun.",
+   "visuals": [
+    {
+     "page": "q-eccl2"
+    }
+   ]
+  },
+  {
+   "id": "s17",
+   "text": "Everything a man could want, and at the end of it, nothing. Pleasure without purpose does not add up. Like a soap bubble, it is beautiful for a moment, and then it is gone.",
+   "visuals": [
+    {
+     "photo": "chardin-bubbles",
+     "kb": "in",
+     "focus": "50% 40%",
+     "cap": "Then it is gone."
+    }
+   ]
+  },
+  {
+   "id": "ch5",
+   "card": "chapter",
+   "num": "V",
+   "title": "What the Body Knows",
+   "len": 5.0
+  },
+  {
+   "id": "s18",
+   "text": "Modern research has found something similar, in the body itself. In twenty nineteen, researchers followed nearly seven thousand Americans over the age of fifty.",
+   "visuals": [
+    {
+     "photo": "millet-keeper",
+     "kb": "left",
+     "focus": "50% 50%"
+    }
+   ]
+  },
+  {
+   "id": "s19",
+   "text": "Those with the weakest sense of purpose in life were more than twice as likely to die during the study, as those with the strongest. The link was especially strong for diseases of the heart and circulation.",
+   "visuals": [
+    {
+     "page": "study"
+    }
+   ]
+  },
+  {
+   "id": "s20",
+   "text": "A study like this shows a link, not a cause. But it fits what many men have seen: someone retires from the work that ordered his whole life, and something in him goes quiet.",
+   "visuals": [
+    {
+     "photo": "courbet-boat",
+     "kb": "in",
+     "focus": "50% 50%",
+     "cap": "Something in him goes quiet."
+    }
+   ]
+  },
+  {
+   "id": "ch6",
+   "card": "chapter",
+   "num": "VI",
+   "title": "Built, Not Found",
+   "len": 5.0
+  },
+  {
+   "id": "s21",
+   "text": "So where does a why come from? Most men wait for it, as if it were a message that will one day arrive. It almost never comes that way.",
+   "visuals": [
+    {
+     "photo": "vermeer-lute",
+     "kb": "in",
+     "focus": "50% 40%",
+     "cap": "Most men wait for it."
+    }
+   ]
+  },
+  {
+   "id": "s22",
+   "text": "Look again at Aristotle's craftsmen. The flute player is not born knowing why he plays. The why grows out of years of playing. Purpose is built the way a skill is built: by doing the work before you feel the meaning.",
+   "visuals": [
+    {
+     "photo": "sargent-orchestra",
+     "kb": "up",
+     "focus": "50% 50%",
+     "cap": "By doing the work before you feel the meaning."
+    }
+   ]
+  },
+  {
+   "id": "s22b",
+   "text": "This is the trap. A man waits to feel sure before he commits, and so he never commits, and so he never feels sure. The feeling of purpose is not the reason to begin. It is what the work gives back, years later, to the man who began anyway.",
+   "visuals": [
+    {
+     "photo": "sargent-thistles",
+     "kb": "in",
+     "focus": "50% 50%",
+     "cap": "It is what the work gives back."
+    }
+   ]
+  },
+  {
+   "id": "s23",
+   "text": "Even Ecclesiastes, the book that called everything vanity, does not end in despair. Whatsoever thy hand findeth to do, it says, do it with thy might.",
+   "visuals": [
+    {
+     "page": "q-eccl9"
+    }
+   ]
+  },
+  {
+   "id": "s24",
+   "text": "Not a grand answer. Just the work in front of you, done fully. That is where most purpose begins.",
+   "visuals": [
+    {
+     "photo": "millet-sheepshearers",
+     "kb": "in",
+     "focus": "50% 45%",
+     "framed": true,
+     "cap": "The work in front of you."
+    }
+   ]
+  },
+  {
+   "id": "ch7",
+   "card": "chapter",
+   "num": "VII",
+   "title": "How to Build a Why",
+   "len": 5.0
+  },
+  {
+   "id": "s25",
+   "text": "First, take responsibility for something. A person, a craft, a place. A why begins the moment something depends on you.",
+   "visuals": [
+    {
+     "photo": "millet-shepherdess",
+     "kb": "in",
+     "focus": "50% 40%",
+     "step": [
+      "I",
+      "Carry something"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s26",
+   "text": "Second, rise to the work. Like Marcus, name each morning what you are getting up to do, even if it is small.",
+   "visuals": [
+    {
+     "photo": "millet-cows",
+     "kb": "in",
+     "focus": "50% 40%",
+     "step": [
+      "II",
+      "Rise to the work"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s27",
+   "text": "Third, spend your days, do not lose them. Seneca's test: at the end of today, what was your time devoted to?",
+   "visuals": [
+    {
+     "photo": "millet-auvergne",
+     "kb": "right",
+     "focus": "50% 50%",
+     "step": [
+      "III",
+      "Spend your days"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s28",
+   "text": "And fourth, give it years. Purpose, like a craft, rewards the man who keeps showing up, long after the excitement is gone.",
+   "visuals": [
+    {
+     "photo": "millet-little-shepherdess",
+     "kb": "in",
+     "focus": "50% 45%",
+     "framed": true,
+     "step": [
+      "IV",
+      "Give it years"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s29",
+   "text": "You may never find the meaning of life. But you can give your life a meaning, and a reason to rise in the morning. If a man knows the wherefore of his existence, the manner of it can take care of itself. So find your work. And rise to it.",
+   "visuals": [
+    {
+     "photo": "lorrain-sunrise",
+     "kb": "out",
+     "focus": "50% 50%",
+     "cap": "Find your work. And rise to it."
+    }
+   ]
+  },
+  {
+   "id": "end",
+   "card": "end",
+   "len": 10.0
+  }
+ ]
+}

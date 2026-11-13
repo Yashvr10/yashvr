@@ -1,0 +1,253 @@
+[
+ {
+  "key": "robert-marcus",
+  "file": "robert-marcus.jpg",
+  "title": "Equestrian Statue of Marcus Aurelius",
+  "artist": "Hubert Robert",
+  "date": "1757",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/459379"
+ },
+ {
+  "key": "cole-newengland",
+  "file": "cole-newengland.jpg",
+  "title": "New England Scenery",
+  "artist": "Thomas Cole",
+  "date": "1839",
+  "license": "Public domain (Art Institute of Chicago, CC0)",
+  "source": "https://www.artic.edu/artworks/57163"
+ },
+ {
+  "key": "nietzsche",
+  "file": "nietzsche.jpg",
+  "title": "Portret van Friedrich Nietzsche, RP-F-00-10994",
+  "artist": "Rijksmuseum",
+  "license": "CC0 (via Openverse)",
+  "source": "https://commons.wikimedia.org/w/index.php?curid=146894069"
+ },
+ {
+  "key": "lorrain-sunrise",
+  "file": "lorrain-sunrise.jpg",
+  "title": "Sunrise",
+  "artist": "Claude Lorrain (Claude Gellée)",
+  "date": "possibly 1646–47",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/435907"
+ },
+ {
+  "key": "vermeer-maid",
+  "file": "vermeer-maid.jpg",
+  "title": "A Maid Asleep",
+  "artist": "Johannes Vermeer",
+  "date": "ca. 1656–57",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/437878"
+ },
+ {
+  "key": "vermeer-pitcher",
+  "file": "vermeer-pitcher.jpg",
+  "title": "Young Woman with a Water Pitcher",
+  "artist": "Johannes Vermeer",
+  "date": "ca. 1662",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/437881"
+ },
+ {
+  "key": "vermeer-lute",
+  "file": "vermeer-lute.jpg",
+  "title": "Young Woman with a Lute",
+  "artist": "Johannes Vermeer",
+  "date": "ca. 1662–63",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/437880"
+ },
+ {
+  "key": "jordaens-king",
+  "file": "jordaens-king.jpg",
+  "title": "The King Drinks",
+  "artist": "Jacob Jordaens",
+  "date": "ca. 1645–50",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/459295"
+ },
+ {
+  "key": "gionima-belshazzar",
+  "file": "gionima-belshazzar.jpg",
+  "title": "The Feast of Belshazzar",
+  "artist": "Antonio Gionima",
+  "date": "1697–1732",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/338891"
+ },
+ {
+  "key": "ostade-cobbler",
+  "file": "ostade-cobbler.jpg",
+  "title": "The Cobbler",
+  "artist": "Adriaen van Ostade",
+  "date": "17th century",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/347686"
+ },
+ {
+  "key": "rembrandt-oldwoman",
+  "file": "rembrandt-oldwoman.jpg",
+  "title": "Old Woman Cutting Her Nails",
+  "artist": "Rembrandt (Rembrandt van Rijn)",
+  "date": "ca. 1655–60",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/437412"
+ },
+ {
+  "key": "chardin-bubbles",
+  "file": "chardin-bubbles.jpg",
+  "title": "Soap Bubbles",
+  "artist": "Jean Siméon Chardin",
+  "date": "ca. 1733–34",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/435888"
+ },
+ {
+  "key": "courbet-boat",
+  "file": "courbet-boat.jpg",
+  "title": "The Fishing Boat",
+  "artist": "Gustave Courbet",
+  "date": "1865",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/436012"
+ },
+ {
+  "key": "millet-cows",
+  "file": "millet-cows.jpg",
+  "title": "Calling the Cows Home",
+  "artist": "Jean-François Millet",
+  "date": "ca. 1872",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/437095"
+ },
+ {
+  "key": "millet-shepherdess",
+  "file": "millet-shepherdess.jpg",
+  "title": "Shepherdess Seated on a Rock",
+  "artist": "Jean-François Millet",
+  "date": "1856",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/437098"
+ },
+ {
+  "key": "song-lark",
+  "file": "song-lark.jpg",
+  "title": "The Song of the Lark",
+  "artist": "Jules Breton",
+  "date": "1884",
+  "license": "Public domain (Art Institute of Chicago, CC0)",
+  "source": "https://www.artic.edu/artworks/94841"
+ },
+ {
+  "key": "sargent-glass",
+  "file": "sargent-glass.jpg",
+  "title": "Venetian Glass Workers",
+  "artist": "John Singer Sargent",
+  "date": "1880–82",
+  "license": "Public domain (Art Institute of Chicago, CC0)",
+  "source": "https://www.artic.edu/artworks/110761"
+ },
+ {
+  "key": "sargent-orchestra",
+  "file": "sargent-orchestra.jpg",
+  "title": "Rehearsal of the Pasdeloup Orchestra at the Cirque d'Hiver",
+  "artist": "John Singer Sargent",
+  "date": "c. 1879",
+  "license": "Public domain (Art Institute of Chicago, CC0)",
+  "source": "https://www.artic.edu/artworks/121628"
+ },
+ {
+  "key": "millet-woodchopper",
+  "file": "millet-woodchopper.jpg",
+  "title": "The Woodchopper",
+  "artist": "Jean François Millet",
+  "date": "c. 1858–66",
+  "license": "Public domain (Art Institute of Chicago, CC0)",
+  "source": "https://www.artic.edu/artworks/81521"
+ },
+ {
+  "key": "millet-keeper",
+  "file": "millet-keeper.jpg",
+  "title": "The Keeper of the Flock",
+  "artist": "Jean François Millet",
+  "date": "1871–74",
+  "license": "Public domain (Art Institute of Chicago, CC0)",
+  "source": "https://www.artic.edu/artworks/4776"
+ },
+ {
+  "key": "millet-auvergne",
+  "file": "millet-auvergne.jpg",
+  "title": "In the Auvergne",
+  "artist": "Jean François Millet",
+  "date": "c. 1866–69",
+  "license": "Public domain (Art Institute of Chicago, CC0)",
+  "source": "https://www.artic.edu/artworks/81516"
+ },
+ {
+  "key": "millet-little-shepherdess",
+  "file": "millet-little-shepherdess.jpg",
+  "title": "The Little Shepherdess",
+  "artist": "Jean François Millet",
+  "date": "1868–72",
+  "license": "Public domain (Art Institute of Chicago, CC0)",
+  "source": "https://www.artic.edu/artworks/81515"
+ },
+ {
+  "key": "millet-sheepshearers",
+  "file": "millet-sheepshearers.jpg",
+  "title": "The Sheepshearers",
+  "artist": "Jean François Millet",
+  "date": "c. 1857–61",
+  "license": "Public domain (Art Institute of Chicago, CC0)",
+  "source": "https://www.artic.edu/artworks/81522"
+ },
+ {
+  "key": "caesar-funeral",
+  "file": "caesar-funeral.jpg",
+  "title": "The Assassination and Funeral of Julius Caesar",
+  "artist": "Workshop of Apollonio di Giovanni",
+  "date": "1455/60",
+  "license": "Public domain (Art Institute of Chicago, CC0)",
+  "source": "https://www.artic.edu/artworks/47599"
+ },
+ {
+  "key": "christus-goldsmith",
+  "file": "christus-goldsmith.jpg",
+  "title": "A Goldsmith in his Shop",
+  "artist": "Petrus Christus",
+  "date": "1449",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/459052"
+ },
+ {
+  "key": "courbet-brook",
+  "file": "courbet-brook.jpg",
+  "title": "A Brook in the Forest",
+  "artist": "Gustave Courbet",
+  "date": "ca. 1868–77",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/436010"
+ },
+ {
+  "key": "sargent-thistles",
+  "file": "sargent-thistles.jpg",
+  "title": "Thistles",
+  "artist": "John Singer Sargent",
+  "date": "1883–89",
+  "license": "Public domain (Art Institute of Chicago, CC0)",
+  "source": "https://www.artic.edu/artworks/145807"
+ },
+ {
+  "key": "marcola-comedy",
+  "file": "marcola-comedy.jpg",
+  "title": "An Italian Comedy in Verona",
+  "artist": "Marco Marcola",
+  "date": "1772",
+  "license": "Public domain (Art Institute of Chicago, CC0)",
+  "source": "https://www.artic.edu/artworks/5502"
+ }
+]
