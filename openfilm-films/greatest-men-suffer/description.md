@@ -27,7 +27,7 @@ Nietzsche claimed that great suffering has produced "all the elevations of human
 • John Milton, Sonnet XVI ("When I consider how my light is spent") and Paradise Lost, Book III
 
 🖼 Paintings
-Public domain, from The Metropolitan Museum of Art and the Art Institute of Chicago open-access collections: Jacques-Louis David, Winslow Homer, Georges de La Tour, Claude Lorrain, Frederic Edwin Church, Daumier, van Dyck, Hammershøi, Whistler, Catel, Paulus Potter and others. Portraits of Nietzsche and Beethoven via Openverse (CC0).
+Public domain, from The Metropolitan Museum of Art and the Art Institute of Chicago open-access collections: Jacques-Louis David, Winslow Homer, Claude Lorrain, Frederic Edwin Church, Daumier, van Dyck, Hammershøi, Whistler, Catel, Paulus Potter and others. Portraits of Nietzsche and Beethoven via Openverse (CC0).
 
 🎵 Music (CC BY 3.0)
 J. S. Bach, Cello Suite No. 2 in D minor, BWV 1008 (Sarabande, Prelude, Menuet), performed by Ivan Dolgunov, via Jamendo.
