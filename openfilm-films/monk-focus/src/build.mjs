@@ -140,6 +140,9 @@ for (const s of cfg.scenes) {
         const k = nextWord(ptr, m[2]);
         if (k >= 0) { last = voAt + ws[k].t - 0.04; ptr = k + 1; }
         if (c === "big" && k >= 0) sfx.push({ f: "swish.mp3", at: last - 0.2, vol: 0.5 });
+        // a low thump under the biggest words, a soft tick on each script word; small and plain words stay silent
+        if (c === "big" && k >= 0) sfx.push({ f: "thump.mp3", at: last - 0.04, vol: 0.6, extra: true });
+        if (c === "scr" && k >= 0) sfx.push({ f: "tick.mp3", at: last, vol: 0.35, extra: true });
         return { x: m[2], c, t: r3(last), hit: k >= 0 };
       }));
       const miss = lines.flat().filter((w) => !w.hit).map((w) => w.x);
@@ -160,6 +163,7 @@ for (const s of cfg.scenes) {
       if (cur.length) chunks.push(cur);
       const q0 = voAt + ws[k0].t - 0.1;
       caps.push({ kind: "dim", at: r3(q0), end: r3(end - 0.12) });
+      sfx.push({ f: "open.mp3", at: q0, vol: 0.3, extra: true });
       chunks.forEach((ch, i) => {
         const cAt = voAt + ws[ch[0]].t - 0.06, cEnd = i + 1 < chunks.length ? voAt + ws[chunks[i + 1][0]].t - 0.06 : end - 0.12;
         caps.push({ kind: "sub", at: r3(cAt), end: r3(cEnd), lines: [ch.map((k) => ({ x: raw[k], c: "", t: r3(voAt + ws[k].t - 0.04) }))] });
@@ -286,6 +290,8 @@ for (const k of [0, 1]) L.push(`<section>\n${music.filter((x, i) => i % 2 === k 
 sfxTracks.forEach((tr) => L.push(`<section>\n${tr.clips.map((x) => `  <audio src="assets/sfx/${x.f}${x.in != null ? `#t=${x.in},${x.in + x.len}` : ""}" at="${r3(x.at)}" volume="${x.vol}"${x.in != null ? ov([1.5, 2.0]) : ""}></audio>`).join("\n")}\n</section>`));
 L.push(`</body>\n</html>\n`);
 fs.writeFileSync(path.join(ROOT, "film.html"), L.join("\n"));
+fs.mkdirSync(path.join(ROOT, ".film"), { recursive: true });
+fs.writeFileSync(path.join(ROOT, ".film/sfx-extra.json"), JSON.stringify(sfx.filter((x) => x.extra).map((x) => ({ f: x.f, at: r3(x.at), vol: x.vol }))));
 
 const mmss = (x) => `${Math.floor(x / 60)}:${String(Math.round(x % 60)).padStart(2, "0")}`;
 console.log(`film.html: ${mmss(FILM)} (${FILM} s), ${shots.length} photographs, ${pages.length} pages, ${lts.length} lower thirds, ${vo.length} voice clips, ${sfx.length} sounds on ${sfxTracks.length} tracks`);
