@@ -1,0 +1,142 @@
+[
+{
+"word": "Henry",
+"start": 0.0,
+"end": 0.34
+},
+{
+"word": "David",
+"start": 0.34,
+"end": 0.76
+},
+{
+"word": "Thoreau",
+"start": 0.76,
+"end": 1.34
+},
+{
+"word": "wrote",
+"start": 1.34,
+"end": 1.68
+},
+{
+"word": "that",
+"start": 1.68,
+"end": 2.02
+},
+{
+"word": "in",
+"start": 2.02,
+"end": 2.16
+},
+{
+"word": "eighteen",
+"start": 2.16,
+"end": 3.14
+},
+{
+"word": "fifty-four.",
+"start": 3.14,
+"end": 4.12
+},
+{
+"word": "Discover",
+"start": 4.12,
+"end": 4.4
+},
+{
+"word": "that",
+"start": 4.4,
+"end": 4.74
+},
+{
+"word": "I",
+"start": 4.74,
+"end": 4.94
+},
+{
+"word": "had",
+"start": 4.94,
+"end": 5.12
+},
+{
+"word": "not",
+"start": 5.12,
+"end": 5.34
+},
+{
+"word": "lived.",
+"start": 5.34,
+"end": 5.88
+},
+{
+"word": "Read",
+"start": 6.48,
+"end": 6.64
+},
+{
+"word": "it",
+"start": 6.64,
+"end": 6.8
+},
+{
+"word": "slowly,",
+"start": 6.8,
+"end": 7.3
+},
+{
+"word": "because",
+"start": 7.3,
+"end": 8.08
+},
+{
+"word": "it",
+"start": 8.08,
+"end": 8.24
+},
+{
+"word": "is",
+"start": 8.24,
+"end": 8.4
+},
+{
+"word": "easy",
+"start": 8.4,
+"end": 8.7
+},
+{
+"word": "to",
+"start": 8.7,
+"end": 8.94
+},
+{
+"word": "nod",
+"start": 8.94,
+"end": 9.14
+},
+{
+"word": "at,",
+"start": 9.14,
+"end": 9.48
+},
+{
+"word": "and",
+"start": 9.48,
+"end": 9.94
+},
+{
+"word": "hard",
+"start": 9.94,
+"end": 10.24
+},
+{
+"word": "to",
+"start": 10.24,
+"end": 10.44
+},
+{
+"word": "feel.",
+"start": 10.44,
+"end": 10.74
+}
+]
