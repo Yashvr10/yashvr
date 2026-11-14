@@ -1,0 +1,495 @@
+[
+ {
+  "key": "paris-street",
+  "file": "paris-street.jpg",
+  "title": "[Street Scene, Paris]",
+  "artist": "William Henry Fox Talbot",
+  "date": "1843",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/265895"
+ },
+ {
+  "key": "brady-man",
+  "file": "brady-man.jpg",
+  "title": "[Portrait of a Man]",
+  "artist": "Mathew B. Brady",
+  "date": "ca. 1857",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/283186"
+ },
+ {
+  "key": "pond-bridge",
+  "file": "pond-bridge.jpg",
+  "title": "[Bridge Over a Pond]",
+  "artist": "Unknown",
+  "date": "1850s",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/269011"
+ },
+ {
+  "key": "pioneer-cabin",
+  "file": "pioneer-cabin.jpg",
+  "title": "Pioneer's Cabin",
+  "artist": "Carleton E. Watkins",
+  "date": "1865–66, printed ca. 1876",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/264962"
+ },
+ {
+  "key": "cabin-round",
+  "file": "cabin-round.jpg",
+  "title": "Pioneers Cabin - Calaveras Grove",
+  "artist": "Carleton E. Watkins",
+  "date": "ca. 1878",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/732820"
+ },
+ {
+  "key": "rowing-home",
+  "file": "rowing-home.jpg",
+  "title": "Rowing Home the Schoof-Stuff",
+  "artist": "Peter Henry Emerson",
+  "date": "1886",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/286418"
+ },
+ {
+  "key": "stiff-pull",
+  "file": "stiff-pull.jpg",
+  "title": "A Stiff Pull",
+  "artist": "Peter Henry Emerson",
+  "date": "1880s, printed 1887",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/269197"
+ },
+ {
+  "key": "water-lilies-gather",
+  "file": "water-lilies-gather.jpg",
+  "title": "Gathering Water-Lilies",
+  "artist": "Peter Henry Emerson",
+  "date": "1886",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/286671"
+ },
+ {
+  "key": "wherries",
+  "file": "wherries.jpg",
+  "title": "Cantley: Wherries Waiting for the Turn of the Tide",
+  "artist": "Peter Henry Emerson",
+  "date": "1886",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/286676"
+ },
+ {
+  "key": "water-lilies",
+  "file": "water-lilies.jpg",
+  "title": "Water-Lilies",
+  "artist": "Peter Henry Emerson",
+  "date": "1886",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/286677"
+ },
+ {
+  "key": "emerson",
+  "file": "emerson.jpg",
+  "title": "Ralph Waldo Emerson",
+  "artist": "Mathew B. Brady",
+  "date": "ca. 1856",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/285833"
+ },
+ {
+  "key": "classroom",
+  "file": "classroom.jpg",
+  "title": "Classroom in the Emerson School for Girls",
+  "artist": "Southworth and Hawes",
+  "date": "ca. 1850",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/268320"
+ },
+ {
+  "key": "crowd-recreation",
+  "file": "crowd-recreation.jpg",
+  "title": "[Recreations of the Fall of the Paris Commune, titled \"Crimes de la Commune\"]",
+  "artist": "Ernest Eugène Appert",
+  "date": "1870–71",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/302505"
+ },
+ {
+  "key": "crowd-august",
+  "file": "crowd-august.jpg",
+  "title": "[The 15th of August.  Imperial Asylum at Vincennes]",
+  "artist": "Charles Nègre",
+  "date": "1858",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/286165"
+ },
+ {
+  "key": "broadway-rain",
+  "file": "broadway-rain.jpg",
+  "title": "[Broadway in the Rain, likely taken from 308 or 310 Broadway, New York City]",
+  "artist": "Edward Anthony",
+  "date": "ca. 1860s",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/262762"
+ },
+ {
+  "key": "painter-studio",
+  "file": "painter-studio.jpg",
+  "title": "[Ivan Konstantinovich Aivazovsky (Hovhannes Aivazian)]",
+  "artist": "Babaev Studio",
+  "date": "1893",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/286403"
+ },
+ {
+  "key": "women-sitting",
+  "file": "women-sitting.jpg",
+  "title": "Paule Gobillard, Jeannie Gobillard, Julie Manet, and Geneviève Mallarmé",
+  "artist": "Edgar Degas",
+  "date": "1895",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/284452"
+ },
+ {
+  "key": "man-steps",
+  "file": "man-steps.jpg",
+  "title": "[Man Sitting on Steps of House with Socks Hanging on Nearby Vine to Dry]",
+  "artist": "Unknown",
+  "date": "1880s",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/271709"
+ },
+ {
+  "key": "staircase",
+  "file": "staircase.jpg",
+  "title": "Wooden Staircase at Chartres",
+  "artist": "Henri-Jean-Louis Le Secq",
+  "date": "1852",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/283108"
+ },
+ {
+  "key": "victorian-house",
+  "file": "victorian-house.jpg",
+  "title": "[Victorian House]",
+  "artist": "James Wallace Black",
+  "date": "ca. 1860",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/286300"
+ },
+ {
+  "key": "man-reading-study",
+  "file": "man-reading-study.jpg",
+  "title": "Don Quixote in His Study",
+  "artist": "William Frederick Lake Price",
+  "date": "1857",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/271528"
+ },
+ {
+  "key": "mirror-lake",
+  "file": "mirror-lake.jpg",
+  "title": "Mirror Lake, Yosemite",
+  "artist": "Carleton E. Watkins",
+  "date": "ca. 1872, printed ca. 1876",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/264928"
+ },
+ {
+  "key": "upper-lake",
+  "file": "upper-lake.jpg",
+  "title": "The Upper Lake",
+  "artist": "James Knight",
+  "date": "1853–56",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/287926"
+ },
+ {
+  "key": "oak-forest",
+  "file": "oak-forest.jpg",
+  "title": "Near the Bodmer Oak, Fontainebleau",
+  "artist": "Eugène Cuvelier",
+  "date": "1860s",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/831088"
+ },
+ {
+  "key": "fontainebleau",
+  "file": "fontainebleau.jpg",
+  "title": "[Fontainebleau Forest]",
+  "artist": "Eugène Cuvelier",
+  "date": "early 1860s",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/265904"
+ },
+ {
+  "key": "tree-study",
+  "file": "tree-study.jpg",
+  "title": "Tree Study, Forest of Fontainebleau",
+  "artist": "Gustave Le Gray",
+  "date": "ca. 1856",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/265065"
+ },
+ {
+  "key": "forest-path",
+  "file": "forest-path.jpg",
+  "title": "Fontainebleau, chemin sablonneux montant",
+  "artist": "Gustave Le Gray",
+  "date": "ca. 1856",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/283123"
+ },
+ {
+  "key": "fontainebleau-2",
+  "file": "fontainebleau-2.jpg",
+  "title": "[Fontainebleau Forest]",
+  "artist": "Eugène Cuvelier",
+  "date": "ca. 1860",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/265075"
+ },
+ {
+  "key": "wood-scene",
+  "file": "wood-scene.jpg",
+  "title": "Wood-scene, Norton, Cheshire",
+  "artist": "Thomas Davies",
+  "date": "1856",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/270825"
+ },
+ {
+  "key": "stamford-road",
+  "file": "stamford-road.jpg",
+  "title": "Stamford Road, Singapore",
+  "artist": "Unknown",
+  "date": "1860s–70s",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/264600"
+ },
+ {
+  "key": "flooded-road",
+  "file": "flooded-road.jpg",
+  "title": "[Road Through Flooded Land]",
+  "artist": "Morgan Whitney",
+  "date": "1890s–1900s",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/262075"
+ },
+ {
+  "key": "village-road",
+  "file": "village-road.jpg",
+  "title": "Village Road North River",
+  "artist": "John Thomson",
+  "date": "ca. 1869",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/289318"
+ },
+ {
+  "key": "suspension-bridge",
+  "file": "suspension-bridge.jpg",
+  "title": "[Hungerford Suspension Bridge]",
+  "artist": "William Henry Fox Talbot",
+  "date": "ca. 1845",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/283069"
+ },
+ {
+  "key": "bridge-people",
+  "file": "bridge-people.jpg",
+  "title": "Lowe Bridge",
+  "artist": "Unknown",
+  "date": "1866–67",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/696392"
+ },
+ {
+  "key": "harbor",
+  "file": "harbor.jpg",
+  "title": "Harbor Scene",
+  "artist": "Thomas Sutton",
+  "date": "ca. 1855",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/631050"
+ },
+ {
+  "key": "bookcase",
+  "file": "bookcase.jpg",
+  "title": "[Bookcase at Lacock Abbey]",
+  "artist": "William Henry Fox Talbot",
+  "date": "1839",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/285921"
+ },
+ {
+  "key": "moon",
+  "file": "moon.jpg",
+  "title": "The Moon",
+  "artist": "John Adams Whipple",
+  "date": "1857–60",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/262301"
+ },
+ {
+  "key": "woman-writing",
+  "file": "woman-writing.jpg",
+  "title": "Johnstone Bennet, from the Actors and Actresses series (N45, Type 8) for Virginia Brights Cigarettes",
+  "artist": "Allen & Ginter",
+  "date": "ca. 1888",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/418508"
+ },
+ {
+  "key": "old-tom",
+  "file": "old-tom.jpg",
+  "title": "[Old Tom]",
+  "artist": "Horatio Ross",
+  "date": "ca. 1856–59",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/288072"
+ },
+ {
+  "key": "young-man-2",
+  "file": "young-man-2.jpg",
+  "title": "[Young Man]",
+  "artist": "Unknown",
+  "date": "1860s–70s",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/291935"
+ },
+ {
+  "key": "old-beggar",
+  "file": "old-beggar.jpg",
+  "title": "Vieux mendiant",
+  "artist": "Raimund von Stillfried",
+  "date": "1870s",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/288489"
+ },
+ {
+  "key": "farm-buildings",
+  "file": "farm-buildings.jpg",
+  "title": "[Farm Buildings]",
+  "artist": "Unknown",
+  "date": "1850s",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/268890"
+ },
+ {
+  "key": "evening",
+  "file": "evening.jpg",
+  "title": "Evening",
+  "artist": "Philip Henry Delamotte",
+  "date": "1854",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/269585"
+ },
+ {
+  "key": "soiree",
+  "file": "soiree.jpg",
+  "title": "En soirée - janvier 1856",
+  "artist": "Louis-Pierre-Théophile Dubois de Nehaut",
+  "date": "1856",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/287247"
+ },
+ {
+  "key": "man-courtyard",
+  "file": "man-courtyard.jpg",
+  "title": "[Man in Courtyard Before House]",
+  "artist": "Unknown",
+  "date": "1850s",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/268885"
+ },
+ {
+  "key": "men-carriage",
+  "file": "men-carriage.jpg",
+  "title": "[Men By Carriage in Street]",
+  "artist": "Unknown",
+  "date": "1850s",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/268878"
+ },
+ {
+  "key": "mill",
+  "file": "mill.jpg",
+  "title": "Wrexham, Rossett Mill",
+  "artist": "Francis Bedford",
+  "date": "1870s",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/260072"
+ },
+ {
+  "key": "christabel",
+  "file": "christabel.jpg",
+  "title": "Christabel",
+  "artist": "Julia Margaret Cameron",
+  "date": "1866",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/268709"
+ },
+ {
+  "key": "thoreau",
+  "file": "thoreau.jpg",
+  "title": "Henry David Thoreau (daguerreotype, 1856)",
+  "artist": "Benjamin D. Maxham",
+  "license": "Public domain (via Wikimedia Commons)",
+  "source": "https://commons.wikimedia.org/wiki/File:Benjamin_D._Maxham_-_Henry_David_Thoreau_-_Restored.jpg"
+ },
+ {
+  "key": "tolstoy",
+  "file": "tolstoy.jpg",
+  "title": "Leo Tolstoy at Yasnaya Polyana (1908)",
+  "artist": "Sergei Prokudin-Gorsky",
+  "license": "Public domain (via Wikimedia Commons)",
+  "source": "https://commons.wikimedia.org/wiki/File:L.N.Tolstoy_Prokudin-Gorsky.jpg"
+ },
+ {
+  "key": "approach",
+  "file": "approach.jpg",
+  "title": "The Approach; In the Wood; By the Lake",
+  "artist": "James Knight",
+  "date": "1853–56",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/287928"
+ },
+ {
+  "key": "old-dominion",
+  "file": "old-dominion.jpg",
+  "title": "Old Dominium and Uncle Tom's Tavern. Calaveras Grove",
+  "artist": "Carleton E. Watkins",
+  "date": "ca. 1878",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/732748"
+ },
+ {
+  "key": "road-singapore",
+  "file": "road-singapore.jpg",
+  "title": "Road Near Singapore",
+  "artist": "Unknown",
+  "date": "1860s–70s",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/264603"
+ },
+ {
+  "key": "morning-after",
+  "file": "morning-after.jpg",
+  "title": "The Morning After \"He Greatly Daring Dined\"",
+  "artist": "Hill and Adamson",
+  "date": "1843–47",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/285726"
+ },
+ {
+  "key": "desert-lake",
+  "file": "desert-lake.jpg",
+  "title": "Desert Lake, near Ragtown, Nevada",
+  "artist": "Timothy H. O'Sullivan",
+  "date": "1867",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/285647"
+ }
+]

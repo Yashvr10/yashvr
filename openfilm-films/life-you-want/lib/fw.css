@@ -1,0 +1,49 @@
+/* The First World War: shared look for every page. */
+@font-face { font-family: "Playfair"; src: url("../fonts/PlayfairDisplay-700.woff2") format("woff2"); font-weight: 700; }
+@font-face { font-family: "Playfair"; src: url("../fonts/PlayfairDisplay-900.woff2") format("woff2"); font-weight: 900; }
+@font-face { font-family: "Playfair"; src: url("../fonts/PlayfairDisplay-400i.woff2") format("woff2"); font-weight: 400; font-style: italic; }
+@font-face { font-family: "Inter"; src: url("../fonts/Inter-400.woff2") format("woff2"); font-weight: 400; }
+@font-face { font-family: "Inter Tight"; src: url("../fonts/InterTight-700.woff2") format("woff2"); font-weight: 700; }
+@font-face { font-family: "Mono"; src: url("../fonts/JetBrainsMono-400.woff2") format("woff2"); font-weight: 400; }
+
+:root {
+  --ink: #0c0b09;        /* night, card ground */
+  --ground: #15130f;     /* map ground */
+  --paper: #ece4d2;      /* text */
+  --dim: #8d8473;        /* small labels, rules */
+  --line: #3a352c;       /* borders, graticule */
+  --poppy: #b8322a;      /* the one accent: rules, pins, the front */
+  --allies: #5d7f9e;
+  --central: #8e3a2c;
+  --soviet: #6e5a86;
+  --japan: #a4643a;
+  --land: #2a2620;
+  --land-hi: #3b352c;
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html, body { width: 1920px; height: 1080px; overflow: hidden; background: transparent; }
+body { font-family: "Inter", sans-serif; color: var(--paper); }
+.serif { font-family: "Playfair", serif; }
+.mono { font-family: "Mono", monospace; }
+.label { font-family: "Inter Tight", sans-serif; font-weight: 700; text-transform: uppercase; letter-spacing: .14em; }
+.fill { position: absolute; inset: 0; }
+
+/* The Greatest Minds Chose Solitude: book and caption faces */
+@font-face { font-family: "EB Garamond"; src: url("../fonts/EBGaramond-400.woff2") format("woff2"); font-weight: 400; }
+@font-face { font-family: "EB Garamond"; src: url("../fonts/EBGaramond-400i.woff2") format("woff2"); font-weight: 400; font-style: italic; }
+@font-face { font-family: "Cormorant"; src: url("../fonts/Cormorant-500.woff2") format("woff2"); font-weight: 500; }
+@font-face { font-family: "Cormorant"; src: url("../fonts/Cormorant-500i.woff2") format("woff2"); font-weight: 500; font-style: italic; }
+@font-face { font-family: "Cormorant"; src: url("../fonts/Cormorant-600.woff2") format("woff2"); font-weight: 600; }
+:root { --gold: #c9a96a; --ivory: #efe6d2; }
+.book { font-family: "EB Garamond", serif; }
+.corm { font-family: "Cormorant", serif; }
+.caps { font-family: "Cormorant", serif; font-weight: 600; text-transform: uppercase; letter-spacing: .32em; }
+
+/* sans + script captions (tools/caption-style) */
+@font-face { font-family: "IT"; src: url("../fonts/InterTight.ttf") format("truetype"); font-weight: 100 900; }
+@font-face { font-family: "Script"; src: url("../fonts/HerrVonMuellerhoff.ttf") format("truetype"); }
+.kin { font-family: "IT", sans-serif; font-weight: 900; letter-spacing: -.045em; color: #fff; text-transform: lowercase;
+       text-shadow: 0 0 18px rgba(255,255,255,.32), 0 3px 14px rgba(0,0,0,.6); }
+.kin .scr { font-family: "Script", cursive; font-weight: 400; letter-spacing: -.01em; text-transform: none; display: inline-block;
+            font-size: 1.85em; line-height: .5; transform: scaleX(.82); transform-origin: 0 60%; margin: 0 -.16em 0 -.04em;
+            -webkit-text-stroke: 1.3px #fff; }

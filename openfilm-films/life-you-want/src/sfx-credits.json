@@ -1,0 +1,29 @@
+[
+ {
+  "key": "swish",
+  "file": "swish.mp3",
+  "title": "Swish (filtered pink noise, made with ffmpeg for this film)",
+  "license": "own work"
+ },
+ {
+  "key": "tick",
+  "file": "tick.mp3",
+  "title": "uisfx 0.4.0, zen pack: snap",
+  "license": "CC0 1.0",
+  "source": "https://www.npmjs.com/package/uisfx"
+ },
+ {
+  "key": "thump",
+  "file": "thump.mp3",
+  "title": "uisfx 0.4.0, zen pack: drop",
+  "license": "CC0 1.0",
+  "source": "https://www.npmjs.com/package/uisfx"
+ },
+ {
+  "key": "open",
+  "file": "open.mp3",
+  "title": "uisfx 0.4.0, zen pack: open",
+  "license": "CC0 1.0",
+  "source": "https://www.npmjs.com/package/uisfx"
+ }
+]
