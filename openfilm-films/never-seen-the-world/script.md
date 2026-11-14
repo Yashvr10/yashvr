@@ -2,7 +2,10 @@
 
 Working title. Alternates: "The Stone and the Dreamer", "The World Is Made of Mind".
 Target: 20 minutes. About 2,530 words of narration, which runs about 19 to 20 minutes at the pace of the last film.
-Quotes are marked with their source. I wrote them from memory; each one gets checked word for word against its source text before production.
+Quotes are marked with their source.
+Checked word for word against the Project Gutenberg texts: Boswell, Newton, Keller, Shackleton, James (both), Hume, the Dhammapada, Zhuangzi (Giles), Pascal, Milton, Blake's "doors of perception".
+Still from memory, not yet checked against a source: Planck (The Observer, 1931), Schrödinger, W. I. Thomas, the Chandogya Upanishad line, Blake's "Auguries of Innocence". Galileo is a paraphrase, not a quote.
+The video will use the caption style in `tools/caption-style/` and the user's raw clips.
 
 ---
 
@@ -72,7 +75,7 @@ In May of 1916, three men crossed the island of South Georgia on foot. Their shi
 
 They walked for thirty-six hours without sleep. They made it.
 
-Years later, their leader, Ernest Shackleton, wrote down something he had hesitated to tell. "I know that during that long and racking march of thirty-six hours over the unnamed mountains and glaciers of South Georgia, it seemed to me often that we were four, not three." *(Ernest Shackleton, South, 1919)*
+Years later, their leader, Ernest Shackleton, wrote down something he had hesitated to tell. "I know that during that long and racking march of thirty-six hours over the unnamed mountains and glaciers of South Georgia it seemed to me often that we were four, not three." *(Ernest Shackleton, South, 1919)*
 
 He had said nothing at the time. Then one of the others confessed that he had felt it too. A fourth, walking beside them.
 
@@ -118,7 +121,7 @@ Not a small self looking out at a large world. One awareness, looking at itself 
 
 Here is the part that is hard to hold in one head.
 
-Measured from outside, you are almost nothing. A short life on a small planet, around one star among more stars than there are grains of sand on every beach. Blaise Pascal felt that cold as sharply as anyone ever has. And then he noticed the other half. "By space the universe encompasses me and swallows me up like an atom; by thought I comprehend the world." *(Pascal, Pensées, tr. W. F. Trotter)*
+Measured from outside, you are almost nothing. A short life on a small planet, around one star among more stars than there are grains of sand on every beach. Blaise Pascal felt that cold as sharply as anyone ever has. And then he noticed the other half. "By space the universe encompasses and swallows me up like an atom; by thought I comprehend the world." *(Pascal, Pensées, tr. W. F. Trotter)*
 
 The universe contains you. And the only universe you will ever meet is contained in you. Both are true at once. A speck, and the centre.
 
