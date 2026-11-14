@@ -5,7 +5,7 @@ Target: 20 minutes. About 2,530 words of narration, which runs about 19 to 20 mi
 Quotes are marked with their source.
 Checked word for word against the Project Gutenberg texts: Boswell, Newton, Keller, Shackleton, James (both), Hume, the Dhammapada, Zhuangzi (Giles), Pascal, Milton, Blake's "doors of perception".
 Still from memory, not yet checked against a source: Planck (The Observer, 1931), Schrödinger, W. I. Thomas, the Chandogya Upanishad line, Blake's "Auguries of Innocence". Galileo is a paraphrase, not a quote.
-The video will use the caption style in `tools/caption-style/` and the user's raw clips.
+This is project X (see `clips.md`). It uses the caption style in `tools/caption-style/` and the raw clips in `raw/`.
 
 ---
 
