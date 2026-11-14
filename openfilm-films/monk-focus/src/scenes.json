@@ -11,8 +11,7 @@
      "photo": "goes-benedictine",
      "kb": "in",
      "focus": "30% 30%",
-     "stack": "doing / ~one~ ^thing^",
-     "pos": "r"
+     "pos": "tl"
     }
    ]
   },
@@ -24,8 +23,8 @@
      "photo": "latour-fortune",
      "kb": "right",
      "focus": "50% 40%",
-     "stack": "a _small_ piece / of your / ~attention~",
-     "pos": "tl"
+     "pos": "tl",
+     "stack": "a _small_ piece / of your / ~attention~"
     }
    ]
   },
@@ -37,8 +36,8 @@
      "photo": "boilly-crowd",
      "kb": "left",
      "focus": "50% 40%",
-     "stack": "losing / the ~thread~",
-     "pos": "tr"
+     "pos": "tr",
+     "stack": "losing / the ~thread~"
     }
    ]
   },
@@ -50,8 +49,8 @@
      "photo": "court-amusement",
      "kb": "right",
      "focus": "50% 50%",
-     "stack": "change / the ~terms~",
-     "pos": "tl"
+     "pos": "tl",
+     "stack": "change / the ~terms~"
     }
    ]
   },
@@ -63,8 +62,8 @@
      "photo": "christus-carthusian",
      "kb": "in",
      "focus": "60% 35%",
-     "stack": "attention / _as a_ ~craft~",
-     "pos": "l"
+     "behind": "craft",
+     "pos": "tl"
     }
    ]
   },
@@ -76,8 +75,8 @@
      "photo": "amalfi-cave",
      "kb": "in",
      "focus": "50% 50%",
-     "stack": "where / your ~mind~ / ^goes^",
-     "pos": "br"
+     "pos": "br",
+     "stack": "where / your ~mind~ / ^goes^"
     }
    ]
   },
@@ -101,8 +100,8 @@
      "photo": "huys-temptation",
      "kb": "right",
      "focus": "50% 50%",
-     "stack": "the ~noonday~ / ^demon^",
-     "pos": "tl"
+     "pos": "tl",
+     "stack": "the ~noonday~ / ^demon^"
     }
    ]
   },
@@ -114,8 +113,8 @@
      "photo": "bles-temptation",
      "kb": "left",
      "focus": "50% 50%",
-     "stack": "fifty / hours ~long~",
-     "pos": "tr"
+     "pos": "tr",
+     "stack": "fifty / hours ~long~"
     }
    ]
   },
@@ -127,8 +126,8 @@
      "photo": "footman-sleeping",
      "kb": "in",
      "focus": "45% 50%",
-     "stack": "it is / ~running~ / ^away^",
-     "pos": "r"
+     "behind": "running",
+     "pos": "tl"
     }
    ]
   },
@@ -140,8 +139,7 @@
      "photo": "monk-prayer",
      "kb": "in",
      "focus": "35% 30%",
-     "stack": "it was / to ~stay~",
-     "pos": "r"
+     "pos": "tl"
     }
    ]
   },
@@ -153,8 +151,8 @@
      "photo": "sargent-hermit",
      "kb": "in",
      "focus": "50% 60%",
-     "stack": "you are / ~always~ / ^training^",
-     "pos": "tl"
+     "pos": "tl",
+     "stack": "you are / ~always~ / ^training^"
     }
    ]
   },
@@ -167,7 +165,8 @@
      "kb": "in",
      "focus": "40% 30%",
      "sub": "faculty",
-     "cite": "William James, The Principles of Psychology (1890)"
+     "cite": "William James, The Principles of Psychology (1890)",
+     "pos": "tl"
     }
    ]
   },
@@ -179,8 +178,8 @@
      "photo": "olivetan-monk",
      "kb": "in",
      "focus": "35% 30%",
-     "stack": "the way / ~home~",
-     "pos": "r"
+     "behind": "home",
+     "pos": "tl"
     }
    ]
   },
@@ -192,8 +191,8 @@
      "photo": "sleeping-girl",
      "kb": "in",
      "focus": "50% 45%",
-     "stack": "small enough / to ~win~",
-     "pos": "tl"
+     "pos": "tl",
+     "stack": "small enough / to ~win~"
     }
    ]
   },
@@ -212,8 +211,8 @@
      "photo": "greco-jerome",
      "kb": "in",
      "focus": "60% 30%",
-     "stack": "ten goals / _has_ ~none~",
-     "pos": "l"
+     "behind": "none",
+     "pos": "tl"
     }
    ]
   },
@@ -226,7 +225,8 @@
      "kb": "up",
      "focus": "50% 50%",
      "sub": "as",
-     "cite": "The Dhammapada, verse 33 · translated by F. Max Müller"
+     "cite": "The Dhammapada, verse 33 · translated by F. Max Müller",
+     "pos": "tl"
     }
    ]
   },
@@ -238,8 +238,8 @@
      "photo": "seurat-gardener",
      "kb": "in",
      "focus": "60% 50%",
-     "stack": "^one^ / ~point~",
-     "pos": "tl"
+     "pos": "tl",
+     "stack": "^one^ / ~point~"
     }
    ]
   },
@@ -251,8 +251,8 @@
      "photo": "neer-reader",
      "kb": "in",
      "focus": "30% 40%",
-     "stack": "~finish~ / this ^chapter^",
-     "pos": "r"
+     "behind": "finish",
+     "pos": "tl"
     }
    ]
   },
@@ -265,7 +265,8 @@
      "kb": "right",
      "focus": "50% 60%",
      "sub": "well-makers",
-     "cite": "The Dhammapada, verse 80 · translated by F. Max Müller"
+     "cite": "The Dhammapada, verse 80 · translated by F. Max Müller",
+     "pos": "tl"
     }
    ]
   },
@@ -277,8 +278,8 @@
      "photo": "fragonard-letter",
      "kb": "in",
      "focus": "65% 40%",
-     "stack": "can this / ~wait~",
-     "pos": "l"
+     "pos": "l",
+     "stack": "can this / ~wait~"
     }
    ]
   },
@@ -290,8 +291,8 @@
      "photo": "longhi-letter",
      "kb": "in",
      "focus": "50% 60%",
-     "stack": "slow / to ~answer~",
-     "pos": "tr"
+     "pos": "tr",
+     "stack": "slow / to ~answer~"
     }
    ]
   },
@@ -310,8 +311,8 @@
      "photo": "hammershoi-moonlight",
      "kb": "in",
      "focus": "50% 50%",
-     "stack": "sit / in your ~cell~",
-     "pos": "l"
+     "pos": "l",
+     "stack": "sit / in your ~cell~"
     }
    ]
   },
@@ -323,8 +324,8 @@
      "photo": "granet-choir",
      "kb": "in",
      "focus": "50% 60%",
-     "stack": "the market / is _not_ in / the ~room~",
-     "pos": "tl"
+     "pos": "tl",
+     "stack": "the market / is _not_ in / the ~room~"
     }
    ]
   },
@@ -336,8 +337,8 @@
      "photo": "fish-market",
      "kb": "left",
      "focus": "50% 50%",
-     "stack": "bad / ~design~",
-     "pos": "tr"
+     "pos": "tr",
+     "stack": "bad / ~design~"
     }
    ]
   },
@@ -349,8 +350,8 @@
      "photo": "carus-gothic",
      "kb": "in",
      "focus": "60% 50%",
-     "stack": "build / a ~cell~",
-     "pos": "l"
+     "pos": "l",
+     "stack": "build / a ~cell~"
     }
    ]
   },
@@ -362,8 +363,8 @@
      "photo": "meissonier-cards",
      "kb": "in",
      "focus": "55% 45%",
-     "stack": "what it will / ~push~ ^out^",
-     "pos": "tl"
+     "pos": "tl",
+     "stack": "what it will / ~push~ ^out^"
     }
    ]
   },
@@ -376,7 +377,8 @@
      "kb": "in",
      "focus": "50% 40%",
      "sub": "i",
-     "cite": "Blaise Pascal, Pensées, 139 · translated by W. F. Trotter"
+     "cite": "Blaise Pascal, Pensées, 139 · translated by W. F. Trotter",
+     "pos": "tl"
     }
    ]
   },
@@ -388,8 +390,8 @@
      "photo": "cezanne-dominique",
      "kb": "in",
      "focus": "35% 35%",
-     "stack": "~nothing~ / is missing",
-     "pos": "r"
+     "behind": "nothing",
+     "pos": "tl"
     }
    ]
   },
@@ -401,8 +403,8 @@
      "photo": "hooch-visit",
      "kb": "in",
      "focus": "40% 55%",
-     "stack": "a ~door~ / you are allowed / to ^close^",
-     "pos": "tr"
+     "pos": "tr",
+     "stack": "a ~door~ / you are allowed / to ^close^"
     }
    ]
   },
@@ -421,8 +423,8 @@
      "photo": "thayer-monadnock",
      "kb": "in",
      "focus": "50% 50%",
-     "stack": "a ~bell~ / ^rings^",
-     "pos": "tl"
+     "pos": "tl",
+     "stack": "a ~bell~ / ^rings^"
     }
    ]
   },
@@ -435,7 +437,8 @@
      "kb": "in",
      "focus": "60% 30%",
      "sub": "idleness",
-     "cite": "The Rule of Saint Benedict, chapter 48 · translated by Leonard J. Doyle"
+     "cite": "The Rule of Saint Benedict, chapter 48 · translated by Leonard J. Doyle",
+     "pos": "tl"
     }
    ]
   },
@@ -447,8 +450,8 @@
      "photo": "ruysdael-road",
      "kb": "left",
      "focus": "50% 60%",
-     "stack": "~fixed~ / ^hours^",
-     "pos": "tr"
+     "pos": "tr",
+     "stack": "~fixed~ / ^hours^"
     }
    ]
   },
@@ -460,8 +463,8 @@
      "photo": "kensett-twilight",
      "kb": "in",
      "focus": "50% 60%",
-     "stack": "pick / your ~hour~",
-     "pos": "tl"
+     "pos": "tl",
+     "stack": "pick / your ~hour~"
     }
    ]
   },
@@ -473,8 +476,8 @@
      "photo": "isola-bella",
      "kb": "in",
      "focus": "50% 60%",
-     "stack": "ready comes / _after you_ / ~begin~",
-     "pos": "tr"
+     "pos": "tr",
+     "stack": "ready comes / _after you_ / ~begin~"
     }
    ]
   },
@@ -486,8 +489,8 @@
      "photo": "lake-george",
      "kb": "in",
      "focus": "40% 50%",
-     "stack": "^one^ / guarded / ~hour~",
-     "pos": "r"
+     "pos": "r",
+     "stack": "^one^ / guarded / ~hour~"
     }
    ]
   },
@@ -499,8 +502,8 @@
      "photo": "winter-holland",
      "kb": "in",
      "focus": "50% 55%",
-     "stack": "not / from ~zero~",
-     "pos": "tl"
+     "pos": "tl",
+     "stack": "not / from ~zero~"
     }
    ]
   },
@@ -519,8 +522,8 @@
      "photo": "wtewael-kitchen",
      "kb": "right",
      "focus": "50% 40%",
-     "stack": "the / ~kitchen~",
-     "pos": "tl"
+     "pos": "tl",
+     "stack": "the / ~kitchen~"
     }
    ]
   },
@@ -533,7 +536,8 @@
      "kb": "in",
      "focus": "50% 50%",
      "sub": "the#2",
-     "cite": "Brother Lawrence, The Practice of the Presence of God (1692)"
+     "cite": "Brother Lawrence, The Practice of the Presence of God (1692)",
+     "pos": "tl"
     }
    ]
   },
@@ -545,8 +549,8 @@
      "photo": "kalf-kitchen",
      "kb": "in",
      "focus": "50% 50%",
-     "stack": "the one thing / in his ~hands~",
-     "pos": "l"
+     "pos": "l",
+     "stack": "the one thing / in his ~hands~"
     }
    ]
   },
@@ -558,8 +562,8 @@
      "photo": "millet-rake",
      "kb": "in",
      "focus": "55% 35%",
-     "stack": "the ~same~ / motion / ^again^",
-     "pos": "l"
+     "behind": "same",
+     "pos": "tl"
     }
    ]
   },
@@ -571,8 +575,8 @@
      "photo": "cezanne-cards",
      "kb": "in",
      "focus": "50% 40%",
-     "stack": "_and_ call it / ~ambition~",
-     "pos": "tl"
+     "pos": "tl",
+     "stack": "_and_ call it / ~ambition~"
     }
    ]
   },
@@ -584,8 +588,7 @@
      "photo": "cezanne-peasant",
      "kb": "in",
      "focus": "55% 30%",
-     "stack": "the dull / ~middle~",
-     "pos": "l"
+     "pos": "tl"
     }
    ]
   },
@@ -597,8 +600,8 @@
      "photo": "cards-drawingroom",
      "kb": "in",
      "focus": "55% 50%",
-     "stack": "the ~real~ / ^work^",
-     "pos": "tl"
+     "pos": "tl",
+     "stack": "the ~real~ / ^work^"
     }
    ]
   },
@@ -617,8 +620,8 @@
      "photo": "keith-storm",
      "kb": "right",
      "focus": "50% 50%",
-     "stack": "something / you carry / ~inside~",
-     "pos": "tl"
+     "pos": "tl",
+     "stack": "something / you carry / ~inside~"
     }
    ]
   },
@@ -631,7 +634,8 @@
      "kb": "left",
      "focus": "50% 50%",
      "sub": "as",
-     "cite": "The Dhammapada, verse 81 · translated by F. Max Müller"
+     "cite": "The Dhammapada, verse 81 · translated by F. Max Müller",
+     "pos": "tl"
     }
    ]
   },
@@ -643,8 +647,8 @@
      "photo": "homer-mainecoast",
      "kb": "in",
      "focus": "50% 55%",
-     "stack": "a ^rock^ / ~feels~ / the wind",
-     "pos": "tl"
+     "pos": "tl",
+     "stack": "a ^rock^ / ~feels~ / the wind"
     }
    ]
   },
@@ -656,8 +660,7 @@
      "photo": "goes-man",
      "kb": "in",
      "focus": "40% 30%",
-     "stack": "does this / ~serve~ / the work",
-     "pos": "r"
+     "pos": "tl"
     }
    ]
   },
@@ -669,8 +672,8 @@
      "photo": "homer-woodisland",
      "kb": "in",
      "focus": "50% 60%",
-     "stack": "feelings are / ~weather~",
-     "pos": "tl"
+     "pos": "tl",
+     "stack": "feelings are / ~weather~"
     }
    ]
   },
@@ -682,8 +685,8 @@
      "photo": "seurat-sideshow",
      "kb": "in",
      "focus": "50% 50%",
-     "stack": "let the / ~results~ / speak",
-     "pos": "tl"
+     "pos": "tl",
+     "stack": "let the / ~results~ / speak"
     }
    ]
   },
@@ -702,8 +705,8 @@
      "photo": "corot-reading",
      "kb": "in",
      "focus": "65% 35%",
-     "stack": "monks / ~drift~",
-     "pos": "l"
+     "behind": "drift",
+     "pos": "tl"
     }
    ]
   },
@@ -715,8 +718,8 @@
      "photo": "wilson-nemi",
      "kb": "in",
      "focus": "50% 55%",
-     "stack": "come / ~back~",
-     "pos": "tl"
+     "pos": "tl",
+     "stack": "come / ~back~"
     }
    ]
   },
@@ -728,8 +731,8 @@
      "photo": "conesus",
      "kb": "left",
      "focus": "50% 55%",
-     "stack": "one lost / ~minute~",
-     "pos": "tr"
+     "pos": "tr",
+     "stack": "one lost / ~minute~"
     }
    ]
   },
@@ -741,8 +744,8 @@
      "photo": "corot-letter",
      "kb": "in",
      "focus": "35% 35%",
-     "stack": "~begin~ / again",
-     "pos": "r"
+     "behind": "begin",
+     "pos": "tl"
     }
    ]
   },
@@ -755,7 +758,8 @@
      "kb": "in",
      "focus": "50% 25%",
      "sub": "if",
-     "cite": "The Dhammapada, verse 103 · translated by F. Max Müller"
+     "cite": "The Dhammapada, verse 103 · translated by F. Max Müller",
+     "pos": "tl"
     }
    ]
   },
@@ -767,8 +771,8 @@
      "photo": "lake-squam",
      "kb": "in",
      "focus": "50% 55%",
-     "stack": "~rest~ / is part / of the rule",
-     "pos": "tl"
+     "pos": "tl",
+     "stack": "~rest~ / is part / of the rule"
     }
    ]
   },
@@ -780,8 +784,8 @@
      "photo": "market-scene",
      "kb": "left",
      "focus": "50% 50%",
-     "stack": "what ~moved~ / ^forward^",
-     "pos": "tl"
+     "pos": "tl",
+     "stack": "what ~moved~ / ^forward^"
     }
    ]
   },
@@ -793,8 +797,8 @@
      "photo": "bierstadt-mountain",
      "kb": "in",
      "focus": "50% 50%",
-     "stack": "calm / by ~nature~",
-     "pos": "tl"
+     "pos": "tl",
+     "stack": "calm / by ~nature~"
     }
    ]
   },
@@ -806,8 +810,8 @@
      "photo": "evening-lake",
      "kb": "in",
      "focus": "50% 60%",
-     "stack": "who / you ~are~",
-     "pos": "tl"
+     "pos": "tl",
+     "stack": "who / you ~are~"
     }
    ]
   },
@@ -819,8 +823,8 @@
      "photo": "hobbema-road",
      "kb": "right",
      "focus": "50% 55%",
-     "stack": "you ~came~ / ^back^",
-     "pos": "tl"
+     "pos": "tl",
+     "stack": "you ~came~ / ^back^"
     }
    ]
   },
@@ -832,8 +836,7 @@
      "photo": "castiglione-francis",
      "kb": "in",
      "focus": "70% 35%",
-     "stack": "one task / one ~hour~",
-     "pos": "l"
+     "pos": "tl"
     }
    ]
   },
@@ -845,8 +848,8 @@
      "photo": "reading-scriptures",
      "kb": "in",
      "focus": "60% 40%",
-     "stack": "a room / a ~bell~ / _and_ coming ^back^",
-     "pos": "l"
+     "pos": "l",
+     "stack": "a room / a ~bell~ / _and the habit of_ / coming ^back^"
     }
    ]
   },

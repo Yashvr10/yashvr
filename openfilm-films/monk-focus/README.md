@@ -16,5 +16,6 @@ Rebuild: `python3 src/script.py && /root/kokoro/.venv/bin/python src/tts.py $PWD
 Notes:
 - Every quotation was checked word for word against its Gutenberg text.
 - The swish under the biggest words and the chapter cards is filtered noise made with ffmpeg, because the sound library's download host was blocked. Bells are a real recording.
-- No words are placed behind a figure in this film: the matting tool is built for filmed people and was not tested on paintings.
+- Every spoken word gets a caption. Hand-written stacks (`stack`) cover the key phrases; every other phrase is captioned automatically, at most five words, with its last strong word as the accent (script or big sans, in turn).
+- Nine big words sit behind a figure (`behind="word"`). `tools/cutout.py` cuts the figure out of the painting (Robust Video Matting); `src/behind.py` places the word so the head hides its middle letters; the cut-out is laid over the word. Line captions move to the bottom of the frame while it shows.
 - The narration is synthetic. Listen to the mix before publishing.

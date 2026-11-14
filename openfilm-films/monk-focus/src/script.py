@@ -4,19 +4,20 @@ import json
 S=[]
 def sc(i,text,*vis): S.append({"id":i,"text":text,"visuals":list(vis)})
 def card(i,**k): S.append({"id":i,**k})
-def ph(p,stack=None,pos="l",kb="in",focus="50% 40%",**k):
+def ph(p,stack=None,pos="tl",kb="in",focus="50% 40%",**k):
     v={"photo":p,"kb":kb,"focus":focus,**k}
-    if stack: v["stack"]=stack; v["pos"]=pos
+    v["pos"]=pos
+    if stack: v["stack"]=stack
     return v
 
 sc("s01","Somewhere right now, a monk is sitting in a small room, doing one thing. He has been doing it since before sunrise. Nobody is watching him. Nothing is buzzing in his pocket. And his mind, the same kind of mind you have, is quiet.",
-   ph("goes-benedictine","doing / ~one~ ^thing^","r",focus="30% 30%"))
+   ph("goes-benedictine", focus="30% 30%"))
 sc("s02","Now look at your own day. A message. A headline. A video. Somebody's opinion. An old argument you replay in the shower. Each one takes a small piece of your attention, so quietly that you never feel it leave.",
    ph("latour-fortune","a _small_ piece / of your / ~attention~","tl",kb="right"))
 sc("s03","The loss looks small. Five minutes here, ten there. But you are not only losing minutes. You are losing the thread. And you are training your mind to run, the moment anything gets hard.",
    ph("boilly-crowd","losing / the ~thread~","tr",kb="left"))
 sc("s04","We look at a monk's focus and call it a gift. Calm by nature. Born that way. It isn't. For fifteen hundred years, monasteries have treated attention as a craft. Something you build, with rules, tools and daily practice.",
-   ph("christus-carthusian","attention / _as a_ ~craft~","l",focus="60% 35%"))
+   ph("christus-carthusian", focus="60% 35%", behind="craft"))
 sc("s05","This film is that craft, in seven parts. You don't need a robe or a mountain. You need to stop letting everyone else decide where your mind goes.",
    ph("amalfi-cave","where / your ~mind~ / ^goes^","br",focus="50% 50%"))
 card("title",card="title",len=6.0)
@@ -27,23 +28,23 @@ sc("s06","The monks of the Egyptian desert, sixteen hundred years ago, had a nam
 sc("s07","One of them, Evagrius, described it exactly. The monk sits down to his work, and the day suddenly feels fifty hours long. He looks out of the window. He wonders if a visitor is coming. He decides his cell is the problem, and that he would do far better somewhere else.",
    ph("bles-temptation","fifty / hours ~long~","tr",kb="left",focus="50% 50%"))
 sc("s08","You know this demon. You sit down to the work that matters, and at once the room needs tidying. The phone looks important. Some other task becomes urgent. It feels like preparing. It is running away.",
-   ph("footman-sleeping","it is / ~running~ / ^away^","r",focus="45% 50%"))
+   ph("footman-sleeping", focus="45% 50%", behind="running"))
 sc("s09","The monks' answer was not to fight harder. It was to stay. Don't argue with the urge. Don't obey it either. Notice it, and put your hands back on the work.",
-   ph("monk-prayer","it was / to ~stay~","r",focus="35% 30%"))
+   ph("monk-prayer", focus="35% 30%"))
 sc("s10","William James, the father of American psychology, called this the whole game. The faculty of voluntarily bringing back a wandering attention, over and over again, is the very root of judgment, character, and will.",
    ph("weyden-prayer",focus="40% 30%",sub="faculty",cite="William James, The Principles of Psychology (1890)"))
 sc("s11","Read that again. Not never wandering. Bringing it back. A focused mind is not one that never leaves. It is one that has learned the way home.",
-   ph("olivetan-monk","the way / ~home~","r",focus="35% 30%"))
+   ph("olivetan-monk", focus="35% 30%", behind="home"))
 
 card("ch2",card="chapter",num="two",title="one ~arrow~",len=4.0)
 sc("s12","A mind with ten urgent goals has none. You can want money, strength, skill, respect and freedom. Wanting is fine. The mistake is giving all of them the same hour.",
-   ph("greco-jerome","ten goals / _has_ ~none~","l",focus="60% 30%"))
+   ph("greco-jerome", focus="60% 30%", behind="none"))
 sc("s13","The Buddha used the picture of a craftsman. As a fletcher makes straight his arrow, a wise man makes straight his trembling and unsteady thought, which is difficult to guard, difficult to hold back.",
    ph("troyon-road",kb="up",focus="50% 50%",sub="as",cite="The Dhammapada, verse 33 · translated by F. Max Müller"))
 sc("s14","An arrow has one point. So each morning, before the world gets a vote, choose the one piece of work that would matter most if it moved today. Not the pleasant one. Not the one that only looks busy.",
    ph("seurat-gardener","^one^ / ~point~","tl",focus="60% 50%"))
 sc("s15","Then write it so plainly that you can't hide from it. Not: get ahead. Write: finish this chapter. Send this proposal. Practise this piece for forty minutes. A vague goal leaves you room to escape. A clear one closes the door.",
-   ph("neer-reader","~finish~ / this ^chapter^","r",focus="30% 40%"))
+   ph("neer-reader", focus="30% 40%", behind="finish"))
 sc("s16","And when someone else's urgency arrives, a message, a debate, a trend that will be dead by Friday, ask one question. Can this wait an hour? It almost always can.",
    ph("fragonard-letter","can this / ~wait~","l",focus="65% 40%"))
 
@@ -59,7 +60,7 @@ sc("s20","So build a cell. Phone in another room. Notifications off, except from
 sc("s21","Blaise Pascal saw why it is so hard. I have discovered that all the unhappiness of men arises from one single fact, that they cannot stay quietly in their own chamber.",
    ph("latour-magdalen",focus="50% 40%",sub="i",cite="Blaise Pascal, Pensées, 139 · translated by W. F. Trotter"))
 sc("s22","The first minutes in a quiet room feel like something is missing. Nothing is missing. That is your mind coming down from the noise. Stay through it.",
-   ph("cezanne-dominique","~nothing~ / is missing","r",focus="35% 35%"))
+   ph("cezanne-dominique", focus="35% 35%", behind="nothing"))
 
 card("ch4",card="chapter",num="four",title="the ~bell~",len=4.0)
 sc("s23","In a monastery, nobody decides when to begin. A bell rings, and everyone begins.",
@@ -83,11 +84,11 @@ sc("s30","And this is what he said about it. The time of business does not with 
 sc("s31","He had not escaped the noise. He had learned to give his whole attention to the one thing in his hands, and that turned out to be enough.",
    ph("kalf-kitchen","the one thing / in his ~hands~","l",focus="50% 50%"))
 sc("s32","This is where focus is really tested. Anyone can concentrate while a thing is new. Then the newness wears off, and the work becomes the same motion, again.",
-   ph("millet-rake","the ~same~ / motion / ^again^","l",focus="55% 35%"))
+   ph("millet-rake", focus="55% 35%", behind="same"))
 sc("s33","Most people leave at that point. They don't quit. They just start something fresh, and call it ambition.",
    ph("cezanne-cards","_and_ call it / ~ambition~","tl",focus="50% 40%"))
 sc("s34","The monk stays in the dull middle. And the dull middle is exactly where skill is made.",
-   ph("cezanne-peasant","the dull / ~middle~","l",focus="55% 30%"))
+   ph("cezanne-peasant", focus="55% 30%"))
 
 card("ch6",card="chapter",num="six",title="the ~weather~",len=4.0)
 sc("s35","You can silence every device and still lose the day to something you carry inside. A grudge. An insult. Envy. One careless remark can rent your head for hours.",
@@ -97,13 +98,13 @@ sc("s36","The Buddhist texts give the answer in a single line. As a solid rock i
 sc("s37","A rock feels the wind. It just doesn't go anywhere. You don't need to feel nothing. You need to stop letting each feeling grab the wheel.",
    ph("homer-mainecoast","a ^rock^ / ~feels~ / the wind","tl",focus="50% 55%"))
 sc("s38","So when anger or envy rises, ask one cold question. Does acting on this serve the work? If not, name it, let it pass through, and go back.",
-   ph("goes-man","does this / ~serve~ / the work","r",focus="40% 30%"))
+   ph("goes-man", focus="40% 30%"))
 sc("s39","Feelings are weather. Your work is the ground.",
    ph("homer-woodisland","feelings are / ~weather~","tl",focus="50% 60%"))
 
 card("ch7",card="chapter",num="seven",title="the ~return~",len=4.0)
 sc("s40","Here is the part most people get wrong. They think a focused person never drifts. Monks drift constantly. Ask any of them.",
-   ph("corot-reading","monks / ~drift~","l",focus="65% 35%"))
+   ph("corot-reading", focus="65% 35%", behind="drift"))
 sc("s41","Brother Lawrence admitted that for years his mind wandered in prayer, again and again. His whole method was simply to come back. No drama. No self-punishment. Back.",
    ph("wilson-nemi","come / ~back~","tl",focus="50% 55%"))
 sc("s42","So when you slip, and you will, don't turn one lost minute into a lost day. Beating yourself up is just another way of not working.",
@@ -117,9 +118,9 @@ sc("s45","Do this for a few months, and something changes. The work that needed 
 sc("s46","You will know better. You closed the door. You chose one arrow. You kept your hour. You stayed through the dull middle, and you came back every time you left.",
    ph("hobbema-road","you ~came~ / ^back^","tl",kb="right",focus="50% 55%"))
 sc("s47","So tonight, don't look for more motivation. Choose one task. Remove one distraction. Guard one hour. Then do it again tomorrow.",
-   ph("castiglione-francis","one task / one ~hour~","l",focus="70% 35%"))
+   ph("castiglione-francis", focus="70% 35%"))
 sc("s48","That is all a monk's focus has ever been. Not a gift. A room, a bell, and the habit of coming back.",
-   ph("reading-scriptures","a room / a ~bell~ / _and_ coming ^back^","l",focus="60% 40%"))
+   ph("reading-scriptures","a room / a ~bell~ / _and the habit of_ / coming ^back^","l",focus="60% 40%"))
 card("end",card="end",len=9.0)
 
 # ---- scenes added to reach 15 minutes; each goes in after the scene named first ----
@@ -146,7 +147,7 @@ ins("s34","s34b","So when the excitement goes, read it correctly. It does not me
 ins("s39","s39b","And be careful with the wish to be seen. The moment you want to look disciplined more than you want to be disciplined, your attention has left the work again and gone to the audience. Let the results speak. They take longer, and they last.",
    ph("seurat-sideshow","let the / ~results~ / speak","tl",focus="50% 50%"))
 ins("s42","s42b","Instead, look at what pulled you away. Was the phone in reach? Was the task too vague? Fix that one thing, and begin again.",
-   ph("corot-letter","~begin~ / again","r",focus="35% 35%"))
+   ph("corot-letter", focus="35% 35%", behind="begin"))
 ins("s44","s44b","And once a week, look back honestly. What moved forward? What kept interrupting? What one change would make next week better? Monks call this examination. You can call it Sunday.",
    ph("market-scene","what ~moved~ / ^forward^","tl",kb="left",focus="50% 50%"))
 ins("s45","s45b","Nothing mystical happened. A habit repeated long enough stops feeling like effort, and starts feeling like who you are. That is what calm looks like from the inside.",

@@ -8,6 +8,10 @@
   .w.sm { font-size: 54px; letter-spacing: -.03em; }
   .w.big { font-size: 178px; }
   .blk .w.scr { font-size: 228px; }
+  .w.n { font-size: 80px; }
+  .w.k { font-size: 132px; }
+  .blk .w.scr.a { font-size: 176px; }
+  .behind { position: absolute; display: none; transform: translateX(-50%); line-height: normal; white-space: nowrap; }
   .sub { position: absolute; left: 0; right: 0; top: 640px; text-align: center; display: none; }
   .sub .w { font-size: 50px; font-weight: 800; letter-spacing: -.03em; margin-right: .22em; text-transform: none; }
   .cite { position: absolute; left: 0; right: 0; bottom: 70px; text-align: center; display: none; font-family: "IT", sans-serif; font-weight: 600;
@@ -24,6 +28,10 @@ const POS = { l: "left:130px;top:50%;transform:translateY(-50%)", r: "right:130p
 const IND = [0, 52, 20, 64];
 const els = D.map((b) => {
   const out = { b, words: [] };
+  if (b.kind === "behind") {
+    const e = document.createElement("div"); e.className = "behind kin"; e.textContent = b.word;
+    e.style.cssText = `left:${b.x}px;top:${b.y}px;font-size:${b.size}px`; document.body.append(e); out.el = e; return out;
+  }
   if (b.kind === "dim" || b.kind === "cite") {
     const e = document.createElement("div"); e.className = b.kind; if (b.text) e.textContent = b.text; document.body.append(e); out.el = e; return out;
   }
