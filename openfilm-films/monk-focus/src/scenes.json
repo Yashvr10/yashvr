@@ -1,0 +1,859 @@
+{
+ "voice": "bm_george",
+ "speed": 0.86,
+ "gap": 0.55,
+ "scenes": [
+  {
+   "id": "s01",
+   "text": "Somewhere right now, a monk is sitting in a small room, doing one thing. He has been doing it since before sunrise. Nobody is watching him. Nothing is buzzing in his pocket. And his mind, the same kind of mind you have, is quiet.",
+   "visuals": [
+    {
+     "photo": "goes-benedictine",
+     "kb": "in",
+     "focus": "30% 30%",
+     "stack": "doing / ~one~ ^thing^",
+     "pos": "r"
+    }
+   ]
+  },
+  {
+   "id": "s02",
+   "text": "Now look at your own day. A message. A headline. A video. Somebody's opinion. An old argument you replay in the shower. Each one takes a small piece of your attention, so quietly that you never feel it leave.",
+   "visuals": [
+    {
+     "photo": "latour-fortune",
+     "kb": "right",
+     "focus": "50% 40%",
+     "stack": "a _small_ piece / of your / ~attention~",
+     "pos": "tl"
+    }
+   ]
+  },
+  {
+   "id": "s03",
+   "text": "The loss looks small. Five minutes here, ten there. But you are not only losing minutes. You are losing the thread. And you are training your mind to run, the moment anything gets hard.",
+   "visuals": [
+    {
+     "photo": "boilly-crowd",
+     "kb": "left",
+     "focus": "50% 40%",
+     "stack": "losing / the ~thread~",
+     "pos": "tr"
+    }
+   ]
+  },
+  {
+   "id": "s03b",
+   "text": "And the world is built to keep it that way. Every screen you own was designed by clever people whose job is to pull your eyes back. You are not weak for losing to them. But you will keep losing until you change the terms.",
+   "visuals": [
+    {
+     "photo": "court-amusement",
+     "kb": "right",
+     "focus": "50% 50%",
+     "stack": "change / the ~terms~",
+     "pos": "tl"
+    }
+   ]
+  },
+  {
+   "id": "s04",
+   "text": "We look at a monk's focus and call it a gift. Calm by nature. Born that way. It isn't. For fifteen hundred years, monasteries have treated attention as a craft. Something you build, with rules, tools and daily practice.",
+   "visuals": [
+    {
+     "photo": "christus-carthusian",
+     "kb": "in",
+     "focus": "60% 35%",
+     "stack": "attention / _as a_ ~craft~",
+     "pos": "l"
+    }
+   ]
+  },
+  {
+   "id": "s05",
+   "text": "This film is that craft, in seven parts. You don't need a robe or a mountain. You need to stop letting everyone else decide where your mind goes.",
+   "visuals": [
+    {
+     "photo": "amalfi-cave",
+     "kb": "in",
+     "focus": "50% 50%",
+     "stack": "where / your ~mind~ / ^goes^",
+     "pos": "br"
+    }
+   ]
+  },
+  {
+   "id": "title",
+   "card": "title",
+   "len": 6.0
+  },
+  {
+   "id": "ch1",
+   "card": "chapter",
+   "num": "one",
+   "title": "the noonday ~demon~",
+   "len": 4.0
+  },
+  {
+   "id": "s06",
+   "text": "The monks of the Egyptian desert, sixteen hundred years ago, had a name for the moment your focus breaks. They called it the noonday demon.",
+   "visuals": [
+    {
+     "photo": "huys-temptation",
+     "kb": "right",
+     "focus": "50% 50%",
+     "stack": "the ~noonday~ / ^demon^",
+     "pos": "tl"
+    }
+   ]
+  },
+  {
+   "id": "s07",
+   "text": "One of them, Evagrius, described it exactly. The monk sits down to his work, and the day suddenly feels fifty hours long. He looks out of the window. He wonders if a visitor is coming. He decides his cell is the problem, and that he would do far better somewhere else.",
+   "visuals": [
+    {
+     "photo": "bles-temptation",
+     "kb": "left",
+     "focus": "50% 50%",
+     "stack": "fifty / hours ~long~",
+     "pos": "tr"
+    }
+   ]
+  },
+  {
+   "id": "s08",
+   "text": "You know this demon. You sit down to the work that matters, and at once the room needs tidying. The phone looks important. Some other task becomes urgent. It feels like preparing. It is running away.",
+   "visuals": [
+    {
+     "photo": "footman-sleeping",
+     "kb": "in",
+     "focus": "45% 50%",
+     "stack": "it is / ~running~ / ^away^",
+     "pos": "r"
+    }
+   ]
+  },
+  {
+   "id": "s09",
+   "text": "The monks' answer was not to fight harder. It was to stay. Don't argue with the urge. Don't obey it either. Notice it, and put your hands back on the work.",
+   "visuals": [
+    {
+     "photo": "monk-prayer",
+     "kb": "in",
+     "focus": "35% 30%",
+     "stack": "it was / to ~stay~",
+     "pos": "r"
+    }
+   ]
+  },
+  {
+   "id": "s09b",
+   "text": "This matters more than it sounds. Every time boredom leads to scrolling, your mind learns that boredom means scroll. Every time it leads back to the work, it learns that instead. You are always training. The only question is what.",
+   "visuals": [
+    {
+     "photo": "sargent-hermit",
+     "kb": "in",
+     "focus": "50% 60%",
+     "stack": "you are / ~always~ / ^training^",
+     "pos": "tl"
+    }
+   ]
+  },
+  {
+   "id": "s10",
+   "text": "William James, the father of American psychology, called this the whole game. The faculty of voluntarily bringing back a wandering attention, over and over again, is the very root of judgment, character, and will.",
+   "visuals": [
+    {
+     "photo": "weyden-prayer",
+     "kb": "in",
+     "focus": "40% 30%",
+     "sub": "faculty",
+     "cite": "William James, The Principles of Psychology (1890)"
+    }
+   ]
+  },
+  {
+   "id": "s11",
+   "text": "Read that again. Not never wandering. Bringing it back. A focused mind is not one that never leaves. It is one that has learned the way home.",
+   "visuals": [
+    {
+     "photo": "olivetan-monk",
+     "kb": "in",
+     "focus": "35% 30%",
+     "stack": "the way / ~home~",
+     "pos": "r"
+    }
+   ]
+  },
+  {
+   "id": "s11b",
+   "text": "So start small enough to win. Twenty minutes. One task. When the pull comes, and it will come inside the first five, let it stand there while your hands keep moving. You do not have to believe every thought you think.",
+   "visuals": [
+    {
+     "photo": "sleeping-girl",
+     "kb": "in",
+     "focus": "50% 45%",
+     "stack": "small enough / to ~win~",
+     "pos": "tl"
+    }
+   ]
+  },
+  {
+   "id": "ch2",
+   "card": "chapter",
+   "num": "two",
+   "title": "one ~arrow~",
+   "len": 4.0
+  },
+  {
+   "id": "s12",
+   "text": "A mind with ten urgent goals has none. You can want money, strength, skill, respect and freedom. Wanting is fine. The mistake is giving all of them the same hour.",
+   "visuals": [
+    {
+     "photo": "greco-jerome",
+     "kb": "in",
+     "focus": "60% 30%",
+     "stack": "ten goals / _has_ ~none~",
+     "pos": "l"
+    }
+   ]
+  },
+  {
+   "id": "s13",
+   "text": "The Buddha used the picture of a craftsman. As a fletcher makes straight his arrow, a wise man makes straight his trembling and unsteady thought, which is difficult to guard, difficult to hold back.",
+   "visuals": [
+    {
+     "photo": "troyon-road",
+     "kb": "up",
+     "focus": "50% 50%",
+     "sub": "as",
+     "cite": "The Dhammapada, verse 33 · translated by F. Max Müller"
+    }
+   ]
+  },
+  {
+   "id": "s14",
+   "text": "An arrow has one point. So each morning, before the world gets a vote, choose the one piece of work that would matter most if it moved today. Not the pleasant one. Not the one that only looks busy.",
+   "visuals": [
+    {
+     "photo": "seurat-gardener",
+     "kb": "in",
+     "focus": "60% 50%",
+     "stack": "^one^ / ~point~",
+     "pos": "tl"
+    }
+   ]
+  },
+  {
+   "id": "s15",
+   "text": "Then write it so plainly that you can't hide from it. Not: get ahead. Write: finish this chapter. Send this proposal. Practise this piece for forty minutes. A vague goal leaves you room to escape. A clear one closes the door.",
+   "visuals": [
+    {
+     "photo": "neer-reader",
+     "kb": "in",
+     "focus": "30% 40%",
+     "stack": "~finish~ / this ^chapter^",
+     "pos": "r"
+    }
+   ]
+  },
+  {
+   "id": "s15b",
+   "text": "The same old book lists four trades. Well-makers lead the water wherever they like; fletchers bend the arrow; carpenters bend a log of wood; wise people fashion themselves.",
+   "visuals": [
+    {
+     "photo": "michel-field",
+     "kb": "right",
+     "focus": "50% 60%",
+     "sub": "well-makers",
+     "cite": "The Dhammapada, verse 80 · translated by F. Max Müller"
+    }
+   ]
+  },
+  {
+   "id": "s16",
+   "text": "And when someone else's urgency arrives, a message, a debate, a trend that will be dead by Friday, ask one question. Can this wait an hour? It almost always can.",
+   "visuals": [
+    {
+     "photo": "fragonard-letter",
+     "kb": "in",
+     "focus": "65% 40%",
+     "stack": "can this / ~wait~",
+     "pos": "l"
+    }
+   ]
+  },
+  {
+   "id": "s16b",
+   "text": "People who are always reachable are rarely formidable. Being slow to answer is the price of doing anything that takes thought. Pay it.",
+   "visuals": [
+    {
+     "photo": "longhi-letter",
+     "kb": "in",
+     "focus": "50% 60%",
+     "stack": "slow / to ~answer~",
+     "pos": "tr"
+    }
+   ]
+  },
+  {
+   "id": "ch3",
+   "card": "chapter",
+   "num": "three",
+   "title": "the ~cell~",
+   "len": 4.0
+  },
+  {
+   "id": "s17",
+   "text": "There is an old saying from the desert. Go, sit in your cell, and your cell will teach you everything.",
+   "visuals": [
+    {
+     "photo": "hammershoi-moonlight",
+     "kb": "in",
+     "focus": "50% 50%",
+     "stack": "sit / in your ~cell~",
+     "pos": "l"
+    }
+   ]
+  },
+  {
+   "id": "s18",
+   "text": "A cell is a bare room. A bed, a table, a book, a window. The monk does not rely on willpower to ignore the market, because the market is not in the room.",
+   "visuals": [
+    {
+     "photo": "granet-choir",
+     "kb": "in",
+     "focus": "50% 60%",
+     "stack": "the market / is _not_ in / the ~room~",
+     "pos": "tl"
+    }
+   ]
+  },
+  {
+   "id": "s19",
+   "text": "You do the opposite. You put the whole market on your desk, and then blame yourself for looking at it. That is not weakness. It is bad design.",
+   "visuals": [
+    {
+     "photo": "fish-market",
+     "kb": "left",
+     "focus": "50% 50%",
+     "stack": "bad / ~design~",
+     "pos": "tr"
+    }
+   ]
+  },
+  {
+   "id": "s20",
+   "text": "So build a cell. Phone in another room. Notifications off, except from the people who truly need you. One window open on the screen. A clear table. None of it is heroic. All of it works.",
+   "visuals": [
+    {
+     "photo": "carus-gothic",
+     "kb": "in",
+     "focus": "60% 50%",
+     "stack": "build / a ~cell~",
+     "pos": "l"
+    }
+   ]
+  },
+  {
+   "id": "s20b",
+   "text": "Then look at the quieter clutter. The five projects you started. The new plan that arrives every Monday. Each new beginning feels like progress, and saves you from the hard part of the old one. Before you add anything, ask what it will push out.",
+   "visuals": [
+    {
+     "photo": "meissonier-cards",
+     "kb": "in",
+     "focus": "55% 45%",
+     "stack": "what it will / ~push~ ^out^",
+     "pos": "tl"
+    }
+   ]
+  },
+  {
+   "id": "s21",
+   "text": "Blaise Pascal saw why it is so hard. I have discovered that all the unhappiness of men arises from one single fact, that they cannot stay quietly in their own chamber.",
+   "visuals": [
+    {
+     "photo": "latour-magdalen",
+     "kb": "in",
+     "focus": "50% 40%",
+     "sub": "i",
+     "cite": "Blaise Pascal, Pensées, 139 · translated by W. F. Trotter"
+    }
+   ]
+  },
+  {
+   "id": "s22",
+   "text": "The first minutes in a quiet room feel like something is missing. Nothing is missing. That is your mind coming down from the noise. Stay through it.",
+   "visuals": [
+    {
+     "photo": "cezanne-dominique",
+     "kb": "in",
+     "focus": "35% 35%",
+     "stack": "~nothing~ / is missing",
+     "pos": "r"
+    }
+   ]
+  },
+  {
+   "id": "s22b",
+   "text": "This is not about cutting people off. Monks live in community. They eat together, work together, care for the sick. The cell is not a wall against others. It is a door you are allowed to close for an hour.",
+   "visuals": [
+    {
+     "photo": "hooch-visit",
+     "kb": "in",
+     "focus": "40% 55%",
+     "stack": "a ~door~ / you are allowed / to ^close^",
+     "pos": "tr"
+    }
+   ]
+  },
+  {
+   "id": "ch4",
+   "card": "chapter",
+   "num": "four",
+   "title": "the ~bell~",
+   "len": 4.0
+  },
+  {
+   "id": "s23",
+   "text": "In a monastery, nobody decides when to begin. A bell rings, and everyone begins.",
+   "visuals": [
+    {
+     "photo": "thayer-monadnock",
+     "kb": "in",
+     "focus": "50% 50%",
+     "stack": "a ~bell~ / ^rings^",
+     "pos": "tl"
+    }
+   ]
+  },
+  {
+   "id": "s24",
+   "text": "Saint Benedict built his Rule, the one that shaped monastic life in the West, around this idea. Idleness is the enemy of the soul. Therefore the brethren should be occupied at certain times in manual labor, and again at fixed hours in sacred reading.",
+   "visuals": [
+    {
+     "photo": "barocci-francis",
+     "kb": "in",
+     "focus": "60% 30%",
+     "sub": "idleness",
+     "cite": "The Rule of Saint Benedict, chapter 48 · translated by Leonard J. Doyle"
+    }
+   ]
+  },
+  {
+   "id": "s25",
+   "text": "Certain times. Fixed hours. The monk does not ask each morning whether he feels like it. The question was settled long ago, so none of his strength is spent on deciding.",
+   "visuals": [
+    {
+     "photo": "ruysdael-road",
+     "kb": "left",
+     "focus": "50% 60%",
+     "stack": "~fixed~ / ^hours^",
+     "pos": "tr"
+    }
+   ]
+  },
+  {
+   "id": "s26",
+   "text": "Take that for yourself. Pick your hour, the same one each day, before messages and headlines if you can. The night before, set out the work. Know the first move.",
+   "visuals": [
+    {
+     "photo": "kensett-twilight",
+     "kb": "in",
+     "focus": "50% 60%",
+     "stack": "pick / your ~hour~",
+     "pos": "tl"
+    }
+   ]
+  },
+  {
+   "id": "s27",
+   "text": "When the hour comes, don't wait to feel ready. Ready comes after you begin, not before. Put your hands on the work, and let the mood catch up.",
+   "visuals": [
+    {
+     "photo": "isola-bella",
+     "kb": "in",
+     "focus": "50% 60%",
+     "stack": "ready comes / _after you_ / ~begin~",
+     "pos": "tr"
+    }
+   ]
+  },
+  {
+   "id": "s28",
+   "text": "One guarded hour, kept every day, will carry you further than a whole day of scattered effort.",
+   "visuals": [
+    {
+     "photo": "lake-george",
+     "kb": "in",
+     "focus": "40% 50%",
+     "stack": "^one^ / guarded / ~hour~",
+     "pos": "r"
+    }
+   ]
+  },
+  {
+   "id": "s28b",
+   "text": "Protect the edges of it too. When the hour ends, leave yourself a note: where you stopped, and what comes next. Tomorrow you begin from that line, not from zero.",
+   "visuals": [
+    {
+     "photo": "winter-holland",
+     "kb": "in",
+     "focus": "50% 55%",
+     "stack": "not / from ~zero~",
+     "pos": "tl"
+    }
+   ]
+  },
+  {
+   "id": "ch5",
+   "card": "chapter",
+   "num": "five",
+   "title": "the ~kitchen~",
+   "len": 4.0
+  },
+  {
+   "id": "s29",
+   "text": "In the sixteen hundreds, a monk in Paris named Brother Lawrence was given the job nobody wanted. The kitchen. Noise, heat, and people shouting for different things at once.",
+   "visuals": [
+    {
+     "photo": "wtewael-kitchen",
+     "kb": "right",
+     "focus": "50% 40%",
+     "stack": "the / ~kitchen~",
+     "pos": "tl"
+    }
+   ]
+  },
+  {
+   "id": "s30",
+   "text": "And this is what he said about it. The time of business does not with me differ from the time of prayer. In the noise and clutter of my kitchen, while several persons are at the same time calling for different things, I possess God in as great tranquillity as if I were upon my knees at the Blessed Supper.",
+   "visuals": [
+    {
+     "photo": "sorgh-kitchen",
+     "kb": "in",
+     "focus": "50% 50%",
+     "sub": "the#2",
+     "cite": "Brother Lawrence, The Practice of the Presence of God (1692)"
+    }
+   ]
+  },
+  {
+   "id": "s31",
+   "text": "He had not escaped the noise. He had learned to give his whole attention to the one thing in his hands, and that turned out to be enough.",
+   "visuals": [
+    {
+     "photo": "kalf-kitchen",
+     "kb": "in",
+     "focus": "50% 50%",
+     "stack": "the one thing / in his ~hands~",
+     "pos": "l"
+    }
+   ]
+  },
+  {
+   "id": "s32",
+   "text": "This is where focus is really tested. Anyone can concentrate while a thing is new. Then the newness wears off, and the work becomes the same motion, again.",
+   "visuals": [
+    {
+     "photo": "millet-rake",
+     "kb": "in",
+     "focus": "55% 35%",
+     "stack": "the ~same~ / motion / ^again^",
+     "pos": "l"
+    }
+   ]
+  },
+  {
+   "id": "s33",
+   "text": "Most people leave at that point. They don't quit. They just start something fresh, and call it ambition.",
+   "visuals": [
+    {
+     "photo": "cezanne-cards",
+     "kb": "in",
+     "focus": "50% 40%",
+     "stack": "_and_ call it / ~ambition~",
+     "pos": "tl"
+    }
+   ]
+  },
+  {
+   "id": "s34",
+   "text": "The monk stays in the dull middle. And the dull middle is exactly where skill is made.",
+   "visuals": [
+    {
+     "photo": "cezanne-peasant",
+     "kb": "in",
+     "focus": "55% 30%",
+     "stack": "the dull / ~middle~",
+     "pos": "l"
+    }
+   ]
+  },
+  {
+   "id": "s34b",
+   "text": "So when the excitement goes, read it correctly. It does not mean you chose the wrong path. It usually means you have finally reached the real work. Break it into smaller pieces. Ask a better question. But stay at the table.",
+   "visuals": [
+    {
+     "photo": "cards-drawingroom",
+     "kb": "in",
+     "focus": "55% 50%",
+     "stack": "the ~real~ / ^work^",
+     "pos": "tl"
+    }
+   ]
+  },
+  {
+   "id": "ch6",
+   "card": "chapter",
+   "num": "six",
+   "title": "the ~weather~",
+   "len": 4.0
+  },
+  {
+   "id": "s35",
+   "text": "You can silence every device and still lose the day to something you carry inside. A grudge. An insult. Envy. One careless remark can rent your head for hours.",
+   "visuals": [
+    {
+     "photo": "keith-storm",
+     "kb": "right",
+     "focus": "50% 50%",
+     "stack": "something / you carry / ~inside~",
+     "pos": "tl"
+    }
+   ]
+  },
+  {
+   "id": "s36",
+   "text": "The Buddhist texts give the answer in a single line. As a solid rock is not shaken by the wind, wise people falter not amidst blame and praise.",
+   "visuals": [
+    {
+     "photo": "richards-rocky",
+     "kb": "left",
+     "focus": "50% 50%",
+     "sub": "as",
+     "cite": "The Dhammapada, verse 81 · translated by F. Max Müller"
+    }
+   ]
+  },
+  {
+   "id": "s37",
+   "text": "A rock feels the wind. It just doesn't go anywhere. You don't need to feel nothing. You need to stop letting each feeling grab the wheel.",
+   "visuals": [
+    {
+     "photo": "homer-mainecoast",
+     "kb": "in",
+     "focus": "50% 55%",
+     "stack": "a ^rock^ / ~feels~ / the wind",
+     "pos": "tl"
+    }
+   ]
+  },
+  {
+   "id": "s38",
+   "text": "So when anger or envy rises, ask one cold question. Does acting on this serve the work? If not, name it, let it pass through, and go back.",
+   "visuals": [
+    {
+     "photo": "goes-man",
+     "kb": "in",
+     "focus": "40% 30%",
+     "stack": "does this / ~serve~ / the work",
+     "pos": "r"
+    }
+   ]
+  },
+  {
+   "id": "s39",
+   "text": "Feelings are weather. Your work is the ground.",
+   "visuals": [
+    {
+     "photo": "homer-woodisland",
+     "kb": "in",
+     "focus": "50% 60%",
+     "stack": "feelings are / ~weather~",
+     "pos": "tl"
+    }
+   ]
+  },
+  {
+   "id": "s39b",
+   "text": "And be careful with the wish to be seen. The moment you want to look disciplined more than you want to be disciplined, your attention has left the work again and gone to the audience. Let the results speak. They take longer, and they last.",
+   "visuals": [
+    {
+     "photo": "seurat-sideshow",
+     "kb": "in",
+     "focus": "50% 50%",
+     "stack": "let the / ~results~ / speak",
+     "pos": "tl"
+    }
+   ]
+  },
+  {
+   "id": "ch7",
+   "card": "chapter",
+   "num": "seven",
+   "title": "the ~return~",
+   "len": 4.0
+  },
+  {
+   "id": "s40",
+   "text": "Here is the part most people get wrong. They think a focused person never drifts. Monks drift constantly. Ask any of them.",
+   "visuals": [
+    {
+     "photo": "corot-reading",
+     "kb": "in",
+     "focus": "65% 35%",
+     "stack": "monks / ~drift~",
+     "pos": "l"
+    }
+   ]
+  },
+  {
+   "id": "s41",
+   "text": "Brother Lawrence admitted that for years his mind wandered in prayer, again and again. His whole method was simply to come back. No drama. No self-punishment. Back.",
+   "visuals": [
+    {
+     "photo": "wilson-nemi",
+     "kb": "in",
+     "focus": "50% 55%",
+     "stack": "come / ~back~",
+     "pos": "tl"
+    }
+   ]
+  },
+  {
+   "id": "s42",
+   "text": "So when you slip, and you will, don't turn one lost minute into a lost day. Beating yourself up is just another way of not working.",
+   "visuals": [
+    {
+     "photo": "conesus",
+     "kb": "left",
+     "focus": "50% 55%",
+     "stack": "one lost / ~minute~",
+     "pos": "tr"
+    }
+   ]
+  },
+  {
+   "id": "s42b",
+   "text": "Instead, look at what pulled you away. Was the phone in reach? Was the task too vague? Fix that one thing, and begin again.",
+   "visuals": [
+    {
+     "photo": "corot-letter",
+     "kb": "in",
+     "focus": "35% 35%",
+     "stack": "~begin~ / again",
+     "pos": "r"
+    }
+   ]
+  },
+  {
+   "id": "s43",
+   "text": "The Dhammapada says it without softness. If one man conquer in battle a thousand times thousand men, and if another conquer himself, he is the greatest of conquerors.",
+   "visuals": [
+    {
+     "photo": "vivarini-jerome",
+     "kb": "in",
+     "focus": "50% 25%",
+     "sub": "if",
+     "cite": "The Dhammapada, verse 103 · translated by F. Max Müller"
+    }
+   ]
+  },
+  {
+   "id": "s44",
+   "text": "Give yourself rest as well. Monks sleep, eat, walk and keep silence on a schedule, because a tired mind cannot hold anything. Rest is part of the rule, not a break from it.",
+   "visuals": [
+    {
+     "photo": "lake-squam",
+     "kb": "in",
+     "focus": "50% 55%",
+     "stack": "~rest~ / is part / of the rule",
+     "pos": "tl"
+    }
+   ]
+  },
+  {
+   "id": "s44b",
+   "text": "And once a week, look back honestly. What moved forward? What kept interrupting? What one change would make next week better? Monks call this examination. You can call it Sunday.",
+   "visuals": [
+    {
+     "photo": "market-scene",
+     "kb": "left",
+     "focus": "50% 50%",
+     "stack": "what ~moved~ / ^forward^",
+     "pos": "tl"
+    }
+   ]
+  },
+  {
+   "id": "s45",
+   "text": "Do this for a few months, and something changes. The work that needed all your strength starts to feel ordinary. People will say you are gifted, or lucky, or calm by nature.",
+   "visuals": [
+    {
+     "photo": "bierstadt-mountain",
+     "kb": "in",
+     "focus": "50% 50%",
+     "stack": "calm / by ~nature~",
+     "pos": "tl"
+    }
+   ]
+  },
+  {
+   "id": "s45b",
+   "text": "Nothing mystical happened. A habit repeated long enough stops feeling like effort, and starts feeling like who you are. That is what calm looks like from the inside.",
+   "visuals": [
+    {
+     "photo": "evening-lake",
+     "kb": "in",
+     "focus": "50% 60%",
+     "stack": "who / you ~are~",
+     "pos": "tl"
+    }
+   ]
+  },
+  {
+   "id": "s46",
+   "text": "You will know better. You closed the door. You chose one arrow. You kept your hour. You stayed through the dull middle, and you came back every time you left.",
+   "visuals": [
+    {
+     "photo": "hobbema-road",
+     "kb": "right",
+     "focus": "50% 55%",
+     "stack": "you ~came~ / ^back^",
+     "pos": "tl"
+    }
+   ]
+  },
+  {
+   "id": "s47",
+   "text": "So tonight, don't look for more motivation. Choose one task. Remove one distraction. Guard one hour. Then do it again tomorrow.",
+   "visuals": [
+    {
+     "photo": "castiglione-francis",
+     "kb": "in",
+     "focus": "70% 35%",
+     "stack": "one task / one ~hour~",
+     "pos": "l"
+    }
+   ]
+  },
+  {
+   "id": "s48",
+   "text": "That is all a monk's focus has ever been. Not a gift. A room, a bell, and the habit of coming back.",
+   "visuals": [
+    {
+     "photo": "reading-scriptures",
+     "kb": "in",
+     "focus": "60% 40%",
+     "stack": "a room / a ~bell~ / _and_ coming ^back^",
+     "pos": "l"
+    }
+   ]
+  },
+  {
+   "id": "end",
+   "card": "end",
+   "len": 9.0
+  }
+ ]
+}

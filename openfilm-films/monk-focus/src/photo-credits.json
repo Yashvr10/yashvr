@@ -1,0 +1,605 @@
+[
+ {
+  "key": "goes-benedictine",
+  "file": "goes-benedictine.jpg",
+  "title": "A Benedictine Monk",
+  "artist": "Hugo van der Goes",
+  "date": "",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/436522"
+ },
+ {
+  "key": "olivetan-monk",
+  "file": "olivetan-monk.jpg",
+  "title": "Portrait of an Olivetan Monk",
+  "artist": "Baldassarre Tommaso Peruzzi",
+  "date": "",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/437275"
+ },
+ {
+  "key": "monk-prayer",
+  "file": "monk-prayer.jpg",
+  "title": "Portrait of a Monk in Prayer",
+  "artist": "French Painter",
+  "date": "",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/436337"
+ },
+ {
+  "key": "cezanne-dominique",
+  "file": "cezanne-dominique.jpg",
+  "title": "Antoine Dominique Sauveur Aubert (born 1817), the Artist's Uncle, as a Monk",
+  "artist": "Paul Cézanne",
+  "date": "1866",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/435869"
+ },
+ {
+  "key": "sargent-hermit",
+  "file": "sargent-hermit.jpg",
+  "title": "The Hermit (Il solitario)",
+  "artist": "John Singer Sargent",
+  "date": "1908",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/12110"
+ },
+ {
+  "key": "vivarini-jerome",
+  "file": "vivarini-jerome.jpg",
+  "title": "Saint Jerome",
+  "artist": "Antonio Vivarini",
+  "date": "1440s",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/437910"
+ },
+ {
+  "key": "greco-jerome",
+  "file": "greco-jerome.jpg",
+  "title": "Saint Jerome as Scholar",
+  "artist": "El Greco (Domenikos Theotokopoulos)",
+  "date": "ca. 1610",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/459088"
+ },
+ {
+  "key": "huys-temptation",
+  "file": "huys-temptation.jpg",
+  "title": "The Temptation of Saint Anthony",
+  "artist": "Pieter Huys",
+  "date": "",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/436702"
+ },
+ {
+  "key": "bles-temptation",
+  "file": "bles-temptation.jpg",
+  "title": "The Temptation of Saint Anthony",
+  "artist": "Herri met de Bles",
+  "date": "ca. 1550–60",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/435678"
+ },
+ {
+  "key": "amalfi-cave",
+  "file": "amalfi-cave.jpg",
+  "title": "View of Amalfi from the Capuchin Monastery",
+  "artist": "",
+  "date": "1810–40",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/461163"
+ },
+ {
+  "key": "carus-gothic",
+  "file": "carus-gothic.jpg",
+  "title": "Gothic Windows in the Ruins of the Monastery at Oybin",
+  "artist": "Carl Gustav Carus",
+  "date": "ca. 1828",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/439122"
+ },
+ {
+  "key": "wilson-nemi",
+  "file": "wilson-nemi.jpg",
+  "title": "Lake Nemi and Genzano from the Terrace of the Capuchin Monastery",
+  "artist": "Richard Wilson",
+  "date": "ca. 1756–57",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/437941"
+ },
+ {
+  "key": "cave-meditation",
+  "file": "cave-meditation.jpg",
+  "title": "Meditation in a Cave",
+  "artist": "Ren Yu",
+  "date": "",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/49471"
+ },
+ {
+  "key": "weyden-prayer",
+  "file": "weyden-prayer.jpg",
+  "title": "Man in Prayer",
+  "artist": "Rogier van der Weyden",
+  "date": "ca. 1440",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/435837"
+ },
+ {
+  "key": "barocci-francis",
+  "file": "barocci-francis.jpg",
+  "title": "Saint Francis",
+  "artist": "Federico Barocci",
+  "date": "ca. 1600–1604",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/438688"
+ },
+ {
+  "key": "castiglione-francis",
+  "file": "castiglione-francis.jpg",
+  "title": "Saint Francis in Ecstasy",
+  "artist": "Giovanni Benedetto Castiglione (Il Grechetto)",
+  "date": "ca. 1650",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/647338"
+ },
+ {
+  "key": "sorgh-kitchen",
+  "file": "sorgh-kitchen.jpg",
+  "title": "A Kitchen",
+  "artist": "Hendrick Sorgh",
+  "date": "ca. 1643",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/437703"
+ },
+ {
+  "key": "wtewael-kitchen",
+  "file": "wtewael-kitchen.jpg",
+  "title": "Kitchen Scene",
+  "artist": "Peter Wtewael",
+  "date": "1620s",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/437956"
+ },
+ {
+  "key": "kalf-kitchen",
+  "file": "kalf-kitchen.jpg",
+  "title": "Interior of a Kitchen",
+  "artist": "Willem Kalf",
+  "date": "ca. 1642–44",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/436806"
+ },
+ {
+  "key": "fish-market",
+  "file": "fish-market.jpg",
+  "title": "Fish Market",
+  "artist": "Joachim Beuckelaer",
+  "date": "1568",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/679844"
+ },
+ {
+  "key": "market-scene",
+  "file": "market-scene.jpg",
+  "title": "Market Scene",
+  "artist": "August Xaver Karl von Pettenkofen",
+  "date": "",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/437279"
+ },
+ {
+  "key": "meissonier-cards",
+  "file": "meissonier-cards.jpg",
+  "title": "The Card Players",
+  "artist": "Ernest Meissonier",
+  "date": "1863",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/437049"
+ },
+ {
+  "key": "cards-drawingroom",
+  "file": "cards-drawingroom.jpg",
+  "title": "Card Players in a Drawing Room",
+  "artist": "Pierre Louis Dumesnil the Younger",
+  "date": "ca. 1756–59",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/436230"
+ },
+ {
+  "key": "cezanne-peasant",
+  "file": "cezanne-peasant.jpg",
+  "title": "Seated Peasant",
+  "artist": "Paul Cézanne",
+  "date": "ca. 1892–96",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/437990"
+ },
+ {
+  "key": "court-amusement",
+  "file": "court-amusement.jpg",
+  "title": "Amusement at the Court",
+  "artist": "Johann Georg Platzer",
+  "date": "ca. 1738",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/925118"
+ },
+ {
+  "key": "lake-george",
+  "file": "lake-george.jpg",
+  "title": "Lake George",
+  "artist": "John William Casilear",
+  "date": "1857",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/18447"
+ },
+ {
+  "key": "isola-bella",
+  "file": "isola-bella.jpg",
+  "title": "Isola Bella in Lago Maggiore",
+  "artist": "Sanford Robinson Gifford",
+  "date": "1871",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/10945"
+ },
+ {
+  "key": "conesus",
+  "file": "conesus.jpg",
+  "title": "Summer Day on Conesus Lake",
+  "artist": "John Frederick Kensett",
+  "date": "1870",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/11323"
+ },
+ {
+  "key": "evening-lake",
+  "file": "evening-lake.jpg",
+  "title": "An Evening beside Lake Arresø",
+  "artist": "Johan Thomas Lundbye",
+  "date": "ca. 1837",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/438951"
+ },
+ {
+  "key": "lake-squam",
+  "file": "lake-squam.jpg",
+  "title": "Lake Squam from Red Hill",
+  "artist": "William Trost Richards",
+  "date": "1874",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/11897"
+ },
+ {
+  "key": "corot-reading",
+  "file": "corot-reading.jpg",
+  "title": "A Woman Reading",
+  "artist": "Camille Corot",
+  "date": "1869 and 1870",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/435991"
+ },
+ {
+  "key": "neer-reader",
+  "file": "neer-reader.jpg",
+  "title": "The Reader",
+  "artist": "Eglon van der Neer",
+  "date": "",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/437193"
+ },
+ {
+  "key": "footman-sleeping",
+  "file": "footman-sleeping.jpg",
+  "title": "A Footman Sleeping",
+  "artist": "Charles Bargue",
+  "date": "1871",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/435603"
+ },
+ {
+  "key": "sleeping-girl",
+  "file": "sleeping-girl.jpg",
+  "title": "Teasing a Sleeping Girl",
+  "artist": "Gaspare Traversi",
+  "date": "ca. 1760",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/437842"
+ },
+ {
+  "key": "latour-fortune",
+  "file": "latour-fortune.jpg",
+  "title": "The Fortune-Teller",
+  "artist": "Georges de La Tour",
+  "date": "probably 1630s",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/436838"
+ },
+ {
+  "key": "hammershoi-moonlight",
+  "file": "hammershoi-moonlight.jpg",
+  "title": "Moonlight, Strandgade 30",
+  "artist": "Vilhelm Hammershøi",
+  "date": "1900–1906",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/441933"
+ },
+ {
+  "key": "hooch-visit",
+  "file": "hooch-visit.jpg",
+  "title": "The Visit",
+  "artist": "Pieter de Hooch",
+  "date": "ca. 1657",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/436678"
+ },
+ {
+  "key": "goes-man",
+  "file": "goes-man.jpg",
+  "title": "Portrait of a Man",
+  "artist": "Hugo van der Goes",
+  "date": "ca. 1475",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/436521"
+ },
+ {
+  "key": "fuji",
+  "file": "fuji.jpg",
+  "title": "Mount Fuji",
+  "artist": "Yokoi Kinkoku  横井金谷",
+  "date": "early 19th century",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/670934"
+ },
+ {
+  "key": "obaku-portrait",
+  "file": "obaku-portrait.jpg",
+  "title": "Portrait of the Ōbaku Zen Monk Mu’an Xingtao (Mokuan Shōtō)",
+  "artist": "Kita Genki",
+  "date": "dated 1674",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/78155"
+ },
+ {
+  "key": "luohan-red",
+  "file": "luohan-red.jpg",
+  "title": "Luohan",
+  "artist": "Unidentified artist",
+  "date": "",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/51428"
+ },
+ {
+  "key": "qiu-luohans",
+  "file": "qiu-luohans.jpg",
+  "title": "The Sixteen Luohans",
+  "artist": "Qiu Ying",
+  "date": "16th or 17th century",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/44592"
+ },
+ {
+  "key": "wubin-luohans",
+  "file": "wubin-luohans.jpg",
+  "title": "The Sixteen Luohans",
+  "artist": "Wu Bin",
+  "date": "dated 1591",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/48948"
+ },
+ {
+  "key": "christus-carthusian",
+  "file": "christus-carthusian.jpg",
+  "title": "Portrait of a Carthusian",
+  "artist": "Petrus Christus",
+  "date": "1446",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/435896"
+ },
+ {
+  "key": "richards-rocky",
+  "file": "richards-rocky.jpg",
+  "title": "A Rocky Coast",
+  "artist": "William Trost Richards",
+  "date": "1877",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/11907"
+ },
+ {
+  "key": "homer-woodisland",
+  "file": "homer-woodisland.jpg",
+  "title": "Moonlight, Wood Island Light",
+  "artist": "Winslow Homer",
+  "date": "1894",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/11127"
+ },
+ {
+  "key": "homer-mainecoast",
+  "file": "homer-mainecoast.jpg",
+  "title": "Maine Coast",
+  "artist": "Winslow Homer",
+  "date": "1896",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/11126"
+ },
+ {
+  "key": "seurat-gardener",
+  "file": "seurat-gardener.jpg",
+  "title": "The Gardener",
+  "artist": "Georges Seurat",
+  "date": "1882–83",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/437656"
+ },
+ {
+  "key": "millet-rake",
+  "file": "millet-rake.jpg",
+  "title": "Woman with a Rake",
+  "artist": "Jean-François Millet",
+  "date": "probably 1856–57",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/437099"
+ },
+ {
+  "key": "latour-magdalen",
+  "file": "latour-magdalen.jpg",
+  "title": "The Penitent Magdalen",
+  "artist": "Georges de La Tour",
+  "date": "ca. 1640",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/436839"
+ },
+ {
+  "key": "granet-choir",
+  "file": "granet-choir.jpg",
+  "title": "The Choir of the Capuchin Church in Rome",
+  "artist": "François Marius Granet",
+  "date": "1814–15",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/436569"
+ },
+ {
+  "key": "bierstadt-mountain",
+  "file": "bierstadt-mountain.jpg",
+  "title": "Mountain Scene",
+  "artist": "Albert Bierstadt",
+  "date": "1880–90",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/10151"
+ },
+ {
+  "key": "kensett-twilight",
+  "file": "kensett-twilight.jpg",
+  "title": "Twilight on the Sound, Darien, Connecticut",
+  "artist": "John Frederick Kensett",
+  "date": "1872",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/11329"
+ },
+ {
+  "key": "winter-holland",
+  "file": "winter-holland.jpg",
+  "title": "Winter Landscape, Holland",
+  "artist": "Barend Cornelis Koekkoek",
+  "date": "1833",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/436826"
+ },
+ {
+  "key": "thayer-monadnock",
+  "file": "thayer-monadnock.jpg",
+  "title": "Winter Sunrise, Monadnock",
+  "artist": "Abbott H. Thayer",
+  "date": "1917",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/12786"
+ },
+ {
+  "key": "hobbema-road",
+  "file": "hobbema-road.jpg",
+  "title": "Woodland Road",
+  "artist": "Meyndert Hobbema",
+  "date": "ca. 1670",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/436653"
+ },
+ {
+  "key": "troyon-road",
+  "file": "troyon-road.jpg",
+  "title": "Road in the Woods",
+  "artist": "Constant Troyon",
+  "date": "mid-1840s",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/437847"
+ },
+ {
+  "key": "seurat-sideshow",
+  "file": "seurat-sideshow.jpg",
+  "title": "Circus Sideshow (Parade de cirque)",
+  "artist": "Georges Seurat",
+  "date": "1887–88",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/437654"
+ },
+ {
+  "key": "boilly-crowd",
+  "file": "boilly-crowd.jpg",
+  "title": "The Public Viewing David's \"Coronation\" at the Louvre",
+  "artist": "Louis Léopold Boilly",
+  "date": "1810",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/438099"
+ },
+ {
+  "key": "longhi-letter",
+  "file": "longhi-letter.jpg",
+  "title": "The Letter",
+  "artist": "Pietro Longhi (Pietro Falca)",
+  "date": "1746",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/436904"
+ },
+ {
+  "key": "corot-letter",
+  "file": "corot-letter.jpg",
+  "title": "The Letter",
+  "artist": "Camille Corot",
+  "date": "ca. 1865",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/435976"
+ },
+ {
+  "key": "fragonard-letter",
+  "file": "fragonard-letter.jpg",
+  "title": "The Love Letter",
+  "artist": "Jean Honoré Fragonard",
+  "date": "early 1770s",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/436322"
+ },
+ {
+  "key": "reading-scriptures",
+  "file": "reading-scriptures.jpg",
+  "title": "Reading the Scriptures",
+  "artist": "Thomas Waterman Wood",
+  "date": "1874",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/13347"
+ },
+ {
+  "key": "keith-storm",
+  "file": "keith-storm.jpg",
+  "title": "Approaching Storm",
+  "artist": "William Keith",
+  "date": "1880",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/11289"
+ },
+ {
+  "key": "michel-field",
+  "file": "michel-field.jpg",
+  "title": "Landscape with a Plowed Field and a Village",
+  "artist": "Georges Michel",
+  "date": "probably after 1827",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/437079"
+ },
+ {
+  "key": "ruysdael-road",
+  "file": "ruysdael-road.jpg",
+  "title": "A Country Road",
+  "artist": "Salomon van Ruysdael",
+  "date": "1648",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/437586"
+ },
+ {
+  "key": "cezanne-cards",
+  "file": "cezanne-cards.jpg",
+  "title": "The Card Players",
+  "artist": "Paul Cézanne",
+  "date": "1890–92",
+  "license": "Public domain (The Met Open Access, CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/435868"
+ }
+]

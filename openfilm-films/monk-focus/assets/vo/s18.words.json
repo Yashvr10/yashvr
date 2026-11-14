@@ -1,0 +1,167 @@
+[
+{
+"word": "A",
+"start": 0.0,
+"end": 0.16
+},
+{
+"word": "cell",
+"start": 0.16,
+"end": 0.46
+},
+{
+"word": "is",
+"start": 0.46,
+"end": 0.74
+},
+{
+"word": "a",
+"start": 0.74,
+"end": 0.94
+},
+{
+"word": "bare",
+"start": 0.94,
+"end": 1.22
+},
+{
+"word": "room.",
+"start": 1.22,
+"end": 1.62
+},
+{
+"word": "A",
+"start": 2.22,
+"end": 2.3
+},
+{
+"word": "bed,",
+"start": 2.3,
+"end": 2.6
+},
+{
+"word": "a",
+"start": 3.04,
+"end": 3.1
+},
+{
+"word": "table,",
+"start": 3.1,
+"end": 3.48
+},
+{
+"word": "a",
+"start": 3.82,
+"end": 3.96
+},
+{
+"word": "book,",
+"start": 3.96,
+"end": 4.24
+},
+{
+"word": "a",
+"start": 4.64,
+"end": 4.76
+},
+{
+"word": "window.",
+"start": 4.76,
+"end": 5.24
+},
+{
+"word": "The",
+"start": 5.98,
+"end": 6.1
+},
+{
+"word": "monk",
+"start": 6.1,
+"end": 6.28
+},
+{
+"word": "does",
+"start": 6.28,
+"end": 6.54
+},
+{
+"word": "not",
+"start": 6.54,
+"end": 6.76
+},
+{
+"word": "rely",
+"start": 6.76,
+"end": 7.14
+},
+{
+"word": "on",
+"start": 7.14,
+"end": 7.38
+},
+{
+"word": "willpower",
+"start": 7.38,
+"end": 7.84
+},
+{
+"word": "to",
+"start": 7.84,
+"end": 8.14
+},
+{
+"word": "ignore",
+"start": 8.14,
+"end": 8.44
+},
+{
+"word": "the",
+"start": 8.44,
+"end": 8.66
+},
+{
+"word": "market,",
+"start": 8.66,
+"end": 9.06
+},
+{
+"word": "because",
+"start": 9.3,
+"end": 9.78
+},
+{
+"word": "the",
+"start": 9.78,
+"end": 9.98
+},
+{
+"word": "market",
+"start": 9.98,
+"end": 10.3
+},
+{
+"word": "is",
+"start": 10.3,
+"end": 10.58
+},
+{
+"word": "not",
+"start": 10.58,
+"end": 10.8
+},
+{
+"word": "in",
+"start": 10.8,
+"end": 10.98
+},
+{
+"word": "the",
+"start": 10.98,
+"end": 11.14
+},
+{
+"word": "room.",
+"start": 11.14,
+"end": 11.38
+}
+]

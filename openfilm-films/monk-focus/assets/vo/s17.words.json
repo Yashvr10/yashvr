@@ -1,0 +1,102 @@
+[
+{
+"word": "There",
+"start": 0.0,
+"end": 0.2
+},
+{
+"word": "is",
+"start": 0.2,
+"end": 0.34
+},
+{
+"word": "an",
+"start": 0.34,
+"end": 0.5
+},
+{
+"word": "old",
+"start": 0.5,
+"end": 0.82
+},
+{
+"word": "saying",
+"start": 0.82,
+"end": 1.24
+},
+{
+"word": "from",
+"start": 1.24,
+"end": 1.54
+},
+{
+"word": "the",
+"start": 1.54,
+"end": 1.74
+},
+{
+"word": "desert.",
+"start": 1.74,
+"end": 2.1
+},
+{
+"word": "Go,",
+"start": 2.78,
+"end": 3.06
+},
+{
+"word": "sit",
+"start": 3.06,
+"end": 3.56
+},
+{
+"word": "in",
+"start": 3.56,
+"end": 3.78
+},
+{
+"word": "your",
+"start": 3.78,
+"end": 3.94
+},
+{
+"word": "cell,",
+"start": 3.94,
+"end": 4.34
+},
+{
+"word": "and",
+"start": 4.34,
+"end": 4.86
+},
+{
+"word": "your",
+"start": 4.86,
+"end": 5.04
+},
+{
+"word": "cell",
+"start": 5.04,
+"end": 5.42
+},
+{
+"word": "will",
+"start": 5.42,
+"end": 5.66
+},
+{
+"word": "teach",
+"start": 5.66,
+"end": 5.88
+},
+{
+"word": "you",
+"start": 5.88,
+"end": 6.12
+},
+{
+"word": "everything.",
+"start": 6.12,
+"end": 6.5
+}
+]

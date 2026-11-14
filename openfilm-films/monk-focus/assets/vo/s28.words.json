@@ -1,0 +1,87 @@
+[
+{
+"word": "One",
+"start": 0.0,
+"end": 0.3
+},
+{
+"word": "guarded",
+"start": 0.3,
+"end": 0.74
+},
+{
+"word": "hour,",
+"start": 0.74,
+"end": 1.2
+},
+{
+"word": "kept",
+"start": 1.52,
+"end": 1.72
+},
+{
+"word": "every",
+"start": 1.72,
+"end": 2.08
+},
+{
+"word": "day,",
+"start": 2.08,
+"end": 2.54
+},
+{
+"word": "will",
+"start": 2.78,
+"end": 3.04
+},
+{
+"word": "carry",
+"start": 3.04,
+"end": 3.34
+},
+{
+"word": "you",
+"start": 3.34,
+"end": 3.64
+},
+{
+"word": "further",
+"start": 3.64,
+"end": 3.94
+},
+{
+"word": "than",
+"start": 3.94,
+"end": 4.46
+},
+{
+"word": "a",
+"start": 4.46,
+"end": 4.58
+},
+{
+"word": "whole",
+"start": 4.58,
+"end": 4.84
+},
+{
+"word": "day",
+"start": 4.84,
+"end": 5.14
+},
+{
+"word": "of",
+"start": 5.14,
+"end": 5.28
+},
+{
+"word": "scattered",
+"start": 5.28,
+"end": 5.68
+},
+{
+"word": "effort.",
+"start": 5.68,
+"end": 6.16
+}
+]

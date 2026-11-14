@@ -1,0 +1,18 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><meta name="viewport" content="width=1920, height=1080">
+<link rel="stylesheet" href="lib/fw.css">
+<title>Thumbnail</title>
+<style>
+  body { background: #000; }
+  #img { position: absolute; top: 0; bottom: 0; left: -120px; width: 1300px; background: url("assets/photos/goes-benedictine.jpg") 50% 22% / cover no-repeat;
+         filter: contrast(1.12) saturate(.95) brightness(1.02); }
+  #vig { position: absolute; inset: 0; background: linear-gradient(90deg, transparent 30%, rgba(0,0,0,.6) 52%, #000 66%); }
+  #t { position: absolute; left: 960px; top: 250px; line-height: .84; }
+  #a { font-size: 250px; }
+  #b { font-size: 250px; margin-left: 60px; margin-top: 70px; }
+  #b .scr { font-size: 2.1em; }
+</style></head>
+<body><div id="img"></div><div id="vig"></div>
+<div id="t" class="kin"><div id="a">monk</div><div id="b"><span class="scr">focus</span></div></div>
+<script>window.film = { frame() {}, ready: document.fonts.ready };</script>
+</body></html>

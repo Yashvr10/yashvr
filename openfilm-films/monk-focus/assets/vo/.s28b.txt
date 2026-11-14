@@ -1,0 +1,1 @@
+bm_george|0.86|Protect the edges of it too. When the hour ends, leave yourself a note: where you stopped, and what comes next. Tomorrow you begin from that line, not from zero.

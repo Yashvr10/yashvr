@@ -1,0 +1,26 @@
+{{head}}
+<title>End</title>
+<style>
+  body { background: #000; }
+  #wrap { position: absolute; left: 0; right: 0; top: 300px; text-align: center; }
+  #a { font-size: 150px; opacity: 0; line-height: 1; }
+  #c { position: absolute; left: 260px; right: 260px; top: 620px; text-align: center; font-family: "IT", sans-serif; font-weight: 500; font-size: 23px;
+       line-height: 1.6; color: rgba(255,255,255,.62); opacity: 0; }
+</style>
+</head>
+<body>
+<div id="wrap" class="kin"><div id="a">come <span class="scr">back</span></div></div>
+<div id="c">Narration: Kokoro TTS · Paintings: The Metropolitan Museum of Art (public domain, CC0)<br>
+Music: Satie, Gymnopédies Nos. 1 and 3, Gnossienne No. 3; Debussy, Arabesque No. 1, performed by Felted Classics (CC BY 3.0, via Jamendo)<br>
+Texts: Project Gutenberg · Fonts: Inter Tight, Herr Von Muellerhoff (OFL) · Made with OpenFilm</div>
+<script type="module">
+import { play } from "./lib/fw.js";
+const tl = gsap.timeline({ paused: true });
+tl.set("#a", { opacity: 1 }, 0.5);
+tl.to("#c", { opacity: 1, duration: 1.2 }, 1.8);
+tl.to(["#wrap", "#c"], { opacity: 0, duration: 1.0 }, {{len}} - 1.2);
+tl.to({}, { duration: {{len}} }, 0);
+play(tl, { duration: {{len}} });
+</script>
+</body>
+</html>
