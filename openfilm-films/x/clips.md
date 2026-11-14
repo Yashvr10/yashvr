@@ -6,6 +6,8 @@ X is the 20-minute film "You Have Never Seen the World" (`script.md`), built fro
 
 How screen time is counted: unique footage, plus looping where a clip loops cleanly (short loops up to about 3–5 seconds on screen, longer clips once or with one repeat).
 
+Clips that look like they come from films or TV series (08, 18, 19) stay in: the user asked to keep them.
+
 ## Batch 01 (2026-11-14)
 
 | File | Size | Unique footage | Usable on screen | Notes |
@@ -44,9 +46,33 @@ Skipped as duplicates: the black drip (same as 04 in batch 01) and a second copy
 
 Batch total: 31.9 s unique, about 62 s usable (1.0 min).
 
+## Batch 03 (2026-11-14)
+
+14 files sent, 14 new, no duplicates.
+
+| File | Size | Unique footage | Usable on screen | Notes |
+|---|---|---|---|---|
+| 21-falling-man-city.gif | 480×480 | 9.6 s | ~10 s | Man falling between pink towers. Square |
+| 22-falling-figure-dark.gif | 480×480 | 6.7 s | ~7 s | Figure falling through darkness. Square |
+| 23-cutout-figure-beach.gif | 640×354 | 6.1 s | ~6 s | Figure cut out of a painted beach |
+| 24-glowing-falling-figure.gif | 1920×1080 | 3.4 s | ~5 s | Glowing figure over a night field. Full HD |
+| 25-grey-profile.gif | 540×304 | 3.6 s | ~5 s | Grey head in profile on black; room for text on the left |
+| 26-man-on-clock.gif | 480×480 | 2.5 s | ~5 s | Line-drawn man as a clock hand. Square, white background |
+| 27-walking-silhouettes.gif | 500×307 | 2.3 s | ~5 s | Dark figures walking past each other |
+| 28-nested-figures.gif | 700×394 | 1.6 s | ~4 s | Figures nested inside each other |
+| 29-black-bird-orange.gif | 640×480 | 0.9 s | ~3 s | Black bird on orange. 4:3 |
+| 30-rower-red-sky.gif | 500×395 | 2.2 s | ~4 s | Rower under a red sky |
+| 31-crowd-in-rain.gif | 500×375 | 0.8 s | ~3 s | Painted crowd in rain. 4:3 |
+| 32-watercolour-walker.gif | 480×340 | 1.4 s | ~4 s | White figure walking through watercolour |
+| 33-light-blur-head.mp4 | 720×900 | 7.5 s | ~8 s | Light-streaked blurred head at night. Vertical (4:5), needs cropping for 16:9 |
+| 34-space-flashes.mp4 | 720×480 | 2.3 s | ~5 s | Black-and-white space images flashing. The file is 32.5 s but it is one 2.3 s loop of about 23 images, repeated 14 times. The single images could also be held as stills |
+
+Batch total: 50.9 s unique, about 74 s usable (1.2 min).
+
 ## Running total
 
 | Batches | Usable screen time | Of 20 min |
 |---|---|---|
 | 1 | 0.6 min | 3% |
 | 1–2 | 1.6 min | 8% |
+| 1–3 | 2.8 min | 14% |
