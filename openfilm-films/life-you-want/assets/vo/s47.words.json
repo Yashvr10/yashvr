@@ -1,0 +1,147 @@
+[
+{
+"word": "That",
+"start": 0.0,
+"end": 0.16
+},
+{
+"word": "is",
+"start": 0.16,
+"end": 0.32
+},
+{
+"word": "something",
+"start": 0.32,
+"end": 0.62
+},
+{
+"word": "you",
+"start": 0.62,
+"end": 0.88
+},
+{
+"word": "can",
+"start": 0.88,
+"end": 1.08
+},
+{
+"word": "steal.",
+"start": 1.08,
+"end": 1.52
+},
+{
+"word": "You",
+"start": 2.02,
+"end": 2.1
+},
+{
+"word": "don't",
+"start": 2.1,
+"end": 2.32
+},
+{
+"word": "need",
+"start": 2.32,
+"end": 2.5
+},
+{
+"word": "a",
+"start": 2.5,
+"end": 2.66
+},
+{
+"word": "cabin.",
+"start": 2.66,
+"end": 3.0
+},
+{
+"word": "You",
+"start": 3.6,
+"end": 3.66
+},
+{
+"word": "need",
+"start": 3.66,
+"end": 3.86
+},
+{
+"word": "an",
+"start": 3.86,
+"end": 4.0
+},
+{
+"word": "experiment.",
+"start": 4.0,
+"end": 4.62
+},
+{
+"word": "Pick",
+"start": 5.14,
+"end": 5.22
+},
+{
+"word": "one",
+"start": 5.22,
+"end": 5.52
+},
+{
+"word": "part",
+"start": 5.52,
+"end": 5.8
+},
+{
+"word": "of",
+"start": 5.8,
+"end": 5.98
+},
+{
+"word": "your",
+"start": 5.98,
+"end": 6.14
+},
+{
+"word": "life.",
+"start": 6.14,
+"end": 6.54
+},
+{
+"word": "Your",
+"start": 7.22,
+"end": 7.3
+},
+{
+"word": "mornings,",
+"start": 7.3,
+"end": 7.72
+},
+{
+"word": "your",
+"start": 8.28,
+"end": 8.32
+},
+{
+"word": "evenings,",
+"start": 8.32,
+"end": 8.8
+},
+{
+"word": "your",
+"start": 9.18,
+"end": 9.3
+},
+{
+"word": "work,",
+"start": 9.3,
+"end": 9.6
+},
+{
+"word": "your",
+"start": 9.8,
+"end": 9.9
+},
+{
+"word": "weekends.",
+"start": 9.9,
+"end": 10.32
+}
+]

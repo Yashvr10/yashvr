@@ -43,7 +43,7 @@ body { font-family: "Inter", sans-serif; color: var(--paper); }
 @font-face { font-family: "IT"; src: url("../fonts/InterTight.ttf") format("truetype"); font-weight: 100 900; }
 @font-face { font-family: "Script"; src: url("../fonts/HerrVonMuellerhoff.ttf") format("truetype"); }
 .kin { font-family: "IT", sans-serif; font-weight: 900; letter-spacing: -.045em; color: #fff; text-transform: lowercase;
-       text-shadow: 0 0 18px rgba(255,255,255,.32), 0 3px 14px rgba(0,0,0,.6); }
+       text-shadow: 0 0 2px rgba(0,0,0,.55), 0 2px 10px rgba(0,0,0,.75), 0 0 34px rgba(0,0,0,.55); }
 .kin .scr { font-family: "Script", cursive; font-weight: 400; letter-spacing: -.01em; text-transform: none; display: inline-block;
             font-size: 1.85em; line-height: .5; transform: scaleX(.82); transform-origin: 0 60%; margin: 0 -.16em 0 -.04em;
             -webkit-text-stroke: 1.3px #fff; }

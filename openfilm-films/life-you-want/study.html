@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=1920, height=1080">
+<link rel="stylesheet" href="lib/fw.css">
+<script src="lib/gsap.min.js"></script>
+
+<title>The Ideal Road Not Taken</title>
+<style>
+  body { background: #0b0a08; }
+  .l { position: absolute; left: 0; right: 0; text-align: center; color: var(--ivory); opacity: 0; }
+  #k { top: 200px; font-size: 26px; color: var(--gold); }
+  #t { top: 260px; font-size: 64px; font-style: italic; }
+  .col { position: absolute; top: 450px; width: 560px; text-align: center; opacity: 0; color: var(--ivory); }
+  .col .h { font-size: 26px; color: #9a8f7a; }
+  .col .b { font-size: 48px; font-style: italic; margin-top: 18px; line-height: 1.2; }
+  #o { left: 300px; } #i { right: 300px; }
+  #i .b { color: var(--gold); }
+  #r { top: 700px; font-size: 44px; font-style: italic; }
+  #s { top: 900px; padding: 0 240px; font-size: 22px; color: #8d8473; font-style: italic; }
+</style>
+</head>
+<body>
+<div class="l caps" id="k">2018 · six studies</div>
+<div class="l corm" id="t">The Ideal Road Not Taken</div>
+<div class="col" id="o"><div class="h caps">duties</div><div class="b corm">who you should have been</div></div>
+<div class="col" id="i"><div class="h caps">ideals</div><div class="b corm">who you hoped to be</div></div>
+<div class="l corm" id="r">The regrets that last come more often from ideals.</div>
+<div class="l corm" id="s">Davidai &amp; Gilovich, “The Ideal Road Not Taken: The Self-Discrepancies Involved in People’s Most Enduring Regrets”, Emotion, 2018.</div>
+<script type="module">
+import { play } from "./lib/fw.js";
+const tl = gsap.timeline({ paused: true });
+tl.to(["#k", "#t", "#s"], { opacity: 1, duration: 0.8 }, 0.3);
+tl.fromTo("#o", { opacity: 0, y: 10 }, { opacity: 1, y: 0, duration: 0.7 }, 0.9);
+tl.fromTo("#i", { opacity: 0, y: 10 }, { opacity: 1, y: 0, duration: 0.7 }, 1.5);
+tl.fromTo("#r", { opacity: 0, y: 10 }, { opacity: 1, y: 0, duration: 0.8 }, 3.58 - 0.3);
+tl.to("#o", { opacity: 0.35, duration: 0.6 }, 11.16 - 0.2);
+tl.to({}, { duration: 18 }, 0);
+play(tl, { ready: Promise.resolve() });
+</script></body></html>

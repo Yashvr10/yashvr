@@ -3,16 +3,17 @@
 <link rel="stylesheet" href="lib/fw.css">
 <title>Thumbnail</title>
 <style>
-  body { background: #000; }
-  #img { position: absolute; top: 0; bottom: 0; left: -120px; width: 1300px; background: url("assets/photos/goes-benedictine.jpg") 50% 22% / cover no-repeat;
-         filter: contrast(1.12) saturate(.95) brightness(1.02); }
-  #vig { position: absolute; inset: 0; background: linear-gradient(90deg, transparent 30%, rgba(0,0,0,.6) 52%, #000 66%); }
-  #t { position: absolute; left: 960px; top: 250px; line-height: .84; }
-  #a { font-size: 250px; }
-  #b { font-size: 250px; margin-left: 60px; margin-top: 70px; }
-  #b .scr { font-size: 2.1em; }
+  body { background: #0e0c09; }
+  #img { position: absolute; top: 0; bottom: 0; left: -80px; width: 1160px; background: url("assets/photos/christabel.jpg") 40% 30% / 135% auto no-repeat;
+         filter: grayscale(1) sepia(.45) contrast(1.15) brightness(.95); }
+  #vig { position: absolute; inset: 0; background: linear-gradient(90deg, transparent 26%, rgba(14,12,9,.7) 44%, #0e0c09 54%); }
+  #t { position: absolute; left: 1000px; top: 250px; line-height: .9; }
+  #a { font-size: 120px; }
+  #b { font-size: 120px; margin-left: 40px; margin-top: 10px; }
+  #c { font-size: 120px; margin-top: 30px; }
+  #c .scr { font-size: 2.1em; }
 </style></head>
 <body><div id="img"></div><div id="vig"></div>
-<div id="t" class="kin"><div id="a">monk</div><div id="b"><span class="scr">focus</span></div></div>
+<div id="t" class="kin"><div id="a">not living</div><div id="b">the life</div><div id="c">you <span class="scr">want?</span></div></div>
 <script>window.film = { frame() {}, ready: document.fonts.ready };</script>
 </body></html>

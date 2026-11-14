@@ -1,0 +1,167 @@
+[
+{
+"word": "Tolstoy",
+"start": 0.0,
+"end": 0.5
+},
+{
+"word": "describes",
+"start": 0.5,
+"end": 1.04
+},
+{
+"word": "what",
+"start": 1.04,
+"end": 1.42
+},
+{
+"word": "comes",
+"start": 1.42,
+"end": 1.68
+},
+{
+"word": "next",
+"start": 1.68,
+"end": 2.12
+},
+{
+"word": "with",
+"start": 2.12,
+"end": 2.44
+},
+{
+"word": "terrible",
+"start": 2.44,
+"end": 2.86
+},
+{
+"word": "precision.",
+"start": 2.86,
+"end": 3.48
+},
+{
+"word": "Ivan",
+"start": 4.38,
+"end": 4.44
+},
+{
+"word": "remembers",
+"start": 4.44,
+"end": 5.02
+},
+{
+"word": "small",
+"start": 5.02,
+"end": 5.42
+},
+{
+"word": "moments",
+"start": 5.42,
+"end": 5.9
+},
+{
+"word": "when",
+"start": 5.9,
+"end": 6.54
+},
+{
+"word": "something",
+"start": 6.54,
+"end": 6.9
+},
+{
+"word": "in",
+"start": 6.9,
+"end": 7.18
+},
+{
+"word": "him",
+"start": 7.18,
+"end": 7.46
+},
+{
+"word": "had",
+"start": 7.46,
+"end": 7.72
+},
+{
+"word": "pushed",
+"start": 7.72,
+"end": 8.02
+},
+{
+"word": "back.",
+"start": 8.02,
+"end": 8.56
+},
+{
+"word": "Little",
+"start": 9.22,
+"end": 9.4
+},
+{
+"word": "impulses,",
+"start": 9.4,
+"end": 10.1
+},
+{
+"word": "quickly",
+"start": 10.1,
+"end": 10.86
+},
+{
+"word": "dismissed,",
+"start": 10.86,
+"end": 11.56
+},
+{
+"word": "against",
+"start": 11.56,
+"end": 12.46
+},
+{
+"word": "what",
+"start": 12.46,
+"end": 12.78
+},
+{
+"word": "was",
+"start": 12.78,
+"end": 12.96
+},
+{
+"word": "considered",
+"start": 12.96,
+"end": 13.36
+},
+{
+"word": "good",
+"start": 13.36,
+"end": 13.76
+},
+{
+"word": "by",
+"start": 13.76,
+"end": 14.18
+},
+{
+"word": "persons",
+"start": 14.18,
+"end": 14.66
+},
+{
+"word": "of",
+"start": 14.66,
+"end": 15.02
+},
+{
+"word": "higher",
+"start": 15.02,
+"end": 15.3
+},
+{
+"word": "position.",
+"start": 15.3,
+"end": 15.76
+}
+]

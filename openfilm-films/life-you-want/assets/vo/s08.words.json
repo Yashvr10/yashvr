@@ -1,0 +1,62 @@
+[
+{
+"word": "Things",
+"start": 0.0,
+"end": 0.34
+},
+{
+"word": "never",
+"start": 0.34,
+"end": 0.72
+},
+{
+"word": "settle",
+"start": 0.72,
+"end": 1.12
+},
+{
+"word": "down.",
+"start": 1.12,
+"end": 1.66
+},
+{
+"word": "Next",
+"start": 2.22,
+"end": 2.38
+},
+{
+"word": "Wednesday,",
+"start": 2.38,
+"end": 2.9
+},
+{
+"word": "you",
+"start": 3.3,
+"end": 3.34
+},
+{
+"word": "are",
+"start": 3.34,
+"end": 3.48
+},
+{
+"word": "back",
+"start": 3.48,
+"end": 3.7
+},
+{
+"word": "in",
+"start": 3.7,
+"end": 3.9
+},
+{
+"word": "the",
+"start": 3.9,
+"end": 4.04
+},
+{
+"word": "car.",
+"start": 4.04,
+"end": 4.38
+}
+]

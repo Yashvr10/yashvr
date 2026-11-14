@@ -1,0 +1,252 @@
+[
+{
+"word": "Look",
+"start": 0.0,
+"end": 0.2
+},
+{
+"word": "again",
+"start": 0.2,
+"end": 0.54
+},
+{
+"word": "at",
+"start": 0.54,
+"end": 0.82
+},
+{
+"word": "what",
+"start": 0.82,
+"end": 1.04
+},
+{
+"word": "Thoreau",
+"start": 1.04,
+"end": 1.6
+},
+{
+"word": "actually",
+"start": 1.6,
+"end": 2.1
+},
+{
+"word": "did.",
+"start": 2.1,
+"end": 2.56
+},
+{
+"word": "He",
+"start": 3.08,
+"end": 3.18
+},
+{
+"word": "didn't",
+"start": 3.18,
+"end": 3.48
+},
+{
+"word": "run",
+"start": 3.48,
+"end": 3.6
+},
+{
+"word": "away",
+"start": 3.6,
+"end": 3.92
+},
+{
+"word": "from",
+"start": 3.92,
+"end": 4.16
+},
+{
+"word": "the",
+"start": 4.16,
+"end": 4.3
+},
+{
+"word": "world",
+"start": 4.3,
+"end": 4.6
+},
+{
+"word": "forever.",
+"start": 4.6,
+"end": 4.98
+},
+{
+"word": "He",
+"start": 5.62,
+"end": 5.72
+},
+{
+"word": "built",
+"start": 5.72,
+"end": 5.92
+},
+{
+"word": "a",
+"start": 5.92,
+"end": 6.1
+},
+{
+"word": "small",
+"start": 6.1,
+"end": 6.44
+},
+{
+"word": "house",
+"start": 6.44,
+"end": 6.76
+},
+{
+"word": "by",
+"start": 6.76,
+"end": 7.02
+},
+{
+"word": "a",
+"start": 7.02,
+"end": 7.2
+},
+{
+"word": "pond,",
+"start": 7.2,
+"end": 7.56
+},
+{
+"word": "a",
+"start": 8.1,
+"end": 8.22
+},
+{
+"word": "short",
+"start": 8.22,
+"end": 8.5
+},
+{
+"word": "walk",
+"start": 8.5,
+"end": 8.82
+},
+{
+"word": "from",
+"start": 8.82,
+"end": 9.08
+},
+{
+"word": "town,",
+"start": 9.08,
+"end": 9.5
+},
+{
+"word": "and",
+"start": 9.94,
+"end": 10.12
+},
+{
+"word": "lived",
+"start": 10.12,
+"end": 10.32
+},
+{
+"word": "there",
+"start": 10.32,
+"end": 10.7
+},
+{
+"word": "as",
+"start": 10.7,
+"end": 10.94
+},
+{
+"word": "an",
+"start": 10.94,
+"end": 11.04
+},
+{
+"word": "experiment.",
+"start": 11.04,
+"end": 11.6
+},
+{
+"word": "In",
+"start": 12.34,
+"end": 12.48
+},
+{
+"word": "his",
+"start": 12.48,
+"end": 12.62
+},
+{
+"word": "own",
+"start": 12.62,
+"end": 12.86
+},
+{
+"word": "words,",
+"start": 12.86,
+"end": 13.26
+},
+{
+"word": "I",
+"start": 13.72,
+"end": 13.84
+},
+{
+"word": "lived",
+"start": 13.84,
+"end": 14.06
+},
+{
+"word": "there",
+"start": 14.06,
+"end": 14.3
+},
+{
+"word": "two",
+"start": 14.3,
+"end": 14.54
+},
+{
+"word": "years",
+"start": 14.54,
+"end": 14.98
+},
+{
+"word": "and",
+"start": 14.98,
+"end": 15.3
+},
+{
+"word": "two",
+"start": 15.3,
+"end": 15.54
+},
+{
+"word": "months.",
+"start": 15.54,
+"end": 15.88
+},
+{
+"word": "Then",
+"start": 16.5,
+"end": 16.64
+},
+{
+"word": "he",
+"start": 16.64,
+"end": 16.82
+},
+{
+"word": "came",
+"start": 16.82,
+"end": 17.04
+},
+{
+"word": "back.",
+"start": 17.04,
+"end": 17.44
+}
+]

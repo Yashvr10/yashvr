@@ -70,6 +70,7 @@ let t = 0;
 const shots = [], pages = [], lts = [], leaks = [], vo = [], sfx = [];
 const chapters = [];
 const caps = [], capsBack = [];
+const FADED = new Set(fs.existsSync(path.join(ROOT, "src/faded.json")) ? JSON.parse(fs.readFileSync(path.join(ROOT, "src/faded.json"), "utf8")) : []);
 let autoN = 0;
 const BEHIND = fs.existsSync(path.join(ROOT, "src/behind.json")) ? JSON.parse(fs.readFileSync(path.join(ROOT, "src/behind.json"), "utf8")) : {};
 for (const s of cfg.scenes) {
@@ -306,7 +307,8 @@ L.push(`<!doctype html>
   /* Photographs fill the frame; a slow move over each (Ken Burns), timed to the clip with --clip-length. */
   .photo { object-fit: cover; }
   .print { object-fit: cover; border: 14px solid #e9e2d2; box-shadow: 0 30px 80px rgba(0,0,0,.6); }
-  .archival { filter: grayscale(1) sepia(.42) contrast(1.06) brightness(.92); }
+  .archival { filter: grayscale(1) sepia(.42) contrast(1.08) brightness(.84); }
+  .archival.faded { filter: grayscale(1) brightness(.6) contrast(2) sepia(.42); }
   .painted { filter: saturate(.86) sepia(.08) contrast(1.03) brightness(.9); }
   .colour { filter: saturate(.7) sepia(.15) contrast(1.05); }
   @keyframes kb-in { from { scale: 1.02 } to { scale: 1.13 } }
@@ -329,12 +331,12 @@ L.push(`<!doctype html>
 L.push(`<section>\n  <iframe id="grain" src="grain.html#t=0,${FILM}"></iframe>\n</section>`);
 L.push(`<section>\n${leaks.map((x, i) => `  <iframe id="leak-${i + 1}" src="leak.html" at="${r3(x.at)}"></iframe>`).join("\n")}\n</section>`);
 L.push(`<section>\n  <iframe id="captions" src="captions.html#t=0,${FILM}"></iframe>\n</section>`);
-L.push(`<section>\n${shots.filter((x) => x.cutout).map((x) => `  <img id="${x.id}-cutout" src="assets/cutouts/${x.photo}.png#t=0,${r3(x.len)}" at="${r3(x.at)}" class="photo ${"archival"} kb-${x.kb}" style="object-position: ${x.focus}"${ov([FADE, FADE])}>`).join("\n")}\n</section>`);
+L.push(`<section>\n${shots.filter((x) => x.cutout).map((x) => `  <img id="${x.id}-cutout" src="assets/cutouts/${x.photo}.png#t=0,${r3(x.len)}" at="${r3(x.at)}" class="photo ${FADED.has(x.photo) ? "archival faded" : "archival"} kb-${x.kb}" style="object-position: ${x.focus}"${ov([FADE, FADE])}>`).join("\n")}\n</section>`);
 L.push(`<section>\n  <iframe id="captions-back" src="captions-back.html#t=0,${FILM}"></iframe>\n</section>`);
 L.push(`<section>\n${lts.map((x) => `  <iframe id="${x.id}" src="${x.src}" at="${r3(x.at)}"></iframe>`).join("\n")}\n</section>`);
 L.push(`<section>\n${pages.map((x) => `  <iframe id="${x.id}" src="${x.src}${x.src.startsWith("ch") || ["title.html", "end.html"].includes(x.src) ? "" : `#t=0,${r3(x.len)}`}" at="${r3(x.at)}"${ov(x.fade)}></iframe>`).join("\n")}\n</section>`);
 L.push(`<section>\n${shots.map((x) => {
-  const look = "archival";
+  const look = FADED.has(x.photo) ? "archival faded" : "archival";
   if (x.framed) {
     // a small original: shown as a print on the dark ground rather than stretched to fill the frame
     const [w, h] = execFileSync("ffprobe", ["-v", "error", "-select_streams", "v:0", "-show_entries", "stream=width,height", "-of", "csv=p=0",

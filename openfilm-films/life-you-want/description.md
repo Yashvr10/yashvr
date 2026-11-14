@@ -1,38 +1,35 @@
-# YouTube copy: How to Build Monk Focus
+# YouTube copy: If You're Not Living the Life You Want, Watch This
 
 ## Title
-How to Build Monk Focus
+If You're Not Living the Life You Want, Watch This
 
 ## Description
-A monk's focus is not a gift. For fifteen hundred years, monasteries have treated attention as a craft: something you build with a room, a bell and one habit. This film turns that craft into seven parts you can use today, without a robe or a mountain.
+Thoreau went to the woods so that, when he came to die, he would not "discover that I had not lived." Tolstoy wrote about a successful judge who, at forty-five, asked: "What if in reality all my life… has been not the right thing?" This film is about how capable people end up living a life borrowed from the world's opinion, why the regrets that last are about the person we hoped to become, and how to start living deliberately, one ordinary day at a time.
 
 ⏱ Chapters
-0:00 The quiet theft of your attention
-1:44 1. The Noonday Demon (why your mind bargains)
-3:56 2. One Arrow (one objective rules the day)
-5:46 3. The Cell (remove before you push harder)
-7:44 4. The Bell (win one fixed hour)
-9:19 5. The Kitchen (stay after the excitement goes)
-11:00 6. The Weather (feelings pass, the work stays)
-12:20 7. The Return (the whole method is coming back)
+0:00 The parked car
+2:00 1. The Most Ordinary Life (Tolstoy)
+3:56 2. The World's Opinion (Emerson)
+6:05 3. Whose Voice?
+7:05 4. The Regrets That Last
+8:52 5. Live Deliberately (Thoreau)
+10:53 6. Several More Lives
 
 📚 Sources (quoted word for word, via Project Gutenberg)
-• William James, The Principles of Psychology (1890), chapter XI
-• The Dhammapada, verses 33, 80, 81 and 103 (tr. F. Max Müller)
-• Blaise Pascal, Pensées, 139 (tr. W. F. Trotter)
-• The Rule of Saint Benedict, chapter 48 (tr. Leonard J. Doyle)
-• Brother Lawrence, The Practice of the Presence of God (1692)
-• The "noonday demon" and its description follow Evagrius Ponticus (4th century), retold in my own words. "Sit in your cell, and your cell will teach you everything" is a saying of the Desert Fathers, attributed to Abba Moses.
+• Henry David Thoreau, Walden (1854)
+• Leo Tolstoy, The Death of Ivan Ilyitch (1886), translated by Constance Garnett
+• Ralph Waldo Emerson, "Self-Reliance", Essays: First Series (1841)
+• Shai Davidai & Thomas Gilovich, "The Ideal Road Not Taken: The Self-Discrepancies Involved in People's Most Enduring Regrets", Emotion (2018)
 
-🖼 Paintings
-Public domain, from the open-access collection of The Metropolitan Museum of Art: Hugo van der Goes, Petrus Christus, El Greco, Georges de La Tour, Cézanne, Corot, Seurat, Winslow Homer, Hammershøi, Fragonard, Millet, Bierstadt, Sargent, Hobbema and others.
+🖼 Photographs
+Public domain, from the open-access collection of The Metropolitan Museum of Art: Julia Margaret Cameron, Mathew B. Brady, Peter Henry Emerson, Carleton Watkins, Eugène Cuvelier, Gustave Le Gray, Hill & Adamson, William Henry Fox Talbot, Timothy O'Sullivan, John Thomson and others. Thoreau (Benjamin D. Maxham, 1856) and Tolstoy (Sergei Prokudin-Gorsky, 1908) via Wikimedia Commons, public domain.
 
 🎵 Music (CC BY 3.0)
-Erik Satie, Gymnopédies Nos. 1 and 3 and Gnossienne No. 3; Claude Debussy, Arabesque No. 1; performed by Felted Classics, via Jamendo.
+Erik Satie, Gnossienne No. 1 and Gymnopédie No. 2; Claude Debussy, Rêverie; performed by Felted Classics, via Jamendo.
 
 🎙 Narration is AI-generated (Kokoro text-to-speech).
 
-#Focus #DeepWork #Discipline
+#Philosophy #Purpose #Thoreau
 
 ## Tags
-monk focus, how to focus, monk mode, deep work, concentration, attention, discipline, stop procrastinating, distraction, dopamine detox, stoicism, buddhism, dhammapada, rule of saint benedict, brother lawrence, william james, pascal, desert fathers, self improvement, productivity, mental clarity, philosophy, essay film
+not living the life you want, life you want, live deliberately, thoreau, walden, tolstoy, death of ivan ilyich, emerson, self-reliance, regret, midlife crisis, purpose, meaning of life, philosophy, self improvement, quiet desperation, finding yourself, motivation, wisdom, essay film

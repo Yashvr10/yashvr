@@ -1,0 +1,102 @@
+[
+{
+"word": "But",
+"start": 0.0,
+"end": 0.12
+},
+{
+"word": "nobody",
+"start": 0.12,
+"end": 0.5
+},
+{
+"word": "lives",
+"start": 0.5,
+"end": 1.0
+},
+{
+"word": "on",
+"start": 1.0,
+"end": 1.24
+},
+{
+"word": "a",
+"start": 1.24,
+"end": 1.36
+},
+{
+"word": "beach.",
+"start": 1.36,
+"end": 1.72
+},
+{
+"word": "Life",
+"start": 2.48,
+"end": 2.64
+},
+{
+"word": "happens",
+"start": 2.64,
+"end": 3.04
+},
+{
+"word": "on",
+"start": 3.04,
+"end": 3.36
+},
+{
+"word": "Wednesdays,",
+"start": 3.36,
+"end": 4.04
+},
+{
+"word": "in",
+"start": 4.04,
+"end": 4.62
+},
+{
+"word": "parked",
+"start": 4.62,
+"end": 4.96
+},
+{
+"word": "cars,",
+"start": 4.96,
+"end": 5.54
+},
+{
+"word": "in",
+"start": 5.54,
+"end": 6.12
+},
+{
+"word": "the",
+"start": 6.12,
+"end": 6.24
+},
+{
+"word": "hours",
+"start": 6.24,
+"end": 6.6
+},
+{
+"word": "between",
+"start": 6.6,
+"end": 7.0
+},
+{
+"word": "work",
+"start": 7.0,
+"end": 7.42
+},
+{
+"word": "and",
+"start": 7.42,
+"end": 7.7
+},
+{
+"word": "sleep.",
+"start": 7.7,
+"end": 8.08
+}
+]

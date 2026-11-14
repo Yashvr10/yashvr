@@ -1,0 +1,72 @@
+[
+{
+"word": "You",
+"start": 0.0,
+"end": 0.18
+},
+{
+"word": "sit",
+"start": 0.18,
+"end": 0.42
+},
+{
+"word": "there",
+"start": 0.42,
+"end": 0.68
+},
+{
+"word": "for",
+"start": 0.68,
+"end": 0.84
+},
+{
+"word": "five",
+"start": 0.84,
+"end": 1.2
+},
+{
+"word": "more",
+"start": 1.2,
+"end": 1.52
+},
+{
+"word": "minutes,",
+"start": 1.52,
+"end": 1.96
+},
+{
+"word": "with",
+"start": 1.96,
+"end": 2.48
+},
+{
+"word": "the",
+"start": 2.48,
+"end": 2.62
+},
+{
+"word": "radio",
+"start": 2.62,
+"end": 3.02
+},
+{
+"word": "off,",
+"start": 3.02,
+"end": 3.48
+},
+{
+"word": "staring",
+"start": 3.86,
+"end": 4.2
+},
+{
+"word": "at",
+"start": 4.2,
+"end": 4.48
+},
+{
+"word": "nothing.",
+"start": 4.48,
+"end": 4.78
+}
+]

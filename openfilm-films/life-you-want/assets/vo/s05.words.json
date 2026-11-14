@@ -1,0 +1,132 @@
+[
+{
+"word": "Nothing",
+"start": 0.0,
+"end": 0.34
+},
+{
+"word": "is",
+"start": 0.34,
+"end": 0.64
+},
+{
+"word": "wrong,",
+"start": 0.64,
+"end": 1.04
+},
+{
+"word": "exactly.",
+"start": 1.04,
+"end": 1.68
+},
+{
+"word": "There",
+"start": 2.54,
+"end": 2.6
+},
+{
+"word": "is",
+"start": 2.6,
+"end": 2.74
+},
+{
+"word": "a",
+"start": 2.74,
+"end": 2.98
+},
+{
+"word": "job,",
+"start": 2.98,
+"end": 3.28
+},
+{
+"word": "a",
+"start": 3.64,
+"end": 3.66
+},
+{
+"word": "house,",
+"start": 3.66,
+"end": 4.08
+},
+{
+"word": "people",
+"start": 4.48,
+"end": 4.7
+},
+{
+"word": "who",
+"start": 4.7,
+"end": 4.86
+},
+{
+"word": "are",
+"start": 4.86,
+"end": 4.96
+},
+{
+"word": "glad",
+"start": 4.96,
+"end": 5.22
+},
+{
+"word": "to",
+"start": 5.22,
+"end": 5.48
+},
+{
+"word": "see",
+"start": 5.48,
+"end": 5.72
+},
+{
+"word": "you.",
+"start": 5.72,
+"end": 6.02
+},
+{
+"word": "If",
+"start": 6.52,
+"end": 6.62
+},
+{
+"word": "someone",
+"start": 6.62,
+"end": 6.96
+},
+{
+"word": "asked,",
+"start": 6.96,
+"end": 7.4
+},
+{
+"word": "you",
+"start": 7.7,
+"end": 7.86
+},
+{
+"word": "would",
+"start": 7.86,
+"end": 7.98
+},
+{
+"word": "say",
+"start": 7.98,
+"end": 8.26
+},
+{
+"word": "things",
+"start": 8.26,
+"end": 8.58
+},
+{
+"word": "are",
+"start": 8.58,
+"end": 8.84
+},
+{
+"word": "good.",
+"start": 8.84,
+"end": 9.08
+}
+]

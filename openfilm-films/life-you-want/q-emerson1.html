@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=1920, height=1080">
+<link rel="stylesheet" href="lib/fw.css">
+<script src="lib/gsap.min.js"></script>
+
+<title>SELF-RELIANCE</title>
+<style>
+  body { background: #0b0a08; }
+  #page { position: absolute; left: 430px; top: 70px; width: 1060px; height: 940px; background: #e8dfc9; transform-origin: 50% 50%;
+          box-shadow: 0 40px 120px rgba(0,0,0,.7); overflow: hidden; }
+  #paper { position: absolute; inset: 0; width: 100%; height: 100%; opacity: .5; mix-blend-mode: multiply; }
+  #head { position: absolute; left: 90px; right: 90px; top: 58px; display: flex; justify-content: space-between; color: #4a4134; font-size: 21px; }
+  #body { position: absolute; left: 90px; right: 90px; top: 120px; bottom: 70px; overflow: hidden; color: #2a241c; font-size: 33px; line-height: 1.5;
+          text-align: justify; hyphens: auto; -webkit-mask-image: linear-gradient(transparent 0, #000 9%, #000 88%, transparent 100%); }
+  .w { background-image: linear-gradient(rgba(214,178,92,.55), rgba(214,178,92,.55)); background-repeat: no-repeat; background-size: 0% 100%;
+       background-position: 0 60%; padding: 0 2px; margin: 0 -2px; }
+  #cite { position: absolute; left: 0; right: 0; bottom: 18px; text-align: center; color: #8d8473; font-size: 22px; font-style: italic; opacity: 0; }
+</style>
+</head>
+<body>
+<div id="page"><canvas id="paper" width="530" height="470"></canvas>
+  <div id="head" class="caps"><span>SELF-RELIANCE</span><span></span></div>
+  <div id="body" class="book"><div id="inner">testimony. What I must do is all that concerns me, not what the people think. This rule, equally arduous in actual and in intellectual life, may serve for the whole distinction between greatness and meanness. It is the harder because you will always find those who think they know what is your duty better than you know it. <span class="w r0">It</span> <span class="w r0">is</span> <span class="w r0">easy</span> <span class="w r0">in</span> <span class="w r0">the</span> <span class="w r0">world</span> <span class="w r0">to</span> <span class="w r0">live</span> <span class="w r0">after</span> <span class="w r0">the</span> <span class="w r0">world’s</span> <span class="w r0">opinion;</span> <span class="w r1">it</span> <span class="w r1">is</span> <span class="w r1">easy</span> <span class="w r1">in</span> <span class="w r1">solitude</span> <span class="w r1">to</span> <span class="w r1">live</span> <span class="w r1">after</span> <span class="w r1">our</span> <span class="w r1">own;</span> <span class="w r2">but</span> <span class="w r2">the</span> <span class="w r2">great</span> <span class="w r2">man</span> <span class="w r2">is</span> <span class="w r2">he</span> <span class="w r2">who</span> <span class="w r2">in</span> <span class="w r2">the</span> <span class="w r2">midst</span> <span class="w r2">of</span> <span class="w r2">the</span> <span class="w r2">crowd</span> <span class="w r2">keeps</span> <span class="w r2">with</span> <span class="w r2">perfect</span> <span class="w r2">sweetness</span> <span class="w r2">the</span> <span class="w r2">independence</span> <span class="w r2">of</span> <span class="w r2">solitude.</span> The objection to conforming to usages that have become dead to you is that it scatters your force. It loses your time and blurs the impression of your character. If you maintain a dead church, contribute to a dead Bible-society, vote with a great party</div></div>
+</div>
+<div id="cite" class="corm">Ralph Waldo Emerson, “Self-Reliance”, Essays: First Series (1841)</div>
+<script type="module">
+import { play, hash } from "./lib/fw.js";
+// paper: seeded mottling, drawn once
+const c = document.getElementById("paper"), x = c.getContext("2d"), img = x.createImageData(530, 470);
+for (let i = 0; i < 530 * 470; i++) { const v = 200 + hash(i, 3) * 55 - hash(Math.floor(i / 9), 5) * 18; img.data[i*4] = v; img.data[i*4+1] = v * .97; img.data[i*4+2] = v * .9; img.data[i*4+3] = 255; }
+x.putImageData(img, 0, 0);
+const tl = gsap.timeline({ paused: true });
+const runs = [["r0",0.96,3.4],["r1",5.54,7.22],["r2",8.48,15.68]];   // [class, first spoken second, last spoken second] per highlighted run
+const ready = document.fonts.ready.then(() => {
+  // keep the highlighted lines in view: move the text up so the first highlight sits about a third of the way down
+  const inner = document.getElementById("inner"), first = document.querySelector(".w");
+  inner.style.transform = `translateY(${-Math.max(0, first.offsetTop - 230)}px)`;
+  gsap.set("#page", { rotation: -0.6, scale: 0.97, opacity: 0 });
+  tl.to("#page", { opacity: 1, duration: 0.7, ease: "power2.out" }, 0);
+  tl.to("#page", { scale: 1.04, duration: 18, ease: "none" }, 0);
+  tl.to("#cite", { opacity: 1, duration: 0.8 }, 0.6);
+  // the highlight follows the narrator, word by word, between the run's first and last spoken word
+  runs.forEach(([cls, a, b]) => {
+    const ws = [...document.querySelectorAll("." + cls)], d = Math.max(0.3, b - a) / ws.length;
+    ws.forEach((w, i) => tl.to(w, { backgroundSize: "100% 100%", duration: Math.max(0.12, d), ease: "none" }, Math.max(0.3, a + i * d)));
+  });
+  tl.to({}, { duration: 18 }, 0);
+});
+play(tl, { ready });
+</script>
+</body>
+</html>
