@@ -1,0 +1,132 @@
+[
+{
+"word": "You",
+"start": 0.0,
+"end": 0.12
+},
+{
+"word": "don't",
+"start": 0.12,
+"end": 0.4
+},
+{
+"word": "plan",
+"start": 0.4,
+"end": 0.62
+},
+{
+"word": "from",
+"start": 0.62,
+"end": 0.88
+},
+{
+"word": "the",
+"start": 0.88,
+"end": 1.02
+},
+{
+"word": "weak",
+"start": 1.02,
+"end": 1.24
+},
+{
+"word": "points",
+"start": 1.24,
+"end": 1.66
+},
+{
+"word": "your",
+"start": 1.66,
+"end": 1.9
+},
+{
+"word": "life",
+"start": 1.9,
+"end": 2.26
+},
+{
+"word": "keeps",
+"start": 2.26,
+"end": 2.58
+},
+{
+"word": "showing",
+"start": 2.58,
+"end": 2.98
+},
+{
+"word": "you.",
+"start": 2.98,
+"end": 3.42
+},
+{
+"word": "You",
+"start": 3.82,
+"end": 4.04
+},
+{
+"word": "plan",
+"start": 4.04,
+"end": 4.32
+},
+{
+"word": "from",
+"start": 4.32,
+"end": 4.58
+},
+{
+"word": "the",
+"start": 4.58,
+"end": 4.74
+},
+{
+"word": "version",
+"start": 4.74,
+"end": 5.1
+},
+{
+"word": "of",
+"start": 5.1,
+"end": 5.32
+},
+{
+"word": "yourself",
+"start": 5.32,
+"end": 5.82
+},
+{
+"word": "you",
+"start": 5.82,
+"end": 6.52
+},
+{
+"word": "wish",
+"start": 6.52,
+"end": 6.76
+},
+{
+"word": "those",
+"start": 6.76,
+"end": 7.08
+},
+{
+"word": "weak",
+"start": 7.08,
+"end": 7.38
+},
+{
+"word": "points",
+"start": 7.38,
+"end": 7.88
+},
+{
+"word": "didn't",
+"start": 7.88,
+"end": 8.44
+},
+{
+"word": "reveal.",
+"start": 8.44,
+"end": 8.76
+}
+]

@@ -1,0 +1,18 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><meta name="viewport" content="width=1920, height=1080">
+<link rel="stylesheet" href="lib/fw.css">
+<title>Thumbnail</title>
+<style>
+  body { background: #0b0a09; }
+  #img { position: absolute; top: 0; bottom: 0; left: -40px; width: 1180px; background: url("assets/photos/thinker.jpg") 45% 30% / 120% auto no-repeat;
+         filter: saturate(.9) contrast(1.15) brightness(.95); }
+  #vig { position: absolute; inset: 0; background: linear-gradient(90deg, transparent 30%, rgba(11,10,9,.7) 48%, #0b0a09 58%); }
+  #t { position: absolute; left: 1010px; top: 240px; line-height: .86; }
+  #a { font-size: 230px; }
+  #b { font-size: 92px; margin-top: 30px; }
+  #b .scr { font-size: 2.2em; }
+</style></head>
+<body><div id="img"></div><div id="vig"></div>
+<div id="t" class="kin"><div id="a">rise</div><div id="b">above the<br><span class="scr">ordinary</span></div></div>
+<script>window.film = { frame() {}, ready: document.fonts.ready };</script>
+</body></html>

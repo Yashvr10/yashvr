@@ -1,0 +1,61 @@
+{{head}}
+<title>Captions</title>
+<style>
+  body { background: transparent; }
+  .blk { position: absolute; display: none; line-height: .86; white-space: nowrap; }
+  .blk .ln { display: block; }
+  .w { visibility: hidden; display: inline-block; margin-right: .2em; font-size: 104px; }
+  .w.sm { font-size: 54px; letter-spacing: -.03em; }
+  .w.big { font-size: 178px; }
+  .blk .w.scr { font-size: 228px; }
+  .w.n { font-size: 80px; }
+  .w.k { font-size: 132px; }
+  .blk .w.scr.a { font-size: 176px; }
+  .behind { position: absolute; display: none; transform: translateX(-50%); line-height: normal; white-space: nowrap; }
+  .sub { position: absolute; left: 0; right: 0; top: 640px; text-align: center; display: none; }
+  .sub .w { font-size: 50px; font-weight: 800; letter-spacing: -.03em; margin-right: .22em; text-transform: none; }
+  .cite { position: absolute; left: 0; right: 0; bottom: 70px; text-align: center; display: none; font-family: "IT", sans-serif; font-weight: 600;
+          font-size: 24px; color: rgba(255,255,255,.75); text-shadow: 0 2px 10px rgba(0,0,0,.8); }
+  .dim { position: absolute; inset: 0; display: none; background: linear-gradient(180deg, rgba(0,0,0,.25), rgba(0,0,0,.5)); }
+</style>
+</head>
+<body>
+<script>
+const D = {{data}};
+const POS = { l: "left:130px;top:50%;transform:translateY(-50%)", r: "right:130px;top:50%;transform:translateY(-50%)",
+  tl: "left:130px;top:120px", tr: "right:130px;top:120px", bl: "left:130px;bottom:130px", br: "right:130px;bottom:130px",
+  c: "left:50%;top:50%;transform:translate(-50%,-50%)" };
+const IND = [0, 52, 20, 64];
+const els = D.map((b) => {
+  const out = { b, words: [] };
+  if (b.kind === "behind") {
+    const e = document.createElement("div"); e.className = "behind kin"; e.textContent = b.word;
+    e.style.cssText = `left:${b.x}px;top:${b.y}px;font-size:${b.size}px`; document.body.append(e); out.el = e; return out;
+  }
+  if (b.kind === "dim" || b.kind === "cite") {
+    const e = document.createElement("div"); e.className = b.kind; if (b.text) e.textContent = b.text; document.body.append(e); out.el = e; return out;
+  }
+  const e = document.createElement("div");
+  e.className = (b.kind === "sub" ? "sub" : "blk") + " kin";
+  if (b.kind !== "sub") e.style.cssText = POS[b.pos] || POS.l;
+  b.lines.forEach((ln, i) => {
+    const l = document.createElement("span"); l.className = "ln"; if (b.kind !== "sub") l.style.marginLeft = IND[i % 4] + "px";
+    for (const w of ln) {
+      const s = document.createElement("span"); s.className = "w" + (w.c ? " " + w.c : ""); s.textContent = w.x; l.append(s); out.words.push([s, w.t]);
+    }
+    e.append(l);
+  });
+  document.body.append(e); out.el = e; return out;
+});
+window.film = {
+  ready: document.fonts.ready,
+  frame(t) {
+    for (const o of els) {
+      const on = t >= o.b.at && t < o.b.end;
+      o.el.style.display = on ? "block" : "none";
+      if (on) for (const [s, wt] of o.words) s.style.visibility = t >= wt ? "visible" : "hidden";
+    }
+  },
+};
+</script>
+</body></html>

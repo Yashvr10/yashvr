@@ -1,0 +1,82 @@
+[
+{
+"word": "Your",
+"start": 0.0,
+"end": 0.2
+},
+{
+"word": "current",
+"start": 0.2,
+"end": 0.54
+},
+{
+"word": "level",
+"start": 0.54,
+"end": 0.92
+},
+{
+"word": "isn't",
+"start": 0.92,
+"end": 1.54
+},
+{
+"word": "where",
+"start": 1.54,
+"end": 1.72
+},
+{
+"word": "you're",
+"start": 1.72,
+"end": 2.02
+},
+{
+"word": "meant",
+"start": 2.02,
+"end": 2.12
+},
+{
+"word": "to",
+"start": 2.12,
+"end": 2.36
+},
+{
+"word": "stay.",
+"start": 2.36,
+"end": 2.74
+},
+{
+"word": "It's",
+"start": 3.3,
+"end": 3.48
+},
+{
+"word": "where",
+"start": 3.48,
+"end": 3.68
+},
+{
+"word": "the",
+"start": 3.68,
+"end": 3.88
+},
+{
+"word": "rise",
+"start": 3.88,
+"end": 4.28
+},
+{
+"word": "has",
+"start": 4.28,
+"end": 4.64
+},
+{
+"word": "to",
+"start": 4.64,
+"end": 4.82
+},
+{
+"word": "begin.",
+"start": 4.82,
+"end": 5.14
+}
+]

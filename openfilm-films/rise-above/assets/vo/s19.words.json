@@ -1,0 +1,62 @@
+[
+{
+"word": "That",
+"start": 0.0,
+"end": 0.22
+},
+{
+"word": "question",
+"start": 0.22,
+"end": 0.64
+},
+{
+"word": "has",
+"start": 0.64,
+"end": 0.96
+},
+{
+"word": "less",
+"start": 0.96,
+"end": 1.24
+},
+{
+"word": "drama",
+"start": 1.24,
+"end": 1.76
+},
+{
+"word": "in",
+"start": 1.76,
+"end": 2.0
+},
+{
+"word": "it.",
+"start": 2.0,
+"end": 2.42
+},
+{
+"word": "But",
+"start": 2.54,
+"end": 2.74
+},
+{
+"word": "it",
+"start": 2.74,
+"end": 2.84
+},
+{
+"word": "has",
+"start": 2.84,
+"end": 3.0
+},
+{
+"word": "more",
+"start": 3.0,
+"end": 3.26
+},
+{
+"word": "power.",
+"start": 3.26,
+"end": 3.68
+}
+]

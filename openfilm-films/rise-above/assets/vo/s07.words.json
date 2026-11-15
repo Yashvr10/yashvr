@@ -1,0 +1,62 @@
+[
+{
+"word": "It",
+"start": 0.0,
+"end": 0.14
+},
+{
+"word": "has",
+"start": 0.14,
+"end": 0.3
+},
+{
+"word": "to",
+"start": 0.3,
+"end": 0.48
+},
+{
+"word": "be",
+"start": 0.48,
+"end": 0.66
+},
+{
+"word": "built",
+"start": 0.66,
+"end": 0.92
+},
+{
+"word": "around",
+"start": 0.92,
+"end": 1.32
+},
+{
+"word": "the",
+"start": 1.32,
+"end": 1.52
+},
+{
+"word": "man",
+"start": 1.52,
+"end": 1.8
+},
+{
+"word": "who",
+"start": 1.8,
+"end": 2.34
+},
+{
+"word": "is",
+"start": 2.34,
+"end": 2.5
+},
+{
+"word": "actually",
+"start": 2.5,
+"end": 2.94
+},
+{
+"word": "here.",
+"start": 2.94,
+"end": 3.38
+}
+]

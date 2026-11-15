@@ -1,0 +1,43 @@
+[
+ {
+  "key": "swish",
+  "file": "swish.mp3",
+  "title": "earshot sound bank: whoosh_fast/tight",
+  "license": "MIT (earshot, rendered from code)",
+  "source": "https://github.com/Leonxlnx/earshot"
+ },
+ {
+  "key": "thump",
+  "file": "thump.mp3",
+  "title": "earshot sound bank: pro_impact/short",
+  "license": "MIT (earshot, rendered from code)",
+  "source": "https://github.com/Leonxlnx/earshot"
+ },
+ {
+  "key": "tick",
+  "file": "tick.mp3",
+  "title": "earshot sound bank: pro_click/soft",
+  "license": "MIT (earshot, rendered from code)",
+  "source": "https://github.com/Leonxlnx/earshot"
+ },
+ {
+  "key": "swell",
+  "file": "swell.mp3",
+  "title": "earshot sound bank: whoosh_big/swell",
+  "license": "MIT (earshot, rendered from code)",
+  "source": "https://github.com/Leonxlnx/earshot"
+ },
+ {
+  "key": "kick",
+  "file": "kick.mp3",
+  "title": "earshot sound bank: cut_hit/kick",
+  "license": "MIT (earshot, rendered from code)",
+  "source": "https://github.com/Leonxlnx/earshot"
+ },
+ {
+  "key": "distant-church-bell-toll-f328e5",
+  "file": "distant-church-bell-toll-f328e5.mp3",
+  "title": "Distant church bell toll",
+  "license": "CC0 (Freesound)"
+ }
+]

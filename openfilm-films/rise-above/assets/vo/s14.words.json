@@ -1,0 +1,157 @@
+[
+{
+"word": "You",
+"start": 0.0,
+"end": 0.14
+},
+{
+"word": "assume",
+"start": 0.14,
+"end": 0.46
+},
+{
+"word": "you'll",
+"start": 0.46,
+"end": 0.72
+},
+{
+"word": "train",
+"start": 0.72,
+"end": 1.04
+},
+{
+"word": "five",
+"start": 1.04,
+"end": 1.52
+},
+{
+"word": "days",
+"start": 1.52,
+"end": 1.88
+},
+{
+"word": "a",
+"start": 1.88,
+"end": 2.08
+},
+{
+"word": "week",
+"start": 2.08,
+"end": 2.38
+},
+{
+"word": "because",
+"start": 2.38,
+"end": 3.02
+},
+{
+"word": "that's",
+"start": 3.02,
+"end": 3.42
+},
+{
+"word": "what",
+"start": 3.42,
+"end": 3.58
+},
+{
+"word": "the",
+"start": 3.58,
+"end": 3.74
+},
+{
+"word": "version",
+"start": 3.74,
+"end": 4.14
+},
+{
+"word": "in",
+"start": 4.14,
+"end": 4.36
+},
+{
+"word": "your",
+"start": 4.36,
+"end": 4.58
+},
+{
+"word": "head",
+"start": 4.58,
+"end": 4.8
+},
+{
+"word": "would",
+"start": 4.8,
+"end": 5.02
+},
+{
+"word": "do.",
+"start": 5.02,
+"end": 5.42
+},
+{
+"word": "You",
+"start": 6.14,
+"end": 6.24
+},
+{
+"word": "assume",
+"start": 6.24,
+"end": 6.62
+},
+{
+"word": "next",
+"start": 6.62,
+"end": 6.92
+},
+{
+"word": "week",
+"start": 6.92,
+"end": 7.28
+},
+{
+"word": "will",
+"start": 7.28,
+"end": 7.7
+},
+{
+"word": "be",
+"start": 7.7,
+"end": 7.88
+},
+{
+"word": "different",
+"start": 7.88,
+"end": 8.28
+},
+{
+"word": "without",
+"start": 8.28,
+"end": 8.9
+},
+{
+"word": "asking",
+"start": 8.9,
+"end": 9.46
+},
+{
+"word": "why",
+"start": 9.46,
+"end": 9.82
+},
+{
+"word": "this",
+"start": 9.82,
+"end": 10.04
+},
+{
+"word": "week",
+"start": 10.04,
+"end": 10.34
+},
+{
+"word": "wasn't.",
+"start": 10.34,
+"end": 10.9
+}
+]

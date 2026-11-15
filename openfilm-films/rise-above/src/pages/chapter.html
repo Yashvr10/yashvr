@@ -1,0 +1,22 @@
+{{head}}
+<title>Chapter</title>
+<style>
+  body { background: #000; }
+  #wrap { position: absolute; left: 0; right: 0; top: 400px; text-align: center; }
+  #num { font-size: 44px; opacity: 0; letter-spacing: -.02em; color: rgba(255,255,255,.7); text-shadow: none; }
+  #name { font-size: 130px; opacity: 0; margin-top: 18px; line-height: 1; }
+</style>
+</head>
+<body>
+<div id="wrap" class="kin"><div id="num">{{num}}</div><div id="name">{{title}}</div></div>
+<script type="module">
+import { play } from "./lib/fw.js";
+const tl = gsap.timeline({ paused: true });
+tl.set("#num", { opacity: 1 }, 0.2);
+tl.set("#name", { opacity: 1 }, 0.55);
+tl.to("#wrap", { opacity: 0, duration: 0.3 }, {{len}} - 0.4);
+tl.to({}, { duration: {{len}} }, 0);
+play(tl, { duration: {{len}} });
+</script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=1920, height=1080">
+<link rel="stylesheet" href="lib/fw.css">
+<script src="lib/gsap.min.js"></script>
+
+<title>Grain</title>
+<style>
+  /* From the HyperFrames registry component grain-overlay. Its CSS keyframe loop is replaced by a jump chosen from t
+     (12 a second), so a frame is the same however it is reached; plus a vignette and a faint projector flicker. */
+  #grain { position: absolute; top: -50%; left: -50%; width: 200%; height: 200%; opacity: .22; background-size: 384px 384px; }
+  #vig { position: absolute; inset: 0; background: radial-gradient(ellipse 75% 70% at 50% 50%, transparent 55%, rgba(0,0,0,.55) 100%); }
+  #flick { position: absolute; inset: 0; background: #000; opacity: 0; }
+</style>
+</head>
+<body>
+<div id="grain"></div><div id="vig"></div><div id="flick"></div>
+<script type="module">
+import { hash } from "./lib/fw.js";
+// One noise tile, made once from a seeded hash: light and dark specks at partial alpha (a page cannot blend).
+const c = document.createElement("canvas"); c.width = c.height = 384;
+const x = c.getContext("2d"), img = x.createImageData(384, 384);
+for (let i = 0; i < 384 * 384; i++) {
+  const v = hash(i, 7), on = hash(i, 11) < 0.5;
+  img.data[i * 4] = img.data[i * 4 + 1] = img.data[i * 4 + 2] = on ? 255 : 0;
+  img.data[i * 4 + 3] = Math.max(0, (v - 0.35)) * 130;
+}
+x.putImageData(img, 0, 0);
+const grain = document.getElementById("grain"), flick = document.getElementById("flick");
+grain.style.backgroundImage = `url(${c.toDataURL()})`;
+window.film = {
+  frame(t) {
+    const step = Math.floor(t * 12);
+    grain.style.transform = `translate(${(hash(step, 3) * 30 - 15).toFixed(2)}%, ${(hash(step, 5) * 30 - 15).toFixed(2)}%)`;
+    flick.style.opacity = (hash(Math.floor(t * 24), 9) * 0.035).toFixed(3);
+  },
+};
+</script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=1920, height=1080">
+<link rel="stylesheet" href="lib/fw.css">
+<script src="lib/gsap.min.js"></script>
+
+<title>Title</title>
+<style>
+  body { background: #000; }
+  #wrap { position: absolute; left: 0; right: 0; top: 170px; text-align: center; }
+  .r { font-size: 190px; line-height: .9; opacity: 0; }
+  #r1 { opacity: 0; color: rgba(255,255,255,.45); } #r2 { color: rgba(255,255,255,.7); }
+  #b { font-size: 104px; opacity: 0; margin-top: 24px; }
+</style>
+</head>
+<body>
+<div id="wrap" class="kin"><div class="r" id="r1">rise</div><div class="r" id="r2">rise</div><div class="r" id="r3">rise</div><div id="b">above the <span class="scr">ordinary</span></div></div>
+<script type="module">
+import { play } from "./lib/fw.js";
+const tl = gsap.timeline({ paused: true });
+// each "rise" lands on its hit (kick at 0.5, 1.4, 2.3 s): a hard pop, a small settle
+[["#r1", 0.5], ["#r2", 1.4], ["#r3", 2.3]].forEach(([el, t]) => {
+  tl.fromTo(el, { opacity: 0, scale: 1.18, y: 14 }, { opacity: 1, scale: 1, y: 0, duration: 0.22, ease: "power3.out" }, t);
+});
+tl.fromTo("#b", { opacity: 0, y: 16 }, { opacity: 1, y: 0, duration: 0.6, ease: "power2.out" }, 2.9);
+tl.to("#wrap", { opacity: 0, duration: 0.5, ease: "power2.in" }, 6.5 - 0.6);
+tl.to({}, { duration: 6.5 }, 0);
+play(tl, { duration: 6.5 });
+</script>
+</body>
+</html>

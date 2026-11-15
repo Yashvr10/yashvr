@@ -1,0 +1,516 @@
+{
+ "voice": "bm_george",
+ "speed": 0.88,
+ "gap": 0.55,
+ "scenes": [
+  {
+   "id": "title",
+   "card": "title",
+   "len": 6.5
+  },
+  {
+   "id": "s01",
+   "text": "You don't need a bigger plan. You need an honest one.",
+   "visuals": [
+    {
+     "photo": "thinker",
+     "kb": "in",
+     "focus": "50% 30%",
+     "pos": "tl",
+     "behind": "honest"
+    }
+   ]
+  },
+  {
+   "id": "s02",
+   "text": "The kind your pride rejects. And your real life keeps asking for.",
+   "visuals": [
+    {
+     "photo": "portrait-armour",
+     "kb": "in",
+     "focus": "50% 20%",
+     "pos": "tl",
+     "behind": "pride"
+    }
+   ]
+  },
+  {
+   "id": "s03",
+   "text": "Your current level feels like an insult.",
+   "visuals": [
+    {
+     "photo": "self-portrait-dark",
+     "kb": "in",
+     "focus": "50% 30%",
+     "pos": "tr",
+     "stack": "an ~insult~"
+    }
+   ]
+  },
+  {
+   "id": "s04",
+   "text": "Like a man with your standards shouldn't still be dealing with basic reps, simple routines, ugly rebuilds, small promises, and the embarrassing proof that you're not yet the man you keep trying to convince yourself you are.",
+   "visuals": [
+    {
+     "photo": "training-quarters",
+     "kb": "in",
+     "focus": "50% 40%",
+     "pos": "tl"
+    },
+    {
+     "photo": "blacksmith",
+     "kb": "in",
+     "focus": "50% 50%",
+     "pos": "tl",
+     "cut": "ugly"
+    },
+    {
+     "photo": "tired-gleaner",
+     "kb": "in",
+     "focus": "50% 40%",
+     "pos": "tl",
+     "cut": "embarrassing"
+    }
+   ]
+  },
+  {
+   "id": "s05",
+   "text": "That makes the facts harder to face. Not because they're complicated. But because they point to the kind of plan your pride doesn't want to accept.",
+   "visuals": [
+    {
+     "photo": "marble-head",
+     "kb": "in",
+     "focus": "50% 30%",
+     "pos": "tl",
+     "stack": "harder / to ~face~"
+    }
+   ]
+  },
+  {
+   "id": "s06",
+   "text": "Once the facts are in front of you, the plan has to become less flattering. It can't be built around the version of you who always sleeps well, stays focused, trains without bargaining, and keeps the promise after the emotion is gone.",
+   "visuals": [
+    {
+     "photo": "rosati",
+     "kb": "in",
+     "focus": "50% 30%",
+     "pos": "tr"
+    },
+    {
+     "photo": "stag-sharkeys",
+     "kb": "in",
+     "focus": "50% 40%",
+     "pos": "tl",
+     "cut": "trains"
+    }
+   ]
+  },
+  {
+   "id": "s07",
+   "text": "It has to be built around the man who is actually here.",
+   "visuals": [
+    {
+     "photo": "workman",
+     "kb": "in",
+     "focus": "50% 30%",
+     "pos": "tl",
+     "behind": "here"
+    }
+   ]
+  },
+  {
+   "id": "s08",
+   "text": "The one with your current body. Your current focus. Your current money. Your current routine. Your current level of self-trust.",
+   "visuals": [
+    {
+     "photo": "athlete-statue",
+     "kb": "in",
+     "focus": "50% 8%",
+     "pos": "tl"
+    },
+    {
+     "photo": "labourers",
+     "kb": "in",
+     "focus": "50% 50%",
+     "pos": "tl",
+     "cut": "money"
+    }
+   ]
+  },
+  {
+   "id": "s09",
+   "text": "That's the level you keep resenting.",
+   "visuals": [
+    {
+     "photo": "self-portrait-hat",
+     "kb": "in",
+     "focus": "50% 30%",
+     "pos": "tr",
+     "stack": "keep / ~resenting~"
+    }
+   ]
+  },
+  {
+   "id": "s10",
+   "text": "And until you can look at this level honestly, you'll keep building plans that collapse the moment real life touches them.",
+   "visuals": [
+    {
+     "photo": "storm-wight",
+     "kb": "in",
+     "focus": "50% 50%",
+     "pos": "tl",
+     "stack": "plans that / ^collapse^"
+    }
+   ]
+  },
+  {
+   "id": "ch1",
+   "card": "chapter",
+   "num": "one",
+   "title": "where the plan starts ~lying~",
+   "len": 4.0
+  },
+  {
+   "id": "s11",
+   "text": "The plan usually doesn't fall apart because you had no ambition. It falls apart because it quietly rounded you up.",
+   "visuals": [
+    {
+     "photo": "capitol-stairs",
+     "kb": "in",
+     "focus": "50% 50%",
+     "pos": "tl"
+    }
+   ]
+  },
+  {
+   "id": "s12",
+   "text": "Not by much. Just enough to make the week look easier than it is.",
+   "visuals": [
+    {
+     "photo": "tokyo-rain",
+     "kb": "in",
+     "focus": "50% 45%",
+     "pos": "tl"
+    }
+   ]
+  },
+  {
+   "id": "s13",
+   "text": "You assume you'll wake up early because you feel serious right now. You assume you'll stay focused for hours because the plan looks good in your notes.",
+   "visuals": [
+    {
+     "photo": "winter-sunrise",
+     "kb": "in",
+     "focus": "50% 50%",
+     "pos": "tl"
+    },
+    {
+     "photo": "self-portrait-print",
+     "kb": "in",
+     "focus": "50% 30%",
+     "pos": "tl",
+     "cut": "stay"
+    }
+   ]
+  },
+  {
+   "id": "s14",
+   "text": "You assume you'll train five days a week because that's what the version in your head would do. You assume next week will be different without asking why this week wasn't.",
+   "visuals": [
+    {
+     "photo": "wrestlers-circus",
+     "kb": "in",
+     "focus": "50% 50%",
+     "pos": "tl"
+    },
+    {
+     "photo": "ferry-slip",
+     "kb": "in",
+     "focus": "50% 50%",
+     "pos": "tl",
+     "cut": "next"
+    }
+   ]
+  },
+  {
+   "id": "s15",
+   "text": "That's where the mistake begins. Not with lack of ambition. With inaccurate planning.",
+   "visuals": [
+    {
+     "photo": "portrait-caillebotte",
+     "kb": "in",
+     "focus": "60% 40%",
+     "pos": "tl",
+     "stack": "inaccurate / ^planning^"
+    }
+   ]
+  },
+  {
+   "id": "s16",
+   "text": "You don't plan from the weak points your life keeps showing you. You plan from the version of yourself you wish those weak points didn't reveal.",
+   "visuals": [
+    {
+     "photo": "bronze-bust",
+     "kb": "in",
+     "focus": "50% 35%",
+     "pos": "tl",
+     "stack": "the ~weak~ / ^points^"
+    }
+   ]
+  },
+  {
+   "id": "ch2",
+   "card": "chapter",
+   "num": "two",
+   "title": "build what your life can ~carry~",
+   "len": 4.0
+  },
+  {
+   "id": "s17",
+   "text": "An honest plan usually insults your pride at first. Because it doesn't begin with the man you wish you were. It begins with the man you actually are.",
+   "visuals": [
+    {
+     "photo": "old-pat",
+     "kb": "in",
+     "focus": "50% 25%",
+     "pos": "tl",
+     "stack": "the man / you ~actually~ are"
+    }
+   ]
+  },
+  {
+   "id": "s18",
+   "text": "It doesn't say: This week, I'll fix everything. It asks: What can this version of you repeat long enough to change?",
+   "visuals": [
+    {
+     "photo": "vatican-stairs",
+     "kb": "in",
+     "focus": "50% 50%",
+     "pos": "tl",
+     "stack": "repeat / long enough / to ~change~"
+    }
+   ]
+  },
+  {
+   "id": "s19",
+   "text": "That question has less drama in it. But it has more power.",
+   "visuals": [
+    {
+     "photo": "atlas-hercules",
+     "kb": "in",
+     "focus": "50% 40%",
+     "pos": "tl",
+     "stack": "more ^power^"
+    }
+   ]
+  },
+  {
+   "id": "s20",
+   "text": "Progress gets faster when the plan stops fighting reality. You waste less time collapsing, restarting, punishing yourself, and writing another version of the same fantasy.",
+   "visuals": [
+    {
+     "photo": "hercules-lion",
+     "kb": "in",
+     "focus": "50% 35%",
+     "pos": "tl"
+    },
+    {
+     "photo": "pickle-herring",
+     "kb": "in",
+     "focus": "50% 50%",
+     "pos": "tl",
+     "cut": "writing"
+    }
+   ]
+  },
+  {
+   "id": "s21",
+   "text": "You get a plan that can survive the ordinary week, not just the night you feel inspired.",
+   "visuals": [
+    {
+     "photo": "dawn-hunter",
+     "kb": "in",
+     "focus": "50% 50%",
+     "pos": "tl",
+     "stack": "the ~ordinary~ / week"
+    }
+   ]
+  },
+  {
+   "id": "s22",
+   "text": "Maybe the honest plan starts with protecting one hour instead of redesigning your whole day. Maybe it starts with removing the easiest failure point before adding another standard. Maybe it starts with keeping one promise for two weeks before trusting yourself with a bigger one.",
+   "visuals": [
+    {
+     "photo": "biglin",
+     "kb": "in",
+     "focus": "50% 50%",
+     "pos": "tl"
+    },
+    {
+     "photo": "laborers-group",
+     "kb": "in",
+     "focus": "50% 40%",
+     "pos": "tl",
+     "cut": "removing"
+    },
+    {
+     "photo": "sunrise-clearing",
+     "kb": "in",
+     "focus": "50% 50%",
+     "pos": "tl",
+     "cut": "keeping"
+    }
+   ]
+  },
+  {
+   "id": "s23",
+   "text": "That can feel beneath your ambition. It isn't. It gives your ambition somewhere real to stand.",
+   "visuals": [
+    {
+     "photo": "schroon-mountain",
+     "kb": "in",
+     "focus": "50% 50%",
+     "pos": "tl",
+     "stack": "somewhere ~real~ / to ^stand^"
+    }
+   ]
+  },
+  {
+   "id": "s24",
+   "text": "A plan doesn't change your life because it sounds impressive. It changes your life when it fits your real situation well enough to be repeated until it creates real progress.",
+   "visuals": [
+    {
+     "photo": "road-menders",
+     "kb": "in",
+     "focus": "50% 50%",
+     "pos": "tl"
+    }
+   ]
+  },
+  {
+   "id": "s25",
+   "text": "Build what your real life can carry. Then, when you've gotten stronger from carrying it, make it heavier.",
+   "visuals": [
+    {
+     "photo": "forest-road",
+     "kb": "in",
+     "focus": "50% 50%",
+     "pos": "tl",
+     "stack": "make it / ^heavier^"
+    }
+   ]
+  },
+  {
+   "id": "ch3",
+   "card": "chapter",
+   "num": "three",
+   "title": "rise from ~here~",
+   "len": 4.0
+  },
+  {
+   "id": "s26",
+   "text": "You don't need to be proud of where you are. Not yet.",
+   "visuals": [
+    {
+     "photo": "storm-sea",
+     "kb": "in",
+     "focus": "50% 50%",
+     "pos": "tl",
+     "stack": "not ~yet~"
+    }
+   ]
+  },
+  {
+   "id": "s27",
+   "text": "Some parts of your life may be behind. Some parts may be weaker than you want to admit. Some parts may show years of delay, comfort, avoidance, bad habits, or promises you didn't keep.",
+   "visuals": [
+    {
+     "photo": "ruisdael-hills",
+     "kb": "in",
+     "focus": "50% 50%",
+     "pos": "tl"
+    }
+   ]
+  },
+  {
+   "id": "s28",
+   "text": "Hating where you are can wake you up. But it's not useful when it makes you reject the man in front of you.",
+   "visuals": [
+    {
+     "photo": "old-road-sea",
+     "kb": "in",
+     "focus": "50% 50%",
+     "pos": "tl"
+    }
+   ]
+  },
+  {
+   "id": "s29",
+   "text": "He's not your obstacle. He's the one who has to be trained.",
+   "visuals": [
+    {
+     "photo": "dawn-sunset-photo",
+     "kb": "in",
+     "focus": "50% 50%",
+     "pos": "tl",
+     "stack": "has to be / ^trained^"
+    }
+   ]
+  },
+  {
+   "id": "s30",
+   "text": "You want to become a man you can respect? Good. Then stop making plans for a man who isn't here yet.",
+   "visuals": [
+    {
+     "photo": "mont-maudit",
+     "kb": "in",
+     "focus": "50% 50%",
+     "pos": "tl"
+    }
+   ]
+  },
+  {
+   "id": "s31",
+   "text": "Start with the version of you who actually exists today. Not because this is all you'll ever be. But because this is what you have to work with right now.",
+   "visuals": [
+    {
+     "photo": "tryon-dawn",
+     "kb": "in",
+     "focus": "50% 50%",
+     "pos": "tl"
+    }
+   ]
+  },
+  {
+   "id": "s32",
+   "text": "Your current level isn't where you're meant to stay. It's where the rise has to begin.",
+   "visuals": [
+    {
+     "photo": "inness-sunrise",
+     "kb": "in",
+     "focus": "50% 50%",
+     "pos": "tl",
+     "stack": "where the ^rise^ / has to ~begin~"
+    }
+   ]
+  },
+  {
+   "id": "s33",
+   "text": "Build from there. Carry a standard you can repeat. Let it make you stronger. Then rise from there.",
+   "visuals": [
+    {
+     "photo": "bierstadt-matterhorn",
+     "kb": "up",
+     "focus": "50% 35%",
+     "pos": "tl",
+     "stack": "then ^rise^ / from ~there~"
+    }
+   ]
+  },
+  {
+   "id": "end",
+   "card": "end",
+   "len": 8.0
+  }
+ ]
+}
