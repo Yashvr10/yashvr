@@ -106,7 +106,7 @@ Batch total: 13.5 s unique, about 13 s usable (0.2 min).
 
 ## Batch 06 (2026-11-15)
 
-From three Instagram links. The first post had one video (its other item is an image, which cannot be downloaded); the third post had three videos; the second link (a reel) hit Instagram's anonymous rate limit and is being retried.
+From three Instagram links. The first post had one video (its other item is an image, which cannot be downloaded); the third post had three videos; the second link (a reel) hit Instagram's anonymous rate limit at first and came through on a retry.
 
 | File | Size | Unique footage | Usable on screen | Notes |
 |---|---|---|---|---|
@@ -114,8 +114,9 @@ From three Instagram links. The first post had one video (its other item is an i
 | 53-wolf-chains-fire.mp4 | 1280×1016 | 5.0 s | ~5 s | A wolf in silhouette, breaking chains in front of a fire. Nearly square |
 | 54-horse-rider-fire.mp4 | 1280×1016 | 5.0 s | ~5 s | A rider on a galloping horse, silhouetted against a burning building |
 | 55-eagle-fire-chains.mp4 | 1280×1016 | 3.5 s | ~4 s | An eagle with chains, wings spread through fire |
+| 62-golden-sea-waves.mp4 | 1916×1078 | 20.3 s | ~20 s | Waves at sunset in golden light, slow and continuous (one shot). Full HD |
 
-Batch total: 25.1 s unique, about 26 s usable (0.4 min).
+Batch total: 45.4 s unique, about 46 s usable (0.8 min).
 
 ## Batch 07 (2026-11-15)
 
@@ -141,5 +142,5 @@ Batch total: about 58 s unique and usable (1.0 min).
 | 1–3 | 2.8 min | 14% |
 | 1–4 | 3.9 min | 20% |
 | 1–5 | 4.1 min | 21% |
-| 1–6 | 4.5 min | 23% |
-| 1–7 | 5.5 min | 28% |
+| 1–6 | 4.9 min | 25% |
+| 1–7 | 5.9 min | 30% |
