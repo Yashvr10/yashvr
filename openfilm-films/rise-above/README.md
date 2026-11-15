@@ -18,3 +18,9 @@ Version 2 (after the user's notes):
 - Tall works shown whole over a blurred copy of themselves, so no statue or portrait is cropped.
 - Chapter cards: a Roman numeral, then the title typed letter by letter over keyboard sounds (earshot).
 - All sound effects are rendered once in film.html (the separate "extra" mix is no longer used: it doubled them).
+
+Version 3 (after the user's notes):
+- Every picture cropped to exactly 16:9 (src/crop169.py: the figure is found with Robust Video Matting and the crop keeps the head; four crops set by hand), shown with a gentle push (at most 6%) and no cut to a detail.
+- Every caption in the middle of the frame.
+- Calm solo-piano music: "New Hope Instrumental" (Jim Gaven), then "At The Edge Of Hope" (Hillaby) from chapter III.
+- The redo also lives in invideo (project "Rise Above the Ordinary (redo)"), uploaded and laid on a timeline with free commands only.

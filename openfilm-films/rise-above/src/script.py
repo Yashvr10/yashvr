@@ -11,7 +11,6 @@ def card(i,**k): S.append({"id":i,**k})
 def ph(p,pos="l",kb="in",focus="50% 40%",**k):
     w,h=Image.open(f"assets/photos/{p}.jpg").size
     v={"photo":p,"kb":kb,"focus":focus,"pos":pos,**k}
-    if w/h<1.45: v["fit"]=True          # taller than about 3:2: show it whole
     return v
 
 card("title",card="title",len=5.0)

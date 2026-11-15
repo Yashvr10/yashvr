@@ -18,8 +18,7 @@
      "focus": "50% 40%",
      "pos": "l",
      "emph": "an honest one",
-     "behind": true,
-     "fit": true
+     "behind": true
     }
    ]
   },
@@ -32,8 +31,7 @@
      "kb": "in",
      "focus": "50% 40%",
      "pos": "r",
-     "accent": "pride",
-     "fit": true
+     "accent": "pride"
     }
    ]
   },
@@ -46,8 +44,7 @@
      "kb": "in",
      "focus": "50% 40%",
      "pos": "r",
-     "emph": "an insult",
-     "fit": true
+     "emph": "an insult"
     }
    ]
   },
@@ -61,8 +58,7 @@
      "focus": "50% 40%",
      "pos": "r",
      "emph": "basic reps simple routines",
-     "flash": true,
-     "fit": true
+     "flash": true
     },
     {
      "photo": "blacksmith",
@@ -71,8 +67,7 @@
      "pos": "l",
      "cut": "ugly",
      "emph": "ugly rebuilds small promises",
-     "flash": true,
-     "fit": true
+     "flash": true
     },
     {
      "photo": "tired-gleaner",
@@ -80,8 +75,7 @@
      "focus": "50% 40%",
      "pos": "r",
      "cut": "embarrassing",
-     "accent": "convince",
-     "fit": true
+     "accent": "convince"
     }
    ]
   },
@@ -94,8 +88,7 @@
      "kb": "in",
      "focus": "50% 40%",
      "pos": "l",
-     "accent": "face",
-     "fit": true
+     "accent": "face"
     }
    ]
   },
@@ -108,16 +101,14 @@
      "kb": "in",
      "focus": "50% 40%",
      "pos": "r",
-     "emph": "less flattering",
-     "fit": true
+     "emph": "less flattering"
     },
     {
      "photo": "stag-sharkeys",
      "kb": "in",
      "focus": "50% 40%",
      "pos": "c",
-     "cut": "trains",
-     "fit": true
+     "cut": "trains"
     }
    ]
   },
@@ -131,8 +122,7 @@
      "focus": "50% 40%",
      "pos": "l",
      "emph": "actually here",
-     "behind": true,
-     "fit": true
+     "behind": true
     }
    ]
   },
@@ -146,8 +136,7 @@
      "focus": "50% 40%",
      "pos": "r",
      "emph": "body focus",
-     "flash": true,
-     "fit": true
+     "flash": true
     },
     {
      "photo": "labourers",
@@ -156,8 +145,7 @@
      "pos": "c",
      "cut": "money",
      "emph": "money routine self-trust",
-     "flash": true,
-     "fit": true
+     "flash": true
     }
    ]
   },
@@ -170,8 +158,7 @@
      "kb": "in",
      "focus": "50% 40%",
      "pos": "r",
-     "accent": "resenting",
-     "fit": true
+     "accent": "resenting"
     }
    ]
   },
@@ -184,8 +171,7 @@
      "kb": "in",
      "focus": "50% 40%",
      "pos": "c",
-     "emph": "plans that collapse",
-     "fit": true
+     "emph": "plans that collapse"
     }
    ]
   },
@@ -218,8 +204,7 @@
      "kb": "in",
      "focus": "50% 40%",
      "pos": "r",
-     "accent": "easier",
-     "fit": true
+     "accent": "easier"
     }
    ]
   },
@@ -239,8 +224,7 @@
      "focus": "50% 40%",
      "pos": "r",
      "cut": "stay",
-     "accent": "notes",
-     "fit": true
+     "accent": "notes"
     }
    ]
   },
@@ -252,8 +236,7 @@
      "photo": "wrestlers-circus",
      "kb": "in",
      "focus": "50% 40%",
-     "pos": "c",
-     "fit": true
+     "pos": "c"
     },
     {
      "photo": "ferry-slip",
@@ -274,8 +257,7 @@
      "kb": "in",
      "focus": "50% 40%",
      "pos": "l",
-     "emph": "inaccurate planning",
-     "fit": true
+     "emph": "inaccurate planning"
     }
    ]
   },
@@ -288,8 +270,7 @@
      "kb": "in",
      "focus": "50% 40%",
      "pos": "l",
-     "accent": "wish",
-     "fit": true
+     "accent": "wish"
     }
    ]
   },
@@ -309,8 +290,7 @@
      "kb": "in",
      "focus": "50% 40%",
      "pos": "l",
-     "emph": "the man you actually are",
-     "fit": true
+     "emph": "the man you actually are"
     }
    ]
   },
@@ -323,8 +303,7 @@
      "kb": "in",
      "focus": "50% 40%",
      "pos": "r",
-     "emph": "repeat / long enough to change",
-     "fit": true
+     "emph": "repeat / long enough to change"
     }
    ]
   },
@@ -338,8 +317,7 @@
      "focus": "50% 40%",
      "pos": "l",
      "emph": "more power",
-     "behind": true,
-     "fit": true
+     "behind": true
     }
    ]
   },
@@ -353,8 +331,7 @@
      "focus": "50% 40%",
      "pos": "r",
      "emph": "collapsing restarting punishing",
-     "flash": true,
-     "fit": true
+     "flash": true
     },
     {
      "photo": "pickle-herring",
@@ -375,8 +352,7 @@
      "kb": "in",
      "focus": "50% 40%",
      "pos": "c",
-     "accent": "ordinary",
-     "fit": true
+     "accent": "ordinary"
     }
    ]
   },
@@ -396,8 +372,7 @@
      "kb": "in",
      "focus": "50% 40%",
      "pos": "r",
-     "cut": "removing",
-     "fit": true
+     "cut": "removing"
     },
     {
      "photo": "sunrise-clearing",
@@ -431,8 +406,7 @@
      "kb": "in",
      "focus": "50% 40%",
      "pos": "c",
-     "accent": "progress",
-     "fit": true
+     "accent": "progress"
     }
    ]
   },
@@ -445,8 +419,7 @@
      "kb": "in",
      "focus": "50% 40%",
      "pos": "r",
-     "emph": "make it heavier",
-     "fit": true
+     "emph": "make it heavier"
     }
    ]
   },
@@ -480,8 +453,7 @@
      "focus": "50% 40%",
      "pos": "c",
      "emph": "delay comfort avoidance",
-     "flash": true,
-     "fit": true
+     "flash": true
     }
    ]
   },
@@ -494,8 +466,7 @@
      "kb": "in",
      "focus": "50% 40%",
      "pos": "c",
-     "accent": "reject",
-     "fit": true
+     "accent": "reject"
     }
    ]
   },
@@ -508,8 +479,7 @@
      "kb": "in",
      "focus": "50% 40%",
      "pos": "c",
-     "emph": "not your obstacle / the one who has to be trained",
-     "fit": true
+     "emph": "not your obstacle / the one who has to be trained"
     }
    ]
   },
@@ -548,8 +518,7 @@
      "kb": "in",
      "focus": "50% 40%",
      "pos": "c",
-     "emph": "where the rise / has to begin",
-     "fit": true
+     "emph": "where the rise / has to begin"
     }
    ]
   },
@@ -563,8 +532,7 @@
      "focus": "50% 35%",
      "pos": "c",
      "emph": "rise",
-     "flash": true,
-     "fit": true
+     "flash": true
     }
    ]
   },

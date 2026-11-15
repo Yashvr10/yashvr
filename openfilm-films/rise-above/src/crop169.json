@@ -1,0 +1,548 @@
+{
+ "athlete-statue": {
+  "box": [
+   0,
+   58,
+   1481,
+   891
+  ],
+  "size": [
+   1481,
+   3299
+  ],
+  "why": "figure (35%): head kept"
+ },
+ "atlas-hercules": {
+  "box": [
+   0,
+   238,
+   2400,
+   1588
+  ],
+  "size": [
+   2400,
+   2277
+  ],
+  "why": "figure (28%): head kept"
+ },
+ "bierstadt-matterhorn": {
+  "box": [
+   0,
+   773,
+   2400,
+   2123
+  ],
+  "size": [
+   2400,
+   3283
+  ],
+  "why": "no figure: 40% window"
+ },
+ "biglin": {
+  "box": [
+   0,
+   17,
+   2400,
+   1367
+  ],
+  "size": [
+   2400,
+   1586
+  ],
+  "why": "figure (4%): head kept"
+ },
+ "blacksmith": {
+  "box": [
+   0,
+   1374,
+   2400,
+   2724
+  ],
+  "size": [
+   2400,
+   3340
+  ],
+  "why": "figure (7%): head kept"
+ },
+ "bronze-bust": {
+  "box": [
+   0,
+   249,
+   2400,
+   1599
+  ],
+  "size": [
+   2400,
+   3044
+  ],
+  "why": "figure (32%): head kept"
+ },
+ "capitol-stairs": {
+  "box": [
+   37,
+   0,
+   1913,
+   1055
+  ],
+  "size": [
+   1951,
+   1055
+  ],
+  "why": "wide: side crop"
+ },
+ "dawn-hunter": {
+  "box": [
+   0,
+   139,
+   2400,
+   1489
+  ],
+  "size": [
+   2400,
+   1698
+  ],
+  "why": "no figure: 40% window"
+ },
+ "dawn-sunset-photo": {
+  "box": [
+   0,
+   358,
+   2400,
+   1708
+  ],
+  "size": [
+   2400,
+   1708
+  ],
+  "why": "figure (5%): head kept"
+ },
+ "ferry-slip": {
+  "box": [
+   0,
+   0,
+   2181,
+   1225
+  ],
+  "size": [
+   2181,
+   1225
+  ],
+  "why": "already 16:9"
+ },
+ "forest-road": {
+  "box": [
+   0,
+   721,
+   2400,
+   2071
+  ],
+  "size": [
+   2400,
+   3153
+  ],
+  "why": "no figure: 40% window"
+ },
+ "hercules-lion": {
+  "box": [
+   0,
+   290,
+   2400,
+   1640
+  ],
+  "size": [
+   2400,
+   2901
+  ],
+  "why": "figure (25%): head kept"
+ },
+ "laborers-group": {
+  "box": [
+   0,
+   0,
+   2400,
+   1350
+  ],
+  "size": [
+   2400,
+   2012
+  ],
+  "why": "figure (7%): head kept"
+ },
+ "labourers": {
+  "box": [
+   0,
+   1129,
+   2400,
+   2479
+  ],
+  "size": [
+   2400,
+   3136
+  ],
+  "why": "figure (12%): head kept"
+ },
+ "marble-head": {
+  "box": [
+   0,
+   700,
+   2400,
+   2050
+  ],
+  "size": [
+   2400,
+   3083
+  ],
+  "why": "manual: face centred"
+ },
+ "mont-maudit": {
+  "box": [
+   0,
+   28,
+   2400,
+   1378
+  ],
+  "size": [
+   2400,
+   1420
+  ],
+  "why": "no figure: 40% window"
+ },
+ "oise-dawn": {
+  "box": [
+   0,
+   146,
+   2400,
+   1496
+  ],
+  "size": [
+   2400,
+   1715
+  ],
+  "why": "no figure: 40% window"
+ },
+ "old-pat": {
+  "box": [
+   0,
+   0,
+   1755,
+   987
+  ],
+  "size": [
+   1755,
+   2576
+  ],
+  "why": "figure (89%): head kept"
+ },
+ "old-road-sea": {
+  "box": [
+   0,
+   227,
+   2400,
+   1577
+  ],
+  "size": [
+   2400,
+   1918
+  ],
+  "why": "no figure: 40% window"
+ },
+ "pickle-herring": {
+  "box": [
+   0,
+   97,
+   2400,
+   1447
+  ],
+  "size": [
+   2400,
+   1594
+  ],
+  "why": "no figure: 40% window"
+ },
+ "portrait-armour": {
+  "box": [
+   0,
+   162,
+   2400,
+   1512
+  ],
+  "size": [
+   2400,
+   3245
+  ],
+  "why": "figure (45%): head kept"
+ },
+ "portrait-caillebotte": {
+  "box": [
+   0,
+   375,
+   2400,
+   1725
+  ],
+  "size": [
+   2400,
+   2987
+  ],
+  "why": "figure (34%): head kept"
+ },
+ "road-menders": {
+  "box": [
+   0,
+   226,
+   2400,
+   1576
+  ],
+  "size": [
+   2400,
+   1915
+  ],
+  "why": "no figure: 40% window"
+ },
+ "rosati": {
+  "box": [
+   0,
+   0,
+   2329,
+   1310
+  ],
+  "size": [
+   2329,
+   2150
+  ],
+  "why": "figure (68%): head kept"
+ },
+ "ruisdael-hills": {
+  "box": [
+   0,
+   296,
+   2400,
+   1646
+  ],
+  "size": [
+   2400,
+   2090
+  ],
+  "why": "no figure: 40% window"
+ },
+ "schroon-mountain": {
+  "box": [
+   0,
+   48,
+   2400,
+   1398
+  ],
+  "size": [
+   2400,
+   1472
+  ],
+  "why": "no figure: 40% window"
+ },
+ "self-portrait-dark": {
+  "box": [
+   0,
+   644,
+   1404,
+   1434
+  ],
+  "size": [
+   1404,
+   2401
+  ],
+  "why": "no figure: 40% window"
+ },
+ "self-portrait-hat": {
+  "box": [
+   0,
+   930,
+   2400,
+   2280
+  ],
+  "size": [
+   2400,
+   2967
+  ],
+  "why": "manual: face centred"
+ },
+ "self-portrait-print": {
+  "box": [
+   0,
+   527,
+   2201,
+   1765
+  ],
+  "size": [
+   2201,
+   2948
+  ],
+  "why": "figure (39%): head kept"
+ },
+ "stag-sharkeys": {
+  "box": [
+   0,
+   29,
+   2400,
+   1379
+  ],
+  "size": [
+   2400,
+   1794
+  ],
+  "why": "figure (16%): head kept"
+ },
+ "storm-sea": {
+  "box": [
+   0,
+   38,
+   2400,
+   1388
+  ],
+  "size": [
+   2400,
+   1447
+  ],
+  "why": "no figure: 40% window"
+ },
+ "storm-wight": {
+  "box": [
+   0,
+   198,
+   2400,
+   1548
+  ],
+  "size": [
+   2400,
+   1845
+  ],
+  "why": "no figure: 40% window"
+ },
+ "sunrise-clearing": {
+  "box": [
+   0,
+   95,
+   2400,
+   1445
+  ],
+  "size": [
+   2400,
+   1588
+  ],
+  "why": "no figure: 40% window"
+ },
+ "thinker": {
+  "box": [
+   0,
+   0,
+   2284,
+   1285
+  ],
+  "size": [
+   2284,
+   2185
+  ],
+  "why": "figure (47%): head kept"
+ },
+ "tired-gleaner": {
+  "box": [
+   0,
+   464,
+   2311,
+   1764
+  ],
+  "size": [
+   2311,
+   3400
+  ],
+  "why": "figure (16%): head kept"
+ },
+ "tokyo-rain": {
+  "box": [
+   0,
+   794,
+   2103,
+   1977
+  ],
+  "size": [
+   2103,
+   3169
+  ],
+  "why": "no figure: 40% window"
+ },
+ "training-quarters": {
+  "box": [
+   0,
+   0,
+   2224,
+   1251
+  ],
+  "size": [
+   2224,
+   1976
+  ],
+  "why": "figure (28%): head kept"
+ },
+ "tryon-dawn": {
+  "box": [
+   60,
+   70,
+   1547,
+   906
+  ],
+  "size": [
+   1607,
+   979
+  ],
+  "why": "manual: frame trimmed"
+ },
+ "vatican-stairs": {
+  "box": [
+   430,
+   640,
+   2000,
+   1523
+  ],
+  "size": [
+   2400,
+   2893
+  ],
+  "why": "manual: print margins trimmed"
+ },
+ "winter-sunrise": {
+  "box": [
+   36,
+   0,
+   1988,
+   1098
+  ],
+  "size": [
+   2024,
+   1098
+  ],
+  "why": "wide: side crop"
+ },
+ "workman": {
+  "box": [
+   0,
+   319,
+   2400,
+   1669
+  ],
+  "size": [
+   2400,
+   2816
+  ],
+  "why": "figure (23%): head kept"
+ },
+ "wrestlers-circus": {
+  "box": [
+   0,
+   0,
+   2400,
+   1350
+  ],
+  "size": [
+   2400,
+   2048
+  ],
+  "why": "figure (7%): head kept"
+ }
+}

@@ -25,10 +25,8 @@
 <body>
 <script>
 const D = [{"kind":"emph","at":7.15,"end":8.774,"lines":[[{"x":"AN","t":7.15},{"x":"HONEST","t":7.37},{"x":"ONE","t":7.69}]]},{"kind":"emph","at":56.57,"end":58.082,"lines":[[{"x":"ACTUALLY","t":56.57},{"x":"HERE","t":56.95}]]},{"kind":"emph","at":151.274,"end":152.658,"lines":[[{"x":"MORE","t":151.274},{"x":"POWER","t":151.514}]]}];
-const POS = {
-  l: "left:150px;top:44%", r: "right:150px;top:44%;text-align:right", c: "left:0;right:0;top:72%;text-align:center",
-  tl: "left:150px;top:150px", tr: "right:150px;top:150px;text-align:right", bl: "left:150px;bottom:150px", br: "right:150px;bottom:150px;text-align:right",
-};
+const MID = "left:0;right:0;top:50%;transform:translateY(-50%);text-align:center";
+const POS = { l: MID, r: MID, c: MID, tl: MID, tr: MID, bl: MID, br: MID };
 const els = D.map((b) => {
   const o = { b, words: [] };
   const e = document.createElement("div");
@@ -41,7 +39,7 @@ const els = D.map((b) => {
       e.append(r);
     } else b.words.forEach((w) => { const x = document.createElement("span"); x.className = "w"; x.textContent = w.x; e.append(x); o.words.push([x, w.t]); });
   } else if (b.kind === "emph") {
-    e.className = "e emph"; e.style.top = "34px";
+    e.className = "e emph"; e.style.top = "50%"; e.style.transform = "translateY(-50%)";
     b.lines.forEach((ln, li) => {
       const row = document.createElement("div"); row.className = "row";
       const l = document.createElement("span"); l.className = "ln"; l.dataset.li = li;

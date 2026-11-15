@@ -114,7 +114,7 @@ for (const s of cfg.scenes) {
     const cue = (key) => r3(voAt + cueTime(ws, key) - at);
     if (v.photo) {
       // the reference cuts often: a painting held longer than 9 s cuts from the whole picture to a closer detail of it
-      if (!v.framed && !v.behind && !v.fit && vl > 9) {
+      if (false) {   // no cut to a closer detail: every picture stays whole in its 16:9 frame
         const a1 = vl * 0.55;
         shots.push({ id: `${s.id}-${v.photo}`, photo: v.photo, at, len: a1, kb: v.kb, focus: v.focus });
         shots.push({ id: `${s.id}-${v.photo}-detail`, photo: v.photo, at: at + a1, len: vl - a1, kb: "detail", focus: v.focus });
@@ -164,7 +164,7 @@ for (const s of cfg.scenes) {
         }
         return best;
       };
-      const behindLayer = v.behind && fs.existsSync(path.join(ROOT, "assets/cutouts", v.photo + ".png"));
+      const behindLayer = v.behind && fs.existsSync(path.join(ROOT, "assets/cutouts169", v.photo + ".png"));
       if (v.emph) {
         const lines = v.emph.split(" / ");
         const spans = lines.map(findSpan);
@@ -266,9 +266,9 @@ const end = S.end._t;
 const MUSIC_VOL = JSON.parse(fs.readFileSync(path.join(ROOT, "src/music-vol.json"), "utf8"));
 // ---- music: Satie and Debussy piano pieces (Felted Classics), well under the voice
 const music = [
-  // driving, then triumphant for "rise from here" (crossfade at chapter three)
-  { id: "music-antihero", src: "assets/music/antihero.mp3", in: 0, at: 0, len: Math.min(303.9, S.ch3._t + 2.5), vol: MUSIC_VOL.antihero, fade: [1.0, 3.0] },
-  { id: "music-wild-horses", src: "assets/music/wild-horses.mp3", in: 0, at: S.ch3._t - 0.5, len: Math.min(155.9, FILM - S.ch3._t + 0.5), vol: MUSIC_VOL["wild-horses"], fade: [2.0, 4.0] },
+  // calm solo piano: "New Hope" under chapters I and II, "At the Edge of Hope" from chapter III
+  { id: "music-new-hope", src: "assets/music/new-hope-instr.mp3", in: 0, at: 0, len: Math.min(271.9, S.ch3._t + 3), vol: MUSIC_VOL["new-hope-instr"], fade: [2.0, 4.0] },
+  { id: "music-edge-of-hope", src: "assets/music/edge-of-hope.mp3", in: 0, at: S.ch3._t - 1, len: Math.min(182.7, FILM - S.ch3._t + 1), vol: MUSIC_VOL["edge-of-hope"], fade: [3.0, 5.0] },
 ];
 
 // ---- photos: their look and their slow move ----
@@ -291,12 +291,12 @@ L.push(`<!doctype html>
   .archival.faded { filter: grayscale(1) brightness(.6) contrast(2) sepia(.42); }
   .painted { filter: saturate(.9) sepia(.06) contrast(1.06) brightness(.82); }
   .colour { filter: saturate(.7) sepia(.15) contrast(1.05); }
-  @keyframes kb-in { from { scale: 1.02 } to { scale: 1.13 } }
-  @keyframes kb-out { from { scale: 1.14 } to { scale: 1.02 } }
-  @keyframes kb-left { from { scale: 1.12; translate: 2.4% 0 } to { scale: 1.12; translate: -2.4% 0 } }
-  @keyframes kb-right { from { scale: 1.12; translate: -2.4% 0 } to { scale: 1.12; translate: 2.4% 0 } }
-  @keyframes kb-up { from { scale: 1.14; translate: 0 3% } to { scale: 1.14; translate: 0 -3% } }
-  @keyframes kb-down { from { scale: 1.14; translate: 0 -3% } to { scale: 1.14; translate: 0 3% } }
+  @keyframes kb-in { from { scale: 1.0 } to { scale: 1.06 } }
+  @keyframes kb-out { from { scale: 1.06 } to { scale: 1.0 } }
+  @keyframes kb-left { from { scale: 1.05; translate: 1.4% 0 } to { scale: 1.05; translate: -1.4% 0 } }
+  @keyframes kb-right { from { scale: 1.05; translate: -1.4% 0 } to { scale: 1.05; translate: 1.4% 0 } }
+  @keyframes kb-up { from { scale: 1.06; translate: 0 1.6% } to { scale: 1.06; translate: 0 -1.6% } }
+  @keyframes kb-down { from { scale: 1.06; translate: 0 -1.6% } to { scale: 1.06; translate: 0 1.6% } }
   .kb-in { animation: kb-in var(--clip-length) linear both; }
   @keyframes kb-detail { from { scale: 1.34 } to { scale: 1.42 } }
   .kb-detail { animation: kb-detail var(--clip-length) linear both; }
@@ -316,7 +316,7 @@ L.push(`<!doctype html>
 L.push(`<section>\n  <iframe id="grain" src="grain.html#t=0,${FILM}"></iframe>\n</section>`);
 L.push(`<section>\n${leaks.map((x, i) => `  <iframe id="leak-${i + 1}" src="leak.html" at="${r3(x.at)}"></iframe>`).join("\n")}\n</section>`);
 L.push(`<section>\n  <iframe id="captions" src="captions.html#t=0,${FILM}"></iframe>\n</section>`);
-L.push(`<section>\n${shots.filter((x) => x.cutout).map((x) => `  <img id="${x.id}-cutout" src="assets/cutouts/${x.photo}.png#t=0,${r3(x.len)}" at="${r3(x.at)}" class="photo painted ${x.fit ? "fit kb-fit" : "kb-" + x.kb}" style="object-position: ${x.fit ? "50% 50%" : x.focus}"${ov([FADE, FADE])}>`).join("\n")}\n</section>`);
+L.push(`<section>\n${shots.filter((x) => x.cutout).map((x) => `  <img id="${x.id}-cutout" src="assets/cutouts169/${x.photo}.png#t=0,${r3(x.len)}" at="${r3(x.at)}" class="photo painted ${x.fit ? "fit kb-fit" : "kb-" + x.kb}" style="object-position: ${x.fit ? "50% 50%" : x.focus}"${ov([FADE, FADE])}>`).join("\n")}\n</section>`);
 L.push(`<section>\n  <iframe id="captions-back" src="captions-back.html#t=0,${FILM}"></iframe>\n</section>`);
 L.push(`<section>\n${lts.map((x) => `  <iframe id="${x.id}" src="${x.src}" at="${r3(x.at)}"></iframe>`).join("\n")}\n</section>`);
 L.push(`<section>\n${pages.map((x) => `  <iframe id="${x.id}" src="${x.src}${x.src.startsWith("ch") || ["title.html", "end.html"].includes(x.src) ? "" : `#t=0,${r3(x.len)}`}" at="${r3(x.at)}"${ov(x.fade)}></iframe>`).join("\n")}\n</section>`);
@@ -327,10 +327,10 @@ L.push(`<section>\n${shots.map((x) => {
     const [w, h] = execFileSync("ffprobe", ["-v", "error", "-select_streams", "v:0", "-show_entries", "stream=width,height", "-of", "csv=p=0",
       path.join(ROOT, "assets/photos", x.photo + ext(x.photo))]).toString().trim().split(",").map(Number);
     const H = 760, W = Math.round((H * w) / h);
-    return `  <img id="${x.id}" src="assets/photos/${x.photo}${ext(x.photo)}#t=0,${r3(x.len)}" at="${r3(x.at)}" class="print ${look} kb-in" style="left: ${960 - W / 2}px; top: ${540 - H / 2}px; width: ${W}px; height: ${H}px"${ov([FADE, FADE])}>`;
+    return `  <img id="${x.id}" src="assets/photos169/${x.photo}${ext(x.photo)}#t=0,${r3(x.len)}" at="${r3(x.at)}" class="print ${look} kb-in" style="left: ${960 - W / 2}px; top: ${540 - H / 2}px; width: ${W}px; height: ${H}px"${ov([FADE, FADE])}>`;
   }
-  if (x.fit) return `  <img id="${x.id}-bg" src="assets/photos/${x.photo}${ext(x.photo)}#t=0,${r3(x.len)}" at="${r3(x.at)}" class="photo painted blurbg"${ov([FADE, FADE])}>\n  <img id="${x.id}" src="assets/photos/${x.photo}${ext(x.photo)}#t=0,${r3(x.len)}" at="${r3(x.at)}" class="photo ${look} fit kb-fit"${ov([FADE, FADE])}>`;
-  return `  <img id="${x.id}" src="assets/photos/${x.photo}${ext(x.photo)}#t=0,${r3(x.len)}" at="${r3(x.at)}" class="photo ${look} kb-${x.kb}" style="object-position: ${x.focus}"${ov([FADE, FADE])}>`;
+  if (x.fit) return `  <img id="${x.id}-bg" src="assets/photos169/${x.photo}${ext(x.photo)}#t=0,${r3(x.len)}" at="${r3(x.at)}" class="photo painted blurbg"${ov([FADE, FADE])}>\n  <img id="${x.id}" src="assets/photos169/${x.photo}${ext(x.photo)}#t=0,${r3(x.len)}" at="${r3(x.at)}" class="photo ${look} fit kb-fit"${ov([FADE, FADE])}>`;
+  return `  <img id="${x.id}" src="assets/photos169/${x.photo}${ext(x.photo)}#t=0,${r3(x.len)}" at="${r3(x.at)}" class="photo ${look} kb-${x.kb}" style="object-position: ${x.focus}"${ov([FADE, FADE])}>`;
 }).join("\n")}\n</section>`);
 L.push(`<section>\n${vo.map((x) => `  <audio id="vo-${x.id}" src="assets/vo/${x.id}.mp3" at="${r3(x.at)}"></audio>`).join("\n")}\n</section>`);
 // two music tracks, alternating, so each piece can fade across the next

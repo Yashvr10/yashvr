@@ -12,12 +12,12 @@
   .archival.faded { filter: grayscale(1) brightness(.6) contrast(2) sepia(.42); }
   .painted { filter: saturate(.9) sepia(.06) contrast(1.06) brightness(.82); }
   .colour { filter: saturate(.7) sepia(.15) contrast(1.05); }
-  @keyframes kb-in { from { scale: 1.02 } to { scale: 1.13 } }
-  @keyframes kb-out { from { scale: 1.14 } to { scale: 1.02 } }
-  @keyframes kb-left { from { scale: 1.12; translate: 2.4% 0 } to { scale: 1.12; translate: -2.4% 0 } }
-  @keyframes kb-right { from { scale: 1.12; translate: -2.4% 0 } to { scale: 1.12; translate: 2.4% 0 } }
-  @keyframes kb-up { from { scale: 1.14; translate: 0 3% } to { scale: 1.14; translate: 0 -3% } }
-  @keyframes kb-down { from { scale: 1.14; translate: 0 -3% } to { scale: 1.14; translate: 0 3% } }
+  @keyframes kb-in { from { scale: 1.0 } to { scale: 1.06 } }
+  @keyframes kb-out { from { scale: 1.06 } to { scale: 1.0 } }
+  @keyframes kb-left { from { scale: 1.05; translate: 1.4% 0 } to { scale: 1.05; translate: -1.4% 0 } }
+  @keyframes kb-right { from { scale: 1.05; translate: -1.4% 0 } to { scale: 1.05; translate: 1.4% 0 } }
+  @keyframes kb-up { from { scale: 1.06; translate: 0 1.6% } to { scale: 1.06; translate: 0 -1.6% } }
+  @keyframes kb-down { from { scale: 1.06; translate: 0 -1.6% } to { scale: 1.06; translate: 0 1.6% } }
   .kb-in { animation: kb-in var(--clip-length) linear both; }
   @keyframes kb-detail { from { scale: 1.34 } to { scale: 1.42 } }
   .kb-detail { animation: kb-detail var(--clip-length) linear both; }
@@ -44,9 +44,9 @@
   <iframe id="captions" src="captions.html#t=0,278.594"></iframe>
 </section>
 <section>
-  <img id="s01-thinker-cutout" src="assets/cutouts/thinker.png#t=0,3.874" at="5" class="photo painted fit kb-fit" style="object-position: 50% 50%" overrides='[{"fade":[0.6,0.6]}]'>
-  <img id="s07-workman-cutout" src="assets/cutouts/workman.png#t=0,4.042" at="54.14" class="photo painted fit kb-fit" style="object-position: 50% 50%" overrides='[{"fade":[0.6,0.6]}]'>
-  <img id="s19-atlas-hercules-cutout" src="assets/cutouts/atlas-hercules.png#t=0,4.354" at="148.404" class="photo painted fit kb-fit" style="object-position: 50% 50%" overrides='[{"fade":[0.6,0.6]}]'>
+  <img id="s01-thinker-cutout" src="assets/cutouts169/thinker.png#t=0,3.874" at="5" class="photo painted kb-in" style="object-position: 50% 40%" overrides='[{"fade":[0.6,0.6]}]'>
+  <img id="s07-workman-cutout" src="assets/cutouts169/workman.png#t=0,4.042" at="54.14" class="photo painted kb-in" style="object-position: 50% 40%" overrides='[{"fade":[0.6,0.6]}]'>
+  <img id="s19-atlas-hercules-cutout" src="assets/cutouts169/atlas-hercules.png#t=0,4.354" at="148.404" class="photo painted kb-in" style="object-position: 50% 40%" overrides='[{"fade":[0.6,0.6]}]'>
 </section>
 <section>
   <iframe id="captions-back" src="captions-back.html#t=0,278.594"></iframe>
@@ -62,81 +62,48 @@
   <iframe id="end" src="end.html" at="271.594" overrides='[{"fade":[0.25,0.4]}]'></iframe>
 </section>
 <section>
-  <img id="s01-thinker-bg" src="assets/photos/thinker.jpg#t=0,3.874" at="5" class="photo painted blurbg" overrides='[{"fade":[0.6,0.6]}]'>
-  <img id="s01-thinker" src="assets/photos/thinker.jpg#t=0,3.874" at="5" class="photo painted fit kb-fit" overrides='[{"fade":[0.6,0.6]}]'>
-  <img id="s02-portrait-armour-bg" src="assets/photos/portrait-armour.jpg#t=0,4.93" at="8.874" class="photo painted blurbg" overrides='[{"fade":[0.6,0.6]}]'>
-  <img id="s02-portrait-armour" src="assets/photos/portrait-armour.jpg#t=0,4.93" at="8.874" class="photo painted fit kb-fit" overrides='[{"fade":[0.6,0.6]}]'>
-  <img id="s03-self-portrait-dark-bg" src="assets/photos/self-portrait-dark.jpg#t=0,3.37" at="13.804" class="photo painted blurbg" overrides='[{"fade":[0.6,0.6]}]'>
-  <img id="s03-self-portrait-dark" src="assets/photos/self-portrait-dark.jpg#t=0,3.37" at="13.804" class="photo painted fit kb-fit" overrides='[{"fade":[0.6,0.6]}]'>
-  <img id="s04-training-quarters-bg" src="assets/photos/training-quarters.jpg#t=0,5.18" at="17.174" class="photo painted blurbg" overrides='[{"fade":[0.6,0.6]}]'>
-  <img id="s04-training-quarters" src="assets/photos/training-quarters.jpg#t=0,5.18" at="17.174" class="photo painted fit kb-fit" overrides='[{"fade":[0.6,0.6]}]'>
-  <img id="s04-blacksmith-bg" src="assets/photos/blacksmith.jpg#t=0,2.66" at="22.354" class="photo painted blurbg" overrides='[{"fade":[0.6,0.6]}]'>
-  <img id="s04-blacksmith" src="assets/photos/blacksmith.jpg#t=0,2.66" at="22.354" class="photo painted fit kb-fit" overrides='[{"fade":[0.6,0.6]}]'>
-  <img id="s04-tired-gleaner-bg" src="assets/photos/tired-gleaner.jpg#t=0,5.514" at="25.014" class="photo painted blurbg" overrides='[{"fade":[0.6,0.6]}]'>
-  <img id="s04-tired-gleaner" src="assets/photos/tired-gleaner.jpg#t=0,5.514" at="25.014" class="photo painted fit kb-fit" overrides='[{"fade":[0.6,0.6]}]'>
-  <img id="s05-marble-head-bg" src="assets/photos/marble-head.jpg#t=0,9.514" at="30.528" class="photo painted blurbg" overrides='[{"fade":[0.6,0.6]}]'>
-  <img id="s05-marble-head" src="assets/photos/marble-head.jpg#t=0,9.514" at="30.528" class="photo painted fit kb-fit" overrides='[{"fade":[0.6,0.6]}]'>
-  <img id="s06-rosati-bg" src="assets/photos/rosati.jpg#t=0,8.74" at="40.042" class="photo painted blurbg" overrides='[{"fade":[0.6,0.6]}]'>
-  <img id="s06-rosati" src="assets/photos/rosati.jpg#t=0,8.74" at="40.042" class="photo painted fit kb-fit" overrides='[{"fade":[0.6,0.6]}]'>
-  <img id="s06-stag-sharkeys-bg" src="assets/photos/stag-sharkeys.jpg#t=0,5.358" at="48.782" class="photo painted blurbg" overrides='[{"fade":[0.6,0.6]}]'>
-  <img id="s06-stag-sharkeys" src="assets/photos/stag-sharkeys.jpg#t=0,5.358" at="48.782" class="photo painted fit kb-fit" overrides='[{"fade":[0.6,0.6]}]'>
-  <img id="s07-workman-bg" src="assets/photos/workman.jpg#t=0,4.042" at="54.14" class="photo painted blurbg" overrides='[{"fade":[0.6,0.6]}]'>
-  <img id="s07-workman" src="assets/photos/workman.jpg#t=0,4.042" at="54.14" class="photo painted fit kb-fit" overrides='[{"fade":[0.6,0.6]}]'>
-  <img id="s08-athlete-statue-bg" src="assets/photos/athlete-statue.jpg#t=0,3.52" at="58.182" class="photo painted blurbg" overrides='[{"fade":[0.6,0.6]}]'>
-  <img id="s08-athlete-statue" src="assets/photos/athlete-statue.jpg#t=0,3.52" at="58.182" class="photo painted fit kb-fit" overrides='[{"fade":[0.6,0.6]}]'>
-  <img id="s08-labourers-bg" src="assets/photos/labourers.jpg#t=0,4.818" at="61.702" class="photo painted blurbg" overrides='[{"fade":[0.6,0.6]}]'>
-  <img id="s08-labourers" src="assets/photos/labourers.jpg#t=0,4.818" at="61.702" class="photo painted fit kb-fit" overrides='[{"fade":[0.6,0.6]}]'>
-  <img id="s09-self-portrait-hat-bg" src="assets/photos/self-portrait-hat.jpg#t=0,3.13" at="66.52" class="photo painted blurbg" overrides='[{"fade":[0.6,0.6]}]'>
-  <img id="s09-self-portrait-hat" src="assets/photos/self-portrait-hat.jpg#t=0,3.13" at="66.52" class="photo painted fit kb-fit" overrides='[{"fade":[0.6,0.6]}]'>
-  <img id="s10-storm-wight-bg" src="assets/photos/storm-wight.jpg#t=0,7.69" at="69.65" class="photo painted blurbg" overrides='[{"fade":[0.6,0.6]}]'>
-  <img id="s10-storm-wight" src="assets/photos/storm-wight.jpg#t=0,7.69" at="69.65" class="photo painted fit kb-fit" overrides='[{"fade":[0.6,0.6]}]'>
-  <img id="s11-capitol-stairs" src="assets/photos/capitol-stairs.jpg#t=0,7.786" at="80.74" class="photo painted kb-in" style="object-position: 50% 40%" overrides='[{"fade":[0.6,0.6]}]'>
-  <img id="s12-tokyo-rain-bg" src="assets/photos/tokyo-rain.jpg#t=0,4.738" at="88.526" class="photo painted blurbg" overrides='[{"fade":[0.6,0.6]}]'>
-  <img id="s12-tokyo-rain" src="assets/photos/tokyo-rain.jpg#t=0,4.738" at="88.526" class="photo painted fit kb-fit" overrides='[{"fade":[0.6,0.6]}]'>
-  <img id="s13-winter-sunrise" src="assets/photos/winter-sunrise.jpg#t=0,4.54" at="93.264" class="photo painted kb-in" style="object-position: 50% 40%" overrides='[{"fade":[0.6,0.6]}]'>
-  <img id="s13-self-portrait-print-bg" src="assets/photos/self-portrait-print.jpg#t=0,4.71" at="97.804" class="photo painted blurbg" overrides='[{"fade":[0.6,0.6]}]'>
-  <img id="s13-self-portrait-print" src="assets/photos/self-portrait-print.jpg#t=0,4.71" at="97.804" class="photo painted fit kb-fit" overrides='[{"fade":[0.6,0.6]}]'>
-  <img id="s14-wrestlers-circus-bg" src="assets/photos/wrestlers-circus.jpg#t=0,5.6" at="102.514" class="photo painted blurbg" overrides='[{"fade":[0.6,0.6]}]'>
-  <img id="s14-wrestlers-circus" src="assets/photos/wrestlers-circus.jpg#t=0,5.6" at="102.514" class="photo painted fit kb-fit" overrides='[{"fade":[0.6,0.6]}]'>
-  <img id="s14-ferry-slip" src="assets/photos/ferry-slip.jpg#t=0,4.682" at="108.114" class="photo painted kb-in" style="object-position: 50% 40%" overrides='[{"fade":[0.6,0.6]}]'>
-  <img id="s15-portrait-caillebotte-bg" src="assets/photos/portrait-caillebotte.jpg#t=0,5.554" at="112.796" class="photo painted blurbg" overrides='[{"fade":[0.6,0.6]}]'>
-  <img id="s15-portrait-caillebotte" src="assets/photos/portrait-caillebotte.jpg#t=0,5.554" at="112.796" class="photo painted fit kb-fit" overrides='[{"fade":[0.6,0.6]}]'>
-  <img id="s16-bronze-bust-bg" src="assets/photos/bronze-bust.jpg#t=0,8.602" at="118.35" class="photo painted blurbg" overrides='[{"fade":[0.6,0.6]}]'>
-  <img id="s16-bronze-bust" src="assets/photos/bronze-bust.jpg#t=0,8.602" at="118.35" class="photo painted fit kb-fit" overrides='[{"fade":[0.6,0.6]}]'>
-  <img id="s17-old-pat-bg" src="assets/photos/old-pat.jpg#t=0,9.466" at="131.152" class="photo painted blurbg" overrides='[{"fade":[0.6,0.6]}]'>
-  <img id="s17-old-pat" src="assets/photos/old-pat.jpg#t=0,9.466" at="131.152" class="photo painted fit kb-fit" overrides='[{"fade":[0.6,0.6]}]'>
-  <img id="s18-vatican-stairs-bg" src="assets/photos/vatican-stairs.jpg#t=0,7.786" at="140.618" class="photo painted blurbg" overrides='[{"fade":[0.6,0.6]}]'>
-  <img id="s18-vatican-stairs" src="assets/photos/vatican-stairs.jpg#t=0,7.786" at="140.618" class="photo painted fit kb-fit" overrides='[{"fade":[0.6,0.6]}]'>
-  <img id="s19-atlas-hercules-bg" src="assets/photos/atlas-hercules.jpg#t=0,4.354" at="148.404" class="photo painted blurbg" overrides='[{"fade":[0.6,0.6]}]'>
-  <img id="s19-atlas-hercules" src="assets/photos/atlas-hercules.jpg#t=0,4.354" at="148.404" class="photo painted fit kb-fit" overrides='[{"fade":[0.6,0.6]}]'>
-  <img id="s20-hercules-lion-bg" src="assets/photos/hercules-lion.jpg#t=0,8" at="152.758" class="photo painted blurbg" overrides='[{"fade":[0.6,0.6]}]'>
-  <img id="s20-hercules-lion" src="assets/photos/hercules-lion.jpg#t=0,8" at="152.758" class="photo painted fit kb-fit" overrides='[{"fade":[0.6,0.6]}]'>
-  <img id="s20-pickle-herring" src="assets/photos/pickle-herring.jpg#t=0,3.65" at="160.758" class="photo painted kb-in" style="object-position: 50% 40%" overrides='[{"fade":[0.6,0.6]}]'>
-  <img id="s21-dawn-hunter-bg" src="assets/photos/dawn-hunter.jpg#t=0,6.25" at="164.408" class="photo painted blurbg" overrides='[{"fade":[0.6,0.6]}]'>
-  <img id="s21-dawn-hunter" src="assets/photos/dawn-hunter.jpg#t=0,6.25" at="164.408" class="photo painted fit kb-fit" overrides='[{"fade":[0.6,0.6]}]'>
-  <img id="s22-biglin" src="assets/photos/biglin.jpg#t=0,6.5" at="170.658" class="photo painted kb-in" style="object-position: 50% 40%" overrides='[{"fade":[0.6,0.6]}]'>
-  <img id="s22-laborers-group-bg" src="assets/photos/laborers-group.jpg#t=0,5.06" at="177.158" class="photo painted blurbg" overrides='[{"fade":[0.6,0.6]}]'>
-  <img id="s22-laborers-group" src="assets/photos/laborers-group.jpg#t=0,5.06" at="177.158" class="photo painted fit kb-fit" overrides='[{"fade":[0.6,0.6]}]'>
-  <img id="s22-sunrise-clearing" src="assets/photos/sunrise-clearing.jpg#t=0,5.082" at="182.218" class="photo painted kb-in" style="object-position: 50% 40%" overrides='[{"fade":[0.6,0.6]}]'>
-  <img id="s23-schroon-mountain" src="assets/photos/schroon-mountain.jpg#t=0,6.658" at="187.3" class="photo painted kb-in" style="object-position: 50% 40%" overrides='[{"fade":[0.6,0.6]}]'>
-  <img id="s24-road-menders-bg" src="assets/photos/road-menders.jpg#t=0,11.89" at="193.958" class="photo painted blurbg" overrides='[{"fade":[0.6,0.6]}]'>
-  <img id="s24-road-menders" src="assets/photos/road-menders.jpg#t=0,11.89" at="193.958" class="photo painted fit kb-fit" overrides='[{"fade":[0.6,0.6]}]'>
-  <img id="s25-forest-road-bg" src="assets/photos/forest-road.jpg#t=0,6.778" at="205.848" class="photo painted blurbg" overrides='[{"fade":[0.6,0.6]}]'>
-  <img id="s25-forest-road" src="assets/photos/forest-road.jpg#t=0,6.778" at="205.848" class="photo painted fit kb-fit" overrides='[{"fade":[0.6,0.6]}]'>
-  <img id="s26-storm-sea" src="assets/photos/storm-sea.jpg#t=0,3.874" at="215.426" class="photo painted kb-in" style="object-position: 50% 40%" overrides='[{"fade":[0.6,0.6]}]'>
-  <img id="s27-ruisdael-hills-bg" src="assets/photos/ruisdael-hills.jpg#t=0,12.466" at="219.3" class="photo painted blurbg" overrides='[{"fade":[0.6,0.6]}]'>
-  <img id="s27-ruisdael-hills" src="assets/photos/ruisdael-hills.jpg#t=0,12.466" at="219.3" class="photo painted fit kb-fit" overrides='[{"fade":[0.6,0.6]}]'>
-  <img id="s28-old-road-sea-bg" src="assets/photos/old-road-sea.jpg#t=0,6.754" at="231.766" class="photo painted blurbg" overrides='[{"fade":[0.6,0.6]}]'>
-  <img id="s28-old-road-sea" src="assets/photos/old-road-sea.jpg#t=0,6.754" at="231.766" class="photo painted fit kb-fit" overrides='[{"fade":[0.6,0.6]}]'>
-  <img id="s29-dawn-sunset-photo-bg" src="assets/photos/dawn-sunset-photo.jpg#t=0,4.354" at="238.52" class="photo painted blurbg" overrides='[{"fade":[0.6,0.6]}]'>
-  <img id="s29-dawn-sunset-photo" src="assets/photos/dawn-sunset-photo.jpg#t=0,4.354" at="238.52" class="photo painted fit kb-fit" overrides='[{"fade":[0.6,0.6]}]'>
-  <img id="s30-mont-maudit" src="assets/photos/mont-maudit.jpg#t=0,6.562" at="242.874" class="photo painted kb-in" style="object-position: 50% 40%" overrides='[{"fade":[0.6,0.6]}]'>
-  <img id="s31-tryon-dawn" src="assets/photos/tryon-dawn.jpg#t=0,5.404" at="249.436" class="photo painted kb-in" style="object-position: 50% 40%" overrides='[{"fade":[0.6,0.6]}]'>
-  <img id="s31-tryon-dawn-detail" src="assets/photos/tryon-dawn.jpg#t=0,4.422" at="254.84" class="photo painted kb-detail" style="object-position: 50% 40%" overrides='[{"fade":[0.6,0.6]}]'>
-  <img id="s32-oise-dawn-bg" src="assets/photos/oise-dawn.jpg#t=0,5.746" at="259.262" class="photo painted blurbg" overrides='[{"fade":[0.6,0.6]}]'>
-  <img id="s32-oise-dawn" src="assets/photos/oise-dawn.jpg#t=0,5.746" at="259.262" class="photo painted fit kb-fit" overrides='[{"fade":[0.6,0.6]}]'>
-  <img id="s33-bierstadt-matterhorn-bg" src="assets/photos/bierstadt-matterhorn.jpg#t=0,6.586" at="265.008" class="photo painted blurbg" overrides='[{"fade":[0.6,0.6]}]'>
-  <img id="s33-bierstadt-matterhorn" src="assets/photos/bierstadt-matterhorn.jpg#t=0,6.586" at="265.008" class="photo painted fit kb-fit" overrides='[{"fade":[0.6,0.6]}]'>
+  <img id="s01-thinker" src="assets/photos169/thinker.jpg#t=0,3.874" at="5" class="photo painted kb-in" style="object-position: 50% 40%" overrides='[{"fade":[0.6,0.6]}]'>
+  <img id="s02-portrait-armour" src="assets/photos169/portrait-armour.jpg#t=0,4.93" at="8.874" class="photo painted kb-in" style="object-position: 50% 40%" overrides='[{"fade":[0.6,0.6]}]'>
+  <img id="s03-self-portrait-dark" src="assets/photos169/self-portrait-dark.jpg#t=0,3.37" at="13.804" class="photo painted kb-in" style="object-position: 50% 40%" overrides='[{"fade":[0.6,0.6]}]'>
+  <img id="s04-training-quarters" src="assets/photos169/training-quarters.jpg#t=0,5.18" at="17.174" class="photo painted kb-in" style="object-position: 50% 40%" overrides='[{"fade":[0.6,0.6]}]'>
+  <img id="s04-blacksmith" src="assets/photos169/blacksmith.jpg#t=0,2.66" at="22.354" class="photo painted kb-in" style="object-position: 50% 40%" overrides='[{"fade":[0.6,0.6]}]'>
+  <img id="s04-tired-gleaner" src="assets/photos169/tired-gleaner.jpg#t=0,5.514" at="25.014" class="photo painted kb-in" style="object-position: 50% 40%" overrides='[{"fade":[0.6,0.6]}]'>
+  <img id="s05-marble-head" src="assets/photos169/marble-head.jpg#t=0,9.514" at="30.528" class="photo painted kb-in" style="object-position: 50% 40%" overrides='[{"fade":[0.6,0.6]}]'>
+  <img id="s06-rosati" src="assets/photos169/rosati.jpg#t=0,8.74" at="40.042" class="photo painted kb-in" style="object-position: 50% 40%" overrides='[{"fade":[0.6,0.6]}]'>
+  <img id="s06-stag-sharkeys" src="assets/photos169/stag-sharkeys.jpg#t=0,5.358" at="48.782" class="photo painted kb-in" style="object-position: 50% 40%" overrides='[{"fade":[0.6,0.6]}]'>
+  <img id="s07-workman" src="assets/photos169/workman.jpg#t=0,4.042" at="54.14" class="photo painted kb-in" style="object-position: 50% 40%" overrides='[{"fade":[0.6,0.6]}]'>
+  <img id="s08-athlete-statue" src="assets/photos169/athlete-statue.jpg#t=0,3.52" at="58.182" class="photo painted kb-in" style="object-position: 50% 40%" overrides='[{"fade":[0.6,0.6]}]'>
+  <img id="s08-labourers" src="assets/photos169/labourers.jpg#t=0,4.818" at="61.702" class="photo painted kb-in" style="object-position: 50% 40%" overrides='[{"fade":[0.6,0.6]}]'>
+  <img id="s09-self-portrait-hat" src="assets/photos169/self-portrait-hat.jpg#t=0,3.13" at="66.52" class="photo painted kb-in" style="object-position: 50% 40%" overrides='[{"fade":[0.6,0.6]}]'>
+  <img id="s10-storm-wight" src="assets/photos169/storm-wight.jpg#t=0,7.69" at="69.65" class="photo painted kb-in" style="object-position: 50% 40%" overrides='[{"fade":[0.6,0.6]}]'>
+  <img id="s11-capitol-stairs" src="assets/photos169/capitol-stairs.jpg#t=0,7.786" at="80.74" class="photo painted kb-in" style="object-position: 50% 40%" overrides='[{"fade":[0.6,0.6]}]'>
+  <img id="s12-tokyo-rain" src="assets/photos169/tokyo-rain.jpg#t=0,4.738" at="88.526" class="photo painted kb-in" style="object-position: 50% 40%" overrides='[{"fade":[0.6,0.6]}]'>
+  <img id="s13-winter-sunrise" src="assets/photos169/winter-sunrise.jpg#t=0,4.54" at="93.264" class="photo painted kb-in" style="object-position: 50% 40%" overrides='[{"fade":[0.6,0.6]}]'>
+  <img id="s13-self-portrait-print" src="assets/photos169/self-portrait-print.jpg#t=0,4.71" at="97.804" class="photo painted kb-in" style="object-position: 50% 40%" overrides='[{"fade":[0.6,0.6]}]'>
+  <img id="s14-wrestlers-circus" src="assets/photos169/wrestlers-circus.jpg#t=0,5.6" at="102.514" class="photo painted kb-in" style="object-position: 50% 40%" overrides='[{"fade":[0.6,0.6]}]'>
+  <img id="s14-ferry-slip" src="assets/photos169/ferry-slip.jpg#t=0,4.682" at="108.114" class="photo painted kb-in" style="object-position: 50% 40%" overrides='[{"fade":[0.6,0.6]}]'>
+  <img id="s15-portrait-caillebotte" src="assets/photos169/portrait-caillebotte.jpg#t=0,5.554" at="112.796" class="photo painted kb-in" style="object-position: 50% 40%" overrides='[{"fade":[0.6,0.6]}]'>
+  <img id="s16-bronze-bust" src="assets/photos169/bronze-bust.jpg#t=0,8.602" at="118.35" class="photo painted kb-in" style="object-position: 50% 40%" overrides='[{"fade":[0.6,0.6]}]'>
+  <img id="s17-old-pat" src="assets/photos169/old-pat.jpg#t=0,9.466" at="131.152" class="photo painted kb-in" style="object-position: 50% 40%" overrides='[{"fade":[0.6,0.6]}]'>
+  <img id="s18-vatican-stairs" src="assets/photos169/vatican-stairs.jpg#t=0,7.786" at="140.618" class="photo painted kb-in" style="object-position: 50% 40%" overrides='[{"fade":[0.6,0.6]}]'>
+  <img id="s19-atlas-hercules" src="assets/photos169/atlas-hercules.jpg#t=0,4.354" at="148.404" class="photo painted kb-in" style="object-position: 50% 40%" overrides='[{"fade":[0.6,0.6]}]'>
+  <img id="s20-hercules-lion" src="assets/photos169/hercules-lion.jpg#t=0,8" at="152.758" class="photo painted kb-in" style="object-position: 50% 40%" overrides='[{"fade":[0.6,0.6]}]'>
+  <img id="s20-pickle-herring" src="assets/photos169/pickle-herring.jpg#t=0,3.65" at="160.758" class="photo painted kb-in" style="object-position: 50% 40%" overrides='[{"fade":[0.6,0.6]}]'>
+  <img id="s21-dawn-hunter" src="assets/photos169/dawn-hunter.jpg#t=0,6.25" at="164.408" class="photo painted kb-in" style="object-position: 50% 40%" overrides='[{"fade":[0.6,0.6]}]'>
+  <img id="s22-biglin" src="assets/photos169/biglin.jpg#t=0,6.5" at="170.658" class="photo painted kb-in" style="object-position: 50% 40%" overrides='[{"fade":[0.6,0.6]}]'>
+  <img id="s22-laborers-group" src="assets/photos169/laborers-group.jpg#t=0,5.06" at="177.158" class="photo painted kb-in" style="object-position: 50% 40%" overrides='[{"fade":[0.6,0.6]}]'>
+  <img id="s22-sunrise-clearing" src="assets/photos169/sunrise-clearing.jpg#t=0,5.082" at="182.218" class="photo painted kb-in" style="object-position: 50% 40%" overrides='[{"fade":[0.6,0.6]}]'>
+  <img id="s23-schroon-mountain" src="assets/photos169/schroon-mountain.jpg#t=0,6.658" at="187.3" class="photo painted kb-in" style="object-position: 50% 40%" overrides='[{"fade":[0.6,0.6]}]'>
+  <img id="s24-road-menders" src="assets/photos169/road-menders.jpg#t=0,11.89" at="193.958" class="photo painted kb-in" style="object-position: 50% 40%" overrides='[{"fade":[0.6,0.6]}]'>
+  <img id="s25-forest-road" src="assets/photos169/forest-road.jpg#t=0,6.778" at="205.848" class="photo painted kb-in" style="object-position: 50% 40%" overrides='[{"fade":[0.6,0.6]}]'>
+  <img id="s26-storm-sea" src="assets/photos169/storm-sea.jpg#t=0,3.874" at="215.426" class="photo painted kb-in" style="object-position: 50% 40%" overrides='[{"fade":[0.6,0.6]}]'>
+  <img id="s27-ruisdael-hills" src="assets/photos169/ruisdael-hills.jpg#t=0,12.466" at="219.3" class="photo painted kb-in" style="object-position: 50% 40%" overrides='[{"fade":[0.6,0.6]}]'>
+  <img id="s28-old-road-sea" src="assets/photos169/old-road-sea.jpg#t=0,6.754" at="231.766" class="photo painted kb-in" style="object-position: 50% 40%" overrides='[{"fade":[0.6,0.6]}]'>
+  <img id="s29-dawn-sunset-photo" src="assets/photos169/dawn-sunset-photo.jpg#t=0,4.354" at="238.52" class="photo painted kb-in" style="object-position: 50% 40%" overrides='[{"fade":[0.6,0.6]}]'>
+  <img id="s30-mont-maudit" src="assets/photos169/mont-maudit.jpg#t=0,6.562" at="242.874" class="photo painted kb-in" style="object-position: 50% 40%" overrides='[{"fade":[0.6,0.6]}]'>
+  <img id="s31-tryon-dawn" src="assets/photos169/tryon-dawn.jpg#t=0,9.826" at="249.436" class="photo painted kb-in" style="object-position: 50% 40%" overrides='[{"fade":[0.6,0.6]}]'>
+  <img id="s32-oise-dawn" src="assets/photos169/oise-dawn.jpg#t=0,5.746" at="259.262" class="photo painted kb-in" style="object-position: 50% 40%" overrides='[{"fade":[0.6,0.6]}]'>
+  <img id="s33-bierstadt-matterhorn" src="assets/photos169/bierstadt-matterhorn.jpg#t=0,6.586" at="265.008" class="photo painted kb-up" style="object-position: 50% 35%" overrides='[{"fade":[0.6,0.6]}]'>
 </section>
 <section>
   <audio id="vo-s01" src="assets/vo/s01.mp3" at="5.3"></audio>
@@ -174,10 +141,10 @@
   <audio id="vo-s33" src="assets/vo/s33.mp3" at="265.308"></audio>
 </section>
 <section>
-  <audio id="music-antihero" src="assets/music/antihero.mp3#t=0,215.126" at="0" volume="0.25" overrides='[{"fade":[1,3]}]'></audio>
+  <audio id="music-new-hope" src="assets/music/new-hope-instr.mp3#t=0,215.626" at="0" volume="0.13" overrides='[{"fade":[2,4]}]'></audio>
 </section>
 <section>
-  <audio id="music-wild-horses" src="assets/music/wild-horses.mp3#t=0,66.468" at="212.126" volume="0.26" overrides='[{"fade":[2,4]}]'></audio>
+  <audio id="music-edge-of-hope" src="assets/music/edge-of-hope.mp3#t=0,66.968" at="211.626" volume="0.6" overrides='[{"fade":[3,5]}]'></audio>
 </section>
 <section>
   <audio src="assets/sfx/kick.mp3" at="0.5" volume="0.8"></audio>

@@ -1,18 +1,18 @@
 [
  {
-  "key": "antihero",
-  "file": "antihero.mp3",
-  "title": "Antihero",
-  "artist": "Hyperreal",
+  "key": "new-hope-instr",
+  "file": "new-hope-instr.mp3",
+  "title": "New Hope Instrumental",
+  "artist": "Jim Gaven",
   "license": "by-sa 3.0",
-  "source": "https://www.jamendo.com/track/1077005"
+  "source": "https://www.jamendo.com/track/1344284"
  },
  {
-  "key": "wild-horses",
-  "file": "wild-horses.mp3",
-  "title": "Wild Horses",
-  "artist": "Jakubowski Epic Music",
+  "key": "edge-of-hope",
+  "file": "edge-of-hope.mp3",
+  "title": "At The Edge Of Hope (r116)",
+  "artist": "Hillaby",
   "license": "by-sa 3.0",
-  "source": "https://www.jamendo.com/track/1375146"
+  "source": "https://www.jamendo.com/track/1032904"
  }
 ]
