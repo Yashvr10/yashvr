@@ -69,6 +69,31 @@ Batch total: 31.9 s unique, about 62 s usable (1.0 min).
 
 Batch total: 50.9 s unique, about 74 s usable (1.2 min).
 
+## Batch 04 (2026-11-15)
+
+16 files sent, 14 new, 2 duplicates skipped.
+
+| File | Size | Unique footage | Usable on screen | Notes |
+|---|---|---|---|---|
+| 35-horse-running.gif | 414×213 | 2.2 s | ~4 s | Black horse running through mist, black and white. Low resolution |
+| 36-smoke-head-figure.gif | 520×520 | 1.2 s | ~3 s | Figure whose head is smoke. Square |
+| 37-grainy-face-hands.gif | 592×336 | 3.1 s | ~5 s | Grainy face with hands, distorted |
+| 38-ascii-runner.gif | 480×480 | 0.7 s | ~3 s | Runner made of text characters on black. Square |
+| 39-brain-scan.gif | 500×376 | 2.1 s | ~4 s | Retro brain scan graphic. 4:3 |
+| 40-man-in-rain.gif | 800×600 | 12.0 s | ~12 s | Illustrated man standing in rain under the moon. The longest GIF so far |
+| 41-painted-night-street.gif | 540×380 | 1.2 s | ~3 s | Painted night street (van Gogh style animation) |
+| 42-painted-faces.gif | 500×281 | 3.2 s | ~5 s | Two painted faces in profile |
+| 43-pixel-tree-still.jpg | 720×405 | still | ~4 s | Pixel-mosaic tree. A still image: shown with a slow push-in |
+| 44-drawn-eyes.gif | 430×246 | 1.8 s | ~4 s | Pen-drawn eyes on paper |
+| 45-starry-night-village.gif | 540×390 | 1.1 s | ~3 s | Animated Starry Night with the village |
+| 47-man-watching-tv.gif | 540×303 | 0.6 s | ~3 s | Man in a dark red room watching TV |
+| 48-paper-head.gif | 400×400 | 1.7 s | ~4 s | Head wrapped in crumpled paper. Square |
+| 50-koi-collage.mp4 | 736×414 | 8.2 s | ~8 s | Two koi circling over changing collage backgrounds. One loop, about 25 background changes |
+
+Skipped as duplicates: the spiral vortex (same as 07 in batch 02) and a second copy of the smoke-head figure (same as 36).
+
+Batch total: 39.1 s unique, about 65 s usable (1.1 min).
+
 ## Running total
 
 | Batches | Usable screen time | Of 20 min |
@@ -76,3 +101,4 @@ Batch total: 50.9 s unique, about 74 s usable (1.2 min).
 | 1 | 0.6 min | 3% |
 | 1–2 | 1.6 min | 8% |
 | 1–3 | 2.8 min | 14% |
+| 1–4 | 3.9 min | 20% |
