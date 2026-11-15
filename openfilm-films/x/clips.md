@@ -104,6 +104,19 @@ Batch total: 39.1 s unique, about 65 s usable (1.1 min).
 
 Batch total: 13.5 s unique, about 13 s usable (0.2 min).
 
+## Batch 06 (2026-11-15)
+
+From three Instagram links. The first post had one video (its other item is an image, which cannot be downloaded); the third post had three videos; the second link (a reel) hit Instagram's anonymous rate limit and is being retried.
+
+| File | Size | Unique footage | Usable on screen | Notes |
+|---|---|---|---|---|
+| 52-street-motion-blur.mp4 | 1620×1080 | 11.6 s | ~12 s | Fast street shots: a truck, running feet, motion blur. The file is 23.2 s but it is the same 11.6 s sequence played twice. About 21 cuts per pass |
+| 53-wolf-chains-fire.mp4 | 1280×1016 | 5.0 s | ~5 s | A wolf in silhouette, breaking chains in front of a fire. Nearly square |
+| 54-horse-rider-fire.mp4 | 1280×1016 | 5.0 s | ~5 s | A rider on a galloping horse, silhouetted against a burning building |
+| 55-eagle-fire-chains.mp4 | 1280×1016 | 3.5 s | ~4 s | An eagle with chains, wings spread through fire |
+
+Batch total: 25.1 s unique, about 26 s usable (0.4 min).
+
 ## Running total
 
 | Batches | Usable screen time | Of 20 min |
@@ -113,3 +126,4 @@ Batch total: 13.5 s unique, about 13 s usable (0.2 min).
 | 1–3 | 2.8 min | 14% |
 | 1–4 | 3.9 min | 20% |
 | 1–5 | 4.1 min | 21% |
+| 1–6 | 4.5 min | 23% |
