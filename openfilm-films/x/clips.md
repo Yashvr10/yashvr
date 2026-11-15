@@ -117,6 +117,21 @@ From three Instagram links. The first post had one video (its other item is an i
 
 Batch total: 25.1 s unique, about 26 s usable (0.4 min).
 
+## Batch 07 (2026-11-15)
+
+From three Instagram links: the first post held four videos, the two reels one each. No duplicates.
+
+| File | Size | Unique footage | Usable on screen | Notes |
+|---|---|---|---|---|
+| 56-glow-figure-space.mp4 | 1080×608 | 4.2 s | ~4 s | A small glowing figure in blue cosmic light, glitch texture |
+| 57-figure-light-burst.mp4 | 1080×608 | 3.0 s | ~3 s | A figure on a horizon, exploding light, red and gold glitch |
+| 58-runner-thermal-space.mp4 | 1080×608 | 6.8 s | ~7 s | A runner in thermal colours, then through starfields and light bursts |
+| 59-figure-white-horizon.mp4 | 1080×608 | 9.7 s | ~10 s | A figure standing at a blown-out white horizon, glitch blocks |
+| 60-blue-night-city.mp4 | 1620×1080 | ~23 s | ~23 s | Blue-tinted night city: windows, a river walk, the London Eye, towers. The file is 25.1 s; its last 2 s repeat the opening. Slow dissolves between shots |
+| 61-head-hands-eyes.mp4 | 1440×1080 | 11.6 s | ~12 s | Black-and-white: a head in profile, hands, an eye in a palm. About 43 quick cuts. 4:3 |
+
+Batch total: about 58 s unique and usable (1.0 min).
+
 ## Running total
 
 | Batches | Usable screen time | Of 20 min |
@@ -127,3 +142,4 @@ Batch total: 25.1 s unique, about 26 s usable (0.4 min).
 | 1–4 | 3.9 min | 20% |
 | 1–5 | 4.1 min | 21% |
 | 1–6 | 4.5 min | 23% |
+| 1–7 | 5.5 min | 28% |
