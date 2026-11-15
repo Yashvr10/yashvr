@@ -2,226 +2,226 @@
 {
 "word": "Maybe",
 "start": 0.0,
-"end": 0.26
+"end": 0.2
 },
 {
 "word": "the",
-"start": 0.26,
-"end": 0.5
+"start": 0.2,
+"end": 0.4
 },
 {
 "word": "honest",
-"start": 0.5,
-"end": 0.8
+"start": 0.4,
+"end": 0.62
 },
 {
 "word": "plan",
-"start": 0.8,
-"end": 1.18
+"start": 0.62,
+"end": 0.98
 },
 {
 "word": "starts",
-"start": 1.18,
+"start": 0.98,
+"end": 1.38
+},
+{
+"word": "with",
+"start": 1.38,
 "end": 1.68
 },
 {
-"word": "with",
-"start": 1.68,
-"end": 1.98
-},
-{
 "word": "protecting",
-"start": 1.98,
-"end": 2.38
+"start": 1.68,
+"end": 2.06
 },
 {
 "word": "one",
-"start": 2.38,
-"end": 2.74
+"start": 2.06,
+"end": 2.4
 },
 {
 "word": "hour",
-"start": 2.74,
-"end": 3.14
+"start": 2.4,
+"end": 2.72
 },
 {
 "word": "instead",
-"start": 3.14,
-"end": 3.9
+"start": 2.72,
+"end": 3.34
 },
 {
 "word": "of",
-"start": 3.9,
-"end": 4.06
+"start": 3.34,
+"end": 3.5
 },
 {
 "word": "redesigning",
-"start": 4.06,
-"end": 4.8
+"start": 3.5,
+"end": 4.18
 },
 {
 "word": "your",
-"start": 4.8,
-"end": 5.02
+"start": 4.18,
+"end": 4.38
 },
 {
 "word": "whole",
-"start": 5.02,
-"end": 5.32
+"start": 4.38,
+"end": 4.66
 },
 {
 "word": "day.",
-"start": 5.32,
-"end": 5.74
+"start": 4.66,
+"end": 5.0
 },
 {
 "word": "Maybe",
-"start": 6.44,
-"end": 6.6
+"start": 5.56,
+"end": 5.7
 },
 {
 "word": "it",
-"start": 6.6,
-"end": 6.8
+"start": 5.7,
+"end": 5.86
 },
 {
 "word": "starts",
-"start": 6.8,
-"end": 7.14
+"start": 5.86,
+"end": 6.14
 },
 {
 "word": "with",
-"start": 7.14,
-"end": 7.54
+"start": 6.14,
+"end": 6.5
 },
 {
 "word": "removing",
-"start": 7.54,
-"end": 7.96
+"start": 6.5,
+"end": 6.88
 },
 {
 "word": "the",
-"start": 7.96,
-"end": 8.28
+"start": 6.88,
+"end": 7.12
 },
 {
 "word": "easiest",
-"start": 8.28,
-"end": 8.76
+"start": 7.12,
+"end": 7.5
 },
 {
 "word": "failure",
-"start": 8.76,
-"end": 9.18
+"start": 7.5,
+"end": 7.9
 },
 {
 "word": "point",
-"start": 9.18,
-"end": 9.72
+"start": 7.9,
+"end": 8.38
 },
 {
 "word": "before",
-"start": 9.72,
-"end": 10.34
+"start": 8.38,
+"end": 8.88
 },
 {
 "word": "adding",
-"start": 10.34,
-"end": 10.72
+"start": 8.88,
+"end": 9.2
 },
 {
 "word": "another",
-"start": 10.72,
-"end": 11.06
+"start": 9.2,
+"end": 9.5
 },
 {
 "word": "standard.",
-"start": 11.06,
-"end": 11.66
+"start": 9.5,
+"end": 10.0
 },
 {
 "word": "Maybe",
-"start": 12.34,
-"end": 12.56
+"start": 10.58,
+"end": 10.74
 },
 {
 "word": "it",
-"start": 12.56,
-"end": 12.76
+"start": 10.74,
+"end": 10.88
 },
 {
 "word": "starts",
-"start": 12.76,
-"end": 13.12
+"start": 10.88,
+"end": 11.16
 },
 {
 "word": "with",
-"start": 13.12,
-"end": 13.56
+"start": 11.16,
+"end": 11.56
 },
 {
 "word": "keeping",
-"start": 13.56,
-"end": 13.86
+"start": 11.56,
+"end": 11.8
 },
 {
 "word": "one",
-"start": 13.86,
-"end": 14.2
+"start": 11.8,
+"end": 12.12
 },
 {
 "word": "promise",
-"start": 14.2,
-"end": 14.6
+"start": 12.12,
+"end": 12.48
 },
 {
 "word": "for",
-"start": 14.6,
-"end": 14.84
+"start": 12.48,
+"end": 12.72
 },
 {
 "word": "two",
-"start": 14.84,
-"end": 15.1
+"start": 12.72,
+"end": 12.92
 },
 {
 "word": "weeks",
-"start": 15.1,
-"end": 15.5
+"start": 12.92,
+"end": 13.3
 },
 {
 "word": "before",
-"start": 15.5,
-"end": 16.18
+"start": 13.3,
+"end": 13.84
 },
 {
 "word": "trusting",
-"start": 16.18,
-"end": 16.62
+"start": 13.84,
+"end": 14.22
 },
 {
 "word": "yourself",
-"start": 16.62,
-"end": 17.18
+"start": 14.22,
+"end": 14.66
 },
 {
 "word": "with",
-"start": 17.18,
-"end": 17.72
+"start": 14.66,
+"end": 15.08
 },
 {
 "word": "a",
-"start": 17.72,
-"end": 17.84
+"start": 15.08,
+"end": 15.18
 },
 {
 "word": "bigger",
-"start": 17.84,
-"end": 18.08
+"start": 15.18,
+"end": 15.34
 },
 {
 "word": "one.",
-"start": 18.08,
-"end": 18.38
+"start": 15.34,
+"end": 15.58
 }
 ]

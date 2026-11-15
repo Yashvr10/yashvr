@@ -2,116 +2,116 @@
 {
 "word": "Hating",
 "start": 0.0,
-"end": 0.38
+"end": 0.3
 },
 {
 "word": "where",
-"start": 0.38,
-"end": 0.66
+"start": 0.3,
+"end": 0.58
 },
 {
 "word": "you",
-"start": 0.66,
-"end": 0.92
+"start": 0.58,
+"end": 0.82
 },
 {
 "word": "are",
-"start": 0.92,
-"end": 1.16
+"start": 0.82,
+"end": 1.02
 },
 {
 "word": "can",
-"start": 1.16,
-"end": 1.36
+"start": 1.02,
+"end": 1.2
 },
 {
 "word": "wake",
-"start": 1.36,
-"end": 1.6
+"start": 1.2,
+"end": 1.42
 },
 {
 "word": "you",
-"start": 1.6,
-"end": 1.82
+"start": 1.42,
+"end": 1.62
 },
 {
 "word": "up.",
-"start": 1.82,
-"end": 2.16
+"start": 1.62,
+"end": 1.92
 },
 {
 "word": "But",
-"start": 2.42,
-"end": 2.74
+"start": 2.16,
+"end": 2.38
 },
 {
 "word": "it's",
-"start": 2.74,
-"end": 2.92
+"start": 2.38,
+"end": 2.56
 },
 {
 "word": "not",
-"start": 2.92,
-"end": 3.1
+"start": 2.56,
+"end": 2.72
 },
 {
 "word": "useful",
-"start": 3.1,
-"end": 3.6
+"start": 2.72,
+"end": 3.2
 },
 {
 "word": "when",
-"start": 3.6,
-"end": 4.16
+"start": 3.2,
+"end": 3.66
 },
 {
 "word": "it",
-"start": 4.16,
-"end": 4.26
+"start": 3.66,
+"end": 3.76
 },
 {
 "word": "makes",
-"start": 4.26,
-"end": 4.42
+"start": 3.76,
+"end": 3.92
 },
 {
 "word": "you",
-"start": 4.42,
-"end": 4.62
+"start": 3.92,
+"end": 4.1
 },
 {
 "word": "reject",
-"start": 4.62,
-"end": 5.04
+"start": 4.1,
+"end": 4.46
 },
 {
 "word": "the",
-"start": 5.04,
-"end": 5.28
+"start": 4.46,
+"end": 4.68
 },
 {
 "word": "man",
-"start": 5.28,
-"end": 5.56
+"start": 4.68,
+"end": 4.92
 },
 {
 "word": "in",
-"start": 5.56,
-"end": 5.9
+"start": 4.92,
+"end": 5.22
 },
 {
 "word": "front",
-"start": 5.9,
-"end": 6.1
+"start": 5.22,
+"end": 5.4
 },
 {
 "word": "of",
-"start": 6.1,
-"end": 6.28
+"start": 5.4,
+"end": 5.54
 },
 {
 "word": "you.",
-"start": 6.28,
-"end": 6.52
+"start": 5.54,
+"end": 5.72
 }
 ]

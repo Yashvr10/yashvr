@@ -2,58 +2,78 @@
 <title>Captions</title>
 <style>
   body { background: transparent; }
-  .blk { position: absolute; display: none; line-height: .86; white-space: nowrap; }
-  .blk .ln { display: block; }
-  .w { visibility: hidden; display: inline-block; margin-right: .2em; font-size: 104px; }
-  .w.sm { font-size: 54px; letter-spacing: -.03em; }
-  .w.big { font-size: 178px; }
-  .blk .w.scr { font-size: 228px; }
-  .w.n { font-size: 80px; }
-  .w.k { font-size: 132px; }
-  .blk .w.scr.a { font-size: 176px; }
-  .behind { position: absolute; display: none; transform: translateX(-50%); line-height: normal; white-space: nowrap; }
-  .sub { position: absolute; left: 0; right: 0; top: 640px; text-align: center; display: none; }
-  .sub .w { font-size: 50px; font-weight: 800; letter-spacing: -.03em; margin-right: .22em; text-transform: none; }
-  .cite { position: absolute; left: 0; right: 0; bottom: 70px; text-align: center; display: none; font-family: "IT", sans-serif; font-weight: 600;
-          font-size: 24px; color: rgba(255,255,255,.75); text-shadow: 0 2px 10px rgba(0,0,0,.8); }
-  .dim { position: absolute; inset: 0; display: none; background: linear-gradient(180deg, rgba(0,0,0,.25), rgba(0,0,0,.5)); }
+  .q { position: absolute; display: none; white-space: nowrap; }
+  .q .w { visibility: hidden; font-size: 54px; letter-spacing: .005em; margin-right: .24em; }
+  .q.acc { text-align: center; line-height: .9; }
+  .q.acc .w.scr { display: block; font-size: 190px; margin: 0; }
+  .q.acc .rest { font-size: 46px; }
+  .e { position: absolute; left: 0; right: 0; display: none; text-align: center; white-space: nowrap; }
+  .e .row { display: flex; justify-content: center; }
+  .e .ln { display: inline-block; flex: none; line-height: .8; transform-origin: 50% 0; }
+  .e .w { visibility: hidden; margin: 0 .09em; }
+  .g { position: absolute; left: 0; right: 0; top: 70px; text-align: center; display: none; font-family: "EBG", serif; font-style: italic; font-weight: 500;
+       color: rgba(255,255,255,.22); font-size: 520px; line-height: .8; white-space: nowrap; }
 </style>
 </head>
 <body>
 <script>
 const D = {{data}};
-const POS = { l: "left:130px;top:50%;transform:translateY(-50%)", r: "right:130px;top:50%;transform:translateY(-50%)",
-  tl: "left:130px;top:120px", tr: "right:130px;top:120px", bl: "left:130px;bottom:130px", br: "right:130px;bottom:130px",
-  c: "left:50%;top:50%;transform:translate(-50%,-50%)" };
-const IND = [0, 52, 20, 64];
+const POS = {
+  l: "left:150px;top:44%", r: "right:150px;top:44%;text-align:right", c: "left:0;right:0;top:72%;text-align:center",
+  tl: "left:150px;top:150px", tr: "right:150px;top:150px;text-align:right", bl: "left:150px;bottom:150px", br: "right:150px;bottom:150px;text-align:right",
+};
 const els = D.map((b) => {
-  const out = { b, words: [] };
-  if (b.kind === "behind") {
-    const e = document.createElement("div"); e.className = "behind kin"; e.textContent = b.word;
-    e.style.cssText = `left:${b.x}px;top:${b.y}px;font-size:${b.size}px`; document.body.append(e); out.el = e; return out;
-  }
-  if (b.kind === "dim" || b.kind === "cite") {
-    const e = document.createElement("div"); e.className = b.kind; if (b.text) e.textContent = b.text; document.body.append(e); out.el = e; return out;
-  }
+  const o = { b, words: [] };
   const e = document.createElement("div");
-  e.className = (b.kind === "sub" ? "sub" : "blk") + " kin";
-  if (b.kind !== "sub") e.style.cssText = POS[b.pos] || POS.l;
-  b.lines.forEach((ln, i) => {
-    const l = document.createElement("span"); l.className = "ln"; if (b.kind !== "sub") l.style.marginLeft = IND[i % 4] + "px";
-    for (const w of ln) {
-      const s = document.createElement("span"); s.className = "w" + (w.c ? " " + w.c : ""); s.textContent = w.x; l.append(s); out.words.push([s, w.t]);
-    }
-    e.append(l);
-  });
-  document.body.append(e); out.el = e; return out;
+  if (b.kind === "quiet") {
+    e.className = "q quiet" + (b.acc ? " acc" : ""); e.style.cssText = POS[b.pos] || POS.l;
+    if (b.acc) {
+      const s = document.createElement("span"); s.className = "w scr"; s.textContent = b.words[0].x; e.append(s); o.words.push([s, b.words[0].t]);
+      const r = document.createElement("div"); r.className = "rest";
+      b.words.slice(1).forEach((w) => { const x = document.createElement("span"); x.className = "w"; x.style.fontSize = "46px"; x.textContent = w.x; r.append(x); o.words.push([x, w.t]); });
+      e.append(r);
+    } else b.words.forEach((w) => { const x = document.createElement("span"); x.className = "w"; x.textContent = w.x; e.append(x); o.words.push([x, w.t]); });
+  } else if (b.kind === "emph") {
+    e.className = "e emph"; e.style.top = "34px";
+    b.lines.forEach((ln, li) => {
+      const row = document.createElement("div"); row.className = "row";
+      const l = document.createElement("span"); l.className = "ln"; l.dataset.li = li;
+      ln.forEach((w) => { const x = document.createElement("span"); x.className = "w"; x.textContent = w.x; l.append(x); o.words.push([x, w.t, li]); });
+      row.append(l); e.append(row);
+    });
+  } else if (b.kind === "ghost") { e.className = "g"; e.textContent = b.word; }
+  document.body.append(e); o.el = e; return o;
 });
+// emphasis lines: condensed (the reference face is far narrower than any open didone) and sized to fill the frame width
+function layoutEmph(o) {
+  // each line: measure its natural width at 100px, then size it so that, narrowed to 62%, it spans the frame
+  const was = o.el.style.display; o.el.style.display = "block";   // hidden blocks measure as zero width
+  [...o.el.querySelectorAll(".ln")].forEach((l, li) => {
+    const target = li === 0 ? 1820 : 1150, max = li === 0 ? 680 : 260;
+    l.style.fontSize = "100px"; l.style.transform = "none";
+    const w = l.getBoundingClientRect().width;
+    l.style.fontSize = Math.min(max, (100 * target) / (w * 0.62)) + "px";
+    l.style.transform = "scaleX(.62)";
+    l.parentElement.style.marginTop = li ? "6px" : "0";
+  });
+  o.el.style.display = was;
+}
+const flashSpans = (o) => o.words;
 window.film = {
-  ready: document.fonts.ready,
+  ready: document.fonts.ready.then(() => els.filter((o) => o.b.kind === "emph").forEach(layoutEmph)),
   frame(t) {
     for (const o of els) {
       const on = t >= o.b.at && t < o.b.end;
       o.el.style.display = on ? "block" : "none";
-      if (on) for (const [s, wt] of o.words) s.style.visibility = t >= wt ? "visible" : "hidden";
+      if (!on) continue;
+      if (o.b.kind === "emph" && o.b.flash) {
+        // one word at a time: the latest spoken word replaces the one before
+        let cur = -1; o.words.forEach(([, wt], i) => { if (t >= wt) cur = i; });
+        o.words.forEach(([s], i) => (s.style.visibility = i === cur ? "visible" : "hidden"));
+        o.el.querySelectorAll(".ln").forEach((l) => (l.style.display = "block"));
+        o.words.forEach(([s, , li], i) => { s.style.display = i === cur ? "inline" : "none"; });
+        o.el.querySelectorAll(".ln").forEach((l) => { const vis = [...l.children].some((c) => c.style.display !== "none"); l.style.display = vis ? "block" : "none"; });
+      } else for (const [s, wt] of o.words) s.style.visibility = t >= wt ? "visible" : "hidden";
     }
   },
 };

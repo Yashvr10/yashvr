@@ -2,56 +2,56 @@
 {
 "word": "You",
 "start": 0.0,
-"end": 0.16
+"end": 0.1
 },
 {
 "word": "don't",
-"start": 0.16,
-"end": 0.4
+"start": 0.1,
+"end": 0.3
 },
 {
 "word": "need",
-"start": 0.4,
-"end": 0.56
+"start": 0.3,
+"end": 0.44
 },
 {
 "word": "a",
-"start": 0.56,
-"end": 0.74
+"start": 0.44,
+"end": 0.58
 },
 {
 "word": "bigger",
-"start": 0.74,
-"end": 0.96
+"start": 0.58,
+"end": 0.78
 },
 {
 "word": "plan.",
-"start": 0.96,
-"end": 1.46
+"start": 0.78,
+"end": 1.2
 },
 {
 "word": "You",
-"start": 1.96,
-"end": 2.04
+"start": 1.62,
+"end": 1.7
 },
 {
 "word": "need",
-"start": 2.04,
-"end": 2.24
+"start": 1.7,
+"end": 1.88
 },
 {
 "word": "an",
-"start": 2.24,
-"end": 2.46
+"start": 1.88,
+"end": 2.1
 },
 {
 "word": "honest",
-"start": 2.46,
-"end": 2.84
+"start": 2.1,
+"end": 2.42
 },
 {
 "word": "one.",
-"start": 2.84,
-"end": 3.2
+"start": 2.42,
+"end": 2.78
 }
 ]

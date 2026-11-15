@@ -2,141 +2,141 @@
 {
 "word": "An",
 "start": 0.0,
-"end": 0.14
+"end": 0.12
 },
 {
 "word": "honest",
-"start": 0.14,
-"end": 0.5
+"start": 0.12,
+"end": 0.44
 },
 {
 "word": "plan",
-"start": 0.5,
-"end": 0.98
+"start": 0.44,
+"end": 0.84
 },
 {
 "word": "usually",
-"start": 0.98,
-"end": 1.52
+"start": 0.84,
+"end": 1.28
 },
 {
 "word": "insults",
-"start": 1.52,
-"end": 2.1
+"start": 1.28,
+"end": 1.76
 },
 {
 "word": "your",
-"start": 2.1,
-"end": 2.36
+"start": 1.76,
+"end": 2.04
 },
 {
 "word": "pride",
-"start": 2.36,
-"end": 2.76
+"start": 2.04,
+"end": 2.38
 },
 {
 "word": "at",
-"start": 2.76,
-"end": 2.94
+"start": 2.38,
+"end": 2.56
 },
 {
 "word": "first.",
-"start": 2.94,
-"end": 3.48
+"start": 2.56,
+"end": 2.98
 },
 {
 "word": "Because",
-"start": 3.82,
-"end": 4.2
+"start": 3.22,
+"end": 3.6
 },
 {
 "word": "it",
-"start": 4.2,
-"end": 4.36
+"start": 3.6,
+"end": 3.74
 },
 {
 "word": "doesn't",
-"start": 4.36,
-"end": 4.7
+"start": 3.74,
+"end": 4.04
 },
 {
 "word": "begin",
-"start": 4.7,
-"end": 5.02
+"start": 4.04,
+"end": 4.34
 },
 {
 "word": "with",
-"start": 5.02,
-"end": 5.48
+"start": 4.34,
+"end": 4.7
 },
 {
 "word": "the",
-"start": 5.48,
-"end": 5.64
+"start": 4.7,
+"end": 4.84
 },
 {
 "word": "man",
-"start": 5.64,
-"end": 5.9
+"start": 4.84,
+"end": 5.06
 },
 {
 "word": "you",
-"start": 5.9,
-"end": 6.1
+"start": 5.06,
+"end": 5.28
 },
 {
 "word": "wish",
-"start": 6.1,
-"end": 6.3
+"start": 5.28,
+"end": 5.44
 },
 {
 "word": "you",
-"start": 6.3,
-"end": 6.56
+"start": 5.44,
+"end": 5.66
 },
 {
 "word": "were.",
-"start": 6.56,
-"end": 6.9
+"start": 5.66,
+"end": 5.96
 },
 {
 "word": "It",
+"start": 6.24,
+"end": 6.44
+},
+{
+"word": "begins",
+"start": 6.44,
+"end": 6.76
+},
+{
+"word": "with",
+"start": 6.76,
+"end": 7.12
+},
+{
+"word": "the",
+"start": 7.12,
+"end": 7.28
+},
+{
+"word": "man",
 "start": 7.28,
 "end": 7.5
 },
 {
-"word": "begins",
-"start": 7.5,
-"end": 7.84
-},
-{
-"word": "with",
-"start": 7.84,
-"end": 8.26
-},
-{
-"word": "the",
-"start": 8.26,
-"end": 8.42
-},
-{
-"word": "man",
-"start": 8.42,
-"end": 8.68
-},
-{
 "word": "you",
-"start": 8.68,
-"end": 8.9
+"start": 7.5,
+"end": 7.68
 },
 {
 "word": "actually",
-"start": 8.9,
-"end": 9.36
+"start": 7.68,
+"end": 8.1
 },
 {
 "word": "are.",
-"start": 9.36,
-"end": 9.76
+"start": 8.1,
+"end": 8.44
 }
 ]

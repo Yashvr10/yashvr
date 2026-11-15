@@ -2,81 +2,81 @@
 {
 "word": "That",
 "start": 0.0,
-"end": 0.18
+"end": 0.14
 },
 {
 "word": "can",
-"start": 0.18,
-"end": 0.38
+"start": 0.14,
+"end": 0.3
 },
 {
 "word": "feel",
-"start": 0.38,
-"end": 0.74
+"start": 0.3,
+"end": 0.62
 },
 {
 "word": "beneath",
-"start": 0.74,
-"end": 1.14
+"start": 0.62,
+"end": 0.98
 },
 {
 "word": "your",
-"start": 1.14,
-"end": 1.48
+"start": 0.98,
+"end": 1.32
 },
 {
 "word": "ambition.",
-"start": 1.48,
-"end": 2.04
+"start": 1.32,
+"end": 1.72
 },
 {
 "word": "It",
-"start": 2.64,
-"end": 2.82
+"start": 2.24,
+"end": 2.38
 },
 {
 "word": "isn't.",
-"start": 2.82,
-"end": 3.38
+"start": 2.38,
+"end": 2.84
 },
 {
 "word": "It",
-"start": 3.84,
-"end": 3.88
+"start": 3.18,
+"end": 3.26
 },
 {
 "word": "gives",
-"start": 3.88,
-"end": 4.08
+"start": 3.26,
+"end": 3.44
 },
 {
 "word": "your",
-"start": 4.08,
-"end": 4.32
+"start": 3.44,
+"end": 3.62
 },
 {
 "word": "ambition",
-"start": 4.32,
-"end": 4.84
+"start": 3.62,
+"end": 4.0
 },
 {
 "word": "somewhere",
-"start": 4.84,
-"end": 5.34
+"start": 4.0,
+"end": 4.56
 },
 {
 "word": "real",
-"start": 5.34,
-"end": 5.82
+"start": 4.56,
+"end": 4.9
 },
 {
 "word": "to",
-"start": 5.82,
-"end": 6.1
+"start": 4.9,
+"end": 5.16
 },
 {
 "word": "stand.",
-"start": 6.1,
-"end": 6.46
+"start": 5.16,
+"end": 5.5
 }
 ]

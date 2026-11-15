@@ -2,106 +2,106 @@
 {
 "word": "And",
 "start": 0.0,
-"end": 0.16
+"end": 0.1
 },
 {
 "word": "until",
-"start": 0.16,
-"end": 0.48
+"start": 0.1,
+"end": 0.36
 },
 {
 "word": "you",
-"start": 0.48,
-"end": 0.66
+"start": 0.36,
+"end": 0.54
 },
 {
 "word": "can",
-"start": 0.66,
-"end": 0.84
+"start": 0.54,
+"end": 0.7
 },
 {
 "word": "look",
-"start": 0.84,
-"end": 1.04
+"start": 0.7,
+"end": 0.86
 },
 {
 "word": "at",
-"start": 1.04,
-"end": 1.18
+"start": 0.86,
+"end": 0.98
 },
 {
 "word": "this",
-"start": 1.18,
-"end": 1.34
+"start": 0.98,
+"end": 1.12
 },
 {
 "word": "level",
-"start": 1.34,
-"end": 1.64
+"start": 1.12,
+"end": 1.42
 },
 {
 "word": "honestly,",
-"start": 1.64,
-"end": 2.2
+"start": 1.42,
+"end": 1.96
 },
 {
 "word": "you'll",
-"start": 2.84,
-"end": 2.96
+"start": 2.42,
+"end": 2.6
 },
 {
 "word": "keep",
-"start": 2.96,
-"end": 3.14
+"start": 2.6,
+"end": 2.78
 },
 {
 "word": "building",
-"start": 3.14,
-"end": 3.56
+"start": 2.78,
+"end": 3.16
 },
 {
 "word": "plans",
-"start": 3.56,
-"end": 4.24
+"start": 3.16,
+"end": 3.74
 },
 {
 "word": "that",
-"start": 4.24,
-"end": 4.76
+"start": 3.74,
+"end": 4.12
 },
 {
 "word": "collapse",
-"start": 4.76,
-"end": 5.16
+"start": 4.12,
+"end": 4.44
 },
 {
 "word": "the",
-"start": 5.16,
-"end": 5.5
+"start": 4.44,
+"end": 4.72
 },
 {
 "word": "moment",
-"start": 5.5,
-"end": 5.78
+"start": 4.72,
+"end": 4.98
 },
 {
 "word": "real",
-"start": 5.78,
-"end": 6.26
+"start": 4.98,
+"end": 5.4
 },
 {
 "word": "life",
-"start": 6.26,
-"end": 6.72
+"start": 5.4,
+"end": 5.8
 },
 {
 "word": "touches",
-"start": 6.72,
-"end": 7.3
+"start": 5.8,
+"end": 6.34
 },
 {
 "word": "them.",
-"start": 7.3,
-"end": 7.64
+"start": 6.34,
+"end": 6.62
 }
 ]

@@ -360,15 +360,6 @@
   "source": "https://clevelandart.org/art/1998.105"
  },
  {
-  "key": "inness-sunrise",
-  "file": "inness-sunrise.jpg",
-  "title": "Sunrise",
-  "artist": "George Inness",
-  "date": "1887",
-  "license": "Public domain (The Met Open Access, CC0)",
-  "source": "https://www.metmuseum.org/art/collection/search/11235"
- },
- {
   "key": "tryon-dawn",
   "file": "tryon-dawn.jpg",
   "title": "Dawn—Early Spring",
@@ -385,5 +376,14 @@
   "date": "after 1875",
   "license": "Public domain (The Met Open Access, CC0)",
   "source": "https://www.metmuseum.org/art/collection/search/10158"
+ },
+ {
+  "key": "oise-dawn",
+  "file": "oise-dawn.jpg",
+  "title": "Banks of the Oise at Dawn",
+  "artist": "Louis Hayet (French, 1864–1940)",
+  "date": "1888",
+  "license": "CC0 (Cleveland Museum of Art Open Access)",
+  "source": "https://clevelandart.org/art/2019.18"
  }
 ]

@@ -9,25 +9,25 @@
 <title>End</title>
 <style>
   body { background: #000; }
-  #wrap { position: absolute; left: 0; right: 0; top: 300px; text-align: center; }
+  #wrap { position: absolute; left: 0; right: 0; top: 150px; text-align: center; }
   #a { font-size: 150px; opacity: 0; line-height: 1; }
-  #c { position: absolute; left: 260px; right: 260px; top: 620px; text-align: center; font-family: "IT", sans-serif; font-weight: 500; font-size: 23px;
+  #c { position: absolute; left: 260px; right: 260px; top: 620px; text-align: center; font-family: "EBG", serif; font-weight: 400; font-size: 25px;
        line-height: 1.6; color: rgba(255,255,255,.62); opacity: 0; }
 </style>
 </head>
 <body>
-<div id="wrap" class="kin"><div id="a">then <span class="scr">rise</span></div></div>
-<div id="c">Narration: Kokoro TTS · Paintings, photographs and sculpture: The Cleveland Museum of Art Open Access (CC0); Inness, Tryon and Bierstadt: The Metropolitan Museum of Art (CC0)<br>
-Music: Satie, Gnossienne No. 3; Debussy, Clair de Lune; performed by Felted Classics (CC BY 3.0, via Jamendo)<br>
-Sound effects: earshot · Fonts: Inter Tight, Herr Von Muellerhoff (OFL) · Made with OpenFilm</div>
+<div id="wrap"><div id="a" class="emph" style="font-size:420px;line-height:.85;transform:scaleX(.62)">RISE</div></div>
+<div id="c">Narration: Kokoro TTS · Paintings, photographs and sculpture: The Cleveland Museum of Art Open Access (CC0); Tryon and Bierstadt: The Metropolitan Museum of Art (CC0)<br>
+Music: “Antihero” by Hyperreal; “Wild Horses” by Jakubowski Epic Music (CC BY-SA 3.0, via Jamendo)<br>
+Sound effects: earshot · Fonts: EB Garamond, Pinyon Script, Instrument Serif (OFL) · Made with OpenFilm</div>
 <script type="module">
 import { play } from "./lib/fw.js";
 const tl = gsap.timeline({ paused: true });
 tl.set("#a", { opacity: 1 }, 0.5);
 tl.to("#c", { opacity: 1, duration: 1.2 }, 1.8);
-tl.to(["#wrap", "#c"], { opacity: 0, duration: 1.0 }, 8 - 1.2);
-tl.to({}, { duration: 8 }, 0);
-play(tl, { duration: 8 });
+tl.to(["#wrap", "#c"], { opacity: 0, duration: 1.0 }, 7 - 1.2);
+tl.to({}, { duration: 7 }, 0);
+play(tl, { duration: 7 });
 </script>
 </body>
 </html>

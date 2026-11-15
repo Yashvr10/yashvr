@@ -2,171 +2,171 @@
 {
 "word": "Some",
 "start": 0.0,
-"end": 0.28
+"end": 0.24
 },
 {
 "word": "parts",
-"start": 0.28,
-"end": 0.58
+"start": 0.24,
+"end": 0.5
 },
 {
 "word": "of",
-"start": 0.58,
-"end": 0.76
+"start": 0.5,
+"end": 0.66
 },
 {
 "word": "your",
-"start": 0.76,
-"end": 0.9
+"start": 0.66,
+"end": 0.78
 },
 {
 "word": "life",
-"start": 0.9,
-"end": 1.18
+"start": 0.78,
+"end": 1.0
 },
 {
 "word": "may",
-"start": 1.18,
-"end": 1.44
+"start": 1.0,
+"end": 1.2
 },
 {
 "word": "be",
-"start": 1.44,
-"end": 1.6
+"start": 1.2,
+"end": 1.36
 },
 {
 "word": "behind.",
-"start": 1.6,
-"end": 2.06
+"start": 1.36,
+"end": 1.78
 },
 {
 "word": "Some",
-"start": 2.86,
-"end": 3.04
+"start": 2.42,
+"end": 2.56
 },
 {
 "word": "parts",
-"start": 3.04,
-"end": 3.38
+"start": 2.56,
+"end": 2.9
 },
 {
 "word": "may",
-"start": 3.38,
-"end": 3.58
+"start": 2.9,
+"end": 3.1
 },
 {
 "word": "be",
-"start": 3.58,
-"end": 3.76
+"start": 3.1,
+"end": 3.24
 },
 {
 "word": "weaker",
-"start": 3.76,
-"end": 4.06
+"start": 3.24,
+"end": 3.52
 },
 {
 "word": "than",
-"start": 4.06,
-"end": 4.4
+"start": 3.52,
+"end": 3.78
 },
 {
 "word": "you",
-"start": 4.4,
-"end": 4.58
+"start": 3.78,
+"end": 3.9
 },
 {
 "word": "want",
-"start": 4.58,
-"end": 4.72
+"start": 3.9,
+"end": 4.06
 },
 {
 "word": "to",
-"start": 4.72,
-"end": 4.9
+"start": 4.06,
+"end": 4.24
 },
 {
 "word": "admit.",
-"start": 4.9,
-"end": 5.24
+"start": 4.24,
+"end": 4.56
 },
 {
 "word": "Some",
-"start": 5.96,
-"end": 6.18
+"start": 5.14,
+"end": 5.32
 },
 {
 "word": "parts",
-"start": 6.18,
-"end": 6.52
+"start": 5.32,
+"end": 5.66
 },
 {
 "word": "may",
-"start": 6.52,
-"end": 6.76
+"start": 5.66,
+"end": 5.88
 },
 {
 "word": "show",
-"start": 6.76,
-"end": 7.06
+"start": 5.88,
+"end": 6.16
 },
 {
 "word": "years",
-"start": 7.06,
-"end": 7.44
+"start": 6.16,
+"end": 6.5
 },
 {
 "word": "of",
-"start": 7.44,
-"end": 7.66
+"start": 6.5,
+"end": 6.66
 },
 {
 "word": "delay,",
-"start": 7.66,
-"end": 8.08
+"start": 6.66,
+"end": 7.0
 },
 {
 "word": "comfort,",
-"start": 8.52,
-"end": 8.9
+"start": 7.36,
+"end": 7.68
 },
 {
 "word": "avoidance,",
-"start": 9.5,
-"end": 9.88
+"start": 8.16,
+"end": 8.52
 },
 {
 "word": "bad",
-"start": 10.48,
-"end": 10.68
+"start": 9.0,
+"end": 9.16
 },
 {
 "word": "habits,",
-"start": 10.68,
-"end": 11.14
+"start": 9.16,
+"end": 9.54
 },
 {
 "word": "or",
-"start": 11.4,
-"end": 11.64
+"start": 9.78,
+"end": 10.0
 },
 {
 "word": "promises",
-"start": 11.64,
-"end": 12.06
+"start": 10.0,
+"end": 10.36
 },
 {
 "word": "you",
-"start": 12.06,
-"end": 12.66
+"start": 10.36,
+"end": 10.84
 },
 {
 "word": "didn't",
-"start": 12.66,
-"end": 13.02
+"start": 10.84,
+"end": 11.16
 },
 {
 "word": "keep.",
-"start": 13.02,
-"end": 13.24
+"start": 11.16,
+"end": 11.36
 }
 ]

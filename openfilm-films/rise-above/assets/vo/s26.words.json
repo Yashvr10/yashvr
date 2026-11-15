@@ -2,61 +2,61 @@
 {
 "word": "You",
 "start": 0.0,
-"end": 0.14
+"end": 0.12
 },
 {
 "word": "don't",
-"start": 0.14,
-"end": 0.36
+"start": 0.12,
+"end": 0.28
 },
 {
 "word": "need",
-"start": 0.36,
-"end": 0.5
+"start": 0.28,
+"end": 0.42
 },
 {
 "word": "to",
-"start": 0.5,
-"end": 0.64
+"start": 0.42,
+"end": 0.56
 },
 {
 "word": "be",
-"start": 0.64,
-"end": 0.82
+"start": 0.56,
+"end": 0.72
 },
 {
 "word": "proud",
-"start": 0.82,
-"end": 1.1
+"start": 0.72,
+"end": 0.96
 },
 {
 "word": "of",
-"start": 1.1,
-"end": 1.34
+"start": 0.96,
+"end": 1.14
 },
 {
 "word": "where",
-"start": 1.34,
-"end": 1.6
+"start": 1.14,
+"end": 1.36
 },
 {
 "word": "you",
-"start": 1.6,
-"end": 1.84
+"start": 1.36,
+"end": 1.6
 },
 {
 "word": "are.",
-"start": 1.84,
-"end": 2.28
+"start": 1.6,
+"end": 1.94
 },
 {
 "word": "Not",
-"start": 2.66,
-"end": 2.82
+"start": 2.32,
+"end": 2.42
 },
 {
 "word": "yet.",
-"start": 2.82,
-"end": 3.16
+"start": 2.42,
+"end": 2.68
 }
 ]

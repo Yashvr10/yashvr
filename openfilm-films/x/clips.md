@@ -94,6 +94,16 @@ Skipped as duplicates: the spiral vortex (same as 07 in batch 02) and a second c
 
 Batch total: 39.1 s unique, about 65 s usable (1.1 min).
 
+## Batch 05 (2026-11-15)
+
+1 clip, from an Instagram reel link (downloaded with yt-dlp).
+
+| File | Size | Unique footage | Usable on screen | Notes |
+|---|---|---|---|---|
+| 51-instagram-reel.mp4 | 1440×1080 | 13.5 s | ~13 s | Black-and-white grainy film: a woman, sun flares, leaves, a river, reaching hands. About 42 cuts, so it is many short shots, not one loop. 4:3. Has a soundtrack (not usable) |
+
+Batch total: 13.5 s unique, about 13 s usable (0.2 min).
+
 ## Running total
 
 | Batches | Usable screen time | Of 20 min |
@@ -102,3 +112,4 @@ Batch total: 39.1 s unique, about 65 s usable (1.1 min).
 | 1–2 | 1.6 min | 8% |
 | 1–3 | 2.8 min | 14% |
 | 1–4 | 3.9 min | 20% |
+| 1–5 | 4.1 min | 21% |

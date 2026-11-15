@@ -2,66 +2,66 @@
 {
 "word": "That's",
 "start": 0.0,
-"end": 0.36
+"end": 0.26
 },
 {
 "word": "where",
-"start": 0.36,
-"end": 0.48
+"start": 0.26,
+"end": 0.4
 },
 {
 "word": "the",
-"start": 0.48,
-"end": 0.64
+"start": 0.4,
+"end": 0.56
 },
 {
 "word": "mistake",
-"start": 0.64,
-"end": 1.06
+"start": 0.56,
+"end": 0.96
 },
 {
 "word": "begins.",
-"start": 1.06,
-"end": 1.6
+"start": 0.96,
+"end": 1.48
 },
 {
 "word": "Not",
-"start": 2.02,
-"end": 2.36
+"start": 1.8,
+"end": 2.04
 },
 {
 "word": "with",
-"start": 2.36,
-"end": 2.58
+"start": 2.04,
+"end": 2.22
 },
 {
 "word": "lack",
-"start": 2.58,
-"end": 2.86
+"start": 2.22,
+"end": 2.46
 },
 {
 "word": "of",
-"start": 2.86,
-"end": 3.06
+"start": 2.46,
+"end": 2.62
 },
 {
 "word": "ambition.",
-"start": 3.06,
-"end": 3.56
+"start": 2.62,
+"end": 3.06
 },
 {
 "word": "With",
-"start": 4.12,
-"end": 4.24
+"start": 3.48,
+"end": 3.58
 },
 {
 "word": "inaccurate",
-"start": 4.24,
-"end": 4.78
+"start": 3.58,
+"end": 3.98
 },
 {
 "word": "planning.",
-"start": 4.78,
-"end": 5.28
+"start": 3.98,
+"end": 4.4
 }
 ]

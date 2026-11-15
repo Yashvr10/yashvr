@@ -2,151 +2,151 @@
 {
 "word": "A",
 "start": 0.0,
-"end": 0.16
+"end": 0.14
 },
 {
 "word": "plan",
-"start": 0.16,
-"end": 0.5
+"start": 0.14,
+"end": 0.4
 },
 {
 "word": "doesn't",
-"start": 0.5,
-"end": 0.98
+"start": 0.4,
+"end": 0.8
 },
 {
 "word": "change",
-"start": 0.98,
-"end": 1.26
+"start": 0.8,
+"end": 1.06
 },
 {
 "word": "your",
-"start": 1.26,
-"end": 1.54
+"start": 1.06,
+"end": 1.3
 },
 {
 "word": "life",
-"start": 1.54,
-"end": 1.92
+"start": 1.3,
+"end": 1.64
 },
 {
 "word": "because",
-"start": 1.92,
-"end": 2.56
+"start": 1.64,
+"end": 2.2
 },
 {
 "word": "it",
-"start": 2.56,
-"end": 2.76
+"start": 2.2,
+"end": 2.36
 },
 {
 "word": "sounds",
-"start": 2.76,
-"end": 3.18
+"start": 2.36,
+"end": 2.74
 },
 {
 "word": "impressive.",
-"start": 3.18,
-"end": 3.88
+"start": 2.74,
+"end": 3.36
 },
 {
 "word": "It",
-"start": 4.7,
-"end": 4.8
+"start": 4.02,
+"end": 4.1
 },
 {
 "word": "changes",
-"start": 4.8,
-"end": 5.28
+"start": 4.1,
+"end": 4.54
 },
 {
 "word": "your",
-"start": 5.28,
-"end": 5.56
+"start": 4.54,
+"end": 4.8
 },
 {
 "word": "life",
-"start": 5.56,
-"end": 5.92
+"start": 4.8,
+"end": 5.12
 },
 {
 "word": "when",
-"start": 5.92,
-"end": 6.48
+"start": 5.12,
+"end": 5.58
 },
 {
 "word": "it",
-"start": 6.48,
-"end": 6.6
+"start": 5.58,
+"end": 5.7
 },
 {
 "word": "fits",
-"start": 6.6,
-"end": 6.9
+"start": 5.7,
+"end": 5.9
 },
 {
 "word": "your",
-"start": 6.9,
-"end": 7.16
+"start": 5.9,
+"end": 6.14
 },
 {
 "word": "real",
-"start": 7.16,
-"end": 7.44
+"start": 6.14,
+"end": 6.4
 },
 {
 "word": "situation",
-"start": 7.44,
-"end": 8.1
+"start": 6.4,
+"end": 7.0
 },
 {
 "word": "well",
-"start": 8.1,
-"end": 8.74
+"start": 7.0,
+"end": 7.52
 },
 {
 "word": "enough",
-"start": 8.74,
-"end": 9.0
+"start": 7.52,
+"end": 7.76
 },
 {
 "word": "to",
-"start": 9.0,
-"end": 9.2
+"start": 7.76,
+"end": 7.94
 },
 {
 "word": "be",
-"start": 9.2,
-"end": 9.34
+"start": 7.94,
+"end": 8.06
 },
 {
 "word": "repeated",
-"start": 9.34,
-"end": 9.86
+"start": 8.06,
+"end": 8.5
 },
 {
 "word": "until",
-"start": 9.86,
-"end": 10.66
+"start": 8.5,
+"end": 9.18
 },
 {
 "word": "it",
-"start": 10.66,
-"end": 10.84
+"start": 9.18,
+"end": 9.32
 },
 {
 "word": "creates",
-"start": 10.84,
-"end": 11.26
+"start": 9.32,
+"end": 9.72
 },
 {
 "word": "real",
-"start": 11.26,
-"end": 11.72
+"start": 9.72,
+"end": 10.12
 },
 {
 "word": "progress.",
-"start": 11.72,
-"end": 12.3
+"start": 10.12,
+"end": 10.68
 }
 ]

@@ -2,91 +2,91 @@
 {
 "word": "Build",
 "start": 0.0,
-"end": 0.32
+"end": 0.24
 },
 {
 "word": "what",
-"start": 0.32,
-"end": 0.56
+"start": 0.24,
+"end": 0.46
 },
 {
 "word": "your",
-"start": 0.56,
-"end": 0.78
+"start": 0.46,
+"end": 0.66
 },
 {
 "word": "real",
-"start": 0.78,
-"end": 1.1
+"start": 0.66,
+"end": 0.96
 },
 {
 "word": "life",
-"start": 1.1,
-"end": 1.42
+"start": 0.96,
+"end": 1.22
 },
 {
 "word": "can",
-"start": 1.42,
-"end": 1.72
+"start": 1.22,
+"end": 1.48
 },
 {
 "word": "carry.",
-"start": 1.72,
-"end": 2.18
+"start": 1.48,
+"end": 1.88
 },
 {
 "word": "Then,",
-"start": 2.8,
-"end": 3.12
+"start": 2.38,
+"end": 2.62
 },
 {
 "word": "when",
-"start": 3.28,
-"end": 3.66
+"start": 2.76,
+"end": 3.08
 },
 {
 "word": "you've",
-"start": 3.66,
-"end": 3.92
+"start": 3.08,
+"end": 3.3
 },
 {
 "word": "gotten",
-"start": 3.92,
-"end": 4.1
+"start": 3.3,
+"end": 3.46
 },
 {
 "word": "stronger",
-"start": 4.1,
-"end": 4.58
+"start": 3.46,
+"end": 3.92
 },
 {
 "word": "from",
-"start": 4.58,
-"end": 4.9
+"start": 3.92,
+"end": 4.18
 },
 {
 "word": "carrying",
-"start": 4.9,
-"end": 5.28
+"start": 4.18,
+"end": 4.52
 },
 {
 "word": "it,",
-"start": 5.28,
-"end": 5.68
+"start": 4.52,
+"end": 4.86
 },
 {
 "word": "make",
-"start": 5.94,
-"end": 6.04
+"start": 5.12,
+"end": 5.2
 },
 {
 "word": "it",
-"start": 6.04,
-"end": 6.26
+"start": 5.2,
+"end": 5.38
 },
 {
 "word": "heavier.",
-"start": 6.26,
-"end": 6.46
+"start": 5.38,
+"end": 5.58
 }
 ]

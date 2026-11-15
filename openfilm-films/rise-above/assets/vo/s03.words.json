@@ -2,36 +2,36 @@
 {
 "word": "Your",
 "start": 0.0,
-"end": 0.2
+"end": 0.14
 },
 {
 "word": "current",
-"start": 0.2,
-"end": 0.54
+"start": 0.14,
+"end": 0.44
 },
 {
 "word": "level",
-"start": 0.54,
-"end": 0.86
+"start": 0.44,
+"end": 0.74
 },
 {
 "word": "feels",
-"start": 0.86,
-"end": 1.38
+"start": 0.74,
+"end": 1.18
 },
 {
 "word": "like",
-"start": 1.38,
-"end": 1.86
+"start": 1.18,
+"end": 1.6
 },
 {
 "word": "an",
-"start": 1.86,
-"end": 2.06
+"start": 1.6,
+"end": 1.76
 },
 {
 "word": "insult.",
-"start": 2.06,
-"end": 2.58
+"start": 1.76,
+"end": 2.16
 }
 ]

@@ -9,21 +9,30 @@
 <title>Chapter</title>
 <style>
   body { background: #000; }
-  #wrap { position: absolute; left: 0; right: 0; top: 400px; text-align: center; }
-  #num { font-size: 44px; opacity: 0; letter-spacing: -.02em; color: rgba(255,255,255,.7); text-shadow: none; }
-  #name { font-size: 130px; opacity: 0; margin-top: 18px; line-height: 1; }
+  #wrap { position: absolute; left: 0; right: 0; top: 330px; text-align: center; }
+  #num { font-family: "EBG", serif; font-weight: 400; font-size: 150px; color: #fff; opacity: 0; line-height: 1; letter-spacing: .04em; }
+  #name { font-family: "EBG", serif; font-weight: 500; font-size: 64px; color: #fff; margin-top: 40px; white-space: pre; }
+  #name .c { visibility: hidden; }
+  #caret { display: inline-block; width: 3px; height: 58px; background: #fff; vertical-align: -6px; margin-left: 4px; }
 </style>
 </head>
 <body>
-<div id="wrap" class="kin"><div id="num">three</div><div id="name">rise from <span class="scr">here</span></div></div>
+<div id="wrap"><div id="num">III</div><div id="name"></div></div>
 <script type="module">
 import { play } from "./lib/fw.js";
+const TITLE = "Rise from here", T0 = 0.7, DT = 0.055;
+const name = document.getElementById("name");
+const cs = [...TITLE].map((ch) => { const s = document.createElement("span"); s.className = "c"; s.textContent = ch; name.append(s); return s; });
+const caret = document.createElement("span"); caret.id = "caret"; name.append(caret);
 const tl = gsap.timeline({ paused: true });
-tl.set("#num", { opacity: 1 }, 0.2);
-tl.set("#name", { opacity: 1 }, 0.55);
-tl.to("#wrap", { opacity: 0, duration: 0.3 }, 4 - 0.4);
-tl.to({}, { duration: 4 }, 0);
-play(tl, { duration: 4 });
+tl.set("#num", { opacity: 1 }, 0.15);
+cs.forEach((s, i) => tl.set(s, { visibility: "visible" }, T0 + i * DT));
+for (let b = 0; b < 12; b++) tl.set(caret, { opacity: b % 2 ? 1 : 0 }, b * 0.33);
+tl.set(caret, { opacity: 1 }, T0);
+tl.set(caret, { opacity: 0 }, 2.8 - 0.4);
+tl.to("#wrap", { opacity: 0, duration: 0.25 }, 2.8 - 0.3);
+tl.to({}, { duration: 2.8 }, 0);
+play(tl, { duration: 2.8 });
 </script>
 </body>
 </html>

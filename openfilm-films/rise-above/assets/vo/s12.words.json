@@ -2,71 +2,71 @@
 {
 "word": "Not",
 "start": 0.0,
-"end": 0.28
+"end": 0.18
 },
 {
 "word": "by",
-"start": 0.28,
-"end": 0.54
+"start": 0.18,
+"end": 0.38
 },
 {
 "word": "much.",
-"start": 0.54,
-"end": 0.96
+"start": 0.38,
+"end": 0.74
 },
 {
 "word": "Just",
-"start": 1.36,
-"end": 1.64
+"start": 1.06,
+"end": 1.32
 },
 {
 "word": "enough",
-"start": 1.64,
-"end": 1.9
+"start": 1.32,
+"end": 1.56
 },
 {
 "word": "to",
-"start": 1.9,
-"end": 2.12
+"start": 1.56,
+"end": 1.74
 },
 {
 "word": "make",
-"start": 2.12,
-"end": 2.3
+"start": 1.74,
+"end": 1.88
 },
 {
 "word": "the",
-"start": 2.3,
-"end": 2.5
+"start": 1.88,
+"end": 2.06
 },
 {
 "word": "week",
-"start": 2.5,
-"end": 2.74
+"start": 2.06,
+"end": 2.26
 },
 {
 "word": "look",
-"start": 2.74,
-"end": 3.02
+"start": 2.26,
+"end": 2.56
 },
 {
 "word": "easier",
-"start": 3.02,
-"end": 3.5
+"start": 2.56,
+"end": 2.92
 },
 {
 "word": "than",
-"start": 3.5,
-"end": 3.88
+"start": 2.92,
+"end": 3.26
 },
 {
 "word": "it",
-"start": 3.88,
-"end": 4.02
+"start": 3.26,
+"end": 3.4
 },
 {
 "word": "is.",
-"start": 4.02,
-"end": 4.36
+"start": 3.4,
+"end": 3.66
 }
 ]

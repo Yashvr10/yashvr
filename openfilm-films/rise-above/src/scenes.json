@@ -1,12 +1,12 @@
 {
  "voice": "bm_george",
- "speed": 0.88,
- "gap": 0.55,
+ "speed": 1.1,
+ "gap": 0.3,
  "scenes": [
   {
    "id": "title",
    "card": "title",
-   "len": 6.5
+   "len": 5.0
   },
   {
    "id": "s01",
@@ -15,9 +15,11 @@
     {
      "photo": "thinker",
      "kb": "in",
-     "focus": "50% 30%",
-     "pos": "tl",
-     "behind": "honest"
+     "focus": "50% 40%",
+     "pos": "l",
+     "emph": "an honest one",
+     "behind": true,
+     "fit": true
     }
    ]
   },
@@ -28,9 +30,10 @@
     {
      "photo": "portrait-armour",
      "kb": "in",
-     "focus": "50% 20%",
-     "pos": "tl",
-     "behind": "pride"
+     "focus": "50% 40%",
+     "pos": "r",
+     "accent": "pride",
+     "fit": true
     }
    ]
   },
@@ -41,9 +44,10 @@
     {
      "photo": "self-portrait-dark",
      "kb": "in",
-     "focus": "50% 30%",
-     "pos": "tr",
-     "stack": "an ~insult~"
+     "focus": "50% 40%",
+     "pos": "r",
+     "emph": "an insult",
+     "fit": true
     }
    ]
   },
@@ -55,21 +59,29 @@
      "photo": "training-quarters",
      "kb": "in",
      "focus": "50% 40%",
-     "pos": "tl"
+     "pos": "r",
+     "emph": "basic reps simple routines",
+     "flash": true,
+     "fit": true
     },
     {
      "photo": "blacksmith",
      "kb": "in",
-     "focus": "50% 50%",
-     "pos": "tl",
-     "cut": "ugly"
+     "focus": "50% 40%",
+     "pos": "l",
+     "cut": "ugly",
+     "emph": "ugly rebuilds small promises",
+     "flash": true,
+     "fit": true
     },
     {
      "photo": "tired-gleaner",
      "kb": "in",
      "focus": "50% 40%",
-     "pos": "tl",
-     "cut": "embarrassing"
+     "pos": "r",
+     "cut": "embarrassing",
+     "accent": "convince",
+     "fit": true
     }
    ]
   },
@@ -80,9 +92,10 @@
     {
      "photo": "marble-head",
      "kb": "in",
-     "focus": "50% 30%",
-     "pos": "tl",
-     "stack": "harder / to ~face~"
+     "focus": "50% 40%",
+     "pos": "l",
+     "accent": "face",
+     "fit": true
     }
    ]
   },
@@ -93,15 +106,18 @@
     {
      "photo": "rosati",
      "kb": "in",
-     "focus": "50% 30%",
-     "pos": "tr"
+     "focus": "50% 40%",
+     "pos": "r",
+     "emph": "less flattering",
+     "fit": true
     },
     {
      "photo": "stag-sharkeys",
      "kb": "in",
      "focus": "50% 40%",
-     "pos": "tl",
-     "cut": "trains"
+     "pos": "c",
+     "cut": "trains",
+     "fit": true
     }
    ]
   },
@@ -112,9 +128,11 @@
     {
      "photo": "workman",
      "kb": "in",
-     "focus": "50% 30%",
-     "pos": "tl",
-     "behind": "here"
+     "focus": "50% 40%",
+     "pos": "l",
+     "emph": "actually here",
+     "behind": true,
+     "fit": true
     }
    ]
   },
@@ -125,15 +143,21 @@
     {
      "photo": "athlete-statue",
      "kb": "in",
-     "focus": "50% 8%",
-     "pos": "tl"
+     "focus": "50% 40%",
+     "pos": "r",
+     "emph": "body focus",
+     "flash": true,
+     "fit": true
     },
     {
      "photo": "labourers",
      "kb": "in",
-     "focus": "50% 50%",
-     "pos": "tl",
-     "cut": "money"
+     "focus": "50% 40%",
+     "pos": "c",
+     "cut": "money",
+     "emph": "money routine self-trust",
+     "flash": true,
+     "fit": true
     }
    ]
   },
@@ -144,9 +168,10 @@
     {
      "photo": "self-portrait-hat",
      "kb": "in",
-     "focus": "50% 30%",
-     "pos": "tr",
-     "stack": "keep / ~resenting~"
+     "focus": "50% 40%",
+     "pos": "r",
+     "accent": "resenting",
+     "fit": true
     }
    ]
   },
@@ -157,18 +182,19 @@
     {
      "photo": "storm-wight",
      "kb": "in",
-     "focus": "50% 50%",
-     "pos": "tl",
-     "stack": "plans that / ^collapse^"
+     "focus": "50% 40%",
+     "pos": "c",
+     "emph": "plans that collapse",
+     "fit": true
     }
    ]
   },
   {
    "id": "ch1",
    "card": "chapter",
-   "num": "one",
-   "title": "where the plan starts ~lying~",
-   "len": 4.0
+   "num": "I",
+   "title": "Where the plan starts lying",
+   "len": 3.4
   },
   {
    "id": "s11",
@@ -177,8 +203,9 @@
     {
      "photo": "capitol-stairs",
      "kb": "in",
-     "focus": "50% 50%",
-     "pos": "tl"
+     "focus": "50% 40%",
+     "pos": "c",
+     "emph": "rounded you up"
     }
    ]
   },
@@ -189,8 +216,10 @@
     {
      "photo": "tokyo-rain",
      "kb": "in",
-     "focus": "50% 45%",
-     "pos": "tl"
+     "focus": "50% 40%",
+     "pos": "r",
+     "accent": "easier",
+     "fit": true
     }
    ]
   },
@@ -201,15 +230,17 @@
     {
      "photo": "winter-sunrise",
      "kb": "in",
-     "focus": "50% 50%",
-     "pos": "tl"
+     "focus": "50% 40%",
+     "pos": "c"
     },
     {
      "photo": "self-portrait-print",
      "kb": "in",
-     "focus": "50% 30%",
-     "pos": "tl",
-     "cut": "stay"
+     "focus": "50% 40%",
+     "pos": "r",
+     "cut": "stay",
+     "accent": "notes",
+     "fit": true
     }
    ]
   },
@@ -220,15 +251,17 @@
     {
      "photo": "wrestlers-circus",
      "kb": "in",
-     "focus": "50% 50%",
-     "pos": "tl"
+     "focus": "50% 40%",
+     "pos": "c",
+     "fit": true
     },
     {
      "photo": "ferry-slip",
      "kb": "in",
-     "focus": "50% 50%",
-     "pos": "tl",
-     "cut": "next"
+     "focus": "50% 40%",
+     "pos": "c",
+     "cut": "next",
+     "emph": "why this week wasn't"
     }
    ]
   },
@@ -239,9 +272,10 @@
     {
      "photo": "portrait-caillebotte",
      "kb": "in",
-     "focus": "60% 40%",
-     "pos": "tl",
-     "stack": "inaccurate / ^planning^"
+     "focus": "50% 40%",
+     "pos": "l",
+     "emph": "inaccurate planning",
+     "fit": true
     }
    ]
   },
@@ -252,18 +286,19 @@
     {
      "photo": "bronze-bust",
      "kb": "in",
-     "focus": "50% 35%",
-     "pos": "tl",
-     "stack": "the ~weak~ / ^points^"
+     "focus": "50% 40%",
+     "pos": "l",
+     "accent": "wish",
+     "fit": true
     }
    ]
   },
   {
    "id": "ch2",
    "card": "chapter",
-   "num": "two",
-   "title": "build what your life can ~carry~",
-   "len": 4.0
+   "num": "II",
+   "title": "Build what your real life can carry",
+   "len": 4.2
   },
   {
    "id": "s17",
@@ -272,9 +307,10 @@
     {
      "photo": "old-pat",
      "kb": "in",
-     "focus": "50% 25%",
-     "pos": "tl",
-     "stack": "the man / you ~actually~ are"
+     "focus": "50% 40%",
+     "pos": "l",
+     "emph": "the man you actually are",
+     "fit": true
     }
    ]
   },
@@ -285,9 +321,10 @@
     {
      "photo": "vatican-stairs",
      "kb": "in",
-     "focus": "50% 50%",
-     "pos": "tl",
-     "stack": "repeat / long enough / to ~change~"
+     "focus": "50% 40%",
+     "pos": "r",
+     "emph": "repeat / long enough to change",
+     "fit": true
     }
    ]
   },
@@ -299,8 +336,10 @@
      "photo": "atlas-hercules",
      "kb": "in",
      "focus": "50% 40%",
-     "pos": "tl",
-     "stack": "more ^power^"
+     "pos": "l",
+     "emph": "more power",
+     "behind": true,
+     "fit": true
     }
    ]
   },
@@ -311,15 +350,19 @@
     {
      "photo": "hercules-lion",
      "kb": "in",
-     "focus": "50% 35%",
-     "pos": "tl"
+     "focus": "50% 40%",
+     "pos": "r",
+     "emph": "collapsing restarting punishing",
+     "flash": true,
+     "fit": true
     },
     {
      "photo": "pickle-herring",
      "kb": "in",
-     "focus": "50% 50%",
-     "pos": "tl",
-     "cut": "writing"
+     "focus": "50% 40%",
+     "pos": "c",
+     "cut": "writing",
+     "accent": "fantasy"
     }
    ]
   },
@@ -330,9 +373,10 @@
     {
      "photo": "dawn-hunter",
      "kb": "in",
-     "focus": "50% 50%",
-     "pos": "tl",
-     "stack": "the ~ordinary~ / week"
+     "focus": "50% 40%",
+     "pos": "c",
+     "accent": "ordinary",
+     "fit": true
     }
    ]
   },
@@ -343,22 +387,25 @@
     {
      "photo": "biglin",
      "kb": "in",
-     "focus": "50% 50%",
-     "pos": "tl"
+     "focus": "50% 40%",
+     "pos": "c",
+     "emph": "one hour"
     },
     {
      "photo": "laborers-group",
      "kb": "in",
      "focus": "50% 40%",
-     "pos": "tl",
-     "cut": "removing"
+     "pos": "r",
+     "cut": "removing",
+     "fit": true
     },
     {
      "photo": "sunrise-clearing",
      "kb": "in",
-     "focus": "50% 50%",
-     "pos": "tl",
-     "cut": "keeping"
+     "focus": "50% 40%",
+     "pos": "c",
+     "cut": "keeping",
+     "emph": "one promise"
     }
    ]
   },
@@ -369,9 +416,9 @@
     {
      "photo": "schroon-mountain",
      "kb": "in",
-     "focus": "50% 50%",
-     "pos": "tl",
-     "stack": "somewhere ~real~ / to ^stand^"
+     "focus": "50% 40%",
+     "pos": "c",
+     "emph": "somewhere real / to stand"
     }
    ]
   },
@@ -382,8 +429,10 @@
     {
      "photo": "road-menders",
      "kb": "in",
-     "focus": "50% 50%",
-     "pos": "tl"
+     "focus": "50% 40%",
+     "pos": "c",
+     "accent": "progress",
+     "fit": true
     }
    ]
   },
@@ -394,18 +443,19 @@
     {
      "photo": "forest-road",
      "kb": "in",
-     "focus": "50% 50%",
-     "pos": "tl",
-     "stack": "make it / ^heavier^"
+     "focus": "50% 40%",
+     "pos": "r",
+     "emph": "make it heavier",
+     "fit": true
     }
    ]
   },
   {
    "id": "ch3",
    "card": "chapter",
-   "num": "three",
-   "title": "rise from ~here~",
-   "len": 4.0
+   "num": "III",
+   "title": "Rise from here",
+   "len": 2.8
   },
   {
    "id": "s26",
@@ -414,9 +464,9 @@
     {
      "photo": "storm-sea",
      "kb": "in",
-     "focus": "50% 50%",
-     "pos": "tl",
-     "stack": "not ~yet~"
+     "focus": "50% 40%",
+     "pos": "c",
+     "emph": "not yet"
     }
    ]
   },
@@ -427,8 +477,11 @@
     {
      "photo": "ruisdael-hills",
      "kb": "in",
-     "focus": "50% 50%",
-     "pos": "tl"
+     "focus": "50% 40%",
+     "pos": "c",
+     "emph": "delay comfort avoidance",
+     "flash": true,
+     "fit": true
     }
    ]
   },
@@ -439,8 +492,10 @@
     {
      "photo": "old-road-sea",
      "kb": "in",
-     "focus": "50% 50%",
-     "pos": "tl"
+     "focus": "50% 40%",
+     "pos": "c",
+     "accent": "reject",
+     "fit": true
     }
    ]
   },
@@ -451,9 +506,10 @@
     {
      "photo": "dawn-sunset-photo",
      "kb": "in",
-     "focus": "50% 50%",
-     "pos": "tl",
-     "stack": "has to be / ^trained^"
+     "focus": "50% 40%",
+     "pos": "c",
+     "emph": "not your obstacle / the one who has to be trained",
+     "fit": true
     }
    ]
   },
@@ -464,8 +520,9 @@
     {
      "photo": "mont-maudit",
      "kb": "in",
-     "focus": "50% 50%",
-     "pos": "tl"
+     "focus": "50% 40%",
+     "pos": "c",
+     "accent": "respect"
     }
    ]
   },
@@ -476,8 +533,9 @@
     {
      "photo": "tryon-dawn",
      "kb": "in",
-     "focus": "50% 50%",
-     "pos": "tl"
+     "focus": "50% 40%",
+     "pos": "c",
+     "accent": "today"
     }
    ]
   },
@@ -486,11 +544,12 @@
    "text": "Your current level isn't where you're meant to stay. It's where the rise has to begin.",
    "visuals": [
     {
-     "photo": "inness-sunrise",
+     "photo": "oise-dawn",
      "kb": "in",
-     "focus": "50% 50%",
-     "pos": "tl",
-     "stack": "where the ^rise^ / has to ~begin~"
+     "focus": "50% 40%",
+     "pos": "c",
+     "emph": "where the rise / has to begin",
+     "fit": true
     }
    ]
   },
@@ -502,15 +561,17 @@
      "photo": "bierstadt-matterhorn",
      "kb": "up",
      "focus": "50% 35%",
-     "pos": "tl",
-     "stack": "then ^rise^ / from ~there~"
+     "pos": "c",
+     "emph": "rise",
+     "flash": true,
+     "fit": true
     }
    ]
   },
   {
    "id": "end",
    "card": "end",
-   "len": 8.0
+   "len": 7.0
   }
  ]
 }

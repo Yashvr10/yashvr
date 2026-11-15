@@ -39,5 +39,33 @@
   "file": "distant-church-bell-toll-f328e5.mp3",
   "title": "Distant church bell toll",
   "license": "CC0 (Freesound)"
+ },
+ {
+  "key": "key1",
+  "file": "key1.mp3",
+  "title": "earshot sound bank: fit/key/thock",
+  "license": "MIT (earshot, rendered from code)",
+  "source": "https://github.com/Leonxlnx/earshot"
+ },
+ {
+  "key": "key2",
+  "file": "key2.mp3",
+  "title": "earshot sound bank: fit/key/medium",
+  "license": "MIT (earshot, rendered from code)",
+  "source": "https://github.com/Leonxlnx/earshot"
+ },
+ {
+  "key": "key3",
+  "file": "key3.mp3",
+  "title": "earshot sound bank: fit/key/lubed",
+  "license": "MIT (earshot, rendered from code)",
+  "source": "https://github.com/Leonxlnx/earshot"
+ },
+ {
+  "key": "keysp",
+  "file": "keysp.mp3",
+  "title": "earshot sound bank: fit/key.space/thock_space",
+  "license": "MIT (earshot, rendered from code)",
+  "source": "https://github.com/Leonxlnx/earshot"
  }
 ]

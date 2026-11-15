@@ -21,8 +21,8 @@ const r3 = (x) => Math.round(x * 1000) / 1000;
 const norm = (w) => w.toLowerCase().replace(/[^a-z0-9]/g, "");
 const dur = (f) => +execFileSync("ffprobe", ["-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", path.join(ROOT, f)]).toString();
 
-const LEAD = 0.7;   // air before the voice
-const TAIL = 1.5;  // air after it (an essay film breathes)
+const LEAD = 0.3;   // air before the voice (a motivational pace)
+const TAIL = 0.55; // air after it
 const FADE = 0.6;   // each shot's way in and out: slow dissolves through dark
 
 // ---- words: from each scene's .vtt, [{ w, t }] with t from the voice's start ----
@@ -80,10 +80,15 @@ for (const s of cfg.scenes) {
     if (s.card === "chapter") chapters.push(t);
     const html = tpl(s.card).replaceAll("{{head}}", HEAD).replaceAll("{{len}}", len)
       .replaceAll("{{num}}", s.num || "").replaceAll("{{title}}", (s.title || "").replace(/~(.*?)~/g, '<span class="scr">$1</span>'))
+      .replaceAll("{{titlejson}}", JSON.stringify((s.title || "").replace(/~/g, ""))).replaceAll("{{type0}}", "0.7").replaceAll("{{typedt}}", "0.055")
       .replaceAll("{{late}}", fs.existsSync(path.join(ROOT, "assets/music/beethoven-7.mp3")) ? " · Beethoven, Symphony No. 7, Allegretto" : "");
     fs.writeFileSync(path.join(ROOT, name + ".html"), html);
     pages.push({ id: name, src: name + ".html", at: t, len, fade: s.card === "title" ? [0.8, 0.6] : [0.25, 0.4] });
-    if (s.card === "chapter") sfx.push({ f: "swell.mp3", at: t + 0.05, vol: 0.55 });
+    // chapter: the numeral on a key, then the title typed out, one keystroke per character (space bar on spaces)
+    if (s.card === "chapter") {
+      sfx.push({ f: "key1.mp3", at: t + 0.12, vol: 0.8 });
+      [...(s.title || "").replace(/~/g, "")].forEach((ch, j) => sfx.push({ f: ch === " " ? "keysp.mp3" : ["key1.mp3", "key2.mp3", "key3.mp3"][(j * 7) % 3], at: t + 0.7 + j * 0.055, vol: ch === " " ? 0.55 : 0.5 + ((j * 13) % 5) * 0.04, extra: true }));
+    }
     // the title: a hit under each "rise", then a swell into "above the ordinary"
     if (s.card === "title") { for (const d of [0.5, 1.4, 2.3]) sfx.push({ f: "kick.mp3", at: t + d, vol: 0.8 }); sfx.push({ f: "swell.mp3", at: t + 2.7, vol: 0.6 }); }
     s._t = t; s._len = len;
@@ -109,11 +114,11 @@ for (const s of cfg.scenes) {
     const cue = (key) => r3(voAt + cueTime(ws, key) - at);
     if (v.photo) {
       // the reference cuts often: a painting held longer than 9 s cuts from the whole picture to a closer detail of it
-      if (!v.framed && !v.behind && vl > 9) {
+      if (!v.framed && !v.behind && !v.fit && vl > 9) {
         const a1 = vl * 0.55;
         shots.push({ id: `${s.id}-${v.photo}`, photo: v.photo, at, len: a1, kb: v.kb, focus: v.focus });
         shots.push({ id: `${s.id}-${v.photo}-detail`, photo: v.photo, at: at + a1, len: vl - a1, kb: "detail", focus: v.focus });
-      } else shots.push({ id: `${s.id}-${v.photo}`, photo: v.photo, at, len: vl, kb: v.kb, focus: v.focus, framed: v.framed, cutout: !!v.behind });
+      } else shots.push({ id: `${s.id}-${v.photo}`, photo: v.photo, at, len: vl, kb: v.kb, focus: v.focus, framed: v.framed, cutout: !!v.behind, fit: v.fit });
     } else if (v.page.startsWith("q-")) {
       // a page from the book: the passage around the quotation, the spoken words highlighted as they are read
       const q = QUOTES[v.page.slice(2)];
@@ -135,103 +140,76 @@ for (const s of cfg.scenes) {
       fs.writeFileSync(path.join(ROOT, v.page + ".html"), html);
       pages.push({ id: v.page, src: v.page + ".html", at, len: vl, fade: [FADE, FADE] });
     }
-    // ---- captions on every spoken line (tools/caption-style) ----
-    // The words spoken during this shot are split into short phrases. Each phrase is a stack that appears word by word
-    // as it is spoken and clears when the next one starts, never across a cut. A hand-written `stack` takes the place
-    // of the phrase it covers; a quotation (`sub`) runs as centred subtitles; a `behind` word is shown huge, behind
-    // the figure (its cut-out is laid over the text).
-    if (!v.page) {   // book pages and the study card carry no captions: the page itself is the text
+    // ---- captions (two reference reels) ----
+    // Quiet layer, every spoken word: small lowercase serif, one to three words at a time, each word appearing on the
+    // frame it is spoken and the group replaced by the next, placed beside the subject (v.pos), never across a cut.
+    // Emphasis (v.emph, "line one / line two"): huge red condensed serif capitals filling the frame width, word by word;
+    // a second line smaller beneath; behind the figure when the shot has a cut-out (v.behind = true). v.flash: each
+    // emphasis word replaces the last instead of building. Accent (v.accent): one spoken word in a big script, the rest
+    // of its phrase small beneath. Ghost (v.ghost): a huge see-through italic word behind the figure.
+    if (!v.page) {
       const raw = s.text.split(/\s+/);
       const inShot = []; for (let k = 0; k < ws.length; k++) { const tt = voAt + ws[k].t; if (tt >= at - 0.06 && tt < end - 0.05) inShot.push(k); }
-      const wt = (k) => r3(voAt + ws[k].t - 0.04);
-      const used = new Set(), blocks = [];
-      const findIn = (word, nth = 1) => { let n = 0; for (const k of inShot) if (ws[k].w === norm(word) && ++n === +nth) return k; return -1; };
-      if (v.sub) {
-        const [sw, nth = "1"] = v.sub.split("#"); const k0 = findIn(sw, nth);
-        if (k0 < 0) throw new Error(`sub start "${v.sub}" not in ${s.id}`);
-        let cur = [];
-        for (const k of inShot) {
-          if (k < k0) continue; used.add(k); cur.push(k);
-          if (cur.length >= 7 || /[.;:?!]$/.test(raw[k]) || (/,$/.test(raw[k]) && cur.length >= 4)) { blocks.push({ k: cur[0], kind: "sub", ks: cur }); cur = []; }
-        }
-        if (cur.length) blocks.push({ k: cur[0], kind: "sub", ks: cur });
-        const q0 = voAt + ws[k0].t - 0.1;
-        caps.push({ kind: "dim", at: r3(q0), end: r3(end - 0.12) });
-        sfx.push({ f: "open.mp3", at: q0, vol: 0.3, extra: true });
-        if (v.cite) caps.push({ kind: "cite", text: v.cite, at: r3(q0 + 0.3), end: r3(end - 0.12) });
-      }
-      if (v.stack) {
-        const lines = v.stack.replace(/_([^_]+)_/g, (_, r) => r.split(" ").map((w) => `_${w}_`).join(" ")).split(" / ").map((ln) => ln.split(" ").map((tok) => {
-          const m = tok.match(/^([~^_]?)(.*?)([~^_]?)$/);
-          return { x: m[2], c: { "~": "scr", "^": "big", "_": "sm" }[m[1]] || "", k: -1 };
-        }));
-        // match the stack to the tightest run of spoken words that contains all of it, in order
-        const flat = lines.flat(); let best = null;
+      const wt = (k) => r3(voAt + ws[k].t - 0.03);
+      const wend = (k) => voAt + (ws[k].e ?? ws[k].t + 0.35);
+      const clean = (k) => raw[k].replace(/[.,;:!?"“”]+$/g, "").replace(/^[“"]/, "");
+      const used = new Set(), groups = [];
+      const findSpan = (phrase) => {          // the tightest run of spoken words in this shot that contains the phrase
+        const want = phrase.split(/\s+/).map(norm).filter(Boolean); let best = null;
         for (const q0 of inShot) {
-          if (ws[q0].w !== norm(flat[0].x)) continue;
-          const ks = [q0]; let p = q0 + 1;
-          for (const w of flat.slice(1)) { let k = -1; for (const q of inShot) if (q >= p && ws[q].w === norm(w.x)) { k = q; break; } ks.push(k); if (k >= 0) p = k + 1; }
-          const got = ks.filter((k) => k >= 0), span = Math.max(...got) - q0 + 1;
-          const score = (flat.length - got.length) * 100 + span;
-          if (!best || score < best.score) best = { ks, score };
+          if (ws[q0].w !== want[0]) continue;
+          const ks = [q0]; let p = q0 + 1, ok = true;
+          for (const w of want.slice(1)) { const k = inShot.find((q) => q >= p && ws[q].w === w); if (k === undefined) { ok = false; break; } ks.push(k); p = k + 1; }
+          if (ok && (!best || ks[ks.length - 1] - ks[0] < best[best.length - 1] - best[0])) best = ks;
         }
-        if (best) flat.forEach((w, i) => (w.k = best.ks[i]));
-        const hits = flat.filter((w) => w.k >= 0).map((w) => w.k);
-        const miss = lines.flat().filter((w) => w.k < 0).map((w) => w.x);
-        if (miss.length) console.warn(`  caption ${s.id}: not in the narration here: ${miss.join(", ")}`);
-        if (hits.length) {
-          for (let k = Math.min(...hits); k <= Math.max(...hits); k++) used.add(k);
-          let last = wt(Math.min(...hits));
-          for (const w of lines.flat()) { if (w.k >= 0) last = wt(w.k); w.t = last;
-            if (w.c === "big" && w.k >= 0) { sfx.push({ f: "swish.mp3", at: w.t - 0.2, vol: 0.5 }); sfx.push({ f: "thump.mp3", at: w.t - 0.04, vol: 0.6, extra: true }); }
-            if (w.c === "scr" && w.k >= 0) sfx.push({ f: "tick.mp3", at: w.t, vol: 0.35, extra: true }); }
-          blocks.push({ k: Math.min(...hits), kind: "stack", lines });
+        return best;
+      };
+      const behindLayer = v.behind && fs.existsSync(path.join(ROOT, "assets/cutouts", v.photo + ".png"));
+      if (v.emph) {
+        const lines = v.emph.split(" / ");
+        const spans = lines.map(findSpan);
+        if (spans.some((x) => !x)) console.warn(`  emphasis ${s.id}: "${v.emph}" not all in the narration here`);
+        const got = spans.filter(Boolean);
+        if (got.length) {
+          for (const sp of got) for (let k = sp[0]; k <= sp[sp.length - 1]; k++) used.add(k);
+          const first = got[0][0], last = got[got.length - 1].slice(-1)[0];
+          const eAt = wt(first), eEnd = r3(Math.min(end - 0.1, wend(last) + 1.3));
+          const L = got.map((sp, li) => sp.map((k) => ({ x: clean(k).toUpperCase(), t: wt(k) })));
+          if (v.flash) {   // one word at a time, each filling the frame, each replacing the last
+            const W = L.flat();
+            W.forEach((w, j) => (behindLayer ? capsBack : caps).push({ kind: "emph", at: w.t, end: j + 1 < W.length ? r3(W[j + 1].t - 0.01) : eEnd, lines: [[w]] }));
+          } else (behindLayer ? capsBack : caps).push({ kind: "emph", at: eAt, end: eEnd, lines: L });
+          sfx.push({ f: "swish.mp3", at: eAt - 0.2, vol: 0.5 });
+          sfx.push({ f: "thump.mp3", at: eAt - 0.02, vol: 0.65, extra: true });
+          L.flat().slice(1).forEach((w) => sfx.push({ f: "kick.mp3", at: w.t - 0.01, vol: 0.32, extra: true }));
+          groups.push({ k: first, kind: "gap", ks: [] });
         }
       }
-      let behindEnd = -1;
-      if (v.behind) {
-        const [bw, nth = "1"] = v.behind.split("#"); const k = findIn(bw, nth);
-        if (k < 0) throw new Error(`behind word "${v.behind}" not in ${s.id}`);
-        used.add(k);
-        const B = BEHIND[s.id];
-        behindEnd = Math.min(end - FADE - 0.08, wt(k) + 3.2);   // gone before the figure starts to fade out
-        capsBack.push({ kind: "behind", word: B.word, x: B.x, y: B.y, size: B.size, at: r3(Math.max(wt(k), at + FADE + 0.05)), end: r3(behindEnd) });
-        sfx.push({ f: "swish.mp3", at: wt(k) - 0.22, vol: 0.55 });
-        sfx.push({ f: "thump.mp3", at: wt(k) - 0.02, vol: 0.7, extra: true });
+      if (v.ghost && behindLayer) {
+        const k = inShot.find((q) => ws[q].w === norm(v.ghost));
+        capsBack.push({ kind: "ghost", word: v.ghost, at: r3(at + FADE), end: r3(end - FADE) });
+        if (k !== undefined) sfx.push({ f: "swell.mp3", at: wt(k) - 0.6, vol: 0.4 });
       }
-      // every other spoken word: short phrases, broken at punctuation, at most five words
+      let accentK = v.accent ? inShot.find((q) => ws[q].w === norm(v.accent) && !used.has(q)) : undefined;
       let cur = [];
-      const flush = () => { if (cur.length) blocks.push({ k: cur[0], kind: "auto", ks: cur }); cur = []; };
+      const flush = () => { if (cur.length) groups.push({ k: cur[0], kind: "quiet", ks: cur }); cur = []; };
       for (const k of inShot) {
         if (used.has(k)) { flush(); continue; }
+        if (k === accentK) { flush(); cur = [k]; continue; }
         cur.push(k);
-        if (cur.length >= 5 || /[.;:?!,]$/.test(raw[k])) flush();
+        const n = cur.length, isAcc = cur[0] === accentK;
+        if ((!isAcc && (n >= 3 || /[.;:?!,]$/.test(raw[k]))) || (isAcc && (n >= 3 || /[.;:?!,]$/.test(raw[k])))) flush();
       }
       flush();
-      // a one-word phrase joins the phrase before it when they touch
-      for (let i = blocks.length - 1; i > 0; i--) {
-        const b = blocks[i], p = blocks.find((q) => q.kind === "auto" && q.ks && q.ks[q.ks.length - 1] === b.k - 1);
-        if (b.kind === "auto" && b.ks.length === 1 && p && p.ks.length < 5 && !/[.;:?!]$/.test(raw[p.ks[p.ks.length - 1]])) { p.ks.push(...b.ks); blocks.splice(i, 1); }
-      }
-      blocks.sort((a, b) => a.k - b.k);
-      const STOP = new Set("a an the and or but so of to in on at for with by from as is are was were be been it its this that these those i you he she we they me him her us them my your his our their not no do does did have has had will would can could just than then there here what when where who how".split(" "));
-      const down = { tl: "bl", tr: "br", l: "bl", r: "br", c: "bl", bl: "bl", br: "br" };
-      blocks.forEach((b, i) => {
-        const bAt = b.kind === "stack" ? b.lines.flat().find((w) => w.k >= 0)?.t ?? wt(b.k) : wt(b.k);
-        const nxt = i + 1 < blocks.length ? wt(blocks[i + 1].k) - 0.02 : end - 0.12;
-        const lastK = b.ks ? b.ks[b.ks.length - 1] : Math.max(...b.lines.flat().map((w) => w.k));
-        const bEnd = r3(Math.min(nxt, end - 0.12, voAt + (ws[lastK].e ?? ws[lastK].t + 0.4) + 1.8));
-        if (b.kind === "sub") { caps.push({ kind: "sub", at: bAt, end: bEnd, lines: [b.ks.map((k) => ({ x: raw[k], c: "", t: wt(k) }))] }); return; }
-        const pos = bAt < behindEnd ? down[v.pos || "tl"] : (v.pos || "tl");
-        if (b.kind === "stack") { caps.push({ kind: "stack", pos, at: bAt, end: bEnd, lines: b.lines.map((l) => l.map(({ x, c, t }) => ({ x, c, t }))) }); return; }
-        // an automatic phrase: its last strong word is the accent, in the script or as a big sans word, turn about
-        const ks = b.ks; let ki = ks.length - 1;
-        for (let j = ks.length - 1; j >= 0; j--) if (!STOP.has(ws[ks[j]].w) && ws[ks[j]].w.length >= 4) { ki = j; break; }
-        const accent = (autoN++ % 3 === 1) ? "k" : "scr a";
-        const word = (j, c) => ({ x: raw[ks[j]].replace(/[.,;:!?"“”]+$/g, "").replace(/^[“"]/, ""), c, t: wt(ks[j]) });
-        const pre = ks.slice(0, ki).map((_, j) => word(j, "n")), last = [word(ki, accent), ...ks.slice(ki + 1).map((_, j) => word(ki + 1 + j, "n"))];
-        const lines = pre.length > 3 ? [pre.slice(0, Math.ceil(pre.length / 2)), pre.slice(Math.ceil(pre.length / 2)), last] : pre.length ? [pre, last] : [last];
-        caps.push({ kind: "stack", pos, at: bAt, end: bEnd, lines });
+      groups.sort((a, b) => a.k - b.k);
+      groups.forEach((g, i) => {
+        if (g.kind !== "quiet") return;
+        const nxt = i + 1 < groups.length ? wt(groups[i + 1].k) - 0.02 : end - 0.1;
+        const gEnd = r3(Math.min(nxt, end - 0.1, wend(g.ks[g.ks.length - 1]) + 1.1));
+        const acc = g.ks[0] === accentK;
+        const words = g.ks.map((k, j) => ({ x: clean(k).toLowerCase(), t: wt(k), c: acc && j === 0 ? "scr" : "" }));
+        if (acc) sfx.push({ f: "tick.mp3", at: words[0].t, vol: 0.4, extra: true });
+        caps.push({ kind: "quiet", pos: v.pos || "l", at: wt(g.ks[0]), end: gEnd, acc, words });
       });
     }
     for (const kind of ["cap", "label", "step"]) {
@@ -285,10 +263,12 @@ for (const x of sfx) {
 }
 
 const end = S.end._t;
+const MUSIC_VOL = JSON.parse(fs.readFileSync(path.join(ROOT, "src/music-vol.json"), "utf8"));
 // ---- music: Satie and Debussy piano pieces (Felted Classics), well under the voice
 const music = [
-  { id: "music-gnossienne-3", src: "assets/music/gnossienne-3.mp3", in: 0, at: 0, len: 209.3, vol: 0.32, fade: [2.0, 4.0] },
-  { id: "music-clair-de-lune", src: "assets/music/clair-de-lune.mp3", in: 0, at: 205, len: Math.min(349.4, FILM - 205), vol: 0.3, fade: [3.0, 5.0] },
+  // driving, then triumphant for "rise from here" (crossfade at chapter three)
+  { id: "music-antihero", src: "assets/music/antihero.mp3", in: 0, at: 0, len: Math.min(303.9, S.ch3._t + 2.5), vol: MUSIC_VOL.antihero, fade: [1.0, 3.0] },
+  { id: "music-wild-horses", src: "assets/music/wild-horses.mp3", in: 0, at: S.ch3._t - 0.5, len: Math.min(155.9, FILM - S.ch3._t + 0.5), vol: MUSIC_VOL["wild-horses"], fade: [2.0, 4.0] },
 ];
 
 // ---- photos: their look and their slow move ----
@@ -320,6 +300,11 @@ L.push(`<!doctype html>
   .kb-in { animation: kb-in var(--clip-length) linear both; }
   @keyframes kb-detail { from { scale: 1.34 } to { scale: 1.42 } }
   .kb-detail { animation: kb-detail var(--clip-length) linear both; }
+  /* a tall work shown whole: the picture at full height over a dark, blurred copy of itself */
+  .fit { object-fit: contain; }
+  .blurbg { object-fit: cover; filter: blur(36px) brightness(.38) saturate(.8); scale: 1.15; }
+  @keyframes kb-fit { from { scale: 1.0 } to { scale: 1.05 } }
+  .kb-fit { animation: kb-fit var(--clip-length) linear both; }
   .kb-out { animation: kb-out var(--clip-length) linear both; }
   .kb-left { animation: kb-left var(--clip-length) linear both; }
   .kb-right { animation: kb-right var(--clip-length) linear both; }
@@ -331,7 +316,7 @@ L.push(`<!doctype html>
 L.push(`<section>\n  <iframe id="grain" src="grain.html#t=0,${FILM}"></iframe>\n</section>`);
 L.push(`<section>\n${leaks.map((x, i) => `  <iframe id="leak-${i + 1}" src="leak.html" at="${r3(x.at)}"></iframe>`).join("\n")}\n</section>`);
 L.push(`<section>\n  <iframe id="captions" src="captions.html#t=0,${FILM}"></iframe>\n</section>`);
-L.push(`<section>\n${shots.filter((x) => x.cutout).map((x) => `  <img id="${x.id}-cutout" src="assets/cutouts/${x.photo}.png#t=0,${r3(x.len)}" at="${r3(x.at)}" class="photo painted kb-${x.kb}" style="object-position: ${x.focus}"${ov([FADE, FADE])}>`).join("\n")}\n</section>`);
+L.push(`<section>\n${shots.filter((x) => x.cutout).map((x) => `  <img id="${x.id}-cutout" src="assets/cutouts/${x.photo}.png#t=0,${r3(x.len)}" at="${r3(x.at)}" class="photo painted ${x.fit ? "fit kb-fit" : "kb-" + x.kb}" style="object-position: ${x.fit ? "50% 50%" : x.focus}"${ov([FADE, FADE])}>`).join("\n")}\n</section>`);
 L.push(`<section>\n  <iframe id="captions-back" src="captions-back.html#t=0,${FILM}"></iframe>\n</section>`);
 L.push(`<section>\n${lts.map((x) => `  <iframe id="${x.id}" src="${x.src}" at="${r3(x.at)}"></iframe>`).join("\n")}\n</section>`);
 L.push(`<section>\n${pages.map((x) => `  <iframe id="${x.id}" src="${x.src}${x.src.startsWith("ch") || ["title.html", "end.html"].includes(x.src) ? "" : `#t=0,${r3(x.len)}`}" at="${r3(x.at)}"${ov(x.fade)}></iframe>`).join("\n")}\n</section>`);
@@ -344,6 +329,7 @@ L.push(`<section>\n${shots.map((x) => {
     const H = 760, W = Math.round((H * w) / h);
     return `  <img id="${x.id}" src="assets/photos/${x.photo}${ext(x.photo)}#t=0,${r3(x.len)}" at="${r3(x.at)}" class="print ${look} kb-in" style="left: ${960 - W / 2}px; top: ${540 - H / 2}px; width: ${W}px; height: ${H}px"${ov([FADE, FADE])}>`;
   }
+  if (x.fit) return `  <img id="${x.id}-bg" src="assets/photos/${x.photo}${ext(x.photo)}#t=0,${r3(x.len)}" at="${r3(x.at)}" class="photo painted blurbg"${ov([FADE, FADE])}>\n  <img id="${x.id}" src="assets/photos/${x.photo}${ext(x.photo)}#t=0,${r3(x.len)}" at="${r3(x.at)}" class="photo ${look} fit kb-fit"${ov([FADE, FADE])}>`;
   return `  <img id="${x.id}" src="assets/photos/${x.photo}${ext(x.photo)}#t=0,${r3(x.len)}" at="${r3(x.at)}" class="photo ${look} kb-${x.kb}" style="object-position: ${x.focus}"${ov([FADE, FADE])}>`;
 }).join("\n")}\n</section>`);
 L.push(`<section>\n${vo.map((x) => `  <audio id="vo-${x.id}" src="assets/vo/${x.id}.mp3" at="${r3(x.at)}"></audio>`).join("\n")}\n</section>`);

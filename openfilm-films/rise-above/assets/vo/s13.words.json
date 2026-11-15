@@ -2,136 +2,136 @@
 {
 "word": "You",
 "start": 0.0,
-"end": 0.16
+"end": 0.12
 },
 {
 "word": "assume",
-"start": 0.16,
-"end": 0.48
+"start": 0.12,
+"end": 0.4
 },
 {
 "word": "you'll",
-"start": 0.48,
-"end": 0.74
+"start": 0.4,
+"end": 0.62
 },
 {
 "word": "wake",
-"start": 0.74,
-"end": 0.88
+"start": 0.62,
+"end": 0.74
 },
 {
 "word": "up",
-"start": 0.88,
-"end": 1.14
+"start": 0.74,
+"end": 0.96
 },
 {
 "word": "early",
-"start": 1.14,
-"end": 1.54
+"start": 0.96,
+"end": 1.32
 },
 {
 "word": "because",
-"start": 1.54,
-"end": 2.14
+"start": 1.32,
+"end": 1.8
 },
 {
 "word": "you",
-"start": 2.14,
-"end": 2.32
+"start": 1.8,
+"end": 1.94
 },
 {
 "word": "feel",
-"start": 2.32,
-"end": 2.54
+"start": 1.94,
+"end": 2.18
 },
 {
 "word": "serious",
-"start": 2.54,
-"end": 3.14
+"start": 2.18,
+"end": 2.7
 },
 {
 "word": "right",
-"start": 3.14,
-"end": 3.58
+"start": 2.7,
+"end": 3.08
 },
 {
 "word": "now.",
-"start": 3.58,
-"end": 4.04
+"start": 3.08,
+"end": 3.46
 },
 {
 "word": "You",
-"start": 4.72,
-"end": 4.76
+"start": 4.0,
+"end": 4.08
 },
 {
 "word": "assume",
-"start": 4.76,
-"end": 5.1
+"start": 4.08,
+"end": 4.36
 },
 {
 "word": "you'll",
-"start": 5.1,
-"end": 5.3
+"start": 4.36,
+"end": 4.54
 },
 {
 "word": "stay",
-"start": 5.3,
-"end": 5.54
+"start": 4.54,
+"end": 4.76
 },
 {
 "word": "focused",
-"start": 5.54,
-"end": 5.98
+"start": 4.76,
+"end": 5.18
 },
 {
 "word": "for",
-"start": 5.98,
-"end": 6.22
+"start": 5.18,
+"end": 5.44
 },
 {
 "word": "hours",
-"start": 6.22,
-"end": 6.7
+"start": 5.44,
+"end": 5.8
 },
 {
 "word": "because",
-"start": 6.7,
-"end": 7.4
+"start": 5.8,
+"end": 6.44
 },
 {
 "word": "the",
-"start": 7.4,
-"end": 7.62
+"start": 6.44,
+"end": 6.66
 },
 {
 "word": "plan",
-"start": 7.62,
-"end": 7.92
+"start": 6.66,
+"end": 6.9
 },
 {
 "word": "looks",
-"start": 7.92,
-"end": 8.22
+"start": 6.9,
+"end": 7.16
 },
 {
 "word": "good",
-"start": 8.22,
-"end": 8.52
+"start": 7.16,
+"end": 7.4
 },
 {
 "word": "in",
-"start": 8.52,
-"end": 8.82
+"start": 7.4,
+"end": 7.66
 },
 {
 "word": "your",
-"start": 8.82,
-"end": 9.0
+"start": 7.66,
+"end": 7.82
 },
 {
 "word": "notes.",
-"start": 9.0,
-"end": 9.34
+"start": 7.82,
+"end": 8.06
 }
 ]
