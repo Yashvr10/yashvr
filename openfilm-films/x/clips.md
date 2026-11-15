@@ -133,6 +133,35 @@ From three Instagram links: the first post held four videos, the two reels one e
 
 Batch total: about 58 s unique and usable (1.0 min).
 
+## Batch 08 (2026-11-15)
+
+14 GIFs, 2 Pinterest videos and 4 Instagram reels: 18 new, 2 duplicates skipped.
+
+| File | Size | Unique footage | Usable on screen | Notes |
+|---|---|---|---|---|
+| 63-pill-hands.gif | 540×300 | 1.7 s | ~3 s | Two hands, one holding a blue pill. Looks like a feature-film clip |
+| 64-mustang-drift.gif | 405×228 | 2.6 s | ~4 s | Black-and-white muscle car drifting. Watermark "EXPECTANTE" top left |
+| 65-boy-with-crow.gif | 360×202 | 4.2 s | ~5 s | Old black-and-white film: a boy with a crow. Very low resolution |
+| 66-photos-flashlight.gif | 540×400 | 3.6 s | ~4 s | A man with a torch among hanging photographs, teal light. Looks like a film clip |
+| 67-crayon-hands.gif | 480×270 | 6.7 s | ~7 s | Crayon-drawn hands reaching, on paper |
+| 68-silhouette-suit.gif | 384×224 | 2.1 s | ~3 s | A man in a suit in silhouette against a lit wall |
+| 69-dark-arch-figures.gif | 500×281 | 2.9 s | ~3 s | Shadowy figures under an arch, black and white, very dark |
+| 70-rooftop-red-sun.gif | 500×500 | 2.0 s | ~4 s | Illustrated figure on a rooftop under a red sun. Square |
+| 71-dark-figure-white.gif | 480×480 | 2.4 s | ~3 s | A dark hooded figure alone on white. Square; small watermark top left |
+| 72-kaleidoscope-men.gif | 640×480 | 3.1 s | ~4 s | Men in suits seen from above in a kaleidoscope. 4:3 |
+| 73-chimp-walking.gif | 500×274 | 5.2 s | ~5 s | A chimpanzee walking. Watermark "newgifs.com" bottom left |
+| 74-cowboy-galloping.gif | 352×288 | 0.9 s | ~3 s | Painted cowboy galloping. Very short |
+| 75-fire-sunset-birds.mp4 | 736×414 | 14.6 s | ~15 s | Burning sunset, birds, silhouettes, fiery light. About 21 cuts |
+| 76-hazy-figures-flicker.mp4 | 736×414 | 24.1 s | ~24 s | Hazy figures, birds and a burning hand, flickering very fast (over 200 cuts). Best as a rapid montage |
+| 77-blurred-night-market.mp4 | 1740×1080 | 18.8 s | ~19 s | Motion-blurred night market, warm lights. About 69 cuts |
+| 78-collage-children-squares.mp4 | 1440×1080 | 30.7 s | ~31 s | Retro collage: children, coloured squares, hands. 4:3 |
+| 79-egyptian-glitch-art.mp4 | 1000×1000 | 15.2 s | ~15 s | Egyptian figures and symbols in glitchy neon colours. Square |
+| 80-vertical-collage.mp4 | 1080×1920 | 11.0 s | ~11 s | A surreal collage montage (planets, faces, landscapes). Vertical 9:16, so it needs a frame or a crop for 16:9. The file is 22 s but it is the same 11 s played twice |
+
+Skipped as duplicates: a second copy of the pill hands (sent twice in this batch) and the running horse (same as 35 in batch 04).
+
+Batch total: about 152 s unique, about 161 s usable (2.7 min).
+
 ## Running total
 
 | Batches | Usable screen time | Of 20 min |
@@ -144,3 +173,4 @@ Batch total: about 58 s unique and usable (1.0 min).
 | 1–5 | 4.1 min | 21% |
 | 1–6 | 4.9 min | 25% |
 | 1–7 | 5.9 min | 30% |
+| 1–8 | 8.6 min | 43% |
