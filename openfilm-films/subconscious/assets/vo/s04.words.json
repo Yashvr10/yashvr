@@ -2,61 +2,61 @@
 {
 "word": "This",
 "start": 0.0,
-"end": 0.12
+"end": 0.14
 },
 {
 "word": "creates",
-"start": 0.12,
-"end": 0.42
+"start": 0.14,
+"end": 0.54
 },
 {
 "word": "resistance",
-"start": 0.42,
-"end": 0.9
+"start": 0.54,
+"end": 1.16
 },
 {
 "word": "and",
-"start": 0.9,
-"end": 1.38
+"start": 1.16,
+"end": 1.74
 },
 {
 "word": "if",
-"start": 1.38,
-"end": 1.5
+"start": 1.74,
+"end": 1.88
 },
 {
 "word": "you're",
-"start": 1.5,
-"end": 1.66
+"start": 1.88,
+"end": 2.16
 },
 {
 "word": "ambitiously",
-"start": 1.66,
-"end": 2.1
+"start": 2.16,
+"end": 2.82
 },
 {
 "word": "minded,",
-"start": 2.1,
-"end": 2.54
+"start": 2.82,
+"end": 3.36
 },
 {
 "word": "you'll",
-"start": 2.9,
-"end": 3.06
+"start": 3.8,
+"end": 3.94
 },
 {
 "word": "revolt",
-"start": 3.06,
-"end": 3.32
+"start": 3.94,
+"end": 4.26
 },
 {
 "word": "against",
-"start": 3.32,
-"end": 3.64
+"start": 4.26,
+"end": 4.62
 },
 {
 "word": "it.",
-"start": 3.64,
-"end": 3.94
+"start": 4.62,
+"end": 4.94
 }
 ]

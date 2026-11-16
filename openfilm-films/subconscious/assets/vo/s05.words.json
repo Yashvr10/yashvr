@@ -2,111 +2,111 @@
 {
 "word": "You",
 "start": 0.0,
-"end": 0.08
+"end": 0.14
 },
 {
 "word": "probably",
-"start": 0.08,
-"end": 0.28
+"start": 0.14,
+"end": 0.42
 },
 {
 "word": "already",
-"start": 0.28,
-"end": 0.68
+"start": 0.42,
+"end": 0.86
 },
 {
 "word": "know",
-"start": 0.68,
-"end": 0.98
+"start": 0.86,
+"end": 1.14
 },
 {
 "word": "this",
-"start": 0.98,
-"end": 1.24
+"start": 1.14,
+"end": 1.46
 },
 {
 "word": "but",
-"start": 1.6,
-"end": 1.68
+"start": 1.86,
+"end": 1.96
 },
 {
 "word": "I'm",
-"start": 1.68,
-"end": 1.84
+"start": 1.96,
+"end": 2.18
 },
 {
 "word": "going",
-"start": 1.84,
-"end": 1.94
+"start": 2.18,
+"end": 2.32
 },
 {
 "word": "to",
-"start": 1.94,
-"end": 2.08
+"start": 2.32,
+"end": 2.52
 },
 {
 "word": "say",
-"start": 2.08,
-"end": 2.24
+"start": 2.52,
+"end": 2.74
 },
 {
 "word": "it",
-"start": 2.24,
-"end": 2.36
+"start": 2.74,
+"end": 2.92
 },
 {
 "word": "anyway",
-"start": 2.36,
-"end": 2.64
+"start": 2.92,
+"end": 3.32
 },
 {
 "word": "so",
-"start": 2.64,
-"end": 3.06
+"start": 3.32,
+"end": 3.82
 },
 {
 "word": "your",
-"start": 3.06,
-"end": 3.16
-},
-{
-"word": "subconscious",
-"start": 3.16,
-"end": 3.58
-},
-{
-"word": "mind",
-"start": 3.58,
+"start": 3.82,
 "end": 4.02
 },
 {
-"word": "can",
+"word": "subconscious",
 "start": 4.02,
-"end": 4.42
+"end": 4.5
+},
+{
+"word": "mind",
+"start": 4.5,
+"end": 5.12
+},
+{
+"word": "can",
+"start": 5.12,
+"end": 5.6
 },
 {
 "word": "hear",
-"start": 4.42,
-"end": 4.6
+"start": 5.6,
+"end": 5.84
 },
 {
 "word": "it",
-"start": 4.6,
-"end": 4.76
+"start": 5.84,
+"end": 6.02
 },
 {
 "word": "loud",
-"start": 4.76,
-"end": 5.0
+"start": 6.02,
+"end": 6.36
 },
 {
 "word": "and",
-"start": 5.0,
-"end": 5.34
+"start": 6.36,
+"end": 6.76
 },
 {
 "word": "clear.",
-"start": 5.34,
-"end": 5.56
+"start": 6.76,
+"end": 7.04
 }
 ]

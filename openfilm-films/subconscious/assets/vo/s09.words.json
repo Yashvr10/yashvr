@@ -2,26 +2,26 @@
 {
 "word": "A",
 "start": 0.0,
-"end": 0.06
+"end": 0.16
 },
 {
 "word": "boost",
-"start": 0.06,
-"end": 0.24
+"start": 0.16,
+"end": 0.38
 },
 {
 "word": "here",
-"start": 0.24,
-"end": 0.54
+"start": 0.38,
+"end": 0.78
 },
 {
 "word": "and",
-"start": 0.54,
-"end": 0.86
+"start": 0.78,
+"end": 1.18
 },
 {
 "word": "there.",
-"start": 0.86,
-"end": 1.12
+"start": 1.18,
+"end": 1.5
 }
 ]

@@ -2,81 +2,81 @@
 {
 "word": "You",
 "start": 0.0,
-"end": 0.04
+"end": 0.1
 },
 {
 "word": "are",
-"start": 0.04,
-"end": 0.14
+"start": 0.1,
+"end": 0.22
 },
 {
 "word": "able",
-"start": 0.14,
-"end": 0.3
+"start": 0.22,
+"end": 0.42
 },
 {
 "word": "to",
-"start": 0.3,
-"end": 0.5
+"start": 0.42,
+"end": 0.62
 },
 {
 "word": "physiologically",
-"start": 0.5,
-"end": 1.1
+"start": 0.62,
+"end": 1.32
 },
 {
 "word": "calm",
-"start": 1.1,
-"end": 1.42
+"start": 1.32,
+"end": 1.72
 },
 {
 "word": "your",
-"start": 1.42,
-"end": 1.64
+"start": 1.72,
+"end": 1.98
 },
 {
 "word": "nervous",
-"start": 1.64,
-"end": 1.86
+"start": 1.98,
+"end": 2.26
 },
 {
 "word": "system",
-"start": 1.86,
-"end": 2.28
+"start": 2.26,
+"end": 2.74
 },
 {
 "word": "through",
-"start": 2.28,
-"end": 2.68
+"start": 2.74,
+"end": 3.24
 },
 {
 "word": "the",
-"start": 2.68,
-"end": 2.78
+"start": 3.24,
+"end": 3.4
 },
 {
 "word": "persuasion",
-"start": 2.78,
-"end": 3.16
+"start": 3.4,
+"end": 3.84
 },
 {
 "word": "of",
-"start": 3.16,
-"end": 3.64
+"start": 3.84,
+"end": 4.46
 },
 {
 "word": "your",
-"start": 3.64,
-"end": 3.74
+"start": 4.46,
+"end": 4.62
 },
 {
 "word": "own",
-"start": 3.74,
-"end": 3.96
+"start": 4.62,
+"end": 4.9
 },
 {
 "word": "thought.",
-"start": 3.96,
-"end": 4.26
+"start": 4.9,
+"end": 5.26
 }
 ]

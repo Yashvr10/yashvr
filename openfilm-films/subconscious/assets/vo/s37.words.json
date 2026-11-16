@@ -2,46 +2,46 @@
 {
 "word": "The",
 "start": 0.0,
-"end": 0.0
+"end": 0.14
 },
 {
 "word": "poised",
-"start": 0.0,
-"end": 0.38
+"start": 0.14,
+"end": 0.54
 },
 {
 "word": "attention",
-"start": 0.38,
-"end": 0.82
+"start": 0.54,
+"end": 1.1
 },
 {
 "word": "as",
-"start": 0.82,
-"end": 1.28
+"start": 1.1,
+"end": 1.62
 },
 {
 "word": "you",
-"start": 1.28,
-"end": 1.4
+"start": 1.62,
+"end": 1.76
 },
 {
 "word": "handle",
-"start": 1.4,
-"end": 1.68
+"start": 1.76,
+"end": 2.08
 },
 {
 "word": "a",
-"start": 1.68,
-"end": 1.92
+"start": 2.08,
+"end": 2.4
 },
 {
 "word": "difficult",
-"start": 1.92,
-"end": 2.22
+"start": 2.4,
+"end": 2.7
 },
 {
 "word": "conversation.",
-"start": 2.22,
-"end": 2.8
+"start": 2.7,
+"end": 3.3
 }
 ]

@@ -2,61 +2,61 @@
 {
 "word": "Every",
 "start": 0.0,
-"end": 0.18
+"end": 0.24
 },
 {
 "word": "other",
-"start": 0.18,
-"end": 0.42
+"start": 0.24,
+"end": 0.5
 },
 {
 "word": "skill",
-"start": 0.42,
-"end": 0.72
+"start": 0.5,
+"end": 0.86
 },
 {
 "word": "whether",
-"start": 1.06,
-"end": 1.12
+"start": 1.28,
+"end": 1.38
 },
 {
 "word": "self-hypnotic",
-"start": 1.12,
-"end": 1.96
+"start": 1.38,
+"end": 2.28
 },
 {
 "word": "or",
-"start": 1.96,
-"end": 2.14
+"start": 2.28,
+"end": 2.5
 },
 {
 "word": "real-world",
-"start": 2.14,
-"end": 2.76
+"start": 2.5,
+"end": 3.22
 },
 {
 "word": "is",
-"start": 2.76,
-"end": 3.1
+"start": 3.22,
+"end": 3.64
 },
 {
 "word": "a",
-"start": 3.1,
-"end": 3.24
+"start": 3.64,
+"end": 3.86
 },
 {
 "word": "product",
-"start": 3.24,
-"end": 3.46
+"start": 3.86,
+"end": 4.06
 },
 {
 "word": "of",
-"start": 3.46,
-"end": 3.7
+"start": 4.06,
+"end": 4.38
 },
 {
 "word": "concentration.",
-"start": 3.7,
-"end": 4.16
+"start": 4.38,
+"end": 4.98
 }
 ]

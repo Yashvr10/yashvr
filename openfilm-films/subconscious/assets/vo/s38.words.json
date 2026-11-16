@@ -2,111 +2,111 @@
 {
 "word": "What",
 "start": 0.0,
-"end": 0.0
+"end": 0.12
 },
 {
 "word": "you",
-"start": 0.0,
-"end": 0.14
+"start": 0.12,
+"end": 0.24
 },
 {
 "word": "focus",
-"start": 0.14,
-"end": 0.38
+"start": 0.24,
+"end": 0.52
 },
 {
 "word": "on,",
-"start": 0.38,
-"end": 0.7
+"start": 0.52,
+"end": 0.9
 },
 {
 "word": "you",
-"start": 1.06,
-"end": 1.14
+"start": 1.2,
+"end": 1.38
 },
 {
 "word": "realise",
-"start": 1.14,
-"end": 1.42
-},
-{
-"word": "more",
-"start": 1.42,
+"start": 1.38,
 "end": 1.72
 },
 {
-"word": "of",
+"word": "more",
 "start": 1.72,
-"end": 1.94
+"end": 2.08
+},
+{
+"word": "of",
+"start": 2.08,
+"end": 2.34
 },
 {
 "word": "and",
-"start": 1.94,
-"end": 2.12
+"start": 2.34,
+"end": 2.58
 },
 {
 "word": "see",
-"start": 2.12,
-"end": 2.3
+"start": 2.58,
+"end": 2.8
 },
 {
 "word": "more",
-"start": 2.3,
-"end": 2.5
+"start": 2.8,
+"end": 3.04
 },
 {
 "word": "often",
-"start": 2.5,
-"end": 2.82
+"start": 3.04,
+"end": 3.48
 },
 {
 "word": "until",
-"start": 2.82,
-"end": 3.3
+"start": 3.48,
+"end": 4.08
 },
 {
 "word": "it",
-"start": 3.3,
-"end": 3.42
+"start": 4.08,
+"end": 4.22
 },
 {
 "word": "becomes",
-"start": 3.42,
-"end": 3.66
+"start": 4.22,
+"end": 4.52
 },
 {
 "word": "the",
-"start": 3.66,
-"end": 3.84
+"start": 4.52,
+"end": 4.78
 },
 {
 "word": "focal",
-"start": 3.84,
-"end": 4.04
+"start": 4.78,
+"end": 5.04
 },
 {
 "word": "point",
-"start": 4.04,
-"end": 4.46
+"start": 5.04,
+"end": 5.52
 },
 {
 "word": "of",
-"start": 4.46,
-"end": 4.8
+"start": 5.52,
+"end": 5.94
 },
 {
 "word": "your",
-"start": 4.8,
-"end": 4.92
+"start": 5.94,
+"end": 6.12
 },
 {
 "word": "daily",
-"start": 4.92,
-"end": 5.18
+"start": 6.12,
+"end": 6.42
 },
 {
 "word": "experience.",
-"start": 5.18,
-"end": 5.72
+"start": 6.42,
+"end": 6.92
 }
 ]

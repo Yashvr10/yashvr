@@ -2,126 +2,126 @@
 {
 "word": "You",
 "start": 0.0,
-"end": 0.06
+"end": 0.1
 },
 {
 "word": "will",
-"start": 0.06,
-"end": 0.14
+"start": 0.1,
+"end": 0.22
 },
 {
 "word": "retain",
-"start": 0.14,
-"end": 0.42
+"start": 0.22,
+"end": 0.54
 },
 {
 "word": "a",
-"start": 0.42,
-"end": 0.62
+"start": 0.54,
+"end": 0.74
 },
 {
 "word": "clear",
-"start": 0.62,
-"end": 0.86
+"start": 0.74,
+"end": 1.02
 },
 {
 "word": "image",
-"start": 0.86,
-"end": 1.2
+"start": 1.02,
+"end": 1.48
 },
 {
 "word": "of",
-"start": 1.2,
-"end": 1.64
+"start": 1.48,
+"end": 2.02
 },
 {
 "word": "what",
-"start": 1.64,
-"end": 1.72
+"start": 2.02,
+"end": 2.16
 },
 {
 "word": "it",
-"start": 1.72,
-"end": 1.82
+"start": 2.16,
+"end": 2.32
 },
 {
 "word": "feels",
-"start": 1.82,
-"end": 2.0
+"start": 2.32,
+"end": 2.58
 },
 {
 "word": "like",
-"start": 2.0,
-"end": 2.26
+"start": 2.58,
+"end": 2.88
 },
 {
 "word": "to",
-"start": 2.26,
-"end": 2.42
+"start": 2.88,
+"end": 3.08
 },
 {
 "word": "laugh",
-"start": 2.42,
-"end": 2.66
+"start": 3.08,
+"end": 3.34
 },
 {
 "word": "at",
-"start": 2.66,
-"end": 2.96
+"start": 3.34,
+"end": 3.68
 },
 {
 "word": "comparing",
-"start": 2.96,
-"end": 3.26
+"start": 3.68,
+"end": 4.1
 },
 {
 "word": "yourself",
-"start": 3.26,
-"end": 3.6
+"start": 4.1,
+"end": 4.52
 },
 {
 "word": "to",
-"start": 3.6,
-"end": 3.82
-},
-{
-"word": "others,",
-"start": 3.82,
-"end": 4.12
-},
-{
-"word": "because",
-"start": 4.12,
-"end": 4.6
-},
-{
-"word": "the",
-"start": 4.6,
+"start": 4.52,
 "end": 4.78
 },
 {
-"word": "comparison",
+"word": "others,",
 "start": 4.78,
-"end": 5.24
+"end": 5.16
+},
+{
+"word": "because",
+"start": 5.16,
+"end": 5.82
+},
+{
+"word": "the",
+"start": 5.82,
+"end": 6.0
+},
+{
+"word": "comparison",
+"start": 6.0,
+"end": 6.56
 },
 {
 "word": "no",
-"start": 5.24,
-"end": 5.62
+"start": 6.56,
+"end": 7.0
 },
 {
 "word": "longer",
-"start": 5.62,
-"end": 5.9
+"start": 7.0,
+"end": 7.28
 },
 {
 "word": "holds",
-"start": 5.9,
-"end": 6.24
+"start": 7.28,
+"end": 7.66
 },
 {
 "word": "you.",
-"start": 6.24,
-"end": 6.44
+"start": 7.66,
+"end": 7.9
 }
 ]

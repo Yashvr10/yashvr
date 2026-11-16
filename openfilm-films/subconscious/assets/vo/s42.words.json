@@ -2,61 +2,61 @@
 {
 "word": "Which",
 "start": 0.0,
-"end": 0.1
+"end": 0.14
 },
 {
 "word": "can",
-"start": 0.1,
-"end": 0.24
-},
-{
-"word": "be",
-"start": 0.24,
+"start": 0.14,
 "end": 0.36
 },
 {
-"word": "difficult,",
+"word": "be",
 "start": 0.36,
-"end": 0.7
+"end": 0.56
+},
+{
+"word": "difficult,",
+"start": 0.56,
+"end": 1.06
 },
 {
 "word": "because",
-"start": 0.7,
-"end": 1.18
-},
-{
-"word": "we",
-"start": 1.18,
-"end": 1.34
-},
-{
-"word": "live",
-"start": 1.34,
-"end": 1.5
-},
-{
-"word": "in",
-"start": 1.5,
+"start": 1.06,
 "end": 1.74
 },
 {
-"word": "a",
+"word": "we",
 "start": 1.74,
-"end": 1.84
-},
-{
-"word": "world",
-"start": 1.84,
 "end": 1.98
 },
 {
-"word": "of",
+"word": "live",
 "start": 1.98,
-"end": 2.16
+"end": 2.2
+},
+{
+"word": "in",
+"start": 2.2,
+"end": 2.5
+},
+{
+"word": "a",
+"start": 2.5,
+"end": 2.62
+},
+{
+"word": "world",
+"start": 2.62,
+"end": 2.82
+},
+{
+"word": "of",
+"start": 2.82,
+"end": 3.02
 },
 {
 "word": "distraction.",
-"start": 2.16,
-"end": 2.5
+"start": 3.02,
+"end": 3.48
 }
 ]

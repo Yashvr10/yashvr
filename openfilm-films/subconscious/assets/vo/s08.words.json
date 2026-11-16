@@ -2,31 +2,31 @@
 {
 "word": "Willpower",
 "start": 0.0,
-"end": 0.3
+"end": 0.5
 },
 {
 "word": "is",
-"start": 0.3,
-"end": 0.68
+"start": 0.5,
+"end": 0.9
 },
 {
 "word": "then",
-"start": 0.68,
-"end": 0.88
+"start": 0.9,
+"end": 1.12
 },
 {
 "word": "used",
-"start": 0.88,
-"end": 1.22
+"start": 1.12,
+"end": 1.5
 },
 {
 "word": "as",
-"start": 1.22,
-"end": 1.48
+"start": 1.5,
+"end": 1.8
 },
 {
 "word": "nitrous.",
-"start": 1.48,
-"end": 1.94
+"start": 1.8,
+"end": 2.4
 }
 ]

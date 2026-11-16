@@ -2,71 +2,71 @@
 {
 "word": "The",
 "start": 0.0,
-"end": 0.0
+"end": 0.14
 },
 {
 "word": "presence",
-"start": 0.0,
-"end": 0.32
+"start": 0.14,
+"end": 0.46
 },
 {
 "word": "in",
-"start": 0.32,
-"end": 0.58
+"start": 0.46,
+"end": 0.76
 },
 {
 "word": "your",
-"start": 0.58,
-"end": 0.72
+"start": 0.76,
+"end": 0.96
 },
 {
 "word": "eyes",
-"start": 0.72,
-"end": 1.02
+"start": 0.96,
+"end": 1.38
 },
 {
 "word": "as",
-"start": 1.02,
-"end": 1.36
+"start": 1.38,
+"end": 1.8
 },
 {
 "word": "you",
-"start": 1.36,
-"end": 1.48
+"start": 1.8,
+"end": 1.94
 },
 {
 "word": "look",
-"start": 1.48,
-"end": 1.6
+"start": 1.94,
+"end": 2.1
 },
 {
 "word": "into",
-"start": 1.6,
-"end": 1.82
+"start": 2.1,
+"end": 2.32
 },
 {
 "word": "a",
-"start": 1.82,
-"end": 1.96
-},
-{
-"word": "room",
-"start": 1.96,
-"end": 2.2
-},
-{
-"word": "you",
-"start": 2.2,
+"start": 2.32,
 "end": 2.5
 },
 {
-"word": "speak",
+"word": "room",
 "start": 2.5,
-"end": 2.7
+"end": 2.8
+},
+{
+"word": "you",
+"start": 2.8,
+"end": 3.12
+},
+{
+"word": "speak",
+"start": 3.12,
+"end": 3.38
 },
 {
 "word": "to.",
-"start": 2.7,
-"end": 2.94
+"start": 3.38,
+"end": 3.7
 }
 ]

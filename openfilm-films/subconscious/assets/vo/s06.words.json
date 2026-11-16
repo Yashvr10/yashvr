@@ -2,21 +2,21 @@
 {
 "word": "The",
 "start": 0.0,
-"end": 0.08
+"end": 0.16
 },
 {
 "word": "solution",
-"start": 0.08,
-"end": 0.42
+"start": 0.16,
+"end": 0.54
 },
 {
 "word": "is",
-"start": 0.42,
-"end": 0.82
+"start": 0.54,
+"end": 1.06
 },
 {
 "word": "seduction",
-"start": 0.82,
-"end": 1.22
+"start": 1.06,
+"end": 1.54
 }
 ]

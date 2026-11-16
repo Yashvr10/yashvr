@@ -2,46 +2,46 @@
 {
 "word": "We",
 "start": 0.0,
-"end": 0.06
+"end": 0.12
 },
 {
 "word": "listen.",
-"start": 0.06,
-"end": 0.3
+"start": 0.12,
+"end": 0.44
 },
 {
 "word": "We",
-"start": 0.56,
-"end": 0.64
+"start": 0.76,
+"end": 0.86
 },
 {
 "word": "understand",
-"start": 0.64,
-"end": 1.08
+"start": 0.86,
+"end": 1.42
 },
 {
 "word": "and",
-"start": 1.42,
-"end": 1.5
+"start": 1.84,
+"end": 1.92
 },
 {
 "word": "we",
-"start": 1.5,
-"end": 1.62
-},
-{
-"word": "act",
-"start": 1.62,
-"end": 1.8
-},
-{
-"word": "upon",
-"start": 1.8,
+"start": 1.92,
 "end": 2.04
 },
 {
-"word": "them.",
+"word": "act",
 "start": 2.04,
-"end": 2.2
+"end": 2.28
+},
+{
+"word": "upon",
+"start": 2.28,
+"end": 2.58
+},
+{
+"word": "them.",
+"start": 2.58,
+"end": 2.8
 }
 ]

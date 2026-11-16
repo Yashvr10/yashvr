@@ -2,111 +2,111 @@
 {
 "word": "When",
 "start": 0.0,
-"end": 0.04
+"end": 0.1
 },
 {
 "word": "you",
-"start": 0.04,
-"end": 0.14
+"start": 0.1,
+"end": 0.22
 },
 {
 "word": "needed",
-"start": 0.14,
-"end": 0.38
+"start": 0.22,
+"end": 0.48
 },
 {
 "word": "sleep",
-"start": 0.38,
-"end": 0.68
+"start": 0.48,
+"end": 0.8
 },
 {
 "word": "did",
-"start": 0.92,
-"end": 0.98
+"start": 1.08,
+"end": 1.16
 },
 {
 "word": "it",
-"start": 0.98,
-"end": 1.08
-},
-{
-"word": "grant",
-"start": 1.08,
+"start": 1.16,
 "end": 1.26
 },
 {
-"word": "it,",
+"word": "grant",
 "start": 1.26,
-"end": 1.5
+"end": 1.52
+},
+{
+"word": "it,",
+"start": 1.52,
+"end": 1.78
 },
 {
 "word": "or",
-"start": 1.72,
-"end": 1.8
+"start": 2.12,
+"end": 2.24
 },
 {
 "word": "did",
-"start": 1.8,
-"end": 1.9
+"start": 2.24,
+"end": 2.36
 },
 {
 "word": "it",
-"start": 1.9,
-"end": 2.06
+"start": 2.36,
+"end": 2.54
 },
 {
 "word": "spend",
-"start": 2.06,
-"end": 2.18
+"start": 2.54,
+"end": 2.72
 },
 {
 "word": "three",
-"start": 2.18,
-"end": 2.48
+"start": 2.72,
+"end": 3.08
 },
 {
 "word": "hours",
-"start": 2.48,
-"end": 2.8
+"start": 3.08,
+"end": 3.5
 },
 {
 "word": "interrogating",
-"start": 2.8,
-"end": 3.56
-},
-{
-"word": "you",
-"start": 3.56,
-"end": 3.74
-},
-{
-"word": "about",
-"start": 3.74,
-"end": 4.1
-},
-{
-"word": "something",
-"start": 4.1,
+"start": 3.5,
 "end": 4.4
 },
 {
-"word": "that",
+"word": "you",
 "start": 4.4,
-"end": 4.6
+"end": 4.64
+},
+{
+"word": "about",
+"start": 4.64,
+"end": 5.08
+},
+{
+"word": "something",
+"start": 5.08,
+"end": 5.52
+},
+{
+"word": "that",
+"start": 5.52,
+"end": 5.76
 },
 {
 "word": "happened",
-"start": 4.6,
-"end": 4.84
+"start": 5.76,
+"end": 6.08
 },
 {
 "word": "in",
-"start": 4.84,
-"end": 5.1
+"start": 6.08,
+"end": 6.44
 },
 {
 "word": "2017?",
-"start": 5.1,
-"end": 5.9
+"start": 6.44,
+"end": 7.44
 }
 ]

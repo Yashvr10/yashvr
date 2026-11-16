@@ -2,81 +2,81 @@
 {
 "word": "With",
 "start": 0.0,
-"end": 0.1
+"end": 0.14
 },
 {
 "word": "this",
-"start": 0.1,
-"end": 0.22
+"start": 0.14,
+"end": 0.34
 },
 {
 "word": "in",
-"start": 0.22,
-"end": 0.4
+"start": 0.34,
+"end": 0.56
 },
 {
 "word": "mind",
-"start": 0.4,
-"end": 0.7
+"start": 0.56,
+"end": 0.94
 },
 {
 "word": "are",
-"start": 1.02,
-"end": 1.1
+"start": 1.36,
+"end": 1.46
 },
 {
 "word": "you",
-"start": 1.1,
-"end": 1.18
-},
-{
-"word": "ready",
-"start": 1.18,
-"end": 1.34
-},
-{
-"word": "to",
-"start": 1.34,
+"start": 1.46,
 "end": 1.58
 },
 {
-"word": "learn",
+"word": "ready",
 "start": 1.58,
 "end": 1.72
 },
 {
-"word": "how",
+"word": "to",
 "start": 1.72,
-"end": 2.02
+"end": 2.0
+},
+{
+"word": "learn",
+"start": 2.0,
+"end": 2.22
+},
+{
+"word": "how",
+"start": 2.22,
+"end": 2.58
 },
 {
 "word": "to",
-"start": 2.02,
-"end": 2.16
+"start": 2.58,
+"end": 2.76
 },
 {
 "word": "regain",
-"start": 2.16,
-"end": 2.44
+"start": 2.76,
+"end": 3.08
 },
 {
 "word": "control",
-"start": 2.44,
-"end": 2.88
+"start": 3.08,
+"end": 3.6
 },
 {
 "word": "of",
-"start": 2.88,
-"end": 3.06
+"start": 3.6,
+"end": 3.8
 },
 {
 "word": "your",
-"start": 3.06,
-"end": 3.16
+"start": 3.8,
+"end": 3.96
 },
 {
 "word": "mind?",
-"start": 3.16,
-"end": 3.4
+"start": 3.96,
+"end": 4.28
 }
 ]

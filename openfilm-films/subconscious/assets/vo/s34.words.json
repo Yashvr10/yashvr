@@ -2,31 +2,31 @@
 {
 "word": "Without",
 "start": 0.0,
-"end": 0.18
+"end": 0.3
 },
 {
 "word": "doubt,",
-"start": 0.18,
-"end": 0.5
+"start": 0.3,
+"end": 0.68
 },
 {
 "word": "this",
-"start": 0.72,
-"end": 0.84
+"start": 0.98,
+"end": 1.14
 },
 {
 "word": "is",
-"start": 0.84,
-"end": 1.0
+"start": 1.14,
+"end": 1.36
 },
 {
 "word": "the",
-"start": 1.0,
-"end": 1.16
+"start": 1.36,
+"end": 1.54
 },
 {
 "word": "root.",
-"start": 1.16,
-"end": 1.36
+"start": 1.54,
+"end": 1.78
 }
 ]

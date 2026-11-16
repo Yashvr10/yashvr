@@ -2,41 +2,41 @@
 {
 "word": "What",
 "start": 0.0,
-"end": 0.08
+"end": 0.14
 },
 {
 "word": "would",
-"start": 0.08,
-"end": 0.2
-},
-{
-"word": "you",
-"start": 0.2,
+"start": 0.14,
 "end": 0.32
 },
 {
-"word": "now",
+"word": "you",
 "start": 0.32,
-"end": 0.54
+"end": 0.5
+},
+{
+"word": "now",
+"start": 0.5,
+"end": 0.76
 },
 {
 "word": "be",
-"start": 0.54,
-"end": 0.74
+"start": 0.76,
+"end": 1.04
 },
 {
 "word": "able",
-"start": 0.74,
-"end": 0.9
+"start": 1.04,
+"end": 1.22
 },
 {
 "word": "to",
-"start": 0.9,
-"end": 1.08
+"start": 1.22,
+"end": 1.4
 },
 {
 "word": "do?",
-"start": 1.08,
-"end": 1.28
+"start": 1.4,
+"end": 1.64
 }
 ]

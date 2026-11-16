@@ -2,81 +2,81 @@
 {
 "word": "Just",
 "start": 0.0,
-"end": 0.1
+"end": 0.24
 },
 {
 "word": "imagine",
-"start": 0.1,
-"end": 0.36
+"start": 0.24,
+"end": 0.56
 },
 {
 "word": "for",
-"start": 0.36,
-"end": 0.68
+"start": 0.56,
+"end": 0.9
 },
 {
 "word": "a",
-"start": 0.68,
-"end": 0.74
+"start": 0.9,
+"end": 1.02
 },
 {
 "word": "moment,",
-"start": 0.74,
-"end": 1.0
+"start": 1.02,
+"end": 1.28
 },
 {
 "word": "your",
-"start": 1.36,
-"end": 1.44
+"start": 1.28,
+"end": 1.82
 },
 {
 "word": "thoughts",
-"start": 1.44,
-"end": 1.66
+"start": 1.82,
+"end": 2.16
 },
 {
 "word": "respected,",
-"start": 1.66,
-"end": 2.18
+"start": 2.16,
+"end": 2.78
 },
 {
 "word": "your",
-"start": 2.52,
-"end": 2.6
+"start": 3.24,
+"end": 3.28
 },
 {
 "word": "ideas",
-"start": 2.6,
-"end": 2.94
+"start": 3.28,
+"end": 3.66
 },
 {
 "word": "valued,",
-"start": 2.94,
-"end": 3.36
+"start": 3.66,
+"end": 4.2
 },
 {
 "word": "your",
-"start": 3.7,
-"end": 3.8
-},
-{
-"word": "reassurance",
-"start": 3.8,
-"end": 4.3
-},
-{
-"word": "immediately",
-"start": 4.3,
+"start": 4.62,
 "end": 4.74
 },
 {
-"word": "soothing",
+"word": "reassurance",
 "start": 4.74,
-"end": 5.24
+"end": 5.44
+},
+{
+"word": "immediately",
+"start": 5.44,
+"end": 5.9
+},
+{
+"word": "soothing",
+"start": 5.9,
+"end": 6.5
 },
 {
 "word": "doubt.",
-"start": 5.24,
-"end": 5.56
+"start": 6.5,
+"end": 6.84
 }
 ]

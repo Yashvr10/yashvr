@@ -2,41 +2,41 @@
 {
 "word": "Picture",
 "start": 0.0,
-"end": 0.2
+"end": 0.32
 },
 {
 "word": "yourself",
-"start": 0.2,
-"end": 0.56
+"start": 0.32,
+"end": 0.78
 },
 {
 "word": "with",
-"start": 0.56,
-"end": 0.94
-},
-{
-"word": "a",
-"start": 0.94,
-"end": 1.02
-},
-{
-"word": "mind",
-"start": 1.02,
+"start": 0.78,
 "end": 1.26
 },
 {
-"word": "that",
+"word": "a",
 "start": 1.26,
-"end": 1.46
+"end": 1.4
+},
+{
+"word": "mind",
+"start": 1.4,
+"end": 1.7
+},
+{
+"word": "that",
+"start": 1.7,
+"end": 1.92
 },
 {
 "word": "hears",
-"start": 1.46,
-"end": 1.64
+"start": 1.92,
+"end": 2.2
 },
 {
 "word": "you.",
-"start": 1.64,
-"end": 1.88
+"start": 2.2,
+"end": 2.5
 }
 ]

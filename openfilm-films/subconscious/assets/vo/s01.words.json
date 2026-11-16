@@ -2,116 +2,116 @@
 {
 "word": "You",
 "start": 0.0,
-"end": 0.06
+"end": 0.1
 },
 {
 "word": "know",
-"start": 0.06,
-"end": 0.18
+"start": 0.1,
+"end": 0.28
 },
 {
 "word": "what",
-"start": 0.18,
-"end": 0.32
+"start": 0.28,
+"end": 0.46
 },
 {
 "word": "would",
-"start": 0.32,
-"end": 0.44
+"start": 0.46,
+"end": 0.62
 },
 {
 "word": "change",
-"start": 0.44,
-"end": 0.7
+"start": 0.62,
+"end": 0.92
 },
 {
 "word": "your",
-"start": 0.7,
-"end": 0.9
+"start": 0.92,
+"end": 1.16
 },
 {
 "word": "life",
-"start": 0.9,
-"end": 1.1
+"start": 1.16,
+"end": 1.46
 },
 {
 "word": "if",
-"start": 1.1,
-"end": 1.5
+"start": 1.46,
+"end": 1.92
 },
 {
 "word": "you",
-"start": 1.5,
-"end": 1.62
+"start": 1.92,
+"end": 2.04
 },
 {
 "word": "started",
-"start": 1.62,
-"end": 1.86
+"start": 2.04,
+"end": 2.36
 },
 {
 "word": "doing",
-"start": 1.86,
-"end": 2.14
+"start": 2.36,
+"end": 2.66
 },
 {
 "word": "it",
-"start": 2.14,
-"end": 2.34
+"start": 2.66,
+"end": 2.92
 },
 {
 "word": "tomorrow",
-"start": 2.34,
-"end": 2.6
+"start": 2.92,
+"end": 3.2
 },
 {
 "word": "morning",
-"start": 2.6,
-"end": 3.02
+"start": 3.2,
+"end": 3.78
 },
 {
 "word": "and",
-"start": 3.26,
-"end": 3.42
+"start": 4.1,
+"end": 4.32
 },
 {
 "word": "yet",
-"start": 3.42,
-"end": 3.56
+"start": 4.32,
+"end": 4.54
 },
 {
 "word": "an",
-"start": 3.56,
-"end": 3.86
+"start": 4.54,
+"end": 4.9
 },
 {
 "word": "invisible",
-"start": 3.86,
-"end": 4.2
+"start": 4.9,
+"end": 5.32
 },
 {
 "word": "force",
-"start": 4.2,
-"end": 4.68
+"start": 5.32,
+"end": 5.86
 },
 {
 "word": "paralyses",
-"start": 4.68,
-"end": 5.46
+"start": 5.86,
+"end": 6.74
 },
 {
 "word": "you",
-"start": 5.46,
-"end": 5.66
+"start": 6.74,
+"end": 7.0
 },
 {
 "word": "into",
-"start": 5.66,
-"end": 5.96
+"start": 7.0,
+"end": 7.32
 },
 {
 "word": "procrastination.",
-"start": 5.96,
-"end": 6.64
+"start": 7.32,
+"end": 8.16
 }
 ]
