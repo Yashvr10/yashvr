@@ -47,3 +47,8 @@ Only for chapter changes, never for the normal captions.
 
 ### BGM
 - The reel's track is someone else's copyrighted music → cannot be reused. Use an openly licensed track with the same feel (dark, pulsing, minimal electronic, ~120 bpm with clear beats to cut on).
+
+## 6. Chapter titles — DECIDED (user, 2026-11-16)
+- **Look:** capitals like "FOOLISH PUPPET": small white Bebas Neue word, then the huge red #e1050a Bebas word behind it.
+- **Animation:** the "rishot4rx." build: letters fade in one by one in random scattered order over ~1.2 s (opacity only, no movement). The white word builds first, then the red word.
+- No lowercase or full stop. Only for chapter changes, never for normal captions.
