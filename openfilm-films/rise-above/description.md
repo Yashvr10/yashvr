@@ -15,8 +15,8 @@ You don't need a bigger plan. You need an honest one: the kind your pride reject
 🖼 Art
 Paintings, photographs and sculpture from The Cleveland Museum of Art Open Access collection (CC0): George Bellows, Thomas Eakins, Auguste Rodin, Winslow Homer, Thomas Cole, Vincent van Gogh, Jacob van Ruisdael, James McNeill Whistler, Gustave Caillebotte and others. Dwight Tryon and Albert Bierstadt from The Metropolitan Museum of Art (CC0).
 
-🎵 Music (CC BY-SA 3.0)
-"New Hope Instrumental" by Jim Gaven; "At The Edge Of Hope" by Hillaby; via Jamendo.
+🎵 Music
+"What We Became" by Pecan Pie.
 
 🎙 Narration is AI-generated (Kokoro text-to-speech).
 
