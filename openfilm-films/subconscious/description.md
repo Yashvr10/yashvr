@@ -9,12 +9,12 @@ You know what would change your life. So why does an invisible force keep you pr
 What you call a lack of discipline is a lack of authority within your own mind. Force breeds resistance. The way through is seduction: pull your subconscious toward your goals instead of whipping it into shape, and use willpower only as a boost. This is the first principle of self-hypnosis, and the first skill is learning to relax and concentrate your mind.
 
 0:00 The invisible force
-0:07 Self-hypnosis: seduce, don't force
-0:56 When did your mind last listen?
-1:22 A mind that hears you
-2:07 First focus: concentration is the root
+0:13 Self-hypnosis: seduce, don't force
+1:17 When did your mind last listen?
+1:50 A mind that hears you
+2:48 First focus: concentration is the root
 
-Music: "Electron Wake [techno]" by Hardcore Scm, CC BY 3.0, https://www.jamendo.com/track/1196244
+Music: "capsule hotel love" by Bod, CC BY-SA 3.0, https://www.jamendo.com/track/1040695
 Art: Cleveland Museum of Art Open Access (CC0).
 Narration voice: synthetic (Kokoro).
 
