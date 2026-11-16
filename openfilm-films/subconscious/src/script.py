@@ -17,6 +17,7 @@ def s(text, th, emph=(), grid=None, grey=False, burst=False, gap=0.5):
                   emph=list(emph), grid=grid, grey=grey, burst=burst, gap=gap))
 def ch(a, b, dur=2.6): S.append(dict(id=f"ch{sum(1 for x in S if 'card' in x)+1}", card="chapter", a=a, b=b, len=dur))
 
+ch("INVISIBLE", "FORCE", 3.4)   # opening heading on black (user, v2)
 s("You know what would change your life if you started doing it tomorrow morning and yet an invisible force paralyses you into procrastination.",
   ["dawn", "bed", "chains"], burst=True, gap=0.15)
 ch("SELF", "HYPNOSIS")

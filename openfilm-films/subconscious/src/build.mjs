@@ -29,7 +29,7 @@ const gsize = (k) => execFileSync("ffprobe", ["-v", "error", "-show_entries", "s
 
 const shots = [], cards = [], emph = [], chaps = [], caps = [], rects = [], vo = [], sfx = [];
 const SLOTS = [[60, 40], [520, 60], [980, 40], [1440, 60], [80, 730], [540, 750], [1000, 730], [1460, 750]];  // top row, bottom row
-let t = 0.3, cutN = 0, chapN = 0;
+let t = 1.0, cutN = 0, chapN = 0;
 const chapterTimes = [];
 for (const s of cfg.scenes) {
   if (s.card) {
@@ -71,8 +71,7 @@ for (const s of cfg.scenes) {
     if (nextE !== undefined) b = Math.min(b, nextE);
     if (b - a < 0.1) return;
     const words = p.map((k) => ({ x: ws[k].word, t: r3(wt(k)) }));
-    const width = words.length === 1 ? 0 : Math.min(1560, 360 + words.length * 300);
-    caps.push({ at: r3(a), end: r3(b), words, width: width || undefined, dark: !!card });
+    caps.push({ at: r3(a), end: r3(b), words, dark: !!card });
   });
 
   // pictures
@@ -100,7 +99,7 @@ for (const s of cfg.scenes) {
     }
     const after = cuts[cuts.length - 1];
     let lastCut = after;
-    const gapNext = () => 1.05 + rnd() * 0.45;
+    const gapNext = () => 1.3 + rnd() * 0.6;
     let want = lastCut + gapNext();
     for (let k = 0; k < ws.length; k++) {
       const x = wt(k);
@@ -160,7 +159,7 @@ L.push(`<section>\n  <iframe id="stage" src="stage.html#t=0,${FILM}"></iframe>\n
 L.push(`<section>\n${shots.filter((x) => x.inv).map((x, i) => `  <img id="inv-${i}" src="assets/photos169/${x.k}.jpg#t=0,${x.len}" at="${x.at}" class="inv">`).join("\n")}\n</section>`);
 L.push(`<section>\n${shots.filter((x) => !x.inv).map((x, i) => `  <img id="shot-${i}" src="assets/photos169/${x.k}.jpg#t=0,${x.len}" at="${x.at}" class="shot${x.kb ? " kb-" + x.kb : ""}">`).join("\n")}\n</section>`);
 L.push(`<section>\n${vo.map((x) => `  <audio id="vo-${x.id}" src="assets/vo/${x.id}.mp3" at="${r3(x.at)}"></audio>`).join("\n")}\n</section>`);
-L.push(`<section>\n  <audio id="music" src="assets/music/electron-wake.mp3#t=${MV.in},${r3(MV.in + FILM)}" at="0" volume="${MV.vol}" overrides='[{"fade":[0.4,2.5]}]'></audio>\n</section>`);
+L.push(`<section>\n  <audio id="music" src="assets/music/capsule-hotel-love.mp3#t=${MV.in},${r3(MV.in + FILM)}" at="0" volume="${MV.vol}" overrides='[{"fade":[0.4,2.5]}]'></audio>\n</section>`);
 tracks.forEach((tr) => L.push(`<section>\n${tr.clips.map((x) => `  <audio src="assets/sfx/${x.f}" at="${r3(x.at)}" volume="${x.vol}"></audio>`).join("\n")}\n</section>`));
 L.push(`</body>\n</html>\n`);
 fs.writeFileSync(path.join(ROOT, "film.html"), L.join("\n"));

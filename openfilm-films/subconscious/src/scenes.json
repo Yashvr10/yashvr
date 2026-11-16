@@ -3,6 +3,13 @@
  "speed": 1.1,
  "scenes": [
   {
+   "id": "ch1",
+   "card": "chapter",
+   "a": "INVISIBLE",
+   "b": "FORCE",
+   "len": 3.4
+  },
+  {
    "id": "s01",
    "text": "You know what would change your life if you started doing it tomorrow morning and yet an invisible force paralyses you into procrastination.",
    "th": [
@@ -17,7 +24,7 @@
    "gap": 0.15
   },
   {
-   "id": "ch1",
+   "id": "ch2",
    "card": "chapter",
    "a": "SELF",
    "b": "HYPNOSIS",
@@ -173,7 +180,7 @@
    "gap": 0.5
   },
   {
-   "id": "ch2",
+   "id": "ch3",
    "card": "chapter",
    "a": "PERSONAL",
    "b": "QUESTION",
@@ -273,7 +280,7 @@
    "gap": 0.5
   },
   {
-   "id": "ch3",
+   "id": "ch4",
    "card": "chapter",
    "a": "BEING",
    "b": "HEARD",
@@ -425,7 +432,7 @@
    "gap": 0.7
   },
   {
-   "id": "ch4",
+   "id": "ch5",
    "card": "chapter",
    "a": "FIRST",
    "b": "FOCUS",
