@@ -17,3 +17,33 @@ Only for chapter changes, never for the normal captions.
 - The whole word resolves in about 1.2 s (about 30 frames at 25 fps); the first letters start dim (roughly 30-40%) and reach full red while later letters are still fading in. No movement, no scale, no blur: opacity only, per letter.
 - In the reference the word is lowercase, a rounded geometric sans in bold (Poppins or Montserrat style), red (#d90c14), ending with a full stop ("rishot4rx."), laid over the picture in front of the subject.
 - Combined with the chapter layout above: the small white word and the huge red word each assemble with this per-letter random fade-in (the white word first, then the red word).
+
+## 5. Reel DezFTyktEUp — "flying car" reel (studied 2026-11-16)
+
+### Voice pacing (match exactly)
+- 190 words in 53.8 s = **~212 wpm**: fast, conversational, almost no breathing room.
+- Gaps between sentences 0.1–0.4 s. Only ONE long pause in the whole reel: **2.4 s after the opening hook line**, which lets the music and visuals land before the voice goes again.
+- Kokoro plan: bm_george at speed ~1.25, sentence gaps clamped to 0.15–0.35 s, one 2–2.5 s hold after the opening hook (and optionally one at the reveal line of each chapter).
+
+### Captions (normal lines)
+- Small clean grotesque sans, regular weight, sentence case (Helvetica/Inter look → **Inter Tight Regular**, ~4.5% of frame height).
+- One horizontal line, centred vertically and horizontally. Words are **placed spread wide across the line** with large gaps ("Elon        Musk", "built    a    flying").
+- Animation: each word **appears instantly in its final slot when spoken** (hard pop, no slide/fade), so the line fills in left-to-right with gaps. Line clears on the next phrase.
+- White on dark shots; **black on the light grey cards**.
+- A graphic (logo/icon) can slam in the middle of the line and push the words apart → for us: a small symbol or image slams in between the words on a key phrase.
+- Existing rules still win: emphasis words stay the big Bebas, chapter changes stay the chapter card.
+
+### Transitions
+- **Hard cuts on the beat** most of the time (~75 cuts in 58 s; average shot under 1 s).
+- **Flash-invert**: 1–2 frames of the negative (or a white frame) right on a cut.
+- **Rectangle wipe**: a flat grey or white rectangle pops onto the shot (1–2 frames), then the next shot/card appears.
+- **Cut to a light grey card** (#c8c8c8 with paper grain) where the captions sit in black.
+- **Burst**: near the payoff line, ~12 cuts in 1 s (2-frame shots).
+
+### Grid collage (with multiple images, as asked)
+- Light grey paper background, caption line in the middle.
+- Image rectangles **pop in one at a time on the beat**, each at a different grid slot (top-left, top-centre, top-right, then lower slots), hard edges, no borders, no shadows, until the frame is a mosaic around the caption.
+- For our video: 4–8 different paintings/photos per grid moment, one per word or beat, never the same image twice in a grid.
+
+### BGM
+- The reel's track is someone else's copyrighted music → cannot be reused. Use an openly licensed track with the same feel (dark, pulsing, minimal electronic, ~120 bpm with clear beats to cut on).
