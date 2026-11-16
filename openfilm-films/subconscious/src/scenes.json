@@ -1,6 +1,6 @@
 {
  "voice": "bm_george",
- "speed": 1.33,
+ "speed": 1.1,
  "scenes": [
   {
    "id": "s01",
@@ -36,7 +36,7 @@
    "grid": null,
    "grey": false,
    "burst": false,
-   "gap": 0.15
+   "gap": 0.5
   },
   {
    "id": "s03",
@@ -52,7 +52,7 @@
    "grid": null,
    "grey": false,
    "burst": false,
-   "gap": 0.15
+   "gap": 0.5
   },
   {
    "id": "s04",
@@ -65,7 +65,7 @@
    "grid": null,
    "grey": false,
    "burst": false,
-   "gap": 0.15
+   "gap": 0.5
   },
   {
    "id": "s05",
@@ -78,7 +78,7 @@
    "grid": null,
    "grey": false,
    "burst": false,
-   "gap": 0.15
+   "gap": 0.5
   },
   {
    "id": "s06",
@@ -92,7 +92,7 @@
    "grid": null,
    "grey": false,
    "burst": false,
-   "gap": 0.35
+   "gap": 1.0
   },
   {
    "id": "s07",
@@ -104,7 +104,7 @@
    "grid": "goals",
    "grey": false,
    "burst": false,
-   "gap": 0.15
+   "gap": 0.5
   },
   {
    "id": "s08",
@@ -118,7 +118,7 @@
    "grid": null,
    "grey": false,
    "burst": false,
-   "gap": 0.15
+   "gap": 0.5
   },
   {
    "id": "s09",
@@ -130,7 +130,7 @@
    "grid": null,
    "grey": false,
    "burst": false,
-   "gap": 0.15
+   "gap": 0.5
   },
   {
    "id": "s10",
@@ -142,7 +142,7 @@
    "grid": null,
    "grey": false,
    "burst": false,
-   "gap": 0.15
+   "gap": 0.5
   },
   {
    "id": "s11",
@@ -154,7 +154,7 @@
    "grid": null,
    "grey": false,
    "burst": false,
-   "gap": 0.15
+   "gap": 0.5
   },
   {
    "id": "s12",
@@ -170,7 +170,7 @@
    "grid": null,
    "grey": false,
    "burst": false,
-   "gap": 0.15
+   "gap": 0.5
   },
   {
    "id": "ch2",
@@ -189,7 +189,7 @@
    "grid": null,
    "grey": true,
    "burst": false,
-   "gap": 0.15
+   "gap": 0.5
   },
   {
    "id": "s14",
@@ -201,7 +201,7 @@
    "grid": null,
    "grey": false,
    "burst": false,
-   "gap": 0.15
+   "gap": 0.5
   },
   {
    "id": "s15",
@@ -213,7 +213,7 @@
    "grid": null,
    "grey": false,
    "burst": false,
-   "gap": 0.15
+   "gap": 0.5
   },
   {
    "id": "s16",
@@ -229,7 +229,7 @@
    "grid": null,
    "grey": false,
    "burst": false,
-   "gap": 0.15
+   "gap": 0.5
   },
   {
    "id": "s17",
@@ -243,7 +243,7 @@
    "grid": null,
    "grey": false,
    "burst": false,
-   "gap": 0.15
+   "gap": 0.5
   },
   {
    "id": "s18",
@@ -258,7 +258,7 @@
    "grid": null,
    "grey": false,
    "burst": false,
-   "gap": 0.15
+   "gap": 0.5
   },
   {
    "id": "s19",
@@ -270,7 +270,7 @@
    "grid": null,
    "grey": false,
    "burst": false,
-   "gap": 0.15
+   "gap": 0.5
   },
   {
    "id": "ch3",
@@ -290,7 +290,7 @@
    "grid": null,
    "grey": false,
    "burst": false,
-   "gap": 0.15
+   "gap": 0.5
   },
   {
    "id": "s21",
@@ -302,7 +302,7 @@
    "grid": "minds",
    "grey": false,
    "burst": false,
-   "gap": 0.15
+   "gap": 0.5
   },
   {
    "id": "s22",
@@ -315,7 +315,7 @@
    "grid": null,
    "grey": false,
    "burst": false,
-   "gap": 0.15
+   "gap": 0.5
   },
   {
    "id": "s23",
@@ -328,7 +328,7 @@
    "grid": null,
    "grey": false,
    "burst": false,
-   "gap": 0.15
+   "gap": 0.5
   },
   {
    "id": "s24",
@@ -344,7 +344,7 @@
    "grid": null,
    "grey": false,
    "burst": true,
-   "gap": 0.15
+   "gap": 0.5
   },
   {
    "id": "s25",
@@ -356,7 +356,7 @@
    "grid": null,
    "grey": false,
    "burst": false,
-   "gap": 0.15
+   "gap": 0.5
   },
   {
    "id": "s26",
@@ -370,7 +370,7 @@
    "grid": null,
    "grey": false,
    "burst": false,
-   "gap": 0.15
+   "gap": 0.5
   },
   {
    "id": "s27",
@@ -383,7 +383,7 @@
    "grid": null,
    "grey": false,
    "burst": false,
-   "gap": 0.15
+   "gap": 0.5
   },
   {
    "id": "s28",
@@ -398,7 +398,7 @@
    "grid": null,
    "grey": false,
    "burst": false,
-   "gap": 0.15
+   "gap": 0.5
   },
   {
    "id": "s29",
@@ -410,7 +410,7 @@
    "grid": "life",
    "grey": false,
    "burst": false,
-   "gap": 0.15
+   "gap": 0.5
   },
   {
    "id": "s30",
@@ -422,7 +422,7 @@
    "grid": null,
    "grey": true,
    "burst": false,
-   "gap": 0.3
+   "gap": 0.7
   },
   {
    "id": "ch4",
@@ -443,7 +443,7 @@
    "grid": null,
    "grey": false,
    "burst": false,
-   "gap": 0.15
+   "gap": 0.5
   },
   {
    "id": "s32",
@@ -456,7 +456,7 @@
    "grid": null,
    "grey": false,
    "burst": false,
-   "gap": 0.15
+   "gap": 0.5
   },
   {
    "id": "s33",
@@ -468,7 +468,7 @@
    "grid": "work",
    "grey": false,
    "burst": false,
-   "gap": 0.15
+   "gap": 0.5
   },
   {
    "id": "s34",
@@ -482,7 +482,7 @@
    "grid": null,
    "grey": false,
    "burst": false,
-   "gap": 0.15
+   "gap": 0.5
   },
   {
    "id": "s35",
@@ -494,7 +494,7 @@
    "grid": null,
    "grey": false,
    "burst": false,
-   "gap": 0.3
+   "gap": 0.7
   },
   {
    "id": "s36",
@@ -507,7 +507,7 @@
    "grid": null,
    "grey": false,
    "burst": false,
-   "gap": 0.15
+   "gap": 0.5
   },
   {
    "id": "s37",
@@ -519,7 +519,7 @@
    "grid": null,
    "grey": false,
    "burst": false,
-   "gap": 0.15
+   "gap": 0.5
   },
   {
    "id": "s38",
@@ -533,7 +533,7 @@
    "grid": null,
    "grey": false,
    "burst": false,
-   "gap": 0.15
+   "gap": 0.5
   },
   {
    "id": "s39",
@@ -549,7 +549,7 @@
    "grid": null,
    "grey": false,
    "burst": false,
-   "gap": 0.15
+   "gap": 0.5
   },
   {
    "id": "s40",
@@ -562,7 +562,7 @@
    "grid": null,
    "grey": false,
    "burst": false,
-   "gap": 0.15
+   "gap": 0.5
   },
   {
    "id": "s41",
@@ -575,7 +575,7 @@
    "grid": null,
    "grey": false,
    "burst": false,
-   "gap": 0.15
+   "gap": 0.5
   },
   {
    "id": "s42",
@@ -590,7 +590,7 @@
    "grid": null,
    "grey": false,
    "burst": true,
-   "gap": 0.15
+   "gap": 0.5
   },
   {
    "id": "s43",
@@ -604,7 +604,7 @@
    "grid": null,
    "grey": false,
    "burst": false,
-   "gap": 0.15
+   "gap": 0.5
   },
   {
    "id": "s44",
@@ -617,7 +617,7 @@
    "grid": null,
    "grey": false,
    "burst": false,
-   "gap": 0.15
+   "gap": 0.5
   },
   {
    "id": "s45",
@@ -630,7 +630,7 @@
    "grid": null,
    "grey": false,
    "burst": false,
-   "gap": 0.15
+   "gap": 0.5
   },
   {
    "id": "s46",
@@ -643,7 +643,7 @@
    "grid": null,
    "grey": false,
    "burst": false,
-   "gap": 0.15
+   "gap": 0.5
   },
   {
    "id": "s47",
@@ -658,7 +658,7 @@
    "grid": null,
    "grey": false,
    "burst": false,
-   "gap": 0.8
+   "gap": 1.0
   }
  ]
 }

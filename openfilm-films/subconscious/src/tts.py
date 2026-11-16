@@ -17,5 +17,5 @@ for s in cfg["scenes"]:
     if os.path.exists(mp3) and os.path.exists(stamp) and open(stamp).read() == key: continue
     audio, sr = k.create(spoken(s["text"]), voice=cfg["voice"], speed=cfg["speed"], lang="en-gb")
     wav = f"/tmp/{s['id']}.wav"; sf.write(wav, audio, sr)
-    subprocess.run(["ffmpeg","-y","-loglevel","error","-i",wav,"-af","silenceremove=start_periods=1:start_threshold=-45dB:stop_periods=-1:stop_duration=0.16:stop_threshold=-45dB:stop_silence=0.11,loudnorm=I=-16:TP=-1.5:LRA=7","-ar","48000","-ac","1","-b:a","128k",mp3], check=True)
+    subprocess.run(["ffmpeg","-y","-loglevel","error","-i",wav,"-af","loudnorm=I=-16:TP=-1.5:LRA=7","-ar","48000","-ac","1","-b:a","128k",mp3], check=True)
     open(stamp,"w").write(key); print(s["id"], round(len(audio)/sr,2))
