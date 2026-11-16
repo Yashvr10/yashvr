@@ -1,0 +1,42 @@
+[
+{
+"word": "Picture",
+"start": 0.0,
+"end": 0.2
+},
+{
+"word": "yourself",
+"start": 0.2,
+"end": 0.56
+},
+{
+"word": "with",
+"start": 0.56,
+"end": 0.94
+},
+{
+"word": "a",
+"start": 0.94,
+"end": 1.02
+},
+{
+"word": "mind",
+"start": 1.02,
+"end": 1.26
+},
+{
+"word": "that",
+"start": 1.26,
+"end": 1.46
+},
+{
+"word": "hears",
+"start": 1.46,
+"end": 1.64
+},
+{
+"word": "you.",
+"start": 1.64,
+"end": 1.88
+}
+]

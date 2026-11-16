@@ -1,0 +1,72 @@
+[
+{
+"word": "You",
+"start": 0.0,
+"end": 0.08
+},
+{
+"word": "feel",
+"start": 0.08,
+"end": 0.22
+},
+{
+"word": "out",
+"start": 0.22,
+"end": 0.36
+},
+{
+"word": "of",
+"start": 0.36,
+"end": 0.44
+},
+{
+"word": "your",
+"start": 0.44,
+"end": 0.56
+},
+{
+"word": "depth",
+"start": 0.56,
+"end": 0.86
+},
+{
+"word": "and",
+"start": 0.86,
+"end": 1.2
+},
+{
+"word": "it",
+"start": 1.2,
+"end": 1.28
+},
+{
+"word": "reminds",
+"start": 1.28,
+"end": 1.58
+},
+{
+"word": "you",
+"start": 1.58,
+"end": 1.86
+},
+{
+"word": "of",
+"start": 1.86,
+"end": 2.04
+},
+{
+"word": "why",
+"start": 2.04,
+"end": 2.24
+},
+{
+"word": "you're",
+"start": 2.24,
+"end": 2.48
+},
+{
+"word": "not.",
+"start": 2.48,
+"end": 2.64
+}
+]

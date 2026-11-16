@@ -1,0 +1,664 @@
+{
+ "voice": "bm_george",
+ "speed": 1.33,
+ "scenes": [
+  {
+   "id": "s01",
+   "text": "You know what would change your life if you started doing it tomorrow morning and yet an invisible force paralyses you into procrastination.",
+   "th": [
+    "dawn",
+    "bed",
+    "chains"
+   ],
+   "emph": [],
+   "grid": null,
+   "grey": false,
+   "burst": true,
+   "gap": 0.15
+  },
+  {
+   "id": "ch1",
+   "card": "chapter",
+   "a": "SELF",
+   "b": "HYPNOSIS",
+   "len": 2.6
+  },
+  {
+   "id": "s02",
+   "text": "As a matter of fact, what you call a lack of discipline is a sign you lack authority within your mind.",
+   "th": [
+    "head",
+    "king"
+   ],
+   "emph": [
+    "authority"
+   ],
+   "grid": null,
+   "grey": false,
+   "burst": false,
+   "gap": 0.15
+  },
+  {
+   "id": "s03",
+   "text": "You do not trust yourself, and so you resort to force, to obedience, to whipping yourself into shape.",
+   "th": [
+    "mirror",
+    "chains"
+   ],
+   "emph": [
+    "force",
+    "obedience"
+   ],
+   "grid": null,
+   "grey": false,
+   "burst": false,
+   "gap": 0.15
+  },
+  {
+   "id": "s04",
+   "text": "This creates resistance and if you're ambitiously minded, you'll revolt against it.",
+   "th": [
+    "storm",
+    "revolt"
+   ],
+   "emph": [],
+   "grid": null,
+   "grey": false,
+   "burst": false,
+   "gap": 0.15
+  },
+  {
+   "id": "s05",
+   "text": "You probably already know this but I'm going to say it anyway so your subconscious mind can hear it loud and clear.",
+   "th": [
+    "head",
+    "ear"
+   ],
+   "emph": [],
+   "grid": null,
+   "grey": false,
+   "burst": false,
+   "gap": 0.15
+  },
+  {
+   "id": "s06",
+   "text": "The solution is seduction",
+   "th": [
+    "seduce"
+   ],
+   "emph": [
+    "seduction"
+   ],
+   "grid": null,
+   "grey": false,
+   "burst": false,
+   "gap": 0.35
+  },
+  {
+   "id": "s07",
+   "text": "To seduce your mind with your goals, your vision, your to-do list and allow yourself to naturally move towards them.",
+   "th": [
+    "seduce"
+   ],
+   "emph": [],
+   "grid": "goals",
+   "grey": false,
+   "burst": false,
+   "gap": 0.15
+  },
+  {
+   "id": "s08",
+   "text": "Willpower is then used as nitrous.",
+   "th": [
+    "speed"
+   ],
+   "emph": [
+    "nitrous"
+   ],
+   "grid": null,
+   "grey": false,
+   "burst": false,
+   "gap": 0.15
+  },
+  {
+   "id": "s09",
+   "text": "A boost here and there.",
+   "th": [
+    "speed"
+   ],
+   "emph": [],
+   "grid": null,
+   "grey": false,
+   "burst": false,
+   "gap": 0.15
+  },
+  {
+   "id": "s10",
+   "text": "This is the fundamental principle of self-hypnosis.",
+   "th": [
+    "hypno"
+   ],
+   "emph": [],
+   "grid": null,
+   "grey": false,
+   "burst": false,
+   "gap": 0.15
+  },
+  {
+   "id": "s11",
+   "text": "This is what I will teach you over the coming months on this channel.",
+   "th": [
+    "reading"
+   ],
+   "emph": [],
+   "grid": null,
+   "grey": false,
+   "burst": false,
+   "gap": 0.15
+  },
+  {
+   "id": "s12",
+   "text": "You don't realise it yet, but after consistent practice of what I share with you this week, you'll begin to feel for perhaps the first time in years as if your mind is on your side.",
+   "th": [
+    "walk",
+    "calm",
+    "head"
+   ],
+   "emph": [
+    "side"
+   ],
+   "grid": null,
+   "grey": false,
+   "burst": false,
+   "gap": 0.15
+  },
+  {
+   "id": "ch2",
+   "card": "chapter",
+   "a": "PERSONAL",
+   "b": "QUESTION",
+   "len": 2.6
+  },
+  {
+   "id": "s13",
+   "text": "When was the last time your subconscious actually listened to you?",
+   "th": [
+    "head"
+   ],
+   "emph": [],
+   "grid": null,
+   "grey": true,
+   "burst": false,
+   "gap": 0.15
+  },
+  {
+   "id": "s14",
+   "text": "When you asked it to be calm, did it calm?",
+   "th": [
+    "calm"
+   ],
+   "emph": [],
+   "grid": null,
+   "grey": false,
+   "burst": false,
+   "gap": 0.15
+  },
+  {
+   "id": "s15",
+   "text": "When you required confidence, did it deliver?",
+   "th": [
+    "king"
+   ],
+   "emph": [],
+   "grid": null,
+   "grey": false,
+   "burst": false,
+   "gap": 0.15
+  },
+  {
+   "id": "s16",
+   "text": "When you needed sleep did it grant it, or did it spend three hours interrogating you about something that happened in 2017?",
+   "th": [
+    "bed",
+    "night",
+    "clock"
+   ],
+   "emph": [
+    "2017"
+   ],
+   "grid": null,
+   "grey": false,
+   "burst": false,
+   "gap": 0.15
+  },
+  {
+   "id": "s17",
+   "text": "If you're like most, the answer is uncomfortable.",
+   "th": [
+    "face"
+   ],
+   "emph": [
+    "uncomfortable"
+   ],
+   "grid": null,
+   "grey": false,
+   "burst": false,
+   "gap": 0.15
+  },
+  {
+   "id": "s18",
+   "text": "Your subconscious never listens because you fail to speak to it with respect.",
+   "th": [
+    "talk",
+    "head"
+   ],
+   "emph": [
+    "respect"
+   ],
+   "grid": null,
+   "grey": false,
+   "burst": false,
+   "gap": 0.15
+  },
+  {
+   "id": "s19",
+   "text": "Just imagine what it would be like if that changed.",
+   "th": [
+    "dawn"
+   ],
+   "emph": [],
+   "grid": null,
+   "grey": false,
+   "burst": false,
+   "gap": 0.15
+  },
+  {
+   "id": "ch3",
+   "card": "chapter",
+   "a": "BEING",
+   "b": "HEARD",
+   "len": 2.6
+  },
+  {
+   "id": "s20",
+   "text": "Picture yourself with a mind that hears you.",
+   "th": [
+    "ear",
+    "head"
+   ],
+   "emph": [],
+   "grid": null,
+   "grey": false,
+   "burst": false,
+   "gap": 0.15
+  },
+  {
+   "id": "s21",
+   "text": "Just imagine for a moment, your thoughts respected, your ideas valued, your reassurance immediately soothing doubt.",
+   "th": [
+    "face"
+   ],
+   "emph": [],
+   "grid": "minds",
+   "grey": false,
+   "burst": false,
+   "gap": 0.15
+  },
+  {
+   "id": "s22",
+   "text": "You will retain a clear image of what it feels like to laugh at comparing yourself to others, because the comparison no longer holds you.",
+   "th": [
+    "laugh",
+    "crowd"
+   ],
+   "emph": [],
+   "grid": null,
+   "grey": false,
+   "burst": false,
+   "gap": 0.15
+  },
+  {
+   "id": "s23",
+   "text": "As you continue to picture this, realise this is how your mind is supposed to work.",
+   "th": [
+    "calm",
+    "head"
+   ],
+   "emph": [],
+   "grid": null,
+   "grey": false,
+   "burst": false,
+   "gap": 0.15
+  },
+  {
+   "id": "s24",
+   "text": "When your subconscious respects you, it listens, and it executes.",
+   "th": [
+    "king",
+    "speed"
+   ],
+   "emph": [
+    "listens",
+    "executes"
+   ],
+   "grid": null,
+   "grey": false,
+   "burst": true,
+   "gap": 0.15
+  },
+  {
+   "id": "s25",
+   "text": "You ask to fall asleep and it hears you.",
+   "th": [
+    "bed"
+   ],
+   "emph": [],
+   "grid": null,
+   "grey": false,
+   "burst": false,
+   "gap": 0.15
+  },
+  {
+   "id": "s26",
+   "text": "You require confidence and it floods you with certainty.",
+   "th": [
+    "king"
+   ],
+   "emph": [
+    "certainty"
+   ],
+   "grid": null,
+   "grey": false,
+   "burst": false,
+   "gap": 0.15
+  },
+  {
+   "id": "s27",
+   "text": "You feel out of your depth and it reminds you of why you're not.",
+   "th": [
+    "sea",
+    "walk"
+   ],
+   "emph": [],
+   "grid": null,
+   "grey": false,
+   "burst": false,
+   "gap": 0.15
+  },
+  {
+   "id": "s28",
+   "text": "With every passing minute you practice this, the channel between you and your deeper mind opens further.",
+   "th": [
+    "door",
+    "sea"
+   ],
+   "emph": [
+    "further"
+   ],
+   "grid": null,
+   "grey": false,
+   "burst": false,
+   "gap": 0.15
+  },
+  {
+   "id": "s29",
+   "text": "Now, just imagine what would happen if we applied this to every area of your life.",
+   "th": [
+    "crowd"
+   ],
+   "emph": [],
+   "grid": "life",
+   "grey": false,
+   "burst": false,
+   "gap": 0.15
+  },
+  {
+   "id": "s30",
+   "text": "What would you now be able to do?",
+   "th": [
+    "dawn"
+   ],
+   "emph": [],
+   "grid": null,
+   "grey": true,
+   "burst": false,
+   "gap": 0.3
+  },
+  {
+   "id": "ch4",
+   "card": "chapter",
+   "a": "FIRST",
+   "b": "FOCUS",
+   "len": 2.6
+  },
+  {
+   "id": "s31",
+   "text": "To begin with, our first focus is to learn how to relax your mind.",
+   "th": [
+    "calm"
+   ],
+   "emph": [
+    "relax"
+   ],
+   "grid": null,
+   "grey": false,
+   "burst": false,
+   "gap": 0.15
+  },
+  {
+   "id": "s32",
+   "text": "Concentration of mind is a fundamental skill.",
+   "th": [
+    "reading",
+    "candle"
+   ],
+   "emph": [],
+   "grid": null,
+   "grey": false,
+   "burst": false,
+   "gap": 0.15
+  },
+  {
+   "id": "s33",
+   "text": "Every other skill whether self-hypnotic or real-world is a product of concentration.",
+   "th": [
+    "work"
+   ],
+   "emph": [],
+   "grid": "work",
+   "grey": false,
+   "burst": false,
+   "gap": 0.15
+  },
+  {
+   "id": "s34",
+   "text": "Without doubt, this is the root.",
+   "th": [
+    "tree"
+   ],
+   "emph": [
+    "root"
+   ],
+   "grid": null,
+   "grey": false,
+   "burst": false,
+   "gap": 0.15
+  },
+  {
+   "id": "s35",
+   "text": "Picture this for a moment",
+   "th": [
+    "face"
+   ],
+   "emph": [],
+   "grid": null,
+   "grey": false,
+   "burst": false,
+   "gap": 0.3
+  },
+  {
+   "id": "s36",
+   "text": "The presence in your eyes as you look into a room you speak to.",
+   "th": [
+    "eyes",
+    "talk"
+   ],
+   "emph": [],
+   "grid": null,
+   "grey": false,
+   "burst": false,
+   "gap": 0.15
+  },
+  {
+   "id": "s37",
+   "text": "The poised attention as you handle a difficult conversation.",
+   "th": [
+    "talk"
+   ],
+   "emph": [],
+   "grid": null,
+   "grey": false,
+   "burst": false,
+   "gap": 0.15
+  },
+  {
+   "id": "s38",
+   "text": "What you focus on, you realise more of and see more often until it becomes the focal point of your daily experience.",
+   "th": [
+    "eyes",
+    "street",
+    "candle"
+   ],
+   "emph": [],
+   "grid": null,
+   "grey": false,
+   "burst": false,
+   "gap": 0.15
+  },
+  {
+   "id": "s39",
+   "text": "The more you practice, the more control you have over anxiety, fear and panic in real situations.",
+   "th": [
+    "storm"
+   ],
+   "emph": [
+    "anxiety",
+    "fear",
+    "panic"
+   ],
+   "grid": null,
+   "grey": false,
+   "burst": false,
+   "gap": 0.15
+  },
+  {
+   "id": "s40",
+   "text": "You are able to physiologically calm your nervous system through the persuasion of your own thought.",
+   "th": [
+    "calm",
+    "head"
+   ],
+   "emph": [],
+   "grid": null,
+   "grey": false,
+   "burst": false,
+   "gap": 0.15
+  },
+  {
+   "id": "s41",
+   "text": "Little by little, you learn to tame the seductive nature of negative thoughts.",
+   "th": [
+    "seduce",
+    "night"
+   ],
+   "emph": [],
+   "grid": null,
+   "grey": false,
+   "burst": false,
+   "gap": 0.15
+  },
+  {
+   "id": "s42",
+   "text": "Which can be difficult, because we live in a world of distraction.",
+   "th": [
+    "street",
+    "crowd"
+   ],
+   "emph": [
+    "distraction"
+   ],
+   "grid": null,
+   "grey": false,
+   "burst": true,
+   "gap": 0.15
+  },
+  {
+   "id": "s43",
+   "text": "This is why we treat these lessons as sacred.",
+   "th": [
+    "candle"
+   ],
+   "emph": [
+    "sacred"
+   ],
+   "grid": null,
+   "grey": false,
+   "burst": false,
+   "gap": 0.15
+  },
+  {
+   "id": "s44",
+   "text": "We listen. We understand and we act upon them.",
+   "th": [
+    "reading",
+    "work"
+   ],
+   "emph": [],
+   "grid": null,
+   "grey": false,
+   "burst": false,
+   "gap": 0.15
+  },
+  {
+   "id": "s45",
+   "text": "You must master this first. Without it, you refuse the fundamentals of learning to communicate with yourself.",
+   "th": [
+    "head",
+    "mirror"
+   ],
+   "emph": [],
+   "grid": null,
+   "grey": false,
+   "burst": false,
+   "gap": 0.15
+  },
+  {
+   "id": "s46",
+   "text": "In order of progression, each week you'll become more and more authoritative over your own autonomy.",
+   "th": [
+    "walk",
+    "king"
+   ],
+   "emph": [],
+   "grid": null,
+   "grey": false,
+   "burst": false,
+   "gap": 0.15
+  },
+  {
+   "id": "s47",
+   "text": "With this in mind are you ready to learn how to regain control of your mind?",
+   "th": [
+    "eyes",
+    "head"
+   ],
+   "emph": [
+    "control"
+   ],
+   "grid": null,
+   "grey": false,
+   "burst": false,
+   "gap": 0.8
+  }
+ ]
+}

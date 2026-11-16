@@ -1,0 +1,82 @@
+[
+{
+"word": "You",
+"start": 0.0,
+"end": 0.04
+},
+{
+"word": "are",
+"start": 0.04,
+"end": 0.14
+},
+{
+"word": "able",
+"start": 0.14,
+"end": 0.3
+},
+{
+"word": "to",
+"start": 0.3,
+"end": 0.5
+},
+{
+"word": "physiologically",
+"start": 0.5,
+"end": 1.1
+},
+{
+"word": "calm",
+"start": 1.1,
+"end": 1.42
+},
+{
+"word": "your",
+"start": 1.42,
+"end": 1.64
+},
+{
+"word": "nervous",
+"start": 1.64,
+"end": 1.86
+},
+{
+"word": "system",
+"start": 1.86,
+"end": 2.28
+},
+{
+"word": "through",
+"start": 2.28,
+"end": 2.68
+},
+{
+"word": "the",
+"start": 2.68,
+"end": 2.78
+},
+{
+"word": "persuasion",
+"start": 2.78,
+"end": 3.16
+},
+{
+"word": "of",
+"start": 3.16,
+"end": 3.64
+},
+{
+"word": "your",
+"start": 3.64,
+"end": 3.74
+},
+{
+"word": "own",
+"start": 3.74,
+"end": 3.96
+},
+{
+"word": "thought.",
+"start": 3.96,
+"end": 4.26
+}
+]

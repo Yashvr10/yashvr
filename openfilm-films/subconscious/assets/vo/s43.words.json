@@ -1,0 +1,47 @@
+[
+{
+"word": "This",
+"start": 0.0,
+"end": 0.1
+},
+{
+"word": "is",
+"start": 0.1,
+"end": 0.22
+},
+{
+"word": "why",
+"start": 0.22,
+"end": 0.44
+},
+{
+"word": "we",
+"start": 0.44,
+"end": 0.6
+},
+{
+"word": "treat",
+"start": 0.6,
+"end": 0.78
+},
+{
+"word": "these",
+"start": 0.78,
+"end": 0.96
+},
+{
+"word": "lessons",
+"start": 0.96,
+"end": 1.3
+},
+{
+"word": "as",
+"start": 1.3,
+"end": 1.72
+},
+{
+"word": "sacred.",
+"start": 1.72,
+"end": 2.02
+}
+]

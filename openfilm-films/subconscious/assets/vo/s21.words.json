@@ -1,0 +1,82 @@
+[
+{
+"word": "Just",
+"start": 0.0,
+"end": 0.1
+},
+{
+"word": "imagine",
+"start": 0.1,
+"end": 0.36
+},
+{
+"word": "for",
+"start": 0.36,
+"end": 0.68
+},
+{
+"word": "a",
+"start": 0.68,
+"end": 0.74
+},
+{
+"word": "moment,",
+"start": 0.74,
+"end": 1.0
+},
+{
+"word": "your",
+"start": 1.36,
+"end": 1.44
+},
+{
+"word": "thoughts",
+"start": 1.44,
+"end": 1.66
+},
+{
+"word": "respected,",
+"start": 1.66,
+"end": 2.18
+},
+{
+"word": "your",
+"start": 2.52,
+"end": 2.6
+},
+{
+"word": "ideas",
+"start": 2.6,
+"end": 2.94
+},
+{
+"word": "valued,",
+"start": 2.94,
+"end": 3.36
+},
+{
+"word": "your",
+"start": 3.7,
+"end": 3.8
+},
+{
+"word": "reassurance",
+"start": 3.8,
+"end": 4.3
+},
+{
+"word": "immediately",
+"start": 4.3,
+"end": 4.74
+},
+{
+"word": "soothing",
+"start": 4.74,
+"end": 5.24
+},
+{
+"word": "doubt.",
+"start": 5.24,
+"end": 5.56
+}
+]

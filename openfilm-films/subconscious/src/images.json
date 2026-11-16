@@ -1,0 +1,281 @@
+{
+ "dawn": [
+  "dawn-1",
+  "dawn-3",
+  "dawn-5",
+  "dawn-6",
+  "dawn-7"
+ ],
+ "bed": [
+  "bed-1",
+  "bed-2",
+  "bed-3",
+  "bed-4",
+  "bed-5",
+  "bed-6",
+  "bed-7",
+  "bed-8",
+  "bed-11",
+  "bed-12"
+ ],
+ "chains": [
+  "chains-1",
+  "chains-4",
+  "chains-5",
+  "chains-7",
+  "chains-8",
+  "chains-9"
+ ],
+ "head": [
+  "head-1",
+  "head-2",
+  "head-3",
+  "head-4",
+  "head-5",
+  "head-6",
+  "head-7",
+  "head-8",
+  "head-9",
+  "head-10",
+  "head-11",
+  "head-12"
+ ],
+ "king": [
+  "king-1",
+  "king-2",
+  "king-4",
+  "king-5",
+  "king-6",
+  "king-7",
+  "king-9",
+  "king-10"
+ ],
+ "mirror": [
+  "mirror-2",
+  "mirror-5"
+ ],
+ "storm": [
+  "storm-1",
+  "storm-2",
+  "storm-3",
+  "storm-4",
+  "storm-5",
+  "storm-6",
+  "storm-7",
+  "storm-8"
+ ],
+ "revolt": [
+  "revolt-1",
+  "revolt-2",
+  "revolt-3",
+  "revolt-5",
+  "revolt-6",
+  "revolt-7",
+  "revolt-8",
+  "revolt-9",
+  "revolt-10",
+  "revolt-11"
+ ],
+ "ear": [
+  "ear-5",
+  "ear-6"
+ ],
+ "seduce": [
+  "seduce-1",
+  "seduce-2",
+  "seduce-3",
+  "seduce-4",
+  "seduce-5",
+  "seduce-6",
+  "seduce-7",
+  "seduce-8",
+  "seduce-9",
+  "seduce-10",
+  "seduce-11",
+  "seduce-12"
+ ],
+ "speed": [
+  "speed-2",
+  "speed-3",
+  "speed-5",
+  "speed-7",
+  "speed-8",
+  "speed-10"
+ ],
+ "hypno": [
+  "hypno-2",
+  "hypno-4",
+  "hypno-5",
+  "hypno-6",
+  "hypno-7",
+  "hypno-9"
+ ],
+ "reading": [
+  "reading-1",
+  "reading-2",
+  "reading-4",
+  "reading-9"
+ ],
+ "walk": [
+  "walk-2",
+  "walk-3",
+  "walk-4",
+  "walk-5",
+  "walk-6",
+  "walk-8",
+  "walk-10",
+  "walk-11"
+ ],
+ "calm": [
+  "calm-1",
+  "calm-8"
+ ],
+ "night": [
+  "night-1",
+  "night-2",
+  "night-4",
+  "night-6"
+ ],
+ "clock": [
+  "clock-1",
+  "clock-2",
+  "clock-3",
+  "clock-4",
+  "clock-5",
+  "clock-6",
+  "clock-7",
+  "clock-8"
+ ],
+ "face": [
+  "face-1",
+  "face-2",
+  "face-3",
+  "face-4",
+  "face-5",
+  "face-6",
+  "face-7",
+  "face-8",
+  "face-9",
+  "face-11",
+  "face-12"
+ ],
+ "talk": [
+  "talk-3",
+  "talk-5",
+  "talk-6",
+  "talk-7",
+  "talk-9",
+  "talk-10",
+  "talk-11"
+ ],
+ "laugh": [
+  "laugh-3",
+  "laugh-6"
+ ],
+ "crowd": [
+  "crowd-2",
+  "crowd-4",
+  "crowd-5",
+  "crowd-7",
+  "crowd-10",
+  "crowd-11",
+  "crowd-12"
+ ],
+ "sea": [
+  "sea-1",
+  "sea-5",
+  "sea-8"
+ ],
+ "door": [
+  "door-1",
+  "door-2",
+  "door-3",
+  "door-4",
+  "door-6",
+  "door-11",
+  "door-12"
+ ],
+ "candle": [
+  "candle-1",
+  "candle-2",
+  "candle-3",
+  "candle-4",
+  "candle-6",
+  "candle-7",
+  "candle-9",
+  "candle-11"
+ ],
+ "work": [
+  "work-1",
+  "work-2",
+  "work-3",
+  "work-4",
+  "work-5",
+  "work-7",
+  "work-8",
+  "work-9",
+  "work-13",
+  "work-14",
+  "work-15",
+  "work-16",
+  "work-17",
+  "work-18",
+  "work-19",
+  "work-20"
+ ],
+ "tree": [
+  "tree-1",
+  "tree-2",
+  "tree-3",
+  "tree-5",
+  "tree-6",
+  "tree-7"
+ ],
+ "eyes": [
+  "eyes-1",
+  "eyes-2",
+  "eyes-5",
+  "eyes-6",
+  "eyes-7",
+  "eyes-8",
+  "eyes-10",
+  "eyes-12"
+ ],
+ "street": [
+  "street-2",
+  "street-4",
+  "street-6",
+  "street-7",
+  "street-8"
+ ],
+ "goals": [
+  "goals-2",
+  "goals-3",
+  "goals-4",
+  "goals-7",
+  "goals-12",
+  "goals-16",
+  "goals-17",
+  "goals-18",
+  "goals-19",
+  "goals-20"
+ ],
+ "life": [
+  "life-1",
+  "life-2",
+  "life-4",
+  "life-5",
+  "life-6",
+  "life-7",
+  "life-8",
+  "life-9",
+  "life-10",
+  "life-11",
+  "life-13",
+  "life-14",
+  "life-15",
+  "life-16",
+  "life-17",
+  "life-20"
+ ]
+}
