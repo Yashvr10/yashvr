@@ -15,168 +15,157 @@ At Thermopylae, told the Persian arrows would blot out the sun, Dienekes answere
 3:31 Your agoge
 
 Music: "09 Trap Bells (Instrumental Mix)" by Hasenchat, CC BY-SA 3.0, https://www.jamendo.com/track/1253537
-Art: The Metropolitan Museum of Art and the Cleveland Museum of Art Open Access (CC0).
+Art: public-domain paintings from Wikimedia Commons, The Met and the Cleveland Museum of Art (CC0); historic films from the Internet Archive and the Library of Congress (public domain).
 Narration voice: synthetic (Kokoro).
 
 #spartans #stoicism #discipline
 
 **Tags:** spartans, spartan mindset, how to stay calm under pressure, thermopylae, 300 spartans, agoge, spartan training, leonidas, discipline, mental toughness, how to handle pressure, performance anxiety, preparation, stoicism, ancient greece, self improvement, motivation, mindset, confidence, composure
 
-## Art used (157 works, all CC0)
-- Herakles the Archer, Emile Antoine Bourdelle
-- Archer with Turbaned Headdress, Giovanni Battista Piazzetta
-- Archer, Arthur Allen Lewis
-- Archer, probably from a chariot group
-- Limestone statuette of Herakles as an archer
-- Athlete Making an Offering
-- Mirror Support: Athlete
-- Indoor Athlete, George Bellows
-- Boxer
-- Personification of the Discus
-- Bronze youth
-- Bronze athlete
-- Marble head of an athlete
-- Statuette of an athlete
-- Statuette of a runner
-- Bronze statuette of a discus thrower
-- Statuette of an athlete
+## Historic films used (17)
+- The Olympic Games as They Were Practiced in Ancient Greece (1924), https://archive.org/details/the-olympic-games-as-they-were-practiced-in-ancient-greece-1924-tmdb470826
+- The Olympic Games in Paris 1924 (1925), https://archive.org/details/the-olympic-games-in-paris-1924-1925-tmdb470830
+- The Olympic Games, Amsterdam 1928 (1928), https://archive.org/details/the-olympic-games-amsterdam-1928-1928-tmdb470835
+- "Buffalo Soldiers," Meuse Argonne Offensive, 92nd Division, September 26 To November 11, 1918 (1918-09-26), https://archive.org/details/H-1423
+- Don't Be a Sucker (1947), https://archive.org/details/DontBeaS1947
+- Embarkation Of Troops For The U.S., April And May, 1919 (1919), https://archive.org/details/111-H-1454
+- TR reviews French troops at Vincennes, France, 1910 (1910), https://archive.org/details/loc-film-mp76000186-tr-reviews-french-troops-at-vincennes-france-1910
+- 25th Infantry (1900), https://archive.org/details/loc-film-98500744-25th-infantry
+- My Japan (1945), https://archive.org/details/MyJapan1945
+- Duck and Cover (1951), https://archive.org/details/DuckandC1951
+- From the Ground Up (1954), https://archive.org/details/FromtheG1954
+- TR reviews and addresses troops [Fort Sheridan, Ill.]; TR riding in auto, Chicago, 1917 (1917), https://archive.org/details/loc-film-mp76000043-tr-reviews-and-addresses-troops-fort-sheridan-ill-tr-riding-
+- Miracle on the Delaware (1955), https://archive.org/details/Miracleo1955
+- Sea Fighting in Greece (1897), https://archive.org/details/Sea_Fighting_in_Greece
+- News Magazine of the Screen, The (Vol. 7, Issue 3) (1956), https://archive.org/details/NewsMaga00_7
+- The Corbett– Fitzsimmons Fight (1897) (1897), https://archive.org/details/the-corbett-fitzsimmons-fight-1897
+- Wrestling at the N. Y. A. C. (1905), https://archive.org/details/loc-film-00564577-wrestling-at-the-n-y-a-c
+
+## Art used (125 works, public domain / CC0)
+- Attic red-figure cup with athlete (Dartmouth, Hood Mus C.970.35) 02.jpg, Attributed to Epidromos Painter
+- Winslow Homer - Rum Cay (1898-99).jpg, Winslow Homer
+- The Greek Runner Ladas Falling Dead as he Goes to Receive his Crown at Olympia).jpeg, Frank Moss Bennett
+- Terracotta kylix: Siana cup (drinking cup), Sandal Painter
 - Terracotta miniature Panathenaic amphora, Bulas Group
-- Marble statue of the so-called Stephanos Athlete
 - Terracotta lekythos (oil jar)
 - Battle of the Nudes, Antonio del Pollaiuolo
 - Allegorical Theme:  Combat of Animals, Master of the Beheading of St. John the Baptist
+- Combat for the Colors, Édouard Detaille
 - Egyptian Family (Sketch for "The Battle of the Pyramids"), Antoine-Jean Gros
+- The Battle of St. James the Greater at Clavijo, Martin Schongauer
 - Trojans Repelling the Greeks, Giovanni Battista Scultori
 - Combats and Triumphs, Etienne Delaune
-- Indian Combat, Edmonia Lewis
+- Battle of Otumba (Conquest of Mexico) Painting.jpg, Unknown authorUnknown author
+- Wrath of Xerxes at Battle of Salamis by Wilhelm von Kaulbach.jpg, Wilhelm von Kaulbach
+- Kaulbach - The Battle of Salamis - with frame.jpg, Photo by Szilas in München
+- Kaulbach, Wilhelm von - Die Seeschlacht bei Salamis - 1868.JPG, Wilhelm von Kaulbach
+- Detail from the Chigi-vase.jpg, Chigi Painter
+- Kinch Tomb Fresco.tiff, K.F.Kinch
+- Centaur mosaic - Google Art Project retouched.jpeg, Unknown Details on Google Art Project
+- Phidippides.jpg, Luc-Olivier Merson
+- The story of the greatest nations; a comprehensive history, extending from the earliest times to the present, founded on the most modern authorities, and including chronological summaries and (14783288925).jpg, Internet Archive Book Images
+- Battle at Lanka, Ramayana, Udaipur, 1649-53.jpg, Sahibdin
+- Battle of Scheveningen (Slag bij Ter Heijde)(Jan Abrahamsz. Beerstraten).jpg, Jan Abrahamsz Beerstraaten
+- The Battle of Lepanto (by anonymous artist, 17th century) - Gemäldegalerie, Staatliche Museen, Berlin.jpg, Unidentified painter
+- Fragment of a terracotta neck-amphora (jar), Prometheus Painter
+- Terracotta lekythos (oil flask), Athena Painter
 - Terracotta calyx-krater (bowl for mixing wine and water), Painter of the Berlin Hydria
-- Vase Fragment
 - Terracotta amphora (jar)
-- Kylix, band-cup fragment, Wraith Painter
-- The Jewish Boy, Medardo Rosso
-- Youth with Jumping Weights
+- Terracotta kylix (drinking cup), Group of Rhodes 12264
+- Boy with Anchor, Winslow Homer
+- Boy Drinking, Annibale Carracci
 - Portrait of a Youth as Saint Sebastian, Marco d'Oggiono
-- Seated boy
-- Seated boy
-- Youth
-- Bronze youth
-- Bronze youth
-- The Crucifixion of Saint Andrew, Caravaggio
-- Hyree Lake. Hill Station in the Himmalayahs. View of the Taj Lake with Assembly Rooms, Lhutse, Samuel Bourne
+- Nikodim Silivanovich. Soldier with a boy.jpg, Nikodim Silivanovich
+- Gabriel von Hackl - Kaiser Joseph II. als Knabe bei den Invaliden in Wien - 2470 - Kunsthistorisches Museum.jpg, Gabriel von Hackl
+- Landscape with the Rape of Hylas (SM 849).png, Joseph Anton Koch
+- David Bles 001.jpg, David Bles
 - Black Horseman in Front of a Doorway
-- Doorway to Sèvres Factory, Louis-Rémy Robert
-- Doorway to Sèvres Factory, Louis-Rémy Robert
 - Portrait of a Man, Possibly Girolamo Rosati, Lorenzo Lotto
-- Face Fragment
-- Portrait of a Woman, Rembrandt van Rijn
 - Portrait of a Man, Gustave Caillebotte
 - Portrait of a Man, Tanzio da Varallo
-- Portrait Head of a Man
-- Head of a Bearded Man
-- Head of a Man, Michel Colombe
-- A Young Man with a Chain, Rembrandt van Rijn
-- Antefix with Satyr Face
-- Right foot
-- Cista, foot
+- Joe English - Portrait painting of a World War I soldier.jpg, Joe English
+- Rembrandt - Portrait of a man - MET DP145947.jpg, Rembrandt
+- Rembrandt as a young man, portrait (New York).jpg, Rembrandt
+- Rembrandt (1606–1669) as a Young Man MET DP145931.jpg, Rembrandt
+- Portrait of a Man MET DP145947.jpg, Rembrandt
+- Clara Ewald - Portrait of a Soldier.jpg, Clara Ewald
+- Cornelis Norbertus Gijsbrechts (Attr.) - Trompe-l’oeil with a portrait of a soldier, a portrait miniature and a palette.jpg, Attributed to Cornelis Norbertus Gijsbrechts
+- Cavalier soldier Hals-1624x.jpg, Frans Hals
+- Savoldo - Autoportrait, dit autrefois Portrait de Gaston de Foix, INV 659.jpg, Giovanni Girolamo Savoldo
+- Rembrandt - Old Soldier - WGA19196.jpg, Workshop of Rembrandt
+- Oil painting on canvas. ‘An Afro-Iranian Soldier’, Iran, Isfahan; last quarter of the 17th century.jpg, Unidentified painter
+- Temple of Athene Nike. Venus Victrix—Wingless Victory, Dimitrios Constantin
+- Nymphs and a Satyr (Amor Vincit Omnia), Nicolas Poussin
+- Ruins of an Ancient City, John Martin
+- Ruins in a Rocky Landscape, Salvator Rosa
+- Roman Ruins, Villa Pamfili, Hubert Robert
+- Ruin by the Sea, Arnold Böcklin
+- Landscape with Tharandt Castle Ruins, Adrian Zingg
+- The Parthenon, Frédéric Boissonnas
+- Temple of Athene, Cape Sunium, Greece, Dimitri Constantin
 - View of the Acropolis, Adolphe Braun & Co.
+- View of the Acropolis, Adolphe Braun & Co.
+- View of the Acropolis (walking man in foreground), Adolphe Braun & Co.
 - The Acropolis from the Pnyx, Athens, Greece
-- Head of a Woman
-- Study of a Man with Hands in His Pockets, Gustave Caillebotte
-- Limestone hand holding a dove
-- Limestone hand
-- Hand, right, votive
-- Sleep and Death Cista Handle
-- Circular Altar with Hermes and Pallas Athena
+- John Martin - Ruins of an Ancient City - 1981.13 - Cleveland Museum of Art.tiff, John Martin
+- Ruins of the Greek Theatre at Taormina.jpg, Tivadar Csontváry Kosztka
+- Csontváry Kosztka, Tivadar - Ruins of the Greek Theatre at Taormina - Google Art Project.jpg, Tivadar Csontváry Kosztka
+- 19th Century Painting of Acropolis (28506175245).jpg, Gary Todd from Xinzheng, China
+- Painting of Acropolis, 19th Century (28506104495).jpg, Gary Todd from Xinzheng, China
+- Watercolor of Acropolis, 19th Century (28428190901).jpg, Gary Todd from Xinzheng, China
+- Paintng of Acropolis, 19th Century (27890444533).jpg, Gary Todd from Xinzheng, China
+- Study of Hands, Jean-Auguste-Dominique Ingres
 - The Small Playing Cards:  Second Suit:  Helmets:  Playing Card with King and Helmet, Master ES
 - Helmet
 - Bronze helmet
-- Bronze crested helmet
 - Bronze helmet
-- Head of a Foreign Warrior
-- Relief of Striding Warriors
-- Statuette of a Warrior
-- Model for a Fallen Warrior, Giovanni Francesco Rustici
-- Limestone warrior
-- Bronze warrior
-- Fragment of the marble stele (grave marker) of a hoplite (foot soldier)
-- Grave stele with Hoplite Battle Scene
-- Terracotta Nolan amphora (jar), Painter of London E 342
-- Bronze warrior
-- Fragmentary marble grave stele of a hoplite (foot soldier), Aristokles
-- Bronze statuette of a warrior
-- Bronze statuette of a warrior
+- Still Life with Fish, Bread, and Kettle, Luis Meléndez
 - "Old Pat," The Independent Beggar, Samuel Lovett Waldo
-- Terracotta caricature of Eros as an old man
-- Mercenaries and a Woman with Death in a Tree, Urs Graf the Elder
-- Country Scene with Soldiers, Henry William Bunbury
-- Top of the Wall from Anting Gate, Pekin, taken possession by English and French Troops, October 21, Felice A. Beato
-- Terracotta warriors
+- The Last Supper, Lucas van Leyden
+- Bernardo Strozzi St Peter Cures the Lame Beggar.jpg, Bernardo Strozzi
+- Hans Jordaens (III) - Saint Martin dividing his cloak.jpg, Hans Jordaens III
+- Poor People (SM 1426).png, Göbel, Angilbert
+
+Angilbert Göbel
+- Pharaoh's Army Marching G-001893-20120802.jpg, Erastus Salisbury Field
+- La Rendición de Bailén (Casado del Alisal).jpg, José Casado del Alisal
+- The Chorister and the Roisterers (unknown date), by Vicente March.jpg, Vicente March
 - Aryballos with four warriors
-- Terracotta fragments of a kylix (drinking cup), Epeleios Painter
-- A Genoese Lady with Her Child, Anthony van Dyck
 - Virgin and Child with Saints and Donors, Giovanni Battista Cima da Conegliano
 - Farewell to Utopia, George Bellows
-- Marble grave stele of a woman
-- Statuette of a mother and child
-- Gorge at Eaux Chaudes, Pyrenees, Jean-Jacques Heilmann
-- The River Gorge, John Burke
-- Pippa Passes, Louise Allen
-- Polyhymnia, Muse of Eloquence, Charles Meynier
+- Mountain and River on the Kiso Road, Utagawa Hiroshige
+- Low Tide at Pourville, near Dieppe, 1882, Claude Monet
+- William Brymner - Mount Cheops from Rogers Pass (1899).jpg, William Brymner
 - A Philosopher, Walter Gay
 - The Philosopher, Alphonse Legros
 - The Alchymist, in Search of the Philosopher's Stone, Discovers Phosphorus, and Prays for the Successful Conclusion of his Operation, as was the Custom of the Ancient Chymical Astrologers, William Pether
-- Bust of the Ludovisi Cicero
-- A Philosopher, Pierre Puget
 - The Birth and Naming of John the Baptist, Juan de Flandes
-- Head of a Philosopher, Vincenzo Gemito
-- Fragment of a Wall Decoration from the Palace of Xerxes: "Guardsman" in Procession
-- Median Lion Strangler
-- Head of a Persian guard
-- Marsh Weeds, Peter Henry Emerson
-- The Biglin Brothers Turning the Stake, Thomas Eakins
+- Demosthenes on the Seashore P379.jpg, Eugène Delacroix
+- Rouget - Death of Demosthenes.jpg, Georges Rouget
+- Crossing the Hellespont - Samuel Woodforde.jpg, Samuel Woodforde
+- A Hero’s body borne from battle - Samuel Woodforde.jpg, Samuel Woodforde
+- Isaac Israels - Transport of colonial soldiers - Google Art Project.jpg, Isaac Israëls
+- View of the Riverbank of the Narmada at Omkareshwar, Raja Deen Dayal
 - Study for "The Hireling Shepherd", William Holman Hunt
-- Study for The Blessed Alessandro Sauli, Pierre Puget
-- In the Waves (Dans les Vagues), Paul Gauguin
-- Aphrodite Torso
-- Statuette of a Young Spearman
-- Doorknocker with Gorgon Head
-- Judgment of Paris, Giovanni Paolo Fonduli
-- Votive shield
-- Terracotta shield
-- Shield
-- Miniature bronze shield
-- Standing Officer Holding a Boar's Spear, Hendrick Goltzius
-- Spear-butt, spike
-- Spear-spike, holdfast
-- Torso of a Kouros
-- Portrait Bust of a Girl
-- Head of a Kore
-- Athlete or Apollo
-- Relief Portrait Head of the Emperor Balbinus
-- Portrait Head of Emperor Vespasian, Recut from Head of Nero
-- Portrait Head of a Youth
-- Portrait Bust of a Man
-- Terracotta head of a man
-- Terracotta head of a man
-- Head of a man
-- Terracotta head of a man
-- Marble statue of Aphrodite
-- Marble statue of Hermes, Polykleitos
-- Marble head of a man
+- David - The Death of Socrates.jpg, Jacques-Louis David
+- Alcibades being taught by Socrates, François-André Vincent.jpg, François-André Vincent
+- Jacques-Louis David - Leonidas at Thermopylae - WGA6095.jpg, Jacques-Louis David
+- Eugène Delacroix - Lycurgus Consulting the Pythia - Google Art Project.jpg, Eugène Delacroix
+- Stanisław Batowski Kaczor - Polish Thermopylae, or the Battle of Zadwórze - 1929.jpg, Stanisław Kaczor-Batowski
+- Leónidas en las Termópilas, por Jacques-Louis David.jpg, Jacques-Louis David
+- Young Spartans National Gallery NG3860.jpg, Edgar Degas
+- Edgar Degas, Young Spartans, detail.png, Edgar Degas
+- Young Spartans Exercising National Gallery NG3860 - levels.jpg, Edgar Degas
+- Lycurgus of Sparta, Merry Joseph Blondel.jpg, Merry-Joseph Blondel
+- Caesar Boetius van Everdingen - Lycurgus toont het belang van de opvoeding - 020933 - Stedelijk Museum Alkmaar.jpg, Caesar van Everdingen
+- Eugène Delacroix - Lycurgus Consulting the Pythia - Google Art Project 4 (detail).jpg, Eugène Delacroix
+- Satan Starts from the Touch of Ithuriel's Spear, Henry Fuseli
 - Early Morning After a Storm at Sea, Winslow Homer
-- Storm in the Mountains, Frederic Edwin Church
 - A Rishi Stirring Up a Storm, John La Farge
 - View of Schroon Mountain, Essex County, New York, After a Storm, Thomas Cole
-- Neptune Calming the Tempest That Aeolus Raised Against Aeneas's Fleet, Marcantonio Raimondi
 - Vessel in Distress of Yarmouth, Frank Short
-- The Sun Through the Trees, Charles Burchfield
-- A Woman Clothed with the Sun, Odilon Redon
-- Sunny Autumn Day, George Inness
+- Joseph Mallord William Turner 047.jpg, J. M. W. Turner
+- Dawn and Sunset, Henry Peach Robinson
 - A Winter Sky, George Inness
-- The Red Kerchief, Claude Monet
-- Fragment of a limestone statuette of Pan
-- Terracotta lekythos (oil flask), Pharos Painter
-- Terracotta statuette of a youth
-- Terracotta olpe (jug), Amasis Painter
-- Fragment of a terracotta kylix: eye-cup  (drinking cup), Hischylos Painter
-- Bronze handle of a cista with nude youth
+- A British soldier eats his midday meal in a trench in the snow, while manning part of the front line along the River Maas in Holland, 8 January 1945. BU1598.jpg, No 5 Army Film &amp; Photographic Unit, Norris
+- Wounded passing through Snow Hill Railway Station, Birmingham Art.IWMART3717.jpg, John Hodgson Lobley
