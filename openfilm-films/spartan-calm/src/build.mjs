@@ -159,7 +159,15 @@ L.push(`<section>\n  <iframe id="stage" src="stage.html#t=0,${FILM}"></iframe>\n
 L.push(`<section>\n${shots.filter((x) => x.inv).map((x, i) => `  <img id="inv-${i}" src="assets/photos169/${x.k}.jpg#t=0,${x.len}" at="${x.at}" class="inv">`).join("\n")}\n</section>`);
 L.push(`<section>\n${shots.filter((x) => !x.inv).map((x, i) => `  <img id="shot-${i}" src="assets/photos169/${x.k}.jpg#t=0,${x.len}" at="${x.at}" class="shot${x.kb ? " kb-" + x.kb : ""}">`).join("\n")}\n</section>`);
 L.push(`<section>\n${vo.map((x) => `  <audio id="vo-${x.id}" src="assets/vo/${x.id}.mp3" at="${r3(x.at)}"></audio>`).join("\n")}\n</section>`);
-L.push(`<section>\n  <audio id="music" src="assets/music/${BG.track}#t=${BG.music_in},${r3(BG.music_in + FILM)}" at="0" volume="${MV.vol}" overrides='[{"fade":[0.4,2.5]}]'></audio>\n</section>`);
+// the track runs out before the film: a second pass from the same point, started on a whole number of beats so the
+// beat grid carries on, crossfading in over the last seconds of the first pass
+const TRACK_LEN = +execFileSync("ffprobe", ["-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", path.join(ROOT, "assets/music/" + BG.track)]).toString();
+const firstLen = Math.min(FILM, TRACK_LEN - BG.music_in - 0.05);
+L.push(`<section>\n  <audio id="music" src="assets/music/${BG.track}#t=${BG.music_in},${r3(BG.music_in + firstLen)}" at="0" volume="${MV.vol}" overrides='[{"fade":[0.4,${firstLen < FILM ? 4 : 2.5}]}]'></audio>\n</section>`);
+if (firstLen < FILM) {
+  const at2 = Math.floor((firstLen - 4) / BEAT) * BEAT;
+  L.push(`<section>\n  <audio id="music-2" src="assets/music/${BG.track}#t=${BG.music_in},${r3(BG.music_in + FILM - at2)}" at="${r3(at2)}" volume="${MV.vol}" overrides='[{"fade":[4,2.5]}]'></audio>\n</section>`);
+}
 tracks.forEach((tr) => L.push(`<section>\n${tr.clips.map((x) => `  <audio src="assets/sfx/${x.f}" at="${r3(x.at)}" volume="${x.vol}"></audio>`).join("\n")}\n</section>`));
 L.push(`</body>\n</html>\n`);
 fs.writeFileSync(path.join(ROOT, "film.html"), L.join("\n"));
