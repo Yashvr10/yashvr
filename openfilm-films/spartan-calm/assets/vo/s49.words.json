@@ -1,0 +1,67 @@
+[
+{
+"word": "It",
+"start": 0.0,
+"end": 0.1
+},
+{
+"word": "will",
+"start": 0.1,
+"end": 0.2
+},
+{
+"word": "be",
+"start": 0.2,
+"end": 0.34
+},
+{
+"word": "an",
+"start": 0.34,
+"end": 0.42
+},
+{
+"word": "old",
+"start": 0.42,
+"end": 0.7
+},
+{
+"word": "enemy",
+"start": 0.7,
+"end": 1.08
+},
+{
+"word": "you",
+"start": 1.08,
+"end": 1.54
+},
+{
+"word": "have",
+"start": 1.54,
+"end": 1.66
+},
+{
+"word": "faced",
+"start": 1.66,
+"end": 2.02
+},
+{
+"word": "a",
+"start": 2.02,
+"end": 2.42
+},
+{
+"word": "thousand",
+"start": 2.42,
+"end": 2.8
+},
+{
+"word": "times",
+"start": 2.8,
+"end": 3.22
+},
+{
+"word": "before.",
+"start": 3.22,
+"end": 3.64
+}
+]

@@ -1,0 +1,37 @@
+[
+{
+"word": "A",
+"start": 0.0,
+"end": 0.12
+},
+{
+"word": "Spartan",
+"start": 0.12,
+"end": 0.48
+},
+{
+"word": "named",
+"start": 0.48,
+"end": 0.86
+},
+{
+"word": "Dienekes",
+"start": 0.86,
+"end": 1.42
+},
+{
+"word": "did",
+"start": 1.42,
+"end": 1.68
+},
+{
+"word": "not",
+"start": 1.68,
+"end": 1.9
+},
+{
+"word": "flinch.",
+"start": 1.9,
+"end": 2.3
+}
+]

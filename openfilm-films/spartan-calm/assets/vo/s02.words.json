@@ -1,0 +1,107 @@
+[
+{
+"word": "A",
+"start": 0.0,
+"end": 0.14
+},
+{
+"word": "deep",
+"start": 0.14,
+"end": 0.3
+},
+{
+"word": "breath",
+"start": 0.3,
+"end": 0.66
+},
+{
+"word": "before",
+"start": 0.66,
+"end": 1.06
+},
+{
+"word": "the",
+"start": 1.06,
+"end": 1.22
+},
+{
+"word": "big",
+"start": 1.22,
+"end": 1.42
+},
+{
+"word": "meeting.",
+"start": 1.42,
+"end": 1.82
+},
+{
+"word": "A",
+"start": 2.34,
+"end": 2.4
+},
+{
+"word": "pep",
+"start": 2.4,
+"end": 2.62
+},
+{
+"word": "talk",
+"start": 2.62,
+"end": 2.88
+},
+{
+"word": "in",
+"start": 2.88,
+"end": 3.12
+},
+{
+"word": "the",
+"start": 3.12,
+"end": 3.24
+},
+{
+"word": "car",
+"start": 3.24,
+"end": 3.46
+},
+{
+"word": "park.",
+"start": 3.46,
+"end": 3.86
+},
+{
+"word": "A",
+"start": 4.24,
+"end": 4.3
+},
+{
+"word": "trick",
+"start": 4.3,
+"end": 4.48
+},
+{
+"word": "to",
+"start": 4.48,
+"end": 4.68
+},
+{
+"word": "quiet",
+"start": 4.68,
+"end": 4.9
+},
+{
+"word": "the",
+"start": 4.9,
+"end": 5.14
+},
+{
+"word": "shaking",
+"start": 5.14,
+"end": 5.48
+},
+{
+"word": "hands.",
+"start": 5.48,
+"end": 5.88
+}
+]

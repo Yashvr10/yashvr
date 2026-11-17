@@ -1,0 +1,42 @@
+[
+{
+"word": "The",
+"start": 0.0,
+"end": 0.12
+},
+{
+"word": "goal",
+"start": 0.12,
+"end": 0.4
+},
+{
+"word": "is",
+"start": 0.4,
+"end": 0.76
+},
+{
+"word": "not",
+"start": 0.76,
+"end": 0.96
+},
+{
+"word": "to",
+"start": 0.96,
+"end": 1.26
+},
+{
+"word": "feel",
+"start": 1.26,
+"end": 1.48
+},
+{
+"word": "no",
+"start": 1.48,
+"end": 1.74
+},
+{
+"word": "fear.",
+"start": 1.74,
+"end": 2.06
+}
+]
