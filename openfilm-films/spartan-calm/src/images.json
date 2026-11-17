@@ -1,49 +1,19 @@
 {
  "hoplite": [
-  "hoplite-1",
-  "hoplite-2",
-  "hoplite-4",
-  "hoplite-5",
-  "hoplite-m253512",
-  "hoplite-m255360",
-  "hoplite-m242151",
-  "hoplite-m330033",
-  "hoplite-m330034",
-  "hoplite-m253611",
-  "hoplite-m255961",
-  "hoplite-m253566",
   "hoplite-m254303"
  ],
  "helmet": [
-  "helmet-1",
-  "helmet-2",
   "helmet-4",
   "helmet-m246855",
   "helmet-m255926",
-  "helmet-m248010",
-  "helmet-m248013"
+  "helmet-m248010"
  ],
- "shield": [
-  "shield-3",
-  "shield-4",
-  "shield-5",
-  "shield-6",
-  "shield-m241086",
-  "shield-m240847",
-  "shield-m240046",
-  "shield-m244754",
-  "shield-m257707",
-  "shield-m257706"
- ],
+ "shield": [],
  "spear": [
   "spear-1",
   "spear-2",
   "spear-6",
-  "spear-7",
-  "spear-m253560",
-  "spear-m244197",
-  "spear-m244249",
-  "spear-m244198"
+  "spear-7"
  ],
  "battle": [
   "battle-1",
@@ -51,133 +21,80 @@
   "battle-3",
   "battle-7",
   "battle-8",
-  "battle-9",
   "battle-11",
   "battle-12",
   "battle-m254893",
   "battle-m254275",
-  "battle-m250302",
   "battle-m247948",
-  "battle-m253557",
-  "battle-m254806",
-  "battle-m247325",
   "battle-m247609",
-  "battle-m247964",
-  "battle-m246269",
-  "battle-m247966"
+  "battle-m247966",
+  "battle-c2",
+  "battle-c3",
+  "battle-c5",
+  "battle-c6",
+  "battle-c7",
+  "battle-c8",
+  "battle-c9",
+  "battle-c10",
+  "battle-c11",
+  "battle-c12",
+  "battle-c13",
+  "battle-c15"
  ],
- "statue": [
-  "statue-1",
-  "statue-2",
-  "statue-3",
-  "statue-4",
-  "statue-5",
-  "statue-6",
-  "statue-7",
-  "statue-8",
-  "statue-9",
-  "statue-10",
-  "statue-11",
-  "statue-12",
-  "statue-m248403",
-  "statue-m256845",
-  "statue-m241005",
-  "statue-m247599",
-  "statue-m248436",
-  "statue-m242392",
-  "statue-m251115",
-  "statue-m254608",
-  "statue-m254925",
-  "statue-m254697",
-  "statue-m256879",
-  "statue-m251094"
- ],
+ "statue": [],
  "face": [
   "face-1",
-  "face-2",
   "face-3",
   "face-4",
-  "face-5",
-  "face-6",
-  "face-7",
-  "face-8",
-  "face-9",
-  "face-11"
+  "face-c1",
+  "face-c2",
+  "face-c3",
+  "face-c4",
+  "face-c6",
+  "face-c7",
+  "face-c9",
+  "face-c11",
+  "face-c12",
+  "face-c13",
+  "face-c14"
  ],
  "hands": [
   "hands-1",
-  "hands-4",
-  "hands-m244802",
-  "hands-m246771",
-  "hands-m242256",
-  "hands-m242265",
-  "hands-m241016",
-  "hands-m242270"
+  "hands-4"
  ],
  "boy": [
   "boy-1",
-  "boy-2",
   "boy-3",
   "boy-4",
-  "boy-5",
-  "boy-6",
-  "boy-7",
   "boy-8",
-  "boy-9",
-  "boy-m241260",
-  "boy-m242074",
-  "boy-m248082",
-  "boy-m244557",
-  "boy-m242122",
-  "boy-m246978",
-  "boy-m241160",
-  "boy-m241158",
-  "boy-m241004",
-  "boy-m242307"
+  "boy-c5",
+  "boy-c6",
+  "boy-c7",
+  "boy-c8"
  ],
  "athlete": [
-  "athlete-1",
-  "athlete-2",
-  "athlete-3",
-  "athlete-4",
-  "athlete-5",
-  "athlete-7",
-  "athlete-m248083",
-  "athlete-m253539",
-  "athlete-m248579",
-  "athlete-m250542",
-  "athlete-m250541",
-  "athlete-m255120",
-  "athlete-m251662",
-  "athlete-m255406",
   "athlete-m251819",
   "athlete-m255450",
   "athlete-m254219",
-  "athlete-m248078",
-  "athlete-m251820"
+  "athlete-c1",
+  "athlete-c3",
+  "athlete-c4"
  ],
  "wrestle": [
-  "wrestle-2",
-  "wrestle-m242116",
-  "wrestle-m246541",
-  "wrestle-m330027",
-  "wrestle-m255132",
   "wrestle-m247235",
-  "wrestle-m256598",
-  "wrestle-m257574",
-  "wrestle-m251253",
-  "wrestle-m254947"
+  "wrestle-m256598"
  ],
  "march": [
   "march-4",
   "march-6",
   "march-7",
-  "march-m241199",
   "march-m257630",
-  "march-m254576",
-  "march-m256118",
-  "march-m667670",
-  "march-m330056"
+  "march-c1",
+  "march-c4",
+  "march-c5",
+  "march-c6",
+  "march-c7",
+  "march-c8"
  ],
  "greece": [
   "greece-1",
@@ -187,82 +104,92 @@
   "greece-6",
   "greece-7",
   "greece-8",
-  "greece-9",
   "greece-11",
   "greece-12",
   "greece-13",
   "greece-14",
   "greece-15",
-  "greece-16"
+  "greece-16",
+  "greece-c1",
+  "greece-c3",
+  "greece-c4",
+  "greece-c5",
+  "greece-c6",
+  "greece-c7",
+  "greece-c8"
  ],
  "feet": [
-  "feet-3",
-  "feet-4",
-  "feet-5",
-  "feet-m241018",
-  "feet-m241017",
-  "feet-m241019",
-  "feet-m241020",
-  "feet-m251536",
-  "feet-m256682"
+  "feet-4"
  ],
  "hunger": [
   "hunger-2",
   "hunger-5",
   "hunger-7",
-  "hunger-9",
   "hunger-10",
   "hunger-11",
-  "hunger-m250583",
-  "hunger-m248117",
-  "hunger-m247950",
-  "hunger-m250664",
-  "hunger-m248112"
+  "hunger-c1",
+  "hunger-c2",
+  "hunger-c3",
+  "hunger-c4",
+  "hunger-c5",
+  "hunger-c6"
  ],
  "river": [
-  "river-1",
   "river-3",
   "river-6",
   "river-7",
-  "river-8"
+  "river-8",
+  "river-c1",
+  "river-c2",
+  "river-c4"
  ],
  "reeds": [
   "reeds-5",
   "reeds-8"
  ],
  "persia": [
-  "persia-5",
-  "persia-7",
-  "persia-m324433"
+  "persia-c2",
+  "persia-c3",
+  "persia-c4",
+  "persia-c5",
+  "persia-c7",
+  "persia-c8"
  ],
  "mountain": [
-  "mountain-2",
   "mountain-4",
   "mountain-6",
   "mountain-7",
   "mountain-8",
   "mountain-10",
   "mountain-11",
-  "mountain-12"
+  "mountain-12",
+  "mountain-c1",
+  "mountain-c2",
+  "mountain-c3",
+  "mountain-c4",
+  "mountain-c5",
+  "mountain-c6",
+  "mountain-c7",
+  "mountain-c8",
+  "mountain-c9"
  ],
  "archer": [
-  "archer-1",
   "archer-2",
-  "archer-3",
   "archer-4",
   "archer-7",
-  "archer-m241215",
-  "archer-m255955",
-  "archer-m251663",
-  "archer-m242204",
-  "archer-m242205",
-  "archer-m242212"
+  "archer-c1",
+  "archer-c2",
+  "archer-c3",
+  "archer-c4"
  ],
  "sun": [
   "sun-2",
   "sun-3",
   "sun-7",
-  "sun-8"
+  "sun-8",
+  "sun-c1",
+  "sun-c4",
+  "sun-c5"
  ],
  "storm": [
   "storm-1",
@@ -270,41 +197,37 @@
   "storm-3",
   "storm-4",
   "storm-5",
-  "storm-8"
+  "storm-8",
+  "storm-c1",
+  "storm-c2",
+  "storm-c3",
+  "storm-c4",
+  "storm-c5",
+  "storm-c6",
+  "storm-c7",
+  "storm-c8"
  ],
  "winter": [
   "winter-3",
   "winter-8",
-  "winter-m244816",
-  "winter-m242275",
-  "winter-m252624",
-  "winter-m255011",
-  "winter-m242254"
+  "winter-c1",
+  "winter-c2",
+  "winter-c3",
+  "winter-c4"
  ],
  "mother": [
   "mother-4",
   "mother-6",
   "mother-10",
-  "mother-m254577",
-  "mother-m251519",
-  "mother-m248799",
-  "mother-m242110",
-  "mother-m242071",
-  "mother-m242063",
-  "mother-m242002",
-  "mother-m248114",
-  "mother-m241961",
-  "mother-m248483"
+  "mother-c1"
  ],
  "orator": [
-  "orator-1",
-  "orator-2",
-  "orator-3",
   "orator-8",
-  "orator-9",
   "orator-10",
   "orator-11",
-  "orator-12"
+  "orator-12",
+  "orator-c1",
+  "orator-c2"
  ],
  "crowd": [
   "crowd-2",
@@ -315,7 +238,8 @@
  "scholar": [
   "scholar-5",
   "scholar-6",
-  "scholar-8"
+  "scholar-c4",
+  "scholar-c5"
  ],
  "sea": [
   "sea-5",
@@ -326,5 +250,17 @@
   "door-6",
   "door-7",
   "door-8"
+ ],
+ "sparta": [
+  "sparta-c1",
+  "sparta-c2",
+  "sparta-c3",
+  "sparta-c5",
+  "sparta-c6",
+  "sparta-c7",
+  "sparta-c8",
+  "sparta-c9",
+  "sparta-c10",
+  "sparta-c12"
  ]
 }

@@ -22,11 +22,28 @@ const dur = (f) => +execFileSync("ffprobe", ["-v", "error", "-show_entries", "fo
 let seed = 11; const rnd = () => ((seed = (seed * 1103515245 + 12345) % 2147483648) / 2147483648);
 
 const FACES = new Set(J("src/faces-ok.json"));
+const ALIAS = { hoplite: ["sparta", "battle", "helmet"], statue: ["sparta", "face", "greece"], shield: ["sparta", "battle"], helmet: ["helmet", "sparta"],
+  feet: ["march", "boy"], hands: ["face", "hunger"], reeds: ["river"], door: ["greece", "hunger"], sea: ["storm"], crowd: ["march", "orator"] };
+const expand = (ths) => [...new Set(ths.flatMap((x) => ALIAS[x] || [x]))];
+// archival footage (src/footage.py): 3.2 s shots, used for about a third of the beats
+const CLIPS = fs.existsSync(path.join(ROOT, "src/clips.json")) ? J("src/clips.json") : {};
+const CLIPALIAS = { hoplite: ["march", "battle"], sparta: ["march", "athlete"], boy: ["boy", "athlete"], hunger: ["crowd", "face"], persia: ["march", "battle"],
+  archer: ["battle"], sun: ["storm", "mountain"], greece: ["mountain", "crowd"], scholar: ["orator", "face"], mother: ["face", "crowd"], helmet: ["march"], statue: ["face"] };
+const cuses = {}; Object.values(CLIPS).flat().forEach((k) => (cuses[k] = 0));
+let crecent = [];
+function pickClip(themes) {
+  const ths = [...new Set(themes.flatMap((x) => [x, ...(CLIPALIAS[x] || [])]))];
+  let cand = ths.flatMap((x) => CLIPS[x] || []).filter((k) => !crecent.includes(k) && cuses[k] < 2);
+  if (!cand.length) cand = Object.keys(cuses).filter((k) => !crecent.includes(k) && cuses[k] < 2);
+  const k = cand.sort((a, b) => cuses[a] - cuses[b] || rnd() - 0.5)[0];
+  if (k) { cuses[k]++; crecent = [k, ...crecent].slice(0, 8); }
+  return k;
+}
 const uses = {}; const ALL = [...new Set(Object.values(POOLS).flat())]; ALL.forEach((k) => (uses[k] = 0));
 let recent = [];
 function pick(themes, wantFace = false) {
   const ok = (k) => !recent.includes(k);
-  let cand = themes.flatMap((t) => POOLS[t] || []).filter(ok);
+  let cand = expand(themes).flatMap((t) => POOLS[t] || []).filter(ok);
   if (wantFace && cand.some((k) => FACES.has(k))) cand = cand.filter((k) => FACES.has(k));
   let best = cand.sort((a, b) => uses[a] - uses[b] || rnd() - 0.5)[0];
   if (!best || uses[best] >= 2) best = ALL.filter(ok).sort((a, b) => uses[a] - uses[b] || rnd() - 0.5)[0];
@@ -36,7 +53,7 @@ function pick(themes, wantFace = false) {
 const panels = [[], [], []], fulls = [], tilts = [], chaps = [], caps = [], vo = [], sfx = [];
 let t = 1.0, chapN = 0, beat = 0, panelsLive = false;
 const closePanels = (at) => { for (const p of panels) { const l = p[p.length - 1]; if (l && l.end == null) l.end = at; } panelsLive = false; };
-const putPanel = (slot, k, at) => { const p = panels[slot]; const l = p[p.length - 1]; if (l && l.end == null) l.end = at; p.push({ k, at }); };
+const putPanel = (slot, k, at, clip) => { const p = panels[slot]; const l = p[p.length - 1]; if (l && l.end == null) l.end = at; p.push(clip ? { clip, at } : { k, at }); };
 const chapterTimes = [];
 for (const s of cfg.scenes) {
   if (s.card) {
@@ -68,7 +85,11 @@ for (const s of cfg.scenes) {
   let th = 0; const theme = () => [s.th[th++ % s.th.length]];
   if (s.full) {
     closePanels(t);
-    beats.forEach((a, i) => { const b = i + 1 < beats.length ? beats[i + 1] : end; fulls.push({ at: r3(a), len: r3(b - a), k: pick(theme(), true), kb: i % 2 ? "out" : "in" }); });
+    beats.forEach((a, i) => {
+      const b = i + 1 < beats.length ? beats[i + 1] : end, th0 = theme();
+      const c = (i % 2 === 1 || rnd() < 0.3) && b - a <= 3.1 ? pickClip(th0) : null;
+      fulls.push(c ? { at: r3(a), len: r3(b - a), clip: c } : { at: r3(a), len: r3(b - a), k: pick(th0, true), kb: i % 2 ? "out" : "in" });
+    });
   } else {
     beats.forEach((a, i) => {
       if (!panelsLive) {        // fill all three slots, one after another, a few frames apart
@@ -81,13 +102,18 @@ for (const s of cfg.scenes) {
         tilts.push({ at: r3(a), len: r3(b - a), k: pick(theme()), rot: (rnd() < 0.5 ? -1 : 1) * (2 + rnd() * 3), x: 300 + Math.round(rnd() * 120), y: 150 + Math.round(rnd() * 60) });
         sfx.push({ f: "kick.mp3", at: a, vol: 0.35 }); return;
       }
-      putPanel([0, 2, 1][beat % 3], pick(theme(), beat % 3 === 2), a);
+      const th0 = theme(), nb = i + 1 < beats.length ? beats[i + 1] : end;
+      const c = rnd() < 0.36 ? pickClip(th0) : null;
+      putPanel([0, 2, 1][beat % 3], c ? null : pick(th0, beat % 5 === 2), a, c);
       sfx.push({ f: "tick.mp3", at: a, vol: 0.22 });
     });
   }
   t = end;
 }
 closePanels(t);
+for (const p of panels) for (let i = 0; i < p.length; i++) {
+  const x = p[i]; if (x.clip && x.end - x.at > 3.1) { const nx = { k: pick(["sparta", "battle", "greece"]), at: q(x.at + 3.1), end: x.end }; x.end = nx.at; p.splice(i + 1, 0, nx); }
+}
 const FILM = r3(q(t + 1.0));
 
 // ---- write the pages
@@ -118,14 +144,16 @@ L.push(`<!doctype html>
 <body>`);
 L.push(`<section>\n  <iframe id="stage" src="stage.html#t=0,${FILM}"></iframe>\n</section>`);
 L.push(`<section>\n${tilts.map((x, i) => `  <img id="tilt-${i}" src="assets/photos169/${x.k}.jpg#t=0,${x.len}" at="${x.at}" class="tilt" style="left: ${x.x}px; top: ${x.y}px; rotate: ${x.rot.toFixed(1)}deg; animation: slam .12s ease-out both">`).join("\n")}\n</section>`);
-L.push(`<section>\n${fulls.map((x, i) => `  <img id="full-${i}" src="assets/photos169/${x.k}.jpg#t=0,${x.len}" at="${x.at}" class="full kb-${x.kb}">`).join("\n")}\n</section>`);
-panels.forEach((p, slot) => L.push(`<section>\n${p.filter((x) => x.end - x.at > F / 2).map((x, i) => `  <img id="p${slot}-${i}" src="assets/panels/${x.k}.jpg#t=0,${r3(x.end - x.at)}" at="${r3(x.at)}" class="panel" style="left: ${slot * 640}px">`).join("\n")}\n</section>`));
+L.push(`<section>\n${fulls.map((x, i) => x.clip ? `  <video id="full-${i}" src="assets/clips/${x.clip}.mp4#t=0,${x.len}" at="${x.at}" class="full" volume="0"></video>` : `  <img id="full-${i}" src="assets/photos169/${x.k}.jpg#t=0,${x.len}" at="${x.at}" class="full kb-${x.kb}">`).join("\n")}\n</section>`);
+panels.forEach((p, slot) => L.push(`<section>\n${p.filter((x) => x.end - x.at > F / 2).map((x, i) => x.clip
+  ? `  <video id="p${slot}-${i}" src="assets/clips/${x.clip}-p.mp4#t=0,${r3(x.end - x.at)}" at="${r3(x.at)}" class="panel" style="left: ${slot * 640}px" volume="0"></video>`
+  : `  <img id="p${slot}-${i}" src="assets/panels/${x.k}.jpg#t=0,${r3(x.end - x.at)}" at="${r3(x.at)}" class="panel" style="left: ${slot * 640}px">`).join("\n")}\n</section>`));
 L.push(`<section>\n${vo.map((x) => `  <audio id="vo-${x.id}" src="assets/vo/${x.id}.mp3" at="${r3(x.at)}"></audio>`).join("\n")}\n</section>`);
 L.push(`<section>\n  <audio id="music" src="assets/music/trap-bells.mp3#t=${MV.in},${r3(MV.in + FILM)}" at="0" volume="${MV.vol}" overrides='[{"fade":[0.5,3]}]'></audio>\n</section>`);
 tracks.forEach((tr) => L.push(`<section>\n${tr.clips.map((x) => `  <audio src="assets/sfx/${x.f}" at="${r3(x.at)}" volume="${x.vol}"></audio>`).join("\n")}\n</section>`));
 L.push(`</body>\n</html>\n`);
 fs.writeFileSync(path.join(ROOT, "film.html"), L.join("\n"));
 const mmss = (x) => `${Math.floor(x / 60)}:${String(Math.floor(x % 60)).padStart(2, "0")}`;
-const nP = panels.flat().length;
-console.log(`film.html ${mmss(FILM)} (${FILM}s): ${nP} panel cuts, ${fulls.length} full-frame shots, ${tilts.length} tilted slams, ${new Set([...panels.flat(), ...fulls, ...tilts].map((x) => x.k)).size} pictures, ${caps.length} caption words, ${sfx.length} sounds`);
+const nP = panels.flat().length; const nC = panels.flat().filter((x) => x.clip).length + fulls.filter((x) => x.clip).length;
+console.log(`film.html ${mmss(FILM)} (${FILM}s): ${nP} panel cuts, ${fulls.length} full-frame shots, ${tilts.length} tilted slams, ${nC} footage shots, ${new Set([...panels.flat(), ...fulls, ...tilts].filter((x) => x.k).map((x) => x.k)).size} pictures, ${caps.length} caption words, ${sfx.length} sounds`);
 console.log("chapters:", chapterTimes.map(([a, n]) => mmss(a) + " " + n).join(" | "));

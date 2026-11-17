@@ -1,3 +1,4 @@
 assets/photos/
 *.mp4
 !video/*.mp4
+!assets/clips/*.mp4
