@@ -16,11 +16,12 @@
     "statue",
     "face"
    ],
-   "emph": [
-    "calm"
-   ],
+   "emph": [],
    "full": false,
-   "gap": 0.5
+   "gap": 0.5,
+   "grid": null,
+   "grey": false,
+   "burst": false
   },
   {
    "id": "s02",
@@ -31,7 +32,10 @@
    ],
    "emph": [],
    "full": false,
-   "gap": 0.5
+   "gap": 0.5,
+   "grid": null,
+   "grey": false,
+   "burst": false
   },
   {
    "id": "s03",
@@ -39,11 +43,12 @@
    "th": [
     "hoplite"
    ],
-   "emph": [
-    "Spartans"
-   ],
+   "emph": [],
    "full": true,
-   "gap": 0.5
+   "gap": 0.5,
+   "grid": null,
+   "grey": false,
+   "burst": false
   },
   {
    "id": "s04",
@@ -56,7 +61,10 @@
     "built"
    ],
    "full": false,
-   "gap": 0.8
+   "gap": 0.8,
+   "grid": null,
+   "grey": false,
+   "burst": false
   },
   {
    "id": "ch2",
@@ -74,11 +82,13 @@
     "greece"
    ],
    "emph": [
-    "seven",
     "horror"
    ],
    "full": false,
-   "gap": 0.5
+   "gap": 0.5,
+   "grid": null,
+   "grey": false,
+   "burst": false
   },
   {
    "id": "s06",
@@ -86,11 +96,12 @@
    "th": [
     "boy"
    ],
-   "emph": [
-    "one"
-   ],
+   "emph": [],
    "full": false,
-   "gap": 0.5
+   "gap": 0.5,
+   "grid": null,
+   "grey": false,
+   "burst": false
   },
   {
    "id": "s07",
@@ -101,7 +112,10 @@
    ],
    "emph": [],
    "full": false,
-   "gap": 0.5
+   "gap": 0.5,
+   "grid": "hunger",
+   "grey": false,
+   "burst": false
   },
   {
    "id": "s08",
@@ -112,7 +126,10 @@
    ],
    "emph": [],
    "full": true,
-   "gap": 0.5
+   "gap": 0.5,
+   "grid": null,
+   "grey": false,
+   "burst": false
   },
   {
    "id": "s09",
@@ -121,11 +138,12 @@
     "winter",
     "boy"
    ],
-   "emph": [
-    "cold"
-   ],
+   "emph": [],
    "full": false,
-   "gap": 0.5
+   "gap": 0.5,
+   "grid": null,
+   "grey": false,
+   "burst": false
   },
   {
    "id": "s10",
@@ -139,7 +157,10 @@
     "thirteen"
    ],
    "full": false,
-   "gap": 0.5
+   "gap": 0.5,
+   "grid": null,
+   "grey": false,
+   "burst": false
   },
   {
    "id": "s11",
@@ -148,11 +169,12 @@
     "hoplite",
     "storm"
    ],
-   "emph": [
-    "weather"
-   ],
+   "emph": [],
    "full": false,
-   "gap": 0.5
+   "gap": 0.5,
+   "grid": null,
+   "grey": false,
+   "burst": false
   },
   {
    "id": "s12",
@@ -162,7 +184,10 @@
    ],
    "emph": [],
    "full": false,
-   "gap": 0.7
+   "gap": 0.7,
+   "grid": null,
+   "grey": true,
+   "burst": false
   },
   {
    "id": "s13",
@@ -170,11 +195,12 @@
    "th": [
     "battle"
    ],
-   "emph": [
-    "easier"
-   ],
+   "emph": [],
    "full": false,
-   "gap": 0.5
+   "gap": 0.5,
+   "grid": null,
+   "grey": false,
+   "burst": false
   },
   {
    "id": "s14",
@@ -186,7 +212,10 @@
     "ordinary"
    ],
    "full": true,
-   "gap": 0.9
+   "gap": 0.9,
+   "grid": null,
+   "grey": false,
+   "burst": false
   },
   {
    "id": "ch3",
@@ -202,11 +231,12 @@
     "persia",
     "march"
    ],
-   "emph": [
-    "largest"
-   ],
+   "emph": [],
    "full": true,
-   "gap": 0.5
+   "gap": 0.5,
+   "grid": null,
+   "grey": false,
+   "burst": false
   },
   {
    "id": "s16",
@@ -216,11 +246,13 @@
     "hoplite"
    ],
    "emph": [
-    "three",
     "hundred"
    ],
    "full": false,
-   "gap": 0.5
+   "gap": 0.5,
+   "grid": null,
+   "grey": false,
+   "burst": false
   },
   {
    "id": "s17",
@@ -230,7 +262,10 @@
    ],
    "emph": [],
    "full": false,
-   "gap": 0.5
+   "gap": 0.5,
+   "grid": null,
+   "grey": false,
+   "burst": true
   },
   {
    "id": "s18",
@@ -243,7 +278,10 @@
     "sun"
    ],
    "full": false,
-   "gap": 0.5
+   "gap": 0.5,
+   "grid": null,
+   "grey": false,
+   "burst": false
   },
   {
    "id": "s19",
@@ -253,7 +291,10 @@
    ],
    "emph": [],
    "full": false,
-   "gap": 0.5
+   "gap": 0.5,
+   "grid": null,
+   "grey": false,
+   "burst": false
   },
   {
    "id": "s20",
@@ -265,7 +306,10 @@
     "shade"
    ],
    "full": false,
-   "gap": 0.9
+   "gap": 0.9,
+   "grid": null,
+   "grey": false,
+   "burst": false
   },
   {
    "id": "s21",
@@ -275,7 +319,10 @@
    ],
    "emph": [],
    "full": false,
-   "gap": 0.5
+   "gap": 0.5,
+   "grid": null,
+   "grey": false,
+   "burst": false
   },
   {
    "id": "s22",
@@ -288,7 +335,10 @@
     "rehearsed"
    ],
    "full": false,
-   "gap": 0.5
+   "gap": 0.5,
+   "grid": null,
+   "grey": false,
+   "burst": false
   },
   {
    "id": "s23",
@@ -297,12 +347,12 @@
     "persia",
     "spear"
    ],
-   "emph": [
-    "Xerxes",
-    "Leonidas"
-   ],
+   "emph": [],
    "full": false,
-   "gap": 0.5
+   "gap": 0.5,
+   "grid": null,
+   "grey": false,
+   "burst": false
   },
   {
    "id": "s24",
@@ -318,7 +368,10 @@
     "them"
    ],
    "full": true,
-   "gap": 0.9
+   "gap": 0.9,
+   "grid": null,
+   "grey": false,
+   "burst": false
   },
   {
    "id": "s25",
@@ -330,7 +383,10 @@
     "fearless"
    ],
    "full": false,
-   "gap": 0.5
+   "gap": 0.5,
+   "grid": null,
+   "grey": false,
+   "burst": false
   },
   {
    "id": "s26",
@@ -342,7 +398,10 @@
     "new"
    ],
    "full": false,
-   "gap": 0.9
+   "gap": 0.9,
+   "grid": null,
+   "grey": false,
+   "burst": false
   },
   {
    "id": "ch4",
@@ -361,7 +420,10 @@
     "unknown"
    ],
    "full": true,
-   "gap": 0.5
+   "gap": 0.5,
+   "grid": null,
+   "grey": false,
+   "burst": false
   },
   {
    "id": "s28",
@@ -372,7 +434,10 @@
    ],
    "emph": [],
    "full": false,
-   "gap": 0.5
+   "gap": 0.5,
+   "grid": null,
+   "grey": false,
+   "burst": false
   },
   {
    "id": "s29",
@@ -382,7 +447,10 @@
    ],
    "emph": [],
    "full": false,
-   "gap": 0.5
+   "gap": 0.5,
+   "grid": null,
+   "grey": false,
+   "burst": false
   },
   {
    "id": "s30",
@@ -397,7 +465,10 @@
     "familiar"
    ],
    "full": false,
-   "gap": 0.5
+   "gap": 0.5,
+   "grid": "battle",
+   "grey": false,
+   "burst": false
   },
   {
    "id": "s31",
@@ -410,7 +481,10 @@
     "recognised"
    ],
    "full": false,
-   "gap": 0.5
+   "gap": 0.5,
+   "grid": null,
+   "grey": false,
+   "burst": false
   },
   {
    "id": "s32",
@@ -424,7 +498,10 @@
     "harder"
    ],
    "full": false,
-   "gap": 0.5
+   "gap": 0.5,
+   "grid": null,
+   "grey": false,
+   "burst": false
   },
   {
    "id": "s33",
@@ -433,13 +510,12 @@
     "mother",
     "shield"
    ],
-   "emph": [
-    "or",
-    "on",
-    "it"
-   ],
+   "emph": [],
    "full": false,
-   "gap": 0.5
+   "gap": 0.5,
+   "grid": null,
+   "grey": false,
+   "burst": false
   },
   {
    "id": "s34",
@@ -452,7 +528,10 @@
     "built"
    ],
    "full": false,
-   "gap": 0.9
+   "gap": 0.9,
+   "grid": null,
+   "grey": false,
+   "burst": false
   },
   {
    "id": "s35",
@@ -461,8 +540,11 @@
     "face"
    ],
    "emph": [],
-   "full": true,
-   "gap": 0.5
+   "full": false,
+   "gap": 0.5,
+   "grid": null,
+   "grey": true,
+   "burst": false
   },
   {
    "id": "s36",
@@ -473,7 +555,10 @@
    ],
    "emph": [],
    "full": false,
-   "gap": 0.5
+   "gap": 0.5,
+   "grid": null,
+   "grey": false,
+   "burst": false
   },
   {
    "id": "s37",
@@ -484,7 +569,10 @@
    ],
    "emph": [],
    "full": false,
-   "gap": 0.5
+   "gap": 0.5,
+   "grid": "face",
+   "grey": false,
+   "burst": false
   },
   {
    "id": "s38",
@@ -494,7 +582,10 @@
    ],
    "emph": [],
    "full": false,
-   "gap": 0.5
+   "gap": 0.5,
+   "grid": null,
+   "grey": false,
+   "burst": false
   },
   {
    "id": "s39",
@@ -502,11 +593,12 @@
    "th": [
     "shield"
    ],
-   "emph": [
-    "second"
-   ],
+   "emph": [],
    "full": false,
-   "gap": 0.5
+   "gap": 0.5,
+   "grid": null,
+   "grey": false,
+   "burst": false
   },
   {
    "id": "s40",
@@ -519,7 +611,10 @@
     "preparation"
    ],
    "full": false,
-   "gap": 0.9
+   "gap": 0.9,
+   "grid": null,
+   "grey": false,
+   "burst": false
   },
   {
    "id": "ch5",
@@ -536,7 +631,10 @@
    ],
    "emph": [],
    "full": false,
-   "gap": 0.5
+   "gap": 0.5,
+   "grid": null,
+   "grey": false,
+   "burst": false
   },
   {
    "id": "s42",
@@ -544,11 +642,12 @@
    "th": [
     "helmet"
    ],
-   "emph": [
-    "familiar"
-   ],
+   "emph": [],
    "full": false,
-   "gap": 0.5
+   "gap": 0.5,
+   "grid": null,
+   "grey": false,
+   "burst": false
   },
   {
    "id": "s43",
@@ -558,7 +657,10 @@
    ],
    "emph": [],
    "full": false,
-   "gap": 0.5
+   "gap": 0.5,
+   "grid": null,
+   "grey": false,
+   "burst": false
   },
   {
    "id": "s44",
@@ -567,11 +669,12 @@
     "orator",
     "crowd"
    ],
-   "emph": [
-    "bore"
-   ],
+   "emph": [],
    "full": false,
-   "gap": 0.5
+   "gap": 0.5,
+   "grid": null,
+   "grey": false,
+   "burst": false
   },
   {
    "id": "s45",
@@ -584,7 +687,10 @@
     "harder"
    ],
    "full": false,
-   "gap": 0.5
+   "gap": 0.5,
+   "grid": null,
+   "grey": false,
+   "burst": true
   },
   {
    "id": "s46",
@@ -595,7 +701,10 @@
    ],
    "emph": [],
    "full": false,
-   "gap": 0.5
+   "gap": 0.5,
+   "grid": null,
+   "grey": false,
+   "burst": false
   },
   {
    "id": "s47",
@@ -606,7 +715,10 @@
    ],
    "emph": [],
    "full": false,
-   "gap": 0.5
+   "gap": 0.5,
+   "grid": null,
+   "grey": false,
+   "burst": false
   },
   {
    "id": "s48",
@@ -616,11 +728,13 @@
     "sea"
    ],
    "emph": [
-    "storm",
     "shelter"
    ],
    "full": true,
-   "gap": 0.5
+   "gap": 0.5,
+   "grid": null,
+   "grey": false,
+   "burst": false
   },
   {
    "id": "s49",
@@ -633,7 +747,10 @@
     "rest"
    ],
    "full": false,
-   "gap": 0.9
+   "gap": 0.9,
+   "grid": null,
+   "grey": false,
+   "burst": false
   },
   {
    "id": "s50",
@@ -644,8 +761,11 @@
    "emph": [
     "secret"
    ],
-   "full": true,
-   "gap": 0.5
+   "full": false,
+   "gap": 0.5,
+   "grid": null,
+   "grey": false,
+   "burst": false
   },
   {
    "id": "s51",
@@ -656,7 +776,10 @@
    ],
    "emph": [],
    "full": false,
-   "gap": 0.5
+   "gap": 0.5,
+   "grid": "sparta",
+   "grey": false,
+   "burst": false
   },
   {
    "id": "s52",
@@ -666,7 +789,10 @@
    ],
    "emph": [],
    "full": false,
-   "gap": 0.5
+   "gap": 0.5,
+   "grid": null,
+   "grey": false,
+   "burst": false
   },
   {
    "id": "s53",
@@ -675,11 +801,12 @@
     "battle",
     "helmet"
    ],
-   "emph": [
-    "thousand"
-   ],
+   "emph": [],
    "full": false,
-   "gap": 0.5
+   "gap": 0.5,
+   "grid": null,
+   "grey": false,
+   "burst": false
   },
   {
    "id": "s54",
@@ -689,7 +816,10 @@
    ],
    "emph": [],
    "full": false,
-   "gap": 0.6
+   "gap": 0.6,
+   "grid": null,
+   "grey": false,
+   "burst": false
   },
   {
    "id": "s55",
@@ -704,7 +834,10 @@
     "unmoved"
    ],
    "full": true,
-   "gap": 1.6
+   "gap": 1.6,
+   "grid": null,
+   "grey": false,
+   "burst": false
   }
  ]
 }

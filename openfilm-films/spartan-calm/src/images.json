@@ -1,47 +1,16 @@
 {
- "hoplite": [
-  "hoplite-m254303"
- ],
- "helmet": [
-  "helmet-4",
-  "helmet-m246855",
-  "helmet-m255926",
-  "helmet-m248010"
- ],
- "shield": [],
- "spear": [
-  "spear-1",
-  "spear-2",
-  "spear-6",
-  "spear-7"
- ],
  "battle": [
-  "battle-1",
   "battle-2",
-  "battle-3",
-  "battle-7",
-  "battle-8",
-  "battle-11",
   "battle-12",
-  "battle-m254893",
-  "battle-m254275",
-  "battle-m247948",
-  "battle-m247609",
-  "battle-m247966",
-  "battle-c2",
-  "battle-c3",
   "battle-c5",
   "battle-c6",
-  "battle-c7",
   "battle-c8",
   "battle-c9",
   "battle-c10",
   "battle-c11",
   "battle-c12",
-  "battle-c13",
-  "battle-c15"
+  "battle-c13"
  ],
- "statue": [],
  "face": [
   "face-1",
   "face-3",
@@ -58,14 +27,8 @@
   "face-c13",
   "face-c14"
  ],
- "hands": [
-  "hands-1",
-  "hands-4"
- ],
  "boy": [
-  "boy-1",
   "boy-3",
-  "boy-4",
   "boy-8",
   "boy-c5",
   "boy-c6",
@@ -73,22 +36,10 @@
   "boy-c8"
  ],
  "athlete": [
-  "athlete-m251819",
-  "athlete-m255450",
-  "athlete-m254219",
-  "athlete-c1",
   "athlete-c3",
   "athlete-c4"
  ],
- "wrestle": [
-  "wrestle-m247235",
-  "wrestle-m256598"
- ],
  "march": [
-  "march-4",
-  "march-6",
-  "march-7",
-  "march-m257630",
   "march-c1",
   "march-c4",
   "march-c5",
@@ -97,19 +48,10 @@
   "march-c8"
  ],
  "greece": [
-  "greece-1",
-  "greece-2",
-  "greece-3",
-  "greece-5",
-  "greece-6",
-  "greece-7",
-  "greece-8",
   "greece-11",
   "greece-12",
   "greece-13",
-  "greece-14",
   "greece-15",
-  "greece-16",
   "greece-c1",
   "greece-c3",
   "greece-c4",
@@ -118,13 +60,9 @@
   "greece-c7",
   "greece-c8"
  ],
- "feet": [
-  "feet-4"
- ],
  "hunger": [
   "hunger-2",
   "hunger-5",
-  "hunger-7",
   "hunger-10",
   "hunger-11",
   "hunger-c1",
@@ -135,17 +73,11 @@
   "hunger-c6"
  ],
  "river": [
-  "river-3",
-  "river-6",
   "river-7",
   "river-8",
   "river-c1",
   "river-c2",
   "river-c4"
- ],
- "reeds": [
-  "reeds-5",
-  "reeds-8"
  ],
  "persia": [
   "persia-c2",
@@ -156,13 +88,8 @@
   "persia-c8"
  ],
  "mountain": [
-  "mountain-4",
   "mountain-6",
-  "mountain-7",
   "mountain-8",
-  "mountain-10",
-  "mountain-11",
-  "mountain-12",
   "mountain-c1",
   "mountain-c2",
   "mountain-c3",
@@ -174,18 +101,12 @@
   "mountain-c9"
  ],
  "archer": [
-  "archer-2",
-  "archer-4",
-  "archer-7",
   "archer-c1",
   "archer-c2",
   "archer-c3",
   "archer-c4"
  ],
  "sun": [
-  "sun-2",
-  "sun-3",
-  "sun-7",
   "sun-8",
   "sun-c1",
   "sun-c4",
@@ -194,10 +115,7 @@
  "storm": [
   "storm-1",
   "storm-2",
-  "storm-3",
   "storm-4",
-  "storm-5",
-  "storm-8",
   "storm-c1",
   "storm-c2",
   "storm-c3",
@@ -217,39 +135,25 @@
  ],
  "mother": [
   "mother-4",
-  "mother-6",
   "mother-10",
   "mother-c1"
  ],
  "orator": [
   "orator-8",
   "orator-10",
-  "orator-11",
-  "orator-12",
   "orator-c1",
   "orator-c2"
  ],
  "crowd": [
   "crowd-2",
-  "crowd-4",
-  "crowd-7",
-  "crowd-8"
+  "crowd-4"
  ],
  "scholar": [
-  "scholar-5",
-  "scholar-6",
   "scholar-c4",
   "scholar-c5"
  ],
  "sea": [
-  "sea-5",
-  "sea-7",
-  "sea-8"
- ],
- "door": [
-  "door-6",
-  "door-7",
-  "door-8"
+  "sea-5"
  ],
  "sparta": [
   "sparta-c1",

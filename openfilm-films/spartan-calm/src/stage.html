@@ -12,7 +12,7 @@
   /* light grey paper card (reel DezFTyktEUp) */
   .grey { background: #c9c9c7; }
   .grey::after { content: ""; position: absolute; inset: 0; background-image: var(--paper); opacity: .5; }
-  .grid img { position: absolute; object-fit: cover; display: none; filter: grayscale(.85) contrast(1.08); }
+  .grid img { position: absolute; object-fit: cover; display: none; box-shadow: 0 8px 24px rgba(0,0,0,.25); }
   .black { background: #000; }
   /* emphasis: huge white Bebas, one word at a time (Video-43179) */
   .emph { display: none; position: absolute; inset: 0; background: #000; }
@@ -25,13 +25,11 @@
   .chap .a { position: absolute; left: 0; right: 0; top: 50%; transform: translateY(-50%); text-align: center; font-family: "Bebas";
              color: #fff; font-size: 120px; line-height: .9; letter-spacing: .06em; white-space: nowrap; }
   .chap span { opacity: 0; }
-  /* captions (reel Df09Ol1ujQm): one word at a time, small clean white sans, lower middle of the frame;
-     emphasis words: red condensed capitals (the user's "they say ego, I say standards" reference) */
-  .cap { display: none; position: absolute; left: 0; right: 0; top: 79%; transform: translateY(-50%); text-align: center;
-         font-family: "IT"; font-weight: 500; font-size: 58px; color: #fff; white-space: nowrap;
-         text-shadow: 0 2px 16px rgba(0,0,0,.85), 0 0 4px rgba(0,0,0,.7); }
-  .cap.em { font-family: "Bebas"; font-weight: 400; font-size: 150px; color: #e3241b; letter-spacing: .01em; line-height: .9;
-            text-shadow: 0 4px 22px rgba(0,0,0,.6); }
+  /* normal captions (reel DezFTyktEUp): small clean sans, sentence case, one centred line with normal word spacing, each word popping on */
+  .cap { display: none; position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%);
+         font-family: "IT"; font-weight: 400; font-size: 52px; color: #fff; white-space: nowrap; text-shadow: 0 2px 14px rgba(0,0,0,.75), 0 0 3px rgba(0,0,0,.6); }
+  .cap.dark { color: #111; text-shadow: none; }
+  .cap span { visibility: hidden; }
   .rect { display: none; position: absolute; }
 </style>
 </head>
@@ -64,7 +62,11 @@ for (const c of D.chaps) {
     for (const [s, st] of L) { const k = (lt - st) / 0.38; s.style.opacity = k < 0 ? 0 : k >= 1 ? 1 : (0.32 + 0.68 * k).toFixed(3); }
     e.style.opacity = c.end - t < 0.12 ? 0 : 1; } });
 }
-for (const c of D.caps) { const e = mk("cap" + (c.em ? " em" : "")); e.textContent = c.x; items.push({ at: c.at, end: c.end, el: e }); }
+for (const c of D.caps) {
+  const e = mk("cap" + (c.dark ? " dark" : ""));
+  const W = c.words.map((w, i) => { if (i) e.append(" "); const s = document.createElement("span"); s.textContent = w.x; e.append(s); return [s, w.t]; });
+  items.push({ at: c.at, end: c.end, el: e, frame(t) { for (const [s, a] of W) s.style.visibility = t >= a ? "visible" : "hidden"; } });
+}
 for (const r of D.rects) { const e = mk("rect"); Object.assign(e.style, { left: r.x + "px", top: r.y + "px", width: r.w + "px", height: r.h + "px", background: r.c }); items.push({ at: r.at, end: r.end, el: e }); }
 window.film = {
   ready: Promise.all([document.fonts.ready, ...imgs.map((i) => i.decode().catch(() => {}))]),
