@@ -1,6 +1,6 @@
 {
- "period": 0.7134999999999985,
- "phase": 0.0,
- "loop_len": 17.123990929705215,
- "src_start": 0.7584999999999985
+ "period": 0.6857999999999994,
+ "phase": 0.325,
+ "music_in": 44.0,
+ "track": "electron-wake.mp3"
 }

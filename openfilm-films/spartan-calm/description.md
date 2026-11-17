@@ -14,32 +14,13 @@ At Thermopylae, told the Persian arrows would blot out the sun, Dienekes answere
 2:16 Familiar ground
 3:31 Your agoge
 
-Music: "09 Trap Bells (Instrumental Mix)" by Hasenchat, CC BY-SA 3.0, https://www.jamendo.com/track/1253537
-Art: public-domain paintings from Wikimedia Commons, The Met and the Cleveland Museum of Art (CC0); historic films from the Internet Archive and the Library of Congress (public domain).
+Music: "Electron Wake [techno]" by Hardcore Scm, CC BY 3.0, https://www.jamendo.com/track/1196244
+Art: public-domain paintings from Wikimedia Commons and the Cleveland Museum of Art (CC0).
 Narration voice: synthetic (Kokoro).
 
 #spartans #stoicism #discipline
 
 **Tags:** spartans, spartan mindset, how to stay calm under pressure, thermopylae, 300 spartans, agoge, spartan training, leonidas, discipline, mental toughness, how to handle pressure, performance anxiety, preparation, stoicism, ancient greece, self improvement, motivation, mindset, confidence, composure
-
-## Historic films used (17)
-- The Olympic Games as They Were Practiced in Ancient Greece (1924), https://archive.org/details/the-olympic-games-as-they-were-practiced-in-ancient-greece-1924-tmdb470826
-- The Olympic Games in Paris 1924 (1925), https://archive.org/details/the-olympic-games-in-paris-1924-1925-tmdb470830
-- The Olympic Games, Amsterdam 1928 (1928), https://archive.org/details/the-olympic-games-amsterdam-1928-1928-tmdb470835
-- "Buffalo Soldiers," Meuse Argonne Offensive, 92nd Division, September 26 To November 11, 1918 (1918-09-26), https://archive.org/details/H-1423
-- Don't Be a Sucker (1947), https://archive.org/details/DontBeaS1947
-- Embarkation Of Troops For The U.S., April And May, 1919 (1919), https://archive.org/details/111-H-1454
-- TR reviews French troops at Vincennes, France, 1910 (1910), https://archive.org/details/loc-film-mp76000186-tr-reviews-french-troops-at-vincennes-france-1910
-- 25th Infantry (1900), https://archive.org/details/loc-film-98500744-25th-infantry
-- My Japan (1945), https://archive.org/details/MyJapan1945
-- Duck and Cover (1951), https://archive.org/details/DuckandC1951
-- From the Ground Up (1954), https://archive.org/details/FromtheG1954
-- TR reviews and addresses troops [Fort Sheridan, Ill.]; TR riding in auto, Chicago, 1917 (1917), https://archive.org/details/loc-film-mp76000043-tr-reviews-and-addresses-troops-fort-sheridan-ill-tr-riding-
-- Miracle on the Delaware (1955), https://archive.org/details/Miracleo1955
-- Sea Fighting in Greece (1897), https://archive.org/details/Sea_Fighting_in_Greece
-- News Magazine of the Screen, The (Vol. 7, Issue 3) (1956), https://archive.org/details/NewsMaga00_7
-- The Corbett– Fitzsimmons Fight (1897) (1897), https://archive.org/details/the-corbett-fitzsimmons-fight-1897
-- Wrestling at the N. Y. A. C. (1905), https://archive.org/details/loc-film-00564577-wrestling-at-the-n-y-a-c
 
 ## Art used (125 works, public domain / CC0)
 - Attic red-figure cup with athlete (Dartmouth, Hood Mus C.970.35) 02.jpg, Attributed to Epidromos Painter

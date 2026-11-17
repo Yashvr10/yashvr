@@ -29,8 +29,8 @@ function pick(themes) {
 }
 const gsize = (k) => execFileSync("ffprobe", ["-v", "error", "-show_entries", "stream=width,height", "-of", "csv=p=0", path.join(ROOT, `assets/grid/${k}.jpg`)]).toString().trim().split(",").map(Number);
 
-const BEAT = J("src/beats.json").period;
-const beatAt = (x) => Math.round(x / BEAT) * BEAT, beatAfter = (x) => Math.ceil(x / BEAT - 1e-6) * BEAT;
+const BG = J("src/beats.json"), BEAT = BG.period, PH = BG.phase || 0;   // music starts at film time 0, from BG.music_in in the track
+const beatAt = (x) => PH + Math.round((x - PH) / BEAT) * BEAT, beatAfter = (x) => PH + Math.ceil((x - PH) / BEAT - 1e-6) * BEAT;
 const shots = [], cards = [], emph = [], chaps = [], caps = [], rects = [], vo = [], sfx = [];
 const SLOTS = [[60, 40], [520, 60], [980, 40], [1440, 60], [80, 730], [540, 750], [1000, 730], [1460, 750]];  // top row, bottom row
 let t = 1.0, cutN = 0, chapN = 0;
@@ -104,7 +104,7 @@ for (const s of cfg.scenes) {
     const after = cuts[cuts.length - 1];
     let lastCut = after;
     for (let k = 0; k < ws.length; k++) if (E.has(k) && k + 1 < ws.length) { const y = beatAfter(Math.max(wt(k + 1), wt(k) + 0.45)); if (y < end - 0.35) cuts.push(q(y)); }
-    for (let b = beatAfter(lastCut + 0.5); b < end - 0.35; b += BEAT) if (Math.round(b / BEAT) % 2 === 0) cuts.push(q(b));
+    for (let b = beatAfter(lastCut + 0.5); b < end - 0.35; b += BEAT) if (Math.round((b - PH) / BEAT) % 2 === 0) cuts.push(q(b));
     cuts.sort((a, b) => a - b); cuts = cuts.filter((x, i) => i === 0 || x - cuts[i - 1] > 0.5);
     cuts = [...new Set(cuts.map(r3))].sort((a, b) => a - b);
     let th = 0;
@@ -159,7 +159,7 @@ L.push(`<section>\n  <iframe id="stage" src="stage.html#t=0,${FILM}"></iframe>\n
 L.push(`<section>\n${shots.filter((x) => x.inv).map((x, i) => `  <img id="inv-${i}" src="assets/photos169/${x.k}.jpg#t=0,${x.len}" at="${x.at}" class="inv">`).join("\n")}\n</section>`);
 L.push(`<section>\n${shots.filter((x) => !x.inv).map((x, i) => `  <img id="shot-${i}" src="assets/photos169/${x.k}.jpg#t=0,${x.len}" at="${x.at}" class="shot${x.kb ? " kb-" + x.kb : ""}">`).join("\n")}\n</section>`);
 L.push(`<section>\n${vo.map((x) => `  <audio id="vo-${x.id}" src="assets/vo/${x.id}.mp3" at="${r3(x.at)}"></audio>`).join("\n")}\n</section>`);
-L.push(`<section>\n  <audio id="music" src="assets/music/pursuit-loop.mp3#t=0,${r3(FILM)}" at="0" volume="${MV.vol}" overrides='[{"fade":[0.4,2.5]}]'></audio>\n</section>`);
+L.push(`<section>\n  <audio id="music" src="assets/music/${BG.track}#t=${BG.music_in},${r3(BG.music_in + FILM)}" at="0" volume="${MV.vol}" overrides='[{"fade":[0.4,2.5]}]'></audio>\n</section>`);
 tracks.forEach((tr) => L.push(`<section>\n${tr.clips.map((x) => `  <audio src="assets/sfx/${x.f}" at="${r3(x.at)}" volume="${x.vol}"></audio>`).join("\n")}\n</section>`));
 L.push(`</body>\n</html>\n`);
 fs.writeFileSync(path.join(ROOT, "film.html"), L.join("\n"));
