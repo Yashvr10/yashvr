@@ -1,16 +1,58 @@
 {
  "march": [
   "march-v4",
-  "battle-v3"
+  "battle-v3",
+  "march-a1",
+  "march-a2",
+  "march-a3",
+  "march-a4",
+  "march-a6",
+  "march-a7",
+  "march-a8",
+  "march-a9"
  ],
  "crowd": [
   "march-v8"
  ],
  "storm": [
   "storm-v5",
-  "river-v1"
+  "river-v1",
+  "storm-a1",
+  "storm-a2"
  ],
  "mountain": [
   "mountain-v2"
+ ],
+ "wrestle": [
+  "wrestle-a1",
+  "wrestle-a2",
+  "wrestle-a3",
+  "wrestle-a4",
+  "wrestle-a5",
+  "wrestle-a6"
+ ],
+ "battle": [
+  "battle-a1",
+  "battle-a2",
+  "battle-a3",
+  "battle-a4"
+ ],
+ "orator": [
+  "orator-a2",
+  "orator-a3"
+ ],
+ "athlete": [
+  "athlete-a1",
+  "athlete-a2",
+  "athlete-a3",
+  "athlete-a4",
+  "athlete-a5",
+  "athlete-a6",
+  "athlete-a8",
+  "athlete-a10",
+  "athlete-a12",
+  "athlete-a13",
+  "athlete-a15",
+  "athlete-a16"
  ]
 }

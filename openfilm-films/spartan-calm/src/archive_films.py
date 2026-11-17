@@ -18,7 +18,7 @@ used = {c["film"] for c in CR.values()}
 for ident, (th, n) in IDS.items():
     if ident in used: continue
     meta = get(f"https://archive.org/metadata/{ident}"); files = meta.get("files", [])
-    vids = [f for f in files if re.search(r"\.(mp4|ogv|mpeg|avi|mkv)$", f["name"]) and int(f.get("size", 1e12)) < 160e6]
+    vids = [f for f in files if re.search(r"\.(mp4|ogv|mpeg|avi|mkv)$", f["name"]) and int(f.get("size", 1e12)) < 600e6]
     vids.sort(key=lambda f: (not f["name"].endswith(".mp4"), -int(f.get("size", 0))))
     if not vids: print("no video", ident); continue
     src = f"{TMP}/src" + os.path.splitext(vids[0]["name"])[1]
@@ -33,7 +33,7 @@ for ident, (th, n) in IDS.items():
     def busy(t):
         raw = subprocess.run(["ffmpeg", "-loglevel", "error", "-ss", f"{t:.2f}", "-i", src, "-frames:v", "1", "-vf", "scale=96:72,format=gray", "-f", "rawvideo", "-"], capture_output=True).stdout
         a = np.frombuffer(raw, np.uint8) if raw else np.zeros(1)
-        return a.std() > 28 and 35 < a.mean() < 215
+        return a.std() > 16 and 20 < a.mean() < 225
     shots = [s for s in shots if busy(s[0] + (s[1] - s[0]) / 2)]
     if len(shots) > n: shots = [shots[round(i * (len(shots) - 1) / (n - 1))] for i in range(n)] if n > 1 else shots[:1]
     got = 0
