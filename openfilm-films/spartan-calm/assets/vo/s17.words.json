@@ -2,36 +2,36 @@
 {
 "word": "A",
 "start": 0.0,
-"end": 0.12
+"end": 0.14
 },
 {
-"word": "Spartan",
-"start": 0.12,
-"end": 0.48
+"word": "local",
+"start": 0.14,
+"end": 0.42
 },
 {
-"word": "named",
-"start": 0.48,
-"end": 0.86
+"word": "man",
+"start": 0.42,
+"end": 0.82
 },
 {
-"word": "Dienekes",
-"start": 0.86,
-"end": 1.42
+"word": "came",
+"start": 0.82,
+"end": 1.28
 },
 {
-"word": "did",
-"start": 1.42,
-"end": 1.68
+"word": "to",
+"start": 1.28,
+"end": 1.52
 },
 {
-"word": "not",
-"start": 1.68,
-"end": 1.9
+"word": "warn",
+"start": 1.52,
+"end": 1.78
 },
 {
-"word": "flinch.",
-"start": 1.9,
-"end": 2.3
+"word": "them.",
+"start": 1.78,
+"end": 2.04
 }
 ]

@@ -1,42 +1,42 @@
 [
 {
-"word": "The",
+"word": "These",
 "start": 0.0,
-"end": 0.12
+"end": 0.2
 },
 {
-"word": "goal",
-"start": 0.12,
-"end": 0.4
+"word": "tools",
+"start": 0.2,
+"end": 0.5
 },
 {
-"word": "is",
-"start": 0.4,
+"word": "are",
+"start": 0.5,
 "end": 0.76
 },
 {
-"word": "not",
+"word": "useful.",
 "start": 0.76,
-"end": 0.96
+"end": 1.18
 },
 {
-"word": "to",
-"start": 0.96,
-"end": 1.26
+"word": "They",
+"start": 1.54,
+"end": 1.68
 },
 {
-"word": "feel",
-"start": 1.26,
-"end": 1.48
+"word": "can",
+"start": 1.68,
+"end": 1.84
 },
 {
-"word": "no",
-"start": 1.48,
-"end": 1.74
+"word": "steady",
+"start": 1.84,
+"end": 2.22
 },
 {
-"word": "fear.",
-"start": 1.74,
-"end": 2.06
+"word": "you.",
+"start": 2.22,
+"end": 2.54
 }
 ]

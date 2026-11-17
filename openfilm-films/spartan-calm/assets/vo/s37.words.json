@@ -1,77 +1,57 @@
 [
 {
-"word": "The",
+"word": "Breathing",
 "start": 0.0,
-"end": 0.14
+"end": 0.46
 },
 {
-"word": "first",
-"start": 0.14,
-"end": 0.34
+"word": "techniques.",
+"start": 0.46,
+"end": 0.94
 },
 {
-"word": "line",
-"start": 0.34,
-"end": 0.7
+"word": "Positive",
+"start": 1.38,
+"end": 1.66
 },
 {
-"word": "is",
-"start": 0.7,
-"end": 1.14
+"word": "self-talk.",
+"start": 1.66,
+"end": 2.88
 },
 {
-"word": "preparation",
-"start": 1.14,
-"end": 1.58
+"word": "Telling",
+"start": 2.88,
+"end": 3.08
 },
 {
-"word": "so",
-"start": 1.58,
-"end": 2.14
-},
-{
-"word": "deep",
-"start": 2.14,
-"end": 2.5
+"word": "ourselves",
+"start": 3.08,
+"end": 3.62
 },
 {
 "word": "that",
-"start": 2.5,
-"end": 2.98
+"start": 3.62,
+"end": 3.9
 },
 {
-"word": "there",
-"start": 2.98,
-"end": 3.14
+"word": "anxiety",
+"start": 3.9,
+"end": 4.3
 },
 {
 "word": "is",
-"start": 3.14,
-"end": 3.28
+"start": 4.3,
+"end": 4.76
 },
 {
-"word": "very",
-"start": 3.28,
-"end": 3.58
+"word": "just",
+"start": 4.76,
+"end": 4.98
 },
 {
-"word": "little",
-"start": 3.58,
-"end": 3.78
-},
-{
-"word": "left",
-"start": 3.78,
-"end": 4.12
-},
-{
-"word": "to",
-"start": 4.12,
-"end": 4.44
-},
-{
-"word": "regulate.",
-"start": 4.44,
-"end": 4.84
+"word": "excitement.",
+"start": 4.98,
+"end": 5.46
 }
 ]

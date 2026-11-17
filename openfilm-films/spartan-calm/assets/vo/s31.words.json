@@ -1,92 +1,72 @@
 [
 {
-"word": "There",
+"word": "So",
 "start": 0.0,
-"end": 0.1
+"end": 0.16
 },
 {
-"word": "was",
-"start": 0.1,
-"end": 0.18
+"word": "when",
+"start": 0.16,
+"end": 0.34
 },
 {
-"word": "no",
-"start": 0.18,
-"end": 0.38
+"word": "the",
+"start": 0.34,
+"end": 0.48
 },
 {
-"word": "speech",
-"start": 0.38,
+"word": "real",
+"start": 0.48,
 "end": 0.74
 },
 {
-"word": "about",
+"word": "moment",
 "start": 0.74,
-"end": 1.16
+"end": 1.04
 },
 {
-"word": "courage.",
-"start": 1.16,
-"end": 1.62
+"word": "came,",
+"start": 1.04,
+"end": 1.42
 },
 {
-"word": "The",
-"start": 2.1,
-"end": 2.24
+"word": "their",
+"start": 1.82,
+"end": 1.92
 },
 {
-"word": "courage",
-"start": 2.24,
-"end": 2.56
+"word": "bodies",
+"start": 1.92,
+"end": 2.18
 },
 {
-"word": "had",
-"start": 2.56,
-"end": 2.78
+"word": "did",
+"start": 2.18,
+"end": 2.44
 },
 {
-"word": "already",
-"start": 2.78,
-"end": 3.02
+"word": "not",
+"start": 2.44,
+"end": 2.64
 },
 {
-"word": "been",
-"start": 3.02,
-"end": 3.28
+"word": "panic.",
+"start": 2.64,
+"end": 3.06
 },
 {
-"word": "built,",
-"start": 3.28,
-"end": 3.66
+"word": "They",
+"start": 3.46,
+"end": 3.6
 },
 {
-"word": "one",
-"start": 3.66,
-"end": 4.16
+"word": "recognised",
+"start": 3.6,
+"end": 4.12
 },
 {
-"word": "hard",
-"start": 4.16,
-"end": 4.44
-},
-{
-"word": "day",
-"start": 4.44,
-"end": 4.68
-},
-{
-"word": "at",
-"start": 4.68,
-"end": 4.84
-},
-{
-"word": "a",
-"start": 4.84,
-"end": 4.98
-},
-{
-"word": "time.",
-"start": 4.98,
-"end": 5.26
+"word": "it.",
+"start": 4.12,
+"end": 4.48
 }
 ]

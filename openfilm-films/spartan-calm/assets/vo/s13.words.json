@@ -1,92 +1,47 @@
 [
 {
-"word": "When",
+"word": "None",
 "start": 0.0,
-"end": 0.12
+"end": 0.18
 },
 {
-"word": "the",
-"start": 0.12,
-"end": 0.24
+"word": "of",
+"start": 0.18,
+"end": 0.36
 },
 {
-"word": "Persian",
-"start": 0.24,
-"end": 0.52
-},
-{
-"word": "army",
-"start": 0.52,
-"end": 0.94
-},
-{
-"word": "marched",
-"start": 0.94,
-"end": 1.48
-},
-{
-"word": "on",
-"start": 1.48,
-"end": 1.72
-},
-{
-"word": "Greece,",
-"start": 1.72,
-"end": 2.06
-},
-{
-"word": "it",
-"start": 2.52,
-"end": 2.68
+"word": "this",
+"start": 0.36,
+"end": 0.6
 },
 {
 "word": "was",
-"start": 2.68,
-"end": 2.8
+"start": 0.6,
+"end": 0.92
 },
 {
-"word": "the",
-"start": 2.8,
-"end": 3.0
+"word": "meant",
+"start": 0.92,
+"end": 1.18
 },
 {
-"word": "largest",
-"start": 3.0,
-"end": 3.36
+"word": "to",
+"start": 1.18,
+"end": 1.56
 },
 {
-"word": "force",
-"start": 3.36,
-"end": 3.84
+"word": "make",
+"start": 1.56,
+"end": 1.78
 },
 {
-"word": "the",
-"start": 3.84,
-"end": 4.16
+"word": "war",
+"start": 1.78,
+"end": 2.1
 },
 {
-"word": "ancient",
-"start": 4.16,
-"end": 4.44
-},
-{
-"word": "world",
-"start": 4.44,
-"end": 4.88
-},
-{
-"word": "had",
-"start": 4.88,
-"end": 5.1
-},
-{
-"word": "ever",
-"start": 5.1,
-"end": 5.34
-},
-{
-"word": "seen.",
-"start": 5.34,
-"end": 5.68
+"word": "easier.",
+"start": 2.1,
+"end": 2.44
 }
 ]

@@ -1,22 +1,152 @@
 [
 {
-"word": "We",
+"word": "Their",
 "start": 0.0,
-"end": 0.14
+"end": 0.16
 },
 {
-"word": "do",
-"start": 0.14,
-"end": 0.32
+"word": "hearts",
+"start": 0.16,
+"end": 0.42
+},
+{
+"word": "still",
+"start": 0.42,
+"end": 0.72
+},
+{
+"word": "raced.",
+"start": 0.72,
+"end": 1.14
+},
+{
+"word": "Their",
+"start": 1.64,
+"end": 1.74
+},
+{
+"word": "hands",
+"start": 1.74,
+"end": 2.04
+},
+{
+"word": "still",
+"start": 2.04,
+"end": 2.34
+},
+{
+"word": "felt",
+"start": 2.34,
+"end": 2.6
 },
 {
 "word": "the",
-"start": 0.32,
-"end": 0.5
+"start": 2.6,
+"end": 2.82
 },
 {
-"word": "opposite.",
-"start": 0.5,
-"end": 0.86
+"word": "weight",
+"start": 2.82,
+"end": 2.98
+},
+{
+"word": "of",
+"start": 2.98,
+"end": 3.16
+},
+{
+"word": "the",
+"start": 3.16,
+"end": 3.28
+},
+{
+"word": "shield.",
+"start": 3.28,
+"end": 3.62
+},
+{
+"word": "But",
+"start": 4.02,
+"end": 4.24
+},
+{
+"word": "their",
+"start": 4.24,
+"end": 4.42
+},
+{
+"word": "minds",
+"start": 4.42,
+"end": 4.78
+},
+{
+"word": "had",
+"start": 4.78,
+"end": 5.02
+},
+{
+"word": "been",
+"start": 5.02,
+"end": 5.16
+},
+{
+"word": "here",
+"start": 5.16,
+"end": 5.42
+},
+{
+"word": "before,",
+"start": 5.42,
+"end": 5.84
+},
+{
+"word": "a",
+"start": 5.84,
+"end": 6.32
+},
+{
+"word": "thousand",
+"start": 6.32,
+"end": 6.66
+},
+{
+"word": "times,",
+"start": 6.66,
+"end": 7.16
+},
+{
+"word": "in",
+"start": 7.16,
+"end": 7.68
+},
+{
+"word": "training",
+"start": 7.68,
+"end": 8.06
+},
+{
+"word": "that",
+"start": 8.06,
+"end": 8.32
+},
+{
+"word": "was",
+"start": 8.32,
+"end": 8.46
+},
+{
+"word": "harder",
+"start": 8.46,
+"end": 8.8
+},
+{
+"word": "than",
+"start": 8.8,
+"end": 9.04
+},
+{
+"word": "this.",
+"start": 9.04,
+"end": 9.3
 }
 ]

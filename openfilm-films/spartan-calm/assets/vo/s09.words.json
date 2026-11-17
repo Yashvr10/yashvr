@@ -1,77 +1,112 @@
 [
 {
-"word": "He",
+"word": "In",
 "start": 0.0,
-"end": 0.12
+"end": 0.14
 },
 {
-"word": "ran,",
-"start": 0.12,
-"end": 0.44
+"word": "winter,",
+"start": 0.14,
+"end": 0.46
 },
 {
-"word": "wrestled,",
-"start": 0.54,
-"end": 1.14
+"word": "he",
+"start": 0.74,
+"end": 0.82
 },
 {
-"word": "marched",
-"start": 1.2,
-"end": 1.52
+"word": "was",
+"start": 0.82,
+"end": 0.92
+},
+{
+"word": "not",
+"start": 0.92,
+"end": 1.1
+},
+{
+"word": "allowed",
+"start": 1.1,
+"end": 1.4
+},
+{
+"word": "to",
+"start": 1.4,
+"end": 1.6
+},
+{
+"word": "add",
+"start": 1.6,
+"end": 1.82
+},
+{
+"word": "a",
+"start": 1.82,
+"end": 1.98
+},
+{
+"word": "second",
+"start": 1.98,
+"end": 2.2
+},
+{
+"word": "layer.",
+"start": 2.2,
+"end": 2.58
+},
+{
+"word": "He",
+"start": 3.08,
+"end": 3.16
+},
+{
+"word": "was",
+"start": 3.16,
+"end": 3.28
+},
+{
+"word": "meant",
+"start": 3.28,
+"end": 3.46
+},
+{
+"word": "to",
+"start": 3.46,
+"end": 3.64
+},
+{
+"word": "feel",
+"start": 3.64,
+"end": 3.86
+},
+{
+"word": "the",
+"start": 3.86,
+"end": 4.04
+},
+{
+"word": "cold,",
+"start": 4.04,
+"end": 4.44
 },
 {
 "word": "and",
-"start": 1.52,
-"end": 1.78
+"start": 4.44,
+"end": 4.94
 },
 {
-"word": "fought,",
-"start": 1.78,
-"end": 2.06
+"word": "keep",
+"start": 4.94,
+"end": 5.14
 },
 {
-"word": "day",
-"start": 2.06,
-"end": 2.54
+"word": "going",
+"start": 5.14,
+"end": 5.5
 },
 {
-"word": "after",
-"start": 2.54,
-"end": 2.78
-},
-{
-"word": "day,",
-"start": 2.78,
-"end": 3.14
-},
-{
-"word": "season",
-"start": 3.46,
-"end": 3.62
-},
-{
-"word": "after",
-"start": 3.62,
-"end": 3.9
-},
-{
-"word": "season,",
-"start": 3.9,
-"end": 4.36
-},
-{
-"word": "for",
-"start": 4.36,
-"end": 4.7
-},
-{
-"word": "thirteen",
-"start": 4.7,
-"end": 5.1
-},
-{
-"word": "years.",
-"start": 5.1,
-"end": 5.44
+"word": "anyway.",
+"start": 5.5,
+"end": 5.84
 }
 ]

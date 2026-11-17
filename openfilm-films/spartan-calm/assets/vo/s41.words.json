@@ -1,117 +1,42 @@
 [
 {
-"word": "Rehearse",
+"word": "The",
 "start": 0.0,
-"end": 0.54
+"end": 0.12
 },
 {
-"word": "until",
-"start": 0.54,
-"end": 0.84
+"word": "goal",
+"start": 0.12,
+"end": 0.4
 },
 {
-"word": "the",
-"start": 0.84,
-"end": 0.98
+"word": "is",
+"start": 0.4,
+"end": 0.76
 },
 {
-"word": "words",
-"start": 0.98,
-"end": 1.26
-},
-{
-"word": "bore",
-"start": 1.26,
-"end": 1.58
-},
-{
-"word": "you.",
-"start": 1.58,
-"end": 1.98
-},
-{
-"word": "Rehearse",
-"start": 2.4,
-"end": 2.76
-},
-{
-"word": "in",
-"start": 2.76,
-"end": 2.92
-},
-{
-"word": "front",
-"start": 2.92,
-"end": 3.08
-},
-{
-"word": "of",
-"start": 3.08,
-"end": 3.24
-},
-{
-"word": "people",
-"start": 3.24,
-"end": 3.5
-},
-{
-"word": "who",
-"start": 3.5,
-"end": 3.74
-},
-{
-"word": "will",
-"start": 3.74,
-"end": 3.88
-},
-{
-"word": "interrupt",
-"start": 3.88,
-"end": 4.26
-},
-{
-"word": "you,",
-"start": 4.26,
-"end": 4.6
-},
-{
-"word": "question",
-"start": 4.9,
-"end": 5.04
-},
-{
-"word": "you,",
-"start": 5.04,
-"end": 5.46
-},
-{
-"word": "and",
-"start": 5.72,
-"end": 5.92
-},
-{
-"word": "try",
-"start": 5.92,
-"end": 6.16
+"word": "not",
+"start": 0.76,
+"end": 0.96
 },
 {
 "word": "to",
-"start": 6.16,
-"end": 6.34
+"start": 0.96,
+"end": 1.26
 },
 {
-"word": "throw",
-"start": 6.34,
-"end": 6.56
+"word": "feel",
+"start": 1.26,
+"end": 1.48
 },
 {
-"word": "you",
-"start": 6.56,
-"end": 6.76
+"word": "no",
+"start": 1.48,
+"end": 1.74
 },
 {
-"word": "off.",
-"start": 6.76,
-"end": 6.96
+"word": "fear.",
+"start": 1.74,
+"end": 2.06
 }
 ]

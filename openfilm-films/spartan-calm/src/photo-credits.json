@@ -17,15 +17,6 @@
   "url": "https://clevelandart.org/art/1927.436",
   "license": "CC0 (Cleveland Museum of Art Open Access)"
  },
- "hoplite-3": {
-  "id": 160294,
-  "title": "Kriophoros (Ram-Bearer), Statuette",
-  "artist": "",
-  "date": "650\u2013600 BCE",
-  "type": "Sculpture",
-  "url": "https://clevelandart.org/art/1998.172",
-  "license": "CC0 (Cleveland Museum of Art Open Access)"
- },
  "hoplite-4": {
   "id": 143423,
   "title": "Statuette of a Warrior",
@@ -42,33 +33,6 @@
   "date": "c. 1520",
   "type": "Sculpture",
   "url": "https://clevelandart.org/art/1963.576",
-  "license": "CC0 (Cleveland Museum of Art Open Access)"
- },
- "hoplite-6": {
-  "id": 140080,
-  "title": "Warrior Figurine with Removable Headdress",
-  "artist": "",
-  "date": "600\u2013900",
-  "type": "Sculpture",
-  "url": "https://clevelandart.org/art/1963.93",
-  "license": "CC0 (Cleveland Museum of Art Open Access)"
- },
- "hoplite-7": {
-  "id": 155451,
-  "title": "Warrior Figurine with Shield",
-  "artist": "",
-  "date": "600\u2013900",
-  "type": "Sculpture",
-  "url": "https://clevelandart.org/art/1990.178",
-  "license": "CC0 (Cleveland Museum of Art Open Access)"
- },
- "hoplite-8": {
-  "id": 140081,
-  "title": "Warrior Figurine with Removable Headdress",
-  "artist": "",
-  "date": "600\u2013900",
-  "type": "Sculpture",
-  "url": "https://clevelandart.org/art/1963.93.a",
   "license": "CC0 (Cleveland Museum of Art Open Access)"
  },
  "helmet-1": {
@@ -89,15 +53,6 @@
   "url": "https://clevelandart.org/art/1915.559",
   "license": "CC0 (Cleveland Museum of Art Open Access)"
  },
- "helmet-3": {
-  "id": 155522,
-  "title": "Head with Animal Helmet",
-  "artist": "",
-  "date": "c. 600\u20131000",
-  "type": "Sculpture",
-  "url": "https://clevelandart.org/art/1990.237",
-  "license": "CC0 (Cleveland Museum of Art Open Access)"
- },
  "helmet-4": {
   "id": 127249,
   "title": "The Small Playing Cards:  Second Suit:  Helmets:  Playing Card with King and Helmet",
@@ -105,24 +60,6 @@
   "date": "1450\u201367",
   "type": "Print",
   "url": "https://clevelandart.org/art/1949.564",
-  "license": "CC0 (Cleveland Museum of Art Open Access)"
- },
- "shield-1": {
-  "id": 160882,
-  "title": "Haniwa in the Form of a Shield",
-  "artist": "",
-  "date": "c. 500",
-  "type": "Sculpture",
-  "url": "https://clevelandart.org/art/1999.170",
-  "license": "CC0 (Cleveland Museum of Art Open Access)"
- },
- "shield-2": {
-  "id": 147480,
-  "title": "Ballgame Hip Protector (Yoke)",
-  "artist": "",
-  "date": "600\u2013900",
-  "type": "Sculpture",
-  "url": "https://clevelandart.org/art/1973.213",
   "license": "CC0 (Cleveland Museum of Art Open Access)"
  },
  "shield-3": {
@@ -179,33 +116,6 @@
   "url": "https://clevelandart.org/art/1954.365",
   "license": "CC0 (Cleveland Museum of Art Open Access)"
  },
- "spear-3": {
-  "id": 127176,
-  "title": "Spearing Fish",
-  "artist": "",
-  "date": "c. 667\u2013647 BCE",
-  "type": "Sculpture",
-  "url": "https://clevelandart.org/art/1949.499",
-  "license": "CC0 (Cleveland Museum of Art Open Access)"
- },
- "spear-4": {
-  "id": 109146,
-  "title": "Christ on the Cross",
-  "artist": "Martin Schongauer (German, c. 1450\u20131491)",
-  "date": "1470\u201390",
-  "type": "Print",
-  "url": "https://clevelandart.org/art/1927.305",
-  "license": "CC0 (Cleveland Museum of Art Open Access)"
- },
- "spear-5": {
-  "id": 140423,
-  "title": "Altarpiece with Relics - Lance, lower right",
-  "artist": "Joseph Matthias G\u00f6tz (German, 1696\u20131760)",
-  "date": "c. 1735\u20131740",
-  "type": "Sculpture",
-  "url": "https://clevelandart.org/art/1964.357.j",
-  "license": "CC0 (Cleveland Museum of Art Open Access)"
- },
  "spear-6": {
   "id": 109038,
   "title": "The Tournament with lances",
@@ -222,15 +132,6 @@
   "date": "1512\u201316",
   "type": "Print",
   "url": "https://clevelandart.org/art/1960.30",
-  "license": "CC0 (Cleveland Museum of Art Open Access)"
- },
- "spear-8": {
-  "id": 109132,
-  "title": "Diagram for Lance Practice",
-  "artist": "",
-  "date": "1700s",
-  "type": "Print",
-  "url": "https://clevelandart.org/art/1927.293",
   "license": "CC0 (Cleveland Museum of Art Open Access)"
  },
  "battle-1": {
@@ -260,33 +161,6 @@
   "url": "https://clevelandart.org/art/1924.213",
   "license": "CC0 (Cleveland Museum of Art Open Access)"
  },
- "battle-4": {
-  "id": 679266,
-  "title": "Fierce Battle at the Red Cliff",
-  "artist": "",
-  "date": "1736\u201395",
-  "type": "Print",
-  "url": "https://clevelandart.org/art/2025.97",
-  "license": "CC0 (Cleveland Museum of Art Open Access)"
- },
- "battle-5": {
-  "id": 111818,
-  "title": "Pawing Bull",
-  "artist": "",
-  "date": "500\u2013475 BCE",
-  "type": "Sculpture",
-  "url": "https://clevelandart.org/art/1930.336",
-  "license": "CC0 (Cleveland Museum of Art Open Access)"
- },
- "battle-6": {
-  "id": 108868,
-  "title": "Fragment of a Goat's Head",
-  "artist": "",
-  "date": "c. 500\u2013475 BCE",
-  "type": "Sculpture",
-  "url": "https://clevelandart.org/art/1926.538",
-  "license": "CC0 (Cleveland Museum of Art Open Access)"
- },
  "battle-7": {
   "id": 703198,
   "title": "Trojans Repelling the Greeks",
@@ -312,15 +186,6 @@
   "date": "1868",
   "type": "Sculpture",
   "url": "https://clevelandart.org/art/2011.110",
-  "license": "CC0 (Cleveland Museum of Art Open Access)"
- },
- "battle-10": {
-  "id": 314484,
-  "title": "Two Elephants in Combat",
-  "artist": "",
-  "date": "1700\u20131730",
-  "type": "Painting",
-  "url": "https://clevelandart.org/art/2018.178",
   "license": "CC0 (Cleveland Museum of Art Open Access)"
  },
  "battle-11": {
@@ -530,15 +395,6 @@
   "url": "https://clevelandart.org/art/1926.552",
   "license": "CC0 (Cleveland Museum of Art Open Access)"
  },
- "face-10": {
-  "id": 143381,
-  "title": "Front Face of a Stela (Free-standing Stone with Relief)",
-  "artist": "",
-  "date": "692",
-  "type": "Sculpture",
-  "url": "https://clevelandart.org/art/1967.29",
-  "license": "CC0 (Cleveland Museum of Art Open Access)"
- },
  "face-11": {
   "id": 155452,
   "title": "Face Fragment",
@@ -546,15 +402,6 @@
   "date": "600\u20131000",
   "type": "Sculpture",
   "url": "https://clevelandart.org/art/1990.179",
-  "license": "CC0 (Cleveland Museum of Art Open Access)"
- },
- "face-12": {
-  "id": 147575,
-  "title": "One-Faced Linga (Ekamukhalinga)",
-  "artist": "",
-  "date": "600s\u2013700s",
-  "type": "Sculpture",
-  "url": "https://clevelandart.org/art/1973.73",
   "license": "CC0 (Cleveland Museum of Art Open Access)"
  },
  "hands-1": {
@@ -566,24 +413,6 @@
   "url": "https://clevelandart.org/art/2003.37",
   "license": "CC0 (Cleveland Museum of Art Open Access)"
  },
- "hands-2": {
-  "id": 111054,
-  "title": "Studies of Hands (recto)",
-  "artist": "Carletto Caliari (Italian, 1570\u20131596)",
-  "date": "c. 1586",
-  "type": "Drawing",
-  "url": "https://clevelandart.org/art/1929.549.a",
-  "license": "CC0 (Cleveland Museum of Art Open Access)"
- },
- "hands-3": {
-  "id": 111053,
-  "title": "Studies of Hands (recto); Sketch of a Child's Head (verso)",
-  "artist": "Carletto Caliari (Italian, 1570\u20131596)",
-  "date": "c. 1586",
-  "type": "Drawing",
-  "url": "https://clevelandart.org/art/1929.549",
-  "license": "CC0 (Cleveland Museum of Art Open Access)"
- },
  "hands-4": {
   "id": 396848,
   "title": "Study of a Man with Hands in His Pockets",
@@ -591,42 +420,6 @@
   "date": "1893",
   "type": "Drawing",
   "url": "https://clevelandart.org/art/2020.260",
-  "license": "CC0 (Cleveland Museum of Art Open Access)"
- },
- "hands-5": {
-  "id": 106002,
-  "title": "The Reflection",
-  "artist": "Hand B",
-  "date": "c. 1900\u201310",
-  "type": "Drawing",
-  "url": "https://clevelandart.org/art/1924.128",
-  "license": "CC0 (Cleveland Museum of Art Open Access)"
- },
- "hands-6": {
-  "id": 159386,
-  "title": "Studies of a Costume, Sleeve, and Hand",
-  "artist": "Pietro Longhi (Italian, 1702\u20131785)",
-  "date": "c. 1747",
-  "type": "Drawing",
-  "url": "https://clevelandart.org/art/1996.210",
-  "license": "CC0 (Cleveland Museum of Art Open Access)"
- },
- "hands-7": {
-  "id": 111811,
-  "title": "Nataraja, Shiva as the Lord of Dance",
-  "artist": "",
-  "date": "1000s",
-  "type": "Sculpture",
-  "url": "https://clevelandart.org/art/1930.331",
-  "license": "CC0 (Cleveland Museum of Art Open Access)"
- },
- "hands-8": {
-  "id": 142560,
-  "title": "Standing Buddha",
-  "artist": "",
-  "date": "c. 900",
-  "type": "Sculpture",
-  "url": "https://clevelandart.org/art/1966.30",
   "license": "CC0 (Cleveland Museum of Art Open Access)"
  },
  "boy-1": {
@@ -755,15 +548,6 @@
   "url": "https://clevelandart.org/art/1945.367",
   "license": "CC0 (Cleveland Museum of Art Open Access)"
  },
- "athlete-6": {
-  "id": 138692,
-  "title": "Vishnu",
-  "artist": "",
-  "date": "900\u2013950",
-  "type": "Sculpture",
-  "url": "https://clevelandart.org/art/1963.104.2",
-  "license": "CC0 (Cleveland Museum of Art Open Access)"
- },
  "athlete-7": {
   "id": 161695,
   "title": "Statuette of Herakles",
@@ -771,24 +555,6 @@
   "date": "510\u2013500 BCE",
   "type": "Sculpture",
   "url": "https://clevelandart.org/art/2000.6",
-  "license": "CC0 (Cleveland Museum of Art Open Access)"
- },
- "athlete-8": {
-  "id": 147449,
-  "title": "Yoga Narashimha, Vishnu in his Man-Lion Avatar",
-  "artist": "",
-  "date": "c. 1250",
-  "type": "Sculpture",
-  "url": "https://clevelandart.org/art/1973.187",
-  "license": "CC0 (Cleveland Museum of Art Open Access)"
- },
- "wrestle-1": {
-  "id": 142792,
-  "title": "Wrestlers in a Circus",
-  "artist": "Ernst Ludwig Kirchner (German, 1880\u20131938)",
-  "date": "1909",
-  "type": "Painting",
-  "url": "https://clevelandart.org/art/1966.49",
   "license": "CC0 (Cleveland Museum of Art Open Access)"
  },
  "wrestle-2": {
@@ -800,87 +566,6 @@
   "url": "https://clevelandart.org/art/1998.71",
   "license": "CC0 (Cleveland Museum of Art Open Access)"
  },
- "wrestle-3": {
-  "id": 151879,
-  "title": "Krishna asks for sweets, from a Sursagar of Surdas (Indian, c. 1480\u20131580)",
-  "artist": "",
-  "date": "1705\u201310",
-  "type": "Painting",
-  "url": "https://clevelandart.org/art/1984.172",
-  "license": "CC0 (Cleveland Museum of Art Open Access)"
- },
- "wrestle-4": {
-  "id": 314495,
-  "title": "Draupadi Rescued from Abduction, from a Mahabharata",
-  "artist": "",
-  "date": "c. 1615",
-  "type": "Painting",
-  "url": "https://clevelandart.org/art/2018.189",
-  "license": "CC0 (Cleveland Museum of Art Open Access)"
- },
- "wrestle-5": {
-  "id": 101210,
-  "title": "Segawa Kikunoj\u014d III as Teruha",
-  "artist": "Katsukawa Shunsh\u014d (Japanese, 1726\u20131792)",
-  "date": "1778",
-  "type": "Print",
-  "url": "https://clevelandart.org/art/1920.157",
-  "license": "CC0 (Cleveland Museum of Art Open Access)"
- },
- "wrestle-6": {
-  "id": 157017,
-  "title": "Kamsa deploys Akrura and Keshi to Braj, from a Bhagavata Purana",
-  "artist": "",
-  "date": "c. 1830",
-  "type": "Painting",
-  "url": "https://clevelandart.org/art/1993.166",
-  "license": "CC0 (Cleveland Museum of Art Open Access)"
- },
- "wrestle-7": {
-  "id": 152451,
-  "title": "Festival Scenes",
-  "artist": "",
-  "date": "1615\u201399",
-  "type": "Painting",
-  "url": "https://clevelandart.org/art/1985.279",
-  "license": "CC0 (Cleveland Museum of Art Open Access)"
- },
- "wrestle-8": {
-  "id": 162450,
-  "title": "Krishna quells the serpent Kaliya (verso), from a Kalighat album",
-  "artist": "",
-  "date": "c. 1890",
-  "type": "Painting",
-  "url": "https://clevelandart.org/art/2003.113.b",
-  "license": "CC0 (Cleveland Museum of Art Open Access)"
- },
- "march-1": {
-  "id": 135691,
-  "title": "Genesis II",
-  "artist": "Franz Marc (German, 1880\u20131916)",
-  "date": "1914",
-  "type": "Print",
-  "url": "https://clevelandart.org/art/1959.228",
-  "license": "CC0 (Cleveland Museum of Art Open Access)"
- },
- "march-2": {
-  "id": 136595,
-  "title": "Tiger",
-  "artist": "Franz Marc (German, 1880\u20131916)",
-  "date": "1912",
-  "type": "Print",
-  "url": "https://clevelandart.org/art/1961.157",
-  "license": "CC0 (Cleveland Museum of Art Open Access)"
- },
- "march-3": {
-  "id": 163143,
-  "title": "Album of Daoist and Buddhist Themes: Search the Mountain: Leaf 43",
-  "artist": "",
-  "date": "1200s",
-  "type": "Painting",
-  "url": "https://clevelandart.org/art/2004.1.43",
-  "license": "CC0 (Cleveland Museum of Art Open Access)"
- },
  "march-4": {
   "id": 121309,
   "title": "Mercenaries and a Woman with Death in a Tree",
@@ -888,15 +573,6 @@
   "date": "1524",
   "type": "Print",
   "url": "https://clevelandart.org/art/1942.118",
-  "license": "CC0 (Cleveland Museum of Art Open Access)"
- },
- "march-5": {
-  "id": 163146,
-  "title": "Album of Daoist and Buddhist Themes: Search the Mountain: Leaf 46",
-  "artist": "",
-  "date": "1200s",
-  "type": "Painting",
-  "url": "https://clevelandart.org/art/2004.1.46",
   "license": "CC0 (Cleveland Museum of Art Open Access)"
  },
  "march-6": {
@@ -915,33 +591,6 @@
   "date": "1860",
   "type": "Photograph",
   "url": "https://clevelandart.org/art/2026.59",
-  "license": "CC0 (Cleveland Museum of Art Open Access)"
- },
- "march-8": {
-  "id": 160767,
-  "title": "Plaque",
-  "artist": "",
-  "date": "1500s\u20131600s",
-  "type": "Sculpture",
-  "url": "https://clevelandart.org/art/1999.1",
-  "license": "CC0 (Cleveland Museum of Art Open Access)"
- },
- "march-9": {
-  "id": 711635,
-  "title": "North and East Corner of the Wall of Pekin",
-  "artist": "Felice A. Beato (British, 1832\u20131909)",
-  "date": "1860",
-  "type": "Photograph",
-  "url": "https://clevelandart.org/art/2026.57",
-  "license": "CC0 (Cleveland Museum of Art Open Access)"
- },
- "march-10": {
-  "id": 711645,
-  "title": "Streets and Shops in the Tartar city of Pekin",
-  "artist": "Felice A. Beato (British, 1832\u20131909)",
-  "date": "October 1860",
-  "type": "Photograph",
-  "url": "https://clevelandart.org/art/2026.60",
   "license": "CC0 (Cleveland Museum of Art Open Access)"
  },
  "greece-1": {
@@ -969,15 +618,6 @@
   "date": "c. 1860's",
   "type": "Photograph",
   "url": "https://clevelandart.org/art/2008.120",
-  "license": "CC0 (Cleveland Museum of Art Open Access)"
- },
- "greece-4": {
-  "id": 108315,
-  "title": "Satyr Head",
-  "artist": "",
-  "date": "500s BCE",
-  "type": "Sculpture",
-  "url": "https://clevelandart.org/art/1925.946",
   "license": "CC0 (Cleveland Museum of Art Open Access)"
  },
  "greece-5": {
@@ -1023,15 +663,6 @@
   "date": "400\u2013200 BCE",
   "type": "Sculpture",
   "url": "https://clevelandart.org/art/1938.426",
-  "license": "CC0 (Cleveland Museum of Art Open Access)"
- },
- "greece-10": {
-  "id": 129386,
-  "title": "Christ on the Cross",
-  "artist": "El Greco (Spanish, 1541\u20131614)",
-  "date": "c. 1600\u20131610",
-  "type": "Painting",
-  "url": "https://clevelandart.org/art/1952.222",
   "license": "CC0 (Cleveland Museum of Art Open Access)"
  },
  "greece-11": {
@@ -1088,24 +719,6 @@
   "url": "https://clevelandart.org/art/2023.117",
   "license": "CC0 (Cleveland Museum of Art Open Access)"
  },
- "feet-1": {
-  "id": 159728,
-  "title": "Washing the Feet (from the Dusty World)",
-  "artist": "Wen Boren (Chinese, 1502\u20131575)",
-  "date": "1570",
-  "type": "Painting",
-  "url": "https://clevelandart.org/art/1997.103",
-  "license": "CC0 (Cleveland Museum of Art Open Access)"
- },
- "feet-2": {
-  "id": 314115,
-  "title": "Krishna and Balarama touching the feet of Vasudeva and Devaki, from the \u201cVertical\u201d Bhagavata Purana",
-  "artist": "",
-  "date": "c. 1700\u20131725",
-  "type": "Painting",
-  "url": "https://clevelandart.org/art/2018.85",
-  "license": "CC0 (Cleveland Museum of Art Open Access)"
- },
  "feet-3": {
   "id": 147999,
   "title": "Feet for Standing Buddha (1973.15)",
@@ -1133,42 +746,6 @@
   "url": "https://clevelandart.org/art/1916.2013",
   "license": "CC0 (Cleveland Museum of Art Open Access)"
  },
- "feet-6": {
-  "id": 112106,
-  "title": "Venus Wounded by a Rose's Thorn",
-  "artist": "Marco Dente (Italian, c. 1486\u20131527)",
-  "date": "c. 1516",
-  "type": "Print",
-  "url": "https://clevelandart.org/art/1930.581",
-  "license": "CC0 (Cleveland Museum of Art Open Access)"
- },
- "feet-7": {
-  "id": 141200,
-  "title": "Bodhidharma Crossing the Yangzi on a Reed",
-  "artist": "",
-  "date": "1300s",
-  "type": "Painting",
-  "url": "https://clevelandart.org/art/1964.44",
-  "license": "CC0 (Cleveland Museum of Art Open Access)"
- },
- "feet-8": {
-  "id": 137925,
-  "title": "The prince, once reprieved, is returned to the palace of execution a second time on the plea of the king\u2019s handmaiden, from a Tuti-nama (Tales of a Parrot): Eighth Night",
-  "artist": "Gujarati (Indian, active 1550s-1590s)",
-  "date": "c. 1560",
-  "type": "Painting",
-  "url": "https://clevelandart.org/art/1962.279.59.b",
-  "license": "CC0 (Cleveland Museum of Art Open Access)"
- },
- "hunger-1": {
-  "id": 142559,
-  "title": "St. Catherine of Siena and the Beggar",
-  "artist": "Giovanni di Paolo (Italian, c. 1403\u20131482)",
-  "date": "1460s",
-  "type": "Painting",
-  "url": "https://clevelandart.org/art/1966.3",
-  "license": "CC0 (Cleveland Museum of Art Open Access)"
- },
  "hunger-2": {
   "id": 97421,
   "title": "\"Old Pat,\" The Independent Beggar",
@@ -1176,24 +753,6 @@
   "date": "c. 1819",
   "type": "Painting",
   "url": "https://clevelandart.org/art/1916.998",
-  "license": "CC0 (Cleveland Museum of Art Open Access)"
- },
- "hunger-3": {
-  "id": 154263,
-  "title": "Beggar (Kojiki)",
-  "artist": "Hirafuku Suian (Japanese, 1844\u20131890)",
-  "date": "1871",
-  "type": "Painting",
-  "url": "https://clevelandart.org/art/1988.73",
-  "license": "CC0 (Cleveland Museum of Art Open Access)"
- },
- "hunger-4": {
-  "id": 141484,
-  "title": "Beggars and Street Characters",
-  "artist": "Zhou Chen (Chinese, c. 1450\u2013c. 1536)",
-  "date": "1516",
-  "type": "Painting",
-  "url": "https://clevelandart.org/art/1964.94",
   "license": "CC0 (Cleveland Museum of Art Open Access)"
  },
  "hunger-5": {
@@ -1205,15 +764,6 @@
   "url": "https://clevelandart.org/art/2018.258",
   "license": "CC0 (Cleveland Museum of Art Open Access)"
  },
- "hunger-6": {
-  "id": 670511,
-  "title": "The Death of Count Ugolino della Gherardesca and His Sons (Inferno Canto XXXIII)",
-  "artist": "Pierino da Vinci (Italian, 1530\u20131553)",
-  "date": "c. 1550",
-  "type": "Sculpture",
-  "url": "https://clevelandart.org/art/2024.1",
-  "license": "CC0 (Cleveland Museum of Art Open Access)"
- },
  "hunger-7": {
   "id": 105422,
   "title": "The Last Supper",
@@ -1221,15 +771,6 @@
   "date": "1521",
   "type": "Print",
   "url": "https://clevelandart.org/art/1923.55.1",
-  "license": "CC0 (Cleveland Museum of Art Open Access)"
- },
- "hunger-8": {
-  "id": 136463,
-  "title": "Chrysanthemums and Cabbage",
-  "artist": "Tao Cheng (Chinese, active c. 1471\u2013after 1502)",
-  "date": "c. 1486 or before",
-  "type": "Painting",
-  "url": "https://clevelandart.org/art/1960.40",
   "license": "CC0 (Cleveland Museum of Art Open Access)"
  },
  "hunger-9": {
@@ -1259,15 +800,6 @@
   "url": "https://clevelandart.org/art/1961.262",
   "license": "CC0 (Cleveland Museum of Art Open Access)"
  },
- "hunger-12": {
-  "id": 112856,
-  "title": "The Crucifixion with a Carthusian Monk",
-  "artist": "Rogier van der Weyden (Flemish, c. 1399\u20131464)",
-  "date": "1460",
-  "type": "Painting",
-  "url": "https://clevelandart.org/art/1931.449",
-  "license": "CC0 (Cleveland Museum of Art Open Access)"
- },
  "river-1": {
   "id": 142284,
   "title": "River Goddess Ganga",
@@ -1277,15 +809,6 @@
   "url": "https://clevelandart.org/art/1966.119",
   "license": "CC0 (Cleveland Museum of Art Open Access)"
  },
- "river-2": {
-  "id": 92844,
-  "title": "Blessing of a Yacht on the Belon River",
-  "artist": "Maurice Denis (French, 1870\u20131943)",
-  "date": "1899",
-  "type": "Painting",
-  "url": "https://clevelandart.org/art/2020.110",
-  "license": "CC0 (Cleveland Museum of Art Open Access)"
- },
  "river-3": {
   "id": 100953,
   "title": "Rocky River Bridge",
@@ -1293,24 +816,6 @@
   "date": "before 1920",
   "type": "Print",
   "url": "https://clevelandart.org/art/1920.1301",
-  "license": "CC0 (Cleveland Museum of Art Open Access)"
- },
- "river-4": {
-  "id": 142579,
-  "title": "Reminiscences of Qinhuai River",
-  "artist": "Shitao (Chinese, 1642\u20131707)",
-  "date": "1642\u20131707",
-  "type": "Painting",
-  "url": "https://clevelandart.org/art/1966.31.8",
-  "license": "CC0 (Cleveland Museum of Art Open Access)"
- },
- "river-5": {
-  "id": 143314,
-  "title": "Jain Ascetic Walking Along a Riverbank",
-  "artist": "Basavana (Indian, active c. 1560\u20131600)",
-  "date": "c. 1600",
-  "type": "Painting",
-  "url": "https://clevelandart.org/art/1967.244",
   "license": "CC0 (Cleveland Museum of Art Open Access)"
  },
  "river-6": {
@@ -1340,42 +845,6 @@
   "url": "https://clevelandart.org/art/1970.162",
   "license": "CC0 (Cleveland Museum of Art Open Access)"
  },
- "reeds-1": {
-  "id": 79573,
-  "title": "Reeds and Geese",
-  "artist": "Yishan Yining [Issan Ichinei] (Chinese, 1247\u20131317)",
-  "date": "1314\u201317",
-  "type": "Painting",
-  "url": "https://clevelandart.org/art/2015.464",
-  "license": "CC0 (Cleveland Museum of Art Open Access)"
- },
- "reeds-2": {
-  "id": 95097,
-  "title": "Wild Geese and Reeds",
-  "artist": "",
-  "date": "1392\u20131910",
-  "type": "Painting",
-  "url": "https://clevelandart.org/art/1915.631",
-  "license": "CC0 (Cleveland Museum of Art Open Access)"
- },
- "reeds-3": {
-  "id": 86106,
-  "title": "Egret and Reeds",
-  "artist": "Yang Ki-hun (Seuk-Eun) (Korean, 1843\u20131919?)",
-  "date": "late 1800s",
-  "type": "Painting",
-  "url": "https://clevelandart.org/art/2015.509",
-  "license": "CC0 (Cleveland Museum of Art Open Access)"
- },
- "reeds-4": {
-  "id": 151970,
-  "title": "Waterfowl and Reeds",
-  "artist": "Liang Kai (Chinese, mid-1100s\u2013early 1200s)",
-  "date": "early 1200s",
-  "type": "Painting",
-  "url": "https://clevelandart.org/art/1984.42",
-  "license": "CC0 (Cleveland Museum of Art Open Access)"
- },
  "reeds-5": {
   "id": 687265,
   "title": "Marsh Weeds",
@@ -1383,24 +852,6 @@
   "date": "before 1891, published 1895",
   "type": "Photograph",
   "url": "https://clevelandart.org/art/2025.16",
-  "license": "CC0 (Cleveland Museum of Art Open Access)"
- },
- "reeds-6": {
-  "id": 109192,
-  "title": "The Marsh Flower, a Sad Human Head",
-  "artist": "Odilon Redon (French, 1840\u20131916)",
-  "date": "1885",
-  "type": "Print",
-  "url": "https://clevelandart.org/art/1927.344.2",
-  "license": "CC0 (Cleveland Museum of Art Open Access)"
- },
- "reeds-7": {
-  "id": 127175,
-  "title": "Marsh Scene with Cat and Birds",
-  "artist": "",
-  "date": "c. 667\u2013647 BCE",
-  "type": "Sculpture",
-  "url": "https://clevelandart.org/art/1949.498",
   "license": "CC0 (Cleveland Museum of Art Open Access)"
  },
  "reeds-8": {
@@ -1412,42 +863,6 @@
   "url": "https://clevelandart.org/art/2025.17",
   "license": "CC0 (Cleveland Museum of Art Open Access)"
  },
- "persia-1": {
-  "id": 170783,
-  "title": "Hunting with falcons in a landscape; verso: Calligraphy of Chaghatai Turkish poems in praise of wine, Sultan Muhammad Nur (Persian, c. 1472\u20131536) and Mirza Muhammad (probably Persian, active c. 1520s)",
-  "artist": "Abd al-Samad (Persian, c. 1510\u20131600)",
-  "date": "c. 1558\u201360; borders added probably 1700s",
-  "type": "Painting",
-  "url": "https://clevelandart.org/art/2013.292",
-  "license": "CC0 (Cleveland Museum of Art Open Access)"
- },
- "persia-2": {
-  "id": 149083,
-  "title": "Persian calligraphy framed by an ornamental border of flowers, birds, and deer, from the Late Shah Jahan Album",
-  "artist": "Mir 'Ali Haravi (Persian, active in Herat, Afghanistan, died c. 1550)",
-  "date": "calligraphy: c. 1500\u20131540; border: c. 1630\u201340",
-  "type": "Painting",
-  "url": "https://clevelandart.org/art/1977.207",
-  "license": "CC0 (Cleveland Museum of Art Open Access)"
- },
- "persia-3": {
-  "id": 170784,
-  "title": "Hunting with falcons in a landscape (recto)",
-  "artist": "Abd al-Samad (Persian, c. 1510\u20131600)",
-  "date": "c. 1558\u201360; borders added probably 1700s",
-  "type": "Painting",
-  "url": "https://clevelandart.org/art/2013.292.a",
-  "license": "CC0 (Cleveland Museum of Art Open Access)"
- },
- "persia-4": {
-  "id": 101355,
-  "title": "A Royal Picnic on a Terrace",
-  "artist": "Muhammad Ali (Persian, active 1590\u20131620)",
-  "date": "c. 1620",
-  "type": "Painting",
-  "url": "https://clevelandart.org/art/1920.1966",
-  "license": "CC0 (Cleveland Museum of Art Open Access)"
- },
  "persia-5": {
   "id": 123022,
   "title": "Fragment of a Wall Decoration from the Palace of Xerxes: \"Guardsman\" in Procession",
@@ -1455,15 +870,6 @@
   "date": "486\u2013465 BCE",
   "type": "Sculpture",
   "url": "https://clevelandart.org/art/1943.279",
-  "license": "CC0 (Cleveland Museum of Art Open Access)"
- },
- "persia-6": {
-  "id": 136657,
-  "title": "Ibex-Head Ornament",
-  "artist": "",
-  "date": "c. 525\u2013450 BCE",
-  "type": "Sculpture",
-  "url": "https://clevelandart.org/art/1961.199",
   "license": "CC0 (Cleveland Museum of Art Open Access)"
  },
  "persia-7": {
@@ -1475,24 +881,6 @@
   "url": "https://clevelandart.org/art/1960.175",
   "license": "CC0 (Cleveland Museum of Art Open Access)"
  },
- "persia-8": {
-  "id": 137336,
-  "title": "Lion's Head",
-  "artist": "",
-  "date": "500s BCE",
-  "type": "Sculpture",
-  "url": "https://clevelandart.org/art/1962.26",
-  "license": "CC0 (Cleveland Museum of Art Open Access)"
- },
- "mountain-1": {
-  "id": 160734,
-  "title": "Mt. Fenghuang (Mt. Phoenix)",
-  "artist": "Song Xu (Chinese, 1525-c. 1606)",
-  "date": "c. 1588",
-  "type": "Painting",
-  "url": "https://clevelandart.org/art/1998.78.2",
-  "license": "CC0 (Cleveland Museum of Art Open Access)"
- },
  "mountain-2": {
   "id": 97480,
   "title": "Pippa Passes",
@@ -1502,15 +890,6 @@
   "url": "https://clevelandart.org/art/1917.105",
   "license": "CC0 (Cleveland Museum of Art Open Access)"
  },
- "mountain-3": {
-  "id": 160731,
-  "title": "Mt. Changchao",
-  "artist": "Song Xu (Chinese, 1525-c. 1606)",
-  "date": "c. 1588",
-  "type": "Painting",
-  "url": "https://clevelandart.org/art/1998.78.16",
-  "license": "CC0 (Cleveland Museum of Art Open Access)"
- },
  "mountain-4": {
   "id": 111644,
   "title": "Mountain and River on the Kiso Road",
@@ -1518,15 +897,6 @@
   "date": "1857",
   "type": "Print",
   "url": "https://clevelandart.org/art/1930.180.a",
-  "license": "CC0 (Cleveland Museum of Art Open Access)"
- },
- "mountain-5": {
-  "id": 152825,
-  "title": "Sheer Cliffs",
-  "artist": "Min Zhen (Chinese, 1730\u2013after 1788)",
-  "date": "1788",
-  "type": "Painting",
-  "url": "https://clevelandart.org/art/1985.71.12",
   "license": "CC0 (Cleveland Museum of Art Open Access)"
  },
  "mountain-6": {
@@ -1554,15 +924,6 @@
   "date": "1895",
   "type": "Painting",
   "url": "https://clevelandart.org/art/1966.382",
-  "license": "CC0 (Cleveland Museum of Art Open Access)"
- },
- "mountain-9": {
-  "id": 143776,
-  "title": "Clouds and Waves at the Wu Gorge",
-  "artist": "Xie Shichen (Chinese, 1487\u2013after 1567)",
-  "date": "c. 1547\u201367",
-  "type": "Painting",
-  "url": "https://clevelandart.org/art/1968.213",
   "license": "CC0 (Cleveland Museum of Art Open Access)"
  },
  "mountain-10": {
@@ -1628,24 +989,6 @@
   "url": "https://clevelandart.org/art/1926.445",
   "license": "CC0 (Cleveland Museum of Art Open Access)"
  },
- "archer-5": {
-  "id": 130637,
-  "title": "Rama and Lakshmana Fighting Ravana, from a Dashavatara (Ten Incarnations [of Vishnu]) series",
-  "artist": "",
-  "date": "c. 1765",
-  "type": "Painting",
-  "url": "https://clevelandart.org/art/1953.357",
-  "license": "CC0 (Cleveland Museum of Art Open Access)"
- },
- "archer-6": {
-  "id": 162510,
-  "title": "Rama and Sita enthroned with Lakshmana and Hanuman attending, from a Kalighat album",
-  "artist": "",
-  "date": "c. 1890",
-  "type": "Painting",
-  "url": "https://clevelandart.org/art/2003.152",
-  "license": "CC0 (Cleveland Museum of Art Open Access)"
- },
  "archer-7": {
   "id": 540586,
   "title": "Jupiter (in the guise of Diana) and Callisto",
@@ -1653,60 +996,6 @@
   "date": "1733",
   "type": "Drawing",
   "url": "https://clevelandart.org/art/2023.45",
-  "license": "CC0 (Cleveland Museum of Art Open Access)"
- },
- "archer-8": {
-  "id": 162480,
-  "title": "Rama and Sita enthroned (recto), from a Kalighat album",
-  "artist": "",
-  "date": "c. 1890",
-  "type": "Painting",
-  "url": "https://clevelandart.org/art/2003.134.a",
-  "license": "CC0 (Cleveland Museum of Art Open Access)"
- },
- "archer-9": {
-  "id": 170877,
-  "title": "Posthumous portrait of the Mughal emperor Muhammad Shah (reigned 1719\u20131748) holding a falcon (recto); Calligraphy (verso)",
-  "artist": "Muhammad Rizavi Hindi (Indian, active mid-1700s)",
-  "date": "1764",
-  "type": "Painting",
-  "url": "https://clevelandart.org/art/2013.347",
-  "license": "CC0 (Cleveland Museum of Art Open Access)"
- },
- "archer-10": {
-  "id": 154767,
-  "title": "Maharao Chattar Sal (reigned 1758\u201364) of Kota in a Palanquin",
-  "artist": "",
-  "date": "c. 1760",
-  "type": "Painting",
-  "url": "https://clevelandart.org/art/1989.344",
-  "license": "CC0 (Cleveland Museum of Art Open Access)"
- },
- "archer-11": {
-  "id": 170878,
-  "title": "Posthumous portrait of the Mughal emperor Muhammad Shah (reigned 1719\u20131748) holding a falcon (recto)",
-  "artist": "Muhammad Rizavi Hindi (Indian, active mid-1700s)",
-  "date": "1764",
-  "type": "Painting",
-  "url": "https://clevelandart.org/art/2013.347.a",
-  "license": "CC0 (Cleveland Museum of Art Open Access)"
- },
- "archer-12": {
-  "id": 137626,
-  "title": "The three young men present themselves as suitors for the hand of Zuhra, the daughter of the merchant of Kabul, from a Tuti-nama (Tales of a Parrot): Thirty-fourth Night",
-  "artist": "",
-  "date": "c. 1560",
-  "type": "Painting",
-  "url": "https://clevelandart.org/art/1962.279.225.a",
-  "license": "CC0 (Cleveland Museum of Art Open Access)"
- },
- "sun-1": {
-  "id": 137057,
-  "title": "Sun Bodhisattva (Nikk\u014d Bosatsu)",
-  "artist": "",
-  "date": "c. 800",
-  "type": "Sculpture",
-  "url": "https://clevelandart.org/art/1961.48",
   "license": "CC0 (Cleveland Museum of Art Open Access)"
  },
  "sun-2": {
@@ -1727,33 +1016,6 @@
   "url": "https://clevelandart.org/art/1926.140.6",
   "license": "CC0 (Cleveland Museum of Art Open Access)"
  },
- "sun-4": {
-  "id": 141693,
-  "title": "Morning Sun over Heavenly Citadel Peak",
-  "artist": "Ding Yunpeng (Chinese, 1547-c. 1628)",
-  "date": "1614",
-  "type": "Painting",
-  "url": "https://clevelandart.org/art/1965.28",
-  "license": "CC0 (Cleveland Museum of Art Open Access)"
- },
- "sun-5": {
-  "id": 148698,
-  "title": "Sunset over Autumn Mountains",
-  "artist": "Hoashi Ky\u014du (Japanese, 1810\u20131884)",
-  "date": "1869",
-  "type": "Painting",
-  "url": "https://clevelandart.org/art/1976.151",
-  "license": "CC0 (Cleveland Museum of Art Open Access)"
- },
- "sun-6": {
-  "id": 86110,
-  "title": "Sunset Glow over a Fishing Village, from Eight Views of Xiao-Xiang",
-  "artist": "Sessh\u016b T\u014dy\u014d (Japanese, 1420\u20131506)",
-  "date": "1460s\u20131550s",
-  "type": "Painting",
-  "url": "https://clevelandart.org/art/2015.590",
-  "license": "CC0 (Cleveland Museum of Art Open Access)"
- },
  "sun-7": {
   "id": 160165,
   "title": "Dawn and Sunset",
@@ -1770,15 +1032,6 @@
   "date": "1892",
   "type": "Painting",
   "url": "https://clevelandart.org/art/1956.578",
-  "license": "CC0 (Cleveland Museum of Art Open Access)"
- },
- "sun-9": {
-  "id": 146165,
-  "title": "Nine Celestial Bodies (Navagraha)",
-  "artist": "",
-  "date": "700s",
-  "type": "Sculpture",
-  "url": "https://clevelandart.org/art/1971.61",
   "license": "CC0 (Cleveland Museum of Art Open Access)"
  },
  "storm-1": {
@@ -1826,24 +1079,6 @@
   "url": "https://clevelandart.org/art/1930.580",
   "license": "CC0 (Cleveland Museum of Art Open Access)"
  },
- "storm-6": {
-  "id": 171074,
-  "title": "The Triumph of Neptune",
-  "artist": "Charles Joseph Natoire (French, 1700\u20131777)",
-  "date": "1766 or later",
-  "type": "Drawing",
-  "url": "https://clevelandart.org/art/2013.48",
-  "license": "CC0 (Cleveland Museum of Art Open Access)"
- },
- "storm-7": {
-  "id": 106587,
-  "title": "The Wreck",
-  "artist": "Frank Wilcox (American, 1887\u20131964)",
-  "date": "1923",
-  "type": "Drawing",
-  "url": "https://clevelandart.org/art/1924.634",
-  "license": "CC0 (Cleveland Museum of Art Open Access)"
- },
  "storm-8": {
   "id": 168978,
   "title": "Vessel in Distress of Yarmouth",
@@ -1851,24 +1086,6 @@
   "date": "c. 1908",
   "type": "Print",
   "url": "https://clevelandart.org/art/2010.650",
-  "license": "CC0 (Cleveland Museum of Art Open Access)"
- },
- "winter-1": {
-  "id": 153737,
-  "title": "Winter and Summer Flowers",
-  "artist": "Kaih\u014d Y\u016bsh\u014d (Japanese, 1533\u20131615)",
-  "date": "c. 1600",
-  "type": "Painting",
-  "url": "https://clevelandart.org/art/1987.40.2",
-  "license": "CC0 (Cleveland Museum of Art Open Access)"
- },
- "winter-2": {
-  "id": 153736,
-  "title": "Winter and Summer Flowers",
-  "artist": "Kaih\u014d Y\u016bsh\u014d (Japanese, 1533\u20131615)",
-  "date": "c. 1600",
-  "type": "Painting",
-  "url": "https://clevelandart.org/art/1987.40.1",
   "license": "CC0 (Cleveland Museum of Art Open Access)"
  },
  "winter-3": {
@@ -1880,42 +1097,6 @@
   "url": "https://clevelandart.org/art/1927.388",
   "license": "CC0 (Cleveland Museum of Art Open Access)"
  },
- "winter-4": {
-  "id": 127227,
-  "title": "Church Bells Ringing, Rainy Winter Night",
-  "artist": "Charles Burchfield (American, 1893\u20131967)",
-  "date": "December 1917",
-  "type": "Drawing",
-  "url": "https://clevelandart.org/art/1949.544",
-  "license": "CC0 (Cleveland Museum of Art Open Access)"
- },
- "winter-5": {
-  "id": 159739,
-  "title": "Snow Landscape",
-  "artist": "Yosa Buson (Japanese, 1716\u20131783)",
-  "date": "mid-1770s",
-  "type": "Painting",
-  "url": "https://clevelandart.org/art/1997.111",
-  "license": "CC0 (Cleveland Museum of Art Open Access)"
- },
- "winter-6": {
-  "id": 543409,
-  "title": "Bamboo in Snow",
-  "artist": "Hong Fan (Chinese, active late 1700s\u2013early 1800s)",
-  "date": "1818",
-  "type": "Painting",
-  "url": "https://clevelandart.org/art/2023.161",
-  "license": "CC0 (Cleveland Museum of Art Open Access)"
- },
- "winter-7": {
-  "id": 144705,
-  "title": "Carnival in the Snow",
-  "artist": "Paul Klee (German, 1879\u20131940)",
-  "date": "1923",
-  "type": "Drawing",
-  "url": "https://clevelandart.org/art/1969.46",
-  "license": "CC0 (Cleveland Museum of Art Open Access)"
- },
  "winter-8": {
   "id": 135382,
   "title": "The Red Kerchief",
@@ -1923,33 +1104,6 @@
   "date": "c. 1868\u201373",
   "type": "Painting",
   "url": "https://clevelandart.org/art/1958.39",
-  "license": "CC0 (Cleveland Museum of Art Open Access)"
- },
- "mother-1": {
-  "id": 678529,
-  "title": "Mother and Sons",
-  "artist": "",
-  "date": "1736\u201395",
-  "type": "Print",
-  "url": "https://clevelandart.org/art/2025.23",
-  "license": "CC0 (Cleveland Museum of Art Open Access)"
- },
- "mother-2": {
-  "id": 679065,
-  "title": "Gusu Beauty\u2013Mother and Son in a Summer Pavilion",
-  "artist": "",
-  "date": "1736\u201395",
-  "type": "Print",
-  "url": "https://clevelandart.org/art/2025.47",
-  "license": "CC0 (Cleveland Museum of Art Open Access)"
- },
- "mother-3": {
-  "id": 679039,
-  "title": "Peacocks with Mother and Son",
-  "artist": "",
-  "date": "1736\u201395",
-  "type": "Print",
-  "url": "https://clevelandart.org/art/2025.38",
   "license": "CC0 (Cleveland Museum of Art Open Access)"
  },
  "mother-4": {
@@ -1961,15 +1115,6 @@
   "url": "https://clevelandart.org/art/1942.636",
   "license": "CC0 (Cleveland Museum of Art Open Access)"
  },
- "mother-5": {
-  "id": 132014,
-  "title": "Saying Farewell at Xunyang (Song of the Pipa)",
-  "artist": "Wen Boren (Chinese, 1502\u20131575)",
-  "date": "1500s",
-  "type": "Painting",
-  "url": "https://clevelandart.org/art/1954.581",
-  "license": "CC0 (Cleveland Museum of Art Open Access)"
- },
  "mother-6": {
   "id": 115123,
   "title": "Farewell to Utopia",
@@ -1979,33 +1124,6 @@
   "url": "https://clevelandart.org/art/1935.277",
   "license": "CC0 (Cleveland Museum of Art Open Access)"
  },
- "mother-7": {
-  "id": 137438,
-  "title": "Khalis repays the prince for his kindness by changing into a snake and sucking the poison from the king\u2019s daughter, from a Tuti-nama (Tales of a Parrot): Eighteenth Night",
-  "artist": "",
-  "date": "c. 1560",
-  "type": "Painting",
-  "url": "https://clevelandart.org/art/1962.279.136.a",
-  "license": "CC0 (Cleveland Museum of Art Open Access)"
- },
- "mother-8": {
-  "id": 149891,
-  "title": "Plum Blossoms and Peonies",
-  "artist": "Gao Fenghan (Chinese, 1683\u20131749)",
-  "date": "1741",
-  "type": "Painting",
-  "url": "https://clevelandart.org/art/1980.13",
-  "license": "CC0 (Cleveland Museum of Art Open Access)"
- },
- "mother-9": {
-  "id": 159837,
-  "title": "Mother and Child Figure",
-  "artist": "",
-  "date": "late 1800s\u2013early 1900s",
-  "type": "Sculpture",
-  "url": "https://clevelandart.org/art/1997.149",
-  "license": "CC0 (Cleveland Museum of Art Open Access)"
- },
  "mother-10": {
   "id": 131819,
   "title": "A Genoese Lady with Her Child",
@@ -2013,24 +1131,6 @@
   "date": "c. 1623\u201325",
   "type": "Painting",
   "url": "https://clevelandart.org/art/1954.392",
-  "license": "CC0 (Cleveland Museum of Art Open Access)"
- },
- "mother-11": {
-  "id": 112818,
-  "title": "Mother-and-Child Figure",
-  "artist": "",
-  "date": "late 1800s\u2013early 1900s",
-  "type": "Sculpture",
-  "url": "https://clevelandart.org/art/1931.426",
-  "license": "CC0 (Cleveland Museum of Art Open Access)"
- },
- "mother-12": {
-  "id": 136656,
-  "title": "Nursing Woman with Child",
-  "artist": "",
-  "date": "1800s-1900s",
-  "type": "Sculpture",
-  "url": "https://clevelandart.org/art/1961.198",
   "license": "CC0 (Cleveland Museum of Art Open Access)"
  },
  "orator-1": {
@@ -2058,42 +1158,6 @@
   "date": "1662",
   "type": "Sculpture",
   "url": "https://clevelandart.org/art/1969.121",
-  "license": "CC0 (Cleveland Museum of Art Open Access)"
- },
- "orator-4": {
-  "id": 145943,
-  "title": "Ancestral Figure",
-  "artist": "",
-  "date": "1800s",
-  "type": "Sculpture",
-  "url": "https://clevelandart.org/art/1971.150",
-  "license": "CC0 (Cleveland Museum of Art Open Access)"
- },
- "orator-5": {
-  "id": 149600,
-  "title": "Brahman Rishabhadatta's speech, folio 5 from a Kalpa-sutra",
-  "artist": "",
-  "date": "c. 1475\u20131500",
-  "type": "Painting",
-  "url": "https://clevelandart.org/art/1979.23",
-  "license": "CC0 (Cleveland Museum of Art Open Access)"
- },
- "orator-6": {
-  "id": 663065,
-  "title": "Celestial Dancers, folio 5 (recto), from Brahman Rishabhadatta's speech, from a Kalpa-sutra",
-  "artist": "",
-  "date": "c. 1475\u20131500",
-  "type": "Painting",
-  "url": "https://clevelandart.org/art/1979.23.a",
-  "license": "CC0 (Cleveland Museum of Art Open Access)"
- },
- "orator-7": {
-  "id": 663066,
-  "title": "Text, folio 5 (verso), from Brahman Rishabhadatta's speech, from a Kalpa-sutra",
-  "artist": "",
-  "date": "c. 1475\u20131500",
-  "type": "Painting",
-  "url": "https://clevelandart.org/art/1979.23.b",
   "license": "CC0 (Cleveland Museum of Art Open Access)"
  },
  "orator-8": {
@@ -2141,15 +1205,6 @@
   "url": "https://clevelandart.org/art/1995.2",
   "license": "CC0 (Cleveland Museum of Art Open Access)"
  },
- "crowd-1": {
-  "id": 105921,
-  "title": "Sketch for \"Mrs. Pottles Can't Abide a Crowd\"",
-  "artist": "John Leech (British, 1817\u20131864)",
-  "date": "1856",
-  "type": "Drawing",
-  "url": "https://clevelandart.org/art/1924.1004",
-  "license": "CC0 (Cleveland Museum of Art Open Access)"
- },
  "crowd-2": {
   "id": 148758,
   "title": "The Crucifixion of Saint Andrew",
@@ -2159,15 +1214,6 @@
   "url": "https://clevelandart.org/art/1976.2",
   "license": "CC0 (Cleveland Museum of Art Open Access)"
  },
- "crowd-3": {
-  "id": 123024,
-  "title": "Processional Cross",
-  "artist": "Master of Santa Chiara (Italian)",
-  "date": "c. 1320",
-  "type": "Painting",
-  "url": "https://clevelandart.org/art/1943.280",
-  "license": "CC0 (Cleveland Museum of Art Open Access)"
- },
  "crowd-4": {
   "id": 138359,
   "title": "Wineglass and a Bowl of Fruit",
@@ -2175,24 +1221,6 @@
   "date": "1663",
   "type": "Painting",
   "url": "https://clevelandart.org/art/1962.292",
-  "license": "CC0 (Cleveland Museum of Art Open Access)"
- },
- "crowd-5": {
-  "id": 160208,
-  "title": "The Assembly of Tejaprabha Buddha",
-  "artist": "",
-  "date": "1878",
-  "type": "Painting",
-  "url": "https://clevelandart.org/art/1998.120",
-  "license": "CC0 (Cleveland Museum of Art Open Access)"
- },
- "crowd-6": {
-  "id": 98867,
-  "title": "Assembly of Buddhist Deities",
-  "artist": "",
-  "date": "1846",
-  "type": "Painting",
-  "url": "https://clevelandart.org/art/1918.541",
   "license": "CC0 (Cleveland Museum of Art Open Access)"
  },
  "crowd-7": {
@@ -2213,42 +1241,6 @@
   "url": "https://clevelandart.org/art/2024.5.14",
   "license": "CC0 (Cleveland Museum of Art Open Access)"
  },
- "scholar-1": {
-  "id": 136950,
-  "title": "Scholar Reclining and Watching Rising Clouds, Poem by Wang Wei",
-  "artist": "Ma Lin (Chinese, c. 1185\u2013after 1260)",
-  "date": "c. 1256",
-  "type": "Painting",
-  "url": "https://clevelandart.org/art/1961.421.1",
-  "license": "CC0 (Cleveland Museum of Art Open Access)"
- },
- "scholar-2": {
-  "id": 148384,
-  "title": "Scholar Watching the Waterfall",
-  "artist": "Luo Ping (Chinese, 1733\u20131799)",
-  "date": "1764",
-  "type": "Painting",
-  "url": "https://clevelandart.org/art/1975.95",
-  "license": "CC0 (Cleveland Museum of Art Open Access)"
- },
- "scholar-3": {
-  "id": 136949,
-  "title": "Scholar Reclining and Watching Rising Clouds; Poem by Wang Wei",
-  "artist": "Ma Lin (Chinese, c. 1185\u2013after 1260)",
-  "date": "c. 1256",
-  "type": "Painting",
-  "url": "https://clevelandart.org/art/1961.421",
-  "license": "CC0 (Cleveland Museum of Art Open Access)"
- },
- "scholar-4": {
-  "id": 155625,
-  "title": "Scholar Playing a Qin",
-  "artist": "",
-  "date": "1800s",
-  "type": "Painting",
-  "url": "https://clevelandart.org/art/1990.69",
-  "license": "CC0 (Cleveland Museum of Art Open Access)"
- },
  "scholar-5": {
   "id": 110060,
   "title": "Study for \"The Romancer\" (Le Conteur)",
@@ -2267,15 +1259,6 @@
   "url": "https://clevelandart.org/art/1986.18",
   "license": "CC0 (Cleveland Museum of Art Open Access)"
  },
- "scholar-7": {
-  "id": 151007,
-  "title": "Portrait Study of Seigen",
-  "artist": "",
-  "date": "1300s",
-  "type": "Painting",
-  "url": "https://clevelandart.org/art/1982.55",
-  "license": "CC0 (Cleveland Museum of Art Open Access)"
- },
  "scholar-8": {
   "id": 140426,
   "title": "Study for The Blessed Alessandro Sauli",
@@ -2285,42 +1268,6 @@
   "url": "https://clevelandart.org/art/1964.36",
   "license": "CC0 (Cleveland Museum of Art Open Access)"
  },
- "sea-1": {
-  "id": 167456,
-  "title": "Rock at Sea",
-  "artist": "Raymond Jonson (American, 1891\u20131982)",
-  "date": "1920\u201322",
-  "type": "Painting",
-  "url": "https://clevelandart.org/art/2009.269",
-  "license": "CC0 (Cleveland Museum of Art Open Access)"
- },
- "sea-2": {
-  "id": 129875,
-  "title": "The Submersion of Pharaoh's Army in the Red Sea",
-  "artist": "Titian (Italian, c. 1488\u20131576)",
-  "date": "1514\u201315, printed 1549",
-  "type": "Print",
-  "url": "https://clevelandart.org/art/1952.296",
-  "license": "CC0 (Cleveland Museum of Art Open Access)"
- },
- "sea-3": {
-  "id": 147904,
-  "title": "At the Sea Side",
-  "artist": "James Tissot (French, 1836\u20131902)",
-  "date": "1880",
-  "type": "Print",
-  "url": "https://clevelandart.org/art/1974.258",
-  "license": "CC0 (Cleveland Museum of Art Open Access)"
- },
- "sea-4": {
-  "id": 150023,
-  "title": "Arion on a Sea Horse",
-  "artist": "William Adolphe Bouguereau (French, 1825\u20131905)",
-  "date": "1855",
-  "type": "Painting",
-  "url": "https://clevelandart.org/art/1980.238.1",
-  "license": "CC0 (Cleveland Museum of Art Open Access)"
- },
  "sea-5": {
   "id": 149410,
   "title": "In the Waves (Dans les Vagues)",
@@ -2328,15 +1275,6 @@
   "date": "1889",
   "type": "Painting",
   "url": "https://clevelandart.org/art/1978.63",
-  "license": "CC0 (Cleveland Museum of Art Open Access)"
- },
- "sea-6": {
-  "id": 161326,
-  "title": "Waves",
-  "artist": "Nakamura H\u014dch\u016b (Japanese, d. 1819)",
-  "date": "late 1700s-early 1800s",
-  "type": "Painting",
-  "url": "https://clevelandart.org/art/1999.90",
   "license": "CC0 (Cleveland Museum of Art Open Access)"
  },
  "sea-7": {
@@ -2355,51 +1293,6 @@
   "date": "1895\u201398",
   "type": "Print",
   "url": "https://clevelandart.org/art/1997.5",
-  "license": "CC0 (Cleveland Museum of Art Open Access)"
- },
- "door-1": {
-  "id": 141479,
-  "title": "False Door of Nykara",
-  "artist": "",
-  "date": "2408\u20132341 BCE",
-  "type": "Sculpture",
-  "url": "https://clevelandart.org/art/1964.91",
-  "license": "CC0 (Cleveland Museum of Art Open Access)"
- },
- "door-2": {
-  "id": 149980,
-  "title": "Door Guardian, Mahakala",
-  "artist": "",
-  "date": "800s",
-  "type": "Sculpture",
-  "url": "https://clevelandart.org/art/1980.203",
-  "license": "CC0 (Cleveland Museum of Art Open Access)"
- },
- "door-3": {
-  "id": 138431,
-  "title": "Door Lintel (Pare)",
-  "artist": "",
-  "date": "1800s",
-  "type": "Sculpture",
-  "url": "https://clevelandart.org/art/1962.350",
-  "license": "CC0 (Cleveland Museum of Art Open Access)"
- },
- "door-4": {
-  "id": 145420,
-  "title": "Puppies, Sparrows, and Chrysanthemums",
-  "artist": "Nagasawa Rosetsu (Japanese, 1754\u20131799)",
-  "date": "c. 1792\u201394",
-  "type": "Painting",
-  "url": "https://clevelandart.org/art/1970.71",
-  "license": "CC0 (Cleveland Museum of Art Open Access)"
- },
- "door-5": {
-  "id": 96315,
-  "title": "Doorway (Portal)",
-  "artist": "",
-  "date": "late 1400s",
-  "type": "Sculpture",
-  "url": "https://clevelandart.org/art/1916.2047",
   "license": "CC0 (Cleveland Museum of Art Open Access)"
  },
  "door-6": {
@@ -2428,5 +1321,1005 @@
   "type": "Photograph",
   "url": "https://clevelandart.org/art/1991.36",
   "license": "CC0 (Cleveland Museum of Art Open Access)"
+ },
+ "hoplite-m253512": {
+  "id": 253512,
+  "title": "Bronze warrior",
+  "artist": "",
+  "date": "ca. 750\u2013700 BCE",
+  "url": "https://www.metmuseum.org/art/collection/search/253512",
+  "license": "CC0 (The Met Open Access)"
+ },
+ "hoplite-m255360": {
+  "id": 255360,
+  "title": "Bronze warrior",
+  "artist": "",
+  "date": "ca. 675\u2013650 BCE",
+  "url": "https://www.metmuseum.org/art/collection/search/255360",
+  "license": "CC0 (The Met Open Access)"
+ },
+ "hoplite-m242151": {
+  "id": 242151,
+  "title": "Limestone warrior",
+  "artist": "",
+  "date": "mid- to 3rd quarter of the 6th century BCE",
+  "url": "https://www.metmuseum.org/art/collection/search/242151",
+  "license": "CC0 (The Met Open Access)"
+ },
+ "hoplite-m330033": {
+  "id": 330033,
+  "title": "Bronze statuette of a warrior",
+  "artist": "",
+  "date": "6th to 5th century BCE",
+  "url": "https://www.metmuseum.org/art/collection/search/330033",
+  "license": "CC0 (The Met Open Access)"
+ },
+ "hoplite-m330034": {
+  "id": 330034,
+  "title": "Bronze statuette of a warrior",
+  "artist": "",
+  "date": "6th to 5th century BCE",
+  "url": "https://www.metmuseum.org/art/collection/search/330034",
+  "license": "CC0 (The Met Open Access)"
+ },
+ "hoplite-m253611": {
+  "id": 253611,
+  "title": "Grave stele with Hoplite Battle Scene",
+  "artist": "",
+  "date": "ca. 390 BCE",
+  "url": "https://www.metmuseum.org/art/collection/search/253611",
+  "license": "CC0 (The Met Open Access)"
+ },
+ "hoplite-m255961": {
+  "id": 255961,
+  "title": "Fragmentary marble grave stele of a hoplite (foot soldier)",
+  "artist": "Aristokles",
+  "date": "ca. 510 BCE",
+  "url": "https://www.metmuseum.org/art/collection/search/255961",
+  "license": "CC0 (The Met Open Access)"
+ },
+ "hoplite-m253566": {
+  "id": 253566,
+  "title": "Fragment of the marble stele (grave marker) of a hoplite (foot soldier)",
+  "artist": "",
+  "date": "ca. 525\u2013515 BCE",
+  "url": "https://www.metmuseum.org/art/collection/search/253566",
+  "license": "CC0 (The Met Open Access)"
+ },
+ "hoplite-m254303": {
+  "id": 254303,
+  "title": "Terracotta Nolan amphora (jar)",
+  "artist": "Painter of London E 342",
+  "date": "ca. 460\u2013450 BCE",
+  "url": "https://www.metmuseum.org/art/collection/search/254303",
+  "license": "CC0 (The Met Open Access)"
+ },
+ "helmet-m246855": {
+  "id": 246855,
+  "title": "Helmet",
+  "artist": "",
+  "date": "",
+  "url": "https://www.metmuseum.org/art/collection/search/246855",
+  "license": "CC0 (The Met Open Access)"
+ },
+ "helmet-m255926": {
+  "id": 255926,
+  "title": "Bronze helmet",
+  "artist": "",
+  "date": "late 7th century BCE",
+  "url": "https://www.metmuseum.org/art/collection/search/255926",
+  "license": "CC0 (The Met Open Access)"
+ },
+ "helmet-m255927": {
+  "id": 255927,
+  "title": "Bronze helmet",
+  "artist": "",
+  "date": "late 7th century BCE",
+  "url": "https://www.metmuseum.org/art/collection/search/255927",
+  "license": "CC0 (The Met Open Access)"
+ },
+ "helmet-m248010": {
+  "id": 248010,
+  "title": "Bronze helmet",
+  "artist": "",
+  "date": "early 6th century BCE",
+  "url": "https://www.metmuseum.org/art/collection/search/248010",
+  "license": "CC0 (The Met Open Access)"
+ },
+ "helmet-m248013": {
+  "id": 248013,
+  "title": "Bronze crested helmet",
+  "artist": "",
+  "date": "9th century BCE",
+  "url": "https://www.metmuseum.org/art/collection/search/248013",
+  "license": "CC0 (The Met Open Access)"
+ },
+ "shield-m241086": {
+  "id": 241086,
+  "title": "Shield",
+  "artist": "",
+  "date": "2nd century BCE(?)",
+  "url": "https://www.metmuseum.org/art/collection/search/241086",
+  "license": "CC0 (The Met Open Access)"
+ },
+ "shield-m240847": {
+  "id": 240847,
+  "title": "Terracotta shield",
+  "artist": "",
+  "date": "ca. 600\u2013480 BCE",
+  "url": "https://www.metmuseum.org/art/collection/search/240847",
+  "license": "CC0 (The Met Open Access)"
+ },
+ "shield-m240046": {
+  "id": 240046,
+  "title": "Votive shield",
+  "artist": "",
+  "date": "ca. 600\u2013480 BCE",
+  "url": "https://www.metmuseum.org/art/collection/search/240046",
+  "license": "CC0 (The Met Open Access)"
+ },
+ "shield-m244754": {
+  "id": 244754,
+  "title": "Votive shield",
+  "artist": "",
+  "date": "ca. 600\u2013480 BCE",
+  "url": "https://www.metmuseum.org/art/collection/search/244754",
+  "license": "CC0 (The Met Open Access)"
+ },
+ "shield-m257707": {
+  "id": 257707,
+  "title": "Miniature bronze shield",
+  "artist": "",
+  "date": "5th century BCE",
+  "url": "https://www.metmuseum.org/art/collection/search/257707",
+  "license": "CC0 (The Met Open Access)"
+ },
+ "shield-m257706": {
+  "id": 257706,
+  "title": "Miniature bronze shield",
+  "artist": "",
+  "date": "5th century BCE",
+  "url": "https://www.metmuseum.org/art/collection/search/257706",
+  "license": "CC0 (The Met Open Access)"
+ },
+ "spear-m253560": {
+  "id": 253560,
+  "title": "Bronze spear-butt",
+  "artist": "",
+  "date": "ca. 500 BCE",
+  "url": "https://www.metmuseum.org/art/collection/search/253560",
+  "license": "CC0 (The Met Open Access)"
+ },
+ "spear-m244197": {
+  "id": 244197,
+  "title": "Spear-butt, spike",
+  "artist": "",
+  "date": "ca. 1050\u20131000 BCE",
+  "url": "https://www.metmuseum.org/art/collection/search/244197",
+  "license": "CC0 (The Met Open Access)"
+ },
+ "spear-m244249": {
+  "id": 244249,
+  "title": "Spear-spike, holdfast",
+  "artist": "",
+  "date": "",
+  "url": "https://www.metmuseum.org/art/collection/search/244249",
+  "license": "CC0 (The Met Open Access)"
+ },
+ "spear-m244198": {
+  "id": 244198,
+  "title": "Spear-butt, spike",
+  "artist": "",
+  "date": "ca. 1050\u20131000 BCE",
+  "url": "https://www.metmuseum.org/art/collection/search/244198",
+  "license": "CC0 (The Met Open Access)"
+ },
+ "battle-m254893": {
+  "id": 254893,
+  "title": "Terracotta kylix (drinking cup)",
+  "artist": "Group of Rhodes 12264",
+  "date": "ca. 540 BCE",
+  "url": "https://www.metmuseum.org/art/collection/search/254893",
+  "license": "CC0 (The Met Open Access)"
+ },
+ "battle-m254275": {
+  "id": 254275,
+  "title": "Terracotta amphora (jar)",
+  "artist": "",
+  "date": "ca. 560\u2013550 BCE",
+  "url": "https://www.metmuseum.org/art/collection/search/254275",
+  "license": "CC0 (The Met Open Access)"
+ },
+ "battle-m250302": {
+  "id": 250302,
+  "title": "Vase Fragment",
+  "artist": "",
+  "date": "1st century BCE\u20131st century CE",
+  "url": "https://www.metmuseum.org/art/collection/search/250302",
+  "license": "CC0 (The Met Open Access)"
+ },
+ "battle-m247948": {
+  "id": 247948,
+  "title": "Terracotta lekythos (oil flask)",
+  "artist": "Athena Painter",
+  "date": "1st quarter of 5th century BCE",
+  "url": "https://www.metmuseum.org/art/collection/search/247948",
+  "license": "CC0 (The Met Open Access)"
+ },
+ "battle-m253557": {
+  "id": 253557,
+  "title": "Fragmentary terracotta loutrophoros (ceremonial vase for water)",
+  "artist": "Group of Polygnotos",
+  "date": "ca. 440 BCE",
+  "url": "https://www.metmuseum.org/art/collection/search/253557",
+  "license": "CC0 (The Met Open Access)"
+ },
+ "battle-m254806": {
+  "id": 254806,
+  "title": "Kylix, band-cup fragment",
+  "artist": "Wraith Painter",
+  "date": "3rd quarter of the 6th century BCE",
+  "url": "https://www.metmuseum.org/art/collection/search/254806",
+  "license": "CC0 (The Met Open Access)"
+ },
+ "battle-m247325": {
+  "id": 247325,
+  "title": "Terracotta kylix: Droop cup (drinking cup)",
+  "artist": "Group of Rhodes 12264",
+  "date": "ca. 540 BCE",
+  "url": "https://www.metmuseum.org/art/collection/search/247325",
+  "license": "CC0 (The Met Open Access)"
+ },
+ "battle-m247609": {
+  "id": 247609,
+  "title": "Fragment of a terracotta neck-amphora (jar)",
+  "artist": "Prometheus Painter",
+  "date": "ca. 575\u2013560 BCE",
+  "url": "https://www.metmuseum.org/art/collection/search/247609",
+  "license": "CC0 (The Met Open Access)"
+ },
+ "battle-m247964": {
+  "id": 247964,
+  "title": "Terracotta volute-krater (bowl for mixing wine and water)",
+  "artist": "Painter of the Woolly Satyrs",
+  "date": "ca. 450 BCE",
+  "url": "https://www.metmuseum.org/art/collection/search/247964",
+  "license": "CC0 (The Met Open Access)"
+ },
+ "battle-m246269": {
+  "id": 246269,
+  "title": "Alabaster cinerary urn",
+  "artist": "",
+  "date": "3rd century BCE",
+  "url": "https://www.metmuseum.org/art/collection/search/246269",
+  "license": "CC0 (The Met Open Access)"
+ },
+ "battle-m247966": {
+  "id": 247966,
+  "title": "Terracotta calyx-krater (bowl for mixing wine and water)",
+  "artist": "Painter of the Berlin Hydria",
+  "date": "ca. 460\u2013450 BCE",
+  "url": "https://www.metmuseum.org/art/collection/search/247966",
+  "license": "CC0 (The Met Open Access)"
+ },
+ "athlete-m248083": {
+  "id": 248083,
+  "title": "Bronze athlete",
+  "artist": "",
+  "date": "ca. 450 BCE",
+  "url": "https://www.metmuseum.org/art/collection/search/248083",
+  "license": "CC0 (The Met Open Access)"
+ },
+ "athlete-m253539": {
+  "id": 253539,
+  "title": "Statuette of an athlete",
+  "artist": "",
+  "date": "5th century BCE",
+  "url": "https://www.metmuseum.org/art/collection/search/253539",
+  "license": "CC0 (The Met Open Access)"
+ },
+ "athlete-m248579": {
+  "id": 248579,
+  "title": "Marble head of an athlete",
+  "artist": "",
+  "date": "ca. 138\u2013192 CE",
+  "url": "https://www.metmuseum.org/art/collection/search/248579",
+  "license": "CC0 (The Met Open Access)"
+ },
+ "athlete-m250542": {
+  "id": 250542,
+  "title": "Statuette of an athlete",
+  "artist": "",
+  "date": "4th century BCE",
+  "url": "https://www.metmuseum.org/art/collection/search/250542",
+  "license": "CC0 (The Met Open Access)"
+ },
+ "athlete-m250541": {
+  "id": 250541,
+  "title": "Small marble statue of an athlete",
+  "artist": "",
+  "date": "3rd or 2nd century BCE",
+  "url": "https://www.metmuseum.org/art/collection/search/250541",
+  "license": "CC0 (The Met Open Access)"
+ },
+ "athlete-m255120": {
+  "id": 255120,
+  "title": "Marble statue of the so-called Stephanos Athlete",
+  "artist": "",
+  "date": "late 1st century BCE or 1st century CE",
+  "url": "https://www.metmuseum.org/art/collection/search/255120",
+  "license": "CC0 (The Met Open Access)"
+ },
+ "athlete-m251662": {
+  "id": 251662,
+  "title": "Statuette of a runner",
+  "artist": "",
+  "date": "",
+  "url": "https://www.metmuseum.org/art/collection/search/251662",
+  "license": "CC0 (The Met Open Access)"
+ },
+ "athlete-m255406": {
+  "id": 255406,
+  "title": "Bronze statuette of a runner",
+  "artist": "",
+  "date": "2nd\u20131st century BCE",
+  "url": "https://www.metmuseum.org/art/collection/search/255406",
+  "license": "CC0 (The Met Open Access)"
+ },
+ "athlete-m251819": {
+  "id": 251819,
+  "title": "Terracotta kylix: Siana cup (drinking cup)",
+  "artist": "Sandal Painter",
+  "date": "ca. 560\u2013550 BCE",
+  "url": "https://www.metmuseum.org/art/collection/search/251819",
+  "license": "CC0 (The Met Open Access)"
+ },
+ "athlete-m255450": {
+  "id": 255450,
+  "title": "Terracotta lekythos (oil jar)",
+  "artist": "",
+  "date": "ca. 560 BCE",
+  "url": "https://www.metmuseum.org/art/collection/search/255450",
+  "license": "CC0 (The Met Open Access)"
+ },
+ "athlete-m254219": {
+  "id": 254219,
+  "title": "Terracotta miniature Panathenaic amphora",
+  "artist": "Bulas Group",
+  "date": "ca. 400 BCE",
+  "url": "https://www.metmuseum.org/art/collection/search/254219",
+  "license": "CC0 (The Met Open Access)"
+ },
+ "athlete-m248078": {
+  "id": 248078,
+  "title": "Bronze youth",
+  "artist": "",
+  "date": "6th century BCE",
+  "url": "https://www.metmuseum.org/art/collection/search/248078",
+  "license": "CC0 (The Met Open Access)"
+ },
+ "athlete-m251820": {
+  "id": 251820,
+  "title": "Bronze statuette of a discus thrower",
+  "artist": "",
+  "date": "5th century BCE",
+  "url": "https://www.metmuseum.org/art/collection/search/251820",
+  "license": "CC0 (The Met Open Access)"
+ },
+ "wrestle-m242116": {
+  "id": 242116,
+  "title": "Fragment of a limestone group of wrestlers",
+  "artist": "",
+  "date": "6th century BCE",
+  "url": "https://www.metmuseum.org/art/collection/search/242116",
+  "license": "CC0 (The Met Open Access)"
+ },
+ "wrestle-m246541": {
+  "id": 246541,
+  "title": "Bronze handle from a cista (toiletries box)",
+  "artist": "",
+  "date": "4th century BCE",
+  "url": "https://www.metmuseum.org/art/collection/search/246541",
+  "license": "CC0 (The Met Open Access)"
+ },
+ "wrestle-m330027": {
+  "id": 330027,
+  "title": "Bronze handle of a cista with nude youth",
+  "artist": "",
+  "date": "4th century BCE",
+  "url": "https://www.metmuseum.org/art/collection/search/330027",
+  "license": "CC0 (The Met Open Access)"
+ },
+ "wrestle-m255132": {
+  "id": 255132,
+  "title": "Terracotta aryballos (oil flask)",
+  "artist": "Amasis Painter",
+  "date": "ca. 550 BCE",
+  "url": "https://www.metmuseum.org/art/collection/search/255132",
+  "license": "CC0 (The Met Open Access)"
+ },
+ "wrestle-m247235": {
+  "id": 247235,
+  "title": "Terracotta oinochoe (jug)",
+  "artist": "Class of the Red-Bodied Oinochoai III",
+  "date": "early 5th century BCE",
+  "url": "https://www.metmuseum.org/art/collection/search/247235",
+  "license": "CC0 (The Met Open Access)"
+ },
+ "wrestle-m256598": {
+  "id": 256598,
+  "title": "Terracotta neck-amphora (jar)",
+  "artist": "Diosphos Painter",
+  "date": "ca. 500 BCE",
+  "url": "https://www.metmuseum.org/art/collection/search/256598",
+  "license": "CC0 (The Met Open Access)"
+ },
+ "wrestle-m257574": {
+  "id": 257574,
+  "title": "Bronze hand of a boxer",
+  "artist": "",
+  "date": "1st\u20132nd century CE",
+  "url": "https://www.metmuseum.org/art/collection/search/257574",
+  "license": "CC0 (The Met Open Access)"
+ },
+ "wrestle-m251253": {
+  "id": 251253,
+  "title": "Fragment of a terracotta kylix: eye-cup  (drinking cup)",
+  "artist": "Hischylos Painter",
+  "date": "ca. 520 BCE",
+  "url": "https://www.metmuseum.org/art/collection/search/251253",
+  "license": "CC0 (The Met Open Access)"
+ },
+ "wrestle-m254947": {
+  "id": 254947,
+  "title": "Fragments of a terracotta amphora (jar)",
+  "artist": "Painter of Tarquinia RC 6847",
+  "date": "ca. 550\u2013525 BCE",
+  "url": "https://www.metmuseum.org/art/collection/search/254947",
+  "license": "CC0 (The Met Open Access)"
+ },
+ "march-m241199": {
+  "id": 241199,
+  "title": "Terracotta warriors",
+  "artist": "",
+  "date": "6th century BCE(?)",
+  "url": "https://www.metmuseum.org/art/collection/search/241199",
+  "license": "CC0 (The Met Open Access)"
+ },
+ "march-m257630": {
+  "id": 257630,
+  "title": "Aryballos with four warriors",
+  "artist": "",
+  "date": "ca. 600 BCE",
+  "url": "https://www.metmuseum.org/art/collection/search/257630",
+  "license": "CC0 (The Met Open Access)"
+ },
+ "march-m254576": {
+  "id": 254576,
+  "title": "Bronze finial of two warriors from a candelabrum",
+  "artist": "",
+  "date": "ca. 480\u2013470 BCE",
+  "url": "https://www.metmuseum.org/art/collection/search/254576",
+  "license": "CC0 (The Met Open Access)"
+ },
+ "march-m256118": {
+  "id": 256118,
+  "title": "Marble grave relief with a funerary banquet and departing warriors",
+  "artist": "",
+  "date": "2nd century BCE",
+  "url": "https://www.metmuseum.org/art/collection/search/256118",
+  "license": "CC0 (The Met Open Access)"
+ },
+ "march-m667670": {
+  "id": 667670,
+  "title": "Terracotta fragments of a kylix (drinking cup)",
+  "artist": "Epeleios Painter",
+  "date": "520\u2013500 BCE",
+  "url": "https://www.metmuseum.org/art/collection/search/667670",
+  "license": "CC0 (The Met Open Access)"
+ },
+ "march-m330056": {
+  "id": 330056,
+  "title": "Bronze statuette of a warrior",
+  "artist": "",
+  "date": "ca. 5th century BCE",
+  "url": "https://www.metmuseum.org/art/collection/search/330056",
+  "license": "CC0 (The Met Open Access)"
+ },
+ "archer-m241215": {
+  "id": 241215,
+  "title": "Archer, probably from a chariot group",
+  "artist": "",
+  "date": "ca. 750\u2013600 BCE",
+  "url": "https://www.metmuseum.org/art/collection/search/241215",
+  "license": "CC0 (The Met Open Access)"
+ },
+ "archer-m255955": {
+  "id": 255955,
+  "title": "Bronze statuette of a Scythian mounted archer",
+  "artist": "",
+  "date": "early 5th century BCE",
+  "url": "https://www.metmuseum.org/art/collection/search/255955",
+  "license": "CC0 (The Met Open Access)"
+ },
+ "archer-m251663": {
+  "id": 251663,
+  "title": "Lead figure of an archer",
+  "artist": "",
+  "date": "6th\u20135th century BCE",
+  "url": "https://www.metmuseum.org/art/collection/search/251663",
+  "license": "CC0 (The Met Open Access)"
+ },
+ "archer-m242204": {
+  "id": 242204,
+  "title": "Limestone statuette of Herakles as an archer",
+  "artist": "",
+  "date": "2nd half of the 6th century BCE",
+  "url": "https://www.metmuseum.org/art/collection/search/242204",
+  "license": "CC0 (The Met Open Access)"
+ },
+ "archer-m242205": {
+  "id": 242205,
+  "title": "Limestone statuette of Herakles as an archer",
+  "artist": "",
+  "date": "middle or 3rd quarter of the 6th century BCE",
+  "url": "https://www.metmuseum.org/art/collection/search/242205",
+  "license": "CC0 (The Met Open Access)"
+ },
+ "archer-m242212": {
+  "id": 242212,
+  "title": "Limestone statuette of Herakles as an archer",
+  "artist": "",
+  "date": "middle or 3rd quarter of the 6th century BCE",
+  "url": "https://www.metmuseum.org/art/collection/search/242212",
+  "license": "CC0 (The Met Open Access)"
+ },
+ "mother-m254577": {
+  "id": 254577,
+  "title": "Statuette of a mother and child",
+  "artist": "",
+  "date": "early 5th century BCE",
+  "url": "https://www.metmuseum.org/art/collection/search/254577",
+  "license": "CC0 (The Met Open Access)"
+ },
+ "mother-m251519": {
+  "id": 251519,
+  "title": "Marble votive relief fragment of goddesses, mother, nurse, and infant",
+  "artist": "",
+  "date": "late 5th century BCE",
+  "url": "https://www.metmuseum.org/art/collection/search/251519",
+  "license": "CC0 (The Met Open Access)"
+ },
+ "mother-m248799": {
+  "id": 248799,
+  "title": "Marble portrait, probably of Matidia, niece of the emperor Trajan and mother of Sabina, wife of the emperor Hadrian",
+  "artist": "",
+  "date": "117\u2013138 CE",
+  "url": "https://www.metmuseum.org/art/collection/search/248799",
+  "license": "CC0 (The Met Open Access)"
+ },
+ "mother-m242110": {
+  "id": 242110,
+  "title": "Seated limestone kourotrophos",
+  "artist": "",
+  "date": "4th century BCE",
+  "url": "https://www.metmuseum.org/art/collection/search/242110",
+  "license": "CC0 (The Met Open Access)"
+ },
+ "mother-m242071": {
+  "id": 242071,
+  "title": "Seated limestone kourotrophos",
+  "artist": "",
+  "date": "2nd half of the 5th century BCE",
+  "url": "https://www.metmuseum.org/art/collection/search/242071",
+  "license": "CC0 (The Met Open Access)"
+ },
+ "mother-m242063": {
+  "id": 242063,
+  "title": "Seated limestone kourotrophos",
+  "artist": "",
+  "date": "2nd half of the 5th century BCE",
+  "url": "https://www.metmuseum.org/art/collection/search/242063",
+  "license": "CC0 (The Met Open Access)"
+ },
+ "mother-m242002": {
+  "id": 242002,
+  "title": "Limestone grave stele of Sogenes",
+  "artist": "",
+  "date": "ca. 3rd\u20132nd century BCE",
+  "url": "https://www.metmuseum.org/art/collection/search/242002",
+  "license": "CC0 (The Met Open Access)"
+ },
+ "mother-m248114": {
+  "id": 248114,
+  "title": "Marble grave stele of a woman",
+  "artist": "",
+  "date": "425\u2013400 BCE",
+  "url": "https://www.metmuseum.org/art/collection/search/248114",
+  "license": "CC0 (The Met Open Access)"
+ },
+ "mother-m241961": {
+  "id": 241961,
+  "title": "Marble grave stele of Demetrios",
+  "artist": "",
+  "date": "1st century BCE",
+  "url": "https://www.metmuseum.org/art/collection/search/241961",
+  "license": "CC0 (The Met Open Access)"
+ },
+ "mother-m248483": {
+  "id": 248483,
+  "title": "Marble grave stele with a family group",
+  "artist": "",
+  "date": "ca. 360 BCE",
+  "url": "https://www.metmuseum.org/art/collection/search/248483",
+  "license": "CC0 (The Met Open Access)"
+ },
+ "boy-m241260": {
+  "id": 241260,
+  "title": "Youth",
+  "artist": "",
+  "date": "4th century BCE",
+  "url": "https://www.metmuseum.org/art/collection/search/241260",
+  "license": "CC0 (The Met Open Access)"
+ },
+ "boy-m242074": {
+  "id": 242074,
+  "title": "Limestone youth",
+  "artist": "",
+  "date": "1st half of the 6th century BCE",
+  "url": "https://www.metmuseum.org/art/collection/search/242074",
+  "license": "CC0 (The Met Open Access)"
+ },
+ "boy-m248082": {
+  "id": 248082,
+  "title": "Bronze youth",
+  "artist": "",
+  "date": "ca. 470 BCE",
+  "url": "https://www.metmuseum.org/art/collection/search/248082",
+  "license": "CC0 (The Met Open Access)"
+ },
+ "boy-m244557": {
+  "id": 244557,
+  "title": "Bronze youth",
+  "artist": "",
+  "date": "late 5th century BCE",
+  "url": "https://www.metmuseum.org/art/collection/search/244557",
+  "license": "CC0 (The Met Open Access)"
+ },
+ "boy-m242122": {
+  "id": 242122,
+  "title": "Limestone youth",
+  "artist": "",
+  "date": "early 6th century BCE",
+  "url": "https://www.metmuseum.org/art/collection/search/242122",
+  "license": "CC0 (The Met Open Access)"
+ },
+ "boy-m246978": {
+  "id": 246978,
+  "title": "Terracotta vase in the form of a Black African youth's head",
+  "artist": "Negro Boy Group",
+  "date": "4th century BCE",
+  "url": "https://www.metmuseum.org/art/collection/search/246978",
+  "license": "CC0 (The Met Open Access)"
+ },
+ "boy-m241160": {
+  "id": 241160,
+  "title": "Seated boy",
+  "artist": "",
+  "date": "4th century BCE",
+  "url": "https://www.metmuseum.org/art/collection/search/241160",
+  "license": "CC0 (The Met Open Access)"
+ },
+ "boy-m241159": {
+  "id": 241159,
+  "title": "Seated boy",
+  "artist": "",
+  "date": "4th century BCE",
+  "url": "https://www.metmuseum.org/art/collection/search/241159",
+  "license": "CC0 (The Met Open Access)"
+ },
+ "boy-m241158": {
+  "id": 241158,
+  "title": "Seated boy",
+  "artist": "",
+  "date": "3rd\u20132nd century BCE",
+  "url": "https://www.metmuseum.org/art/collection/search/241158",
+  "license": "CC0 (The Met Open Access)"
+ },
+ "boy-m241004": {
+  "id": 241004,
+  "title": "Seated boy",
+  "artist": "",
+  "date": "ca. 325\u2013300 BCE",
+  "url": "https://www.metmuseum.org/art/collection/search/241004",
+  "license": "CC0 (The Met Open Access)"
+ },
+ "boy-m242307": {
+  "id": 242307,
+  "title": "Limestone temple boy",
+  "artist": "",
+  "date": "1st quarter fo the 4th century BCE",
+  "url": "https://www.metmuseum.org/art/collection/search/242307",
+  "license": "CC0 (The Met Open Access)"
+ },
+ "persia-m324433": {
+  "id": 324433,
+  "title": "Head of a Persian guard",
+  "artist": "",
+  "date": "ca. 486\u2013465 BCE",
+  "url": "https://www.metmuseum.org/art/collection/search/324433",
+  "license": "CC0 (The Met Open Access)"
+ },
+ "statue-m248403": {
+  "id": 248403,
+  "title": "Head of a man",
+  "artist": "",
+  "date": "",
+  "url": "https://www.metmuseum.org/art/collection/search/248403",
+  "license": "CC0 (The Met Open Access)"
+ },
+ "statue-m256845": {
+  "id": 256845,
+  "title": "Marble head of a man",
+  "artist": "",
+  "date": "3rd century BCE",
+  "url": "https://www.metmuseum.org/art/collection/search/256845",
+  "license": "CC0 (The Met Open Access)"
+ },
+ "statue-m241005": {
+  "id": 241005,
+  "title": "Terracotta head of a man",
+  "artist": "",
+  "date": "ca. 600 BCE",
+  "url": "https://www.metmuseum.org/art/collection/search/241005",
+  "license": "CC0 (The Met Open Access)"
+ },
+ "statue-m247599": {
+  "id": 247599,
+  "title": "Terracotta head of a man",
+  "artist": "",
+  "date": "2nd century BCE",
+  "url": "https://www.metmuseum.org/art/collection/search/247599",
+  "license": "CC0 (The Met Open Access)"
+ },
+ "statue-m248436": {
+  "id": 248436,
+  "title": "Terracotta head of a man",
+  "artist": "",
+  "date": "4th century BCE",
+  "url": "https://www.metmuseum.org/art/collection/search/248436",
+  "license": "CC0 (The Met Open Access)"
+ },
+ "statue-m242392": {
+  "id": 242392,
+  "title": "Limestone head of a man",
+  "artist": "",
+  "date": "early 5th century BCE",
+  "url": "https://www.metmuseum.org/art/collection/search/242392",
+  "license": "CC0 (The Met Open Access)"
+ },
+ "statue-m251115": {
+  "id": 251115,
+  "title": "Marble statue of Aphrodite",
+  "artist": "",
+  "date": "1st or 2nd century CE",
+  "url": "https://www.metmuseum.org/art/collection/search/251115",
+  "license": "CC0 (The Met Open Access)"
+ },
+ "statue-m254608": {
+  "id": 254608,
+  "title": "Marble statue of Herakles",
+  "artist": "",
+  "date": "1st century CE",
+  "url": "https://www.metmuseum.org/art/collection/search/254608",
+  "license": "CC0 (The Met Open Access)"
+ },
+ "statue-m254925": {
+  "id": 254925,
+  "title": "Marble statue of Hermes",
+  "artist": "Polykleitos",
+  "date": "1st or 2nd century CE",
+  "url": "https://www.metmuseum.org/art/collection/search/254925",
+  "license": "CC0 (The Met Open Access)"
+ },
+ "statue-m254697": {
+  "id": 254697,
+  "title": "Marble statue of Aphrodite",
+  "artist": "",
+  "date": "1st or 2nd century CE",
+  "url": "https://www.metmuseum.org/art/collection/search/254697",
+  "license": "CC0 (The Met Open Access)"
+ },
+ "statue-m256879": {
+  "id": 256879,
+  "title": "Marble statue of Dionysus",
+  "artist": "",
+  "date": "1st\u20132nd century CE",
+  "url": "https://www.metmuseum.org/art/collection/search/256879",
+  "license": "CC0 (The Met Open Access)"
+ },
+ "statue-m251094": {
+  "id": 251094,
+  "title": "Marble statue of Aphrodite",
+  "artist": "",
+  "date": "1st\u20132nd century CE",
+  "url": "https://www.metmuseum.org/art/collection/search/251094",
+  "license": "CC0 (The Met Open Access)"
+ },
+ "hunger-m250583": {
+  "id": 250583,
+  "title": "Terracotta caricature of Eros as an old man",
+  "artist": "",
+  "date": "2nd\u20131st century BCE",
+  "url": "https://www.metmuseum.org/art/collection/search/250583",
+  "license": "CC0 (The Met Open Access)"
+ },
+ "hunger-m248117": {
+  "id": 248117,
+  "title": "Marble portrait bust of an elderly man",
+  "artist": "",
+  "date": "2nd century CE",
+  "url": "https://www.metmuseum.org/art/collection/search/248117",
+  "license": "CC0 (The Met Open Access)"
+ },
+ "hunger-m247950": {
+  "id": 247950,
+  "title": "Fragment of a terracotta loutrophoros (ceremonial vase for water)",
+  "artist": "Painter of Bologna 228",
+  "date": "ca. 460 BCE",
+  "url": "https://www.metmuseum.org/art/collection/search/247950",
+  "license": "CC0 (The Met Open Access)"
+ },
+ "hunger-m250664": {
+  "id": 250664,
+  "title": "Terracotta stamnos",
+  "artist": "Deepdene Painter",
+  "date": "ca. 470\u2013460 BCE",
+  "url": "https://www.metmuseum.org/art/collection/search/250664",
+  "license": "CC0 (The Met Open Access)"
+ },
+ "hunger-m248112": {
+  "id": 248112,
+  "title": "Marble head of a bearded man",
+  "artist": "",
+  "date": "1st century CE",
+  "url": "https://www.metmuseum.org/art/collection/search/248112",
+  "license": "CC0 (The Met Open Access)"
+ },
+ "feet-m241018": {
+  "id": 241018,
+  "title": "Left foot",
+  "artist": "",
+  "date": "ca. 600\u2013480 BCE",
+  "url": "https://www.metmuseum.org/art/collection/search/241018",
+  "license": "CC0 (The Met Open Access)"
+ },
+ "feet-m241017": {
+  "id": 241017,
+  "title": "Right foot",
+  "artist": "",
+  "date": "2nd century BCE(?)",
+  "url": "https://www.metmuseum.org/art/collection/search/241017",
+  "license": "CC0 (The Met Open Access)"
+ },
+ "feet-m241019": {
+  "id": 241019,
+  "title": "Right foot",
+  "artist": "",
+  "date": "ca. 480\u2013400 BCE",
+  "url": "https://www.metmuseum.org/art/collection/search/241019",
+  "license": "CC0 (The Met Open Access)"
+ },
+ "feet-m241020": {
+  "id": 241020,
+  "title": "Right foot",
+  "artist": "",
+  "date": "ca. 600\u2013480 BCE",
+  "url": "https://www.metmuseum.org/art/collection/search/241020",
+  "license": "CC0 (The Met Open Access)"
+ },
+ "feet-m251536": {
+  "id": 251536,
+  "title": "Foot fragment",
+  "artist": "",
+  "date": "",
+  "url": "https://www.metmuseum.org/art/collection/search/251536",
+  "license": "CC0 (The Met Open Access)"
+ },
+ "feet-m256682": {
+  "id": 256682,
+  "title": "Cista, foot",
+  "artist": "",
+  "date": "",
+  "url": "https://www.metmuseum.org/art/collection/search/256682",
+  "license": "CC0 (The Met Open Access)"
+ },
+ "hands-m244802": {
+  "id": 244802,
+  "title": "Limestone hand",
+  "artist": "",
+  "date": "3rd\u20131st century BCE",
+  "url": "https://www.metmuseum.org/art/collection/search/244802",
+  "license": "CC0 (The Met Open Access)"
+ },
+ "hands-m246771": {
+  "id": 246771,
+  "title": "Hand, right, votive",
+  "artist": "",
+  "date": "1st\u20133rd century CE later",
+  "url": "https://www.metmuseum.org/art/collection/search/246771",
+  "license": "CC0 (The Met Open Access)"
+ },
+ "hands-m242256": {
+  "id": 242256,
+  "title": "Limestone hand holding a sword (?)",
+  "artist": "",
+  "date": "",
+  "url": "https://www.metmuseum.org/art/collection/search/242256",
+  "license": "CC0 (The Met Open Access)"
+ },
+ "hands-m242265": {
+  "id": 242265,
+  "title": "Limestone hand holding a pomegranate",
+  "artist": "",
+  "date": "",
+  "url": "https://www.metmuseum.org/art/collection/search/242265",
+  "license": "CC0 (The Met Open Access)"
+ },
+ "hands-m241016": {
+  "id": 241016,
+  "title": "Terracotta fragment of a hand",
+  "artist": "",
+  "date": "5th\u20134th century BCE",
+  "url": "https://www.metmuseum.org/art/collection/search/241016",
+  "license": "CC0 (The Met Open Access)"
+ },
+ "hands-m242270": {
+  "id": 242270,
+  "title": "Limestone hand holding a dove",
+  "artist": "",
+  "date": "",
+  "url": "https://www.metmuseum.org/art/collection/search/242270",
+  "license": "CC0 (The Met Open Access)"
+ },
+ "winter-m244816": {
+  "id": 244816,
+  "title": "Terracotta lekythos (oil flask)",
+  "artist": "Pharos Painter",
+  "date": "ca. 550 BCE",
+  "url": "https://www.metmuseum.org/art/collection/search/244816",
+  "license": "CC0 (The Met Open Access)"
+ },
+ "winter-m242275": {
+  "id": 242275,
+  "title": "Limestone statuette of a female votary",
+  "artist": "",
+  "date": "",
+  "url": "https://www.metmuseum.org/art/collection/search/242275",
+  "license": "CC0 (The Met Open Access)"
+ },
+ "winter-m252624": {
+  "id": 252624,
+  "title": "Terracotta statuette of a youth",
+  "artist": "",
+  "date": "3rd\u20132nd century BCE",
+  "url": "https://www.metmuseum.org/art/collection/search/252624",
+  "license": "CC0 (The Met Open Access)"
+ },
+ "winter-m255011": {
+  "id": 255011,
+  "title": "Terracotta olpe (jug)",
+  "artist": "Amasis Painter",
+  "date": "ca. 520 BCE",
+  "url": "https://www.metmuseum.org/art/collection/search/255011",
+  "license": "CC0 (The Met Open Access)"
+ },
+ "winter-m242254": {
+  "id": 242254,
+  "title": "Fragment of a limestone statuette of Pan",
+  "artist": "",
+  "date": "3rd\u20131st century BCE",
+  "url": "https://www.metmuseum.org/art/collection/search/242254",
+  "license": "CC0 (The Met Open Access)"
  }
 }

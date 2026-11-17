@@ -1,92 +1,82 @@
 [
 {
-"word": "If",
+"word": "The",
 "start": 0.0,
 "end": 0.12
 },
 {
-"word": "you",
+"word": "goal",
 "start": 0.12,
-"end": 0.24
-},
-{
-"word": "are",
-"start": 0.24,
 "end": 0.36
 },
 {
-"word": "afraid",
+"word": "is",
 "start": 0.36,
-"end": 0.68
+"end": 0.64
 },
 {
-"word": "of",
-"start": 0.68,
-"end": 0.86
+"word": "to",
+"start": 0.64,
+"end": 0.78
+},
+{
+"word": "make",
+"start": 0.78,
+"end": 0.92
 },
 {
 "word": "the",
-"start": 0.86,
-"end": 0.98
+"start": 0.92,
+"end": 1.12
 },
 {
-"word": "big",
-"start": 0.98,
-"end": 1.16
-},
-{
-"word": "game,",
-"start": 1.16,
+"word": "challenge",
+"start": 1.12,
 "end": 1.52
 },
 {
-"word": "train",
-"start": 2.04,
-"end": 2.14
+"word": "so",
+"start": 1.52,
+"end": 1.96
 },
 {
-"word": "harder",
-"start": 2.14,
-"end": 2.58
+"word": "familiar",
+"start": 1.96,
+"end": 2.46
 },
 {
-"word": "than",
-"start": 2.58,
-"end": 2.8
+"word": "that",
+"start": 2.46,
+"end": 3.08
 },
 {
-"word": "the",
-"start": 2.8,
-"end": 2.92
+"word": "fear",
+"start": 3.08,
+"end": 3.36
 },
 {
-"word": "game",
-"start": 2.92,
-"end": 3.14
+"word": "has",
+"start": 3.36,
+"end": 3.68
 },
 {
-"word": "will",
-"start": 3.14,
-"end": 3.4
+"word": "nothing",
+"start": 3.68,
+"end": 3.96
 },
 {
-"word": "ever",
-"start": 3.4,
-"end": 3.7
+"word": "new",
+"start": 3.96,
+"end": 4.28
 },
 {
-"word": "ask",
-"start": 3.7,
-"end": 4.04
+"word": "to",
+"start": 4.28,
+"end": 4.46
 },
 {
-"word": "of",
-"start": 4.04,
-"end": 4.22
-},
-{
-"word": "you.",
-"start": 4.22,
-"end": 4.4
+"word": "say.",
+"start": 4.46,
+"end": 4.74
 }
 ]

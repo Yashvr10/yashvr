@@ -116,6 +116,19 @@
   },
   {
    "id": "s09",
+   "text": "In winter, he was not allowed to add a second layer. He was meant to feel the cold, and keep going anyway.",
+   "th": [
+    "winter",
+    "boy"
+   ],
+   "emph": [
+    "cold"
+   ],
+   "full": false,
+   "gap": 0.5
+  },
+  {
+   "id": "s10",
    "text": "He ran, wrestled, marched and fought, day after day, season after season, for thirteen years.",
    "th": [
     "athlete",
@@ -129,7 +142,20 @@
    "gap": 0.5
   },
   {
-   "id": "s10",
+   "id": "s11",
+   "text": "By the time he became a soldier, hardship was not an event in his life. It was the weather he had always lived in.",
+   "th": [
+    "hoplite",
+    "storm"
+   ],
+   "emph": [
+    "weather"
+   ],
+   "full": false,
+   "gap": 0.5
+  },
+  {
+   "id": "s12",
    "text": "And here is the part most people miss.",
    "th": [
     "statue"
@@ -139,7 +165,7 @@
    "gap": 0.7
   },
   {
-   "id": "s11",
+   "id": "s13",
    "text": "None of this was meant to make war easier.",
    "th": [
     "battle"
@@ -151,7 +177,7 @@
    "gap": 0.5
   },
   {
-   "id": "s12",
+   "id": "s14",
    "text": "It was meant to make war ordinary.",
    "th": [
     "hoplite"
@@ -170,7 +196,7 @@
    "len": 2.8
   },
   {
-   "id": "s13",
+   "id": "s15",
    "text": "When the Persian army marched on Greece, it was the largest force the ancient world had ever seen.",
    "th": [
     "persia",
@@ -183,7 +209,7 @@
    "gap": 0.5
   },
   {
-   "id": "s14",
+   "id": "s16",
    "text": "At the pass of Thermopylae, a few thousand Greeks stood in its way, with three hundred Spartans at their centre.",
    "th": [
     "mountain",
@@ -197,7 +223,7 @@
    "gap": 0.5
   },
   {
-   "id": "s15",
+   "id": "s17",
    "text": "A local man came to warn them.",
    "th": [
     "greece"
@@ -207,7 +233,7 @@
    "gap": 0.5
   },
   {
-   "id": "s16",
+   "id": "s18",
    "text": "The Persian archers were so many, he said, that when they fired, their arrows would blot out the sun.",
    "th": [
     "archer",
@@ -220,7 +246,7 @@
    "gap": 0.5
   },
   {
-   "id": "s17",
+   "id": "s19",
    "text": "A Spartan named Dienekes did not flinch.",
    "th": [
     "helmet"
@@ -230,7 +256,7 @@
    "gap": 0.5
   },
   {
-   "id": "s18",
+   "id": "s20",
    "text": "He replied, \"Good. Then we will fight in the shade.\"",
    "th": [
     "hoplite"
@@ -242,7 +268,7 @@
    "gap": 0.9
   },
   {
-   "id": "s19",
+   "id": "s21",
    "text": "That is not bravado.",
    "th": [
     "statue"
@@ -252,7 +278,7 @@
    "gap": 0.5
   },
   {
-   "id": "s20",
+   "id": "s22",
    "text": "That is a man who has rehearsed the worst so many times that the worst no longer surprises him.",
    "th": [
     "helmet",
@@ -265,7 +291,7 @@
    "gap": 0.5
   },
   {
-   "id": "s21",
+   "id": "s23",
    "text": "When Xerxes demanded that they lay down their weapons, Leonidas answered in two words.",
    "th": [
     "persia",
@@ -279,7 +305,7 @@
    "gap": 0.5
   },
   {
-   "id": "s22",
+   "id": "s24",
    "text": "Come and take them.",
    "th": [
     "spear",
@@ -295,7 +321,7 @@
    "gap": 0.9
   },
   {
-   "id": "s23",
+   "id": "s25",
    "text": "The Spartans were not calm because they were fearless.",
    "th": [
     "face"
@@ -307,7 +333,7 @@
    "gap": 0.5
   },
   {
-   "id": "s24",
+   "id": "s26",
    "text": "They were calm because nothing in front of them was new.",
    "th": [
     "hoplite"
@@ -326,7 +352,7 @@
    "len": 2.8
   },
   {
-   "id": "s25",
+   "id": "s27",
    "text": "Fear feeds on the unknown.",
    "th": [
     "storm"
@@ -338,7 +364,7 @@
    "gap": 0.5
   },
   {
-   "id": "s26",
+   "id": "s28",
    "text": "Your nervous system reacts most violently to what it has never seen before.",
    "th": [
     "face",
@@ -349,7 +375,7 @@
    "gap": 0.5
   },
   {
-   "id": "s27",
+   "id": "s29",
    "text": "The Spartans removed the unknown.",
    "th": [
     "hoplite"
@@ -359,7 +385,7 @@
    "gap": 0.5
   },
   {
-   "id": "s28",
+   "id": "s30",
    "text": "They made hunger familiar. Exhaustion familiar. Pain, cold, chaos and the crush of the shield wall, all familiar.",
    "th": [
     "hunger",
@@ -374,7 +400,7 @@
    "gap": 0.5
   },
   {
-   "id": "s29",
+   "id": "s31",
    "text": "So when the real moment came, their bodies did not panic. They recognised it.",
    "th": [
     "battle",
@@ -387,7 +413,21 @@
    "gap": 0.5
   },
   {
-   "id": "s30",
+   "id": "s32",
+   "text": "Their hearts still raced. Their hands still felt the weight of the shield. But their minds had been here before, a thousand times, in training that was harder than this.",
+   "th": [
+    "face",
+    "shield",
+    "athlete"
+   ],
+   "emph": [
+    "harder"
+   ],
+   "full": false,
+   "gap": 0.5
+  },
+  {
+   "id": "s33",
    "text": "This is why a Spartan mother would hand her son his shield and say, \"Come back with it, or on it.\"",
    "th": [
     "mother",
@@ -402,7 +442,7 @@
    "gap": 0.5
   },
   {
-   "id": "s31",
+   "id": "s34",
    "text": "There was no speech about courage. The courage had already been built, one hard day at a time.",
    "th": [
     "athlete",
@@ -415,7 +455,7 @@
    "gap": 0.9
   },
   {
-   "id": "s32",
+   "id": "s35",
    "text": "We do the opposite.",
    "th": [
     "face"
@@ -425,7 +465,7 @@
    "gap": 0.5
   },
   {
-   "id": "s33",
+   "id": "s36",
    "text": "We prepare just enough to get by, and then we try to manage the nerves when the moment arrives.",
    "th": [
     "hands",
@@ -436,7 +476,7 @@
    "gap": 0.5
   },
   {
-   "id": "s34",
+   "id": "s37",
    "text": "Breathing techniques. Positive self-talk. Telling ourselves that anxiety is just excitement.",
    "th": [
     "face",
@@ -447,7 +487,7 @@
    "gap": 0.5
   },
   {
-   "id": "s35",
+   "id": "s38",
    "text": "These tools are useful. They can steady you.",
    "th": [
     "statue"
@@ -457,7 +497,7 @@
    "gap": 0.5
   },
   {
-   "id": "s36",
+   "id": "s39",
    "text": "But they are the second line of defence.",
    "th": [
     "shield"
@@ -469,7 +509,7 @@
    "gap": 0.5
   },
   {
-   "id": "s37",
+   "id": "s40",
    "text": "The first line is preparation so deep that there is very little left to regulate.",
    "th": [
     "hoplite",
@@ -489,7 +529,7 @@
    "len": 2.8
   },
   {
-   "id": "s38",
+   "id": "s41",
    "text": "The goal is not to feel no fear.",
    "th": [
     "face"
@@ -499,7 +539,7 @@
    "gap": 0.5
   },
   {
-   "id": "s39",
+   "id": "s42",
    "text": "The goal is to make the challenge so familiar that fear has nothing new to say.",
    "th": [
     "helmet"
@@ -511,7 +551,7 @@
    "gap": 0.5
   },
   {
-   "id": "s40",
+   "id": "s43",
    "text": "If you are afraid of speaking, do not rehearse once in your bedroom.",
    "th": [
     "orator"
@@ -521,7 +561,7 @@
    "gap": 0.5
   },
   {
-   "id": "s41",
+   "id": "s44",
    "text": "Rehearse until the words bore you. Rehearse in front of people who will interrupt you, question you, and try to throw you off.",
    "th": [
     "orator",
@@ -534,7 +574,7 @@
    "gap": 0.5
   },
   {
-   "id": "s42",
+   "id": "s45",
    "text": "If you are afraid of the big game, train harder than the game will ever ask of you.",
    "th": [
     "athlete",
@@ -547,7 +587,7 @@
    "gap": 0.5
   },
   {
-   "id": "s43",
+   "id": "s46",
    "text": "If you are afraid of the interview, practise the hardest question you can imagine, until you could answer it half asleep.",
    "th": [
     "scholar",
@@ -558,7 +598,18 @@
    "gap": 0.5
   },
   {
-   "id": "s44",
+   "id": "s47",
+   "text": "If you are afraid of the hard conversation, write it out, say it out loud, and play every answer they could give you, until none of them can catch you off guard.",
+   "th": [
+    "orator",
+    "face"
+   ],
+   "emph": [],
+   "full": false,
+   "gap": 0.5
+  },
+  {
+   "id": "s48",
    "text": "Make your training the storm, so that the performance feels like shelter.",
    "th": [
     "storm",
@@ -572,7 +623,7 @@
    "gap": 0.5
   },
   {
-   "id": "s45",
+   "id": "s49",
    "text": "Raise the standard of your preparation so high that the real thing feels like rest.",
    "th": [
     "athlete",
@@ -585,7 +636,7 @@
    "gap": 0.9
   },
   {
-   "id": "s46",
+   "id": "s50",
    "text": "That was the Spartan secret.",
    "th": [
     "hoplite"
@@ -597,7 +648,7 @@
    "gap": 0.5
   },
   {
-   "id": "s47",
+   "id": "s51",
    "text": "Not a trick for the moment. A life spent making the moment familiar.",
    "th": [
     "march",
@@ -608,7 +659,7 @@
    "gap": 0.5
   },
   {
-   "id": "s48",
+   "id": "s52",
    "text": "So the next time pressure arrives, it will not be a stranger knocking at your door.",
    "th": [
     "door"
@@ -618,7 +669,7 @@
    "gap": 0.5
   },
   {
-   "id": "s49",
+   "id": "s53",
    "text": "It will be an old enemy you have faced a thousand times before.",
    "th": [
     "battle",
@@ -631,7 +682,7 @@
    "gap": 0.5
   },
   {
-   "id": "s50",
+   "id": "s54",
    "text": "And you will meet it the way they did.",
    "th": [
     "hoplite"
@@ -641,7 +692,7 @@
    "gap": 0.6
   },
   {
-   "id": "s51",
+   "id": "s55",
    "text": "Calm. Ready. Unmoved.",
    "th": [
     "statue",

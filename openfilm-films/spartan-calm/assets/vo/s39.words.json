@@ -1,82 +1,42 @@
 [
 {
-"word": "The",
+"word": "But",
 "start": 0.0,
-"end": 0.12
+"end": 0.14
 },
 {
-"word": "goal",
-"start": 0.12,
-"end": 0.36
+"word": "they",
+"start": 0.14,
+"end": 0.32
 },
 {
-"word": "is",
-"start": 0.36,
-"end": 0.64
-},
-{
-"word": "to",
-"start": 0.64,
-"end": 0.78
-},
-{
-"word": "make",
-"start": 0.78,
-"end": 0.92
+"word": "are",
+"start": 0.32,
+"end": 0.62
 },
 {
 "word": "the",
-"start": 0.92,
-"end": 1.12
+"start": 0.62,
+"end": 0.8
 },
 {
-"word": "challenge",
-"start": 1.12,
-"end": 1.52
+"word": "second",
+"start": 0.8,
+"end": 1.06
 },
 {
-"word": "so",
-"start": 1.52,
-"end": 1.96
+"word": "line",
+"start": 1.06,
+"end": 1.44
 },
 {
-"word": "familiar",
-"start": 1.96,
-"end": 2.46
+"word": "of",
+"start": 1.44,
+"end": 1.68
 },
 {
-"word": "that",
-"start": 2.46,
-"end": 3.08
-},
-{
-"word": "fear",
-"start": 3.08,
-"end": 3.36
-},
-{
-"word": "has",
-"start": 3.36,
-"end": 3.68
-},
-{
-"word": "nothing",
-"start": 3.68,
-"end": 3.96
-},
-{
-"word": "new",
-"start": 3.96,
-"end": 4.28
-},
-{
-"word": "to",
-"start": 4.28,
-"end": 4.46
-},
-{
-"word": "say.",
-"start": 4.46,
-"end": 4.74
+"word": "defence.",
+"start": 1.68,
+"end": 2.02
 }
 ]

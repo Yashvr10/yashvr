@@ -1,67 +1,57 @@
 [
 {
-"word": "Your",
+"word": "They",
 "start": 0.0,
-"end": 0.16
+"end": 0.12
 },
 {
-"word": "nervous",
-"start": 0.16,
-"end": 0.44
+"word": "were",
+"start": 0.12,
+"end": 0.22
 },
 {
-"word": "system",
-"start": 0.44,
-"end": 0.92
+"word": "calm",
+"start": 0.22,
+"end": 0.6
 },
 {
-"word": "reacts",
-"start": 0.92,
-"end": 1.58
+"word": "because",
+"start": 0.6,
+"end": 1.16
 },
 {
-"word": "most",
-"start": 1.58,
-"end": 1.94
+"word": "nothing",
+"start": 1.16,
+"end": 1.48
 },
 {
-"word": "violently",
-"start": 1.94,
-"end": 2.52
+"word": "in",
+"start": 1.48,
+"end": 1.76
 },
 {
-"word": "to",
-"start": 2.52,
-"end": 3.02
+"word": "front",
+"start": 1.76,
+"end": 2.0
 },
 {
-"word": "what",
-"start": 3.02,
-"end": 3.18
+"word": "of",
+"start": 2.0,
+"end": 2.18
 },
 {
-"word": "it",
-"start": 3.18,
-"end": 3.3
+"word": "them",
+"start": 2.18,
+"end": 2.34
 },
 {
-"word": "has",
-"start": 3.3,
-"end": 3.4
+"word": "was",
+"start": 2.34,
+"end": 2.64
 },
 {
-"word": "never",
-"start": 3.4,
-"end": 3.64
-},
-{
-"word": "seen",
-"start": 3.64,
-"end": 3.94
-},
-{
-"word": "before.",
-"start": 3.94,
-"end": 4.34
+"word": "new.",
+"start": 2.64,
+"end": 2.94
 }
 ]

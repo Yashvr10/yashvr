@@ -1,37 +1,42 @@
 [
 {
-"word": "It",
+"word": "And",
 "start": 0.0,
-"end": 0.12
+"end": 0.14
 },
 {
-"word": "was",
-"start": 0.12,
-"end": 0.26
+"word": "here",
+"start": 0.14,
+"end": 0.42
 },
 {
-"word": "meant",
-"start": 0.26,
-"end": 0.5
+"word": "is",
+"start": 0.42,
+"end": 0.68
 },
 {
-"word": "to",
-"start": 0.5,
-"end": 0.88
+"word": "the",
+"start": 0.68,
+"end": 0.86
 },
 {
-"word": "make",
-"start": 0.88,
-"end": 1.1
+"word": "part",
+"start": 0.86,
+"end": 1.18
 },
 {
-"word": "war",
-"start": 1.1,
-"end": 1.5
+"word": "most",
+"start": 1.18,
+"end": 1.56
 },
 {
-"word": "ordinary.",
-"start": 1.5,
-"end": 2.02
+"word": "people",
+"start": 1.56,
+"end": 1.94
+},
+{
+"word": "miss.",
+"start": 1.94,
+"end": 2.24
 }
 ]

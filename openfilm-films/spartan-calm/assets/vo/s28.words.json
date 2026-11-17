@@ -1,92 +1,67 @@
 [
 {
-"word": "They",
+"word": "Your",
 "start": 0.0,
-"end": 0.14
+"end": 0.16
 },
 {
-"word": "made",
-"start": 0.14,
-"end": 0.36
+"word": "nervous",
+"start": 0.16,
+"end": 0.44
 },
 {
-"word": "hunger",
-"start": 0.36,
-"end": 0.66
+"word": "system",
+"start": 0.44,
+"end": 0.92
 },
 {
-"word": "familiar.",
-"start": 0.66,
-"end": 1.14
+"word": "reacts",
+"start": 0.92,
+"end": 1.58
 },
 {
-"word": "Exhaustion",
-"start": 1.88,
+"word": "most",
+"start": 1.58,
 "end": 1.94
 },
 {
-"word": "familiar.",
+"word": "violently",
 "start": 1.94,
-"end": 2.68
+"end": 2.52
 },
 {
-"word": "Pain,",
+"word": "to",
+"start": 2.52,
+"end": 3.02
+},
+{
+"word": "what",
+"start": 3.02,
+"end": 3.18
+},
+{
+"word": "it",
 "start": 3.18,
-"end": 3.44
+"end": 3.3
 },
 {
-"word": "cold,",
-"start": 3.88,
-"end": 4.08
+"word": "has",
+"start": 3.3,
+"end": 3.4
 },
 {
-"word": "chaos",
-"start": 4.32,
-"end": 4.62
+"word": "never",
+"start": 3.4,
+"end": 3.64
 },
 {
-"word": "and",
-"start": 4.62,
-"end": 4.9
+"word": "seen",
+"start": 3.64,
+"end": 3.94
 },
 {
-"word": "the",
-"start": 4.9,
-"end": 5.02
-},
-{
-"word": "crush",
-"start": 5.02,
-"end": 5.18
-},
-{
-"word": "of",
-"start": 5.18,
-"end": 5.36
-},
-{
-"word": "the",
-"start": 5.36,
-"end": 5.5
-},
-{
-"word": "shield",
-"start": 5.5,
-"end": 5.72
-},
-{
-"word": "wall,",
-"start": 5.72,
-"end": 6.06
-},
-{
-"word": "all",
-"start": 6.06,
-"end": 6.42
-},
-{
-"word": "familiar.",
-"start": 6.42,
-"end": 6.78
+"word": "before.",
+"start": 3.94,
+"end": 4.34
 }
 ]

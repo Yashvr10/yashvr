@@ -1,27 +1,47 @@
 [
 {
-"word": "Fear",
+"word": "The",
 "start": 0.0,
-"end": 0.24
+"end": 0.14
 },
 {
-"word": "feeds",
-"start": 0.24,
-"end": 0.7
+"word": "Spartans",
+"start": 0.14,
+"end": 0.54
 },
 {
-"word": "on",
-"start": 0.7,
-"end": 1.16
+"word": "were",
+"start": 0.54,
+"end": 0.88
 },
 {
-"word": "the",
-"start": 1.16,
-"end": 1.34
+"word": "not",
+"start": 0.88,
+"end": 1.08
 },
 {
-"word": "unknown.",
-"start": 1.34,
-"end": 1.82
+"word": "calm",
+"start": 1.08,
+"end": 1.48
+},
+{
+"word": "because",
+"start": 1.48,
+"end": 2.02
+},
+{
+"word": "they",
+"start": 2.02,
+"end": 2.28
+},
+{
+"word": "were",
+"start": 2.28,
+"end": 2.42
+},
+{
+"word": "fearless.",
+"start": 2.42,
+"end": 2.86
 }
 ]

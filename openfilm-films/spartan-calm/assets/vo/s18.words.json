@@ -1,52 +1,97 @@
 [
 {
-"word": "He",
+"word": "The",
 "start": 0.0,
-"end": 0.12
+"end": 0.14
 },
 {
-"word": "replied,",
-"start": 0.12,
-"end": 0.48
+"word": "Persian",
+"start": 0.14,
+"end": 0.42
 },
 {
-"word": "\"Good.",
-"start": 0.8,
-"end": 0.96
+"word": "archers",
+"start": 0.42,
+"end": 0.86
 },
 {
-"word": "Then",
-"start": 1.36,
-"end": 1.46
+"word": "were",
+"start": 0.86,
+"end": 1.06
 },
 {
-"word": "we",
-"start": 1.46,
-"end": 1.56
+"word": "so",
+"start": 1.06,
+"end": 1.32
 },
 {
-"word": "will",
-"start": 1.56,
-"end": 1.7
+"word": "many,",
+"start": 1.32,
+"end": 1.64
 },
 {
-"word": "fight",
-"start": 1.7,
-"end": 1.92
+"word": "he",
+"start": 1.94,
+"end": 2.04
 },
 {
-"word": "in",
-"start": 1.92,
-"end": 2.12
+"word": "said,",
+"start": 2.04,
+"end": 2.32
+},
+{
+"word": "that",
+"start": 2.64,
+"end": 2.82
+},
+{
+"word": "when",
+"start": 2.82,
+"end": 2.98
+},
+{
+"word": "they",
+"start": 2.98,
+"end": 3.14
+},
+{
+"word": "fired,",
+"start": 3.14,
+"end": 3.54
+},
+{
+"word": "their",
+"start": 3.92,
+"end": 4.04
+},
+{
+"word": "arrows",
+"start": 4.04,
+"end": 4.44
+},
+{
+"word": "would",
+"start": 4.44,
+"end": 4.68
+},
+{
+"word": "blot",
+"start": 4.68,
+"end": 4.92
+},
+{
+"word": "out",
+"start": 4.92,
+"end": 5.14
 },
 {
 "word": "the",
-"start": 2.12,
-"end": 2.26
+"start": 5.14,
+"end": 5.32
 },
 {
-"word": "shade.\"",
-"start": 2.26,
-"end": 2.52
+"word": "sun.",
+"start": 5.32,
+"end": 5.54
 }
 ]

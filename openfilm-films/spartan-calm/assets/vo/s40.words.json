@@ -1,67 +1,77 @@
 [
 {
-"word": "If",
+"word": "The",
 "start": 0.0,
 "end": 0.14
 },
 {
-"word": "you",
+"word": "first",
 "start": 0.14,
-"end": 0.26
+"end": 0.34
 },
 {
-"word": "are",
-"start": 0.26,
-"end": 0.38
+"word": "line",
+"start": 0.34,
+"end": 0.7
 },
 {
-"word": "afraid",
-"start": 0.38,
-"end": 0.68
+"word": "is",
+"start": 0.7,
+"end": 1.14
 },
 {
-"word": "of",
-"start": 0.68,
-"end": 0.86
+"word": "preparation",
+"start": 1.14,
+"end": 1.58
 },
 {
-"word": "speaking,",
-"start": 0.86,
-"end": 1.22
+"word": "so",
+"start": 1.58,
+"end": 2.14
 },
 {
-"word": "do",
-"start": 1.74,
-"end": 1.78
+"word": "deep",
+"start": 2.14,
+"end": 2.5
 },
 {
-"word": "not",
-"start": 1.78,
-"end": 1.94
+"word": "that",
+"start": 2.5,
+"end": 2.98
 },
 {
-"word": "rehearse",
-"start": 1.94,
-"end": 2.4
+"word": "there",
+"start": 2.98,
+"end": 3.14
 },
 {
-"word": "once",
-"start": 2.4,
-"end": 2.62
+"word": "is",
+"start": 3.14,
+"end": 3.28
 },
 {
-"word": "in",
-"start": 2.62,
-"end": 2.94
+"word": "very",
+"start": 3.28,
+"end": 3.58
 },
 {
-"word": "your",
-"start": 2.94,
-"end": 3.1
+"word": "little",
+"start": 3.58,
+"end": 3.78
 },
 {
-"word": "bedroom.",
-"start": 3.1,
-"end": 3.36
+"word": "left",
+"start": 3.78,
+"end": 4.12
+},
+{
+"word": "to",
+"start": 4.12,
+"end": 4.44
+},
+{
+"word": "regulate.",
+"start": 4.44,
+"end": 4.84
 }
 ]

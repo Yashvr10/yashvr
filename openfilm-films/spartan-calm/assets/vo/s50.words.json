@@ -1,47 +1,27 @@
 [
 {
-"word": "And",
+"word": "That",
 "start": 0.0,
-"end": 0.14
+"end": 0.18
 },
 {
-"word": "you",
-"start": 0.14,
-"end": 0.28
-},
-{
-"word": "will",
-"start": 0.28,
-"end": 0.44
-},
-{
-"word": "meet",
-"start": 0.44,
-"end": 0.64
-},
-{
-"word": "it",
-"start": 0.64,
-"end": 0.88
+"word": "was",
+"start": 0.18,
+"end": 0.38
 },
 {
 "word": "the",
-"start": 0.88,
-"end": 1.18
+"start": 0.38,
+"end": 0.56
 },
 {
-"word": "way",
-"start": 1.18,
-"end": 1.36
+"word": "Spartan",
+"start": 0.56,
+"end": 0.98
 },
 {
-"word": "they",
-"start": 1.36,
-"end": 1.56
-},
-{
-"word": "did.",
-"start": 1.56,
-"end": 1.86
+"word": "secret.",
+"start": 0.98,
+"end": 1.48
 }
 ]
