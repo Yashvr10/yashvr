@@ -1,0 +1,659 @@
+{
+ "voice": "bm_george",
+ "speed": 1.1,
+ "scenes": [
+  {
+   "id": "ch1",
+   "card": "chapter",
+   "a": "SPARTAN",
+   "b": "CALM",
+   "len": 3.4
+  },
+  {
+   "id": "s01",
+   "text": "Most people think calm is something you summon in the moment.",
+   "th": [
+    "statue",
+    "face"
+   ],
+   "emph": [
+    "calm"
+   ],
+   "full": false,
+   "gap": 0.5
+  },
+  {
+   "id": "s02",
+   "text": "A deep breath before the big meeting. A pep talk in the car park. A trick to quiet the shaking hands.",
+   "th": [
+    "face",
+    "hands"
+   ],
+   "emph": [],
+   "full": false,
+   "gap": 0.5
+  },
+  {
+   "id": "s03",
+   "text": "The Spartans knew something different.",
+   "th": [
+    "hoplite"
+   ],
+   "emph": [
+    "Spartans"
+   ],
+   "full": true,
+   "gap": 0.5
+  },
+  {
+   "id": "s04",
+   "text": "Calm is not summoned. It is built. Long before the moment ever arrives.",
+   "th": [
+    "hoplite",
+    "helmet"
+   ],
+   "emph": [
+    "built"
+   ],
+   "full": false,
+   "gap": 0.8
+  },
+  {
+   "id": "ch2",
+   "card": "chapter",
+   "a": "THE",
+   "b": "AGOGE",
+   "len": 2.8
+  },
+  {
+   "id": "s05",
+   "text": "At the age of seven, a Spartan boy was taken from his home and handed to the agoge, a training system so brutal that the rest of Greece spoke about it with a kind of horror.",
+   "th": [
+    "boy",
+    "athlete",
+    "greece"
+   ],
+   "emph": [
+    "seven",
+    "horror"
+   ],
+   "full": false,
+   "gap": 0.5
+  },
+  {
+   "id": "s06",
+   "text": "He was given one cloak for the whole year.",
+   "th": [
+    "boy"
+   ],
+   "emph": [
+    "one"
+   ],
+   "full": false,
+   "gap": 0.5
+  },
+  {
+   "id": "s07",
+   "text": "No shoes. Barely enough food, so that he learned to go without.",
+   "th": [
+    "feet",
+    "hunger"
+   ],
+   "emph": [],
+   "full": false,
+   "gap": 0.5
+  },
+  {
+   "id": "s08",
+   "text": "He slept on reeds he cut from the river with his own hands.",
+   "th": [
+    "river",
+    "reeds"
+   ],
+   "emph": [],
+   "full": true,
+   "gap": 0.5
+  },
+  {
+   "id": "s09",
+   "text": "He ran, wrestled, marched and fought, day after day, season after season, for thirteen years.",
+   "th": [
+    "athlete",
+    "wrestle",
+    "march"
+   ],
+   "emph": [
+    "thirteen"
+   ],
+   "full": false,
+   "gap": 0.5
+  },
+  {
+   "id": "s10",
+   "text": "And here is the part most people miss.",
+   "th": [
+    "statue"
+   ],
+   "emph": [],
+   "full": false,
+   "gap": 0.7
+  },
+  {
+   "id": "s11",
+   "text": "None of this was meant to make war easier.",
+   "th": [
+    "battle"
+   ],
+   "emph": [
+    "easier"
+   ],
+   "full": false,
+   "gap": 0.5
+  },
+  {
+   "id": "s12",
+   "text": "It was meant to make war ordinary.",
+   "th": [
+    "hoplite"
+   ],
+   "emph": [
+    "ordinary"
+   ],
+   "full": true,
+   "gap": 0.9
+  },
+  {
+   "id": "ch3",
+   "card": "chapter",
+   "a": "THE",
+   "b": "SHADE",
+   "len": 2.8
+  },
+  {
+   "id": "s13",
+   "text": "When the Persian army marched on Greece, it was the largest force the ancient world had ever seen.",
+   "th": [
+    "persia",
+    "march"
+   ],
+   "emph": [
+    "largest"
+   ],
+   "full": true,
+   "gap": 0.5
+  },
+  {
+   "id": "s14",
+   "text": "At the pass of Thermopylae, a few thousand Greeks stood in its way, with three hundred Spartans at their centre.",
+   "th": [
+    "mountain",
+    "hoplite"
+   ],
+   "emph": [
+    "three",
+    "hundred"
+   ],
+   "full": false,
+   "gap": 0.5
+  },
+  {
+   "id": "s15",
+   "text": "A local man came to warn them.",
+   "th": [
+    "greece"
+   ],
+   "emph": [],
+   "full": false,
+   "gap": 0.5
+  },
+  {
+   "id": "s16",
+   "text": "The Persian archers were so many, he said, that when they fired, their arrows would blot out the sun.",
+   "th": [
+    "archer",
+    "sun"
+   ],
+   "emph": [
+    "sun"
+   ],
+   "full": false,
+   "gap": 0.5
+  },
+  {
+   "id": "s17",
+   "text": "A Spartan named Dienekes did not flinch.",
+   "th": [
+    "helmet"
+   ],
+   "emph": [],
+   "full": false,
+   "gap": 0.5
+  },
+  {
+   "id": "s18",
+   "text": "He replied, \"Good. Then we will fight in the shade.\"",
+   "th": [
+    "hoplite"
+   ],
+   "emph": [
+    "shade"
+   ],
+   "full": false,
+   "gap": 0.9
+  },
+  {
+   "id": "s19",
+   "text": "That is not bravado.",
+   "th": [
+    "statue"
+   ],
+   "emph": [],
+   "full": false,
+   "gap": 0.5
+  },
+  {
+   "id": "s20",
+   "text": "That is a man who has rehearsed the worst so many times that the worst no longer surprises him.",
+   "th": [
+    "helmet",
+    "battle"
+   ],
+   "emph": [
+    "rehearsed"
+   ],
+   "full": false,
+   "gap": 0.5
+  },
+  {
+   "id": "s21",
+   "text": "When Xerxes demanded that they lay down their weapons, Leonidas answered in two words.",
+   "th": [
+    "persia",
+    "spear"
+   ],
+   "emph": [
+    "Xerxes",
+    "Leonidas"
+   ],
+   "full": false,
+   "gap": 0.5
+  },
+  {
+   "id": "s22",
+   "text": "Come and take them.",
+   "th": [
+    "spear",
+    "shield"
+   ],
+   "emph": [
+    "come",
+    "and",
+    "take",
+    "them"
+   ],
+   "full": true,
+   "gap": 0.9
+  },
+  {
+   "id": "s23",
+   "text": "The Spartans were not calm because they were fearless.",
+   "th": [
+    "face"
+   ],
+   "emph": [
+    "fearless"
+   ],
+   "full": false,
+   "gap": 0.5
+  },
+  {
+   "id": "s24",
+   "text": "They were calm because nothing in front of them was new.",
+   "th": [
+    "hoplite"
+   ],
+   "emph": [
+    "new"
+   ],
+   "full": false,
+   "gap": 0.9
+  },
+  {
+   "id": "ch4",
+   "card": "chapter",
+   "a": "FAMILIAR",
+   "b": "GROUND",
+   "len": 2.8
+  },
+  {
+   "id": "s25",
+   "text": "Fear feeds on the unknown.",
+   "th": [
+    "storm"
+   ],
+   "emph": [
+    "unknown"
+   ],
+   "full": true,
+   "gap": 0.5
+  },
+  {
+   "id": "s26",
+   "text": "Your nervous system reacts most violently to what it has never seen before.",
+   "th": [
+    "face",
+    "storm"
+   ],
+   "emph": [],
+   "full": false,
+   "gap": 0.5
+  },
+  {
+   "id": "s27",
+   "text": "The Spartans removed the unknown.",
+   "th": [
+    "hoplite"
+   ],
+   "emph": [],
+   "full": false,
+   "gap": 0.5
+  },
+  {
+   "id": "s28",
+   "text": "They made hunger familiar. Exhaustion familiar. Pain, cold, chaos and the crush of the shield wall, all familiar.",
+   "th": [
+    "hunger",
+    "winter",
+    "battle",
+    "shield"
+   ],
+   "emph": [
+    "familiar"
+   ],
+   "full": false,
+   "gap": 0.5
+  },
+  {
+   "id": "s29",
+   "text": "So when the real moment came, their bodies did not panic. They recognised it.",
+   "th": [
+    "battle",
+    "statue"
+   ],
+   "emph": [
+    "recognised"
+   ],
+   "full": false,
+   "gap": 0.5
+  },
+  {
+   "id": "s30",
+   "text": "This is why a Spartan mother would hand her son his shield and say, \"Come back with it, or on it.\"",
+   "th": [
+    "mother",
+    "shield"
+   ],
+   "emph": [
+    "or",
+    "on",
+    "it"
+   ],
+   "full": false,
+   "gap": 0.5
+  },
+  {
+   "id": "s31",
+   "text": "There was no speech about courage. The courage had already been built, one hard day at a time.",
+   "th": [
+    "athlete",
+    "march"
+   ],
+   "emph": [
+    "built"
+   ],
+   "full": false,
+   "gap": 0.9
+  },
+  {
+   "id": "s32",
+   "text": "We do the opposite.",
+   "th": [
+    "face"
+   ],
+   "emph": [],
+   "full": true,
+   "gap": 0.5
+  },
+  {
+   "id": "s33",
+   "text": "We prepare just enough to get by, and then we try to manage the nerves when the moment arrives.",
+   "th": [
+    "hands",
+    "face"
+   ],
+   "emph": [],
+   "full": false,
+   "gap": 0.5
+  },
+  {
+   "id": "s34",
+   "text": "Breathing techniques. Positive self-talk. Telling ourselves that anxiety is just excitement.",
+   "th": [
+    "face",
+    "statue"
+   ],
+   "emph": [],
+   "full": false,
+   "gap": 0.5
+  },
+  {
+   "id": "s35",
+   "text": "These tools are useful. They can steady you.",
+   "th": [
+    "statue"
+   ],
+   "emph": [],
+   "full": false,
+   "gap": 0.5
+  },
+  {
+   "id": "s36",
+   "text": "But they are the second line of defence.",
+   "th": [
+    "shield"
+   ],
+   "emph": [
+    "second"
+   ],
+   "full": false,
+   "gap": 0.5
+  },
+  {
+   "id": "s37",
+   "text": "The first line is preparation so deep that there is very little left to regulate.",
+   "th": [
+    "hoplite",
+    "athlete"
+   ],
+   "emph": [
+    "preparation"
+   ],
+   "full": false,
+   "gap": 0.9
+  },
+  {
+   "id": "ch5",
+   "card": "chapter",
+   "a": "YOUR",
+   "b": "AGOGE",
+   "len": 2.8
+  },
+  {
+   "id": "s38",
+   "text": "The goal is not to feel no fear.",
+   "th": [
+    "face"
+   ],
+   "emph": [],
+   "full": false,
+   "gap": 0.5
+  },
+  {
+   "id": "s39",
+   "text": "The goal is to make the challenge so familiar that fear has nothing new to say.",
+   "th": [
+    "helmet"
+   ],
+   "emph": [
+    "familiar"
+   ],
+   "full": false,
+   "gap": 0.5
+  },
+  {
+   "id": "s40",
+   "text": "If you are afraid of speaking, do not rehearse once in your bedroom.",
+   "th": [
+    "orator"
+   ],
+   "emph": [],
+   "full": false,
+   "gap": 0.5
+  },
+  {
+   "id": "s41",
+   "text": "Rehearse until the words bore you. Rehearse in front of people who will interrupt you, question you, and try to throw you off.",
+   "th": [
+    "orator",
+    "crowd"
+   ],
+   "emph": [
+    "bore"
+   ],
+   "full": false,
+   "gap": 0.5
+  },
+  {
+   "id": "s42",
+   "text": "If you are afraid of the big game, train harder than the game will ever ask of you.",
+   "th": [
+    "athlete",
+    "wrestle"
+   ],
+   "emph": [
+    "harder"
+   ],
+   "full": false,
+   "gap": 0.5
+  },
+  {
+   "id": "s43",
+   "text": "If you are afraid of the interview, practise the hardest question you can imagine, until you could answer it half asleep.",
+   "th": [
+    "scholar",
+    "face"
+   ],
+   "emph": [],
+   "full": false,
+   "gap": 0.5
+  },
+  {
+   "id": "s44",
+   "text": "Make your training the storm, so that the performance feels like shelter.",
+   "th": [
+    "storm",
+    "sea"
+   ],
+   "emph": [
+    "storm",
+    "shelter"
+   ],
+   "full": true,
+   "gap": 0.5
+  },
+  {
+   "id": "s45",
+   "text": "Raise the standard of your preparation so high that the real thing feels like rest.",
+   "th": [
+    "athlete",
+    "statue"
+   ],
+   "emph": [
+    "rest"
+   ],
+   "full": false,
+   "gap": 0.9
+  },
+  {
+   "id": "s46",
+   "text": "That was the Spartan secret.",
+   "th": [
+    "hoplite"
+   ],
+   "emph": [
+    "secret"
+   ],
+   "full": true,
+   "gap": 0.5
+  },
+  {
+   "id": "s47",
+   "text": "Not a trick for the moment. A life spent making the moment familiar.",
+   "th": [
+    "march",
+    "greece"
+   ],
+   "emph": [],
+   "full": false,
+   "gap": 0.5
+  },
+  {
+   "id": "s48",
+   "text": "So the next time pressure arrives, it will not be a stranger knocking at your door.",
+   "th": [
+    "door"
+   ],
+   "emph": [],
+   "full": false,
+   "gap": 0.5
+  },
+  {
+   "id": "s49",
+   "text": "It will be an old enemy you have faced a thousand times before.",
+   "th": [
+    "battle",
+    "helmet"
+   ],
+   "emph": [
+    "thousand"
+   ],
+   "full": false,
+   "gap": 0.5
+  },
+  {
+   "id": "s50",
+   "text": "And you will meet it the way they did.",
+   "th": [
+    "hoplite"
+   ],
+   "emph": [],
+   "full": false,
+   "gap": 0.6
+  },
+  {
+   "id": "s51",
+   "text": "Calm. Ready. Unmoved.",
+   "th": [
+    "statue",
+    "helmet"
+   ],
+   "emph": [
+    "calm",
+    "ready",
+    "unmoved"
+   ],
+   "full": true,
+   "gap": 1.6
+  }
+ ]
+}
