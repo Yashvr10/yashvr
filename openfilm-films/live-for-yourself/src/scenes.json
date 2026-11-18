@@ -1,0 +1,1956 @@
+{
+ "voice": "bm_george",
+ "speed": 0.97,
+ "scenes": [
+  {
+   "id": "s001",
+   "text": "Nearly two thousand years ago, the most powerful man in the world sat alone in a tent on the frontier of his empire and wrote a note to himself.",
+   "th": [
+    "marcus"
+   ],
+   "big": "alone",
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s002",
+   "text": "I have often wondered, he wrote, how it is that every man loves himself more than all the rest of men, and yet sets less value on his own opinion of himself than on the opinion of others.",
+   "th": [
+    "marcus"
+   ],
+   "big": "opinion",
+   "red": true,
+   "gap": 0.9
+  },
+  {
+   "id": "s003",
+   "text": "The man was Marcus Aurelius, emperor of Rome.",
+   "th": [
+    "marcus"
+   ],
+   "big": "Marcus",
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s004",
+   "text": "He commanded armies. He could end a life with a word.",
+   "th": [
+    "marcus",
+    "crowd"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s005",
+   "text": "And still, at night, he caught himself wondering what other people thought of him.",
+   "th": [
+    "night",
+    "marcus"
+   ],
+   "big": "wondering",
+   "red": false,
+   "gap": 0.8
+  },
+  {
+   "id": "s006",
+   "text": "If an emperor could not escape it, it is no surprise that we cannot.",
+   "th": [
+    "face"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s007",
+   "text": "We check how the photo was received. We replay the conversation on the drive home.",
+   "th": [
+    "face",
+    "night"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s008",
+   "text": "We choose the job our parents can be proud of, the clothes that will not be laughed at, the opinions that will not cause trouble.",
+   "th": [
+    "crowd",
+    "face"
+   ],
+   "big": "proud",
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s009",
+   "text": "And slowly, without ever deciding to, we begin to live a life that is shaped by other people's eyes.",
+   "th": [
+    "crowd"
+   ],
+   "big": "eyes",
+   "red": true,
+   "gap": 0.8
+  },
+  {
+   "id": "s010",
+   "text": "This video is about how to stop.",
+   "th": [
+    "face"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.3
+  },
+  {
+   "id": "s011",
+   "text": "It is about an idea from a Viennese doctor named Alfred Adler, made famous again by a small Japanese book with a strange title.",
+   "th": [
+    "adler"
+   ],
+   "big": "Adler",
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s012",
+   "text": "The Courage to Be Disliked.",
+   "th": [
+    "adler",
+    "face"
+   ],
+   "big": "Disliked",
+   "red": true,
+   "gap": 0.8
+  },
+  {
+   "id": "s013",
+   "text": "It is not a book about becoming rude, or cold, or careless of other people.",
+   "th": [
+    "face"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s014",
+   "text": "It is about something much harder.",
+   "th": [
+    "face"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.3
+  },
+  {
+   "id": "s015",
+   "text": "Living your own life, while other people are watching.",
+   "th": [
+    "alone",
+    "crowd"
+   ],
+   "big": "own",
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "ch1",
+   "card": "chapter",
+   "num": "I",
+   "title": "The invisible audience",
+   "len": 4.4
+  },
+  {
+   "id": "s016",
+   "text": "Think about the first years of your life.",
+   "th": [
+    "child"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.3
+  },
+  {
+   "id": "s017",
+   "text": "You took your first step, and the whole room clapped.",
+   "th": [
+    "child"
+   ],
+   "big": "clapped",
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s018",
+   "text": "You brought home a good mark, and you were praised. You broke a plate, and you were scolded.",
+   "th": [
+    "child",
+    "school"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s019",
+   "text": "Long before you could think for yourself, you had learned a simple rule.",
+   "th": [
+    "child",
+    "school"
+   ],
+   "big": "rule",
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s020",
+   "text": "Good is whatever earns approval. Bad is whatever earns punishment.",
+   "th": [
+    "school"
+   ],
+   "big": "approval",
+   "red": true,
+   "gap": 0.75
+  },
+  {
+   "id": "s021",
+   "text": "Adler believed that this kind of upbringing, built on reward and punishment, quietly teaches a child to need an audience.",
+   "th": [
+    "adler",
+    "school"
+   ],
+   "big": "audience",
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s022",
+   "text": "The child does not ask, is this right? The child asks, will someone see it, and will they be pleased?",
+   "th": [
+    "child"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.7
+  },
+  {
+   "id": "s023",
+   "text": "Then the child grows up, and the audience grows with him.",
+   "th": [
+    "crowd"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.3
+  },
+  {
+   "id": "s024",
+   "text": "First it is parents and teachers. Then friends, and colleagues, and a boss.",
+   "th": [
+    "crowd",
+    "school"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s025",
+   "text": "Then strangers on a screen, whose faces we will never see.",
+   "th": [
+    "crowd",
+    "night"
+   ],
+   "big": "strangers",
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s026",
+   "text": "We carry them everywhere, an invisible audience, watching every move and keeping score.",
+   "th": [
+    "crowd",
+    "theatre"
+   ],
+   "big": "invisible",
+   "red": true,
+   "gap": 0.75
+  },
+  {
+   "id": "s027",
+   "text": "And because we never chose them, we rarely notice how much of our life they are deciding.",
+   "th": [
+    "face"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.7
+  },
+  {
+   "id": "s028",
+   "text": "Most people would say that wanting approval is simply human.",
+   "th": [
+    "face"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s029",
+   "text": "Of course we want to be liked. We are social animals.",
+   "th": [
+    "crowd"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s030",
+   "text": "Adler agreed that we belong to one another. That was the centre of his whole philosophy.",
+   "th": [
+    "adler"
+   ],
+   "big": "belong",
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s031",
+   "text": "But he drew a sharp line between belonging and being approved of.",
+   "th": [
+    "adler"
+   ],
+   "big": "line",
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s032",
+   "text": "Belonging is knowing you have a place among people.",
+   "th": [
+    "feast",
+    "crowd"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s033",
+   "text": "Approval is a wage they pay you for behaving as they wish.",
+   "th": [
+    "crowd",
+    "theatre"
+   ],
+   "big": "wage",
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s034",
+   "text": "And the trouble with a wage is that it can always be withdrawn.",
+   "th": [
+    "face"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "ch2",
+   "card": "chapter",
+   "num": "II",
+   "title": "Goals, not causes",
+   "len": 4.4
+  },
+  {
+   "id": "s035",
+   "text": "Alfred Adler was born near Vienna in 1870. He was a sickly child, he nearly died of pneumonia, and he grew up in the shadow of a gifted older brother.",
+   "th": [
+    "adler",
+    "child"
+   ],
+   "big": "Vienna",
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s036",
+   "text": "He became a doctor, and in 1902 he was invited to join a small circle of thinkers that met every Wednesday in the apartment of Sigmund Freud.",
+   "th": [
+    "adler",
+    "writer"
+   ],
+   "big": "Freud",
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s037",
+   "text": "For nine years he sat in that circle. And then he walked out of it.",
+   "th": [
+    "adler"
+   ],
+   "big": "walked",
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s038",
+   "text": "Freud believed that we are driven by our past. That the wounds of childhood push us, like a machine, into the people we become.",
+   "th": [
+    "writer",
+    "storm"
+   ],
+   "big": "past",
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s039",
+   "text": "Adler came to believe the opposite.",
+   "th": [
+    "adler"
+   ],
+   "big": "opposite",
+   "red": true,
+   "gap": 0.5
+  },
+  {
+   "id": "s040",
+   "text": "We are not pushed by causes, he said. We are pulled by goals.",
+   "th": [
+    "adler",
+    "morning"
+   ],
+   "big": "goals",
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s041",
+   "text": "Everything we think, feel and do is aimed at something, even when we are not aware of what it is.",
+   "th": [
+    "face"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s042",
+   "text": "Imagine a young man who has a job interview on Monday.",
+   "th": [
+    "face"
+   ],
+   "big": "Monday",
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s043",
+   "text": "All week he is so anxious that he cannot prepare. On the morning of the interview, his hands shake and his stomach turns, and he stays at home.",
+   "th": [
+    "night",
+    "face"
+   ],
+   "big": "anxious",
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s044",
+   "text": "The usual explanation is simple. He was too anxious to go.",
+   "th": [
+    "face"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s045",
+   "text": "Adler would turn it around. He did not stay home because he was anxious. He became anxious, so that he could stay home.",
+   "th": [
+    "adler",
+    "face"
+   ],
+   "big": "anxious",
+   "red": true,
+   "gap": 0.75
+  },
+  {
+   "id": "s046",
+   "text": "His real goal was never the job. It was to avoid the risk of being judged and found lacking.",
+   "th": [
+    "face",
+    "crowd"
+   ],
+   "big": "judged",
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s047",
+   "text": "And fear was the perfect tool for it. It gave him a reason no one could argue with.",
+   "th": [
+    "night"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.8
+  },
+  {
+   "id": "s048",
+   "text": "This sounds harsh. It can feel like blaming a person for his own pain.",
+   "th": [
+    "face"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s049",
+   "text": "But Adler was not interested in blame. He was interested in freedom.",
+   "th": [
+    "adler",
+    "morning"
+   ],
+   "big": "freedom",
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s050",
+   "text": "If you are only the product of your past, you are stuck. Nobody can go back and change what happened to them.",
+   "th": [
+    "storm"
+   ],
+   "big": "stuck",
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s051",
+   "text": "But if you are moving toward a goal, you can choose a different goal.",
+   "th": [
+    "morning"
+   ],
+   "big": "choose",
+   "red": true,
+   "gap": 0.75
+  },
+  {
+   "id": "s052",
+   "text": "Adler did not deny that terrible things happen to people.",
+   "th": [
+    "storm"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s053",
+   "text": "He simply noticed that two people can live through the same hardship, and one is crushed by it while the other is made by it.",
+   "th": [
+    "storm",
+    "face"
+   ],
+   "big": "same",
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s054",
+   "text": "What decides it is not the experience. It is the meaning we give the experience.",
+   "th": [
+    "face"
+   ],
+   "big": "meaning",
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s055",
+   "text": "Whatever has happened in your life until now, it does not have to decide how you live from now on.",
+   "th": [
+    "morning"
+   ],
+   "big": "now",
+   "red": true,
+   "gap": 0.75
+  },
+  {
+   "id": "s056",
+   "text": "That is the first piece of courage this philosophy asks for.",
+   "th": [
+    "alone"
+   ],
+   "big": "courage",
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "ch3",
+   "card": "chapter",
+   "num": "III",
+   "title": "The price of approval",
+   "len": 4.4
+  },
+  {
+   "id": "s057",
+   "text": "Now look at approval through Adler's eyes.",
+   "th": [
+    "crowd"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s058",
+   "text": "If our lives are pulled by goals, then the question is not why do I feel this way. The question is, what am I trying to achieve?",
+   "th": [
+    "face"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s059",
+   "text": "And for a great many people, the honest answer is this. I am trying to be seen as good by others.",
+   "th": [
+    "crowd",
+    "face"
+   ],
+   "big": "seen",
+   "red": true,
+   "gap": 0.75
+  },
+  {
+   "id": "s060",
+   "text": "It looks like an innocent goal. It may even look like a kind one.",
+   "th": [
+    "feast"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s061",
+   "text": "But follow it to the end, and you find that it costs three things.",
+   "th": [
+    "face"
+   ],
+   "big": "three",
+   "red": false,
+   "gap": 0.7
+  },
+  {
+   "id": "s062",
+   "text": "The first is your freedom.",
+   "th": [
+    "alone"
+   ],
+   "big": "freedom",
+   "red": true,
+   "gap": 0.75
+  },
+  {
+   "id": "s063",
+   "text": "When you live for approval, you must measure every choice with someone else's ruler.",
+   "th": [
+    "crowd",
+    "school"
+   ],
+   "big": "ruler",
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s064",
+   "text": "Is this the right career? You do not ask yourself. You ask, will they think it is impressive?",
+   "th": [
+    "crowd"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s065",
+   "text": "Is this the right partner, the right house, the right thing to say? Will they approve?",
+   "th": [
+    "crowd",
+    "face"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s066",
+   "text": "You may receive a great deal of praise that way. But each piece of it is a small chain.",
+   "th": [
+    "crowd"
+   ],
+   "big": "chain",
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s067",
+   "text": "Because to keep being praised, you must keep being what they praised.",
+   "th": [
+    "theatre"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.7
+  },
+  {
+   "id": "s068",
+   "text": "The second thing it costs is the goal itself.",
+   "th": [
+    "face"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s069",
+   "text": "Because approval is not in your hands. It never was.",
+   "th": [
+    "crowd"
+   ],
+   "big": "hands",
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s070",
+   "text": "You can be honest, generous, talented and kind, and someone will still not like you. Someone will like you for being funny and dislike you for being serious.",
+   "th": [
+    "crowd",
+    "face"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s071",
+   "text": "You can twist yourself into a hundred shapes and never satisfy everyone.",
+   "th": [
+    "theatre"
+   ],
+   "big": "hundred",
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s072",
+   "text": "And people who realise this often make a strange choice.",
+   "th": [
+    "face"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s073",
+   "text": "Instead of letting go of the need for approval, they give up trying to earn it, and hide behind the giving up.",
+   "th": [
+    "night",
+    "face"
+   ],
+   "big": "hide",
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s074",
+   "text": "I am not clever enough. I am not attractive enough. People like me never get anywhere.",
+   "th": [
+    "night"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.4
+  },
+  {
+   "id": "s075",
+   "text": "It feels like honesty. But it is the job interview again.",
+   "th": [
+    "face"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s076",
+   "text": "The belief that they are flawed protects them from the risk of trying and being rejected.",
+   "th": [
+    "night"
+   ],
+   "big": "flawed",
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s077",
+   "text": "They have not escaped the audience. They have just stopped going on stage.",
+   "th": [
+    "theatre"
+   ],
+   "big": "stage",
+   "red": true,
+   "gap": 0.8
+  },
+  {
+   "id": "s078",
+   "text": "And the third thing it costs is the people around you.",
+   "th": [
+    "crowd",
+    "feast"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s079",
+   "text": "If my worth depends on being seen as good, then every other person is a rival for the same small light.",
+   "th": [
+    "race",
+    "crowd"
+   ],
+   "big": "rival",
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s080",
+   "text": "When a friend succeeds, something in me shrinks. When a colleague is praised, I feel I have lost.",
+   "th": [
+    "race",
+    "face"
+   ],
+   "big": "lost",
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s081",
+   "text": "Life becomes a race, with a few winners and many losers, and I am always checking where I stand.",
+   "th": [
+    "race"
+   ],
+   "big": "race",
+   "red": true,
+   "gap": 0.75
+  },
+  {
+   "id": "s082",
+   "text": "It even poisons kindness.",
+   "th": [
+    "feast"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.3
+  },
+  {
+   "id": "s083",
+   "text": "Imagine you throw a surprise party for a friend. You plan it for weeks.",
+   "th": [
+    "feast"
+   ],
+   "big": "party",
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s084",
+   "text": "Then your birthday comes, and your friend does nothing at all.",
+   "th": [
+    "face",
+    "night"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s085",
+   "text": "If you were giving in order to receive, you will feel cheated. The gift was never a gift. It was a loan.",
+   "th": [
+    "feast",
+    "face"
+   ],
+   "big": "loan",
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s086",
+   "text": "Kishimi and Koga put it simply. A person who is obsessed with recognition is really only thinking about himself.",
+   "th": [
+    "writer",
+    "face"
+   ],
+   "big": "himself",
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "ch4",
+   "card": "chapter",
+   "num": "IV",
+   "title": "Whose task is it?",
+   "len": 4.4
+  },
+  {
+   "id": "s087",
+   "text": "So how do you stop?",
+   "th": [
+    "face"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.3
+  },
+  {
+   "id": "s088",
+   "text": "Adler's answer begins with one plain question, which you can ask about almost any worry in your life.",
+   "th": [
+    "adler"
+   ],
+   "big": "question",
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s089",
+   "text": "Whose task is this?",
+   "th": [
+    "adler",
+    "face"
+   ],
+   "big": "task",
+   "red": true,
+   "gap": 0.8
+  },
+  {
+   "id": "s090",
+   "text": "There is an old saying. You can lead a horse to water, but you cannot make it drink.",
+   "th": [
+    "horse"
+   ],
+   "big": "horse",
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s091",
+   "text": "Leading the horse is your task. Drinking is the horse's.",
+   "th": [
+    "horse"
+   ],
+   "big": "drinking",
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s092",
+   "text": "Most of our suffering in relationships, Adler believed, comes from reaching into tasks that are not ours, or letting others reach into ours.",
+   "th": [
+    "crowd",
+    "face"
+   ],
+   "big": "reaching",
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s093",
+   "text": "Doing your work well is your task. Whether your boss notices is your boss's task.",
+   "th": [
+    "work"
+   ],
+   "big": "your",
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s094",
+   "text": "Being kind to someone is your task. Whether they like you for it is theirs.",
+   "th": [
+    "feast",
+    "face"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s095",
+   "text": "Choosing your path is your task. What your family, your friends, or the strangers online make of it, is theirs.",
+   "th": [
+    "alone",
+    "crowd"
+   ],
+   "big": "path",
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s096",
+   "text": "This is not a wall between you and other people. You can still care, still help, still listen.",
+   "th": [
+    "feast",
+    "help"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s097",
+   "text": "It is only an honest map of where your power ends.",
+   "th": [
+    "morning"
+   ],
+   "big": "ends",
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s098",
+   "text": "You cannot control what anyone thinks of you. You can only control how you live.",
+   "th": [
+    "alone"
+   ],
+   "big": "control",
+   "red": true,
+   "gap": 0.75
+  },
+  {
+   "id": "s099",
+   "text": "And there is a strange relief in that.",
+   "th": [
+    "morning"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.3
+  },
+  {
+   "id": "s100",
+   "text": "Because the moment you hand back other people's tasks, you no longer have to carry them.",
+   "th": [
+    "alone",
+    "morning"
+   ],
+   "big": "relief",
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s101",
+   "text": "Their opinion is still there. It just no longer belongs to you.",
+   "th": [
+    "face"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "ch5",
+   "card": "chapter",
+   "num": "V",
+   "title": "The salon of the refused",
+   "len": 4.4
+  },
+  {
+   "id": "s102",
+   "text": "Here is what that looks like in a real life.",
+   "th": [
+    "salon"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.3
+  },
+  {
+   "id": "s103",
+   "text": "In the nineteenth century, there was only one way to succeed as a painter in France. You had to be accepted by the Salon.",
+   "th": [
+    "salon"
+   ],
+   "big": "Salon",
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s104",
+   "text": "It was the great official exhibition in Paris, judged by a jury of the Academy.",
+   "th": [
+    "salon",
+    "crowd"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s105",
+   "text": "The jury decided what good painting was. Smooth surfaces. Gods and heroes. History and myth. Polished, perfect, approved.",
+   "th": [
+    "salon",
+    "academic"
+   ],
+   "big": "approved",
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s106",
+   "text": "A painter the Salon rejected could not sell his work. Collectors would not touch him. Critics would not write about him.",
+   "th": [
+    "salon"
+   ],
+   "big": "rejected",
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s107",
+   "text": "In 1863, the jury turned away so many paintings that the Emperor allowed the rejected works to be shown in a separate hall.",
+   "th": [
+    "salon",
+    "manet"
+   ],
+   "big": "1863",
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s108",
+   "text": "It became known as the Salon of the Refused. And the crowds came to laugh.",
+   "th": [
+    "manet",
+    "crowd"
+   ],
+   "big": "laugh",
+   "red": true,
+   "gap": 0.75
+  },
+  {
+   "id": "s109",
+   "text": "One painting drew the most laughter of all, Le Dejeuner sur l'herbe, by Edouard Manet.",
+   "th": [
+    "manet"
+   ],
+   "big": "Manet",
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s110",
+   "text": "Critics called it vulgar. People stood in front of it and jeered.",
+   "th": [
+    "manet",
+    "crowd"
+   ],
+   "big": "jeered",
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s111",
+   "text": "A group of younger painters was watching. Claude Monet. Pierre Auguste Renoir. Camille Pissarro. Edgar Degas.",
+   "th": [
+    "monet",
+    "impression"
+   ],
+   "big": "Monet",
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s112",
+   "text": "They painted in a way the Academy hated. Quick, broken brushstrokes. Ordinary people, railway stations, gardens, rivers. Light, instead of legends.",
+   "th": [
+    "impression"
+   ],
+   "big": "light",
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s113",
+   "text": "Year after year, the Salon rejected them.",
+   "th": [
+    "impression",
+    "salon"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s114",
+   "text": "They had a choice, and it was the same choice that every person who lives for approval eventually faces.",
+   "th": [
+    "monet",
+    "face"
+   ],
+   "big": "choice",
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s115",
+   "text": "They could paint what the jury wanted, and be accepted. Or they could paint what they saw, and be disliked.",
+   "th": [
+    "impression",
+    "salon"
+   ],
+   "big": "disliked",
+   "red": true,
+   "gap": 0.75
+  },
+  {
+   "id": "s116",
+   "text": "In 1874, they stopped waiting for permission.",
+   "th": [
+    "monet"
+   ],
+   "big": "permission",
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s117",
+   "text": "They rented the old studio of a photographer in Paris and put on an exhibition of their own.",
+   "th": [
+    "impression"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s118",
+   "text": "Monet hung a small, misty picture of a harbour at dawn, and called it Impression, Sunrise.",
+   "th": [
+    "impression",
+    "monet"
+   ],
+   "big": "Sunrise",
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s119",
+   "text": "A critic named Louis Leroy went to see it and wrote a mocking review.",
+   "th": [
+    "writer",
+    "impression"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s120",
+   "text": "He said that wallpaper in its first stage was more finished than that painting. And he called the whole group, with contempt, the Impressionists.",
+   "th": [
+    "impression"
+   ],
+   "big": "Impressionists",
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s121",
+   "text": "They took the insult and made it their name.",
+   "th": [
+    "monet"
+   ],
+   "big": "name",
+   "red": true,
+   "gap": 0.75
+  },
+  {
+   "id": "s122",
+   "text": "Notice what they did and did not do.",
+   "th": [
+    "impression"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.3
+  },
+  {
+   "id": "s123",
+   "text": "They did not stop caring about painting. They did not stop wanting people to see their work.",
+   "th": [
+    "impression",
+    "crowd"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s124",
+   "text": "They simply understood whose task was whose.",
+   "th": [
+    "monet"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s125",
+   "text": "Painting honestly was their task. Whether the jury approved, and whether the critics laughed, was not.",
+   "th": [
+    "impression",
+    "salon"
+   ],
+   "big": "honestly",
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s126",
+   "text": "Today the paintings the Salon celebrated hang in storerooms, and most of their names are forgotten.",
+   "th": [
+    "salon",
+    "academic"
+   ],
+   "big": "forgotten",
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s127",
+   "text": "And people cross the world, and stand in line for hours, to look at the light the Impressionists were laughed at for painting.",
+   "th": [
+    "impression",
+    "crowd"
+   ],
+   "big": "light",
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s128",
+   "text": "There is an older story with the same lesson.",
+   "th": [
+    "diogenes"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.3
+  },
+  {
+   "id": "s129",
+   "text": "When Alexander the Great was the master of Greece, he went to visit the philosopher Diogenes, who owned almost nothing and lived in the street.",
+   "th": [
+    "diogenes",
+    "alexander"
+   ],
+   "big": "Diogenes",
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s130",
+   "text": "Alexander stood over him and asked if there was anything he could do for him.",
+   "th": [
+    "alexander"
+   ],
+   "big": "anything",
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s131",
+   "text": "Diogenes looked up and said, yes. Stand a little out of my sun.",
+   "th": [
+    "diogenes"
+   ],
+   "big": "sun",
+   "red": true,
+   "gap": 0.75
+  },
+  {
+   "id": "s132",
+   "text": "The most powerful man in the world could offer him nothing he needed.",
+   "th": [
+    "diogenes",
+    "alexander"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s133",
+   "text": "And the story goes that as Alexander walked away, he said that if he were not Alexander, he would wish to be Diogenes.",
+   "th": [
+    "alexander"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "ch6",
+   "card": "chapter",
+   "num": "VI",
+   "title": "Of use to someone",
+   "len": 4.4
+  },
+  {
+   "id": "s134",
+   "text": "But there is a danger in everything we have said so far.",
+   "th": [
+    "face"
+   ],
+   "big": "danger",
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s135",
+   "text": "If you stop living for other people's approval, do you simply stop caring about other people?",
+   "th": [
+    "alone",
+    "crowd"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s136",
+   "text": "Adler's answer was no. In fact, it was the opposite.",
+   "th": [
+    "adler"
+   ],
+   "big": "opposite",
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s137",
+   "text": "The final step of his philosophy was something he called community feeling. The sense that you belong to the people around you, and that you have something to give them.",
+   "th": [
+    "adler",
+    "feast"
+   ],
+   "big": "community",
+   "red": true,
+   "gap": 0.75
+  },
+  {
+   "id": "s138",
+   "text": "The person who lives for approval asks, what will they think of me?",
+   "th": [
+    "crowd",
+    "face"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s139",
+   "text": "The person with community feeling asks, what can I contribute?",
+   "th": [
+    "help",
+    "work"
+   ],
+   "big": "contribute",
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s140",
+   "text": "Those two questions can lead to exactly the same action. Cooking a meal. Helping a colleague. Making a piece of work.",
+   "th": [
+    "work",
+    "feast",
+    "help"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s141",
+   "text": "But one of them makes you anxious, and the other makes you free.",
+   "th": [
+    "morning"
+   ],
+   "big": "free",
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s142",
+   "text": "Because when you act to be recognised, you need a reward to know you did well.",
+   "th": [
+    "crowd"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s143",
+   "text": "When you act to contribute, you already know. You can feel, quietly, that you are of use to someone.",
+   "th": [
+    "help",
+    "work"
+   ],
+   "big": "use",
+   "red": true,
+   "gap": 0.75
+  },
+  {
+   "id": "s144",
+   "text": "And that feeling does not need anyone's applause to be real.",
+   "th": [
+    "alone",
+    "morning"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.8
+  },
+  {
+   "id": "s145",
+   "text": "Kishimi and Koga go even further. They say that you do not have to do anything remarkable to be of value.",
+   "th": [
+    "writer"
+   ],
+   "big": "value",
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s146",
+   "text": "Think of a newborn baby. It cannot work or win or impress anyone. And yet its mere existence fills a home with joy.",
+   "th": [
+    "child",
+    "mother"
+   ],
+   "big": "existence",
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s147",
+   "text": "Think of someone you love who is old or sick. You do not love them for what they achieve. You are glad, simply, that they are here.",
+   "th": [
+    "mother",
+    "face"
+   ],
+   "big": "here",
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s148",
+   "text": "If that is true of them, it is true of you.",
+   "th": [
+    "face"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.3
+  },
+  {
+   "id": "s149",
+   "text": "You do not have to earn your place in the world by being liked. You already have one.",
+   "th": [
+    "morning",
+    "alone"
+   ],
+   "big": "place",
+   "red": true,
+   "gap": 0.75
+  },
+  {
+   "id": "s150",
+   "text": "And when you know that, other people's success stops being a threat.",
+   "th": [
+    "crowd",
+    "race"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s151",
+   "text": "Their light does not make yours any smaller. You can celebrate them, because you are no longer competing with them.",
+   "th": [
+    "feast",
+    "crowd"
+   ],
+   "big": "celebrate",
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "ch7",
+   "card": "chapter",
+   "num": "VII",
+   "title": "The courage to be disliked",
+   "len": 4.4
+  },
+  {
+   "id": "s152",
+   "text": "Here, at last, is the hard part.",
+   "th": [
+    "face"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.3
+  },
+  {
+   "id": "s153",
+   "text": "If you live this way, some people will not like you.",
+   "th": [
+    "crowd"
+   ],
+   "big": "some",
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s154",
+   "text": "Not because you are cruel, or selfish, or wrong. But because you have stopped bending yourself into the shape of their expectations.",
+   "th": [
+    "theatre",
+    "alone"
+   ],
+   "big": "bending",
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s155",
+   "text": "Someone will call you arrogant. Someone will say you have changed. Someone will be disappointed in the choice you made.",
+   "th": [
+    "crowd",
+    "face"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s156",
+   "text": "Adler's message, and the message of that small Japanese book, is that this is not a sign that something has gone wrong.",
+   "th": [
+    "adler",
+    "writer"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s157",
+   "text": "It is the price of freedom. And it is a price worth paying.",
+   "th": [
+    "alone",
+    "morning"
+   ],
+   "big": "price",
+   "red": true,
+   "gap": 0.75
+  },
+  {
+   "id": "s158",
+   "text": "In the spring of 399 before Christ, the philosopher Socrates stood trial in Athens for corrupting the young.",
+   "th": [
+    "socrates"
+   ],
+   "big": "Socrates",
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s159",
+   "text": "He could have begged. He could have brought his weeping children before the jury, as other men did, to win their pity.",
+   "th": [
+    "socrates",
+    "crowd"
+   ],
+   "big": "begged",
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s160",
+   "text": "He refused. He told the jury he would rather die having spoken in his own way than live by speaking in theirs.",
+   "th": [
+    "socrates"
+   ],
+   "big": "refused",
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s161",
+   "text": "They sentenced him to death. And he drank the hemlock calmly, talking with his friends until the end.",
+   "th": [
+    "socrates"
+   ],
+   "big": "calmly",
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s162",
+   "text": "Most of us will never face a jury like that.",
+   "th": [
+    "face"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.3
+  },
+  {
+   "id": "s163",
+   "text": "Our trials are smaller. A raised eyebrow at dinner. A message left on read. A parent's silence.",
+   "th": [
+    "face",
+    "feast",
+    "night"
+   ],
+   "big": "smaller",
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s164",
+   "text": "But the choice is the same choice Socrates made, and the Impressionists made, and Diogenes made in the street.",
+   "th": [
+    "socrates",
+    "impression",
+    "diogenes"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s165",
+   "text": "Will I live by their measure, or by my own?",
+   "th": [
+    "alone"
+   ],
+   "big": "own",
+   "red": true,
+   "gap": 1.0
+  },
+  {
+   "id": "s166",
+   "text": "Adler had one more piece of advice, and it may be the most freeing of all.",
+   "th": [
+    "adler"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s167",
+   "text": "Stop living your life as if it were a line that only matters at the end.",
+   "th": [
+    "race",
+    "morning"
+   ],
+   "big": "line",
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s168",
+   "text": "When life is a climb toward a distant summit of approval and success, every day you have not reached it feels wasted.",
+   "th": [
+    "storm",
+    "alone"
+   ],
+   "big": "wasted",
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s169",
+   "text": "Kishimi and Koga suggest you live it instead like a dance.",
+   "th": [
+    "feast",
+    "morning"
+   ],
+   "big": "dance",
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s170",
+   "text": "A dance is not trying to get anywhere. Every moment of it is already complete.",
+   "th": [
+    "feast",
+    "morning"
+   ],
+   "big": "complete",
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s171",
+   "text": "If your life ended in the middle of the dance, it would not have been wasted. You were dancing.",
+   "th": [
+    "morning",
+    "alone"
+   ],
+   "big": "dancing",
+   "red": true,
+   "gap": 1.0
+  },
+  {
+   "id": "s172",
+   "text": "Marcus Aurelius never fully freed himself from the opinions of others. Most of us won't either.",
+   "th": [
+    "marcus"
+   ],
+   "big": "never",
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s173",
+   "text": "But he left himself a reminder in that same notebook.",
+   "th": [
+    "marcus",
+    "night"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.3
+  },
+  {
+   "id": "s174",
+   "text": "How much trouble he avoids, he wrote, who does not look to see what his neighbour says or does, but only to what he does himself.",
+   "th": [
+    "marcus"
+   ],
+   "big": "himself",
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s175",
+   "text": "Live like that.",
+   "th": [
+    "alone",
+    "morning"
+   ],
+   "big": "Live",
+   "red": true,
+   "gap": 0.5
+  },
+  {
+   "id": "s176",
+   "text": "Do your own task, and hand back theirs.",
+   "th": [
+    "work",
+    "alone"
+   ],
+   "big": "task",
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s177",
+   "text": "Give, without keeping score.",
+   "th": [
+    "help",
+    "feast"
+   ],
+   "big": "Give",
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s178",
+   "text": "Know that you are already of use, already enough, already here.",
+   "th": [
+    "morning",
+    "mother"
+   ],
+   "big": "enough",
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s179",
+   "text": "And when someone does not like the life you have chosen, let them.",
+   "th": [
+    "crowd",
+    "alone"
+   ],
+   "big": "let",
+   "red": false,
+   "gap": 0.8
+  },
+  {
+   "id": "s180",
+   "text": "It is their task.",
+   "th": [
+    "face"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.4
+  },
+  {
+   "id": "s181",
+   "text": "Your life is yours.",
+   "th": [
+    "morning",
+    "alone"
+   ],
+   "big": "yours",
+   "red": true,
+   "gap": 2.0
+  }
+ ]
+}
