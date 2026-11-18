@@ -10,7 +10,7 @@
    ],
    "big": "alone",
    "red": false,
-   "gap": 0.75
+   "gap": 1.0
   },
   {
    "id": "s002",
@@ -30,7 +30,7 @@
    ],
    "big": "Marcus",
    "red": false,
-   "gap": 0.75
+   "gap": 1.0
   },
   {
    "id": "s004",
@@ -41,7 +41,7 @@
    ],
    "big": null,
    "red": false,
-   "gap": 0.75
+   "gap": 1.0
   },
   {
    "id": "s005",
@@ -62,7 +62,7 @@
    ],
    "big": null,
    "red": false,
-   "gap": 0.75
+   "gap": 1.0
   },
   {
    "id": "s007",
@@ -73,7 +73,7 @@
    ],
    "big": null,
    "red": false,
-   "gap": 0.75
+   "gap": 1.0
   },
   {
    "id": "s008",
@@ -84,7 +84,7 @@
    ],
    "big": "proud",
    "red": false,
-   "gap": 0.75
+   "gap": 1.0
   },
   {
    "id": "s009",
@@ -114,7 +114,7 @@
    ],
    "big": "Adler",
    "red": false,
-   "gap": 0.75
+   "gap": 1.0
   },
   {
    "id": "s012",
@@ -135,7 +135,7 @@
    ],
    "big": null,
    "red": false,
-   "gap": 0.75
+   "gap": 1.0
   },
   {
    "id": "s014",
@@ -183,7 +183,7 @@
    ],
    "big": "clapped",
    "red": false,
-   "gap": 0.75
+   "gap": 1.0
   },
   {
    "id": "s018",
@@ -194,7 +194,7 @@
    ],
    "big": null,
    "red": false,
-   "gap": 0.75
+   "gap": 1.0
   },
   {
    "id": "s019",
@@ -205,7 +205,7 @@
    ],
    "big": "rule",
    "red": false,
-   "gap": 0.75
+   "gap": 1.0
   },
   {
    "id": "s020",
@@ -215,7 +215,7 @@
    ],
    "big": "approval",
    "red": true,
-   "gap": 0.75
+   "gap": 1.0
   },
   {
    "id": "s021",
@@ -226,7 +226,7 @@
    ],
    "big": "audience",
    "red": false,
-   "gap": 0.75
+   "gap": 1.0
   },
   {
    "id": "s022",
@@ -257,7 +257,7 @@
    ],
    "big": null,
    "red": false,
-   "gap": 0.75
+   "gap": 1.0
   },
   {
    "id": "s025",
@@ -268,7 +268,7 @@
    ],
    "big": "strangers",
    "red": false,
-   "gap": 0.75
+   "gap": 1.0
   },
   {
    "id": "s026",
@@ -279,7 +279,7 @@
    ],
    "big": "invisible",
    "red": true,
-   "gap": 0.75
+   "gap": 1.0
   },
   {
    "id": "s027",
@@ -299,7 +299,7 @@
    ],
    "big": null,
    "red": false,
-   "gap": 0.75
+   "gap": 1.0
   },
   {
    "id": "s029",
@@ -309,7 +309,7 @@
    ],
    "big": null,
    "red": false,
-   "gap": 0.75
+   "gap": 1.0
   },
   {
    "id": "s030",
@@ -319,7 +319,7 @@
    ],
    "big": "belong",
    "red": false,
-   "gap": 0.75
+   "gap": 1.0
   },
   {
    "id": "s031",
@@ -329,7 +329,7 @@
    ],
    "big": "line",
    "red": false,
-   "gap": 0.75
+   "gap": 1.0
   },
   {
    "id": "s032",
@@ -340,7 +340,7 @@
    ],
    "big": null,
    "red": false,
-   "gap": 0.75
+   "gap": 1.0
   },
   {
    "id": "s033",
@@ -351,7 +351,7 @@
    ],
    "big": "wage",
    "red": false,
-   "gap": 0.75
+   "gap": 1.0
   },
   {
    "id": "s034",
@@ -379,7 +379,7 @@
    ],
    "big": "Vienna",
    "red": false,
-   "gap": 0.75
+   "gap": 1.0
   },
   {
    "id": "s036",
@@ -390,7 +390,7 @@
    ],
    "big": "Freud",
    "red": false,
-   "gap": 0.75
+   "gap": 1.0
   },
   {
    "id": "s037",
@@ -400,7 +400,7 @@
    ],
    "big": "walked",
    "red": false,
-   "gap": 0.75
+   "gap": 1.0
   },
   {
    "id": "s038",
@@ -411,7 +411,7 @@
    ],
    "big": "past",
    "red": false,
-   "gap": 0.75
+   "gap": 1.0
   },
   {
    "id": "s039",
@@ -432,7 +432,7 @@
    ],
    "big": "goals",
    "red": false,
-   "gap": 0.75
+   "gap": 1.0
   },
   {
    "id": "s041",
@@ -442,7 +442,7 @@
    ],
    "big": null,
    "red": false,
-   "gap": 0.75
+   "gap": 1.0
   },
   {
    "id": "s042",
@@ -452,7 +452,7 @@
    ],
    "big": "Monday",
    "red": false,
-   "gap": 0.75
+   "gap": 1.0
   },
   {
    "id": "s043",
@@ -463,7 +463,7 @@
    ],
    "big": "anxious",
    "red": false,
-   "gap": 0.75
+   "gap": 1.0
   },
   {
    "id": "s044",
@@ -473,7 +473,7 @@
    ],
    "big": null,
    "red": false,
-   "gap": 0.75
+   "gap": 1.0
   },
   {
    "id": "s045",
@@ -484,7 +484,7 @@
    ],
    "big": "anxious",
    "red": true,
-   "gap": 0.75
+   "gap": 1.0
   },
   {
    "id": "s046",
@@ -495,7 +495,7 @@
    ],
    "big": "judged",
    "red": false,
-   "gap": 0.75
+   "gap": 1.0
   },
   {
    "id": "s047",
@@ -515,7 +515,7 @@
    ],
    "big": null,
    "red": false,
-   "gap": 0.75
+   "gap": 1.0
   },
   {
    "id": "s049",
@@ -526,7 +526,7 @@
    ],
    "big": "freedom",
    "red": false,
-   "gap": 0.75
+   "gap": 1.0
   },
   {
    "id": "s050",
@@ -536,7 +536,7 @@
    ],
    "big": "stuck",
    "red": false,
-   "gap": 0.75
+   "gap": 1.0
   },
   {
    "id": "s051",
@@ -546,7 +546,7 @@
    ],
    "big": "choose",
    "red": true,
-   "gap": 0.75
+   "gap": 1.0
   },
   {
    "id": "s052",
@@ -556,7 +556,7 @@
    ],
    "big": null,
    "red": false,
-   "gap": 0.75
+   "gap": 1.0
   },
   {
    "id": "s053",
@@ -567,7 +567,7 @@
    ],
    "big": "same",
    "red": false,
-   "gap": 0.75
+   "gap": 1.0
   },
   {
    "id": "s054",
@@ -577,7 +577,7 @@
    ],
    "big": "meaning",
    "red": false,
-   "gap": 0.75
+   "gap": 1.0
   },
   {
    "id": "s055",
@@ -587,7 +587,7 @@
    ],
    "big": "now",
    "red": true,
-   "gap": 0.75
+   "gap": 1.0
   },
   {
    "id": "s056",
@@ -614,7 +614,7 @@
    ],
    "big": null,
    "red": false,
-   "gap": 0.75
+   "gap": 1.0
   },
   {
    "id": "s058",
@@ -624,7 +624,7 @@
    ],
    "big": null,
    "red": false,
-   "gap": 0.75
+   "gap": 1.0
   },
   {
    "id": "s059",
@@ -635,7 +635,7 @@
    ],
    "big": "seen",
    "red": true,
-   "gap": 0.75
+   "gap": 1.0
   },
   {
    "id": "s060",
@@ -645,7 +645,7 @@
    ],
    "big": null,
    "red": false,
-   "gap": 0.75
+   "gap": 1.0
   },
   {
    "id": "s061",
@@ -665,7 +665,7 @@
    ],
    "big": "freedom",
    "red": true,
-   "gap": 0.75
+   "gap": 1.0
   },
   {
    "id": "s063",
@@ -676,7 +676,7 @@
    ],
    "big": "ruler",
    "red": false,
-   "gap": 0.75
+   "gap": 1.0
   },
   {
    "id": "s064",
@@ -686,7 +686,7 @@
    ],
    "big": null,
    "red": false,
-   "gap": 0.75
+   "gap": 1.0
   },
   {
    "id": "s065",
@@ -697,7 +697,7 @@
    ],
    "big": null,
    "red": false,
-   "gap": 0.75
+   "gap": 1.0
   },
   {
    "id": "s066",
@@ -707,7 +707,7 @@
    ],
    "big": "chain",
    "red": false,
-   "gap": 0.75
+   "gap": 1.0
   },
   {
    "id": "s067",
@@ -727,7 +727,7 @@
    ],
    "big": null,
    "red": false,
-   "gap": 0.75
+   "gap": 1.0
   },
   {
    "id": "s069",
@@ -737,7 +737,7 @@
    ],
    "big": "hands",
    "red": false,
-   "gap": 0.75
+   "gap": 1.0
   },
   {
    "id": "s070",
@@ -748,7 +748,7 @@
    ],
    "big": null,
    "red": false,
-   "gap": 0.75
+   "gap": 1.0
   },
   {
    "id": "s071",
@@ -758,7 +758,7 @@
    ],
    "big": "hundred",
    "red": false,
-   "gap": 0.75
+   "gap": 1.0
   },
   {
    "id": "s072",
@@ -768,7 +768,7 @@
    ],
    "big": null,
    "red": false,
-   "gap": 0.75
+   "gap": 1.0
   },
   {
    "id": "s073",
@@ -779,7 +779,7 @@
    ],
    "big": "hide",
    "red": false,
-   "gap": 0.75
+   "gap": 1.0
   },
   {
    "id": "s074",
@@ -799,7 +799,7 @@
    ],
    "big": null,
    "red": false,
-   "gap": 0.75
+   "gap": 1.0
   },
   {
    "id": "s076",
@@ -809,7 +809,7 @@
    ],
    "big": "flawed",
    "red": false,
-   "gap": 0.75
+   "gap": 1.0
   },
   {
    "id": "s077",
@@ -830,7 +830,7 @@
    ],
    "big": null,
    "red": false,
-   "gap": 0.75
+   "gap": 1.0
   },
   {
    "id": "s079",
@@ -841,7 +841,7 @@
    ],
    "big": "rival",
    "red": false,
-   "gap": 0.75
+   "gap": 1.0
   },
   {
    "id": "s080",
@@ -852,7 +852,7 @@
    ],
    "big": "lost",
    "red": false,
-   "gap": 0.75
+   "gap": 1.0
   },
   {
    "id": "s081",
@@ -862,7 +862,7 @@
    ],
    "big": "race",
    "red": true,
-   "gap": 0.75
+   "gap": 1.0
   },
   {
    "id": "s082",
@@ -882,7 +882,7 @@
    ],
    "big": "party",
    "red": false,
-   "gap": 0.75
+   "gap": 1.0
   },
   {
    "id": "s084",
@@ -893,7 +893,7 @@
    ],
    "big": null,
    "red": false,
-   "gap": 0.75
+   "gap": 1.0
   },
   {
    "id": "s085",
@@ -904,7 +904,7 @@
    ],
    "big": "loan",
    "red": false,
-   "gap": 0.75
+   "gap": 1.0
   },
   {
    "id": "s086",
@@ -942,7 +942,7 @@
    ],
    "big": "question",
    "red": false,
-   "gap": 0.75
+   "gap": 1.0
   },
   {
    "id": "s089",
@@ -963,7 +963,7 @@
    ],
    "big": "horse",
    "red": false,
-   "gap": 0.75
+   "gap": 1.0
   },
   {
    "id": "s091",
@@ -973,7 +973,7 @@
    ],
    "big": "drinking",
    "red": false,
-   "gap": 0.75
+   "gap": 1.0
   },
   {
    "id": "s092",
@@ -984,7 +984,7 @@
    ],
    "big": "reaching",
    "red": false,
-   "gap": 0.75
+   "gap": 1.0
   },
   {
    "id": "s093",
@@ -994,7 +994,7 @@
    ],
    "big": "your",
    "red": false,
-   "gap": 0.75
+   "gap": 1.0
   },
   {
    "id": "s094",
@@ -1005,7 +1005,7 @@
    ],
    "big": null,
    "red": false,
-   "gap": 0.75
+   "gap": 1.0
   },
   {
    "id": "s095",
@@ -1016,7 +1016,7 @@
    ],
    "big": "path",
    "red": false,
-   "gap": 0.75
+   "gap": 1.0
   },
   {
    "id": "s096",
@@ -1027,7 +1027,7 @@
    ],
    "big": null,
    "red": false,
-   "gap": 0.75
+   "gap": 1.0
   },
   {
    "id": "s097",
@@ -1037,7 +1037,7 @@
    ],
    "big": "ends",
    "red": false,
-   "gap": 0.75
+   "gap": 1.0
   },
   {
    "id": "s098",
@@ -1047,7 +1047,7 @@
    ],
    "big": "control",
    "red": true,
-   "gap": 0.75
+   "gap": 1.0
   },
   {
    "id": "s099",
@@ -1068,7 +1068,7 @@
    ],
    "big": "relief",
    "red": false,
-   "gap": 0.75
+   "gap": 1.0
   },
   {
    "id": "s101",
@@ -1105,7 +1105,7 @@
    ],
    "big": "Salon",
    "red": false,
-   "gap": 0.75
+   "gap": 1.0
   },
   {
    "id": "s104",
@@ -1116,7 +1116,7 @@
    ],
    "big": null,
    "red": false,
-   "gap": 0.75
+   "gap": 1.0
   },
   {
    "id": "s105",
@@ -1127,7 +1127,7 @@
    ],
    "big": "approved",
    "red": false,
-   "gap": 0.75
+   "gap": 1.0
   },
   {
    "id": "s106",
@@ -1137,7 +1137,7 @@
    ],
    "big": "rejected",
    "red": false,
-   "gap": 0.75
+   "gap": 1.0
   },
   {
    "id": "s107",
@@ -1148,7 +1148,7 @@
    ],
    "big": "1863",
    "red": false,
-   "gap": 0.75
+   "gap": 1.0
   },
   {
    "id": "s108",
@@ -1159,7 +1159,7 @@
    ],
    "big": "laugh",
    "red": true,
-   "gap": 0.75
+   "gap": 1.0
   },
   {
    "id": "s109",
@@ -1169,7 +1169,7 @@
    ],
    "big": "Manet",
    "red": false,
-   "gap": 0.75
+   "gap": 1.0
   },
   {
    "id": "s110",
@@ -1180,7 +1180,7 @@
    ],
    "big": "jeered",
    "red": false,
-   "gap": 0.75
+   "gap": 1.0
   },
   {
    "id": "s111",
@@ -1191,7 +1191,7 @@
    ],
    "big": "Monet",
    "red": false,
-   "gap": 0.75
+   "gap": 1.0
   },
   {
    "id": "s112",
@@ -1201,7 +1201,7 @@
    ],
    "big": "light",
    "red": false,
-   "gap": 0.75
+   "gap": 1.0
   },
   {
    "id": "s113",
@@ -1212,7 +1212,7 @@
    ],
    "big": null,
    "red": false,
-   "gap": 0.75
+   "gap": 1.0
   },
   {
    "id": "s114",
@@ -1223,7 +1223,7 @@
    ],
    "big": "choice",
    "red": false,
-   "gap": 0.75
+   "gap": 1.0
   },
   {
    "id": "s115",
@@ -1234,7 +1234,7 @@
    ],
    "big": "disliked",
    "red": true,
-   "gap": 0.75
+   "gap": 1.0
   },
   {
    "id": "s116",
@@ -1244,7 +1244,7 @@
    ],
    "big": "permission",
    "red": false,
-   "gap": 0.75
+   "gap": 1.0
   },
   {
    "id": "s117",
@@ -1254,7 +1254,7 @@
    ],
    "big": null,
    "red": false,
-   "gap": 0.75
+   "gap": 1.0
   },
   {
    "id": "s118",
@@ -1265,7 +1265,7 @@
    ],
    "big": "Sunrise",
    "red": false,
-   "gap": 0.75
+   "gap": 1.0
   },
   {
    "id": "s119",
@@ -1276,7 +1276,7 @@
    ],
    "big": null,
    "red": false,
-   "gap": 0.75
+   "gap": 1.0
   },
   {
    "id": "s120",
@@ -1286,7 +1286,7 @@
    ],
    "big": "Impressionists",
    "red": false,
-   "gap": 0.75
+   "gap": 1.0
   },
   {
    "id": "s121",
@@ -1296,7 +1296,7 @@
    ],
    "big": "name",
    "red": true,
-   "gap": 0.75
+   "gap": 1.0
   },
   {
    "id": "s122",
@@ -1317,7 +1317,7 @@
    ],
    "big": null,
    "red": false,
-   "gap": 0.75
+   "gap": 1.0
   },
   {
    "id": "s124",
@@ -1327,7 +1327,7 @@
    ],
    "big": null,
    "red": false,
-   "gap": 0.75
+   "gap": 1.0
   },
   {
    "id": "s125",
@@ -1338,7 +1338,7 @@
    ],
    "big": "honestly",
    "red": false,
-   "gap": 0.75
+   "gap": 1.0
   },
   {
    "id": "s126",
@@ -1349,7 +1349,7 @@
    ],
    "big": "forgotten",
    "red": false,
-   "gap": 0.75
+   "gap": 1.0
   },
   {
    "id": "s127",
@@ -1381,7 +1381,7 @@
    ],
    "big": "Diogenes",
    "red": false,
-   "gap": 0.75
+   "gap": 1.0
   },
   {
    "id": "s130",
@@ -1391,7 +1391,7 @@
    ],
    "big": "anything",
    "red": false,
-   "gap": 0.75
+   "gap": 1.0
   },
   {
    "id": "s131",
@@ -1401,7 +1401,7 @@
    ],
    "big": "sun",
    "red": true,
-   "gap": 0.75
+   "gap": 1.0
   },
   {
    "id": "s132",
@@ -1412,7 +1412,7 @@
    ],
    "big": null,
    "red": false,
-   "gap": 0.75
+   "gap": 1.0
   },
   {
    "id": "s133",
@@ -1439,7 +1439,7 @@
    ],
    "big": "danger",
    "red": false,
-   "gap": 0.75
+   "gap": 1.0
   },
   {
    "id": "s135",
@@ -1450,7 +1450,7 @@
    ],
    "big": null,
    "red": false,
-   "gap": 0.75
+   "gap": 1.0
   },
   {
    "id": "s136",
@@ -1460,7 +1460,7 @@
    ],
    "big": "opposite",
    "red": false,
-   "gap": 0.75
+   "gap": 1.0
   },
   {
    "id": "s137",
@@ -1471,7 +1471,7 @@
    ],
    "big": "community",
    "red": true,
-   "gap": 0.75
+   "gap": 1.0
   },
   {
    "id": "s138",
@@ -1482,7 +1482,7 @@
    ],
    "big": null,
    "red": false,
-   "gap": 0.75
+   "gap": 1.0
   },
   {
    "id": "s139",
@@ -1493,7 +1493,7 @@
    ],
    "big": "contribute",
    "red": false,
-   "gap": 0.75
+   "gap": 1.0
   },
   {
    "id": "s140",
@@ -1505,7 +1505,7 @@
    ],
    "big": null,
    "red": false,
-   "gap": 0.75
+   "gap": 1.0
   },
   {
    "id": "s141",
@@ -1515,7 +1515,7 @@
    ],
    "big": "free",
    "red": false,
-   "gap": 0.75
+   "gap": 1.0
   },
   {
    "id": "s142",
@@ -1525,7 +1525,7 @@
    ],
    "big": null,
    "red": false,
-   "gap": 0.75
+   "gap": 1.0
   },
   {
    "id": "s143",
@@ -1536,7 +1536,7 @@
    ],
    "big": "use",
    "red": true,
-   "gap": 0.75
+   "gap": 1.0
   },
   {
    "id": "s144",
@@ -1557,7 +1557,7 @@
    ],
    "big": "value",
    "red": false,
-   "gap": 0.75
+   "gap": 1.0
   },
   {
    "id": "s146",
@@ -1568,7 +1568,7 @@
    ],
    "big": "existence",
    "red": false,
-   "gap": 0.75
+   "gap": 1.0
   },
   {
    "id": "s147",
@@ -1579,7 +1579,7 @@
    ],
    "big": "here",
    "red": false,
-   "gap": 0.75
+   "gap": 1.0
   },
   {
    "id": "s148",
@@ -1600,7 +1600,7 @@
    ],
    "big": "place",
    "red": true,
-   "gap": 0.75
+   "gap": 1.0
   },
   {
    "id": "s150",
@@ -1611,7 +1611,7 @@
    ],
    "big": null,
    "red": false,
-   "gap": 0.75
+   "gap": 1.0
   },
   {
    "id": "s151",
@@ -1649,7 +1649,7 @@
    ],
    "big": "some",
    "red": false,
-   "gap": 0.75
+   "gap": 1.0
   },
   {
    "id": "s154",
@@ -1660,7 +1660,7 @@
    ],
    "big": "bending",
    "red": false,
-   "gap": 0.75
+   "gap": 1.0
   },
   {
    "id": "s155",
@@ -1671,7 +1671,7 @@
    ],
    "big": null,
    "red": false,
-   "gap": 0.75
+   "gap": 1.0
   },
   {
    "id": "s156",
@@ -1682,7 +1682,7 @@
    ],
    "big": null,
    "red": false,
-   "gap": 0.75
+   "gap": 1.0
   },
   {
    "id": "s157",
@@ -1693,7 +1693,7 @@
    ],
    "big": "price",
    "red": true,
-   "gap": 0.75
+   "gap": 1.0
   },
   {
    "id": "s158",
@@ -1703,7 +1703,7 @@
    ],
    "big": "Socrates",
    "red": false,
-   "gap": 0.75
+   "gap": 1.0
   },
   {
    "id": "s159",
@@ -1714,7 +1714,7 @@
    ],
    "big": "begged",
    "red": false,
-   "gap": 0.75
+   "gap": 1.0
   },
   {
    "id": "s160",
@@ -1724,7 +1724,7 @@
    ],
    "big": "refused",
    "red": false,
-   "gap": 0.75
+   "gap": 1.0
   },
   {
    "id": "s161",
@@ -1734,7 +1734,7 @@
    ],
    "big": "calmly",
    "red": false,
-   "gap": 0.75
+   "gap": 1.0
   },
   {
    "id": "s162",
@@ -1756,7 +1756,7 @@
    ],
    "big": "smaller",
    "red": false,
-   "gap": 0.75
+   "gap": 1.0
   },
   {
    "id": "s164",
@@ -1768,7 +1768,7 @@
    ],
    "big": null,
    "red": false,
-   "gap": 0.75
+   "gap": 1.0
   },
   {
    "id": "s165",
@@ -1788,7 +1788,7 @@
    ],
    "big": null,
    "red": false,
-   "gap": 0.75
+   "gap": 1.0
   },
   {
    "id": "s167",
@@ -1799,7 +1799,7 @@
    ],
    "big": "line",
    "red": false,
-   "gap": 0.75
+   "gap": 1.0
   },
   {
    "id": "s168",
@@ -1810,7 +1810,7 @@
    ],
    "big": "wasted",
    "red": false,
-   "gap": 0.75
+   "gap": 1.0
   },
   {
    "id": "s169",
@@ -1821,7 +1821,7 @@
    ],
    "big": "dance",
    "red": false,
-   "gap": 0.75
+   "gap": 1.0
   },
   {
    "id": "s170",
@@ -1832,7 +1832,7 @@
    ],
    "big": "complete",
    "red": false,
-   "gap": 0.75
+   "gap": 1.0
   },
   {
    "id": "s171",
@@ -1853,7 +1853,7 @@
    ],
    "big": "never",
    "red": false,
-   "gap": 0.75
+   "gap": 1.0
   },
   {
    "id": "s173",
@@ -1874,7 +1874,7 @@
    ],
    "big": "himself",
    "red": false,
-   "gap": 0.75
+   "gap": 1.0
   },
   {
    "id": "s175",
@@ -1896,7 +1896,7 @@
    ],
    "big": "task",
    "red": false,
-   "gap": 0.75
+   "gap": 1.0
   },
   {
    "id": "s177",
@@ -1907,7 +1907,7 @@
    ],
    "big": "Give",
    "red": false,
-   "gap": 0.75
+   "gap": 1.0
   },
   {
    "id": "s178",
@@ -1918,7 +1918,7 @@
    ],
    "big": "enough",
    "red": false,
-   "gap": 0.75
+   "gap": 1.0
   },
   {
    "id": "s179",

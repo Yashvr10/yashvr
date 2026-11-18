@@ -1,0 +1,57 @@
+[
+{
+"word": "The",
+"start": 0.0,
+"end": 0.14
+},
+{
+"word": "usual",
+"start": 0.14,
+"end": 0.48
+},
+{
+"word": "explanation",
+"start": 0.48,
+"end": 1.02
+},
+{
+"word": "is",
+"start": 1.02,
+"end": 1.58
+},
+{
+"word": "simple.",
+"start": 1.58,
+"end": 2.0
+},
+{
+"word": "He",
+"start": 2.52,
+"end": 2.6
+},
+{
+"word": "was",
+"start": 2.6,
+"end": 2.7
+},
+{
+"word": "too",
+"start": 2.7,
+"end": 2.96
+},
+{
+"word": "anxious",
+"start": 2.96,
+"end": 3.36
+},
+{
+"word": "to",
+"start": 3.36,
+"end": 3.64
+},
+{
+"word": "go.",
+"start": 3.64,
+"end": 3.9
+}
+]

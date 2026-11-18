@@ -1,0 +1,57 @@
+[
+{
+"word": "Imagine",
+"start": 0.0,
+"end": 0.46
+},
+{
+"word": "a",
+"start": 0.46,
+"end": 0.74
+},
+{
+"word": "young",
+"start": 0.74,
+"end": 0.94
+},
+{
+"word": "man",
+"start": 0.94,
+"end": 1.32
+},
+{
+"word": "who",
+"start": 1.32,
+"end": 1.78
+},
+{
+"word": "has",
+"start": 1.78,
+"end": 1.94
+},
+{
+"word": "a",
+"start": 1.94,
+"end": 2.14
+},
+{
+"word": "job",
+"start": 2.14,
+"end": 2.42
+},
+{
+"word": "interview",
+"start": 2.42,
+"end": 2.88
+},
+{
+"word": "on",
+"start": 2.88,
+"end": 3.34
+},
+{
+"word": "Monday.",
+"start": 3.34,
+"end": 3.64
+}
+]

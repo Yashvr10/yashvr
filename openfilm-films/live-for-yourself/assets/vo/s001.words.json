@@ -1,0 +1,147 @@
+[
+{
+"word": "Nearly",
+"start": 0.0,
+"end": 0.26
+},
+{
+"word": "two",
+"start": 0.26,
+"end": 0.65
+},
+{
+"word": "thousand",
+"start": 0.65,
+"end": 1.04
+},
+{
+"word": "years",
+"start": 1.04,
+"end": 1.28
+},
+{
+"word": "ago,",
+"start": 1.28,
+"end": 1.7
+},
+{
+"word": "the",
+"start": 2.08,
+"end": 2.22
+},
+{
+"word": "most",
+"start": 2.22,
+"end": 2.42
+},
+{
+"word": "powerful",
+"start": 2.42,
+"end": 2.86
+},
+{
+"word": "man",
+"start": 2.86,
+"end": 3.18
+},
+{
+"word": "in",
+"start": 3.18,
+"end": 3.38
+},
+{
+"word": "the",
+"start": 3.38,
+"end": 3.5
+},
+{
+"word": "world",
+"start": 3.5,
+"end": 3.88
+},
+{
+"word": "sat",
+"start": 3.88,
+"end": 4.24
+},
+{
+"word": "alone",
+"start": 4.24,
+"end": 4.66
+},
+{
+"word": "in",
+"start": 4.66,
+"end": 5.0
+},
+{
+"word": "a",
+"start": 5.0,
+"end": 5.1
+},
+{
+"word": "tent",
+"start": 5.1,
+"end": 5.44
+},
+{
+"word": "on",
+"start": 5.44,
+"end": 5.98
+},
+{
+"word": "the",
+"start": 5.98,
+"end": 6.12
+},
+{
+"word": "frontier",
+"start": 6.12,
+"end": 6.46
+},
+{
+"word": "of",
+"start": 6.46,
+"end": 6.68
+},
+{
+"word": "his",
+"start": 6.68,
+"end": 6.8
+},
+{
+"word": "empire",
+"start": 6.8,
+"end": 7.26
+},
+{
+"word": "and",
+"start": 7.26,
+"end": 7.94
+},
+{
+"word": "wrote",
+"start": 7.94,
+"end": 8.18
+},
+{
+"word": "a",
+"start": 8.18,
+"end": 8.4
+},
+{
+"word": "note",
+"start": 8.4,
+"end": 8.62
+},
+{
+"word": "to",
+"start": 8.62,
+"end": 8.86
+},
+{
+"word": "himself.",
+"start": 8.86,
+"end": 9.26
+}
+]

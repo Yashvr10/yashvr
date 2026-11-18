@@ -1,0 +1,42 @@
+[
+{
+"word": "The",
+"start": 0.0,
+"end": 0.14
+},
+{
+"word": "man",
+"start": 0.14,
+"end": 0.4
+},
+{
+"word": "was",
+"start": 0.4,
+"end": 0.62
+},
+{
+"word": "Marcus",
+"start": 0.62,
+"end": 1.16
+},
+{
+"word": "Aurelius,",
+"start": 1.16,
+"end": 1.98
+},
+{
+"word": "emperor",
+"start": 2.36,
+"end": 2.56
+},
+{
+"word": "of",
+"start": 2.56,
+"end": 2.9
+},
+{
+"word": "Rome.",
+"start": 2.9,
+"end": 3.2
+}
+]

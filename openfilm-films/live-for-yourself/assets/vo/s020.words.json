@@ -1,0 +1,52 @@
+[
+{
+"word": "Good",
+"start": 0.0,
+"end": 0.24
+},
+{
+"word": "is",
+"start": 0.24,
+"end": 0.48
+},
+{
+"word": "whatever",
+"start": 0.48,
+"end": 0.96
+},
+{
+"word": "earns",
+"start": 0.96,
+"end": 1.4
+},
+{
+"word": "approval.",
+"start": 1.4,
+"end": 1.92
+},
+{
+"word": "Bad",
+"start": 2.5,
+"end": 2.52
+},
+{
+"word": "is",
+"start": 2.52,
+"end": 2.7
+},
+{
+"word": "whatever",
+"start": 2.7,
+"end": 3.08
+},
+{
+"word": "earns",
+"start": 3.08,
+"end": 3.62
+},
+{
+"word": "punishment.",
+"start": 3.62,
+"end": 4.06
+}
+]

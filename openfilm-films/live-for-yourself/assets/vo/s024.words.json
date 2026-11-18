@@ -1,0 +1,67 @@
+[
+{
+"word": "First",
+"start": 0.0,
+"end": 0.26
+},
+{
+"word": "it",
+"start": 0.26,
+"end": 0.42
+},
+{
+"word": "is",
+"start": 0.42,
+"end": 0.58
+},
+{
+"word": "parents",
+"start": 0.58,
+"end": 0.94
+},
+{
+"word": "and",
+"start": 0.94,
+"end": 1.28
+},
+{
+"word": "teachers.",
+"start": 1.28,
+"end": 1.72
+},
+{
+"word": "Then",
+"start": 2.24,
+"end": 2.42
+},
+{
+"word": "friends,",
+"start": 2.42,
+"end": 2.86
+},
+{
+"word": "and",
+"start": 2.86,
+"end": 3.3
+},
+{
+"word": "colleagues,",
+"start": 3.3,
+"end": 3.68
+},
+{
+"word": "and",
+"start": 3.68,
+"end": 4.12
+},
+{
+"word": "a",
+"start": 4.12,
+"end": 4.22
+},
+{
+"word": "boss.",
+"start": 4.22,
+"end": 4.48
+}
+]

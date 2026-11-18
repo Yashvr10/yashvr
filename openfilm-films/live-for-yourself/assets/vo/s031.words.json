@@ -1,0 +1,62 @@
+[
+{
+"word": "But",
+"start": 0.0,
+"end": 0.12
+},
+{
+"word": "he",
+"start": 0.12,
+"end": 0.22
+},
+{
+"word": "drew",
+"start": 0.22,
+"end": 0.4
+},
+{
+"word": "a",
+"start": 0.4,
+"end": 0.6
+},
+{
+"word": "sharp",
+"start": 0.6,
+"end": 0.86
+},
+{
+"word": "line",
+"start": 0.86,
+"end": 1.22
+},
+{
+"word": "between",
+"start": 1.22,
+"end": 1.62
+},
+{
+"word": "belonging",
+"start": 1.62,
+"end": 2.06
+},
+{
+"word": "and",
+"start": 2.06,
+"end": 2.66
+},
+{
+"word": "being",
+"start": 2.66,
+"end": 2.84
+},
+{
+"word": "approved",
+"start": 2.84,
+"end": 3.3
+},
+{
+"word": "of.",
+"start": 3.3,
+"end": 3.58
+}
+]

@@ -1,0 +1,72 @@
+[
+{
+"word": "If",
+"start": 0.0,
+"end": 0.14
+},
+{
+"word": "an",
+"start": 0.14,
+"end": 0.32
+},
+{
+"word": "emperor",
+"start": 0.32,
+"end": 0.66
+},
+{
+"word": "could",
+"start": 0.66,
+"end": 0.9
+},
+{
+"word": "not",
+"start": 0.9,
+"end": 1.14
+},
+{
+"word": "escape",
+"start": 1.14,
+"end": 1.58
+},
+{
+"word": "it,",
+"start": 1.58,
+"end": 1.94
+},
+{
+"word": "it",
+"start": 2.2,
+"end": 2.32
+},
+{
+"word": "is",
+"start": 2.32,
+"end": 2.44
+},
+{
+"word": "no",
+"start": 2.44,
+"end": 2.7
+},
+{
+"word": "surprise",
+"start": 2.7,
+"end": 3.2
+},
+{
+"word": "that",
+"start": 3.2,
+"end": 3.7
+},
+{
+"word": "we",
+"start": 3.7,
+"end": 3.88
+},
+{
+"word": "cannot.",
+"start": 3.88,
+"end": 4.24
+}
+]

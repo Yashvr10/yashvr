@@ -6,7 +6,7 @@
 # red), gap = silence after.
 import json
 S = []
-def s(text, th, big=None, red=False, gap=0.75):
+def s(text, th, big=None, red=False, gap=1.0):
     S.append(dict(id=f"s{len([x for x in S if 'text' in x]) + 1:03d}", text=text, th=th if isinstance(th, list) else [th], big=big, red=red, gap=gap))
 def ch(num, title, dur=4.4): S.append(dict(id=f"ch{sum(1 for x in S if 'card' in x) + 1}", card="chapter", num=num, title=title, len=dur))
 

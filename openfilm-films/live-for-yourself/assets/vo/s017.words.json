@@ -1,0 +1,52 @@
+[
+{
+"word": "You",
+"start": 0.0,
+"end": 0.16
+},
+{
+"word": "took",
+"start": 0.16,
+"end": 0.34
+},
+{
+"word": "your",
+"start": 0.34,
+"end": 0.58
+},
+{
+"word": "first",
+"start": 0.58,
+"end": 0.92
+},
+{
+"word": "step,",
+"start": 0.92,
+"end": 1.28
+},
+{
+"word": "and",
+"start": 1.28,
+"end": 1.76
+},
+{
+"word": "the",
+"start": 1.76,
+"end": 1.86
+},
+{
+"word": "whole",
+"start": 1.86,
+"end": 2.1
+},
+{
+"word": "room",
+"start": 2.1,
+"end": 2.44
+},
+{
+"word": "clapped.",
+"start": 2.44,
+"end": 2.9
+}
+]
