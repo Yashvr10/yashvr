@@ -55,34 +55,47 @@ for (const s of cfg.scenes) {
     const o = { at: r3(a), end: r3(b), k, kb: ["in", "out", "left", "right"][n++ % 4], cut: !!CUT[k] };
     shots.push(o); return o;
   });
-  // captions: phrases of up to five words; the sentence's key word (s.big) is pulled out of its phrase and shown huge
+  // captions (the Rise Above style): every spoken word in small lowercase EB Garamond, one to three words at a time in
+  // the middle of the frame, each word appearing as it is said, never across a cut; the sentence's key word (s.big) as a
+  // big Pinyon Script accent with the next words small beneath, or, for the red key words, huge red Instrument Serif
+  // capitals filling the frame, behind the figure where the picture has a cut-out
   const bigWords = s.big ? s.big.split(" ").map(norm) : [];
   let bigAt = -1;
   if (bigWords.length) for (let k = 0; k + bigWords.length <= ws.length; k++) if (bigWords.every((w, j) => norm(ws[k + j].word) === w)) { bigAt = k; break; }
   if (s.big && bigAt < 0) console.warn("key word not found:", s.id, s.big);
-  const phrases = []; let cur = [];
+  const inBig = (k) => bigAt >= 0 && k >= bigAt && k < bigAt + bigWords.length;
+  const accent = bigAt >= 0 && !s.red && bigWords.length === 1 && /^[a-z]+$/.test(bigWords[0]);
+  const shotOf = (k) => sh.findIndex((x) => wt(k) >= x.at - 0.01 && wt(k) < x.end);
+  const clean = (k) => ws[k].word.replace(/["“”]/g, "").replace(/[.,;:!?]+$/, "");
+  const groups = []; let cur = null;
+  const flush = () => { if (cur && cur.ks.length) groups.push(cur); cur = null; };
   ws.forEach((w, k) => {
-    cur.push(k);
-    const inBig = bigAt >= 0 && k >= bigAt && k < bigAt + bigWords.length;
-    if (!inBig && (cur.length >= 5 || /[.,;:?!]$/.test(w.word))) { phrases.push(cur); cur = []; }
-    else if (inBig && k === bigAt + bigWords.length - 1 && /[.,;:?!]$/.test(w.word)) { phrases.push(cur); cur = []; }
+    if (inBig(k) && s.red) { if (k === bigAt) { flush(); groups.push({ kind: "emph", ks: [] }); } groups[groups.length - 1].ks.push(k); return; }
+    if (cur && shotOf(k) !== shotOf(cur.ks[0])) flush();
+    if (accent && k === bigAt) { flush(); cur = { kind: "quiet", acc: true, ks: [] }; }
+    if (!cur) cur = { kind: "quiet", ks: [] };
+    cur.ks.push(k);
+    if (cur.ks.length >= 3 || /[.,;:?!]$/.test(w.word)) flush();
   });
-  if (cur.length) phrases.push(cur);
-  const clean = (k) => ws[k].word.replace(/["“”]/g, "").replace(/[.,;:!?]+$/, "").toUpperCase();
-  phrases.forEach((p, i) => {
-    const a = wt(p[0]), b = i + 1 < phrases.length ? wt(phrases[i + 1][0]) - 0.04 : end - 0.08;
-    const hasBig = bigAt >= 0 && p.includes(bigAt);
-    const W = (ks) => ks.map((k) => ({ x: clean(k), t: r3(wt(k)) }));
-    const c = { at: r3(a), end: r3(Math.max(a + 0.4, b)), red: !!s.red };
-    if (hasBig) {
-      const bi = p.indexOf(bigAt);
-      c.top = W(p.slice(0, bi)); c.big = [{ x: bigWords.length > 1 ? p.slice(bi, bi + bigWords.length).map(clean).join(" ") : clean(bigAt), t: r3(wt(bigAt)) }];
-      c.tail = W(p.slice(bi + bigWords.length));
-      if (!c.top.length) { c.top = c.tail; c.tail = []; if (c.top.length && c.top[0].t > c.big[0].t) { /* words after the key word, shown as the top line once spoken */ } }
-      sfx.push({ f: s.red ? "thump.mp3" : "tick.mp3", at: wt(bigAt) - 0.02, vol: s.red ? 0.4 : 0.22 });
-    } else c.top = W(p);
-    const shot = sh.find((x) => a >= x.at - 0.01 && a < x.end) || sh[sh.length - 1];
-    (shot.cut ? capsBack : caps).push(c);
+  flush();
+  let busy = 0;   // a red word holds the middle of the frame for about a second; the words after it wait their turn
+  groups.forEach((g, i) => {
+    const last = g.ks[g.ks.length - 1], si = shotOf(g.ks[0]);
+    const shot = sh[si] || sh[sh.length - 1];
+    const a = Math.max(wt(g.ks[0]), busy);
+    const nxt = i + 1 < groups.length ? wt(groups[i + 1].ks[0]) - 0.02 : end - 0.1;
+    const wEnd = voAt + ws[last].end;
+    const e = g.kind === "emph"
+      ? r3(Math.max(a + 0.4, Math.min(shot.end - 0.08, end - 0.1, Math.max(nxt, wEnd + 1.0))))
+      : r3(Math.max(a + 0.4, Math.min(Math.max(nxt, a + 0.6), shot.end - 0.08, wEnd + 1.1)));
+    busy = e + 0.02;
+    if (g.kind === "emph") {
+      (shot.cut ? capsBack : caps).push({ kind: "emph", at: r3(a), end: e, lines: [g.ks.map((k) => ({ x: clean(k).toUpperCase(), t: r3(wt(k)) }))] });
+      sfx.push({ f: "thump.mp3", at: a - 0.02, vol: 0.4 });
+    } else {
+      caps.push({ kind: "quiet", acc: !!g.acc, at: r3(a), end: e, words: g.ks.map((k) => ({ x: clean(k).toLowerCase(), t: r3(Math.max(a, wt(k))) })) });
+      if (g.acc) sfx.push({ f: "tick.mp3", at: a - 0.02, vol: 0.22 });
+    }
   });
   t = end;
 }
