@@ -11,9 +11,9 @@
   @font-face { font-family: "BM"; src: url("fonts/BodoniModa.ttf"); }
   html, body { margin: 0; width: 1920px; height: 1080px; overflow: hidden; background: transparent; }
   .blk { position: absolute; left: 0; right: 0; top: 34px; display: none; text-align: center; color: #f4efe6; }
-  .ln { display: block; white-space: nowrap; font-family: "IS"; line-height: .86; transform-origin: 50% 0;
+  .row { display: block; } .ln { display: inline-block; white-space: nowrap; font-family: "IS"; line-height: .86; transform-origin: 50% 0;
         text-shadow: 0 4px 30px rgba(0,0,0,.45); }
-  .ln.big { margin-top: 2px; }
+  .row + .row { margin-top: -6px; }
   .ln.big.red { color: #d0121a; }
   .ln.tail { margin-top: 8px; }
   .w { visibility: hidden; }
@@ -37,7 +37,7 @@ for (const c of D.caps) {
     if (!words || !words.length) continue;
     const l = document.createElement("span"); l.className = "ln " + kind + (kind === "big" && c.red ? " red" : "");
     words.forEach((w, i) => { if (i) l.append(" "); const s = document.createElement("span"); s.className = "w"; s.textContent = w.x; l.append(s); o.words.push([s, w.t]); });
-    e.append(l); o.lines.push([l, kind]);
+    const row = document.createElement("div"); row.className = "row"; row.append(l); e.append(row); o.lines.push([l, kind]);
   }
   els.push(o);
 }

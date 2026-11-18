@@ -1,0 +1,77 @@
+[
+{
+"word": "Benjamin",
+"start": 0.0,
+"end": 0.44
+},
+{
+"word": "Franklin",
+"start": 0.44,
+"end": 1.04
+},
+{
+"word": "began",
+"start": 1.04,
+"end": 1.64
+},
+{
+"word": "each",
+"start": 1.64,
+"end": 2.02
+},
+{
+"word": "morning",
+"start": 2.02,
+"end": 2.36
+},
+{
+"word": "with",
+"start": 2.36,
+"end": 2.72
+},
+{
+"word": "a",
+"start": 2.72,
+"end": 2.84
+},
+{
+"word": "question.",
+"start": 2.84,
+"end": 3.2
+},
+{
+"word": "What",
+"start": 3.86,
+"end": 3.98
+},
+{
+"word": "good",
+"start": 3.98,
+"end": 4.2
+},
+{
+"word": "shall",
+"start": 4.2,
+"end": 4.42
+},
+{
+"word": "I",
+"start": 4.42,
+"end": 4.6
+},
+{
+"word": "do",
+"start": 4.6,
+"end": 4.84
+},
+{
+"word": "this",
+"start": 4.84,
+"end": 5.08
+},
+{
+"word": "day?",
+"start": 5.08,
+"end": 5.4
+}
+]

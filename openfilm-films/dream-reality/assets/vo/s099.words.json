@@ -1,0 +1,122 @@
+[
+{
+"word": "He",
+"start": 0.0,
+"end": 0.12
+},
+{
+"word": "kept",
+"start": 0.12,
+"end": 0.34
+},
+{
+"word": "his",
+"start": 0.34,
+"end": 0.52
+},
+{
+"word": "watch",
+"start": 0.52,
+"end": 0.8
+},
+{
+"word": "on",
+"start": 0.8,
+"end": 1.04
+},
+{
+"word": "the",
+"start": 1.04,
+"end": 1.2
+},
+{
+"word": "desk",
+"start": 1.2,
+"end": 1.58
+},
+{
+"word": "and",
+"start": 1.58,
+"end": 2.1
+},
+{
+"word": "wrote",
+"start": 2.1,
+"end": 2.32
+},
+{
+"word": "two",
+"start": 2.32,
+"end": 2.57
+},
+{
+"word": "hundred",
+"start": 2.57,
+"end": 2.82
+},
+{
+"word": "and",
+"start": 2.82,
+"end": 3.07
+},
+{
+"word": "fifty",
+"start": 3.07,
+"end": 3.32
+},
+{
+"word": "words",
+"start": 3.32,
+"end": 3.92
+},
+{
+"word": "every",
+"start": 3.92,
+"end": 4.32
+},
+{
+"word": "quarter",
+"start": 4.32,
+"end": 4.62
+},
+{
+"word": "of",
+"start": 4.62,
+"end": 4.86
+},
+{
+"word": "an",
+"start": 4.86,
+"end": 5.0
+},
+{
+"word": "hour,",
+"start": 5.0,
+"end": 5.4
+},
+{
+"word": "for",
+"start": 5.4,
+"end": 5.86
+},
+{
+"word": "three",
+"start": 5.86,
+"end": 6.18
+},
+{
+"word": "hours,",
+"start": 6.18,
+"end": 6.66
+},
+{
+"word": "every",
+"start": 6.66,
+"end": 7.18
+},
+{
+"word": "day.",
+"start": 7.18,
+"end": 7.5
+}
+]

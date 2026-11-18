@@ -1,0 +1,42 @@
+[
+{
+"word": "I",
+"start": 0.0,
+"end": 0.2
+},
+{
+"word": "am",
+"start": 0.2,
+"end": 0.42
+},
+{
+"word": "an",
+"start": 0.42,
+"end": 0.56
+},
+{
+"word": "enthusiast,",
+"start": 0.56,
+"end": 1.24
+},
+{
+"word": "but",
+"start": 1.7,
+"end": 1.86
+},
+{
+"word": "not",
+"start": 1.86,
+"end": 2.04
+},
+{
+"word": "a",
+"start": 2.04,
+"end": 2.2
+},
+{
+"word": "crank.",
+"start": 2.2,
+"end": 2.48
+}
+]

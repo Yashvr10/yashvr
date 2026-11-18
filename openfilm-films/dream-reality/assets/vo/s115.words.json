@@ -1,0 +1,67 @@
+[
+{
+"word": "The",
+"start": 0.0,
+"end": 0.12
+},
+{
+"word": "whole",
+"start": 0.12,
+"end": 0.34
+},
+{
+"word": "house",
+"start": 0.34,
+"end": 0.72
+},
+{
+"word": "cost",
+"start": 0.72,
+"end": 1.0
+},
+{
+"word": "him",
+"start": 1.0,
+"end": 1.24
+},
+{
+"word": "twenty-eight",
+"start": 1.24,
+"end": 1.55
+},
+{
+"word": "dollars",
+"start": 1.55,
+"end": 1.86
+},
+{
+"word": "and",
+"start": 1.86,
+"end": 2.17
+},
+{
+"word": "twelve",
+"start": 2.17,
+"end": 2.48
+},
+{
+"word": "and",
+"start": 2.48,
+"end": 2.79
+},
+{
+"word": "a",
+"start": 2.79,
+"end": 3.1
+},
+{
+"word": "half",
+"start": 3.1,
+"end": 3.41
+},
+{
+"word": "cents.",
+"start": 3.41,
+"end": 3.72
+}
+]

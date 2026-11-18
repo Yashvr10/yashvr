@@ -1,0 +1,87 @@
+[
+{
+"word": "The",
+"start": 0.0,
+"end": 0.16
+},
+{
+"word": "Smithsonian",
+"start": 0.16,
+"end": 0.62
+},
+{
+"word": "mailed",
+"start": 0.62,
+"end": 1.34
+},
+{
+"word": "him",
+"start": 1.34,
+"end": 1.6
+},
+{
+"word": "a",
+"start": 1.6,
+"end": 1.88
+},
+{
+"word": "small",
+"start": 1.88,
+"end": 2.22
+},
+{
+"word": "packet",
+"start": 2.22,
+"end": 2.6
+},
+{
+"word": "of",
+"start": 2.6,
+"end": 2.86
+},
+{
+"word": "pamphlets.",
+"start": 2.86,
+"end": 3.54
+},
+{
+"word": "Some",
+"start": 4.08,
+"end": 4.22
+},
+{
+"word": "of",
+"start": 4.22,
+"end": 4.34
+},
+{
+"word": "them",
+"start": 4.34,
+"end": 4.5
+},
+{
+"word": "were",
+"start": 4.5,
+"end": 4.76
+},
+{
+"word": "written",
+"start": 4.76,
+"end": 5.04
+},
+{
+"word": "by",
+"start": 5.04,
+"end": 5.4
+},
+{
+"word": "Langley",
+"start": 5.4,
+"end": 5.88
+},
+{
+"word": "himself.",
+"start": 5.88,
+"end": 6.3
+}
+]
