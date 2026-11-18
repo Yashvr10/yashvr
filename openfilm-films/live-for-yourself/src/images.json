@@ -85,8 +85,7 @@
  ],
  "writer": [
   "writer-c1",
-  "writer-c2",
-  "writer-c3"
+  "writer-c2"
  ],
  "storm": [
   "storm-c1",
@@ -218,5 +217,8 @@
   "mother-c7",
   "mother-c9",
   "mother-c11"
+ ],
+ "freud": [
+  "writer-c3"
  ]
 }

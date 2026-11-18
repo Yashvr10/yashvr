@@ -1,0 +1,82 @@
+[
+{
+"word": "Marcus",
+"start": 0.0,
+"end": 0.44
+},
+{
+"word": "Aurelius",
+"start": 0.44,
+"end": 1.16
+},
+{
+"word": "never",
+"start": 1.16,
+"end": 1.68
+},
+{
+"word": "fully",
+"start": 1.68,
+"end": 2.06
+},
+{
+"word": "freed",
+"start": 2.06,
+"end": 2.4
+},
+{
+"word": "himself",
+"start": 2.4,
+"end": 2.74
+},
+{
+"word": "from",
+"start": 2.74,
+"end": 3.04
+},
+{
+"word": "the",
+"start": 3.04,
+"end": 3.18
+},
+{
+"word": "opinions",
+"start": 3.18,
+"end": 3.62
+},
+{
+"word": "of",
+"start": 3.62,
+"end": 3.94
+},
+{
+"word": "others.",
+"start": 3.94,
+"end": 4.34
+},
+{
+"word": "Most",
+"start": 4.94,
+"end": 5.12
+},
+{
+"word": "of",
+"start": 5.12,
+"end": 5.3
+},
+{
+"word": "us",
+"start": 5.3,
+"end": 5.48
+},
+{
+"word": "won't",
+"start": 5.48,
+"end": 5.96
+},
+{
+"word": "either.",
+"start": 5.96,
+"end": 6.24
+}
+]

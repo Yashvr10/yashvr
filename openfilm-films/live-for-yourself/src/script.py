@@ -52,9 +52,9 @@ s("And the trouble with a wage is that it can always be withdrawn.", ["face"], g
 # ---- II
 ch("II", "Goals, not causes")
 s("Alfred Adler was born near Vienna in 1870. He was a sickly child, he nearly died of pneumonia, and he grew up in the shadow of a gifted older brother.", ["adler", "child"], big="Vienna")
-s("He became a doctor, and in 1902 he was invited to join a small circle of thinkers that met every Wednesday in the apartment of Sigmund Freud.", ["adler", "writer"], big="Freud")
+s("He became a doctor, and in 1902 he was invited to join a small circle of thinkers that met every Wednesday in the apartment of Sigmund Freud.", ["freud", "adler"], big="Freud")
 s("For nine years he sat in that circle. And then he walked out of it.", ["adler"], big="walked")
-s("Freud believed that we are driven by our past. That the wounds of childhood push us, like a machine, into the people we become.", ["writer", "storm"], big="past")
+s("Freud believed that we are driven by our past. That the wounds of childhood push us, like a machine, into the people we become.", ["freud", "storm"], big="past")
 s("Adler came to believe the opposite.", ["adler"], big="opposite", red=True, gap=0.5)
 s("We are not pushed by causes, he said. We are pulled by goals.", ["adler", "morning"], big="goals")
 s("Everything we think, feel and do is aimed at something, even when we are not aware of what it is.", ["face"])
@@ -122,7 +122,7 @@ s("This is not a wall between you and other people. You can still care, still he
 s("It is only an honest map of where your power ends.", ["morning"], big="ends")
 s("You cannot control what anyone thinks of you. You can only control how you live.", ["alone"], big="control", red=True)
 s("And there is a strange relief in that.", ["morning"], gap=0.3)
-s("Because the moment you hand back other people's tasks, you no longer have to carry them.", ["alone", "morning"], big="relief")
+s("Because the moment you hand back other people's tasks, you no longer have to carry them.", ["alone", "morning"], big="carry")
 s("Their opinion is still there. It just no longer belongs to you.", ["face"], gap=1.0)
 
 # ---- V

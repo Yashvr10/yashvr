@@ -385,8 +385,8 @@
    "id": "s036",
    "text": "He became a doctor, and in 1902 he was invited to join a small circle of thinkers that met every Wednesday in the apartment of Sigmund Freud.",
    "th": [
-    "adler",
-    "writer"
+    "freud",
+    "adler"
    ],
    "big": "Freud",
    "red": false,
@@ -406,7 +406,7 @@
    "id": "s038",
    "text": "Freud believed that we are driven by our past. That the wounds of childhood push us, like a machine, into the people we become.",
    "th": [
-    "writer",
+    "freud",
     "storm"
    ],
    "big": "past",
@@ -1066,7 +1066,7 @@
     "alone",
     "morning"
    ],
-   "big": "relief",
+   "big": "carry",
    "red": false,
    "gap": 1.0
   },

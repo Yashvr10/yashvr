@@ -12,7 +12,7 @@ import { execFileSync } from "node:child_process";
 
 const ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname), "..");
 const J = (f) => JSON.parse(fs.readFileSync(path.join(ROOT, f), "utf8"));
-const cfg = J("src/scenes.json"), POOLS = J("src/images.json"), CUT = J("src/cutouts.json");
+const cfg = J("src/scenes.json"), POOLS = J("src/images.json"), CUT = J("src/cutouts.json"), BAND = J("src/cutband.json");
 const FPS = 30, q = (x) => Math.round(x * FPS) / FPS, r3 = (x) => Math.round(x * 1000) / 1000;
 const norm = (w) => w.toLowerCase().replace(/[^a-z0-9]/g, "");
 const dur = (f) => +execFileSync("ffprobe", ["-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", path.join(ROOT, f)]).toString();
@@ -21,10 +21,15 @@ let seed = 5; const rnd = () => ((seed = (seed * 1103515245 + 12345) % 214748364
 const ALIAS = { marcus: ["marcus", "writer"], adler: ["adler", "writer"], socrates: ["socrates", "diogenes"], work: ["work", "help"], alone: ["alone", "morning"] };
 const uses = {}; const ALL = [...new Set(Object.values(POOLS).flat())]; ALL.forEach((k) => (uses[k] = 0));
 let recent = [];
-function pick(themes) {
+// a cut-out is used only when its figure leaves most of a red word visible: BAND is how much of the frame's middle the
+// figure covers (src/cutband.json); a short word needs more room than a long one
+let LIM = 0.45;
+const goodCut = (k) => !!(CUT[k] && BAND[k] !== undefined && BAND[k] < LIM);
+function pick(themes, wantCut = false) {
   const ths = [...new Set(themes.flatMap((x) => ALIAS[x] || [x]))];
   const cand = ths.flatMap((t) => POOLS[t] || []).filter((k) => !recent.includes(k));
-  let best = cand.sort((a, b) => uses[a] - uses[b] || rnd() - 0.5)[0];
+  // a shot carrying a red word prefers a picture with a clean figure, so the word can sit behind it
+  let best = cand.sort((a, b) => (wantCut ? +goodCut(b) - +goodCut(a) : 0) || uses[a] - uses[b] || rnd() - 0.5)[0];
   if (!best) best = ALL.filter((k) => !recent.includes(k)).sort((a, b) => uses[a] - uses[b] || rnd() - 0.5)[0];
   uses[best]++; recent = [best, ...recent].slice(0, 5); return best;
 }
@@ -50,9 +55,12 @@ for (const s of cfg.scenes) {
     for (let k = 1; k < ws.length; k++) { const x = wt(k); if (x > cuts[cuts.length - 1] + 2 && x < end - 2 && (!best || Math.abs(x - want) < Math.abs(best - want))) best = x; }
     if (best) cuts.push(best);
   }
+  LIM = s.red && s.big && s.big.length <= 4 ? 0.3 : 0.45;
+  let redT = -1;
+  if (s.red && s.big) { const bw = s.big.split(" ").map(norm); for (let k = 0; k + bw.length <= ws.length; k++) if (bw.every((w, j) => norm(ws[k + j].word) === w)) { redT = wt(k); break; } }
   const sh = cuts.map((a, i) => {
-    const b = i + 1 < cuts.length ? cuts[i + 1] : end, k = pick([s.th[i % s.th.length]]);
-    const o = { at: r3(a), end: r3(b), k, kb: ["in", "out", "left", "right"][n++ % 4], cut: !!CUT[k] };
+    const b = i + 1 < cuts.length ? cuts[i + 1] : end, red = redT >= a && redT < b, k = pick(red ? s.th : [s.th[i % s.th.length]], red);
+    const o = { at: r3(a), end: r3(b), k, kb: ["in", "out", "left", "right"][n++ % 4], cut: goodCut(k) };
     shots.push(o); return o;
   });
   // captions (the Rise Above style): every spoken word in small lowercase EB Garamond, one to three words at a time in
