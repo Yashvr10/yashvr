@@ -1,0 +1,102 @@
+[
+{
+"word": "Whatever",
+"start": 0.0,
+"end": 0.28
+},
+{
+"word": "has",
+"start": 0.28,
+"end": 0.56
+},
+{
+"word": "happened",
+"start": 0.56,
+"end": 0.96
+},
+{
+"word": "in",
+"start": 0.96,
+"end": 1.28
+},
+{
+"word": "your",
+"start": 1.28,
+"end": 1.46
+},
+{
+"word": "life",
+"start": 1.46,
+"end": 1.9
+},
+{
+"word": "until",
+"start": 1.9,
+"end": 2.46
+},
+{
+"word": "now,",
+"start": 2.46,
+"end": 2.88
+},
+{
+"word": "it",
+"start": 3.18,
+"end": 3.46
+},
+{
+"word": "does",
+"start": 3.46,
+"end": 3.64
+},
+{
+"word": "not",
+"start": 3.64,
+"end": 3.86
+},
+{
+"word": "have",
+"start": 3.86,
+"end": 4.06
+},
+{
+"word": "to",
+"start": 4.06,
+"end": 4.22
+},
+{
+"word": "decide",
+"start": 4.22,
+"end": 4.7
+},
+{
+"word": "how",
+"start": 4.7,
+"end": 5.12
+},
+{
+"word": "you",
+"start": 5.12,
+"end": 5.3
+},
+{
+"word": "live",
+"start": 5.3,
+"end": 5.48
+},
+{
+"word": "from",
+"start": 5.48,
+"end": 5.7
+},
+{
+"word": "now",
+"start": 5.7,
+"end": 5.96
+},
+{
+"word": "on.",
+"start": 5.96,
+"end": 6.3
+}
+]
