@@ -1,0 +1,82 @@
+[
+{
+"word": "Because",
+"start": 0.0,
+"end": 0.24
+},
+{
+"word": "when",
+"start": 0.24,
+"end": 0.48
+},
+{
+"word": "you",
+"start": 0.48,
+"end": 0.64
+},
+{
+"word": "act",
+"start": 0.64,
+"end": 0.88
+},
+{
+"word": "to",
+"start": 0.88,
+"end": 1.08
+},
+{
+"word": "be",
+"start": 1.08,
+"end": 1.22
+},
+{
+"word": "recognised,",
+"start": 1.22,
+"end": 1.78
+},
+{
+"word": "you",
+"start": 2.42,
+"end": 2.52
+},
+{
+"word": "need",
+"start": 2.52,
+"end": 2.7
+},
+{
+"word": "a",
+"start": 2.7,
+"end": 2.82
+},
+{
+"word": "reward",
+"start": 2.82,
+"end": 3.16
+},
+{
+"word": "to",
+"start": 3.16,
+"end": 3.42
+},
+{
+"word": "know",
+"start": 3.42,
+"end": 3.62
+},
+{
+"word": "you",
+"start": 3.62,
+"end": 3.88
+},
+{
+"word": "did",
+"start": 3.88,
+"end": 4.08
+},
+{
+"word": "well.",
+"start": 4.08,
+"end": 4.36
+}
+]

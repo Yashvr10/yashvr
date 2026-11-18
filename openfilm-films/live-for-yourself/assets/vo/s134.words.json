@@ -1,0 +1,62 @@
+[
+{
+"word": "But",
+"start": 0.0,
+"end": 0.14
+},
+{
+"word": "there",
+"start": 0.14,
+"end": 0.32
+},
+{
+"word": "is",
+"start": 0.32,
+"end": 0.48
+},
+{
+"word": "a",
+"start": 0.48,
+"end": 0.68
+},
+{
+"word": "danger",
+"start": 0.68,
+"end": 0.98
+},
+{
+"word": "in",
+"start": 0.98,
+"end": 1.62
+},
+{
+"word": "everything",
+"start": 1.62,
+"end": 2.04
+},
+{
+"word": "we",
+"start": 2.04,
+"end": 2.32
+},
+{
+"word": "have",
+"start": 2.32,
+"end": 2.44
+},
+{
+"word": "said",
+"start": 2.44,
+"end": 2.68
+},
+{
+"word": "so",
+"start": 2.68,
+"end": 2.98
+},
+{
+"word": "far.",
+"start": 2.98,
+"end": 3.36
+}
+]

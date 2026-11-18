@@ -1,0 +1,52 @@
+[
+{
+"word": "Adler's",
+"start": 0.0,
+"end": 0.5
+},
+{
+"word": "answer",
+"start": 0.5,
+"end": 0.72
+},
+{
+"word": "was",
+"start": 0.72,
+"end": 1.1
+},
+{
+"word": "no.",
+"start": 1.1,
+"end": 1.46
+},
+{
+"word": "In",
+"start": 1.9,
+"end": 2.0
+},
+{
+"word": "fact,",
+"start": 2.0,
+"end": 2.3
+},
+{
+"word": "it",
+"start": 2.52,
+"end": 2.68
+},
+{
+"word": "was",
+"start": 2.68,
+"end": 2.84
+},
+{
+"word": "the",
+"start": 2.84,
+"end": 3.02
+},
+{
+"word": "opposite.",
+"start": 3.02,
+"end": 3.36
+}
+]

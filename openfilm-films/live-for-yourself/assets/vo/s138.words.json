@@ -1,0 +1,67 @@
+[
+{
+"word": "The",
+"start": 0.0,
+"end": 0.16
+},
+{
+"word": "person",
+"start": 0.16,
+"end": 0.48
+},
+{
+"word": "who",
+"start": 0.48,
+"end": 0.82
+},
+{
+"word": "lives",
+"start": 0.82,
+"end": 1.04
+},
+{
+"word": "for",
+"start": 1.04,
+"end": 1.32
+},
+{
+"word": "approval",
+"start": 1.32,
+"end": 1.72
+},
+{
+"word": "asks,",
+"start": 1.72,
+"end": 2.18
+},
+{
+"word": "what",
+"start": 2.64,
+"end": 2.8
+},
+{
+"word": "will",
+"start": 2.8,
+"end": 2.98
+},
+{
+"word": "they",
+"start": 2.98,
+"end": 3.18
+},
+{
+"word": "think",
+"start": 3.18,
+"end": 3.5
+},
+{
+"word": "of",
+"start": 3.5,
+"end": 3.7
+},
+{
+"word": "me?",
+"start": 3.7,
+"end": 3.92
+}
+]
