@@ -1,0 +1,13 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+@font-face{font-family:IT;src:url(../fonts/InterTight.ttf);font-weight:100 900}
+html,body{margin:0;width:2398px;height:1346px;overflow:hidden;background:#f4f3f1}
+.rows{position:absolute;left:0;right:0;top:-6px;text-align:center}
+.r{font-family:IT;font-weight:900;color:#141414;letter-spacing:-.045em;line-height:.86;white-space:nowrap;filter:blur(.6px)}
+.fg{position:absolute;inset:0;background:url(fg.png) 0 0/100% 100%}
+</style></head><body>
+<div class="rows" id="rows"></div><div class="fg"></div>
+<script>
+const R=document.getElementById('rows');
+for(let i=0;i<11;i++){const d=document.createElement('div');d.className='r';d.innerHTML='<span>TURN DREAM INTO REALITY.</span>';R.append(d);}
+document.fonts.ready.then(()=>{for(const d of R.children){d.style.fontSize='100px';const w=d.firstChild.getBoundingClientRect().width;d.style.fontSize=(100*2260/w)+'px';}document.body.dataset.ok=1;});
+</script></body></html>
