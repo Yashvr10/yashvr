@@ -1,0 +1,158 @@
+{
+ "thoreau": [
+  "thoreau-c1",
+  "thoreau-c3",
+  "thoreau-c6"
+ ],
+ "castle": [
+  "castle-c1",
+  "castle-c2",
+  "castle-c3",
+  "castle-c5",
+  "castle-c7",
+  "castle-c8",
+  "castle-c9",
+  "castle-c11",
+  "castle-c12",
+  "castle-c13",
+  "castle-c14"
+ ],
+ "dream": [
+  "dream-c1",
+  "dream-c3",
+  "dream-c4",
+  "dream-c5",
+  "dream-c6",
+  "dream-c8"
+ ],
+ "wright": [
+  "wright-c1",
+  "wright-c2",
+  "wright-c3",
+  "wright-c4",
+  "wright-c5",
+  "wright-c6",
+  "wright-c10",
+  "wright-c12",
+  "wright-c13",
+  "wright-c14",
+  "wright-c15",
+  "wright-c16",
+  "wright-c17",
+  "wright-c19",
+  "wright-c21",
+  "wright-c22",
+  "wright-c23",
+  "wright-c24",
+  "wright-c25",
+  "wright-c26",
+  "wright-c28",
+  "wright-c29",
+  "wright-c30",
+  "wright-c33"
+ ],
+ "langley": [
+  "langley-c1",
+  "langley-c2",
+  "langley-c3"
+ ],
+ "lilienthal": [
+  "lilienthal-c5"
+ ],
+ "dunes": [
+  "dunes-c2",
+  "dunes-c4",
+  "dunes-c5",
+  "dunes-c7"
+ ],
+ "storm": [
+  "storm-c1",
+  "storm-c2",
+  "storm-c3",
+  "storm-c5",
+  "storm-c6",
+  "storm-c7",
+  "storm-c8",
+  "storm-c9",
+  "storm-c10",
+  "storm-c11",
+  "storm-c12"
+ ],
+ "port": [
+  "port-c1",
+  "port-c3",
+  "port-c4",
+  "port-c5",
+  "port-c6",
+  "port-c7"
+ ],
+ "work": [
+  "work-c1",
+  "work-c7",
+  "work-c9",
+  "work-c10",
+  "work-c11"
+ ],
+ "build": [
+  "build-c2",
+  "build-c5"
+ ],
+ "stoic": [
+  "stoic-c5",
+  "stoic-c6",
+  "stoic-c7",
+  "stoic-c8"
+ ],
+ "face": [
+  "face-c1",
+  "face-c2",
+  "face-c3",
+  "face-c4",
+  "face-c5",
+  "face-c6",
+  "face-c7",
+  "face-c8"
+ ],
+ "morning": [
+  "morning-c1",
+  "morning-c3",
+  "morning-c4",
+  "morning-c5"
+ ],
+ "night": [
+  "night-c1",
+  "night-c2",
+  "night-c3",
+  "night-c4",
+  "night-c5",
+  "night-c6",
+  "night-c7",
+  "night-c9",
+  "night-c11",
+  "night-c12"
+ ],
+ "crowd": [
+  "crowd-c2",
+  "crowd-c3",
+  "crowd-c4",
+  "crowd-c5",
+  "crowd-c6",
+  "crowd-c7",
+  "crowd-c8"
+ ],
+ "writer": [
+  "writer-c1",
+  "writer-c2",
+  "writer-c4",
+  "writer-c5"
+ ],
+ "franklin": [
+  "franklin-c1",
+  "franklin-c2",
+  "franklin-c3",
+  "franklin-c4",
+  "franklin-c5",
+  "franklin-c6",
+  "franklin-c8"
+ ]
+}

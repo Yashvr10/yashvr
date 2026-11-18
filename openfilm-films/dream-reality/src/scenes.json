@@ -1,0 +1,1403 @@
+{
+ "voice": "bm_george",
+ "speed": 0.97,
+ "scenes": [
+  {
+   "id": "s001",
+   "text": "If you have built castles in the air, your work need not be lost.",
+   "th": [
+    "castle"
+   ],
+   "big": "castles",
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s002",
+   "text": "That is where they should be.",
+   "th": [
+    "castle"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.3
+  },
+  {
+   "id": "s003",
+   "text": "Now put the foundations under them.",
+   "th": [
+    "build"
+   ],
+   "big": "foundations",
+   "red": true,
+   "gap": 0.8
+  },
+  {
+   "id": "s004",
+   "text": "Henry David Thoreau wrote that in a cabin he built with his own hands, beside a pond in Massachusetts.",
+   "th": [
+    "thoreau"
+   ],
+   "big": "Thoreau",
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s005",
+   "text": "He was not against dreaming.",
+   "th": [
+    "thoreau",
+    "dream"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s006",
+   "text": "He spent two years alone in the woods, chasing a dream most people thought was foolish.",
+   "th": [
+    "thoreau",
+    "night"
+   ],
+   "big": "foolish",
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s007",
+   "text": "But he understood something most dreamers never do.",
+   "th": [
+    "face"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s008",
+   "text": "A dream is only the roof. Nobody lives in a roof.",
+   "th": [
+    "castle"
+   ],
+   "big": "roof",
+   "red": true,
+   "gap": 0.7
+  },
+  {
+   "id": "s009",
+   "text": "A few years before Thoreau went into the woods, the painter Thomas Cole made a series of four paintings called The Voyage of Life.",
+   "th": [
+    "castle"
+   ],
+   "big": "Voyage",
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s010",
+   "text": "In the second one, a young man stands in a boat on a river, one arm stretched toward a shining palace floating in the clouds.",
+   "th": [
+    "castle"
+   ],
+   "big": "palace",
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s011",
+   "text": "He does not look at the water. He does not see that the river is bending away from the palace, toward rapids and rocks.",
+   "th": [
+    "storm",
+    "castle"
+   ],
+   "big": "rapids",
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s012",
+   "text": "He sees only the castle.",
+   "th": [
+    "castle"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.7
+  },
+  {
+   "id": "s013",
+   "text": "Most of us are that young man. We have a castle in the air.",
+   "th": [
+    "dream",
+    "face"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s014",
+   "text": "The book we will write. The body we will build. The business we will start. The life we will live once things finally calm down.",
+   "th": [
+    "dream",
+    "face",
+    "night"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s015",
+   "text": "We visit it every night. We furnish it in detail.",
+   "th": [
+    "night",
+    "castle"
+   ],
+   "big": "night",
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s016",
+   "text": "And every morning, we wake up in exactly the same place.",
+   "th": [
+    "morning"
+   ],
+   "big": "same",
+   "red": true,
+   "gap": 0.7
+  },
+  {
+   "id": "s017",
+   "text": "So this video is about one question.",
+   "th": [
+    "face"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.3
+  },
+  {
+   "id": "s018",
+   "text": "How does a dream leave your head and enter the world?",
+   "th": [
+    "morning",
+    "castle"
+   ],
+   "big": "world",
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "ch1",
+   "card": "chapter",
+   "num": "I",
+   "title": "The castle and the ground",
+   "len": 4.4
+  },
+  {
+   "id": "s019",
+   "text": "Start with the strangest race of the twentieth century.",
+   "th": [
+    "wright"
+   ],
+   "big": "race",
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s020",
+   "text": "For hundreds of years, people had dreamed of flying. Poets wrote about it. Inventors jumped from towers wearing wings and broke their legs.",
+   "th": [
+    "lilienthal",
+    "castle"
+   ],
+   "big": "flying",
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s021",
+   "text": "By 1903, two teams in America were close enough to believe they could build the first machine that would carry a man through the air under its own power.",
+   "th": [
+    "lilienthal",
+    "wright"
+   ],
+   "big": "1903",
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s022",
+   "text": "The first was led by Samuel Langley, the head of the Smithsonian Institution, one of the most respected scientists in America.",
+   "th": [
+    "langley"
+   ],
+   "big": "Langley",
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s023",
+   "text": "He had fifty thousand dollars from the War Department, a staff of engineers, and the attention of the entire press.",
+   "th": [
+    "langley",
+    "crowd"
+   ],
+   "big": "fifty",
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s024",
+   "text": "He had already flown large steam-powered models without a pilot. Everyone expected him to finish the job.",
+   "th": [
+    "langley"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s025",
+   "text": "The second team was two brothers from Ohio who repaired bicycles for a living.",
+   "th": [
+    "wright"
+   ],
+   "big": "bicycles",
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s026",
+   "text": "No degrees. No funding. Wilbur and Orville Wright paid for everything out of their own shop.",
+   "th": [
+    "wright",
+    "work"
+   ],
+   "big": "Wright",
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s027",
+   "text": "No newspaper was watching them. Almost nobody outside their family knew what they were doing.",
+   "th": [
+    "wright",
+    "night"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s028",
+   "text": "On paper, it was not a race at all.",
+   "th": [
+    "langley"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.9
+  },
+  {
+   "id": "ch2",
+   "card": "chapter",
+   "num": "II",
+   "title": "The grand moment",
+   "len": 4.4
+  },
+  {
+   "id": "s029",
+   "text": "Langley's machine was called the Aerodrome. It was launched from a catapult on top of a houseboat in the Potomac River.",
+   "th": [
+    "langley"
+   ],
+   "big": "Aerodrome",
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s030",
+   "text": "Reporters waited in boats for days to watch it fly.",
+   "th": [
+    "langley",
+    "crowd"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s031",
+   "text": "On the seventh of October 1903, the catapult fired, and the Aerodrome dropped straight into the water, as one reporter put it, like a handful of mortar.",
+   "th": [
+    "langley",
+    "storm"
+   ],
+   "big": "water",
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s032",
+   "text": "In December, they tried again. This time it broke apart in the air and fell into the river a second time. The pilot was pulled out of the freezing water.",
+   "th": [
+    "langley",
+    "storm"
+   ],
+   "big": "again",
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s033",
+   "text": "A newspaper wrote that a true flying machine might take one million to ten million years.",
+   "th": [
+    "crowd"
+   ],
+   "big": "million",
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s034",
+   "text": "Langley was mocked in the press and in Congress. The money was withdrawn. He never tried again, and he died less than three years later.",
+   "th": [
+    "langley",
+    "night"
+   ],
+   "big": "never",
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s035",
+   "text": "He was not a fool. He was brilliant, and he worked hard.",
+   "th": [
+    "langley",
+    "face"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s036",
+   "text": "But he had made the first mistake a dreamer can make. He went straight for the grand moment.",
+   "th": [
+    "langley",
+    "castle"
+   ],
+   "big": "grand",
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s037",
+   "text": "He tested the whole vision at once, in public, and when it failed, there was nothing to learn from but wreckage.",
+   "th": [
+    "storm"
+   ],
+   "big": "wreckage",
+   "red": true,
+   "gap": 0.7
+  },
+  {
+   "id": "s038",
+   "text": "This is the man who decides to change everything on Monday. A new diet, a new schedule, a new life, all at once.",
+   "th": [
+    "face",
+    "morning"
+   ],
+   "big": "Monday",
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s039",
+   "text": "And when Thursday comes and the whole thing collapses, he concludes that the dream was impossible, instead of seeing that the launch was wrong.",
+   "th": [
+    "storm",
+    "face"
+   ],
+   "big": "impossible",
+   "red": false,
+   "gap": 0.9
+  },
+  {
+   "id": "ch3",
+   "card": "chapter",
+   "num": "III",
+   "title": "The quiet trap",
+   "len": 4.4
+  },
+  {
+   "id": "s040",
+   "text": "The second trap is quieter. It belongs to the man who never launches at all.",
+   "th": [
+    "face",
+    "night"
+   ],
+   "big": "never",
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s041",
+   "text": "He reads, plans and prepares, waiting for the perfect moment and the perfect conditions.",
+   "th": [
+    "night",
+    "face"
+   ],
+   "big": "perfect",
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s042",
+   "text": "He knows everything about the dream except what it feels like to begin.",
+   "th": [
+    "dream",
+    "night"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.6
+  },
+  {
+   "id": "s043",
+   "text": "And often, without noticing, he spends the energy of the dream on talking about it.",
+   "th": [
+    "crowd",
+    "face"
+   ],
+   "big": "talking",
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s044",
+   "text": "In 2009, the psychologist Peter Gollwitzer and his colleagues ran a series of experiments with students who wanted to become something, a lawyer, a psychologist.",
+   "th": [
+    "scholar",
+    "crowd"
+   ],
+   "big": "2009",
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s045",
+   "text": "Some of the students were asked to tell another person about their plans. Others kept them to themselves.",
+   "th": [
+    "crowd"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s046",
+   "text": "The ones who announced their intentions then worked on them less.",
+   "th": [
+    "face"
+   ],
+   "big": "less",
+   "red": true,
+   "gap": 0.75
+  },
+  {
+   "id": "s047",
+   "text": "Being seen as the person with the dream had already given them some of the feeling of having it.",
+   "th": [
+    "dream",
+    "crowd"
+   ],
+   "big": "feeling",
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s048",
+   "text": "The mind had been paid in advance.",
+   "th": [
+    "night"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.7
+  },
+  {
+   "id": "s049",
+   "text": "Marcus Aurelius, the emperor of Rome, wrote a line in his private notebook that could have been written for this man.",
+   "th": [
+    "stoic"
+   ],
+   "big": "Marcus",
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s050",
+   "text": "Waste no more time arguing about what a good man should be. Be one.",
+   "th": [
+    "stoic"
+   ],
+   "big": "Be one",
+   "red": true,
+   "gap": 0.7
+  },
+  {
+   "id": "s051",
+   "text": "The first man leaps too soon. The second never leaps.",
+   "th": [
+    "face",
+    "storm"
+   ],
+   "big": "leaps",
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s052",
+   "text": "They seem like opposites, but they have made the same mistake.",
+   "th": [
+    "face"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s053",
+   "text": "Both have mistaken the picture in their head for the work in the world.",
+   "th": [
+    "dream",
+    "work"
+   ],
+   "big": "work",
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "ch4",
+   "card": "chapter",
+   "num": "IV",
+   "title": "Foundations",
+   "len": 4.4
+  },
+  {
+   "id": "s054",
+   "text": "The Wrights did something different. They started with the problem that had killed the men before them.",
+   "th": [
+    "wright"
+   ],
+   "big": "different",
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s055",
+   "text": "In 1896, the great German glider pioneer Otto Lilienthal, who had made around two thousand flights, fell from the sky and died.",
+   "th": [
+    "lilienthal"
+   ],
+   "big": "Lilienthal",
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s056",
+   "text": "The brothers studied his death and decided that lift was not the real problem. Control was.",
+   "th": [
+    "lilienthal",
+    "wright"
+   ],
+   "big": "Control",
+   "red": true,
+   "gap": 0.75
+  },
+  {
+   "id": "s057",
+   "text": "A machine that could not be steered and balanced in a gust of wind would kill whoever flew it.",
+   "th": [
+    "storm",
+    "lilienthal"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s058",
+   "text": "So before they ever built an engine, they built gliders, and flew them, again and again, for three summers.",
+   "th": [
+    "wright",
+    "dunes"
+   ],
+   "big": "gliders",
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s059",
+   "text": "They wrote to the Weather Bureau to find the windiest, emptiest beach in America. It was Kitty Hawk, on the coast of North Carolina.",
+   "th": [
+    "dunes",
+    "wright"
+   ],
+   "big": "Kitty Hawk",
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s060",
+   "text": "They lived there in a wooden shed, fighting sand, storms and clouds of mosquitoes.",
+   "th": [
+    "dunes",
+    "work"
+   ],
+   "big": "mosquitoes",
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s061",
+   "text": "The summer of 1901 went badly. Their glider produced far less lift than the published tables promised.",
+   "th": [
+    "wright",
+    "dunes"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s062",
+   "text": "On the train home, Wilbur told his brother that man would not fly for fifty years.",
+   "th": [
+    "wright",
+    "night"
+   ],
+   "big": "fifty years",
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s063",
+   "text": "This is the moment where most dreams end. Not in a crash, but in a quiet sentence on the way home.",
+   "th": [
+    "night",
+    "face"
+   ],
+   "big": "quiet",
+   "red": true,
+   "gap": 0.7
+  },
+  {
+   "id": "s064",
+   "text": "But instead of quitting, they did not trust the tables any more. They decided to find out for themselves.",
+   "th": [
+    "wright",
+    "work"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s065",
+   "text": "They built a small wind tunnel in their shop out of a wooden box and a fan, and they tested around two hundred different wing shapes, one at a time.",
+   "th": [
+    "wright",
+    "work"
+   ],
+   "big": "two hundred",
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s066",
+   "text": "It was slow, unglamorous work. Nobody applauded. Nobody wrote about it.",
+   "th": [
+    "work",
+    "night"
+   ],
+   "big": "slow",
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s067",
+   "text": "The next summer, their new glider worked. They made somewhere between seven hundred and a thousand glides in a few weeks, learning to control the machine in the air.",
+   "th": [
+    "wright",
+    "dunes"
+   ],
+   "big": "thousand",
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s068",
+   "text": "Only then did they turn to the engine. Nobody would sell them one light enough, so their mechanic Charlie Taylor built it in six weeks.",
+   "th": [
+    "work"
+   ],
+   "big": "six weeks",
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s069",
+   "text": "On the fourteenth of December 1903, Wilbur made the first attempt. The machine stalled and dug into the sand. He did not give up, and he did not call the press.",
+   "th": [
+    "wright",
+    "dunes"
+   ],
+   "big": "stalled",
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s070",
+   "text": "They repaired it and waited for the wind.",
+   "th": [
+    "dunes",
+    "morning"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.6
+  },
+  {
+   "id": "s071",
+   "text": "On the 17th of December 1903, just nine days after Langley's second crash, Orville Wright lay on the lower wing and flew.",
+   "th": [
+    "wright"
+   ],
+   "big": "flew",
+   "red": true,
+   "gap": 0.75
+  },
+  {
+   "id": "s072",
+   "text": "Twelve seconds. One hundred and twenty feet.",
+   "th": [
+    "wright"
+   ],
+   "big": "Twelve",
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s073",
+   "text": "They flew four times that morning. On the last flight, Wilbur stayed in the air for fifty-nine seconds and covered more than eight hundred feet.",
+   "th": [
+    "wright",
+    "dunes"
+   ],
+   "big": "fifty-nine",
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s074",
+   "text": "The whole project had cost them about a thousand dollars.",
+   "th": [
+    "wright",
+    "work"
+   ],
+   "big": "thousand",
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s075",
+   "text": "Hardly anyone believed them at first. It took years before the world understood what had happened at Kitty Hawk.",
+   "th": [
+    "crowd",
+    "wright"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s076",
+   "text": "In 1908, Wilbur sailed to France and flew in front of a crowd near Le Mans, banking and circling over the field.",
+   "th": [
+    "crowd",
+    "wright"
+   ],
+   "big": "France",
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s077",
+   "text": "The French aviators who had doubted him were stunned. One of them said simply, we are beaten.",
+   "th": [
+    "crowd",
+    "face"
+   ],
+   "big": "beaten",
+   "red": true,
+   "gap": 0.75
+  },
+  {
+   "id": "s078",
+   "text": "They did not have the bigger dream. They had the better foundations.",
+   "th": [
+    "build",
+    "wright"
+   ],
+   "big": "foundations",
+   "red": true,
+   "gap": 1.0
+  },
+  {
+   "id": "ch5",
+   "card": "chapter",
+   "num": "V",
+   "title": "The method",
+   "len": 4.4
+  },
+  {
+   "id": "s079",
+   "text": "So what are the foundations under a castle in the air? Look at what the Wrights actually did, and five steps appear.",
+   "th": [
+    "castle",
+    "wright"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.6
+  },
+  {
+   "id": "s080",
+   "text": "First, name the dream precisely.",
+   "th": [
+    "port"
+   ],
+   "big": "precisely",
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s081",
+   "text": "Seneca wrote that if a man does not know to which port he is sailing, no wind is favourable.",
+   "th": [
+    "port",
+    "stoic"
+   ],
+   "big": "port",
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s082",
+   "text": "The Wrights did not want to do something with flight. They wanted a machine that would carry a man, under its own power, and be controlled in the air.",
+   "th": [
+    "wright"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s083",
+   "text": "Not \"be successful\", but the exact thing, the exact number, the exact date.",
+   "th": [
+    "work"
+   ],
+   "big": "exact",
+   "red": true,
+   "gap": 0.75
+  },
+  {
+   "id": "s084",
+   "text": "A vague dream cannot fail, and that is exactly why it can never succeed.",
+   "th": [
+    "dream",
+    "night"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.7
+  },
+  {
+   "id": "s085",
+   "text": "Second, find the thing that will kill it.",
+   "th": [
+    "storm"
+   ],
+   "big": "kill",
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s086",
+   "text": "For the Wrights, it was control. For you, it is probably not something in the world. It is something in you.",
+   "th": [
+    "face",
+    "storm"
+   ],
+   "big": "you",
+   "red": true,
+   "gap": 0.75
+  },
+  {
+   "id": "s087",
+   "text": "Your impatience. Your fear of looking foolish. The habit of stopping when it gets boring.",
+   "th": [
+    "face"
+   ],
+   "big": "impatience",
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s088",
+   "text": "Name it as honestly as the Wrights named the death of Lilienthal.",
+   "th": [
+    "lilienthal",
+    "face"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.7
+  },
+  {
+   "id": "s089",
+   "text": "Third, decide in advance what you will do when that obstacle appears.",
+   "th": [
+    "night",
+    "work"
+   ],
+   "big": "advance",
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s090",
+   "text": "Put it in a simple form. If this happens, then I will do that.",
+   "th": [
+    "work"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s091",
+   "text": "If I come home tired, then I will still write one page. If I miss a day, then I will never miss two.",
+   "th": [
+    "night",
+    "work"
+   ],
+   "big": "never miss two",
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s092",
+   "text": "Across nearly a hundred studies, people who made plans in exactly that form were far more likely to reach their goals than people who only intended to.",
+   "th": [
+    "crowd",
+    "work"
+   ],
+   "big": "hundred",
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s093",
+   "text": "The decision is made once, in a calm moment, so that it does not have to be made again in a weak one.",
+   "th": [
+    "morning",
+    "face"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.7
+  },
+  {
+   "id": "s094",
+   "text": "Fourth, build the glider before the aeroplane.",
+   "th": [
+    "wright",
+    "lilienthal"
+   ],
+   "big": "glider",
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s095",
+   "text": "Make the smallest version of your dream that can be tested this week. A single chapter. A single customer. A single month of training.",
+   "th": [
+    "work",
+    "build"
+   ],
+   "big": "smallest",
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s096",
+   "text": "Every small failure is a wind tunnel. Every big failure is the Potomac.",
+   "th": [
+    "wright",
+    "storm"
+   ],
+   "big": "Potomac",
+   "red": true,
+   "gap": 0.7
+  },
+  {
+   "id": "s097",
+   "text": "And fifth, show up every day, and look honestly at what you did.",
+   "th": [
+    "morning",
+    "night"
+   ],
+   "big": "every day",
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s098",
+   "text": "The novelist Anthony Trollope worked full time for the Post Office. So he wrote before work, starting at half past five in the morning.",
+   "th": [
+    "writer"
+   ],
+   "big": "Trollope",
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s099",
+   "text": "He kept his watch on the desk and wrote two hundred and fifty words every quarter of an hour, for three hours, every day.",
+   "th": [
+    "writer"
+   ],
+   "big": "every quarter",
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s100",
+   "text": "By the end of his life, he had written forty-seven novels.",
+   "th": [
+    "writer",
+    "build"
+   ],
+   "big": "forty-seven",
+   "red": true,
+   "gap": 0.75
+  },
+  {
+   "id": "s101",
+   "text": "Benjamin Franklin began each morning with a question. What good shall I do this day?",
+   "th": [
+    "franklin",
+    "morning"
+   ],
+   "big": "morning",
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s102",
+   "text": "And he ended each evening with another. What good have I done today?",
+   "th": [
+    "franklin",
+    "night"
+   ],
+   "big": "today",
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s103",
+   "text": "That evening question is where the dream meets the truth.",
+   "th": [
+    "night"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "ch6",
+   "card": "chapter",
+   "num": "VI",
+   "title": "The first stone",
+   "len": 4.4
+  },
+  {
+   "id": "s104",
+   "text": "There is one more detail in this story, and it may be the most important of all.",
+   "th": [
+    "wright",
+    "night"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.6
+  },
+  {
+   "id": "s105",
+   "text": "In May 1899, before they had built anything, Wilbur Wright sat down and wrote a letter to the Smithsonian Institution.",
+   "th": [
+    "wright",
+    "writer"
+   ],
+   "big": "1899",
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s106",
+   "text": "The same institution run by Samuel Langley.",
+   "th": [
+    "langley"
+   ],
+   "big": "Langley",
+   "red": true,
+   "gap": 0.75
+  },
+  {
+   "id": "s107",
+   "text": "He asked them for anything they had published on the subject of flight, and he described himself in one honest sentence.",
+   "th": [
+    "writer",
+    "wright"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s108",
+   "text": "I am an enthusiast, but not a crank.",
+   "th": [
+    "wright"
+   ],
+   "big": "enthusiast",
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s109",
+   "text": "The Smithsonian mailed him a small packet of pamphlets. Some of them were written by Langley himself.",
+   "th": [
+    "langley",
+    "writer"
+   ],
+   "big": "pamphlets",
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s110",
+   "text": "That packet was the first stone. Four and a half years later, the brothers flew, and the man whose papers they had read was still pulling his machine out of the river.",
+   "th": [
+    "wright",
+    "storm"
+   ],
+   "big": "first stone",
+   "red": true,
+   "gap": 0.8
+  },
+  {
+   "id": "s111",
+   "text": "The first stone of a dream is almost always small, and almost always boring.",
+   "th": [
+    "build",
+    "work"
+   ],
+   "big": "boring",
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s112",
+   "text": "A letter. A phone call. A page. A walk around the block. A single honest look at your bank account.",
+   "th": [
+    "writer",
+    "morning"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s113",
+   "text": "Nobody will applaud it, and that is exactly why so few people ever lay it.",
+   "th": [
+    "night",
+    "face"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.7
+  },
+  {
+   "id": "s114",
+   "text": "Thoreau knew this too. When he built his cabin by the pond, he wrote down the cost of every board, every brick and every nail.",
+   "th": [
+    "thoreau",
+    "build"
+   ],
+   "big": "every nail",
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s115",
+   "text": "The whole house cost him twenty-eight dollars and twelve and a half cents.",
+   "th": [
+    "thoreau"
+   ],
+   "big": "twenty-eight",
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s116",
+   "text": "The man who wrote about castles in the air was also the man who counted the nails.",
+   "th": [
+    "thoreau",
+    "castle"
+   ],
+   "big": "nails",
+   "red": true,
+   "gap": 0.7
+  },
+  {
+   "id": "s117",
+   "text": "At the end of Walden, he wrote down what his two years in the woods had taught him.",
+   "th": [
+    "thoreau",
+    "night"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s118",
+   "text": "If one advances confidently in the direction of his dreams, and endeavours to live the life which he has imagined, he will meet with a success unexpected in common hours.",
+   "th": [
+    "thoreau",
+    "morning"
+   ],
+   "big": "advances",
+   "red": false,
+   "gap": 0.8
+  },
+  {
+   "id": "s119",
+   "text": "Look at the verbs in that sentence. Advances. Endeavours. Lives.",
+   "th": [
+    "thoreau"
+   ],
+   "big": "advances",
+   "red": true,
+   "gap": 0.75
+  },
+  {
+   "id": "s120",
+   "text": "The dream gives the direction. Only the walking covers the distance.",
+   "th": [
+    "morning",
+    "build"
+   ],
+   "big": "walking",
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s121",
+   "text": "Langley had the money, the fame and the vision. The brothers from Ohio had a method.",
+   "th": [
+    "langley",
+    "wright"
+   ],
+   "big": "method",
+   "red": true,
+   "gap": 0.75
+  },
+  {
+   "id": "s122",
+   "text": "Thomas Cole's young man is still reaching for the palace in the clouds, and his boat is still drifting toward the rocks.",
+   "th": [
+    "castle",
+    "storm"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s123",
+   "text": "And that is the difference between a castle in the air and a house you can live in.",
+   "th": [
+    "castle",
+    "build"
+   ],
+   "big": "house",
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s124",
+   "text": "Keep your dream. It is where you are meant to live.",
+   "th": [
+    "castle",
+    "morning"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.75
+  },
+  {
+   "id": "s125",
+   "text": "But tonight, before you sleep, put one stone underneath it.",
+   "th": [
+    "night",
+    "build"
+   ],
+   "big": "one stone",
+   "red": true,
+   "gap": 0.75
+  },
+  {
+   "id": "s126",
+   "text": "And tomorrow, put another.",
+   "th": [
+    "morning",
+    "build"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.7
+  },
+  {
+   "id": "s127",
+   "text": "The world will never answer what you imagine. It only answers what you build.",
+   "th": [
+    "morning",
+    "build"
+   ],
+   "big": "build",
+   "red": true,
+   "gap": 2.0
+  }
+ ]
+}

@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=1920, height=1080">
+<title>Captions</title>
+<style>
+  /* the caption reel (Dd0NzeWxryg): tall condensed serif capitals at the top of the frame, the key word huge beneath,
+     white or red; Instrument Serif narrowed to 62% gives the same tall didone shape */
+  @font-face { font-family: "IS"; src: url("fonts/InstrumentSerif.ttf"); }
+  @font-face { font-family: "BM"; src: url("fonts/BodoniModa.ttf"); }
+  html, body { margin: 0; width: 1920px; height: 1080px; overflow: hidden; background: transparent; }
+  .blk { position: absolute; left: 0; right: 0; top: 34px; display: none; text-align: center; color: #f4efe6; }
+  .ln { display: block; white-space: nowrap; font-family: "IS"; line-height: .86; transform-origin: 50% 0;
+        text-shadow: 0 4px 30px rgba(0,0,0,.45); }
+  .ln.big { margin-top: 2px; }
+  .ln.big.red { color: #d0121a; }
+  .ln.tail { margin-top: 8px; }
+  .w { visibility: hidden; }
+  /* chapter card (the reference video): a roman numeral and a small spaced title on black */
+  .chap { position: absolute; inset: 0; background: #000; display: none; }
+  .chap .n { position: absolute; left: 0; right: 0; top: 410px; text-align: center; font-family: "BM"; font-size: 120px; color: #e9dcc0; }
+  .chap .t { position: absolute; left: 0; right: 0; top: 590px; text-align: center; font-family: "BM"; font-size: 30px; letter-spacing: .42em;
+             color: #b9ad97; text-transform: uppercase; }
+  .endc { position: absolute; inset: 0; background: #000; display: none; }
+  .endc div { position: absolute; left: 0; right: 0; top: 515px; text-align: center; font-family: "BM"; font-size: 40px; letter-spacing: .14em; color: #e9dcc0; }
+</style>
+</head>
+<body>
+<script>
+const D = {{data}};
+const els = [];
+for (const c of D.caps) {
+  const e = document.createElement("div"); e.className = "blk"; document.body.append(e);
+  const o = { b: c, el: e, words: [], lines: [] };
+  for (const [kind, words] of [["top", c.top], ["big", c.big], ["tail", c.tail]]) {
+    if (!words || !words.length) continue;
+    const l = document.createElement("span"); l.className = "ln " + kind + (kind === "big" && c.red ? " red" : "");
+    words.forEach((w, i) => { if (i) l.append(" "); const s = document.createElement("span"); s.className = "w"; s.textContent = w.x; l.append(s); o.words.push([s, w.t]); });
+    e.append(l); o.lines.push([l, kind]);
+  }
+  els.push(o);
+}
+for (const c of D.chaps) {
+  const e = document.createElement("div"); e.className = "chap"; e.innerHTML = `<div class="n">${c.num}</div><div class="t">${c.title}</div>`;
+  document.body.append(e); els.push({ b: c, el: e, chap: true });
+}
+for (const c of D.ends || []) { const e = document.createElement("div"); e.className = "endc"; e.innerHTML = `<div>${c.text}</div>`; document.body.append(e); els.push({ b: c, el: e, chap: true }); }
+// each line sized to fill the frame width, narrowed to 62% (top line at most 150 px tall, the key word at most 400 px)
+function layout(o) {
+  o.el.style.display = "block";
+  for (const [l, kind] of o.lines) {
+    const target = kind === "big" ? 1780 : kind === "top" ? 1760 : 1100, max = kind === "big" ? 400 : kind === "top" ? 150 : 90;
+    l.style.fontSize = "100px"; l.style.transform = "none";
+    const w = l.getBoundingClientRect().width;
+    l.style.fontSize = Math.min(max, (100 * target) / (w * 0.62)) + "px";
+    l.style.transform = "scaleX(.62)";
+  }
+  o.el.style.display = "none";
+}
+window.film = {
+  ready: document.fonts.ready.then(() => els.filter((o) => !o.chap).forEach(layout)),
+  frame(t) {
+    for (const o of els) {
+      const on = t >= o.b.at && t < o.b.end;
+      o.el.style.display = on ? "block" : "none";
+      if (!on) continue;
+      if (o.chap) { const k = Math.min(1, (t - o.b.at) / 0.6, (o.b.end - t) / 0.4); o.el.style.opacity = Math.max(0, k).toFixed(3); continue; }
+      for (const [s, wt] of o.words) s.style.visibility = t >= wt ? "visible" : "hidden";
+      o.el.style.opacity = Math.max(0, Math.min(1, (t - o.b.at) / 0.12, (o.b.end - t) / 0.15)).toFixed(3);
+    }
+  },
+};
+</script>
+</body>
+</html>

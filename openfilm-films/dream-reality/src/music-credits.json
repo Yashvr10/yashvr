@@ -1,0 +1,26 @@
+[
+ {
+  "key": "titan",
+  "file": "titan.mp3",
+  "title": "Titan",
+  "artist": "Crux",
+  "license": "by-sa 3.0",
+  "source": "https://www.jamendo.com/track/1563796"
+ },
+ {
+  "key": "coming-from-above",
+  "file": "coming-from-above.mp3",
+  "title": "Coming From Above",
+  "artist": "Jesse Keller",
+  "license": "by 3.0",
+  "source": "https://www.jamendo.com/track/1540834"
+ },
+ {
+  "key": "expanse",
+  "file": "expanse.mp3",
+  "title": "Expanse",
+  "artist": "Sleep Rivers",
+  "license": "by-sa 3.0",
+  "source": "https://www.jamendo.com/track/1565359"
+ }
+]
