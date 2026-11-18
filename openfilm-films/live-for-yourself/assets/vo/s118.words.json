@@ -1,0 +1,82 @@
+[
+{
+"word": "Monet",
+"start": 0.0,
+"end": 0.38
+},
+{
+"word": "hung",
+"start": 0.38,
+"end": 0.58
+},
+{
+"word": "a",
+"start": 0.58,
+"end": 0.78
+},
+{
+"word": "small,",
+"start": 0.78,
+"end": 1.24
+},
+{
+"word": "misty",
+"start": 1.24,
+"end": 1.86
+},
+{
+"word": "picture",
+"start": 1.86,
+"end": 2.14
+},
+{
+"word": "of",
+"start": 2.14,
+"end": 2.38
+},
+{
+"word": "a",
+"start": 2.38,
+"end": 2.5
+},
+{
+"word": "harbour",
+"start": 2.5,
+"end": 2.76
+},
+{
+"word": "at",
+"start": 2.76,
+"end": 3.02
+},
+{
+"word": "dawn,",
+"start": 3.02,
+"end": 3.34
+},
+{
+"word": "and",
+"start": 3.34,
+"end": 3.94
+},
+{
+"word": "called",
+"start": 3.94,
+"end": 4.18
+},
+{
+"word": "it",
+"start": 4.18,
+"end": 4.34
+},
+{
+"word": "Impression,",
+"start": 4.34,
+"end": 4.84
+},
+{
+"word": "Sunrise.",
+"start": 4.84,
+"end": 5.52
+}
+]

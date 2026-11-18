@@ -1,0 +1,62 @@
+[
+{
+"word": "You",
+"start": 0.0,
+"end": 0.12
+},
+{
+"word": "can",
+"start": 0.12,
+"end": 0.32
+},
+{
+"word": "twist",
+"start": 0.32,
+"end": 0.62
+},
+{
+"word": "yourself",
+"start": 0.62,
+"end": 1.08
+},
+{
+"word": "into",
+"start": 1.08,
+"end": 1.54
+},
+{
+"word": "a",
+"start": 1.54,
+"end": 1.7
+},
+{
+"word": "hundred",
+"start": 1.7,
+"end": 1.98
+},
+{
+"word": "shapes",
+"start": 1.98,
+"end": 2.5
+},
+{
+"word": "and",
+"start": 2.5,
+"end": 3.06
+},
+{
+"word": "never",
+"start": 3.06,
+"end": 3.32
+},
+{
+"word": "satisfy",
+"start": 3.32,
+"end": 4.0
+},
+{
+"word": "everyone.",
+"start": 4.0,
+"end": 4.54
+}
+]

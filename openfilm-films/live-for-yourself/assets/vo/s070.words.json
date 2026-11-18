@@ -1,0 +1,142 @@
+[
+{
+"word": "You",
+"start": 0.0,
+"end": 0.12
+},
+{
+"word": "can",
+"start": 0.12,
+"end": 0.28
+},
+{
+"word": "be",
+"start": 0.28,
+"end": 0.48
+},
+{
+"word": "honest,",
+"start": 0.48,
+"end": 0.86
+},
+{
+"word": "generous,",
+"start": 1.22,
+"end": 1.68
+},
+{
+"word": "talented",
+"start": 2.16,
+"end": 2.44
+},
+{
+"word": "and",
+"start": 2.7,
+"end": 2.82
+},
+{
+"word": "kind,",
+"start": 2.82,
+"end": 3.22
+},
+{
+"word": "and",
+"start": 3.66,
+"end": 3.82
+},
+{
+"word": "someone",
+"start": 3.82,
+"end": 4.12
+},
+{
+"word": "will",
+"start": 4.12,
+"end": 4.34
+},
+{
+"word": "still",
+"start": 4.34,
+"end": 4.62
+},
+{
+"word": "not",
+"start": 4.62,
+"end": 4.86
+},
+{
+"word": "like",
+"start": 4.86,
+"end": 5.08
+},
+{
+"word": "you.",
+"start": 5.08,
+"end": 5.42
+},
+{
+"word": "Someone",
+"start": 6.04,
+"end": 6.2
+},
+{
+"word": "will",
+"start": 6.2,
+"end": 6.46
+},
+{
+"word": "like",
+"start": 6.46,
+"end": 6.66
+},
+{
+"word": "you",
+"start": 6.66,
+"end": 6.86
+},
+{
+"word": "for",
+"start": 6.86,
+"end": 7.0
+},
+{
+"word": "being",
+"start": 7.0,
+"end": 7.22
+},
+{
+"word": "funny",
+"start": 7.22,
+"end": 7.56
+},
+{
+"word": "and",
+"start": 7.56,
+"end": 7.88
+},
+{
+"word": "dislike",
+"start": 7.88,
+"end": 8.24
+},
+{
+"word": "you",
+"start": 8.24,
+"end": 8.56
+},
+{
+"word": "for",
+"start": 8.56,
+"end": 8.74
+},
+{
+"word": "being",
+"start": 8.74,
+"end": 8.98
+},
+{
+"word": "serious.",
+"start": 8.98,
+"end": 9.36
+}
+]

@@ -1,0 +1,72 @@
+[
+{
+"word": "Imagine",
+"start": 0.0,
+"end": 0.42
+},
+{
+"word": "you",
+"start": 0.42,
+"end": 0.76
+},
+{
+"word": "throw",
+"start": 0.76,
+"end": 1.02
+},
+{
+"word": "a",
+"start": 1.02,
+"end": 1.22
+},
+{
+"word": "surprise",
+"start": 1.22,
+"end": 1.7
+},
+{
+"word": "party",
+"start": 1.7,
+"end": 2.2
+},
+{
+"word": "for",
+"start": 2.2,
+"end": 2.42
+},
+{
+"word": "a",
+"start": 2.42,
+"end": 2.56
+},
+{
+"word": "friend.",
+"start": 2.56,
+"end": 2.86
+},
+{
+"word": "You",
+"start": 3.42,
+"end": 3.5
+},
+{
+"word": "plan",
+"start": 3.5,
+"end": 3.72
+},
+{
+"word": "it",
+"start": 3.72,
+"end": 3.88
+},
+{
+"word": "for",
+"start": 3.88,
+"end": 4.06
+},
+{
+"word": "weeks.",
+"start": 4.06,
+"end": 4.3
+}
+]

@@ -1,0 +1,62 @@
+[
+{
+"word": "Their",
+"start": 0.0,
+"end": 0.2
+},
+{
+"word": "opinion",
+"start": 0.2,
+"end": 0.56
+},
+{
+"word": "is",
+"start": 0.56,
+"end": 0.96
+},
+{
+"word": "still",
+"start": 0.96,
+"end": 1.28
+},
+{
+"word": "there.",
+"start": 1.28,
+"end": 1.72
+},
+{
+"word": "It",
+"start": 2.1,
+"end": 2.22
+},
+{
+"word": "just",
+"start": 2.22,
+"end": 2.36
+},
+{
+"word": "no",
+"start": 2.36,
+"end": 2.64
+},
+{
+"word": "longer",
+"start": 2.64,
+"end": 2.94
+},
+{
+"word": "belongs",
+"start": 2.94,
+"end": 3.32
+},
+{
+"word": "to",
+"start": 3.32,
+"end": 3.64
+},
+{
+"word": "you.",
+"start": 3.64,
+"end": 3.86
+}
+]

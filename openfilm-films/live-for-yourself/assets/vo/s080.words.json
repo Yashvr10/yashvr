@@ -1,0 +1,92 @@
+[
+{
+"word": "When",
+"start": 0.0,
+"end": 0.1
+},
+{
+"word": "a",
+"start": 0.1,
+"end": 0.24
+},
+{
+"word": "friend",
+"start": 0.24,
+"end": 0.42
+},
+{
+"word": "succeeds,",
+"start": 0.42,
+"end": 1.1
+},
+{
+"word": "something",
+"start": 1.34,
+"end": 1.68
+},
+{
+"word": "in",
+"start": 1.68,
+"end": 1.94
+},
+{
+"word": "me",
+"start": 1.94,
+"end": 2.12
+},
+{
+"word": "shrinks.",
+"start": 2.12,
+"end": 2.66
+},
+{
+"word": "When",
+"start": 3.06,
+"end": 3.2
+},
+{
+"word": "a",
+"start": 3.2,
+"end": 3.36
+},
+{
+"word": "colleague",
+"start": 3.36,
+"end": 3.6
+},
+{
+"word": "is",
+"start": 3.6,
+"end": 3.88
+},
+{
+"word": "praised,",
+"start": 3.88,
+"end": 4.24
+},
+{
+"word": "I",
+"start": 4.56,
+"end": 4.7
+},
+{
+"word": "feel",
+"start": 4.7,
+"end": 4.94
+},
+{
+"word": "I",
+"start": 4.94,
+"end": 5.16
+},
+{
+"word": "have",
+"start": 5.16,
+"end": 5.3
+},
+{
+"word": "lost.",
+"start": 5.3,
+"end": 5.58
+}
+]

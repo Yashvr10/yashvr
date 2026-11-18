@@ -1,0 +1,77 @@
+[
+{
+"word": "One",
+"start": 0.0,
+"end": 0.22
+},
+{
+"word": "painting",
+"start": 0.22,
+"end": 0.66
+},
+{
+"word": "drew",
+"start": 0.66,
+"end": 0.92
+},
+{
+"word": "the",
+"start": 0.92,
+"end": 1.06
+},
+{
+"word": "most",
+"start": 1.06,
+"end": 1.28
+},
+{
+"word": "laughter",
+"start": 1.28,
+"end": 1.68
+},
+{
+"word": "of",
+"start": 1.68,
+"end": 1.9
+},
+{
+"word": "all,",
+"start": 1.9,
+"end": 2.22
+},
+{
+"word": "Le",
+"start": 2.68,
+"end": 2.68
+},
+{
+"word": "Dejeuner",
+"start": 2.68,
+"end": 3.14
+},
+{
+"word": "sur",
+"start": 3.14,
+"end": 3.6
+},
+{
+"word": "l'herbe,",
+"start": 3.6,
+"end": 4.06
+},
+{
+"word": "by",
+"start": 4.06,
+"end": 4.62
+},
+{
+"word": "Edouard",
+"start": 4.62,
+"end": 5.24
+},
+{
+"word": "Manet.",
+"start": 5.24,
+"end": 5.56
+}
+]

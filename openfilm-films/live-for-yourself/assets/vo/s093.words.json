@@ -1,0 +1,77 @@
+[
+{
+"word": "Doing",
+"start": 0.0,
+"end": 0.2
+},
+{
+"word": "your",
+"start": 0.2,
+"end": 0.42
+},
+{
+"word": "work",
+"start": 0.42,
+"end": 0.68
+},
+{
+"word": "well",
+"start": 0.68,
+"end": 0.96
+},
+{
+"word": "is",
+"start": 0.96,
+"end": 1.36
+},
+{
+"word": "your",
+"start": 1.36,
+"end": 1.58
+},
+{
+"word": "task.",
+"start": 1.58,
+"end": 2.08
+},
+{
+"word": "Whether",
+"start": 2.54,
+"end": 2.7
+},
+{
+"word": "your",
+"start": 2.7,
+"end": 2.96
+},
+{
+"word": "boss",
+"start": 2.96,
+"end": 3.26
+},
+{
+"word": "notices",
+"start": 3.26,
+"end": 3.84
+},
+{
+"word": "is",
+"start": 3.84,
+"end": 4.34
+},
+{
+"word": "your",
+"start": 4.34,
+"end": 4.56
+},
+{
+"word": "boss's",
+"start": 4.56,
+"end": 5.06
+},
+{
+"word": "task.",
+"start": 5.06,
+"end": 5.46
+}
+]

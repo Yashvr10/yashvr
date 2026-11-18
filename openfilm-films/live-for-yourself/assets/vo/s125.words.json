@@ -1,0 +1,82 @@
+[
+{
+"word": "Painting",
+"start": 0.0,
+"end": 0.34
+},
+{
+"word": "honestly",
+"start": 0.34,
+"end": 0.8
+},
+{
+"word": "was",
+"start": 0.8,
+"end": 1.22
+},
+{
+"word": "their",
+"start": 1.22,
+"end": 1.46
+},
+{
+"word": "task.",
+"start": 1.46,
+"end": 1.96
+},
+{
+"word": "Whether",
+"start": 2.42,
+"end": 2.62
+},
+{
+"word": "the",
+"start": 2.62,
+"end": 2.84
+},
+{
+"word": "jury",
+"start": 2.84,
+"end": 3.16
+},
+{
+"word": "approved,",
+"start": 3.16,
+"end": 3.7
+},
+{
+"word": "and",
+"start": 3.7,
+"end": 4.3
+},
+{
+"word": "whether",
+"start": 4.3,
+"end": 4.52
+},
+{
+"word": "the",
+"start": 4.52,
+"end": 4.74
+},
+{
+"word": "critics",
+"start": 4.74,
+"end": 5.04
+},
+{
+"word": "laughed,",
+"start": 5.04,
+"end": 5.48
+},
+{
+"word": "was",
+"start": 5.48,
+"end": 5.94
+},
+{
+"word": "not.",
+"start": 5.94,
+"end": 6.26
+}
+]

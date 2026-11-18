@@ -1,10 +1,10 @@
-// Builds film.html, captions.html and captions-back.html for "How to Make Your Dream a Reality".
+// Builds film.html, captions.html and captions-back.html for "Live For Yourself, Not For Others".
 //   pictures  paintings and archival photographs (no paper or book pages), one at a time, a slow push on each, short
 //             dissolves through dark between them (the reference video)
 //   captions  the caption reel Dd0NzeWxryg: a top line of tall condensed serif capitals, the key word huge beneath it
 //             (white or red), both behind the figure when the picture has a cut-out
 //   chapters  roman numeral and a small spaced title on black (the reference video); a title card at the end
-//   music     three dark, mysterious tracks in a row, crossfaded
+//   music     four dark, mysterious tracks in a row, crossfaded
 //   node src/build.mjs
 import fs from "node:fs";
 import path from "node:path";
@@ -18,7 +18,7 @@ const norm = (w) => w.toLowerCase().replace(/[^a-z0-9]/g, "");
 const dur = (f) => +execFileSync("ffprobe", ["-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", path.join(ROOT, f)]).toString();
 let seed = 5; const rnd = () => ((seed = (seed * 1103515245 + 12345) % 2147483648) / 2147483648);
 
-const ALIAS = { scholar: ["writer", "crowd"], build: ["build", "work"], lilienthal: ["lilienthal", "wright"], thoreau: ["thoreau", "night"] };
+const ALIAS = { marcus: ["marcus", "writer"], adler: ["adler", "writer"], socrates: ["socrates", "diogenes"], work: ["work", "help"], alone: ["alone", "morning"] };
 const uses = {}; const ALL = [...new Set(Object.values(POOLS).flat())]; ALL.forEach((k) => (uses[k] = 0));
 let recent = [];
 function pick(themes) {
@@ -99,13 +99,13 @@ for (const s of cfg.scenes) {
   });
   t = end;
 }
-const title = "How to Make Your Dream a Reality";
+const title = "Live For Yourself, Not For Others";
 ends.push({ at: r3(t + 0.3), end: r3(t + 4.3), text: title });
 const FILM = r3(q(t + 4.6));
 
 // ---- music: Titan, then Coming From Above, then Expanse, 5 s crossfades (each evened to the same loudness)
 const MV = 0.42;
-const tracks = [["titan.mp3", 0, 0], ["coming-from-above.mp3", 0, 0], ["expanse.mp3", 0, 0]];
+const tracks = [["titan.mp3", 0, 0], ["coming-from-above.mp3", 0, 0], ["expanse.mp3", 0, 0], ["jade-scorpion.mp3", 0, 0]];
 let mt = 0; const music = [];
 for (const [f] of tracks) {
   if (mt >= FILM) break;

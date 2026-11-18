@@ -1,0 +1,47 @@
+[
+{
+"word": "The",
+"start": 0.0,
+"end": 0.18
+},
+{
+"word": "second",
+"start": 0.18,
+"end": 0.42
+},
+{
+"word": "thing",
+"start": 0.42,
+"end": 0.66
+},
+{
+"word": "it",
+"start": 0.66,
+"end": 0.86
+},
+{
+"word": "costs",
+"start": 0.86,
+"end": 1.24
+},
+{
+"word": "is",
+"start": 1.24,
+"end": 1.76
+},
+{
+"word": "the",
+"start": 1.76,
+"end": 1.94
+},
+{
+"word": "goal",
+"start": 1.94,
+"end": 2.2
+},
+{
+"word": "itself.",
+"start": 2.2,
+"end": 2.66
+}
+]

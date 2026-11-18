@@ -1,0 +1,82 @@
+[
+{
+"word": "I",
+"start": 0.0,
+"end": 0.16
+},
+{
+"word": "am",
+"start": 0.16,
+"end": 0.32
+},
+{
+"word": "not",
+"start": 0.32,
+"end": 0.56
+},
+{
+"word": "clever",
+"start": 0.56,
+"end": 0.86
+},
+{
+"word": "enough.",
+"start": 0.86,
+"end": 1.26
+},
+{
+"word": "I",
+"start": 1.84,
+"end": 1.86
+},
+{
+"word": "am",
+"start": 1.86,
+"end": 1.98
+},
+{
+"word": "not",
+"start": 1.98,
+"end": 2.18
+},
+{
+"word": "attractive",
+"start": 2.18,
+"end": 2.62
+},
+{
+"word": "enough.",
+"start": 2.62,
+"end": 2.96
+},
+{
+"word": "People",
+"start": 3.48,
+"end": 3.7
+},
+{
+"word": "like",
+"start": 3.7,
+"end": 3.94
+},
+{
+"word": "me",
+"start": 3.94,
+"end": 4.22
+},
+{
+"word": "never",
+"start": 4.22,
+"end": 4.48
+},
+{
+"word": "get",
+"start": 4.48,
+"end": 4.72
+},
+{
+"word": "anywhere.",
+"start": 4.72,
+"end": 5.22
+}
+]

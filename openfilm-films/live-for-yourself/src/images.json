@@ -1,1 +1,222 @@
-{}
+{
+ "marcus": [
+  "marcus-c2",
+  "marcus-c3",
+  "marcus-c5"
+ ],
+ "adler": [
+  "adler-c2",
+  "adler-c5",
+  "adler-c6"
+ ],
+ "crowd": [
+  "crowd-c1",
+  "crowd-c2",
+  "crowd-c3",
+  "crowd-c4",
+  "crowd-c5",
+  "crowd-c6",
+  "crowd-c7",
+  "crowd-c8",
+  "crowd-c9",
+  "crowd-c10",
+  "crowd-c11",
+  "crowd-c12",
+  "crowd-c13",
+  "crowd-c16"
+ ],
+ "face": [
+  "face-c1",
+  "face-c2",
+  "face-c3",
+  "face-c6",
+  "face-c8",
+  "face-c9",
+  "face-c11",
+  "face-c13",
+  "face-c15",
+  "face-c16"
+ ],
+ "night": [
+  "night-c1",
+  "night-c2",
+  "night-c3",
+  "night-c4",
+  "night-c9",
+  "night-c10",
+  "night-c12"
+ ],
+ "alone": [
+  "alone-c1",
+  "alone-c5",
+  "alone-c6",
+  "alone-c7"
+ ],
+ "theatre": [
+  "theatre-c2",
+  "theatre-c3",
+  "theatre-c4",
+  "theatre-c5",
+  "theatre-c6",
+  "theatre-c7",
+  "theatre-c8"
+ ],
+ "child": [
+  "child-c1",
+  "child-c2",
+  "child-c4",
+  "child-c9",
+  "child-c10",
+  "child-c11"
+ ],
+ "school": [
+  "school-c5",
+  "school-c6",
+  "school-c9",
+  "school-c13"
+ ],
+ "feast": [
+  "feast-c1",
+  "feast-c4",
+  "feast-c5",
+  "feast-c9",
+  "feast-c10",
+  "feast-c11"
+ ],
+ "writer": [
+  "writer-c1",
+  "writer-c2",
+  "writer-c3"
+ ],
+ "storm": [
+  "storm-c1",
+  "storm-c2",
+  "storm-c3",
+  "storm-c4",
+  "storm-c5",
+  "storm-c7",
+  "storm-c9",
+  "storm-c10",
+  "storm-c12"
+ ],
+ "morning": [
+  "morning-c3",
+  "morning-c4",
+  "morning-c5",
+  "morning-c6",
+  "morning-c7",
+  "morning-c8"
+ ],
+ "race": [
+  "race-c1",
+  "race-c2",
+  "race-c3",
+  "race-c4",
+  "race-c5",
+  "race-c6",
+  "race-c7",
+  "race-c8"
+ ],
+ "horse": [
+  "horse-c1",
+  "horse-c2",
+  "horse-c4",
+  "horse-c5",
+  "horse-c6",
+  "horse-c7",
+  "horse-c8",
+  "horse-c9"
+ ],
+ "work": [
+  "work-c1",
+  "work-c3",
+  "work-c7"
+ ],
+ "help": [
+  "help-c2",
+  "help-c3",
+  "help-c4",
+  "help-c5",
+  "help-c6"
+ ],
+ "salon": [
+  "salon-c1",
+  "salon-c3",
+  "salon-c4",
+  "salon-c8",
+  "salon-c9",
+  "salon-c10"
+ ],
+ "academic": [
+  "academic-c6",
+  "academic-c9",
+  "academic-c10",
+  "academic-c11",
+  "academic-c12",
+  "academic-c15"
+ ],
+ "manet": [
+  "manet-c1",
+  "manet-c9",
+  "manet-c10",
+  "manet-c11",
+  "manet-c12",
+  "manet-c13",
+  "manet-c14",
+  "manet-c15",
+  "manet-c16"
+ ],
+ "monet": [
+  "monet-c1",
+  "monet-c2",
+  "monet-c4",
+  "monet-c5",
+  "monet-c7",
+  "monet-c8",
+  "monet-c11",
+  "monet-c12",
+  "monet-c14"
+ ],
+ "impression": [
+  "impression-c1",
+  "impression-c3",
+  "impression-c5",
+  "impression-c6",
+  "impression-c7",
+  "impression-c12",
+  "impression-c13",
+  "impression-c15",
+  "impression-c16",
+  "impression-c17",
+  "impression-c18"
+ ],
+ "diogenes": [
+  "diogenes-c1",
+  "diogenes-c3",
+  "diogenes-c4",
+  "diogenes-c5",
+  "diogenes-c6"
+ ],
+ "alexander": [
+  "alexander-c1",
+  "alexander-c2",
+  "alexander-c3",
+  "alexander-c6",
+  "alexander-c8"
+ ],
+ "socrates": [
+  "socrates-c1",
+  "socrates-c3",
+  "socrates-c5"
+ ],
+ "mother": [
+  "mother-c1",
+  "mother-c2",
+  "mother-c3",
+  "mother-c4",
+  "mother-c6",
+  "mother-c7",
+  "mother-c9",
+  "mother-c11"
+ ]
+}

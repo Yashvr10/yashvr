@@ -1,0 +1,52 @@
+[
+{
+"word": "Leading",
+"start": 0.0,
+"end": 0.3
+},
+{
+"word": "the",
+"start": 0.3,
+"end": 0.58
+},
+{
+"word": "horse",
+"start": 0.58,
+"end": 0.9
+},
+{
+"word": "is",
+"start": 0.9,
+"end": 1.24
+},
+{
+"word": "your",
+"start": 1.24,
+"end": 1.44
+},
+{
+"word": "task.",
+"start": 1.44,
+"end": 1.92
+},
+{
+"word": "Drinking",
+"start": 2.48,
+"end": 2.6
+},
+{
+"word": "is",
+"start": 2.6,
+"end": 3.12
+},
+{
+"word": "the",
+"start": 3.12,
+"end": 3.32
+},
+{
+"word": "horse's.",
+"start": 3.32,
+"end": 3.6
+}
+]

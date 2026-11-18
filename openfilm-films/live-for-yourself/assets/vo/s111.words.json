@@ -1,0 +1,82 @@
+[
+{
+"word": "A",
+"start": 0.0,
+"end": 0.12
+},
+{
+"word": "group",
+"start": 0.12,
+"end": 0.3
+},
+{
+"word": "of",
+"start": 0.3,
+"end": 0.48
+},
+{
+"word": "younger",
+"start": 0.48,
+"end": 0.76
+},
+{
+"word": "painters",
+"start": 0.76,
+"end": 1.32
+},
+{
+"word": "was",
+"start": 1.32,
+"end": 1.5
+},
+{
+"word": "watching.",
+"start": 1.5,
+"end": 1.98
+},
+{
+"word": "Claude",
+"start": 1.98,
+"end": 2.68
+},
+{
+"word": "Monet.",
+"start": 2.68,
+"end": 3.26
+},
+{
+"word": "Pierre",
+"start": 3.76,
+"end": 3.9
+},
+{
+"word": "Auguste",
+"start": 3.9,
+"end": 4.28
+},
+{
+"word": "Renoir.",
+"start": 4.28,
+"end": 4.92
+},
+{
+"word": "Camille",
+"start": 5.36,
+"end": 5.64
+},
+{
+"word": "Pissarro.",
+"start": 5.64,
+"end": 6.24
+},
+{
+"word": "Edgar",
+"start": 6.68,
+"end": 6.84
+},
+{
+"word": "Degas.",
+"start": 6.84,
+"end": 7.28
+}
+]

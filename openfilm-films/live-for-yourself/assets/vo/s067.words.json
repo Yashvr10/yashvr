@@ -1,0 +1,62 @@
+[
+{
+"word": "Because",
+"start": 0.0,
+"end": 0.22
+},
+{
+"word": "to",
+"start": 0.22,
+"end": 0.44
+},
+{
+"word": "keep",
+"start": 0.44,
+"end": 0.68
+},
+{
+"word": "being",
+"start": 0.68,
+"end": 0.94
+},
+{
+"word": "praised,",
+"start": 0.94,
+"end": 1.48
+},
+{
+"word": "you",
+"start": 1.92,
+"end": 2.02
+},
+{
+"word": "must",
+"start": 2.02,
+"end": 2.2
+},
+{
+"word": "keep",
+"start": 2.2,
+"end": 2.48
+},
+{
+"word": "being",
+"start": 2.48,
+"end": 2.76
+},
+{
+"word": "what",
+"start": 2.76,
+"end": 2.96
+},
+{
+"word": "they",
+"start": 2.96,
+"end": 3.18
+},
+{
+"word": "praised.",
+"start": 3.18,
+"end": 3.54
+}
+]
