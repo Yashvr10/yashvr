@@ -1,0 +1,92 @@
+[
+{
+"word": "Some",
+"start": 0.0,
+"end": 0.22
+},
+{
+"word": "of",
+"start": 0.22,
+"end": 0.36
+},
+{
+"word": "the",
+"start": 0.36,
+"end": 0.48
+},
+{
+"word": "students",
+"start": 0.48,
+"end": 0.92
+},
+{
+"word": "were",
+"start": 0.92,
+"end": 1.34
+},
+{
+"word": "asked",
+"start": 1.34,
+"end": 1.62
+},
+{
+"word": "to",
+"start": 1.62,
+"end": 1.82
+},
+{
+"word": "tell",
+"start": 1.82,
+"end": 2.06
+},
+{
+"word": "another",
+"start": 2.06,
+"end": 2.38
+},
+{
+"word": "person",
+"start": 2.38,
+"end": 2.86
+},
+{
+"word": "about",
+"start": 2.86,
+"end": 3.4
+},
+{
+"word": "their",
+"start": 3.4,
+"end": 3.64
+},
+{
+"word": "plans.",
+"start": 3.64,
+"end": 4.18
+},
+{
+"word": "Others",
+"start": 5.0,
+"end": 5.0
+},
+{
+"word": "kept",
+"start": 5.0,
+"end": 5.42
+},
+{
+"word": "them",
+"start": 5.42,
+"end": 5.66
+},
+{
+"word": "to",
+"start": 5.66,
+"end": 5.86
+},
+{
+"word": "themselves.",
+"start": 5.86,
+"end": 6.38
+}
+]

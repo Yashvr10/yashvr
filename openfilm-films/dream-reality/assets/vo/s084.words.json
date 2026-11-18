@@ -1,0 +1,72 @@
+[
+{
+"word": "A",
+"start": 0.0,
+"end": 0.12
+},
+{
+"word": "vague",
+"start": 0.12,
+"end": 0.42
+},
+{
+"word": "dream",
+"start": 0.42,
+"end": 0.8
+},
+{
+"word": "cannot",
+"start": 0.8,
+"end": 1.2
+},
+{
+"word": "fail,",
+"start": 1.2,
+"end": 1.68
+},
+{
+"word": "and",
+"start": 2.02,
+"end": 2.28
+},
+{
+"word": "that",
+"start": 2.28,
+"end": 2.52
+},
+{
+"word": "is",
+"start": 2.52,
+"end": 2.84
+},
+{
+"word": "exactly",
+"start": 2.84,
+"end": 3.26
+},
+{
+"word": "why",
+"start": 3.26,
+"end": 3.66
+},
+{
+"word": "it",
+"start": 3.66,
+"end": 3.82
+},
+{
+"word": "can",
+"start": 3.82,
+"end": 4.0
+},
+{
+"word": "never",
+"start": 4.0,
+"end": 4.24
+},
+{
+"word": "succeed.",
+"start": 4.24,
+"end": 4.72
+}
+]

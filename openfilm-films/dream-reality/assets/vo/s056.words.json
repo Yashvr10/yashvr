@@ -1,0 +1,82 @@
+[
+{
+"word": "The",
+"start": 0.0,
+"end": 0.14
+},
+{
+"word": "brothers",
+"start": 0.14,
+"end": 0.44
+},
+{
+"word": "studied",
+"start": 0.44,
+"end": 0.86
+},
+{
+"word": "his",
+"start": 0.86,
+"end": 1.1
+},
+{
+"word": "death",
+"start": 1.1,
+"end": 1.42
+},
+{
+"word": "and",
+"start": 1.42,
+"end": 1.88
+},
+{
+"word": "decided",
+"start": 1.88,
+"end": 2.3
+},
+{
+"word": "that",
+"start": 2.3,
+"end": 2.62
+},
+{
+"word": "lift",
+"start": 2.62,
+"end": 2.92
+},
+{
+"word": "was",
+"start": 2.92,
+"end": 3.26
+},
+{
+"word": "not",
+"start": 3.26,
+"end": 3.52
+},
+{
+"word": "the",
+"start": 3.52,
+"end": 3.72
+},
+{
+"word": "real",
+"start": 3.72,
+"end": 3.96
+},
+{
+"word": "problem.",
+"start": 3.96,
+"end": 4.46
+},
+{
+"word": "Control",
+"start": 5.08,
+"end": 5.38
+},
+{
+"word": "was.",
+"start": 5.38,
+"end": 5.82
+}
+]

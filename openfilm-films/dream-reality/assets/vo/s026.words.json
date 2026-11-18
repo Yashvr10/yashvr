@@ -1,0 +1,82 @@
+[
+{
+"word": "No",
+"start": 0.0,
+"end": 0.24
+},
+{
+"word": "degrees.",
+"start": 0.24,
+"end": 0.66
+},
+{
+"word": "No",
+"start": 1.2,
+"end": 1.38
+},
+{
+"word": "funding.",
+"start": 1.38,
+"end": 1.88
+},
+{
+"word": "Wilbur",
+"start": 2.54,
+"end": 2.74
+},
+{
+"word": "and",
+"start": 2.74,
+"end": 2.92
+},
+{
+"word": "Orville",
+"start": 2.92,
+"end": 3.3
+},
+{
+"word": "Wright",
+"start": 3.3,
+"end": 3.58
+},
+{
+"word": "paid",
+"start": 3.58,
+"end": 3.9
+},
+{
+"word": "for",
+"start": 3.9,
+"end": 4.14
+},
+{
+"word": "everything",
+"start": 4.14,
+"end": 4.52
+},
+{
+"word": "out",
+"start": 4.52,
+"end": 4.84
+},
+{
+"word": "of",
+"start": 4.84,
+"end": 5.04
+},
+{
+"word": "their",
+"start": 5.04,
+"end": 5.16
+},
+{
+"word": "own",
+"start": 5.16,
+"end": 5.46
+},
+{
+"word": "shop.",
+"start": 5.46,
+"end": 5.78
+}
+]

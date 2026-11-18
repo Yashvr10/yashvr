@@ -1,0 +1,72 @@
+[
+{
+"word": "Put",
+"start": 0.0,
+"end": 0.16
+},
+{
+"word": "it",
+"start": 0.16,
+"end": 0.3
+},
+{
+"word": "in",
+"start": 0.3,
+"end": 0.48
+},
+{
+"word": "a",
+"start": 0.48,
+"end": 0.62
+},
+{
+"word": "simple",
+"start": 0.62,
+"end": 0.9
+},
+{
+"word": "form.",
+"start": 0.9,
+"end": 1.42
+},
+{
+"word": "If",
+"start": 1.88,
+"end": 1.96
+},
+{
+"word": "this",
+"start": 1.96,
+"end": 2.16
+},
+{
+"word": "happens,",
+"start": 2.16,
+"end": 2.56
+},
+{
+"word": "then",
+"start": 3.1,
+"end": 3.2
+},
+{
+"word": "I",
+"start": 3.2,
+"end": 3.36
+},
+{
+"word": "will",
+"start": 3.36,
+"end": 3.54
+},
+{
+"word": "do",
+"start": 3.54,
+"end": 3.76
+},
+{
+"word": "that.",
+"start": 3.76,
+"end": 4.06
+}
+]

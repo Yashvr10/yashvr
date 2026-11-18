@@ -1,0 +1,67 @@
+[
+{
+"word": "Not",
+"start": 0.0,
+"end": 0.2
+},
+{
+"word": "\"be",
+"start": 0.2,
+"end": 0.44
+},
+{
+"word": "successful\",",
+"start": 0.44,
+"end": 0.94
+},
+{
+"word": "but",
+"start": 1.46,
+"end": 1.64
+},
+{
+"word": "the",
+"start": 1.64,
+"end": 1.76
+},
+{
+"word": "exact",
+"start": 1.76,
+"end": 2.14
+},
+{
+"word": "thing,",
+"start": 2.14,
+"end": 2.52
+},
+{
+"word": "the",
+"start": 2.88,
+"end": 2.9
+},
+{
+"word": "exact",
+"start": 2.9,
+"end": 3.28
+},
+{
+"word": "number,",
+"start": 3.28,
+"end": 3.64
+},
+{
+"word": "the",
+"start": 4.04,
+"end": 4.12
+},
+{
+"word": "exact",
+"start": 4.12,
+"end": 4.48
+},
+{
+"word": "date.",
+"start": 4.48,
+"end": 4.86
+}
+]

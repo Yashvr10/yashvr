@@ -1,0 +1,122 @@
+[
+{
+"word": "A",
+"start": 0.0,
+"end": 0.12
+},
+{
+"word": "few",
+"start": 0.12,
+"end": 0.28
+},
+{
+"word": "years",
+"start": 0.28,
+"end": 0.56
+},
+{
+"word": "before",
+"start": 0.56,
+"end": 0.98
+},
+{
+"word": "Thoreau",
+"start": 0.98,
+"end": 1.46
+},
+{
+"word": "went",
+"start": 1.46,
+"end": 1.68
+},
+{
+"word": "into",
+"start": 1.68,
+"end": 1.88
+},
+{
+"word": "the",
+"start": 1.88,
+"end": 2.04
+},
+{
+"word": "woods,",
+"start": 2.04,
+"end": 2.44
+},
+{
+"word": "the",
+"start": 2.96,
+"end": 3.0
+},
+{
+"word": "painter",
+"start": 3.0,
+"end": 3.24
+},
+{
+"word": "Thomas",
+"start": 3.24,
+"end": 3.7
+},
+{
+"word": "Cole",
+"start": 3.7,
+"end": 4.04
+},
+{
+"word": "made",
+"start": 4.04,
+"end": 4.64
+},
+{
+"word": "a",
+"start": 4.64,
+"end": 4.84
+},
+{
+"word": "series",
+"start": 4.84,
+"end": 5.16
+},
+{
+"word": "of",
+"start": 5.16,
+"end": 5.46
+},
+{
+"word": "four",
+"start": 5.46,
+"end": 5.8
+},
+{
+"word": "paintings",
+"start": 5.8,
+"end": 6.34
+},
+{
+"word": "called",
+"start": 6.34,
+"end": 7.02
+},
+{
+"word": "The",
+"start": 7.02,
+"end": 7.18
+},
+{
+"word": "Voyage",
+"start": 7.18,
+"end": 7.66
+},
+{
+"word": "of",
+"start": 7.66,
+"end": 7.82
+},
+{
+"word": "Life.",
+"start": 7.82,
+"end": 8.08
+}
+]

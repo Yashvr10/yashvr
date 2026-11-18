@@ -1,0 +1,57 @@
+[
+{
+"word": "How",
+"start": 0.0,
+"end": 0.2
+},
+{
+"word": "does",
+"start": 0.2,
+"end": 0.36
+},
+{
+"word": "a",
+"start": 0.36,
+"end": 0.52
+},
+{
+"word": "dream",
+"start": 0.52,
+"end": 0.82
+},
+{
+"word": "leave",
+"start": 0.82,
+"end": 1.16
+},
+{
+"word": "your",
+"start": 1.16,
+"end": 1.42
+},
+{
+"word": "head",
+"start": 1.42,
+"end": 1.74
+},
+{
+"word": "and",
+"start": 1.74,
+"end": 2.2
+},
+{
+"word": "enter",
+"start": 2.2,
+"end": 2.52
+},
+{
+"word": "the",
+"start": 2.52,
+"end": 2.7
+},
+{
+"word": "world?",
+"start": 2.7,
+"end": 3.0
+}
+]

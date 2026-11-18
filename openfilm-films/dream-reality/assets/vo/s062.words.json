@@ -1,0 +1,82 @@
+[
+{
+"word": "On",
+"start": 0.0,
+"end": 0.12
+},
+{
+"word": "the",
+"start": 0.12,
+"end": 0.24
+},
+{
+"word": "train",
+"start": 0.24,
+"end": 0.54
+},
+{
+"word": "home,",
+"start": 0.54,
+"end": 1.1
+},
+{
+"word": "Wilbur",
+"start": 1.44,
+"end": 1.66
+},
+{
+"word": "told",
+"start": 1.66,
+"end": 1.94
+},
+{
+"word": "his",
+"start": 1.94,
+"end": 2.16
+},
+{
+"word": "brother",
+"start": 2.16,
+"end": 2.38
+},
+{
+"word": "that",
+"start": 2.38,
+"end": 2.7
+},
+{
+"word": "man",
+"start": 2.7,
+"end": 3.02
+},
+{
+"word": "would",
+"start": 3.02,
+"end": 3.38
+},
+{
+"word": "not",
+"start": 3.38,
+"end": 3.58
+},
+{
+"word": "fly",
+"start": 3.58,
+"end": 3.96
+},
+{
+"word": "for",
+"start": 3.96,
+"end": 4.24
+},
+{
+"word": "fifty",
+"start": 4.24,
+"end": 4.58
+},
+{
+"word": "years.",
+"start": 4.58,
+"end": 4.96
+}
+]

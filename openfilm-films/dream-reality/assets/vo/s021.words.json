@@ -1,0 +1,147 @@
+[
+{
+"word": "By",
+"start": 0.0,
+"end": 0.16
+},
+{
+"word": "1903,",
+"start": 0.16,
+"end": 1.16
+},
+{
+"word": "two",
+"start": 1.8,
+"end": 2.08
+},
+{
+"word": "teams",
+"start": 2.08,
+"end": 2.48
+},
+{
+"word": "in",
+"start": 2.48,
+"end": 2.68
+},
+{
+"word": "America",
+"start": 2.68,
+"end": 3.1
+},
+{
+"word": "were",
+"start": 3.1,
+"end": 3.66
+},
+{
+"word": "close",
+"start": 3.66,
+"end": 3.9
+},
+{
+"word": "enough",
+"start": 3.9,
+"end": 4.2
+},
+{
+"word": "to",
+"start": 4.2,
+"end": 4.5
+},
+{
+"word": "believe",
+"start": 4.5,
+"end": 4.86
+},
+{
+"word": "they",
+"start": 4.86,
+"end": 5.18
+},
+{
+"word": "could",
+"start": 5.18,
+"end": 5.38
+},
+{
+"word": "build",
+"start": 5.38,
+"end": 5.68
+},
+{
+"word": "the",
+"start": 5.68,
+"end": 5.92
+},
+{
+"word": "first",
+"start": 5.92,
+"end": 6.24
+},
+{
+"word": "machine",
+"start": 6.24,
+"end": 6.74
+},
+{
+"word": "that",
+"start": 6.74,
+"end": 7.34
+},
+{
+"word": "would",
+"start": 7.34,
+"end": 7.46
+},
+{
+"word": "carry",
+"start": 7.46,
+"end": 7.74
+},
+{
+"word": "a",
+"start": 7.74,
+"end": 7.94
+},
+{
+"word": "man",
+"start": 7.94,
+"end": 8.18
+},
+{
+"word": "through",
+"start": 8.18,
+"end": 8.54
+},
+{
+"word": "the",
+"start": 8.54,
+"end": 8.72
+},
+{
+"word": "air",
+"start": 8.72,
+"end": 9.1
+},
+{
+"word": "under",
+"start": 9.1,
+"end": 9.68
+},
+{
+"word": "its",
+"start": 9.68,
+"end": 9.9
+},
+{
+"word": "own",
+"start": 9.9,
+"end": 10.16
+},
+{
+"word": "power.",
+"start": 10.16,
+"end": 10.6
+}
+]
