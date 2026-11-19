@@ -1,0 +1,669 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=1920, height=1080">
+<title>The Antifragile Man</title>
+<style>
+  .pic { object-fit: cover; }
+  @keyframes kb-in { from { scale: 1.0 } to { scale: 1.07 } }
+  @keyframes kb-out { from { scale: 1.07 } to { scale: 1.0 } }
+  @keyframes kb-left { from { scale: 1.06; translate: 1.5% 0 } to { scale: 1.06; translate: -1.5% 0 } }
+  @keyframes kb-right { from { scale: 1.06; translate: -1.5% 0 } to { scale: 1.06; translate: 1.5% 0 } }
+  .kb-in { animation: kb-in var(--clip-length) linear both; } .kb-out { animation: kb-out var(--clip-length) linear both; }
+  .kb-left { animation: kb-left var(--clip-length) linear both; } .kb-right { animation: kb-right var(--clip-length) linear both; }
+</style>
+</head>
+<body>
+<section>
+  <iframe id="grain" src="grain.html#t=0,1041.867"></iframe>
+</section>
+<section>
+  <iframe id="captions" src="captions.html#t=0,1041.867"></iframe>
+</section>
+<section>
+  <img id="c0" src="assets/cutouts/lonely-c6.png#t=0,3.983" at="0.6" class="pic kb-in" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="c1" src="assets/cutouts/clerk-c2.png#t=0,3.75" at="13.933" class="pic kb-right" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="c2" src="assets/cutouts/lonely-c2.png#t=0,5.184" at="17.233" class="pic kb-in" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="c3" src="assets/cutouts/lonely-c8.png#t=0,7.25" at="21.967" class="pic kb-out" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="c4" src="assets/cutouts/knight-c2.png#t=0,5.15" at="51.1" class="pic kb-right" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="c5" src="assets/cutouts/school-c3.png#t=0,6.483" at="72.167" class="pic kb-in" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="c6" src="assets/cutouts/writer-c4.png#t=0,4.483" at="78.2" class="pic kb-out" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="c7" src="assets/cutouts/writer-c1.png#t=0,4.284" at="82.233" class="pic kb-left" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="c8" src="assets/cutouts/boys-c2.png#t=0,5.483" at="86.067" class="pic kb-right" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="c9" src="assets/cutouts/gentleman-c4.png#t=0,5.084" at="117.633" class="pic kb-left" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="c10" src="assets/cutouts/lonely-c9.png#t=0,4.283" at="141.667" class="pic kb-right" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="c11" src="assets/cutouts/night-c5.png#t=0,4.317" at="145.5" class="pic kb-in" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="c12" src="assets/cutouts/writer-c5.png#t=0,5.583" at="162.867" class="pic kb-right" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="c13" src="assets/cutouts/writer-c7.png#t=0,6.117" at="168" class="pic kb-in" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="c14" src="assets/cutouts/crowd-c1.png#t=0,5.116" at="173.667" class="pic kb-out" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="c15" src="assets/cutouts/face-c3.png#t=0,3.95" at="188.367" class="pic kb-in" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="c16" src="assets/cutouts/feast-c2.png#t=0,4.683" at="199.567" class="pic kb-right" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="c17" src="assets/cutouts/lonely-c2.png#t=0,5.283" at="207.967" class="pic kb-out" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="c18" src="assets/cutouts/face-c2.png#t=0,4.117" at="224.9" class="pic kb-out" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="c19" src="assets/cutouts/lonely-c8.png#t=0,6.683" at="228.567" class="pic kb-left" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="c20" src="assets/cutouts/writer-c10.png#t=0,5.417" at="234.8" class="pic kb-right" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="c21" src="assets/cutouts/writer-c7.png#t=0,4.483" at="239.767" class="pic kb-in" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="c22" src="assets/cutouts/writer-c5.png#t=0,5.117" at="250.633" class="pic kb-right" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="c23" src="assets/cutouts/night-c5.png#t=0,4.784" at="263.633" class="pic kb-left" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="c24" src="assets/cutouts/lonely-c6.png#t=0,5.083" at="276.8" class="pic kb-out" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="c25" src="assets/cutouts/writer-c9.png#t=0,5.05" at="281.433" class="pic kb-left" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="c26" src="assets/cutouts/writer-c10.png#t=0,6.85" at="286.033" class="pic kb-right" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="c27" src="assets/cutouts/lonely-c2.png#t=0,6.25" at="303.967" class="pic kb-right" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="c28" src="assets/cutouts/gentleman-c8.png#t=0,3.017" at="312.933" class="pic kb-out" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="c29" src="assets/cutouts/feast-c11.png#t=0,2.884" at="328.733" class="pic kb-out" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="c30" src="assets/cutouts/feast-c9.png#t=0,3.316" at="331.167" class="pic kb-left" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="c31" src="assets/cutouts/horse-c5.png#t=0,4.584" at="341.233" class="pic kb-out" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="c32" src="assets/cutouts/climber-c5.png#t=0,4.283" at="409.5" class="pic kb-in" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="c33" src="assets/cutouts/knight-c2.png#t=0,4.817" at="413.333" class="pic kb-out" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="c34" src="assets/cutouts/horse-c5.png#t=0,2.517" at="437.3" class="pic kb-left" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="c35" src="assets/cutouts/knight-c3.png#t=0,6.116" at="439.367" class="pic kb-right" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="c36" src="assets/cutouts/writer-c4.png#t=0,4.016" at="455.767" class="pic kb-right" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="c37" src="assets/cutouts/climber-c1.png#t=0,5.083" at="505.6" class="pic kb-left" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="c38" src="assets/cutouts/climber-c6.png#t=0,3.95" at="510.233" class="pic kb-right" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="c39" src="assets/cutouts/climber-c5.png#t=0,4.284" at="513.733" class="pic kb-in" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="c40" src="assets/cutouts/clerk-c2.png#t=0,6.95" at="529.5" class="pic kb-right" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="c41" src="assets/cutouts/crowd-c1.png#t=0,5.884" at="554.133" class="pic kb-right" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="c42" src="assets/cutouts/lonely-c9.png#t=0,4.583" at="575.5" class="pic kb-in" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="c43" src="assets/cutouts/lonely-c8.png#t=0,6.783" at="587.667" class="pic kb-right" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="c44" src="assets/cutouts/lonely-c6.png#t=0,4.917" at="594" class="pic kb-in" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="c45" src="assets/cutouts/night-c5.png#t=0,4.616" at="598.467" class="pic kb-out" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="c46" src="assets/cutouts/face-c3.png#t=0,4.284" at="608.033" class="pic kb-right" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="c47" src="assets/cutouts/face-c2.png#t=0,4.516" at="611.867" class="pic kb-in" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="c48" src="assets/cutouts/writer-c1.png#t=0,4.384" at="631.933" class="pic kb-out" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="c49" src="assets/cutouts/knight-c1.png#t=0,4.583" at="635.867" class="pic kb-left" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="c50" src="assets/cutouts/horse-c5.png#t=0,6.616" at="647.767" class="pic kb-out" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="c51" src="assets/cutouts/climber-c6.png#t=0,5.416" at="675.267" class="pic kb-left" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="c52" src="assets/cutouts/climber-c1.png#t=0,4.384" at="712.333" class="pic kb-left" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="c53" src="assets/cutouts/climber-c6.png#t=0,5.95" at="742.667" class="pic kb-out" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="c54" src="assets/cutouts/night-c5.png#t=0,5.85" at="748.167" class="pic kb-left" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="c55" src="assets/cutouts/climber-c1.png#t=0,5.85" at="778.9" class="pic kb-in" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="c56" src="assets/cutouts/climber-c5.png#t=0,5.084" at="798.433" class="pic kb-in" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="c57" src="assets/cutouts/face-c3.png#t=0,4.017" at="834.433" class="pic kb-in" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="c58" src="assets/cutouts/gentleman-c4.png#t=0,3.05" at="866.967" class="pic kb-right" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="c59" src="assets/cutouts/climber-c1.png#t=0,4.617" at="912.5" class="pic kb-in" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="c60" src="assets/cutouts/climber-c5.png#t=0,4.083" at="920.867" class="pic kb-left" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="c61" src="assets/cutouts/face-c2.png#t=0,4.483" at="933.667" class="pic kb-out" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="c62" src="assets/cutouts/climber-c6.png#t=0,4.083" at="981.567" class="pic kb-right" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="c63" src="assets/cutouts/lonely-c9.png#t=0,3.283" at="988.967" class="pic kb-out" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="c64" src="assets/cutouts/feast-c10.png#t=0,2.583" at="991.8" class="pic kb-left" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="c65" src="assets/cutouts/climber-c1.png#t=0,7.017" at="1008.133" class="pic kb-left" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="c66" src="assets/cutouts/gentleman-c8.png#t=0,6.517" at="1014.7" class="pic kb-right" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="c67" src="assets/cutouts/nietzsche-c1.png#t=0,4.384" at="1030.333" class="pic kb-left" overrides='[{"fade":[0.45,0.45]}]'>
+</section>
+<section>
+  <iframe id="captions-back" src="captions-back.html#t=0,1041.867"></iframe>
+</section>
+<section>
+  <img id="p0" src="assets/photos169/lonely-c6.jpg#t=0,3.983" at="0.6" class="pic kb-in" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p2" src="assets/photos169/writer-c6.jpg#t=0,4.45" at="9.933" class="pic kb-left" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p4" src="assets/photos169/lonely-c2.jpg#t=0,5.184" at="17.233" class="pic kb-in" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p6" src="assets/photos169/face-c1.jpg#t=0,7.15" at="28.767" class="pic kb-left" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p8" src="assets/photos169/night-c1.jpg#t=0,4.584" at="40.033" class="pic kb-in" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p10" src="assets/photos169/train-c5.jpg#t=0,4.05" at="47.5" class="pic kb-left" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p12" src="assets/photos169/explorer-c8.jpg#t=0,5.017" at="55.8" class="pic kb-in" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p14" src="assets/photos169/lonely-c3.jpg#t=0,4.05" at="63.033" class="pic kb-left" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p16" src="assets/photos169/school-c3.jpg#t=0,6.483" at="72.167" class="pic kb-in" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p18" src="assets/photos169/writer-c1.jpg#t=0,4.284" at="82.233" class="pic kb-left" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p20" src="assets/photos169/alpine-c18.jpg#t=0,3.217" at="91.1" class="pic kb-in" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p22" src="assets/photos169/sunrise-c5.jpg#t=0,4.917" at="99.033" class="pic kb-left" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p24" src="assets/photos169/camp-c7.jpg#t=0,4.75" at="107.767" class="pic kb-in" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p26" src="assets/photos169/gentleman-c4.jpg#t=0,5.084" at="117.633" class="pic kb-left" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p28" src="assets/photos169/duel-c5.jpg#t=0,4.683" at="126.8" class="pic kb-in" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p30" src="assets/photos169/gentleman-c9.jpg#t=0,6.75" at="135.367" class="pic kb-left" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p32" src="assets/photos169/night-c5.jpg#t=0,4.317" at="145.5" class="pic kb-in" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p34" src="assets/photos169/lonely-c10.jpg#t=0,5.05" at="153.867" class="pic kb-left" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p36" src="assets/photos169/writer-c7.jpg#t=0,6.117" at="168" class="pic kb-in" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p38" src="assets/photos169/writer-c9.jpg#t=0,4.684" at="178.333" class="pic kb-left" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p40" src="assets/photos169/face-c3.jpg#t=0,3.95" at="188.367" class="pic kb-in" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p42" src="assets/photos169/train-c8.jpg#t=0,4.65" at="195.367" class="pic kb-left" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p44" src="assets/photos169/train-c11.jpg#t=0,4.617" at="203.8" class="pic kb-in" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p46" src="assets/photos169/writer-c3.jpg#t=0,4.517" at="212.8" class="pic kb-left" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p48" src="assets/photos169/night-c3.jpg#t=0,4.517" at="220.833" class="pic kb-in" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p50" src="assets/photos169/lonely-c8.jpg#t=0,6.683" at="228.567" class="pic kb-left" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p52" src="assets/photos169/writer-c7.jpg#t=0,4.483" at="239.767" class="pic kb-in" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p54" src="assets/photos169/writer-c6.jpg#t=0,3.45" at="247.633" class="pic kb-left" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p56" src="assets/photos169/night-c4.jpg#t=0,4.683" at="255.3" class="pic kb-in" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p58" src="assets/photos169/night-c5.jpg#t=0,4.784" at="263.633" class="pic kb-left" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p60" src="assets/photos169/night-c3.jpg#t=0,5.383" at="271.867" class="pic kb-in" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p62" src="assets/photos169/writer-c9.jpg#t=0,5.05" at="281.433" class="pic kb-left" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p64" src="assets/photos169/sunrise-c4.jpg#t=0,4.717" at="292.433" class="pic kb-in" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p66" src="assets/photos169/alpine-c7.jpg#t=0,3.917" at="300.5" class="pic kb-left" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p68" src="assets/photos169/sunrise-c2.jpg#t=0,3.616" at="309.767" class="pic kb-in" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p70" src="assets/photos169/explorer-c7.jpg#t=0,3.917" at="319.9" class="pic kb-left" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p72" src="assets/photos169/explorer-c1.jpg#t=0,2.05" at="327.133" class="pic kb-in" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p74" src="assets/photos169/feast-c9.jpg#t=0,3.316" at="331.167" class="pic kb-left" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p76" src="assets/photos169/explorer-c4.jpg#t=0,3.95" at="337.733" class="pic kb-in" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p78" src="assets/photos169/explorer-c5.jpg#t=0,4.35" at="345.367" class="pic kb-left" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p80" src="assets/photos169/sail-c2.jpg#t=0,4.75" at="353.533" class="pic kb-in" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p82" src="assets/photos169/sail-c1.jpg#t=0,4.683" at="362.3" class="pic kb-left" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p84" src="assets/photos169/train-c9.jpg#t=0,6.617" at="370.833" class="pic kb-in" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p86" src="assets/photos169/train-c12.jpg#t=0,4.583" at="381.1" class="pic kb-left" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p88" src="assets/photos169/storm-c2.jpg#t=0,6.184" at="388.633" class="pic kb-in" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p90" src="assets/photos169/alpine-c16.jpg#t=0,5.25" at="400.433" class="pic kb-left" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p92" src="assets/photos169/climber-c5.jpg#t=0,4.283" at="409.5" class="pic kb-in" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p94" src="assets/photos169/knight-c5.jpg#t=0,6.383" at="417.7" class="pic kb-left" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p96" src="assets/photos169/storm-c6.jpg#t=0,4.65" at="428.067" class="pic kb-in" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p98" src="assets/photos169/horse-c5.jpg#t=0,2.517" at="437.3" class="pic kb-left" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p100" src="assets/photos169/camp-c6.jpg#t=0,3.817" at="445.033" class="pic kb-in" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p102" src="assets/photos169/camp-c1.jpg#t=0,3.817" at="452.4" class="pic kb-left" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p104" src="assets/photos169/alpine-c2.jpg#t=0,6.084" at="459.333" class="pic kb-in" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p106" src="assets/photos169/storm-c5.jpg#t=0,4.983" at="468.9" class="pic kb-left" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p108" src="assets/photos169/explorer-c1.jpg#t=0,4.483" at="477.267" class="pic kb-in" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p110" src="assets/photos169/storm-c1.jpg#t=0,3.884" at="487.633" class="pic kb-left" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p112" src="assets/photos169/storm-c3.jpg#t=0,6.383" at="494.9" class="pic kb-in" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p114" src="assets/photos169/climber-c1.jpg#t=0,5.083" at="505.6" class="pic kb-left" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p116" src="assets/photos169/climber-c5.jpg#t=0,4.284" at="513.733" class="pic kb-in" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p118" src="assets/photos169/alpine-c5.jpg#t=0,4.183" at="525.767" class="pic kb-left" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p120" src="assets/photos169/train-c2.jpg#t=0,6.083" at="536" class="pic kb-in" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p122" src="assets/photos169/face-c1.jpg#t=0,6.183" at="548.4" class="pic kb-left" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p124" src="assets/photos169/knight-c7.jpg#t=0,4.65" at="559.567" class="pic kb-in" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p126" src="assets/photos169/knight-c4.jpg#t=0,3.684" at="568.233" class="pic kb-left" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p128" src="assets/photos169/lonely-c9.jpg#t=0,4.583" at="575.5" class="pic kb-in" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p130" src="assets/photos169/lonely-c4.jpg#t=0,4.45" at="583.667" class="pic kb-left" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p132" src="assets/photos169/lonely-c6.jpg#t=0,4.917" at="594" class="pic kb-in" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p134" src="assets/photos169/explorer-c7.jpg#t=0,5.85" at="602.633" class="pic kb-left" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p136" src="assets/photos169/face-c2.jpg#t=0,4.516" at="611.867" class="pic kb-in" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p138" src="assets/photos169/night-c1.jpg#t=0,5.083" at="619.9" class="pic kb-left" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p140" src="assets/photos169/climber-c8.jpg#t=0,4.183" at="628.2" class="pic kb-in" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p142" src="assets/photos169/knight-c1.jpg#t=0,4.583" at="635.867" class="pic kb-left" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p144" src="assets/photos169/sunrise-c5.jpg#t=0,4.35" at="643.867" class="pic kb-in" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p146" src="assets/photos169/alpine-c13.jpg#t=0,3.95" at="658.333" class="pic kb-left" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p148" src="assets/photos169/hut-c8.jpg#t=0,4.85" at="666" class="pic kb-in" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p150" src="assets/photos169/climber-c6.jpg#t=0,5.416" at="675.267" class="pic kb-left" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p152" src="assets/photos169/alpine-c15.jpg#t=0,4.883" at="684.367" class="pic kb-in" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p154" src="assets/photos169/climber-c7.jpg#t=0,3.984" at="693.133" class="pic kb-left" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p156" src="assets/photos169/alpine-c12.jpg#t=0,5.116" at="702.367" class="pic kb-in" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p158" src="assets/photos169/climber-c1.jpg#t=0,4.384" at="712.333" class="pic kb-left" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p160" src="assets/photos169/climber-c7.jpg#t=0,4.083" at="720.367" class="pic kb-in" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p162" src="assets/photos169/climber-c8.jpg#t=0,4.616" at="729.567" class="pic kb-left" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p164" src="assets/photos169/storm-c6.jpg#t=0,4.817" at="738.3" class="pic kb-in" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p166" src="assets/photos169/night-c5.jpg#t=0,5.85" at="748.167" class="pic kb-left" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p168" src="assets/photos169/climber-c4.jpg#t=0,4.817" at="758.1" class="pic kb-in" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p170" src="assets/photos169/night-c1.jpg#t=0,5.517" at="767.6" class="pic kb-left" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p172" src="assets/photos169/climber-c1.jpg#t=0,5.85" at="778.9" class="pic kb-in" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p174" src="assets/photos169/hut-c5.jpg#t=0,5.75" at="790.8" class="pic kb-left" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p176" src="assets/photos169/climber-c5.jpg#t=0,5.084" at="798.433" class="pic kb-in" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p178" src="assets/photos169/alpine-c9.jpg#t=0,4.083" at="806.6" class="pic kb-left" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p180" src="assets/photos169/climber-c2.jpg#t=0,5.984" at="816.433" class="pic kb-in" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p182" src="assets/photos169/hut-c4.jpg#t=0,4.183" at="827.167" class="pic kb-left" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p184" src="assets/photos169/face-c3.jpg#t=0,4.017" at="834.433" class="pic kb-in" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p186" src="assets/photos169/night-c3.jpg#t=0,4.35" at="842.867" class="pic kb-left" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p188" src="assets/photos169/explorer-c8.jpg#t=0,5.65" at="851.067" class="pic kb-in" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p190" src="assets/photos169/school-c6.jpg#t=0,5.884" at="861.533" class="pic kb-left" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p192" src="assets/photos169/sunrise-c2.jpg#t=0,4.85" at="873.967" class="pic kb-in" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p194" src="assets/photos169/sunrise-c1.jpg#t=0,4.75" at="882.5" class="pic kb-left" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p196" src="assets/photos169/night-c4.jpg#t=0,5.816" at="892.867" class="pic kb-in" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p198" src="assets/photos169/sunrise-c5.jpg#t=0,6.117" at="903.3" class="pic kb-left" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p200" src="assets/photos169/climber-c1.jpg#t=0,4.617" at="912.5" class="pic kb-in" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p202" src="assets/photos169/climber-c5.jpg#t=0,4.083" at="920.867" class="pic kb-left" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p204" src="assets/photos169/climber-c2.jpg#t=0,5.917" at="928.2" class="pic kb-in" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p206" src="assets/photos169/stars-c1.jpg#t=0,6.217" at="937.7" class="pic kb-left" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p208" src="assets/photos169/alpine-c8.jpg#t=0,4.45" at="947.033" class="pic kb-in" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p210" src="assets/photos169/gentleman-c11.jpg#t=0,6.117" at="957.233" class="pic kb-left" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p212" src="assets/photos169/sail-c7.jpg#t=0,5.316" at="967.567" class="pic kb-in" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p214" src="assets/photos169/sail-c1.jpg#t=0,5.25" at="976.767" class="pic kb-left" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p216" src="assets/photos169/alpine-c5.jpg#t=0,4.217" at="985.2" class="pic kb-in" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p218" src="assets/photos169/feast-c10.jpg#t=0,2.583" at="991.8" class="pic kb-left" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p220" src="assets/photos169/monk-c3.jpg#t=0,5.117" at="998.133" class="pic kb-in" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p222" src="assets/photos169/climber-c1.jpg#t=0,7.017" at="1008.133" class="pic kb-left" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p224" src="assets/photos169/stars-c9.jpg#t=0,6.183" at="1020.767" class="pic kb-in" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p226" src="assets/photos169/nietzsche-c1.jpg#t=0,4.384" at="1030.333" class="pic kb-left" overrides='[{"fade":[0.45,0.45]}]'>
+</section>
+<section>
+  <img id="p1" src="assets/photos169/lonely-c10.jpg#t=0,6.25" at="4.133" class="pic kb-out" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p3" src="assets/photos169/clerk-c2.jpg#t=0,3.75" at="13.933" class="pic kb-right" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p5" src="assets/photos169/lonely-c8.jpg#t=0,7.25" at="21.967" class="pic kb-out" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p7" src="assets/photos169/storm-c3.jpg#t=0,5.016" at="35.467" class="pic kb-right" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p9" src="assets/photos169/train-c7.jpg#t=0,3.783" at="44.167" class="pic kb-out" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p11" src="assets/photos169/knight-c2.jpg#t=0,5.15" at="51.1" class="pic kb-right" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p13" src="assets/photos169/knight-c1.jpg#t=0,3.116" at="60.367" class="pic kb-out" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p15" src="assets/photos169/school-c1.jpg#t=0,5.984" at="66.633" class="pic kb-right" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p17" src="assets/photos169/writer-c4.jpg#t=0,4.483" at="78.2" class="pic kb-out" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p19" src="assets/photos169/boys-c2.jpg#t=0,5.483" at="86.067" class="pic kb-right" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p21" src="assets/photos169/alpine-c19.jpg#t=0,5.616" at="93.867" class="pic kb-out" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p23" src="assets/photos169/explorer-c5.jpg#t=0,4.717" at="103.5" class="pic kb-right" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p25" src="assets/photos169/sunrise-c1.jpg#t=0,6.016" at="112.067" class="pic kb-out" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p27" src="assets/photos169/gentleman-c10.jpg#t=0,4.983" at="122.267" class="pic kb-right" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p29" src="assets/photos169/gentleman-c11.jpg#t=0,4.784" at="131.033" class="pic kb-out" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p31" src="assets/photos169/lonely-c9.jpg#t=0,4.283" at="141.667" class="pic kb-right" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p33" src="assets/photos169/lonely-c4.jpg#t=0,4.95" at="149.367" class="pic kb-out" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p35" src="assets/photos169/writer-c5.jpg#t=0,5.583" at="162.867" class="pic kb-right" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p37" src="assets/photos169/crowd-c1.jpg#t=0,5.116" at="173.667" class="pic kb-out" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p39" src="assets/photos169/monk-c1.jpg#t=0,6.25" at="182.567" class="pic kb-right" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p41" src="assets/photos169/monk-c4.jpg#t=0,3.95" at="191.867" class="pic kb-out" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p43" src="assets/photos169/feast-c2.jpg#t=0,4.683" at="199.567" class="pic kb-right" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p45" src="assets/photos169/lonely-c2.jpg#t=0,5.283" at="207.967" class="pic kb-out" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p47" src="assets/photos169/train-c4.jpg#t=0,4.416" at="216.867" class="pic kb-right" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p49" src="assets/photos169/face-c2.jpg#t=0,4.117" at="224.9" class="pic kb-out" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p51" src="assets/photos169/writer-c10.jpg#t=0,5.417" at="234.8" class="pic kb-right" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p53" src="assets/photos169/writer-c3.jpg#t=0,4.283" at="243.8" class="pic kb-out" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p55" src="assets/photos169/writer-c5.jpg#t=0,5.117" at="250.633" class="pic kb-right" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p57" src="assets/photos169/night-c2.jpg#t=0,4.55" at="259.533" class="pic kb-out" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p59" src="assets/photos169/lonely-c4.jpg#t=0,4.35" at="267.967" class="pic kb-right" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p61" src="assets/photos169/lonely-c6.jpg#t=0,5.083" at="276.8" class="pic kb-out" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p63" src="assets/photos169/writer-c10.jpg#t=0,6.85" at="286.033" class="pic kb-right" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p65" src="assets/photos169/explorer-c2.jpg#t=0,4.25" at="296.7" class="pic kb-out" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p67" src="assets/photos169/lonely-c2.jpg#t=0,6.25" at="303.967" class="pic kb-right" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p69" src="assets/photos169/gentleman-c8.jpg#t=0,3.017" at="312.933" class="pic kb-out" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p71" src="assets/photos169/feast-c7.jpg#t=0,4.216" at="323.367" class="pic kb-right" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p73" src="assets/photos169/feast-c11.jpg#t=0,2.884" at="328.733" class="pic kb-out" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p75" src="assets/photos169/feast-c4.jpg#t=0,4.15" at="334.033" class="pic kb-right" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p77" src="assets/photos169/horse-c5.jpg#t=0,4.584" at="341.233" class="pic kb-out" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p79" src="assets/photos169/horse-c6.jpg#t=0,4.716" at="349.267" class="pic kb-right" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p81" src="assets/photos169/sail-c7.jpg#t=0,4.917" at="357.833" class="pic kb-out" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p83" src="assets/photos169/sail-c6.jpg#t=0,4.75" at="366.533" class="pic kb-right" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p85" src="assets/photos169/train-c2.jpg#t=0,4.55" at="377" class="pic kb-out" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p87" src="assets/photos169/explorer-c4.jpg#t=0,3.85" at="385.233" class="pic kb-right" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p89" src="assets/photos169/alpine-c4.jpg#t=0,6.516" at="394.367" class="pic kb-out" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p91" src="assets/photos169/alpine-c1.jpg#t=0,4.717" at="405.233" class="pic kb-right" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p93" src="assets/photos169/knight-c2.jpg#t=0,4.817" at="413.333" class="pic kb-out" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p95" src="assets/photos169/pray-c2.jpg#t=0,4.884" at="423.633" class="pic kb-right" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p97" src="assets/photos169/sail-c5.jpg#t=0,5.483" at="432.267" class="pic kb-out" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p99" src="assets/photos169/knight-c3.jpg#t=0,6.116" at="439.367" class="pic kb-right" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p101" src="assets/photos169/alpine-c17.jpg#t=0,4.45" at="448.4" class="pic kb-out" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p103" src="assets/photos169/writer-c4.jpg#t=0,4.016" at="455.767" class="pic kb-right" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p105" src="assets/photos169/sail-c4.jpg#t=0,4.383" at="464.967" class="pic kb-out" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p107" src="assets/photos169/explorer-c2.jpg#t=0,4.284" at="473.433" class="pic kb-right" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p109" src="assets/photos169/storm-c7.jpg#t=0,6.783" at="481.3" class="pic kb-out" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p111" src="assets/photos169/storm-c4.jpg#t=0,4.283" at="491.067" class="pic kb-right" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p113" src="assets/photos169/storm-c5.jpg#t=0,5.217" at="500.833" class="pic kb-out" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p115" src="assets/photos169/climber-c6.jpg#t=0,3.95" at="510.233" class="pic kb-right" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p117" src="assets/photos169/alpine-c6.jpg#t=0,4.25" at="521.967" class="pic kb-out" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p119" src="assets/photos169/clerk-c2.jpg#t=0,6.95" at="529.5" class="pic kb-right" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p121" src="assets/photos169/train-c7.jpg#t=0,7.217" at="541.633" class="pic kb-out" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p123" src="assets/photos169/crowd-c1.jpg#t=0,5.884" at="554.133" class="pic kb-right" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p125" src="assets/photos169/gentleman-c10.jpg#t=0,4.916" at="563.767" class="pic kb-out" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p127" src="assets/photos169/night-c2.jpg#t=0,4.483" at="571.467" class="pic kb-right" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p129" src="assets/photos169/lonely-c3.jpg#t=0,4.484" at="579.633" class="pic kb-out" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p131" src="assets/photos169/lonely-c8.jpg#t=0,6.783" at="587.667" class="pic kb-right" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p133" src="assets/photos169/night-c5.jpg#t=0,4.616" at="598.467" class="pic kb-out" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p135" src="assets/photos169/face-c3.jpg#t=0,4.284" at="608.033" class="pic kb-right" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p137" src="assets/photos169/night-c4.jpg#t=0,4.417" at="615.933" class="pic kb-out" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p139" src="assets/photos169/storm-c2.jpg#t=0,4.117" at="624.533" class="pic kb-right" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p141" src="assets/photos169/writer-c1.jpg#t=0,4.384" at="631.933" class="pic kb-out" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p143" src="assets/photos169/sunrise-c1.jpg#t=0,4.317" at="640" class="pic kb-right" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p145" src="assets/photos169/horse-c5.jpg#t=0,6.616" at="647.767" class="pic kb-out" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p147" src="assets/photos169/alpine-c8.jpg#t=0,4.617" at="661.833" class="pic kb-right" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p149" src="assets/photos169/alpine-c3.jpg#t=0,5.317" at="670.4" class="pic kb-out" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p151" src="assets/photos169/climber-c4.jpg#t=0,4.584" at="680.233" class="pic kb-right" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p153" src="assets/photos169/climber-c2.jpg#t=0,4.783" at="688.8" class="pic kb-out" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p155" src="assets/photos169/climber-c8.jpg#t=0,6.15" at="696.667" class="pic kb-right" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p157" src="assets/photos169/alpine-c10.jpg#t=0,5.75" at="707.033" class="pic kb-out" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p159" src="assets/photos169/climber-c2.jpg#t=0,4.55" at="716.267" class="pic kb-right" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p161" src="assets/photos169/climber-c4.jpg#t=0,6.017" at="724" class="pic kb-out" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p163" src="assets/photos169/alpine-c11.jpg#t=0,5.017" at="733.733" class="pic kb-right" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p165" src="assets/photos169/climber-c6.jpg#t=0,5.95" at="742.667" class="pic kb-out" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p167" src="assets/photos169/night-c2.jpg#t=0,4.983" at="753.567" class="pic kb-right" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p169" src="assets/photos169/climber-c7.jpg#t=0,5.583" at="762.467" class="pic kb-out" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p171" src="assets/photos169/alpine-c14.jpg#t=0,6.683" at="772.667" class="pic kb-right" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p173" src="assets/photos169/night-c3.jpg#t=0,6.95" at="784.3" class="pic kb-out" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p175" src="assets/photos169/hut-c6.jpg#t=0,2.783" at="796.1" class="pic kb-right" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p177" src="assets/photos169/night-c4.jpg#t=0,3.983" at="803.067" class="pic kb-out" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p179" src="assets/photos169/sunrise-c4.jpg#t=0,6.65" at="810.233" class="pic kb-right" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p181" src="assets/photos169/night-c1.jpg#t=0,5.65" at="821.967" class="pic kb-out" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p183" src="assets/photos169/hut-c3.jpg#t=0,3.983" at="830.9" class="pic kb-right" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p185" src="assets/photos169/storm-c4.jpg#t=0,5.317" at="838" class="pic kb-out" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p187" src="assets/photos169/camp-c3.jpg#t=0,4.75" at="846.767" class="pic kb-right" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p189" src="assets/photos169/camp-c8.jpg#t=0,5.716" at="856.267" class="pic kb-out" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p191" src="assets/photos169/gentleman-c4.jpg#t=0,3.05" at="866.967" class="pic kb-right" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p193" src="assets/photos169/alpine-c14.jpg#t=0,4.583" at="878.367" class="pic kb-out" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p195" src="assets/photos169/knight-c4.jpg#t=0,6.517" at="886.8" class="pic kb-right" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p197" src="assets/photos169/sail-c4.jpg#t=0,5.517" at="898.233" class="pic kb-out" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p199" src="assets/photos169/gentleman-c9.jpg#t=0,3.983" at="908.967" class="pic kb-right" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p201" src="assets/photos169/sunrise-c4.jpg#t=0,4.65" at="916.667" class="pic kb-out" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p203" src="assets/photos169/explorer-c8.jpg#t=0,4.15" at="924.5" class="pic kb-right" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p205" src="assets/photos169/face-c2.jpg#t=0,4.483" at="933.667" class="pic kb-out" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p207" src="assets/photos169/sunrise-c2.jpg#t=0,4.016" at="943.467" class="pic kb-right" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p209" src="assets/photos169/sail-c5.jpg#t=0,6.65" at="951.033" class="pic kb-out" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p211" src="assets/photos169/storm-c7.jpg#t=0,5.117" at="962.9" class="pic kb-right" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p213" src="assets/photos169/storm-c1.jpg#t=0,4.784" at="972.433" class="pic kb-out" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p215" src="assets/photos169/climber-c6.jpg#t=0,4.083" at="981.567" class="pic kb-right" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p217" src="assets/photos169/lonely-c9.jpg#t=0,3.283" at="988.967" class="pic kb-out" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p219" src="assets/photos169/alpine-c11.jpg#t=0,4.65" at="993.933" class="pic kb-right" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p221" src="assets/photos169/sunrise-c5.jpg#t=0,5.783" at="1002.8" class="pic kb-out" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p223" src="assets/photos169/gentleman-c8.jpg#t=0,6.517" at="1014.7" class="pic kb-right" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p225" src="assets/photos169/stars-c2.jpg#t=0,4.283" at="1026.5" class="pic kb-out" overrides='[{"fade":[0.45,0.45]}]'>
+  <img id="p227" src="assets/photos169/alpine-c2.jpg#t=0,3.45" at="1034.267" class="pic kb-right" overrides='[{"fade":[0.45,0.45]}]'>
+</section>
+<section>
+  <audio id="vo-s001" src="assets/vo/s001.mp3" at="0.6"></audio>
+  <audio id="vo-s002" src="assets/vo/s002.mp3" at="4.133"></audio>
+  <audio id="vo-s003" src="assets/vo/s003.mp3" at="9.933"></audio>
+  <audio id="vo-s004" src="assets/vo/s004.mp3" at="13.933"></audio>
+  <audio id="vo-s005" src="assets/vo/s005.mp3" at="17.233"></audio>
+  <audio id="vo-s006" src="assets/vo/s006.mp3" at="21.967"></audio>
+  <audio id="vo-s007" src="assets/vo/s007.mp3" at="28.767"></audio>
+  <audio id="vo-s008" src="assets/vo/s008.mp3" at="35.467"></audio>
+  <audio id="vo-s009" src="assets/vo/s009.mp3" at="44.167"></audio>
+  <audio id="vo-s010" src="assets/vo/s010.mp3" at="51.1"></audio>
+  <audio id="vo-s011" src="assets/vo/s011.mp3" at="60.367"></audio>
+  <audio id="vo-s012" src="assets/vo/s012.mp3" at="63.033"></audio>
+  <audio id="vo-s013" src="assets/vo/s013.mp3" at="66.633"></audio>
+  <audio id="vo-s014" src="assets/vo/s014.mp3" at="72.167"></audio>
+  <audio id="vo-s015" src="assets/vo/s015.mp3" at="78.2"></audio>
+  <audio id="vo-s016" src="assets/vo/s016.mp3" at="86.067"></audio>
+  <audio id="vo-s017" src="assets/vo/s017.mp3" at="91.1"></audio>
+  <audio id="vo-s018" src="assets/vo/s018.mp3" at="93.867"></audio>
+  <audio id="vo-s019" src="assets/vo/s019.mp3" at="99.033"></audio>
+  <audio id="vo-s020" src="assets/vo/s020.mp3" at="103.5"></audio>
+  <audio id="vo-s021" src="assets/vo/s021.mp3" at="112.067"></audio>
+  <audio id="vo-s022" src="assets/vo/s022.mp3" at="117.633"></audio>
+  <audio id="vo-s023" src="assets/vo/s023.mp3" at="126.8"></audio>
+  <audio id="vo-s024" src="assets/vo/s024.mp3" at="135.367"></audio>
+  <audio id="vo-s025" src="assets/vo/s025.mp3" at="141.667"></audio>
+  <audio id="vo-s026" src="assets/vo/s026.mp3" at="149.367"></audio>
+  <audio id="vo-s027" src="assets/vo/s027.mp3" at="162.867"></audio>
+  <audio id="vo-s028" src="assets/vo/s028.mp3" at="173.667"></audio>
+  <audio id="vo-s029" src="assets/vo/s029.mp3" at="182.567"></audio>
+  <audio id="vo-s030" src="assets/vo/s030.mp3" at="188.367"></audio>
+  <audio id="vo-s031" src="assets/vo/s031.mp3" at="195.367"></audio>
+  <audio id="vo-s032" src="assets/vo/s032.mp3" at="207.967"></audio>
+  <audio id="vo-s033" src="assets/vo/s033.mp3" at="212.8"></audio>
+  <audio id="vo-s034" src="assets/vo/s034.mp3" at="220.833"></audio>
+  <audio id="vo-s035" src="assets/vo/s035.mp3" at="228.567"></audio>
+  <audio id="vo-s036" src="assets/vo/s036.mp3" at="234.8"></audio>
+  <audio id="vo-s037" src="assets/vo/s037.mp3" at="239.767"></audio>
+  <audio id="vo-s038" src="assets/vo/s038.mp3" at="247.633"></audio>
+  <audio id="vo-s039" src="assets/vo/s039.mp3" at="250.633"></audio>
+  <audio id="vo-s040" src="assets/vo/s040.mp3" at="259.533"></audio>
+  <audio id="vo-s041" src="assets/vo/s041.mp3" at="263.633"></audio>
+  <audio id="vo-s042" src="assets/vo/s042.mp3" at="271.867"></audio>
+  <audio id="vo-s043" src="assets/vo/s043.mp3" at="276.8"></audio>
+  <audio id="vo-s044" src="assets/vo/s044.mp3" at="281.433"></audio>
+  <audio id="vo-s045" src="assets/vo/s045.mp3" at="286.033"></audio>
+  <audio id="vo-s046" src="assets/vo/s046.mp3" at="292.433"></audio>
+  <audio id="vo-s047" src="assets/vo/s047.mp3" at="296.7"></audio>
+  <audio id="vo-s048" src="assets/vo/s048.mp3" at="303.967"></audio>
+  <audio id="vo-s049" src="assets/vo/s049.mp3" at="309.767"></audio>
+  <audio id="vo-s050" src="assets/vo/s050.mp3" at="312.933"></audio>
+  <audio id="vo-s051" src="assets/vo/s051.mp3" at="319.9"></audio>
+  <audio id="vo-s052" src="assets/vo/s052.mp3" at="327.133"></audio>
+  <audio id="vo-s053" src="assets/vo/s053.mp3" at="328.733"></audio>
+  <audio id="vo-s054" src="assets/vo/s054.mp3" at="331.167"></audio>
+  <audio id="vo-s055" src="assets/vo/s055.mp3" at="334.033"></audio>
+  <audio id="vo-s056" src="assets/vo/s056.mp3" at="337.733"></audio>
+  <audio id="vo-s057" src="assets/vo/s057.mp3" at="341.233"></audio>
+  <audio id="vo-s058" src="assets/vo/s058.mp3" at="345.367"></audio>
+  <audio id="vo-s059" src="assets/vo/s059.mp3" at="349.267"></audio>
+  <audio id="vo-s060" src="assets/vo/s060.mp3" at="357.833"></audio>
+  <audio id="vo-s061" src="assets/vo/s061.mp3" at="362.3"></audio>
+  <audio id="vo-s062" src="assets/vo/s062.mp3" at="370.833"></audio>
+  <audio id="vo-s063" src="assets/vo/s063.mp3" at="377"></audio>
+  <audio id="vo-s064" src="assets/vo/s064.mp3" at="385.233"></audio>
+  <audio id="vo-s065" src="assets/vo/s065.mp3" at="388.633"></audio>
+  <audio id="vo-s066" src="assets/vo/s066.mp3" at="394.367"></audio>
+  <audio id="vo-s067" src="assets/vo/s067.mp3" at="400.433"></audio>
+  <audio id="vo-s068" src="assets/vo/s068.mp3" at="405.233"></audio>
+  <audio id="vo-s069" src="assets/vo/s069.mp3" at="413.333"></audio>
+  <audio id="vo-s070" src="assets/vo/s070.mp3" at="417.7"></audio>
+  <audio id="vo-s071" src="assets/vo/s071.mp3" at="423.633"></audio>
+  <audio id="vo-s072" src="assets/vo/s072.mp3" at="432.267"></audio>
+  <audio id="vo-s073" src="assets/vo/s073.mp3" at="437.3"></audio>
+  <audio id="vo-s074" src="assets/vo/s074.mp3" at="439.367"></audio>
+  <audio id="vo-s075" src="assets/vo/s075.mp3" at="445.033"></audio>
+  <audio id="vo-s076" src="assets/vo/s076.mp3" at="452.4"></audio>
+  <audio id="vo-s077" src="assets/vo/s077.mp3" at="459.333"></audio>
+  <audio id="vo-s078" src="assets/vo/s078.mp3" at="464.967"></audio>
+  <audio id="vo-s079" src="assets/vo/s079.mp3" at="473.433"></audio>
+  <audio id="vo-s080" src="assets/vo/s080.mp3" at="481.3"></audio>
+  <audio id="vo-s081" src="assets/vo/s081.mp3" at="487.633"></audio>
+  <audio id="vo-s082" src="assets/vo/s082.mp3" at="494.9"></audio>
+  <audio id="vo-s083" src="assets/vo/s083.mp3" at="500.833"></audio>
+  <audio id="vo-s084" src="assets/vo/s084.mp3" at="510.233"></audio>
+  <audio id="vo-s085" src="assets/vo/s085.mp3" at="513.733"></audio>
+  <audio id="vo-s086" src="assets/vo/s086.mp3" at="521.967"></audio>
+  <audio id="vo-s087" src="assets/vo/s087.mp3" at="529.5"></audio>
+  <audio id="vo-s088" src="assets/vo/s088.mp3" at="536"></audio>
+  <audio id="vo-s089" src="assets/vo/s089.mp3" at="541.633"></audio>
+  <audio id="vo-s090" src="assets/vo/s090.mp3" at="548.4"></audio>
+  <audio id="vo-s091" src="assets/vo/s091.mp3" at="554.133"></audio>
+  <audio id="vo-s092" src="assets/vo/s092.mp3" at="559.567"></audio>
+  <audio id="vo-s093" src="assets/vo/s093.mp3" at="568.233"></audio>
+  <audio id="vo-s094" src="assets/vo/s094.mp3" at="571.467"></audio>
+  <audio id="vo-s095" src="assets/vo/s095.mp3" at="579.633"></audio>
+  <audio id="vo-s096" src="assets/vo/s096.mp3" at="587.667"></audio>
+  <audio id="vo-s097" src="assets/vo/s097.mp3" at="594"></audio>
+  <audio id="vo-s098" src="assets/vo/s098.mp3" at="602.633"></audio>
+  <audio id="vo-s099" src="assets/vo/s099.mp3" at="608.033"></audio>
+  <audio id="vo-s100" src="assets/vo/s100.mp3" at="615.933"></audio>
+  <audio id="vo-s101" src="assets/vo/s101.mp3" at="624.533"></audio>
+  <audio id="vo-s102" src="assets/vo/s102.mp3" at="631.933"></audio>
+  <audio id="vo-s103" src="assets/vo/s103.mp3" at="635.867"></audio>
+  <audio id="vo-s104" src="assets/vo/s104.mp3" at="640"></audio>
+  <audio id="vo-s105" src="assets/vo/s105.mp3" at="647.767"></audio>
+  <audio id="vo-s106" src="assets/vo/s106.mp3" at="658.333"></audio>
+  <audio id="vo-s107" src="assets/vo/s107.mp3" at="661.833"></audio>
+  <audio id="vo-s108" src="assets/vo/s108.mp3" at="670.4"></audio>
+  <audio id="vo-s109" src="assets/vo/s109.mp3" at="675.267"></audio>
+  <audio id="vo-s110" src="assets/vo/s110.mp3" at="680.233"></audio>
+  <audio id="vo-s111" src="assets/vo/s111.mp3" at="688.8"></audio>
+  <audio id="vo-s112" src="assets/vo/s112.mp3" at="696.667"></audio>
+  <audio id="vo-s113" src="assets/vo/s113.mp3" at="702.367"></audio>
+  <audio id="vo-s114" src="assets/vo/s114.mp3" at="707.033"></audio>
+  <audio id="vo-s115" src="assets/vo/s115.mp3" at="712.333"></audio>
+  <audio id="vo-s116" src="assets/vo/s116.mp3" at="716.267"></audio>
+  <audio id="vo-s117" src="assets/vo/s117.mp3" at="724"></audio>
+  <audio id="vo-s118" src="assets/vo/s118.mp3" at="729.567"></audio>
+  <audio id="vo-s119" src="assets/vo/s119.mp3" at="738.3"></audio>
+  <audio id="vo-s120" src="assets/vo/s120.mp3" at="742.667"></audio>
+  <audio id="vo-s121" src="assets/vo/s121.mp3" at="748.167"></audio>
+  <audio id="vo-s122" src="assets/vo/s122.mp3" at="753.567"></audio>
+  <audio id="vo-s123" src="assets/vo/s123.mp3" at="762.467"></audio>
+  <audio id="vo-s124" src="assets/vo/s124.mp3" at="772.667"></audio>
+  <audio id="vo-s125" src="assets/vo/s125.mp3" at="778.9"></audio>
+  <audio id="vo-s126" src="assets/vo/s126.mp3" at="784.3"></audio>
+  <audio id="vo-s127" src="assets/vo/s127.mp3" at="790.8"></audio>
+  <audio id="vo-s128" src="assets/vo/s128.mp3" at="796.1"></audio>
+  <audio id="vo-s129" src="assets/vo/s129.mp3" at="798.433"></audio>
+  <audio id="vo-s130" src="assets/vo/s130.mp3" at="803.067"></audio>
+  <audio id="vo-s131" src="assets/vo/s131.mp3" at="810.233"></audio>
+  <audio id="vo-s132" src="assets/vo/s132.mp3" at="816.433"></audio>
+  <audio id="vo-s133" src="assets/vo/s133.mp3" at="821.967"></audio>
+  <audio id="vo-s134" src="assets/vo/s134.mp3" at="827.167"></audio>
+  <audio id="vo-s135" src="assets/vo/s135.mp3" at="834.433"></audio>
+  <audio id="vo-s136" src="assets/vo/s136.mp3" at="838"></audio>
+  <audio id="vo-s137" src="assets/vo/s137.mp3" at="846.767"></audio>
+  <audio id="vo-s138" src="assets/vo/s138.mp3" at="851.067"></audio>
+  <audio id="vo-s139" src="assets/vo/s139.mp3" at="856.267"></audio>
+  <audio id="vo-s140" src="assets/vo/s140.mp3" at="866.967"></audio>
+  <audio id="vo-s141" src="assets/vo/s141.mp3" at="873.967"></audio>
+  <audio id="vo-s142" src="assets/vo/s142.mp3" at="886.8"></audio>
+  <audio id="vo-s143" src="assets/vo/s143.mp3" at="892.867"></audio>
+  <audio id="vo-s144" src="assets/vo/s144.mp3" at="903.3"></audio>
+  <audio id="vo-s145" src="assets/vo/s145.mp3" at="908.967"></audio>
+  <audio id="vo-s146" src="assets/vo/s146.mp3" at="916.667"></audio>
+  <audio id="vo-s147" src="assets/vo/s147.mp3" at="920.867"></audio>
+  <audio id="vo-s148" src="assets/vo/s148.mp3" at="924.5"></audio>
+  <audio id="vo-s149" src="assets/vo/s149.mp3" at="928.2"></audio>
+  <audio id="vo-s150" src="assets/vo/s150.mp3" at="933.667"></audio>
+  <audio id="vo-s151" src="assets/vo/s151.mp3" at="937.7"></audio>
+  <audio id="vo-s152" src="assets/vo/s152.mp3" at="943.467"></audio>
+  <audio id="vo-s153" src="assets/vo/s153.mp3" at="951.033"></audio>
+  <audio id="vo-s154" src="assets/vo/s154.mp3" at="957.233"></audio>
+  <audio id="vo-s155" src="assets/vo/s155.mp3" at="962.9"></audio>
+  <audio id="vo-s156" src="assets/vo/s156.mp3" at="981.567"></audio>
+  <audio id="vo-s157" src="assets/vo/s157.mp3" at="988.967"></audio>
+  <audio id="vo-s158" src="assets/vo/s158.mp3" at="991.8"></audio>
+  <audio id="vo-s159" src="assets/vo/s159.mp3" at="993.933"></audio>
+  <audio id="vo-s160" src="assets/vo/s160.mp3" at="998.133"></audio>
+  <audio id="vo-s161" src="assets/vo/s161.mp3" at="1002.8"></audio>
+  <audio id="vo-s162" src="assets/vo/s162.mp3" at="1008.133"></audio>
+  <audio id="vo-s163" src="assets/vo/s163.mp3" at="1014.7"></audio>
+  <audio id="vo-s164" src="assets/vo/s164.mp3" at="1020.767"></audio>
+  <audio id="vo-s165" src="assets/vo/s165.mp3" at="1026.5"></audio>
+  <audio id="vo-s166" src="assets/vo/s166.mp3" at="1034.267"></audio>
+</section>
+<section>
+  <audio id="music-0" src="assets/music/titan.mp3#t=0,346.712" at="0" volume="0.42" overrides='[{"fade":[1.5,5]}]'></audio>
+</section>
+<section>
+  <audio id="music-1" src="assets/music/coming-from-above.mp3#t=0,330.542" at="341.712" volume="0.42" overrides='[{"fade":[5,5]}]'></audio>
+</section>
+<section>
+  <audio id="music-2" src="assets/music/expanse.mp3#t=0,374.712" at="667.255" volume="0.42" overrides='[{"fade":[5,5]}]'></audio>
+</section>
+<section>
+  <audio src="assets/sfx/thump.mp3" at="2.113" volume="0.4"></audio>
+  <audio src="assets/sfx/tick.mp3" at="12.287" volume="0.22"></audio>
+  <audio src="assets/sfx/tick.mp3" at="14.533" volume="0.22"></audio>
+  <audio src="assets/sfx/tick.mp3" at="17.833" volume="0.22"></audio>
+  <audio src="assets/sfx/thump.mp3" at="27.2" volume="0.4"></audio>
+  <audio src="assets/sfx/tick.mp3" at="33.947" volume="0.22"></audio>
+  <audio src="assets/sfx/tick.mp3" at="42.6" volume="0.22"></audio>
+  <audio src="assets/sfx/tick.mp3" at="48.253" volume="0.22"></audio>
+  <audio src="assets/sfx/tick.mp3" at="53.6" volume="0.22"></audio>
+  <audio src="assets/sfx/thump.mp3" at="61.18" volume="0.4"></audio>
+  <audio src="assets/sfx/tick.mp3" at="70.92" volume="0.22"></audio>
+  <audio src="assets/sfx/tick.mp3" at="74.133" volume="0.22"></audio>
+  <audio src="assets/sfx/thump.mp3" at="78.913" volume="0.4"></audio>
+  <audio src="assets/sfx/tick.mp3" at="88.3" volume="0.22"></audio>
+  <audio src="assets/sfx/tick.mp3" at="91.7" volume="0.22"></audio>
+  <audio src="assets/sfx/tick.mp3" at="93.847" volume="0.22"></audio>
+  <audio src="assets/sfx/tick.mp3" at="99.633" volume="0.22"></audio>
+  <audio src="assets/sfx/tick.mp3" at="108.167" volume="0.22"></audio>
+  <audio src="assets/sfx/tick.mp3" at="115.387" volume="0.22"></audio>
+  <audio src="assets/sfx/thump.mp3" at="118.853" volume="0.4"></audio>
+  <audio src="assets/sfx/tick.mp3" at="128.167" volume="0.22"></audio>
+  <audio src="assets/sfx/tick.mp3" at="139.267" volume="0.22"></audio>
+  <audio src="assets/sfx/tick.mp3" at="142.887" volume="0.22"></audio>
+  <audio src="assets/sfx/tick.mp3" at="156.287" volume="0.22"></audio>
+  <audio src="assets/sfx/swell.mp3" at="158.167" volume="0.35"></audio>
+  <audio src="assets/sfx/tick.mp3" at="168" volume="0.22"></audio>
+  <audio src="assets/sfx/thump.mp3" at="174.313" volume="0.4"></audio>
+  <audio src="assets/sfx/tick.mp3" at="187.167" volume="0.22"></audio>
+  <audio src="assets/sfx/tick.mp3" at="190.133" volume="0.22"></audio>
+  <audio src="assets/sfx/tick.mp3" at="206.08" volume="0.22"></audio>
+  <audio src="assets/sfx/thump.mp3" at="209.187" volume="0.4"></audio>
+  <audio src="assets/sfx/tick.mp3" at="216.347" volume="0.22"></audio>
+  <audio src="assets/sfx/tick.mp3" at="222.053" volume="0.22"></audio>
+  <audio src="assets/sfx/thump.mp3" at="229.313" volume="0.4"></audio>
+  <audio src="assets/sfx/tick.mp3" at="237.413" volume="0.22"></audio>
+  <audio src="assets/sfx/tick.mp3" at="242.767" volume="0.22"></audio>
+  <audio src="assets/sfx/tick.mp3" at="249.1" volume="0.22"></audio>
+  <audio src="assets/sfx/tick.mp3" at="257.58" volume="0.22"></audio>
+  <audio src="assets/sfx/tick.mp3" at="261.98" volume="0.22"></audio>
+  <audio src="assets/sfx/tick.mp3" at="267.787" volume="0.22"></audio>
+  <audio src="assets/sfx/tick.mp3" at="273.087" volume="0.22"></audio>
+  <audio src="assets/sfx/thump.mp3" at="279.767" volume="0.4"></audio>
+  <audio src="assets/sfx/tick.mp3" at="284.48" volume="0.22"></audio>
+  <audio src="assets/sfx/tick.mp3" at="290.567" volume="0.22"></audio>
+  <audio src="assets/sfx/tick.mp3" at="294.2" volume="0.22"></audio>
+  <audio src="assets/sfx/tick.mp3" at="298.88" volume="0.22"></audio>
+  <audio src="assets/sfx/thump.mp3" at="308.4" volume="0.4"></audio>
+  <audio src="assets/sfx/tick.mp3" at="313.533" volume="0.22"></audio>
+  <audio src="assets/sfx/swell.mp3" at="315.2" volume="0.35"></audio>
+  <audio src="assets/sfx/tick.mp3" at="323.287" volume="0.22"></audio>
+  <audio src="assets/sfx/thump.mp3" at="327.113" volume="0.4"></audio>
+  <audio src="assets/sfx/thump.mp3" at="332.387" volume="0.4"></audio>
+  <audio src="assets/sfx/tick.mp3" at="336.7" volume="0.22"></audio>
+  <audio src="assets/sfx/tick.mp3" at="339.067" volume="0.22"></audio>
+  <audio src="assets/sfx/thump.mp3" at="343.967" volume="0.4"></audio>
+  <audio src="assets/sfx/tick.mp3" at="347.8" volume="0.22"></audio>
+  <audio src="assets/sfx/tick.mp3" at="355.8" volume="0.22"></audio>
+  <audio src="assets/sfx/tick.mp3" at="359.053" volume="0.22"></audio>
+  <audio src="assets/sfx/thump.mp3" at="369.613" volume="0.4"></audio>
+  <audio src="assets/sfx/tick.mp3" at="375.413" volume="0.22"></audio>
+  <audio src="assets/sfx/tick.mp3" at="380.013" volume="0.22"></audio>
+  <audio src="assets/sfx/tick.mp3" at="386.453" volume="0.22"></audio>
+  <audio src="assets/sfx/tick.mp3" at="391.067" volume="0.22"></audio>
+  <audio src="assets/sfx/tick.mp3" at="398.633" volume="0.22"></audio>
+  <audio src="assets/sfx/thump.mp3" at="401.033" volume="0.4"></audio>
+  <audio src="assets/sfx/tick.mp3" at="411.947" volume="0.22"></audio>
+  <audio src="assets/sfx/thump.mp3" at="416.247" volume="0.4"></audio>
+  <audio src="assets/sfx/tick.mp3" at="418.92" volume="0.22"></audio>
+  <audio src="assets/sfx/tick.mp3" at="424.853" volume="0.22"></audio>
+  <audio src="assets/sfx/tick.mp3" at="433.487" volume="0.22"></audio>
+  <audio src="assets/sfx/thump.mp3" at="438.52" volume="0.4"></audio>
+  <audio src="assets/sfx/tick.mp3" at="439.967" volume="0.22"></audio>
+  <audio src="assets/sfx/tick.mp3" at="450.747" volume="0.22"></audio>
+  <audio src="assets/sfx/tick.mp3" at="453.62" volume="0.22"></audio>
+  <audio src="assets/sfx/thump.mp3" at="463.013" volume="0.4"></audio>
+  <audio src="assets/sfx/tick.mp3" at="470.513" volume="0.22"></audio>
+  <audio src="assets/sfx/tick.mp3" at="474.8" volume="0.22"></audio>
+  <audio src="assets/sfx/thump.mp3" at="482.9" volume="0.4"></audio>
+  <audio src="assets/sfx/tick.mp3" at="493.333" volume="0.22"></audio>
+  <audio src="assets/sfx/tick.mp3" at="495.5" volume="0.22"></audio>
+  <audio src="assets/sfx/tick.mp3" at="506.867" volume="0.22"></audio>
+  <audio src="assets/sfx/tick.mp3" at="511.947" volume="0.22"></audio>
+  <audio src="assets/sfx/thump.mp3" at="515.467" volume="0.4"></audio>
+  <audio src="assets/sfx/swell.mp3" at="517.267" volume="0.35"></audio>
+  <audio src="assets/sfx/tick.mp3" at="523.3" volume="0.22"></audio>
+  <audio src="assets/sfx/thump.mp3" at="533.347" volume="0.4"></audio>
+  <audio src="assets/sfx/tick.mp3" at="538.167" volume="0.22"></audio>
+  <audio src="assets/sfx/tick.mp3" at="546.78" volume="0.22"></audio>
+  <audio src="assets/sfx/tick.mp3" at="553.1" volume="0.22"></audio>
+  <audio src="assets/sfx/thump.mp3" at="555.567" volume="0.4"></audio>
+  <audio src="assets/sfx/tick.mp3" at="566.8" volume="0.22"></audio>
+  <audio src="assets/sfx/tick.mp3" at="569.147" volume="0.22"></audio>
+  <audio src="assets/sfx/tick.mp3" at="577.88" volume="0.22"></audio>
+  <audio src="assets/sfx/tick.mp3" at="583.647" volume="0.22"></audio>
+  <audio src="assets/sfx/tick.mp3" at="588.267" volume="0.22"></audio>
+  <audio src="assets/sfx/thump.mp3" at="601.587" volume="0.4"></audio>
+  <audio src="assets/sfx/tick.mp3" at="603.853" volume="0.22"></audio>
+  <audio src="assets/sfx/tick.mp3" at="609.253" volume="0.22"></audio>
+  <audio src="assets/sfx/tick.mp3" at="617.467" volume="0.22"></audio>
+  <audio src="assets/sfx/tick.mp3" at="629.247" volume="0.22"></audio>
+  <audio src="assets/sfx/thump.mp3" at="633.647" volume="0.4"></audio>
+  <audio src="assets/sfx/tick.mp3" at="636.467" volume="0.22"></audio>
+  <audio src="assets/sfx/tick.mp3" at="644.847" volume="0.22"></audio>
+  <audio src="assets/sfx/thump.mp3" at="650.92" volume="0.4"></audio>
+  <audio src="assets/sfx/swell.mp3" at="653.633" volume="0.35"></audio>
+  <audio src="assets/sfx/tick.mp3" at="665.58" volume="0.22"></audio>
+  <audio src="assets/sfx/thump.mp3" at="677.2" volume="0.4"></audio>
+  <audio src="assets/sfx/tick.mp3" at="684.413" volume="0.22"></audio>
+  <audio src="assets/sfx/tick.mp3" at="694.353" volume="0.22"></audio>
+  <audio src="assets/sfx/tick.mp3" at="699.7" volume="0.22"></audio>
+  <audio src="assets/sfx/tick.mp3" at="704.953" volume="0.22"></audio>
+  <audio src="assets/sfx/tick.mp3" at="710.933" volume="0.22"></audio>
+  <audio src="assets/sfx/tick.mp3" at="718.633" volume="0.22"></audio>
+  <audio src="assets/sfx/tick.mp3" at="733.433" volume="0.22"></audio>
+  <audio src="assets/sfx/thump.mp3" at="738.9" volume="0.4"></audio>
+  <audio src="assets/sfx/tick.mp3" at="746.48" volume="0.22"></audio>
+  <audio src="assets/sfx/thump.mp3" at="752.3" volume="0.4"></audio>
+  <audio src="assets/sfx/tick.mp3" at="758.7" volume="0.22"></audio>
+  <audio src="assets/sfx/tick.mp3" at="768.22" volume="0.22"></audio>
+  <audio src="assets/sfx/tick.mp3" at="773.887" volume="0.22"></audio>
+  <audio src="assets/sfx/tick.mp3" at="786.747" volume="0.22"></audio>
+  <audio src="assets/sfx/tick.mp3" at="794.48" volume="0.22"></audio>
+  <audio src="assets/sfx/tick.mp3" at="800.273" volume="0.22"></audio>
+  <audio src="assets/sfx/tick.mp3" at="805.32" volume="0.22"></audio>
+  <audio src="assets/sfx/thump.mp3" at="813.6" volume="0.4"></audio>
+  <audio src="assets/sfx/tick.mp3" at="817.247" volume="0.22"></audio>
+  <audio src="assets/sfx/tick.mp3" at="826.133" volume="0.22"></audio>
+  <audio src="assets/sfx/thump.mp3" at="833.013" volume="0.4"></audio>
+  <audio src="assets/sfx/tick.mp3" at="843.887" volume="0.22"></audio>
+  <audio src="assets/sfx/tick.mp3" at="847.987" volume="0.22"></audio>
+  <audio src="assets/sfx/tick.mp3" at="854.653" volume="0.22"></audio>
+  <audio src="assets/sfx/tick.mp3" at="864" volume="0.22"></audio>
+  <audio src="assets/sfx/thump.mp3" at="867.613" volume="0.4"></audio>
+  <audio src="assets/sfx/swell.mp3" at="869.267" volume="0.35"></audio>
+  <audio src="assets/sfx/tick.mp3" at="879.467" volume="0.22"></audio>
+  <audio src="assets/sfx/tick.mp3" at="887.4" volume="0.22"></audio>
+  <audio src="assets/sfx/tick.mp3" at="893.467" volume="0.22"></audio>
+  <audio src="assets/sfx/thump.mp3" at="907.62" volume="0.4"></audio>
+  <audio src="assets/sfx/tick.mp3" at="910.2" volume="0.22"></audio>
+  <audio src="assets/sfx/tick.mp3" at="917.887" volume="0.22"></audio>
+  <audio src="assets/sfx/tick.mp3" at="922.98" volume="0.22"></audio>
+  <audio src="assets/sfx/tick.mp3" at="926.867" volume="0.22"></audio>
+  <audio src="assets/sfx/tick.mp3" at="932.213" volume="0.22"></audio>
+  <audio src="assets/sfx/tick.mp3" at="936.5" volume="0.22"></audio>
+  <audio src="assets/sfx/thump.mp3" at="942.067" volume="0.4"></audio>
+  <audio src="assets/sfx/tick.mp3" at="946.013" volume="0.22"></audio>
+  <audio src="assets/sfx/tick.mp3" at="954.647" volume="0.22"></audio>
+  <audio src="assets/sfx/tick.mp3" at="960.68" volume="0.22"></audio>
+  <audio src="assets/sfx/tick.mp3" at="979.747" volume="0.22"></audio>
+  <audio src="assets/sfx/tick.mp3" at="982.167" volume="0.22"></audio>
+  <audio src="assets/sfx/thump.mp3" at="990.08" volume="0.4"></audio>
+  <audio src="assets/sfx/tick.mp3" at="992.4" volume="0.22"></audio>
+  <audio src="assets/sfx/tick.mp3" at="997" volume="0.22"></audio>
+  <audio src="assets/sfx/tick.mp3" at="998.913" volume="0.22"></audio>
+  <audio src="assets/sfx/tick.mp3" at="1005.167" volume="0.22"></audio>
+  <audio src="assets/sfx/thump.mp3" at="1012.1" volume="0.4"></audio>
+  <audio src="assets/sfx/tick.mp3" at="1018.813" volume="0.22"></audio>
+  <audio src="assets/sfx/thump.mp3" at="1024.5" volume="0.4"></audio>
+  <audio src="assets/sfx/tick.mp3" at="1027.8" volume="0.22"></audio>
+  <audio src="assets/sfx/thump.mp3" at="1034.247" volume="0.4"></audio>
+</section>
+</body>
+</html>

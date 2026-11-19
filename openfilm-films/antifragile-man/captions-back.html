@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=1920, height=1080">
+<title>Captions</title>
+<style>
+  /* the Rise Above captions: quiet lowercase EB Garamond in the middle of the frame, a Pinyon Script accent word,
+     red emphasis words in huge Instrument Serif capitals narrowed to 62% */
+  @font-face { font-family: "EBG"; src: url("fonts/EBGaramond.ttf"); font-weight: 400 800; }
+  @font-face { font-family: "Pinyon"; src: url("fonts/PinyonScript.ttf"); }
+  @font-face { font-family: "IS"; src: url("fonts/InstrumentSerif.ttf"); }
+  @font-face { font-family: "BM"; src: url("fonts/BodoniModa.ttf"); }
+  html, body { margin: 0; width: 1920px; height: 1080px; overflow: hidden; background: transparent; }
+  .q { position: absolute; left: 0; right: 0; top: 50%; transform: translateY(-50%); text-align: center; display: none; white-space: nowrap;
+       font-family: "EBG", serif; font-weight: 500; color: #fff; text-shadow: 0 1px 2px rgba(0,0,0,.6), 0 2px 18px rgba(0,0,0,.65); }
+  .q .w { visibility: hidden; font-size: 54px; letter-spacing: .005em; margin-right: .24em; }
+  .q.acc { line-height: .9; }
+  .q.acc .w.scr { display: block; font-family: "Pinyon", cursive; font-weight: 400; font-size: 190px; margin: 0; }
+  .q.acc .rest .w { font-size: 46px; }
+  .e { position: absolute; left: 0; right: 0; top: 50%; transform: translateY(-50%); display: none; text-align: center; white-space: nowrap;
+       font-family: "IS", serif; color: #e3141a; text-transform: uppercase; }
+  .e .row { display: flex; justify-content: center; }
+  .e .ln { display: inline-block; flex: none; line-height: .8; transform-origin: 50% 0; }
+  .e .w { visibility: hidden; margin: 0 .09em; }
+  .chap { position: absolute; inset: 0; background: #000; display: none; }
+  .chap .n { position: absolute; left: 0; right: 0; top: 410px; text-align: center; font-family: "BM"; font-size: 120px; color: #e9dcc0; }
+  .chap .t { position: absolute; left: 0; right: 0; top: 590px; text-align: center; font-family: "BM"; font-size: 30px; letter-spacing: .42em;
+             color: #b9ad97; text-transform: uppercase; }
+  .endc { position: absolute; inset: 0; background: #000; display: none; }
+  .endc div { position: absolute; left: 0; right: 0; top: 515px; text-align: center; font-family: "BM"; font-size: 40px; letter-spacing: .14em; color: #e9dcc0; }
+</style>
+</head>
+<body>
+<script>
+const D = {"caps":[{"kind":"emph","at":2.133,"end":3.32,"lines":[[{"x":"NEVER","t":2.133}]]},{"kind":"emph","at":27.22,"end":28.667,"lines":[[{"x":"SCARED","t":26.933}]]},{"kind":"emph","at":78.933,"end":80.62,"lines":[[{"x":"CASTRATION","t":78.933}]]},{"kind":"emph","at":118.873,"end":119.853,"lines":[[{"x":"BOND-LIKE","t":118.4}]]},{"kind":"emph","at":174.333,"end":176.127,"lines":[[{"x":"NPC","t":174.333}]]},{"kind":"emph","at":209.207,"end":210.547,"lines":[[{"x":"NPC","t":208.833}]]},{"kind":"emph","at":229.333,"end":230.607,"lines":[[{"x":"NO","t":229.333}]]},{"kind":"emph","at":279.787,"end":280.84,"lines":[[{"x":"REAL","t":279.533}]]},{"kind":"emph","at":308.42,"end":309.667,"lines":[[{"x":"FEAR","t":308.3}]]},{"kind":"emph","at":332.407,"end":333.247,"lines":[[{"x":"YES","t":331.767}]]},{"kind":"emph","at":343.987,"end":345.267,"lines":[[{"x":"YES","t":343.8}]]},{"kind":"emph","at":416.267,"end":417.6,"lines":[[{"x":"GOD","t":416.267}]]},{"kind":"emph","at":438.54,"end":439.267,"lines":[[{"x":"BALL","t":438.033}]]},{"kind":"emph","at":515.487,"end":517.467,"lines":[[{"x":"TRAMPOLINE","t":515.467}]]},{"kind":"emph","at":533.367,"end":534.72,"lines":[[{"x":"SCARED","t":533.367}]]},{"kind":"emph","at":555.587,"end":556.613,"lines":[[{"x":"WEAK","t":555.3}]]},{"kind":"emph","at":601.607,"end":602.533,"lines":[[{"x":"LIFE","t":601.233}]]},{"kind":"emph","at":633.667,"end":635.053,"lines":[[{"x":"BORING","t":633.667}]]},{"kind":"emph","at":650.94,"end":651.487,"lines":[[{"x":"DIVE","t":650.2}]]},{"kind":"emph","at":677.22,"end":678.547,"lines":[[{"x":"COULOIR","t":676.9}]]},{"kind":"emph","at":752.32,"end":753.467,"lines":[[{"x":"DARK","t":751.933}]]},{"kind":"emph","at":867.633,"end":869.467,"lines":[[{"x":"FRAMING","t":867.633}]]},{"kind":"emph","at":990.1,"end":991.7,"lines":[[{"x":"THINKING","t":990.1}]]},{"kind":"emph","at":1012.12,"end":1013.573,"lines":[[{"x":"ANTIFRAGILE","t":1011.767}]]}],"chaps":[],"ends":[]};
+const els = [];
+const span = (o, parent, w) => { const x = document.createElement("span"); x.className = "w"; x.textContent = w.x; parent.append(x); o.words.push([x, w.t]); return x; };
+for (const b of D.caps) {
+  const o = { b, words: [] }; const e = document.createElement("div"); o.el = e;
+  if (b.kind === "quiet") {
+    e.className = "q" + (b.acc ? " acc" : "");
+    if (b.acc) {
+      span(o, e, b.words[0]).classList.add("scr");
+      const r = document.createElement("div"); r.className = "rest"; e.append(r); b.words.slice(1).forEach((w) => span(o, r, w));
+    } else b.words.forEach((w) => span(o, e, w));
+  } else {
+    e.className = "e";
+    for (const ln of b.lines) {
+      const row = document.createElement("div"); row.className = "row"; const l = document.createElement("span"); l.className = "ln";
+      ln.forEach((w) => span(o, l, w)); row.append(l); e.append(row);
+    }
+  }
+  document.body.append(e); els.push(o);
+}
+for (const c of D.chaps) {
+  const e = document.createElement("div"); e.className = "chap"; e.innerHTML = `<div class="n">${c.num}</div><div class="t">${c.title}</div>`;
+  document.body.append(e); els.push({ b: c, el: e, chap: true });
+}
+for (const c of D.ends || []) { const e = document.createElement("div"); e.className = "endc"; e.innerHTML = `<div>${c.text}</div>`; document.body.append(e); els.push({ b: c, el: e, chap: true }); }
+// emphasis: sized so that, narrowed to 62%, it spans the frame (at most 680 px tall)
+function layoutEmph(o) {
+  o.el.style.display = "block";
+  for (const l of o.el.querySelectorAll(".ln")) {
+    l.style.fontSize = "100px"; l.style.transform = "none";
+    const w = l.getBoundingClientRect().width;
+    l.style.fontSize = Math.min(680, (100 * 1820) / (w * 0.62)) + "px";
+    l.style.transform = "scaleX(.62)";
+  }
+  o.el.style.display = "none";
+}
+window.film = {
+  ready: document.fonts.ready.then(() => els.filter((o) => !o.chap && o.b.kind === "emph").forEach(layoutEmph)),
+  frame(t) {
+    for (const o of els) {
+      const on = t >= o.b.at && t < o.b.end;
+      o.el.style.display = on ? "block" : "none";
+      if (!on) continue;
+      if (o.chap) { const k = Math.min(1, (t - o.b.at) / 0.6, (o.b.end - t) / 0.4); o.el.style.opacity = Math.max(0, k).toFixed(3); continue; }
+      for (const [s, wt] of o.words) s.style.visibility = t >= wt ? "visible" : "hidden";
+    }
+  },
+};
+</script>
+</body>
+</html>

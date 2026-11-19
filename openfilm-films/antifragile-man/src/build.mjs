@@ -55,7 +55,7 @@ for (const s of cfg.scenes) {
     for (let k = 1; k < ws.length; k++) { const x = wt(k); if (x > cuts[cuts.length - 1] + 2 && x < end - 2 && (!best || Math.abs(x - want) < Math.abs(best - want))) best = x; }
     if (best) cuts.push(best);
   }
-  LIM = s.red && s.big && s.big.length <= 4 ? 0.3 : 0.45;
+  LIM = s.red && s.big && s.big.length <= 5 ? 0.25 : 0.45;
   let redT = -1;
   if (s.red && s.big) { const bw = s.big.split(" ").map(norm); for (let k = 0; k + bw.length <= ws.length; k++) if (bw.every((w, j) => norm(ws[k + j].word) === w)) { redT = wt(k); break; } }
   const sh = cuts.map((a, i) => {
@@ -116,7 +116,7 @@ const MV = 0.42;
 const tracks = [["titan.mp3", 0, 0], ["coming-from-above.mp3", 0, 0], ["expanse.mp3", 0, 0], ["jade-scorpion.mp3", 0, 0]];
 let mt = 0; const music = [];
 for (const [f] of tracks) {
-  if (mt >= FILM) break;
+  if (FILM - mt < 15) break;
   const L = Math.min(dur("assets/music/" + f) - 1.5, FILM - mt + 0.1);
   music.push({ f, at: r3(mt), len: r3(L) }); mt = mt + L - 5;
 }
