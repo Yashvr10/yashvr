@@ -1,0 +1,82 @@
+[
+{
+"word": "And",
+"start": 0.0,
+"end": 0.12
+},
+{
+"word": "if",
+"start": 0.12,
+"end": 0.22
+},
+{
+"word": "you",
+"start": 0.22,
+"end": 0.34
+},
+{
+"word": "said",
+"start": 0.34,
+"end": 0.56
+},
+{
+"word": "yes,",
+"start": 0.56,
+"end": 0.88
+},
+{
+"word": "now",
+"start": 1.2,
+"end": 1.4
+},
+{
+"word": "you're",
+"start": 1.4,
+"end": 1.64
+},
+{
+"word": "moving.",
+"start": 1.64,
+"end": 1.94
+},
+{
+"word": "That's",
+"start": 2.38,
+"end": 2.58
+},
+{
+"word": "all",
+"start": 2.58,
+"end": 2.74
+},
+{
+"word": "you",
+"start": 2.74,
+"end": 2.92
+},
+{
+"word": "need.",
+"start": 2.92,
+"end": 3.26
+},
+{
+"word": "The",
+"start": 3.66,
+"end": 3.78
+},
+{
+"word": "first",
+"start": 3.78,
+"end": 4.12
+},
+{
+"word": "initial",
+"start": 4.12,
+"end": 4.6
+},
+{
+"word": "spark.",
+"start": 4.6,
+"end": 4.96
+}
+]

@@ -1,0 +1,62 @@
+[
+{
+"word": "Around",
+"start": 0.0,
+"end": 0.28
+},
+{
+"word": "halfway",
+"start": 0.28,
+"end": 0.68
+},
+{
+"word": "up,",
+"start": 0.68,
+"end": 1.02
+},
+{
+"word": "there",
+"start": 1.38,
+"end": 1.48
+},
+{
+"word": "was",
+"start": 1.48,
+"end": 1.6
+},
+{
+"word": "more",
+"start": 1.6,
+"end": 1.96
+},
+{
+"word": "and",
+"start": 1.96,
+"end": 2.24
+},
+{
+"word": "more",
+"start": 2.24,
+"end": 2.44
+},
+{
+"word": "snow",
+"start": 2.44,
+"end": 2.82
+},
+{
+"word": "on",
+"start": 2.82,
+"end": 3.1
+},
+{
+"word": "the",
+"start": 3.1,
+"end": 3.24
+},
+{
+"word": "rocks.",
+"start": 3.24,
+"end": 3.48
+}
+]

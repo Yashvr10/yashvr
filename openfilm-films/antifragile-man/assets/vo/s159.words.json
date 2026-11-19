@@ -1,0 +1,42 @@
+[
+{
+"word": "Stop",
+"start": 0.0,
+"end": 0.32
+},
+{
+"word": "planning",
+"start": 0.32,
+"end": 0.74
+},
+{
+"word": "everything.",
+"start": 0.74,
+"end": 1.32
+},
+{
+"word": "Just",
+"start": 1.8,
+"end": 1.96
+},
+{
+"word": "take",
+"start": 1.96,
+"end": 2.22
+},
+{
+"word": "the",
+"start": 2.22,
+"end": 2.48
+},
+{
+"word": "first",
+"start": 2.48,
+"end": 2.72
+},
+{
+"word": "step.",
+"start": 2.72,
+"end": 3.12
+}
+]

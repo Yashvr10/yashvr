@@ -1,0 +1,82 @@
+[
+{
+"word": "He",
+"start": 0.0,
+"end": 0.14
+},
+{
+"word": "does",
+"start": 0.14,
+"end": 0.28
+},
+{
+"word": "not",
+"start": 0.28,
+"end": 0.52
+},
+{
+"word": "fear",
+"start": 0.52,
+"end": 0.86
+},
+{
+"word": "losing,",
+"start": 0.86,
+"end": 1.38
+},
+{
+"word": "for",
+"start": 1.78,
+"end": 1.96
+},
+{
+"word": "a",
+"start": 1.96,
+"end": 2.08
+},
+{
+"word": "winner",
+"start": 2.08,
+"end": 2.24
+},
+{
+"word": "is",
+"start": 2.24,
+"end": 2.58
+},
+{
+"word": "just",
+"start": 2.58,
+"end": 2.82
+},
+{
+"word": "a",
+"start": 2.82,
+"end": 3.02
+},
+{
+"word": "loser",
+"start": 3.02,
+"end": 3.32
+},
+{
+"word": "who",
+"start": 3.32,
+"end": 3.7
+},
+{
+"word": "tried",
+"start": 3.7,
+"end": 3.96
+},
+{
+"word": "enough",
+"start": 3.96,
+"end": 4.22
+},
+{
+"word": "times.",
+"start": 4.22,
+"end": 4.68
+}
+]

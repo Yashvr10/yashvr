@@ -1,0 +1,62 @@
+[
+{
+"word": "I",
+"start": 0.0,
+"end": 0.12
+},
+{
+"word": "was",
+"start": 0.12,
+"end": 0.28
+},
+{
+"word": "living",
+"start": 0.28,
+"end": 0.54
+},
+{
+"word": "in",
+"start": 0.54,
+"end": 0.78
+},
+{
+"word": "my",
+"start": 0.78,
+"end": 1.0
+},
+{
+"word": "head,",
+"start": 1.0,
+"end": 1.38
+},
+{
+"word": "worrying",
+"start": 1.74,
+"end": 2.02
+},
+{
+"word": "about",
+"start": 2.02,
+"end": 2.4
+},
+{
+"word": "shit",
+"start": 2.4,
+"end": 2.76
+},
+{
+"word": "that",
+"start": 2.76,
+"end": 3.16
+},
+{
+"word": "never",
+"start": 3.16,
+"end": 3.44
+},
+{
+"word": "happened.",
+"start": 3.44,
+"end": 3.82
+}
+]

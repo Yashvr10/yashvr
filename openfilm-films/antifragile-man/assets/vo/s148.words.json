@@ -1,0 +1,42 @@
+[
+{
+"word": "A",
+"start": 0.0,
+"end": 0.16
+},
+{
+"word": "plan",
+"start": 0.16,
+"end": 0.44
+},
+{
+"word": "not",
+"start": 0.44,
+"end": 0.7
+},
+{
+"word": "working",
+"start": 0.7,
+"end": 1.04
+},
+{
+"word": "out",
+"start": 1.04,
+"end": 1.42
+},
+{
+"word": "is",
+"start": 1.42,
+"end": 1.78
+},
+{
+"word": "a",
+"start": 1.78,
+"end": 1.96
+},
+{
+"word": "sidequest.",
+"start": 1.96,
+"end": 2.5
+}
+]

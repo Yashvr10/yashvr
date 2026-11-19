@@ -1,0 +1,57 @@
+[
+{
+"word": "You",
+"start": 0.0,
+"end": 0.14
+},
+{
+"word": "miss",
+"start": 0.14,
+"end": 0.3
+},
+{
+"word": "out",
+"start": 0.3,
+"end": 0.6
+},
+{
+"word": "on",
+"start": 0.6,
+"end": 0.84
+},
+{
+"word": "experiences",
+"start": 0.84,
+"end": 1.58
+},
+{
+"word": "that",
+"start": 1.58,
+"end": 2.3
+},
+{
+"word": "could've",
+"start": 2.3,
+"end": 2.54
+},
+{
+"word": "changed",
+"start": 2.54,
+"end": 2.94
+},
+{
+"word": "your",
+"start": 2.94,
+"end": 3.2
+},
+{
+"word": "life",
+"start": 3.2,
+"end": 3.58
+},
+{
+"word": "completely.",
+"start": 3.58,
+"end": 4.16
+}
+]

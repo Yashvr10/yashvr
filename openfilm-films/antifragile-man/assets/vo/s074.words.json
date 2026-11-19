@@ -1,0 +1,67 @@
+[
+{
+"word": "You",
+"start": 0.0,
+"end": 0.14
+},
+{
+"word": "can't",
+"start": 0.14,
+"end": 0.46
+},
+{
+"word": "destroy",
+"start": 0.46,
+"end": 0.84
+},
+{
+"word": "a",
+"start": 0.84,
+"end": 1.06
+},
+{
+"word": "man",
+"start": 1.06,
+"end": 1.34
+},
+{
+"word": "who",
+"start": 1.34,
+"end": 1.82
+},
+{
+"word": "has",
+"start": 1.82,
+"end": 1.96
+},
+{
+"word": "that",
+"start": 1.96,
+"end": 2.18
+},
+{
+"word": "sentence",
+"start": 2.18,
+"end": 2.76
+},
+{
+"word": "deeply",
+"start": 2.76,
+"end": 3.46
+},
+{
+"word": "ingrained",
+"start": 3.46,
+"end": 3.94
+},
+{
+"word": "into",
+"start": 3.94,
+"end": 4.34
+},
+{
+"word": "him.",
+"start": 4.34,
+"end": 4.6
+}
+]

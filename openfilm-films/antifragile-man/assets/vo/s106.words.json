@@ -1,0 +1,52 @@
+[
+{
+"word": "I",
+"start": 0.0,
+"end": 0.14
+},
+{
+"word": "went",
+"start": 0.14,
+"end": 0.32
+},
+{
+"word": "on",
+"start": 0.32,
+"end": 0.5
+},
+{
+"word": "a",
+"start": 0.5,
+"end": 0.64
+},
+{
+"word": "hike",
+"start": 0.64,
+"end": 0.9
+},
+{
+"word": "with",
+"start": 0.9,
+"end": 1.28
+},
+{
+"word": "a",
+"start": 1.28,
+"end": 1.44
+},
+{
+"word": "friend",
+"start": 1.44,
+"end": 1.7
+},
+{
+"word": "this",
+"start": 1.7,
+"end": 2.14
+},
+{
+"word": "weekend.",
+"start": 2.14,
+"end": 2.64
+}
+]

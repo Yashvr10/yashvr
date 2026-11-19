@@ -1,0 +1,77 @@
+[
+{
+"word": "Fear",
+"start": 0.0,
+"end": 0.24
+},
+{
+"word": "is",
+"start": 0.24,
+"end": 0.6
+},
+{
+"word": "the",
+"start": 0.6,
+"end": 0.78
+},
+{
+"word": "number",
+"start": 0.78,
+"end": 0.96
+},
+{
+"word": "one",
+"start": 0.96,
+"end": 1.3
+},
+{
+"word": "thing",
+"start": 1.3,
+"end": 1.56
+},
+{
+"word": "they",
+"start": 1.56,
+"end": 1.86
+},
+{
+"word": "can",
+"start": 1.86,
+"end": 2.06
+},
+{
+"word": "control",
+"start": 2.06,
+"end": 2.52
+},
+{
+"word": "you",
+"start": 2.52,
+"end": 2.76
+},
+{
+"word": "with.",
+"start": 2.76,
+"end": 3.1
+},
+{
+"word": "It's",
+"start": 3.5,
+"end": 3.66
+},
+{
+"word": "all",
+"start": 3.66,
+"end": 3.84
+},
+{
+"word": "about",
+"start": 3.84,
+"end": 4.16
+},
+{
+"word": "fear.",
+"start": 4.16,
+"end": 4.5
+}
+]

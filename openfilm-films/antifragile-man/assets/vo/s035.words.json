@@ -1,0 +1,72 @@
+[
+{
+"word": "I",
+"start": 0.0,
+"end": 0.12
+},
+{
+"word": "always",
+"start": 0.12,
+"end": 0.44
+},
+{
+"word": "said",
+"start": 0.44,
+"end": 0.76
+},
+{
+"word": "no",
+"start": 0.76,
+"end": 1.04
+},
+{
+"word": "to",
+"start": 1.04,
+"end": 1.22
+},
+{
+"word": "people.",
+"start": 1.22,
+"end": 1.54
+},
+{
+"word": "I",
+"start": 2.04,
+"end": 2.06
+},
+{
+"word": "said",
+"start": 2.06,
+"end": 2.3
+},
+{
+"word": "no",
+"start": 2.3,
+"end": 2.54
+},
+{
+"word": "to",
+"start": 2.54,
+"end": 2.74
+},
+{
+"word": "opportunities.",
+"start": 2.74,
+"end": 3.38
+},
+{
+"word": "No",
+"start": 4.16,
+"end": 4.28
+},
+{
+"word": "to",
+"start": 4.28,
+"end": 4.52
+},
+{
+"word": "adventures.",
+"start": 4.52,
+"end": 4.88
+}
+]

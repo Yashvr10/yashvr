@@ -1,0 +1,67 @@
+[
+{
+"word": "First",
+"start": 0.0,
+"end": 0.28
+},
+{
+"word": "your",
+"start": 0.28,
+"end": 0.5
+},
+{
+"word": "parents,",
+"start": 0.5,
+"end": 0.98
+},
+{
+"word": "then",
+"start": 1.38,
+"end": 1.54
+},
+{
+"word": "your",
+"start": 1.54,
+"end": 1.76
+},
+{
+"word": "teachers,",
+"start": 1.76,
+"end": 2.18
+},
+{
+"word": "and",
+"start": 2.66,
+"end": 2.84
+},
+{
+"word": "then",
+"start": 2.84,
+"end": 3.02
+},
+{
+"word": "perhaps",
+"start": 3.02,
+"end": 3.32
+},
+{
+"word": "your",
+"start": 3.32,
+"end": 3.66
+},
+{
+"word": "coworkers",
+"start": 3.66,
+"end": 4.2
+},
+{
+"word": "or",
+"start": 4.2,
+"end": 4.58
+},
+{
+"word": "boss.",
+"start": 4.58,
+"end": 4.84
+}
+]

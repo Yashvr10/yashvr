@@ -1,0 +1,82 @@
+[
+{
+"word": "Don't",
+"start": 0.0,
+"end": 0.2
+},
+{
+"word": "you",
+"start": 0.2,
+"end": 0.32
+},
+{
+"word": "trust",
+"start": 0.32,
+"end": 0.54
+},
+{
+"word": "your",
+"start": 0.54,
+"end": 0.78
+},
+{
+"word": "skill",
+"start": 0.78,
+"end": 1.14
+},
+{
+"word": "to",
+"start": 1.14,
+"end": 1.38
+},
+{
+"word": "not",
+"start": 1.38,
+"end": 1.56
+},
+{
+"word": "crash?",
+"start": 1.56,
+"end": 2.0
+},
+{
+"word": "You're",
+"start": 2.5,
+"end": 2.68
+},
+{
+"word": "too",
+"start": 2.68,
+"end": 2.84
+},
+{
+"word": "scared",
+"start": 2.84,
+"end": 3.28
+},
+{
+"word": "to",
+"start": 3.28,
+"end": 3.48
+},
+{
+"word": "enjoy",
+"start": 3.48,
+"end": 3.88
+},
+{
+"word": "a",
+"start": 3.88,
+"end": 4.1
+},
+{
+"word": "little",
+"start": 4.1,
+"end": 4.24
+},
+{
+"word": "risk.",
+"start": 4.24,
+"end": 4.6
+}
+]

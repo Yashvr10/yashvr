@@ -1,0 +1,52 @@
+[
+{
+"word": "You",
+"start": 0.0,
+"end": 0.14
+},
+{
+"word": "will",
+"start": 0.14,
+"end": 0.26
+},
+{
+"word": "not",
+"start": 0.26,
+"end": 0.42
+},
+{
+"word": "think",
+"start": 0.42,
+"end": 0.68
+},
+{
+"word": "of",
+"start": 0.68,
+"end": 0.86
+},
+{
+"word": "bad",
+"start": 0.86,
+"end": 1.16
+},
+{
+"word": "things",
+"start": 1.16,
+"end": 1.66
+},
+{
+"word": "as",
+"start": 1.66,
+"end": 2.1
+},
+{
+"word": "bad",
+"start": 2.1,
+"end": 2.5
+},
+{
+"word": "anymore.",
+"start": 2.5,
+"end": 2.94
+}
+]

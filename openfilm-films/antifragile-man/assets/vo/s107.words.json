@@ -1,0 +1,122 @@
+[
+{
+"word": "We",
+"start": 0.0,
+"end": 0.1
+},
+{
+"word": "were",
+"start": 0.1,
+"end": 0.24
+},
+{
+"word": "in",
+"start": 0.24,
+"end": 0.38
+},
+{
+"word": "the",
+"start": 0.38,
+"end": 0.5
+},
+{
+"word": "Swiss",
+"start": 0.5,
+"end": 0.78
+},
+{
+"word": "Alps,",
+"start": 0.78,
+"end": 1.22
+},
+{
+"word": "with",
+"start": 1.22,
+"end": 1.82
+},
+{
+"word": "the",
+"start": 1.82,
+"end": 1.96
+},
+{
+"word": "goal",
+"start": 1.96,
+"end": 2.12
+},
+{
+"word": "to",
+"start": 2.12,
+"end": 2.34
+},
+{
+"word": "sleep",
+"start": 2.34,
+"end": 2.66
+},
+{
+"word": "in",
+"start": 2.66,
+"end": 3.04
+},
+{
+"word": "a",
+"start": 3.04,
+"end": 3.18
+},
+{
+"word": "tiny",
+"start": 3.18,
+"end": 3.44
+},
+{
+"word": "little",
+"start": 3.44,
+"end": 3.76
+},
+{
+"word": "cabin",
+"start": 3.76,
+"end": 4.18
+},
+{
+"word": "at",
+"start": 4.18,
+"end": 4.76
+},
+{
+"word": "two",
+"start": 4.76,
+"end": 5.068
+},
+{
+"word": "thousand",
+"start": 5.068,
+"end": 5.376
+},
+{
+"word": "four",
+"start": 5.376,
+"end": 5.684
+},
+{
+"word": "hundred",
+"start": 5.684,
+"end": 5.992
+},
+{
+"word": "meters",
+"start": 5.992,
+"end": 6.3
+},
+{
+"word": "of",
+"start": 6.3,
+"end": 6.86
+},
+{
+"word": "elevation.",
+"start": 6.86,
+"end": 7.26
+}
+]

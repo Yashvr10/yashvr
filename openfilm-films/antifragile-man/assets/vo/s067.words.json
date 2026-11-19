@@ -1,0 +1,62 @@
+[
+{
+"word": "There",
+"start": 0.0,
+"end": 0.16
+},
+{
+"word": "is",
+"start": 0.16,
+"end": 0.32
+},
+{
+"word": "nothing",
+"start": 0.32,
+"end": 0.66
+},
+{
+"word": "that's",
+"start": 0.66,
+"end": 1.14
+},
+{
+"word": "too",
+"start": 1.14,
+"end": 1.32
+},
+{
+"word": "far",
+"start": 1.32,
+"end": 1.62
+},
+{
+"word": "away",
+"start": 1.62,
+"end": 1.9
+},
+{
+"word": "for",
+"start": 1.9,
+"end": 2.14
+},
+{
+"word": "you",
+"start": 2.14,
+"end": 2.26
+},
+{
+"word": "to",
+"start": 2.26,
+"end": 2.42
+},
+{
+"word": "reach.",
+"start": 2.42,
+"end": 2.74
+},
+{
+"word": "Nothing.",
+"start": 3.3,
+"end": 3.6
+}
+]

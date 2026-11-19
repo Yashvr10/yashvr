@@ -1,0 +1,62 @@
+[
+{
+"word": "One",
+"start": 0.0,
+"end": 0.16
+},
+{
+"word": "of",
+"start": 0.16,
+"end": 0.24
+},
+{
+"word": "my",
+"start": 0.24,
+"end": 0.4
+},
+{
+"word": "favorite",
+"start": 0.4,
+"end": 0.76
+},
+{
+"word": "things",
+"start": 0.76,
+"end": 1.16
+},
+{
+"word": "to",
+"start": 1.16,
+"end": 1.4
+},
+{
+"word": "say",
+"start": 1.4,
+"end": 1.7
+},
+{
+"word": "was,",
+"start": 1.7,
+"end": 2.12
+},
+{
+"word": "I",
+"start": 2.44,
+"end": 2.66
+},
+{
+"word": "don't",
+"start": 2.66,
+"end": 2.9
+},
+{
+"word": "have",
+"start": 2.9,
+"end": 3.06
+},
+{
+"word": "time.",
+"start": 3.06,
+"end": 3.46
+}
+]

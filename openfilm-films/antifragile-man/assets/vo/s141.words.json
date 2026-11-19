@@ -1,0 +1,167 @@
+[
+{
+"word": "If",
+"start": 0.0,
+"end": 0.12
+},
+{
+"word": "you",
+"start": 0.12,
+"end": 0.24
+},
+{
+"word": "have",
+"start": 0.24,
+"end": 0.36
+},
+{
+"word": "watched",
+"start": 0.36,
+"end": 0.64
+},
+{
+"word": "this",
+"start": 0.64,
+"end": 0.94
+},
+{
+"word": "carefully,",
+"start": 0.94,
+"end": 1.42
+},
+{
+"word": "and",
+"start": 1.42,
+"end": 2.08
+},
+{
+"word": "really",
+"start": 2.08,
+"end": 2.36
+},
+{
+"word": "felt",
+"start": 2.36,
+"end": 2.66
+},
+{
+"word": "what",
+"start": 2.66,
+"end": 2.88
+},
+{
+"word": "I",
+"start": 2.88,
+"end": 3.02
+},
+{
+"word": "said,",
+"start": 3.02,
+"end": 3.4
+},
+{
+"word": "because",
+"start": 3.78,
+"end": 4.04
+},
+{
+"word": "that's",
+"start": 4.04,
+"end": 4.4
+},
+{
+"word": "important,",
+"start": 4.4,
+"end": 4.9
+},
+{
+"word": "to",
+"start": 4.9,
+"end": 5.46
+},
+{
+"word": "feel",
+"start": 5.46,
+"end": 5.68
+},
+{
+"word": "the",
+"start": 5.68,
+"end": 5.88
+},
+{
+"word": "spirit",
+"start": 5.88,
+"end": 6.18
+},
+{
+"word": "of",
+"start": 6.18,
+"end": 6.4
+},
+{
+"word": "this,",
+"start": 6.4,
+"end": 6.64
+},
+{
+"word": "you",
+"start": 7.16,
+"end": 7.24
+},
+{
+"word": "now",
+"start": 7.24,
+"end": 7.48
+},
+{
+"word": "understand",
+"start": 7.48,
+"end": 8.08
+},
+{
+"word": "what",
+"start": 8.08,
+"end": 8.4
+},
+{
+"word": "it",
+"start": 8.4,
+"end": 8.54
+},
+{
+"word": "means",
+"start": 8.54,
+"end": 8.78
+},
+{
+"word": "to",
+"start": 8.78,
+"end": 9.02
+},
+{
+"word": "be",
+"start": 9.02,
+"end": 9.18
+},
+{
+"word": "an",
+"start": 9.18,
+"end": 9.32
+},
+{
+"word": "antifragile,",
+"start": 9.32,
+"end": 10.64
+},
+{
+"word": "optimistic",
+"start": 10.64,
+"end": 11.18
+},
+{
+"word": "chad.",
+"start": 11.18,
+"end": 11.66
+}
+]

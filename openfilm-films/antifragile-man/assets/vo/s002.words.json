@@ -1,0 +1,77 @@
+[
+{
+"word": "I",
+"start": 0.0,
+"end": 0.12
+},
+{
+"word": "was",
+"start": 0.12,
+"end": 0.28
+},
+{
+"word": "this",
+"start": 0.28,
+"end": 0.5
+},
+{
+"word": "kind",
+"start": 0.5,
+"end": 0.68
+},
+{
+"word": "of",
+"start": 0.68,
+"end": 0.82
+},
+{
+"word": "man",
+"start": 0.82,
+"end": 1.06
+},
+{
+"word": "two",
+"start": 1.06,
+"end": 1.34
+},
+{
+"word": "years",
+"start": 1.34,
+"end": 1.66
+},
+{
+"word": "ago.",
+"start": 1.66,
+"end": 2.04
+},
+{
+"word": "Chances",
+"start": 2.58,
+"end": 2.88
+},
+{
+"word": "are,",
+"start": 2.88,
+"end": 3.36
+},
+{
+"word": "you're",
+"start": 3.36,
+"end": 3.84
+},
+{
+"word": "the",
+"start": 3.84,
+"end": 3.96
+},
+{
+"word": "same",
+"start": 3.96,
+"end": 4.22
+},
+{
+"word": "kind.",
+"start": 4.22,
+"end": 4.6
+}
+]

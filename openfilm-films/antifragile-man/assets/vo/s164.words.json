@@ -1,0 +1,72 @@
+[
+{
+"word": "A",
+"start": 0.0,
+"end": 0.14
+},
+{
+"word": "life",
+"start": 0.14,
+"end": 0.34
+},
+{
+"word": "of",
+"start": 0.34,
+"end": 0.56
+},
+{
+"word": "certainty",
+"start": 0.56,
+"end": 1.0
+},
+{
+"word": "is",
+"start": 1.0,
+"end": 1.6
+},
+{
+"word": "a",
+"start": 1.6,
+"end": 1.76
+},
+{
+"word": "life",
+"start": 1.76,
+"end": 2.02
+},
+{
+"word": "of",
+"start": 2.02,
+"end": 2.24
+},
+{
+"word": "boredom.",
+"start": 2.24,
+"end": 2.64
+},
+{
+"word": "Pursue",
+"start": 3.14,
+"end": 3.44
+},
+{
+"word": "mystery",
+"start": 3.44,
+"end": 3.8
+},
+{
+"word": "for",
+"start": 3.8,
+"end": 4.08
+},
+{
+"word": "a",
+"start": 4.08,
+"end": 4.2
+},
+{
+"word": "bit.",
+"start": 4.2,
+"end": 4.4
+}
+]

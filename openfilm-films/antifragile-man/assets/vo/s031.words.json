@@ -1,0 +1,167 @@
+[
+{
+"word": "I",
+"start": 0.0,
+"end": 0.12
+},
+{
+"word": "was",
+"start": 0.12,
+"end": 0.24
+},
+{
+"word": "trying",
+"start": 0.24,
+"end": 0.46
+},
+{
+"word": "to",
+"start": 0.46,
+"end": 0.66
+},
+{
+"word": "escape",
+"start": 0.66,
+"end": 1.02
+},
+{
+"word": "the",
+"start": 1.02,
+"end": 1.24
+},
+{
+"word": "matrix,",
+"start": 1.24,
+"end": 1.7
+},
+{
+"word": "thinking",
+"start": 2.28,
+"end": 2.5
+},
+{
+"word": "about",
+"start": 2.5,
+"end": 2.82
+},
+{
+"word": "not",
+"start": 2.82,
+"end": 3.02
+},
+{
+"word": "being",
+"start": 3.02,
+"end": 3.26
+},
+{
+"word": "an",
+"start": 3.26,
+"end": 3.52
+},
+{
+"word": "NPC",
+"start": 3.52,
+"end": 4.2
+},
+{
+"word": "like",
+"start": 4.2,
+"end": 4.92
+},
+{
+"word": "all",
+"start": 4.92,
+"end": 5.22
+},
+{
+"word": "the",
+"start": 5.22,
+"end": 5.4
+},
+{
+"word": "others",
+"start": 5.4,
+"end": 5.72
+},
+{
+"word": "who",
+"start": 5.72,
+"end": 6.18
+},
+{
+"word": "weren't",
+"start": 6.18,
+"end": 6.38
+},
+{
+"word": "on",
+"start": 6.38,
+"end": 6.54
+},
+{
+"word": "self",
+"start": 6.54,
+"end": 6.86
+},
+{
+"word": "improvement,",
+"start": 6.86,
+"end": 7.88
+},
+{
+"word": "while",
+"start": 8.02,
+"end": 8.22
+},
+{
+"word": "not",
+"start": 8.22,
+"end": 8.44
+},
+{
+"word": "realizing",
+"start": 8.44,
+"end": 9.06
+},
+{
+"word": "that",
+"start": 9.06,
+"end": 9.48
+},
+{
+"word": "all",
+"start": 9.48,
+"end": 9.72
+},
+{
+"word": "these",
+"start": 9.72,
+"end": 10.0
+},
+{
+"word": "others",
+"start": 10.0,
+"end": 10.3
+},
+{
+"word": "were",
+"start": 10.3,
+"end": 10.74
+},
+{
+"word": "freer",
+"start": 10.74,
+"end": 11.14
+},
+{
+"word": "than",
+"start": 11.14,
+"end": 11.28
+},
+{
+"word": "me.",
+"start": 11.28,
+"end": 11.54
+}
+]

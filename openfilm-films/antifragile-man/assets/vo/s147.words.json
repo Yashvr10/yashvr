@@ -1,0 +1,37 @@
+[
+{
+"word": "Failing",
+"start": 0.0,
+"end": 0.36
+},
+{
+"word": "at",
+"start": 0.36,
+"end": 0.6
+},
+{
+"word": "something",
+"start": 0.6,
+"end": 1.06
+},
+{
+"word": "is",
+"start": 1.06,
+"end": 1.62
+},
+{
+"word": "just",
+"start": 1.62,
+"end": 1.92
+},
+{
+"word": "a",
+"start": 1.92,
+"end": 2.12
+},
+{
+"word": "lesson.",
+"start": 2.12,
+"end": 2.4
+}
+]

@@ -1,0 +1,62 @@
+[
+{
+"word": "But",
+"start": 0.0,
+"end": 0.12
+},
+{
+"word": "living",
+"start": 0.12,
+"end": 0.4
+},
+{
+"word": "in",
+"start": 0.4,
+"end": 0.64
+},
+{
+"word": "my",
+"start": 0.64,
+"end": 0.84
+},
+{
+"word": "head",
+"start": 0.84,
+"end": 1.2
+},
+{
+"word": "kept",
+"start": 1.2,
+"end": 1.74
+},
+{
+"word": "me",
+"start": 1.74,
+"end": 1.94
+},
+{
+"word": "from",
+"start": 1.94,
+"end": 2.1
+},
+{
+"word": "living",
+"start": 2.1,
+"end": 2.36
+},
+{
+"word": "in",
+"start": 2.36,
+"end": 2.74
+},
+{
+"word": "real",
+"start": 2.74,
+"end": 3.04
+},
+{
+"word": "life.",
+"start": 3.04,
+"end": 3.48
+}
+]

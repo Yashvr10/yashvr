@@ -1,0 +1,117 @@
+[
+{
+"word": "My",
+"start": 0.0,
+"end": 0.18
+},
+{
+"word": "buddy",
+"start": 0.18,
+"end": 0.42
+},
+{
+"word": "tries",
+"start": 0.42,
+"end": 0.8
+},
+{
+"word": "one",
+"start": 0.8,
+"end": 1.08
+},
+{
+"word": "way,",
+"start": 1.08,
+"end": 1.42
+},
+{
+"word": "a",
+"start": 1.78,
+"end": 1.9
+},
+{
+"word": "really",
+"start": 1.9,
+"end": 2.2
+},
+{
+"word": "sketchy",
+"start": 2.2,
+"end": 2.8
+},
+{
+"word": "rock",
+"start": 2.8,
+"end": 3.02
+},
+{
+"word": "to",
+"start": 3.02,
+"end": 3.22
+},
+{
+"word": "climb.",
+"start": 3.22,
+"end": 3.58
+},
+{
+"word": "He",
+"start": 4.1,
+"end": 4.26
+},
+{
+"word": "needs",
+"start": 4.26,
+"end": 4.42
+},
+{
+"word": "to",
+"start": 4.42,
+"end": 4.62
+},
+{
+"word": "get",
+"start": 4.62,
+"end": 4.74
+},
+{
+"word": "off",
+"start": 4.74,
+"end": 4.88
+},
+{
+"word": "his",
+"start": 4.88,
+"end": 5.06
+},
+{
+"word": "backpack",
+"start": 5.06,
+"end": 5.5
+},
+{
+"word": "in",
+"start": 5.5,
+"end": 5.88
+},
+{
+"word": "order",
+"start": 5.88,
+"end": 6.06
+},
+{
+"word": "to",
+"start": 6.06,
+"end": 6.3
+},
+{
+"word": "get",
+"start": 6.3,
+"end": 6.44
+},
+{
+"word": "up.",
+"start": 6.44,
+"end": 6.7
+}
+]

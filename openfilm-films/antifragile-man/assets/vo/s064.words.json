@@ -1,0 +1,42 @@
+[
+{
+"word": "Say",
+"start": 0.0,
+"end": 0.24
+},
+{
+"word": "yes,",
+"start": 0.24,
+"end": 0.58
+},
+{
+"word": "and",
+"start": 0.58,
+"end": 1.02
+},
+{
+"word": "then",
+"start": 1.02,
+"end": 1.14
+},
+{
+"word": "improve",
+"start": 1.14,
+"end": 1.58
+},
+{
+"word": "on",
+"start": 1.58,
+"end": 1.86
+},
+{
+"word": "the",
+"start": 1.86,
+"end": 2.0
+},
+{
+"word": "way.",
+"start": 2.0,
+"end": 2.3
+}
+]

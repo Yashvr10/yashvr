@@ -1,0 +1,47 @@
+[
+{
+"word": "And",
+"start": 0.0,
+"end": 0.14
+},
+{
+"word": "the",
+"start": 0.14,
+"end": 0.24
+},
+{
+"word": "thing",
+"start": 0.24,
+"end": 0.4
+},
+{
+"word": "is,",
+"start": 0.4,
+"end": 0.8
+},
+{
+"word": "it's",
+"start": 1.12,
+"end": 1.36
+},
+{
+"word": "not",
+"start": 1.36,
+"end": 1.5
+},
+{
+"word": "even",
+"start": 1.5,
+"end": 1.8
+},
+{
+"word": "your",
+"start": 1.8,
+"end": 2.04
+},
+{
+"word": "fault.",
+"start": 2.04,
+"end": 2.38
+}
+]

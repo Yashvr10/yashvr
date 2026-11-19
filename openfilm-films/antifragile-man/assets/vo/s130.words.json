@@ -1,0 +1,87 @@
+[
+{
+"word": "Climbing",
+"start": 0.0,
+"end": 0.3
+},
+{
+"word": "on",
+"start": 0.3,
+"end": 0.62
+},
+{
+"word": "snowy",
+"start": 0.62,
+"end": 1.02
+},
+{
+"word": "rocks,",
+"start": 1.02,
+"end": 1.5
+},
+{
+"word": "in",
+"start": 1.5,
+"end": 1.94
+},
+{
+"word": "darkness,",
+"start": 1.94,
+"end": 2.42
+},
+{
+"word": "with",
+"start": 2.42,
+"end": 3.04
+},
+{
+"word": "no",
+"start": 3.04,
+"end": 3.3
+},
+{
+"word": "cell",
+"start": 3.3,
+"end": 3.54
+},
+{
+"word": "service",
+"start": 3.54,
+"end": 3.96
+},
+{
+"word": "to",
+"start": 3.96,
+"end": 4.2
+},
+{
+"word": "call",
+"start": 4.2,
+"end": 4.44
+},
+{
+"word": "for",
+"start": 4.44,
+"end": 4.62
+},
+{
+"word": "help",
+"start": 4.62,
+"end": 4.88
+},
+{
+"word": "if",
+"start": 4.88,
+"end": 5.3
+},
+{
+"word": "something",
+"start": 5.3,
+"end": 5.62
+},
+{
+"word": "happened.",
+"start": 5.62,
+"end": 6.02
+}
+]

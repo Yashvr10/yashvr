@@ -1,0 +1,82 @@
+[
+{
+"word": "Let",
+"start": 0.0,
+"end": 0.16
+},
+{
+"word": "these",
+"start": 0.16,
+"end": 0.46
+},
+{
+"word": "things",
+"start": 0.46,
+"end": 0.76
+},
+{
+"word": "serve",
+"start": 0.76,
+"end": 1.14
+},
+{
+"word": "you.",
+"start": 1.14,
+"end": 1.46
+},
+{
+"word": "Become",
+"start": 1.74,
+"end": 2.02
+},
+{
+"word": "better",
+"start": 2.02,
+"end": 2.34
+},
+{
+"word": "through",
+"start": 2.34,
+"end": 2.66
+},
+{
+"word": "them,",
+"start": 2.66,
+"end": 3.0
+},
+{
+"word": "like",
+"start": 3.36,
+"end": 3.44
+},
+{
+"word": "the",
+"start": 3.44,
+"end": 3.62
+},
+{
+"word": "antifragile",
+"start": 3.62,
+"end": 4.44
+},
+{
+"word": "man",
+"start": 4.44,
+"end": 4.74
+},
+{
+"word": "that",
+"start": 4.74,
+"end": 5.0
+},
+{
+"word": "you",
+"start": 5.0,
+"end": 5.24
+},
+{
+"word": "are.",
+"start": 5.24,
+"end": 5.56
+}
+]
