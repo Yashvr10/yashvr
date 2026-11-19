@@ -1,0 +1,32 @@
+01-alone|man sitting alone on bed in dark room staring
+02-boring|bored man staring out window rainy day
+03-routine|commuters crowd subway rush hour slow motion
+04-sword|knight with sword cinematic
+05-boys|young boy sitting in classroom
+06-sunrise|sunrise over swiss alps mountains hiker
+07-bond|man in tuxedo walking confidently cinematic
+08-npc|crowd of people walking city timelapse
+09-meditate|man meditating early morning
+10-journal|man writing in journal at desk
+11-phone|man scrolling phone at night in bed
+12-overthink|anxious man overthinking at night
+13-no|man declining invitation phone call alone at home
+14-friends|group of friends road trip laughing
+15-jump|man cliff jumping into lake
+16-bonfire|friends around campfire at night mountains
+17-pray|man praying silhouette
+18-storm|man walking in rain storm determined
+19-camp|tent camping in mountains map planning
+20-boxing|boxer training hard sweat
+21-fall|man falls and gets back up running
+22-helmet|cyclist with helmet riding city street
+23-couloir|climbing steep rocky couloir mountains
+24-rockfall|rockfall falling rocks mountain
+25-snow-rocks|climber on snowy rocks alpine
+26-headlamp|climber at night with headlamp mountain
+27-cable|via ferrata steel cable carabiner climbing
+28-ladder|climbing steel ladder mountain via ferrata
+29-hut|mountain hut bivouac at night
+30-stars|night sky stars over mountains timelapse
+31-ibex|ibex alpine mountain
+32-summit|man standing on summit at sunrise arms open

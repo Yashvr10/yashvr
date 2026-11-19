@@ -1,0 +1,2402 @@
+{
+ "01-alone": {
+  "q": "man sitting alone on bed in dark room staring",
+  "items": [
+   {
+    "id": "M61",
+    "cost": "0.5 credits",
+    "dur": 9.2,
+    "w": 3840,
+    "cap": "Man sitting alone in a dimly lit bedroom"
+   },
+   {
+    "id": "M62",
+    "cost": "0.5 credits",
+    "dur": 5.04,
+    "w": 3840,
+    "cap": "Lonely man sitting on a bed"
+   },
+   {
+    "id": "M63",
+    "cost": "0.5 credits",
+    "dur": 10.88,
+    "w": 3840,
+    "cap": "Man sitting alone in a dark room"
+   },
+   {
+    "id": "M64",
+    "cost": "0.5 credits",
+    "dur": 7.12,
+    "w": 3840,
+    "cap": "Man sitting alone in a dimly lit room"
+   },
+   {
+    "id": "M65",
+    "cost": "0.5 credits",
+    "dur": 10.5,
+    "w": 3840,
+    "cap": "Man sitting alone in a room"
+   },
+   {
+    "id": "M66",
+    "cost": "0.5 credits",
+    "dur": 15.516,
+    "w": 3840,
+    "cap": "Man sitting on a bed in a dimly lit room"
+   },
+   {
+    "id": "M67",
+    "cost": "0.5 credits",
+    "dur": 17.432,
+    "w": 3840,
+    "cap": "Man sitting on a bed in a dimly lit room"
+   },
+   {
+    "id": "M68",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 7.12,
+    "w": 1920,
+    "cap": "Man in a dimly lit room, sitting on a bed"
+   },
+   {
+    "id": "M69",
+    "cost": "0.5 credits",
+    "dur": 5.505,
+    "w": 1920,
+    "cap": "Man in a bedroom, looking thoughtful"
+   },
+   {
+    "id": "M70",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 17.64,
+    "w": 1920,
+    "cap": "Man sitting on a bed in a dimly lit room"
+   }
+  ]
+ },
+ "02-boring": {
+  "q": "bored man staring out window rainy day",
+  "items": [
+   {
+    "id": "M41",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 11.612,
+    "w": 1920,
+    "cap": "Man looking out of a window"
+   },
+   {
+    "id": "M42",
+    "cost": "0.5 credits",
+    "dur": 14.92,
+    "w": 3840,
+    "cap": "Man looking out of a window on a rainy day"
+   },
+   {
+    "id": "M43",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 7.975,
+    "w": 1920,
+    "cap": "Little boy looking out of the window"
+   },
+   {
+    "id": "M44",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 18.386,
+    "w": 1920,
+    "cap": "Man looking out of window"
+   },
+   {
+    "id": "M45",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 11.512,
+    "w": 1920,
+    "cap": "Lonely man looking out of a window"
+   },
+   {
+    "id": "M46",
+    "cost": "0.5 credits",
+    "dur": 24.52,
+    "w": 3840,
+    "cap": "Man looking out of a window on a rainy day"
+   },
+   {
+    "id": "M47",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 11.245,
+    "w": 1920,
+    "cap": "Man in a rain-soaked window"
+   },
+   {
+    "id": "M48",
+    "cost": "0.5 credits",
+    "dur": 12.413,
+    "w": 1280,
+    "cap": "Man looking out of a window"
+   },
+   {
+    "id": "M49",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 7.64,
+    "w": 3840,
+    "cap": "Man looking out of a window with raindrops on the glass"
+   },
+   {
+    "id": "M50",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 11.167,
+    "w": 3840,
+    "cap": "Man standing in front of a large window with a view of a cloudy sky"
+   }
+  ]
+ },
+ "03-routine": {
+  "q": "commuters crowd subway rush hour slow motion",
+  "items": [
+   {
+    "id": "M51",
+    "cost": "0.5 credits",
+    "dur": 6.207,
+    "w": 3840,
+    "cap": "People in a subway"
+   },
+   {
+    "id": "M52",
+    "cost": "0.5 credits",
+    "dur": 24.062,
+    "w": 3840,
+    "cap": "People standing in a crowded subway train"
+   },
+   {
+    "id": "M53",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 26.02,
+    "w": 1280,
+    "cap": "People walking in a subway station"
+   },
+   {
+    "id": "M54",
+    "cost": "0.5 credits",
+    "dur": 19.286,
+    "w": 1280,
+    "cap": "Inside subway train with passengers"
+   },
+   {
+    "id": "M55",
+    "cost": "0.5 credits",
+    "dur": 5.042,
+    "w": 3840,
+    "cap": "Commuters in a busy subway"
+   },
+   {
+    "id": "M56",
+    "cost": "0.5 credits",
+    "dur": 12.803,
+    "w": 1920,
+    "cap": "People walking in a subway station"
+   },
+   {
+    "id": "M57",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 7.76,
+    "w": 1920,
+    "cap": "Subway platform with blurred passengers"
+   },
+   {
+    "id": "M58",
+    "cost": "0.5 credits",
+    "dur": 14.2,
+    "w": 1280,
+    "cap": "People walking in a busy subway station"
+   },
+   {
+    "id": "M59",
+    "cost": "0.5 credits",
+    "dur": 10.01,
+    "w": 1920,
+    "cap": "Time Lapse of commuters in a subway station"
+   },
+   {
+    "id": "M60",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 15.85,
+    "w": 1920,
+    "cap": "People passing from a subway station"
+   }
+  ]
+ },
+ "04-sword": {
+  "q": "knight with sword cinematic",
+  "items": [
+   {
+    "id": "M71",
+    "cost": "0.5 credits",
+    "dur": 9.143,
+    "w": 3840,
+    "cap": "Medieval knight's armor in castle"
+   },
+   {
+    "id": "M72",
+    "cost": "0.5 credits",
+    "dur": 8.84,
+    "w": 3840,
+    "cap": "Knight on horseback in a battlefield"
+   },
+   {
+    "id": "M73",
+    "cost": "0.5 credits",
+    "dur": 6.44,
+    "w": 3840,
+    "cap": "Medieval knight with sword"
+   },
+   {
+    "id": "M74",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 8.92,
+    "w": 3840,
+    "cap": "Medieval Knight in Battle"
+   },
+   {
+    "id": "M75",
+    "cost": "0.5 credits",
+    "dur": 11.96,
+    "w": 3840,
+    "cap": "Knight Galloping Horse Battle"
+   },
+   {
+    "id": "M76",
+    "cost": "0.5 credits",
+    "dur": 8.84,
+    "w": 3840,
+    "cap": "Knight on horseback charging into battle"
+   },
+   {
+    "id": "M77",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 7.12,
+    "w": 3840,
+    "cap": "Medieval Knight Wearing Armour ..."
+   },
+   {
+    "id": "M78",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 13.64,
+    "w": 3840,
+    "cap": "Man in medieval armor stands in a forest"
+   },
+   {
+    "id": "M79",
+    "cost": "0.5 credits",
+    "dur": 14.482,
+    "w": 3840,
+    "cap": "Medieval knight in the dungeon"
+   },
+   {
+    "id": "M80",
+    "cost": "0.5 credits",
+    "dur": 9.56,
+    "w": 3840,
+    "cap": "Knight Battle Horses Galloping"
+   }
+  ]
+ },
+ "05-boys": {
+  "q": "young boy sitting in classroom",
+  "items": [
+   {
+    "id": "M85",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 14.88,
+    "w": 1920,
+    "cap": "Elementary school pupil"
+   },
+   {
+    "id": "M86",
+    "cost": "0.5 credits",
+    "dur": 5.96,
+    "w": 1920,
+    "cap": "Little schoolboy sitting behind desk"
+   },
+   {
+    "id": "M87",
+    "cost": "0.5 credits",
+    "dur": 14.88,
+    "w": 3840,
+    "cap": "Boy in a classroom"
+   },
+   {
+    "id": "M88",
+    "cost": "0.5 credits",
+    "dur": 14.96,
+    "w": 3840,
+    "cap": "Boy sitting at a desk with a book"
+   },
+   {
+    "id": "M89",
+    "cost": "0.5 credits",
+    "dur": 13.881,
+    "w": 1920,
+    "cap": "Boy sitting at a desk"
+   },
+   {
+    "id": "M90",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 6.59,
+    "w": 3840,
+    "cap": "Young boy sitting at a desk"
+   },
+   {
+    "id": "M91",
+    "cost": "0.5 credits",
+    "dur": 10.6,
+    "w": 3840,
+    "cap": "Boy in a classroom"
+   },
+   {
+    "id": "M92",
+    "cost": "0.5 credits",
+    "dur": 18.4,
+    "w": 3840,
+    "cap": "Little boy sitting at a desk in a classroom"
+   },
+   {
+    "id": "M93",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 8.52,
+    "w": 1920,
+    "cap": "Boy in a classroom"
+   },
+   {
+    "id": "M94",
+    "cost": "0.5 credits",
+    "dur": 16.4,
+    "w": 3840,
+    "cap": "Boy sitting at a desk in a classroom"
+   }
+  ]
+ },
+ "06-sunrise": {
+  "q": "sunrise over swiss alps mountains hiker",
+  "items": [
+   {
+    "id": "M1",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 20.771,
+    "w": 3840,
+    "cap": "Timelapse from sunset to sunrise in the Swiss Alps"
+   },
+   {
+    "id": "M81",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 40.0,
+    "w": 3840,
+    "cap": "hikers traverse the Swiss Alps, with the majestic Matterhorn mountain "
+   },
+   {
+    "id": "M3",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 25.32,
+    "w": 1920,
+    "cap": "Sunrise Over the Swiss Alps"
+   },
+   {
+    "id": "M7",
+    "cost": "0.5 credits",
+    "dur": 22.556,
+    "w": 3840,
+    "cap": "Swiss mountain ridge"
+   },
+   {
+    "id": "M82",
+    "cost": "0.5 credits",
+    "dur": 14.348,
+    "w": 3840,
+    "cap": "Adventurer stands atop a mountain ridge, overlooking the Swiss Alps"
+   },
+   {
+    "id": "M83",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 16.567,
+    "w": 1920,
+    "cap": "hiker silhouetted against a sunset"
+   },
+   {
+    "id": "M2",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 29.267,
+    "w": 1920,
+    "cap": "Mountain ridge in the Swiss Alps"
+   },
+   {
+    "id": "M5",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 10.72,
+    "w": 1920,
+    "cap": "Sunrise over the Matterhorn, Switzerland"
+   },
+   {
+    "id": "M6",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 8.48,
+    "w": 1920,
+    "cap": "Sunrise over the Swiss Alps"
+   },
+   {
+    "id": "M84",
+    "cost": "0.5 credits",
+    "dur": 14.348,
+    "w": 3840,
+    "cap": "Swiss Alps mountain ridge with a person standing on the edge"
+   }
+  ]
+ },
+ "07-bond": {
+  "q": "man in tuxedo walking confidently cinematic",
+  "items": [
+   {
+    "id": "M155",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 12.52,
+    "w": 1920,
+    "cap": "Man in a tuxedo walking towards the camera"
+   },
+   {
+    "id": "M156",
+    "cost": "0.5 credits",
+    "dur": 6.72,
+    "w": 3840,
+    "cap": "Attractive man with beard walking alone in a building"
+   },
+   {
+    "id": "M157",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 24.358,
+    "w": 4096,
+    "cap": "Man in a tuxedo walking in a dimly lit room"
+   },
+   {
+    "id": "M158",
+    "cost": "0.5 credits",
+    "dur": 21.518,
+    "w": 1920,
+    "cap": "Rich man in front of a mansion"
+   },
+   {
+    "id": "M159",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 11.612,
+    "w": 1920,
+    "cap": "Man in a tuxedo walking outdoors"
+   },
+   {
+    "id": "M160",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 15.12,
+    "w": 2160,
+    "cap": "Man in a tuxedo with a bow tie"
+   },
+   {
+    "id": "M161",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 9.2,
+    "w": 1920,
+    "cap": "Man in a tuxedo walking through a parking garage"
+   },
+   {
+    "id": "M162",
+    "cost": "0.5 credits",
+    "dur": 9.52,
+    "w": 3840,
+    "cap": "Attractive man with beard walking in a corridor"
+   },
+   {
+    "id": "M163",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 9.08,
+    "w": 1920,
+    "cap": "Man in a tuxedo with a bow tie"
+   },
+   {
+    "id": "M164",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 12.92,
+    "w": 1920,
+    "cap": "Man in a tuxedo walking on a red carpet"
+   }
+  ]
+ },
+ "08-npc": {
+  "q": "crowd of people walking city timelapse",
+  "items": [
+   {
+    "id": "M95",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 11.56,
+    "w": 1920,
+    "cap": "Timelapse of crowds of people walking in a busy city"
+   },
+   {
+    "id": "M96",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 10.0,
+    "w": 3840,
+    "cap": "Timelapse of people walking in a busy city"
+   },
+   {
+    "id": "M97",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 10.0,
+    "w": 1920,
+    "cap": "Timelapse of people walking in a busy city"
+   },
+   {
+    "id": "M98",
+    "cost": "0.5 credits",
+    "dur": 10.311,
+    "w": 3840,
+    "cap": "Timelapse of evening city crowd"
+   },
+   {
+    "id": "M99",
+    "cost": "0.5 credits",
+    "dur": 10.0,
+    "w": 1920,
+    "cap": "Crowd of people walking"
+   },
+   {
+    "id": "M100",
+    "cost": "0.5 credits",
+    "dur": 13.16,
+    "w": 1920,
+    "cap": "People walking on a street"
+   },
+   {
+    "id": "M101",
+    "cost": "0.5 credits",
+    "dur": 16.56,
+    "w": 1920,
+    "cap": "People walking on a street"
+   },
+   {
+    "id": "M102",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 19.77,
+    "w": 3840,
+    "cap": "Timelapse of crowded people walking on a city street"
+   },
+   {
+    "id": "M103",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 6.125,
+    "w": 1920,
+    "cap": "People walking in a city"
+   },
+   {
+    "id": "M104",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 11.334,
+    "w": 1920,
+    "cap": "Timelapse of a busy city street"
+   }
+  ]
+ },
+ "09-meditate": {
+  "q": "man meditating early morning",
+  "items": [
+   {
+    "id": "M135",
+    "cost": "0.5 credits",
+    "dur": 11.4,
+    "w": 3840,
+    "cap": "Man meditating in a serene outdoor setting"
+   },
+   {
+    "id": "M136",
+    "cost": "0.5 credits",
+    "dur": 16.079,
+    "w": 1080,
+    "cap": "Man meditating in a park"
+   },
+   {
+    "id": "M137",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 59.333,
+    "w": 3840,
+    "cap": "Man meditating on the beach during sunrise"
+   },
+   {
+    "id": "M138",
+    "cost": "0.5 credits",
+    "dur": 29.84,
+    "w": 3840,
+    "cap": "Man meditating on a beach"
+   },
+   {
+    "id": "M139",
+    "cost": "0.5 credits",
+    "dur": 18.018,
+    "w": 3840,
+    "cap": "Man meditates in morning park"
+   },
+   {
+    "id": "M140",
+    "cost": "0.5 credits",
+    "dur": 13.28,
+    "w": 3840,
+    "cap": "Man meditating on a beach"
+   },
+   {
+    "id": "M141",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 9.08,
+    "w": 1920,
+    "cap": "Man meditating outdoors"
+   },
+   {
+    "id": "M142",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 9.56,
+    "w": 1920,
+    "cap": "Man meditating in a field during sunset"
+   },
+   {
+    "id": "M143",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 7.36,
+    "w": 1920,
+    "cap": "Man meditating by the water"
+   },
+   {
+    "id": "M144",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 14.515,
+    "w": 3840,
+    "cap": "Indian man meditating outdoors"
+   }
+  ]
+ },
+ "10-journal": {
+  "q": "man writing in journal at desk",
+  "items": [
+   {
+    "id": "M115",
+    "cost": "0.5 credits",
+    "dur": 17.318,
+    "w": 1280,
+    "cap": "Man writing at a desk"
+   },
+   {
+    "id": "M116",
+    "cost": "0.5 credits",
+    "dur": 38.52,
+    "w": 4096,
+    "cap": "Man writing in a room"
+   },
+   {
+    "id": "M117",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 9.84,
+    "w": 1920,
+    "cap": "Man writing in a diary"
+   },
+   {
+    "id": "M118",
+    "cost": "0.5 credits",
+    "dur": 20.76,
+    "w": 1280,
+    "cap": "Man sitting at a desk with a computer keyboard"
+   },
+   {
+    "id": "M119",
+    "cost": "0.5 credits",
+    "dur": 11.879,
+    "w": 1920,
+    "cap": "Man working at a desk"
+   },
+   {
+    "id": "M120",
+    "cost": "0.5 credits",
+    "dur": 14.148,
+    "w": 1920,
+    "cap": "Businessman in suit at desk"
+   },
+   {
+    "id": "M121",
+    "cost": "0.5 credits",
+    "dur": 8.88,
+    "w": 3840,
+    "cap": "Man sitting at a desk"
+   },
+   {
+    "id": "M122",
+    "cost": "0.5 credits",
+    "dur": 40.0,
+    "w": 1280,
+    "cap": "Man working at a desk"
+   },
+   {
+    "id": "M123",
+    "cost": "0.5 credits",
+    "dur": 11.28,
+    "w": 3840,
+    "cap": "Man writing in a notebook"
+   },
+   {
+    "id": "M124",
+    "cost": "0.5 credits",
+    "dur": 20.0,
+    "w": 3840,
+    "cap": "Man working at a desk"
+   }
+  ]
+ },
+ "11-phone": {
+  "q": "man scrolling phone at night in bed",
+  "items": [
+   {
+    "id": "M105",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 36.06,
+    "w": 1920,
+    "cap": "Man in bed with a phone"
+   },
+   {
+    "id": "M106",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 24.92,
+    "w": 1920,
+    "cap": "Man lying in bed, looking at a mobile phone"
+   },
+   {
+    "id": "M107",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 17.84,
+    "w": 1920,
+    "cap": "Man lying in bed with a phone"
+   },
+   {
+    "id": "M108",
+    "cost": "0.5 credits",
+    "dur": 27.28,
+    "w": 3840,
+    "cap": "Man in a bedroom, looking at a smartphone"
+   },
+   {
+    "id": "M109",
+    "cost": "0.5 credits",
+    "dur": 37.04,
+    "w": 4096,
+    "cap": "Man lying in bed, looking at a phone"
+   },
+   {
+    "id": "M110",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 11.84,
+    "w": 1920,
+    "cap": "Man in bed using a mobile phone"
+   },
+   {
+    "id": "M111",
+    "cost": "0.5 credits",
+    "dur": 12.36,
+    "w": 3840,
+    "cap": "Man scrolling through a phone in a dimly lit room"
+   },
+   {
+    "id": "M112",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 18.76,
+    "w": 1920,
+    "cap": "Man sitting up in bed, looking at a mobile device"
+   },
+   {
+    "id": "M113",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 18.185,
+    "w": 1920,
+    "cap": "Man in bed using a mobile device"
+   },
+   {
+    "id": "M114",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 7.174,
+    "w": 1920,
+    "cap": "Man lying in bed, looking at a mobile phone"
+   }
+  ]
+ },
+ "12-overthink": {
+  "q": "anxious man overthinking at night",
+  "items": [
+   {
+    "id": "M125",
+    "cost": "0.5 credits",
+    "dur": 16.04,
+    "w": 3840,
+    "cap": "Man lying in bed, looking up, with a clock showing 2:35"
+   },
+   {
+    "id": "M126",
+    "cost": "0.5 credits",
+    "dur": 28.32,
+    "w": 3840,
+    "cap": "Man lying in bed with a digital clock showing 1:45"
+   },
+   {
+    "id": "M127",
+    "cost": "0.5 credits",
+    "dur": 26.96,
+    "w": 3840,
+    "cap": "Man lying in bed"
+   },
+   {
+    "id": "M128",
+    "cost": "0.5 credits",
+    "dur": 17.184,
+    "w": 3840,
+    "cap": "Thoughtful Young Man Lost in City"
+   },
+   {
+    "id": "M129",
+    "cost": "0.5 credits",
+    "dur": 19.84,
+    "w": 3840,
+    "cap": "Man cannot sleep from ..."
+   },
+   {
+    "id": "M130",
+    "cost": "0.5 credits",
+    "dur": 29.134,
+    "w": 3840,
+    "cap": "Man sitting on a bed, looking worried"
+   },
+   {
+    "id": "M131",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 9.2,
+    "w": 1920,
+    "cap": "Man lying in bed with a thoughtful expression"
+   },
+   {
+    "id": "M132",
+    "cost": "0.5 credits",
+    "dur": 22.456,
+    "w": 1280,
+    "cap": "Man can't sleep while staring at the ceiling"
+   },
+   {
+    "id": "M133",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 11.52,
+    "w": 3840,
+    "cap": "Man praying at night"
+   },
+   {
+    "id": "M134",
+    "cost": "0.5 credits",
+    "dur": 7.12,
+    "w": 3840,
+    "cap": "Man lying in bed"
+   }
+  ]
+ },
+ "13-no": {
+  "q": "man declining invitation phone call alone at home",
+  "items": [
+   {
+    "id": "M165",
+    "cost": "0.5 credits",
+    "dur": 14.92,
+    "w": 3840,
+    "cap": "Close-up of a man talking on a phone"
+   },
+   {
+    "id": "M166",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 7.68,
+    "w": 1920,
+    "cap": "Senior man talking on a mobile phone"
+   },
+   {
+    "id": "M167",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 48.08,
+    "w": 3840,
+    "cap": "Man on the phone"
+   },
+   {
+    "id": "M168",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 16.04,
+    "w": 1920,
+    "cap": "Attractive young man talking on a sofa"
+   },
+   {
+    "id": "M169",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 10.8,
+    "w": 1920,
+    "cap": "Man sitting on a couch, engaged in a phone conversation"
+   },
+   {
+    "id": "M170",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 24.96,
+    "w": 1920,
+    "cap": "Man in a chair, possibly in a living room, with a phone receiver to hi"
+   },
+   {
+    "id": "M171",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 8.64,
+    "w": 1920,
+    "cap": "Man talking on a phone"
+   },
+   {
+    "id": "M172",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 7.68,
+    "w": 1920,
+    "cap": "Senior Adult man on a phone call"
+   },
+   {
+    "id": "M173",
+    "cost": "0.5 credits",
+    "dur": 11.6,
+    "w": 3840,
+    "cap": "Indian man in a relaxed setting"
+   },
+   {
+    "id": "M174",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 11.52,
+    "w": 1920,
+    "cap": "Man sitting on a sofa, engaged in a phone conversation"
+   }
+  ]
+ },
+ "14-friends": {
+  "q": "group of friends road trip laughing",
+  "items": [
+   {
+    "id": "M145",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 23.77,
+    "w": 1280,
+    "cap": "Laughing friends on a road trip"
+   },
+   {
+    "id": "M146",
+    "cost": "0.5 credits",
+    "dur": 24.792,
+    "w": 3840,
+    "cap": "Summer road trip with friends"
+   },
+   {
+    "id": "M147",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 15.042,
+    "w": 1920,
+    "cap": "Friends on a road trip"
+   },
+   {
+    "id": "M148",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 8.09,
+    "w": 1920,
+    "cap": "Three friends laughing in a car"
+   },
+   {
+    "id": "M149",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 20.938,
+    "w": 3840,
+    "cap": "Summer road trip with friends"
+   },
+   {
+    "id": "M150",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 15.18,
+    "w": 1920,
+    "cap": "Friends on road trip"
+   },
+   {
+    "id": "M151",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 9.44,
+    "w": 1920,
+    "cap": "Road trip with friends"
+   },
+   {
+    "id": "M152",
+    "cost": "0.5 credits",
+    "dur": 12.52,
+    "w": 3840,
+    "cap": "Group of Senior Friends on a Road Trip"
+   },
+   {
+    "id": "M153",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 17.434,
+    "w": 3840,
+    "cap": "Summer road trip with friends"
+   },
+   {
+    "id": "M154",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 18.26,
+    "w": 1920,
+    "cap": "Three friends laughing in a vehicle"
+   }
+  ]
+ },
+ "15-jump": {
+  "q": "man cliff jumping into lake",
+  "items": [
+   {
+    "id": "M185",
+    "cost": "0.5 credits",
+    "dur": 13.28,
+    "w": 3840,
+    "cap": "Man cliff diving into a lake"
+   },
+   {
+    "id": "M186",
+    "cost": "0.5 credits",
+    "dur": 4.472,
+    "w": 1920,
+    "cap": "Man diving off a cliff into a lake"
+   },
+   {
+    "id": "M187",
+    "cost": "0.5 credits",
+    "dur": 13.414,
+    "w": 1920,
+    "cap": "Man cliff diving into a lake"
+   },
+   {
+    "id": "M188",
+    "cost": "0.5 credits",
+    "dur": 9.543,
+    "w": 3840,
+    "cap": "Man cliff diving into a lake"
+   },
+   {
+    "id": "M189",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 11.045,
+    "w": 1920,
+    "cap": "Man diving off a cliff into the ocean"
+   },
+   {
+    "id": "M190",
+    "cost": "0.5 credits",
+    "dur": 7.842,
+    "w": 3840,
+    "cap": "Man cliff diving into a lake"
+   },
+   {
+    "id": "M191",
+    "cost": "0.5 credits",
+    "dur": 5.373,
+    "w": 3840,
+    "cap": "A young man preparing to dive into a lake from a rocky ledge."
+   },
+   {
+    "id": "M192",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 9.159,
+    "w": 1920,
+    "cap": "Man jumps from a cliff into the ocean"
+   },
+   {
+    "id": "M193",
+    "cost": "0.5 credits",
+    "dur": 10.244,
+    "w": 3840,
+    "cap": "Man cliff diving into a lake"
+   },
+   {
+    "id": "M194",
+    "cost": "0.5 credits",
+    "dur": 13.28,
+    "w": 3840,
+    "cap": "Man cliff diving into a lake"
+   }
+  ]
+ },
+ "16-bonfire": {
+  "q": "friends around campfire at night mountains",
+  "items": [
+   {
+    "id": "M195",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 7.633,
+    "w": 1920,
+    "cap": "Three friends sit by a campfire in the mountains"
+   },
+   {
+    "id": "M196",
+    "cost": "0.5 credits",
+    "dur": 16.6,
+    "w": 3840,
+    "cap": "Friends camping in the mountains"
+   },
+   {
+    "id": "M197",
+    "cost": "0.5 credits",
+    "dur": 27.0,
+    "w": 3840,
+    "cap": "Group of friends sitting around a campfire"
+   },
+   {
+    "id": "M198",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 11.48,
+    "w": 3840,
+    "cap": "Four friends sitting around a campfire in a forest"
+   },
+   {
+    "id": "M199",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 12.471,
+    "w": 1920,
+    "cap": "Three friends sitting around a campfire"
+   },
+   {
+    "id": "M200",
+    "cost": "0.5 credits",
+    "dur": 19.96,
+    "w": 3840,
+    "cap": "Friends sitting around a campfire"
+   },
+   {
+    "id": "M201",
+    "cost": "0.5 credits",
+    "dur": 37.709,
+    "w": 3840,
+    "cap": "Friends sitting around a campfire"
+   },
+   {
+    "id": "M202",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 22.273,
+    "w": 1920,
+    "cap": "Three friends sitting around a campfire"
+   },
+   {
+    "id": "M203",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 14.432,
+    "w": 1920,
+    "cap": "Close friends making a bonfire"
+   },
+   {
+    "id": "M204",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 7.842,
+    "w": 1920,
+    "cap": "Three friends sitting around a campfire"
+   }
+  ]
+ },
+ "17-pray": {
+  "q": "man praying silhouette",
+  "items": [
+   {
+    "id": "M175",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 10.44,
+    "w": 3840,
+    "cap": "Man in silhouette praying"
+   },
+   {
+    "id": "M176",
+    "cost": "0.5 credits",
+    "dur": 12.0,
+    "w": 3840,
+    "cap": "Man praying against a sunset"
+   },
+   {
+    "id": "M177",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 11.312,
+    "w": 1920,
+    "cap": "Man praying"
+   },
+   {
+    "id": "M178",
+    "cost": "0.5 credits",
+    "dur": 15.2,
+    "w": 3840,
+    "cap": "Close up of a praying man"
+   },
+   {
+    "id": "M179",
+    "cost": "0.5 credits",
+    "dur": 19.12,
+    "w": 3840,
+    "cap": "Young man praying at sunset"
+   },
+   {
+    "id": "M180",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 9.64,
+    "w": 1920,
+    "cap": "Man praying during sunset"
+   },
+   {
+    "id": "M181",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 46.2,
+    "w": 1920,
+    "cap": "Praying silhouette against a mountain backdrop"
+   },
+   {
+    "id": "M182",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 44.0,
+    "w": 3840,
+    "cap": "Man in silhouette praying"
+   },
+   {
+    "id": "M183",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 34.034,
+    "w": 1920,
+    "cap": "Man in silhouette, praying in front of a window"
+   },
+   {
+    "id": "M184",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 13.113,
+    "w": 3840,
+    "cap": "Man in a prayerful pose against a sunset"
+   }
+  ]
+ },
+ "18-storm": {
+  "q": "man walking in rain storm determined",
+  "items": [
+   {
+    "id": "M205",
+    "cost": "0.5 credits",
+    "dur": 32.735,
+    "w": 1280,
+    "cap": "Man walking in the rain"
+   },
+   {
+    "id": "M206",
+    "cost": "0.5 credits",
+    "dur": 15.95,
+    "w": 3840,
+    "cap": "Man walking in the rain"
+   },
+   {
+    "id": "M207",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 17.68,
+    "w": 3840,
+    "cap": "Man walking in the rain"
+   },
+   {
+    "id": "M208",
+    "cost": "0.5 credits",
+    "dur": 20.421,
+    "w": 3840,
+    "cap": "man walking in the rain"
+   },
+   {
+    "id": "M209",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 22.022,
+    "w": 1920,
+    "cap": "Man walking in the rain"
+   },
+   {
+    "id": "M210",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 30.16,
+    "w": 3840,
+    "cap": "Young man under torrential rain"
+   },
+   {
+    "id": "M211",
+    "cost": "0.5 credits",
+    "dur": 22.023,
+    "w": 3840,
+    "cap": "Man in a suit walking in the rain"
+   },
+   {
+    "id": "M212",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 11.959,
+    "w": 1920,
+    "cap": "Man in rain"
+   },
+   {
+    "id": "M213",
+    "cost": "0.5 credits",
+    "dur": 27.895,
+    "w": 3840,
+    "cap": "Businessman walking on a city street at night"
+   },
+   {
+    "id": "M214",
+    "cost": "0.5 credits",
+    "dur": 28.16,
+    "w": 1280,
+    "cap": "It's raining. He hits the city"
+   }
+  ]
+ },
+ "19-camp": {
+  "q": "tent camping in mountains map planning",
+  "items": [
+   {
+    "id": "M235",
+    "cost": "0.5 credits",
+    "dur": 16.117,
+    "w": 3840,
+    "cap": "People enjoying scenic mountain ..."
+   },
+   {
+    "id": "M236",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 12.013,
+    "w": 1920,
+    "cap": "Two tents pitched on a grassy hillside"
+   },
+   {
+    "id": "M237",
+    "cost": "0.5 credits",
+    "dur": 11.912,
+    "w": 3840,
+    "cap": "Campers at a base camp during a night hike"
+   },
+   {
+    "id": "M238",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 29.73,
+    "w": 1920,
+    "cap": "Two travelers setting up camp by a serene lake with a mountain range i"
+   },
+   {
+    "id": "M239",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 25.72,
+    "w": 1920,
+    "cap": "Campers set up in a scenic mountainous area"
+   },
+   {
+    "id": "M240",
+    "cost": "0.5 credits",
+    "dur": 35.875,
+    "w": 3840,
+    "cap": "Campsite with a view of the mountains"
+   },
+   {
+    "id": "M241",
+    "cost": "0.5 credits",
+    "dur": 15.36,
+    "w": 1280,
+    "cap": "Travelers make camp in the dark"
+   },
+   {
+    "id": "M242",
+    "cost": "0.5 credits",
+    "dur": 13.981,
+    "w": 2560,
+    "cap": "Campers set up in a mountainous landscape"
+   },
+   {
+    "id": "M243",
+    "cost": "0.5 credits",
+    "dur": 35.322,
+    "w": 3840,
+    "cap": "Woman camping in a forested area"
+   },
+   {
+    "id": "M244",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 70.738,
+    "w": 1920,
+    "cap": "Mountain top camping tent ..."
+   }
+  ]
+ },
+ "20-boxing": {
+  "q": "boxer training hard sweat",
+  "items": [
+   {
+    "id": "M215",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 29.52,
+    "w": 1280,
+    "cap": "Boxer in a gym, with a focus on the sweat and the physicality of the s"
+   },
+   {
+    "id": "M216",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 7.708,
+    "w": 1920,
+    "cap": "Young athlete who specializes in boxing"
+   },
+   {
+    "id": "M217",
+    "cost": "0.5 credits",
+    "dur": 22.04,
+    "w": 1280,
+    "cap": "Boxer trains in a gym"
+   },
+   {
+    "id": "M218",
+    "cost": "0.5 credits",
+    "dur": 13.08,
+    "w": 3840,
+    "cap": "Boxer trains in a dimly lit gym"
+   },
+   {
+    "id": "M219",
+    "cost": "0.5 credits",
+    "dur": 21.32,
+    "w": 1280,
+    "cap": "Boxer Trains With The ..."
+   },
+   {
+    "id": "M220",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 39.306,
+    "w": 1920,
+    "cap": "Boxer training in a gym"
+   },
+   {
+    "id": "M221",
+    "cost": "0.5 credits",
+    "dur": 14.96,
+    "w": 3840,
+    "cap": "Boxer training with punch ...,"
+   },
+   {
+    "id": "M222",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 14.625,
+    "w": 1920,
+    "cap": "Boxer wiping sweat off his face"
+   },
+   {
+    "id": "M223",
+    "cost": "0.5 credits",
+    "dur": 11.645,
+    "w": 3840,
+    "cap": "Boxer training in a dimly lit studio"
+   },
+   {
+    "id": "M224",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 13.08,
+    "w": 1920,
+    "cap": "Professional boxer does cardio ...,"
+   }
+  ]
+ },
+ "21-fall": {
+  "q": "man falls and gets back up running",
+  "items": [
+   {
+    "id": "M225",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 7.52,
+    "w": 1920,
+    "cap": "Rock climber falls but ..."
+   },
+   {
+    "id": "M226",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 11.6,
+    "w": 1920,
+    "cap": "Man with prosthetic legs running on a track"
+   },
+   {
+    "id": "M227",
+    "cost": "0.5 credits",
+    "dur": 13.929,
+    "w": 3840,
+    "cap": "Boxer getting up from the canvas"
+   },
+   {
+    "id": "M228",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 8.64,
+    "w": 1920,
+    "cap": "Man running on a track"
+   },
+   {
+    "id": "M229",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 15.08,
+    "w": 1920,
+    "cap": "Man with prosthetic leg running on grass"
+   },
+   {
+    "id": "M230",
+    "cost": "0.5 credits",
+    "dur": 7.674,
+    "w": 3840,
+    "cap": "Man running in a park"
+   },
+   {
+    "id": "M231",
+    "cost": "0.5 credits",
+    "dur": 21.125,
+    "w": 3840,
+    "cap": "Boxer standing up after a fall"
+   },
+   {
+    "id": "M232",
+    "cost": "0.5 credits",
+    "dur": 5.839,
+    "w": 1920,
+    "cap": "Man running along road"
+   },
+   {
+    "id": "M233",
+    "cost": "0.5 credits",
+    "dur": 16.542,
+    "w": 3840,
+    "cap": "Man in a white and red shirt and black shorts is sprinting up a flight"
+   },
+   {
+    "id": "M234",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 11.819,
+    "w": 1920,
+    "cap": "A man experiencing an ankle injury while jogging."
+   }
+  ]
+ },
+ "22-helmet": {
+  "q": "cyclist with helmet riding city street",
+  "items": [
+   {
+    "id": "M255",
+    "cost": "0.5 credits",
+    "dur": 10.52,
+    "w": 3840,
+    "cap": "Young African-american man commuter crossing city street"
+   },
+   {
+    "id": "M256",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 10.611,
+    "w": 1920,
+    "cap": "Male hipster courier with bicycle"
+   },
+   {
+    "id": "M257",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 29.76,
+    "w": 1920,
+    "cap": "Man riding a bicycle on a road"
+   },
+   {
+    "id": "M258",
+    "cost": "0.5 credits",
+    "dur": 26.64,
+    "w": 3840,
+    "cap": "Man riding a bicycle on a city street"
+   },
+   {
+    "id": "M259",
+    "cost": "0.5 credits",
+    "dur": 20.84,
+    "w": 3840,
+    "cap": "Man riding a bicycle on a city road"
+   },
+   {
+    "id": "M260",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 7.2,
+    "w": 1920,
+    "cap": "Woman riding a bicycle on a city street"
+   },
+   {
+    "id": "M261",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 7.541,
+    "w": 1920,
+    "cap": "Man riding a bicycle on a city street"
+   },
+   {
+    "id": "M262",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 6.52,
+    "w": 1920,
+    "cap": "Woman cycling on a city street"
+   },
+   {
+    "id": "M263",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 11.76,
+    "w": 3840,
+    "cap": "Man on a bicycle in an urban setting"
+   },
+   {
+    "id": "M264",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 25.28,
+    "w": 1920,
+    "cap": "Man riding a bicycle on a city street"
+   }
+  ]
+ },
+ "23-couloir": {
+  "q": "climbing steep rocky couloir mountains",
+  "items": [
+   {
+    "id": "M266",
+    "cost": "0.5 credits",
+    "dur": 11.719,
+    "w": 3840,
+    "cap": "climbers walking up a snowy mountain"
+   },
+   {
+    "id": "M267",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 23.758,
+    "w": 1920,
+    "cap": "Two climbers are making their way up a steep, rocky mountain face"
+   },
+   {
+    "id": "M268",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 15.36,
+    "w": 1920,
+    "cap": "Mountaineer scaling a snow-covered peak"
+   },
+   {
+    "id": "M269",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 29.93,
+    "w": 1920,
+    "cap": "Two climbers on a snowy mountain ridge"
+   },
+   {
+    "id": "M270",
+    "cost": "0.5 credits",
+    "dur": 14.68,
+    "w": 3840,
+    "cap": "Rock climbers on a steep cliff"
+   },
+   {
+    "id": "M271",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 12.44,
+    "w": 1920,
+    "cap": "Climbers navigating a snowy mountain landscape."
+   },
+   {
+    "id": "M272",
+    "cost": "0.5 credits",
+    "dur": 21.935,
+    "w": 3840,
+    "cap": "climbers walking up a rocky mountain"
+   },
+   {
+    "id": "M273",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 5.6,
+    "w": 1920,
+    "cap": "A climber ascends a rocky slope in a mountainous landscape."
+   },
+   {
+    "id": "M274",
+    "cost": "0.5 credits",
+    "dur": 25.059,
+    "w": 3840,
+    "cap": "Two climbers on a snowy ridge"
+   },
+   {
+    "id": "M275",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 6.206,
+    "w": 3840,
+    "cap": "Via ferrata ascension by a climber in a rocky canyon"
+   }
+  ]
+ },
+ "24-rockfall": {
+  "q": "rockfall falling rocks mountain",
+  "items": [
+   {
+    "id": "M245",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 11.36,
+    "w": 1920,
+    "cap": "Rockfall on road"
+   },
+   {
+    "id": "M246",
+    "cost": "0.5 credits",
+    "dur": 23.59,
+    "w": 1920,
+    "cap": "Rockfall"
+   },
+   {
+    "id": "M247",
+    "cost": "0.5 credits",
+    "dur": 9.4,
+    "w": 3840,
+    "cap": "Rockfall on the road"
+   },
+   {
+    "id": "M248",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 13.138,
+    "w": 1920,
+    "cap": "Stones falling from mountains ..."
+   },
+   {
+    "id": "M249",
+    "cost": "0.5 credits",
+    "dur": 12.179,
+    "w": 1280,
+    "cap": "Rock Slide Down Mountain"
+   },
+   {
+    "id": "M250",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 13.68,
+    "w": 1920,
+    "cap": "Rockfall down the mountainside ..."
+   },
+   {
+    "id": "M251",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 5.639,
+    "w": 3840,
+    "cap": "This panning video shows a person walking on a path with a sign warnin"
+   },
+   {
+    "id": "M252",
+    "cost": "0.5 credits",
+    "dur": 8.84,
+    "w": 3840,
+    "cap": "Rockfall on a mountain road"
+   },
+   {
+    "id": "M253",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 14.4,
+    "w": 1920,
+    "cap": "Rockfall"
+   },
+   {
+    "id": "M254",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 30.25,
+    "w": 1920,
+    "cap": "Large stones in the mountain"
+   }
+  ]
+ },
+ "25-snow-rocks": {
+  "q": "climber on snowy rocks alpine",
+  "items": [
+   {
+    "id": "M276",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 15.7,
+    "w": 1280,
+    "cap": "climber rappelling down mountain"
+   },
+   {
+    "id": "M277",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 14.042,
+    "w": 1920,
+    "cap": "Alpine climber navigating a narrow, snow-covered path on a steep mount"
+   },
+   {
+    "id": "M278",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 25.567,
+    "w": 1280,
+    "cap": "climber scaling icy rock face"
+   },
+   {
+    "id": "M279",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 14.633,
+    "w": 1280,
+    "cap": "Ice climber scaling a frozen mountain"
+   },
+   {
+    "id": "M280",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 15.36,
+    "w": 1920,
+    "cap": "Mountaineer scaling a snow-covered peak"
+   },
+   {
+    "id": "M281",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 12.96,
+    "w": 1920,
+    "cap": "Ice climber scaling icy rock face"
+   },
+   {
+    "id": "M282",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 11.967,
+    "w": 1920,
+    "cap": "Ice climber scaling a frozen waterfall"
+   },
+   {
+    "id": "M283",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 14.557,
+    "w": 1920,
+    "cap": "Ice climber scaling a frozen waterfall"
+   },
+   {
+    "id": "M284",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 26.6,
+    "w": 1920,
+    "cap": "Ice climber ascending a frozen waterfall"
+   },
+   {
+    "id": "M285",
+    "cost": "0.5 credits",
+    "dur": 22.856,
+    "w": 3840,
+    "cap": "Ice climber scaling a frozen waterfall"
+   }
+  ]
+ },
+ "26-headlamp": {
+  "q": "climber at night with headlamp mountain",
+  "items": [
+   {
+    "id": "M11",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 13.467,
+    "w": 1920,
+    "cap": "A climber ascends a mountain at dusk, illuminated by headlamps."
+   },
+   {
+    "id": "M13",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 12.68,
+    "w": 1920,
+    "cap": "Mountaineer ascending a snowy peak during a night expedition"
+   },
+   {
+    "id": "M12",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 12.6,
+    "w": 1920,
+    "cap": "Man with a headlamp in a mountainous area"
+   },
+   {
+    "id": "M18",
+    "cost": "0.5 credits",
+    "dur": 12.12,
+    "w": 3840,
+    "cap": "Mountain biker riding downhill on a trail"
+   },
+   {
+    "id": "M16",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 13.44,
+    "w": 1920,
+    "cap": "A hiker illuminated by a headlamp in a foggy forest."
+   },
+   {
+    "id": "M15",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 39.6,
+    "w": 1920,
+    "cap": "A hiker navigating a foggy trail with a headlamp."
+   },
+   {
+    "id": "M19",
+    "cost": "0.5 credits",
+    "dur": 17.16,
+    "w": 3840,
+    "cap": "Man with headlamp standing next to tent in a snowy mountainous area"
+   },
+   {
+    "id": "M265",
+    "cost": "0.5 credits",
+    "dur": 25.4,
+    "w": 3840,
+    "cap": "Man standing outside tent in snowy mountainous terrain"
+   },
+   {
+    "id": "M17",
+    "cost": "0.5 credits",
+    "dur": 7.167,
+    "w": 3840,
+    "cap": "Person standing in a dark, possibly nighttime, outdoor setting with a "
+   },
+   {
+    "id": "M20",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 25.56,
+    "w": 1920,
+    "cap": "A close-up of a hiker with a headlamp in a forest setting."
+   }
+  ]
+ },
+ "27-cable": {
+  "q": "via ferrata steel cable carabiner climbing",
+  "items": [
+   {
+    "id": "M333",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 14.281,
+    "w": 3840,
+    "cap": "Via ferrata ascension by a climber"
+   },
+   {
+    "id": "M334",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 5.038,
+    "w": 3840,
+    "cap": "Via ferrata ascension by a climber"
+   },
+   {
+    "id": "M335",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 22.44,
+    "w": 1920,
+    "cap": "Rock climber scaling a steep cliff"
+   },
+   {
+    "id": "M336",
+    "cost": "0.5 credits",
+    "dur": 3.76,
+    "w": 640,
+    "cap": "Close-up of a climbing gear, with a focus on a carabiner"
+   },
+   {
+    "id": "M337",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 19.56,
+    "w": 1920,
+    "cap": "Close-up of a climbing rope and carabiner"
+   },
+   {
+    "id": "M338",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 20.621,
+    "w": 3840,
+    "cap": "Via ferrata ascension by a climber"
+   },
+   {
+    "id": "M339",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 24.565,
+    "w": 1280,
+    "cap": "Close-up of a safety rope with carabiners"
+   },
+   {
+    "id": "M340",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 9.576,
+    "w": 3840,
+    "cap": "Via ferrata ascension by a climber"
+   },
+   {
+    "id": "M341",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 24.057,
+    "w": 3840,
+    "cap": "Via ferrata ascension by a climber"
+   },
+   {
+    "id": "M342",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 8.108,
+    "w": 3840,
+    "cap": "Via ferrata ascension by a climber"
+   }
+  ]
+ },
+ "28-ladder": {
+  "q": "climbing steel ladder mountain via ferrata",
+  "items": [
+   {
+    "id": "M324",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 14.281,
+    "w": 3840,
+    "cap": "Via ferrata ascension by a climber"
+   },
+   {
+    "id": "M325",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 5.038,
+    "w": 3840,
+    "cap": "Via ferrata ascension by a climber"
+   },
+   {
+    "id": "M326",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 12.947,
+    "w": 1920,
+    "cap": "Adults Only"
+   },
+   {
+    "id": "M327",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 9.576,
+    "w": 3840,
+    "cap": "Via ferrata ascension by a climber"
+   },
+   {
+    "id": "M328",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 20.621,
+    "w": 3840,
+    "cap": "Via ferrata ascension by a climber"
+   },
+   {
+    "id": "M329",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 13.267,
+    "w": 3840,
+    "cap": "Via Ferrata enthusiast scaling a steep mountain face"
+   },
+   {
+    "id": "M330",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 8.108,
+    "w": 3840,
+    "cap": "Via ferrata ascension by a climber"
+   },
+   {
+    "id": "M275",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 6.206,
+    "w": 3840,
+    "cap": "Via ferrata ascension by a climber in a rocky canyon"
+   },
+   {
+    "id": "M331",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 59.059,
+    "w": 1920,
+    "cap": "A climber ascends a steep cliff using a metal ladder."
+   },
+   {
+    "id": "M332",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 24.057,
+    "w": 3840,
+    "cap": "Via ferrata ascension by a climber"
+   }
+  ]
+ },
+ "29-hut": {
+  "q": "mountain hut bivouac at night",
+  "items": [
+   {
+    "id": "M237",
+    "cost": "0.5 credits",
+    "dur": 11.912,
+    "w": 3840,
+    "cap": "Campers at a base camp during a night hike"
+   },
+   {
+    "id": "M296",
+    "cost": "0.5 credits",
+    "dur": 12.013,
+    "w": 3840,
+    "cap": "Campers illuminated by lanterns at a base camp"
+   },
+   {
+    "id": "M297",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 31.824,
+    "w": 1920,
+    "cap": "Mountain hut"
+   },
+   {
+    "id": "M298",
+    "cost": "0.5 credits",
+    "dur": 9.325,
+    "w": 1920,
+    "cap": "A tent set up in a mountainous area during dusk"
+   },
+   {
+    "id": "M299",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 29.96,
+    "w": 1920,
+    "cap": "A tranquil mountain scene at dusk featuring two cabins nestled among s"
+   },
+   {
+    "id": "M265",
+    "cost": "0.5 credits",
+    "dur": 25.4,
+    "w": 3840,
+    "cap": "Man standing outside tent in snowy mountainous terrain"
+   },
+   {
+    "id": "M300",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 19.437,
+    "w": 1920,
+    "cap": "Mountain hut"
+   },
+   {
+    "id": "M301",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 11.011,
+    "w": 3840,
+    "cap": "Tourist tent set up in a meadow with a mountain in the background"
+   },
+   {
+    "id": "M302",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 19.16,
+    "w": 1920,
+    "cap": "Happy Couple Camping in the Mountains"
+   },
+   {
+    "id": "M303",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 26.794,
+    "w": 1920,
+    "cap": "Two travelers sitting by a campfire in a mountainous area"
+   }
+  ]
+ },
+ "30-stars": {
+  "q": "night sky stars over mountains timelapse",
+  "items": [
+   {
+    "id": "M286",
+    "cost": "0.5 credits",
+    "dur": 6.923,
+    "w": 3840,
+    "cap": "Stars over Mountains Motion ..."
+   },
+   {
+    "id": "M287",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 11.76,
+    "w": 1920,
+    "cap": "Timelapse of the night sky over a mountain range"
+   },
+   {
+    "id": "M288",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 28.562,
+    "w": 1920,
+    "cap": "Starry night landscape"
+   },
+   {
+    "id": "M289",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 28.562,
+    "w": 1920,
+    "cap": "Starry night landscape"
+   },
+   {
+    "id": "M290",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 9.877,
+    "w": 1920,
+    "cap": "A stunning time-lapse of stars over a mountain range."
+   },
+   {
+    "id": "M291",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 24.334,
+    "w": 1920,
+    "cap": "Starry night over the Matterhorn mountain range"
+   },
+   {
+    "id": "M292",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 16.308,
+    "w": 1920,
+    "cap": "Stunning star trails above a mountain range captured in a time-lapse v"
+   },
+   {
+    "id": "M293",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 10.72,
+    "w": 3840,
+    "cap": "Starry night over a mountain range"
+   },
+   {
+    "id": "M294",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 10.0,
+    "w": 1920,
+    "cap": "Star trails over a mountainous landscape"
+   },
+   {
+    "id": "M295",
+    "cost": "0.5 credits",
+    "dur": 15.4,
+    "w": 3840,
+    "cap": "Timelapse of a mountain range with a night sky"
+   }
+  ]
+ },
+ "31-ibex": {
+  "q": "ibex alpine mountain",
+  "items": [
+   {
+    "id": "M314",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 25.859,
+    "w": 3840,
+    "cap": "Alpine Ibex (Capra ibex) in Gran Paradiso National Park, Italy"
+   },
+   {
+    "id": "M315",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 25.84,
+    "w": 1920,
+    "cap": "Alpine ibex navigating a snowy mountain slope"
+   },
+   {
+    "id": "M316",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 16.12,
+    "w": 1920,
+    "cap": "An ibex in the French Alps"
+   },
+   {
+    "id": "M317",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 10.898,
+    "w": 3840,
+    "cap": "Alpine Ibex grazing in a meadow with a mountain range in the backgroun"
+   },
+   {
+    "id": "M318",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 14.72,
+    "w": 1920,
+    "cap": "Alpine ibex standing on a snowy mountain"
+   },
+   {
+    "id": "M319",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 41.64,
+    "w": 3840,
+    "cap": "Male Alpine Ibex grazing in the European Alps"
+   },
+   {
+    "id": "M320",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 31.92,
+    "w": 1920,
+    "cap": "Alpine ibex grazing on a mountain slope"
+   },
+   {
+    "id": "M321",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 21.08,
+    "w": 1920,
+    "cap": "Alpine ibex grazing on a grassy slope"
+   },
+   {
+    "id": "M322",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 14.0,
+    "w": 1920,
+    "cap": "Alpine ibex, a species of wild goat native to the mountain ranges of t"
+   },
+   {
+    "id": "M323",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 16.52,
+    "w": 1920,
+    "cap": "Alpine ibex in a snowy mountainous landscape"
+   }
+  ]
+ },
+ "32-summit": {
+  "q": "man standing on summit at sunrise arms open",
+  "items": [
+   {
+    "id": "M304",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 16.207,
+    "w": 3840,
+    "cap": "Man standing on a mountain peak with arms outstretched"
+   },
+   {
+    "id": "M305",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 10.244,
+    "w": 3840,
+    "cap": "Man standing on top of a mountain with arms outstretched"
+   },
+   {
+    "id": "M306",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 29.68,
+    "w": 1920,
+    "cap": "Man stands with arms outstretched, looking at the sunset"
+   },
+   {
+    "id": "M307",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 10.8,
+    "w": 3840,
+    "cap": "Man standing on a mountain peak with his arms outstretched"
+   },
+   {
+    "id": "M308",
+    "cost": "0.5 credits",
+    "dur": 6.917,
+    "w": 3840,
+    "cap": "Man standing on a mountain with arms outstretched"
+   },
+   {
+    "id": "M309",
+    "cost": "0.5 credits",
+    "dur": 11.625,
+    "w": 3840,
+    "cap": "Man standing on a mountain peak with arms outstretched"
+   },
+   {
+    "id": "M310",
+    "cost": "0.5 credits",
+    "dur": 12.709,
+    "w": 1280,
+    "cap": "Man on mountain holding arms"
+   },
+   {
+    "id": "M311",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 9.12,
+    "w": 1920,
+    "cap": "Man stands atop a hill, arms raised in a victorious gesture"
+   },
+   {
+    "id": "M312",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 55.973,
+    "w": 1920,
+    "cap": "Man standing on a mountain peak with his arms raised"
+   },
+   {
+    "id": "M313",
+    "cost": "one of the workspace's iStock licenses",
+    "dur": 19.292,
+    "w": 1920,
+    "cap": "Male hiker standing top of a rocky mountain"
+   }
+  ]
+ }
+}
