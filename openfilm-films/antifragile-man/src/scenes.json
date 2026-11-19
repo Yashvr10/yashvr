@@ -1,0 +1,1816 @@
+{
+ "voice": "bm_george",
+ "speed": 0.97,
+ "scenes": [
+  {
+   "id": "s001",
+   "text": "There's a kind of man who'll never make it.",
+   "th": [
+    "lonely"
+   ],
+   "big": "never",
+   "red": true,
+   "gap": 1.0
+  },
+  {
+   "id": "s002",
+   "text": "I was this kind of man two years ago. Chances are, you're the same kind.",
+   "th": [
+    "lonely",
+    "face"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.8
+  },
+  {
+   "id": "s003",
+   "text": "Because of this, I had a fucking boring life.",
+   "th": [
+    "clerk",
+    "lonely"
+   ],
+   "big": "boring",
+   "red": false,
+   "gap": 0.8
+  },
+  {
+   "id": "s004",
+   "text": "Mundane routines, every day.",
+   "th": [
+    "clerk",
+    "crowd"
+   ],
+   "big": "routines",
+   "red": false,
+   "gap": 0.8
+  },
+  {
+   "id": "s005",
+   "text": "No adventures, no lore to tell, no cool shit to do.",
+   "th": [
+    "lonely",
+    "night"
+   ],
+   "big": "adventures",
+   "red": false,
+   "gap": 0.8
+  },
+  {
+   "id": "s006",
+   "text": "It resulted in me never living the life I wanted to live, because I was simply scared.",
+   "th": [
+    "lonely",
+    "night"
+   ],
+   "big": "scared",
+   "red": true,
+   "gap": 1.0
+  },
+  {
+   "id": "s007",
+   "text": "I was doing all the things I will outline in this video. And it really made my life suffer.",
+   "th": [
+    "face"
+   ],
+   "big": "suffer",
+   "red": false,
+   "gap": 0.8
+  },
+  {
+   "id": "s008",
+   "text": "My life got more and more miserable, which made me indulge in this mindset even more, putting me in a downward spiral.",
+   "th": [
+    "storm",
+    "night"
+   ],
+   "big": "spiral",
+   "red": false,
+   "gap": 0.8
+  },
+  {
+   "id": "s009",
+   "text": "And now that I have successfully changed that, I see this pest of a mindset all around me.",
+   "th": [
+    "crowd"
+   ],
+   "big": "pest",
+   "red": false,
+   "gap": 0.8
+  },
+  {
+   "id": "s010",
+   "text": "It's something that would've never existed a hundred years ago, when men still had enough testosterone inside them to just go for shit.",
+   "th": [
+    "knight",
+    "explorer"
+   ],
+   "big": "hundred",
+   "red": false,
+   "gap": 0.8
+  },
+  {
+   "id": "s011",
+   "text": "Bible and sword.",
+   "th": [
+    "knight"
+   ],
+   "big": "sword",
+   "red": true,
+   "gap": 1.0
+  },
+  {
+   "id": "s012",
+   "text": "And the thing is, it's not even your fault.",
+   "th": [
+    "face"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.8
+  },
+  {
+   "id": "s013",
+   "text": "We got this mindset forced into our brains since we were all little boys.",
+   "th": [
+    "boys"
+   ],
+   "big": "boys",
+   "red": false,
+   "gap": 0.8
+  },
+  {
+   "id": "s014",
+   "text": "First your parents, then your teachers, and then perhaps your coworkers or boss.",
+   "th": [
+    "boys",
+    "school",
+    "clerk"
+   ],
+   "big": "teachers",
+   "red": false,
+   "gap": 0.8
+  },
+  {
+   "id": "s015",
+   "text": "It was mental castration from the beginning, and most men will never even realize that they've been castrated.",
+   "th": [
+    "crowd",
+    "clerk"
+   ],
+   "big": "castration",
+   "red": true,
+   "gap": 0.8
+  },
+  {
+   "id": "s016",
+   "text": "They will just keep living like the good boys they are supposed to be.",
+   "th": [
+    "boys",
+    "crowd"
+   ],
+   "big": "good",
+   "red": false,
+   "gap": 0.8
+  },
+  {
+   "id": "s017",
+   "text": "But not you and me.",
+   "th": [
+    "alpine"
+   ],
+   "big": "not",
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s018",
+   "text": "Imagine the life that awaits you after this shift in perspective.",
+   "th": [
+    "alpine",
+    "sunrise"
+   ],
+   "big": "Imagine",
+   "red": false,
+   "gap": 0.8
+  },
+  {
+   "id": "s019",
+   "text": "Watching the sunrise on an adventure in Switzerland.",
+   "th": [
+    "sunrise",
+    "alpine"
+   ],
+   "big": "sunrise",
+   "red": false,
+   "gap": 0.8
+  },
+  {
+   "id": "s020",
+   "text": "Spontaneous adventures. Insane stories lived through. Dad lore built that you can tell your kids and grandkids about.",
+   "th": [
+    "explorer",
+    "camp"
+   ],
+   "big": "lore",
+   "red": false,
+   "gap": 0.8
+  },
+  {
+   "id": "s021",
+   "text": "The fear, and even the mere concept of failure, will have vanished from your life.",
+   "th": [
+    "sunrise"
+   ],
+   "big": "vanished",
+   "red": false,
+   "gap": 0.8
+  },
+  {
+   "id": "s022",
+   "text": "You will become a Bond-like man, able to deal with anything and everything that comes your way, smoothly and with a great deal of finesse.",
+   "th": [
+    "gentleman"
+   ],
+   "big": "Bond-like",
+   "red": true,
+   "gap": 0.8
+  },
+  {
+   "id": "s023",
+   "text": "Moving on to the next mission like you didn't just look down the barrel of a Walther PPK, aimed to blow your brains out.",
+   "th": [
+    "duel",
+    "gentleman"
+   ],
+   "big": "mission",
+   "red": false,
+   "gap": 0.8
+  },
+  {
+   "id": "s024",
+   "text": "Have this picture in your mind. That's the goal. The antifragile, Bond-like man.",
+   "th": [
+    "gentleman",
+    "alpine"
+   ],
+   "big": "antifragile",
+   "red": false,
+   "gap": 0.8
+  },
+  {
+   "id": "s025",
+   "text": "But how do we bridge the gap? How do we remove this mind virus that got carefully implanted into us for years?",
+   "th": [
+    "face",
+    "night"
+   ],
+   "big": "gap",
+   "red": false,
+   "gap": 0.8
+  },
+  {
+   "id": "s026",
+   "text": "I will tell you exactly how. But first, let's look at the man we do not want to be. The man, or rather boy, I once was.",
+   "th": [
+    "lonely"
+   ],
+   "big": "boy",
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "ch1",
+   "card": "chapter",
+   "num": "I",
+   "title": "The pessimist loser",
+   "len": 4.4
+  },
+  {
+   "id": "s027",
+   "text": "I had my routine. Well, not exactly my routine, but the routine I got prescribed by watching countless YouTube videos on self improvement.",
+   "th": [
+    "clerk",
+    "writer"
+   ],
+   "big": "prescribed",
+   "red": false,
+   "gap": 0.8
+  },
+  {
+   "id": "s028",
+   "text": "I became an NPC, repeating everything these gurus told me, following every rule and habit they made up, to the t.",
+   "th": [
+    "crowd",
+    "clerk"
+   ],
+   "big": "NPC",
+   "red": true,
+   "gap": 0.8
+  },
+  {
+   "id": "s029",
+   "text": "You know them. Waking up early. Meditating. Journalling. Being productive.",
+   "th": [
+    "monk",
+    "writer"
+   ],
+   "big": "productive",
+   "red": false,
+   "gap": 0.8
+  },
+  {
+   "id": "s030",
+   "text": "The problem was, that wasn't me. It was a handful of self help gurus combined into one man.",
+   "th": [
+    "face",
+    "monk"
+   ],
+   "big": "me",
+   "red": false,
+   "gap": 0.8
+  },
+  {
+   "id": "s031",
+   "text": "I was trying to escape the matrix, thinking about not being an NPC like all the others who weren't on self improvement, while not realizing that all these others were freer than me.",
+   "th": [
+    "crowd",
+    "feast"
+   ],
+   "big": "freer",
+   "red": false,
+   "gap": 0.8
+  },
+  {
+   "id": "s032",
+   "text": "I was the damn NPC. I didn't have a fucking life.",
+   "th": [
+    "clerk",
+    "lonely"
+   ],
+   "big": "NPC",
+   "red": true,
+   "gap": 0.8
+  },
+  {
+   "id": "s033",
+   "text": "I was doing the same shit, day after day, like a fucking robot, and was wondering why my life sucked so much.",
+   "th": [
+    "clerk",
+    "crowd"
+   ],
+   "big": "robot",
+   "red": false,
+   "gap": 0.8
+  },
+  {
+   "id": "s034",
+   "text": "But that's not even the worst part. It's what this closed mindedness did to my life which is the bad part.",
+   "th": [
+    "night",
+    "face"
+   ],
+   "big": "worst",
+   "red": false,
+   "gap": 0.8
+  },
+  {
+   "id": "s035",
+   "text": "I always said no to people. I said no to opportunities. No to adventures.",
+   "th": [
+    "lonely",
+    "night"
+   ],
+   "big": "no",
+   "red": true,
+   "gap": 0.8
+  },
+  {
+   "id": "s036",
+   "text": "All because it would've broken my sweet little comfortable routine.",
+   "th": [
+    "clerk",
+    "lonely"
+   ],
+   "big": "comfortable",
+   "red": false,
+   "gap": 0.8
+  },
+  {
+   "id": "s037",
+   "text": "I was not spontaneous at all. I needed to plan everything down to the last detail in order to be ready for it.",
+   "th": [
+    "writer",
+    "clerk"
+   ],
+   "big": "plan",
+   "red": false,
+   "gap": 0.8
+  },
+  {
+   "id": "s038",
+   "text": "I always wanted a perfect plan.",
+   "th": [
+    "writer"
+   ],
+   "big": "perfect",
+   "red": false,
+   "gap": 0.8
+  },
+  {
+   "id": "s039",
+   "text": "I was thinking all the time, planning and analyzing, while not realizing that all the thinking kept me from actually doing shit.",
+   "th": [
+    "writer",
+    "night"
+   ],
+   "big": "doing",
+   "red": false,
+   "gap": 0.8
+  },
+  {
+   "id": "s040",
+   "text": "I was also a worrier. I worried about everything.",
+   "th": [
+    "night",
+    "face"
+   ],
+   "big": "everything",
+   "red": false,
+   "gap": 0.8
+  },
+  {
+   "id": "s041",
+   "text": "I thought everything would destroy my health. I thought I was super behind in life because I didn't have it all figured out.",
+   "th": [
+    "night",
+    "lonely"
+   ],
+   "big": "behind",
+   "red": false,
+   "gap": 0.8
+  },
+  {
+   "id": "s042",
+   "text": "I was living in my head, worrying about shit that never happened.",
+   "th": [
+    "night",
+    "face"
+   ],
+   "big": "head",
+   "red": false,
+   "gap": 0.8
+  },
+  {
+   "id": "s043",
+   "text": "But living in my head kept me from living in real life.",
+   "th": [
+    "lonely"
+   ],
+   "big": "real",
+   "red": true,
+   "gap": 0.8
+  },
+  {
+   "id": "s044",
+   "text": "One of my favorite things to say was, I don't have time.",
+   "th": [
+    "clerk",
+    "face"
+   ],
+   "big": "time",
+   "red": false,
+   "gap": 0.8
+  },
+  {
+   "id": "s045",
+   "text": "It's the worst fucking excuse. Nobody has time. You have to make time for something.",
+   "th": [
+    "clerk"
+   ],
+   "big": "make",
+   "red": false,
+   "gap": 0.8
+  },
+  {
+   "id": "s046",
+   "text": "Everyone is gifted with twenty four hours a day.",
+   "th": [
+    "sunrise",
+    "clerk"
+   ],
+   "big": "twenty",
+   "red": false,
+   "gap": 0.8
+  },
+  {
+   "id": "s047",
+   "text": "Some just use them better, and live three lifetimes while you're still trying to figure out the perfect plan.",
+   "th": [
+    "explorer",
+    "alpine"
+   ],
+   "big": "three",
+   "red": false,
+   "gap": 0.8
+  },
+  {
+   "id": "s048",
+   "text": "I thought I couldn't deal with shit. I was always optimizing, living in fear.",
+   "th": [
+    "night",
+    "lonely"
+   ],
+   "big": "fear",
+   "red": true,
+   "gap": 0.8
+  },
+  {
+   "id": "s049",
+   "text": "But let me introduce you to the opposite.",
+   "th": [
+    "sunrise"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.4
+  },
+  {
+   "id": "s050",
+   "text": "The optimist chad.",
+   "th": [
+    "gentleman",
+    "explorer"
+   ],
+   "big": "optimist",
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "ch2",
+   "card": "chapter",
+   "num": "II",
+   "title": "The optimist chad",
+   "len": 4.4
+  },
+  {
+   "id": "s051",
+   "text": "You know what the favorite word of men who have shit loads of stories to tell and adventures lived through is?",
+   "th": [
+    "explorer",
+    "feast"
+   ],
+   "big": "stories",
+   "red": false,
+   "gap": 0.8
+  },
+  {
+   "id": "s052",
+   "text": "Yes.",
+   "th": [
+    "explorer"
+   ],
+   "big": "Yes",
+   "red": true,
+   "gap": 0.8
+  },
+  {
+   "id": "s053",
+   "text": "That's it. That's all the sauce.",
+   "th": [
+    "feast"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.3
+  },
+  {
+   "id": "s054",
+   "text": "Just. Say. Yes. More.",
+   "th": [
+    "explorer",
+    "feast"
+   ],
+   "big": "Yes",
+   "red": true,
+   "gap": 0.8
+  },
+  {
+   "id": "s055",
+   "text": "Someone's asking you to hang out? Say yes.",
+   "th": [
+    "feast"
+   ],
+   "big": "yes",
+   "red": false,
+   "gap": 0.8
+  },
+  {
+   "id": "s056",
+   "text": "Thinking of going on that trip? Say yes.",
+   "th": [
+    "explorer",
+    "sail"
+   ],
+   "big": "trip",
+   "red": false,
+   "gap": 0.8
+  },
+  {
+   "id": "s057",
+   "text": "An opportunity arises? Say fucking yes.",
+   "th": [
+    "horse",
+    "explorer"
+   ],
+   "big": "yes",
+   "red": true,
+   "gap": 0.8
+  },
+  {
+   "id": "s058",
+   "text": "Just say yes, and figure the rest out later.",
+   "th": [
+    "explorer"
+   ],
+   "big": "later",
+   "red": false,
+   "gap": 0.8
+  },
+  {
+   "id": "s059",
+   "text": "Don't overthink the decision. Don't weigh the up and downsides. Don't act all intelligent. Just send it, and say yes.",
+   "th": [
+    "horse",
+    "sail"
+   ],
+   "big": "send",
+   "red": false,
+   "gap": 0.8
+  },
+  {
+   "id": "s060",
+   "text": "You don't need a perfect plan, or perfect circumstances.",
+   "th": [
+    "sail",
+    "storm"
+   ],
+   "big": "perfect",
+   "red": false,
+   "gap": 0.8
+  },
+  {
+   "id": "s061",
+   "text": "The perfect moment will never come. So stop fucking waiting for it, and make the best out of what you got, right now.",
+   "th": [
+    "sail",
+    "sunrise"
+   ],
+   "big": "now",
+   "red": true,
+   "gap": 0.8
+  },
+  {
+   "id": "s062",
+   "text": "And if you said yes, now you're moving. That's all you need. The first initial spark.",
+   "th": [
+    "train",
+    "horse"
+   ],
+   "big": "spark",
+   "red": false,
+   "gap": 0.8
+  },
+  {
+   "id": "s063",
+   "text": "Get the ball rolling. Now you can build on that momentum, which is way easier than to try to start from zero.",
+   "th": [
+    "train"
+   ],
+   "big": "momentum",
+   "red": false,
+   "gap": 0.8
+  },
+  {
+   "id": "s064",
+   "text": "Say yes, and then improve on the way.",
+   "th": [
+    "explorer",
+    "train"
+   ],
+   "big": "improve",
+   "red": false,
+   "gap": 0.8
+  },
+  {
+   "id": "s065",
+   "text": "Deal with problems coming your way when they arise, not before they're even there.",
+   "th": [
+    "storm",
+    "sail"
+   ],
+   "big": "arise",
+   "red": false,
+   "gap": 0.8
+  },
+  {
+   "id": "s066",
+   "text": "The optimist chad mindset is simple. Everything that can be done, can be done.",
+   "th": [
+    "alpine",
+    "explorer"
+   ],
+   "big": "done",
+   "red": false,
+   "gap": 0.8
+  },
+  {
+   "id": "s067",
+   "text": "There is nothing that's too far away for you to reach. Nothing.",
+   "th": [
+    "alpine",
+    "sunrise"
+   ],
+   "big": "Nothing",
+   "red": true,
+   "gap": 0.8
+  },
+  {
+   "id": "s068",
+   "text": "You can do fucking anything, and deal with whatever comes your way. Whatever happens, you will always come out on top.",
+   "th": [
+    "alpine",
+    "climber"
+   ],
+   "big": "top",
+   "red": false,
+   "gap": 0.8
+  },
+  {
+   "id": "s069",
+   "text": "The optimist chad does not fear anything but God.",
+   "th": [
+    "pray",
+    "knight"
+   ],
+   "big": "God",
+   "red": true,
+   "gap": 0.8
+  },
+  {
+   "id": "s070",
+   "text": "He does not fear losing, for a winner is just a loser who tried enough times.",
+   "th": [
+    "knight",
+    "duel"
+   ],
+   "big": "losing",
+   "red": false,
+   "gap": 0.8
+  },
+  {
+   "id": "s071",
+   "text": "He does not fear death, for he knows that he has no control over it, and God will decide when it's time for him to go.",
+   "th": [
+    "pray",
+    "storm"
+   ],
+   "big": "death",
+   "red": false,
+   "gap": 0.8
+  },
+  {
+   "id": "s072",
+   "text": "He does not fear the unknown, for that's where life gets exciting.",
+   "th": [
+    "sail",
+    "explorer"
+   ],
+   "big": "unknown",
+   "red": false,
+   "gap": 0.8
+  },
+  {
+   "id": "s073",
+   "text": "Fuck it. We ball.",
+   "th": [
+    "horse",
+    "knight"
+   ],
+   "big": "ball",
+   "red": true,
+   "gap": 0.6
+  },
+  {
+   "id": "s074",
+   "text": "You can't destroy a man who has that sentence deeply ingrained into him.",
+   "th": [
+    "knight",
+    "gentleman"
+   ],
+   "big": "destroy",
+   "red": false,
+   "gap": 0.8
+  },
+  {
+   "id": "s075",
+   "text": "Next time you plan something, perhaps a hiking or camping trip, try to actively leave empty space.",
+   "th": [
+    "camp",
+    "alpine"
+   ],
+   "big": "space",
+   "red": false,
+   "gap": 0.8
+  },
+  {
+   "id": "s076",
+   "text": "Of course, plan the basics. Where you're going, what you're doing, a route, the things you need to bring.",
+   "th": [
+    "camp",
+    "writer"
+   ],
+   "big": "basics",
+   "red": false,
+   "gap": 0.8
+  },
+  {
+   "id": "s077",
+   "text": "But try to leave a little space for the uncertain. That's where the lore is made.",
+   "th": [
+    "camp",
+    "alpine"
+   ],
+   "big": "lore",
+   "red": true,
+   "gap": 0.8
+  },
+  {
+   "id": "s078",
+   "text": "And if you have your plan, don't stick to it obsessively. If something unexpected happens, adapt. Change things up.",
+   "th": [
+    "sail",
+    "storm"
+   ],
+   "big": "adapt",
+   "red": false,
+   "gap": 0.8
+  },
+  {
+   "id": "s079",
+   "text": "We've lost this kind of spontaneity, and the ability to just go for something and adjust along the way.",
+   "th": [
+    "explorer"
+   ],
+   "big": "spontaneity",
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s080",
+   "text": "The optimist chad is antifragile. Remember this word. It's very important.",
+   "th": [
+    "storm",
+    "sail"
+   ],
+   "big": "antifragile",
+   "red": true,
+   "gap": 0.8
+  },
+  {
+   "id": "s081",
+   "text": "Antifragility is the ability to experience bad things, but not taking any damage from it.",
+   "th": [
+    "storm"
+   ],
+   "big": "damage",
+   "red": false,
+   "gap": 0.8
+  },
+  {
+   "id": "s082",
+   "text": "Even better, becoming better because of the bad things. Fucking ingrain this.",
+   "th": [
+    "storm",
+    "climber"
+   ],
+   "big": "better",
+   "red": false,
+   "gap": 0.8
+  },
+  {
+   "id": "s083",
+   "text": "Nothing can hurt you. Everything bad happening to you is a minor stressor that will make you stronger, because you are antifragile.",
+   "th": [
+    "storm",
+    "climber"
+   ],
+   "big": "stronger",
+   "red": false,
+   "gap": 0.8
+  },
+  {
+   "id": "s084",
+   "text": "Use every down for your advantage.",
+   "th": [
+    "climber"
+   ],
+   "big": "advantage",
+   "red": false,
+   "gap": 0.8
+  },
+  {
+   "id": "s085",
+   "text": "Rock bottom is a fucking trampoline.",
+   "th": [
+    "storm",
+    "climber"
+   ],
+   "big": "trampoline",
+   "red": true,
+   "gap": 1.0
+  },
+  {
+   "id": "ch3",
+   "card": "chapter",
+   "num": "III",
+   "title": "Worrying makes you weak",
+   "len": 4.4
+  },
+  {
+   "id": "s086",
+   "text": "Now let's get to the practical part, the part where we bridge the gap from pessimist loser to optimist chad.",
+   "th": [
+    "alpine"
+   ],
+   "big": "practical",
+   "red": false,
+   "gap": 0.8
+  },
+  {
+   "id": "s087",
+   "text": "There's one thing I notice about most people nowadays. We're scared as shit of life.",
+   "th": [
+    "crowd",
+    "night"
+   ],
+   "big": "scared",
+   "red": true,
+   "gap": 0.8
+  },
+  {
+   "id": "s088",
+   "text": "Fear is the number one thing they can control you with. It's all about fear.",
+   "th": [
+    "crowd"
+   ],
+   "big": "control",
+   "red": false,
+   "gap": 0.8
+  },
+  {
+   "id": "s089",
+   "text": "I see way too many people riding a bicycle in a city with a fucking full face helmet.",
+   "th": [
+    "crowd",
+    "clerk"
+   ],
+   "big": "helmet",
+   "red": false,
+   "gap": 0.8
+  },
+  {
+   "id": "s090",
+   "text": "Don't you trust your skill to not crash? You're too scared to enjoy a little risk.",
+   "th": [
+    "face"
+   ],
+   "big": "risk",
+   "red": false,
+   "gap": 0.8
+  },
+  {
+   "id": "s091",
+   "text": "Fear is making you weak. Scared people are the easiest to control.",
+   "th": [
+    "crowd",
+    "night"
+   ],
+   "big": "weak",
+   "red": true,
+   "gap": 0.8
+  },
+  {
+   "id": "s092",
+   "text": "But you can't control a guy who thinks nothing can touch him, and who deeply believes that no matter what he does, he will succeed.",
+   "th": [
+    "knight",
+    "gentleman"
+   ],
+   "big": "succeed",
+   "red": false,
+   "gap": 0.8
+  },
+  {
+   "id": "s093",
+   "text": "Literally an ungovernable man.",
+   "th": [
+    "knight",
+    "horse"
+   ],
+   "big": "ungovernable",
+   "red": false,
+   "gap": 0.8
+  },
+  {
+   "id": "s094",
+   "text": "Constantly being scared, overthinking every little thing, just slowly but surely turns you spiritually weak.",
+   "th": [
+    "night",
+    "lonely"
+   ],
+   "big": "weak",
+   "red": false,
+   "gap": 0.8
+  },
+  {
+   "id": "s095",
+   "text": "You won't even notice it at first. You might have a perfectly reasonable excuse for not doing the thing you're scared of.",
+   "th": [
+    "lonely"
+   ],
+   "big": "excuse",
+   "red": false,
+   "gap": 0.8
+  },
+  {
+   "id": "s096",
+   "text": "For staying home. For not trying the unrealistic. For not diving into the unknown.",
+   "th": [
+    "lonely",
+    "night"
+   ],
+   "big": "home",
+   "red": false,
+   "gap": 0.8
+  },
+  {
+   "id": "s097",
+   "text": "But each and every time you do this, giving in to the part of your brain throwing all those fears at you, you miss out on life.",
+   "th": [
+    "lonely",
+    "night"
+   ],
+   "big": "life",
+   "red": true,
+   "gap": 0.8
+  },
+  {
+   "id": "s098",
+   "text": "You miss out on experiences that could've changed your life completely.",
+   "th": [
+    "explorer",
+    "sail"
+   ],
+   "big": "experiences",
+   "red": false,
+   "gap": 0.8
+  },
+  {
+   "id": "s099",
+   "text": "And you learn to trust those fears more than you trust your own ability to deal with shit. And that's the big problem.",
+   "th": [
+    "face"
+   ],
+   "big": "trust",
+   "red": false,
+   "gap": 0.8
+  },
+  {
+   "id": "s100",
+   "text": "Because those fears are reasonable. They make sense. They protect you. You avoid dangerous situations because of them.",
+   "th": [
+    "night"
+   ],
+   "big": "reasonable",
+   "red": false,
+   "gap": 0.8
+  },
+  {
+   "id": "s101",
+   "text": "But is that really what you want? A life so dull you don't even experience the fire of danger anymore?",
+   "th": [
+    "storm",
+    "climber"
+   ],
+   "big": "fire",
+   "red": false,
+   "gap": 0.8
+  },
+  {
+   "id": "s102",
+   "text": "A safe existence is a boring existence.",
+   "th": [
+    "clerk",
+    "lonely"
+   ],
+   "big": "boring",
+   "red": true,
+   "gap": 0.8
+  },
+  {
+   "id": "s103",
+   "text": "You're meant to conquer your fears, not give in to them.",
+   "th": [
+    "knight",
+    "climber"
+   ],
+   "big": "conquer",
+   "red": false,
+   "gap": 0.8
+  },
+  {
+   "id": "s104",
+   "text": "So stop the worrying. Ninety nine percent of times, the fear was completely unnecessary to begin with.",
+   "th": [
+    "sunrise"
+   ],
+   "big": "unnecessary",
+   "red": false,
+   "gap": 0.8
+  },
+  {
+   "id": "s105",
+   "text": "Just send it. Stop thinking about it, and dive in. Deal with it along the way.",
+   "th": [
+    "sail",
+    "horse"
+   ],
+   "big": "dive",
+   "red": true,
+   "gap": 1.0
+  },
+  {
+   "id": "ch4",
+   "card": "chapter",
+   "num": "IV",
+   "title": "It's for the dad lore",
+   "len": 4.4
+  },
+  {
+   "id": "s106",
+   "text": "I went on a hike with a friend this weekend.",
+   "th": [
+    "alpine"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.4
+  },
+  {
+   "id": "s107",
+   "text": "We were in the Swiss Alps, with the goal to sleep in a tiny little cabin at two thousand four hundred meters of elevation.",
+   "th": [
+    "alpine",
+    "hut"
+   ],
+   "big": "cabin",
+   "red": false,
+   "gap": 0.8
+  },
+  {
+   "id": "s108",
+   "text": "Turns out, the hike wasn't exactly the hike we thought it would be.",
+   "th": [
+    "alpine",
+    "climber"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.8
+  },
+  {
+   "id": "s109",
+   "text": "It was one giant, steep couloir, filled with massive rocks.",
+   "th": [
+    "climber",
+    "alpine"
+   ],
+   "big": "couloir",
+   "red": true,
+   "gap": 0.8
+  },
+  {
+   "id": "s110",
+   "text": "There was no path. But we knew that at the top of it there was a steel ladder we needed to reach. Preferably before it got dark.",
+   "th": [
+    "climber",
+    "alpine"
+   ],
+   "big": "ladder",
+   "red": false,
+   "gap": 0.8
+  },
+  {
+   "id": "s111",
+   "text": "So we started climbing it. It started as pretty easy scrambling, but as it got steeper, it got sketchier.",
+   "th": [
+    "climber"
+   ],
+   "big": "steeper",
+   "red": false,
+   "gap": 0.8
+  },
+  {
+   "id": "s112",
+   "text": "We soon put our helmets on, because there was frequent rockfall as we climbed it.",
+   "th": [
+    "climber",
+    "storm"
+   ],
+   "big": "rockfall",
+   "red": false,
+   "gap": 0.8
+  },
+  {
+   "id": "s113",
+   "text": "Around halfway up, there was more and more snow on the rocks.",
+   "th": [
+    "alpine",
+    "climber"
+   ],
+   "big": "snow",
+   "red": false,
+   "gap": 0.8
+  },
+  {
+   "id": "s114",
+   "text": "Now we're about three quarters of the way up, and it's slowly getting darker.",
+   "th": [
+    "alpine",
+    "night"
+   ],
+   "big": "darker",
+   "red": false,
+   "gap": 0.8
+  },
+  {
+   "id": "s115",
+   "text": "We're at a place where the route up is unclear.",
+   "th": [
+    "climber"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.8
+  },
+  {
+   "id": "s116",
+   "text": "My buddy tries one way, a really sketchy rock to climb. He needs to get off his backpack in order to get up.",
+   "th": [
+    "climber"
+   ],
+   "big": "sketchy",
+   "red": false,
+   "gap": 0.8
+  },
+  {
+   "id": "s117",
+   "text": "I take another way up. It's better, and I get the backpack of my friend.",
+   "th": [
+    "climber"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.8
+  },
+  {
+   "id": "s118",
+   "text": "He is now on this large rock with an incline, but nothing to hold onto. Just smooth rock for about three meters.",
+   "th": [
+    "climber",
+    "alpine"
+   ],
+   "big": "nothing",
+   "red": false,
+   "gap": 0.8
+  },
+  {
+   "id": "s119",
+   "text": "One slip, and he's dead, or at least severely injured.",
+   "th": [
+    "climber",
+    "storm"
+   ],
+   "big": "slip",
+   "red": true,
+   "gap": 0.8
+  },
+  {
+   "id": "s120",
+   "text": "He slowly crawls up the rock and gets over it, shaking from adrenaline.",
+   "th": [
+    "climber"
+   ],
+   "big": "adrenaline",
+   "red": false,
+   "gap": 0.8
+  },
+  {
+   "id": "s121",
+   "text": "I'm glad he made it up. But now we have a new problem. It's dark.",
+   "th": [
+    "night",
+    "alpine"
+   ],
+   "big": "dark",
+   "red": true,
+   "gap": 1.0
+  },
+  {
+   "id": "s122",
+   "text": "So we get our headlamps out and keep climbing, until we finally reach a few steel cables where we're able to put our carabiners in.",
+   "th": [
+    "night",
+    "climber"
+   ],
+   "big": "cables",
+   "red": false,
+   "gap": 0.8
+  },
+  {
+   "id": "s123",
+   "text": "Turns out, the steel cable only lasted for a few meters. So now we're back to climbing free, with the full risk of falling down this huge cliff.",
+   "th": [
+    "climber",
+    "night"
+   ],
+   "big": "free",
+   "red": false,
+   "gap": 0.8
+  },
+  {
+   "id": "s124",
+   "text": "We put on our walking crampons, as there is about five centimeters of fresh snow.",
+   "th": [
+    "alpine",
+    "night"
+   ],
+   "big": "crampons",
+   "red": false,
+   "gap": 0.8
+  },
+  {
+   "id": "s125",
+   "text": "Shortly after, we find another steel cable to secure ourselves to.",
+   "th": [
+    "climber",
+    "night"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.8
+  },
+  {
+   "id": "s126",
+   "text": "And not long after that, now in complete darkness, we finally get to the steel ladder.",
+   "th": [
+    "night",
+    "climber"
+   ],
+   "big": "darkness",
+   "red": false,
+   "gap": 0.8
+  },
+  {
+   "id": "s127",
+   "text": "And shortly after that, we reach our goal. The small bivouac hut.",
+   "th": [
+    "hut",
+    "night"
+   ],
+   "big": "hut",
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s128",
+   "text": "Why am I telling you this story?",
+   "th": [
+    "hut"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.3
+  },
+  {
+   "id": "s129",
+   "text": "Well, one could say that this sidequest has gone too far.",
+   "th": [
+    "climber",
+    "night"
+   ],
+   "big": "sidequest",
+   "red": false,
+   "gap": 0.8
+  },
+  {
+   "id": "s130",
+   "text": "Climbing on snowy rocks, in darkness, with no cell service to call for help if something happened.",
+   "th": [
+    "night",
+    "alpine"
+   ],
+   "big": "darkness",
+   "red": false,
+   "gap": 0.8
+  },
+  {
+   "id": "s131",
+   "text": "But you know how I felt in this situation? I felt more alive than I ever have.",
+   "th": [
+    "sunrise",
+    "climber"
+   ],
+   "big": "alive",
+   "red": true,
+   "gap": 0.8
+  },
+  {
+   "id": "s132",
+   "text": "I was absolutely focused. There was not a single thought in my brain.",
+   "th": [
+    "climber"
+   ],
+   "big": "focused",
+   "red": false,
+   "gap": 0.8
+  },
+  {
+   "id": "s133",
+   "text": "I was in a deadly environment, and it made me burn all the brighter.",
+   "th": [
+    "night",
+    "alpine"
+   ],
+   "big": "brighter",
+   "red": false,
+   "gap": 0.8
+  },
+  {
+   "id": "s134",
+   "text": "After we reached the hut, I told my buddy that what we just did was definitely some good dad lore.",
+   "th": [
+    "hut",
+    "camp"
+   ],
+   "big": "lore",
+   "red": true,
+   "gap": 0.8
+  },
+  {
+   "id": "s135",
+   "text": "And that's the mindset you need to have too.",
+   "th": [
+    "face"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.8
+  },
+  {
+   "id": "s136",
+   "text": "When plans go wrong, when you're in an unexpectedly dangerous situation, you could start worrying and thinking about what ifs.",
+   "th": [
+    "storm",
+    "night"
+   ],
+   "big": "worrying",
+   "red": false,
+   "gap": 0.8
+  },
+  {
+   "id": "s137",
+   "text": "Or you could just shrug, and say that it's for the dad lore.",
+   "th": [
+    "camp",
+    "explorer"
+   ],
+   "big": "shrug",
+   "red": false,
+   "gap": 0.8
+  },
+  {
+   "id": "s138",
+   "text": "You're in the situation anyways. So why not make the best of it now?",
+   "th": [
+    "explorer"
+   ],
+   "big": "best",
+   "red": false,
+   "gap": 0.8
+  },
+  {
+   "id": "s139",
+   "text": "That way, the worst fucking thing can happen to you, but if you frame it correctly, you'll see how it's really just a damn good story to tell your children one day.",
+   "th": [
+    "camp",
+    "boys"
+   ],
+   "big": "story",
+   "red": false,
+   "gap": 0.8
+  },
+  {
+   "id": "s140",
+   "text": "It's all about framing.",
+   "th": [
+    "gentleman"
+   ],
+   "big": "framing",
+   "red": true,
+   "gap": 1.0
+  },
+  {
+   "id": "ch5",
+   "card": "chapter",
+   "num": "V",
+   "title": "The life awaiting you",
+   "len": 4.4
+  },
+  {
+   "id": "s141",
+   "text": "If you have watched this carefully, and really felt what I said, because that's important, to feel the spirit of this, you now understand what it means to be an antifragile, optimistic chad.",
+   "th": [
+    "sunrise",
+    "alpine"
+   ],
+   "big": "feel",
+   "red": false,
+   "gap": 0.8
+  },
+  {
+   "id": "s142",
+   "text": "But it takes balls to incorporate this into your life. Massive fucking balls.",
+   "th": [
+    "knight",
+    "climber"
+   ],
+   "big": "balls",
+   "red": false,
+   "gap": 0.8
+  },
+  {
+   "id": "s143",
+   "text": "It's scary as shit to let go of all the optimization and perfectionism. It's scary to do something that isn't one hundred percent planned out.",
+   "th": [
+    "night",
+    "sail"
+   ],
+   "big": "scary",
+   "red": false,
+   "gap": 0.8
+  },
+  {
+   "id": "s144",
+   "text": "But when you do it, you'll feel, for the first time in a while, that you are alive.",
+   "th": [
+    "sunrise"
+   ],
+   "big": "alive",
+   "red": true,
+   "gap": 0.8
+  },
+  {
+   "id": "s145",
+   "text": "That you are a capable man, able to deal with shit when it arrives, not needing to think about it prior to that.",
+   "th": [
+    "gentleman",
+    "climber"
+   ],
+   "big": "capable",
+   "red": false,
+   "gap": 0.8
+  },
+  {
+   "id": "s146",
+   "text": "You will not think of bad things as bad anymore.",
+   "th": [
+    "sunrise"
+   ],
+   "big": "bad",
+   "red": false,
+   "gap": 0.8
+  },
+  {
+   "id": "s147",
+   "text": "Failing at something is just a lesson.",
+   "th": [
+    "climber"
+   ],
+   "big": "lesson",
+   "red": false,
+   "gap": 0.8
+  },
+  {
+   "id": "s148",
+   "text": "A plan not working out is a sidequest.",
+   "th": [
+    "explorer"
+   ],
+   "big": "sidequest",
+   "red": false,
+   "gap": 0.8
+  },
+  {
+   "id": "s149",
+   "text": "Getting yourself into a dangerous situation is building dad lore.",
+   "th": [
+    "climber",
+    "night"
+   ],
+   "big": "lore",
+   "red": false,
+   "gap": 0.8
+  },
+  {
+   "id": "s150",
+   "text": "Getting rejected is a chance to try again.",
+   "th": [
+    "face"
+   ],
+   "big": "again",
+   "red": false,
+   "gap": 0.8
+  },
+  {
+   "id": "s151",
+   "text": "Going for the moon and falling short will still land you among the stars.",
+   "th": [
+    "stars"
+   ],
+   "big": "stars",
+   "red": true,
+   "gap": 1.0
+  },
+  {
+   "id": "s152",
+   "text": "You will be able to just do shit, because you have proven to yourself that you can deal with whatever might go wrong.",
+   "th": [
+    "sunrise",
+    "alpine"
+   ],
+   "big": "proven",
+   "red": false,
+   "gap": 0.8
+  },
+  {
+   "id": "s153",
+   "text": "That you're able to iterate along the way, change plans, adapt to the situation.",
+   "th": [
+    "sail"
+   ],
+   "big": "adapt",
+   "red": false,
+   "gap": 0.8
+  },
+  {
+   "id": "s154",
+   "text": "It's a very important skill to possess, and it's insanely rare nowadays.",
+   "th": [
+    "gentleman"
+   ],
+   "big": "rare",
+   "red": false,
+   "gap": 0.8
+  },
+  {
+   "id": "s155",
+   "text": "A man who, after something went wrong, is able to focus his thoughts, keep cool under the pressure, and navigate calmly what the next step to take is, and then the step after, and so on, until he manages to get himself and others out of the situation, is insanely valuable.",
+   "th": [
+    "storm",
+    "sail"
+   ],
+   "big": "valuable",
+   "red": false,
+   "gap": 0.8
+  },
+  {
+   "id": "s156",
+   "text": "But you only build that skill by allowing yourself to get into such situations in the first place.",
+   "th": [
+    "climber",
+    "alpine"
+   ],
+   "big": "build",
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s157",
+   "text": "So stop fucking thinking.",
+   "th": [
+    "face"
+   ],
+   "big": "thinking",
+   "red": true,
+   "gap": 0.8
+  },
+  {
+   "id": "s158",
+   "text": "Say yes more.",
+   "th": [
+    "feast",
+    "explorer"
+   ],
+   "big": "yes",
+   "red": false,
+   "gap": 0.8
+  },
+  {
+   "id": "s159",
+   "text": "Stop planning everything. Just take the first step.",
+   "th": [
+    "alpine"
+   ],
+   "big": "step",
+   "red": false,
+   "gap": 0.8
+  },
+  {
+   "id": "s160",
+   "text": "Have trust in God, and the abilities he has provided you.",
+   "th": [
+    "pray",
+    "sunrise"
+   ],
+   "big": "God",
+   "red": false,
+   "gap": 0.8
+  },
+  {
+   "id": "s161",
+   "text": "Start seeing bad things in a positive light, by framing them correctly.",
+   "th": [
+    "sunrise"
+   ],
+   "big": "light",
+   "red": false,
+   "gap": 0.8
+  },
+  {
+   "id": "s162",
+   "text": "Let these things serve you. Become better through them, like the antifragile man that you are.",
+   "th": [
+    "climber",
+    "alpine"
+   ],
+   "big": "antifragile",
+   "red": true,
+   "gap": 0.8
+  },
+  {
+   "id": "s163",
+   "text": "Learn to become capable under pressure, and ultimately, become a Bond-like man.",
+   "th": [
+    "gentleman"
+   ],
+   "big": "Bond-like",
+   "red": false,
+   "gap": 0.8
+  },
+  {
+   "id": "s164",
+   "text": "A life of certainty is a life of boredom. Pursue mystery for a bit.",
+   "th": [
+    "stars",
+    "sail"
+   ],
+   "big": "mystery",
+   "red": true,
+   "gap": 1.0
+  },
+  {
+   "id": "s165",
+   "text": "One must still have chaos in oneself to be able to give birth to a dancing star. Friedrich Nietzsche.",
+   "th": [
+    "stars",
+    "nietzsche"
+   ],
+   "big": "chaos",
+   "red": false,
+   "gap": 1.2
+  },
+  {
+   "id": "s166",
+   "text": "Vamos.",
+   "th": [
+    "sunrise",
+    "alpine"
+   ],
+   "big": "Vamos",
+   "red": true,
+   "gap": 2.0
+  }
+ ]
+}
