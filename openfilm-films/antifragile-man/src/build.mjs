@@ -18,7 +18,7 @@ const norm = (w) => w.toLowerCase().replace(/[^a-z0-9]/g, "");
 const dur = (f) => +execFileSync("ffprobe", ["-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", path.join(ROOT, f)]).toString();
 let seed = 5; const rnd = () => ((seed = (seed * 1103515245 + 12345) % 2147483648) / 2147483648);
 
-const ALIAS = { boys: ["boys", "school"], nietzsche: ["nietzsche", "stars"], duel: ["duel", "gentleman"], monk: ["monk", "pray"], hut: ["hut", "alpine"] };
+const ALIAS = { clerk: ["clerk", "writer", "crowd"], crowd: ["crowd", "clerk", "train"], face: ["face", "lonely"], pray: ["pray", "monk"], boys: ["boys", "school"], nietzsche: ["nietzsche", "stars"], duel: ["duel", "gentleman"], monk: ["monk", "pray"], hut: ["hut", "alpine"] };
 const uses = {}; const ALL = [...new Set(Object.values(POOLS).flat())]; ALL.forEach((k) => (uses[k] = 0));
 let recent = [];
 // a cut-out is used only when its figure leaves most of a red word visible: BAND is how much of the frame's middle the

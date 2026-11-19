@@ -1,1 +1,204 @@
-{}
+{
+ "lonely": [
+  "lonely-c2",
+  "lonely-c3",
+  "lonely-c4",
+  "lonely-c6",
+  "lonely-c8",
+  "lonely-c9",
+  "lonely-c10"
+ ],
+ "face": [
+  "face-c1",
+  "face-c2",
+  "face-c3"
+ ],
+ "clerk": [
+  "clerk-c2"
+ ],
+ "crowd": [
+  "crowd-c1"
+ ],
+ "night": [
+  "night-c1",
+  "night-c2",
+  "night-c3",
+  "night-c4",
+  "night-c5"
+ ],
+ "storm": [
+  "storm-c1",
+  "storm-c2",
+  "storm-c3",
+  "storm-c4",
+  "storm-c5",
+  "storm-c6",
+  "storm-c7"
+ ],
+ "knight": [
+  "knight-c1",
+  "knight-c2",
+  "knight-c3",
+  "knight-c4",
+  "knight-c5",
+  "knight-c7"
+ ],
+ "explorer": [
+  "explorer-c1",
+  "explorer-c2",
+  "explorer-c4",
+  "explorer-c5",
+  "explorer-c7",
+  "explorer-c8"
+ ],
+ "boys": [
+  "boys-c1",
+  "boys-c2",
+  "boys-c3",
+  "boys-c4"
+ ],
+ "school": [
+  "school-c1",
+  "school-c3",
+  "school-c4",
+  "school-c5",
+  "school-c6",
+  "school-c7",
+  "school-c8"
+ ],
+ "alpine": [
+  "alpine-c1",
+  "alpine-c2",
+  "alpine-c3",
+  "alpine-c4",
+  "alpine-c5",
+  "alpine-c6",
+  "alpine-c7",
+  "alpine-c8",
+  "alpine-c9",
+  "alpine-c10",
+  "alpine-c11",
+  "alpine-c12",
+  "alpine-c13",
+  "alpine-c14",
+  "alpine-c15",
+  "alpine-c16",
+  "alpine-c17",
+  "alpine-c18",
+  "alpine-c19"
+ ],
+ "sunrise": [
+  "sunrise-c1",
+  "sunrise-c2",
+  "sunrise-c4",
+  "sunrise-c5"
+ ],
+ "camp": [
+  "camp-c1",
+  "camp-c2",
+  "camp-c3",
+  "camp-c6",
+  "camp-c7",
+  "camp-c8"
+ ],
+ "gentleman": [
+  "gentleman-c4",
+  "gentleman-c8",
+  "gentleman-c9",
+  "gentleman-c10",
+  "gentleman-c11"
+ ],
+ "duel": [
+  "duel-c3",
+  "duel-c4",
+  "duel-c5"
+ ],
+ "writer": [
+  "writer-c1",
+  "writer-c3",
+  "writer-c4",
+  "writer-c5",
+  "writer-c6",
+  "writer-c7",
+  "writer-c9",
+  "writer-c10"
+ ],
+ "monk": [
+  "monk-c1",
+  "monk-c2",
+  "monk-c3",
+  "monk-c4",
+  "monk-c5"
+ ],
+ "feast": [
+  "feast-c2",
+  "feast-c4",
+  "feast-c7",
+  "feast-c8",
+  "feast-c9",
+  "feast-c10",
+  "feast-c11"
+ ],
+ "sail": [
+  "sail-c1",
+  "sail-c2",
+  "sail-c4",
+  "sail-c5",
+  "sail-c6",
+  "sail-c7"
+ ],
+ "horse": [
+  "horse-c1",
+  "horse-c3",
+  "horse-c4",
+  "horse-c5",
+  "horse-c6",
+  "horse-c8"
+ ],
+ "train": [
+  "train-c2",
+  "train-c4",
+  "train-c5",
+  "train-c7",
+  "train-c8",
+  "train-c9",
+  "train-c11",
+  "train-c12"
+ ],
+ "pray": [
+  "pray-c1",
+  "pray-c2",
+  "pray-c3"
+ ],
+ "climber": [
+  "climber-c1",
+  "climber-c2",
+  "climber-c4",
+  "climber-c5",
+  "climber-c6",
+  "climber-c7",
+  "climber-c8"
+ ],
+ "hut": [
+  "hut-c1",
+  "hut-c2",
+  "hut-c3",
+  "hut-c4",
+  "hut-c5",
+  "hut-c6",
+  "hut-c7",
+  "hut-c8"
+ ],
+ "stars": [
+  "stars-c1",
+  "stars-c2",
+  "stars-c9",
+  "stars-c11"
+ ],
+ "nietzsche": [
+  "nietzsche-c1",
+  "nietzsche-c2",
+  "nietzsche-c6",
+  "nietzsche-c8"
+ ]
+}
