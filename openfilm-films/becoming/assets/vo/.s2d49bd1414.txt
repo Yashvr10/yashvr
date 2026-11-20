@@ -1,0 +1,1 @@
+bm_lewis|0.84|0.93|The statue is already inside the block of marble. I only take away what is not the statue.
