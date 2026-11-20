@@ -1,0 +1,10 @@
+rice.ogv https://upload.wikimedia.org/wikipedia/commons/d/d0/President_Kennedy_speech_on_the_space_effort_at_Rice_University%2C_September_12%2C_1962.ogv
+inaugural.webm https://upload.wikimedia.org/wikipedia/commons/transcoded/7/74/John_F._Kennedy_Inauguration_Speech.ogv/John_F._Kennedy_Inauguration_Speech.ogv.480p.vp9.webm
+pointe.webm https://upload.wikimedia.org/wikipedia/commons/transcoded/b/ba/President_Reagan%27s_Address_for_the_40th_Anniversary_of_D-Day_in_Pointe_du_Hoc%2C_Normandy%2C_France.webm/President_Reagan%27s_Address_for_the_40th_Anniversary_of_D-Day_in_Pointe_du_Hoc%2C_Normandy%2C_France.webm.480p.vp9.webm
+challenger.webm https://upload.wikimedia.org/wikipedia/commons/transcoded/3/3e/President_Ronald_Reagan%27s_Speech_on_Space_Shuttle_Challenger%2C_January_28%2C_1986.webm/President_Ronald_Reagan%27s_Speech_on_Space_Shuttle_Challenger%2C_January_28%2C_1986.webm.480p.vp9.webm
+wall.ogv https://upload.wikimedia.org/wikipedia/commons/8/8e/Tear_down_this_wall.ogv
+joplin.webm https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a1/President_Obama_Speaks_at_the_Joplin_High_School_Commencement_Ceremony.webm/President_Obama_Speaks_at_the_Joplin_High_School_Commencement_Ceremony.webm.480p.vp9.webm
+civil.webm https://upload.wikimedia.org/wikipedia/commons/a/a3/Civil_Rights_Address_%281963%29.webm
+apollo.ogv https://upload.wikimedia.org/wikipedia/commons/a/a6/Apollo_11_Landing_-_first_steps_on_the_moon.ogv
+teddy.wav https://upload.wikimedia.org/wikipedia/commons/a/ab/The_Right_of_the_People_to_Rule_%28Speech_by_Theodore_Roosevelt%29.wav
+ohio.webm https://upload.wikimedia.org/wikipedia/commons/transcoded/e/e0/President_Obama_Speaks_at_The_Ohio_State_University_Commencement_Ceremony.webm/President_Obama_Speaks_at_The_Ohio_State_University_Commencement_Ceremony.webm.480p.vp9.webm
