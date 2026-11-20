@@ -1,0 +1,2291 @@
+{
+ "voice": "bm_lewis",
+ "speed": 0.84,
+ "pitch": 0.93,
+ "scenes": [
+  {
+   "id": "s001",
+   "text": "There is a very old idea, older than any of our religions, that every living thing already carries inside it the shape of what it is going to be.",
+   "th": [
+    "oak",
+    "seed"
+   ],
+   "big": "shape",
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s002",
+   "text": "The acorn does not know it is an oak.",
+   "th": [
+    "seed"
+   ],
+   "big": "acorn",
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s003",
+   "text": "It does not lie awake in the soil, worrying about whether it has the talent for it.",
+   "th": [
+    "seed",
+    "night"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s004",
+   "text": "It does not read books about how to become a tree.",
+   "th": [
+    "seed",
+    "oak"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s005",
+   "text": "It simply becomes one, because that is what it is.",
+   "th": [
+    "oak"
+   ],
+   "big": "becomes",
+   "red": false,
+   "gap": 1.3
+  },
+  {
+   "id": "s006",
+   "text": "Now, you and I are a little more complicated than an acorn.",
+   "th": [
+    "face"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s007",
+   "text": "We are the only creatures, so far as we know, who can look at ourselves and ask, what am I supposed to be?",
+   "th": [
+    "mirror",
+    "face"
+   ],
+   "big": "supposed",
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s008",
+   "text": "And that question is both our great gift and our great trouble.",
+   "th": [
+    "face",
+    "thinker"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s009",
+   "text": "Because the moment we ask it, we usually go looking for the answer in the wrong place.",
+   "th": [
+    "crowd",
+    "road"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s010",
+   "text": "We look outside.",
+   "th": [
+    "crowd"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.5
+  },
+  {
+   "id": "s011",
+   "text": "We look at what our parents wanted, what our teachers praised, what the neighbours seem to admire.",
+   "th": [
+    "family",
+    "school"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s012",
+   "text": "We look at the people on the screens, the ones who seem to have arrived somewhere.",
+   "th": [
+    "crowd"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s013",
+   "text": "And we try to build ourselves out of borrowed pieces, like a house made from other people's furniture.",
+   "th": [
+    "interior",
+    "face"
+   ],
+   "big": "borrowed",
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s014",
+   "text": "Then we wonder why we never quite feel at home in it.",
+   "th": [
+    "interior",
+    "night"
+   ],
+   "big": "home",
+   "red": false,
+   "gap": 1.3
+  },
+  {
+   "id": "s015",
+   "text": "The ancient Greek poet Pindar left behind a line that has echoed down for two and a half thousand years.",
+   "th": [
+    "greek",
+    "thinker"
+   ],
+   "big": "Pindar",
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s016",
+   "text": "Become what you are.",
+   "th": [
+    "greek",
+    "warrior"
+   ],
+   "big": "become",
+   "red": false,
+   "gap": 1.4
+  },
+  {
+   "id": "s017",
+   "text": "Not become what you are told. Not become what you are afraid of. Become what you are.",
+   "th": [
+    "warrior",
+    "face"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s018",
+   "text": "It sounds simple. It is perhaps the hardest thing a human being can do.",
+   "th": [
+    "warrior",
+    "mountain"
+   ],
+   "big": "hardest",
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s019",
+   "text": "And this is a talk about how it might be done.",
+   "th": [
+    "road",
+    "sunrise"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.6
+  },
+  {
+   "id": "ch1",
+   "card": "chapter",
+   "num": "I",
+   "title": "The seed and the soil",
+   "len": 4.4
+  },
+  {
+   "id": "s020",
+   "text": "Let us go back to the acorn for a moment, because it has more to teach us than we think.",
+   "th": [
+    "seed",
+    "oak"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s021",
+   "text": "Inside that small brown shell there is no tiny tree waiting to be unfolded, like a paper flower in water.",
+   "th": [
+    "seed"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s022",
+   "text": "There is only a pattern, a tendency, a direction.",
+   "th": [
+    "seed",
+    "forest"
+   ],
+   "big": "direction",
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s023",
+   "text": "Whether it becomes a great oak depends on where it falls.",
+   "th": [
+    "oak",
+    "forest"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s024",
+   "text": "On rock, it withers. In shade, it waits. In good earth, with rain and light, it rises.",
+   "th": [
+    "rock",
+    "forest",
+    "sunrise"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s025",
+   "text": "So becoming is never something you do alone.",
+   "th": [
+    "oak"
+   ],
+   "big": "alone",
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s026",
+   "text": "It is a conversation between what is inside you and the world that surrounds you.",
+   "th": [
+    "landscape",
+    "face"
+   ],
+   "big": "conversation",
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s027",
+   "text": "And here is the first thing most of us get wrong.",
+   "th": [
+    "thinker"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.6
+  },
+  {
+   "id": "s028",
+   "text": "We think the seed must fight the soil.",
+   "th": [
+    "seed",
+    "rock"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s029",
+   "text": "We think that to become ourselves we must stand against everything, push, strain, grit our teeth and force our way upward.",
+   "th": [
+    "warrior",
+    "storm"
+   ],
+   "big": "force",
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s030",
+   "text": "But watch a tree grow, and you will see no strain in it at all.",
+   "th": [
+    "oak",
+    "forest"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s031",
+   "text": "Its roots go down exactly as far as they need to go. Its branches reach for the light that is actually there.",
+   "th": [
+    "oak",
+    "sunrise"
+   ],
+   "big": "light",
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s032",
+   "text": "It does not grow toward the light it wishes it had.",
+   "th": [
+    "oak"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.2
+  },
+  {
+   "id": "s033",
+   "text": "There is a kind of intelligence in that.",
+   "th": [
+    "forest"
+   ],
+   "big": "intelligence",
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s034",
+   "text": "Not the intelligence of planning, but the intelligence of response.",
+   "th": [
+    "forest",
+    "river"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s035",
+   "text": "The tree listens to its world, and answers it, season after season.",
+   "th": [
+    "oak",
+    "seasons"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s036",
+   "text": "And most of us have forgotten how to listen.",
+   "th": [
+    "face",
+    "crowd"
+   ],
+   "big": "listen",
+   "red": false,
+   "gap": 1.2
+  },
+  {
+   "id": "s037",
+   "text": "We were born listening.",
+   "th": [
+    "child"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s038",
+   "text": "A small child does not need to be told what is interesting to it.",
+   "th": [
+    "child"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s039",
+   "text": "It goes straight to the thing, the beetle, the puddle, the box of buttons, and it is completely absorbed.",
+   "th": [
+    "child",
+    "garden"
+   ],
+   "big": "absorbed",
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s040",
+   "text": "Nobody has taught it to care about these things. It just does.",
+   "th": [
+    "child"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s041",
+   "text": "That absorption is the seed showing itself.",
+   "th": [
+    "child",
+    "seed"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.2
+  },
+  {
+   "id": "s042",
+   "text": "And then, slowly, the world begins to correct us.",
+   "th": [
+    "school"
+   ],
+   "big": "correct",
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s043",
+   "text": "Sit still. Be sensible. That is not a real job. People like us do not do that.",
+   "th": [
+    "school",
+    "family"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s044",
+   "text": "Every correction is a little fence put around the seedling.",
+   "th": [
+    "garden",
+    "school"
+   ],
+   "big": "fence",
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s045",
+   "text": "Some fences are kind, and keep the young plant from being trampled.",
+   "th": [
+    "garden"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s046",
+   "text": "But some of them are built by other people's fears, and they stay up long after the danger has passed.",
+   "th": [
+    "family",
+    "night"
+   ],
+   "big": "fears",
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s047",
+   "text": "By the time we are grown, many of us are living inside a garden of fences, and we call it our personality.",
+   "th": [
+    "garden",
+    "face"
+   ],
+   "big": "personality",
+   "red": false,
+   "gap": 1.4
+  },
+  {
+   "id": "s048",
+   "text": "So the first step in becoming what you are is not to add anything.",
+   "th": [
+    "thinker"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s049",
+   "text": "It is to notice the fences.",
+   "th": [
+    "garden"
+   ],
+   "big": "notice",
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s050",
+   "text": "To ask, gently, of each belief you hold about yourself, who put this here?",
+   "th": [
+    "face",
+    "mirror"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s051",
+   "text": "Did I choose it, or was it simply handed to me, the way you are handed a coat at the door?",
+   "th": [
+    "interior",
+    "face"
+   ],
+   "big": "handed",
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s052",
+   "text": "You will be surprised how many of the walls in your life you never actually built.",
+   "th": [
+    "ruins",
+    "face"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.6
+  },
+  {
+   "id": "ch2",
+   "card": "chapter",
+   "num": "II",
+   "title": "The masks we wear",
+   "len": 4.4
+  },
+  {
+   "id": "s053",
+   "text": "The word person comes from an old Latin word, persona.",
+   "th": [
+    "theatre"
+   ],
+   "big": "persona",
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s054",
+   "text": "And a persona was the mask that an actor wore on the stage.",
+   "th": [
+    "theatre",
+    "mask"
+   ],
+   "big": "mask",
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s055",
+   "text": "Think about that for a moment. The very word we use for who we are originally meant a mask.",
+   "th": [
+    "mask",
+    "face"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s056",
+   "text": "Through the mouth of it, the sound of the actor's voice came out. Per sona. Through the sound.",
+   "th": [
+    "theatre"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.2
+  },
+  {
+   "id": "s057",
+   "text": "Now, there is nothing wrong with masks.",
+   "th": [
+    "mask"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s058",
+   "text": "You need a face for the office, a face for your family, a face for strangers on the train.",
+   "th": [
+    "crowd",
+    "family",
+    "train"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s059",
+   "text": "Society is a great play, and we all have parts in it.",
+   "th": [
+    "theatre",
+    "crowd"
+   ],
+   "big": "play",
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s060",
+   "text": "The trouble begins when you forget that you are acting.",
+   "th": [
+    "mask",
+    "mirror"
+   ],
+   "big": "forget",
+   "red": false,
+   "gap": 1.2
+  },
+  {
+   "id": "s061",
+   "text": "When the mask has been worn so long that it has grown into the skin.",
+   "th": [
+    "mask",
+    "face"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s062",
+   "text": "When you go home at night, take off your shoes, sit alone in the quiet, and the mask is still on.",
+   "th": [
+    "night",
+    "interior"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s063",
+   "text": "When you cannot remember what your own face looked like.",
+   "th": [
+    "mirror",
+    "face"
+   ],
+   "big": "face",
+   "red": false,
+   "gap": 1.3
+  },
+  {
+   "id": "s064",
+   "text": "You can tell when this has happened, because life starts to feel like a performance with no interval.",
+   "th": [
+    "theatre",
+    "crowd"
+   ],
+   "big": "performance",
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s065",
+   "text": "You are tired, but not from work. You are tired from keeping the act going.",
+   "th": [
+    "face",
+    "night"
+   ],
+   "big": "tired",
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s066",
+   "text": "Every conversation becomes a small audition.",
+   "th": [
+    "crowd",
+    "salon"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s067",
+   "text": "Every success feels like it belongs to someone else, because, in a sense, it does.",
+   "th": [
+    "crowd",
+    "face"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s068",
+   "text": "It belongs to the character you have been playing.",
+   "th": [
+    "theatre",
+    "mask"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.4
+  },
+  {
+   "id": "s069",
+   "text": "Here is the strange thing about all this.",
+   "th": [
+    "thinker"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.6
+  },
+  {
+   "id": "s070",
+   "text": "We wear the mask because we are afraid that, without it, we would not be loved.",
+   "th": [
+    "mask",
+    "family"
+   ],
+   "big": "loved",
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s071",
+   "text": "And yet the mask is exactly what keeps us from ever being loved.",
+   "th": [
+    "mask",
+    "face"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s072",
+   "text": "Because when someone admires the mask, it is the mask they admire, not you.",
+   "th": [
+    "salon",
+    "mask"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s073",
+   "text": "So the more successful the performance, the lonelier the performer.",
+   "th": [
+    "theatre",
+    "night"
+   ],
+   "big": "lonelier",
+   "red": false,
+   "gap": 1.4
+  },
+  {
+   "id": "s074",
+   "text": "You see this in the lives of people who seem to have everything.",
+   "th": [
+    "salon",
+    "feast"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s075",
+   "text": "The great house, the reputation, the good marriage, all the outward signs of a life well built.",
+   "th": [
+    "feast",
+    "interior"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s076",
+   "text": "And inside it, a person quietly wondering when the real life is going to begin.",
+   "th": [
+    "face",
+    "window"
+   ],
+   "big": "real",
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s077",
+   "text": "Waiting for permission to be the one they actually are.",
+   "th": [
+    "window",
+    "face"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.4
+  },
+  {
+   "id": "s078",
+   "text": "Nobody is going to give you that permission.",
+   "th": [
+    "face"
+   ],
+   "big": "permission",
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s079",
+   "text": "Not because they are cruel, but because they cannot.",
+   "th": [
+    "crowd"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s080",
+   "text": "The only one who knows where the mask ends and the face begins is you.",
+   "th": [
+    "mirror",
+    "face"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s081",
+   "text": "And you find out the way an actor finds out, by stepping off the stage, now and then, and standing in the dark wings, where nobody is watching.",
+   "th": [
+    "theatre",
+    "night"
+   ],
+   "big": "watching",
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s082",
+   "text": "Just to feel what it is like to be no one in particular.",
+   "th": [
+    "night",
+    "landscape"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.6
+  },
+  {
+   "id": "ch3",
+   "card": "chapter",
+   "num": "III",
+   "title": "You cannot force a flower",
+   "len": 4.4
+  },
+  {
+   "id": "s083",
+   "text": "In ancient China, there is a story about a farmer who was worried that his rice was growing too slowly.",
+   "th": [
+    "china",
+    "field"
+   ],
+   "big": "farmer",
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s084",
+   "text": "Every morning he went out and looked at the young shoots, and every morning they seemed exactly the same.",
+   "th": [
+    "field",
+    "sunrise"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s085",
+   "text": "So one day, out of impatience, he went along the rows and pulled each shoot up a little, to help it grow.",
+   "th": [
+    "field",
+    "china"
+   ],
+   "big": "pulled",
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s086",
+   "text": "He came home exhausted, and very pleased with himself. I have helped the rice to grow, he said.",
+   "th": [
+    "china",
+    "interior"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s087",
+   "text": "His son ran out to the field to see. And every shoot was dead.",
+   "th": [
+    "field"
+   ],
+   "big": "dead",
+   "red": false,
+   "gap": 1.4
+  },
+  {
+   "id": "s088",
+   "text": "We do this to ourselves all the time.",
+   "th": [
+    "face"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s089",
+   "text": "We decide what we ought to be, and then we pull at ourselves to get there faster.",
+   "th": [
+    "face",
+    "storm"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s090",
+   "text": "We read a book about discipline and wake at five o'clock for a week and then collapse.",
+   "th": [
+    "window",
+    "night"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s091",
+   "text": "We force ourselves into a career because it looks right on paper, and wonder why something in us goes quiet and grey.",
+   "th": [
+    "clerk",
+    "face"
+   ],
+   "big": "grey",
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s092",
+   "text": "We are trying to help the rice to grow.",
+   "th": [
+    "field"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.3
+  },
+  {
+   "id": "s093",
+   "text": "The old Chinese sages had a word for the opposite of this. They called it wu wei.",
+   "th": [
+    "china",
+    "sage"
+   ],
+   "big": "wu wei",
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s094",
+   "text": "It is usually translated as not doing, but that is not quite right.",
+   "th": [
+    "sage"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s095",
+   "text": "It means not forcing. Acting in such a way that you go with the grain of things instead of against it.",
+   "th": [
+    "river",
+    "sage"
+   ],
+   "big": "grain",
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s096",
+   "text": "A good carpenter does not hack at the wood. He feels where it wants to split, and he follows it.",
+   "th": [
+    "workshop"
+   ],
+   "big": "carpenter",
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s097",
+   "text": "A good sailor does not fight the wind. He uses it, even when it blows against him.",
+   "th": [
+    "sail"
+   ],
+   "big": "sailor",
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s098",
+   "text": "And a person who is becoming themselves does not fight their own nature.",
+   "th": [
+    "face",
+    "river"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s099",
+   "text": "They find where it is already moving, and they help it along.",
+   "th": [
+    "river",
+    "landscape"
+   ],
+   "big": "moving",
+   "red": false,
+   "gap": 1.4
+  },
+  {
+   "id": "s100",
+   "text": "So how do you find the grain of your own wood?",
+   "th": [
+    "workshop",
+    "thinker"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s101",
+   "text": "You look at where your attention goes when nobody is directing it.",
+   "th": [
+    "window",
+    "face"
+   ],
+   "big": "attention",
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s102",
+   "text": "What do you find yourself doing when you have an empty afternoon and nothing that must be done?",
+   "th": [
+    "garden",
+    "interior"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s103",
+   "text": "What could you talk about for hours, until you look up and the tea has gone cold?",
+   "th": [
+    "salon",
+    "interior"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s104",
+   "text": "What kind of difficulty do you not mind?",
+   "th": [
+    "workshop",
+    "mountain"
+   ],
+   "big": "difficulty",
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s105",
+   "text": "Because every life worth living has difficulty in it. The question is only which difficulty is yours.",
+   "th": [
+    "mountain",
+    "climber"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s106",
+   "text": "Some people love the slow puzzle of numbers. Some love the mess of a kitchen. Some love standing in front of a room and making people laugh.",
+   "th": [
+    "writer",
+    "kitchen",
+    "theatre"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s107",
+   "text": "None of these is better than the others. They are simply different grains in different woods.",
+   "th": [
+    "workshop",
+    "forest"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.4
+  },
+  {
+   "id": "s108",
+   "text": "And here is the thing about the flower.",
+   "th": [
+    "flower"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.5
+  },
+  {
+   "id": "s109",
+   "text": "A rose does not try to be a lily.",
+   "th": [
+    "flower"
+   ],
+   "big": "rose",
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s110",
+   "text": "It does not compare its petals with the tulip's and feel ashamed.",
+   "th": [
+    "flower",
+    "garden"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s111",
+   "text": "It has no idea that it is supposed to be beautiful. It just opens.",
+   "th": [
+    "flower"
+   ],
+   "big": "opens",
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s112",
+   "text": "And the opening happens at its own speed, and no amount of shouting at it will make it open faster.",
+   "th": [
+    "flower",
+    "garden"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s113",
+   "text": "You cannot force a flower. You can only give it the light.",
+   "th": [
+    "flower",
+    "sunrise"
+   ],
+   "big": "light",
+   "red": false,
+   "gap": 1.6
+  },
+  {
+   "id": "ch4",
+   "card": "chapter",
+   "num": "IV",
+   "title": "The pain of becoming",
+   "len": 4.4
+  },
+  {
+   "id": "s114",
+   "text": "Now, I do not want to make this sound easy, as if becoming yourself is just a matter of relaxing in the garden.",
+   "th": [
+    "garden",
+    "thinker"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s115",
+   "text": "Because there is a part of it that hurts.",
+   "th": [
+    "storm",
+    "face"
+   ],
+   "big": "hurts",
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s116",
+   "text": "Think of the caterpillar.",
+   "th": [
+    "insect",
+    "garden"
+   ],
+   "big": "caterpillar",
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s117",
+   "text": "At a certain point in its life, it stops eating, hangs itself from a branch, and wraps itself in a case of its own making.",
+   "th": [
+    "insect",
+    "forest"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s118",
+   "text": "And inside that case, something extraordinary happens.",
+   "th": [
+    "insect"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s119",
+   "text": "It does not simply grow wings. It dissolves.",
+   "th": [
+    "insect",
+    "night"
+   ],
+   "big": "dissolves",
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s120",
+   "text": "Almost the whole body of the caterpillar breaks down into a kind of soup.",
+   "th": [
+    "insect"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s121",
+   "text": "And out of that soup, the butterfly is built.",
+   "th": [
+    "insect",
+    "flower"
+   ],
+   "big": "butterfly",
+   "red": false,
+   "gap": 1.3
+  },
+  {
+   "id": "s122",
+   "text": "If the caterpillar could think, I imagine it would be terrified.",
+   "th": [
+    "insect",
+    "night"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s123",
+   "text": "Everything it knew itself to be is coming apart.",
+   "th": [
+    "storm",
+    "ruins"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s124",
+   "text": "It would have no way of knowing that this was not death, but transformation.",
+   "th": [
+    "night",
+    "sunrise"
+   ],
+   "big": "transformation",
+   "red": false,
+   "gap": 1.3
+  },
+  {
+   "id": "s125",
+   "text": "Many of the most painful times in a human life are like this.",
+   "th": [
+    "face",
+    "storm"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s126",
+   "text": "The end of a relationship. The loss of a job you thought defined you. A move to a strange city. An illness. A grief.",
+   "th": [
+    "road",
+    "night",
+    "funeral"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s127",
+   "text": "At the time, they feel like everything is falling apart. And in a sense, it is.",
+   "th": [
+    "ruins",
+    "storm"
+   ],
+   "big": "apart",
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s128",
+   "text": "The old shape of you is dissolving.",
+   "th": [
+    "ruins",
+    "face"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s129",
+   "text": "But it is very often in exactly these moments that the new shape begins to form.",
+   "th": [
+    "sunrise",
+    "insect"
+   ],
+   "big": "form",
+   "red": false,
+   "gap": 1.4
+  },
+  {
+   "id": "s130",
+   "text": "The sculptor Michelangelo is said to have described his work in a very simple way.",
+   "th": [
+    "sculptor"
+   ],
+   "big": "Michelangelo",
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s131",
+   "text": "The statue is already inside the block of marble. I only take away what is not the statue.",
+   "th": [
+    "sculptor",
+    "statue"
+   ],
+   "big": "marble",
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s132",
+   "text": "Every blow of the chisel is a loss. A piece of stone, which was once part of the block, falls to the floor and is swept away.",
+   "th": [
+    "sculptor",
+    "workshop"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s133",
+   "text": "If the stone could feel, it might grieve for every chip.",
+   "th": [
+    "sculptor"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s134",
+   "text": "But without those losses, there would only ever be a block. Never a figure.",
+   "th": [
+    "statue"
+   ],
+   "big": "figure",
+   "red": false,
+   "gap": 1.4
+  },
+  {
+   "id": "s135",
+   "text": "So when life takes something from you, it is worth asking a strange question.",
+   "th": [
+    "thinker",
+    "face"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s136",
+   "text": "Not only, why is this happening to me, but, what is being uncovered?",
+   "th": [
+    "statue",
+    "face"
+   ],
+   "big": "uncovered",
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s137",
+   "text": "What part of me was hidden under the thing I have just lost?",
+   "th": [
+    "mirror",
+    "face"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s138",
+   "text": "This is not to say that suffering is good, or that you should go looking for it.",
+   "th": [
+    "face"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s139",
+   "text": "Only that, when it comes, as it comes to everyone, it does not have to be wasted.",
+   "th": [
+    "storm",
+    "sunrise"
+   ],
+   "big": "wasted",
+   "red": false,
+   "gap": 1.4
+  },
+  {
+   "id": "s140",
+   "text": "There is a phrase from the German poet Rilke that I have always loved.",
+   "th": [
+    "writer"
+   ],
+   "big": "Rilke",
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s141",
+   "text": "He wrote to a young poet who was in despair, and he told him, be patient toward all that is unsolved in your heart.",
+   "th": [
+    "writer",
+    "letter"
+   ],
+   "big": "patient",
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s142",
+   "text": "Try to love the questions themselves.",
+   "th": [
+    "writer",
+    "window"
+   ],
+   "big": "questions",
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s143",
+   "text": "Live the questions now, and perhaps, without noticing it, you will gradually live along some distant day into the answer.",
+   "th": [
+    "road",
+    "sunrise"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.6
+  },
+  {
+   "id": "ch5",
+   "card": "chapter",
+   "num": "V",
+   "title": "The way of water",
+   "len": 4.4
+  },
+  {
+   "id": "s144",
+   "text": "Lao Tzu, the old master of the Tao, said that the highest good is like water.",
+   "th": [
+    "sage",
+    "river"
+   ],
+   "big": "water",
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s145",
+   "text": "Water does not argue with anything.",
+   "th": [
+    "river"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s146",
+   "text": "It does not push against the rock in its path. It goes around it, or under it, or it waits until it has risen high enough to go over it.",
+   "th": [
+    "river",
+    "rock"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s147",
+   "text": "And yet, given enough time, it wears the rock away.",
+   "th": [
+    "river",
+    "rock"
+   ],
+   "big": "time",
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s148",
+   "text": "Nothing in the world is softer than water, Lao Tzu said, and yet nothing is better at overcoming the hard and the strong.",
+   "th": [
+    "river",
+    "sea"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.4
+  },
+  {
+   "id": "s149",
+   "text": "There is a great lesson in this for anyone who wants to become something.",
+   "th": [
+    "river",
+    "thinker"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s150",
+   "text": "We imagine that becoming great requires a kind of violence. Hard work, hard discipline, a hard heart.",
+   "th": [
+    "warrior",
+    "storm"
+   ],
+   "big": "violence",
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s151",
+   "text": "And there is a place for effort, of course. Water flows a long way.",
+   "th": [
+    "river",
+    "landscape"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s152",
+   "text": "But notice that it never stops being water.",
+   "th": [
+    "river"
+   ],
+   "big": "water",
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s153",
+   "text": "It never tries to become stone in order to beat the stone.",
+   "th": [
+    "river",
+    "rock"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.3
+  },
+  {
+   "id": "s154",
+   "text": "When you try to become yourself by becoming hard, you usually become someone else.",
+   "th": [
+    "warrior",
+    "face"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s155",
+   "text": "You become the hardened version of yourself, the one who has no time, no softness, no play.",
+   "th": [
+    "clerk",
+    "face"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s156",
+   "text": "And then, when you arrive at the top of the mountain, you find you have lost the very person who wanted to climb it.",
+   "th": [
+    "mountain",
+    "climber"
+   ],
+   "big": "lost",
+   "red": false,
+   "gap": 1.4
+  },
+  {
+   "id": "s157",
+   "text": "Water also teaches us something about stillness.",
+   "th": [
+    "lake"
+   ],
+   "big": "stillness",
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s158",
+   "text": "When a pond is churned up, you cannot see the bottom. The mud swirls everywhere.",
+   "th": [
+    "lake",
+    "storm"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s159",
+   "text": "But if you leave it alone, and do nothing at all, the mud settles by itself.",
+   "th": [
+    "lake"
+   ],
+   "big": "settles",
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s160",
+   "text": "And the water becomes clear.",
+   "th": [
+    "lake",
+    "sunrise"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.3
+  },
+  {
+   "id": "s161",
+   "text": "Most of us are trying to see who we are while constantly stirring the water.",
+   "th": [
+    "crowd",
+    "lake"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s162",
+   "text": "We fill every quiet moment with noise, with news, with the endless chatter of other people's lives.",
+   "th": [
+    "crowd",
+    "train"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s163",
+   "text": "And then we complain that we do not know what we want.",
+   "th": [
+    "face"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s164",
+   "text": "Of course we don't. The water never gets the chance to settle.",
+   "th": [
+    "lake",
+    "night"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.3
+  },
+  {
+   "id": "s165",
+   "text": "So sit, sometimes, and do nothing at all.",
+   "th": [
+    "monk",
+    "sage"
+   ],
+   "big": "nothing",
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s166",
+   "text": "Not as a technique, not to become more productive, but simply to let the mud fall.",
+   "th": [
+    "monk",
+    "lake"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s167",
+   "text": "Walk without headphones. Look out of a window for a long time.",
+   "th": [
+    "window",
+    "road"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s168",
+   "text": "And in that stillness, quietly, like a fish rising to the surface, something will come up.",
+   "th": [
+    "lake",
+    "monk"
+   ],
+   "big": "stillness",
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s169",
+   "text": "A memory, a longing, a small and obvious truth you have been too busy to hear.",
+   "th": [
+    "window",
+    "face"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s170",
+   "text": "That is your nature, speaking. It has been speaking all along.",
+   "th": [
+    "landscape",
+    "face"
+   ],
+   "big": "nature",
+   "red": false,
+   "gap": 1.6
+  },
+  {
+   "id": "ch6",
+   "card": "chapter",
+   "num": "VI",
+   "title": "Become what you are",
+   "len": 4.4
+  },
+  {
+   "id": "s171",
+   "text": "There is an old Indian story about a tiger cub who was raised by goats.",
+   "th": [
+    "india",
+    "tiger"
+   ],
+   "big": "tiger",
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s172",
+   "text": "His mother had died, and the goats took him in, and so he grew up eating grass and bleating like them.",
+   "th": [
+    "goats",
+    "field"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s173",
+   "text": "He was a rather poor goat. The grass made him thin, and his bleat came out strange.",
+   "th": [
+    "goats",
+    "tiger"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s174",
+   "text": "One day an old tiger came out of the jungle, and the goats scattered, but the young one stood there, confused.",
+   "th": [
+    "tiger",
+    "forest"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s175",
+   "text": "The old tiger looked at him in disgust and said, what are you doing, living among the goats?",
+   "th": [
+    "tiger"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s176",
+   "text": "And he took the cub by the scruff of the neck down to a still pool, and said, look.",
+   "th": [
+    "tiger",
+    "lake"
+   ],
+   "big": "look",
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s177",
+   "text": "And for the first time, the cub saw his own face in the water.",
+   "th": [
+    "lake",
+    "tiger"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s178",
+   "text": "Then the old tiger gave him a piece of meat. The cub choked on it at first. And then something woke in him.",
+   "th": [
+    "tiger"
+   ],
+   "big": "woke",
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s179",
+   "text": "He opened his mouth, and out came, not a bleat, but a roar.",
+   "th": [
+    "tiger"
+   ],
+   "big": "roar",
+   "red": false,
+   "gap": 1.6
+  },
+  {
+   "id": "s180",
+   "text": "We are all, in some way, tigers who have been raised by goats.",
+   "th": [
+    "tiger",
+    "crowd"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s181",
+   "text": "Not because the goats were bad. They were only doing what goats do.",
+   "th": [
+    "goats",
+    "family"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s182",
+   "text": "They taught us to be careful, to eat the grass, to stay with the herd.",
+   "th": [
+    "goats",
+    "crowd"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s183",
+   "text": "And there is nothing wrong with any of that, if you are a goat.",
+   "th": [
+    "goats"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.3
+  },
+  {
+   "id": "s184",
+   "text": "But somewhere in you there may be a roar you have never let out.",
+   "th": [
+    "tiger",
+    "face"
+   ],
+   "big": "roar",
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s185",
+   "text": "A thing you have always wanted to make. A place you have always wanted to go. A way of living you have never dared to try.",
+   "th": [
+    "road",
+    "sail",
+    "mountain"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s186",
+   "text": "And the strange thing is that it will not feel like becoming someone new.",
+   "th": [
+    "face",
+    "mirror"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s187",
+   "text": "It will feel like coming home.",
+   "th": [
+    "interior",
+    "sunrise"
+   ],
+   "big": "home",
+   "red": false,
+   "gap": 1.4
+  },
+  {
+   "id": "s188",
+   "text": "This is what Pindar meant, and what Nietzsche meant when he took up the same words, become who you are.",
+   "th": [
+    "greek",
+    "thinker"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s189",
+   "text": "You are not a project to be completed.",
+   "th": [
+    "face"
+   ],
+   "big": "project",
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s190",
+   "text": "You are not a problem to be fixed.",
+   "th": [
+    "face",
+    "mirror"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s191",
+   "text": "You are more like a piece of music that is still being played.",
+   "th": [
+    "music",
+    "landscape"
+   ],
+   "big": "music",
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s192",
+   "text": "And the point of music is not to get to the end of it. Otherwise the best composers would write only finales.",
+   "th": [
+    "music",
+    "salon"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s193",
+   "text": "The point is the playing.",
+   "th": [
+    "music"
+   ],
+   "big": "playing",
+   "red": false,
+   "gap": 1.4
+  },
+  {
+   "id": "s194",
+   "text": "So, if you want to become what you are meant to become, here is perhaps all the advice there is.",
+   "th": [
+    "road",
+    "sunrise"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s195",
+   "text": "Notice the fences that other people built in you, and take down the ones you do not need.",
+   "th": [
+    "garden",
+    "ruins"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s196",
+   "text": "Wear your masks lightly, and never forget the face beneath them.",
+   "th": [
+    "mask",
+    "mirror"
+   ],
+   "big": "lightly",
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s197",
+   "text": "Do not pull at the rice. Find the grain of your own wood, and go with it.",
+   "th": [
+    "field",
+    "workshop"
+   ],
+   "big": "grain",
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s198",
+   "text": "When life breaks you open, ask what is being uncovered.",
+   "th": [
+    "statue",
+    "sculptor"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s199",
+   "text": "Be like water. Soft, patient, and impossible to stop.",
+   "th": [
+    "river",
+    "sea"
+   ],
+   "big": "water",
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s200",
+   "text": "Let the mud settle, and listen.",
+   "th": [
+    "lake",
+    "monk"
+   ],
+   "big": "listen",
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s201",
+   "text": "And when you finally see your own face in the pool, do not be afraid of the roar.",
+   "th": [
+    "lake",
+    "tiger"
+   ],
+   "big": "roar",
+   "red": false,
+   "gap": 1.5
+  },
+  {
+   "id": "s202",
+   "text": "The acorn does not try to become an oak.",
+   "th": [
+    "seed"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s203",
+   "text": "It only stops pretending to be anything else.",
+   "th": [
+    "oak",
+    "forest"
+   ],
+   "big": "pretending",
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s204",
+   "text": "And in the end, after all the seasons, all the storms and all the patient years, there it stands.",
+   "th": [
+    "oak",
+    "seasons",
+    "storm"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s205",
+   "text": "Not a copy of any other tree in the forest.",
+   "th": [
+    "forest"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.0
+  },
+  {
+   "id": "s206",
+   "text": "Exactly what it was always meant to be.",
+   "th": [
+    "oak",
+    "sunrise"
+   ],
+   "big": "meant",
+   "red": false,
+   "gap": 1.8
+  },
+  {
+   "id": "s207",
+   "text": "You are already that.",
+   "th": [
+    "warrior",
+    "sunrise"
+   ],
+   "big": "already",
+   "red": false,
+   "gap": 0.6
+  },
+  {
+   "id": "s208",
+   "text": "Now become it.",
+   "th": [
+    "warrior",
+    "landscape"
+   ],
+   "big": "become",
+   "red": false,
+   "gap": 2.5
+  }
+ ]
+}
