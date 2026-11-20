@@ -1,0 +1,62 @@
+[
+{
+"word": "Then",
+"start": 0.0,
+"end": 0.26
+},
+{
+"word": "we",
+"start": 0.26,
+"end": 0.44
+},
+{
+"word": "wonder",
+"start": 0.44,
+"end": 0.68
+},
+{
+"word": "why",
+"start": 0.68,
+"end": 1.12
+},
+{
+"word": "we",
+"start": 1.6,
+"end": 1.68
+},
+{
+"word": "never",
+"start": 1.68,
+"end": 1.92
+},
+{
+"word": "quite",
+"start": 1.92,
+"end": 2.22
+},
+{
+"word": "feel",
+"start": 2.22,
+"end": 2.56
+},
+{
+"word": "at",
+"start": 2.56,
+"end": 2.72
+},
+{
+"word": "home",
+"start": 2.72,
+"end": 2.98
+},
+{
+"word": "in",
+"start": 2.98,
+"end": 3.18
+},
+{
+"word": "it.",
+"start": 3.18,
+"end": 3.36
+}
+]

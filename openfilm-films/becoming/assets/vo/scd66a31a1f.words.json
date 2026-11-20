@@ -1,0 +1,62 @@
+[
+{
+"word": "Walk",
+"start": 0.0,
+"end": 0.38
+},
+{
+"word": "without",
+"start": 0.38,
+"end": 0.74
+},
+{
+"word": "headphones.",
+"start": 0.74,
+"end": 1.36
+},
+{
+"word": "Look",
+"start": 2.14,
+"end": 2.24
+},
+{
+"word": "out",
+"start": 2.24,
+"end": 2.4
+},
+{
+"word": "of",
+"start": 2.4,
+"end": 2.54
+},
+{
+"word": "a",
+"start": 2.54,
+"end": 2.7
+},
+{
+"word": "window",
+"start": 2.7,
+"end": 3.04
+},
+{
+"word": "for",
+"start": 3.04,
+"end": 3.46
+},
+{
+"word": "a",
+"start": 3.46,
+"end": 3.62
+},
+{
+"word": "long",
+"start": 3.62,
+"end": 3.84
+},
+{
+"word": "time.",
+"start": 3.84,
+"end": 4.38
+}
+]

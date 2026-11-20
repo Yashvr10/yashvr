@@ -1,0 +1,42 @@
+[
+{
+"word": "Nobody",
+"start": 0.0,
+"end": 0.5
+},
+{
+"word": "is",
+"start": 0.5,
+"end": 1.04
+},
+{
+"word": "going",
+"start": 1.04,
+"end": 1.22
+},
+{
+"word": "to",
+"start": 1.22,
+"end": 1.44
+},
+{
+"word": "give",
+"start": 1.44,
+"end": 1.6
+},
+{
+"word": "you",
+"start": 1.6,
+"end": 1.8
+},
+{
+"word": "that",
+"start": 1.8,
+"end": 2.06
+},
+{
+"word": "permission.",
+"start": 2.06,
+"end": 2.4
+}
+]

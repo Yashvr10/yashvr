@@ -1,0 +1,62 @@
+[
+{
+"word": "It",
+"start": 0.0,
+"end": 0.22
+},
+{
+"word": "never",
+"start": 0.22,
+"end": 0.46
+},
+{
+"word": "tries",
+"start": 0.46,
+"end": 0.82
+},
+{
+"word": "to",
+"start": 0.82,
+"end": 1.0
+},
+{
+"word": "become",
+"start": 1.0,
+"end": 1.3
+},
+{
+"word": "stone",
+"start": 1.3,
+"end": 1.82
+},
+{
+"word": "in",
+"start": 1.82,
+"end": 2.5
+},
+{
+"word": "order",
+"start": 2.5,
+"end": 2.7
+},
+{
+"word": "to",
+"start": 2.7,
+"end": 2.94
+},
+{
+"word": "beat",
+"start": 2.94,
+"end": 3.16
+},
+{
+"word": "the",
+"start": 3.16,
+"end": 3.36
+},
+{
+"word": "stone.",
+"start": 3.36,
+"end": 3.74
+}
+]

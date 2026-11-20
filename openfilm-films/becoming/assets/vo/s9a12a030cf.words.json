@@ -1,0 +1,82 @@
+[
+{
+"word": "You",
+"start": 0.0,
+"end": 0.2
+},
+{
+"word": "will",
+"start": 0.2,
+"end": 0.32
+},
+{
+"word": "be",
+"start": 0.32,
+"end": 0.48
+},
+{
+"word": "surprised",
+"start": 0.48,
+"end": 1.04
+},
+{
+"word": "how",
+"start": 1.04,
+"end": 1.78
+},
+{
+"word": "many",
+"start": 1.78,
+"end": 2.08
+},
+{
+"word": "of",
+"start": 2.08,
+"end": 2.32
+},
+{
+"word": "the",
+"start": 2.32,
+"end": 2.48
+},
+{
+"word": "walls",
+"start": 2.48,
+"end": 2.86
+},
+{
+"word": "in",
+"start": 2.86,
+"end": 3.16
+},
+{
+"word": "your",
+"start": 3.16,
+"end": 3.34
+},
+{
+"word": "life",
+"start": 3.34,
+"end": 3.68
+},
+{
+"word": "you",
+"start": 3.68,
+"end": 4.22
+},
+{
+"word": "never",
+"start": 4.22,
+"end": 4.54
+},
+{
+"word": "actually",
+"start": 4.54,
+"end": 5.06
+},
+{
+"word": "built.",
+"start": 5.06,
+"end": 5.38
+}
+]

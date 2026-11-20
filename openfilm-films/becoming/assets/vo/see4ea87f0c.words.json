@@ -1,0 +1,62 @@
+[
+{
+"word": "Society",
+"start": 0.0,
+"end": 0.52
+},
+{
+"word": "is",
+"start": 0.52,
+"end": 0.98
+},
+{
+"word": "a",
+"start": 0.98,
+"end": 1.12
+},
+{
+"word": "great",
+"start": 1.12,
+"end": 1.36
+},
+{
+"word": "play,",
+"start": 1.36,
+"end": 1.8
+},
+{
+"word": "and",
+"start": 1.8,
+"end": 2.42
+},
+{
+"word": "we",
+"start": 2.42,
+"end": 2.52
+},
+{
+"word": "all",
+"start": 2.52,
+"end": 2.72
+},
+{
+"word": "have",
+"start": 2.72,
+"end": 2.94
+},
+{
+"word": "parts",
+"start": 2.94,
+"end": 3.32
+},
+{
+"word": "in",
+"start": 3.32,
+"end": 3.58
+},
+{
+"word": "it.",
+"start": 3.58,
+"end": 3.76
+}
+]

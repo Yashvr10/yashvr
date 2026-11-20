@@ -1,0 +1,102 @@
+[
+{
+"word": "A",
+"start": 0.0,
+"end": 0.24
+},
+{
+"word": "good",
+"start": 0.24,
+"end": 0.44
+},
+{
+"word": "carpenter",
+"start": 0.44,
+"end": 1.12
+},
+{
+"word": "does",
+"start": 1.12,
+"end": 1.44
+},
+{
+"word": "not",
+"start": 1.44,
+"end": 1.68
+},
+{
+"word": "hack",
+"start": 1.68,
+"end": 2.0
+},
+{
+"word": "at",
+"start": 2.0,
+"end": 2.18
+},
+{
+"word": "the",
+"start": 2.18,
+"end": 2.32
+},
+{
+"word": "wood.",
+"start": 2.32,
+"end": 2.58
+},
+{
+"word": "He",
+"start": 3.28,
+"end": 3.42
+},
+{
+"word": "feels",
+"start": 3.42,
+"end": 3.68
+},
+{
+"word": "where",
+"start": 3.68,
+"end": 3.96
+},
+{
+"word": "it",
+"start": 3.96,
+"end": 4.1
+},
+{
+"word": "wants",
+"start": 4.1,
+"end": 4.32
+},
+{
+"word": "to",
+"start": 4.32,
+"end": 4.52
+},
+{
+"word": "split,",
+"start": 4.52,
+"end": 4.92
+},
+{
+"word": "and",
+"start": 5.42,
+"end": 5.52
+},
+{
+"word": "he",
+"start": 5.52,
+"end": 5.66
+},
+{
+"word": "follows",
+"start": 5.66,
+"end": 5.94
+},
+{
+"word": "it.",
+"start": 5.94,
+"end": 6.28
+}
+]

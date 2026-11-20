@@ -1,0 +1,72 @@
+[
+{
+"word": "A",
+"start": 0.0,
+"end": 0.22
+},
+{
+"word": "small",
+"start": 0.22,
+"end": 0.56
+},
+{
+"word": "child",
+"start": 0.56,
+"end": 1.18
+},
+{
+"word": "does",
+"start": 1.18,
+"end": 1.68
+},
+{
+"word": "not",
+"start": 1.68,
+"end": 1.9
+},
+{
+"word": "need",
+"start": 1.9,
+"end": 2.12
+},
+{
+"word": "to",
+"start": 2.12,
+"end": 2.26
+},
+{
+"word": "be",
+"start": 2.26,
+"end": 2.44
+},
+{
+"word": "told",
+"start": 2.44,
+"end": 2.84
+},
+{
+"word": "what",
+"start": 2.84,
+"end": 3.36
+},
+{
+"word": "is",
+"start": 3.36,
+"end": 3.52
+},
+{
+"word": "interesting",
+"start": 3.52,
+"end": 4.12
+},
+{
+"word": "to",
+"start": 4.12,
+"end": 4.44
+},
+{
+"word": "it.",
+"start": 4.44,
+"end": 4.64
+}
+]

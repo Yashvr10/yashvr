@@ -1,0 +1,47 @@
+[
+{
+"word": "The",
+"start": 0.0,
+"end": 0.2
+},
+{
+"word": "acorn",
+"start": 0.2,
+"end": 0.76
+},
+{
+"word": "does",
+"start": 0.76,
+"end": 1.1
+},
+{
+"word": "not",
+"start": 1.1,
+"end": 1.36
+},
+{
+"word": "know",
+"start": 1.36,
+"end": 1.66
+},
+{
+"word": "it",
+"start": 1.66,
+"end": 1.9
+},
+{
+"word": "is",
+"start": 1.9,
+"end": 2.14
+},
+{
+"word": "an",
+"start": 2.14,
+"end": 2.32
+},
+{
+"word": "oak.",
+"start": 2.32,
+"end": 2.62
+}
+]

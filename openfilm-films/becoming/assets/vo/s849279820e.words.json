@@ -1,0 +1,62 @@
+[
+{
+"word": "And",
+"start": 0.0,
+"end": 0.24
+},
+{
+"word": "then",
+"start": 0.24,
+"end": 0.4
+},
+{
+"word": "we",
+"start": 0.4,
+"end": 0.62
+},
+{
+"word": "complain",
+"start": 0.62,
+"end": 1.16
+},
+{
+"word": "that",
+"start": 1.16,
+"end": 1.84
+},
+{
+"word": "we",
+"start": 1.84,
+"end": 1.98
+},
+{
+"word": "do",
+"start": 1.98,
+"end": 2.1
+},
+{
+"word": "not",
+"start": 2.1,
+"end": 2.32
+},
+{
+"word": "know",
+"start": 2.32,
+"end": 2.62
+},
+{
+"word": "what",
+"start": 2.62,
+"end": 2.9
+},
+{
+"word": "we",
+"start": 2.9,
+"end": 3.12
+},
+{
+"word": "want.",
+"start": 3.12,
+"end": 3.4
+}
+]

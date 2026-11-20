@@ -1,0 +1,52 @@
+[
+{
+"word": "Every",
+"start": 0.0,
+"end": 0.34
+},
+{
+"word": "correction",
+"start": 0.34,
+"end": 0.92
+},
+{
+"word": "is",
+"start": 0.92,
+"end": 1.48
+},
+{
+"word": "a",
+"start": 1.48,
+"end": 1.62
+},
+{
+"word": "little",
+"start": 1.62,
+"end": 1.82
+},
+{
+"word": "fence",
+"start": 1.82,
+"end": 2.32
+},
+{
+"word": "put",
+"start": 2.32,
+"end": 2.86
+},
+{
+"word": "around",
+"start": 2.86,
+"end": 3.2
+},
+{
+"word": "the",
+"start": 3.2,
+"end": 3.4
+},
+{
+"word": "seedling.",
+"start": 3.4,
+"end": 3.86
+}
+]

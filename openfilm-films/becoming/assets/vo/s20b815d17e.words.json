@@ -1,0 +1,57 @@
+[
+{
+"word": "If",
+"start": 0.0,
+"end": 0.24
+},
+{
+"word": "the",
+"start": 0.24,
+"end": 0.42
+},
+{
+"word": "caterpillar",
+"start": 0.42,
+"end": 1.0
+},
+{
+"word": "could",
+"start": 1.0,
+"end": 1.26
+},
+{
+"word": "think,",
+"start": 1.26,
+"end": 1.62
+},
+{
+"word": "I",
+"start": 2.1,
+"end": 2.32
+},
+{
+"word": "imagine",
+"start": 2.32,
+"end": 2.74
+},
+{
+"word": "it",
+"start": 2.74,
+"end": 3.08
+},
+{
+"word": "would",
+"start": 3.08,
+"end": 3.22
+},
+{
+"word": "be",
+"start": 3.22,
+"end": 3.4
+},
+{
+"word": "terrified.",
+"start": 3.4,
+"end": 3.92
+}
+]

@@ -1,0 +1,77 @@
+[
+{
+"word": "You",
+"start": 0.0,
+"end": 0.26
+},
+{
+"word": "are",
+"start": 0.26,
+"end": 0.44
+},
+{
+"word": "tired,",
+"start": 0.44,
+"end": 0.9
+},
+{
+"word": "but",
+"start": 0.9,
+"end": 1.3
+},
+{
+"word": "not",
+"start": 1.3,
+"end": 1.48
+},
+{
+"word": "from",
+"start": 1.48,
+"end": 1.76
+},
+{
+"word": "work.",
+"start": 1.76,
+"end": 2.12
+},
+{
+"word": "You",
+"start": 2.78,
+"end": 2.86
+},
+{
+"word": "are",
+"start": 2.86,
+"end": 2.98
+},
+{
+"word": "tired",
+"start": 2.98,
+"end": 3.3
+},
+{
+"word": "from",
+"start": 3.3,
+"end": 3.58
+},
+{
+"word": "keeping",
+"start": 3.58,
+"end": 3.9
+},
+{
+"word": "the",
+"start": 3.9,
+"end": 4.16
+},
+{
+"word": "act",
+"start": 4.16,
+"end": 4.5
+},
+{
+"word": "going.",
+"start": 4.5,
+"end": 4.9
+}
+]

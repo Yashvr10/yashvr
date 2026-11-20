@@ -1,0 +1,62 @@
+[
+{
+"word": "You",
+"start": 0.0,
+"end": 0.18
+},
+{
+"word": "look",
+"start": 0.18,
+"end": 0.36
+},
+{
+"word": "at",
+"start": 0.36,
+"end": 0.56
+},
+{
+"word": "where",
+"start": 0.56,
+"end": 0.92
+},
+{
+"word": "your",
+"start": 0.92,
+"end": 1.32
+},
+{
+"word": "attention",
+"start": 1.32,
+"end": 1.74
+},
+{
+"word": "goes",
+"start": 1.74,
+"end": 2.36
+},
+{
+"word": "when",
+"start": 2.36,
+"end": 2.9
+},
+{
+"word": "nobody",
+"start": 2.9,
+"end": 3.3
+},
+{
+"word": "is",
+"start": 3.3,
+"end": 3.68
+},
+{
+"word": "directing",
+"start": 3.68,
+"end": 4.18
+},
+{
+"word": "it.",
+"start": 4.18,
+"end": 4.56
+}
+]

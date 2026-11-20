@@ -1,0 +1,62 @@
+[
+{
+"word": "The",
+"start": 0.0,
+"end": 0.18
+},
+{
+"word": "tree",
+"start": 0.18,
+"end": 0.44
+},
+{
+"word": "listens",
+"start": 0.44,
+"end": 0.82
+},
+{
+"word": "to",
+"start": 0.82,
+"end": 1.16
+},
+{
+"word": "its",
+"start": 1.16,
+"end": 1.32
+},
+{
+"word": "world,",
+"start": 1.32,
+"end": 1.78
+},
+{
+"word": "and",
+"start": 1.78,
+"end": 2.36
+},
+{
+"word": "answers",
+"start": 2.36,
+"end": 2.8
+},
+{
+"word": "it,",
+"start": 2.8,
+"end": 3.08
+},
+{
+"word": "season",
+"start": 3.42,
+"end": 3.8
+},
+{
+"word": "after",
+"start": 3.8,
+"end": 4.24
+},
+{
+"word": "season.",
+"start": 4.24,
+"end": 4.66
+}
+]

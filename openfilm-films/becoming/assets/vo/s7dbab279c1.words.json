@@ -1,0 +1,37 @@
+[
+{
+"word": "Water",
+"start": 0.0,
+"end": 0.42
+},
+{
+"word": "also",
+"start": 0.42,
+"end": 0.86
+},
+{
+"word": "teaches",
+"start": 0.86,
+"end": 1.34
+},
+{
+"word": "us",
+"start": 1.34,
+"end": 1.74
+},
+{
+"word": "something",
+"start": 1.74,
+"end": 2.32
+},
+{
+"word": "about",
+"start": 2.32,
+"end": 2.8
+},
+{
+"word": "stillness.",
+"start": 2.8,
+"end": 3.46
+}
+]

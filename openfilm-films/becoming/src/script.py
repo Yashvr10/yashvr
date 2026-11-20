@@ -6,7 +6,7 @@
 import json, hashlib
 S = []
 def s(text, th, big=None, gap=1.0):
-    S.append(dict(id="s" + hashlib.sha1(text.encode()).hexdigest()[:10], text=text, th=th if isinstance(th, list) else [th], big=big, red=False, gap=gap))
+    S.append(dict(id="s" + hashlib.sha1(text.encode()).hexdigest()[:10], text=text, th=th if isinstance(th, list) else [th], big=big, red=False, gap=round(gap * 1.15, 2)))   # slower, more spacious pauses
 def ch(num, title, dur=4.4): S.append(dict(id=f"ch{sum(1 for x in S if 'card' in x) + 1}", card="chapter", num=num, title=title, len=dur))
 
 # ---- opening

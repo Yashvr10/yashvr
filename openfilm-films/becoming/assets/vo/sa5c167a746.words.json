@@ -1,0 +1,67 @@
+[
+{
+"word": "It",
+"start": 0.0,
+"end": 0.24
+},
+{
+"word": "is",
+"start": 0.24,
+"end": 0.4
+},
+{
+"word": "usually",
+"start": 0.4,
+"end": 0.86
+},
+{
+"word": "translated",
+"start": 0.86,
+"end": 1.56
+},
+{
+"word": "as",
+"start": 1.56,
+"end": 2.0
+},
+{
+"word": "not",
+"start": 2.0,
+"end": 2.22
+},
+{
+"word": "doing,",
+"start": 2.22,
+"end": 2.58
+},
+{
+"word": "but",
+"start": 3.12,
+"end": 3.26
+},
+{
+"word": "that",
+"start": 3.26,
+"end": 3.54
+},
+{
+"word": "is",
+"start": 3.54,
+"end": 3.8
+},
+{
+"word": "not",
+"start": 3.8,
+"end": 4.04
+},
+{
+"word": "quite",
+"start": 4.04,
+"end": 4.34
+},
+{
+"word": "right.",
+"start": 4.34,
+"end": 4.68
+}
+]

@@ -1,0 +1,52 @@
+[
+{
+"word": "When",
+"start": 0.0,
+"end": 0.22
+},
+{
+"word": "life",
+"start": 0.22,
+"end": 0.5
+},
+{
+"word": "breaks",
+"start": 0.5,
+"end": 0.82
+},
+{
+"word": "you",
+"start": 0.82,
+"end": 1.06
+},
+{
+"word": "open,",
+"start": 1.06,
+"end": 1.48
+},
+{
+"word": "ask",
+"start": 2.1,
+"end": 2.28
+},
+{
+"word": "what",
+"start": 2.28,
+"end": 2.56
+},
+{
+"word": "is",
+"start": 2.56,
+"end": 2.74
+},
+{
+"word": "being",
+"start": 2.74,
+"end": 2.94
+},
+{
+"word": "uncovered.",
+"start": 2.94,
+"end": 3.54
+}
+]

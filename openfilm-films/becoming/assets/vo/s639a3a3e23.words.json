@@ -1,0 +1,47 @@
+[
+{
+"word": "The",
+"start": 0.0,
+"end": 0.18
+},
+{
+"word": "acorn",
+"start": 0.18,
+"end": 0.84
+},
+{
+"word": "does",
+"start": 0.84,
+"end": 1.26
+},
+{
+"word": "not",
+"start": 1.26,
+"end": 1.5
+},
+{
+"word": "try",
+"start": 1.5,
+"end": 1.84
+},
+{
+"word": "to",
+"start": 1.84,
+"end": 2.02
+},
+{
+"word": "become",
+"start": 2.02,
+"end": 2.34
+},
+{
+"word": "an",
+"start": 2.34,
+"end": 2.6
+},
+{
+"word": "oak.",
+"start": 2.6,
+"end": 2.92
+}
+]

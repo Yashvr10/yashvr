@@ -1,0 +1,92 @@
+[
+{
+"word": "What",
+"start": 0.0,
+"end": 0.18
+},
+{
+"word": "do",
+"start": 0.18,
+"end": 0.28
+},
+{
+"word": "you",
+"start": 0.28,
+"end": 0.46
+},
+{
+"word": "find",
+"start": 0.46,
+"end": 0.7
+},
+{
+"word": "yourself",
+"start": 0.7,
+"end": 1.1
+},
+{
+"word": "doing",
+"start": 1.1,
+"end": 1.6
+},
+{
+"word": "when",
+"start": 1.6,
+"end": 2.18
+},
+{
+"word": "you",
+"start": 2.18,
+"end": 2.32
+},
+{
+"word": "have",
+"start": 2.32,
+"end": 2.48
+},
+{
+"word": "an",
+"start": 2.48,
+"end": 2.6
+},
+{
+"word": "empty",
+"start": 2.6,
+"end": 3.02
+},
+{
+"word": "afternoon",
+"start": 3.02,
+"end": 3.66
+},
+{
+"word": "and",
+"start": 3.66,
+"end": 4.4
+},
+{
+"word": "nothing",
+"start": 4.4,
+"end": 4.78
+},
+{
+"word": "that",
+"start": 4.78,
+"end": 5.1
+},
+{
+"word": "must",
+"start": 5.1,
+"end": 5.3
+},
+{
+"word": "be",
+"start": 5.3,
+"end": 5.52
+},
+{
+"word": "done?",
+"start": 5.52,
+"end": 5.8
+}
+]

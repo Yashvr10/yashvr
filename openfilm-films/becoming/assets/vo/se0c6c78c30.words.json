@@ -1,0 +1,52 @@
+[
+{
+"word": "The",
+"start": 0.0,
+"end": 0.16
+},
+{
+"word": "word",
+"start": 0.16,
+"end": 0.4
+},
+{
+"word": "person",
+"start": 0.4,
+"end": 0.84
+},
+{
+"word": "comes",
+"start": 0.84,
+"end": 1.4
+},
+{
+"word": "from",
+"start": 1.4,
+"end": 1.68
+},
+{
+"word": "an",
+"start": 1.68,
+"end": 1.78
+},
+{
+"word": "old",
+"start": 1.78,
+"end": 2.06
+},
+{
+"word": "Latin",
+"start": 2.06,
+"end": 2.44
+},
+{
+"word": "word,",
+"start": 2.44,
+"end": 3.12
+},
+{
+"word": "persona.",
+"start": 3.5,
+"end": 3.86
+}
+]

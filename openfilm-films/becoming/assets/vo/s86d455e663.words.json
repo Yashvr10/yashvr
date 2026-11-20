@@ -1,0 +1,62 @@
+[
+{
+"word": "Some",
+"start": 0.0,
+"end": 0.34
+},
+{
+"word": "fences",
+"start": 0.34,
+"end": 0.84
+},
+{
+"word": "are",
+"start": 0.84,
+"end": 1.2
+},
+{
+"word": "kind,",
+"start": 1.2,
+"end": 1.68
+},
+{
+"word": "and",
+"start": 1.68,
+"end": 2.34
+},
+{
+"word": "keep",
+"start": 2.34,
+"end": 2.52
+},
+{
+"word": "the",
+"start": 2.52,
+"end": 2.7
+},
+{
+"word": "young",
+"start": 2.7,
+"end": 2.96
+},
+{
+"word": "plant",
+"start": 2.96,
+"end": 3.44
+},
+{
+"word": "from",
+"start": 3.44,
+"end": 3.72
+},
+{
+"word": "being",
+"start": 3.72,
+"end": 3.96
+},
+{
+"word": "trampled.",
+"start": 3.96,
+"end": 4.58
+}
+]

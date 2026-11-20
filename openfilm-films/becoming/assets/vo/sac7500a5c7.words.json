@@ -1,0 +1,52 @@
+[
+{
+"word": "That",
+"start": 0.0,
+"end": 0.3
+},
+{
+"word": "is",
+"start": 0.3,
+"end": 0.54
+},
+{
+"word": "a",
+"start": 0.54,
+"end": 0.72
+},
+{
+"word": "terrible",
+"start": 0.72,
+"end": 1.08
+},
+{
+"word": "thing",
+"start": 1.08,
+"end": 1.54
+},
+{
+"word": "to",
+"start": 1.54,
+"end": 2.06
+},
+{
+"word": "discover",
+"start": 2.06,
+"end": 2.48
+},
+{
+"word": "at",
+"start": 2.48,
+"end": 2.76
+},
+{
+"word": "the",
+"start": 2.76,
+"end": 2.88
+},
+{
+"word": "end.",
+"start": 2.88,
+"end": 3.16
+}
+]

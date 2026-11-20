@@ -1,0 +1,67 @@
+[
+{
+"word": "You",
+"start": 0.0,
+"end": 0.26
+},
+{
+"word": "see",
+"start": 0.26,
+"end": 0.56
+},
+{
+"word": "this",
+"start": 0.56,
+"end": 0.86
+},
+{
+"word": "in",
+"start": 0.86,
+"end": 1.22
+},
+{
+"word": "the",
+"start": 1.22,
+"end": 1.36
+},
+{
+"word": "lives",
+"start": 1.36,
+"end": 1.7
+},
+{
+"word": "of",
+"start": 1.7,
+"end": 1.98
+},
+{
+"word": "people",
+"start": 1.98,
+"end": 2.34
+},
+{
+"word": "who",
+"start": 2.34,
+"end": 2.92
+},
+{
+"word": "seem",
+"start": 2.92,
+"end": 3.16
+},
+{
+"word": "to",
+"start": 3.16,
+"end": 3.38
+},
+{
+"word": "have",
+"start": 3.38,
+"end": 3.66
+},
+{
+"word": "everything.",
+"start": 3.66,
+"end": 4.12
+}
+]

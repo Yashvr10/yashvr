@@ -1,0 +1,62 @@
+[
+{
+"word": "They",
+"start": 0.0,
+"end": 0.18
+},
+{
+"word": "find",
+"start": 0.18,
+"end": 0.54
+},
+{
+"word": "where",
+"start": 0.54,
+"end": 0.86
+},
+{
+"word": "it",
+"start": 0.86,
+"end": 1.02
+},
+{
+"word": "is",
+"start": 1.02,
+"end": 1.14
+},
+{
+"word": "already",
+"start": 1.14,
+"end": 1.48
+},
+{
+"word": "moving,",
+"start": 1.48,
+"end": 2.0
+},
+{
+"word": "and",
+"start": 2.54,
+"end": 2.64
+},
+{
+"word": "they",
+"start": 2.64,
+"end": 2.78
+},
+{
+"word": "help",
+"start": 2.78,
+"end": 3.04
+},
+{
+"word": "it",
+"start": 3.04,
+"end": 3.26
+},
+{
+"word": "along.",
+"start": 3.26,
+"end": 3.58
+}
+]

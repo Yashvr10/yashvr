@@ -1,0 +1,32 @@
+[
+{
+"word": "Water",
+"start": 0.0,
+"end": 0.52
+},
+{
+"word": "does",
+"start": 0.52,
+"end": 0.9
+},
+{
+"word": "not",
+"start": 0.9,
+"end": 1.24
+},
+{
+"word": "argue",
+"start": 1.24,
+"end": 1.78
+},
+{
+"word": "with",
+"start": 1.78,
+"end": 1.98
+},
+{
+"word": "anything.",
+"start": 1.98,
+"end": 2.36
+}
+]

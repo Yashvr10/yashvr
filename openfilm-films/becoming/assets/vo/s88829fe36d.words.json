@@ -1,0 +1,47 @@
+[
+{
+"word": "Not",
+"start": 0.0,
+"end": 0.3
+},
+{
+"word": "because",
+"start": 0.3,
+"end": 0.72
+},
+{
+"word": "they",
+"start": 0.72,
+"end": 1.02
+},
+{
+"word": "are",
+"start": 1.02,
+"end": 1.2
+},
+{
+"word": "cruel,",
+"start": 1.2,
+"end": 1.6
+},
+{
+"word": "but",
+"start": 2.12,
+"end": 2.26
+},
+{
+"word": "because",
+"start": 2.26,
+"end": 2.64
+},
+{
+"word": "they",
+"start": 2.64,
+"end": 2.98
+},
+{
+"word": "cannot.",
+"start": 2.98,
+"end": 3.32
+}
+]

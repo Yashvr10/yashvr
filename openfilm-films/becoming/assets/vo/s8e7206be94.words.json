@@ -1,0 +1,57 @@
+[
+{
+"word": "And",
+"start": 0.0,
+"end": 0.24
+},
+{
+"word": "this",
+"start": 0.24,
+"end": 0.48
+},
+{
+"word": "is",
+"start": 0.48,
+"end": 0.78
+},
+{
+"word": "a",
+"start": 0.78,
+"end": 0.98
+},
+{
+"word": "talk",
+"start": 0.98,
+"end": 1.36
+},
+{
+"word": "about",
+"start": 1.36,
+"end": 1.94
+},
+{
+"word": "how",
+"start": 1.94,
+"end": 2.16
+},
+{
+"word": "it",
+"start": 2.16,
+"end": 2.32
+},
+{
+"word": "might",
+"start": 2.32,
+"end": 2.5
+},
+{
+"word": "be",
+"start": 2.5,
+"end": 2.7
+},
+{
+"word": "done.",
+"start": 2.7,
+"end": 2.96
+}
+]

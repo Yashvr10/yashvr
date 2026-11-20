@@ -1,0 +1,82 @@
+[
+{
+"word": "We",
+"start": 0.0,
+"end": 0.24
+},
+{
+"word": "wear",
+"start": 0.24,
+"end": 0.5
+},
+{
+"word": "the",
+"start": 0.5,
+"end": 0.7
+},
+{
+"word": "mask",
+"start": 0.7,
+"end": 1.14
+},
+{
+"word": "because",
+"start": 1.14,
+"end": 1.64
+},
+{
+"word": "we",
+"start": 1.64,
+"end": 1.86
+},
+{
+"word": "are",
+"start": 1.86,
+"end": 1.98
+},
+{
+"word": "afraid",
+"start": 1.98,
+"end": 2.4
+},
+{
+"word": "that,",
+"start": 2.4,
+"end": 2.82
+},
+{
+"word": "without",
+"start": 2.82,
+"end": 3.48
+},
+{
+"word": "it,",
+"start": 3.48,
+"end": 3.9
+},
+{
+"word": "we",
+"start": 3.9,
+"end": 4.26
+},
+{
+"word": "would",
+"start": 4.26,
+"end": 4.4
+},
+{
+"word": "not",
+"start": 4.4,
+"end": 4.6
+},
+{
+"word": "be",
+"start": 4.6,
+"end": 4.82
+},
+{
+"word": "loved.",
+"start": 4.82,
+"end": 5.2
+}
+]

@@ -1,0 +1,47 @@
+[
+{
+"word": "Be",
+"start": 0.0,
+"end": 0.2
+},
+{
+"word": "like",
+"start": 0.2,
+"end": 0.44
+},
+{
+"word": "water.",
+"start": 0.44,
+"end": 0.98
+},
+{
+"word": "Soft,",
+"start": 1.64,
+"end": 1.86
+},
+{
+"word": "patient,",
+"start": 2.16,
+"end": 2.5
+},
+{
+"word": "and",
+"start": 2.5,
+"end": 3.04
+},
+{
+"word": "impossible",
+"start": 3.04,
+"end": 3.48
+},
+{
+"word": "to",
+"start": 3.48,
+"end": 3.86
+},
+{
+"word": "stop.",
+"start": 3.86,
+"end": 4.24
+}
+]

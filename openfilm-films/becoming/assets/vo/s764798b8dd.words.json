@@ -1,0 +1,62 @@
+[
+{
+"word": "Of",
+"start": 0.0,
+"end": 0.22
+},
+{
+"word": "course",
+"start": 0.22,
+"end": 0.52
+},
+{
+"word": "we",
+"start": 0.52,
+"end": 0.88
+},
+{
+"word": "don't.",
+"start": 0.88,
+"end": 1.4
+},
+{
+"word": "The",
+"start": 1.76,
+"end": 1.92
+},
+{
+"word": "water",
+"start": 1.92,
+"end": 2.24
+},
+{
+"word": "never",
+"start": 2.24,
+"end": 2.56
+},
+{
+"word": "gets",
+"start": 2.56,
+"end": 2.86
+},
+{
+"word": "the",
+"start": 2.86,
+"end": 3.12
+},
+{
+"word": "chance",
+"start": 3.12,
+"end": 3.44
+},
+{
+"word": "to",
+"start": 3.44,
+"end": 3.76
+},
+{
+"word": "settle.",
+"start": 3.76,
+"end": 4.02
+}
+]

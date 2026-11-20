@@ -1,0 +1,62 @@
+[
+{
+"word": "Nobody",
+"start": 0.0,
+"end": 0.46
+},
+{
+"word": "has",
+"start": 0.46,
+"end": 0.76
+},
+{
+"word": "taught",
+"start": 0.76,
+"end": 1.04
+},
+{
+"word": "it",
+"start": 1.04,
+"end": 1.22
+},
+{
+"word": "to",
+"start": 1.22,
+"end": 1.4
+},
+{
+"word": "care",
+"start": 1.4,
+"end": 1.72
+},
+{
+"word": "about",
+"start": 1.72,
+"end": 2.06
+},
+{
+"word": "these",
+"start": 2.06,
+"end": 2.34
+},
+{
+"word": "things.",
+"start": 2.34,
+"end": 2.78
+},
+{
+"word": "It",
+"start": 3.3,
+"end": 3.42
+},
+{
+"word": "just",
+"start": 3.42,
+"end": 3.62
+},
+{
+"word": "does.",
+"start": 3.62,
+"end": 4.02
+}
+]

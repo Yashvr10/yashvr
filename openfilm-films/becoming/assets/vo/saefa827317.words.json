@@ -1,0 +1,82 @@
+[
+{
+"word": "Lao",
+"start": 0.0,
+"end": 0.44
+},
+{
+"word": "Tzu,",
+"start": 0.44,
+"end": 1.22
+},
+{
+"word": "the",
+"start": 1.22,
+"end": 1.4
+},
+{
+"word": "old",
+"start": 1.4,
+"end": 1.62
+},
+{
+"word": "master",
+"start": 1.62,
+"end": 1.98
+},
+{
+"word": "of",
+"start": 1.98,
+"end": 2.28
+},
+{
+"word": "the",
+"start": 2.28,
+"end": 2.42
+},
+{
+"word": "Tao,",
+"start": 2.42,
+"end": 2.8
+},
+{
+"word": "said",
+"start": 3.16,
+"end": 3.52
+},
+{
+"word": "that",
+"start": 3.52,
+"end": 3.74
+},
+{
+"word": "the",
+"start": 3.74,
+"end": 3.9
+},
+{
+"word": "highest",
+"start": 3.9,
+"end": 4.34
+},
+{
+"word": "good",
+"start": 4.34,
+"end": 4.78
+},
+{
+"word": "is",
+"start": 4.78,
+"end": 5.06
+},
+{
+"word": "like",
+"start": 5.06,
+"end": 5.28
+},
+{
+"word": "water.",
+"start": 5.28,
+"end": 5.68
+}
+]

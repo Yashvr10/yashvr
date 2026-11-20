@@ -1,0 +1,77 @@
+[
+{
+"word": "There",
+"start": 0.0,
+"end": 0.22
+},
+{
+"word": "is",
+"start": 0.22,
+"end": 0.38
+},
+{
+"word": "an",
+"start": 0.38,
+"end": 0.52
+},
+{
+"word": "old",
+"start": 0.52,
+"end": 0.86
+},
+{
+"word": "Indian",
+"start": 0.86,
+"end": 1.32
+},
+{
+"word": "story",
+"start": 1.32,
+"end": 1.9
+},
+{
+"word": "about",
+"start": 1.9,
+"end": 2.52
+},
+{
+"word": "a",
+"start": 2.52,
+"end": 2.72
+},
+{
+"word": "tiger",
+"start": 2.72,
+"end": 3.06
+},
+{
+"word": "cub",
+"start": 3.06,
+"end": 3.48
+},
+{
+"word": "who",
+"start": 3.48,
+"end": 4.04
+},
+{
+"word": "was",
+"start": 4.04,
+"end": 4.16
+},
+{
+"word": "raised",
+"start": 4.16,
+"end": 4.66
+},
+{
+"word": "by",
+"start": 4.66,
+"end": 4.96
+},
+{
+"word": "goats.",
+"start": 4.96,
+"end": 5.32
+}
+]

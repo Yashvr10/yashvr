@@ -1,0 +1,57 @@
+[
+{
+"word": "That",
+"start": 0.0,
+"end": 0.18
+},
+{
+"word": "the",
+"start": 0.18,
+"end": 0.36
+},
+{
+"word": "real",
+"start": 0.36,
+"end": 0.66
+},
+{
+"word": "performance",
+"start": 0.66,
+"end": 1.16
+},
+{
+"word": "is",
+"start": 1.16,
+"end": 1.5
+},
+{
+"word": "coming",
+"start": 1.5,
+"end": 1.76
+},
+{
+"word": "later,",
+"start": 1.76,
+"end": 2.3
+},
+{
+"word": "once",
+"start": 2.84,
+"end": 3.12
+},
+{
+"word": "everything",
+"start": 3.12,
+"end": 3.66
+},
+{
+"word": "is",
+"start": 3.66,
+"end": 4.06
+},
+{
+"word": "ready.",
+"start": 4.06,
+"end": 4.32
+}
+]

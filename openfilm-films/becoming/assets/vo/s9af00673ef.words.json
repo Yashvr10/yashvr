@@ -1,0 +1,87 @@
+[
+{
+"word": "A",
+"start": 0.0,
+"end": 0.2
+},
+{
+"word": "good",
+"start": 0.2,
+"end": 0.36
+},
+{
+"word": "sailor",
+"start": 0.36,
+"end": 0.72
+},
+{
+"word": "does",
+"start": 0.72,
+"end": 0.96
+},
+{
+"word": "not",
+"start": 0.96,
+"end": 1.2
+},
+{
+"word": "fight",
+"start": 1.2,
+"end": 1.52
+},
+{
+"word": "the",
+"start": 1.52,
+"end": 1.76
+},
+{
+"word": "wind.",
+"start": 1.76,
+"end": 2.06
+},
+{
+"word": "He",
+"start": 2.78,
+"end": 2.94
+},
+{
+"word": "uses",
+"start": 2.94,
+"end": 3.28
+},
+{
+"word": "it,",
+"start": 3.28,
+"end": 3.7
+},
+{
+"word": "even",
+"start": 3.7,
+"end": 4.26
+},
+{
+"word": "when",
+"start": 4.26,
+"end": 4.48
+},
+{
+"word": "it",
+"start": 4.48,
+"end": 4.66
+},
+{
+"word": "blows",
+"start": 4.66,
+"end": 5.0
+},
+{
+"word": "against",
+"start": 5.0,
+"end": 5.46
+},
+{
+"word": "him.",
+"start": 5.46,
+"end": 5.78
+}
+]

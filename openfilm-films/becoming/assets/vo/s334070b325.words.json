@@ -1,0 +1,77 @@
+[
+{
+"word": "The",
+"start": 0.0,
+"end": 0.2
+},
+{
+"word": "sculptor",
+"start": 0.2,
+"end": 0.78
+},
+{
+"word": "Michelangelo",
+"start": 0.78,
+"end": 1.9
+},
+{
+"word": "is",
+"start": 1.9,
+"end": 2.76
+},
+{
+"word": "said",
+"start": 2.76,
+"end": 2.96
+},
+{
+"word": "to",
+"start": 2.96,
+"end": 3.12
+},
+{
+"word": "have",
+"start": 3.12,
+"end": 3.24
+},
+{
+"word": "described",
+"start": 3.24,
+"end": 3.8
+},
+{
+"word": "his",
+"start": 3.8,
+"end": 4.04
+},
+{
+"word": "work",
+"start": 4.04,
+"end": 4.46
+},
+{
+"word": "in",
+"start": 4.46,
+"end": 4.92
+},
+{
+"word": "a",
+"start": 4.92,
+"end": 5.08
+},
+{
+"word": "very",
+"start": 5.08,
+"end": 5.34
+},
+{
+"word": "simple",
+"start": 5.34,
+"end": 5.8
+},
+{
+"word": "way.",
+"start": 5.8,
+"end": 6.24
+}
+]

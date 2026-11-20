@@ -1,0 +1,147 @@
+[
+{
+"word": "There",
+"start": 0.0,
+"end": 0.18
+},
+{
+"word": "is",
+"start": 0.18,
+"end": 0.34
+},
+{
+"word": "a",
+"start": 0.34,
+"end": 0.52
+},
+{
+"word": "very",
+"start": 0.52,
+"end": 0.84
+},
+{
+"word": "old",
+"start": 0.84,
+"end": 1.22
+},
+{
+"word": "idea,",
+"start": 1.22,
+"end": 1.84
+},
+{
+"word": "older",
+"start": 2.4,
+"end": 2.62
+},
+{
+"word": "than",
+"start": 2.62,
+"end": 2.94
+},
+{
+"word": "any",
+"start": 2.94,
+"end": 3.22
+},
+{
+"word": "of",
+"start": 3.22,
+"end": 3.38
+},
+{
+"word": "our",
+"start": 3.38,
+"end": 3.56
+},
+{
+"word": "religions,",
+"start": 3.56,
+"end": 4.02
+},
+{
+"word": "that",
+"start": 4.58,
+"end": 4.84
+},
+{
+"word": "every",
+"start": 4.84,
+"end": 5.18
+},
+{
+"word": "living",
+"start": 5.18,
+"end": 5.48
+},
+{
+"word": "thing",
+"start": 5.48,
+"end": 5.9
+},
+{
+"word": "already",
+"start": 5.9,
+"end": 6.46
+},
+{
+"word": "carries",
+"start": 6.46,
+"end": 7.1
+},
+{
+"word": "inside",
+"start": 7.1,
+"end": 7.64
+},
+{
+"word": "it",
+"start": 7.64,
+"end": 7.94
+},
+{
+"word": "the",
+"start": 7.94,
+"end": 8.2
+},
+{
+"word": "shape",
+"start": 8.2,
+"end": 8.5
+},
+{
+"word": "of",
+"start": 8.5,
+"end": 8.78
+},
+{
+"word": "what",
+"start": 8.78,
+"end": 8.96
+},
+{
+"word": "it",
+"start": 8.96,
+"end": 9.1
+},
+{
+"word": "is",
+"start": 9.1,
+"end": 9.26
+},
+{
+"word": "going",
+"start": 9.26,
+"end": 9.48
+},
+{
+"word": "to",
+"start": 9.48,
+"end": 9.72
+},
+{
+"word": "be.",
+"start": 9.72,
+"end": 9.94
+}
+]

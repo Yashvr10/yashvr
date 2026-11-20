@@ -1,0 +1,42 @@
+[
+{
+"word": "Here",
+"start": 0.0,
+"end": 0.4
+},
+{
+"word": "is",
+"start": 0.4,
+"end": 0.66
+},
+{
+"word": "the",
+"start": 0.66,
+"end": 0.82
+},
+{
+"word": "strange",
+"start": 0.82,
+"end": 1.26
+},
+{
+"word": "thing",
+"start": 1.26,
+"end": 1.78
+},
+{
+"word": "about",
+"start": 1.78,
+"end": 2.22
+},
+{
+"word": "all",
+"start": 2.22,
+"end": 2.5
+},
+{
+"word": "this.",
+"start": 2.5,
+"end": 2.74
+}
+]

@@ -1,0 +1,57 @@
+[
+{
+"word": "It",
+"start": 0.0,
+"end": 0.18
+},
+{
+"word": "does",
+"start": 0.18,
+"end": 0.38
+},
+{
+"word": "not",
+"start": 0.38,
+"end": 0.66
+},
+{
+"word": "read",
+"start": 0.66,
+"end": 1.02
+},
+{
+"word": "books",
+"start": 1.02,
+"end": 1.5
+},
+{
+"word": "about",
+"start": 1.5,
+"end": 1.96
+},
+{
+"word": "how",
+"start": 1.96,
+"end": 2.2
+},
+{
+"word": "to",
+"start": 2.2,
+"end": 2.38
+},
+{
+"word": "become",
+"start": 2.38,
+"end": 2.68
+},
+{
+"word": "a",
+"start": 2.68,
+"end": 2.88
+},
+{
+"word": "tree.",
+"start": 2.88,
+"end": 3.16
+}
+]

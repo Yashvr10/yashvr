@@ -1,0 +1,42 @@
+[
+{
+"word": "You",
+"start": 0.0,
+"end": 0.26
+},
+{
+"word": "are",
+"start": 0.26,
+"end": 0.36
+},
+{
+"word": "not",
+"start": 0.36,
+"end": 0.56
+},
+{
+"word": "a",
+"start": 0.56,
+"end": 0.8
+},
+{
+"word": "project",
+"start": 0.8,
+"end": 1.26
+},
+{
+"word": "to",
+"start": 1.26,
+"end": 1.7
+},
+{
+"word": "be",
+"start": 1.7,
+"end": 1.86
+},
+{
+"word": "completed.",
+"start": 1.86,
+"end": 2.38
+}
+]

@@ -1,0 +1,92 @@
+[
+{
+"word": "The",
+"start": 0.0,
+"end": 0.2
+},
+{
+"word": "old",
+"start": 0.2,
+"end": 0.46
+},
+{
+"word": "tiger",
+"start": 0.46,
+"end": 0.84
+},
+{
+"word": "looked",
+"start": 0.84,
+"end": 1.14
+},
+{
+"word": "at",
+"start": 1.14,
+"end": 1.32
+},
+{
+"word": "him",
+"start": 1.32,
+"end": 1.5
+},
+{
+"word": "in",
+"start": 1.5,
+"end": 1.7
+},
+{
+"word": "disgust",
+"start": 1.7,
+"end": 2.18
+},
+{
+"word": "and",
+"start": 2.18,
+"end": 2.6
+},
+{
+"word": "said,",
+"start": 2.6,
+"end": 2.9
+},
+{
+"word": "what",
+"start": 3.52,
+"end": 3.68
+},
+{
+"word": "are",
+"start": 3.68,
+"end": 3.78
+},
+{
+"word": "you",
+"start": 3.78,
+"end": 3.94
+},
+{
+"word": "doing,",
+"start": 3.94,
+"end": 4.38
+},
+{
+"word": "living",
+"start": 4.84,
+"end": 5.0
+},
+{
+"word": "among",
+"start": 5.0,
+"end": 5.38
+},
+{
+"word": "the",
+"start": 5.38,
+"end": 5.62
+},
+{
+"word": "goats?",
+"start": 5.62,
+"end": 5.9
+}
+]

@@ -1,0 +1,42 @@
+[
+{
+"word": "You",
+"start": 0.0,
+"end": 0.24
+},
+{
+"word": "are",
+"start": 0.24,
+"end": 0.36
+},
+{
+"word": "not",
+"start": 0.36,
+"end": 0.52
+},
+{
+"word": "a",
+"start": 0.52,
+"end": 0.82
+},
+{
+"word": "problem",
+"start": 0.82,
+"end": 1.12
+},
+{
+"word": "to",
+"start": 1.12,
+"end": 1.54
+},
+{
+"word": "be",
+"start": 1.54,
+"end": 1.72
+},
+{
+"word": "fixed.",
+"start": 1.72,
+"end": 2.12
+}
+]

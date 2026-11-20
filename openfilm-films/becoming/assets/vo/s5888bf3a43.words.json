@@ -1,0 +1,92 @@
+[
+{
+"word": "You",
+"start": 0.0,
+"end": 0.22
+},
+{
+"word": "can",
+"start": 0.22,
+"end": 0.42
+},
+{
+"word": "tell",
+"start": 0.42,
+"end": 0.74
+},
+{
+"word": "when",
+"start": 0.74,
+"end": 1.04
+},
+{
+"word": "this",
+"start": 1.04,
+"end": 1.24
+},
+{
+"word": "has",
+"start": 1.24,
+"end": 1.42
+},
+{
+"word": "happened,",
+"start": 1.42,
+"end": 1.86
+},
+{
+"word": "because",
+"start": 2.2,
+"end": 2.6
+},
+{
+"word": "life",
+"start": 2.6,
+"end": 3.0
+},
+{
+"word": "starts",
+"start": 3.0,
+"end": 3.44
+},
+{
+"word": "to",
+"start": 3.44,
+"end": 3.74
+},
+{
+"word": "feel",
+"start": 3.74,
+"end": 3.98
+},
+{
+"word": "like",
+"start": 3.98,
+"end": 4.22
+},
+{
+"word": "a",
+"start": 4.22,
+"end": 4.36
+},
+{
+"word": "performance",
+"start": 4.36,
+"end": 4.76
+},
+{
+"word": "with",
+"start": 4.76,
+"end": 5.22
+},
+{
+"word": "no",
+"start": 5.22,
+"end": 5.52
+},
+{
+"word": "interval.",
+"start": 5.52,
+"end": 5.88
+}
+]

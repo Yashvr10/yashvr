@@ -1,0 +1,87 @@
+[
+{
+"word": "Sit",
+"start": 0.0,
+"end": 0.3
+},
+{
+"word": "still.",
+"start": 0.3,
+"end": 0.72
+},
+{
+"word": "Be",
+"start": 0.94,
+"end": 1.04
+},
+{
+"word": "sensible.",
+"start": 1.04,
+"end": 1.58
+},
+{
+"word": "That",
+"start": 2.16,
+"end": 2.36
+},
+{
+"word": "is",
+"start": 2.36,
+"end": 2.5
+},
+{
+"word": "not",
+"start": 2.5,
+"end": 2.72
+},
+{
+"word": "a",
+"start": 2.72,
+"end": 2.98
+},
+{
+"word": "real",
+"start": 2.98,
+"end": 3.24
+},
+{
+"word": "job.",
+"start": 3.24,
+"end": 3.8
+},
+{
+"word": "People",
+"start": 4.38,
+"end": 4.62
+},
+{
+"word": "like",
+"start": 4.62,
+"end": 4.86
+},
+{
+"word": "us",
+"start": 4.86,
+"end": 5.06
+},
+{
+"word": "do",
+"start": 5.06,
+"end": 5.2
+},
+{
+"word": "not",
+"start": 5.2,
+"end": 5.4
+},
+{
+"word": "do",
+"start": 5.4,
+"end": 5.64
+},
+{
+"word": "that.",
+"start": 5.64,
+"end": 5.96
+}
+]

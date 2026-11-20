@@ -1,0 +1,42 @@
+[
+{
+"word": "What",
+"start": 0.0,
+"end": 0.3
+},
+{
+"word": "kind",
+"start": 0.3,
+"end": 0.54
+},
+{
+"word": "of",
+"start": 0.54,
+"end": 0.74
+},
+{
+"word": "difficulty",
+"start": 0.74,
+"end": 1.14
+},
+{
+"word": "do",
+"start": 1.14,
+"end": 1.9
+},
+{
+"word": "you",
+"start": 1.9,
+"end": 2.02
+},
+{
+"word": "not",
+"start": 2.02,
+"end": 2.2
+},
+{
+"word": "mind?",
+"start": 2.2,
+"end": 2.54
+}
+]
