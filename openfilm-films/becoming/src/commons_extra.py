@@ -1,6 +1,5 @@
-# Second pass for the themes added with chapter IV (run after src/commons.py).
-import re
+# Second pass: the themes added with chapter IV, plus more faces (the most used theme) and India (none found first time).
 src = open("src/commons.py").read()
-a = src.index("Q = {"); b = src.index("\n}\n", a) + 3
-extra = 'Q = {"nurse": ["nurse at bedside painting", "sickbed painting 19th century", "the sick room painting"], "painter": ["painter at easel painting", "artist in studio painting 19th century", "landscape painter outdoors painting"]}\n'
+a = src.index("Q = {"); b = src.index("\ndef api", a)
+extra = 'Q = {"insect": ["Merian metamorphosis plate", "butterfly painting", "Jan van Kessel butterflies"], "seed": ["oak branch acorns painting", "sower painting Millet"], "sage": ["Laozi riding ox painting", "Chinese hermit painting mountain"], "night": ["nocturne painting", "starry night painting 19th century"], "thinker": ["philosopher painting Rembrandt", "Democritus painting"]}\n'
 exec(src[:a] + extra + src[b:])
