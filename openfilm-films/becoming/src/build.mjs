@@ -1,4 +1,5 @@
-// Builds film.html, captions.html and captions-back.html for "The Antifragile Man".
+// Builds film.html and captions.html for "Becoming What You Are Meant To Become" (Live For Yourself style, but with no
+// red words and no words behind figures: the user's one change).
 //   pictures  paintings and archival photographs (no paper or book pages), one at a time, a slow push on each, short
 //             dissolves through dark between them (the reference video)
 //   captions  the caption reel Dd0NzeWxryg: a top line of tall condensed serif capitals, the key word huge beneath it
@@ -12,19 +13,19 @@ import { execFileSync } from "node:child_process";
 
 const ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname), "..");
 const J = (f) => JSON.parse(fs.readFileSync(path.join(ROOT, f), "utf8"));
-const cfg = J("src/scenes.json"), POOLS = J("src/images.json"), CUT = J("src/cutouts.json"), BAND = J("src/cutband.json");
+const cfg = J("src/scenes.json"), POOLS = J("src/images.json");
 const FPS = 30, q = (x) => Math.round(x * FPS) / FPS, r3 = (x) => Math.round(x * 1000) / 1000;
 const norm = (w) => w.toLowerCase().replace(/[^a-z0-9]/g, "");
 const dur = (f) => +execFileSync("ffprobe", ["-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", path.join(ROOT, f)]).toString();
 let seed = 5; const rnd = () => ((seed = (seed * 1103515245 + 12345) % 2147483648) / 2147483648);
 
-const ALIAS = { clerk: ["clerk", "writer", "crowd"], crowd: ["crowd", "clerk", "train"], face: ["face", "lonely"], pray: ["pray", "monk"], boys: ["boys", "school"], nietzsche: ["nietzsche", "stars"], duel: ["duel", "gentleman"], monk: ["monk", "pray"], hut: ["hut", "alpine"] };
+const ALIAS = { kitchen: ["kitchen", "interior"], funeral: ["funeral", "night"], letter: ["letter", "writer"], india: ["india", "tiger", "forest"], greek: ["greek", "statue", "warrior"], seasons: ["seasons", "oak"], clerk: ["clerk", "crowd"], sea: ["sea", "sail"], climber: ["climber", "mountain"], train: ["train", "crowd"], feast: ["feast", "salon"], music: ["music", "salon"], goats: ["goats", "field"], school: ["school", "child"], statue: ["statue", "sculptor"], sculptor: ["sculptor", "statue"], monk: ["monk", "sage"], greek2: ["greek"] };
 const uses = {}; const ALL = [...new Set(Object.values(POOLS).flat())]; ALL.forEach((k) => (uses[k] = 0));
 let recent = [];
 // a cut-out is used only when its figure leaves most of a red word visible: BAND is how much of the frame's middle the
 // figure covers (src/cutband.json); a short word needs more room than a long one
 let LIM = 0.45;
-const goodCut = (k) => !!(CUT[k] && BAND[k] !== undefined && BAND[k] < LIM);
+const goodCut = (k) => false;   // no cut-outs in this film
 function pick(themes, wantCut = false) {
   const ths = [...new Set(themes.flatMap((x) => ALIAS[x] || [x]))];
   const cand = ths.flatMap((t) => POOLS[t] || []).filter((k) => !recent.includes(k));
@@ -107,13 +108,13 @@ for (const s of cfg.scenes) {
   });
   t = end;
 }
-const title = "The Antifragile Man";
+const title = "Becoming What You Are Meant To Become";
 ends.push({ at: r3(t + 0.3), end: r3(t + 4.3), text: title });
 const FILM = r3(q(t + 4.6));
 
 // ---- music: Titan, then Coming From Above, then Expanse, 5 s crossfades (each evened to the same loudness)
 const MV = 0.42;
-const tracks = [["titan.mp3", 0, 0], ["coming-from-above.mp3", 0, 0], ["expanse.mp3", 0, 0], ["jade-scorpion.mp3", 0, 0]];
+const tracks = [["meditation-3.mp3", 0, 0], ["gymnopedie-1.mp3", 0, 0], ["full-moon.mp3", 0, 0], ["reverie.mp3", 0, 0], ["expanse.mp3", 0, 0]];
 let mt = 0; const music = [];
 for (const [f] of tracks) {
   if (FILM - mt < 15) break;
@@ -124,7 +125,6 @@ for (const [f] of tracks) {
 // ---- pages
 const tpl = fs.readFileSync(path.join(ROOT, "src/captions.html"), "utf8");
 fs.writeFileSync(path.join(ROOT, "captions.html"), tpl.replace("{{data}}", JSON.stringify({ caps, chaps, ends })));
-fs.writeFileSync(path.join(ROOT, "captions-back.html"), tpl.replace("{{data}}", JSON.stringify({ caps: capsBack, chaps: [], ends: [] })));
 fs.copyFileSync(path.join(ROOT, "src/grain.html"), path.join(ROOT, "grain.html"));
 for (const x of sfx) x.len = dur("assets/sfx/" + x.f);
 sfx.sort((a, b) => a.at - b.at);
@@ -152,8 +152,6 @@ L.push(`<!doctype html>
 <body>`);
 L.push(`<section>\n  <iframe id="grain" src="grain.html#t=0,${FILM}"></iframe>\n</section>`);
 L.push(`<section>\n  <iframe id="captions" src="captions.html#t=0,${FILM}"></iframe>\n</section>`);
-L.push(`<section>\n${shots.filter((x) => x.cut).map((x, i) => img(x, i, true)).join("\n")}\n</section>`);
-L.push(`<section>\n  <iframe id="captions-back" src="captions-back.html#t=0,${FILM}"></iframe>\n</section>`);
 // alternate two picture tracks so each dissolves over the next
 for (const par of [0, 1]) L.push(`<section>\n${shots.map((x, i) => [x, i]).filter(([, i]) => i % 2 === par).map(([x, i]) => img(x, i, false)).join("\n")}\n</section>`);
 L.push(`<section>\n${vo.map((x) => `  <audio id="vo-${x.id}" src="assets/vo/${x.id}.mp3" at="${r3(x.at)}"></audio>`).join("\n")}\n</section>`);

@@ -3,10 +3,10 @@
 # seen, so this is an original script on the theme, in a slow, reflective, Watts-like manner (not his words).
 # Per sentence: th = picture themes (src/images.json), big = the key word shown as a large script accent, gap = silence after.
 # No red words and nothing behind the figures in this film (the user's one change from Live For Yourself).
-import json
+import json, hashlib
 S = []
 def s(text, th, big=None, gap=1.0):
-    S.append(dict(id=f"s{len([x for x in S if 'text' in x]) + 1:03d}", text=text, th=th if isinstance(th, list) else [th], big=big, red=False, gap=gap))
+    S.append(dict(id="s" + hashlib.sha1(text.encode()).hexdigest()[:10], text=text, th=th if isinstance(th, list) else [th], big=big, red=False, gap=gap))
 def ch(num, title, dur=4.4): S.append(dict(id=f"ch{sum(1 for x in S if 'card' in x) + 1}", card="chapter", num=num, title=title, len=dur))
 
 # ---- opening
@@ -134,7 +134,38 @@ s("And the opening happens at its own speed, and no amount of shouting at it wil
 s("You cannot force a flower. You can only give it the light.", ["flower", "sunrise"], big="light", gap=1.6)
 
 # ---- IV
-ch("IV", "The pain of becoming")
+ch("IV", "The unlived life")
+s("There is a woman who spent many years working as a nurse with people in the last weeks of their lives.", ["nurse", "interior"], big="nurse")
+s("She sat with them, and listened, and over time she noticed that they kept saying the same things.", ["nurse", "face"])
+s("And the regret she heard more than any other was this.", ["nurse"], gap=0.6)
+s("I wish I had had the courage to live a life true to myself, and not the life others expected of me.", ["face", "window"], big="true", gap=1.5)
+s("Not, I wish I had been richer. Not, I wish I had been more famous.", ["feast", "crowd"])
+s("I wish I had been myself.", ["face", "mirror"], big="myself", gap=1.4)
+s("That is a terrible thing to discover at the end.", ["night", "face"])
+s("And the strange thing is that almost nobody who says it was ever forbidden to be themselves.", ["family", "face"])
+s("There was no law against it. No one locked the door.", ["interior", "window"])
+s("They simply kept postponing it.", ["clerk", "face"], big="postponing")
+s("First, I will get settled. Then, when the children are grown. Then, when I retire.", ["family", "clerk", "road"])
+s("And the years go by like a train you keep meaning to catch.", ["train"], big="train", gap=1.4)
+s("We do this because we imagine that life is a kind of rehearsal.", ["theatre"], big="rehearsal")
+s("That the real performance is coming later, once everything is ready.", ["theatre", "mask"])
+s("But there is no later. There is only this, now, happening.", ["sunrise", "face"], big="now")
+s("This is the performance. The curtain has been up the whole time.", ["theatre"], gap=1.4)
+s("Now, I am not saying you should throw away your job tomorrow and run off to paint in the mountains.", ["mountain", "painter"])
+s("Becoming yourself is rarely so dramatic.", ["painter", "face"])
+s("More often it happens in small, almost invisible choices.", ["road", "window"], big="small")
+s("Saying no to the thing you do not want, even when it would be easier to say yes.", ["salon", "face"])
+s("Saying yes to the thing that frightens you a little, but calls to you anyway.", ["road", "mountain"], big="yes")
+s("Taking one evening a week for the work you love, even if nobody pays you for it.", ["painter", "writer"])
+s("Telling one person the truth about what you feel.", ["family", "face"], gap=1.4)
+s("These small choices are like the first drops of rain on a dry hillside.", ["storm", "landscape"])
+s("One drop does nothing. But they find each other, and gather into little streams.", ["river", "landscape"])
+s("And one day, without anyone noticing quite when, there is a river.", ["river"], big="river", gap=1.4)
+s("So do not wait until you are lying in a quiet room at the end of your days to discover who you were.", ["night", "interior"])
+s("Find out now, while there is still time to live it.", ["sunrise", "road"], big="now", gap=1.6)
+
+# ---- V
+ch("V", "The pain of becoming")
 s("Now, I do not want to make this sound easy, as if becoming yourself is just a matter of relaxing in the garden.", ["garden", "thinker"])
 s("Because there is a part of it that hurts.", ["storm", "face"], big="hurts", gap=1.0)
 s("Think of the caterpillar.", ["insect", "garden"], big="caterpillar")
@@ -167,7 +198,7 @@ s("Try to love the questions themselves.", ["writer", "window"], big="questions"
 s("Live the questions now, and perhaps, without noticing it, you will gradually live along some distant day into the answer.", ["road", "sunrise"], gap=1.6)
 
 # ---- V
-ch("V", "The way of water")
+ch("VI", "The way of water")
 s("Lao Tzu, the old master of the Tao, said that the highest good is like water.", ["sage", "river"], big="water")
 s("Water does not argue with anything.", ["river"])
 s("It does not push against the rock in its path. It goes around it, or under it, or it waits until it has risen high enough to go over it.", ["river", "rock"])
@@ -197,7 +228,7 @@ s("A memory, a longing, a small and obvious truth you have been too busy to hear
 s("That is your nature, speaking. It has been speaking all along.", ["landscape", "face"], big="nature", gap=1.6)
 
 # ---- VI
-ch("VI", "Become what you are")
+ch("VII", "Become what you are")
 s("There is an old Indian story about a tiger cub who was raised by goats.", ["india", "tiger"], big="tiger")
 s("His mother had died, and the goats took him in, and so he grew up eating grass and bleating like them.", ["goats", "field"])
 s("He was a rather poor goat. The grass made him thin, and his bleat came out strange.", ["goats", "tiger"])

@@ -8,7 +8,6 @@ from PIL import Image, ImageEnhance
 Image.MAX_IMAGE_PIXELS = None
 FR = cv2.CascadeClassifier(cv2.data.haarcascades + "haarcascade_frontalface_default.xml")
 so = ort.SessionOptions(); so.intra_op_num_threads = os.cpu_count()
-sess = ort.InferenceSession(os.path.expanduser("~/rvm/rvm_resnet50_fp32.onnx"), so, providers=["CPUExecutionProvider"])
 def matte(im):
     W, H = im.size; s = 1024 / max(W, H); w, h = round(W * s) // 4 * 4, round(H * s) // 4 * 4
     x = (np.asarray(im.resize((w, h), Image.LANCZOS), np.float32) / 255).transpose(2, 0, 1)[None]
@@ -37,9 +36,6 @@ for k in sorted({k for v in P.values() for k in v}):
     n = cv2.resize(rng.normal(0, 0.06, (540, 960)).astype(np.float32), (1920, 1080))[..., None]
     a = np.clip(a + n * (0.5 + 0.5 * (1 - a.mean(2, keepdims=True))), 0, 1)
     c = Image.fromarray((a * 255).astype(np.uint8)); c.save(f"assets/photos169/{k}.jpg", quality=88)
-    m = matte(c); cov = np.asarray(m, np.float32).mean() / 255
-    if 0.03 < cov < 0.55:
-        cc = c.copy(); cc.putalpha(m); cc.save(f"assets/cutouts/{k}.png"); out[k] = round(float(cov), 3)
-    print(k, "bw" if bw else "colour", f"figure {cov:.0%}" if k in out else "-", flush=True)
+    print(k, "bw" if bw else "colour", flush=True)   # no cut-outs in this film: no words behind figures
 json.dump(out, open("src/cutouts.json", "w"), indent=1)
 print(len(out), "cut-outs")
