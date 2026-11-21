@@ -2,7 +2,7 @@
 
 Reel in the style of the user's Alan Watts reference (see approval/analysis.md), made in invideo.
 
-Status: script received (title "Life won't wait for you so fly"); narration done (src/scenes.json, assets/vo, voice "Lewis older", headings left out), 7:28 with pauses. Frame 16:9 YouTube. Waiting for more clips: 7:47 so far, enough for the 7:28 narration; ready to build once the user confirms so no shot repeats.
+Status: script received (title "Life won't wait for you so fly"); narration done (src/scenes.json, assets/vo, voice "Lewis older", headings left out), 7:28 with pauses. Frame 16:9 YouTube. Footage: 7:47, enough for the 7:28 narration with no shot repeated.
 
 - Voice: invideo stock AI voice, older deep calm British male, slow with long pauses (not a Watts clone).
 - Music: quiet ambient bed, similar style.
