@@ -2,7 +2,7 @@
 
 Reel in the style of the user's Alan Watts reference (see approval/analysis.md), made in invideo.
 
-Status: script received (title "Life won't wait for you so fly"); narration done (src/scenes.json, assets/vo, voice "Lewis older", headings left out), 7:28 with pauses. Frame 16:9 YouTube. Waiting for more clips: 5:10 so far, about 2:20 more needed so no shot repeats.
+Status: script received (title "Life won't wait for you so fly"); narration done (src/scenes.json, assets/vo, voice "Lewis older", headings left out), 7:28 with pauses. Frame 16:9 YouTube. Waiting for more clips: 5:22 so far, about 2:05 more needed so no shot repeats.
 
 - Voice: invideo stock AI voice, older deep calm British male, slow with long pauses (not a Watts clone).
 - Music: quiet ambient bed, similar style.
@@ -25,6 +25,6 @@ Status: script received (title "Life won't wait for you so fly"); narration done
 - `melbourne-shot1..5.mp4`: from Pinterest (pin 1026046727619103026), 15.1 s, 736x414. A flower stall at night, a city street, a busker by a green tram, a cafe front, a busker band.
 - `paris-rain.mp4`: from Pinterest (pin.it/1axXFtpy1), 30.7 s, 736x414. A handheld walk on a rainy Paris evening: cafe awnings, umbrellas, wet streets, the walker's feet.
 - `autumn-avenue.mp4`: from Pinterest (pin 603623156350838711), 25.4 s, 736x414. A locked-off shot of an avenue of autumn plane trees beside a road.
-- Instagram Df95yFUIOtE could not be downloaded yet (Instagram rate limit, HTTP 429); retry later.
-- Total clean footage so far: 310.5 s, about 5 min 10 s (11.8 + 15.6 + 17.8 + 23.5 + 12.1 + 34.1 + 43.8 + 9.9 + 23.7 + 47.0 + 15.1 + 30.7 + 25.4). The three Pinterest clips are low resolution (736x414) and will look soft at 1080p. It is all other creators' footage, so the user needs their permission before posting.
+- `sunlight-trees.mp4`: from Instagram Df95yFUIOtE, 11.4 s. The reel is 9:16 with a 16:9 picture in the middle; cropped to that picture (1080x608, scaled to 1920x1080). Light through blinds, the sun through trees and pines, a street lamp at dusk. There were no captions. The audio is removed.
+- Total clean footage so far: 321.9 s, about 5 min 22 s (11.8 + 15.6 + 17.8 + 23.5 + 12.1 + 34.1 + 43.8 + 9.9 + 23.7 + 47.0 + 15.1 + 30.7 + 25.4 + 11.4). The three Pinterest clips are low resolution (736x414) and will look soft at 1080p. It is all other creators' footage, so the user needs their permission before posting.
 
