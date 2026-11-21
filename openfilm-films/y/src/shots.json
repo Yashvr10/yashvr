@@ -1,0 +1,800 @@
+[
+ {
+  "clip": "mountains-dusk",
+  "src_start": 0.0,
+  "src_end": 5.2,
+  "at": 0.0,
+  "dur": 5.2
+ },
+ {
+  "clip": "hills-sunrise",
+  "src_start": 0.0,
+  "src_end": 3.2,
+  "at": 5.2,
+  "dur": 3.2
+ },
+ {
+  "clip": "ref-shot1",
+  "src_start": 0.0,
+  "src_end": 3.958,
+  "at": 8.4,
+  "dur": 3.958
+ },
+ {
+  "clip": "snow-shot1",
+  "src_start": 0.0,
+  "src_end": 2.833,
+  "at": 12.358,
+  "dur": 2.833
+ },
+ {
+  "clip": "snow-shot2",
+  "src_start": 0.0,
+  "src_end": 2.7,
+  "at": 15.192,
+  "dur": 2.7
+ },
+ {
+  "clip": "ref-shot2",
+  "src_start": 0.0,
+  "src_end": 3.292,
+  "at": 17.892,
+  "dur": 3.292
+ },
+ {
+  "clip": "snow-night",
+  "src_start": 0.0,
+  "src_end": 4.117,
+  "at": 21.183,
+  "dur": 4.117
+ },
+ {
+  "clip": "snow-shot3",
+  "src_start": 0.0,
+  "src_end": 2.7,
+  "at": 25.3,
+  "dur": 2.7
+ },
+ {
+  "clip": "snow-shot4",
+  "src_start": 0.0,
+  "src_end": 2.667,
+  "at": 28.0,
+  "dur": 2.667
+ },
+ {
+  "clip": "drive-shot1",
+  "src_start": 0.0,
+  "src_end": 3.9,
+  "at": 30.667,
+  "dur": 3.9
+ },
+ {
+  "clip": "snow-shot5",
+  "src_start": 0.0,
+  "src_end": 2.6,
+  "at": 34.567,
+  "dur": 2.6
+ },
+ {
+  "clip": "drive-shot2",
+  "src_start": 0.0,
+  "src_end": 2.967,
+  "at": 37.167,
+  "dur": 2.967
+ },
+ {
+  "clip": "snow-shot6",
+  "src_start": 0.0,
+  "src_end": 2.167,
+  "at": 40.133,
+  "dur": 2.167
+ },
+ {
+  "clip": "ref-shot3",
+  "src_start": 0.0,
+  "src_end": 4.625,
+  "at": 42.3,
+  "dur": 4.625
+ },
+ {
+  "clip": "drive-shot3",
+  "src_start": 0.0,
+  "src_end": 3.133,
+  "at": 46.925,
+  "dur": 3.133
+ },
+ {
+  "clip": "mountains-dusk",
+  "src_start": 5.2,
+  "src_end": 10.4,
+  "at": 50.058,
+  "dur": 5.2
+ },
+ {
+  "clip": "snow-night",
+  "src_start": 4.117,
+  "src_end": 8.233,
+  "at": 55.258,
+  "dur": 4.117
+ },
+ {
+  "clip": "snow-night",
+  "src_start": 8.233,
+  "src_end": 12.35,
+  "at": 59.375,
+  "dur": 4.117
+ },
+ {
+  "clip": "ferry-shot1",
+  "src_start": 0.0,
+  "src_end": 5.0,
+  "at": 63.492,
+  "dur": 5.0
+ },
+ {
+  "clip": "sunlight-trees",
+  "src_start": 0.0,
+  "src_end": 5.667,
+  "at": 68.492,
+  "dur": 5.667
+ },
+ {
+  "clip": "ferry-shot2",
+  "src_start": 0.0,
+  "src_end": 5.1,
+  "at": 74.158,
+  "dur": 5.1
+ },
+ {
+  "clip": "autumn-avenue",
+  "src_start": 0.0,
+  "src_end": 4.228,
+  "at": 79.258,
+  "dur": 4.228
+ },
+ {
+  "clip": "ferry-shot3",
+  "src_start": 0.0,
+  "src_end": 4.522,
+  "at": 83.486,
+  "dur": 4.522
+ },
+ {
+  "clip": "sunlight-trees",
+  "src_start": 5.667,
+  "src_end": 11.333,
+  "at": 88.008,
+  "dur": 5.667
+ },
+ {
+  "clip": "autumn-avenue",
+  "src_start": 4.228,
+  "src_end": 8.456,
+  "at": 93.675,
+  "dur": 4.228
+ },
+ {
+  "clip": "ferry-shot3",
+  "src_start": 4.522,
+  "src_end": 9.044,
+  "at": 97.903,
+  "dur": 4.522
+ },
+ {
+  "clip": "autumn-avenue",
+  "src_start": 8.456,
+  "src_end": 12.683,
+  "at": 102.425,
+  "dur": 4.228
+ },
+ {
+  "clip": "ferry-shot3",
+  "src_start": 9.044,
+  "src_end": 13.567,
+  "at": 106.653,
+  "dur": 4.522
+ },
+ {
+  "clip": "autumn-avenue",
+  "src_start": 12.683,
+  "src_end": 16.911,
+  "at": 111.175,
+  "dur": 4.228
+ },
+ {
+  "clip": "autumn-avenue",
+  "src_start": 16.911,
+  "src_end": 21.139,
+  "at": 115.403,
+  "dur": 4.228
+ },
+ {
+  "clip": "autumn-avenue",
+  "src_start": 21.139,
+  "src_end": 25.367,
+  "at": 119.631,
+  "dur": 4.228
+ },
+ {
+  "clip": "paris-evening",
+  "src_start": 0.0,
+  "src_end": 4.7,
+  "at": 123.858,
+  "dur": 4.7
+ },
+ {
+  "clip": "paris-street",
+  "src_start": 0.0,
+  "src_end": 4.003,
+  "at": 128.558,
+  "dur": 4.003
+ },
+ {
+  "clip": "paris-evening",
+  "src_start": 4.7,
+  "src_end": 9.4,
+  "at": 132.562,
+  "dur": 4.7
+ },
+ {
+  "clip": "paris-street",
+  "src_start": 4.003,
+  "src_end": 8.007,
+  "at": 137.262,
+  "dur": 4.003
+ },
+ {
+  "clip": "paris-evening",
+  "src_start": 9.4,
+  "src_end": 14.1,
+  "at": 141.265,
+  "dur": 4.7
+ },
+ {
+  "clip": "paris-street",
+  "src_start": 8.007,
+  "src_end": 12.01,
+  "at": 145.965,
+  "dur": 4.003
+ },
+ {
+  "clip": "paris-evening",
+  "src_start": 14.1,
+  "src_end": 18.8,
+  "at": 149.968,
+  "dur": 4.7
+ },
+ {
+  "clip": "paris-evening",
+  "src_start": 18.8,
+  "src_end": 23.5,
+  "at": 154.668,
+  "dur": 4.7
+ },
+ {
+  "clip": "paris-evening",
+  "src_start": 23.5,
+  "src_end": 28.2,
+  "at": 159.368,
+  "dur": 4.7
+ },
+ {
+  "clip": "paris-evening",
+  "src_start": 28.2,
+  "src_end": 32.9,
+  "at": 164.068,
+  "dur": 4.7
+ },
+ {
+  "clip": "paris-evening",
+  "src_start": 32.9,
+  "src_end": 37.6,
+  "at": 168.768,
+  "dur": 4.7
+ },
+ {
+  "clip": "paris-evening",
+  "src_start": 37.6,
+  "src_end": 42.3,
+  "at": 173.468,
+  "dur": 4.7
+ },
+ {
+  "clip": "paris-evening",
+  "src_start": 42.3,
+  "src_end": 47.0,
+  "at": 178.168,
+  "dur": 4.7
+ },
+ {
+  "clip": "seoul-shot1",
+  "src_start": 0.0,
+  "src_end": 5.433,
+  "at": 182.868,
+  "dur": 5.433
+ },
+ {
+  "clip": "seoul-shot2",
+  "src_start": 0.0,
+  "src_end": 2.6,
+  "at": 188.302,
+  "dur": 2.6
+ },
+ {
+  "clip": "melbourne-shot1",
+  "src_start": 0.0,
+  "src_end": 3.033,
+  "at": 190.902,
+  "dur": 3.033
+ },
+ {
+  "clip": "seoul-shot3",
+  "src_start": 0.0,
+  "src_end": 5.5,
+  "at": 193.935,
+  "dur": 5.5
+ },
+ {
+  "clip": "melbourne-shot2",
+  "src_start": 0.0,
+  "src_end": 3.0,
+  "at": 199.435,
+  "dur": 3.0
+ },
+ {
+  "clip": "seoul-shot4",
+  "src_start": 0.0,
+  "src_end": 4.578,
+  "at": 202.435,
+  "dur": 4.578
+ },
+ {
+  "clip": "melbourne-shot3",
+  "src_start": 0.0,
+  "src_end": 3.1,
+  "at": 207.013,
+  "dur": 3.1
+ },
+ {
+  "clip": "city-night",
+  "src_start": 0.0,
+  "src_end": 4.167,
+  "at": 210.113,
+  "dur": 4.167
+ },
+ {
+  "clip": "seoul-shot5",
+  "src_start": 0.0,
+  "src_end": 3.4,
+  "at": 214.279,
+  "dur": 3.4
+ },
+ {
+  "clip": "melbourne-shot4",
+  "src_start": 0.0,
+  "src_end": 3.0,
+  "at": 217.679,
+  "dur": 3.0
+ },
+ {
+  "clip": "seoul-shot6",
+  "src_start": 0.0,
+  "src_end": 1.767,
+  "at": 220.679,
+  "dur": 1.767
+ },
+ {
+  "clip": "seoul-shot7",
+  "src_start": 0.0,
+  "src_end": 3.4,
+  "at": 222.446,
+  "dur": 3.4
+ },
+ {
+  "clip": "melbourne-shot5",
+  "src_start": 0.0,
+  "src_end": 3.0,
+  "at": 225.846,
+  "dur": 3.0
+ },
+ {
+  "clip": "seoul-shot8",
+  "src_start": 0.0,
+  "src_end": 4.7,
+  "at": 228.846,
+  "dur": 4.7
+ },
+ {
+  "clip": "seoul-shot9",
+  "src_start": 0.0,
+  "src_end": 3.4,
+  "at": 233.546,
+  "dur": 3.4
+ },
+ {
+  "clip": "seoul-shot4",
+  "src_start": 4.578,
+  "src_end": 9.156,
+  "at": 236.946,
+  "dur": 4.578
+ },
+ {
+  "clip": "city-night",
+  "src_start": 4.167,
+  "src_end": 8.333,
+  "at": 241.524,
+  "dur": 4.167
+ },
+ {
+  "clip": "seoul-shot4",
+  "src_start": 9.156,
+  "src_end": 13.733,
+  "at": 245.691,
+  "dur": 4.578
+ },
+ {
+  "clip": "city-night",
+  "src_start": 8.333,
+  "src_end": 12.5,
+  "at": 250.268,
+  "dur": 4.167
+ },
+ {
+  "clip": "church-shot1",
+  "src_start": 0.0,
+  "src_end": 2.288,
+  "at": 254.435,
+  "dur": 2.288
+ },
+ {
+  "clip": "church-shot2",
+  "src_start": 0.0,
+  "src_end": 2.222,
+  "at": 256.723,
+  "dur": 2.222
+ },
+ {
+  "clip": "night-lights",
+  "src_start": 0.0,
+  "src_end": 4.061,
+  "at": 258.945,
+  "dur": 4.061
+ },
+ {
+  "clip": "church-shot3",
+  "src_start": 0.0,
+  "src_end": 2.222,
+  "at": 263.006,
+  "dur": 2.222
+ },
+ {
+  "clip": "church-shot4",
+  "src_start": 0.0,
+  "src_end": 2.157,
+  "at": 265.229,
+  "dur": 2.157
+ },
+ {
+  "clip": "paris-rain",
+  "src_start": 0.0,
+  "src_end": 4.3,
+  "at": 267.386,
+  "dur": 4.3
+ },
+ {
+  "clip": "church-shot5",
+  "src_start": 0.0,
+  "src_end": 2.353,
+  "at": 271.686,
+  "dur": 2.353
+ },
+ {
+  "clip": "church-shot6",
+  "src_start": 0.0,
+  "src_end": 2.092,
+  "at": 274.039,
+  "dur": 2.092
+ },
+ {
+  "clip": "paris-rooftops",
+  "src_start": 0.0,
+  "src_end": 4.772,
+  "at": 276.131,
+  "dur": 4.772
+ },
+ {
+  "clip": "church-shot7",
+  "src_start": 0.0,
+  "src_end": 2.059,
+  "at": 280.903,
+  "dur": 2.059
+ },
+ {
+  "clip": "church-shot8",
+  "src_start": 0.0,
+  "src_end": 2.124,
+  "at": 282.962,
+  "dur": 2.124
+ },
+ {
+  "clip": "night-lights",
+  "src_start": 4.142,
+  "src_end": 8.203,
+  "at": 285.086,
+  "dur": 4.061
+ },
+ {
+  "clip": "paris-rain",
+  "src_start": 4.386,
+  "src_end": 8.686,
+  "at": 289.147,
+  "dur": 4.3
+ },
+ {
+  "clip": "paris-rooftops",
+  "src_start": 4.867,
+  "src_end": 9.638,
+  "at": 293.447,
+  "dur": 4.772
+ },
+ {
+  "clip": "night-lights",
+  "src_start": 8.283,
+  "src_end": 12.344,
+  "at": 298.219,
+  "dur": 4.061
+ },
+ {
+  "clip": "paris-rain",
+  "src_start": 8.771,
+  "src_end": 13.072,
+  "at": 302.28,
+  "dur": 4.3
+ },
+ {
+  "clip": "paris-rooftops",
+  "src_start": 9.733,
+  "src_end": 14.505,
+  "at": 306.58,
+  "dur": 4.772
+ },
+ {
+  "clip": "night-lights",
+  "src_start": 12.425,
+  "src_end": 16.486,
+  "at": 311.352,
+  "dur": 4.061
+ },
+ {
+  "clip": "paris-rain",
+  "src_start": 13.157,
+  "src_end": 17.457,
+  "at": 315.412,
+  "dur": 4.3
+ },
+ {
+  "clip": "paris-rooftops",
+  "src_start": 14.6,
+  "src_end": 19.372,
+  "at": 319.713,
+  "dur": 4.772
+ },
+ {
+  "clip": "paris-rain",
+  "src_start": 17.543,
+  "src_end": 21.843,
+  "at": 324.484,
+  "dur": 4.3
+ },
+ {
+  "clip": "paris-rooftops",
+  "src_start": 19.467,
+  "src_end": 24.238,
+  "at": 328.784,
+  "dur": 4.772
+ },
+ {
+  "clip": "paris-rain",
+  "src_start": 21.929,
+  "src_end": 26.229,
+  "at": 333.556,
+  "dur": 4.3
+ },
+ {
+  "clip": "paris-rooftops",
+  "src_start": 24.333,
+  "src_end": 29.105,
+  "at": 337.856,
+  "dur": 4.772
+ },
+ {
+  "clip": "paris-rain",
+  "src_start": 26.314,
+  "src_end": 30.614,
+  "at": 342.628,
+  "dur": 4.3
+ },
+ {
+  "clip": "paris-rooftops",
+  "src_start": 29.2,
+  "src_end": 33.972,
+  "at": 346.928,
+  "dur": 4.772
+ },
+ {
+  "clip": "night-market",
+  "src_start": 0.0,
+  "src_end": 3.831,
+  "at": 351.7,
+  "dur": 3.831
+ },
+ {
+  "clip": "sunset-glow",
+  "src_start": 0.0,
+  "src_end": 4.255,
+  "at": 355.531,
+  "dur": 4.255
+ },
+ {
+  "clip": "night-market",
+  "src_start": 4.352,
+  "src_end": 8.183,
+  "at": 359.786,
+  "dur": 3.831
+ },
+ {
+  "clip": "sunset-glow",
+  "src_start": 4.833,
+  "src_end": 9.088,
+  "at": 363.617,
+  "dur": 4.255
+ },
+ {
+  "clip": "night-market",
+  "src_start": 8.704,
+  "src_end": 12.535,
+  "at": 367.872,
+  "dur": 3.831
+ },
+ {
+  "clip": "sunset-glow",
+  "src_start": 9.667,
+  "src_end": 13.922,
+  "at": 371.703,
+  "dur": 4.255
+ },
+ {
+  "clip": "night-market",
+  "src_start": 13.056,
+  "src_end": 16.887,
+  "at": 375.958,
+  "dur": 3.831
+ },
+ {
+  "clip": "sunset-glow",
+  "src_start": 14.5,
+  "src_end": 18.755,
+  "at": 379.789,
+  "dur": 4.255
+ },
+ {
+  "clip": "night-market",
+  "src_start": 17.407,
+  "src_end": 21.239,
+  "at": 384.044,
+  "dur": 3.831
+ },
+ {
+  "clip": "night-market",
+  "src_start": 21.759,
+  "src_end": 25.59,
+  "at": 387.876,
+  "dur": 3.831
+ },
+ {
+  "clip": "night-market",
+  "src_start": 26.111,
+  "src_end": 29.942,
+  "at": 391.707,
+  "dur": 3.831
+ },
+ {
+  "clip": "night-market",
+  "src_start": 30.463,
+  "src_end": 34.294,
+  "at": 395.538,
+  "dur": 3.831
+ },
+ {
+  "clip": "night-market",
+  "src_start": 34.815,
+  "src_end": 38.646,
+  "at": 399.369,
+  "dur": 3.831
+ },
+ {
+  "clip": "fireworks-shot2",
+  "src_start": 0.0,
+  "src_end": 4.695,
+  "at": 403.2,
+  "dur": 4.695
+ },
+ {
+  "clip": "purple-sunset",
+  "src_start": 0.0,
+  "src_end": 3.446,
+  "at": 407.895,
+  "dur": 3.446
+ },
+ {
+  "clip": "fireworks-shot1",
+  "src_start": 0.0,
+  "src_end": 3.611,
+  "at": 411.341,
+  "dur": 3.611
+ },
+ {
+  "clip": "sunbeams-trees",
+  "src_start": 0.0,
+  "src_end": 3.915,
+  "at": 414.952,
+  "dur": 3.915
+ },
+ {
+  "clip": "purple-sunset",
+  "src_start": 4.225,
+  "src_end": 7.671,
+  "at": 418.867,
+  "dur": 3.446
+ },
+ {
+  "clip": "fireworks-shot1",
+  "src_start": 4.427,
+  "src_end": 8.038,
+  "at": 422.313,
+  "dur": 3.611
+ },
+ {
+  "clip": "sunbeams-trees",
+  "src_start": 4.8,
+  "src_end": 8.715,
+  "at": 425.924,
+  "dur": 3.915
+ },
+ {
+  "clip": "purple-sunset",
+  "src_start": 8.45,
+  "src_end": 11.896,
+  "at": 429.839,
+  "dur": 3.446
+ },
+ {
+  "clip": "fireworks-shot1",
+  "src_start": 8.855,
+  "src_end": 12.465,
+  "at": 433.285,
+  "dur": 3.611
+ },
+ {
+  "clip": "sunbeams-trees",
+  "src_start": 9.6,
+  "src_end": 13.515,
+  "at": 436.896,
+  "dur": 3.915
+ },
+ {
+  "clip": "purple-sunset",
+  "src_start": 12.675,
+  "src_end": 16.121,
+  "at": 440.811,
+  "dur": 3.446
+ },
+ {
+  "clip": "fireworks-shot1",
+  "src_start": 13.282,
+  "src_end": 16.893,
+  "at": 444.257,
+  "dur": 3.611
+ }
+]

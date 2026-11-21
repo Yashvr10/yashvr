@@ -2,7 +2,8 @@
 
 Reel in the style of the user's Alan Watts reference (see approval/analysis.md), made in invideo.
 
-Status: script received (title "Life won't wait for you so fly"); narration done (src/scenes.json, assets/vo, voice "Lewis older", headings left out), 7:28 with pauses. Frame 16:9 YouTube. Footage: 7:47, enough for the 7:28 narration with no shot repeated.
+Status: made in invideo (project "Life Won't Wait For You, So Fly (Project Y)", https://invideo.io/@yash-vardhan-singh-3/life-wont-wait-for-you-so-fly-project-y). Timeline T2 "Y 16x9 YouTube" (1920x1080) is the delivered film, 7:28; timeline T1 is the earlier 9:16 cut (1080x1920). `video/Life-Wont-Wait-For-You-So-Fly.mp4` is a 720p copy.
+- How it was built: `src/plan.py` (shot plan: 114 shots in seven sections that follow the script, long clips cut into ~4.6 s pieces and interleaved, every piece used once) -> `src/iv_ops.py` (invideo edit operations: shots filling the frame, narration, two invideo stock ambient tracks at -15 dB with fades, yellow italic Inter captions timed by invideo's transcript of the narration, phrases of up to 6 words). `src/timing.json` and `assets/narration.mp3` are the narration with its pauses.
 
 - Voice: invideo stock AI voice, older deep calm British male, slow with long pauses (not a Watts clone).
 - Music: quiet ambient bed, similar style.
