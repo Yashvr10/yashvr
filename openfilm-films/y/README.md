@@ -2,7 +2,7 @@
 
 Reel in the style of the user's Alan Watts reference (see approval/analysis.md), made in invideo.
 
-Status: script received (title "Life won't wait for you so fly"); narration done (src/scenes.json, assets/vo, voice "Lewis older", headings left out), 7:28 with pauses. Frame 16:9 YouTube. Waiting for more clips: 2:39 so far, about 4:50 more needed so no shot repeats.
+Status: script received (title "Life won't wait for you so fly"); narration done (src/scenes.json, assets/vo, voice "Lewis older", headings left out), 7:28 with pauses. Frame 16:9 YouTube. Waiting for more clips: 2:49 so far, about 4:40 more needed so no shot repeats.
 
 - Voice: invideo stock AI voice, older deep calm British male, slow with long pauses (not a Watts clone).
 - Music: quiet ambient bed, similar style.
@@ -19,5 +19,6 @@ Status: script received (title "Life won't wait for you so fly"); narration done
 - `paris-street.mp4`: from Pinterest (pin.it/A1y0s369N), 12.1 s, 736x414. A Paris boulevard with people walking past in golden light.
 - `paris-rooftops.mp4`: from Pinterest (pin.it/H8xt25DbS), 34.1 s, 736x414. One slow shot looking down on a Paris crossing with cars and cyclists, which tilts up to the rooftops and chimneys.
 - `seoul-shot1..9.mp4`: from Pinterest (pin.it/7GlA4PYpw), 43.8 s, 736x414. Seoul at night with neon streets, sunset through bare trees by a railway bridge, a train crossing, apartment towers at dusk, the inside of a subway car and a bus, and the river skyline at night. The "My Soul Seoul" logo card is cut off the end.
-- Total clean footage so far: 158.7 s, about 2 min 39 s (11.8 + 15.6 + 17.8 + 23.5 + 12.1 + 34.1 + 43.8). The three Pinterest clips are low resolution (736x414) and will look soft at 1080p. It is all other creators' footage, so the user needs their permission before posting.
+- `drive-shot1..3.mp4`: from Instagram DeZY0iuOYXr, 9.9 s, 1276x718. Green fields and hills at dusk through a car side window, and a man driving seen from the back seat. There were no captions. The audio is removed.
+- Total clean footage so far: 168.6 s, about 2 min 49 s (11.8 + 15.6 + 17.8 + 23.5 + 12.1 + 34.1 + 43.8 + 9.9). The three Pinterest clips are low resolution (736x414) and will look soft at 1080p. It is all other creators' footage, so the user needs their permission before posting.
 
