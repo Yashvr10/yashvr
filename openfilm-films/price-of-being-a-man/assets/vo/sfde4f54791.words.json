@@ -1,0 +1,77 @@
+[
+{
+"word": "The",
+"start": 0.0,
+"end": 0.16
+},
+{
+"word": "man",
+"start": 0.16,
+"end": 0.44
+},
+{
+"word": "looking",
+"start": 0.44,
+"end": 0.76
+},
+{
+"word": "back",
+"start": 0.76,
+"end": 1.04
+},
+{
+"word": "at",
+"start": 1.04,
+"end": 1.24
+},
+{
+"word": "you",
+"start": 1.24,
+"end": 1.5
+},
+{
+"word": "is",
+"start": 1.5,
+"end": 2.0
+},
+{
+"word": "not",
+"start": 2.0,
+"end": 2.22
+},
+{
+"word": "the",
+"start": 2.22,
+"end": 2.42
+},
+{
+"word": "boy",
+"start": 2.42,
+"end": 2.74
+},
+{
+"word": "who",
+"start": 2.74,
+"end": 3.06
+},
+{
+"word": "walked",
+"start": 3.06,
+"end": 3.4
+},
+{
+"word": "into",
+"start": 3.4,
+"end": 3.66
+},
+{
+"word": "the",
+"start": 3.66,
+"end": 3.84
+},
+{
+"word": "forest.",
+"start": 3.84,
+"end": 4.16
+}
+]

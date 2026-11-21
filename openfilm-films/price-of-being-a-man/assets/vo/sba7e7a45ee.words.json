@@ -1,0 +1,82 @@
+[
+{
+"word": "The",
+"start": 0.0,
+"end": 0.12
+},
+{
+"word": "right",
+"start": 0.12,
+"end": 0.36
+},
+{
+"word": "people",
+"start": 0.36,
+"end": 0.8
+},
+{
+"word": "seem",
+"start": 0.8,
+"end": 1.06
+},
+{
+"word": "to",
+"start": 1.06,
+"end": 1.28
+},
+{
+"word": "arrive.",
+"start": 1.28,
+"end": 1.76
+},
+{
+"word": "Obstacles",
+"start": 2.5,
+"end": 2.98
+},
+{
+"word": "stop",
+"start": 2.98,
+"end": 3.38
+},
+{
+"word": "feeling",
+"start": 3.38,
+"end": 3.84
+},
+{
+"word": "like",
+"start": 3.84,
+"end": 4.14
+},
+{
+"word": "punishment",
+"start": 4.14,
+"end": 4.74
+},
+{
+"word": "and",
+"start": 4.74,
+"end": 5.4
+},
+{
+"word": "start",
+"start": 5.4,
+"end": 5.78
+},
+{
+"word": "feeling",
+"start": 5.78,
+"end": 6.18
+},
+{
+"word": "like",
+"start": 6.18,
+"end": 6.54
+},
+{
+"word": "preparation.",
+"start": 6.54,
+"end": 7.04
+}
+]

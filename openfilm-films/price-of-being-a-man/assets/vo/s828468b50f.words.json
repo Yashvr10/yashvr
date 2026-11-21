@@ -1,0 +1,52 @@
+[
+{
+"word": "You",
+"start": 0.0,
+"end": 0.2
+},
+{
+"word": "stop",
+"start": 0.2,
+"end": 0.48
+},
+{
+"word": "looking",
+"start": 0.48,
+"end": 0.82
+},
+{
+"word": "for",
+"start": 0.82,
+"end": 1.06
+},
+{
+"word": "peace,",
+"start": 1.06,
+"end": 1.44
+},
+{
+"word": "and",
+"start": 1.44,
+"end": 2.08
+},
+{
+"word": "slowly",
+"start": 2.08,
+"end": 2.5
+},
+{
+"word": "you",
+"start": 2.5,
+"end": 2.96
+},
+{
+"word": "become",
+"start": 2.96,
+"end": 3.3
+},
+{
+"word": "it.",
+"start": 3.3,
+"end": 3.56
+}
+]

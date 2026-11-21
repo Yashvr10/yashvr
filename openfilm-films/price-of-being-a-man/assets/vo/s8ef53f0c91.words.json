@@ -1,0 +1,87 @@
+[
+{
+"word": "You",
+"start": 0.0,
+"end": 0.26
+},
+{
+"word": "will",
+"start": 0.26,
+"end": 0.4
+},
+{
+"word": "not",
+"start": 0.4,
+"end": 0.58
+},
+{
+"word": "need",
+"start": 0.58,
+"end": 0.84
+},
+{
+"word": "to",
+"start": 0.84,
+"end": 1.06
+},
+{
+"word": "prove",
+"start": 1.06,
+"end": 1.36
+},
+{
+"word": "your",
+"start": 1.36,
+"end": 1.68
+},
+{
+"word": "worth.",
+"start": 1.68,
+"end": 2.1
+},
+{
+"word": "Your",
+"start": 2.7,
+"end": 2.86
+},
+{
+"word": "presence",
+"start": 2.86,
+"end": 3.26
+},
+{
+"word": "will",
+"start": 3.26,
+"end": 3.56
+},
+{
+"word": "say",
+"start": 3.56,
+"end": 3.86
+},
+{
+"word": "most",
+"start": 3.86,
+"end": 4.16
+},
+{
+"word": "of",
+"start": 4.16,
+"end": 4.44
+},
+{
+"word": "it",
+"start": 4.44,
+"end": 4.58
+},
+{
+"word": "for",
+"start": 4.58,
+"end": 4.8
+},
+{
+"word": "you.",
+"start": 4.8,
+"end": 5.0
+}
+]

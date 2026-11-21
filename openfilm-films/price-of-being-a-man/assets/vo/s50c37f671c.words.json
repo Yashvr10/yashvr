@@ -1,0 +1,47 @@
+[
+{
+"word": "You",
+"start": 0.0,
+"end": 0.24
+},
+{
+"word": "are",
+"start": 0.24,
+"end": 0.36
+},
+{
+"word": "not",
+"start": 0.36,
+"end": 0.56
+},
+{
+"word": "the",
+"start": 0.56,
+"end": 0.72
+},
+{
+"word": "one",
+"start": 0.72,
+"end": 0.94
+},
+{
+"word": "who",
+"start": 0.94,
+"end": 1.24
+},
+{
+"word": "begged",
+"start": 1.24,
+"end": 1.54
+},
+{
+"word": "for",
+"start": 1.54,
+"end": 1.88
+},
+{
+"word": "peace.",
+"start": 1.88,
+"end": 2.16
+}
+]

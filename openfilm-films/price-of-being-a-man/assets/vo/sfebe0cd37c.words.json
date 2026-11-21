@@ -1,0 +1,72 @@
+[
+{
+"word": "The",
+"start": 0.0,
+"end": 0.18
+},
+{
+"word": "world",
+"start": 0.18,
+"end": 0.58
+},
+{
+"word": "will",
+"start": 0.58,
+"end": 0.84
+},
+{
+"word": "not",
+"start": 0.84,
+"end": 1.04
+},
+{
+"word": "remember",
+"start": 1.04,
+"end": 1.48
+},
+{
+"word": "what",
+"start": 1.48,
+"end": 1.86
+},
+{
+"word": "you",
+"start": 1.86,
+"end": 2.06
+},
+{
+"word": "owned.",
+"start": 2.06,
+"end": 2.5
+},
+{
+"word": "It",
+"start": 3.02,
+"end": 3.14
+},
+{
+"word": "will",
+"start": 3.14,
+"end": 3.3
+},
+{
+"word": "remember",
+"start": 3.3,
+"end": 3.74
+},
+{
+"word": "how",
+"start": 3.74,
+"end": 4.18
+},
+{
+"word": "you",
+"start": 4.18,
+"end": 4.4
+},
+{
+"word": "stood.",
+"start": 4.4,
+"end": 4.76
+}
+]

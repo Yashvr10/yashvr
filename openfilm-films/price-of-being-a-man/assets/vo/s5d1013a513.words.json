@@ -1,0 +1,47 @@
+[
+{
+"word": "He",
+"start": 0.0,
+"end": 0.26
+},
+{
+"word": "lives",
+"start": 0.26,
+"end": 0.44
+},
+{
+"word": "on",
+"start": 0.44,
+"end": 0.8
+},
+{
+"word": "in",
+"start": 0.8,
+"end": 1.12
+},
+{
+"word": "the",
+"start": 1.12,
+"end": 1.24
+},
+{
+"word": "work",
+"start": 1.24,
+"end": 1.54
+},
+{
+"word": "he",
+"start": 1.94,
+"end": 2.04
+},
+{
+"word": "leaves",
+"start": 2.04,
+"end": 2.36
+},
+{
+"word": "behind.",
+"start": 2.36,
+"end": 2.84
+}
+]

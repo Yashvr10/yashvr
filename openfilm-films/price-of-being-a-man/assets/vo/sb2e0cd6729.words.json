@@ -1,0 +1,47 @@
+[
+{
+"word": "Your",
+"start": 0.0,
+"end": 0.3
+},
+{
+"word": "feelings",
+"start": 0.3,
+"end": 0.74
+},
+{
+"word": "no",
+"start": 0.74,
+"end": 1.16
+},
+{
+"word": "longer",
+"start": 1.16,
+"end": 1.48
+},
+{
+"word": "run",
+"start": 1.48,
+"end": 1.74
+},
+{
+"word": "you.",
+"start": 1.74,
+"end": 2.04
+},
+{
+"word": "You",
+"start": 2.42,
+"end": 2.6
+},
+{
+"word": "lead",
+"start": 2.6,
+"end": 2.86
+},
+{
+"word": "them.",
+"start": 2.86,
+"end": 3.14
+}
+]

@@ -1,0 +1,47 @@
+[
+{
+"word": "You",
+"start": 0.0,
+"end": 0.22
+},
+{
+"word": "become",
+"start": 0.22,
+"end": 0.56
+},
+{
+"word": "someone",
+"start": 0.56,
+"end": 1.1
+},
+{
+"word": "your",
+"start": 1.1,
+"end": 1.68
+},
+{
+"word": "old",
+"start": 1.68,
+"end": 2.0
+},
+{
+"word": "self",
+"start": 2.0,
+"end": 2.42
+},
+{
+"word": "would",
+"start": 2.42,
+"end": 2.84
+},
+{
+"word": "not",
+"start": 2.84,
+"end": 3.08
+},
+{
+"word": "recognise.",
+"start": 3.08,
+"end": 3.56
+}
+]

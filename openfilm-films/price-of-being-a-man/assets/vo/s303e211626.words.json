@@ -1,0 +1,72 @@
+[
+{
+"word": "This",
+"start": 0.0,
+"end": 0.3
+},
+{
+"word": "is",
+"start": 0.3,
+"end": 0.5
+},
+{
+"word": "the",
+"start": 0.5,
+"end": 0.68
+},
+{
+"word": "price",
+"start": 0.68,
+"end": 1.02
+},
+{
+"word": "of",
+"start": 1.02,
+"end": 1.32
+},
+{
+"word": "being",
+"start": 1.32,
+"end": 1.5
+},
+{
+"word": "a",
+"start": 1.5,
+"end": 1.72
+},
+{
+"word": "man.",
+"start": 1.72,
+"end": 2.04
+},
+{
+"word": "And",
+"start": 2.54,
+"end": 2.7
+},
+{
+"word": "this",
+"start": 2.7,
+"end": 2.96
+},
+{
+"word": "is",
+"start": 2.96,
+"end": 3.38
+},
+{
+"word": "what",
+"start": 3.38,
+"end": 3.58
+},
+{
+"word": "it",
+"start": 3.58,
+"end": 3.78
+},
+{
+"word": "buys.",
+"start": 3.78,
+"end": 4.16
+}
+]

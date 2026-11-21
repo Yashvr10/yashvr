@@ -2,7 +2,7 @@
 
 Reel in the style of the user's Alan Watts reference (see approval/analysis.md), made in invideo.
 
-Status: script received (title "Life won't wait for you so fly"); narration done (src/scenes.json, assets/vo, voice "Lewis older", headings left out), 7:28 with pauses. Frame 16:9 YouTube. Waiting for more clips: 5:22 so far, about 2:05 more needed so no shot repeats.
+Status: script received (title "Life won't wait for you so fly"); narration done (src/scenes.json, assets/vo, voice "Lewis older", headings left out), 7:28 with pauses. Frame 16:9 YouTube. Waiting for more clips: 7:47 so far, enough for the 7:28 narration; ready to build once the user confirms so no shot repeats.
 
 - Voice: invideo stock AI voice, older deep calm British male, slow with long pauses (not a Watts clone).
 - Music: quiet ambient bed, similar style.
@@ -26,5 +26,15 @@ Status: script received (title "Life won't wait for you so fly"); narration done
 - `paris-rain.mp4`: from Pinterest (pin.it/1axXFtpy1), 30.7 s, 736x414. A handheld walk on a rainy Paris evening: cafe awnings, umbrellas, wet streets, the walker's feet.
 - `autumn-avenue.mp4`: from Pinterest (pin 603623156350838711), 25.4 s, 736x414. A locked-off shot of an avenue of autumn plane trees beside a road.
 - `sunlight-trees.mp4`: from Instagram Df95yFUIOtE, 11.4 s. The reel is 9:16 with a 16:9 picture in the middle; cropped to that picture (1080x608, scaled to 1920x1080). Light through blinds, the sun through trees and pines, a street lamp at dusk. There were no captions. The audio is removed.
-- Total clean footage so far: 321.9 s, about 5 min 22 s (11.8 + 15.6 + 17.8 + 23.5 + 12.1 + 34.1 + 43.8 + 9.9 + 23.7 + 47.0 + 15.1 + 30.7 + 25.4 + 11.4). The three Pinterest clips are low resolution (736x414) and will look soft at 1080p. It is all other creators' footage, so the user needs their permission before posting.
+- From the nine Instagram reels of 21 Nov (no audio kept; crops noted):
+  - `mountains-dusk.mp4` (DffjsIYsLSs, 10.4 s): mountain ridges under a teal dusk sky, grass in the foreground.
+  - `sunbeams-trees.mp4` (DgAkQvxqDNk, 14.4 s): sunbeams pouring through trees in golden haze.
+  - `hills-sunrise.mp4` (Deyh9BFheDQ, 3.2 s): a grassy slope, then a sunrise over misty hills. Only the first 3.2 s: after that the reel has handwritten words burned into the picture.
+  - `night-lights.mp4` (DfWSR1WTO77, 16.6 s): small night scenes, city lights, trees against a dusk sky. The reel is 9:16 with the picture in the middle; cropped to 16:9 and scaled up, so it is soft.
+  - `purple-sunset.mp4` (Df_FFv9IUhi, 16.9 s): a purple and pink sunset over the sea with palm and tree silhouettes, several shots.
+  - `city-night.mp4` (DfpscqmPUZD, 12.5 s): a city's lights spread out below at night, from a hilltop.
+  - `sunset-glow.mp4` (DediTS4vEbt, 19.3 s): an orange horizon glow with a crescent moon, seen past a curved window edge. 9:16 source, cropped to 16:9.
+  - `night-market.mp4` (DfUr_ZmB_hI, 39.2 s): a fast walk through a busy night market with lights and crowds, many cuts.
+  - `snow-night.mp4` (DfIETKaR90w, 12.4 s): snow falling under a street lamp at night, snowed-in cars. 4:3 source, cropped to 16:9.
+- Total clean footage so far: 466.7 s, about 7 min 47 s. That covers the 7:28 narration with no shot repeated.
 

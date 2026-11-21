@@ -840,7 +840,7 @@
     "labourer",
     "king"
    ],
-   "big": "crown",
+   "big": "crowns",
    "red": false,
    "gap": 1.15
   },
@@ -1224,7 +1224,7 @@
     "face",
     "sunrise"
    ],
-   "big": "teach me",
+   "big": "teaching",
    "red": false,
    "gap": 1.61
   },
@@ -1634,7 +1634,7 @@
     "sea",
     "night"
    ],
-   "big": "order",
+   "big": "stars",
    "red": false,
    "gap": 1.15
   },
@@ -1990,7 +1990,7 @@
     "knight",
     "face"
    ],
-   "big": "undeniable",
+   "big": "ignore",
    "red": false,
    "gap": 1.15
   },
@@ -2323,7 +2323,7 @@
     "brothers",
     "knight"
    ],
-   "big": "brothers",
+   "big": "good men",
    "red": false,
    "gap": 1.15
   },
@@ -2828,7 +2828,7 @@
     "prayer",
     "sunrise"
    ],
-   "big": "faith",
+   "big": "greater",
    "red": false,
    "gap": 1.15
   },

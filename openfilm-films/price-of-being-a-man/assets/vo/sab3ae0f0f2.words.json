@@ -1,0 +1,97 @@
+[
+{
+"word": "You",
+"start": 0.0,
+"end": 0.3
+},
+{
+"word": "are",
+"start": 0.3,
+"end": 0.42
+},
+{
+"word": "not",
+"start": 0.42,
+"end": 0.58
+},
+{
+"word": "the",
+"start": 0.58,
+"end": 0.78
+},
+{
+"word": "boy",
+"start": 0.78,
+"end": 1.1
+},
+{
+"word": "who",
+"start": 1.1,
+"end": 1.44
+},
+{
+"word": "needed",
+"start": 1.44,
+"end": 1.66
+},
+{
+"word": "everyone's",
+"start": 1.66,
+"end": 2.42
+},
+{
+"word": "approval.",
+"start": 2.42,
+"end": 2.74
+},
+{
+"word": "You",
+"start": 3.54,
+"end": 3.62
+},
+{
+"word": "are",
+"start": 3.62,
+"end": 3.72
+},
+{
+"word": "not",
+"start": 3.72,
+"end": 3.88
+},
+{
+"word": "the",
+"start": 3.88,
+"end": 4.06
+},
+{
+"word": "man",
+"start": 4.06,
+"end": 4.42
+},
+{
+"word": "who",
+"start": 4.42,
+"end": 4.76
+},
+{
+"word": "was",
+"start": 4.76,
+"end": 4.88
+},
+{
+"word": "afraid",
+"start": 4.88,
+"end": 5.26
+},
+{
+"word": "to",
+"start": 5.26,
+"end": 5.56
+},
+{
+"word": "fail.",
+"start": 5.56,
+"end": 5.84
+}
+]

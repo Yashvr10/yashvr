@@ -1,0 +1,72 @@
+[
+{
+"word": "A",
+"start": 0.0,
+"end": 0.24
+},
+{
+"word": "legacy",
+"start": 0.24,
+"end": 0.6
+},
+{
+"word": "is",
+"start": 0.6,
+"end": 1.02
+},
+{
+"word": "not",
+"start": 1.02,
+"end": 1.22
+},
+{
+"word": "built",
+"start": 1.22,
+"end": 1.48
+},
+{
+"word": "on",
+"start": 1.48,
+"end": 1.78
+},
+{
+"word": "trends.",
+"start": 1.78,
+"end": 2.16
+},
+{
+"word": "It",
+"start": 2.88,
+"end": 3.0
+},
+{
+"word": "is",
+"start": 3.0,
+"end": 3.14
+},
+{
+"word": "built",
+"start": 3.14,
+"end": 3.46
+},
+{
+"word": "on",
+"start": 3.46,
+"end": 3.88
+},
+{
+"word": "what",
+"start": 3.88,
+"end": 4.06
+},
+{
+"word": "is",
+"start": 4.06,
+"end": 4.28
+},
+{
+"word": "timeless.",
+"start": 4.28,
+"end": 4.72
+}
+]

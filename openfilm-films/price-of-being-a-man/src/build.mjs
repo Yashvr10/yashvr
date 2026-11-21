@@ -114,7 +114,7 @@ const FILM = r3(q(t + 4.6));
 
 // ---- music: Titan, then Coming From Above, then Expanse, 5 s crossfades (each evened to the same loudness)
 const MV = 0.42;
-const tracks = [["meditation-3.mp3", 0, 0], ["gymnopedie-1.mp3", 0, 0], ["full-moon.mp3", 0, 0], ["reverie.mp3", 0, 0], ["expanse.mp3", 0, 0]];
+const tracks = [["meditation-3.mp3", 0, 0], ["gymnopedie-1.mp3", 0, 0], ["full-moon.mp3", 0, 0], ["reverie.mp3", 0, 0], ["expanse.mp3", 0, 0], ["meditation-3.mp3", 0, 0]];   // the 32-min film needs a sixth stretch: the opening track returns for the last minutes
 let mt = 0; const music = [];
 for (const [f] of tracks) {
   if (FILM - mt < 15) break;
