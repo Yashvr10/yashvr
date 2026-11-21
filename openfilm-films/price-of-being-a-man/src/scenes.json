@@ -1,0 +1,3414 @@
+{
+ "voice": "bm_lewis",
+ "speed": 0.84,
+ "pitch": 0.93,
+ "scenes": [
+  {
+   "id": "s6418925e63",
+   "text": "There is an old story that every generation seems to tell in its own way.",
+   "th": [
+    "forest",
+    "night"
+   ],
+   "big": "story",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s88cec352a2",
+   "text": "A boy walks into a dark forest, and some time later, a man walks out.",
+   "th": [
+    "forest",
+    "wanderer"
+   ],
+   "big": "forest",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s1d4dbd02ae",
+   "text": "But everyone agrees that the one who came out was not the one who went in.",
+   "th": [
+    "forest",
+    "face"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.38
+  },
+  {
+   "id": "s6e0e935b46",
+   "text": "The boy went in carrying a great deal of noise.",
+   "th": [
+    "boy",
+    "forest"
+   ],
+   "big": "noise",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s5ad8efa3cf",
+   "text": "His fears, his wants, his pride, his need to be comfortable and to be liked.",
+   "th": [
+    "boy",
+    "face"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s54c5e694f3",
+   "text": "The man came out carrying almost nothing at all, except a kind of stillness behind the eyes.",
+   "th": [
+    "face",
+    "monk"
+   ],
+   "big": "stillness",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "se8290f5ab2",
+   "text": "That forest goes by many names.",
+   "th": [
+    "forest",
+    "mountain"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s5433365e7a",
+   "text": "Some people call it suffering. Some call it discipline. Some call it being alone for a long time.",
+   "th": [
+    "storm",
+    "hermit",
+    "monk"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s561dccb082",
+   "text": "But every man who has become something solid has had to walk through it.",
+   "th": [
+    "wanderer",
+    "mountain"
+   ],
+   "big": "through",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s475d4505ba",
+   "text": "Because nobody is born strong.",
+   "th": [
+    "boy"
+   ],
+   "big": "born",
+   "red": false,
+   "gap": 0.69
+  },
+  {
+   "id": "s7d078913d1",
+   "text": "Strength is not handed out at birth. It is hammered into shape.",
+   "th": [
+    "forge",
+    "fire"
+   ],
+   "big": "hammered",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "sd3e2979786",
+   "text": "And the heat that does the shaping is rarely gentle.",
+   "th": [
+    "forge"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "ch1",
+   "card": "chapter",
+   "num": "I",
+   "title": "No one is coming",
+   "len": 4.4
+  },
+  {
+   "id": "s5ce3cb36d5",
+   "text": "For most men there is a moment, small and quiet, when something finally lands.",
+   "th": [
+    "window",
+    "night"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "sff83f8ab5c",
+   "text": "No one is coming.",
+   "th": [
+    "face",
+    "night"
+   ],
+   "big": "no one",
+   "red": false,
+   "gap": 1.61
+  },
+  {
+   "id": "s6ae32b4051",
+   "text": "It usually happens in the silence after something has gone wrong.",
+   "th": [
+    "interior",
+    "night"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s7ff48b8a99",
+   "text": "After a failure. After a disappointment. After someone you trusted turned out to be someone else.",
+   "th": [
+    "face",
+    "storm"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "sb3e4a457cd",
+   "text": "You sit there, and it is as if life has quietly turned a mirror toward you and asked a single question.",
+   "th": [
+    "mirror",
+    "face"
+   ],
+   "big": "mirror",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s04a10c93fc",
+   "text": "Are you going to keep running from this, or are you going to grow?",
+   "th": [
+    "mirror",
+    "road"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.61
+  },
+  {
+   "id": "sf5bbac7f15",
+   "text": "In that moment, something in you dies.",
+   "th": [
+    "funeral",
+    "night"
+   ],
+   "big": "dies",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s2ab709264d",
+   "text": "Not the body. Something older and softer.",
+   "th": [
+    "boy",
+    "night"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "sba3f6bef39",
+   "text": "The belief that someone else will always catch you.",
+   "th": [
+    "father",
+    "boy"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s33ba532b5d",
+   "text": "The belief that comfort is the same thing as peace.",
+   "th": [
+    "interior",
+    "feast"
+   ],
+   "big": "comfort",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s3c7e5279a5",
+   "text": "The belief that the world owes you something simply because you are here.",
+   "th": [
+    "crowd",
+    "boy"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "sdc5486d774",
+   "text": "But when they are gone, there is room for something new to be born.",
+   "th": [
+    "sunrise",
+    "field"
+   ],
+   "big": "born",
+   "red": false,
+   "gap": 1.61
+  },
+  {
+   "id": "s4e40c8c257",
+   "text": "Every step of that becoming has a cost.",
+   "th": [
+    "road",
+    "mountain"
+   ],
+   "big": "cost",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s2565b26e23",
+   "text": "And the cost is almost always paid in some kind of pain.",
+   "th": [
+    "labourer",
+    "storm"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s671703da7a",
+   "text": "You will pay with hours that no one sees.",
+   "th": [
+    "night",
+    "labourer"
+   ],
+   "big": "hours",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "sdecd8e0b94",
+   "text": "You will pay with long stretches of being alone.",
+   "th": [
+    "hermit",
+    "sea"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s60902165f0",
+   "text": "You will pay with embarrassment, with doubt, with starting again more times than you can count.",
+   "th": [
+    "face",
+    "rock"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "sbffbb5960c",
+   "text": "Every man you quietly admire has paid more than you will ever know.",
+   "th": [
+    "oldman",
+    "face"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s3903212b61",
+   "text": "And the boy who refuses to pay never goes bankrupt in money. He goes bankrupt in spirit.",
+   "th": [
+    "boy",
+    "night"
+   ],
+   "big": "spirit",
+   "red": false,
+   "gap": 1.49
+  },
+  {
+   "id": "see87ce1748",
+   "text": "Think of pain as the toll on a bridge.",
+   "th": [
+    "bridge",
+    "river"
+   ],
+   "big": "toll",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s5596663257",
+   "text": "There will be seasons in this crossing when nobody understands you.",
+   "th": [
+    "wanderer",
+    "crowd"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "sfb1b66c3e0",
+   "text": "Not your friends. Not your family. Sometimes not even you.",
+   "th": [
+    "family",
+    "face"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "sdc58ae6205",
+   "text": "You will feel lost, and strangely invisible.",
+   "th": [
+    "fog",
+    "wanderer"
+   ],
+   "big": "invisible",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "sa2911da801",
+   "text": "It is the feeling of being in between. No longer who you were, not yet who you will be.",
+   "th": [
+    "fog",
+    "road"
+   ],
+   "big": "in between",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s5004cec3fe",
+   "text": "Do not rush that silence. It is the sound of an old self quietly leaving.",
+   "th": [
+    "hermit",
+    "night"
+   ],
+   "big": "silence",
+   "red": false,
+   "gap": 1.61
+  },
+  {
+   "id": "s5365cd0390",
+   "text": "And the world will try to call you back.",
+   "th": [
+    "crowd",
+    "feast"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s4268edc6bb",
+   "text": "Some rest is wise. But that particular voice is not the voice of rest. It is the voice of decay.",
+   "th": [
+    "ruins"
+   ],
+   "big": "decay",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "scd238914dd",
+   "text": "You were not made only to be ordinary.",
+   "th": [
+    "mountain",
+    "sunrise"
+   ],
+   "big": "ordinary",
+   "red": false,
+   "gap": 1.61
+  },
+  {
+   "id": "s19200a6de5",
+   "text": "When a man finally accepts pain as a teacher, discipline as a way of living, and solitude as a kind of temple, something wakes up in him.",
+   "th": [
+    "monk",
+    "temple"
+   ],
+   "big": "wakes",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "sf470e5f05c",
+   "text": "The quiet one. Controlled. Very hard to break.",
+   "th": [
+    "knight",
+    "face"
+   ],
+   "big": "quiet",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "sbb1f607cb6",
+   "text": "He is moved by purpose more than by mood. By what is true more than by what is easy. By faith more than by fear.",
+   "th": [
+    "sunrise",
+    "wanderer"
+   ],
+   "big": "purpose",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s29de9d1664",
+   "text": "And when that man begins to emerge in you, people will feel it before they can explain it.",
+   "th": [
+    "crowd",
+    "face"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "sc2ff421446",
+   "text": "Your silence will start to carry weight.",
+   "th": [
+    "face"
+   ],
+   "big": "weight",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s696a9736de",
+   "text": "Because a man who has won the war inside himself gives off something that cannot be faked.",
+   "th": [
+    "knight",
+    "sunrise"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.84
+  },
+  {
+   "id": "se8e7b2b096",
+   "text": "Every man who becomes great signs a quiet contract with life.",
+   "th": [
+    "letter",
+    "writer"
+   ],
+   "big": "contract",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "se1257ee857",
+   "text": "I accept the discipline. I accept the loneliness of the road. I accept the storms that will come to test me.",
+   "th": [
+    "road",
+    "storm",
+    "hermit"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s63c6fb09a4",
+   "text": "And in return, I ask for clarity, strength, and peace.",
+   "th": [
+    "sunrise",
+    "lake"
+   ],
+   "big": "peace",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "sf55ac5724e",
+   "text": "You will lose some people who only knew the weaker version of you.",
+   "th": [
+    "family",
+    "road"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s9f9b66621f",
+   "text": "You will lose illusions that used to make you feel safe.",
+   "th": [
+    "ruins"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s5db7aaceff",
+   "text": "But you will gain the one thing nobody can sell you.",
+   "th": [
+    "face"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.69
+  },
+  {
+   "id": "s7c78d53195",
+   "text": "Yourself.",
+   "th": [
+    "face",
+    "sunrise"
+   ],
+   "big": "yourself",
+   "red": false,
+   "gap": 1.84
+  },
+  {
+   "id": "s6bf2e1d405",
+   "text": "A boy looks for warmth. A man learns how to build a fire.",
+   "th": [
+    "boy",
+    "fire"
+   ],
+   "big": "fire",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s166424bf96",
+   "text": "He stops praying for a lighter load, and starts praying for stronger shoulders.",
+   "th": [
+    "labourer",
+    "prayer"
+   ],
+   "big": "shoulders",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "scb97bb7a03",
+   "text": "Nothing that comes easily seems to last. And nothing that lasts ever seems to come easily.",
+   "th": [
+    "ruins",
+    "mountain"
+   ],
+   "big": "lasts",
+   "red": false,
+   "gap": 2.07
+  },
+  {
+   "id": "ch2",
+   "card": "chapter",
+   "num": "II",
+   "title": "The weight",
+   "len": 4.4
+  },
+  {
+   "id": "s07ef2b4056",
+   "text": "If there is one word that separates a man from a boy, it might be this one.",
+   "th": [
+    "boy",
+    "father"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s14d6f22065",
+   "text": "Responsibility.",
+   "th": [
+    "labourer"
+   ],
+   "big": "responsibility",
+   "red": false,
+   "gap": 1.38
+  },
+  {
+   "id": "s47eb411669",
+   "text": "Every boy wants freedom. But a man knows that freedom has to be earned.",
+   "th": [
+    "boy",
+    "road"
+   ],
+   "big": "freedom",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "sa0c6fd6cf8",
+   "text": "And the price of it is the weight you are willing to carry.",
+   "th": [
+    "labourer"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s27c579a5bc",
+   "text": "You cannot lead others while you still need to be carried yourself.",
+   "th": [
+    "father",
+    "boy"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "sb05f2ffea0",
+   "text": "A man is not really measured by what he collects. He is measured by what he holds together.",
+   "th": [
+    "father",
+    "family"
+   ],
+   "big": "holds",
+   "red": false,
+   "gap": 1.61
+  },
+  {
+   "id": "s8f61964112",
+   "text": "There is a reason weight was placed on our shoulders.",
+   "th": [
+    "labourer"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s3545e43c71",
+   "text": "It is not a punishment. It is a direction.",
+   "th": [
+    "road"
+   ],
+   "big": "direction",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s3db7d2761f",
+   "text": "Without something to carry, a man drifts.",
+   "th": [
+    "sea",
+    "boat"
+   ],
+   "big": "drifts",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s0689d364b0",
+   "text": "But the man who carries his load, even when no one helps him, walks differently.",
+   "th": [
+    "labourer",
+    "road"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s020d7fb3e8",
+   "text": "Our age has told men a strange story.",
+   "th": [
+    "crowd"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s90c5f779b8",
+   "text": "Avoid stress. Numb the pain. Make yourself comfortable, as if comfort were the same thing as success.",
+   "th": [
+    "feast",
+    "interior"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "sc99e63bdbd",
+   "text": "But comfort, taken as a way of life, quietly hollows a man out.",
+   "th": [
+    "ruins",
+    "face"
+   ],
+   "big": "hollows",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s466c1bd540",
+   "text": "You have probably met men like this. They blame, they escape, they envy. They scroll.",
+   "th": [
+    "crowd",
+    "night"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s241045c15a",
+   "text": "Look instead at the man who trains his body, who gets up before the sun, who keeps his word, who stays standing when others fold.",
+   "th": [
+    "sunrise",
+    "knight"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "sf810bb446e",
+   "text": "He is not being rigid. He is being faithful.",
+   "th": [
+    "knight",
+    "prayer"
+   ],
+   "big": "faithful",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s9e866146f9",
+   "text": "Every hour of work, every sacrifice for his family or his calling, is a kind of offering.",
+   "th": [
+    "labourer",
+    "family",
+    "prayer"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s6023c9d73f",
+   "text": "And life usually answers by testing him. And when he holds steady, by giving him more to hold.",
+   "th": [
+    "storm",
+    "mountain"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.61
+  },
+  {
+   "id": "s8c9a15d184",
+   "text": "Here is something most men never say out loud.",
+   "th": [
+    "face"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.57
+  },
+  {
+   "id": "s9ca84a859d",
+   "text": "Responsibility will crush you before it ever crowns you.",
+   "th": [
+    "labourer",
+    "king"
+   ],
+   "big": "crown",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "scb6d5b2bb8",
+   "text": "You will feel the weight of providing, of leading, of simply holding on, and almost no one will see it.",
+   "th": [
+    "father",
+    "night"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "sad58bd4a20",
+   "text": "No one claps when you resist a temptation.",
+   "th": [
+    "night",
+    "interior"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "sdb24a72687",
+   "text": "No one applauds the anger you swallowed instead of spending.",
+   "th": [
+    "face"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s0a8e2ff7d8",
+   "text": "Responsibility is not about being noticed. It is about being changed.",
+   "th": [
+    "sculptor",
+    "statue"
+   ],
+   "big": "changed",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "sb96430e78d",
+   "text": "Every burden nobody sees is quietly carving your character.",
+   "th": [
+    "sculptor"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s8d45d81e16",
+   "text": "It is not supposed to feel fair. It is supposed to form you.",
+   "th": [
+    "forge",
+    "sculptor"
+   ],
+   "big": "form",
+   "red": false,
+   "gap": 1.61
+  },
+  {
+   "id": "s64607e343c",
+   "text": "To lead is often to bleed quietly.",
+   "th": [
+    "knight",
+    "battle"
+   ],
+   "big": "lead",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s55538bca9f",
+   "text": "To take the blows meant for others. To make the hard decisions that keep other people safe.",
+   "th": [
+    "knight",
+    "family"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s29c7c6e3d0",
+   "text": "Leadership is not mostly about giving orders. It is mostly about sacrifice.",
+   "th": [
+    "ship",
+    "storm"
+   ],
+   "big": "sacrifice",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s8e6ea7f86d",
+   "text": "It is staying calm when everything around you is on fire.",
+   "th": [
+    "fire",
+    "face"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.61
+  },
+  {
+   "id": "s966cbeba86",
+   "text": "So while the world around you celebrates indulgence, you may be called to restraint.",
+   "th": [
+    "feast",
+    "monk"
+   ],
+   "big": "restraint",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s3db8bf4a90",
+   "text": "While others run from pressure, you may need to walk toward it.",
+   "th": [
+    "storm",
+    "wanderer"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s23f7018a83",
+   "text": "Because pressure, carried well, polishes a man.",
+   "th": [
+    "forge"
+   ],
+   "big": "pressure",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "sd24b9eae49",
+   "text": "A man does not collapse under the weight. He learns to anchor himself in it.",
+   "th": [
+    "ship",
+    "sea"
+   ],
+   "big": "anchor",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s600f3f4db8",
+   "text": "And slowly, that weight turns into strength, and the strength turns into structure.",
+   "th": [
+    "mason",
+    "ruins"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.61
+  },
+  {
+   "id": "s6690f58a07",
+   "text": "So ask yourself honestly.",
+   "th": [
+    "mirror"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.57
+  },
+  {
+   "id": "sd8d6d92915",
+   "text": "What weight are you running from?",
+   "th": [
+    "mirror",
+    "face"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s64abfd3ac0",
+   "text": "What excuses have you built, brick by brick, around the weak places in you?",
+   "th": [
+    "mason",
+    "ruins"
+   ],
+   "big": "excuses",
+   "red": false,
+   "gap": 1.49
+  },
+  {
+   "id": "s12cfc123f0",
+   "text": "Here is the strange paradox of growing up.",
+   "th": [
+    "oldman"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s55f6f73302",
+   "text": "To become free, you must first accept a kind of bondage.",
+   "th": [
+    "labourer"
+   ],
+   "big": "free",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "sdf8070e435",
+   "text": "A man without responsibility is a leaf in the wind.",
+   "th": [
+    "autumn",
+    "storm"
+   ],
+   "big": "leaf",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "sf4d45319c6",
+   "text": "But a man who carries his weight walks with a kind of gravity.",
+   "th": [
+    "wanderer",
+    "mountain"
+   ],
+   "big": "gravity",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s978193a4a7",
+   "text": "Only the burdened become grounded. And only the grounded become great.",
+   "th": [
+    "mountain",
+    "sunrise"
+   ],
+   "big": "grounded",
+   "red": false,
+   "gap": 2.07
+  },
+  {
+   "id": "ch3",
+   "card": "chapter",
+   "num": "III",
+   "title": "The fire",
+   "len": 4.4
+  },
+  {
+   "id": "s6b72c814fc",
+   "text": "Pain is the fire that refines.",
+   "th": [
+    "fire",
+    "forge"
+   ],
+   "big": "refines",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s7269f459ac",
+   "text": "Everyone says they want strength, greatness, peace. Very few are willing to bleed for it.",
+   "th": [
+    "crowd",
+    "battle"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s0a89f56482",
+   "text": "Because real change is not pretty.",
+   "th": [
+    "storm"
+   ],
+   "big": "change",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s12220cc3d4",
+   "text": "To change your life, something of the old life has to die. And death is rarely gentle.",
+   "th": [
+    "funeral",
+    "ruins"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.49
+  },
+  {
+   "id": "sbaf1918eef",
+   "text": "We are often sold the idea that growth should be soft, that healing should feel nice, that discipline should never cost too much.",
+   "th": [
+    "feast",
+    "interior"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "sfe71817e96",
+   "text": "Growth is often a struggle. Healing often hurts. Discipline often isolates.",
+   "th": [
+    "storm",
+    "hermit"
+   ],
+   "big": "hurts",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "sfd983bfee9",
+   "text": "And sometimes you have to burn the bridge back to who you used to be.",
+   "th": [
+    "bridge",
+    "fire"
+   ],
+   "big": "burn",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s43b6212f88",
+   "text": "Pain is not only punishment. Very often it is purification.",
+   "th": [
+    "fire",
+    "prayer"
+   ],
+   "big": "purification",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "sfb4bbc49ca",
+   "text": "Every scar, every sleepless night, is a chisel working away at something that no longer belongs to you.",
+   "th": [
+    "sculptor",
+    "statue"
+   ],
+   "big": "chisel",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s2616b4374f",
+   "text": "The pain you curse today may be the very thing that is shaping you for tomorrow.",
+   "th": [
+    "forge",
+    "sunrise"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s3c12082a8b",
+   "text": "So stop asking, why me?",
+   "th": [
+    "face"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.46
+  },
+  {
+   "id": "s17ce05f07f",
+   "text": "And start asking, what are you teaching me?",
+   "th": [
+    "face",
+    "sunrise"
+   ],
+   "big": "teach me",
+   "red": false,
+   "gap": 1.61
+  },
+  {
+   "id": "sb51c525649",
+   "text": "Change almost always begins with being humbled.",
+   "th": [
+    "face",
+    "rock"
+   ],
+   "big": "humbled",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s3ff0b34e48",
+   "text": "Life tends to break your pride first, because pride and growth cannot live in the same house for long.",
+   "th": [
+    "ruins",
+    "storm"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "sc97124ad07",
+   "text": "You may lose people. You may lose comfort. You will certainly lose the illusion that you were ever fully in control.",
+   "th": [
+    "sea",
+    "storm"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s9d909abde1",
+   "text": "And in that loss, the ego screams, but something deeper begins to wake.",
+   "th": [
+    "storm",
+    "sunrise"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "se2fd7418d3",
+   "text": "The boy in you goes out shouting, so that the man can come in quietly.",
+   "th": [
+    "boy",
+    "face"
+   ],
+   "big": "quietly",
+   "red": false,
+   "gap": 1.61
+  },
+  {
+   "id": "s5e19fb6e63",
+   "text": "This kind of change is lonely, because not everyone is meant to go where you are going.",
+   "th": [
+    "wanderer",
+    "road"
+   ],
+   "big": "lonely",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s5d844f862b",
+   "text": "When life pulls you away from the crowd for a while, it is not always punishing you.",
+   "th": [
+    "hermit",
+    "crowd"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s0189288e29",
+   "text": "Nobody can climb into the cocoon with the caterpillar and hold its hand.",
+   "th": [
+    "insect"
+   ],
+   "big": "cocoon",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s8e7ca4ccc7",
+   "text": "Pain without direction destroys a man. Pain with a purpose refines him.",
+   "th": [
+    "fire",
+    "road"
+   ],
+   "big": "purpose",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s69e35823da",
+   "text": "That is why discipline matters so much. It gives the pain a meaning.",
+   "th": [
+    "monk",
+    "forge"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s1142f20587",
+   "text": "The early morning your body begs you to stay in bed. The rejection that sharpens your hunger. The heartbreak that hardens your resolve.",
+   "th": [
+    "sunrise",
+    "face",
+    "night"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "sea81d5b7e8",
+   "text": "There are three stages to every real transformation.",
+   "th": [
+    "oldman"
+   ],
+   "big": "three",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s8b3d97b0ce",
+   "text": "First, destruction. Life tears down your comfort and shows you where you are weak.",
+   "th": [
+    "ruins",
+    "storm"
+   ],
+   "big": "destruction",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s3b26d0cea5",
+   "text": "Then, isolation. You are pulled into the dark to meet your own shadow.",
+   "th": [
+    "hermit",
+    "night"
+   ],
+   "big": "isolation",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "sfd832952d2",
+   "text": "And then, reconstruction. The pieces begin to fit together again, in a better order.",
+   "th": [
+    "mason",
+    "sunrise"
+   ],
+   "big": "reconstruction",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s8957461abe",
+   "text": "Every scar becomes a piece of armour. Every long night becomes a piece of wisdom.",
+   "th": [
+    "knight",
+    "night"
+   ],
+   "big": "armour",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s616ec34bf7",
+   "text": "This is how a man is made. Not mostly through success, but through what he survives.",
+   "th": [
+    "face",
+    "oldman"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.61
+  },
+  {
+   "id": "sce2d10c943",
+   "text": "Think of pain as an instructor.",
+   "th": [
+    "oldman",
+    "school"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "se877c42615",
+   "text": "When the body hurts, it teaches you limits.",
+   "th": [
+    "labourer"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "sdbc1073c8b",
+   "text": "When the heart hurts, it teaches you to let go.",
+   "th": [
+    "face",
+    "funeral"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s97d80e859c",
+   "text": "When the soul hurts, it teaches you to surrender to something bigger than you.",
+   "th": [
+    "prayer",
+    "sunrise"
+   ],
+   "big": "surrender",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "sf058c05507",
+   "text": "It does not erase you. It reveals you.",
+   "th": [
+    "statue",
+    "sculptor"
+   ],
+   "big": "reveals",
+   "red": false,
+   "gap": 1.61
+  },
+  {
+   "id": "s877dab00d3",
+   "text": "The trouble is that most men never stay in the fire long enough to learn anything.",
+   "th": [
+    "fire"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s75da9f0af3",
+   "text": "And so the same lesson keeps coming back, wearing a different face each time.",
+   "th": [
+    "mask",
+    "face"
+   ],
+   "big": "lesson",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "sf79a495c9f",
+   "text": "So when pain comes, try not to fight it. Breathe through it. Study it.",
+   "th": [
+    "monk",
+    "lake"
+   ],
+   "big": "study",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s9f9196126c",
+   "text": "Ask it quietly, what are you showing me?",
+   "th": [
+    "lake",
+    "face"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.38
+  },
+  {
+   "id": "s34a6a9e52b",
+   "text": "Endured long enough, pain turns into power. Understood deeply enough, it turns into wisdom.",
+   "th": [
+    "fire",
+    "oldman"
+   ],
+   "big": "wisdom",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s9915bad478",
+   "text": "The fire that once burned you becomes the light that shows you the way.",
+   "th": [
+    "fire",
+    "night"
+   ],
+   "big": "light",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "sb9348f401c",
+   "text": "Change does not come when life gets easier.",
+   "th": [
+    "storm"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s1472b3c7a5",
+   "text": "It comes when you get harder to break.",
+   "th": [
+    "rock",
+    "sea"
+   ],
+   "big": "harder",
+   "red": false,
+   "gap": 2.07
+  },
+  {
+   "id": "ch4",
+   "card": "chapter",
+   "num": "IV",
+   "title": "The order",
+   "len": 4.4
+  },
+  {
+   "id": "s8ea1aa4eff",
+   "text": "Sooner or later every man arrives at a fork in the road.",
+   "th": [
+    "road"
+   ],
+   "big": "fork",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "sb0acd02ffd",
+   "text": "One way is ruled by discipline. The other is ruled by decay.",
+   "th": [
+    "road",
+    "ruins"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s9069b2c973",
+   "text": "Our world loves that kind of freedom.",
+   "th": [
+    "feast",
+    "crowd"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s5e394e2839",
+   "text": "But the deeper kind of freedom only seems to arrive through discipline.",
+   "th": [
+    "monk",
+    "mountain"
+   ],
+   "big": "discipline",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "sdfdf156401",
+   "text": "You cannot steer your life if you cannot steer yourself.",
+   "th": [
+    "ship",
+    "sea"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.49
+  },
+  {
+   "id": "saf9f9be350",
+   "text": "Discipline is not a cage. It is a structure.",
+   "th": [
+    "mason",
+    "temple"
+   ],
+   "big": "structure",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s0831ddd4c3",
+   "text": "The sun comes up on time. The tide knows where to stop. The stars keep to paths that were drawn long before you arrived.",
+   "th": [
+    "sunrise",
+    "sea",
+    "night"
+   ],
+   "big": "order",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s987c954583",
+   "text": "So why should your life be the one exception?",
+   "th": [
+    "face"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.38
+  },
+  {
+   "id": "s2255e3e13c",
+   "text": "When you live without structure, you invite chaos in.",
+   "th": [
+    "storm"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "sdfe9d90b60",
+   "text": "The man who chooses discipline begins to match the order of the world around him.",
+   "th": [
+    "monk",
+    "landscape"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "sdc42f789f5",
+   "text": "He becomes steady, not because he is perfect, but because he is aligned.",
+   "th": [
+    "mountain",
+    "lake"
+   ],
+   "big": "aligned",
+   "red": false,
+   "gap": 1.61
+  },
+  {
+   "id": "s88a0e0e653",
+   "text": "There are two voices inside every man.",
+   "th": [
+    "face",
+    "mirror"
+   ],
+   "big": "two voices",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "sb7a524427f",
+   "text": "One says, rest, you have earned it.",
+   "th": [
+    "interior",
+    "night"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s13d52853ac",
+   "text": "The other whispers, get up. You are not finished.",
+   "th": [
+    "sunrise",
+    "window"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s2962a36b40",
+   "text": "Every morning those two voices meet, and the man you become depends on which one you obey.",
+   "th": [
+    "sunrise",
+    "battle"
+   ],
+   "big": "obey",
+   "red": false,
+   "gap": 1.38
+  },
+  {
+   "id": "see17723011",
+   "text": "Most men lose that battle before the sun is even up.",
+   "th": [
+    "night",
+    "interior"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "sc8fc52ffcb",
+   "text": "Discipline is not really about motivation.",
+   "th": [
+    "labourer"
+   ],
+   "big": "motivation",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s4c0b0c022a",
+   "text": "It is about keeping faith with your better self, even when you do not feel like it. Especially when you do not feel like it.",
+   "th": [
+    "sunrise",
+    "knight"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.61
+  },
+  {
+   "id": "scec92bfbb7",
+   "text": "The undisciplined man is a servant of his appetites.",
+   "th": [
+    "feast"
+   ],
+   "big": "appetites",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s071038a5d2",
+   "text": "The disciplined man has the same fire in him.",
+   "th": [
+    "fire",
+    "knight"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s59fce32a80",
+   "text": "He feels the anger, the hunger, the desire. He simply does not bow to them.",
+   "th": [
+    "knight",
+    "lion"
+   ],
+   "big": "bow",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s3cf3901f8a",
+   "text": "Not suppression, but mastery. Not denying his nature, but directing it.",
+   "th": [
+    "sculptor",
+    "forge"
+   ],
+   "big": "mastery",
+   "red": false,
+   "gap": 1.61
+  },
+  {
+   "id": "s56de34dbbd",
+   "text": "And it begins with the body.",
+   "th": [
+    "labourer"
+   ],
+   "big": "body",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s1ff6312ebc",
+   "text": "Every choice about food, sleep, movement and attention is a small vote for the man you are becoming.",
+   "th": [
+    "labourer",
+    "sunrise"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "sd86c0e9c2f",
+   "text": "Treat your body like a temple, and train it like a tool you will one day need.",
+   "th": [
+    "statue",
+    "temple"
+   ],
+   "big": "temple",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "sa3d22b8c5e",
+   "text": "Then comes the mind.",
+   "th": [
+    "thinker",
+    "face"
+   ],
+   "big": "mind",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "se40bad0640",
+   "text": "It is rarely your surroundings that defeat you. It is usually your own untrained thoughts.",
+   "th": [
+    "thinker"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s9205fd5116",
+   "text": "An untrained mind jumps from one distraction to the next, like a dog chasing shadows.",
+   "th": [
+    "night",
+    "crowd"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "sd426ebb805",
+   "text": "A trained mind cuts through confusion like a blade through fog.",
+   "th": [
+    "sword",
+    "fog"
+   ],
+   "big": "blade",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s59d1de45a2",
+   "text": "It knows when to be still and when to move.",
+   "th": [
+    "lake",
+    "monk"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s99157b04ce",
+   "text": "You do not quiet the mind with more noise. You quiet it with focus, with prayer, with time alone.",
+   "th": [
+    "monk",
+    "hermit",
+    "prayer"
+   ],
+   "big": "focus",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "sb86bd9e70b",
+   "text": "Discipline without meaning can turn into tyranny. But discipline rooted in something higher turns into power.",
+   "th": [
+    "temple",
+    "king"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s162d2da231",
+   "text": "When you rise early, you are honouring order.",
+   "th": [
+    "sunrise"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s882d7f416f",
+   "text": "When you give up a pleasure for a purpose, you are practising devotion.",
+   "th": [
+    "prayer"
+   ],
+   "big": "devotion",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s057ef87911",
+   "text": "Prayer, reflection, silence, gratitude. They remind you that you are more than an animal with a schedule.",
+   "th": [
+    "prayer",
+    "monk",
+    "lake"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.49
+  },
+  {
+   "id": "s62a1bbb93c",
+   "text": "Discipline costs you comfort. But comfort costs you your potential.",
+   "th": [
+    "labourer",
+    "feast"
+   ],
+   "big": "potential",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s3da3351a70",
+   "text": "Every man pays one way or another. Some pay in effort now. Some pay in regret later.",
+   "th": [
+    "oldman",
+    "funeral"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "sf2cedd6a85",
+   "text": "You get to choose which currency you pay in.",
+   "th": [
+    "face"
+   ],
+   "big": "choose",
+   "red": false,
+   "gap": 1.49
+  },
+  {
+   "id": "s3c947d2a9c",
+   "text": "The disciplined man does not need to talk about his goals. He lives them.",
+   "th": [
+    "labourer",
+    "sunrise"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s77652eb857",
+   "text": "He does not need to be validated. He simply becomes hard to ignore.",
+   "th": [
+    "knight",
+    "face"
+   ],
+   "big": "undeniable",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s2deb2acc0d",
+   "text": "The disciplined man is not lucky. He is prepared.",
+   "th": [
+    "knight"
+   ],
+   "big": "prepared",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "sbea8c7ce9e",
+   "text": "He does not wait for the right moment. He becomes ready for it.",
+   "th": [
+    "sunrise",
+    "knight"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 2.07
+  },
+  {
+   "id": "ch5",
+   "card": "chapter",
+   "num": "V",
+   "title": "The code",
+   "len": 4.4
+  },
+  {
+   "id": "scea4e94b39",
+   "text": "Many men today move through life without a compass.",
+   "th": [
+    "sea",
+    "boat"
+   ],
+   "big": "compass",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "sb8def16350",
+   "text": "They have ambition, but no honour. Pleasure, but no purpose.",
+   "th": [
+    "feast",
+    "crowd"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s8de99fa086",
+   "text": "Older cultures understood something we have half forgotten.",
+   "th": [
+    "knight",
+    "ruins"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s7a669aeb6d",
+   "text": "A man's worth was not measured by what he owned, but by how well he kept his word when the world leaned on him.",
+   "th": [
+    "knight",
+    "oldman"
+   ],
+   "big": "word",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "se9b9b1d1cf",
+   "text": "But a man without a code is like dust on the road. Every passing wind moves him.",
+   "th": [
+    "road",
+    "storm"
+   ],
+   "big": "dust",
+   "red": false,
+   "gap": 1.61
+  },
+  {
+   "id": "s2751f44d6d",
+   "text": "Every man needs a personal code.",
+   "th": [
+    "knight"
+   ],
+   "big": "code",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s10636386aa",
+   "text": "Not one copied from a book or a post online, but one carved out by his own trials, his failures, his long hours alone.",
+   "th": [
+    "writer",
+    "hermit"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s4440d9323f",
+   "text": "I do not lie when the truth is needed. I do not fold when the pressure rises.",
+   "th": [
+    "knight",
+    "storm"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s2c01223d0d",
+   "text": "I do not chase comfort when something greater is calling. I protect what is mine, and I respect what is sacred.",
+   "th": [
+    "knight",
+    "family",
+    "temple"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.49
+  },
+  {
+   "id": "sa1f6aeafd2",
+   "text": "That is the heart of the warrior spirit.",
+   "th": [
+    "knight"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s89b13686cc",
+   "text": "Not violence, not rage, but self command under pressure.",
+   "th": [
+    "knight",
+    "storm"
+   ],
+   "big": "self command",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s3c29f176b7",
+   "text": "The real warrior is not the loudest man in the room. He is the one who stays still when everything else is moving.",
+   "th": [
+    "knight",
+    "battle"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.61
+  },
+  {
+   "id": "s978046aada",
+   "text": "And the code begins with honour.",
+   "th": [
+    "knight"
+   ],
+   "big": "honour",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "saf7d370a38",
+   "text": "Honour is not what people see. It is what you do when nobody is watching.",
+   "th": [
+    "night",
+    "labourer"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s212aa6714a",
+   "text": "The test comes when no one knows whether you trained today, whether you kept your promise, whether you stayed the course.",
+   "th": [
+    "night",
+    "sunrise"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s635707aa0c",
+   "text": "That is where honour is proved. That is where the warrior is born.",
+   "th": [
+    "knight",
+    "sunrise"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.61
+  },
+  {
+   "id": "sa81856e28d",
+   "text": "A man can gain power without honour. But it will rot him from the inside.",
+   "th": [
+    "king",
+    "ruins"
+   ],
+   "big": "rot",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s8889be93e0",
+   "text": "Honour is simply this. What you believe, what you say, and what you do, all pointing in the same direction.",
+   "th": [
+    "road",
+    "knight"
+   ],
+   "big": "direction",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "sa4c582a3b0",
+   "text": "And that kind of alignment gives a man a power no money can buy.",
+   "th": [
+    "knight",
+    "sunrise"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.61
+  },
+  {
+   "id": "s08d78e94b7",
+   "text": "People think warriors are men of chaos. But the true warrior is a master of restraint.",
+   "th": [
+    "knight",
+    "monk"
+   ],
+   "big": "restraint",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s7fb21f81a2",
+   "text": "He could destroy, and he chooses peace. He could argue, and he chooses silence.",
+   "th": [
+    "knight",
+    "lake"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s3c3cdde052",
+   "text": "To carry real strength and stay humble. To be disrespected and not lose your centre. To fight only when a principle demands it.",
+   "th": [
+    "knight",
+    "face"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s67ca45498a",
+   "text": "That is maturity.",
+   "th": [
+    "oldman"
+   ],
+   "big": "maturity",
+   "red": false,
+   "gap": 1.61
+  },
+  {
+   "id": "sb0a95b0f89",
+   "text": "Your habits are your weapons. Your discipline is your sword.",
+   "th": [
+    "sword",
+    "forge"
+   ],
+   "big": "sword",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s68dfbc27f5",
+   "text": "Every day you are either sharpening it or letting it rust.",
+   "th": [
+    "sword",
+    "forge"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "se0f7bb4de0",
+   "text": "Every repetition, every prayer, every quiet decision is another pass of the blade over the stone.",
+   "th": [
+    "forge",
+    "prayer"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s57b602c1f2",
+   "text": "One day life will test that edge. So train as though that day is coming. Because it is.",
+   "th": [
+    "sword",
+    "battle"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.61
+  },
+  {
+   "id": "sc8d3443b23",
+   "text": "A warrior often walks alone. But he also needs good men around him.",
+   "th": [
+    "brothers",
+    "knight"
+   ],
+   "big": "brothers",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "se883d6a4fa",
+   "text": "Real brotherhood is different. It is forged in shared effort, shared hardship, shared purpose.",
+   "th": [
+    "brothers",
+    "battle"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "se82ea9906b",
+   "text": "It does not flatter you. It sharpens you.",
+   "th": [
+    "brothers",
+    "sword"
+   ],
+   "big": "sharpens",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s72dd6eb407",
+   "text": "A man needs both. Brotherhood for strength, and solitude to hear himself think.",
+   "th": [
+    "brothers",
+    "hermit"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.61
+  },
+  {
+   "id": "sdac728dbd6",
+   "text": "Every man also has a dragon to face.",
+   "th": [
+    "dragon"
+   ],
+   "big": "dragon",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "sbde480b4bf",
+   "text": "It wears many masks. Addiction, lust, fear, pride, laziness.",
+   "th": [
+    "dragon",
+    "mask"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s0064586a0b",
+   "text": "But underneath the mask, it is always the same creature. The undisciplined part of yourself.",
+   "th": [
+    "dragon",
+    "mirror"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "sd7f36cce40",
+   "text": "You do not defeat it by pretending it is not there. You defeat it by facing it.",
+   "th": [
+    "dragon",
+    "knight"
+   ],
+   "big": "facing",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "scb758c053f",
+   "text": "It will breathe fire. It will tell you that you have failed too many times, that you are too broken, that it is too late.",
+   "th": [
+    "dragon",
+    "fire"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s356c589255",
+   "text": "That is the test.",
+   "th": [
+    "dragon"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.46
+  },
+  {
+   "id": "s004c232bb4",
+   "text": "The warrior rises not because he has no fear, but because he moves anyway.",
+   "th": [
+    "knight",
+    "dragon"
+   ],
+   "big": "anyway",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s4d5800d83a",
+   "text": "One more disciplined day. One more honest night. One more time showing up. That is how the dragon falls.",
+   "th": [
+    "knight",
+    "sunrise"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.61
+  },
+  {
+   "id": "s02e3ac1ab5",
+   "text": "You do not need followers. You do not need applause. You need a code.",
+   "th": [
+    "knight",
+    "hermit"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s0f949f87e9",
+   "text": "Because one day you will stand in front of a mirror, and it will not ask how many people liked you, or how much comfort you collected.",
+   "th": [
+    "mirror",
+    "oldman"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s0c4b594ef9",
+   "text": "It will ask one question.",
+   "th": [
+    "mirror"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.69
+  },
+  {
+   "id": "sa7b78bf954",
+   "text": "Did you keep your word to yourself?",
+   "th": [
+    "mirror",
+    "face"
+   ],
+   "big": "your word",
+   "red": false,
+   "gap": 1.38
+  },
+  {
+   "id": "s953590dfb3",
+   "text": "If the answer is yes, you have already won.",
+   "th": [
+    "sunrise",
+    "oldman"
+   ],
+   "big": "won",
+   "red": false,
+   "gap": 2.07
+  },
+  {
+   "id": "ch6",
+   "card": "chapter",
+   "num": "VI",
+   "title": "The burden of purpose",
+   "len": 4.4
+  },
+  {
+   "id": "s320f86800e",
+   "text": "Purpose is not comfort. It is not pleasure.",
+   "th": [
+    "labourer"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s9509a14676",
+   "text": "It is weight. Heavy, constant, and strangely sacred.",
+   "th": [
+    "labourer",
+    "prayer"
+   ],
+   "big": "weight",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "scd14532153",
+   "text": "You do not choose your purpose because it feels good. You choose it because it is true.",
+   "th": [
+    "wanderer"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s4637a3ac2d",
+   "text": "When a man finds his purpose, life hands him a load to go with it.",
+   "th": [
+    "labourer",
+    "road"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s939c1cf698",
+   "text": "He does not rise because he was chosen. He rises because he was willing to carry what others put down.",
+   "th": [
+    "labourer",
+    "mountain"
+   ],
+   "big": "willing",
+   "red": false,
+   "gap": 1.61
+  },
+  {
+   "id": "s573d5225dd",
+   "text": "We often confuse purpose with passion.",
+   "th": [
+    "face"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "sa36e9be0a7",
+   "text": "Passion is a feeling. Purpose is a kind of obedience.",
+   "th": [
+    "prayer",
+    "monk"
+   ],
+   "big": "obedience",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s1f10429a4b",
+   "text": "Passion fades when the pain arrives. Purpose stays, because it comes from somewhere deeper.",
+   "th": [
+    "fire",
+    "night"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s15b4a099be",
+   "text": "You will not wake up inspired every day. Some days you will wake up simply under orders, pulled along by something that does not care how you feel.",
+   "th": [
+    "sunrise",
+    "labourer"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s0c850c3e6e",
+   "text": "That is purpose. It keeps whispering after the crowd has stopped cheering.",
+   "th": [
+    "crowd",
+    "night"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s0e39b38a52",
+   "text": "Purpose isolates.",
+   "th": [
+    "hermit"
+   ],
+   "big": "isolates",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s460df9e441",
+   "text": "People will not understand why you have changed. They may call you cold, or obsessed. They may tell you to lighten up.",
+   "th": [
+    "crowd",
+    "face"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s164c5928f4",
+   "text": "Let them talk. They are not meant to understand. The task was not given to them. It was given to you.",
+   "th": [
+    "wanderer",
+    "road"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "sa1134c40a3",
+   "text": "It is. Because purpose is formed in silence, not in applause.",
+   "th": [
+    "monk",
+    "lake"
+   ],
+   "big": "silence",
+   "red": false,
+   "gap": 1.61
+  },
+  {
+   "id": "s22869d3c9b",
+   "text": "You ask for strength, and you are given problems.",
+   "th": [
+    "storm",
+    "rock"
+   ],
+   "big": "strength",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s2db36890ca",
+   "text": "You ask for courage, and you are put in front of the thing you fear.",
+   "th": [
+    "dragon",
+    "knight"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s0e51be006d",
+   "text": "Life answers prayers through process. It gives you weight, not to break you, but to build you.",
+   "th": [
+    "mason",
+    "labourer"
+   ],
+   "big": "build",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s2de5bfb986",
+   "text": "So stop asking for easy days. Ask for endurance. Ask for the strength to carry what others drop.",
+   "th": [
+    "labourer",
+    "mountain"
+   ],
+   "big": "endurance",
+   "red": false,
+   "gap": 1.61
+  },
+  {
+   "id": "s972217b283",
+   "text": "The greatest threat to purpose is not failure. It is comfort.",
+   "th": [
+    "feast",
+    "interior"
+   ],
+   "big": "comfort",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s62ff29b9bf",
+   "text": "It whispers, you have done enough. And slowly, it lulls you into a life that is merely fine.",
+   "th": [
+    "interior",
+    "night"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "se6e403f781",
+   "text": "So if your life feels heavy right now, that may be good news. It may mean you are finally in the right arena.",
+   "th": [
+    "battle",
+    "labourer"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.61
+  },
+  {
+   "id": "s0c2d8ca20d",
+   "text": "Every purpose asks for a death.",
+   "th": [
+    "funeral"
+   ],
+   "big": "death",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s11cc5dab4b",
+   "text": "The death of laziness. The death of ego. The death of the version of you that needs everyone to like you.",
+   "th": [
+    "funeral",
+    "mirror"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s919d7421c8",
+   "text": "That is why so few men find their purpose. It is not hidden. It is just heavy.",
+   "th": [
+    "labourer",
+    "mountain"
+   ],
+   "big": "heavy",
+   "red": false,
+   "gap": 1.61
+  },
+  {
+   "id": "s857b9eed22",
+   "text": "There will be days you question everything. Days when faith feels silent and success feels very far away.",
+   "th": [
+    "night",
+    "storm"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "sc29fe8766e",
+   "text": "Because the ones who last are not working for the reward. They are working because it is theirs to do.",
+   "th": [
+    "labourer",
+    "sunrise"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "sdbe1ab6268",
+   "text": "Purpose is not mostly about what you get. It is about who you become.",
+   "th": [
+    "sculptor",
+    "statue"
+   ],
+   "big": "become",
+   "red": false,
+   "gap": 1.61
+  },
+  {
+   "id": "s0a2db5869b",
+   "text": "And there may come a point when the load feels too heavy to carry alone.",
+   "th": [
+    "labourer",
+    "night"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "scf5837b1f8",
+   "text": "That moment is precious, because that is where pride finally dies.",
+   "th": [
+    "prayer",
+    "funeral"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s28a3e33c4f",
+   "text": "It is where you stop trying to do it all by yourself, and let something greater help you carry it.",
+   "th": [
+    "prayer",
+    "sunrise"
+   ],
+   "big": "faith",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s3055887d56",
+   "text": "When your body gives out, discipline carries you. When discipline cracks, faith carries you.",
+   "th": [
+    "labourer",
+    "prayer"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s75819de90e",
+   "text": "And purpose rarely abandons the man who refuses to abandon it.",
+   "th": [
+    "wanderer",
+    "sunrise"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.61
+  },
+  {
+   "id": "s916c77db82",
+   "text": "The reward is not mainly money, and it is not fame. It is transformation.",
+   "th": [
+    "statue",
+    "sunrise"
+   ],
+   "big": "transformation",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "sb178f3d9bf",
+   "text": "You become someone your old self would not recognise.",
+   "th": [
+    "mirror",
+    "face"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s828468b50f",
+   "text": "You stop looking for peace, and slowly you become it.",
+   "th": [
+    "lake",
+    "monk"
+   ],
+   "big": "peace",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "sf4bd74311e",
+   "text": "And in that stillness you finally see it. The weight was never there to crush you.",
+   "th": [
+    "labourer",
+    "lake"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s42f6c3513e",
+   "text": "It was there to crown you.",
+   "th": [
+    "king",
+    "sunrise"
+   ],
+   "big": "crown",
+   "red": false,
+   "gap": 2.07
+  },
+  {
+   "id": "ch7",
+   "card": "chapter",
+   "num": "VII",
+   "title": "The second birth",
+   "len": 4.4
+  },
+  {
+   "id": "s8843b31eb8",
+   "text": "Every man who truly changes must first die. Not in the body, but in the story he tells about himself.",
+   "th": [
+    "funeral",
+    "mirror"
+   ],
+   "big": "die",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "sce02907539",
+   "text": "When everything you leaned on burns down, the ego, the illusions, the comforts, the excuses, what is left is the man underneath.",
+   "th": [
+    "fire",
+    "ruins",
+    "face"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s0b71bf055a",
+   "text": "And that rebirth is not loud. It is quiet.",
+   "th": [
+    "sunrise",
+    "lake"
+   ],
+   "big": "rebirth",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "sb6cdfeff2d",
+   "text": "It is the moment you stop needing anyone's permission to be who you are.",
+   "th": [
+    "wanderer",
+    "sunrise"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.61
+  },
+  {
+   "id": "s93f911eeac",
+   "text": "The man who comes through the fire is changed not only in his habits, but in his nature.",
+   "th": [
+    "fire",
+    "face"
+   ],
+   "big": "nature",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s1e53a2c5f4",
+   "text": "He no longer runs from pain. He walks beside it.",
+   "th": [
+    "wanderer",
+    "storm"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "sce5cf9dd68",
+   "text": "He no longer hides from solitude. He is fed by it.",
+   "th": [
+    "hermit",
+    "lake"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "sd5c8024063",
+   "text": "This is not a second chance. It is a second birth.",
+   "th": [
+    "sunrise",
+    "field"
+   ],
+   "big": "second birth",
+   "red": false,
+   "gap": 1.61
+  },
+  {
+   "id": "s521c0c732b",
+   "text": "Before, everything outside you decided how you felt. The weather, other people's opinions, the results of the day.",
+   "th": [
+    "storm",
+    "crowd"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "sb2e0cd6729",
+   "text": "Your feelings no longer run you. You lead them.",
+   "th": [
+    "knight",
+    "lion"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s3eed983708",
+   "text": "When a man finds his centre, the storms around him become background noise.",
+   "th": [
+    "storm",
+    "lighthouse"
+   ],
+   "big": "centre",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s673c242ccb",
+   "text": "Rebirth also means freedom from needing to be validated.",
+   "th": [
+    "face"
+   ],
+   "big": "freedom",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s80a813a70c",
+   "text": "So you stop performing. You build in silence.",
+   "th": [
+    "mason",
+    "night"
+   ],
+   "big": "silence",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "sab89c04eaf",
+   "text": "The only audience that matters is the one above you. And the only competition left is the man you were yesterday.",
+   "th": [
+    "prayer",
+    "mirror"
+   ],
+   "big": "yesterday",
+   "red": false,
+   "gap": 1.61
+  },
+  {
+   "id": "s3f958edb57",
+   "text": "When chaos ran your mind, peace felt impossible.",
+   "th": [
+    "storm"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s48bb9f1522",
+   "text": "But on the other side, peace starts to come naturally.",
+   "th": [
+    "lake",
+    "sunrise"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s8024328e0b",
+   "text": "Not because life has become easy, but because you have stopped fighting what is.",
+   "th": [
+    "river",
+    "lake"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "sc65cdf4dad",
+   "text": "Peace is not the absence of conflict. It is mastery of your response to it.",
+   "th": [
+    "monk",
+    "storm"
+   ],
+   "big": "response",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s02f10f5ea5",
+   "text": "And you begin to see patterns. The timing behind the delays. The lessons inside the rejections.",
+   "th": [
+    "oldman",
+    "sunrise"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s5e7b821a66",
+   "text": "Every heartbreak, every loss, every fall was shaping you all along.",
+   "th": [
+    "sculptor",
+    "statue"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.61
+  },
+  {
+   "id": "s22075dd644",
+   "text": "When this happens, you will walk differently.",
+   "th": [
+    "wanderer",
+    "road"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s8fc0e811f5",
+   "text": "You will move less with crowds and more with conviction.",
+   "th": [
+    "crowd",
+    "wanderer"
+   ],
+   "big": "conviction",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s8ef53f0c91",
+   "text": "You will not need to prove your worth. Your presence will say most of it for you.",
+   "th": [
+    "knight",
+    "face"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "sa0b02932e6",
+   "text": "Real strength does not shout. It radiates.",
+   "th": [
+    "sunrise",
+    "lion"
+   ],
+   "big": "radiates",
+   "red": false,
+   "gap": 1.61
+  },
+  {
+   "id": "sd05f81cc30",
+   "text": "And life starts to move with a different rhythm.",
+   "th": [
+    "river",
+    "field"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "sba7e7a45ee",
+   "text": "The right people seem to arrive. Obstacles stop feeling like punishment and start feeling like preparation.",
+   "th": [
+    "road",
+    "mountain"
+   ],
+   "big": "preparation",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "sd4adc81c31",
+   "text": "You are no longer only living for the next goal. In a way, you are becoming the goal itself.",
+   "th": [
+    "sunrise",
+    "mountain"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.61
+  },
+  {
+   "id": "scebc15c349",
+   "text": "The man who has been reborn no longer dreams mostly of comfort. He dreams of impact.",
+   "th": [
+    "field",
+    "sunrise"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s57488c3429",
+   "text": "He does not want more followers. He wants fruit.",
+   "th": [
+    "harvest",
+    "field"
+   ],
+   "big": "fruit",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s2130d9e010",
+   "text": "A legacy is not built on trends. It is built on what is timeless.",
+   "th": [
+    "ruins",
+    "temple"
+   ],
+   "big": "legacy",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "sfebe0cd37c",
+   "text": "The world will not remember what you owned. It will remember how you stood.",
+   "th": [
+    "statue",
+    "knight"
+   ],
+   "big": "stood",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "sb80c5bc15e",
+   "text": "This kind of strength is not aggression. It is not control.",
+   "th": [
+    "knight",
+    "lion"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "scaea9cf1e5",
+   "text": "It is direction. It is protection. It is discipline that grows out of care.",
+   "th": [
+    "father",
+    "family"
+   ],
+   "big": "protection",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "sb1eb7c5dd2",
+   "text": "Hard on itself, and gentle with the truth.",
+   "th": [
+    "knight",
+    "prayer"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.61
+  },
+  {
+   "id": "sfcaa8aede6",
+   "text": "So now, look at your own reflection.",
+   "th": [
+    "mirror"
+   ],
+   "big": "reflection",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "sfde4f54791",
+   "text": "The man looking back at you is not the boy who walked into the forest.",
+   "th": [
+    "mirror",
+    "forest"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "sb269eb526c",
+   "text": "He is the one who came out the other side, through pain, through discipline, through faith.",
+   "th": [
+    "forest",
+    "sunrise",
+    "wanderer"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "sab3ae0f0f2",
+   "text": "You are not the boy who needed everyone's approval. You are not the man who was afraid to fail.",
+   "th": [
+    "boy",
+    "face"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s50c37f671c",
+   "text": "You are not the one who begged for peace.",
+   "th": [
+    "prayer"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.69
+  },
+  {
+   "id": "sd807485215",
+   "text": "You became it.",
+   "th": [
+    "lake",
+    "sunrise"
+   ],
+   "big": "became",
+   "red": false,
+   "gap": 1.61
+  },
+  {
+   "id": "s303e211626",
+   "text": "This is the price of being a man. And this is what it buys.",
+   "th": [
+    "labourer",
+    "sunrise"
+   ],
+   "big": "price",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "se1865d6fc4",
+   "text": "Not a return to who you were, but the arrival of who you were always meant to be.",
+   "th": [
+    "wanderer",
+    "sunrise"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "sdf2a8d6607",
+   "text": "Walk with silence. Move with grace. Build with fire.",
+   "th": [
+    "wanderer",
+    "mason",
+    "fire"
+   ],
+   "big": "build",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s1b1591a52c",
+   "text": "And remember, the man who gives his life to his purpose never entirely disappears.",
+   "th": [
+    "oldman",
+    "sunrise"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s5d1013a513",
+   "text": "He lives on in the work he leaves behind.",
+   "th": [
+    "mason",
+    "sunrise"
+   ],
+   "big": "lives on",
+   "red": false,
+   "gap": 2.88
+  }
+ ]
+}
