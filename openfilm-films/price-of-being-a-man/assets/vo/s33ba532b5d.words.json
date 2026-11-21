@@ -1,0 +1,52 @@
+[
+{
+"word": "The",
+"start": 0.0,
+"end": 0.18
+},
+{
+"word": "belief",
+"start": 0.18,
+"end": 0.52
+},
+{
+"word": "that",
+"start": 0.52,
+"end": 0.86
+},
+{
+"word": "comfort",
+"start": 0.86,
+"end": 1.32
+},
+{
+"word": "is",
+"start": 1.32,
+"end": 1.9
+},
+{
+"word": "the",
+"start": 1.9,
+"end": 2.1
+},
+{
+"word": "same",
+"start": 2.1,
+"end": 2.38
+},
+{
+"word": "thing",
+"start": 2.38,
+"end": 2.72
+},
+{
+"word": "as",
+"start": 2.72,
+"end": 3.02
+},
+{
+"word": "peace.",
+"start": 3.02,
+"end": 3.36
+}
+]

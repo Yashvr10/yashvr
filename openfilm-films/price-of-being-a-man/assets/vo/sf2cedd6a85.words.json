@@ -1,0 +1,47 @@
+[
+{
+"word": "You",
+"start": 0.0,
+"end": 0.22
+},
+{
+"word": "get",
+"start": 0.22,
+"end": 0.38
+},
+{
+"word": "to",
+"start": 0.38,
+"end": 0.58
+},
+{
+"word": "choose",
+"start": 0.58,
+"end": 0.94
+},
+{
+"word": "which",
+"start": 0.94,
+"end": 1.36
+},
+{
+"word": "currency",
+"start": 1.36,
+"end": 1.92
+},
+{
+"word": "you",
+"start": 1.92,
+"end": 2.44
+},
+{
+"word": "pay",
+"start": 2.44,
+"end": 2.64
+},
+{
+"word": "in.",
+"start": 2.64,
+"end": 2.86
+}
+]

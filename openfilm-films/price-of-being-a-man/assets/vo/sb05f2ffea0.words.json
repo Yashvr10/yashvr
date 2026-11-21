@@ -1,0 +1,92 @@
+[
+{
+"word": "A",
+"start": 0.0,
+"end": 0.26
+},
+{
+"word": "man",
+"start": 0.26,
+"end": 0.58
+},
+{
+"word": "is",
+"start": 0.58,
+"end": 0.86
+},
+{
+"word": "not",
+"start": 0.86,
+"end": 1.1
+},
+{
+"word": "really",
+"start": 1.1,
+"end": 1.56
+},
+{
+"word": "measured",
+"start": 1.56,
+"end": 2.02
+},
+{
+"word": "by",
+"start": 2.02,
+"end": 2.5
+},
+{
+"word": "what",
+"start": 2.5,
+"end": 2.7
+},
+{
+"word": "he",
+"start": 2.7,
+"end": 2.84
+},
+{
+"word": "collects.",
+"start": 2.84,
+"end": 3.22
+},
+{
+"word": "He",
+"start": 3.96,
+"end": 4.06
+},
+{
+"word": "is",
+"start": 4.06,
+"end": 4.16
+},
+{
+"word": "measured",
+"start": 4.16,
+"end": 4.6
+},
+{
+"word": "by",
+"start": 4.6,
+"end": 5.0
+},
+{
+"word": "what",
+"start": 5.0,
+"end": 5.2
+},
+{
+"word": "he",
+"start": 5.2,
+"end": 5.32
+},
+{
+"word": "holds",
+"start": 5.32,
+"end": 5.62
+},
+{
+"word": "together.",
+"start": 5.62,
+"end": 6.02
+}
+]

@@ -1,0 +1,62 @@
+[
+{
+"word": "Leadership",
+"start": 0.0,
+"end": 0.54
+},
+{
+"word": "is",
+"start": 0.54,
+"end": 0.98
+},
+{
+"word": "not",
+"start": 0.98,
+"end": 1.2
+},
+{
+"word": "mostly",
+"start": 1.2,
+"end": 1.68
+},
+{
+"word": "about",
+"start": 1.68,
+"end": 1.98
+},
+{
+"word": "giving",
+"start": 1.98,
+"end": 2.36
+},
+{
+"word": "orders.",
+"start": 2.36,
+"end": 2.94
+},
+{
+"word": "It",
+"start": 3.66,
+"end": 3.72
+},
+{
+"word": "is",
+"start": 3.72,
+"end": 3.86
+},
+{
+"word": "mostly",
+"start": 3.86,
+"end": 4.2
+},
+{
+"word": "about",
+"start": 4.2,
+"end": 4.68
+},
+{
+"word": "sacrifice.",
+"start": 4.68,
+"end": 5.16
+}
+]

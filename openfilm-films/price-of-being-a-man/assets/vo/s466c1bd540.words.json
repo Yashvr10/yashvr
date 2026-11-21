@@ -1,0 +1,77 @@
+[
+{
+"word": "You",
+"start": 0.0,
+"end": 0.22
+},
+{
+"word": "have",
+"start": 0.22,
+"end": 0.36
+},
+{
+"word": "probably",
+"start": 0.36,
+"end": 0.76
+},
+{
+"word": "met",
+"start": 0.76,
+"end": 1.02
+},
+{
+"word": "men",
+"start": 1.02,
+"end": 1.24
+},
+{
+"word": "like",
+"start": 1.24,
+"end": 1.5
+},
+{
+"word": "this.",
+"start": 1.5,
+"end": 1.86
+},
+{
+"word": "They",
+"start": 2.3,
+"end": 2.46
+},
+{
+"word": "blame,",
+"start": 2.46,
+"end": 2.76
+},
+{
+"word": "they",
+"start": 3.16,
+"end": 3.24
+},
+{
+"word": "escape,",
+"start": 3.24,
+"end": 3.72
+},
+{
+"word": "they",
+"start": 3.96,
+"end": 4.02
+},
+{
+"word": "envy.",
+"start": 4.02,
+"end": 4.36
+},
+{
+"word": "They",
+"start": 4.9,
+"end": 5.1
+},
+{
+"word": "scroll.",
+"start": 5.1,
+"end": 5.58
+}
+]

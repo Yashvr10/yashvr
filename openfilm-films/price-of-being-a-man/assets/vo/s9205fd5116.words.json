@@ -1,0 +1,77 @@
+[
+{
+"word": "An",
+"start": 0.0,
+"end": 0.16
+},
+{
+"word": "untrained",
+"start": 0.16,
+"end": 0.88
+},
+{
+"word": "mind",
+"start": 0.88,
+"end": 1.48
+},
+{
+"word": "jumps",
+"start": 1.48,
+"end": 2.14
+},
+{
+"word": "from",
+"start": 2.14,
+"end": 2.44
+},
+{
+"word": "one",
+"start": 2.44,
+"end": 2.66
+},
+{
+"word": "distraction",
+"start": 2.66,
+"end": 3.18
+},
+{
+"word": "to",
+"start": 3.18,
+"end": 3.5
+},
+{
+"word": "the",
+"start": 3.5,
+"end": 3.62
+},
+{
+"word": "next,",
+"start": 3.62,
+"end": 4.06
+},
+{
+"word": "like",
+"start": 4.48,
+"end": 4.72
+},
+{
+"word": "a",
+"start": 4.72,
+"end": 4.92
+},
+{
+"word": "dog",
+"start": 4.92,
+"end": 5.24
+},
+{
+"word": "chasing",
+"start": 5.24,
+"end": 5.8
+},
+{
+"word": "shadows.",
+"start": 5.8,
+"end": 6.32
+}
+]

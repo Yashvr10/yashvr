@@ -1,0 +1,82 @@
+[
+{
+"word": "The",
+"start": 0.0,
+"end": 0.16
+},
+{
+"word": "pain",
+"start": 0.16,
+"end": 0.46
+},
+{
+"word": "you",
+"start": 0.46,
+"end": 0.7
+},
+{
+"word": "curse",
+"start": 0.7,
+"end": 1.02
+},
+{
+"word": "today",
+"start": 1.02,
+"end": 1.52
+},
+{
+"word": "may",
+"start": 1.52,
+"end": 2.14
+},
+{
+"word": "be",
+"start": 2.14,
+"end": 2.28
+},
+{
+"word": "the",
+"start": 2.28,
+"end": 2.42
+},
+{
+"word": "very",
+"start": 2.42,
+"end": 2.7
+},
+{
+"word": "thing",
+"start": 2.7,
+"end": 3.22
+},
+{
+"word": "that",
+"start": 3.22,
+"end": 3.62
+},
+{
+"word": "is",
+"start": 3.62,
+"end": 3.78
+},
+{
+"word": "shaping",
+"start": 3.78,
+"end": 4.16
+},
+{
+"word": "you",
+"start": 4.16,
+"end": 4.54
+},
+{
+"word": "for",
+"start": 4.54,
+"end": 4.76
+},
+{
+"word": "tomorrow.",
+"start": 4.76,
+"end": 5.08
+}
+]

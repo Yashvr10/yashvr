@@ -1,0 +1,37 @@
+[
+{
+"word": "One",
+"start": 0.0,
+"end": 0.34
+},
+{
+"word": "says,",
+"start": 0.34,
+"end": 0.66
+},
+{
+"word": "rest,",
+"start": 0.66,
+"end": 1.06
+},
+{
+"word": "you",
+"start": 1.56,
+"end": 1.62
+},
+{
+"word": "have",
+"start": 1.62,
+"end": 1.74
+},
+{
+"word": "earned",
+"start": 1.74,
+"end": 2.04
+},
+{
+"word": "it.",
+"start": 2.04,
+"end": 2.3
+}
+]

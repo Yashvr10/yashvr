@@ -1,0 +1,42 @@
+[
+{
+"word": "It",
+"start": 0.0,
+"end": 0.2
+},
+{
+"word": "does",
+"start": 0.2,
+"end": 0.42
+},
+{
+"word": "not",
+"start": 0.42,
+"end": 0.74
+},
+{
+"word": "flatter",
+"start": 0.74,
+"end": 1.18
+},
+{
+"word": "you.",
+"start": 1.18,
+"end": 1.46
+},
+{
+"word": "It",
+"start": 1.82,
+"end": 1.96
+},
+{
+"word": "sharpens",
+"start": 1.96,
+"end": 2.62
+},
+{
+"word": "you.",
+"start": 2.62,
+"end": 2.84
+}
+]

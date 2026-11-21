@@ -1,0 +1,47 @@
+[
+{
+"word": "The",
+"start": 0.0,
+"end": 0.2
+},
+{
+"word": "belief",
+"start": 0.2,
+"end": 0.6
+},
+{
+"word": "that",
+"start": 0.6,
+"end": 1.02
+},
+{
+"word": "someone",
+"start": 1.02,
+"end": 1.4
+},
+{
+"word": "else",
+"start": 1.4,
+"end": 1.74
+},
+{
+"word": "will",
+"start": 1.74,
+"end": 2.24
+},
+{
+"word": "always",
+"start": 2.24,
+"end": 2.64
+},
+{
+"word": "catch",
+"start": 2.64,
+"end": 3.04
+},
+{
+"word": "you.",
+"start": 3.04,
+"end": 3.38
+}
+]

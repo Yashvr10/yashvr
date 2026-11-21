@@ -1,0 +1,67 @@
+[
+{
+"word": "A",
+"start": 0.0,
+"end": 0.26
+},
+{
+"word": "warrior",
+"start": 0.26,
+"end": 0.76
+},
+{
+"word": "often",
+"start": 0.76,
+"end": 1.26
+},
+{
+"word": "walks",
+"start": 1.26,
+"end": 1.68
+},
+{
+"word": "alone.",
+"start": 1.68,
+"end": 2.08
+},
+{
+"word": "But",
+"start": 2.62,
+"end": 2.82
+},
+{
+"word": "he",
+"start": 2.82,
+"end": 2.94
+},
+{
+"word": "also",
+"start": 2.94,
+"end": 3.26
+},
+{
+"word": "needs",
+"start": 3.26,
+"end": 3.56
+},
+{
+"word": "good",
+"start": 3.56,
+"end": 3.86
+},
+{
+"word": "men",
+"start": 3.86,
+"end": 4.14
+},
+{
+"word": "around",
+"start": 4.14,
+"end": 4.58
+},
+{
+"word": "him.",
+"start": 4.58,
+"end": 4.86
+}
+]

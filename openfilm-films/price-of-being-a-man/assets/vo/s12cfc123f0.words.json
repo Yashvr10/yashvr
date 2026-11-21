@@ -1,0 +1,42 @@
+[
+{
+"word": "Here",
+"start": 0.0,
+"end": 0.4
+},
+{
+"word": "is",
+"start": 0.4,
+"end": 0.68
+},
+{
+"word": "the",
+"start": 0.68,
+"end": 0.86
+},
+{
+"word": "strange",
+"start": 0.86,
+"end": 1.28
+},
+{
+"word": "paradox",
+"start": 1.28,
+"end": 1.98
+},
+{
+"word": "of",
+"start": 1.98,
+"end": 2.34
+},
+{
+"word": "growing",
+"start": 2.34,
+"end": 2.6
+},
+{
+"word": "up.",
+"start": 2.6,
+"end": 3.02
+}
+]

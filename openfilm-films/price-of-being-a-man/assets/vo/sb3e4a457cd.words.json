@@ -1,0 +1,107 @@
+[
+{
+"word": "You",
+"start": 0.0,
+"end": 0.18
+},
+{
+"word": "sit",
+"start": 0.18,
+"end": 0.48
+},
+{
+"word": "there,",
+"start": 0.48,
+"end": 0.94
+},
+{
+"word": "and",
+"start": 1.26,
+"end": 1.46
+},
+{
+"word": "it",
+"start": 1.46,
+"end": 1.58
+},
+{
+"word": "is",
+"start": 1.58,
+"end": 1.72
+},
+{
+"word": "as",
+"start": 1.72,
+"end": 1.94
+},
+{
+"word": "if",
+"start": 1.94,
+"end": 2.14
+},
+{
+"word": "life",
+"start": 2.14,
+"end": 2.48
+},
+{
+"word": "has",
+"start": 2.48,
+"end": 2.72
+},
+{
+"word": "quietly",
+"start": 2.72,
+"end": 3.08
+},
+{
+"word": "turned",
+"start": 3.08,
+"end": 3.54
+},
+{
+"word": "a",
+"start": 3.54,
+"end": 3.76
+},
+{
+"word": "mirror",
+"start": 3.76,
+"end": 4.0
+},
+{
+"word": "toward",
+"start": 4.0,
+"end": 4.38
+},
+{
+"word": "you",
+"start": 4.38,
+"end": 4.78
+},
+{
+"word": "and",
+"start": 4.78,
+"end": 5.28
+},
+{
+"word": "asked",
+"start": 5.28,
+"end": 5.72
+},
+{
+"word": "a",
+"start": 5.72,
+"end": 6.0
+},
+{
+"word": "single",
+"start": 6.0,
+"end": 6.32
+},
+{
+"word": "question.",
+"start": 6.32,
+"end": 6.68
+}
+]

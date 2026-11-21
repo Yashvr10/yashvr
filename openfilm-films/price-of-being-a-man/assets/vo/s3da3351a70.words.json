@@ -1,0 +1,87 @@
+[
+{
+"word": "Every",
+"start": 0.0,
+"end": 0.28
+},
+{
+"word": "man",
+"start": 0.28,
+"end": 0.6
+},
+{
+"word": "pays",
+"start": 0.6,
+"end": 0.94
+},
+{
+"word": "one",
+"start": 0.94,
+"end": 1.3
+},
+{
+"word": "way",
+"start": 1.3,
+"end": 1.6
+},
+{
+"word": "or",
+"start": 1.6,
+"end": 1.86
+},
+{
+"word": "another.",
+"start": 1.86,
+"end": 2.24
+},
+{
+"word": "Some",
+"start": 2.88,
+"end": 2.98
+},
+{
+"word": "pay",
+"start": 2.98,
+"end": 3.28
+},
+{
+"word": "in",
+"start": 3.28,
+"end": 3.44
+},
+{
+"word": "effort",
+"start": 3.44,
+"end": 3.76
+},
+{
+"word": "now.",
+"start": 3.76,
+"end": 4.14
+},
+{
+"word": "Some",
+"start": 4.68,
+"end": 4.9
+},
+{
+"word": "pay",
+"start": 4.9,
+"end": 5.24
+},
+{
+"word": "in",
+"start": 5.24,
+"end": 5.48
+},
+{
+"word": "regret",
+"start": 5.48,
+"end": 5.84
+},
+{
+"word": "later.",
+"start": 5.84,
+"end": 6.22
+}
+]

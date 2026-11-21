@@ -1,1 +1,348 @@
-{}
+{
+ "face": [
+  "face-c1",
+  "face-c3",
+  "face-c4",
+  "face-c5",
+  "face-c6",
+  "face-c7",
+  "face-c8",
+  "face-c9",
+  "face-c10",
+  "face-c11",
+  "face-c13",
+  "face-c14",
+  "face-c15",
+  "face-c16",
+  "face-c17",
+  "face-c18"
+ ],
+ "sunrise": [
+  "sunrise-c3",
+  "sunrise-c4",
+  "sunrise-c7",
+  "sunrise-c8",
+  "sunrise-c9",
+  "sunrise-c15"
+ ],
+ "knight": [
+  "knight-c1",
+  "knight-c2",
+  "knight-c3",
+  "knight-c4",
+  "knight-c7",
+  "knight-c10",
+  "knight-c12",
+  "knight-c13"
+ ],
+ "labourer": [
+  "labourer-c3",
+  "labourer-c6",
+  "labourer-c7",
+  "labourer-c9",
+  "labourer-c10",
+  "labourer-c12",
+  "labourer-c17"
+ ],
+ "night": [
+  "night-c1",
+  "night-c2",
+  "night-c3",
+  "night-c7",
+  "night-c8",
+  "night-c9"
+ ],
+ "storm": [
+  "storm-c1",
+  "storm-c2",
+  "storm-c3",
+  "storm-c4",
+  "storm-c5",
+  "storm-c6"
+ ],
+ "crowd": [
+  "crowd-c1",
+  "crowd-c2",
+  "crowd-c3",
+  "crowd-c4",
+  "crowd-c5",
+  "crowd-c6"
+ ],
+ "wanderer": [
+  "wanderer-c1",
+  "wanderer-c3",
+  "wanderer-c5",
+  "wanderer-c6",
+  "wanderer-c8",
+  "wanderer-c9"
+ ],
+ "road": [
+  "road-c1",
+  "road-c4",
+  "road-c5",
+  "road-c6",
+  "road-c7"
+ ],
+ "prayer": [
+  "prayer-c1",
+  "prayer-c2",
+  "prayer-c5",
+  "prayer-c6",
+  "prayer-c7",
+  "prayer-c8",
+  "prayer-c9"
+ ],
+ "fire": [
+  "fire-c1",
+  "fire-c2",
+  "fire-c3",
+  "fire-c5",
+  "fire-c7",
+  "fire-c8",
+  "fire-c9"
+ ],
+ "feast": [
+  "feast-c2",
+  "feast-c4",
+  "feast-c6",
+  "feast-c7",
+  "feast-c8",
+  "feast-c9"
+ ],
+ "monk": [
+  "monk-c4",
+  "monk-c7",
+  "monk-c8",
+  "monk-c10",
+  "monk-c13",
+  "monk-c14",
+  "monk-c15",
+  "monk-c16"
+ ],
+ "ruins": [
+  "ruins-c2",
+  "ruins-c3",
+  "ruins-c4",
+  "ruins-c5",
+  "ruins-c6",
+  "ruins-c7"
+ ],
+ "mountain": [
+  "mountain-c2",
+  "mountain-c3",
+  "mountain-c4",
+  "mountain-c5",
+  "mountain-c6",
+  "mountain-c7",
+  "mountain-c9"
+ ],
+ "mirror": [
+  "mirror-c5",
+  "mirror-c7"
+ ],
+ "lake": [
+  "lake-c3",
+  "lake-c4",
+  "lake-c5"
+ ],
+ "oldman": [
+  "oldman-c1",
+  "oldman-c2",
+  "oldman-c4",
+  "oldman-c5",
+  "oldman-c6",
+  "oldman-c7"
+ ],
+ "hermit": [
+  "hermit-c1",
+  "hermit-c3",
+  "hermit-c7",
+  "hermit-c9"
+ ],
+ "interior": [
+  "interior-c1",
+  "interior-c2",
+  "interior-c3"
+ ],
+ "forge": [
+  "forge-c1",
+  "forge-c2",
+  "forge-c5",
+  "forge-c6",
+  "forge-c7",
+  "forge-c9",
+  "forge-c10"
+ ],
+ "boy": [
+  "boy-c1",
+  "boy-c2",
+  "boy-c3",
+  "boy-c4"
+ ],
+ "sea": [
+  "sea-c1",
+  "sea-c2",
+  "sea-c3",
+  "sea-c4",
+  "sea-c5"
+ ],
+ "mason": [
+  "mason-c1",
+  "mason-c2"
+ ],
+ "family": [
+  "family-c1",
+  "family-c4",
+  "family-c6"
+ ],
+ "battle": [
+  "battle-c1",
+  "battle-c2",
+  "battle-c3",
+  "battle-c5",
+  "battle-c6"
+ ],
+ "forest": [
+  "forest-c1",
+  "forest-c2",
+  "forest-c3",
+  "forest-c5",
+  "forest-c6",
+  "forest-c7",
+  "forest-c8"
+ ],
+ "funeral": [
+  "funeral-c2",
+  "funeral-c6"
+ ],
+ "father": [
+  "father-c1",
+  "father-c10"
+ ],
+ "statue": [
+  "statue-c1",
+  "statue-c4",
+  "statue-c5",
+  "statue-c6"
+ ],
+ "dragon": [
+  "dragon-c1",
+  "dragon-c2",
+  "dragon-c3",
+  "dragon-c4",
+  "dragon-c5"
+ ],
+ "temple": [
+  "temple-c1",
+  "temple-c2",
+  "temple-c5"
+ ],
+ "sword": [
+  "sword-c5",
+  "sword-c6",
+  "sword-c7",
+  "sword-c9",
+  "sword-c10"
+ ],
+ "window": [
+  "window-c1"
+ ],
+ "field": [
+  "field-c1",
+  "field-c2",
+  "field-c3",
+  "field-c4"
+ ],
+ "bridge": [
+  "bridge-c2",
+  "bridge-c3",
+  "bridge-c5"
+ ],
+ "ship": [
+  "ship-c1",
+  "ship-c3",
+  "ship-c4"
+ ],
+ "lion": [
+  "lion-c1",
+  "lion-c6",
+  "lion-c10"
+ ],
+ "brothers": [
+  "brothers-c1",
+  "brothers-c3",
+  "brothers-c4",
+  "brothers-c7"
+ ],
+ "rock": [
+  "rock-c1",
+  "rock-c3"
+ ],
+ "river": [
+  "river-c1",
+  "river-c2",
+  "river-c3"
+ ],
+ "fog": [
+  "fog-c2",
+  "fog-c3",
+  "fog-c4",
+  "fog-c8",
+  "fog-c9"
+ ],
+ "letter": [
+  "letter-c1",
+  "letter-c2"
+ ],
+ "king": [
+  "king-c1",
+  "king-c4",
+  "king-c5",
+  "king-c6",
+  "king-c9"
+ ],
+ "landscape": [
+  "landscape-c2",
+  "landscape-c4",
+  "landscape-c5",
+  "landscape-c6"
+ ],
+ "boat": [
+  "boat-c1",
+  "boat-c2",
+  "boat-c3"
+ ],
+ "insect": [
+  "insect-c1"
+ ],
+ "mask": [
+  "mask-c2",
+  "mask-c3",
+  "mask-c4"
+ ],
+ "thinker": [
+  "thinker-c1",
+  "thinker-c2",
+  "thinker-c3",
+  "thinker-c6"
+ ],
+ "lighthouse": [
+  "lighthouse-c1",
+  "lighthouse-c2",
+  "lighthouse-c3"
+ ],
+ "autumn": [
+  "autumn-c1",
+  "autumn-c4",
+  "autumn-c6"
+ ],
+ "school": [
+  "school-c1",
+  "school-c2"
+ ],
+ "harvest": [
+  "harvest-c2",
+  "harvest-c4",
+  "harvest-c5"
+ ]
+}

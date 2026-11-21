@@ -1,0 +1,62 @@
+[
+{
+"word": "And",
+"start": 0.0,
+"end": 0.24
+},
+{
+"word": "the",
+"start": 0.24,
+"end": 0.38
+},
+{
+"word": "cost",
+"start": 0.38,
+"end": 0.7
+},
+{
+"word": "is",
+"start": 0.7,
+"end": 1.02
+},
+{
+"word": "almost",
+"start": 1.02,
+"end": 1.3
+},
+{
+"word": "always",
+"start": 1.3,
+"end": 1.74
+},
+{
+"word": "paid",
+"start": 1.74,
+"end": 2.2
+},
+{
+"word": "in",
+"start": 2.2,
+"end": 2.82
+},
+{
+"word": "some",
+"start": 2.82,
+"end": 3.08
+},
+{
+"word": "kind",
+"start": 3.08,
+"end": 3.28
+},
+{
+"word": "of",
+"start": 3.28,
+"end": 3.44
+},
+{
+"word": "pain.",
+"start": 3.44,
+"end": 3.8
+}
+]

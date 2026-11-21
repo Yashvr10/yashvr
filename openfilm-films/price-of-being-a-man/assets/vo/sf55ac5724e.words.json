@@ -1,0 +1,67 @@
+[
+{
+"word": "You",
+"start": 0.0,
+"end": 0.18
+},
+{
+"word": "will",
+"start": 0.18,
+"end": 0.36
+},
+{
+"word": "lose",
+"start": 0.36,
+"end": 0.6
+},
+{
+"word": "some",
+"start": 0.6,
+"end": 0.94
+},
+{
+"word": "people",
+"start": 0.94,
+"end": 1.32
+},
+{
+"word": "who",
+"start": 1.32,
+"end": 1.86
+},
+{
+"word": "only",
+"start": 1.86,
+"end": 2.24
+},
+{
+"word": "knew",
+"start": 2.24,
+"end": 2.54
+},
+{
+"word": "the",
+"start": 2.54,
+"end": 2.8
+},
+{
+"word": "weaker",
+"start": 2.8,
+"end": 3.12
+},
+{
+"word": "version",
+"start": 3.12,
+"end": 3.66
+},
+{
+"word": "of",
+"start": 3.66,
+"end": 3.88
+},
+{
+"word": "you.",
+"start": 3.88,
+"end": 4.06
+}
+]

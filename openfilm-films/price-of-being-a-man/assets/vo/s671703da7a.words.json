@@ -1,0 +1,47 @@
+[
+{
+"word": "You",
+"start": 0.0,
+"end": 0.16
+},
+{
+"word": "will",
+"start": 0.16,
+"end": 0.3
+},
+{
+"word": "pay",
+"start": 0.3,
+"end": 0.52
+},
+{
+"word": "with",
+"start": 0.52,
+"end": 0.74
+},
+{
+"word": "hours",
+"start": 0.74,
+"end": 1.16
+},
+{
+"word": "that",
+"start": 1.16,
+"end": 1.58
+},
+{
+"word": "no",
+"start": 1.58,
+"end": 1.88
+},
+{
+"word": "one",
+"start": 1.88,
+"end": 2.16
+},
+{
+"word": "sees.",
+"start": 2.16,
+"end": 2.54
+}
+]

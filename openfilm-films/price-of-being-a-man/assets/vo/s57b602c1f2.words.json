@@ -1,0 +1,92 @@
+[
+{
+"word": "One",
+"start": 0.0,
+"end": 0.3
+},
+{
+"word": "day",
+"start": 0.3,
+"end": 0.6
+},
+{
+"word": "life",
+"start": 0.6,
+"end": 0.94
+},
+{
+"word": "will",
+"start": 0.94,
+"end": 1.18
+},
+{
+"word": "test",
+"start": 1.18,
+"end": 1.48
+},
+{
+"word": "that",
+"start": 1.48,
+"end": 1.76
+},
+{
+"word": "edge.",
+"start": 1.76,
+"end": 2.18
+},
+{
+"word": "So",
+"start": 2.7,
+"end": 2.96
+},
+{
+"word": "train",
+"start": 2.96,
+"end": 3.4
+},
+{
+"word": "as",
+"start": 3.4,
+"end": 3.7
+},
+{
+"word": "though",
+"start": 3.7,
+"end": 3.9
+},
+{
+"word": "that",
+"start": 3.9,
+"end": 4.14
+},
+{
+"word": "day",
+"start": 4.14,
+"end": 4.42
+},
+{
+"word": "is",
+"start": 4.42,
+"end": 4.64
+},
+{
+"word": "coming.",
+"start": 4.64,
+"end": 5.0
+},
+{
+"word": "Because",
+"start": 5.48,
+"end": 5.76
+},
+{
+"word": "it",
+"start": 5.76,
+"end": 5.98
+},
+{
+"word": "is.",
+"start": 5.98,
+"end": 6.28
+}
+]

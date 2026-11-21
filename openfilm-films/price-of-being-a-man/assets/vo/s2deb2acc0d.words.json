@@ -1,0 +1,47 @@
+[
+{
+"word": "The",
+"start": 0.0,
+"end": 0.16
+},
+{
+"word": "disciplined",
+"start": 0.16,
+"end": 0.66
+},
+{
+"word": "man",
+"start": 0.66,
+"end": 1.08
+},
+{
+"word": "is",
+"start": 1.08,
+"end": 1.34
+},
+{
+"word": "not",
+"start": 1.34,
+"end": 1.58
+},
+{
+"word": "lucky.",
+"start": 1.58,
+"end": 2.04
+},
+{
+"word": "He",
+"start": 2.54,
+"end": 2.68
+},
+{
+"word": "is",
+"start": 2.68,
+"end": 2.82
+},
+{
+"word": "prepared.",
+"start": 2.82,
+"end": 3.28
+}
+]

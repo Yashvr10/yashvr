@@ -1,0 +1,37 @@
+[
+{
+"word": "You",
+"start": 0.0,
+"end": 0.22
+},
+{
+"word": "will",
+"start": 0.22,
+"end": 0.34
+},
+{
+"word": "feel",
+"start": 0.34,
+"end": 0.62
+},
+{
+"word": "lost,",
+"start": 0.62,
+"end": 1.08
+},
+{
+"word": "and",
+"start": 1.08,
+"end": 1.64
+},
+{
+"word": "strangely",
+"start": 1.64,
+"end": 2.34
+},
+{
+"word": "invisible.",
+"start": 2.34,
+"end": 2.96
+}
+]

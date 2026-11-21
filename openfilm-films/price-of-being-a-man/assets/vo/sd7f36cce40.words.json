@@ -1,0 +1,87 @@
+[
+{
+"word": "You",
+"start": 0.0,
+"end": 0.22
+},
+{
+"word": "do",
+"start": 0.22,
+"end": 0.38
+},
+{
+"word": "not",
+"start": 0.38,
+"end": 0.58
+},
+{
+"word": "defeat",
+"start": 0.58,
+"end": 0.98
+},
+{
+"word": "it",
+"start": 0.98,
+"end": 1.28
+},
+{
+"word": "by",
+"start": 1.28,
+"end": 1.6
+},
+{
+"word": "pretending",
+"start": 1.6,
+"end": 2.04
+},
+{
+"word": "it",
+"start": 2.04,
+"end": 2.34
+},
+{
+"word": "is",
+"start": 2.34,
+"end": 2.54
+},
+{
+"word": "not",
+"start": 2.54,
+"end": 2.78
+},
+{
+"word": "there.",
+"start": 2.78,
+"end": 3.2
+},
+{
+"word": "You",
+"start": 3.86,
+"end": 4.0
+},
+{
+"word": "defeat",
+"start": 4.0,
+"end": 4.36
+},
+{
+"word": "it",
+"start": 4.36,
+"end": 4.68
+},
+{
+"word": "by",
+"start": 4.68,
+"end": 4.86
+},
+{
+"word": "facing",
+"start": 4.86,
+"end": 5.24
+},
+{
+"word": "it.",
+"start": 5.24,
+"end": 5.62
+}
+]

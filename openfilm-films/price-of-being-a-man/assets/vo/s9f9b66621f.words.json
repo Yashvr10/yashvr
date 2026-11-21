@@ -1,0 +1,57 @@
+[
+{
+"word": "You",
+"start": 0.0,
+"end": 0.2
+},
+{
+"word": "will",
+"start": 0.2,
+"end": 0.38
+},
+{
+"word": "lose",
+"start": 0.38,
+"end": 0.72
+},
+{
+"word": "illusions",
+"start": 0.72,
+"end": 1.32
+},
+{
+"word": "that",
+"start": 1.32,
+"end": 2.0
+},
+{
+"word": "used",
+"start": 2.0,
+"end": 2.2
+},
+{
+"word": "to",
+"start": 2.2,
+"end": 2.4
+},
+{
+"word": "make",
+"start": 2.4,
+"end": 2.56
+},
+{
+"word": "you",
+"start": 2.56,
+"end": 2.8
+},
+{
+"word": "feel",
+"start": 2.8,
+"end": 3.06
+},
+{
+"word": "safe.",
+"start": 3.06,
+"end": 3.5
+}
+]

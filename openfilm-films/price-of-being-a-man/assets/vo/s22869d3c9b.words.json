@@ -1,0 +1,47 @@
+[
+{
+"word": "You",
+"start": 0.0,
+"end": 0.24
+},
+{
+"word": "ask",
+"start": 0.24,
+"end": 0.5
+},
+{
+"word": "for",
+"start": 0.5,
+"end": 0.74
+},
+{
+"word": "strength,",
+"start": 0.74,
+"end": 1.14
+},
+{
+"word": "and",
+"start": 1.14,
+"end": 1.76
+},
+{
+"word": "you",
+"start": 1.76,
+"end": 1.9
+},
+{
+"word": "are",
+"start": 1.9,
+"end": 2.06
+},
+{
+"word": "given",
+"start": 2.06,
+"end": 2.34
+},
+{
+"word": "problems.",
+"start": 2.34,
+"end": 2.86
+}
+]

@@ -1,0 +1,82 @@
+[
+{
+"word": "After",
+"start": 0.0,
+"end": 0.46
+},
+{
+"word": "a",
+"start": 0.46,
+"end": 0.68
+},
+{
+"word": "failure.",
+"start": 0.68,
+"end": 1.1
+},
+{
+"word": "After",
+"start": 1.8,
+"end": 1.98
+},
+{
+"word": "a",
+"start": 1.98,
+"end": 2.18
+},
+{
+"word": "disappointment.",
+"start": 2.18,
+"end": 2.8
+},
+{
+"word": "After",
+"start": 3.62,
+"end": 3.88
+},
+{
+"word": "someone",
+"start": 3.88,
+"end": 4.36
+},
+{
+"word": "you",
+"start": 4.36,
+"end": 4.64
+},
+{
+"word": "trusted",
+"start": 4.64,
+"end": 5.0
+},
+{
+"word": "turned",
+"start": 5.0,
+"end": 5.36
+},
+{
+"word": "out",
+"start": 5.36,
+"end": 5.66
+},
+{
+"word": "to",
+"start": 5.66,
+"end": 5.82
+},
+{
+"word": "be",
+"start": 5.82,
+"end": 5.98
+},
+{
+"word": "someone",
+"start": 5.98,
+"end": 6.34
+},
+{
+"word": "else.",
+"start": 6.34,
+"end": 6.6
+}
+]

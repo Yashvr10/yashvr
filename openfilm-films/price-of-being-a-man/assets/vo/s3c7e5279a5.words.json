@@ -1,0 +1,67 @@
+[
+{
+"word": "The",
+"start": 0.0,
+"end": 0.16
+},
+{
+"word": "belief",
+"start": 0.16,
+"end": 0.46
+},
+{
+"word": "that",
+"start": 0.46,
+"end": 0.82
+},
+{
+"word": "the",
+"start": 0.82,
+"end": 0.98
+},
+{
+"word": "world",
+"start": 0.98,
+"end": 1.36
+},
+{
+"word": "owes",
+"start": 1.36,
+"end": 1.86
+},
+{
+"word": "you",
+"start": 1.86,
+"end": 2.1
+},
+{
+"word": "something",
+"start": 2.1,
+"end": 2.5
+},
+{
+"word": "simply",
+"start": 2.5,
+"end": 3.14
+},
+{
+"word": "because",
+"start": 3.14,
+"end": 3.88
+},
+{
+"word": "you",
+"start": 3.88,
+"end": 4.14
+},
+{
+"word": "are",
+"start": 4.14,
+"end": 4.38
+},
+{
+"word": "here.",
+"start": 4.38,
+"end": 4.68
+}
+]

@@ -1,0 +1,47 @@
+[
+{
+"word": "The",
+"start": 0.0,
+"end": 0.22
+},
+{
+"word": "other",
+"start": 0.22,
+"end": 0.46
+},
+{
+"word": "whispers,",
+"start": 0.46,
+"end": 0.86
+},
+{
+"word": "get",
+"start": 0.86,
+"end": 1.32
+},
+{
+"word": "up.",
+"start": 1.32,
+"end": 1.62
+},
+{
+"word": "You",
+"start": 2.1,
+"end": 2.22
+},
+{
+"word": "are",
+"start": 2.22,
+"end": 2.32
+},
+{
+"word": "not",
+"start": 2.32,
+"end": 2.52
+},
+{
+"word": "finished.",
+"start": 2.52,
+"end": 2.92
+}
+]

@@ -1,0 +1,72 @@
+[
+{
+"word": "Every",
+"start": 0.0,
+"end": 0.3
+},
+{
+"word": "boy",
+"start": 0.3,
+"end": 0.66
+},
+{
+"word": "wants",
+"start": 0.66,
+"end": 1.06
+},
+{
+"word": "freedom.",
+"start": 1.06,
+"end": 1.54
+},
+{
+"word": "But",
+"start": 2.02,
+"end": 2.26
+},
+{
+"word": "a",
+"start": 2.26,
+"end": 2.38
+},
+{
+"word": "man",
+"start": 2.38,
+"end": 2.64
+},
+{
+"word": "knows",
+"start": 2.64,
+"end": 3.04
+},
+{
+"word": "that",
+"start": 3.04,
+"end": 3.4
+},
+{
+"word": "freedom",
+"start": 3.4,
+"end": 3.84
+},
+{
+"word": "has",
+"start": 3.84,
+"end": 4.26
+},
+{
+"word": "to",
+"start": 4.26,
+"end": 4.44
+},
+{
+"word": "be",
+"start": 4.44,
+"end": 4.58
+},
+{
+"word": "earned.",
+"start": 4.58,
+"end": 4.94
+}
+]

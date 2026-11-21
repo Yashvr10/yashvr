@@ -1,0 +1,52 @@
+[
+{
+"word": "A",
+"start": 0.0,
+"end": 0.18
+},
+{
+"word": "man",
+"start": 0.18,
+"end": 0.48
+},
+{
+"word": "without",
+"start": 0.48,
+"end": 0.88
+},
+{
+"word": "responsibility",
+"start": 0.88,
+"end": 1.7
+},
+{
+"word": "is",
+"start": 1.7,
+"end": 2.54
+},
+{
+"word": "a",
+"start": 2.54,
+"end": 2.72
+},
+{
+"word": "leaf",
+"start": 2.72,
+"end": 2.98
+},
+{
+"word": "in",
+"start": 2.98,
+"end": 3.44
+},
+{
+"word": "the",
+"start": 3.44,
+"end": 3.58
+},
+{
+"word": "wind.",
+"start": 3.58,
+"end": 3.84
+}
+]

@@ -1,0 +1,67 @@
+[
+{
+"word": "A",
+"start": 0.0,
+"end": 0.2
+},
+{
+"word": "man",
+"start": 0.2,
+"end": 0.48
+},
+{
+"word": "needs",
+"start": 0.48,
+"end": 0.9
+},
+{
+"word": "both.",
+"start": 0.9,
+"end": 1.4
+},
+{
+"word": "Brotherhood",
+"start": 2.06,
+"end": 2.44
+},
+{
+"word": "for",
+"start": 2.44,
+"end": 2.78
+},
+{
+"word": "strength,",
+"start": 2.78,
+"end": 3.2
+},
+{
+"word": "and",
+"start": 3.2,
+"end": 3.82
+},
+{
+"word": "solitude",
+"start": 3.82,
+"end": 4.22
+},
+{
+"word": "to",
+"start": 4.22,
+"end": 4.56
+},
+{
+"word": "hear",
+"start": 4.56,
+"end": 4.76
+},
+{
+"word": "himself",
+"start": 4.76,
+"end": 5.18
+},
+{
+"word": "think.",
+"start": 5.18,
+"end": 5.58
+}
+]

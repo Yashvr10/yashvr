@@ -1,0 +1,62 @@
+[
+{
+"word": "You",
+"start": 0.0,
+"end": 0.24
+},
+{
+"word": "cannot",
+"start": 0.24,
+"end": 0.56
+},
+{
+"word": "lead",
+"start": 0.56,
+"end": 0.94
+},
+{
+"word": "others",
+"start": 0.94,
+"end": 1.36
+},
+{
+"word": "while",
+"start": 1.36,
+"end": 1.92
+},
+{
+"word": "you",
+"start": 1.92,
+"end": 2.06
+},
+{
+"word": "still",
+"start": 2.06,
+"end": 2.32
+},
+{
+"word": "need",
+"start": 2.32,
+"end": 2.56
+},
+{
+"word": "to",
+"start": 2.56,
+"end": 2.76
+},
+{
+"word": "be",
+"start": 2.76,
+"end": 2.92
+},
+{
+"word": "carried",
+"start": 2.92,
+"end": 3.34
+},
+{
+"word": "yourself.",
+"start": 3.34,
+"end": 3.74
+}
+]

@@ -1,0 +1,47 @@
+[
+{
+"word": "The",
+"start": 0.0,
+"end": 0.18
+},
+{
+"word": "disciplined",
+"start": 0.18,
+"end": 0.72
+},
+{
+"word": "man",
+"start": 0.72,
+"end": 1.22
+},
+{
+"word": "has",
+"start": 1.22,
+"end": 1.82
+},
+{
+"word": "the",
+"start": 1.82,
+"end": 2.02
+},
+{
+"word": "same",
+"start": 2.02,
+"end": 2.34
+},
+{
+"word": "fire",
+"start": 2.34,
+"end": 2.82
+},
+{
+"word": "in",
+"start": 2.82,
+"end": 3.12
+},
+{
+"word": "him.",
+"start": 3.12,
+"end": 3.32
+}
+]

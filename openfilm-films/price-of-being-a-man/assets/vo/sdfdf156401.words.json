@@ -1,0 +1,52 @@
+[
+{
+"word": "You",
+"start": 0.0,
+"end": 0.22
+},
+{
+"word": "cannot",
+"start": 0.22,
+"end": 0.5
+},
+{
+"word": "steer",
+"start": 0.5,
+"end": 0.9
+},
+{
+"word": "your",
+"start": 0.9,
+"end": 1.18
+},
+{
+"word": "life",
+"start": 1.18,
+"end": 1.5
+},
+{
+"word": "if",
+"start": 1.5,
+"end": 2.04
+},
+{
+"word": "you",
+"start": 2.04,
+"end": 2.2
+},
+{
+"word": "cannot",
+"start": 2.2,
+"end": 2.5
+},
+{
+"word": "steer",
+"start": 2.5,
+"end": 2.94
+},
+{
+"word": "yourself.",
+"start": 2.94,
+"end": 3.42
+}
+]

@@ -1,0 +1,97 @@
+[
+{
+"word": "You",
+"start": 0.0,
+"end": 0.18
+},
+{
+"word": "do",
+"start": 0.18,
+"end": 0.3
+},
+{
+"word": "not",
+"start": 0.3,
+"end": 0.5
+},
+{
+"word": "quiet",
+"start": 0.5,
+"end": 0.84
+},
+{
+"word": "the",
+"start": 0.84,
+"end": 1.08
+},
+{
+"word": "mind",
+"start": 1.08,
+"end": 1.4
+},
+{
+"word": "with",
+"start": 1.4,
+"end": 1.68
+},
+{
+"word": "more",
+"start": 1.68,
+"end": 1.96
+},
+{
+"word": "noise.",
+"start": 1.96,
+"end": 2.44
+},
+{
+"word": "You",
+"start": 3.14,
+"end": 3.22
+},
+{
+"word": "quiet",
+"start": 3.22,
+"end": 3.54
+},
+{
+"word": "it",
+"start": 3.54,
+"end": 3.72
+},
+{
+"word": "with",
+"start": 3.72,
+"end": 3.9
+},
+{
+"word": "focus,",
+"start": 3.9,
+"end": 4.4
+},
+{
+"word": "with",
+"start": 4.92,
+"end": 5.02
+},
+{
+"word": "prayer,",
+"start": 5.02,
+"end": 5.44
+},
+{
+"word": "with",
+"start": 5.88,
+"end": 5.96
+},
+{
+"word": "time",
+"start": 5.96,
+"end": 6.3
+},
+{
+"word": "alone.",
+"start": 6.3,
+"end": 6.68
+}
+]

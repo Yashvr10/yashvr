@@ -1,0 +1,47 @@
+[
+{
+"word": "Here",
+"start": 0.0,
+"end": 0.4
+},
+{
+"word": "is",
+"start": 0.4,
+"end": 0.64
+},
+{
+"word": "something",
+"start": 0.64,
+"end": 0.94
+},
+{
+"word": "most",
+"start": 0.94,
+"end": 1.32
+},
+{
+"word": "men",
+"start": 1.32,
+"end": 1.76
+},
+{
+"word": "never",
+"start": 1.76,
+"end": 2.38
+},
+{
+"word": "say",
+"start": 2.38,
+"end": 2.74
+},
+{
+"word": "out",
+"start": 2.74,
+"end": 3.0
+},
+{
+"word": "loud.",
+"start": 3.0,
+"end": 3.34
+}
+]

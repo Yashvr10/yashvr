@@ -1,0 +1,77 @@
+[
+{
+"word": "You",
+"start": 0.0,
+"end": 0.22
+},
+{
+"word": "ask",
+"start": 0.22,
+"end": 0.52
+},
+{
+"word": "for",
+"start": 0.52,
+"end": 0.76
+},
+{
+"word": "courage,",
+"start": 0.76,
+"end": 1.2
+},
+{
+"word": "and",
+"start": 1.64,
+"end": 1.82
+},
+{
+"word": "you",
+"start": 1.82,
+"end": 1.9
+},
+{
+"word": "are",
+"start": 1.9,
+"end": 2.0
+},
+{
+"word": "put",
+"start": 2.0,
+"end": 2.16
+},
+{
+"word": "in",
+"start": 2.16,
+"end": 2.38
+},
+{
+"word": "front",
+"start": 2.38,
+"end": 2.56
+},
+{
+"word": "of",
+"start": 2.56,
+"end": 2.74
+},
+{
+"word": "the",
+"start": 2.74,
+"end": 2.86
+},
+{
+"word": "thing",
+"start": 2.86,
+"end": 3.12
+},
+{
+"word": "you",
+"start": 3.12,
+"end": 3.38
+},
+{
+"word": "fear.",
+"start": 3.38,
+"end": 3.74
+}
+]

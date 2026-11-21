@@ -1,0 +1,62 @@
+[
+{
+"word": "One",
+"start": 0.0,
+"end": 0.32
+},
+{
+"word": "way",
+"start": 0.32,
+"end": 0.56
+},
+{
+"word": "is",
+"start": 0.56,
+"end": 0.74
+},
+{
+"word": "ruled",
+"start": 0.74,
+"end": 1.1
+},
+{
+"word": "by",
+"start": 1.1,
+"end": 1.46
+},
+{
+"word": "discipline.",
+"start": 1.46,
+"end": 1.9
+},
+{
+"word": "The",
+"start": 2.38,
+"end": 2.66
+},
+{
+"word": "other",
+"start": 2.66,
+"end": 2.88
+},
+{
+"word": "is",
+"start": 2.88,
+"end": 3.24
+},
+{
+"word": "ruled",
+"start": 3.24,
+"end": 3.64
+},
+{
+"word": "by",
+"start": 3.64,
+"end": 3.98
+},
+{
+"word": "decay.",
+"start": 3.98,
+"end": 4.4
+}
+]

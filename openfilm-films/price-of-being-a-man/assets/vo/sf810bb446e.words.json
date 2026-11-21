@@ -1,0 +1,47 @@
+[
+{
+"word": "He",
+"start": 0.0,
+"end": 0.26
+},
+{
+"word": "is",
+"start": 0.26,
+"end": 0.38
+},
+{
+"word": "not",
+"start": 0.38,
+"end": 0.58
+},
+{
+"word": "being",
+"start": 0.58,
+"end": 0.9
+},
+{
+"word": "rigid.",
+"start": 0.9,
+"end": 1.42
+},
+{
+"word": "He",
+"start": 2.02,
+"end": 2.14
+},
+{
+"word": "is",
+"start": 2.14,
+"end": 2.24
+},
+{
+"word": "being",
+"start": 2.24,
+"end": 2.52
+},
+{
+"word": "faithful.",
+"start": 2.52,
+"end": 2.94
+}
+]

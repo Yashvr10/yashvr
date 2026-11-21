@@ -1,13 +1,12 @@
-# Look for "How to Make Your Dream a Reality": each picture cropped to 16:9 (centred on a face when one is found),
+# Look for "The Price Of Being A Man" (as Becoming): each picture cropped to 16:9 (centred on a face when one is found),
 # a warm, dark, slightly contrasty grade with fine film grain (the reference video's look; black-and-white photographs stay
 # black and white), and, where a figure is found by Robust Video Matting, a cut-out of that figure
 # (assets/cutouts/<k>.png) so the caption words can sit behind it, as in the caption reel Dd0NzeWxryg.
 #   python3 src/look.py
-import json, os, numpy as np, cv2, onnxruntime as ort
+import json, os, numpy as np, cv2
 from PIL import Image, ImageEnhance
 Image.MAX_IMAGE_PIXELS = None
 FR = cv2.CascadeClassifier(cv2.data.haarcascades + "haarcascade_frontalface_default.xml")
-so = ort.SessionOptions(); so.intra_op_num_threads = os.cpu_count()
 def matte(im):
     W, H = im.size; s = 1024 / max(W, H); w, h = round(W * s) // 4 * 4, round(H * s) // 4 * 4
     x = (np.asarray(im.resize((w, h), Image.LANCZOS), np.float32) / 255).transpose(2, 0, 1)[None]

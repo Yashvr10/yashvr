@@ -1,0 +1,87 @@
+[
+{
+"word": "You",
+"start": 0.0,
+"end": 0.24
+},
+{
+"word": "do",
+"start": 0.24,
+"end": 0.36
+},
+{
+"word": "not",
+"start": 0.36,
+"end": 0.58
+},
+{
+"word": "choose",
+"start": 0.58,
+"end": 0.96
+},
+{
+"word": "your",
+"start": 0.96,
+"end": 1.24
+},
+{
+"word": "purpose",
+"start": 1.24,
+"end": 1.68
+},
+{
+"word": "because",
+"start": 1.68,
+"end": 2.26
+},
+{
+"word": "it",
+"start": 2.26,
+"end": 2.48
+},
+{
+"word": "feels",
+"start": 2.48,
+"end": 2.82
+},
+{
+"word": "good.",
+"start": 2.82,
+"end": 3.2
+},
+{
+"word": "You",
+"start": 3.92,
+"end": 4.06
+},
+{
+"word": "choose",
+"start": 4.06,
+"end": 4.36
+},
+{
+"word": "it",
+"start": 4.36,
+"end": 4.64
+},
+{
+"word": "because",
+"start": 4.64,
+"end": 4.94
+},
+{
+"word": "it",
+"start": 4.94,
+"end": 5.12
+},
+{
+"word": "is",
+"start": 5.12,
+"end": 5.34
+},
+{
+"word": "true.",
+"start": 5.34,
+"end": 5.7
+}
+]
