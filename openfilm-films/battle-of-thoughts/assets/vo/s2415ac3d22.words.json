@@ -1,0 +1,52 @@
+[
+{
+"word": "Which",
+"start": 0.0,
+"end": 0.26
+},
+{
+"word": "one",
+"start": 0.26,
+"end": 0.5
+},
+{
+"word": "do",
+"start": 0.5,
+"end": 0.68
+},
+{
+"word": "you",
+"start": 0.68,
+"end": 0.82
+},
+{
+"word": "keep?",
+"start": 0.82,
+"end": 1.1
+},
+{
+"word": "The",
+"start": 1.62,
+"end": 1.68
+},
+{
+"word": "first,",
+"start": 1.68,
+"end": 2.0
+},
+{
+"word": "or",
+"start": 2.0,
+"end": 2.58
+},
+{
+"word": "the",
+"start": 2.58,
+"end": 2.76
+},
+{
+"word": "second?",
+"start": 2.76,
+"end": 3.02
+}
+]

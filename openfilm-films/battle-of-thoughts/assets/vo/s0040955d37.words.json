@@ -1,0 +1,57 @@
+[
+{
+"word": "We",
+"start": 0.0,
+"end": 0.18
+},
+{
+"word": "see",
+"start": 0.18,
+"end": 0.4
+},
+{
+"word": "the",
+"start": 0.4,
+"end": 0.56
+},
+{
+"word": "enemy",
+"start": 0.56,
+"end": 0.86
+},
+{
+"word": "out",
+"start": 0.86,
+"end": 1.2
+},
+{
+"word": "there,",
+"start": 1.2,
+"end": 1.72
+},
+{
+"word": "when",
+"start": 1.72,
+"end": 2.06
+},
+{
+"word": "he",
+"start": 2.06,
+"end": 2.24
+},
+{
+"word": "is",
+"start": 2.24,
+"end": 2.4
+},
+{
+"word": "in",
+"start": 2.4,
+"end": 2.66
+},
+{
+"word": "here.",
+"start": 2.66,
+"end": 3.04
+}
+]

@@ -1,0 +1,122 @@
+[
+{
+"word": "The",
+"start": 0.0,
+"end": 0.18
+},
+{
+"word": "Stoic",
+"start": 0.18,
+"end": 0.64
+},
+{
+"word": "sage",
+"start": 0.64,
+"end": 1.02
+},
+{
+"word": "sorted",
+"start": 1.02,
+"end": 1.48
+},
+{
+"word": "his",
+"start": 1.48,
+"end": 1.74
+},
+{
+"word": "impressions,",
+"start": 1.74,
+"end": 2.32
+},
+{
+"word": "true",
+"start": 2.82,
+"end": 3.08
+},
+{
+"word": "from",
+"start": 3.08,
+"end": 3.36
+},
+{
+"word": "false.",
+"start": 3.36,
+"end": 3.68
+},
+{
+"word": "The",
+"start": 4.54,
+"end": 4.64
+},
+{
+"word": "monk",
+"start": 4.64,
+"end": 4.92
+},
+{
+"word": "sorts",
+"start": 4.92,
+"end": 5.3
+},
+{
+"word": "his",
+"start": 5.3,
+"end": 5.52
+},
+{
+"word": "thoughts,",
+"start": 5.52,
+"end": 5.96
+},
+{
+"word": "clean",
+"start": 6.36,
+"end": 6.72
+},
+{
+"word": "from",
+"start": 6.72,
+"end": 7.08
+},
+{
+"word": "unclean.",
+"start": 7.08,
+"end": 7.94
+},
+{
+"word": "The",
+"start": 8.42,
+"end": 8.62
+},
+{
+"word": "old",
+"start": 8.62,
+"end": 8.86
+},
+{
+"word": "name",
+"start": 8.86,
+"end": 9.12
+},
+{
+"word": "for",
+"start": 9.12,
+"end": 9.32
+},
+{
+"word": "this",
+"start": 9.32,
+"end": 9.58
+},
+{
+"word": "is",
+"start": 9.58,
+"end": 9.84
+},
+{
+"word": "discernment.",
+"start": 9.84,
+"end": 10.6
+}
+]

@@ -1,0 +1,47 @@
+[
+{
+"word": "Its",
+"start": 0.0,
+"end": 0.3
+},
+{
+"word": "neighbour",
+"start": 0.3,
+"end": 0.66
+},
+{
+"word": "is",
+"start": 0.66,
+"end": 0.96
+},
+{
+"word": "despair,",
+"start": 0.96,
+"end": 1.52
+},
+{
+"word": "the",
+"start": 2.04,
+"end": 2.14
+},
+{
+"word": "loss",
+"start": 2.14,
+"end": 2.42
+},
+{
+"word": "of",
+"start": 2.42,
+"end": 2.68
+},
+{
+"word": "all",
+"start": 2.68,
+"end": 2.96
+},
+{
+"word": "hope.",
+"start": 2.96,
+"end": 3.32
+}
+]

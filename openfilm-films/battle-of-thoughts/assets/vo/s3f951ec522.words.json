@@ -1,0 +1,102 @@
+[
+{
+"word": "You",
+"start": 0.0,
+"end": 0.16
+},
+{
+"word": "turn",
+"start": 0.16,
+"end": 0.38
+},
+{
+"word": "it",
+"start": 0.38,
+"end": 0.52
+},
+{
+"word": "over",
+"start": 0.52,
+"end": 0.72
+},
+{
+"word": "all",
+"start": 0.72,
+"end": 1.06
+},
+{
+"word": "afternoon,",
+"start": 1.06,
+"end": 1.62
+},
+{
+"word": "and",
+"start": 1.62,
+"end": 2.22
+},
+{
+"word": "the",
+"start": 2.22,
+"end": 2.34
+},
+{
+"word": "next",
+"start": 2.34,
+"end": 2.58
+},
+{
+"word": "person",
+"start": 2.58,
+"end": 2.94
+},
+{
+"word": "who",
+"start": 2.94,
+"end": 3.24
+},
+{
+"word": "greets",
+"start": 3.24,
+"end": 3.58
+},
+{
+"word": "you,",
+"start": 3.58,
+"end": 4.08
+},
+{
+"word": "you",
+"start": 4.18,
+"end": 4.28
+},
+{
+"word": "ignore.",
+"start": 4.28,
+"end": 4.74
+},
+{
+"word": "Now",
+"start": 5.54,
+"end": 5.74
+},
+{
+"word": "he",
+"start": 5.74,
+"end": 5.98
+},
+{
+"word": "is",
+"start": 5.98,
+"end": 6.1
+},
+{
+"word": "hurt",
+"start": 6.1,
+"end": 6.36
+},
+{
+"word": "too.",
+"start": 6.36,
+"end": 6.76
+}
+]

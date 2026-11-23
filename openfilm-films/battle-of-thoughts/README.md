@@ -1,0 +1,11 @@
+# The Battle of Thoughts: Spiritual Warfare in Everyday Life
+
+16:9, 24:27, rendered with OpenFilm in the look of Becoming and The Price Of Being A Man.
+
+- Request: a 25-minute video on the same topic as "Spiritual Warfare in Daily Life: The Battle of Thoughts" (Eternalised, YouTube U-uB_2xpXao), with a similar title, description and tags, made like Becoming. The user pasted the reference transcript. That transcript is the channel's own writing, so the script here (`src/script.py`) is freshly written in my own words, following the same ideas and order; quotations are only from public-domain texts (World English Bible / KJV, Milton, Marcus Aurelius, Seneca), and modern authors (St Paisios, Fr Lampert, Fr Kamel, Fr Ripperger) are paraphrased.
+- Chapters: an ordinary day; I Two worlds; II The inner fortress; III The enemy within; IV Talking back; V The quiet work of the devil; VI Wounds and healing; VII The whole armour. 184 sentences, 3,152 words.
+- Voice: free Kokoro "Lewis older" (bm_lewis, speed 0.84, pitched down 7%), one clip per sentence (`src/tts.py`); word times from Whisper (`src/align_whisper.py`).
+- Pictures: public-domain (CC0) paintings, prints and drawings from the Cleveland Museum of Art and the Art Institute of Chicago (`src/museums.py`; Wikimedia Commons rate-limits this machine). European works only, no objects, no nudes; hand-picked from two searches into `src/images.json` (219 pictures, 182 used), cropped to 16:9 and graded (`src/look.py`).
+- Film: `src/build.mjs` -> `film.html` + `captions.html` (small lowercase EB Garamond words, the key word in big Pinyon Script, chapter cards on black, slow push or drift on each picture, dissolves between them, film grain). Music: five calm CC BY / CC BY-SA tracks, crossfaded (`src/music-credits.json`).
+- Render: `npx openfilm@latest render --workers 2 --loudness=-14`; the final video is encoded from the render's chunks and its saved soundtrack (the mux runs out of disk here).
+- Deliverables: `video/The-Battle-Of-Thoughts.mp4` (720p), `thumbnail.jpg` (Albrecht Dürer, "Knight, Death and the Devil", 1513, Cleveland Museum of Art, CC0), `description.md` (title, description, chapters, tags, credits).

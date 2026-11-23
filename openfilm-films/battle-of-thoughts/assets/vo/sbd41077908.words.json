@@ -1,0 +1,82 @@
+[
+{
+"word": "Look",
+"start": 0.0,
+"end": 0.26
+},
+{
+"word": "inward.",
+"start": 0.26,
+"end": 0.64
+},
+{
+"word": "Examine",
+"start": 1.26,
+"end": 1.7
+},
+{
+"word": "yourself,",
+"start": 1.7,
+"end": 2.24
+},
+{
+"word": "not",
+"start": 2.44,
+"end": 2.52
+},
+{
+"word": "others.",
+"start": 2.52,
+"end": 2.88
+},
+{
+"word": "Ask",
+"start": 3.54,
+"end": 3.76
+},
+{
+"word": "forgiveness",
+"start": 3.76,
+"end": 4.26
+},
+{
+"word": "for",
+"start": 4.26,
+"end": 4.54
+},
+{
+"word": "the",
+"start": 4.54,
+"end": 4.66
+},
+{
+"word": "day's",
+"start": 4.66,
+"end": 5.08
+},
+{
+"word": "harmful",
+"start": 5.08,
+"end": 5.52
+},
+{
+"word": "thoughts,",
+"start": 5.52,
+"end": 6.12
+},
+{
+"word": "words",
+"start": 6.46,
+"end": 6.86
+},
+{
+"word": "and",
+"start": 7.24,
+"end": 7.28
+},
+{
+"word": "deeds.",
+"start": 7.28,
+"end": 7.64
+}
+]

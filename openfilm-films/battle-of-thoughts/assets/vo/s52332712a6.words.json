@@ -1,0 +1,82 @@
+[
+{
+"word": "And",
+"start": 0.0,
+"end": 0.26
+},
+{
+"word": "yet",
+"start": 0.26,
+"end": 0.44
+},
+{
+"word": "he",
+"start": 0.44,
+"end": 0.6
+},
+{
+"word": "also",
+"start": 0.6,
+"end": 0.96
+},
+{
+"word": "said:",
+"start": 0.96,
+"end": 1.4
+},
+{
+"word": "Father,",
+"start": 2.0,
+"end": 2.4
+},
+{
+"word": "forgive",
+"start": 2.4,
+"end": 3.02
+},
+{
+"word": "them,",
+"start": 3.02,
+"end": 3.42
+},
+{
+"word": "for",
+"start": 3.66,
+"end": 3.86
+},
+{
+"word": "they",
+"start": 3.86,
+"end": 4.02
+},
+{
+"word": "do",
+"start": 4.02,
+"end": 4.16
+},
+{
+"word": "not",
+"start": 4.16,
+"end": 4.38
+},
+{
+"word": "know",
+"start": 4.38,
+"end": 4.68
+},
+{
+"word": "what",
+"start": 4.68,
+"end": 4.96
+},
+{
+"word": "they",
+"start": 4.96,
+"end": 5.18
+},
+{
+"word": "do.",
+"start": 5.18,
+"end": 5.52
+}
+]

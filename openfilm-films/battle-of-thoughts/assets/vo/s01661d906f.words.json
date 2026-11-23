@@ -1,0 +1,82 @@
+[
+{
+"word": "Saint",
+"start": 0.0,
+"end": 0.28
+},
+{
+"word": "Paisios",
+"start": 0.28,
+"end": 0.9
+},
+{
+"word": "taught",
+"start": 0.9,
+"end": 1.26
+},
+{
+"word": "that",
+"start": 1.26,
+"end": 1.8
+},
+{
+"word": "the",
+"start": 1.8,
+"end": 1.9
+},
+{
+"word": "one",
+"start": 1.9,
+"end": 2.08
+},
+{
+"word": "who",
+"start": 2.08,
+"end": 2.26
+},
+{
+"word": "does",
+"start": 2.26,
+"end": 2.5
+},
+{
+"word": "real",
+"start": 2.5,
+"end": 2.94
+},
+{
+"word": "spiritual",
+"start": 2.94,
+"end": 3.5
+},
+{
+"word": "work",
+"start": 3.5,
+"end": 4.22
+},
+{
+"word": "justifies",
+"start": 4.22,
+"end": 5.04
+},
+{
+"word": "others,",
+"start": 5.04,
+"end": 5.58
+},
+{
+"word": "but",
+"start": 6.08,
+"end": 6.32
+},
+{
+"word": "never",
+"start": 6.32,
+"end": 6.6
+},
+{
+"word": "himself.",
+"start": 6.6,
+"end": 7.16
+}
+]

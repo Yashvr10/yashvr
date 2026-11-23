@@ -1,0 +1,62 @@
+[
+{
+"word": "He",
+"start": 0.0,
+"end": 0.22
+},
+{
+"word": "borrowed",
+"start": 0.22,
+"end": 0.56
+},
+{
+"word": "the",
+"start": 0.56,
+"end": 0.86
+},
+{
+"word": "idea",
+"start": 0.86,
+"end": 1.24
+},
+{
+"word": "from",
+"start": 1.24,
+"end": 1.54
+},
+{
+"word": "the",
+"start": 1.54,
+"end": 1.68
+},
+{
+"word": "Stoics,",
+"start": 1.68,
+"end": 2.28
+},
+{
+"word": "who",
+"start": 2.58,
+"end": 2.84
+},
+{
+"word": "spoke",
+"start": 2.84,
+"end": 3.16
+},
+{
+"word": "of",
+"start": 3.16,
+"end": 3.44
+},
+{
+"word": "first",
+"start": 3.44,
+"end": 3.78
+},
+{
+"word": "movements.",
+"start": 3.78,
+"end": 4.32
+}
+]

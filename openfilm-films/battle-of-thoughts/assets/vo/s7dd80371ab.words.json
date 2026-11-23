@@ -1,0 +1,52 @@
+[
+{
+"word": "Gluttony.",
+"start": 0.0,
+"end": 0.56
+},
+{
+"word": "Lust.",
+"start": 0.56,
+"end": 0.82
+},
+{
+"word": "Love",
+"start": 0.82,
+"end": 1.26
+},
+{
+"word": "of",
+"start": 1.26,
+"end": 1.42
+},
+{
+"word": "money.",
+"start": 1.42,
+"end": 1.76
+},
+{
+"word": "Sadness.",
+"start": 1.76,
+"end": 2.56
+},
+{
+"word": "Anger.",
+"start": 2.56,
+"end": 3.5
+},
+{
+"word": "Listlessness.",
+"start": 3.5,
+"end": 4.38
+},
+{
+"word": "Vainglory.",
+"start": 4.38,
+"end": 5.16
+},
+{
+"word": "Pride.",
+"start": 5.16,
+"end": 5.76
+}
+]

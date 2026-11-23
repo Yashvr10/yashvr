@@ -1,0 +1,57 @@
+[
+{
+"word": "Pride",
+"start": 0.0,
+"end": 0.36
+},
+{
+"word": "is",
+"start": 0.36,
+"end": 0.64
+},
+{
+"word": "the",
+"start": 0.64,
+"end": 0.82
+},
+{
+"word": "open",
+"start": 0.82,
+"end": 1.18
+},
+{
+"word": "gate.",
+"start": 1.18,
+"end": 1.62
+},
+{
+"word": "False",
+"start": 2.24,
+"end": 2.38
+},
+{
+"word": "light",
+"start": 2.38,
+"end": 2.8
+},
+{
+"word": "walks",
+"start": 2.8,
+"end": 3.2
+},
+{
+"word": "straight",
+"start": 3.2,
+"end": 3.6
+},
+{
+"word": "through",
+"start": 3.6,
+"end": 3.98
+},
+{
+"word": "it.",
+"start": 3.98,
+"end": 4.18
+}
+]

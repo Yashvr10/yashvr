@@ -1,0 +1,82 @@
+[
+{
+"word": "This",
+"start": 0.0,
+"end": 0.3
+},
+{
+"word": "is",
+"start": 0.3,
+"end": 0.58
+},
+{
+"word": "the",
+"start": 0.58,
+"end": 0.78
+},
+{
+"word": "beginning",
+"start": 0.78,
+"end": 1.12
+},
+{
+"word": "of",
+"start": 1.12,
+"end": 1.46
+},
+{
+"word": "humility,",
+"start": 1.46,
+"end": 2.04
+},
+{
+"word": "which",
+"start": 2.48,
+"end": 2.86
+},
+{
+"word": "the",
+"start": 2.86,
+"end": 3.1
+},
+{
+"word": "fathers",
+"start": 3.1,
+"end": 3.5
+},
+{
+"word": "called",
+"start": 3.5,
+"end": 3.94
+},
+{
+"word": "the",
+"start": 3.94,
+"end": 4.16
+},
+{
+"word": "foundation",
+"start": 4.16,
+"end": 4.74
+},
+{
+"word": "of",
+"start": 4.74,
+"end": 5.52
+},
+{
+"word": "every",
+"start": 5.52,
+"end": 5.88
+},
+{
+"word": "other",
+"start": 5.88,
+"end": 6.16
+},
+{
+"word": "virtue.",
+"start": 6.16,
+"end": 6.46
+}
+]
