@@ -35,5 +35,39 @@
   "prayer-c5",
   "prayer-c6",
   "prayer-c7"
+ ],
+ "despair": [
+  "despair-c1",
+  "despair-c2",
+  "despair-c3",
+  "despair-c4",
+  "despair-c5",
+  "despair-c6"
+ ],
+ "night": [
+  "night-c1",
+  "night-c2",
+  "night-c3",
+  "night-c4",
+  "night-c5",
+  "night-c6"
+ ],
+ "thinker": [
+  "thinker-c1",
+  "thinker-c2",
+  "thinker-c3",
+  "thinker-c4"
+ ],
+ "crowd": [
+  "crowd-c1",
+  "crowd-c2",
+  "crowd-c3",
+  "crowd-c4"
+ ],
+ "portrait": [
+  "portrait-c1",
+  "portrait-c2",
+  "portrait-c3",
+  "portrait-c4"
  ]
 }
