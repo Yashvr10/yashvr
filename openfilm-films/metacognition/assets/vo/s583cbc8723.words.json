@@ -1,0 +1,42 @@
+[
+{
+"word": "From",
+"start": 0.0,
+"end": 0.26
+},
+{
+"word": "anxiety",
+"start": 0.26,
+"end": 0.74
+},
+{
+"word": "to",
+"start": 0.74,
+"end": 1.28
+},
+{
+"word": "anger.",
+"start": 1.28,
+"end": 1.7
+},
+{
+"word": "From",
+"start": 2.36,
+"end": 2.44
+},
+{
+"word": "euphoria",
+"start": 2.44,
+"end": 3.08
+},
+{
+"word": "to",
+"start": 3.08,
+"end": 3.46
+},
+{
+"word": "despair.",
+"start": 3.46,
+"end": 3.9
+}
+]

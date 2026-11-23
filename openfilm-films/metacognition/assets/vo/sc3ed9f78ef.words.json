@@ -1,0 +1,82 @@
+[
+{
+"word": "This",
+"start": 0.0,
+"end": 0.26
+},
+{
+"word": "would",
+"start": 0.26,
+"end": 0.48
+},
+{
+"word": "require",
+"start": 0.48,
+"end": 1.02
+},
+{
+"word": "too",
+"start": 1.02,
+"end": 1.36
+},
+{
+"word": "much",
+"start": 1.36,
+"end": 1.62
+},
+{
+"word": "conscious",
+"start": 1.62,
+"end": 2.12
+},
+{
+"word": "effort,",
+"start": 2.12,
+"end": 2.6
+},
+{
+"word": "and",
+"start": 2.6,
+"end": 3.22
+},
+{
+"word": "would",
+"start": 3.22,
+"end": 3.34
+},
+{
+"word": "die",
+"start": 3.34,
+"end": 3.7
+},
+{
+"word": "on",
+"start": 3.7,
+"end": 3.9
+},
+{
+"word": "the",
+"start": 3.9,
+"end": 4.04
+},
+{
+"word": "vine",
+"start": 4.04,
+"end": 4.46
+},
+{
+"word": "after",
+"start": 4.46,
+"end": 4.92
+},
+{
+"word": "an",
+"start": 4.92,
+"end": 5.14
+},
+{
+"word": "hour.",
+"start": 5.14,
+"end": 5.34
+}
+]

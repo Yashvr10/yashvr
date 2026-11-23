@@ -1,0 +1,77 @@
+[
+{
+"word": "The",
+"start": 0.0,
+"end": 0.2
+},
+{
+"word": "chest",
+"start": 0.2,
+"end": 0.64
+},
+{
+"word": "tightening,",
+"start": 0.64,
+"end": 1.32
+},
+{
+"word": "the",
+"start": 1.78,
+"end": 1.94
+},
+{
+"word": "jaw,",
+"start": 1.94,
+"end": 2.38
+},
+{
+"word": "the",
+"start": 2.96,
+"end": 3.08
+},
+{
+"word": "reach",
+"start": 3.08,
+"end": 3.28
+},
+{
+"word": "for",
+"start": 3.28,
+"end": 3.52
+},
+{
+"word": "the",
+"start": 3.52,
+"end": 3.66
+},
+{
+"word": "phone",
+"start": 3.66,
+"end": 4.0
+},
+{
+"word": "before",
+"start": 4.0,
+"end": 4.42
+},
+{
+"word": "you",
+"start": 4.42,
+"end": 4.64
+},
+{
+"word": "decided",
+"start": 4.64,
+"end": 5.1
+},
+{
+"word": "to",
+"start": 5.1,
+"end": 5.42
+},
+{
+"word": "reach.",
+"start": 5.42,
+"end": 5.66
+}
+]

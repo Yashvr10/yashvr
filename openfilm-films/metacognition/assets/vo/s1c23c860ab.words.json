@@ -1,0 +1,52 @@
+[
+{
+"word": "This",
+"start": 0.0,
+"end": 0.24
+},
+{
+"word": "is",
+"start": 0.24,
+"end": 0.44
+},
+{
+"word": "how",
+"start": 0.44,
+"end": 0.7
+},
+{
+"word": "we",
+"start": 0.7,
+"end": 0.94
+},
+{
+"word": "operate",
+"start": 0.94,
+"end": 1.44
+},
+{
+"word": "ninety-nine",
+"start": 1.44,
+"end": 2.17
+},
+{
+"word": "percent",
+"start": 2.17,
+"end": 2.9
+},
+{
+"word": "of",
+"start": 2.9,
+"end": 3.26
+},
+{
+"word": "the",
+"start": 3.26,
+"end": 3.4
+},
+{
+"word": "time.",
+"start": 3.4,
+"end": 3.74
+}
+]

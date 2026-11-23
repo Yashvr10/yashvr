@@ -1,0 +1,72 @@
+[
+{
+"word": "The",
+"start": 0.0,
+"end": 0.22
+},
+{
+"word": "other",
+"start": 0.22,
+"end": 0.42
+},
+{
+"word": "thing:",
+"start": 0.42,
+"end": 0.82
+},
+{
+"word": "the",
+"start": 1.32,
+"end": 1.44
+},
+{
+"word": "body",
+"start": 1.44,
+"end": 1.66
+},
+{
+"word": "is",
+"start": 1.66,
+"end": 1.94
+},
+{
+"word": "always",
+"start": 1.94,
+"end": 2.3
+},
+{
+"word": "a",
+"start": 2.3,
+"end": 2.5
+},
+{
+"word": "more",
+"start": 2.5,
+"end": 2.68
+},
+{
+"word": "reliable",
+"start": 2.68,
+"end": 3.24
+},
+{
+"word": "alarm",
+"start": 3.24,
+"end": 3.78
+},
+{
+"word": "than",
+"start": 3.78,
+"end": 4.26
+},
+{
+"word": "the",
+"start": 4.26,
+"end": 4.4
+},
+{
+"word": "mind.",
+"start": 4.4,
+"end": 4.68
+}
+]

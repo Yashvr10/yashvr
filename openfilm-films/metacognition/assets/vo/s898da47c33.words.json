@@ -1,0 +1,67 @@
+[
+{
+"word": "You",
+"start": 0.0,
+"end": 0.22
+},
+{
+"word": "stop",
+"start": 0.22,
+"end": 0.58
+},
+{
+"word": "and",
+"start": 0.58,
+"end": 0.9
+},
+{
+"word": "ask",
+"start": 0.9,
+"end": 1.2
+},
+{
+"word": "yourself",
+"start": 1.2,
+"end": 1.68
+},
+{
+"word": "the",
+"start": 1.68,
+"end": 1.92
+},
+{
+"word": "question:",
+"start": 1.92,
+"end": 2.3
+},
+{
+"word": "\u2018where",
+"start": 2.92,
+"end": 3.12
+},
+{
+"word": "does",
+"start": 3.12,
+"end": 3.34
+},
+{
+"word": "this",
+"start": 3.34,
+"end": 3.56
+},
+{
+"word": "thought",
+"start": 3.56,
+"end": 3.94
+},
+{
+"word": "come",
+"start": 3.94,
+"end": 4.28
+},
+{
+"word": "from?\u2019",
+"start": 4.28,
+"end": 4.56
+}
+]

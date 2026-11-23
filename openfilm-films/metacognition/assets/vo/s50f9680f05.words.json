@@ -1,0 +1,42 @@
+[
+{
+"word": "You",
+"start": 0.0,
+"end": 0.24
+},
+{
+"word": "have",
+"start": 0.24,
+"end": 0.54
+},
+{
+"word": "them.",
+"start": 0.54,
+"end": 0.84
+},
+{
+"word": "And",
+"start": 1.26,
+"end": 1.38
+},
+{
+"word": "then",
+"start": 1.38,
+"end": 1.58
+},
+{
+"word": "you",
+"start": 1.58,
+"end": 1.86
+},
+{
+"word": "are",
+"start": 1.86,
+"end": 2.12
+},
+{
+"word": "them.",
+"start": 2.12,
+"end": 2.34
+}
+]

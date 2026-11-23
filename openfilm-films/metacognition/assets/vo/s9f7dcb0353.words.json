@@ -1,0 +1,42 @@
+[
+{
+"word": "For",
+"start": 0.0,
+"end": 0.2
+},
+{
+"word": "an",
+"start": 0.2,
+"end": 0.32
+},
+{
+"word": "untrained",
+"start": 0.32,
+"end": 1.06
+},
+{
+"word": "mind,",
+"start": 1.06,
+"end": 1.58
+},
+{
+"word": "it\u2019s",
+"start": 2.06,
+"end": 2.32
+},
+{
+"word": "still",
+"start": 2.32,
+"end": 2.5
+},
+{
+"word": "mostly",
+"start": 2.5,
+"end": 2.94
+},
+{
+"word": "dormant.",
+"start": 2.94,
+"end": 3.34
+}
+]

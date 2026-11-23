@@ -1,0 +1,2158 @@
+{
+ "total": 1058.926,
+ "items": [
+  {
+   "kind": "sentence",
+   "id": "s4a571ca15f",
+   "text": "Before we begin, I want you to do something.",
+   "th": [
+    "thinker"
+   ],
+   "at": 0.8,
+   "dur": 3.168,
+   "gap": 0.9
+  },
+  {
+   "kind": "sentence",
+   "id": "s1fc1e0463d",
+   "text": "I want you to wait for the next thought, and become consciously aware of it the moment it arrives.",
+   "th": [
+    "thinker",
+    "mirror"
+   ],
+   "at": 4.868,
+   "dur": 6.192,
+   "gap": 0.9
+  },
+  {
+   "kind": "sentence",
+   "id": "sbc5474103f",
+   "text": "Quite literally, try and catch your next thought.",
+   "th": [
+    "hand"
+   ],
+   "at": 11.96,
+   "dur": 3.072,
+   "gap": 0.9
+  },
+  {
+   "kind": "sentence",
+   "id": "s7e8802cbe6",
+   "text": "Not after. Do it now.",
+   "th": [
+    "hourglass"
+   ],
+   "at": 15.932,
+   "dur": 1.992,
+   "gap": 0.8
+  },
+  {
+   "kind": "sentence",
+   "id": "s671e4e22d9",
+   "text": "Three.",
+   "th": [
+    "hourglass"
+   ],
+   "at": 18.724,
+   "dur": 0.84,
+   "gap": 0.55
+  },
+  {
+   "kind": "sentence",
+   "id": "s55691f9051",
+   "text": "Two.",
+   "th": [
+    "hourglass"
+   ],
+   "at": 20.114,
+   "dur": 0.768,
+   "gap": 0.55
+  },
+  {
+   "kind": "sentence",
+   "id": "s194d30aed0",
+   "text": "One.",
+   "th": [
+    "hourglass"
+   ],
+   "at": 21.432,
+   "dur": 0.768,
+   "gap": 0.55
+  },
+  {
+   "kind": "sentence",
+   "id": "s0e2e83a3e1",
+   "text": "Go.",
+   "th": [
+    "thinker"
+   ],
+   "at": 22.75,
+   "dur": 0.84,
+   "gap": 4.0
+  },
+  {
+   "kind": "sentence",
+   "id": "s34b31c9a02",
+   "text": "What? You can’t do it?",
+   "th": [
+    "thinker"
+   ],
+   "at": 27.59,
+   "dur": 1.776,
+   "gap": 1.0
+  },
+  {
+   "kind": "sentence",
+   "id": "s5eae0ed8b8",
+   "text": "The reason is simple: the waiting itself turns into a thought.",
+   "th": [
+    "thinker",
+    "mirror"
+   ],
+   "at": 30.366,
+   "dur": 4.584,
+   "gap": 0.9
+  },
+  {
+   "kind": "sentence",
+   "id": "s9185ed7405",
+   "text": "When your mind is so absorbed in listening for a thought, it cannot even produce one.",
+   "th": [
+    "thinker"
+   ],
+   "at": 35.85,
+   "dur": 5.712,
+   "gap": 0.9
+  },
+  {
+   "kind": "sentence",
+   "id": "s3319d4e4b0",
+   "text": "But something strange happened while you were trying.",
+   "th": [
+    "double"
+   ],
+   "at": 42.462,
+   "dur": 3.408,
+   "gap": 1.2
+  },
+  {
+   "kind": "sentence",
+   "id": "sc694e06fda",
+   "text": "There were two of you: one thinking, and the other waiting.",
+   "th": [
+    "double",
+    "mirror"
+   ],
+   "at": 47.07,
+   "dur": 3.936,
+   "gap": 1.3
+  },
+  {
+   "kind": "sentence",
+   "id": "s5e781ce2c9",
+   "text": "That phenomenon, right there, is metacognition.",
+   "th": [
+    "mirror"
+   ],
+   "at": 52.306,
+   "dur": 3.432,
+   "gap": 1.4
+  },
+  {
+   "kind": "sentence",
+   "id": "sff070d5755",
+   "text": "Contrary to what you may think, it is not some spiritual gimmick or self-help buzzword.",
+   "th": [
+    "market"
+   ],
+   "at": 57.138,
+   "dur": 6.216,
+   "gap": 0.9
+  },
+  {
+   "kind": "sentence",
+   "id": "sa356385b6d",
+   "text": "It is what EVERYTHING stems from. Literally.",
+   "th": [
+    "tree"
+   ],
+   "at": 64.254,
+   "dur": 3.144,
+   "gap": 0.9
+  },
+  {
+   "kind": "sentence",
+   "id": "s8ef595f516",
+   "text": "People like to say, ‘your thoughts create your reality’.",
+   "th": [
+    "crowd"
+   ],
+   "at": 68.298,
+   "dur": 3.72,
+   "gap": 0.8
+  },
+  {
+   "kind": "sentence",
+   "id": "sa5b5b9280c",
+   "text": "Bullshit.",
+   "th": [
+    "crowd"
+   ],
+   "at": 72.818,
+   "dur": 0.96,
+   "gap": 1.0
+  },
+  {
+   "kind": "sentence",
+   "id": "sde9167ce54",
+   "text": "It’s not your thoughts that create your reality, but your relationship with them.",
+   "th": [
+    "mirror",
+    "thinker"
+   ],
+   "at": 74.778,
+   "dur": 5.04,
+   "gap": 1.3
+  },
+  {
+   "kind": "sentence",
+   "id": "s1b189fc293",
+   "text": "You can stare at vision boards twenty-four seven and repeat a thousand affirmations a day,",
+   "th": [
+    "vision"
+   ],
+   "at": 81.118,
+   "dur": 6.528,
+   "gap": 0.3
+  },
+  {
+   "kind": "sentence",
+   "id": "s93f261e904",
+   "text": "but if the person watching them doesn’t believe a word of it, they won’t do anything except make you feel stupid.",
+   "th": [
+    "mirror",
+    "fool"
+   ],
+   "at": 87.946,
+   "dur": 7.368,
+   "gap": 0.9
+  },
+  {
+   "kind": "sentence",
+   "id": "se11ca691d5",
+   "text": "People search for problems everywhere except in themselves.",
+   "th": [
+    "market",
+    "crowd"
+   ],
+   "at": 96.214,
+   "dur": 3.936,
+   "gap": 0.9
+  },
+  {
+   "kind": "sentence",
+   "id": "s3c3bc48284",
+   "text": "It’s either this technique or that routine, this guru or that supplement.",
+   "th": [
+    "market"
+   ],
+   "at": 101.05,
+   "dur": 5.04,
+   "gap": 0.9
+  },
+  {
+   "kind": "sentence",
+   "id": "s8cdcb50b98",
+   "text": "But in truth, the greatest enemy is inside their own minds.",
+   "th": [
+    "shadow"
+   ],
+   "at": 106.99,
+   "dur": 4.416,
+   "gap": 0.6
+  },
+  {
+   "kind": "sentence",
+   "id": "s7fbefcf66d",
+   "text": "Observing. Judging. Issuing verdicts.",
+   "th": [
+    "judge"
+   ],
+   "at": 112.006,
+   "dur": 3.288,
+   "gap": 1.2
+  },
+  {
+   "kind": "sentence",
+   "id": "sde9f1ccb4f",
+   "text": "And it never stops.",
+   "th": [
+    "shadow"
+   ],
+   "at": 116.494,
+   "dur": 1.68,
+   "gap": 0.5
+  },
+  {
+   "kind": "sentence",
+   "id": "se3fd0938ae",
+   "text": "It walked into every room you have ever walked into, and it will be there tonight when you close your eyes.",
+   "th": [
+    "door",
+    "night"
+   ],
+   "at": 118.674,
+   "dur": 6.768,
+   "gap": 1.3
+  },
+  {
+   "kind": "sentence",
+   "id": "s5eb5e34862",
+   "text": "You can’t OUTRUN your own shadow.",
+   "th": [
+    "shadow"
+   ],
+   "at": 126.742,
+   "dur": 2.616,
+   "gap": 0.6
+  },
+  {
+   "kind": "sentence",
+   "id": "s9a608b8ee8",
+   "text": "But with enough practice, you can integrate it, and what once was the greatest enemy becomes the greatest ally.",
+   "th": [
+    "shadow",
+    "light"
+   ],
+   "at": 129.958,
+   "dur": 7.584,
+   "gap": 1.6
+  },
+  {
+   "kind": "sentence",
+   "id": "s4c4985a41c",
+   "text": "This topic has been on my list for quite some time, but I always felt like I needed more knowledge. More practice.",
+   "th": [
+    "study"
+   ],
+   "at": 139.142,
+   "dur": 7.584,
+   "gap": 0.9
+  },
+  {
+   "kind": "sentence",
+   "id": "s9507cc852e",
+   "text": "My lab is buried in materials. Open books face down on every surface, printouts, three pens that don’t work.",
+   "th": [
+    "study",
+    "alchemist"
+   ],
+   "at": 147.626,
+   "dur": 8.4,
+   "gap": 0.9
+  },
+  {
+   "kind": "sentence",
+   "id": "s3025fa5974",
+   "text": "Black coffee went cold while I was rereading the same paragraph for the fourth time.",
+   "th": [
+    "coffee",
+    "reading"
+   ],
+   "at": 156.926,
+   "dur": 5.616,
+   "gap": 0.9
+  },
+  {
+   "kind": "sentence",
+   "id": "sf435b8f203",
+   "text": "I’ve been studying all this for YEARS. And it’s not an exaggeration.",
+   "th": [
+    "study"
+   ],
+   "at": 163.442,
+   "dur": 4.992,
+   "gap": 0.9
+  },
+  {
+   "kind": "sentence",
+   "id": "s2eb1d7d02d",
+   "text": "The whiteboard behind me is one long line of names and arrows, running from ancient Greece to modern laboratories.",
+   "th": [
+    "diagram",
+    "science"
+   ],
+   "at": 169.334,
+   "dur": 8.304,
+   "gap": 0.9
+  },
+  {
+   "kind": "sentence",
+   "id": "s608e7a588d",
+   "text": "Crazy how it all connects into one.",
+   "th": [
+    "diagram"
+   ],
+   "at": 178.538,
+   "dur": 2.568,
+   "gap": 0.8
+  },
+  {
+   "kind": "sentence",
+   "id": "s26405be038",
+   "text": "Let’s get into it.",
+   "th": [
+    "temple"
+   ],
+   "at": 181.906,
+   "dur": 1.488,
+   "gap": 1.0
+  },
+  {
+   "kind": "chapter",
+   "title": "I. The Birth of Metacognition",
+   "sub": "",
+   "at": 184.394,
+   "dur": 4.0
+  },
+  {
+   "kind": "sentence",
+   "id": "sff56f2ffb4",
+   "text": "I am better off than he is, for he knows nothing, and thinks that he knows; I neither know nor think that I know.",
+   "th": [
+    "socrates"
+   ],
+   "at": 188.394,
+   "dur": 7.896,
+   "gap": 1.6,
+   "quote": {
+    "text": "“I am better off than he is, for he knows nothing, and thinks that he knows; I neither know nor think that I know.”",
+    "by": "Plato, Apology 21d"
+   }
+  },
+  {
+   "kind": "sentence",
+   "id": "sf066793d76",
+   "text": "But let’s start all of it from the beginning.",
+   "th": [
+    "temple"
+   ],
+   "at": 197.89,
+   "dur": 2.616,
+   "gap": 0.9
+  },
+  {
+   "kind": "sentence",
+   "id": "s6a5f08ed9b",
+   "text": "Fifth century B.C. Ancient Greece.",
+   "th": [
+    "greece"
+   ],
+   "at": 201.406,
+   "dur": 3.408,
+   "gap": 1.0
+  },
+  {
+   "kind": "sentence",
+   "id": "s7f177aa9cd",
+   "text": "In a world of oracles and omens, of gods who were believed to decide everything,",
+   "th": [
+    "oracle",
+    "gods"
+   ],
+   "at": 205.814,
+   "dur": 5.856,
+   "gap": 0.3
+  },
+  {
+   "kind": "sentence",
+   "id": "sf3dec76752",
+   "text": "from the harvest and the war to the sex of your child,",
+   "th": [
+    "harvest",
+    "war"
+   ],
+   "at": 211.97,
+   "dur": 3.936,
+   "gap": 0.3
+  },
+  {
+   "kind": "sentence",
+   "id": "s817e6fd171",
+   "text": "a simple inscription was carved above the entrance to the temple of Apollo at Delphi.",
+   "th": [
+    "delphi"
+   ],
+   "at": 216.206,
+   "dur": 6.528,
+   "gap": 1.2
+  },
+  {
+   "kind": "sentence",
+   "id": "s1f3aed44ac",
+   "text": "Not know the gods.",
+   "th": [
+    "gods"
+   ],
+   "at": 223.934,
+   "dur": 1.536,
+   "gap": 0.5
+  },
+  {
+   "kind": "sentence",
+   "id": "s0cd5c620f6",
+   "text": "Not know the science or the philosophy.",
+   "th": [
+    "greece"
+   ],
+   "at": 225.97,
+   "dur": 3.024,
+   "gap": 0.5
+  },
+  {
+   "kind": "sentence",
+   "id": "s78838314db",
+   "text": "Know THYSELF.",
+   "th": [
+    "delphi"
+   ],
+   "at": 229.494,
+   "dur": 1.344,
+   "gap": 1.6
+  },
+  {
+   "kind": "sentence",
+   "id": "se46fc886a0",
+   "text": "Being able to understand oneself on a deeper level: to know one’s strengths and weaknesses.",
+   "th": [
+    "mirror"
+   ],
+   "at": 232.438,
+   "dur": 6.072,
+   "gap": 0.9
+  },
+  {
+   "kind": "sentence",
+   "id": "s04d40f1a9d",
+   "text": "To know what moves you, what drives you, and what pushes you off course.",
+   "th": [
+    "ship"
+   ],
+   "at": 239.41,
+   "dur": 4.776,
+   "gap": 0.9
+  },
+  {
+   "kind": "sentence",
+   "id": "s17ad6f9c2f",
+   "text": "Praised as the highest virtue of the ancient world.",
+   "th": [
+    "greece",
+    "statue"
+   ],
+   "at": 245.086,
+   "dur": 3.888,
+   "gap": 1.2
+  },
+  {
+   "kind": "sentence",
+   "id": "s968b25513f",
+   "text": "Why does this matter?",
+   "th": [
+    "thinker"
+   ],
+   "at": 250.174,
+   "dur": 1.704,
+   "gap": 1.0
+  },
+  {
+   "kind": "sentence",
+   "id": "s28857d3c0a",
+   "text": "Two thousand four hundred years later, at Stanford University, a psychologist named John Flavell was investigating why young children are so bad at remembering things.",
+   "th": [
+    "science",
+    "child"
+   ],
+   "at": 252.878,
+   "dur": 12.456,
+   "gap": 0.9
+  },
+  {
+   "kind": "sentence",
+   "id": "s8948061afe",
+   "text": "A few pictures laid out on a table, children of four different ages, with one instruction:",
+   "th": [
+    "school"
+   ],
+   "at": 266.234,
+   "dur": 6.48,
+   "gap": 0.3
+  },
+  {
+   "kind": "sentence",
+   "id": "s3e2ff16ef8",
+   "text": "study these for as long as you want. Tell me when you are sure you can recall every one.",
+   "th": [
+    "school",
+    "child"
+   ],
+   "at": 273.014,
+   "dur": 5.64,
+   "gap": 1.0
+  },
+  {
+   "kind": "sentence",
+   "id": "s576d59750a",
+   "text": "The older ones studied, said they were ready, and recalled the whole set perfectly.",
+   "th": [
+    "school"
+   ],
+   "at": 279.654,
+   "dur": 5.64,
+   "gap": 0.8
+  },
+  {
+   "kind": "sentence",
+   "id": "sf002482b44",
+   "text": "The younger ones said they were ready.",
+   "th": [
+    "child"
+   ],
+   "at": 286.094,
+   "dur": 2.304,
+   "gap": 0.7
+  },
+  {
+   "kind": "sentence",
+   "id": "s0604e6cbb3",
+   "text": "And then failed.",
+   "th": [
+    "child"
+   ],
+   "at": 289.098,
+   "dur": 1.344,
+   "gap": 1.2
+  },
+  {
+   "kind": "sentence",
+   "id": "sf5ede623bb",
+   "text": "The answer was simple: the child, contrary to the adult, has almost no ability to check his own mind.",
+   "th": [
+    "child"
+   ],
+   "at": 291.642,
+   "dur": 7.704,
+   "gap": 0.9
+  },
+  {
+   "kind": "sentence",
+   "id": "saa28f59edb",
+   "text": "His memory works fine. The part that is supposed to look at the memory and report back does not.",
+   "th": [
+    "child",
+    "mirror"
+   ],
+   "at": 300.246,
+   "dur": 6.912,
+   "gap": 1.2
+  },
+  {
+   "kind": "sentence",
+   "id": "s9c6bebedc4",
+   "text": "Young children have almost no self-awareness. No observer.",
+   "th": [
+    "child"
+   ],
+   "at": 308.358,
+   "dur": 4.392,
+   "gap": 0.9
+  },
+  {
+   "kind": "sentence",
+   "id": "sb1e971c7de",
+   "text": "And that’s why they can’t control their own emotional states.",
+   "th": [
+    "child"
+   ],
+   "at": 313.65,
+   "dur": 4.128,
+   "gap": 0.9
+  },
+  {
+   "kind": "sentence",
+   "id": "sf3a38ed3c6",
+   "text": "Why a four-year-old cannot tell you he is tired.",
+   "th": [
+    "child"
+   ],
+   "at": 318.678,
+   "dur": 3.408,
+   "gap": 0.4
+  },
+  {
+   "kind": "sentence",
+   "id": "s6a0b2763ec",
+   "text": "He can only be tired, at everyone, at full volume.",
+   "th": [
+    "child"
+   ],
+   "at": 322.486,
+   "dur": 3.936,
+   "gap": 1.2
+  },
+  {
+   "kind": "sentence",
+   "id": "s1cb73cdeb9",
+   "text": "This ability grows over time, but nobody ever sits you down and trains it.",
+   "th": [
+    "school"
+   ],
+   "at": 327.622,
+   "dur": 5.592,
+   "gap": 0.9
+  },
+  {
+   "kind": "sentence",
+   "id": "s5190958029",
+   "text": "And well… just because you’re an adult doesn’t mean yours is working.",
+   "th": [
+    "thinker"
+   ],
+   "at": 334.114,
+   "dur": 4.896,
+   "gap": 0.5
+  },
+  {
+   "kind": "sentence",
+   "id": "s7872046d48",
+   "text": "It means it works sometimes.",
+   "th": [
+    "thinker"
+   ],
+   "at": 339.51,
+   "dur": 2.112,
+   "gap": 1.2
+  },
+  {
+   "kind": "sentence",
+   "id": "s1dc9bd2579",
+   "text": "Think about it.",
+   "th": [
+    "reading"
+   ],
+   "at": 342.822,
+   "dur": 1.272,
+   "gap": 0.5
+  },
+  {
+   "kind": "sentence",
+   "id": "s3aeba5ce67",
+   "text": "How many times were you ‘reading’ a book and caught yourself not registering a single word from the past three pages you’ve ‘read’?",
+   "th": [
+    "reading"
+   ],
+   "at": 344.594,
+   "dur": 8.472,
+   "gap": 0.9
+  },
+  {
+   "kind": "sentence",
+   "id": "s00374500c8",
+   "text": "Or drove home on a route you take every day, and arrived with no memory of the drive.",
+   "th": [
+    "road"
+   ],
+   "at": 353.966,
+   "dur": 6.264,
+   "gap": 1.0
+  },
+  {
+   "kind": "sentence",
+   "id": "s707f6dfb71",
+   "text": "Your hands did it. Your eyes did it.",
+   "th": [
+    "road"
+   ],
+   "at": 361.23,
+   "dur": 2.928,
+   "gap": 0.5
+  },
+  {
+   "kind": "sentence",
+   "id": "sb277713330",
+   "text": "And yet… there was nobody in the seat.",
+   "th": [
+    "road",
+    "night"
+   ],
+   "at": 364.658,
+   "dur": 2.712,
+   "gap": 1.6
+  },
+  {
+   "kind": "sentence",
+   "id": "s63cabc3f46",
+   "text": "This might not seem like too big of a trouble, until you realize what it actually comes down to.",
+   "th": [
+    "thinker"
+   ],
+   "at": 368.97,
+   "dur": 6.216,
+   "gap": 0.9
+  },
+  {
+   "kind": "sentence",
+   "id": "s56284643a8",
+   "text": "What if I told you that most of your fears, insecurities and, eventually, all your actions are quite literally dependent on this one faculty?",
+   "th": [
+    "fear"
+   ],
+   "at": 376.086,
+   "dur": 10.08,
+   "gap": 0.9
+  },
+  {
+   "kind": "sentence",
+   "id": "s2e4067a1b5",
+   "text": "On whether it is running at all, and on what it says when it does.",
+   "th": [
+    "fear",
+    "mirror"
+   ],
+   "at": 387.066,
+   "dur": 4.272,
+   "gap": 1.2
+  },
+  {
+   "kind": "sentence",
+   "id": "s5be59897f1",
+   "text": "Let me show you the entire mechanism.",
+   "th": [
+    "machine"
+   ],
+   "at": 392.538,
+   "dur": 2.808,
+   "gap": 0.5
+  },
+  {
+   "kind": "sentence",
+   "id": "sd3180ae361",
+   "text": "And the exact place where it breaks.",
+   "th": [
+    "machine"
+   ],
+   "at": 395.846,
+   "dur": 2.424,
+   "gap": 1.5
+  },
+  {
+   "kind": "chapter",
+   "title": "II. The Machinery",
+   "sub": "",
+   "at": 399.77,
+   "dur": 4.0
+  },
+  {
+   "kind": "sentence",
+   "id": "s4e2cb667e6",
+   "text": "Men are disturbed not by things, but by the views which they take of things.",
+   "th": [
+    "stoic"
+   ],
+   "at": 403.77,
+   "dur": 5.352,
+   "gap": 1.6,
+   "quote": {
+    "text": "“Men are disturbed not by things, but by the views which they take of things.”",
+    "by": "Epictetus, Enchiridion 5"
+   }
+  },
+  {
+   "kind": "sub",
+   "title": "Metacognition off",
+   "sub": "",
+   "at": 410.722,
+   "dur": 2.6
+  },
+  {
+   "kind": "sentence",
+   "id": "s609c186c67",
+   "text": "As we already established, just because you’re an adult doesn’t mean your metacognition is fully working.",
+   "th": [
+    "thinker"
+   ],
+   "at": 413.322,
+   "dur": 7.128,
+   "gap": 0.9
+  },
+  {
+   "kind": "sentence",
+   "id": "s9f7dcb0353",
+   "text": "For an untrained mind, it’s still mostly dormant.",
+   "th": [
+    "dream"
+   ],
+   "at": 421.35,
+   "dur": 3.672,
+   "gap": 1.0
+  },
+  {
+   "kind": "sentence",
+   "id": "s1e8f72d26f",
+   "text": "It fires at tasks that force it awake: planning, categorizing, learning something you have no template for,",
+   "th": [
+    "study",
+    "diagram"
+   ],
+   "at": 426.022,
+   "dur": 7.968,
+   "gap": 0.3
+  },
+  {
+   "kind": "sentence",
+   "id": "sf7f83dec72",
+   "text": "a problem hard enough that you have to watch yourself solve it.",
+   "th": [
+    "chess"
+   ],
+   "at": 434.29,
+   "dur": 3.912,
+   "gap": 0.8
+  },
+  {
+   "kind": "sentence",
+   "id": "saa595a264d",
+   "text": "But on a daily basis, it’s mostly off.",
+   "th": [
+    "dream"
+   ],
+   "at": 439.002,
+   "dur": 2.928,
+   "gap": 1.0
+  },
+  {
+   "kind": "sentence",
+   "id": "sacdb2dd749",
+   "text": "You don’t analyze your thoughts. You don’t analyze your emotions.",
+   "th": [
+    "thinker"
+   ],
+   "at": 442.93,
+   "dur": 4.56,
+   "gap": 0.6
+  },
+  {
+   "kind": "sentence",
+   "id": "s50f9680f05",
+   "text": "You have them. And then you are them.",
+   "th": [
+    "fear"
+   ],
+   "at": 448.09,
+   "dur": 2.568,
+   "gap": 1.4
+  },
+  {
+   "kind": "sentence",
+   "id": "s73720ef183",
+   "text": "Here’s how the process looks in this state.",
+   "th": [
+    "machine"
+   ],
+   "at": 452.058,
+   "dur": 2.712,
+   "gap": 0.8
+  },
+  {
+   "kind": "sentence",
+   "id": "s392301b14c",
+   "text": "You have a thought. For example: ‘I am so bad at this.’",
+   "th": [
+    "fear"
+   ],
+   "at": 455.57,
+   "dur": 3.984,
+   "gap": 1.0
+  },
+  {
+   "kind": "sentence",
+   "id": "s247758af28",
+   "text": "That thought then passes through a credibility check. A subconscious one.",
+   "th": [
+    "judge"
+   ],
+   "at": 460.554,
+   "dur": 5.424,
+   "gap": 0.6
+  },
+  {
+   "kind": "sentence",
+   "id": "s87986f695e",
+   "text": "Meaning: how fast it arrived; how familiar it felt; how many times you have thought it before; how your body reacted to it.",
+   "th": [
+    "judge",
+    "anatomy"
+   ],
+   "at": 466.578,
+   "dur": 8.832,
+   "gap": 0.9
+  },
+  {
+   "kind": "sentence",
+   "id": "s8bd8c9dfc8",
+   "text": "Each one of those returns the same answer.",
+   "th": [
+    "judge"
+   ],
+   "at": 476.31,
+   "dur": 3.264,
+   "gap": 1.0
+  },
+  {
+   "kind": "sentence",
+   "id": "s8a35b6ea6c",
+   "text": "If it appeared automatically, you’ve thought it thousands of times before, and your chest tightened on cue, it gets stamped as true.",
+   "th": [
+    "judge",
+    "anatomy"
+   ],
+   "at": 480.574,
+   "dur": 9.0,
+   "gap": 0.9
+  },
+  {
+   "kind": "sentence",
+   "id": "s4c27d0906f",
+   "text": "And it enters the depths of your subconscious mind. It becomes a belief.",
+   "th": [
+    "abyss"
+   ],
+   "at": 490.474,
+   "dur": 5.328,
+   "gap": 1.2
+  },
+  {
+   "kind": "sentence",
+   "id": "sf7f843a2b1",
+   "text": "That belief is later fired at the moment of action, and manifests itself proportionally through hesitation.",
+   "th": [
+    "fear"
+   ],
+   "at": 497.002,
+   "dur": 7.272,
+   "gap": 0.5
+  },
+  {
+   "kind": "sentence",
+   "id": "seef4a58c3b",
+   "text": "Through the tone of your voice.",
+   "th": [
+    "crowd"
+   ],
+   "at": 504.774,
+   "dur": 2.304,
+   "gap": 0.4
+  },
+  {
+   "kind": "sentence",
+   "id": "sd6ea14505c",
+   "text": "As well as through everything you’ve never tried.",
+   "th": [
+    "ship"
+   ],
+   "at": 507.478,
+   "dur": 3.312,
+   "gap": 1.4
+  },
+  {
+   "kind": "sentence",
+   "id": "s1c23c860ab",
+   "text": "This is how we operate ninety-nine percent of the time.",
+   "th": [
+    "crowd"
+   ],
+   "at": 512.19,
+   "dur": 3.96,
+   "gap": 0.9
+  },
+  {
+   "kind": "sentence",
+   "id": "sb9454fed21",
+   "text": "Entirely at the mercy of processes happening beneath our conscious reasoning.",
+   "th": [
+    "abyss",
+    "puppet"
+   ],
+   "at": 517.05,
+   "dur": 5.736,
+   "gap": 1.2
+  },
+  {
+   "kind": "sentence",
+   "id": "s7836d9fc3a",
+   "text": "Metacognition is the only faculty that gives you any control over these processes.",
+   "th": [
+    "light"
+   ],
+   "at": 523.986,
+   "dur": 6.36,
+   "gap": 1.4
+  },
+  {
+   "kind": "sub",
+   "title": "Metacognition on",
+   "sub": "",
+   "at": 531.746,
+   "dur": 2.6
+  },
+  {
+   "kind": "sentence",
+   "id": "s705d7dfaa1",
+   "text": "Here’s the second way.",
+   "th": [
+    "light"
+   ],
+   "at": 534.346,
+   "dur": 1.848,
+   "gap": 0.6
+  },
+  {
+   "kind": "sentence",
+   "id": "se5475fea91",
+   "text": "You have a thought, as before.",
+   "th": [
+    "thinker"
+   ],
+   "at": 536.794,
+   "dur": 2.208,
+   "gap": 0.5
+  },
+  {
+   "kind": "sentence",
+   "id": "s597058fa69",
+   "text": "That thought instantly passes through the same subconscious credibility check.",
+   "th": [
+    "judge"
+   ],
+   "at": 539.502,
+   "dur": 5.472,
+   "gap": 0.4
+  },
+  {
+   "kind": "sentence",
+   "id": "sfdf0273dc8",
+   "text": "Instant, automatic, and we don’t really have any control over this part.",
+   "th": [
+    "judge"
+   ],
+   "at": 545.374,
+   "dur": 5.16,
+   "gap": 1.0
+  },
+  {
+   "kind": "sentence",
+   "id": "scf03c189d6",
+   "text": "But then, before it can be stamped and filed, it goes through a second one.",
+   "th": [
+    "judge",
+    "study"
+   ],
+   "at": 551.534,
+   "dur": 4.848,
+   "gap": 1.0
+  },
+  {
+   "kind": "sentence",
+   "id": "sf726b622b9",
+   "text": "The conscious credibility check. Metacognition.",
+   "th": [
+    "mirror"
+   ],
+   "at": 557.382,
+   "dur": 3.624,
+   "gap": 1.2
+  },
+  {
+   "kind": "sentence",
+   "id": "sd9a823d3c6",
+   "text": "Why did I think that way?",
+   "th": [
+    "thinker"
+   ],
+   "at": 562.206,
+   "dur": 1.656,
+   "gap": 0.8
+  },
+  {
+   "kind": "sentence",
+   "id": "s8a1fedfae9",
+   "text": "Is this thought serving me, or is it only controlling me?",
+   "th": [
+    "puppet",
+    "mirror"
+   ],
+   "at": 564.662,
+   "dur": 4.032,
+   "gap": 1.2
+  },
+  {
+   "kind": "sentence",
+   "id": "s6931d44548",
+   "text": "Then, depending on how much conscious effort and honesty you brought to it, the sum of the subconscious verdict and the conscious one reaches your decision, and determines the course of action.",
+   "th": [
+    "judge",
+    "road"
+   ],
+   "at": 569.894,
+   "dur": 12.912,
+   "gap": 0.9
+  },
+  {
+   "kind": "sentence",
+   "id": "s0f7928feed",
+   "text": "There’s a principle in quantum physics called wave-particle duality.",
+   "th": [
+    "science",
+    "light"
+   ],
+   "at": 583.706,
+   "dur": 4.992,
+   "gap": 0.9
+  },
+  {
+   "kind": "sentence",
+   "id": "s336116fc2b",
+   "text": "Basically, it states that light and matter behave as a wave when no one is watching them, and as a particle the moment someone is.",
+   "th": [
+    "light",
+    "sea"
+   ],
+   "at": 589.598,
+   "dur": 9.36,
+   "gap": 0.9
+  },
+  {
+   "kind": "sentence",
+   "id": "sfd151ac08c",
+   "text": "The same thing, two entirely different natures, depending on whether it was observed.",
+   "th": [
+    "light"
+   ],
+   "at": 599.858,
+   "dur": 5.808,
+   "gap": 1.2
+  },
+  {
+   "kind": "sentence",
+   "id": "s59eb2097f4",
+   "text": "Your thoughts work in a similar way.",
+   "th": [
+    "thinker"
+   ],
+   "at": 606.866,
+   "dur": 2.592,
+   "gap": 0.5
+  },
+  {
+   "kind": "sentence",
+   "id": "s68cccbd86a",
+   "text": "The mere act of awareness ‘changes’ what the thought becomes.",
+   "th": [
+    "mirror"
+   ],
+   "at": 609.958,
+   "dur": 4.272,
+   "gap": 1.0
+  },
+  {
+   "kind": "sentence",
+   "id": "sf7b586c44d",
+   "text": "And it can be for good as well as for bad.",
+   "th": [
+    "double"
+   ],
+   "at": 615.23,
+   "dur": 2.664,
+   "gap": 1.0
+  },
+  {
+   "kind": "sentence",
+   "id": "s50665231ed",
+   "text": "Because when you add awareness, you’re no longer entirely at the mercy of your largely ‘random’ subconscious.",
+   "th": [
+    "sea",
+    "ship"
+   ],
+   "at": 618.894,
+   "dur": 7.08,
+   "gap": 0.9
+  },
+  {
+   "kind": "sentence",
+   "id": "s789849c1fe",
+   "text": "You add that conscious choice to it.",
+   "th": [
+    "helm"
+   ],
+   "at": 626.874,
+   "dur": 2.352,
+   "gap": 0.5
+  },
+  {
+   "kind": "sentence",
+   "id": "s715d70663b",
+   "text": "Engage or disengage. Ratify it, or leave it as it is.",
+   "th": [
+    "judge"
+   ],
+   "at": 629.726,
+   "dur": 4.992,
+   "gap": 1.2
+  },
+  {
+   "kind": "sentence",
+   "id": "s7dc0a082ab",
+   "text": "More so, that way you are also actively shaping the contents of your subconscious, by choices and repetition.",
+   "th": [
+    "sculptor"
+   ],
+   "at": 635.918,
+   "dur": 7.896,
+   "gap": 0.9
+  },
+  {
+   "kind": "sentence",
+   "id": "s1177c57eb7",
+   "text": "What is now a fixed set of automatic responses and patterns was also once installed, one verdict at a time, by a younger version of you who was not watching.",
+   "th": [
+    "child",
+    "sculptor"
+   ],
+   "at": 644.714,
+   "dur": 11.928,
+   "gap": 1.2
+  },
+  {
+   "kind": "sentence",
+   "id": "s8d5a8892cf",
+   "text": "It can be overwritten by the exact same mechanism.",
+   "th": [
+    "sculptor"
+   ],
+   "at": 657.842,
+   "dur": 3.744,
+   "gap": 0.5
+  },
+  {
+   "kind": "sentence",
+   "id": "saf6a8734cd",
+   "text": "But now, of conscious choosing.",
+   "th": [
+    "sculptor",
+    "light"
+   ],
+   "at": 662.086,
+   "dur": 2.232,
+   "gap": 1.4
+  },
+  {
+   "kind": "sentence",
+   "id": "scaba43930c",
+   "text": "That would be enough of theory.",
+   "th": [
+    "study"
+   ],
+   "at": 665.718,
+   "dur": 1.8,
+   "gap": 0.5
+  },
+  {
+   "kind": "sentence",
+   "id": "sd9c6bab135",
+   "text": "Now I’m going to show you how to do it.",
+   "th": [
+    "hand"
+   ],
+   "at": 668.018,
+   "dur": 2.616,
+   "gap": 1.5
+  },
+  {
+   "kind": "chapter",
+   "title": "III. The Mechanics of Metacognition",
+   "sub": "How a thought becomes a belief",
+   "at": 672.134,
+   "dur": 4.0
+  },
+  {
+   "kind": "sentence",
+   "id": "s80c69b7095",
+   "text": "Wait for me a little, O impression; allow me to see who you are, and what you are an impression of; allow me to put you to the test.",
+   "th": [
+    "stoic"
+   ],
+   "at": 676.134,
+   "dur": 9.12,
+   "gap": 1.6,
+   "quote": {
+    "text": "“Wait for me a little, O impression; allow me to see who you are, and what you are an impression of; allow me to put you to the test.”",
+    "by": "Epictetus, Discourses 2.18"
+   }
+  },
+  {
+   "kind": "sub",
+   "title": "I. Catch",
+   "sub": "",
+   "at": 686.854,
+   "dur": 2.6
+  },
+  {
+   "kind": "sentence",
+   "id": "s61e10df98d",
+   "text": "You have no control over a thought you haven’t noticed.",
+   "th": [
+    "thinker"
+   ],
+   "at": 689.454,
+   "dur": 3.576,
+   "gap": 0.9
+  },
+  {
+   "kind": "sentence",
+   "id": "sf89b0a8098",
+   "text": "The first step of metacognition is to simply become aware of the thoughts passing through your head.",
+   "th": [
+    "thinker",
+    "river"
+   ],
+   "at": 693.93,
+   "dur": 6.216,
+   "gap": 1.0
+  },
+  {
+   "kind": "sentence",
+   "id": "sd276d13c96",
+   "text": "Forcing yourself to stay awake twenty-four seven is not the way, though.",
+   "th": [
+    "night"
+   ],
+   "at": 701.146,
+   "dur": 5.112,
+   "gap": 0.9
+  },
+  {
+   "kind": "sentence",
+   "id": "sc3ed9f78ef",
+   "text": "This would require too much conscious effort, and would die on the vine after an hour.",
+   "th": [
+    "vine"
+   ],
+   "at": 707.158,
+   "dur": 5.568,
+   "gap": 1.0
+  },
+  {
+   "kind": "sentence",
+   "id": "s036f3ff94f",
+   "text": "What I’m going to propose is something entirely different.",
+   "th": [
+    "hand"
+   ],
+   "at": 713.726,
+   "dur": 4.08,
+   "gap": 0.6
+  },
+  {
+   "kind": "sentence",
+   "id": "sb8c23a1075",
+   "text": "Set fixed checkpoints throughout the day, dedicated just for that.",
+   "th": [
+    "clock"
+   ],
+   "at": 718.406,
+   "dur": 4.608,
+   "gap": 1.0
+  },
+  {
+   "kind": "sentence",
+   "id": "s779be17b8c",
+   "text": "Just like a lucid dreamer going through reality checks, pressing a finger into his palm to see whether it passes through,",
+   "th": [
+    "dream",
+    "hand"
+   ],
+   "at": 724.014,
+   "dur": 8.544,
+   "gap": 0.3
+  },
+  {
+   "kind": "sentence",
+   "id": "sd240cca64f",
+   "text": "you set your own reality checks, but in waking life.",
+   "th": [
+    "hand"
+   ],
+   "at": 732.858,
+   "dur": 3.84,
+   "gap": 1.0
+  },
+  {
+   "kind": "sentence",
+   "id": "sa4441581b8",
+   "text": "For example, three times a day.",
+   "th": [
+    "clock"
+   ],
+   "at": 737.698,
+   "dur": 2.52,
+   "gap": 0.5
+  },
+  {
+   "kind": "sentence",
+   "id": "sd149f0f63d",
+   "text": "Those can be the moment you wake up.",
+   "th": [
+    "morning"
+   ],
+   "at": 740.718,
+   "dur": 2.688,
+   "gap": 0.4
+  },
+  {
+   "kind": "sentence",
+   "id": "s538cd69960",
+   "text": "When you drive home from work.",
+   "th": [
+    "road"
+   ],
+   "at": 743.806,
+   "dur": 2.112,
+   "gap": 0.4
+  },
+  {
+   "kind": "sentence",
+   "id": "s498f3bf8e9",
+   "text": "And when you go to sleep.",
+   "th": [
+    "night"
+   ],
+   "at": 746.318,
+   "dur": 1.656,
+   "gap": 1.2
+  },
+  {
+   "kind": "sentence",
+   "id": "s03edba03e9",
+   "text": "You can also run it backwards over the past.",
+   "th": [
+    "hourglass"
+   ],
+   "at": 749.174,
+   "dur": 3.192,
+   "gap": 0.9
+  },
+  {
+   "kind": "sentence",
+   "id": "s1222f92f05",
+   "text": "This is called memory work: conscious analysis of the hours behind you, and the thoughts that were passing through your mind while you lived them.",
+   "th": [
+    "letter",
+    "night"
+   ],
+   "at": 753.266,
+   "dur": 9.528,
+   "gap": 1.0
+  },
+  {
+   "kind": "sentence",
+   "id": "sbb842ba5b9",
+   "text": "Just go through the day in reverse and answer: where was I; what was running;",
+   "th": [
+    "road",
+    "letter"
+   ],
+   "at": 763.794,
+   "dur": 5.448,
+   "gap": 0.4
+  },
+  {
+   "kind": "sentence",
+   "id": "sfa82cbd3ee",
+   "text": "and the only question that matters at this stage: did I notice any of it at the time?",
+   "th": [
+    "thinker"
+   ],
+   "at": 769.642,
+   "dur": 5.928,
+   "gap": 1.2
+  },
+  {
+   "kind": "sentence",
+   "id": "sbe586621fa",
+   "text": "The answer will be no. For weeks, it will be no.",
+   "th": [
+    "thinker"
+   ],
+   "at": 776.77,
+   "dur": 3.744,
+   "gap": 0.6
+  },
+  {
+   "kind": "sentence",
+   "id": "s751e297fae",
+   "text": "That is not the failure. That is the measurement.",
+   "th": [
+    "science"
+   ],
+   "at": 781.114,
+   "dur": 3.528,
+   "gap": 1.4
+  },
+  {
+   "kind": "sentence",
+   "id": "s211d9561f5",
+   "text": "The other thing: the body is always a more reliable alarm than the mind.",
+   "th": [
+    "anatomy"
+   ],
+   "at": 786.042,
+   "dur": 5.04,
+   "gap": 1.0
+  },
+  {
+   "kind": "sentence",
+   "id": "sf5c2cf6558",
+   "text": "The chest tightening, the jaw, the reach for the phone before you decided to reach.",
+   "th": [
+    "anatomy",
+    "hand"
+   ],
+   "at": 792.082,
+   "dur": 5.952,
+   "gap": 0.6
+  },
+  {
+   "kind": "sentence",
+   "id": "sa52650239f",
+   "text": "You can feel those.",
+   "th": [
+    "anatomy"
+   ],
+   "at": 798.634,
+   "dur": 1.584,
+   "gap": 1.0
+  },
+  {
+   "kind": "sentence",
+   "id": "s861140bb1c",
+   "text": "So add a fourth checkpoint to the three. A floating one.",
+   "th": [
+    "clock"
+   ],
+   "at": 801.218,
+   "dur": 4.104,
+   "gap": 0.5
+  },
+  {
+   "kind": "sentence",
+   "id": "sf13e87f7a6",
+   "text": "It does not fire at a time. It fires at a sensation, and it fires all day.",
+   "th": [
+    "anatomy"
+   ],
+   "at": 805.822,
+   "dur": 6.0,
+   "gap": 1.0
+  },
+  {
+   "kind": "sentence",
+   "id": "s7c65b0e69e",
+   "text": "Every time the body moves before you told it to, that is the doorbell.",
+   "th": [
+    "door"
+   ],
+   "at": 812.822,
+   "dur": 5.04,
+   "gap": 0.6
+  },
+  {
+   "kind": "sentence",
+   "id": "sd8b1c7ec1a",
+   "text": "Something already made a decision, and did not consult you.",
+   "th": [
+    "puppet"
+   ],
+   "at": 818.462,
+   "dur": 3.912,
+   "gap": 0.6
+  },
+  {
+   "kind": "sentence",
+   "id": "sa028e15620",
+   "text": "Stop there, and find out what it was.",
+   "th": [
+    "door",
+    "thinker"
+   ],
+   "at": 822.974,
+   "dur": 2.64,
+   "gap": 1.5
+  },
+  {
+   "kind": "sub",
+   "title": "II. Judge",
+   "sub": "",
+   "at": 827.114,
+   "dur": 2.6
+  },
+  {
+   "kind": "sentence",
+   "id": "s07152f4e07",
+   "text": "Once you become aware of this thought, you will want to use the exact cognition that comes from being aware: conscious intellect.",
+   "th": [
+    "thinker",
+    "judge"
+   ],
+   "at": 829.714,
+   "dur": 8.4,
+   "gap": 1.0
+  },
+  {
+   "kind": "sentence",
+   "id": "s4e85023d1b",
+   "text": "When you’re not aware of a thought, you’re much like in a dream: entirely at the mercy of the current.",
+   "th": [
+    "dream",
+    "river"
+   ],
+   "at": 839.114,
+   "dur": 6.456,
+   "gap": 0.9
+  },
+  {
+   "kind": "sentence",
+   "id": "sa7c050f151",
+   "text": "You get pulled wherever your mind takes you.",
+   "th": [
+    "river",
+    "sea"
+   ],
+   "at": 846.47,
+   "dur": 2.904,
+   "gap": 0.5
+  },
+  {
+   "kind": "sentence",
+   "id": "s583cbc8723",
+   "text": "From anxiety to anger. From euphoria to despair.",
+   "th": [
+    "anger",
+    "despair"
+   ],
+   "at": 849.874,
+   "dur": 4.296,
+   "gap": 1.0
+  },
+  {
+   "kind": "sentence",
+   "id": "sa5e298428c",
+   "text": "The conscious gives all that untamed force a direction.",
+   "th": [
+    "helm"
+   ],
+   "at": 855.17,
+   "dur": 4.2,
+   "gap": 1.0
+  },
+  {
+   "kind": "sentence",
+   "id": "s898da47c33",
+   "text": "You stop and ask yourself the question: ‘where does this thought come from?’",
+   "th": [
+    "thinker"
+   ],
+   "at": 860.37,
+   "dur": 4.752,
+   "gap": 1.0
+  },
+  {
+   "kind": "sentence",
+   "id": "sb896b19be0",
+   "text": "Is it from YOU, really, or from the past?",
+   "th": [
+    "child",
+    "mirror"
+   ],
+   "at": 866.122,
+   "dur": 3.048,
+   "gap": 1.0
+  },
+  {
+   "kind": "sentence",
+   "id": "s8d33eebcf1",
+   "text": "Is it built on anything at all,",
+   "th": [
+    "ruins"
+   ],
+   "at": 870.17,
+   "dur": 2.496,
+   "gap": 0.3
+  },
+  {
+   "kind": "sentence",
+   "id": "s92b0069d3c",
+   "text": "or only on the fact that you have thought about it a thousand times before, and it now arrives so fast that you don’t even consider it?",
+   "th": [
+    "ruins",
+    "river"
+   ],
+   "at": 872.966,
+   "dur": 8.856,
+   "gap": 1.0
+  },
+  {
+   "kind": "sentence",
+   "id": "s76d8065f5c",
+   "text": "And the most important: ‘does it really serve me?’",
+   "th": [
+    "judge"
+   ],
+   "at": 882.822,
+   "dur": 3.456,
+   "gap": 1.2
+  },
+  {
+   "kind": "sentence",
+   "id": "s77b6e181b3",
+   "text": "What is not there to serve you is only out there to control you.",
+   "th": [
+    "puppet"
+   ],
+   "at": 887.478,
+   "dur": 4.128,
+   "gap": 1.2
+  },
+  {
+   "kind": "sentence",
+   "id": "sdb1349798c",
+   "text": "So judge for yourself.",
+   "th": [
+    "judge"
+   ],
+   "at": 892.806,
+   "dur": 2.016,
+   "gap": 0.5
+  },
+  {
+   "kind": "sentence",
+   "id": "sde5f2169a3",
+   "text": "And once you make a verdict, you’ll know what to do next.",
+   "th": [
+    "judge",
+    "road"
+   ],
+   "at": 895.322,
+   "dur": 3.624,
+   "gap": 1.5
+  },
+  {
+   "kind": "sub",
+   "title": "III. Recalibrate",
+   "sub": "",
+   "at": 900.446,
+   "dur": 2.6
+  },
+  {
+   "kind": "sentence",
+   "id": "sc8b21dcd04",
+   "text": "Now we reach the key part.",
+   "th": [
+    "helm"
+   ],
+   "at": 903.046,
+   "dur": 1.968,
+   "gap": 0.6
+  },
+  {
+   "kind": "sentence",
+   "id": "s21c55edb40",
+   "text": "You can do all that meditation, journaling, shadow work, however you want to call it,",
+   "th": [
+    "monk",
+    "letter"
+   ],
+   "at": 905.614,
+   "dur": 5.952,
+   "gap": 0.3
+  },
+  {
+   "kind": "sentence",
+   "id": "s45ef8c08fd",
+   "text": "but if in the end you do nothing with it, what’s the point?",
+   "th": [
+    "monk"
+   ],
+   "at": 911.866,
+   "dur": 3.72,
+   "gap": 1.0
+  },
+  {
+   "kind": "sentence",
+   "id": "s63c5d2eab3",
+   "text": "The whole point of practicing metacognition is not only to monitor, but more so to control those thoughts.",
+   "th": [
+    "helm"
+   ],
+   "at": 916.586,
+   "dur": 7.44,
+   "gap": 1.0
+  },
+  {
+   "kind": "sentence",
+   "id": "s1004712fdd",
+   "text": "This comes down to simple choices, like:",
+   "th": [
+    "road"
+   ],
+   "at": 925.026,
+   "dur": 3.048,
+   "gap": 0.5
+  },
+  {
+   "kind": "sentence",
+   "id": "s123e9a0431",
+   "text": "Engage or disengage with a thought?",
+   "th": [
+    "road"
+   ],
+   "at": 928.574,
+   "dur": 3.072,
+   "gap": 0.6
+  },
+  {
+   "kind": "sentence",
+   "id": "s7c8402de0f",
+   "text": "Ratify it as true, or leave it standing there unsigned?",
+   "th": [
+    "letter",
+    "judge"
+   ],
+   "at": 932.246,
+   "dur": 4.32,
+   "gap": 0.6
+  },
+  {
+   "kind": "sentence",
+   "id": "s277254a575",
+   "text": "Feed it with attention, or ignore it?",
+   "th": [
+    "fire"
+   ],
+   "at": 937.166,
+   "dur": 2.928,
+   "gap": 1.0
+  },
+  {
+   "kind": "sentence",
+   "id": "s2411b97655",
+   "text": "And then simply do it again tomorrow.",
+   "th": [
+    "morning"
+   ],
+   "at": 941.094,
+   "dur": 2.904,
+   "gap": 1.2
+  },
+  {
+   "kind": "sentence",
+   "id": "sc87cc9f469",
+   "text": "And yes, the final product will always be a sum of conscious and unconscious processes.",
+   "th": [
+    "sea"
+   ],
+   "at": 945.198,
+   "dur": 6.192,
+   "gap": 0.9
+  },
+  {
+   "kind": "sentence",
+   "id": "s72436c6cf3",
+   "text": "But the ONLY way to get your hand anywhere near the wheel is by flipping this conscious switch of intention and repetition.",
+   "th": [
+    "helm"
+   ],
+   "at": 952.29,
+   "dur": 8.376,
+   "gap": 1.2
+  },
+  {
+   "kind": "sentence",
+   "id": "s825e535e5b",
+   "text": "Practice. Practice. Practice.",
+   "th": [
+    "forge"
+   ],
+   "at": 961.866,
+   "dur": 2.544,
+   "gap": 1.2
+  },
+  {
+   "kind": "sentence",
+   "id": "s8f7553fc14",
+   "text": "In the beginning, it may seem senseless.",
+   "th": [
+    "forge"
+   ],
+   "at": 965.61,
+   "dur": 2.712,
+   "gap": 0.4
+  },
+  {
+   "kind": "sentence",
+   "id": "s87c74f7ac9",
+   "text": "You may think that what you’re doing is idiotic, but in reality, you are shaping a diamond.",
+   "th": [
+    "gold",
+    "forge"
+   ],
+   "at": 968.722,
+   "dur": 6.408,
+   "gap": 1.2
+  },
+  {
+   "kind": "sentence",
+   "id": "s904e886577",
+   "text": "Just like an alchemist transforming base metal into gold, you’re transforming your own base thoughts into fuel.",
+   "th": [
+    "alchemist"
+   ],
+   "at": 976.33,
+   "dur": 7.728,
+   "gap": 1.2
+  },
+  {
+   "kind": "sentence",
+   "id": "s15abab6539",
+   "text": "Fear into courage.",
+   "th": [
+    "fear",
+    "knight"
+   ],
+   "at": 985.258,
+   "dur": 1.632,
+   "gap": 0.6
+  },
+  {
+   "kind": "sentence",
+   "id": "sb255e5fcc6",
+   "text": "Anger into calculation.",
+   "th": [
+    "anger",
+    "chess"
+   ],
+   "at": 987.49,
+   "dur": 2.256,
+   "gap": 0.6
+  },
+  {
+   "kind": "sentence",
+   "id": "s48fb56e3ec",
+   "text": "Anxiety into confidence.",
+   "th": [
+    "despair",
+    "statue"
+   ],
+   "at": 990.346,
+   "dur": 2.448,
+   "gap": 1.2
+  },
+  {
+   "kind": "sentence",
+   "id": "s63a55b48c8",
+   "text": "Just like da Vinci sketched out the ideal man, you can sketch out the ideal self.",
+   "th": [
+    "vitruvian"
+   ],
+   "at": 993.994,
+   "dur": 5.76,
+   "gap": 0.6
+  },
+  {
+   "kind": "sentence",
+   "id": "s33d1151e7d",
+   "text": "And then spend the rest of your life drawing it.",
+   "th": [
+    "vitruvian",
+    "sculptor"
+   ],
+   "at": 1000.354,
+   "dur": 2.904,
+   "gap": 1.6
+  },
+  {
+   "kind": "sign",
+   "title": "— Cipher",
+   "sub": "",
+   "at": 1004.858,
+   "dur": 3.0
+  },
+  {
+   "kind": "sentence",
+   "id": "s3552db8b69",
+   "text": "This piece probably contains more than enough theory, but if you’re looking for something to structure the knowledge and actually put it to work, I can help you with that also.",
+   "th": [
+    "letter",
+    "study"
+   ],
+   "at": 1007.858,
+   "dur": 10.704,
+   "gap": 0.9
+  },
+  {
+   "kind": "sentence",
+   "id": "sca7653ad35",
+   "text": "Based on the real-life stories of some of the greatest minds of history, I created the most practical manifestation playbook there is.",
+   "th": [
+    "letter",
+    "napoleon"
+   ],
+   "at": 1019.462,
+   "dur": 8.952,
+   "gap": 0.9
+  },
+  {
+   "kind": "sentence",
+   "id": "se840631133",
+   "text": "I entered the depths of the minds of giants like Napoleon, Muhammad Ali and Henry Ford, and distilled from them the pure essence that actually moved the needle in the real world, not on paper.",
+   "th": [
+    "napoleon",
+    "alchemist"
+   ],
+   "at": 1029.314,
+   "dur": 13.68,
+   "gap": 0.9
+  },
+  {
+   "kind": "sentence",
+   "id": "s92ac44f965",
+   "text": "Five conditions of your mind. Five plays you can simply mimic in your own game.",
+   "th": [
+    "chess"
+   ],
+   "at": 1043.894,
+   "dur": 6.288,
+   "gap": 0.8
+  },
+  {
+   "kind": "sentence",
+   "id": "s84e90ef3d4",
+   "text": "The real game starts here.",
+   "th": [
+    "chess"
+   ],
+   "at": 1050.982,
+   "dur": 1.944,
+   "gap": 3.0
+  }
+ ]
+}

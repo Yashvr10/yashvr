@@ -1,0 +1,67 @@
+[
+{
+"word": "The",
+"start": 0.0,
+"end": 0.18
+},
+{
+"word": "same",
+"start": 0.18,
+"end": 0.5
+},
+{
+"word": "thing,",
+"start": 0.5,
+"end": 0.9
+},
+{
+"word": "two",
+"start": 1.4,
+"end": 1.56
+},
+{
+"word": "entirely",
+"start": 1.56,
+"end": 2.14
+},
+{
+"word": "different",
+"start": 2.14,
+"end": 2.64
+},
+{
+"word": "natures,",
+"start": 2.64,
+"end": 3.12
+},
+{
+"word": "depending",
+"start": 3.64,
+"end": 3.96
+},
+{
+"word": "on",
+"start": 3.96,
+"end": 4.24
+},
+{
+"word": "whether",
+"start": 4.24,
+"end": 4.48
+},
+{
+"word": "it",
+"start": 4.48,
+"end": 4.68
+},
+{
+"word": "was",
+"start": 4.68,
+"end": 4.86
+},
+{
+"word": "observed.",
+"start": 4.86,
+"end": 5.42
+}
+]

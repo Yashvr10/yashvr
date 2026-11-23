@@ -1,0 +1,42 @@
+[
+{
+"word": "Stop",
+"start": 0.0,
+"end": 0.38
+},
+{
+"word": "there,",
+"start": 0.38,
+"end": 0.74
+},
+{
+"word": "and",
+"start": 0.74,
+"end": 1.12
+},
+{
+"word": "find",
+"start": 1.12,
+"end": 1.38
+},
+{
+"word": "out",
+"start": 1.38,
+"end": 1.68
+},
+{
+"word": "what",
+"start": 1.68,
+"end": 1.92
+},
+{
+"word": "it",
+"start": 1.92,
+"end": 2.06
+},
+{
+"word": "was.",
+"start": 2.06,
+"end": 2.36
+}
+]

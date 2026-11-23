@@ -5,12 +5,17 @@
   "thinker-c7",
   "science-c1",
   "ship-c1",
-  "fear-c1"
+  "fear-c1",
+  "thinker-c9",
+  "thinker-c10",
+  "thinker-c11",
+  "sculptor-c5"
  ],
  "judge": [
   "judge-c6",
   "judge-c11",
-  "clock-c2"
+  "clock-c2",
+  "judge-c13"
  ],
  "mirror": [
   "mirror-c2",
@@ -23,7 +28,9 @@
   "road-c2",
   "road-c3",
   "napoleon-c3",
-  "coffee-c1"
+  "coffee-c1",
+  "puppet-c4",
+  "market-c6"
  ],
  "light": [
   "light-c1",
@@ -34,7 +41,8 @@
  "study": [
   "study-c1",
   "study-c2",
-  "oracle-c3"
+  "oracle-c3",
+  "thinker-c10"
  ],
  "hand": [
   "hand-c1",
@@ -44,11 +52,13 @@
  "fear": [
   "fear-c1",
   "dream-c2",
-  "anger-c3"
+  "anger-c3",
+  "fear-c4"
  ],
  "letter": [
   "letter-c1",
-  "letter-c3"
+  "letter-c3",
+  "thinker-c10"
  ],
  "crowd": [
   "hourglass-c2",
@@ -76,15 +86,19 @@
  "dream": [
   "dream-c1",
   "dream-c3",
-  "school-c1"
+  "school-c1",
+  "letter-c4",
+  "anatomy-c5"
  ],
  "chess": [
-  "chess-c1"
+  "chess-c1",
+  "market-c4"
  ],
  "sea": [
   "sea-c1",
   "sea-c2",
-  "sea-c3"
+  "sea-c3",
+  "puppet-c5"
  ],
  "river": [
   "river-c2",
@@ -92,10 +106,12 @@
   "market-c3"
  ],
  "double": [
-  "double-c1"
+  "double-c1",
+  "double-c5"
  ],
  "coffee": [
-  "market-c1"
+  "market-c1",
+  "coffee-c4"
  ],
  "door": [
   "door-c1",
@@ -104,7 +120,8 @@
  ],
  "reading": [
   "reading-c1",
-  "coffee-c2"
+  "coffee-c2",
+  "thinker-c9"
  ],
  "diagram": [
   "diagram-c1",
@@ -119,21 +136,27 @@
   "machine-c3"
  ],
  "forge": [
-  "forge-c2"
+  "forge-c2",
+  "forge-c4"
  ],
  "temple": [
   "temple-c1",
-  "vitruvian-c1"
+  "vitruvian-c1",
+  "temple-c4"
  ],
  "gods": [
-  "gods-c2"
+  "gods-c2",
+  "gods-c4",
+  "gods-c5"
  ],
  "delphi": [
   "delphi-c1",
-  "delphi-c3"
+  "delphi-c3",
+  "greece-c5"
  ],
  "statue": [
-  "statue-c2"
+  "statue-c2",
+  "gods-c5"
  ],
  "abyss": [
   "abyss-c1",
@@ -147,7 +170,8 @@
  ],
  "despair": [
   "despair-c3",
-  "socrates-c2"
+  "socrates-c2",
+  "fear-c4"
  ],
  "ruins": [
   "ruins-c1",
@@ -156,7 +180,9 @@
   "school-c2"
  ],
  "tree": [
-  "tree-c1"
+  "tree-c1",
+  "tree-c4",
+  "tree-c5"
  ],
  "vision": [
   "vision-c1",
@@ -188,5 +214,88 @@
  ],
  "cottage": [
   "coffee-c3"
+ ],
+ "child": [
+  "child-c6",
+  "child-c7",
+  "school-c5"
+ ],
+ "anatomy": [
+  "anatomy-c6",
+  "vitruvian-c4",
+  "vitruvian-c5"
+ ],
+ "alchemist": [
+  "alchemist-c4",
+  "alchemist-c5",
+  "alchemist-c6"
+ ],
+ "vitruvian": [
+  "vitruvian-c4",
+  "vitruvian-c5"
+ ],
+ "monk": [
+  "monk-c6"
+ ],
+ "harvest": [
+  "harvest-c4"
+ ],
+ "war": [
+  "war-c5"
+ ],
+ "hourglass": [
+  "hourglass-c4",
+  "hourglass-c5",
+  "hourglass-c6"
+ ],
+ "market": [
+  "market-c4"
+ ],
+ "greece": [
+  "greece-c4",
+  "greece-c5",
+  "greece-c6"
+ ],
+ "socrates": [
+  "socrates-c4"
+ ],
+ "oracle": [
+  "oracle-c4"
+ ],
+ "science": [
+  "science-c4",
+  "science-c5"
+ ],
+ "school": [
+  "school-c5",
+  "market-c4"
+ ],
+ "clock": [
+  "hourglass-c5",
+  "hourglass-c4"
+ ],
+ "sculptor": [
+  "vitruvian-c5",
+  "anatomy-c6"
+ ],
+ "puppet": [
+  "shadow-c2",
+  "puppet-c3"
+ ],
+ "machine": [
+  "diagram-c1",
+  "science-c5"
+ ],
+ "napoleon": [
+  "thinker-c7",
+  "study-c2"
+ ],
+ "anger": [
+  "anger-c3"
+ ],
+ "ship": [
+  "helm-c1",
+  "helm-c2",
+  "sea-c1"
  ]
 }

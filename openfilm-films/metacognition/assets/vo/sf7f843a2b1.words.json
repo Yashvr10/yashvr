@@ -1,0 +1,82 @@
+[
+{
+"word": "That",
+"start": 0.0,
+"end": 0.2
+},
+{
+"word": "belief",
+"start": 0.2,
+"end": 0.58
+},
+{
+"word": "is",
+"start": 0.58,
+"end": 0.92
+},
+{
+"word": "later",
+"start": 0.92,
+"end": 1.18
+},
+{
+"word": "fired",
+"start": 1.18,
+"end": 1.64
+},
+{
+"word": "at",
+"start": 1.64,
+"end": 1.86
+},
+{
+"word": "the",
+"start": 1.86,
+"end": 1.98
+},
+{
+"word": "moment",
+"start": 1.98,
+"end": 2.24
+},
+{
+"word": "of",
+"start": 2.24,
+"end": 2.48
+},
+{
+"word": "action,",
+"start": 2.48,
+"end": 2.92
+},
+{
+"word": "and",
+"start": 2.92,
+"end": 3.6
+},
+{
+"word": "manifests",
+"start": 3.6,
+"end": 4.1
+},
+{
+"word": "itself",
+"start": 4.1,
+"end": 4.68
+},
+{
+"word": "proportionally",
+"start": 4.68,
+"end": 5.7
+},
+{
+"word": "through",
+"start": 5.7,
+"end": 6.2
+},
+{
+"word": "hesitation.",
+"start": 6.2,
+"end": 6.82
+}
+]

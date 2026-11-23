@@ -1,0 +1,32 @@
+[
+{
+"word": "You",
+"start": 0.0,
+"end": 0.22
+},
+{
+"word": "have",
+"start": 0.22,
+"end": 0.4
+},
+{
+"word": "a",
+"start": 0.4,
+"end": 0.54
+},
+{
+"word": "thought,",
+"start": 0.54,
+"end": 0.98
+},
+{
+"word": "as",
+"start": 0.98,
+"end": 1.44
+},
+{
+"word": "before.",
+"start": 1.44,
+"end": 1.86
+}
+]

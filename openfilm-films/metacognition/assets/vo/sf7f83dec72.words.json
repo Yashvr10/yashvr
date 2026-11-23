@@ -1,0 +1,62 @@
+[
+{
+"word": "a",
+"start": 0.0,
+"end": 0.2
+},
+{
+"word": "problem",
+"start": 0.2,
+"end": 0.64
+},
+{
+"word": "hard",
+"start": 0.64,
+"end": 1.08
+},
+{
+"word": "enough",
+"start": 1.08,
+"end": 1.38
+},
+{
+"word": "that",
+"start": 1.38,
+"end": 1.88
+},
+{
+"word": "you",
+"start": 1.88,
+"end": 2.04
+},
+{
+"word": "have",
+"start": 2.04,
+"end": 2.2
+},
+{
+"word": "to",
+"start": 2.2,
+"end": 2.38
+},
+{
+"word": "watch",
+"start": 2.38,
+"end": 2.64
+},
+{
+"word": "yourself",
+"start": 2.64,
+"end": 3.14
+},
+{
+"word": "solve",
+"start": 3.14,
+"end": 3.5
+},
+{
+"word": "it.",
+"start": 3.5,
+"end": 3.74
+}
+]

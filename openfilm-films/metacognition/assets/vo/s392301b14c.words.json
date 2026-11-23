@@ -1,0 +1,62 @@
+[
+{
+"word": "You",
+"start": 0.0,
+"end": 0.24
+},
+{
+"word": "have",
+"start": 0.24,
+"end": 0.42
+},
+{
+"word": "a",
+"start": 0.42,
+"end": 0.56
+},
+{
+"word": "thought.",
+"start": 0.56,
+"end": 1.0
+},
+{
+"word": "For",
+"start": 1.42,
+"end": 1.52
+},
+{
+"word": "example:",
+"start": 1.52,
+"end": 1.92
+},
+{
+"word": "\u2018I",
+"start": 2.44,
+"end": 2.62
+},
+{
+"word": "am",
+"start": 2.62,
+"end": 2.74
+},
+{
+"word": "so",
+"start": 2.74,
+"end": 2.96
+},
+{
+"word": "bad",
+"start": 2.96,
+"end": 3.32
+},
+{
+"word": "at",
+"start": 3.32,
+"end": 3.58
+},
+{
+"word": "this.\u2019",
+"start": 3.58,
+"end": 3.8
+}
+]

@@ -1,0 +1,57 @@
+[
+{
+"word": "The",
+"start": 0.0,
+"end": 0.2
+},
+{
+"word": "answer",
+"start": 0.2,
+"end": 0.54
+},
+{
+"word": "will",
+"start": 0.54,
+"end": 0.82
+},
+{
+"word": "be",
+"start": 0.82,
+"end": 1.0
+},
+{
+"word": "no.",
+"start": 1.0,
+"end": 1.84
+},
+{
+"word": "For",
+"start": 1.84,
+"end": 2.04
+},
+{
+"word": "weeks,",
+"start": 2.04,
+"end": 2.4
+},
+{
+"word": "it",
+"start": 2.4,
+"end": 2.84
+},
+{
+"word": "will",
+"start": 2.84,
+"end": 3.0
+},
+{
+"word": "be",
+"start": 3.0,
+"end": 3.18
+},
+{
+"word": "no.",
+"start": 3.18,
+"end": 3.52
+}
+]

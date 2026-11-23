@@ -1,0 +1,57 @@
+[
+{
+"word": "And",
+"start": 0.0,
+"end": 0.22
+},
+{
+"word": "it",
+"start": 0.22,
+"end": 0.32
+},
+{
+"word": "can",
+"start": 0.32,
+"end": 0.46
+},
+{
+"word": "be",
+"start": 0.46,
+"end": 0.62
+},
+{
+"word": "for",
+"start": 0.62,
+"end": 0.76
+},
+{
+"word": "good",
+"start": 0.76,
+"end": 1.1
+},
+{
+"word": "as",
+"start": 1.1,
+"end": 1.48
+},
+{
+"word": "well",
+"start": 1.48,
+"end": 1.68
+},
+{
+"word": "as",
+"start": 1.68,
+"end": 1.88
+},
+{
+"word": "for",
+"start": 1.88,
+"end": 2.04
+},
+{
+"word": "bad.",
+"start": 2.04,
+"end": 2.4
+}
+]

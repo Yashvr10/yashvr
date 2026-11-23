@@ -1,0 +1,52 @@
+[
+{
+"word": "You",
+"start": 0.0,
+"end": 0.22
+},
+{
+"word": "have",
+"start": 0.22,
+"end": 0.4
+},
+{
+"word": "no",
+"start": 0.4,
+"end": 0.64
+},
+{
+"word": "control",
+"start": 0.64,
+"end": 1.16
+},
+{
+"word": "over",
+"start": 1.16,
+"end": 1.58
+},
+{
+"word": "a",
+"start": 1.58,
+"end": 1.74
+},
+{
+"word": "thought",
+"start": 1.74,
+"end": 2.12
+},
+{
+"word": "you",
+"start": 2.12,
+"end": 2.54
+},
+{
+"word": "haven\u2019t",
+"start": 2.54,
+"end": 2.88
+},
+{
+"word": "noticed.",
+"start": 2.88,
+"end": 3.28
+}
+]

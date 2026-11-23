@@ -1,0 +1,47 @@
+[
+{
+"word": "You",
+"start": 0.0,
+"end": 0.22
+},
+{
+"word": "can",
+"start": 0.22,
+"end": 0.42
+},
+{
+"word": "also",
+"start": 0.42,
+"end": 0.76
+},
+{
+"word": "run",
+"start": 0.76,
+"end": 1.1
+},
+{
+"word": "it",
+"start": 1.1,
+"end": 1.32
+},
+{
+"word": "backwards",
+"start": 1.32,
+"end": 1.76
+},
+{
+"word": "over",
+"start": 1.76,
+"end": 2.34
+},
+{
+"word": "the",
+"start": 2.34,
+"end": 2.5
+},
+{
+"word": "past.",
+"start": 2.5,
+"end": 2.84
+}
+]

@@ -1,0 +1,52 @@
+[
+{
+"word": "Something",
+"start": 0.0,
+"end": 0.46
+},
+{
+"word": "already",
+"start": 0.46,
+"end": 0.9
+},
+{
+"word": "made",
+"start": 0.9,
+"end": 1.24
+},
+{
+"word": "a",
+"start": 1.24,
+"end": 1.42
+},
+{
+"word": "decision,",
+"start": 1.42,
+"end": 1.84
+},
+{
+"word": "and",
+"start": 1.84,
+"end": 2.52
+},
+{
+"word": "did",
+"start": 2.52,
+"end": 2.66
+},
+{
+"word": "not",
+"start": 2.66,
+"end": 2.94
+},
+{
+"word": "consult",
+"start": 2.94,
+"end": 3.44
+},
+{
+"word": "you.",
+"start": 3.44,
+"end": 3.76
+}
+]

@@ -1,0 +1,52 @@
+[
+{
+"word": "You",
+"start": 0.0,
+"end": 0.24
+},
+{
+"word": "don\u2019t",
+"start": 0.24,
+"end": 0.56
+},
+{
+"word": "analyze",
+"start": 0.56,
+"end": 1.06
+},
+{
+"word": "your",
+"start": 1.06,
+"end": 1.38
+},
+{
+"word": "thoughts.",
+"start": 1.38,
+"end": 1.8
+},
+{
+"word": "You",
+"start": 2.48,
+"end": 2.52
+},
+{
+"word": "don\u2019t",
+"start": 2.52,
+"end": 2.78
+},
+{
+"word": "analyze",
+"start": 2.78,
+"end": 3.32
+},
+{
+"word": "your",
+"start": 3.32,
+"end": 3.66
+},
+{
+"word": "emotions.",
+"start": 3.66,
+"end": 4.06
+}
+]
