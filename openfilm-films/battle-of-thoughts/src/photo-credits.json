@@ -1830,5 +1830,245 @@
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1926.107",
   "kind": "Print"
+ },
+ "skull-c1": {
+  "title": "Coat of Arms with a Skull",
+  "artist": "Albrecht D\u00fcrer (German, 1471\u20131528)",
+  "date": "1503",
+  "license": "Public domain (CC0, Cleveland Museum of Art)",
+  "source": "https://clevelandart.org/art/1953.9",
+  "kind": "Print"
+ },
+ "skull-c2": {
+  "title": "It Is a Skull Wreathed with Roses. It Dominates a Woman's Torso of Pearly Whiteness",
+  "artist": "Odilon Redon (French, 1840\u20131916)",
+  "date": "1888",
+  "license": "Public domain (CC0, Cleveland Museum of Art)",
+  "source": "https://clevelandart.org/art/1927.477.7",
+  "kind": "Print"
+ },
+ "skull-c3": {
+  "title": "Portrait of a Young Man with a Skull",
+  "artist": "Lucas van Leyden (Netherlandish, 1494\u2013about 1533)",
+  "date": "c. 1519",
+  "license": "Public domain (CC0, Cleveland Museum of Art)",
+  "source": "https://clevelandart.org/art/1941.297",
+  "kind": "Print"
+ },
+ "jerome-c1": {
+  "title": "Virgin and Child with Saint Jerome and Saint Catherine of Alexandria",
+  "artist": "Carolino da Viterbo (Italian)",
+  "date": "c. 1450",
+  "license": "Public domain (CC0, Cleveland Museum of Art)",
+  "source": "https://clevelandart.org/art/1956.719",
+  "kind": "Painting"
+ },
+ "jerome-c2": {
+  "title": "Saint Jerome in a Landscape",
+  "artist": "Domenico Campagnola (Italian, 1500\u20131564)",
+  "date": "c. 1530",
+  "license": "Public domain (CC0, Cleveland Museum of Art)",
+  "source": "https://clevelandart.org/art/1929.557",
+  "kind": "Drawing"
+ },
+ "jerome-c3": {
+  "title": "St. Jerome in Penitence",
+  "artist": "Albrecht D\u00fcrer (German, 1471\u20131528)",
+  "date": "c. 1497",
+  "license": "Public domain (CC0, Cleveland Museum of Art)",
+  "source": "https://clevelandart.org/art/1966.175",
+  "kind": "Print"
+ },
+ "fire-c1": {
+  "title": "Fire Screen",
+  "artist": "Herter Brothers (American)",
+  "date": "c. 1878\u201380",
+  "license": "Public domain (CC0, Cleveland Museum of Art)",
+  "source": "https://clevelandart.org/art/1997.58",
+  "kind": "Furniture and woodwork"
+ },
+ "fire-c2": {
+  "title": "The Burning of the Houses of Lords and Commons, 16 October 1834",
+  "artist": "Joseph Mallord William Turner (British, 1775\u20131851)",
+  "date": "1835",
+  "license": "Public domain (CC0, Cleveland Museum of Art)",
+  "source": "https://clevelandart.org/art/1942.647",
+  "kind": "Painting"
+ },
+ "fire-c3": {
+  "title": "Elisha and Elijah's Chariot of Fire",
+  "artist": "Jan Saenredam (Dutch, 1565\u20131607)",
+  "date": "1604",
+  "license": "Public domain (CC0, Cleveland Museum of Art)",
+  "source": "https://clevelandart.org/art/1991.264",
+  "kind": "Print"
+ },
+ "ignatius-c1": {
+  "title": "Scenes from the Life of Saint John the Baptist",
+  "artist": "Bartolomeo di Giovanni",
+  "date": "1490/95",
+  "license": "Public domain (CC0, Art Institute of Chicago)",
+  "source": "https://www.artic.edu/artworks/25740",
+  "kind": "painting"
+ },
+ "ignatius-c2": {
+  "title": "The Holy Family with Saints Elizabeth and John the Baptist",
+  "artist": "Peter Paul Rubens",
+  "date": "c. 1615",
+  "license": "Public domain (CC0, Art Institute of Chicago)",
+  "source": "https://www.artic.edu/artworks/27310",
+  "kind": "oil on panel"
+ },
+ "ignatius-c3": {
+  "title": "Saint Jerome",
+  "artist": "Antoine Masson",
+  "date": "1693",
+  "license": "Public domain (CC0, Art Institute of Chicago)",
+  "source": "https://www.artic.edu/artworks/36",
+  "kind": "engraving"
+ },
+ "harvest-c1": {
+  "title": "Harvest on the Roman Campagna",
+  "artist": "John Gadsby Chapman (American, 1808\u20131889)",
+  "date": "1868",
+  "license": "Public domain (CC0, Cleveland Museum of Art)",
+  "source": "https://clevelandart.org/art/1915.688",
+  "kind": "Painting"
+ },
+ "harvest-c2": {
+  "title": "End of the Harvest",
+  "artist": "Charles Angrand (French, 1854\u20131926)",
+  "date": "c. 1892\u20131905",
+  "license": "Public domain (CC0, Cleveland Museum of Art)",
+  "source": "https://clevelandart.org/art/1999.49",
+  "kind": "Drawing"
+ },
+ "harvest-c3": {
+  "title": "Harvest Time",
+  "artist": "George Inness (American, 1825\u20131894)",
+  "date": "1864",
+  "license": "Public domain (CC0, Cleveland Museum of Art)",
+  "source": "https://clevelandart.org/art/1939.234",
+  "kind": "Painting"
+ },
+ "sea-c1": {
+  "title": "Rock at Sea",
+  "artist": "Raymond Jonson (American, 1891\u20131982)",
+  "date": "1920\u201322",
+  "license": "Public domain (CC0, Cleveland Museum of Art)",
+  "source": "https://clevelandart.org/art/2009.269",
+  "kind": "Painting"
+ },
+ "sea-c2": {
+  "title": "The Submersion of Pharaoh's Army in the Red Sea",
+  "artist": "Titian (Italian, c. 1488\u20131576)",
+  "date": "1514\u201315, printed 1549",
+  "license": "Public domain (CC0, Cleveland Museum of Art)",
+  "source": "https://clevelandart.org/art/1952.296",
+  "kind": "Print"
+ },
+ "sea-c3": {
+  "title": "At the Sea Side",
+  "artist": "James Tissot (French, 1836\u20131902)",
+  "date": "1880",
+  "license": "Public domain (CC0, Cleveland Museum of Art)",
+  "source": "https://clevelandart.org/art/1974.258",
+  "kind": "Print"
+ },
+ "ship-c1": {
+  "title": "Saint Martin with His Horse on a Ship",
+  "artist": "Johannes I van Doetecum (d. 1605)",
+  "date": "c. 1561",
+  "license": "Public domain (CC0, Cleveland Museum of Art)",
+  "source": "https://clevelandart.org/art/2020.99",
+  "kind": "Print"
+ },
+ "ship-c2": {
+  "title": "Navicella (recto); Two Drawings of Ships (verso)",
+  "artist": "Parri Spinelli (Italian, 1387\u2013c. 1453)",
+  "date": "c. 1410s",
+  "license": "Public domain (CC0, Cleveland Museum of Art)",
+  "source": "https://clevelandart.org/art/1961.38",
+  "kind": "Drawing"
+ },
+ "ship-c3": {
+  "title": "On the Beach, No. 3",
+  "artist": "Maurice Prendergast (American, born Newfoundland [now Canada], 1858\u20131924)",
+  "date": "c. 1915\u201318",
+  "license": "Public domain (CC0, Cleveland Museum of Art)",
+  "source": "https://clevelandart.org/art/1926.1653",
+  "kind": "Painting"
+ },
+ "job-c1": {
+  "title": "Tobias Healing His Father's Blindness",
+  "artist": "Rembrandt van Rijn (Dutch, 1606\u20131669)",
+  "date": "c. 1640\u201345",
+  "license": "Public domain (CC0, Cleveland Museum of Art)",
+  "source": "https://clevelandart.org/art/1969.69",
+  "kind": "Drawing"
+ },
+ "job-c2": {
+  "title": "Outskirts of Paris",
+  "artist": "Henri Rousseau (French, 1844\u20131910)",
+  "date": "c. 1897\u20131905",
+  "license": "Public domain (CC0, Cleveland Museum of Art)",
+  "source": "https://clevelandart.org/art/1929.951",
+  "kind": "Painting"
+ },
+ "job-c3": {
+  "title": "The Book of Job",
+  "artist": "William Blake (British, 1757\u20131827)",
+  "date": "1825",
+  "license": "Public domain (CC0, Cleveland Museum of Art)",
+  "source": "https://clevelandart.org/art/1963.303",
+  "kind": "Portfolio"
+ },
+ "light-c9": {
+  "title": "Penitent Saint Peter",
+  "artist": "Jusepe de Ribera",
+  "date": "c. 1630",
+  "license": "Public domain (CC0, Art Institute of Chicago)",
+  "source": "https://www.artic.edu/artworks/120172",
+  "kind": "oil on canvas"
+ },
+ "light-c10": {
+  "title": "Breaking Waves, September Tide",
+  "artist": "Louis Auguste Lep\u00e8re",
+  "date": "1901",
+  "license": "Public domain (CC0, Art Institute of Chicago)",
+  "source": "https://www.artic.edu/artworks/11311",
+  "kind": "woodcut"
+ },
+ "light-c11": {
+  "title": "Pastoral Landscape with Ruins",
+  "artist": "Adriaen van de Velde",
+  "date": "1664",
+  "license": "Public domain (CC0, Art Institute of Chicago)",
+  "source": "https://www.artic.edu/artworks/863",
+  "kind": "oil on canvas"
+ },
+ "light-c12": {
+  "title": "Man with Lance Riding through the Snow",
+  "artist": "Adolphe Schreyer",
+  "date": "c. 1880",
+  "license": "Public domain (CC0, Art Institute of Chicago)",
+  "source": "https://www.artic.edu/artworks/895",
+  "kind": "painting"
+ },
+ "light-c13": {
+  "title": "Magnolias on Light Blue Velvet Cloth",
+  "artist": "Martin Johnson Heade",
+  "date": "1885\u201395",
+  "license": "Public domain (CC0, Art Institute of Chicago)",
+  "source": "https://www.artic.edu/artworks/100829",
+  "kind": "painting"
+ },
+ "light-c14": {
+  "title": "Lights of Other Days",
+  "artist": "John Frederick Peto",
+  "date": "1906",
+  "license": "Public domain (CC0, Art Institute of Chicago)",
+  "source": "https://www.artic.edu/artworks/2156",
+  "kind": "oil on canvas"
  }
 }

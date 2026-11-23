@@ -1,0 +1,57 @@
+[
+{
+"word": "You",
+"start": 0.0,
+"end": 0.26
+},
+{
+"word": "eat",
+"start": 0.26,
+"end": 0.52
+},
+{
+"word": "too",
+"start": 0.52,
+"end": 0.84
+},
+{
+"word": "much,",
+"start": 0.84,
+"end": 1.32
+},
+{
+"word": "though",
+"start": 1.66,
+"end": 1.78
+},
+{
+"word": "you",
+"start": 1.78,
+"end": 1.96
+},
+{
+"word": "promised",
+"start": 1.96,
+"end": 2.3
+},
+{
+"word": "yourself",
+"start": 2.3,
+"end": 2.84
+},
+{
+"word": "you",
+"start": 2.84,
+"end": 3.1
+},
+{
+"word": "would",
+"start": 3.1,
+"end": 3.26
+},
+{
+"word": "not.",
+"start": 3.26,
+"end": 3.52
+}
+]

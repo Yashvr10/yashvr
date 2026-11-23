@@ -1,0 +1,87 @@
+[
+{
+"word": "You",
+"start": 0.0,
+"end": 0.22
+},
+{
+"word": "join",
+"start": 0.22,
+"end": 0.62
+},
+{
+"word": "in.",
+"start": 0.62,
+"end": 1.08
+},
+{
+"word": "Not",
+"start": 1.5,
+"end": 1.68
+},
+{
+"word": "because",
+"start": 1.68,
+"end": 2.06
+},
+{
+"word": "you",
+"start": 2.06,
+"end": 2.32
+},
+{
+"word": "agree,",
+"start": 2.32,
+"end": 2.72
+},
+{
+"word": "but",
+"start": 3.2,
+"end": 3.28
+},
+{
+"word": "because",
+"start": 3.28,
+"end": 3.58
+},
+{
+"word": "you",
+"start": 3.58,
+"end": 3.78
+},
+{
+"word": "do",
+"start": 3.78,
+"end": 3.9
+},
+{
+"word": "not",
+"start": 3.9,
+"end": 4.08
+},
+{
+"word": "want",
+"start": 4.08,
+"end": 4.28
+},
+{
+"word": "to",
+"start": 4.28,
+"end": 4.44
+},
+{
+"word": "be",
+"start": 4.44,
+"end": 4.58
+},
+{
+"word": "left",
+"start": 4.58,
+"end": 4.84
+},
+{
+"word": "out.",
+"start": 4.84,
+"end": 5.22
+}
+]

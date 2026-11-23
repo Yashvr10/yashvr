@@ -1,0 +1,82 @@
+[
+{
+"word": "At",
+"start": 0.0,
+"end": 0.2
+},
+{
+"word": "home,",
+"start": 0.2,
+"end": 0.6
+},
+{
+"word": "one",
+"start": 0.84,
+"end": 1.08
+},
+{
+"word": "careless",
+"start": 1.08,
+"end": 1.6
+},
+{
+"word": "remark",
+"start": 1.6,
+"end": 2.1
+},
+{
+"word": "is",
+"start": 2.1,
+"end": 2.4
+},
+{
+"word": "enough.",
+"start": 2.4,
+"end": 2.76
+},
+{
+"word": "You",
+"start": 3.38,
+"end": 3.58
+},
+{
+"word": "snap,",
+"start": 3.58,
+"end": 4.0
+},
+{
+"word": "and",
+"start": 4.0,
+"end": 4.64
+},
+{
+"word": "you",
+"start": 4.64,
+"end": 4.74
+},
+{
+"word": "shut",
+"start": 4.74,
+"end": 5.04
+},
+{
+"word": "the",
+"start": 5.04,
+"end": 5.24
+},
+{
+"word": "door",
+"start": 5.24,
+"end": 5.5
+},
+{
+"word": "behind",
+"start": 5.5,
+"end": 5.94
+},
+{
+"word": "you.",
+"start": 5.94,
+"end": 6.24
+}
+]

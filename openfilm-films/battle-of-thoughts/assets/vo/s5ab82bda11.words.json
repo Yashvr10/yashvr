@@ -1,0 +1,92 @@
+[
+{
+"word": "You",
+"start": 0.0,
+"end": 0.24
+},
+{
+"word": "help",
+"start": 0.24,
+"end": 0.48
+},
+{
+"word": "someone",
+"start": 0.48,
+"end": 0.88
+},
+{
+"word": "with",
+"start": 0.88,
+"end": 1.08
+},
+{
+"word": "a",
+"start": 1.08,
+"end": 1.24
+},
+{
+"word": "task,",
+"start": 1.24,
+"end": 1.74
+},
+{
+"word": "and",
+"start": 2.16,
+"end": 2.34
+},
+{
+"word": "when",
+"start": 2.34,
+"end": 2.46
+},
+{
+"word": "he",
+"start": 2.46,
+"end": 2.58
+},
+{
+"word": "forgets",
+"start": 2.58,
+"end": 2.96
+},
+{
+"word": "to",
+"start": 2.96,
+"end": 3.12
+},
+{
+"word": "thank",
+"start": 3.12,
+"end": 3.38
+},
+{
+"word": "you,",
+"start": 3.38,
+"end": 3.76
+},
+{
+"word": "you",
+"start": 4.06,
+"end": 4.16
+},
+{
+"word": "resent",
+"start": 4.16,
+"end": 4.5
+},
+{
+"word": "him",
+"start": 4.5,
+"end": 4.76
+},
+{
+"word": "for",
+"start": 4.76,
+"end": 5.02
+},
+{
+"word": "it.",
+"start": 5.02,
+"end": 5.22
+}
+]
