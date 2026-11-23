@@ -69,5 +69,295 @@
   "portrait-c2",
   "portrait-c3",
   "portrait-c4"
+ ],
+ "book": [
+  "book-c1",
+  "book-c2",
+  "book-c3",
+  "book-c4",
+  "book-c5"
+ ],
+ "church": [
+  "church-c1",
+  "church-c2",
+  "church-c3",
+  "church-c4"
+ ],
+ "knight": [
+  "knight-c1",
+  "knight-c2",
+  "knight-c3",
+  "knight-c4"
+ ],
+ "hell": [
+  "hell-c1",
+  "hell-c2",
+  "hell-c3",
+  "hell-c4"
+ ],
+ "castle": [
+  "castle-c1",
+  "castle-c2",
+  "castle-c3"
+ ],
+ "mirror": [
+  "mirror-c1",
+  "mirror-c2",
+  "mirror-c3"
+ ],
+ "morning": [
+  "morning-c1",
+  "morning-c2",
+  "morning-c3"
+ ],
+ "saint": [
+  "saint-c1",
+  "saint-c2",
+  "saint-c3"
+ ],
+ "angel": [
+  "angel-c1",
+  "angel-c2",
+  "angel-c3"
+ ],
+ "shadow": [
+  "shadow-c1",
+  "shadow-c2",
+  "shadow-c3"
+ ],
+ "christ": [
+  "christ-c1",
+  "christ-c2",
+  "christ-c3"
+ ],
+ "landscape": [
+  "landscape-c1",
+  "landscape-c2",
+  "landscape-c3"
+ ],
+ "desert": [
+  "desert-c1",
+  "desert-c2",
+  "desert-c3"
+ ],
+ "priest": [
+  "priest-c1",
+  "priest-c2",
+  "priest-c3"
+ ],
+ "anger": [
+  "anger-c1",
+  "anger-c2",
+  "anger-c3"
+ ],
+ "feast": [
+  "feast-c1",
+  "feast-c2",
+  "feast-c3"
+ ],
+ "street": [
+  "street-c1",
+  "street-c2",
+  "street-c3"
+ ],
+ "battle": [
+  "battle-c1",
+  "battle-c2",
+  "battle-c3"
+ ],
+ "storm": [
+  "storm-c1",
+  "storm-c2",
+  "storm-c3"
+ ],
+ "crucifixion": [
+  "crucifixion-c1",
+  "crucifixion-c2",
+  "crucifixion-c3"
+ ],
+ "bed": [
+  "bed-c1",
+  "bed-c2",
+  "bed-c3"
+ ],
+ "beggar": [
+  "beggar-c1",
+  "beggar-c2",
+  "beggar-c3"
+ ],
+ "statue": [
+  "statue-c1",
+  "statue-c2",
+  "statue-c3"
+ ],
+ "interior": [
+  "interior-c1",
+  "interior-c2",
+  "interior-c3"
+ ],
+ "anthony": [
+  "anthony-c1",
+  "anthony-c2",
+  "anthony-c3"
+ ],
+ "road": [
+  "road-c1",
+  "road-c2",
+  "road-c3"
+ ],
+ "door": [
+  "door-c1",
+  "door-c2",
+  "door-c3"
+ ],
+ "mountain": [
+  "mountain-c1",
+  "mountain-c2",
+  "mountain-c3"
+ ],
+ "prison": [
+  "prison-c1",
+  "prison-c2",
+  "prison-c3"
+ ],
+ "forge": [
+  "forge-c1",
+  "forge-c2",
+  "forge-c3"
+ ],
+ "letter": [
+  "letter-c1",
+  "letter-c2",
+  "letter-c3"
+ ],
+ "mask": [
+  "mask-c1",
+  "mask-c2",
+  "mask-c3"
+ ],
+ "fog": [
+  "fog-c1",
+  "fog-c2",
+  "fog-c3"
+ ],
+ "city": [
+  "city-c1",
+  "city-c2",
+  "city-c3"
+ ],
+ "clerk": [
+  "clerk-c1",
+  "clerk-c2",
+  "clerk-c3"
+ ],
+ "milton": [
+  "milton-c1",
+  "milton-c2",
+  "milton-c3"
+ ],
+ "palace": [
+  "palace-c1",
+  "palace-c2",
+  "palace-c3"
+ ],
+ "field": [
+  "field-c1",
+  "field-c2",
+  "field-c3"
+ ],
+ "armour": [
+  "armour-c1",
+  "armour-c2",
+  "armour-c3"
+ ],
+ "archer": [
+  "archer-c1",
+  "archer-c2",
+  "archer-c3"
+ ],
+ "market": [
+  "market-c1",
+  "market-c2",
+  "market-c3"
+ ],
+ "serpent": [
+  "serpent-c1",
+  "serpent-c2",
+  "serpent-c3"
+ ],
+ "window": [
+  "window-c1",
+  "window-c2",
+  "window-c3"
+ ],
+ "stoic": [
+  "stoic-c1",
+  "stoic-c2",
+  "stoic-c3"
+ ],
+ "doctor": [
+  "doctor-c1",
+  "doctor-c2",
+  "doctor-c3"
+ ],
+ "vision": [
+  "vision-c1",
+  "vision-c2",
+  "vision-c3"
+ ],
+ "ruins": [
+  "ruins-c1",
+  "ruins-c2",
+  "ruins-c3"
+ ],
+ "pride": [
+  "pride-c1",
+  "pride-c2",
+  "pride-c3"
+ ],
+ "stilllife": [
+  "stilllife-c1",
+  "stilllife-c2",
+  "stilllife-c3"
+ ],
+ "workshop": [
+  "workshop-c1",
+  "workshop-c2",
+  "workshop-c3"
+ ],
+ "aristotle": [
+  "aristotle-c1",
+  "aristotle-c2",
+  "aristotle-c3"
+ ],
+ "rosary": [
+  "rosary-c1",
+  "rosary-c2",
+  "rosary-c3"
+ ],
+ "shop": [
+  "shop-c1",
+  "shop-c2",
+  "shop-c3"
+ ],
+ "seneca": [
+  "seneca-c1",
+  "seneca-c2",
+  "seneca-c3"
+ ],
+ "marcus": [
+  "marcus-c1",
+  "marcus-c2",
+  "marcus-c3"
+ ],
+ "lake": [
+  "lake-c1",
+  "lake-c2",
+  "lake-c3"
+ ],
+ "hercules": [
+  "hercules-c1",
+  "hercules-c2",
+  "hercules-c3"
  ]
 }
