@@ -6,7 +6,8 @@ Status: made in invideo (project "Life Won't Wait For You, So Fly (Project Y)", 
 - How it was built: `src/plan.py` (shot plan: 114 shots in seven sections that follow the script, long clips cut into ~4.6 s pieces and interleaved, every piece used once) -> `src/iv_ops.py` (invideo edit operations: shots filling the frame, narration, two invideo stock ambient tracks at -15 dB with fades, yellow italic Inter captions timed by invideo's transcript of the narration, phrases of up to 6 words). `src/timing.json` and `assets/narration.mp3` are the narration with its pauses.
 
 - Voice: invideo stock AI voice, older deep calm British male, slow with long pauses (not a Watts clone).
-- Music: quiet ambient bed, similar style.
+- Music: quiet ambient bed, similar style. Changed at the user's request to match the bed of a reference reel (an Alan Watts edit: a slow, sustained synth pad with a bright held tone and a four-chord loop changing about every 6.5 s, no drums). That track could not be named or lifted (it sits under the voice and is likely copyrighted), so the closest free match from the invideo stock library is used: "Calm Reflections (Modern Electronic Ambient)" by Pavel Vlasov (0:00-5:00, -20 dB) then "Astronomy" by Enzo Orefice (5:00-end, -17 dB), with fades.
+- Frame: the whole picture sits inset on black with rounded corners (1824x1026 inside 1920x1080, 40 px radius), added after the invideo export.
 - Captions: one short phrase at a time, small yellow italic, lower centre.
 - Still to confirm: Instagram handle (or none), frame 4:3 or 9:16.
 

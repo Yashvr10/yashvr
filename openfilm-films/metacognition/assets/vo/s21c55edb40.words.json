@@ -1,0 +1,77 @@
+[
+{
+"word": "You",
+"start": 0.0,
+"end": 0.26
+},
+{
+"word": "can",
+"start": 0.26,
+"end": 0.42
+},
+{
+"word": "do",
+"start": 0.42,
+"end": 0.6
+},
+{
+"word": "all",
+"start": 0.6,
+"end": 0.84
+},
+{
+"word": "that",
+"start": 0.84,
+"end": 1.08
+},
+{
+"word": "meditation,",
+"start": 1.08,
+"end": 1.8
+},
+{
+"word": "journaling,",
+"start": 2.48,
+"end": 3.08
+},
+{
+"word": "shadow",
+"start": 3.32,
+"end": 3.46
+},
+{
+"word": "work,",
+"start": 3.46,
+"end": 3.98
+},
+{
+"word": "however",
+"start": 4.52,
+"end": 4.7
+},
+{
+"word": "you",
+"start": 4.7,
+"end": 5.02
+},
+{
+"word": "want",
+"start": 5.02,
+"end": 5.18
+},
+{
+"word": "to",
+"start": 5.18,
+"end": 5.34
+},
+{
+"word": "call",
+"start": 5.34,
+"end": 5.58
+},
+{
+"word": "it,",
+"start": 5.58,
+"end": 5.84
+}
+]

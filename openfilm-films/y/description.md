@@ -8,7 +8,7 @@ Are you on the right path? Backing yourself when the world is against you can br
 
 Don't put a fulfilling life on a pedestal. Get onto its level, and stay there. So let it.
 
-Music: "Northern Lights" by Emanuele Dentoni and "Dreamscape" by Enzo Orefice (invideo stock library).
+Music: "Calm Reflections (Modern Electronic Ambient)" by Pavel Vlasov and "Astronomy" by Enzo Orefice (invideo stock library).
 Narration voice: synthetic (Kokoro).
 
 #lifewontwait #selfimprovement #mindset
