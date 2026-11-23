@@ -1,0 +1,13 @@
+# Metacognition: Catch Your Next Thought
+
+16:9, 17:39, made in invideo (project https://invideo.io/@yash-vardhan-singh-3/metacognition, edit `tree/main/seq-1.1`, timeline T1).
+
+- Script: the user's own script about metacognition, sent in chat, kept word for word (typo fixes, sentence case, numbers written out for the voice). Headings and quotes become chapter cards: I. The Birth of Metacognition (Plato, Apology 21d), II. The Machinery (Epictetus, Enchiridion 5) with "Metacognition off / on", III. The Mechanics of Metacognition (Epictetus, Discourses 2.18) with Catch, Judge, Recalibrate; the "-cipher" sign-off is a card. `src/script.py` -> `src/scenes.json`.
+- Voice: free Kokoro "Lewis older" (bm_lewis, speed 0.84, pitched down 7%), one clip per sentence (`src/tts.py`), word times from Whisper (`src/align_whisper.py`).
+- Pictures: public-domain (CC0) paintings, prints and drawings from the Cleveland Museum of Art and the Art Institute of Chicago (`src/museums.py`; Wikimedia Commons rate-limited this machine and The Met's image server blocks downloads). Hand-picked from two searches (`src/images.json`), cropped to 16:9 and graded warm and dark with grain (`src/look.py`), then one slow push-in, pull-out or drift clip per shot (`src/clips.py`). The shots behind the three quotes are darkened so the white text reads. invideo refused clips of Pollaiuolo's "Battle of the Nudes" and a Dürer print (nudity), so those shots use other pictures.
+- Timeline: `src/timeline.py` -> `assets/narration.mp3` (voice with its pauses), `src/timing.json`, `src/shots.json` (196 shots, 116 pictures).
+- invideo: `src/iv_ids.py` (uploaded file -> invideo id), `src/iv_ops.py` (placements, captions, cards), `src/iv_apply.py` (applies them, positions text, music at -16 dB with fades, opacity fades to and from black around the cards). Captions: yellow italic Inter (#F2D33B, 52 px, black outline and shadow), phrases of up to 6 words, as in Y. Cards: Instrument Serif titles, EB Garamond quotes.
+- Music: "Free BGM For Meditation #3" (Ambient Samurai), "Rêverie (Debussy)" (Felted Classics), "Meditation at the Full Moon" (Mark Subbotin), all CC BY 3.0 (credits in `description.md`).
+- Frame: the invideo export is inset on black with rounded corners (1824x1026 inside 1920x1080, 40 px radius), as for Y.
+- Deliverables: `video/Metacognition-Catch-Your-Next-Thought.mp4` (720p), `thumbnail.jpg` (Rembrandt, "Old Man with a Gold Chain", Art Institute of Chicago, CC0), `description.md` (title, description, chapters, tags, credits).
+- Factual note: the wave-particle passage is the script's simplification; in physics "observed" means measured by any interaction, not watched by a person.

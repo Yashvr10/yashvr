@@ -219,7 +219,8 @@
   "img": "socrates-c4",
   "at": 188.394,
   "dur": 9.496,
-  "move": 0
+  "move": 0,
+  "dim": true
  },
  {
   "img": "vitruvian-c1",
@@ -459,7 +460,8 @@
   "img": "stoic-c1",
   "at": 403.77,
   "dur": 6.952,
-  "move": 0
+  "move": 0,
+  "dim": true
  },
  {
   "img": "thinker-c6",
@@ -540,7 +542,7 @@
   "move": 1
  },
  {
-  "img": "anatomy-c6",
+  "img": "hand-c1",
   "at": 485.524,
   "dur": 4.95,
   "move": 2
@@ -726,7 +728,7 @@
   "move": 0
  },
  {
-  "img": "anatomy-c6",
+  "img": "monk-c6",
   "at": 657.842,
   "dur": 4.244,
   "move": 1
@@ -753,13 +755,15 @@
   "img": "stoic-c2",
   "at": 676.134,
   "dur": 5.36,
-  "move": 1
+  "move": 1,
+  "dim": true
  },
  {
   "img": "stoic-c3",
   "at": 681.494,
   "dur": 5.36,
-  "move": 2
+  "move": 2,
+  "dim": true
  },
  {
   "img": "thinker-c10",
@@ -882,7 +886,7 @@
   "move": 2
  },
  {
-  "img": "anatomy-c6",
+  "img": "hand-c2",
   "at": 792.082,
   "dur": 6.552,
   "move": 3

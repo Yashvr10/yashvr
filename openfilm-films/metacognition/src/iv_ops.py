@@ -13,7 +13,7 @@ END_F = round(T["total"] * FPS); F = lambda s: round(s * FPS)
 place = []
 for i, s in enumerate(shots):
     f0 = F(s["at"]); f1 = F(s["at"] + s["dur"])
-    place.append(dict(op="place_media", asset=ids[f"shot-{i:03d}"], track="V1", at_f=f0, source_start_seconds=0,
+    place.append(dict(op="place_media", asset=ids[f"shot-{i:03d}" + ("-dim" if s.get("dim") else "")], track="V1", at_f=f0, source_start_seconds=0,
                       source_end_seconds=round((f1 - f0) / FPS, 4), mode="overwrite", linked_audio=False))
 # ---- sound
 place.append(dict(op="place_media", asset=ids["narration"], track="A1", at_f=0, source_start_seconds=0, source_end_seconds=T["total"], mode="overwrite", linked_audio=False))

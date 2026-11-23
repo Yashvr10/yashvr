@@ -221,7 +221,6 @@
   "school-c5"
  ],
  "anatomy": [
-  "anatomy-c6",
   "vitruvian-c4",
   "vitruvian-c5"
  ],
@@ -275,8 +274,7 @@
   "hourglass-c4"
  ],
  "sculptor": [
-  "vitruvian-c5",
-  "anatomy-c6"
+  "vitruvian-c5"
  ],
  "puppet": [
   "shadow-c2",
