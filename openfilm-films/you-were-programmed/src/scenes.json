@@ -1,0 +1,1587 @@
+{
+ "voice": "bm_lewis",
+ "speed": 0.84,
+ "pitch": 0.93,
+ "scenes": [
+  {
+   "id": "se3a07573b7",
+   "text": "There is a version of you that flinches before anyone even says anything critical.",
+   "th": [
+    "portrait"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "sd3a437ad6d",
+   "text": "A version that sabotages the good thing right when it starts working.",
+   "th": [
+    "thinker"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s3420a8786a",
+   "text": "A version that says \"I'm just not a disciplined person\" the same way you'd say the sky is blue, like it's simply a fact about the world instead of a decision that got made for you a long time ago.",
+   "th": [
+    "hourglass",
+    "knight"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "s0457ee0927",
+   "text": "Here's the uncomfortable part.",
+   "th": [
+    "thinker"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "se57192a019",
+   "text": "You didn't choose any of it.",
+   "th": [
+    "thinker"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s4f4b791f23",
+   "text": "Somebody, or something, or some string of ordinary Tuesday afternoons in your childhood wrote that script into you before you had the tools to argue with it, and you've been running it on autopilot ever since.",
+   "th": [
+    "child",
+    "letter"
+   ],
+   "big": "script",
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "sf70f8410a3",
+   "text": "Most people call this \"just who I am.\"",
+   "th": [
+    "crowd"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "sc699ca5b63",
+   "text": "Neuroscience has a less poetic name for it.",
+   "th": [
+    "anatomy"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "sfab0de2dd8",
+   "text": "It's called subconscious programming, and unlike most of what gets written about it online, the mechanism behind it is not mystical at all.",
+   "th": [
+    "letter",
+    "crowd"
+   ],
+   "big": "programming",
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "sd7ba1ccb2e",
+   "text": "It's physical, it's measurable, and it's something you can actually change if you understand how it was built in the first place.",
+   "th": [
+    "sculptor"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s9cee8c1886",
+   "text": "That's what this video is about.",
+   "th": [
+    "thinker"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s71d0db7599",
+   "text": "Not manifestation.",
+   "th": [
+    "thinker"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s940390ac25",
+   "text": "Not vibes.",
+   "th": [
+    "thinker"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s01e4cf0fdb",
+   "text": "The real mechanics of how a belief gets installed in your nervous system, and how it gets uninstalled.",
+   "th": [
+    "machine",
+    "thinker"
+   ],
+   "big": "mechanics",
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "ch1",
+   "card": "chapter",
+   "num": "I",
+   "title": "Two Minds, One Body, and Only One of Them Is Actually Driving",
+   "len": 4.4
+  },
+  {
+   "id": "s4468e2eae4",
+   "text": "Psychologists have long described the mind as running two systems at once.",
+   "th": [
+    "thinker"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s76a4a88c20",
+   "text": "There's the conscious mind, slow, deliberate, and only able to hold one real problem at a time, the part of you narrating this sentence right now.",
+   "th": [
+    "thinker",
+    "hourglass"
+   ],
+   "big": "slow",
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "sd1d5952269",
+   "text": "And there's the subconscious, which runs constantly in the background and handles everything else: your heartbeat, your balance, your habitual reactions, the tightness in your chest before you've even processed why.",
+   "th": [
+    "body",
+    "knight"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "scc21eb73e1",
+   "text": "The subconscious isn't some mystical inner realm.",
+   "th": [
+    "thinker"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s50a314a494",
+   "text": "It's simply every mental process running without being routed through your narrating, decision-making awareness.",
+   "th": [
+    "thinker"
+   ],
+   "big": "awareness",
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "s792217cd27",
+   "text": "Researchers who study cognition describe an enormous share of daily thought and behavior as automatic rather than deliberate.",
+   "th": [
+    "forge",
+    "thinker"
+   ],
+   "big": "automatic",
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s8bdeaa3f4b",
+   "text": "You parallel park, recognize a friend's voice in a crowded room, and flinch at a loud noise without consulting your conscious mind about any of it.",
+   "th": [
+    "love",
+    "crowd"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s9efc63d81c",
+   "text": "That system is efficient precisely because it doesn't ask permission.",
+   "th": [
+    "thinker"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s56b990ab32",
+   "text": "Which is exactly why it's so hard to argue with when it's running a pattern you don't actually want anymore.",
+   "th": [
+    "thinker"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "s4c04aa2d6c",
+   "text": "This is also why willpower keeps losing.",
+   "th": [
+    "knight"
+   ],
+   "big": "willpower",
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "sc2733566c5",
+   "text": "You can consciously decide to stop procrastinating, stop overeating, stop dating people who treat you badly, and still catch yourself doing the exact same thing a week later.",
+   "th": [
+    "crowd"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s5e4b47c6d9",
+   "text": "That's not a character flaw.",
+   "th": [
+    "thinker"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "sfab07c4a0a",
+   "text": "That's architecture.",
+   "th": [
+    "machine"
+   ],
+   "big": "architecture",
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s75ac9f6a98",
+   "text": "Conscious willpower is a small, effortful, easily-depleted system trying to override an automatic one that's been drilled in through years of repetition.",
+   "th": [
+    "forge",
+    "hourglass"
+   ],
+   "big": "automatic",
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s90e87cf6a3",
+   "text": "It's a bit like trying to out-arm-wrestle a hydraulic press using pure motivation.",
+   "th": [
+    "machine",
+    "athlete"
+   ],
+   "big": "press",
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s4b71dafbfe",
+   "text": "The press doesn't get tired.",
+   "th": [
+    "machine"
+   ],
+   "big": "press",
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s750314a396",
+   "text": "It doesn't need to think.",
+   "th": [
+    "thinker"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "sad469eb08e",
+   "text": "It just fires.",
+   "th": [
+    "fire"
+   ],
+   "big": "fires",
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "ch2",
+   "card": "chapter",
+   "num": "II",
+   "title": "Where the Code Actually Gets Written",
+   "len": 4.4
+  },
+  {
+   "id": "s60ea872a37",
+   "text": "Most core beliefs, \"I'm not enough,\" \"people leave,\" \"money is hard to get,\" \"I have to earn love,\" were installed early, often before you had the verbal or critical capacity to question them.",
+   "th": [
+    "love",
+    "crowd"
+   ],
+   "big": "installed",
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s3a398a7a7a",
+   "text": "An adult who goes through a painful experience can reason about it afterward, weigh the evidence, put it in context.",
+   "th": [
+    "judge"
+   ],
+   "big": "evidence",
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s19d8ef9be3",
+   "text": "A child usually can't do that yet.",
+   "th": [
+    "child"
+   ],
+   "big": "child",
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s770a2ab231",
+   "text": "A child just absorbs the experience directly, and the nervous system encodes it as fact, because there's no internal filter yet capable of saying \"wait, is this actually true, or is this just what happened to me once, on one bad day.\"",
+   "th": [
+    "child",
+    "letter"
+   ],
+   "big": "child",
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "s8bd7524cd4",
+   "text": "This isn't a metaphor about impressionable young minds.",
+   "th": [
+    "child",
+    "machine"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "sb96f184063",
+   "text": "It's how the developing brain literally constructs itself.",
+   "th": [
+    "anatomy"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s0dd992c674",
+   "text": "Childhood is a period of exceptionally high neural plasticity, meaning the brain's physical wiring is being shaped in real time by whatever input it's getting, repeated experiences, repeated emotional tones, repeated messages from the people around you.",
+   "th": [
+    "child",
+    "anatomy"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s2976307590",
+   "text": "Those early years aren't just formative in a poetic sense.",
+   "th": [
+    "hourglass"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s58b29dd67c",
+   "text": "They are formative in a structural, cellular sense.",
+   "th": [
+    "thinker"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "scb3388cdad",
+   "text": "The blueprint gets drawn while you're still too young to hold the pen yourself.",
+   "th": [
+    "child",
+    "letter"
+   ],
+   "big": "blueprint",
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "ch3",
+   "card": "chapter",
+   "num": "III",
+   "title": "Neurons That Fire Together, Wire Together",
+   "len": 4.4
+  },
+  {
+   "id": "s9595ab06cb",
+   "text": "If you remember only one sentence from this entire video, make it this one.",
+   "th": [
+    "ghost"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s0996bffe7c",
+   "text": "It's called Hebbian learning, named after psychologist Donald Hebb, and it is one of the most well established principles in all of neuroscience.",
+   "th": [
+    "anatomy"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "sb5b4eb7081",
+   "text": "When two neurons activate together repeatedly, the connection between them physically strengthens.",
+   "th": [
+    "anatomy",
+    "forge"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "sd7af2b6c9a",
+   "text": "Repetition doesn't just reinforce a habit in some abstract, motivational-poster sense.",
+   "th": [
+    "forge",
+    "knight"
+   ],
+   "big": "repetition",
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s51cfa0370a",
+   "text": "It thickens and speeds up an actual physical pathway inside your brain, the same way a dirt trail slowly becomes a paved road the more feet walk over it.",
+   "th": [
+    "anatomy",
+    "road"
+   ],
+   "big": "road",
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "sa6966d0bf3",
+   "text": "Every time you rehearse a thought, \"I always mess this up,\" \"nobody actually likes me,\" you're not just having a passing thought.",
+   "th": [
+    "body",
+    "thinker"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "sa0ec6073ac",
+   "text": "You're paving a road.",
+   "th": [
+    "road"
+   ],
+   "big": "road",
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s7062168fd3",
+   "text": "And every road you stop walking eventually grows over.",
+   "th": [
+    "road"
+   ],
+   "big": "road",
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s0369ea0d0a",
+   "text": "This single mechanism is the entire scientific foundation underneath every legitimate claim about \"reprogramming\" the subconscious mind.",
+   "th": [
+    "thinker",
+    "sculptor"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s3689060433",
+   "text": "Not crystals.",
+   "th": [
+    "thinker"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "sb09565f1fc",
+   "text": "Not frequencies.",
+   "th": [
+    "thinker"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "sfac19673dd",
+   "text": "Repeated neural firing, over and over, until the new pattern becomes the path of least resistance instead of the old one.",
+   "th": [
+    "anatomy",
+    "road"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "sf0f77b2749",
+   "text": "The good news hiding inside this fact is enormous.",
+   "th": [
+    "thinker"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "sb4dfdab23e",
+   "text": "If a pattern was built through repetition, it can be rebuilt through repetition.",
+   "th": [
+    "forge",
+    "sculptor"
+   ],
+   "big": "repetition",
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "sa34c65fad0",
+   "text": "There's no special gene required, no rare gift, no secret only a handful of gurus have access to.",
+   "th": [
+    "thinker"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s753a469c91",
+   "text": "It's mechanical.",
+   "th": [
+    "machine"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s808f44fcf9",
+   "text": "It's available to anyone willing to do the actual reps.",
+   "th": [
+    "forge"
+   ],
+   "big": "reps",
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "ch4",
+   "card": "chapter",
+   "num": "IV",
+   "title": "Neuroplasticity Is the Real Escape Hatch",
+   "len": 4.4
+  },
+  {
+   "id": "sb808182584",
+   "text": "For most of the twentieth century, the working assumption in neuroscience was that the adult brain was basically fixed after childhood, wiring complete, no more renovations allowed.",
+   "th": [
+    "child",
+    "anatomy"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "sd1d936fa45",
+   "text": "That assumption has been thoroughly overturned.",
+   "th": [
+    "thinker"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s043f1587b3",
+   "text": "The brain retains a real, measurable capacity to reorganize itself, build new connections, and prune away unused ones across the entire lifespan, not just during childhood.",
+   "th": [
+    "child",
+    "anatomy"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "se887fde2d4",
+   "text": "This is neuroplasticity, and it's the actual scientific mechanism behind every credible claim about rewiring your mind at any age.",
+   "th": [
+    "anatomy",
+    "thinker"
+   ],
+   "big": "neuroplasticity",
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "seefbfed241",
+   "text": "It doesn't mean you can think a new reality into existence by repeating a phrase in the mirror.",
+   "th": [
+    "mirror",
+    "forge"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s3ef667128c",
+   "text": "It means your brain is a living, physical structure that keeps responding to what you repeatedly do, feel, and pay attention to, all the way through adulthood.",
+   "th": [
+    "anatomy",
+    "forge"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s9fc04f72b5",
+   "text": "The renovation permit never actually expires.",
+   "th": [
+    "sculptor"
+   ],
+   "big": "permit",
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "sf856a9e3c3",
+   "text": "Most people just never apply for one.",
+   "th": [
+    "crowd"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "ch5",
+   "card": "chapter",
+   "num": "V",
+   "title": "The Brain Doesn't File \"Real\" and \"Imagined\" in Separate Drawers",
+   "len": 4.4
+  },
+  {
+   "id": "s66b5da1070",
+   "text": "This next one sounds like a self-help slogan, but it genuinely holds up under scrutiny.",
+   "th": [
+    "thinker"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s728af29fb0",
+   "text": "Brain imaging research has repeatedly shown significant overlap between the neural regions activated during vividly imagined experiences and the regions activated during actually lived ones.",
+   "th": [
+    "anatomy",
+    "forge"
+   ],
+   "big": "imagined",
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s5da820de71",
+   "text": "Your brain, on a physiological level, doesn't draw a hard line between something that truly happened and something you pictured intensely enough.",
+   "th": [
+    "anatomy",
+    "letter"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "sb723c234ce",
+   "text": "This is why mental rehearsal works for athletes preparing for competition.",
+   "th": [
+    "athlete"
+   ],
+   "big": "rehearsal",
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s218866aef2",
+   "text": "It's why an old memory can spike your heart rate years after the fact, with no external trigger at all.",
+   "th": [
+    "ghost",
+    "body"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s9aca7fc329",
+   "text": "And it's why lying awake catastrophizing about tomorrow's meeting can leave you as drained as if the confrontation had actually happened.",
+   "th": [
+    "night",
+    "letter"
+   ],
+   "big": "drained",
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "sd8468e17af",
+   "text": "Your subconscious treats vivid, emotionally charged mental imagery as though it's live data coming in from the world.",
+   "th": [
+    "thinker"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s3bcaffe350",
+   "text": "That cuts both ways.",
+   "th": [
+    "thinker"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s9bcc99ea4a",
+   "text": "It's exactly why doom-scrolling and anxious rumination are so quietly exhausting, and it's exactly why deliberate, repeated visualization can lay down real neural groundwork for a belief or a skill before you've ever practiced it in the real world.",
+   "th": [
+    "anatomy",
+    "fear"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "ch6",
+   "card": "chapter",
+   "num": "VI",
+   "title": "The Ghost That Drives Without a License",
+   "len": 4.4
+  },
+  {
+   "id": "s7a528f1ac5",
+   "text": "There are two very different kinds of memory living inside you.",
+   "th": [
+    "ghost"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s14b94e596b",
+   "text": "Explicit memory is what you'd testify to in court: the facts, the dates, the exact words someone said to you.",
+   "th": [
+    "judge",
+    "ghost"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "sa3c87bf21e",
+   "text": "Implicit memory is different.",
+   "th": [
+    "ghost"
+   ],
+   "big": "implicit",
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s67e332e172",
+   "text": "It's procedural, emotional, and largely inaccessible to direct recall, which is exactly why you can feel a sudden wave of dread in a situation that merely resembles something from your childhood, without consciously remembering the original event at all.",
+   "th": [
+    "child",
+    "fear"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "s455977dbea",
+   "text": "Your body keeps a record your narrating mind never got access to.",
+   "th": [
+    "letter",
+    "body"
+   ],
+   "big": "record",
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s0696fe5300",
+   "text": "That mismatch explains a phrase almost everyone has said out loud at some point: \"I know logically this doesn't make sense, but I still feel it.\"",
+   "th": [
+    "portrait"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "sa7a87a24d5",
+   "text": "You're not being irrational.",
+   "th": [
+    "thinker"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "sbd0cf1d3ff",
+   "text": "You're running an implicit prediction that your conscious mind never got a chance to review, edit, or approve.",
+   "th": [
+    "ghost",
+    "thinker"
+   ],
+   "big": "implicit",
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "ch7",
+   "card": "chapter",
+   "num": "VII",
+   "title": "So How Does Actual Change Happen",
+   "len": 4.4
+  },
+  {
+   "id": "sb71e8d80a0",
+   "text": "Awareness has to come before modification.",
+   "th": [
+    "thinker"
+   ],
+   "big": "awareness",
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "sec6d45e6f4",
+   "text": "That's the consistent finding across cognitive behavioral research, and it's the part most viral content about \"manifesting a new mindset\" skips entirely.",
+   "th": [
+    "crowd",
+    "thinker"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s684defaa2d",
+   "text": "You cannot edit a pattern you can't see clearly.",
+   "th": [
+    "thinker"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s518758eaac",
+   "text": "A method that shows up again and again in clinical literature is disarmingly simple: notice the trigger, notice the automatic thought that fires in response, and interrupt the gap between stimulus and reaction before the old script finishes running on its own.",
+   "th": [
+    "letter",
+    "fire"
+   ],
+   "big": "script",
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "sf527e77069",
+   "text": "That gap, the half-second between what happens to you and what you habitually do about it, is where all real change actually lives.",
+   "th": [
+    "letter",
+    "sculptor"
+   ],
+   "big": "gap",
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s0ac9aedc13",
+   "text": "Widen that gap even slightly and you get leverage over a pattern that used to run you completely.",
+   "th": [
+    "thinker"
+   ],
+   "big": "gap",
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s30caba4870",
+   "text": "Skip it, and you get the exact same result you've always gotten, dressed up in a slightly different outfit.",
+   "th": [
+    "thinker"
+   ],
+   "big": "outfit",
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "s99d74f47ae",
+   "text": "There's also a reason therapists keep pushing written thought records instead of just telling people to \"think positive\" and hoping for the best.",
+   "th": [
+    "letter",
+    "crowd"
+   ],
+   "big": "written",
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s81a2814fda",
+   "text": "Externalizing a thought, physically writing down the trigger, the automatic reaction, and the actual evidence for and against it, forces your slower, deliberate reasoning system to engage with material that would otherwise stay buried in pure automatic processing.",
+   "th": [
+    "letter",
+    "judge"
+   ],
+   "big": "automatic",
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s6b651bf820",
+   "text": "This is the mechanism underneath a huge share of cognitive behavioral therapy, one of the most evidence-backed approaches that exists for anxiety, depression, and deeply grooved negative thought loops.",
+   "th": [
+    "machine",
+    "fear"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "sf7c04d45a8",
+   "text": "It works because it drags implicit material into a system that's actually capable of evaluating and revising it.",
+   "th": [
+    "ghost"
+   ],
+   "big": "implicit",
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "ch8",
+   "card": "chapter",
+   "num": "VIII",
+   "title": "Identity Beats Behavior, Every Single Time",
+   "len": 4.4
+  },
+  {
+   "id": "s10705b4d8f",
+   "text": "This is where most self-improvement attempts quietly fall apart.",
+   "th": [
+    "thinker"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "sa1abf7a309",
+   "text": "People try to force a new behavior on top of an old identity, and then wonder why they white-knuckle a habit for three weeks before snapping right back to where they started.",
+   "th": [
+    "crowd",
+    "forge"
+   ],
+   "big": "identity",
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "se7cf5d4843",
+   "text": "If somewhere underneath it all you still believe \"I'm not a disciplined person,\" your subconscious will keep steering you back toward evidence that confirms that belief, because confirming existing beliefs is essentially what predictive brain systems are built to do.",
+   "th": [
+    "anatomy",
+    "judge"
+   ],
+   "big": "evidence",
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "s9b9e978366",
+   "text": "Modern cognitive science increasingly describes the brain as a prediction machine, constantly forecasting what should happen next based on what it already believes, and then filtering incoming reality through that forecast.",
+   "th": [
+    "anatomy",
+    "letter"
+   ],
+   "big": "prediction",
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s1656f9843a",
+   "text": "Change the underlying belief about who you are, and the behavior gradually stops feeling like a fight you have to win every single day.",
+   "th": [
+    "thinker",
+    "sculptor"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "sf16d62f7b8",
+   "text": "It starts feeling like something that simply matches who you've decided you are now.",
+   "th": [
+    "thinker"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "ch9",
+   "card": "chapter",
+   "num": "IX",
+   "title": "State Matters More Than People Realize",
+   "len": 4.4
+  },
+  {
+   "id": "sa941dbb258",
+   "text": "Your brain isn't equally receptive to new input at every moment of the day.",
+   "th": [
+    "anatomy"
+   ],
+   "big": "receptive",
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "sc3a084d5f3",
+   "text": "States of deep relaxation, focused attention, and reduced analytical vigilance appear to make the mind more open to accepting new associations, which is part of why practices like meditation, self-hypnosis, and even the drowsy few minutes right before sleep get so much attention in this field.",
+   "th": [
+    "night",
+    "letter"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s554d659d22",
+   "text": "Clinical hypnosis has decades of research behind it for pain management, anxiety, and smoking cessation, precisely because it lowers the usual critical filtering and lets a new suggestion land more directly, without the analytical mind arguing every step of the way.",
+   "th": [
+    "fear",
+    "monk"
+   ],
+   "big": "hypnosis",
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "sf7f61eed0c",
+   "text": "None of this is magic.",
+   "th": [
+    "thinker"
+   ],
+   "big": "magic",
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "sd44f2fefc5",
+   "text": "It's an attention and arousal state that measurably changes how receptive the brain is to new input, and it's one of the more practical levers available if you're trying to install a new belief rather than just repeat a phrase at a distracted mind that isn't listening.",
+   "th": [
+    "anatomy",
+    "forge"
+   ],
+   "big": "receptive",
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "ch10",
+   "card": "chapter",
+   "num": "X",
+   "title": "Emotion Is the Ink, Not Just the Pen",
+   "len": 4.4
+  },
+  {
+   "id": "s187fd0e1f6",
+   "text": "A belief repeated flatly, with no real feeling attached to it, barely leaves a mark.",
+   "th": [
+    "forge",
+    "thinker"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s650db1a10f",
+   "text": "A belief absorbed during a moment of intense fear, shame, humiliation, or love gets burned in fast and deep, sometimes in a single exposure, because emotional arousal amplifies memory consolidation.",
+   "th": [
+    "fear",
+    "love"
+   ],
+   "big": "burned",
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s288da603aa",
+   "text": "This is exactly why one humiliating comment from a parent or a teacher can outweigh a thousand neutral, forgettable days, and it's why reprogramming works better when you don't just recite a new belief like a grocery list.",
+   "th": [
+    "child",
+    "fear"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "sfe2c77efa4",
+   "text": "Pairing a new belief with genuine felt emotion, real conviction, real relief, real pride, gives your brain the same kind of amplification that let the old, unwanted pattern take hold in the first place.",
+   "th": [
+    "anatomy",
+    "thinker"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s77fa827930",
+   "text": "You're not fighting fire with water.",
+   "th": [
+    "fire",
+    "knight"
+   ],
+   "big": "fire",
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "sb736e8b0d0",
+   "text": "You're fighting fire with a bigger, more deliberate fire.",
+   "th": [
+    "fire",
+    "knight"
+   ],
+   "big": "fire",
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "ch11",
+   "card": "chapter",
+   "num": "XI",
+   "title": "Evidence Beats Affirmation",
+   "len": 4.4
+  },
+  {
+   "id": "s5dad8bf418",
+   "text": "Repeating \"I am confident\" at a bathroom mirror while your actual lived experience says otherwise doesn't just fail to help.",
+   "th": [
+    "mirror",
+    "forge"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "sf4920f33f9",
+   "text": "It can genuinely backfire, because your subconscious is quietly comparing that statement against the evidence bank it's already built up, and flagging it as false the moment you say it.",
+   "th": [
+    "fire",
+    "judge"
+   ],
+   "big": "evidence",
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "se5a4927822",
+   "text": "What works considerably better, and what shows up consistently across structured cognitive approaches, is building an actual evidence case.",
+   "th": [
+    "judge"
+   ],
+   "big": "evidence",
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "sfa247d2782",
+   "text": "Name the belief you want to install, and then go hunting for concrete past moments that already support it.",
+   "th": [
+    "thinker",
+    "sculptor"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "s6bbb6d966f",
+   "text": "Ten specific memories where you were, in fact, capable, or brave, or loved, do more real rewiring work than a hundred hollow repetitions of a phrase you don't yet believe.",
+   "th": [
+    "anatomy",
+    "love"
+   ],
+   "big": "memories",
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "sa3fda05005",
+   "text": "Evidence is persuasive to a brain that runs on pattern recognition.",
+   "th": [
+    "anatomy",
+    "judge"
+   ],
+   "big": "evidence",
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "sdf1a2e8d37",
+   "text": "Empty affirmation is not.",
+   "th": [
+    "thinker"
+   ],
+   "big": "affirmation",
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "ch12",
+   "card": "chapter",
+   "num": "XII",
+   "title": "This Is Slow, and That's the Part Nobody Wants to Hear",
+   "len": 4.4
+  },
+  {
+   "id": "s6b23cdd068",
+   "text": "Real, structurally embedded belief change generally takes weeks of consistent practice, not a single weekend and definitely not a single video.",
+   "th": [
+    "forge",
+    "thinker"
+   ],
+   "big": "weeks",
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "sfe8537e5ac",
+   "text": "That's a frustrating thing to hear in a culture that wants a quick fix for a fifteen-year-old wound, but it's also simply how physical change works inside a physical organ.",
+   "th": [
+    "body",
+    "crowd"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "sf5131aeaa2",
+   "text": "You didn't install the old pattern in one sitting either.",
+   "th": [
+    "sculptor"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s5c76665e6a",
+   "text": "It was built through thousands of small, repeated moments spread across years.",
+   "th": [
+    "forge",
+    "hourglass"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "sb90e5ab47b",
+   "text": "Undoing it follows the exact same rules.",
+   "th": [
+    "thinker"
+   ],
+   "big": "rules",
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "sd189c6590b",
+   "text": "The upside buried inside that frustration is that the timeline is finite and knowable.",
+   "th": [
+    "hourglass"
+   ],
+   "big": "finite",
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "secc4eceab9",
+   "text": "It's not an indefinite wait, hoping a feeling eventually fades on its own with no input from you.",
+   "th": [
+    "hourglass"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s8f5879d06e",
+   "text": "It's a process with a beginning, a method, and a reasonably predictable end, provided you actually show up for it.",
+   "th": [
+    "thinker"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "ch13",
+   "card": "chapter",
+   "num": "XIII",
+   "title": "What This Actually Looks Like in Practice",
+   "len": 4.4
+  },
+  {
+   "id": "s4ae7435f66",
+   "text": "Strip away the marketing language, and the real protocol is almost boring in how simple it is.",
+   "th": [
+    "market"
+   ],
+   "big": "protocol",
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s111fac27cd",
+   "text": "Identify the specific automatic belief driving the behavior, not a vague feeling but the literal sentence running underneath it.",
+   "th": [
+    "thinker"
+   ],
+   "big": "driving",
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s7130c89daa",
+   "text": "Catch the moment it fires, in real time, and name it before reacting on autopilot.",
+   "th": [
+    "fire",
+    "hourglass"
+   ],
+   "big": "autopilot",
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s7b1483dc24",
+   "text": "Build a written evidence case for the belief you'd rather have running instead.",
+   "th": [
+    "letter",
+    "judge"
+   ],
+   "big": "written",
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s77c6bd2a0c",
+   "text": "Rehearse that new belief with genuine emotional engagement rather than a flat recitation, ideally during a calm, focused state instead of a stressed, distracted one.",
+   "th": [
+    "monk",
+    "thinker"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s152fea6f3b",
+   "text": "Then repeat it on an actual schedule, daily if you can manage it, for weeks, not days.",
+   "th": [
+    "forge"
+   ],
+   "big": "weeks",
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "s00a3d1952a",
+   "text": "That's the whole mechanism underneath every legitimate claim about reprogramming the subconscious mind, stripped of the hype and the crystals and the promise of overnight transformation.",
+   "th": [
+    "night",
+    "thinker"
+   ],
+   "big": "hype",
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "ch14",
+   "card": "chapter",
+   "num": "XIV",
+   "title": "You Were Built by Repetition. Now You Know How to Use It on Purpose.",
+   "len": 4.4
+  },
+  {
+   "id": "sddaede4b02",
+   "text": "There's an unsettling truth here, and a freeing one, and they happen to be the exact same fact stated two different ways.",
+   "th": [
+    "letter",
+    "light"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s064aabbd3f",
+   "text": "Unsettling, because it means nobody is coming to rescue you from the old programming.",
+   "th": [
+    "body",
+    "light"
+   ],
+   "big": "programming",
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s0a477255eb",
+   "text": "You have to actually do the reps yourself.",
+   "th": [
+    "forge"
+   ],
+   "big": "reps",
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "sf42982ebb8",
+   "text": "Freeing, because it means the process isn't mysterious, isn't reserved for people with some rare gift for self-awareness, and isn't permanent just because it happens to be old.",
+   "th": [
+    "letter",
+    "crowd"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "sfd62a08500",
+   "text": "Your brain has been listening to you your entire life, taking careful, literal notes on everything you repeated often enough to matter.",
+   "th": [
+    "anatomy",
+    "letter"
+   ],
+   "big": "listening",
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s11bea29c24",
+   "text": "It's still listening right now, in this exact moment.",
+   "th": [
+    "portrait"
+   ],
+   "big": "listening",
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "sd360e3a3fb",
+   "text": "The only real question left is what you're going to tell it next, and whether you're actually going to say it enough times for it to finally believe you.",
+   "th": [
+    "thinker",
+    "hourglass"
+   ],
+   "big": "believe",
+   "red": false,
+   "gap": 1.55
+  }
+ ]
+}
