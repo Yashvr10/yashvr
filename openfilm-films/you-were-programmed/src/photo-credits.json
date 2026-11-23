@@ -1,1 +1,130 @@
-{}
+{
+ "thinker-c1": {
+  "title": "A Philosopher",
+  "artist": "Walter Gay (American, 1856\u20131937)",
+  "date": "1882",
+  "license": "Public domain (CC0, Cleveland Museum of Art)",
+  "source": "https://clevelandart.org/art/1915.686",
+  "kind": "Painting"
+ },
+ "thinker-c2": {
+  "title": "The Philosopher",
+  "artist": "Alphonse Legros (French, 1837\u20131911)",
+  "date": "c. 1857\u20131911",
+  "license": "Public domain (CC0, Cleveland Museum of Art)",
+  "source": "https://clevelandart.org/art/1918.87",
+  "kind": "Print"
+ },
+ "thinker-c3": {
+  "title": "The Alchymist, in Search of the Philosopher's Stone, Discovers Phosphorus, and Prays for the Successful Conclusion of his Operation, as was the Custom of the An",
+  "artist": "William Pether (British, c. 1738\u20131821)",
+  "date": "1775",
+  "license": "Public domain (CC0, Cleveland Museum of Art)",
+  "source": "https://clevelandart.org/art/1995.2",
+  "kind": "Print"
+ },
+ "thinker-c4": {
+  "title": "Various Caprices:  The Philosopher Holding a Book",
+  "artist": "Giovanni Battista Tiepolo (Italian, 1696\u20131770)",
+  "date": "1735\u201350",
+  "license": "Public domain (CC0, Cleveland Museum of Art)",
+  "source": "https://clevelandart.org/art/1964.466",
+  "kind": "Print"
+ },
+ "thinker-c5": {
+  "title": "Scherzi di Fantasia:  The Philosopher",
+  "artist": "Giovanni Battista Tiepolo (Italian, 1696\u20131770)",
+  "date": "1750\u201360",
+  "license": "Public domain (CC0, Cleveland Museum of Art)",
+  "source": "https://clevelandart.org/art/1954.737",
+  "kind": "Print"
+ },
+ "thinker-c6": {
+  "title": "A Bearded Man Wearing a Hat",
+  "artist": "Rembrandt van Rijn (Dutch, 1606\u20131669)",
+  "date": "c. 1655\u201360",
+  "license": "Public domain (CC0, Cleveland Museum of Art)",
+  "source": "https://clevelandart.org/art/1950.252",
+  "kind": "Painting"
+ },
+ "thinker-c7": {
+  "title": "The Philosopher",
+  "artist": "\u00c9douard Manet (French, 1832\u20131883)",
+  "date": "1866",
+  "license": "Public domain (CC0, Cleveland Museum of Art)",
+  "source": "https://clevelandart.org/art/1922.203",
+  "kind": "Print"
+ },
+ "thinker-c8": {
+  "title": "Roman Ruins, Villa Pamfili",
+  "artist": "Hubert Robert (French, 1733\u20131808)",
+  "date": "1774",
+  "license": "Public domain (CC0, Cleveland Museum of Art)",
+  "source": "https://clevelandart.org/art/1951.485",
+  "kind": "Drawing"
+ },
+ "anatomy-c1": {
+  "title": "A Sleeping Leopard",
+  "artist": "George Stubbs (British, 1724\u20131806)",
+  "date": "1791",
+  "license": "Public domain (CC0, Cleveland Museum of Art)",
+  "source": "https://clevelandart.org/art/1980.90",
+  "kind": "Print"
+ },
+ "anatomy-c2": {
+  "title": "A Eunuch's Dream",
+  "artist": "Jean Lecomte du Nou\u00ff (French, 1842\u20131923)",
+  "date": "1874",
+  "license": "Public domain (CC0, Cleveland Museum of Art)",
+  "source": "https://clevelandart.org/art/1991.173",
+  "kind": "Painting"
+ },
+ "anatomy-c3": {
+  "title": "Battle of the Nudes",
+  "artist": "Antonio del Pollaiuolo (Italian, 1431/32\u20131498)",
+  "date": "1470s\u201380s",
+  "license": "Public domain (CC0, Cleveland Museum of Art)",
+  "source": "https://clevelandart.org/art/1967.127",
+  "kind": "Print"
+ },
+ "anatomy-c4": {
+  "title": "Saint Sebastian",
+  "artist": "Perugino (Italian, c. 1450/55\u20131523)",
+  "date": "c. 1493",
+  "license": "Public domain (CC0, Cleveland Museum of Art)",
+  "source": "https://clevelandart.org/art/1958.411",
+  "kind": "Drawing"
+ },
+ "anatomy-c5": {
+  "title": "Seated Male Nude",
+  "artist": "Baccio Bandinelli (Italian, 1493\u20131560)",
+  "date": "c. 1516\u201320",
+  "license": "Public domain (CC0, Cleveland Museum of Art)",
+  "source": "https://clevelandart.org/art/1998.6",
+  "kind": "Drawing"
+ },
+ "anatomy-c6": {
+  "title": "Return from the Horse Fair",
+  "artist": "Rosa Bonheur (French, 1822\u20131899)",
+  "date": "1873",
+  "license": "Public domain (CC0, Cleveland Museum of Art)",
+  "source": "https://clevelandart.org/art/2008.410",
+  "kind": "Drawing"
+ },
+ "anatomy-c7": {
+  "title": "Skeletons, also known as Allegory of Death and Fame",
+  "artist": "Agostino Veneziano (Italian, 1490\u20131540)",
+  "date": "1518",
+  "license": "Public domain (CC0, Cleveland Museum of Art)",
+  "source": "https://clevelandart.org/art/1993.8",
+  "kind": "Print"
+ },
+ "anatomy-c8": {
+  "title": "Comparative Anatomy Study",
+  "artist": "Thomas Rowlandson (British, 1756\u20131827)",
+  "date": "c. 1810\u201320",
+  "license": "Public domain (CC0, Cleveland Museum of Art)",
+  "source": "https://clevelandart.org/art/2013.244",
+  "kind": "Drawing"
+ }
+}

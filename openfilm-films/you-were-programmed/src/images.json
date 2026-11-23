@@ -1,1 +1,22 @@
-{}
+{
+ "thinker": [
+  "thinker-c1",
+  "thinker-c2",
+  "thinker-c3",
+  "thinker-c4",
+  "thinker-c5",
+  "thinker-c6",
+  "thinker-c7",
+  "thinker-c8"
+ ],
+ "anatomy": [
+  "anatomy-c1",
+  "anatomy-c2",
+  "anatomy-c3",
+  "anatomy-c4",
+  "anatomy-c5",
+  "anatomy-c6",
+  "anatomy-c7",
+  "anatomy-c8"
+ ]
+}
