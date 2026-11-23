@@ -1,0 +1,1 @@
+bm_lewis|0.84|0.93|Repeated neural firing, over and over, until the new pattern becomes the path of least resistance instead of the old one.

@@ -1,0 +1,1 @@
+bm_lewis|0.84|0.93|A method that shows up again and again in clinical literature is disarmingly simple: notice the trigger, notice the automatic thought that fires in response, and interrupt the gap between stimulus and reaction before the old script finishes running on its own.

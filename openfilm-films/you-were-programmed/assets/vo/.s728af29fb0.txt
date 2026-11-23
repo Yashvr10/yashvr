@@ -1,0 +1,1 @@
+bm_lewis|0.84|0.93|Brain imaging research has repeatedly shown significant overlap between the neural regions activated during vividly imagined experiences and the regions activated during actually lived ones.

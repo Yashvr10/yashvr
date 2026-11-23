@@ -1,4 +1,4 @@
-// Builds film.html and captions.html for "The Battle of Thoughts" (same look as Becoming and The Price Of Being A Man).
+// Builds film.html and captions.html for "You Were Programmed" (same look as Becoming and The Price Of Being A Man).
 //   pictures  public-domain paintings, prints and drawings (Cleveland Museum of Art, Art Institute of Chicago), one at a
 //             time, a slow push on each, short dissolves through dark between them
 //   captions  small lowercase EB Garamond words in the middle of the frame, the sentence's key word as a big script accent
@@ -17,7 +17,7 @@ const norm = (w) => w.toLowerCase().replace(/[^a-z0-9]/g, "");
 const dur = (f) => +execFileSync("ffprobe", ["-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", path.join(ROOT, f)]).toString();
 let seed = 5; const rnd = () => ((seed = (seed * 1103515245 + 12345) % 2147483648) / 2147483648);
 
-const ALIAS = {"light": ["light", "angel", "church"], "monk": ["monk", "priest", "saint"], "demon": ["demon", "hell", "anthony"], "prayer": ["prayer", "monk", "saint"], "despair": ["despair", "night"], "night": ["night", "interior"], "thinker": ["thinker", "book", "portrait"], "crowd": ["crowd", "street", "city"], "portrait": ["portrait", "thinker"], "book": ["book", "thinker", "saint"], "church": ["church", "light"], "knight": ["knight", "armour", "battle"], "hell": ["hell", "demon"], "castle": ["castle", "ruins"], "mirror": ["mirror", "portrait"], "morning": ["morning", "window", "landscape"], "saint": ["saint", "monk"], "angel": ["angel", "light"], "shadow": ["shadow", "night", "demon"], "christ": ["christ", "crucifixion", "saint"], "landscape": ["landscape", "mountain"], "desert": ["desert", "anthony", "landscape"], "priest": ["priest", "monk"], "anger": ["anger", "crowd"], "feast": ["feast", "stilllife"], "street": ["street", "crowd", "city"], "battle": ["battle", "knight"], "storm": ["storm", "sea"], "crucifixion": ["crucifixion", "christ"], "bed": ["bed", "night"], "beggar": ["beggar", "street"], "statue": ["statue", "stoic"], "interior": ["interior", "door", "window"], "anthony": ["anthony", "desert", "demon"], "road": ["road", "landscape"], "door": ["door", "interior"], "mountain": ["mountain", "landscape"], "prison": ["prison", "castle"], "forge": ["forge", "workshop"], "letter": ["letter", "book"], "mask": ["mask", "crowd"], "fog": ["fog", "landscape"], "city": ["city", "street"], "clerk": ["clerk", "interior"], "milton": ["milton", "hell", "demon"], "palace": ["palace", "interior"], "field": ["field", "harvest"], "armour": ["armour", "knight"], "archer": ["archer", "knight"], "market": ["market", "shop", "street"], "serpent": ["serpent", "demon"], "window": ["window", "interior"], "stoic": ["stoic", "statue", "seneca", "marcus"], "doctor": ["doctor", "priest"], "vision": ["vision", "light", "angel"], "ruins": ["ruins", "castle"], "pride": ["pride", "mirror", "portrait"], "stilllife": ["stilllife", "feast"], "workshop": ["workshop", "forge"], "aristotle": ["aristotle", "statue", "stoic"], "rosary": ["rosary", "prayer"], "shop": ["shop", "market"], "seneca": ["seneca", "stoic"], "marcus": ["marcus", "stoic"], "lake": ["lake", "landscape"], "hercules": ["hercules", "statue"], "skull": ["skull", "monk"], "jerome": ["jerome", "saint", "book"], "fire": ["fire", "forge"], "ignatius": ["ignatius", "saint", "prayer"], "harvest": ["harvest", "field"], "sea": ["sea", "storm"], "ship": ["ship", "sea"], "job": ["job", "despair", "saint"]};
+const ALIAS = {"thinker": ["thinker", "portrait", "letter"], "anatomy": ["anatomy", "body", "thinker"], "letter": ["letter", "thinker"], "forge": ["forge", "machine"], "crowd": ["crowd", "market"], "child": ["child", "love"], "hourglass": ["hourglass", "night"], "sculptor": ["sculptor", "forge"], "judge": ["judge", "crowd"], "machine": ["machine", "forge"], "ghost": ["ghost", "night", "fear"], "knight": ["knight", "athlete"], "body": ["body", "anatomy"], "fire": ["fire", "forge"], "fear": ["fear", "ghost", "night"], "love": ["love", "child"], "road": ["road", "light"], "portrait": ["portrait", "thinker"], "night": ["night", "ghost"], "athlete": ["athlete", "knight"], "mirror": ["mirror", "portrait"], "monk": ["monk", "night"], "light": ["light", "road"], "market": ["market", "crowd"]};
 const uses = {}; const ALL = [...new Set(Object.values(POOLS).flat())]; ALL.forEach((k) => (uses[k] = 0));
 let recent = [];
 // a cut-out is used only when its figure leaves most of a red word visible: BAND is how much of the frame's middle the
@@ -106,7 +106,7 @@ for (const s of cfg.scenes) {
   });
   t = end;
 }
-const title = "The Battle of Thoughts";
+const title = "You Were Programmed";
 ends.push({ at: r3(t + 0.3), end: r3(t + 4.3), text: title });
 const FILM = r3(q(t + 4.6));
 

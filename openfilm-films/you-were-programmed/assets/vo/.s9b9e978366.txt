@@ -1,0 +1,1 @@
+bm_lewis|0.84|0.93|Modern cognitive science increasingly describes the brain as a prediction machine, constantly forecasting what should happen next based on what it already believes, and then filtering incoming reality through that forecast.
