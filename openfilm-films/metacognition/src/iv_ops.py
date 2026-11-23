@@ -2,7 +2,7 @@
 # and the word times in assets/vo/<id>.words.json.
 #   python3 src/iv_ops.py <iv-assets.json> <out-dir>  -> ops-place.json, ops-text.json
 # Pictures on V1 (one moving clip per shot); narration on A1; music bed on A2 (three calm tracks, about -36 LUFS under the
-# voice). Text: yellow phrase captions (as in Y) on V2; chapter titles, sub-headings, quotes and the sign-off on V3-V6.
+# voice). Text: yellow phrase captions (as in Y) on V2; chapter titles, sub-headings, quotes and the sign-off from V3 up (invideo stacks overlapping ones on new tracks).
 import json, re, sys
 FPS = 30
 ids = json.load(open(sys.argv[1])); out = sys.argv[2]
@@ -75,13 +75,13 @@ font = lambda k: ids[f"font-{k}"]
 text = [
     dict(op="add_captions", track="V2", slides=cap, style=dict(font=font("inter-mi"), font_size=52, font_weight=500, color="#F2D33B", align="center", shadow=True, shadow_color="#000000c0", shadow_blur=12)),
     dict(op="add_captions", track="V3", slides=titles, style=dict(font=font("instrument"), font_size=104, font_weight=400, color="#F2EDE4", align="center")),
-    dict(op="add_captions", track="V4", slides=subs, style=dict(font=font("garamond"), font_size=40, font_weight=400, color="#E2B45E", align="center")),
-    dict(op="add_captions", track="V5", slides=heads, style=dict(font=font("instrument"), font_size=84, font_weight=400, color="#E2B45E", align="center")),
-    dict(op="add_captions", track="V6", slides=quotes, style=dict(font=font("garamond"), font_size=52, font_weight=400, color="#F7F2E8", align="center", shadow=True, shadow_color="#000000e0", shadow_blur=24)),
-    dict(op="add_captions", track="V7", slides=bys, style=dict(font=font("garamond"), font_size=34, font_weight=400, color="#E2B45E", align="center", shadow=True, shadow_color="#000000e0", shadow_blur=16)),
+    dict(op="add_captions", track="V3", slides=subs, style=dict(font=font("garamond"), font_size=40, font_weight=400, color="#E2B45E", align="center")),
+    dict(op="add_captions", track="V3", slides=heads, style=dict(font=font("instrument"), font_size=84, font_weight=400, color="#E2B45E", align="center")),
+    dict(op="add_captions", track="V3", slides=quotes, style=dict(font=font("garamond"), font_size=52, font_weight=400, color="#F7F2E8", align="center", shadow=True, shadow_color="#000000e0", shadow_blur=24)),
+    dict(op="add_captions", track="V3", slides=bys, style=dict(font=font("garamond"), font_size=34, font_weight=400, color="#E2B45E", align="center", shadow=True, shadow_color="#000000e0", shadow_blur=16)),
 ]
-text = [x for x in text if x["slides"]]
+pos = [(0, 390), (0, -20), (0, 80), (0, 0), (0, -60), (0, 150)]          # where each text clip goes (x, y from the centre)
+keep = [i for i, x in enumerate(text) if x["slides"]]; text = [text[i] for i in keep]; pos = [pos[i] for i in keep]
 json.dump(place, open(f"{out}/ops-place.json", "w")); json.dump(text, open(f"{out}/ops-text.json", "w"), ensure_ascii=False)
 print(len(place), "placements;", len(cap), "caption phrases;", len(titles), "chapters;", len(heads), "sub-headings;", len(quotes), "quotes; end", END_F / FPS, "s")
-# where each text clip goes (applied after the clips exist): captions low, quote mid, attribution under it, subtitle under the title
-json.dump(dict(V2=(0, 390), V3=(0, -20), V4=(0, 80), V5=(0, 0), V6=(0, -60), V7=(0, 150)), open(f"{out}/positions.json", "w"))
+json.dump(pos, open(f"{out}/positions.json", "w"))
