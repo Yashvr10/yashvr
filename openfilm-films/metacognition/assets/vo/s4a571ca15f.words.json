@@ -1,0 +1,47 @@
+[
+{
+"word": "Before",
+"start": 0.0,
+"end": 0.44
+},
+{
+"word": "we",
+"start": 0.44,
+"end": 0.72
+},
+{
+"word": "begin,",
+"start": 0.72,
+"end": 1.14
+},
+{
+"word": "I",
+"start": 1.64,
+"end": 1.78
+},
+{
+"word": "want",
+"start": 1.78,
+"end": 1.96
+},
+{
+"word": "you",
+"start": 1.96,
+"end": 2.12
+},
+{
+"word": "to",
+"start": 2.12,
+"end": 2.26
+},
+{
+"word": "do",
+"start": 2.26,
+"end": 2.44
+},
+{
+"word": "something.",
+"start": 2.44,
+"end": 2.84
+}
+]

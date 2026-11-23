@@ -1,0 +1,142 @@
+{
+ "thinker": [
+  "thinker-c1",
+  "thinker-c2",
+  "thinker-c3",
+  "thinker-c4",
+  "thinker-c5",
+  "thinker-c6",
+  "thinker-c7",
+  "thinker-c8"
+ ],
+ "judge": [
+  "judge-c5",
+  "judge-c6",
+  "judge-c7",
+  "judge-c8",
+  "judge-c9",
+  "judge-c10",
+  "judge-c11"
+ ],
+ "mirror": [
+  "mirror-c1",
+  "mirror-c2",
+  "mirror-c3",
+  "mirror-c4",
+  "mirror-c5",
+  "mirror-c6"
+ ],
+ "child": [
+  "child-c1",
+  "child-c2",
+  "child-c3",
+  "child-c4",
+  "child-c5"
+ ],
+ "road": [
+  "road-c1",
+  "road-c2",
+  "road-c3",
+  "road-c4"
+ ],
+ "light": [
+  "light-c1",
+  "light-c2",
+  "light-c3"
+ ],
+ "study": [
+  "study-c1",
+  "study-c2",
+  "study-c3"
+ ],
+ "hand": [
+  "hand-c1",
+  "hand-c2",
+  "hand-c3"
+ ],
+ "fear": [
+  "fear-c1",
+  "fear-c2",
+  "fear-c3"
+ ],
+ "anatomy": [
+  "anatomy-c1",
+  "anatomy-c2",
+  "anatomy-c3"
+ ],
+ "letter": [
+  "letter-c1",
+  "letter-c2",
+  "letter-c3"
+ ],
+ "hourglass": [
+  "hourglass-c1",
+  "hourglass-c2",
+  "hourglass-c3"
+ ],
+ "crowd": [
+  "crowd-c1",
+  "crowd-c2",
+  "crowd-c3"
+ ],
+ "night": [
+  "night-c1",
+  "night-c2",
+  "night-c3"
+ ],
+ "helm": [
+  "helm-c1",
+  "helm-c2",
+  "helm-c3"
+ ],
+ "sculptor": [
+  "sculptor-c1",
+  "sculptor-c2",
+  "sculptor-c3"
+ ],
+ "shadow": [
+  "shadow-c1",
+  "shadow-c2",
+  "shadow-c3"
+ ],
+ "science": [
+  "science-c1",
+  "science-c2",
+  "science-c3"
+ ],
+ "school": [
+  "school-c1",
+  "school-c2",
+  "school-c3"
+ ],
+ "dream": [
+  "dream-c1",
+  "dream-c2",
+  "dream-c3"
+ ],
+ "chess": [
+  "chess-c1",
+  "chess-c2",
+  "chess-c3"
+ ],
+ "puppet": [
+  "puppet-c1",
+  "puppet-c2",
+  "puppet-c3"
+ ],
+ "sea": [
+  "sea-c1",
+  "sea-c2",
+  "sea-c3"
+ ],
+ "river": [
+  "river-c1",
+  "river-c2",
+  "river-c3"
+ ],
+ "double": [
+  "double-c1",
+  "double-c2",
+  "double-c3"
+ ]
+}

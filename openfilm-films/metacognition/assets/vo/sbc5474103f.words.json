@@ -1,0 +1,42 @@
+[
+{
+"word": "Quite",
+"start": 0.0,
+"end": 0.3
+},
+{
+"word": "literally,",
+"start": 0.3,
+"end": 0.74
+},
+{
+"word": "try",
+"start": 1.16,
+"end": 1.44
+},
+{
+"word": "and",
+"start": 1.44,
+"end": 1.66
+},
+{
+"word": "catch",
+"start": 1.66,
+"end": 1.96
+},
+{
+"word": "your",
+"start": 1.96,
+"end": 2.22
+},
+{
+"word": "next",
+"start": 2.22,
+"end": 2.46
+},
+{
+"word": "thought.",
+"start": 2.46,
+"end": 2.84
+}
+]

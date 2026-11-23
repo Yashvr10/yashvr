@@ -1,0 +1,1621 @@
+{
+ "voice": "bm_lewis",
+ "speed": 0.84,
+ "pitch": 0.93,
+ "scenes": [
+  {
+   "id": "s4a571ca15f",
+   "text": "Before we begin, I want you to do something.",
+   "th": [
+    "thinker"
+   ],
+   "gap": 0.9
+  },
+  {
+   "id": "s1fc1e0463d",
+   "text": "I want you to wait for the next thought, and become consciously aware of it the moment it arrives.",
+   "th": [
+    "thinker",
+    "mirror"
+   ],
+   "gap": 0.9
+  },
+  {
+   "id": "sbc5474103f",
+   "text": "Quite literally, try and catch your next thought.",
+   "th": [
+    "hand"
+   ],
+   "gap": 0.9
+  },
+  {
+   "id": "s7e8802cbe6",
+   "text": "Not after. Do it now.",
+   "th": [
+    "hourglass"
+   ],
+   "gap": 0.8
+  },
+  {
+   "id": "s671e4e22d9",
+   "text": "Three.",
+   "th": [
+    "hourglass"
+   ],
+   "gap": 0.55
+  },
+  {
+   "id": "s55691f9051",
+   "text": "Two.",
+   "th": [
+    "hourglass"
+   ],
+   "gap": 0.55
+  },
+  {
+   "id": "s194d30aed0",
+   "text": "One.",
+   "th": [
+    "hourglass"
+   ],
+   "gap": 0.55
+  },
+  {
+   "id": "s0e2e83a3e1",
+   "text": "Go.",
+   "th": [
+    "thinker"
+   ],
+   "gap": 4.0
+  },
+  {
+   "id": "s34b31c9a02",
+   "text": "What? You can’t do it?",
+   "th": [
+    "thinker"
+   ],
+   "gap": 1.0
+  },
+  {
+   "id": "s5eae0ed8b8",
+   "text": "The reason is simple: the waiting itself turns into a thought.",
+   "th": [
+    "thinker",
+    "mirror"
+   ],
+   "gap": 0.9
+  },
+  {
+   "id": "s9185ed7405",
+   "text": "When your mind is so absorbed in listening for a thought, it cannot even produce one.",
+   "th": [
+    "thinker"
+   ],
+   "gap": 0.9
+  },
+  {
+   "id": "s3319d4e4b0",
+   "text": "But something strange happened while you were trying.",
+   "th": [
+    "double"
+   ],
+   "gap": 1.2
+  },
+  {
+   "id": "sc694e06fda",
+   "text": "There were two of you: one thinking, and the other waiting.",
+   "th": [
+    "double",
+    "mirror"
+   ],
+   "gap": 1.3
+  },
+  {
+   "id": "s5e781ce2c9",
+   "text": "That phenomenon, right there, is metacognition.",
+   "th": [
+    "mirror"
+   ],
+   "gap": 1.4
+  },
+  {
+   "id": "sff070d5755",
+   "text": "Contrary to what you may think, it is not some spiritual gimmick or self-help buzzword.",
+   "th": [
+    "market"
+   ],
+   "gap": 0.9
+  },
+  {
+   "id": "sa356385b6d",
+   "text": "It is what EVERYTHING stems from. Literally.",
+   "th": [
+    "tree"
+   ],
+   "gap": 0.9
+  },
+  {
+   "id": "s8ef595f516",
+   "text": "People like to say, ‘your thoughts create your reality’.",
+   "th": [
+    "crowd"
+   ],
+   "gap": 0.8
+  },
+  {
+   "id": "sa5b5b9280c",
+   "text": "Bullshit.",
+   "th": [
+    "crowd"
+   ],
+   "gap": 1.0
+  },
+  {
+   "id": "sde9167ce54",
+   "text": "It’s not your thoughts that create your reality, but your relationship with them.",
+   "th": [
+    "mirror",
+    "thinker"
+   ],
+   "gap": 1.3
+  },
+  {
+   "id": "s1b189fc293",
+   "text": "You can stare at vision boards twenty-four seven and repeat a thousand affirmations a day,",
+   "th": [
+    "vision"
+   ],
+   "gap": 0.3,
+   "say": "You can stare at vision boards twenty-four seven, and repeat a thousand affirmations a day,"
+  },
+  {
+   "id": "s93f261e904",
+   "text": "but if the person watching them doesn’t believe a word of it, they won’t do anything except make you feel stupid.",
+   "th": [
+    "mirror",
+    "fool"
+   ],
+   "gap": 0.9
+  },
+  {
+   "id": "se11ca691d5",
+   "text": "People search for problems everywhere except in themselves.",
+   "th": [
+    "market",
+    "crowd"
+   ],
+   "gap": 0.9
+  },
+  {
+   "id": "s3c3bc48284",
+   "text": "It’s either this technique or that routine, this guru or that supplement.",
+   "th": [
+    "market"
+   ],
+   "gap": 0.9
+  },
+  {
+   "id": "s8cdcb50b98",
+   "text": "But in truth, the greatest enemy is inside their own minds.",
+   "th": [
+    "shadow"
+   ],
+   "gap": 0.6
+  },
+  {
+   "id": "s7fbefcf66d",
+   "text": "Observing. Judging. Issuing verdicts.",
+   "th": [
+    "judge"
+   ],
+   "gap": 1.2
+  },
+  {
+   "id": "sde9f1ccb4f",
+   "text": "And it never stops.",
+   "th": [
+    "shadow"
+   ],
+   "gap": 0.5
+  },
+  {
+   "id": "se3fd0938ae",
+   "text": "It walked into every room you have ever walked into, and it will be there tonight when you close your eyes.",
+   "th": [
+    "door",
+    "night"
+   ],
+   "gap": 1.3
+  },
+  {
+   "id": "s5eb5e34862",
+   "text": "You can’t OUTRUN your own shadow.",
+   "th": [
+    "shadow"
+   ],
+   "gap": 0.6
+  },
+  {
+   "id": "s9a608b8ee8",
+   "text": "But with enough practice, you can integrate it, and what once was the greatest enemy becomes the greatest ally.",
+   "th": [
+    "shadow",
+    "light"
+   ],
+   "gap": 1.6
+  },
+  {
+   "id": "s4c4985a41c",
+   "text": "This topic has been on my list for quite some time, but I always felt like I needed more knowledge. More practice.",
+   "th": [
+    "study"
+   ],
+   "gap": 0.9
+  },
+  {
+   "id": "s9507cc852e",
+   "text": "My lab is buried in materials. Open books face down on every surface, printouts, three pens that don’t work.",
+   "th": [
+    "study",
+    "alchemist"
+   ],
+   "gap": 0.9
+  },
+  {
+   "id": "s3025fa5974",
+   "text": "Black coffee went cold while I was rereading the same paragraph for the fourth time.",
+   "th": [
+    "coffee",
+    "reading"
+   ],
+   "gap": 0.9
+  },
+  {
+   "id": "sf435b8f203",
+   "text": "I’ve been studying all this for YEARS. And it’s not an exaggeration.",
+   "th": [
+    "study"
+   ],
+   "gap": 0.9
+  },
+  {
+   "id": "s2eb1d7d02d",
+   "text": "The whiteboard behind me is one long line of names and arrows, running from ancient Greece to modern laboratories.",
+   "th": [
+    "diagram",
+    "science"
+   ],
+   "gap": 0.9
+  },
+  {
+   "id": "s608e7a588d",
+   "text": "Crazy how it all connects into one.",
+   "th": [
+    "diagram"
+   ],
+   "gap": 0.8
+  },
+  {
+   "id": "s26405be038",
+   "text": "Let’s get into it.",
+   "th": [
+    "temple"
+   ],
+   "gap": 1.0
+  },
+  {
+   "id": "c1",
+   "card": "chapter",
+   "title": "I. The Birth of Metacognition",
+   "sub": "",
+   "len": 4.0
+  },
+  {
+   "id": "c2",
+   "card": "quote",
+   "title": "“I am better off than he is, for he knows nothing, and thinks that he knows; I neither know nor think that I know.”",
+   "sub": "Plato, Apology 21d",
+   "len": 1.0
+  },
+  {
+   "id": "sff56f2ffb4",
+   "text": "I am better off than he is, for he knows nothing, and thinks that he knows; I neither know nor think that I know.",
+   "th": [
+    "socrates"
+   ],
+   "gap": 1.6,
+   "say": "I am better off than he is. For he knows nothing, and thinks that he knows. I neither know, nor think that I know."
+  },
+  {
+   "id": "sf066793d76",
+   "text": "But let’s start all of it from the beginning.",
+   "th": [
+    "temple"
+   ],
+   "gap": 0.9
+  },
+  {
+   "id": "s6a5f08ed9b",
+   "text": "Fifth century B.C. Ancient Greece.",
+   "th": [
+    "greece"
+   ],
+   "gap": 1.0,
+   "say": "The fifth century, B C. Ancient Greece."
+  },
+  {
+   "id": "s7f177aa9cd",
+   "text": "In a world of oracles and omens, of gods who were believed to decide everything,",
+   "th": [
+    "oracle",
+    "gods"
+   ],
+   "gap": 0.3
+  },
+  {
+   "id": "sf3dec76752",
+   "text": "from the harvest and the war to the sex of your child,",
+   "th": [
+    "harvest",
+    "war"
+   ],
+   "gap": 0.3
+  },
+  {
+   "id": "s817e6fd171",
+   "text": "a simple inscription was carved above the entrance to the temple of Apollo at Delphi.",
+   "th": [
+    "delphi"
+   ],
+   "gap": 1.2
+  },
+  {
+   "id": "s1f3aed44ac",
+   "text": "Not know the gods.",
+   "th": [
+    "gods"
+   ],
+   "gap": 0.5
+  },
+  {
+   "id": "s0cd5c620f6",
+   "text": "Not know the science or the philosophy.",
+   "th": [
+    "greece"
+   ],
+   "gap": 0.5
+  },
+  {
+   "id": "s78838314db",
+   "text": "Know THYSELF.",
+   "th": [
+    "delphi"
+   ],
+   "gap": 1.6
+  },
+  {
+   "id": "se46fc886a0",
+   "text": "Being able to understand oneself on a deeper level: to know one’s strengths and weaknesses.",
+   "th": [
+    "mirror"
+   ],
+   "gap": 0.9
+  },
+  {
+   "id": "s04d40f1a9d",
+   "text": "To know what moves you, what drives you, and what pushes you off course.",
+   "th": [
+    "ship"
+   ],
+   "gap": 0.9
+  },
+  {
+   "id": "s17ad6f9c2f",
+   "text": "Praised as the highest virtue of the ancient world.",
+   "th": [
+    "greece",
+    "statue"
+   ],
+   "gap": 1.2
+  },
+  {
+   "id": "s968b25513f",
+   "text": "Why does this matter?",
+   "th": [
+    "thinker"
+   ],
+   "gap": 1.0
+  },
+  {
+   "id": "s28857d3c0a",
+   "text": "Two thousand four hundred years later, at Stanford University, a psychologist named John Flavell was investigating why young children are so bad at remembering things.",
+   "th": [
+    "science",
+    "child"
+   ],
+   "gap": 0.9
+  },
+  {
+   "id": "s8948061afe",
+   "text": "A few pictures laid out on a table, children of four different ages, with one instruction:",
+   "th": [
+    "school"
+   ],
+   "gap": 0.3
+  },
+  {
+   "id": "s3e2ff16ef8",
+   "text": "study these for as long as you want. Tell me when you are sure you can recall every one.",
+   "th": [
+    "school",
+    "child"
+   ],
+   "gap": 1.0
+  },
+  {
+   "id": "s576d59750a",
+   "text": "The older ones studied, said they were ready, and recalled the whole set perfectly.",
+   "th": [
+    "school"
+   ],
+   "gap": 0.8
+  },
+  {
+   "id": "sf002482b44",
+   "text": "The younger ones said they were ready.",
+   "th": [
+    "child"
+   ],
+   "gap": 0.7
+  },
+  {
+   "id": "s0604e6cbb3",
+   "text": "And then failed.",
+   "th": [
+    "child"
+   ],
+   "gap": 1.2
+  },
+  {
+   "id": "sf5ede623bb",
+   "text": "The answer was simple: the child, contrary to the adult, has almost no ability to check his own mind.",
+   "th": [
+    "child"
+   ],
+   "gap": 0.9
+  },
+  {
+   "id": "saa28f59edb",
+   "text": "His memory works fine. The part that is supposed to look at the memory and report back does not.",
+   "th": [
+    "child",
+    "mirror"
+   ],
+   "gap": 1.2
+  },
+  {
+   "id": "s9c6bebedc4",
+   "text": "Young children have almost no self-awareness. No observer.",
+   "th": [
+    "child"
+   ],
+   "gap": 0.9
+  },
+  {
+   "id": "sb1e971c7de",
+   "text": "And that’s why they can’t control their own emotional states.",
+   "th": [
+    "child"
+   ],
+   "gap": 0.9
+  },
+  {
+   "id": "sf3a38ed3c6",
+   "text": "Why a four-year-old cannot tell you he is tired.",
+   "th": [
+    "child"
+   ],
+   "gap": 0.4
+  },
+  {
+   "id": "s6a0b2763ec",
+   "text": "He can only be tired, at everyone, at full volume.",
+   "th": [
+    "child"
+   ],
+   "gap": 1.2
+  },
+  {
+   "id": "s1cb73cdeb9",
+   "text": "This ability grows over time, but nobody ever sits you down and trains it.",
+   "th": [
+    "school"
+   ],
+   "gap": 0.9
+  },
+  {
+   "id": "s5190958029",
+   "text": "And well… just because you’re an adult doesn’t mean yours is working.",
+   "th": [
+    "thinker"
+   ],
+   "gap": 0.5
+  },
+  {
+   "id": "s7872046d48",
+   "text": "It means it works sometimes.",
+   "th": [
+    "thinker"
+   ],
+   "gap": 1.2
+  },
+  {
+   "id": "s1dc9bd2579",
+   "text": "Think about it.",
+   "th": [
+    "reading"
+   ],
+   "gap": 0.5
+  },
+  {
+   "id": "s3aeba5ce67",
+   "text": "How many times were you ‘reading’ a book and caught yourself not registering a single word from the past three pages you’ve ‘read’?",
+   "th": [
+    "reading"
+   ],
+   "gap": 0.9
+  },
+  {
+   "id": "s00374500c8",
+   "text": "Or drove home on a route you take every day, and arrived with no memory of the drive.",
+   "th": [
+    "road"
+   ],
+   "gap": 1.0
+  },
+  {
+   "id": "s707f6dfb71",
+   "text": "Your hands did it. Your eyes did it.",
+   "th": [
+    "road"
+   ],
+   "gap": 0.5
+  },
+  {
+   "id": "sb277713330",
+   "text": "And yet… there was nobody in the seat.",
+   "th": [
+    "road",
+    "night"
+   ],
+   "gap": 1.6
+  },
+  {
+   "id": "s63cabc3f46",
+   "text": "This might not seem like too big of a trouble, until you realize what it actually comes down to.",
+   "th": [
+    "thinker"
+   ],
+   "gap": 0.9
+  },
+  {
+   "id": "s56284643a8",
+   "text": "What if I told you that most of your fears, insecurities and, eventually, all your actions are quite literally dependent on this one faculty?",
+   "th": [
+    "fear"
+   ],
+   "gap": 0.9
+  },
+  {
+   "id": "s2e4067a1b5",
+   "text": "On whether it is running at all, and on what it says when it does.",
+   "th": [
+    "fear",
+    "mirror"
+   ],
+   "gap": 1.2
+  },
+  {
+   "id": "s5be59897f1",
+   "text": "Let me show you the entire mechanism.",
+   "th": [
+    "machine"
+   ],
+   "gap": 0.5
+  },
+  {
+   "id": "sd3180ae361",
+   "text": "And the exact place where it breaks.",
+   "th": [
+    "machine"
+   ],
+   "gap": 1.5
+  },
+  {
+   "id": "c3",
+   "card": "chapter",
+   "title": "II. The Machinery",
+   "sub": "",
+   "len": 4.0
+  },
+  {
+   "id": "c4",
+   "card": "quote",
+   "title": "“Men are disturbed not by things, but by the views which they take of things.”",
+   "sub": "Epictetus, Enchiridion 5",
+   "len": 1.0
+  },
+  {
+   "id": "s4e2cb667e6",
+   "text": "Men are disturbed not by things, but by the views which they take of things.",
+   "th": [
+    "stoic"
+   ],
+   "gap": 1.6
+  },
+  {
+   "id": "c5",
+   "card": "sub",
+   "title": "Metacognition off",
+   "sub": "",
+   "len": 2.6
+  },
+  {
+   "id": "s609c186c67",
+   "text": "As we already established, just because you’re an adult doesn’t mean your metacognition is fully working.",
+   "th": [
+    "thinker"
+   ],
+   "gap": 0.9
+  },
+  {
+   "id": "s9f7dcb0353",
+   "text": "For an untrained mind, it’s still mostly dormant.",
+   "th": [
+    "dream"
+   ],
+   "gap": 1.0
+  },
+  {
+   "id": "s1e8f72d26f",
+   "text": "It fires at tasks that force it awake: planning, categorizing, learning something you have no template for,",
+   "th": [
+    "study",
+    "diagram"
+   ],
+   "gap": 0.3
+  },
+  {
+   "id": "sf7f83dec72",
+   "text": "a problem hard enough that you have to watch yourself solve it.",
+   "th": [
+    "chess"
+   ],
+   "gap": 0.8
+  },
+  {
+   "id": "saa595a264d",
+   "text": "But on a daily basis, it’s mostly off.",
+   "th": [
+    "dream"
+   ],
+   "gap": 1.0
+  },
+  {
+   "id": "sacdb2dd749",
+   "text": "You don’t analyze your thoughts. You don’t analyze your emotions.",
+   "th": [
+    "thinker"
+   ],
+   "gap": 0.6
+  },
+  {
+   "id": "s50f9680f05",
+   "text": "You have them. And then you are them.",
+   "th": [
+    "fear"
+   ],
+   "gap": 1.4
+  },
+  {
+   "id": "s73720ef183",
+   "text": "Here’s how the process looks in this state.",
+   "th": [
+    "machine"
+   ],
+   "gap": 0.8
+  },
+  {
+   "id": "s392301b14c",
+   "text": "You have a thought. For example: ‘I am so bad at this.’",
+   "th": [
+    "fear"
+   ],
+   "gap": 1.0
+  },
+  {
+   "id": "s247758af28",
+   "text": "That thought then passes through a credibility check. A subconscious one.",
+   "th": [
+    "judge"
+   ],
+   "gap": 0.6
+  },
+  {
+   "id": "s87986f695e",
+   "text": "Meaning: how fast it arrived; how familiar it felt; how many times you have thought it before; how your body reacted to it.",
+   "th": [
+    "judge",
+    "anatomy"
+   ],
+   "gap": 0.9
+  },
+  {
+   "id": "s8bd8c9dfc8",
+   "text": "Each one of those returns the same answer.",
+   "th": [
+    "judge"
+   ],
+   "gap": 1.0
+  },
+  {
+   "id": "s8a35b6ea6c",
+   "text": "If it appeared automatically, you’ve thought it thousands of times before, and your chest tightened on cue, it gets stamped as true.",
+   "th": [
+    "judge",
+    "anatomy"
+   ],
+   "gap": 0.9
+  },
+  {
+   "id": "s4c27d0906f",
+   "text": "And it enters the depths of your subconscious mind. It becomes a belief.",
+   "th": [
+    "abyss"
+   ],
+   "gap": 1.2
+  },
+  {
+   "id": "sf7f843a2b1",
+   "text": "That belief is later fired at the moment of action, and manifests itself proportionally through hesitation.",
+   "th": [
+    "fear"
+   ],
+   "gap": 0.5
+  },
+  {
+   "id": "seef4a58c3b",
+   "text": "Through the tone of your voice.",
+   "th": [
+    "crowd"
+   ],
+   "gap": 0.4
+  },
+  {
+   "id": "sd6ea14505c",
+   "text": "As well as through everything you’ve never tried.",
+   "th": [
+    "ship"
+   ],
+   "gap": 1.4
+  },
+  {
+   "id": "s1c23c860ab",
+   "text": "This is how we operate ninety-nine percent of the time.",
+   "th": [
+    "crowd"
+   ],
+   "gap": 0.9
+  },
+  {
+   "id": "sb9454fed21",
+   "text": "Entirely at the mercy of processes happening beneath our conscious reasoning.",
+   "th": [
+    "abyss",
+    "puppet"
+   ],
+   "gap": 1.2
+  },
+  {
+   "id": "s7836d9fc3a",
+   "text": "Metacognition is the only faculty that gives you any control over these processes.",
+   "th": [
+    "light"
+   ],
+   "gap": 1.4
+  },
+  {
+   "id": "c6",
+   "card": "sub",
+   "title": "Metacognition on",
+   "sub": "",
+   "len": 2.6
+  },
+  {
+   "id": "s705d7dfaa1",
+   "text": "Here’s the second way.",
+   "th": [
+    "light"
+   ],
+   "gap": 0.6
+  },
+  {
+   "id": "se5475fea91",
+   "text": "You have a thought, as before.",
+   "th": [
+    "thinker"
+   ],
+   "gap": 0.5
+  },
+  {
+   "id": "s597058fa69",
+   "text": "That thought instantly passes through the same subconscious credibility check.",
+   "th": [
+    "judge"
+   ],
+   "gap": 0.4
+  },
+  {
+   "id": "sfdf0273dc8",
+   "text": "Instant, automatic, and we don’t really have any control over this part.",
+   "th": [
+    "judge"
+   ],
+   "gap": 1.0
+  },
+  {
+   "id": "scf03c189d6",
+   "text": "But then, before it can be stamped and filed, it goes through a second one.",
+   "th": [
+    "judge",
+    "study"
+   ],
+   "gap": 1.0
+  },
+  {
+   "id": "sf726b622b9",
+   "text": "The conscious credibility check. Metacognition.",
+   "th": [
+    "mirror"
+   ],
+   "gap": 1.2
+  },
+  {
+   "id": "sd9a823d3c6",
+   "text": "Why did I think that way?",
+   "th": [
+    "thinker"
+   ],
+   "gap": 0.8
+  },
+  {
+   "id": "s8a1fedfae9",
+   "text": "Is this thought serving me, or is it only controlling me?",
+   "th": [
+    "puppet",
+    "mirror"
+   ],
+   "gap": 1.2
+  },
+  {
+   "id": "s6931d44548",
+   "text": "Then, depending on how much conscious effort and honesty you brought to it, the sum of the subconscious verdict and the conscious one reaches your decision, and determines the course of action.",
+   "th": [
+    "judge",
+    "road"
+   ],
+   "gap": 0.9
+  },
+  {
+   "id": "s0f7928feed",
+   "text": "There’s a principle in quantum physics called wave-particle duality.",
+   "th": [
+    "science",
+    "light"
+   ],
+   "gap": 0.9
+  },
+  {
+   "id": "s336116fc2b",
+   "text": "Basically, it states that light and matter behave as a wave when no one is watching them, and as a particle the moment someone is.",
+   "th": [
+    "light",
+    "sea"
+   ],
+   "gap": 0.9
+  },
+  {
+   "id": "sfd151ac08c",
+   "text": "The same thing, two entirely different natures, depending on whether it was observed.",
+   "th": [
+    "light"
+   ],
+   "gap": 1.2
+  },
+  {
+   "id": "s59eb2097f4",
+   "text": "Your thoughts work in a similar way.",
+   "th": [
+    "thinker"
+   ],
+   "gap": 0.5
+  },
+  {
+   "id": "s68cccbd86a",
+   "text": "The mere act of awareness ‘changes’ what the thought becomes.",
+   "th": [
+    "mirror"
+   ],
+   "gap": 1.0
+  },
+  {
+   "id": "sf7b586c44d",
+   "text": "And it can be for good as well as for bad.",
+   "th": [
+    "double"
+   ],
+   "gap": 1.0
+  },
+  {
+   "id": "s50665231ed",
+   "text": "Because when you add awareness, you’re no longer entirely at the mercy of your largely ‘random’ subconscious.",
+   "th": [
+    "sea",
+    "ship"
+   ],
+   "gap": 0.9
+  },
+  {
+   "id": "s789849c1fe",
+   "text": "You add that conscious choice to it.",
+   "th": [
+    "helm"
+   ],
+   "gap": 0.5
+  },
+  {
+   "id": "s715d70663b",
+   "text": "Engage or disengage. Ratify it, or leave it as it is.",
+   "th": [
+    "judge"
+   ],
+   "gap": 1.2
+  },
+  {
+   "id": "s7dc0a082ab",
+   "text": "More so, that way you are also actively shaping the contents of your subconscious, by choices and repetition.",
+   "th": [
+    "sculptor"
+   ],
+   "gap": 0.9
+  },
+  {
+   "id": "s1177c57eb7",
+   "text": "What is now a fixed set of automatic responses and patterns was also once installed, one verdict at a time, by a younger version of you who was not watching.",
+   "th": [
+    "child",
+    "sculptor"
+   ],
+   "gap": 1.2
+  },
+  {
+   "id": "s8d5a8892cf",
+   "text": "It can be overwritten by the exact same mechanism.",
+   "th": [
+    "sculptor"
+   ],
+   "gap": 0.5
+  },
+  {
+   "id": "saf6a8734cd",
+   "text": "But now, of conscious choosing.",
+   "th": [
+    "sculptor",
+    "light"
+   ],
+   "gap": 1.4
+  },
+  {
+   "id": "scaba43930c",
+   "text": "That would be enough of theory.",
+   "th": [
+    "study"
+   ],
+   "gap": 0.5
+  },
+  {
+   "id": "sd9c6bab135",
+   "text": "Now I’m going to show you how to do it.",
+   "th": [
+    "hand"
+   ],
+   "gap": 1.5
+  },
+  {
+   "id": "c7",
+   "card": "chapter",
+   "title": "III. The Mechanics of Metacognition",
+   "sub": "How a thought becomes a belief",
+   "len": 4.0
+  },
+  {
+   "id": "c8",
+   "card": "quote",
+   "title": "“Wait for me a little, O impression; allow me to see who you are, and what you are an impression of; allow me to put you to the test.”",
+   "sub": "Epictetus, Discourses 2.18",
+   "len": 1.0
+  },
+  {
+   "id": "s80c69b7095",
+   "text": "Wait for me a little, O impression; allow me to see who you are, and what you are an impression of; allow me to put you to the test.",
+   "th": [
+    "stoic"
+   ],
+   "gap": 1.6,
+   "say": "Wait for me a little, oh impression. Allow me to see who you are, and what you are an impression of. Allow me to put you to the test."
+  },
+  {
+   "id": "c9",
+   "card": "sub",
+   "title": "I. Catch",
+   "sub": "",
+   "len": 2.6
+  },
+  {
+   "id": "s61e10df98d",
+   "text": "You have no control over a thought you haven’t noticed.",
+   "th": [
+    "thinker"
+   ],
+   "gap": 0.9
+  },
+  {
+   "id": "sf89b0a8098",
+   "text": "The first step of metacognition is to simply become aware of the thoughts passing through your head.",
+   "th": [
+    "thinker",
+    "river"
+   ],
+   "gap": 1.0
+  },
+  {
+   "id": "sd276d13c96",
+   "text": "Forcing yourself to stay awake twenty-four seven is not the way, though.",
+   "th": [
+    "night"
+   ],
+   "gap": 0.9
+  },
+  {
+   "id": "sc3ed9f78ef",
+   "text": "This would require too much conscious effort, and would die on the vine after an hour.",
+   "th": [
+    "vine"
+   ],
+   "gap": 1.0
+  },
+  {
+   "id": "s036f3ff94f",
+   "text": "What I’m going to propose is something entirely different.",
+   "th": [
+    "hand"
+   ],
+   "gap": 0.6
+  },
+  {
+   "id": "sb8c23a1075",
+   "text": "Set fixed checkpoints throughout the day, dedicated just for that.",
+   "th": [
+    "clock"
+   ],
+   "gap": 1.0
+  },
+  {
+   "id": "s779be17b8c",
+   "text": "Just like a lucid dreamer going through reality checks, pressing a finger into his palm to see whether it passes through,",
+   "th": [
+    "dream",
+    "hand"
+   ],
+   "gap": 0.3
+  },
+  {
+   "id": "sd240cca64f",
+   "text": "you set your own reality checks, but in waking life.",
+   "th": [
+    "hand"
+   ],
+   "gap": 1.0
+  },
+  {
+   "id": "sa4441581b8",
+   "text": "For example, three times a day.",
+   "th": [
+    "clock"
+   ],
+   "gap": 0.5
+  },
+  {
+   "id": "sd149f0f63d",
+   "text": "Those can be the moment you wake up.",
+   "th": [
+    "morning"
+   ],
+   "gap": 0.4
+  },
+  {
+   "id": "s538cd69960",
+   "text": "When you drive home from work.",
+   "th": [
+    "road"
+   ],
+   "gap": 0.4
+  },
+  {
+   "id": "s498f3bf8e9",
+   "text": "And when you go to sleep.",
+   "th": [
+    "night"
+   ],
+   "gap": 1.2
+  },
+  {
+   "id": "s03edba03e9",
+   "text": "You can also run it backwards over the past.",
+   "th": [
+    "hourglass"
+   ],
+   "gap": 0.9
+  },
+  {
+   "id": "s1222f92f05",
+   "text": "This is called memory work: conscious analysis of the hours behind you, and the thoughts that were passing through your mind while you lived them.",
+   "th": [
+    "letter",
+    "night"
+   ],
+   "gap": 1.0
+  },
+  {
+   "id": "sbb842ba5b9",
+   "text": "Just go through the day in reverse and answer: where was I; what was running;",
+   "th": [
+    "road",
+    "letter"
+   ],
+   "gap": 0.4
+  },
+  {
+   "id": "sfa82cbd3ee",
+   "text": "and the only question that matters at this stage: did I notice any of it at the time?",
+   "th": [
+    "thinker"
+   ],
+   "gap": 1.2
+  },
+  {
+   "id": "sbe586621fa",
+   "text": "The answer will be no. For weeks, it will be no.",
+   "th": [
+    "thinker"
+   ],
+   "gap": 0.6
+  },
+  {
+   "id": "s751e297fae",
+   "text": "That is not the failure. That is the measurement.",
+   "th": [
+    "science"
+   ],
+   "gap": 1.4
+  },
+  {
+   "id": "s211d9561f5",
+   "text": "The other thing: the body is always a more reliable alarm than the mind.",
+   "th": [
+    "anatomy"
+   ],
+   "gap": 1.0
+  },
+  {
+   "id": "sf5c2cf6558",
+   "text": "The chest tightening, the jaw, the reach for the phone before you decided to reach.",
+   "th": [
+    "anatomy",
+    "hand"
+   ],
+   "gap": 0.6
+  },
+  {
+   "id": "sa52650239f",
+   "text": "You can feel those.",
+   "th": [
+    "anatomy"
+   ],
+   "gap": 1.0
+  },
+  {
+   "id": "s861140bb1c",
+   "text": "So add a fourth checkpoint to the three. A floating one.",
+   "th": [
+    "clock"
+   ],
+   "gap": 0.5
+  },
+  {
+   "id": "sf13e87f7a6",
+   "text": "It does not fire at a time. It fires at a sensation, and it fires all day.",
+   "th": [
+    "anatomy"
+   ],
+   "gap": 1.0
+  },
+  {
+   "id": "s7c65b0e69e",
+   "text": "Every time the body moves before you told it to, that is the doorbell.",
+   "th": [
+    "door"
+   ],
+   "gap": 0.6
+  },
+  {
+   "id": "sd8b1c7ec1a",
+   "text": "Something already made a decision, and did not consult you.",
+   "th": [
+    "puppet"
+   ],
+   "gap": 0.6
+  },
+  {
+   "id": "sa028e15620",
+   "text": "Stop there, and find out what it was.",
+   "th": [
+    "door",
+    "thinker"
+   ],
+   "gap": 1.5
+  },
+  {
+   "id": "c10",
+   "card": "sub",
+   "title": "II. Judge",
+   "sub": "",
+   "len": 2.6
+  },
+  {
+   "id": "s07152f4e07",
+   "text": "Once you become aware of this thought, you will want to use the exact cognition that comes from being aware: conscious intellect.",
+   "th": [
+    "thinker",
+    "judge"
+   ],
+   "gap": 1.0
+  },
+  {
+   "id": "s4e85023d1b",
+   "text": "When you’re not aware of a thought, you’re much like in a dream: entirely at the mercy of the current.",
+   "th": [
+    "dream",
+    "river"
+   ],
+   "gap": 0.9
+  },
+  {
+   "id": "sa7c050f151",
+   "text": "You get pulled wherever your mind takes you.",
+   "th": [
+    "river",
+    "sea"
+   ],
+   "gap": 0.5
+  },
+  {
+   "id": "s583cbc8723",
+   "text": "From anxiety to anger. From euphoria to despair.",
+   "th": [
+    "anger",
+    "despair"
+   ],
+   "gap": 1.0
+  },
+  {
+   "id": "sa5e298428c",
+   "text": "The conscious gives all that untamed force a direction.",
+   "th": [
+    "helm"
+   ],
+   "gap": 1.0
+  },
+  {
+   "id": "s898da47c33",
+   "text": "You stop and ask yourself the question: ‘where does this thought come from?’",
+   "th": [
+    "thinker"
+   ],
+   "gap": 1.0
+  },
+  {
+   "id": "sb896b19be0",
+   "text": "Is it from YOU, really, or from the past?",
+   "th": [
+    "child",
+    "mirror"
+   ],
+   "gap": 1.0
+  },
+  {
+   "id": "s8d33eebcf1",
+   "text": "Is it built on anything at all,",
+   "th": [
+    "ruins"
+   ],
+   "gap": 0.3
+  },
+  {
+   "id": "s92b0069d3c",
+   "text": "or only on the fact that you have thought about it a thousand times before, and it now arrives so fast that you don’t even consider it?",
+   "th": [
+    "ruins",
+    "river"
+   ],
+   "gap": 1.0
+  },
+  {
+   "id": "s76d8065f5c",
+   "text": "And the most important: ‘does it really serve me?’",
+   "th": [
+    "judge"
+   ],
+   "gap": 1.2
+  },
+  {
+   "id": "s77b6e181b3",
+   "text": "What is not there to serve you is only out there to control you.",
+   "th": [
+    "puppet"
+   ],
+   "gap": 1.2
+  },
+  {
+   "id": "sdb1349798c",
+   "text": "So judge for yourself.",
+   "th": [
+    "judge"
+   ],
+   "gap": 0.5
+  },
+  {
+   "id": "sde5f2169a3",
+   "text": "And once you make a verdict, you’ll know what to do next.",
+   "th": [
+    "judge",
+    "road"
+   ],
+   "gap": 1.5
+  },
+  {
+   "id": "c11",
+   "card": "sub",
+   "title": "III. Recalibrate",
+   "sub": "",
+   "len": 2.6
+  },
+  {
+   "id": "sc8b21dcd04",
+   "text": "Now we reach the key part.",
+   "th": [
+    "helm"
+   ],
+   "gap": 0.6
+  },
+  {
+   "id": "s21c55edb40",
+   "text": "You can do all that meditation, journaling, shadow work, however you want to call it,",
+   "th": [
+    "monk",
+    "letter"
+   ],
+   "gap": 0.3
+  },
+  {
+   "id": "s45ef8c08fd",
+   "text": "but if in the end you do nothing with it, what’s the point?",
+   "th": [
+    "monk"
+   ],
+   "gap": 1.0
+  },
+  {
+   "id": "s63c5d2eab3",
+   "text": "The whole point of practicing metacognition is not only to monitor, but more so to control those thoughts.",
+   "th": [
+    "helm"
+   ],
+   "gap": 1.0
+  },
+  {
+   "id": "s1004712fdd",
+   "text": "This comes down to simple choices, like:",
+   "th": [
+    "road"
+   ],
+   "gap": 0.5
+  },
+  {
+   "id": "s123e9a0431",
+   "text": "Engage or disengage with a thought?",
+   "th": [
+    "road"
+   ],
+   "gap": 0.6
+  },
+  {
+   "id": "s7c8402de0f",
+   "text": "Ratify it as true, or leave it standing there unsigned?",
+   "th": [
+    "letter",
+    "judge"
+   ],
+   "gap": 0.6
+  },
+  {
+   "id": "s277254a575",
+   "text": "Feed it with attention, or ignore it?",
+   "th": [
+    "fire"
+   ],
+   "gap": 1.0
+  },
+  {
+   "id": "s2411b97655",
+   "text": "And then simply do it again tomorrow.",
+   "th": [
+    "morning"
+   ],
+   "gap": 1.2
+  },
+  {
+   "id": "sc87cc9f469",
+   "text": "And yes, the final product will always be a sum of conscious and unconscious processes.",
+   "th": [
+    "sea"
+   ],
+   "gap": 0.9
+  },
+  {
+   "id": "s72436c6cf3",
+   "text": "But the ONLY way to get your hand anywhere near the wheel is by flipping this conscious switch of intention and repetition.",
+   "th": [
+    "helm"
+   ],
+   "gap": 1.2
+  },
+  {
+   "id": "s825e535e5b",
+   "text": "Practice. Practice. Practice.",
+   "th": [
+    "forge"
+   ],
+   "gap": 1.2
+  },
+  {
+   "id": "s8f7553fc14",
+   "text": "In the beginning, it may seem senseless.",
+   "th": [
+    "forge"
+   ],
+   "gap": 0.4
+  },
+  {
+   "id": "s87c74f7ac9",
+   "text": "You may think that what you’re doing is idiotic, but in reality, you are shaping a diamond.",
+   "th": [
+    "gold",
+    "forge"
+   ],
+   "gap": 1.2
+  },
+  {
+   "id": "s904e886577",
+   "text": "Just like an alchemist transforming base metal into gold, you’re transforming your own base thoughts into fuel.",
+   "th": [
+    "alchemist"
+   ],
+   "gap": 1.2
+  },
+  {
+   "id": "s15abab6539",
+   "text": "Fear into courage.",
+   "th": [
+    "fear",
+    "knight"
+   ],
+   "gap": 0.6
+  },
+  {
+   "id": "sb255e5fcc6",
+   "text": "Anger into calculation.",
+   "th": [
+    "anger",
+    "chess"
+   ],
+   "gap": 0.6
+  },
+  {
+   "id": "s48fb56e3ec",
+   "text": "Anxiety into confidence.",
+   "th": [
+    "despair",
+    "statue"
+   ],
+   "gap": 1.2
+  },
+  {
+   "id": "s63a55b48c8",
+   "text": "Just like da Vinci sketched out the ideal man, you can sketch out the ideal self.",
+   "th": [
+    "vitruvian"
+   ],
+   "gap": 0.6
+  },
+  {
+   "id": "s33d1151e7d",
+   "text": "And then spend the rest of your life drawing it.",
+   "th": [
+    "vitruvian",
+    "sculptor"
+   ],
+   "gap": 1.6
+  },
+  {
+   "id": "c12",
+   "card": "sign",
+   "title": "— Cipher",
+   "sub": "",
+   "len": 3.0
+  },
+  {
+   "id": "s3552db8b69",
+   "text": "This piece probably contains more than enough theory, but if you’re looking for something to structure the knowledge and actually put it to work, I can help you with that also.",
+   "th": [
+    "letter",
+    "study"
+   ],
+   "gap": 0.9
+  },
+  {
+   "id": "sca7653ad35",
+   "text": "Based on the real-life stories of some of the greatest minds of history, I created the most practical manifestation playbook there is.",
+   "th": [
+    "letter",
+    "napoleon"
+   ],
+   "gap": 0.9
+  },
+  {
+   "id": "se840631133",
+   "text": "I entered the depths of the minds of giants like Napoleon, Muhammad Ali and Henry Ford, and distilled from them the pure essence that actually moved the needle in the real world, not on paper.",
+   "th": [
+    "napoleon",
+    "alchemist"
+   ],
+   "gap": 0.9
+  },
+  {
+   "id": "s92ac44f965",
+   "text": "Five conditions of your mind. Five plays you can simply mimic in your own game.",
+   "th": [
+    "chess"
+   ],
+   "gap": 0.8
+  },
+  {
+   "id": "s84e90ef3d4",
+   "text": "The real game starts here.",
+   "th": [
+    "chess"
+   ],
+   "gap": 3.0
+  }
+ ]
+}

@@ -1,0 +1,722 @@
+{
+ "thinker-c1": {
+  "title": "Buddha Shakyamuni Seated in Meditation (Dhyanamudra)",
+  "artist": "Unknown",
+  "date": "Chola period, about 12th century",
+  "license": "Public domain (CC0, Art Institute of Chicago)",
+  "source": "https://www.artic.edu/artworks/21023",
+  "kind": "stone (unidentified)"
+ },
+ "thinker-c2": {
+  "title": "Buddha Seated in Meditation",
+  "artist": "Unknown",
+  "date": "18th\u201319th century",
+  "license": "Public domain (CC0, Art Institute of Chicago)",
+  "source": "https://www.artic.edu/artworks/15596",
+  "kind": "silver"
+ },
+ "thinker-c3": {
+  "title": "Saint Francis Kneeling in Meditation",
+  "artist": "Domenico Theotok\u00f3poulos, called El Greco",
+  "date": "c. 1595\u2013c. 1600",
+  "license": "Public domain (CC0, Art Institute of Chicago)",
+  "source": "https://www.artic.edu/artworks/21907",
+  "kind": "oil on canvas"
+ },
+ "thinker-c4": {
+  "title": "Altarpiece with Meditating Buddha",
+  "artist": "Khmer",
+  "date": "Angkor period, 12th\u201313th century or later",
+  "license": "Public domain (CC0, Art Institute of Chicago)",
+  "source": "https://www.artic.edu/artworks/144403",
+  "kind": "bronze"
+ },
+ "thinker-c5": {
+  "title": "Buddha Seated in Meditation (Dhyanamudra)",
+  "artist": "Unknown",
+  "date": "Kandyan period, 18th century",
+  "license": "Public domain (CC0, Art Institute of Chicago)",
+  "source": "https://www.artic.edu/artworks/103274",
+  "kind": "bronze"
+ },
+ "thinker-c6": {
+  "title": "Three Oriental Figures (Jacob and Laban?)",
+  "artist": "Rembrandt van Rijn",
+  "date": "1641",
+  "license": "Public domain (CC0, Art Institute of Chicago)",
+  "source": "https://www.artic.edu/artworks/74",
+  "kind": "etching"
+ },
+ "thinker-c7": {
+  "title": "Old Man with a Gold Chain",
+  "artist": "Rembrandt van Rijn",
+  "date": "1631",
+  "license": "Public domain (CC0, Art Institute of Chicago)",
+  "source": "https://www.artic.edu/artworks/95998",
+  "kind": "oil on panel"
+ },
+ "thinker-c8": {
+  "title": "Jaina Tirthankara Chandraprabha Standing in Meditation (Kayotsarga)",
+  "artist": "Unknown",
+  "date": "12th century",
+  "license": "Public domain (CC0, Art Institute of Chicago)",
+  "source": "https://www.artic.edu/artworks/132110",
+  "kind": "sculpture"
+ },
+ "judge-c5": {
+  "title": "The false Mansur punished before the judge and expelled from the city, from a Tuti-nama (Tales of a Parrot): Seventeenth Night",
+  "artist": "Unknown",
+  "date": "c. 1560",
+  "license": "Public domain (CC0, Cleveland Museum of Art)",
+  "source": "https://clevelandart.org/art/1962.279.129.b",
+  "kind": "Painting"
+ },
+ "judge-c6": {
+  "title": "Pierrot in Criminal Court",
+  "artist": "Thomas Couture (French, 1815\u20131879)",
+  "date": "c. 1864\u201370",
+  "license": "Public domain (CC0, Cleveland Museum of Art)",
+  "source": "https://clevelandart.org/art/1980.250",
+  "kind": "Painting"
+ },
+ "judge-c7": {
+  "title": "The goldsmith judged; the bear cubs trained by the carpenter as though they were his sons, from a Tuti-nama (Tales of a Parrot): Third Night",
+  "artist": "Unknown",
+  "date": "c. 1560",
+  "license": "Public domain (CC0, Cleveland Museum of Art)",
+  "source": "https://clevelandart.org/art/1962.279.23.a",
+  "kind": "Painting"
+ },
+ "judge-c8": {
+  "title": "Dr. James Stuart; Mary Campbell Stuart",
+  "artist": "Gilbert Stuart (American, born The Thirteen Colonies, 1755\u20131828)",
+  "date": "c. 1815",
+  "license": "Public domain (CC0, Cleveland Museum of Art)",
+  "source": "https://clevelandart.org/art/1927.394",
+  "kind": "Painting"
+ },
+ "judge-c9": {
+  "title": "The Parrot Addresses Khujasta at the Beginning of the Thirteenth Night, from a Tuti-nama (Tales of a Parrot)",
+  "artist": "Tara 1 (Indian, active 1550s-1590s)",
+  "date": "c. 1560",
+  "license": "Public domain (CC0, Cleveland Museum of Art)",
+  "source": "https://clevelandart.org/art/1962.279.102.b",
+  "kind": "Painting"
+ },
+ "judge-c10": {
+  "title": "Mary Campbell Stuart",
+  "artist": "Gilbert Stuart (American, born The Thirteen Colonies, 1755\u20131828)",
+  "date": "c. 1815",
+  "license": "Public domain (CC0, Cleveland Museum of Art)",
+  "source": "https://clevelandart.org/art/1927.394.2",
+  "kind": "Painting"
+ },
+ "judge-c11": {
+  "title": "The Calumny of Apelles",
+  "artist": "Giorgio Ghisi (Italian, 1520\u20131582)",
+  "date": "1560",
+  "license": "Public domain (CC0, Cleveland Museum of Art)",
+  "source": "https://clevelandart.org/art/2012.8",
+  "kind": "Print"
+ },
+ "mirror-c1": {
+  "title": "The Bedroom",
+  "artist": "Vincent van Gogh",
+  "date": "1889",
+  "license": "Public domain (CC0, Art Institute of Chicago)",
+  "source": "https://www.artic.edu/artworks/28560",
+  "kind": "oil on canvas"
+ },
+ "mirror-c2": {
+  "title": "Woman at Her Toilette",
+  "artist": "Berthe Morisot",
+  "date": "1875\u201380",
+  "license": "Public domain (CC0, Art Institute of Chicago)",
+  "source": "https://www.artic.edu/artworks/11723",
+  "kind": "painting"
+ },
+ "mirror-c3": {
+  "title": "Rinaldo and Armida in Her Garden",
+  "artist": "Giovanni Battista Tiepolo",
+  "date": "c. 1742\u201345",
+  "license": "Public domain (CC0, Art Institute of Chicago)",
+  "source": "https://www.artic.edu/artworks/16485",
+  "kind": "oil on canvas"
+ },
+ "mirror-c4": {
+  "title": "The Crucifixion",
+  "artist": "Francisco de Zurbar\u00e1n",
+  "date": "1627",
+  "license": "Public domain (CC0, Art Institute of Chicago)",
+  "source": "https://www.artic.edu/artworks/80084",
+  "kind": "oil on canvas"
+ },
+ "mirror-c5": {
+  "title": "Portrait of an Artist",
+  "artist": "Follower of Frans Hals",
+  "date": "1644",
+  "license": "Public domain (CC0, Art Institute of Chicago)",
+  "source": "https://www.artic.edu/artworks/862",
+  "kind": "oil on canvas"
+ },
+ "mirror-c6": {
+  "title": "Penitent Saint Peter",
+  "artist": "Jusepe de Ribera",
+  "date": "c. 1630",
+  "license": "Public domain (CC0, Art Institute of Chicago)",
+  "source": "https://www.artic.edu/artworks/120172",
+  "kind": "oil on canvas"
+ },
+ "child-c1": {
+  "title": "Portrait of Charlotte and Sarah Carteret-Hardy",
+  "artist": "Thomas Lawrence (British, 1769\u20131830)",
+  "date": "1801",
+  "license": "Public domain (CC0, Cleveland Museum of Art)",
+  "source": "https://clevelandart.org/art/1942.642",
+  "kind": "Painting"
+ },
+ "child-c2": {
+  "title": "Madame Case",
+  "artist": "Eug\u00e8ne Carri\u00e8re (French, 1849\u20131906)",
+  "date": "after September 1900, probably summer 1901",
+  "license": "Public domain (CC0, Cleveland Museum of Art)",
+  "source": "https://clevelandart.org/art/1967.126",
+  "kind": "Painting"
+ },
+ "child-c3": {
+  "title": "Mother with Two Children",
+  "artist": "Jean-Baptist Fr\u00e9net (French, 1814\u20131889)",
+  "date": "c. 1855",
+  "license": "Public domain (CC0, Cleveland Museum of Art)",
+  "source": "https://clevelandart.org/art/2001.5",
+  "kind": "Photograph"
+ },
+ "child-c4": {
+  "title": "Photographs of a Standing Male Nude Model (\"Joseph Smith\")",
+  "artist": "Thomas Eakins (American, 1844\u20131916)",
+  "date": "c. 1883",
+  "license": "Public domain (CC0, Cleveland Museum of Art)",
+  "source": "https://clevelandart.org/art/1997.131",
+  "kind": "Photograph"
+ },
+ "child-c5": {
+  "title": "Reliquary Bust of Saint Margaret of Antioch",
+  "artist": "Nicolaus Gerhaert",
+  "date": "c. 1470",
+  "license": "Public domain (CC0, Art Institute of Chicago)",
+  "source": "https://www.artic.edu/artworks/48715",
+  "kind": "reliquary"
+ },
+ "road-c1": {
+  "title": "Landscape",
+  "artist": "Jean Charles Cazin",
+  "date": "c. 1895",
+  "license": "Public domain (CC0, Art Institute of Chicago)",
+  "source": "https://www.artic.edu/artworks/874",
+  "kind": "painting"
+ },
+ "road-c2": {
+  "title": "A Roadside Tavern",
+  "artist": "Johan Barthold Jongkind",
+  "date": "1863",
+  "license": "Public domain (CC0, Art Institute of Chicago)",
+  "source": "https://www.artic.edu/artworks/18743",
+  "kind": "oil on canvas"
+ },
+ "road-c3": {
+  "title": "The Road to Market",
+  "artist": "Constant Troyon",
+  "date": "1858\u201359",
+  "license": "Public domain (CC0, Art Institute of Chicago)",
+  "source": "https://www.artic.edu/artworks/896",
+  "kind": "painting"
+ },
+ "road-c4": {
+  "title": "Saint Christopher Meets Satan; Saint Christopher before the King of Lycia",
+  "artist": "Martin de Soria",
+  "date": "1480\u201385",
+  "license": "Public domain (CC0, Art Institute of Chicago)",
+  "source": "https://www.artic.edu/artworks/15716",
+  "kind": "painting"
+ },
+ "light-c1": {
+  "title": "Seaside (July: Specimen of a Portrait)",
+  "artist": "James Tissot (French, 1836\u20131902)",
+  "date": "1878",
+  "license": "Public domain (CC0, Cleveland Museum of Art)",
+  "source": "https://clevelandart.org/art/1980.288",
+  "kind": "Painting"
+ },
+ "light-c2": {
+  "title": "The Artist in His Room at the Villa Medici, Rome",
+  "artist": "L\u00e9on Cogniet (French, 1794\u20131880)",
+  "date": "1817",
+  "license": "Public domain (CC0, Cleveland Museum of Art)",
+  "source": "https://clevelandart.org/art/1978.51",
+  "kind": "Painting"
+ },
+ "light-c3": {
+  "title": "The Sunlight",
+  "artist": "Ture Nikolaus Cederstr\u00f6m (Swedish, 1843\u20131924)",
+  "date": "1890s",
+  "license": "Public domain (CC0, Cleveland Museum of Art)",
+  "source": "https://clevelandart.org/art/1996.274",
+  "kind": "Painting"
+ },
+ "study-c1": {
+  "title": "Saint Jerome",
+  "artist": "Jusepe de Ribera (Spanish, 1591\u20131652)",
+  "date": "c. 1638\u201340",
+  "license": "Public domain (CC0, Cleveland Museum of Art)",
+  "source": "https://clevelandart.org/art/1961.219",
+  "kind": "Painting"
+ },
+ "study-c2": {
+  "title": "A Young Man with a Chain",
+  "artist": "Rembrandt van Rijn (Dutch, 1606\u20131669)",
+  "date": "c. 1629 or 1632",
+  "license": "Public domain (CC0, Cleveland Museum of Art)",
+  "source": "https://clevelandart.org/art/1942.644",
+  "kind": "Painting"
+ },
+ "study-c3": {
+  "title": "Books and Scholars\u2019 Accoutrements",
+  "artist": "Yi Taek-gyun (Korean, 1808\u2013after 1883)",
+  "date": "late 1800s",
+  "license": "Public domain (CC0, Cleveland Museum of Art)",
+  "source": "https://clevelandart.org/art/2011.37",
+  "kind": "Painting"
+ },
+ "hand-c1": {
+  "title": "Arm of Eve",
+  "artist": "Albrecht D\u00fcrer (German, 1471\u20131528)",
+  "date": "1507",
+  "license": "Public domain (CC0, Cleveland Museum of Art)",
+  "source": "https://clevelandart.org/art/1965.470",
+  "kind": "Drawing"
+ },
+ "hand-c2": {
+  "title": "St. Jerome in Penitence",
+  "artist": "Albrecht D\u00fcrer (German, 1471\u20131528)",
+  "date": "c. 1497",
+  "license": "Public domain (CC0, Cleveland Museum of Art)",
+  "source": "https://clevelandart.org/art/1966.175",
+  "kind": "Print"
+ },
+ "hand-c3": {
+  "title": "The Virgin and Child with a Monkey",
+  "artist": "Albrecht D\u00fcrer (German, 1471\u20131528)",
+  "date": "c. 1498",
+  "license": "Public domain (CC0, Cleveland Museum of Art)",
+  "source": "https://clevelandart.org/art/1964.29",
+  "kind": "Print"
+ },
+ "fear-c1": {
+  "title": "Saint Peter Repentant",
+  "artist": "Georges de La Tour (French, 1593\u20131652)",
+  "date": "1645",
+  "license": "Public domain (CC0, Cleveland Museum of Art)",
+  "source": "https://clevelandart.org/art/1951.454",
+  "kind": "Painting"
+ },
+ "fear-c2": {
+  "title": "The mendicant\u2019s wife deceives him with a soldier, from a Tuti-nama (Tales of a Parrot): Fourth Night",
+  "artist": "Unknown",
+  "date": "c. 1560",
+  "license": "Public domain (CC0, Cleveland Museum of Art)",
+  "source": "https://clevelandart.org/art/1962.279.26.b",
+  "kind": "Painting"
+ },
+ "fear-c3": {
+  "title": "Allegory of Peace and War",
+  "artist": "Pompeo Girolamo Batoni",
+  "date": "1776",
+  "license": "Public domain (CC0, Art Institute of Chicago)",
+  "source": "https://www.artic.edu/artworks/149778",
+  "kind": "oil on canvas"
+ },
+ "anatomy-c1": {
+  "title": "Martin Vanden Bogaert Desjardins",
+  "artist": "G\u00e9rard Edelinck",
+  "date": "n.d.",
+  "license": "Public domain (CC0, Art Institute of Chicago)",
+  "source": "https://www.artic.edu/artworks/111",
+  "kind": "engraving"
+ },
+ "anatomy-c2": {
+  "title": "Joseph Sold by his Brothers",
+  "artist": "Master of the Die",
+  "date": "1533",
+  "license": "Public domain (CC0, Art Institute of Chicago)",
+  "source": "https://www.artic.edu/artworks/34",
+  "kind": "engraving"
+ },
+ "anatomy-c3": {
+  "title": "The Battle around the Shield and Lance",
+  "artist": "Giovanni Jacopo Caraglio",
+  "date": "c. 1527",
+  "license": "Public domain (CC0, Art Institute of Chicago)",
+  "source": "https://www.artic.edu/artworks/30",
+  "kind": "engraving"
+ },
+ "letter-c1": {
+  "title": "Portrait of a Young Man",
+  "artist": "Dosso Dossi (Italian, c. 1490\u2013after 1541)",
+  "date": "c. 1530",
+  "license": "Public domain (CC0, Cleveland Museum of Art)",
+  "source": "https://clevelandart.org/art/1916.803",
+  "kind": "Painting"
+ },
+ "letter-c2": {
+  "title": "Scenes from Essays in Idleness",
+  "artist": "Matsumura Goshun (Japanese, 1752\u20131811)",
+  "date": "late 1700s\u2013early 1800s",
+  "license": "Public domain (CC0, Cleveland Museum of Art)",
+  "source": "https://clevelandart.org/art/1971.43",
+  "kind": "Painting"
+ },
+ "letter-c3": {
+  "title": "Milton Dictating to His Daughter",
+  "artist": "Henry Fuseli",
+  "date": "1794",
+  "license": "Public domain (CC0, Art Institute of Chicago)",
+  "source": "https://www.artic.edu/artworks/44739",
+  "kind": "oil on canvas"
+ },
+ "hourglass-c1": {
+  "title": "Self-Portrait",
+  "artist": "Walter Shirlaw",
+  "date": "1878",
+  "license": "Public domain (CC0, Art Institute of Chicago)",
+  "source": "https://www.artic.edu/artworks/11",
+  "kind": "painting"
+ },
+ "hourglass-c2": {
+  "title": "A Sunday on La Grande Jatte \u2014 1884",
+  "artist": "Georges Seurat",
+  "date": "1884\u201386, border added 1888\u201389",
+  "license": "Public domain (CC0, Art Institute of Chicago)",
+  "source": "https://www.artic.edu/artworks/27992",
+  "kind": "oil on canvas"
+ },
+ "hourglass-c3": {
+  "title": "Paris Street; Rainy Day",
+  "artist": "Gustave Caillebotte",
+  "date": "1877",
+  "license": "Public domain (CC0, Art Institute of Chicago)",
+  "source": "https://www.artic.edu/artworks/20684",
+  "kind": "oil on canvas"
+ },
+ "crowd-c1": {
+  "title": "Perumal Temple Vimana from Corner of Court, Madurai",
+  "artist": "Captain Linnaeus Tripe (British, 1822\u20131902)",
+  "date": "1858",
+  "license": "Public domain (CC0, Cleveland Museum of Art)",
+  "source": "https://clevelandart.org/art/2020.209",
+  "kind": "Photograph"
+ },
+ "crowd-c2": {
+  "title": "Frontispiece for Engravers of the 19th Century",
+  "artist": "F\u00e9lix Henri Bracquemond",
+  "date": "1886",
+  "license": "Public domain (CC0, Art Institute of Chicago)",
+  "source": "https://www.artic.edu/artworks/42828",
+  "kind": "etching"
+ },
+ "crowd-c3": {
+  "title": "Articulated Dragon",
+  "artist": "School of Myochin",
+  "date": "c. 1880",
+  "license": "Public domain (CC0, Art Institute of Chicago)",
+  "source": "https://www.artic.edu/artworks/129",
+  "kind": "iron"
+ },
+ "night-c1": {
+  "title": "Interior of St. Mark's, Venice",
+  "artist": "David Dalhoff Neal",
+  "date": "1869",
+  "license": "Public domain (CC0, Art Institute of Chicago)",
+  "source": "https://www.artic.edu/artworks/9",
+  "kind": "painting"
+ },
+ "night-c2": {
+  "title": "Henri Degas and His Niece Lucie Degas (The Artist's Uncle and Cousin)",
+  "artist": "Hilaire Germain Edgar Degas",
+  "date": "1875\u201376",
+  "license": "Public domain (CC0, Art Institute of Chicago)",
+  "source": "https://www.artic.edu/artworks/14574",
+  "kind": "painting"
+ },
+ "night-c3": {
+  "title": "The Family Concert",
+  "artist": "Jan Steen",
+  "date": "1666",
+  "license": "Public domain (CC0, Art Institute of Chicago)",
+  "source": "https://www.artic.edu/artworks/561",
+  "kind": "oil on canvas"
+ },
+ "helm-c1": {
+  "title": "York Harbor, Coast of Maine",
+  "artist": "Martin Johnson Heade",
+  "date": "1877",
+  "license": "Public domain (CC0, Art Institute of Chicago)",
+  "source": "https://www.artic.edu/artworks/152747",
+  "kind": "painting"
+ },
+ "helm-c2": {
+  "title": "Entrance to the Port of Honfleur",
+  "artist": "Johan Barthold Jongkind",
+  "date": "1863\u201364",
+  "license": "Public domain (CC0, Art Institute of Chicago)",
+  "source": "https://www.artic.edu/artworks/30361",
+  "kind": "oil on canvas"
+ },
+ "helm-c3": {
+  "title": "Morning",
+  "artist": "Claude Joseph Vernet",
+  "date": "1760",
+  "license": "Public domain (CC0, Art Institute of Chicago)",
+  "source": "https://www.artic.edu/artworks/16439",
+  "kind": "oil on canvas"
+ },
+ "sculptor-c1": {
+  "title": "Saint Peter of Alc\u00e1ntara",
+  "artist": "Pedro de Mena (Spanish, 1628\u20131688)",
+  "date": "c. 1663\u201370",
+  "license": "Public domain (CC0, Cleveland Museum of Art)",
+  "source": "https://clevelandart.org/art/2009.81",
+  "kind": "Sculpture"
+ },
+ "sculptor-c2": {
+  "title": "Self-Portrait with Five Muses",
+  "artist": "Henry Church (American, 1836\u20131908)",
+  "date": "c. 1880",
+  "license": "Public domain (CC0, Cleveland Museum of Art)",
+  "source": "https://clevelandart.org/art/2012.30",
+  "kind": "Painting"
+ },
+ "sculptor-c3": {
+  "title": "Cabinet",
+  "artist": "Carlo Bugatti (Italian, 1856\u20131940)",
+  "date": "c. 1895",
+  "license": "Public domain (CC0, Cleveland Museum of Art)",
+  "source": "https://clevelandart.org/art/1984.177",
+  "kind": "Furniture and woodwork"
+ },
+ "shadow-c1": {
+  "title": "Allegory of Envy",
+  "artist": "Cristofano Robetta",
+  "date": "c. 1505",
+  "license": "Public domain (CC0, Art Institute of Chicago)",
+  "source": "https://www.artic.edu/artworks/4373",
+  "kind": "engraving"
+ },
+ "shadow-c2": {
+  "title": "Perseus Starting from the Cave of the Gorgons",
+  "artist": "Henry Fuseli",
+  "date": "c. 1816",
+  "license": "Public domain (CC0, Art Institute of Chicago)",
+  "source": "https://www.artic.edu/artworks/61546",
+  "kind": "gouache"
+ },
+ "shadow-c3": {
+  "title": "Allegory of Carnal Love",
+  "artist": "Cristofano Robetta",
+  "date": "c. 1530",
+  "license": "Public domain (CC0, Art Institute of Chicago)",
+  "source": "https://www.artic.edu/artworks/4370",
+  "kind": "engraving"
+ },
+ "science-c1": {
+  "title": "Self-Portrait in a Fur Cap",
+  "artist": "Joseph Wright of Derby",
+  "date": "1765/68",
+  "license": "Public domain (CC0, Art Institute of Chicago)",
+  "source": "https://www.artic.edu/artworks/76295",
+  "kind": "pastel"
+ },
+ "science-c2": {
+  "title": "The Gulf of Salerno",
+  "artist": "Joseph Wright of Derby",
+  "date": "1783\u201385",
+  "license": "Public domain (CC0, Art Institute of Chicago)",
+  "source": "https://www.artic.edu/artworks/180711",
+  "kind": "oil on canvas"
+ },
+ "science-c3": {
+  "title": "Wooded Landscape",
+  "artist": "Joseph Wright of Derby",
+  "date": "1754/97",
+  "license": "Public domain (CC0, Art Institute of Chicago)",
+  "source": "https://www.artic.edu/artworks/115669",
+  "kind": "ink or chalk wash"
+ },
+ "school-c1": {
+  "title": "Water Lilies",
+  "artist": "Claude Monet",
+  "date": "1906",
+  "license": "Public domain (CC0, Art Institute of Chicago)",
+  "source": "https://www.artic.edu/artworks/16568",
+  "kind": "oil on canvas"
+ },
+ "school-c2": {
+  "title": "Pastoral Landscape with Ruins",
+  "artist": "Adriaen van de Velde",
+  "date": "1664",
+  "license": "Public domain (CC0, Art Institute of Chicago)",
+  "source": "https://www.artic.edu/artworks/863",
+  "kind": "oil on canvas"
+ },
+ "school-c3": {
+  "title": "The Song of the Lark",
+  "artist": "Jules Breton",
+  "date": "1884",
+  "license": "Public domain (CC0, Art Institute of Chicago)",
+  "source": "https://www.artic.edu/artworks/94841",
+  "kind": "oil on canvas"
+ },
+ "dream-c1": {
+  "title": "A Nightmare",
+  "artist": "Melchior Bocksberger",
+  "date": "after 1573",
+  "license": "Public domain (CC0, Art Institute of Chicago)",
+  "source": "https://www.artic.edu/artworks/192873",
+  "kind": "drawings (visual works)"
+ },
+ "dream-c2": {
+  "title": "Two Heads of Damned Souls from Dante's \"Inferno\" (recto and verso)",
+  "artist": "Henry Fuseli",
+  "date": "1770\u201378",
+  "license": "Public domain (CC0, Art Institute of Chicago)",
+  "source": "https://www.artic.edu/artworks/116101",
+  "kind": "oil on canvas"
+ },
+ "dream-c3": {
+  "title": "Sketch for \"Oath on the R\u00fctli\" (recto), Female Figure (verso)",
+  "artist": "Henry Fuseli",
+  "date": "1779\u201381 (recto); 1785\u201390 (verso)",
+  "license": "Public domain (CC0, Art Institute of Chicago)",
+  "source": "https://www.artic.edu/artworks/59989",
+  "kind": "oil on canvas"
+ },
+ "chess-c1": {
+  "title": "The Chess Players",
+  "artist": "William Henry Fox Talbot",
+  "date": "c. 1843/47",
+  "license": "Public domain (CC0, Art Institute of Chicago)",
+  "source": "https://www.artic.edu/artworks/27083",
+  "kind": "salted paper print"
+ },
+ "chess-c2": {
+  "title": "Chess-Players",
+  "artist": "Anders Zorn",
+  "date": "1891",
+  "license": "Public domain (CC0, Art Institute of Chicago)",
+  "source": "https://www.artic.edu/artworks/41624",
+  "kind": "etching"
+ },
+ "chess-c3": {
+  "title": "The Double Bass Player",
+  "artist": "Alphonse Legros",
+  "date": "c. 1873",
+  "license": "Public domain (CC0, Art Institute of Chicago)",
+  "source": "https://www.artic.edu/artworks/70",
+  "kind": "etching"
+ },
+ "puppet-c1": {
+  "title": "Self-Portrait",
+  "artist": "Vincent van Gogh",
+  "date": "1887",
+  "license": "Public domain (CC0, Art Institute of Chicago)",
+  "source": "https://www.artic.edu/artworks/80607",
+  "kind": "oil on board"
+ },
+ "puppet-c2": {
+  "title": "Two Sisters (On the Terrace)",
+  "artist": "Pierre-Auguste Renoir",
+  "date": "1881",
+  "license": "Public domain (CC0, Art Institute of Chicago)",
+  "source": "https://www.artic.edu/artworks/14655",
+  "kind": "painting"
+ },
+ "puppet-c3": {
+  "title": "Unfinished Study of Sheep",
+  "artist": "Constant Troyon",
+  "date": "c. 1850",
+  "license": "Public domain (CC0, Art Institute of Chicago)",
+  "source": "https://www.artic.edu/artworks/898",
+  "kind": "painting"
+ },
+ "sea-c1": {
+  "title": "Sea View, Calm Weather (Vue de mer, temps calme)",
+  "artist": "\u00c9douard Manet",
+  "date": "1864",
+  "license": "Public domain (CC0, Art Institute of Chicago)",
+  "source": "https://www.artic.edu/artworks/81535",
+  "kind": "painting"
+ },
+ "sea-c2": {
+  "title": "The Bay of Marseille, Seen from L'Estaque",
+  "artist": "Paul Cezanne",
+  "date": "c. 1885",
+  "license": "Public domain (CC0, Art Institute of Chicago)",
+  "source": "https://www.artic.edu/artworks/16487",
+  "kind": "oil on canvas"
+ },
+ "sea-c3": {
+  "title": "The Beach at Sainte-Adresse",
+  "artist": "Claude Monet",
+  "date": "1867",
+  "license": "Public domain (CC0, Art Institute of Chicago)",
+  "source": "https://www.artic.edu/artworks/14598",
+  "kind": "painting"
+ },
+ "river-c1": {
+  "title": "Wounded Lioness",
+  "artist": "Pierre Andrieu",
+  "date": "c. 1850",
+  "license": "Public domain (CC0, Art Institute of Chicago)",
+  "source": "https://www.artic.edu/artworks/883",
+  "kind": "oil on canvas"
+ },
+ "river-c2": {
+  "title": "The Watermill with the Great Red Roof",
+  "artist": "Meindert Hobbema",
+  "date": "c. 1665",
+  "license": "Public domain (CC0, Art Institute of Chicago)",
+  "source": "https://www.artic.edu/artworks/869",
+  "kind": "oil on canvas"
+ },
+ "river-c3": {
+  "title": "Final Study for \"Bathers at Asni\u00e8res\"",
+  "artist": "Georges Seurat",
+  "date": "1883",
+  "license": "Public domain (CC0, Art Institute of Chicago)",
+  "source": "https://www.artic.edu/artworks/20199",
+  "kind": "oil on panel"
+ },
+ "double-c1": {
+  "title": "Beata Beatrix",
+  "artist": "Dante Gabriel Rossetti",
+  "date": "1871\u201372",
+  "license": "Public domain (CC0, Art Institute of Chicago)",
+  "source": "https://www.artic.edu/artworks/16551",
+  "kind": "painting"
+ },
+ "double-c2": {
+  "title": "Mrs. William Morris Seated in Chair",
+  "artist": "Dante Gabriel Rossetti",
+  "date": "May 1870",
+  "license": "Public domain (CC0, Art Institute of Chicago)",
+  "source": "https://www.artic.edu/artworks/49421",
+  "kind": "graphite"
+ },
+ "double-c3": {
+  "title": "Solomon Receiving the Queen of Sheba",
+  "artist": "Cesare Rossetti",
+  "date": "n.d.",
+  "license": "Public domain (CC0, Art Institute of Chicago)",
+  "source": "https://www.artic.edu/artworks/80915",
+  "kind": "ink with wash"
+ }
+}
