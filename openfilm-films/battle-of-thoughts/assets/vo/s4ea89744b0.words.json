@@ -1,0 +1,82 @@
+[
+{
+"word": "So",
+"start": 0.0,
+"end": 0.22
+},
+{
+"word": "it",
+"start": 0.22,
+"end": 0.34
+},
+{
+"word": "returns,",
+"start": 0.34,
+"end": 0.82
+},
+{
+"word": "and",
+"start": 0.82,
+"end": 1.62
+},
+{
+"word": "finds",
+"start": 1.62,
+"end": 1.94
+},
+{
+"word": "its",
+"start": 1.94,
+"end": 2.14
+},
+{
+"word": "old",
+"start": 2.14,
+"end": 2.4
+},
+{
+"word": "house",
+"start": 2.4,
+"end": 2.7
+},
+{
+"word": "swept",
+"start": 2.7,
+"end": 3.06
+},
+{
+"word": "clean",
+"start": 3.06,
+"end": 3.54
+},
+{
+"word": "and",
+"start": 3.54,
+"end": 4.0
+},
+{
+"word": "put",
+"start": 4.0,
+"end": 4.22
+},
+{
+"word": "in",
+"start": 4.22,
+"end": 4.4
+},
+{
+"word": "order,",
+"start": 4.4,
+"end": 4.8
+},
+{
+"word": "and",
+"start": 4.8,
+"end": 5.34
+},
+{
+"word": "empty.",
+"start": 5.34,
+"end": 5.78
+}
+]

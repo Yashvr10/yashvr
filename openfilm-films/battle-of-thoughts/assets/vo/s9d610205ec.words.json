@@ -1,0 +1,147 @@
+[
+{
+"word": "A",
+"start": 0.0,
+"end": 0.18
+},
+{
+"word": "soul",
+"start": 0.18,
+"end": 0.5
+},
+{
+"word": "that",
+"start": 0.5,
+"end": 0.74
+},
+{
+"word": "begins",
+"start": 0.74,
+"end": 1.08
+},
+{
+"word": "with",
+"start": 1.08,
+"end": 1.4
+},
+{
+"word": "ninety",
+"start": 1.4,
+"end": 1.74
+},
+{
+"word": "bad",
+"start": 1.74,
+"end": 2.12
+},
+{
+"word": "thoughts",
+"start": 2.12,
+"end": 2.66
+},
+{
+"word": "and",
+"start": 2.66,
+"end": 3.16
+},
+{
+"word": "ten",
+"start": 3.16,
+"end": 3.44
+},
+{
+"word": "good",
+"start": 3.44,
+"end": 3.72
+},
+{
+"word": "ones,",
+"start": 3.72,
+"end": 4.2
+},
+{
+"word": "and",
+"start": 4.54,
+"end": 4.8
+},
+{
+"word": "fights,",
+"start": 4.8,
+"end": 5.28
+},
+{
+"word": "may",
+"start": 5.28,
+"end": 5.94
+},
+{
+"word": "climb",
+"start": 5.94,
+"end": 6.28
+},
+{
+"word": "higher",
+"start": 6.28,
+"end": 6.72
+},
+{
+"word": "than",
+"start": 6.72,
+"end": 7.04
+},
+{
+"word": "one",
+"start": 7.04,
+"end": 7.36
+},
+{
+"word": "that",
+"start": 7.36,
+"end": 7.62
+},
+{
+"word": "began",
+"start": 7.62,
+"end": 7.96
+},
+{
+"word": "the",
+"start": 7.96,
+"end": 8.18
+},
+{
+"word": "other",
+"start": 8.18,
+"end": 8.4
+},
+{
+"word": "way",
+"start": 8.4,
+"end": 8.66
+},
+{
+"word": "round",
+"start": 8.66,
+"end": 9.08
+},
+{
+"word": "and",
+"start": 9.08,
+"end": 9.64
+},
+{
+"word": "never",
+"start": 9.64,
+"end": 9.94
+},
+{
+"word": "had",
+"start": 9.94,
+"end": 10.3
+},
+{
+"word": "to.",
+"start": 10.3,
+"end": 10.56
+}
+]

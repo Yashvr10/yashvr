@@ -1,0 +1,77 @@
+[
+{
+"word": "You",
+"start": 0.0,
+"end": 0.22
+},
+{
+"word": "pay",
+"start": 0.22,
+"end": 0.44
+},
+{
+"word": "for",
+"start": 0.44,
+"end": 0.66
+},
+{
+"word": "your",
+"start": 0.66,
+"end": 0.86
+},
+{
+"word": "groceries",
+"start": 0.86,
+"end": 1.42
+},
+{
+"word": "and",
+"start": 1.42,
+"end": 2.02
+},
+{
+"word": "wish",
+"start": 2.02,
+"end": 2.22
+},
+{
+"word": "the",
+"start": 2.22,
+"end": 2.44
+},
+{
+"word": "cashier",
+"start": 2.44,
+"end": 2.98
+},
+{
+"word": "a",
+"start": 2.98,
+"end": 3.16
+},
+{
+"word": "good",
+"start": 3.16,
+"end": 3.34
+},
+{
+"word": "day.",
+"start": 3.34,
+"end": 3.8
+},
+{
+"word": "He",
+"start": 4.44,
+"end": 4.56
+},
+{
+"word": "says",
+"start": 4.56,
+"end": 4.78
+},
+{
+"word": "nothing.",
+"start": 4.78,
+"end": 5.08
+}
+]

@@ -1,0 +1,62 @@
+[
+{
+"word": "But",
+"start": 0.0,
+"end": 0.12
+},
+{
+"word": "the",
+"start": 0.12,
+"end": 0.26
+},
+{
+"word": "guard",
+"start": 0.26,
+"end": 0.56
+},
+{
+"word": "who",
+"start": 0.56,
+"end": 0.8
+},
+{
+"word": "sees",
+"start": 0.8,
+"end": 1.08
+},
+{
+"word": "the",
+"start": 1.08,
+"end": 1.32
+},
+{
+"word": "enemy",
+"start": 1.32,
+"end": 1.62
+},
+{
+"word": "coming",
+"start": 1.62,
+"end": 2.2
+},
+{
+"word": "can",
+"start": 2.2,
+"end": 2.82
+},
+{
+"word": "raise",
+"start": 2.82,
+"end": 3.2
+},
+{
+"word": "the",
+"start": 3.2,
+"end": 3.56
+},
+{
+"word": "alarm.",
+"start": 3.56,
+"end": 3.96
+}
+]

@@ -10,21 +10,29 @@
   "light-c11",
   "light-c12",
   "light-c13",
-  "light-c14"
+  "light-c14",
+  "morning-c4"
  ],
  "monk": [
   "monk-c3",
   "monk-c4",
   "monk-c6",
   "monk-c7",
-  "monk-c8"
+  "monk-c8",
+  "monk-c11",
+  "monk-c12",
+  "monk-c13"
  ],
  "demon": [
   "demon-c1",
   "demon-c3",
   "demon-c4",
   "demon-c6",
-  "morning-c2"
+  "morning-c2",
+  "demon-c8",
+  "demon-c10",
+  "demon-c11",
+  "desert-c5"
  ],
  "prayer": [
   "prayer-c1",
@@ -40,22 +48,29 @@
  "despair": [
   "despair-c1",
   "despair-c2",
-  "despair-c5"
+  "despair-c5",
+  "despair-c8"
  ],
  "night": [
   "night-c1",
-  "night-c5"
+  "night-c5",
+  "night-c7"
  ],
  "thinker": [
   "thinker-c1",
   "thinker-c2",
   "thinker-c3",
-  "thinker-c4"
+  "thinker-c4",
+  "thinker-c5",
+  "thinker-c6",
+  "thinker-c7"
  ],
  "crowd": [
   "crowd-c4",
   "crowd-c1",
-  "seneca-c3"
+  "seneca-c3",
+  "crowd-c5",
+  "crowd-c6"
  ],
  "portrait": [
   "portrait-c1",
@@ -67,41 +82,59 @@
   "stoic-c3"
  ],
  "book": [
-  "book-c3"
+  "book-c3",
+  "book-c6",
+  "book-c8",
+  "book-c9"
  ],
  "church": [
   "church-c1",
   "church-c2",
   "church-c3",
-  "church-c4"
+  "church-c4",
+  "fog-c4"
  ],
  "knight": [
   "knight-c1",
-  "demon-c3"
+  "demon-c3",
+  "knight-c6",
+  "knight-c7",
+  "battle-c5"
  ],
  "hell": [
   "hell-c1",
-  "hell-c3"
+  "hell-c3",
+  "hell-c5",
+  "hell-c6",
+  "hell-c7"
  ],
  "castle": [
   "castle-c1",
   "castle-c2",
-  "clerk-c1"
+  "clerk-c1",
+  "castle-c4",
+  "castle-c5"
  ],
  "mirror": [
   "mirror-c1"
  ],
  "saint": [
   "saint-c1",
-  "desert-c3"
+  "desert-c3",
+  "saint-c4",
+  "saint-c5"
  ],
  "angel": [
   "angel-c1",
-  "angel-c3"
+  "angel-c3",
+  "angel-c4",
+  "angel-c6"
  ],
  "shadow": [
   "shadow-c3",
-  "morning-c2"
+  "morning-c2",
+  "shadow-c4",
+  "shadow-c5"
  ],
  "christ": [
   "christ-c2",
@@ -113,15 +146,19 @@
   "landscape-c3",
   "interior-c1",
   "seneca-c2",
-  "light-c7"
+  "light-c7",
+  "saint-c6",
+  "morning-c4"
  ],
  "desert": [
   "desert-c1",
-  "desert-c2"
+  "desert-c2",
+  "desert-c4"
  ],
  "priest": [
   "priest-c2",
-  "priest-c3"
+  "priest-c3",
+  "priest-c4"
  ],
  "anger": [
   "anger-c1"
@@ -133,7 +170,8 @@
  ],
  "street": [
   "street-c1",
-  "street-c3"
+  "street-c3",
+  "morning-c7"
  ],
  "beggar": [
   "beggar-c1",
@@ -141,7 +179,8 @@
   "street-c2"
  ],
  "battle": [
-  "battle-c3"
+  "battle-c3",
+  "battle-c4"
  ],
  "storm": [
   "storm-c1",
@@ -156,7 +195,8 @@
   "crucifixion-c3",
   "monk-c1",
   "monk-c2",
-  "light-c6"
+  "light-c6",
+  "monk-c9"
  ],
  "bed": [
   "mirror-c2"
@@ -165,7 +205,8 @@
   "statue-c2"
  ],
  "interior": [
-  "interior-c2"
+  "interior-c2",
+  "interior-c5"
  ],
  "anthony": [
   "demon-c1",
@@ -205,7 +246,8 @@
   "city-c2",
   "city-c3",
   "marcus-c2",
-  "marcus-c3"
+  "marcus-c3",
+  "morning-c7"
  ],
  "milton": [
   "milton-c1",
@@ -317,12 +359,18 @@
  ],
  "sea": [
   "sea-c2",
-  "morning-c3"
+  "morning-c3",
+  "anger-c5"
  ],
  "ship": [
   "ship-c1"
  ],
  "job": [
   "job-c1"
+ ],
+ "morning": [
+  "morning-c4",
+  "light-c7",
+  "landscape-c3"
  ]
 }

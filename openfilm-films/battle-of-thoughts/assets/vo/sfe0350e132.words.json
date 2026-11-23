@@ -1,0 +1,42 @@
+[
+{
+"word": "Lust,",
+"start": 0.0,
+"end": 0.44
+},
+{
+"word": "gluttony,",
+"start": 0.74,
+"end": 1.14
+},
+{
+"word": "greed,",
+"start": 1.54,
+"end": 1.84
+},
+{
+"word": "sloth,",
+"start": 2.02,
+"end": 2.48
+},
+{
+"word": "anger,",
+"start": 2.82,
+"end": 2.94
+},
+{
+"word": "envy",
+"start": 3.36,
+"end": 3.6
+},
+{
+"word": "and",
+"start": 3.6,
+"end": 3.8
+},
+{
+"word": "pride.",
+"start": 3.8,
+"end": 4.12
+}
+]

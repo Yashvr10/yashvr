@@ -1,0 +1,72 @@
+[
+{
+"word": "You",
+"start": 0.0,
+"end": 0.24
+},
+{
+"word": "wake",
+"start": 0.24,
+"end": 0.44
+},
+{
+"word": "up",
+"start": 0.44,
+"end": 0.7
+},
+{
+"word": "tired.",
+"start": 0.7,
+"end": 1.18
+},
+{
+"word": "Your",
+"start": 1.78,
+"end": 1.88
+},
+{
+"word": "hand",
+"start": 1.88,
+"end": 2.26
+},
+{
+"word": "finds",
+"start": 2.26,
+"end": 2.72
+},
+{
+"word": "the",
+"start": 2.72,
+"end": 2.98
+},
+{
+"word": "phone.",
+"start": 2.98,
+"end": 3.38
+},
+{
+"word": "And",
+"start": 3.38,
+"end": 4.04
+},
+{
+"word": "the",
+"start": 4.04,
+"end": 4.14
+},
+{
+"word": "cycle",
+"start": 4.14,
+"end": 4.56
+},
+{
+"word": "begins",
+"start": 4.56,
+"end": 4.98
+},
+{
+"word": "again.",
+"start": 4.98,
+"end": 5.46
+}
+]

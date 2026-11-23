@@ -1,0 +1,42 @@
+[
+{
+"word": "And",
+"start": 0.0,
+"end": 0.24
+},
+{
+"word": "outside",
+"start": 0.24,
+"end": 0.7
+},
+{
+"word": "the",
+"start": 0.7,
+"end": 0.94
+},
+{
+"word": "gate,",
+"start": 0.94,
+"end": 1.24
+},
+{
+"word": "always,",
+"start": 1.72,
+"end": 2.04
+},
+{
+"word": "the",
+"start": 2.04,
+"end": 2.46
+},
+{
+"word": "enemy",
+"start": 2.46,
+"end": 2.76
+},
+{
+"word": "waits.",
+"start": 2.76,
+"end": 3.22
+}
+]
