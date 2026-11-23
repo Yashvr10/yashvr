@@ -1,0 +1,127 @@
+[
+{
+"word": "Brain",
+"start": 0.0,
+"end": 0.4
+},
+{
+"word": "imaging",
+"start": 0.4,
+"end": 0.92
+},
+{
+"word": "research",
+"start": 0.92,
+"end": 1.46
+},
+{
+"word": "has",
+"start": 1.46,
+"end": 2.02
+},
+{
+"word": "repeatedly",
+"start": 2.02,
+"end": 2.52
+},
+{
+"word": "shown",
+"start": 2.52,
+"end": 2.98
+},
+{
+"word": "significant",
+"start": 2.98,
+"end": 3.7
+},
+{
+"word": "overlap",
+"start": 3.7,
+"end": 4.4
+},
+{
+"word": "between",
+"start": 4.4,
+"end": 5.12
+},
+{
+"word": "the",
+"start": 5.12,
+"end": 5.3
+},
+{
+"word": "neural",
+"start": 5.3,
+"end": 5.62
+},
+{
+"word": "regions",
+"start": 5.62,
+"end": 6.34
+},
+{
+"word": "activated",
+"start": 6.34,
+"end": 7.24
+},
+{
+"word": "during",
+"start": 7.24,
+"end": 7.86
+},
+{
+"word": "vividly",
+"start": 7.86,
+"end": 8.36
+},
+{
+"word": "imagined",
+"start": 8.36,
+"end": 9.04
+},
+{
+"word": "experiences",
+"start": 9.04,
+"end": 10.06
+},
+{
+"word": "and",
+"start": 10.06,
+"end": 10.88
+},
+{
+"word": "the",
+"start": 10.88,
+"end": 11.0
+},
+{
+"word": "regions",
+"start": 11.0,
+"end": 11.54
+},
+{
+"word": "activated",
+"start": 11.54,
+"end": 12.3
+},
+{
+"word": "during",
+"start": 12.3,
+"end": 12.82
+},
+{
+"word": "actually",
+"start": 12.82,
+"end": 13.54
+},
+{
+"word": "lived",
+"start": 13.54,
+"end": 13.94
+},
+{
+"word": "ones.",
+"start": 13.94,
+"end": 14.36
+}
+]

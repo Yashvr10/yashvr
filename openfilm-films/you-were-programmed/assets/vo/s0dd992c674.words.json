@@ -1,0 +1,187 @@
+[
+{
+"word": "Childhood",
+"start": 0.0,
+"end": 0.5
+},
+{
+"word": "is",
+"start": 0.5,
+"end": 0.8
+},
+{
+"word": "a",
+"start": 0.8,
+"end": 1.02
+},
+{
+"word": "period",
+"start": 1.02,
+"end": 1.28
+},
+{
+"word": "of",
+"start": 1.28,
+"end": 1.58
+},
+{
+"word": "exceptionally",
+"start": 1.58,
+"end": 2.24
+},
+{
+"word": "high",
+"start": 2.24,
+"end": 2.78
+},
+{
+"word": "neural",
+"start": 2.78,
+"end": 3.2
+},
+{
+"word": "plasticity,",
+"start": 3.2,
+"end": 4.42
+},
+{
+"word": "meaning",
+"start": 4.64,
+"end": 5.0
+},
+{
+"word": "the",
+"start": 5.0,
+"end": 5.28
+},
+{
+"word": "brain's",
+"start": 5.28,
+"end": 5.88
+},
+{
+"word": "physical",
+"start": 5.88,
+"end": 6.2
+},
+{
+"word": "wiring",
+"start": 6.2,
+"end": 6.68
+},
+{
+"word": "is",
+"start": 6.68,
+"end": 7.0
+},
+{
+"word": "being",
+"start": 7.0,
+"end": 7.2
+},
+{
+"word": "shaped",
+"start": 7.2,
+"end": 7.64
+},
+{
+"word": "in",
+"start": 7.64,
+"end": 7.92
+},
+{
+"word": "real",
+"start": 7.92,
+"end": 8.24
+},
+{
+"word": "time",
+"start": 8.24,
+"end": 8.78
+},
+{
+"word": "by",
+"start": 8.78,
+"end": 9.38
+},
+{
+"word": "whatever",
+"start": 9.38,
+"end": 9.76
+},
+{
+"word": "input",
+"start": 9.76,
+"end": 10.22
+},
+{
+"word": "it's",
+"start": 10.22,
+"end": 10.52
+},
+{
+"word": "getting,",
+"start": 10.52,
+"end": 10.88
+},
+{
+"word": "repeated",
+"start": 11.6,
+"end": 11.88
+},
+{
+"word": "experiences,",
+"start": 11.88,
+"end": 12.72
+},
+{
+"word": "repeated",
+"start": 13.44,
+"end": 13.8
+},
+{
+"word": "emotional",
+"start": 13.8,
+"end": 14.44
+},
+{
+"word": "tones,",
+"start": 14.44,
+"end": 15.12
+},
+{
+"word": "repeated",
+"start": 15.66,
+"end": 16.02
+},
+{
+"word": "messages",
+"start": 16.02,
+"end": 16.62
+},
+{
+"word": "from",
+"start": 16.62,
+"end": 17.08
+},
+{
+"word": "the",
+"start": 17.08,
+"end": 17.22
+},
+{
+"word": "people",
+"start": 17.22,
+"end": 17.54
+},
+{
+"word": "around",
+"start": 17.54,
+"end": 17.92
+},
+{
+"word": "you.",
+"start": 17.92,
+"end": 18.2
+}
+]

@@ -1,0 +1,47 @@
+[
+{
+"word": "You",
+"start": 0.0,
+"end": 0.22
+},
+{
+"word": "cannot",
+"start": 0.22,
+"end": 0.56
+},
+{
+"word": "edit",
+"start": 0.56,
+"end": 0.98
+},
+{
+"word": "a",
+"start": 0.98,
+"end": 1.2
+},
+{
+"word": "pattern",
+"start": 1.2,
+"end": 1.58
+},
+{
+"word": "you",
+"start": 1.58,
+"end": 2.12
+},
+{
+"word": "can't",
+"start": 2.12,
+"end": 2.38
+},
+{
+"word": "see",
+"start": 2.38,
+"end": 2.66
+},
+{
+"word": "clearly.",
+"start": 2.66,
+"end": 3.12
+}
+]

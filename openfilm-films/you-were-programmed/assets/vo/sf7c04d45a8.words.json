@@ -1,0 +1,92 @@
+[
+{
+"word": "It",
+"start": 0.0,
+"end": 0.18
+},
+{
+"word": "works",
+"start": 0.18,
+"end": 0.5
+},
+{
+"word": "because",
+"start": 0.5,
+"end": 0.96
+},
+{
+"word": "it",
+"start": 0.96,
+"end": 1.18
+},
+{
+"word": "drags",
+"start": 1.18,
+"end": 1.66
+},
+{
+"word": "implicit",
+"start": 1.66,
+"end": 2.12
+},
+{
+"word": "material",
+"start": 2.12,
+"end": 2.8
+},
+{
+"word": "into",
+"start": 2.8,
+"end": 3.38
+},
+{
+"word": "a",
+"start": 3.38,
+"end": 3.62
+},
+{
+"word": "system",
+"start": 3.62,
+"end": 3.98
+},
+{
+"word": "that's",
+"start": 3.98,
+"end": 4.8
+},
+{
+"word": "actually",
+"start": 4.8,
+"end": 5.18
+},
+{
+"word": "capable",
+"start": 5.18,
+"end": 5.6
+},
+{
+"word": "of",
+"start": 5.6,
+"end": 5.98
+},
+{
+"word": "evaluating",
+"start": 5.98,
+"end": 6.66
+},
+{
+"word": "and",
+"start": 6.66,
+"end": 7.24
+},
+{
+"word": "revising",
+"start": 7.24,
+"end": 7.8
+},
+{
+"word": "it.",
+"start": 7.8,
+"end": 8.08
+}
+]

@@ -1,0 +1,37 @@
+[
+{
+"word": "A",
+"start": 0.0,
+"end": 0.22
+},
+{
+"word": "child",
+"start": 0.22,
+"end": 0.7
+},
+{
+"word": "usually",
+"start": 0.7,
+"end": 1.28
+},
+{
+"word": "can't",
+"start": 1.28,
+"end": 1.88
+},
+{
+"word": "do",
+"start": 1.88,
+"end": 2.06
+},
+{
+"word": "that",
+"start": 2.06,
+"end": 2.32
+},
+{
+"word": "yet.",
+"start": 2.32,
+"end": 2.6
+}
+]

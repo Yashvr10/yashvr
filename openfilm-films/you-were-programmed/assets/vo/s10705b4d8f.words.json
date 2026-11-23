@@ -1,0 +1,47 @@
+[
+{
+"word": "This",
+"start": 0.0,
+"end": 0.24
+},
+{
+"word": "is",
+"start": 0.24,
+"end": 0.42
+},
+{
+"word": "where",
+"start": 0.42,
+"end": 0.64
+},
+{
+"word": "most",
+"start": 0.64,
+"end": 1.0
+},
+{
+"word": "self-improvement",
+"start": 1.0,
+"end": 2.2
+},
+{
+"word": "attempts",
+"start": 2.2,
+"end": 2.72
+},
+{
+"word": "quietly",
+"start": 2.72,
+"end": 3.4
+},
+{
+"word": "fall",
+"start": 3.4,
+"end": 3.9
+},
+{
+"word": "apart.",
+"start": 3.9,
+"end": 4.3
+}
+]

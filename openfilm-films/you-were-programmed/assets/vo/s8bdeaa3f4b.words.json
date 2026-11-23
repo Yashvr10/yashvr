@@ -1,0 +1,132 @@
+[
+{
+"word": "You",
+"start": 0.0,
+"end": 0.24
+},
+{
+"word": "parallel",
+"start": 0.24,
+"end": 0.76
+},
+{
+"word": "park,",
+"start": 0.76,
+"end": 1.28
+},
+{
+"word": "recognize",
+"start": 2.32,
+"end": 2.32
+},
+{
+"word": "a",
+"start": 2.32,
+"end": 2.64
+},
+{
+"word": "friend's",
+"start": 2.64,
+"end": 3.04
+},
+{
+"word": "voice",
+"start": 3.04,
+"end": 3.34
+},
+{
+"word": "in",
+"start": 3.34,
+"end": 3.68
+},
+{
+"word": "a",
+"start": 3.68,
+"end": 3.92
+},
+{
+"word": "crowded",
+"start": 3.92,
+"end": 4.22
+},
+{
+"word": "room,",
+"start": 4.22,
+"end": 4.68
+},
+{
+"word": "and",
+"start": 5.08,
+"end": 5.3
+},
+{
+"word": "flinch",
+"start": 5.3,
+"end": 5.7
+},
+{
+"word": "at",
+"start": 5.7,
+"end": 5.96
+},
+{
+"word": "a",
+"start": 5.96,
+"end": 6.12
+},
+{
+"word": "loud",
+"start": 6.12,
+"end": 6.4
+},
+{
+"word": "noise",
+"start": 6.4,
+"end": 6.96
+},
+{
+"word": "without",
+"start": 6.96,
+"end": 7.56
+},
+{
+"word": "consulting",
+"start": 7.56,
+"end": 8.2
+},
+{
+"word": "your",
+"start": 8.2,
+"end": 8.54
+},
+{
+"word": "conscious",
+"start": 8.54,
+"end": 9.0
+},
+{
+"word": "mind",
+"start": 9.0,
+"end": 9.6
+},
+{
+"word": "about",
+"start": 9.6,
+"end": 10.12
+},
+{
+"word": "any",
+"start": 10.12,
+"end": 10.4
+},
+{
+"word": "of",
+"start": 10.4,
+"end": 10.58
+},
+{
+"word": "it.",
+"start": 10.58,
+"end": 10.74
+}
+]

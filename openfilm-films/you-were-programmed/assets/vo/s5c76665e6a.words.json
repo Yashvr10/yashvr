@@ -1,0 +1,62 @@
+[
+{
+"word": "It",
+"start": 0.0,
+"end": 0.16
+},
+{
+"word": "was",
+"start": 0.16,
+"end": 0.3
+},
+{
+"word": "built",
+"start": 0.3,
+"end": 0.56
+},
+{
+"word": "through",
+"start": 0.56,
+"end": 0.92
+},
+{
+"word": "thousands",
+"start": 0.92,
+"end": 1.48
+},
+{
+"word": "of",
+"start": 1.48,
+"end": 1.78
+},
+{
+"word": "small,",
+"start": 1.78,
+"end": 2.34
+},
+{
+"word": "repeated",
+"start": 2.66,
+"end": 3.0
+},
+{
+"word": "moments",
+"start": 3.0,
+"end": 3.62
+},
+{
+"word": "spread",
+"start": 3.62,
+"end": 4.3
+},
+{
+"word": "across",
+"start": 4.3,
+"end": 4.72
+},
+{
+"word": "years.",
+"start": 4.72,
+"end": 5.24
+}
+]

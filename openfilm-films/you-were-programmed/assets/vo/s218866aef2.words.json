@@ -1,0 +1,102 @@
+[
+{
+"word": "It's",
+"start": 0.0,
+"end": 0.26
+},
+{
+"word": "why",
+"start": 0.26,
+"end": 0.5
+},
+{
+"word": "an",
+"start": 0.5,
+"end": 0.7
+},
+{
+"word": "old",
+"start": 0.7,
+"end": 0.92
+},
+{
+"word": "memory",
+"start": 0.92,
+"end": 1.34
+},
+{
+"word": "can",
+"start": 1.34,
+"end": 1.7
+},
+{
+"word": "spike",
+"start": 1.7,
+"end": 2.1
+},
+{
+"word": "your",
+"start": 2.1,
+"end": 2.4
+},
+{
+"word": "heart",
+"start": 2.4,
+"end": 2.72
+},
+{
+"word": "rate",
+"start": 2.72,
+"end": 3.06
+},
+{
+"word": "years",
+"start": 3.06,
+"end": 3.48
+},
+{
+"word": "after",
+"start": 3.48,
+"end": 3.9
+},
+{
+"word": "the",
+"start": 3.9,
+"end": 4.1
+},
+{
+"word": "fact,",
+"start": 4.1,
+"end": 4.46
+},
+{
+"word": "with",
+"start": 4.84,
+"end": 5.16
+},
+{
+"word": "no",
+"start": 5.16,
+"end": 5.42
+},
+{
+"word": "external",
+"start": 5.42,
+"end": 6.06
+},
+{
+"word": "trigger",
+"start": 6.06,
+"end": 6.48
+},
+{
+"word": "at",
+"start": 6.48,
+"end": 6.74
+},
+{
+"word": "all.",
+"start": 6.74,
+"end": 7.06
+}
+]

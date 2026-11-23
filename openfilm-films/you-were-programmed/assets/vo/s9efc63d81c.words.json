@@ -1,0 +1,52 @@
+[
+{
+"word": "That",
+"start": 0.0,
+"end": 0.3
+},
+{
+"word": "system",
+"start": 0.3,
+"end": 0.74
+},
+{
+"word": "is",
+"start": 0.74,
+"end": 1.1
+},
+{
+"word": "efficient",
+"start": 1.1,
+"end": 1.62
+},
+{
+"word": "precisely",
+"start": 1.62,
+"end": 2.4
+},
+{
+"word": "because",
+"start": 2.4,
+"end": 3.3
+},
+{
+"word": "it",
+"start": 3.3,
+"end": 3.44
+},
+{
+"word": "doesn't",
+"start": 3.44,
+"end": 3.74
+},
+{
+"word": "ask",
+"start": 3.74,
+"end": 4.08
+},
+{
+"word": "permission.",
+"start": 4.08,
+"end": 4.54
+}
+]

@@ -1,0 +1,132 @@
+[
+{
+"word": "That",
+"start": 0.0,
+"end": 0.26
+},
+{
+"word": "mismatch",
+"start": 0.26,
+"end": 0.78
+},
+{
+"word": "explains",
+"start": 0.78,
+"end": 1.46
+},
+{
+"word": "a",
+"start": 1.46,
+"end": 1.76
+},
+{
+"word": "phrase",
+"start": 1.76,
+"end": 2.34
+},
+{
+"word": "almost",
+"start": 2.34,
+"end": 3.02
+},
+{
+"word": "everyone",
+"start": 3.02,
+"end": 3.62
+},
+{
+"word": "has",
+"start": 3.62,
+"end": 3.84
+},
+{
+"word": "said",
+"start": 3.84,
+"end": 4.04
+},
+{
+"word": "out",
+"start": 4.04,
+"end": 4.3
+},
+{
+"word": "loud",
+"start": 4.3,
+"end": 4.66
+},
+{
+"word": "at",
+"start": 4.66,
+"end": 4.9
+},
+{
+"word": "some",
+"start": 4.9,
+"end": 5.14
+},
+{
+"word": "point:",
+"start": 5.14,
+"end": 5.52
+},
+{
+"word": "\"I",
+"start": 6.32,
+"end": 6.46
+},
+{
+"word": "know",
+"start": 6.46,
+"end": 6.64
+},
+{
+"word": "logically",
+"start": 6.64,
+"end": 7.1
+},
+{
+"word": "this",
+"start": 7.1,
+"end": 7.5
+},
+{
+"word": "doesn't",
+"start": 7.5,
+"end": 7.88
+},
+{
+"word": "make",
+"start": 7.88,
+"end": 8.08
+},
+{
+"word": "sense,",
+"start": 8.08,
+"end": 8.5
+},
+{
+"word": "but",
+"start": 8.88,
+"end": 9.08
+},
+{
+"word": "I",
+"start": 9.08,
+"end": 9.24
+},
+{
+"word": "still",
+"start": 9.24,
+"end": 9.58
+},
+{
+"word": "feel",
+"start": 9.58,
+"end": 9.94
+},
+{
+"word": "it.\"",
+"start": 9.94,
+"end": 10.2
+}
+]

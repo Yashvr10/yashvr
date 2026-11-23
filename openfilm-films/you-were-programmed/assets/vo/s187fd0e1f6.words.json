@@ -1,0 +1,77 @@
+[
+{
+"word": "A",
+"start": 0.0,
+"end": 0.16
+},
+{
+"word": "belief",
+"start": 0.16,
+"end": 0.52
+},
+{
+"word": "repeated",
+"start": 0.52,
+"end": 1.12
+},
+{
+"word": "flatly,",
+"start": 1.12,
+"end": 1.78
+},
+{
+"word": "with",
+"start": 2.16,
+"end": 2.26
+},
+{
+"word": "no",
+"start": 2.26,
+"end": 2.52
+},
+{
+"word": "real",
+"start": 2.52,
+"end": 2.88
+},
+{
+"word": "feeling",
+"start": 2.88,
+"end": 3.32
+},
+{
+"word": "attached",
+"start": 3.32,
+"end": 3.68
+},
+{
+"word": "to",
+"start": 3.68,
+"end": 4.04
+},
+{
+"word": "it,",
+"start": 4.04,
+"end": 4.28
+},
+{
+"word": "barely",
+"start": 4.74,
+"end": 4.92
+},
+{
+"word": "leaves",
+"start": 4.92,
+"end": 5.36
+},
+{
+"word": "a",
+"start": 5.36,
+"end": 5.56
+},
+{
+"word": "mark.",
+"start": 5.56,
+"end": 5.86
+}
+]

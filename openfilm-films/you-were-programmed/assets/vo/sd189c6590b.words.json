@@ -1,0 +1,72 @@
+[
+{
+"word": "The",
+"start": 0.0,
+"end": 0.14
+},
+{
+"word": "upside",
+"start": 0.14,
+"end": 0.6
+},
+{
+"word": "buried",
+"start": 0.6,
+"end": 1.0
+},
+{
+"word": "inside",
+"start": 1.0,
+"end": 1.62
+},
+{
+"word": "that",
+"start": 1.98,
+"end": 2.16
+},
+{
+"word": "frustration",
+"start": 2.16,
+"end": 2.76
+},
+{
+"word": "is",
+"start": 2.76,
+"end": 3.32
+},
+{
+"word": "that",
+"start": 3.32,
+"end": 3.5
+},
+{
+"word": "the",
+"start": 3.5,
+"end": 3.68
+},
+{
+"word": "timeline",
+"start": 3.68,
+"end": 4.22
+},
+{
+"word": "is",
+"start": 4.22,
+"end": 4.56
+},
+{
+"word": "finite",
+"start": 4.56,
+"end": 5.12
+},
+{
+"word": "and",
+"start": 5.12,
+"end": 5.88
+},
+{
+"word": "knowable.",
+"start": 5.88,
+"end": 6.4
+}
+]

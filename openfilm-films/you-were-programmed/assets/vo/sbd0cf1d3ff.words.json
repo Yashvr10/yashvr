@@ -1,0 +1,92 @@
+[
+{
+"word": "You're",
+"start": 0.0,
+"end": 0.36
+},
+{
+"word": "running",
+"start": 0.36,
+"end": 0.58
+},
+{
+"word": "an",
+"start": 0.58,
+"end": 0.82
+},
+{
+"word": "implicit",
+"start": 0.82,
+"end": 1.22
+},
+{
+"word": "prediction",
+"start": 1.22,
+"end": 1.92
+},
+{
+"word": "that",
+"start": 1.92,
+"end": 2.52
+},
+{
+"word": "your",
+"start": 2.52,
+"end": 2.72
+},
+{
+"word": "conscious",
+"start": 2.72,
+"end": 3.2
+},
+{
+"word": "mind",
+"start": 3.2,
+"end": 3.7
+},
+{
+"word": "never",
+"start": 3.7,
+"end": 4.12
+},
+{
+"word": "got",
+"start": 4.12,
+"end": 4.36
+},
+{
+"word": "a",
+"start": 4.36,
+"end": 4.52
+},
+{
+"word": "chance",
+"start": 4.52,
+"end": 4.8
+},
+{
+"word": "to",
+"start": 4.8,
+"end": 5.12
+},
+{
+"word": "review,",
+"start": 5.12,
+"end": 5.56
+},
+{
+"word": "edit,",
+"start": 5.92,
+"end": 6.24
+},
+{
+"word": "or",
+"start": 6.24,
+"end": 6.78
+},
+{
+"word": "approve.",
+"start": 6.78,
+"end": 7.22
+}
+]

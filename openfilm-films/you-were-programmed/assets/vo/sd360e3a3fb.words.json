@@ -1,0 +1,147 @@
+[
+{
+"word": "The",
+"start": 0.0,
+"end": 0.14
+},
+{
+"word": "only",
+"start": 0.14,
+"end": 0.5
+},
+{
+"word": "real",
+"start": 0.5,
+"end": 0.9
+},
+{
+"word": "question",
+"start": 0.9,
+"end": 1.4
+},
+{
+"word": "left",
+"start": 1.4,
+"end": 1.76
+},
+{
+"word": "is",
+"start": 1.76,
+"end": 2.36
+},
+{
+"word": "what",
+"start": 2.36,
+"end": 2.54
+},
+{
+"word": "you're",
+"start": 2.54,
+"end": 2.82
+},
+{
+"word": "going",
+"start": 2.82,
+"end": 3.0
+},
+{
+"word": "to",
+"start": 3.0,
+"end": 3.2
+},
+{
+"word": "tell",
+"start": 3.2,
+"end": 3.42
+},
+{
+"word": "it",
+"start": 3.42,
+"end": 3.62
+},
+{
+"word": "next,",
+"start": 3.62,
+"end": 4.04
+},
+{
+"word": "and",
+"start": 4.04,
+"end": 4.74
+},
+{
+"word": "whether",
+"start": 4.74,
+"end": 4.94
+},
+{
+"word": "you're",
+"start": 4.94,
+"end": 5.32
+},
+{
+"word": "actually",
+"start": 5.32,
+"end": 5.64
+},
+{
+"word": "going",
+"start": 5.64,
+"end": 5.94
+},
+{
+"word": "to",
+"start": 5.94,
+"end": 6.14
+},
+{
+"word": "say",
+"start": 6.14,
+"end": 6.36
+},
+{
+"word": "it",
+"start": 6.36,
+"end": 6.52
+},
+{
+"word": "enough",
+"start": 6.52,
+"end": 6.76
+},
+{
+"word": "times",
+"start": 6.76,
+"end": 7.18
+},
+{
+"word": "for",
+"start": 7.18,
+"end": 7.46
+},
+{
+"word": "it",
+"start": 7.46,
+"end": 7.64
+},
+{
+"word": "to",
+"start": 7.64,
+"end": 7.88
+},
+{
+"word": "finally",
+"start": 7.88,
+"end": 8.34
+},
+{
+"word": "believe",
+"start": 8.34,
+"end": 8.82
+},
+{
+"word": "you.",
+"start": 8.82,
+"end": 9.12
+}
+]

@@ -1,0 +1,47 @@
+[
+{
+"word": "And",
+"start": 0.0,
+"end": 0.22
+},
+{
+"word": "every",
+"start": 0.22,
+"end": 0.52
+},
+{
+"word": "road",
+"start": 0.52,
+"end": 0.92
+},
+{
+"word": "you",
+"start": 0.92,
+"end": 1.16
+},
+{
+"word": "stop",
+"start": 1.16,
+"end": 1.44
+},
+{
+"word": "walking",
+"start": 1.44,
+"end": 2.04
+},
+{
+"word": "eventually",
+"start": 2.04,
+"end": 2.82
+},
+{
+"word": "grows",
+"start": 2.82,
+"end": 3.34
+},
+{
+"word": "over.",
+"start": 3.34,
+"end": 3.78
+}
+]
