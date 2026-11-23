@@ -18,5 +18,22 @@
   "monk-c6",
   "monk-c7",
   "monk-c8"
+ ],
+ "demon": [
+  "demon-c1",
+  "demon-c2",
+  "demon-c3",
+  "demon-c4",
+  "demon-c5",
+  "demon-c6"
+ ],
+ "prayer": [
+  "prayer-c1",
+  "prayer-c2",
+  "prayer-c3",
+  "prayer-c4",
+  "prayer-c5",
+  "prayer-c6",
+  "prayer-c7"
  ]
 }
