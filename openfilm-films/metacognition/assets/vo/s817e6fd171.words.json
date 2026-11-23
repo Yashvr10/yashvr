@@ -1,0 +1,77 @@
+[
+{
+"word": "a",
+"start": 0.0,
+"end": 0.18
+},
+{
+"word": "simple",
+"start": 0.18,
+"end": 0.6
+},
+{
+"word": "inscription",
+"start": 0.6,
+"end": 1.3
+},
+{
+"word": "was",
+"start": 1.3,
+"end": 1.86
+},
+{
+"word": "carved",
+"start": 1.86,
+"end": 2.36
+},
+{
+"word": "above",
+"start": 2.36,
+"end": 2.66
+},
+{
+"word": "the",
+"start": 2.66,
+"end": 2.84
+},
+{
+"word": "entrance",
+"start": 2.84,
+"end": 3.34
+},
+{
+"word": "to",
+"start": 3.34,
+"end": 3.8
+},
+{
+"word": "the",
+"start": 3.8,
+"end": 3.94
+},
+{
+"word": "temple",
+"start": 3.94,
+"end": 4.24
+},
+{
+"word": "of",
+"start": 4.24,
+"end": 4.58
+},
+{
+"word": "Apollo",
+"start": 4.58,
+"end": 5.12
+},
+{
+"word": "at",
+"start": 5.12,
+"end": 5.72
+},
+{
+"word": "Delphi.",
+"start": 5.72,
+"end": 6.3
+}
+]

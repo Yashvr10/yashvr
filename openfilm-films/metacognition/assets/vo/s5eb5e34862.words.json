@@ -1,0 +1,32 @@
+[
+{
+"word": "You",
+"start": 0.0,
+"end": 0.2
+},
+{
+"word": "can\u2019t",
+"start": 0.2,
+"end": 0.54
+},
+{
+"word": "OUTRUN",
+"start": 0.54,
+"end": 1.1
+},
+{
+"word": "your",
+"start": 1.1,
+"end": 1.66
+},
+{
+"word": "own",
+"start": 1.66,
+"end": 1.96
+},
+{
+"word": "shadow.",
+"start": 1.96,
+"end": 2.3
+}
+]

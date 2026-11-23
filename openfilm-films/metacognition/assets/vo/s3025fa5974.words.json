@@ -1,0 +1,77 @@
+[
+{
+"word": "Black",
+"start": 0.0,
+"end": 0.34
+},
+{
+"word": "coffee",
+"start": 0.34,
+"end": 0.76
+},
+{
+"word": "went",
+"start": 0.76,
+"end": 1.04
+},
+{
+"word": "cold",
+"start": 1.04,
+"end": 1.6
+},
+{
+"word": "while",
+"start": 1.6,
+"end": 2.22
+},
+{
+"word": "I",
+"start": 2.22,
+"end": 2.36
+},
+{
+"word": "was",
+"start": 2.36,
+"end": 2.48
+},
+{
+"word": "rereading",
+"start": 2.48,
+"end": 2.94
+},
+{
+"word": "the",
+"start": 2.94,
+"end": 3.18
+},
+{
+"word": "same",
+"start": 3.18,
+"end": 3.48
+},
+{
+"word": "paragraph",
+"start": 3.48,
+"end": 4.06
+},
+{
+"word": "for",
+"start": 4.06,
+"end": 4.52
+},
+{
+"word": "the",
+"start": 4.52,
+"end": 4.64
+},
+{
+"word": "fourth",
+"start": 4.64,
+"end": 4.94
+},
+{
+"word": "time.",
+"start": 4.94,
+"end": 5.4
+}
+]

@@ -1,0 +1,42 @@
+[
+{
+"word": "Your",
+"start": 0.0,
+"end": 0.3
+},
+{
+"word": "hands",
+"start": 0.3,
+"end": 0.7
+},
+{
+"word": "did",
+"start": 0.7,
+"end": 1.04
+},
+{
+"word": "it.",
+"start": 1.04,
+"end": 1.42
+},
+{
+"word": "Your",
+"start": 1.66,
+"end": 1.82
+},
+{
+"word": "eyes",
+"start": 1.82,
+"end": 2.24
+},
+{
+"word": "did",
+"start": 2.24,
+"end": 2.56
+},
+{
+"word": "it.",
+"start": 2.56,
+"end": 2.78
+}
+]

@@ -718,5 +718,845 @@
   "license": "Public domain (CC0, Art Institute of Chicago)",
   "source": "https://www.artic.edu/artworks/80915",
   "kind": "ink with wash"
+ },
+ "market-c1": {
+  "title": "The Basket of Apples",
+  "artist": "Paul Cezanne",
+  "date": "c. 1893",
+  "license": "Public domain (CC0, Art Institute of Chicago)",
+  "source": "https://www.artic.edu/artworks/111436",
+  "kind": "oil on canvas"
+ },
+ "market-c2": {
+  "title": "Arrival of the Normandy Train, Gare Saint-Lazare",
+  "artist": "Claude Monet",
+  "date": "1877",
+  "license": "Public domain (CC0, Art Institute of Chicago)",
+  "source": "https://www.artic.edu/artworks/16571",
+  "kind": "painting"
+ },
+ "market-c3": {
+  "title": "Distant View of Niagara Falls",
+  "artist": "Thomas Cole",
+  "date": "1830",
+  "license": "Public domain (CC0, Art Institute of Chicago)",
+  "source": "https://www.artic.edu/artworks/90048",
+  "kind": "painting"
+ },
+ "door-c1": {
+  "title": "E10: English Dining Room of the Georgian Period, 1770\u201390",
+  "artist": "Narcissa Thorne",
+  "date": "c. 1937",
+  "license": "Public domain (CC0, Art Institute of Chicago)",
+  "source": "https://www.artic.edu/artworks/43714",
+  "kind": "miniature"
+ },
+ "door-c2": {
+  "title": "The Letter",
+  "artist": "Mary Cassatt",
+  "date": "1890\u201391",
+  "license": "Public domain (CC0, Art Institute of Chicago)",
+  "source": "https://www.artic.edu/artworks/13508",
+  "kind": "drypoint"
+ },
+ "door-c3": {
+  "title": "Young Woman at an Open Half-Door",
+  "artist": "Workshop of Rembrandt van Rijn",
+  "date": "1645",
+  "license": "Public domain (CC0, Art Institute of Chicago)",
+  "source": "https://www.artic.edu/artworks/94840",
+  "kind": "oil on canvas"
+ },
+ "alchemist-c1": {
+  "title": "Painting with Troika",
+  "artist": "Vasily Kandinsky",
+  "date": "January 18, 1911",
+  "license": "Public domain (CC0, Art Institute of Chicago)",
+  "source": "https://www.artic.edu/artworks/8983",
+  "kind": "oil on cardboard"
+ },
+ "alchemist-c2": {
+  "title": "At the Moulin Rouge",
+  "artist": "Henri de Toulouse-Lautrec",
+  "date": "1892\u201395",
+  "license": "Public domain (CC0, Art Institute of Chicago)",
+  "source": "https://www.artic.edu/artworks/61128",
+  "kind": "oil on canvas"
+ },
+ "alchemist-c3": {
+  "title": "Stacks of Wheat (End of Summer)",
+  "artist": "Claude Monet",
+  "date": "1890\u201391",
+  "license": "Public domain (CC0, Art Institute of Chicago)",
+  "source": "https://www.artic.edu/artworks/64818",
+  "kind": "oil on canvas"
+ },
+ "reading-c1": {
+  "title": "Reading",
+  "artist": "Berthe Morisot (French, 1841\u20131895)",
+  "date": "1873",
+  "license": "Public domain (CC0, Cleveland Museum of Art)",
+  "source": "https://clevelandart.org/art/1950.89",
+  "kind": "Painting"
+ },
+ "reading-c2": {
+  "title": "Man, Buffalo, and Calf",
+  "artist": "Li You (Chinese, active c. 1145)",
+  "date": "1145",
+  "license": "Public domain (CC0, Cleveland Museum of Art)",
+  "source": "https://clevelandart.org/art/1960.41",
+  "kind": "Painting"
+ },
+ "reading-c3": {
+  "title": "The Four Accomplishments",
+  "artist": "Kano Sh\u014dei (Japanese, 1519\u20131592)",
+  "date": "late 1500s\u2013early 1600s",
+  "license": "Public domain (CC0, Cleveland Museum of Art)",
+  "source": "https://clevelandart.org/art/1979.46",
+  "kind": "Painting"
+ },
+ "diagram-c1": {
+  "title": "Saint Benedict Presenting his Rule to Benedictine and Cistercian Monks in a Historiated Initial \"O\" from a Choirbook",
+  "artist": "Martino di Bartolomeo di Biagio",
+  "date": "1394/95",
+  "license": "Public domain (CC0, Art Institute of Chicago)",
+  "source": "https://www.artic.edu/artworks/10927",
+  "kind": "tempera"
+ },
+ "diagram-c2": {
+  "title": "Decorated Initial \"G\" in Pink with Curling Leaves from a Manuscript",
+  "artist": "Unknown",
+  "date": "14th century or modern, c. 1920",
+  "license": "Public domain (CC0, Art Institute of Chicago)",
+  "source": "https://www.artic.edu/artworks/14698",
+  "kind": "tempera"
+ },
+ "diagram-c3": {
+  "title": "Bishop at Mass in a Historiated Initial \"P\" from a Choirbook",
+  "artist": "Master Honor\u00e9",
+  "date": "c. 1300",
+  "license": "Public domain (CC0, Art Institute of Chicago)",
+  "source": "https://www.artic.edu/artworks/14691",
+  "kind": "tempera"
+ },
+ "greece-c1": {
+  "title": "Seated Man",
+  "artist": "Unknown",
+  "date": "400\u2013300 BCE",
+  "license": "Public domain (CC0, Cleveland Museum of Art)",
+  "source": "https://clevelandart.org/art/1929.442",
+  "kind": "Sculpture"
+ },
+ "greece-c2": {
+  "title": "Dancing Satyr Group",
+  "artist": "Unknown",
+  "date": "500\u2013475 BCE",
+  "license": "Public domain (CC0, Cleveland Museum of Art)",
+  "source": "https://clevelandart.org/art/1992.352",
+  "kind": "Sculpture"
+ },
+ "greece-c3": {
+  "title": "The Four Seasons",
+  "artist": "Henry Picou (French, 1824\u20131895)",
+  "date": "1850",
+  "license": "Public domain (CC0, Cleveland Museum of Art)",
+  "source": "https://clevelandart.org/art/1980.263",
+  "kind": "Painting"
+ },
+ "ship-c1": {
+  "title": "Charles Apthorp",
+  "artist": "Robert Feke (American, born The Thirteen Colonies, c. 1707\u2013c. 1752)",
+  "date": "1748",
+  "license": "Public domain (CC0, Cleveland Museum of Art)",
+  "source": "https://clevelandart.org/art/1919.1006",
+  "kind": "Painting"
+ },
+ "ship-c2": {
+  "title": "Point Judith, Rhode Island",
+  "artist": "Martin Johnson Heade (American, 1819\u20131904)",
+  "date": "1867\u201368",
+  "license": "Public domain (CC0, Cleveland Museum of Art)",
+  "source": "https://clevelandart.org/art/1970.161",
+  "kind": "Painting"
+ },
+ "ship-c3": {
+  "title": "Clouds and Waves at the Wu Gorge",
+  "artist": "Xie Shichen (Chinese, 1487\u2013after 1567)",
+  "date": "c. 1547\u201367",
+  "license": "Public domain (CC0, Cleveland Museum of Art)",
+  "source": "https://clevelandart.org/art/1968.213",
+  "kind": "Painting"
+ },
+ "machine-c1": {
+  "title": "The Bewitched Mill",
+  "artist": "Franz Marc",
+  "date": "1913",
+  "license": "Public domain (CC0, Art Institute of Chicago)",
+  "source": "https://www.artic.edu/artworks/9021",
+  "kind": "oil on canvas"
+ },
+ "machine-c2": {
+  "title": "Portrait of Edouard Mol\u00e9",
+  "artist": "Robert Nanteuil",
+  "date": "1653",
+  "license": "Public domain (CC0, Art Institute of Chicago)",
+  "source": "https://www.artic.edu/artworks/24",
+  "kind": "engraving"
+ },
+ "machine-c3": {
+  "title": "Simon Vouet",
+  "artist": "Robert van Voerst",
+  "date": "1630/36",
+  "license": "Public domain (CC0, Art Institute of Chicago)",
+  "source": "https://www.artic.edu/artworks/100",
+  "kind": "engraving"
+ },
+ "clock-c1": {
+  "title": "Peregrine Falcons (Duck Hawks)",
+  "artist": "John James Audubon (American, born Haiti, 1785\u20131851)",
+  "date": "c. 1827",
+  "license": "Public domain (CC0, Cleveland Museum of Art)",
+  "source": "https://clevelandart.org/art/1964.351",
+  "kind": "Painting"
+ },
+ "clock-c2": {
+  "title": "Portrait of Cardinal Guillaume Dubois",
+  "artist": "Hyacinthe Rigaud (French, 1659\u20131743)",
+  "date": "1723",
+  "license": "Public domain (CC0, Cleveland Museum of Art)",
+  "source": "https://clevelandart.org/art/1967.17",
+  "kind": "Painting"
+ },
+ "clock-c3": {
+  "title": "Chicago Stock Exchange Trading Room: Reconstruction at the Art Institute of Chicago",
+  "artist": "Adler & Sullivan, Architects",
+  "date": "1893/94 (original built)\n1972 (original demolished)\n1976/77 (reconstructed)",
+  "license": "Public domain (CC0, Art Institute of Chicago)",
+  "source": "https://www.artic.edu/artworks/156538",
+  "kind": "architectural fragment"
+ },
+ "forge-c1": {
+  "title": "Saint John the Baptist in a Landscape",
+  "artist": "Petrus Christus (Netherlandish, c. 1410\u20131475/76)",
+  "date": "c. 1445",
+  "license": "Public domain (CC0, Cleveland Museum of Art)",
+  "source": "https://clevelandart.org/art/1979.80",
+  "kind": "Painting"
+ },
+ "forge-c2": {
+  "title": "The Blacksmith",
+  "artist": "Richard Earlom (British, 1743\u20131822)",
+  "date": "1771",
+  "license": "Public domain (CC0, Cleveland Museum of Art)",
+  "source": "https://clevelandart.org/art/1995.69",
+  "kind": "Print"
+ },
+ "forge-c3": {
+  "title": "Ram Mask (Bolo)",
+  "artist": "Unknown",
+  "date": "possibly early 1900s",
+  "license": "Public domain (CC0, Cleveland Museum of Art)",
+  "source": "https://clevelandart.org/art/2016.56",
+  "kind": "Mask"
+ },
+ "temple-c1": {
+  "title": "Cupid Chastised",
+  "artist": "Bartolomeo Manfredi",
+  "date": "1613",
+  "license": "Public domain (CC0, Art Institute of Chicago)",
+  "source": "https://www.artic.edu/artworks/59847",
+  "kind": "oil on canvas"
+ },
+ "temple-c2": {
+  "title": "Statuette of a Seated Girl",
+  "artist": "Ancient Greek",
+  "date": "330-320 BCE",
+  "license": "Public domain (CC0, Art Institute of Chicago)",
+  "source": "https://www.artic.edu/artworks/454",
+  "kind": "statuette"
+ },
+ "temple-c3": {
+  "title": "Pelike (Storage Jar)",
+  "artist": "Ancient Greek",
+  "date": "about 510-500 BCE",
+  "license": "Public domain (CC0, Art Institute of Chicago)",
+  "source": "https://www.artic.edu/artworks/158",
+  "kind": "vessel"
+ },
+ "gods-c1": {
+  "title": "Hebe",
+  "artist": "Abbott Handerson Thayer (American, 1849\u20131921)",
+  "date": "c. 1890",
+  "license": "Public domain (CC0, Cleveland Museum of Art)",
+  "source": "https://clevelandart.org/art/1918.172",
+  "kind": "Painting"
+ },
+ "gods-c2": {
+  "title": "The Battle between the Gods and the Giants",
+  "artist": "Joachim Antonisz. Wtewael",
+  "date": "c. 1608",
+  "license": "Public domain (CC0, Art Institute of Chicago)",
+  "source": "https://www.artic.edu/artworks/105466",
+  "kind": "oil on copper"
+ },
+ "gods-c3": {
+  "title": "Apollo and Marsyas",
+  "artist": "Hans Thoma",
+  "date": "1888",
+  "license": "Public domain (CC0, Art Institute of Chicago)",
+  "source": "https://www.artic.edu/artworks/192691",
+  "kind": "painting"
+ },
+ "delphi-c1": {
+  "title": "View of Delphi with a Procession",
+  "artist": "Claude Lorrain",
+  "date": "1673",
+  "license": "Public domain (CC0, Art Institute of Chicago)",
+  "source": "https://www.artic.edu/artworks/43145",
+  "kind": "oil on canvas"
+ },
+ "delphi-c2": {
+  "title": "Head of Apollo",
+  "artist": "Emile-Antoine Bourdelle",
+  "date": "1900\u20131909",
+  "license": "Public domain (CC0, Art Institute of Chicago)",
+  "source": "https://www.artic.edu/artworks/148413",
+  "kind": "bronze"
+ },
+ "delphi-c3": {
+  "title": "Apollo Slaying Python, plate one from The History of Apollo and Daphne",
+  "artist": "Master of the Die",
+  "date": "c. 1532",
+  "license": "Public domain (CC0, Art Institute of Chicago)",
+  "source": "https://www.artic.edu/artworks/80137",
+  "kind": "print"
+ },
+ "statue-c1": {
+  "title": "Fragment of a Funerary Lekythos (Monument in the Shape of an Oil Jar)",
+  "artist": "Ancient Greek",
+  "date": "4th century BCE",
+  "license": "Public domain (CC0, Art Institute of Chicago)",
+  "source": "https://www.artic.edu/artworks/198468",
+  "kind": "marble"
+ },
+ "statue-c2": {
+  "title": "Fragment of a Grave Monument",
+  "artist": "Ancient Greek",
+  "date": "4th-3rd century BCE",
+  "license": "Public domain (CC0, Art Institute of Chicago)",
+  "source": "https://www.artic.edu/artworks/16620",
+  "kind": "architectural fragment"
+ },
+ "statue-c3": {
+  "title": "Pyxis (Container for Personal Objects)",
+  "artist": "Ancient Greek",
+  "date": "430-420 BCE",
+  "license": "Public domain (CC0, Art Institute of Chicago)",
+  "source": "https://www.artic.edu/artworks/616",
+  "kind": "vessel"
+ },
+ "stoic-c1": {
+  "title": "Lame Beggar Asking for Alms, from T is al verwart-gaern (It's already confusing)",
+  "artist": "Pieter Jansz. Quast",
+  "date": "n.d.",
+  "license": "Public domain (CC0, Art Institute of Chicago)",
+  "source": "https://www.artic.edu/artworks/81",
+  "kind": "engraving"
+ },
+ "stoic-c2": {
+  "title": "Louis Ph\u00e9lypeaux de la Vrilli\u00e8re",
+  "artist": "Robert Nanteuil",
+  "date": "1662",
+  "license": "Public domain (CC0, Art Institute of Chicago)",
+  "source": "https://www.artic.edu/artworks/145",
+  "kind": "engraving"
+ },
+ "stoic-c3": {
+  "title": "Anne of Austria, Queen of France",
+  "artist": "Robert Nanteuil",
+  "date": "1660",
+  "license": "Public domain (CC0, Art Institute of Chicago)",
+  "source": "https://www.artic.edu/artworks/56",
+  "kind": "engraving"
+ },
+ "abyss-c1": {
+  "title": "Alpine Scene",
+  "artist": "Gustave Dor\u00e9",
+  "date": "1865",
+  "license": "Public domain (CC0, Art Institute of Chicago)",
+  "source": "https://www.artic.edu/artworks/28146",
+  "kind": "oil on canvas"
+ },
+ "abyss-c2": {
+  "title": "La Rue de la Vieille Lanterne: The Suicide of G\u00e9rard de Nerval",
+  "artist": "Gustave Dor\u00e9",
+  "date": "1855",
+  "license": "Public domain (CC0, Art Institute of Chicago)",
+  "source": "https://www.artic.edu/artworks/105494",
+  "kind": "lithograph"
+ },
+ "abyss-c3": {
+  "title": "Fairy Land",
+  "artist": "Gustave Dor\u00e9",
+  "date": "1881",
+  "license": "Public domain (CC0, Art Institute of Chicago)",
+  "source": "https://www.artic.edu/artworks/29728",
+  "kind": "watercolor"
+ },
+ "morning-c1": {
+  "title": "Album of Miscellaneous Subjects",
+  "artist": "Fan Qi (Chinese, 1616\u2013after 1694)",
+  "date": "early 1650s",
+  "license": "Public domain (CC0, Cleveland Museum of Art)",
+  "source": "https://clevelandart.org/art/1975.22",
+  "kind": "Painting"
+ },
+ "morning-c2": {
+  "title": "The Girl by the Window",
+  "artist": "Edvard Munch",
+  "date": "1893",
+  "license": "Public domain (CC0, Art Institute of Chicago)",
+  "source": "https://www.artic.edu/artworks/154235",
+  "kind": "oil on canvas"
+ },
+ "morning-c3": {
+  "title": "Still Life with Game Fowl",
+  "artist": "Juan S\u00e1nchez Cot\u00e1n",
+  "date": "c. 1600\u20133",
+  "license": "Public domain (CC0, Art Institute of Chicago)",
+  "source": "https://www.artic.edu/artworks/84709",
+  "kind": "oil on canvas"
+ },
+ "anger-c1": {
+  "title": "A Young, Angry Heroine, Folio 28 from a Rasamanjari",
+  "artist": "Unknown",
+  "date": "c. 1615\u201320",
+  "license": "Public domain (CC0, Cleveland Museum of Art)",
+  "source": "https://clevelandart.org/art/1960.52",
+  "kind": "Painting"
+ },
+ "anger-c2": {
+  "title": "The Heroine Who is Faithfully Loved: Madhya Svadhinapatika Nayika, from a Rasamanjari of Bhanudatta",
+  "artist": "Unknown",
+  "date": "c. 1710",
+  "license": "Public domain (CC0, Cleveland Museum of Art)",
+  "source": "https://clevelandart.org/art/1967.239",
+  "kind": "Painting"
+ },
+ "anger-c3": {
+  "title": "Homer Dictating",
+  "artist": "Pier Francesco Mola",
+  "date": "1660\u201365",
+  "license": "Public domain (CC0, Art Institute of Chicago)",
+  "source": "https://www.artic.edu/artworks/5304",
+  "kind": "painting"
+ },
+ "despair-c1": {
+  "title": "Still Life with Rayfish",
+  "artist": "Cha\u00efm Soutine (French, born Russian Empire [now Belarus], 1893\u20131943)",
+  "date": "1923",
+  "license": "Public domain (CC0, Cleveland Museum of Art)",
+  "source": "https://clevelandart.org/art/1951.357",
+  "kind": "Painting"
+ },
+ "despair-c2": {
+  "title": "Ghatotkacha and three demons in his company chase Bhagadatta, from Bhishma-parva (volume six) of a Razm-nama (Book of Wars) adapted from the Sanskrit Mahabharat",
+  "artist": "Fazl (Indian, active early 1600s)",
+  "date": "1616\u201317",
+  "license": "Public domain (CC0, Cleveland Museum of Art)",
+  "source": "https://clevelandart.org/art/2013.321",
+  "kind": "Painting"
+ },
+ "despair-c3": {
+  "title": "Alpha's Despair",
+  "artist": "Edvard Munch",
+  "date": "1908/09",
+  "license": "Public domain (CC0, Art Institute of Chicago)",
+  "source": "https://www.artic.edu/artworks/93422",
+  "kind": "lithograph"
+ },
+ "ruins-c1": {
+  "title": "Ruin by the Sea",
+  "artist": "Arnold B\u00f6cklin (Swiss, 1827\u20131901)",
+  "date": "1881",
+  "license": "Public domain (CC0, Cleveland Museum of Art)",
+  "source": "https://clevelandart.org/art/1979.57",
+  "kind": "Painting"
+ },
+ "ruins-c2": {
+  "title": "Ruins of an Ancient City",
+  "artist": "John Martin (British, 1789\u20131854)",
+  "date": "c. 1810\u201320",
+  "license": "Public domain (CC0, Cleveland Museum of Art)",
+  "source": "https://clevelandart.org/art/1981.13",
+  "kind": "Painting"
+ },
+ "ruins-c3": {
+  "title": "View of the Gulf of Pozzuoli from Solfatara",
+  "artist": "Philipp Hackert (German, 1737\u20131807)",
+  "date": "1803",
+  "license": "Public domain (CC0, Cleveland Museum of Art)",
+  "source": "https://clevelandart.org/art/1983.14",
+  "kind": "Painting"
+ },
+ "monk-c1": {
+  "title": "Folio 22 from a Yoga-shastra of Hemachandra: Jain Monk with disciple and two laymen, two Nuns, and a laywoman (recto); Text (verso)",
+  "artist": "Unknown",
+  "date": "c. 1275",
+  "license": "Public domain (CC0, Cleveland Museum of Art)",
+  "source": "https://clevelandart.org/art/1971.129",
+  "kind": "Painting"
+ },
+ "monk-c2": {
+  "title": "Parshva Undergoes Physical Trials, Folio 46 (recto), from a Kalpa-sutra",
+  "artist": "Unknown",
+  "date": "c. 1500",
+  "license": "Public domain (CC0, Cleveland Museum of Art)",
+  "source": "https://clevelandart.org/art/1932.119.46.a",
+  "kind": "Painting"
+ },
+ "monk-c3": {
+  "title": "Text, Folio 46 (verso), from a Kalpa-sutra",
+  "artist": "Unknown",
+  "date": "c. 1500",
+  "license": "Public domain (CC0, Cleveland Museum of Art)",
+  "source": "https://clevelandart.org/art/1932.119.46.b",
+  "kind": "Painting"
+ },
+ "vitruvian-c1": {
+  "title": "The Oude Kerk, Delft",
+  "artist": "Cornelis de Man",
+  "date": "c. 1665",
+  "license": "Public domain (CC0, Art Institute of Chicago)",
+  "source": "https://www.artic.edu/artworks/24674",
+  "kind": "oil on canvas"
+ },
+ "vitruvian-c2": {
+  "title": "Amphora (Storage Jar)",
+  "artist": "Achilles Painter",
+  "date": "460-450 BCE",
+  "license": "Public domain (CC0, Art Institute of Chicago)",
+  "source": "https://www.artic.edu/artworks/166",
+  "kind": "vessel"
+ },
+ "vitruvian-c3": {
+  "title": "Bust of Seleucus Nicator of Syria",
+  "artist": "Sabatino de Angelis",
+  "date": "Late 19th century reproduction",
+  "license": "Public domain (CC0, Art Institute of Chicago)",
+  "source": "https://www.artic.edu/artworks/671",
+  "kind": "bronze"
+ },
+ "napoleon-c1": {
+  "title": "Egyptian Family (Sketch for \"The Battle of the Pyramids\")",
+  "artist": "Antoine-Jean Gros (French, 1771\u20131835)",
+  "date": "c. 1835",
+  "license": "Public domain (CC0, Cleveland Museum of Art)",
+  "source": "https://clevelandart.org/art/1972.17.2",
+  "kind": "Painting"
+ },
+ "napoleon-c2": {
+  "title": "General Jean-Baptiste Kl\u00e9ber and Egyptian Family (Sketches for \"The Battle of the Pyramids\") ",
+  "artist": "Antoine-Jean Gros (French, 1771\u20131835)",
+  "date": "c. 1835",
+  "license": "Public domain (CC0, Cleveland Museum of Art)",
+  "source": "https://clevelandart.org/art/1972.17",
+  "kind": "Painting"
+ },
+ "napoleon-c3": {
+  "title": "The Farm at the Entrance of the Wood",
+  "artist": "Rosa Bonheur (French, 1822\u20131899)",
+  "date": "1860\u201380",
+  "license": "Public domain (CC0, Cleveland Museum of Art)",
+  "source": "https://clevelandart.org/art/1978.73",
+  "kind": "Painting"
+ },
+ "tree-c1": {
+  "title": "A Mountain Stream",
+  "artist": "Julie H. Beers (American, 1835\u20131913)",
+  "date": "1870",
+  "license": "Public domain (CC0, Cleveland Museum of Art)",
+  "source": "https://clevelandart.org/art/2025.199",
+  "kind": "Painting"
+ },
+ "tree-c2": {
+  "title": "Paintings after Ancient Masters",
+  "artist": "Chen Hongshou (Chinese, 1598/99\u20131652)",
+  "date": "1598\u20131652",
+  "license": "Public domain (CC0, Cleveland Museum of Art)",
+  "source": "https://clevelandart.org/art/1979.27",
+  "kind": "Painting"
+ },
+ "tree-c3": {
+  "title": "Paintings after Ancient Masters: Mr. Five Willows (Wuliu), Tao Yuanming",
+  "artist": "Chen Hongshou (Chinese, 1598/99\u20131652)",
+  "date": "1598\u20131652",
+  "license": "Public domain (CC0, Cleveland Museum of Art)",
+  "source": "https://clevelandart.org/art/1979.27.2.12",
+  "kind": "Painting"
+ },
+ "vision-c1": {
+  "title": "The Vision of Saint Jerome",
+  "artist": "Giovanni Battista Langetti (Italian, 1635\u20131676)",
+  "date": "c. 1660",
+  "license": "Public domain (CC0, Cleveland Museum of Art)",
+  "source": "https://clevelandart.org/art/1951.334",
+  "kind": "Painting"
+ },
+ "vision-c2": {
+  "title": "The Mass of Saint Gregory",
+  "artist": "Hans Baldung (German, 1484/85\u20131545)",
+  "date": "1511",
+  "license": "Public domain (CC0, Cleveland Museum of Art)",
+  "source": "https://clevelandart.org/art/1952.112",
+  "kind": "Painting"
+ },
+ "vision-c3": {
+  "title": "St. Matthew",
+  "artist": "William Blake (British, 1757\u20131827)",
+  "date": "1799",
+  "license": "Public domain (CC0, Cleveland Museum of Art)",
+  "source": "https://clevelandart.org/art/2017.4",
+  "kind": "Painting"
+ },
+ "fool-c1": {
+  "title": "Portrait of the Jester Calabazas",
+  "artist": "Diego Vel\u00e1zquez (Spanish, 1599\u20131660)",
+  "date": "c. 1631\u201332",
+  "license": "Public domain (CC0, Cleveland Museum of Art)",
+  "source": "https://clevelandart.org/art/1965.15",
+  "kind": "Painting"
+ },
+ "fool-c2": {
+  "title": "The court jester meets a Zangi dancing with joy, and learns from him that the cause of his happiness is his assignation with a woman who is the jester\u2019s own wif",
+  "artist": "Unknown",
+  "date": "c. 1560",
+  "license": "Public domain (CC0, Cleveland Museum of Art)",
+  "source": "https://clevelandart.org/art/1962.279.155.a",
+  "kind": "Painting"
+ },
+ "fool-c3": {
+  "title": "As punishment, the jester\u2019s wife and the Zangi are thrown into fire and the emir\u2019s wife and the mahout are trampled by an elephant, from a Tuti-nama (Tales of a",
+  "artist": "Unknown",
+  "date": "c. 1560",
+  "license": "Public domain (CC0, Cleveland Museum of Art)",
+  "source": "https://clevelandart.org/art/1962.279.158.b",
+  "kind": "Painting"
+ },
+ "coffee-c1": {
+  "title": "Auvers, Panoramic View",
+  "artist": "Paul Cezanne",
+  "date": "1873\u201375",
+  "license": "Public domain (CC0, Art Institute of Chicago)",
+  "source": "https://www.artic.edu/artworks/14556",
+  "kind": "painting"
+ },
+ "coffee-c2": {
+  "title": "Young Peasant Having Her Coffee",
+  "artist": "Camille Pissarro",
+  "date": "1881",
+  "license": "Public domain (CC0, Art Institute of Chicago)",
+  "source": "https://www.artic.edu/artworks/81548",
+  "kind": "painting"
+ },
+ "coffee-c3": {
+  "title": "A Peasant Woman Digging in Front of Her Cottage",
+  "artist": "Vincent van Gogh",
+  "date": "c. 1885",
+  "license": "Public domain (CC0, Art Institute of Chicago)",
+  "source": "https://www.artic.edu/artworks/28862",
+  "kind": "oil on canvas"
+ },
+ "socrates-c1": {
+  "title": "Lamentation over the Body of Christ",
+  "artist": "Gerard David",
+  "date": "c. 1500",
+  "license": "Public domain (CC0, Art Institute of Chicago)",
+  "source": "https://www.artic.edu/artworks/16261",
+  "kind": "oil on panel"
+ },
+ "socrates-c2": {
+  "title": "Old Sarum",
+  "artist": "David Lucas",
+  "date": "1832",
+  "license": "Public domain (CC0, Art Institute of Chicago)",
+  "source": "https://www.artic.edu/artworks/2144",
+  "kind": "mezzotint"
+ },
+ "socrates-c3": {
+  "title": "River Stour, Suffolk",
+  "artist": "David Lucas",
+  "date": "1830, published 1831",
+  "license": "Public domain (CC0, Art Institute of Chicago)",
+  "source": "https://www.artic.edu/artworks/2122",
+  "kind": "mezzotint"
+ },
+ "oracle-c1": {
+  "title": "Oracle Bones (76 total)",
+  "artist": "Unknown",
+  "date": "Shang dynasty (about 1600\u20131046 BC)",
+  "license": "Public domain (CC0, Art Institute of Chicago)",
+  "source": "https://www.artic.edu/artworks/192727",
+  "kind": "ritual objects"
+ },
+ "oracle-c2": {
+  "title": "Dramatic and Grandiose with Her Face like that of a Druid Priestess",
+  "artist": "Odilon Redon",
+  "date": "1887",
+  "license": "Public domain (CC0, Art Institute of Chicago)",
+  "source": "https://www.artic.edu/artworks/79431",
+  "kind": "lithograph"
+ },
+ "oracle-c3": {
+  "title": "A Vanitas Still Life with a Flag, Candlestick, Musical Instruments, Books, Writing Paraphernalia, Globes, and Hourglass",
+  "artist": "Edwaert Collier",
+  "date": "1662",
+  "license": "Public domain (CC0, Art Institute of Chicago)",
+  "source": "https://www.artic.edu/artworks/258490",
+  "kind": "painting"
+ },
+ "harvest-c1": {
+  "title": "Vase of Flowers",
+  "artist": "Odilon Redon (French, 1840\u20131916)",
+  "date": "c. 1905",
+  "license": "Public domain (CC0, Cleveland Museum of Art)",
+  "source": "https://clevelandart.org/art/1935.233",
+  "kind": "Painting"
+ },
+ "harvest-c2": {
+  "title": "Sketches of Patmos, Sardis, Obelisk of Heliopolis",
+  "artist": "Unknown artist",
+  "date": "n.d.",
+  "license": "Public domain (CC0, Art Institute of Chicago)",
+  "source": "https://www.artic.edu/artworks/3083",
+  "kind": "pen and ink drawings"
+ },
+ "harvest-c3": {
+  "title": "Letter of Congratulations to Karna Martensdottir",
+  "artist": "Unknown artist",
+  "date": "1852",
+  "license": "Public domain (CC0, Art Institute of Chicago)",
+  "source": "https://www.artic.edu/artworks/10086",
+  "kind": "watercolor"
+ },
+ "war-c1": {
+  "title": "Column-Krater (Mixing Bowl)",
+  "artist": "Ancient Greek",
+  "date": "about 460 BCE",
+  "license": "Public domain (CC0, Art Institute of Chicago)",
+  "source": "https://www.artic.edu/artworks/164",
+  "kind": "vessel"
+ },
+ "war-c2": {
+  "title": "Mug",
+  "artist": "Ancient Greek",
+  "date": "about 460 BCE",
+  "license": "Public domain (CC0, Art Institute of Chicago)",
+  "source": "https://www.artic.edu/artworks/191",
+  "kind": "drinking vessel"
+ },
+ "war-c3": {
+  "title": "Pyxis (Container for Personal Objects)",
+  "artist": "Ancient Greek",
+  "date": "late 6th century BCE",
+  "license": "Public domain (CC0, Art Institute of Chicago)",
+  "source": "https://www.artic.edu/artworks/160",
+  "kind": "ceramics"
+ },
+ "vine-c1": {
+  "title": "The Terrace",
+  "artist": "Dutch",
+  "date": "c. 1660",
+  "license": "Public domain (CC0, Art Institute of Chicago)",
+  "source": "https://www.artic.edu/artworks/62460",
+  "kind": "oil on canvas"
+ },
+ "vine-c2": {
+  "title": "Lunch at the Restaurant Fournaise (The Rowers' Lunch)",
+  "artist": "Pierre-Auguste Renoir",
+  "date": "1875",
+  "license": "Public domain (CC0, Art Institute of Chicago)",
+  "source": "https://www.artic.edu/artworks/81555",
+  "kind": "painting"
+ },
+ "vine-c3": {
+  "title": "Fragment",
+  "artist": "Unknown",
+  "date": "Mid\u201318th century",
+  "license": "Public domain (CC0, Art Institute of Chicago)",
+  "source": "https://www.artic.edu/artworks/1943",
+  "kind": "textile"
+ },
+ "fire-c1": {
+  "title": "The Burning of the Houses of Lords and Commons, 16 October 1834",
+  "artist": "Joseph Mallord William Turner (British, 1775\u20131851)",
+  "date": "1835",
+  "license": "Public domain (CC0, Cleveland Museum of Art)",
+  "source": "https://clevelandart.org/art/1942.647",
+  "kind": "Painting"
+ },
+ "fire-c2": {
+  "title": "Church Bells Ringing, Rainy Winter Night",
+  "artist": "Charles Burchfield (American, 1893\u20131967)",
+  "date": "December 1917",
+  "license": "Public domain (CC0, Cleveland Museum of Art)",
+  "source": "https://clevelandart.org/art/1949.544",
+  "kind": "Drawing"
+ },
+ "fire-c3": {
+  "title": "The Brahman gambler sees the daughter of the king of the jinns in a pit together with an old man and a cauldron of boiling oil, from a Tuti-nama (Tales of a Par",
+  "artist": "Unknown",
+  "date": "c. 1560",
+  "license": "Public domain (CC0, Cleveland Museum of Art)",
+  "source": "https://clevelandart.org/art/1962.279.47.b",
+  "kind": "Painting"
+ },
+ "gold-c1": {
+  "title": "The goldsmith and the carpenter inform the king of a dream in which the golden images plan to desert the city for lack of worshippers, from a Tuti-nama (Tales o",
+  "artist": "Unknown",
+  "date": "c. 1560",
+  "license": "Public domain (CC0, Cleveland Museum of Art)",
+  "source": "https://clevelandart.org/art/1962.279.20.a",
+  "kind": "Painting"
+ },
+ "gold-c2": {
+  "title": "Saint Catherine",
+  "artist": "Master of the Holy Blood (Netherlandish)",
+  "date": "c. 1520",
+  "license": "Public domain (CC0, Cleveland Museum of Art)",
+  "source": "https://clevelandart.org/art/1942.633.1",
+  "kind": "Painting"
+ },
+ "gold-c3": {
+  "title": "Saint Barbara",
+  "artist": "Master of the Holy Blood (Netherlandish)",
+  "date": "c. 1520",
+  "license": "Public domain (CC0, Cleveland Museum of Art)",
+  "source": "https://clevelandart.org/art/1942.633.2",
+  "kind": "Painting"
+ },
+ "knight-c1": {
+  "title": "Man in Armour",
+  "artist": "Antonio Puga",
+  "date": "17th century",
+  "license": "Public domain (CC0, Art Institute of Chicago)",
+  "source": "https://www.artic.edu/artworks/48776",
+  "kind": "painting"
+ },
+ "knight-c2": {
+  "title": "Teucer",
+  "artist": "Hamo Thornycroft",
+  "date": "Modeled 1880-81, cast 1891",
+  "license": "Public domain (CC0, Art Institute of Chicago)",
+  "source": "https://www.artic.edu/artworks/567",
+  "kind": "large scale"
+ },
+ "knight-c3": {
+  "title": "Saint George and the Dragon",
+  "artist": "Bernat Martorell",
+  "date": "1434\u201335",
+  "license": "Public domain (CC0, Art Institute of Chicago)",
+  "source": "https://www.artic.edu/artworks/15468",
+  "kind": "painting"
  }
 }

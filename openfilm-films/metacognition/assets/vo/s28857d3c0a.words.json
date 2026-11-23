@@ -1,0 +1,127 @@
+[
+{
+"word": "Two",
+"start": 0.0,
+"end": 0.255
+},
+{
+"word": "thousand",
+"start": 0.255,
+"end": 0.51
+},
+{
+"word": "four",
+"start": 0.51,
+"end": 0.765
+},
+{
+"word": "hundred",
+"start": 0.765,
+"end": 1.02
+},
+{
+"word": "years",
+"start": 1.02,
+"end": 1.5
+},
+{
+"word": "later,",
+"start": 1.5,
+"end": 2.06
+},
+{
+"word": "at",
+"start": 2.38,
+"end": 2.62
+},
+{
+"word": "Stanford",
+"start": 2.62,
+"end": 3.12
+},
+{
+"word": "University,",
+"start": 3.12,
+"end": 4.06
+},
+{
+"word": "a",
+"start": 4.64,
+"end": 4.8
+},
+{
+"word": "psychologist",
+"start": 4.8,
+"end": 5.34
+},
+{
+"word": "named",
+"start": 5.34,
+"end": 6.0
+},
+{
+"word": "John",
+"start": 6.0,
+"end": 6.42
+},
+{
+"word": "Flavell",
+"start": 6.42,
+"end": 7.02
+},
+{
+"word": "was",
+"start": 7.02,
+"end": 7.5
+},
+{
+"word": "investigating",
+"start": 7.5,
+"end": 8.3
+},
+{
+"word": "why",
+"start": 8.3,
+"end": 8.82
+},
+{
+"word": "young",
+"start": 8.82,
+"end": 9.14
+},
+{
+"word": "children",
+"start": 9.14,
+"end": 9.6
+},
+{
+"word": "are",
+"start": 9.6,
+"end": 9.9
+},
+{
+"word": "so",
+"start": 9.9,
+"end": 10.2
+},
+{
+"word": "bad",
+"start": 10.2,
+"end": 10.7
+},
+{
+"word": "at",
+"start": 10.7,
+"end": 11.06
+},
+{
+"word": "remembering",
+"start": 11.06,
+"end": 11.54
+},
+{
+"word": "things.",
+"start": 11.54,
+"end": 12.12
+}
+]

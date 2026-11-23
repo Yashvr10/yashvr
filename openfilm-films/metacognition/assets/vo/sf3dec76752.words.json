@@ -1,0 +1,62 @@
+[
+{
+"word": "from",
+"start": 0.0,
+"end": 0.24
+},
+{
+"word": "the",
+"start": 0.24,
+"end": 0.44
+},
+{
+"word": "harvest",
+"start": 0.44,
+"end": 0.9
+},
+{
+"word": "and",
+"start": 0.9,
+"end": 1.5
+},
+{
+"word": "the",
+"start": 1.5,
+"end": 1.6
+},
+{
+"word": "war",
+"start": 1.6,
+"end": 1.98
+},
+{
+"word": "to",
+"start": 1.98,
+"end": 2.36
+},
+{
+"word": "the",
+"start": 2.36,
+"end": 2.48
+},
+{
+"word": "sex",
+"start": 2.48,
+"end": 2.76
+},
+{
+"word": "of",
+"start": 2.76,
+"end": 3.04
+},
+{
+"word": "your",
+"start": 3.04,
+"end": 3.2
+},
+{
+"word": "child,",
+"start": 3.2,
+"end": 3.64
+}
+]

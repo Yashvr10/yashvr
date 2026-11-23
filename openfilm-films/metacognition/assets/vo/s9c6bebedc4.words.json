@@ -1,0 +1,42 @@
+[
+{
+"word": "Young",
+"start": 0.0,
+"end": 0.28
+},
+{
+"word": "children",
+"start": 0.28,
+"end": 0.64
+},
+{
+"word": "have",
+"start": 0.64,
+"end": 1.0
+},
+{
+"word": "almost",
+"start": 1.0,
+"end": 1.28
+},
+{
+"word": "no",
+"start": 1.28,
+"end": 1.64
+},
+{
+"word": "self-awareness.",
+"start": 1.64,
+"end": 3.14
+},
+{
+"word": "No",
+"start": 3.14,
+"end": 3.44
+},
+{
+"word": "observer.",
+"start": 3.44,
+"end": 4.02
+}
+]

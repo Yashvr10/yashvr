@@ -1,0 +1,57 @@
+[
+{
+"word": "The",
+"start": 0.0,
+"end": 0.2
+},
+{
+"word": "reason",
+"start": 0.2,
+"end": 0.54
+},
+{
+"word": "is",
+"start": 0.54,
+"end": 0.96
+},
+{
+"word": "simple:",
+"start": 0.96,
+"end": 1.44
+},
+{
+"word": "the",
+"start": 2.04,
+"end": 2.12
+},
+{
+"word": "waiting",
+"start": 2.12,
+"end": 2.44
+},
+{
+"word": "itself",
+"start": 2.44,
+"end": 2.94
+},
+{
+"word": "turns",
+"start": 2.94,
+"end": 3.44
+},
+{
+"word": "into",
+"start": 3.44,
+"end": 3.82
+},
+{
+"word": "a",
+"start": 3.82,
+"end": 3.98
+},
+{
+"word": "thought.",
+"start": 3.98,
+"end": 4.32
+}
+]

@@ -1,0 +1,82 @@
+[
+{
+"word": "A",
+"start": 0.0,
+"end": 0.18
+},
+{
+"word": "few",
+"start": 0.18,
+"end": 0.4
+},
+{
+"word": "pictures",
+"start": 0.4,
+"end": 0.92
+},
+{
+"word": "laid",
+"start": 0.92,
+"end": 1.28
+},
+{
+"word": "out",
+"start": 1.28,
+"end": 1.56
+},
+{
+"word": "on",
+"start": 1.56,
+"end": 1.76
+},
+{
+"word": "a",
+"start": 1.76,
+"end": 1.9
+},
+{
+"word": "table,",
+"start": 1.9,
+"end": 2.24
+},
+{
+"word": "children",
+"start": 2.9,
+"end": 3.1
+},
+{
+"word": "of",
+"start": 3.1,
+"end": 3.42
+},
+{
+"word": "four",
+"start": 3.42,
+"end": 3.8
+},
+{
+"word": "different",
+"start": 3.8,
+"end": 4.18
+},
+{
+"word": "ages,",
+"start": 4.18,
+"end": 4.64
+},
+{
+"word": "with",
+"start": 5.14,
+"end": 5.28
+},
+{
+"word": "one",
+"start": 5.28,
+"end": 5.58
+},
+{
+"word": "instruction:",
+"start": 5.58,
+"end": 6.12
+}
+]

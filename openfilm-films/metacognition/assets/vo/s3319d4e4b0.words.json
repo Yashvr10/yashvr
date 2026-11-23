@@ -1,0 +1,42 @@
+[
+{
+"word": "But",
+"start": 0.0,
+"end": 0.18
+},
+{
+"word": "something",
+"start": 0.18,
+"end": 0.62
+},
+{
+"word": "strange",
+"start": 0.62,
+"end": 1.2
+},
+{
+"word": "happened",
+"start": 1.2,
+"end": 1.78
+},
+{
+"word": "while",
+"start": 1.78,
+"end": 2.42
+},
+{
+"word": "you",
+"start": 2.42,
+"end": 2.58
+},
+{
+"word": "were",
+"start": 2.58,
+"end": 2.68
+},
+{
+"word": "trying.",
+"start": 2.68,
+"end": 3.08
+}
+]

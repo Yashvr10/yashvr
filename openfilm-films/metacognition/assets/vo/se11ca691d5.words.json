@@ -1,0 +1,42 @@
+[
+{
+"word": "People",
+"start": 0.0,
+"end": 0.32
+},
+{
+"word": "search",
+"start": 0.32,
+"end": 0.64
+},
+{
+"word": "for",
+"start": 0.64,
+"end": 0.96
+},
+{
+"word": "problems",
+"start": 0.96,
+"end": 1.38
+},
+{
+"word": "everywhere",
+"start": 1.38,
+"end": 2.0
+},
+{
+"word": "except",
+"start": 2.44,
+"end": 2.78
+},
+{
+"word": "in",
+"start": 2.78,
+"end": 3.02
+},
+{
+"word": "themselves.",
+"start": 3.02,
+"end": 3.5
+}
+]

@@ -1,0 +1,72 @@
+[
+{
+"word": "This",
+"start": 0.0,
+"end": 0.24
+},
+{
+"word": "ability",
+"start": 0.24,
+"end": 0.62
+},
+{
+"word": "grows",
+"start": 0.62,
+"end": 1.2
+},
+{
+"word": "over",
+"start": 1.2,
+"end": 1.58
+},
+{
+"word": "time,",
+"start": 1.58,
+"end": 2.04
+},
+{
+"word": "but",
+"start": 2.48,
+"end": 2.66
+},
+{
+"word": "nobody",
+"start": 2.66,
+"end": 3.06
+},
+{
+"word": "ever",
+"start": 3.06,
+"end": 3.44
+},
+{
+"word": "sits",
+"start": 3.44,
+"end": 3.74
+},
+{
+"word": "you",
+"start": 3.74,
+"end": 4.02
+},
+{
+"word": "down",
+"start": 4.02,
+"end": 4.32
+},
+{
+"word": "and",
+"start": 4.32,
+"end": 4.78
+},
+{
+"word": "trains",
+"start": 4.78,
+"end": 5.14
+},
+{
+"word": "it.",
+"start": 5.14,
+"end": 5.44
+}
+]

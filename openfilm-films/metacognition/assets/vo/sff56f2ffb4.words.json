@@ -1,0 +1,122 @@
+[
+{
+"word": "I",
+"start": 0.0,
+"end": 0.22
+},
+{
+"word": "am",
+"start": 0.22,
+"end": 0.38
+},
+{
+"word": "better",
+"start": 0.38,
+"end": 0.66
+},
+{
+"word": "off",
+"start": 0.66,
+"end": 0.98
+},
+{
+"word": "than",
+"start": 0.98,
+"end": 1.26
+},
+{
+"word": "he",
+"start": 1.26,
+"end": 1.46
+},
+{
+"word": "is,",
+"start": 1.46,
+"end": 1.96
+},
+{
+"word": "for",
+"start": 2.2,
+"end": 2.36
+},
+{
+"word": "he",
+"start": 2.36,
+"end": 2.48
+},
+{
+"word": "knows",
+"start": 2.48,
+"end": 2.7
+},
+{
+"word": "nothing,",
+"start": 2.7,
+"end": 3.14
+},
+{
+"word": "and",
+"start": 3.14,
+"end": 3.7
+},
+{
+"word": "thinks",
+"start": 3.7,
+"end": 3.96
+},
+{
+"word": "that",
+"start": 3.96,
+"end": 4.2
+},
+{
+"word": "he",
+"start": 4.2,
+"end": 4.36
+},
+{
+"word": "knows;",
+"start": 4.36,
+"end": 4.66
+},
+{
+"word": "I",
+"start": 5.42,
+"end": 5.58
+},
+{
+"word": "neither",
+"start": 5.58,
+"end": 5.78
+},
+{
+"word": "know",
+"start": 5.78,
+"end": 6.26
+},
+{
+"word": "nor",
+"start": 6.26,
+"end": 6.58
+},
+{
+"word": "think",
+"start": 6.58,
+"end": 6.9
+},
+{
+"word": "that",
+"start": 6.9,
+"end": 7.14
+},
+{
+"word": "I",
+"start": 7.14,
+"end": 7.34
+},
+{
+"word": "know.",
+"start": 7.34,
+"end": 7.64
+}
+]

@@ -1,0 +1,112 @@
+[
+{
+"word": "This",
+"start": 0.0,
+"end": 0.26
+},
+{
+"word": "topic",
+"start": 0.26,
+"end": 0.64
+},
+{
+"word": "has",
+"start": 0.64,
+"end": 0.98
+},
+{
+"word": "been",
+"start": 0.98,
+"end": 1.2
+},
+{
+"word": "on",
+"start": 1.2,
+"end": 1.38
+},
+{
+"word": "my",
+"start": 1.38,
+"end": 1.58
+},
+{
+"word": "list",
+"start": 1.58,
+"end": 1.8
+},
+{
+"word": "for",
+"start": 1.8,
+"end": 2.02
+},
+{
+"word": "quite",
+"start": 2.02,
+"end": 2.24
+},
+{
+"word": "some",
+"start": 2.24,
+"end": 2.52
+},
+{
+"word": "time,",
+"start": 2.52,
+"end": 2.96
+},
+{
+"word": "but",
+"start": 3.14,
+"end": 3.52
+},
+{
+"word": "I",
+"start": 3.52,
+"end": 3.68
+},
+{
+"word": "always",
+"start": 3.68,
+"end": 3.98
+},
+{
+"word": "felt",
+"start": 3.98,
+"end": 4.34
+},
+{
+"word": "like",
+"start": 4.34,
+"end": 4.64
+},
+{
+"word": "I",
+"start": 4.64,
+"end": 4.82
+},
+{
+"word": "needed",
+"start": 4.82,
+"end": 5.1
+},
+{
+"word": "more",
+"start": 5.1,
+"end": 5.44
+},
+{
+"word": "knowledge.",
+"start": 5.44,
+"end": 5.82
+},
+{
+"word": "More",
+"start": 6.6,
+"end": 6.8
+},
+{
+"word": "practice.",
+"start": 6.8,
+"end": 7.3
+}
+]

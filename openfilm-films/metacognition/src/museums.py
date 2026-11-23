@@ -8,6 +8,9 @@ from PIL import Image
 Image.MAX_IMAGE_PIXELS = None
 N = int(sys.argv[1]) if len(sys.argv) > 1 else 4
 src = open("src/commons.py").read(); Q = ast.literal_eval(src[src.index("Q = ") + 4:src.index("\ndef api(")])
+WANT = {}
+if len(sys.argv) > 2:                     # second pass: {theme: [how many more, [queries]]}, paintings and prints only
+    Q2 = json.load(open(sys.argv[2])); Q = {k: v[1] for k, v in Q2.items()}; WANT = {k: v[0] for k, v in Q2.items()}
 UA = "Mozilla/5.0 (compatible; film-research/1.0)"
 def get(u, raw=False):
     for i in range(4):
@@ -23,11 +26,11 @@ def save(k, url):
     im.thumbnail((2400, 2400)); im.save(f"assets/photos/{k}.jpg", quality=88)
 P = json.load(open("src/images.json")); C = json.load(open("src/photo-credits.json"))
 seen = {c.get("source") for c in C.values()}
-KIND = re.compile(r"paint|print|drawing|engrav|etching|lithograph|canvas|panel|woodcut|book|illustrat", re.I)
+KIND = re.compile(r"paint|print|drawing|engrav|etching|lithograph|canvas|panel|woodcut" + ("" if WANT else "|book|illustrat"), re.I)
 import collections
 uses = collections.Counter(t for x in json.load(open("src/scenes.json"))["scenes"] if "th" in x for t in x["th"])
 for th, qs in Q.items():
-    have = len(P.get(th, [])); NT = min(8, max(N, round(uses[th] * 0.45)))
+    have = len(P.get(th, [])); NT = have + WANT[th] if WANT else min(8, max(N, round(uses[th] * 0.45)))
     for q in qs:
         if have >= NT: break
         # Cleveland Museum of Art (CC0, full-size "print" images)
@@ -52,7 +55,7 @@ for th, qs in Q.items():
         for x in (r or {}).get("data", []):
             if have >= NT: break
             u = f"https://www.artic.edu/artworks/{x['id']}"
-            if not x.get("image_id") or u in seen or ((x.get("thumbnail") or {}).get("width") or 0) < 1200: continue
+            if (WANT and not KIND.search(str(x.get('classification_title', '')))) or not x.get("image_id") or u in seen or ((x.get("thumbnail") or {}).get("width") or 0) < 1200: continue
             k = f"{th}-c{max([int(f.rsplit('-c', 1)[1][:-4]) for f in os.listdir('assets/photos') if f.startswith(th + '-c')] or [0]) + 1}"
             try: save(k, f"https://www.artic.edu/iiif/2/{x['image_id']}/full/1686,/0/default.jpg")
             except Exception as e: print("fail", x["id"], e); continue

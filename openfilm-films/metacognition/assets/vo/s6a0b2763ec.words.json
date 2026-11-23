@@ -1,0 +1,52 @@
+[
+{
+"word": "He",
+"start": 0.0,
+"end": 0.24
+},
+{
+"word": "can",
+"start": 0.24,
+"end": 0.36
+},
+{
+"word": "only",
+"start": 0.36,
+"end": 0.64
+},
+{
+"word": "be",
+"start": 0.64,
+"end": 0.86
+},
+{
+"word": "tired,",
+"start": 0.86,
+"end": 1.34
+},
+{
+"word": "at",
+"start": 1.34,
+"end": 1.86
+},
+{
+"word": "everyone,",
+"start": 1.86,
+"end": 2.36
+},
+{
+"word": "at",
+"start": 2.36,
+"end": 2.82
+},
+{
+"word": "full",
+"start": 2.82,
+"end": 3.2
+},
+{
+"word": "volume.",
+"start": 3.2,
+"end": 3.7
+}
+]

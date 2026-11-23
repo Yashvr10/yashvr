@@ -1,0 +1,77 @@
+[
+{
+"word": "On",
+"start": 0.0,
+"end": 0.28
+},
+{
+"word": "whether",
+"start": 0.28,
+"end": 0.5
+},
+{
+"word": "it",
+"start": 0.5,
+"end": 0.78
+},
+{
+"word": "is",
+"start": 0.78,
+"end": 0.94
+},
+{
+"word": "running",
+"start": 0.94,
+"end": 1.3
+},
+{
+"word": "at",
+"start": 1.3,
+"end": 1.54
+},
+{
+"word": "all,",
+"start": 1.54,
+"end": 1.86
+},
+{
+"word": "and",
+"start": 2.3,
+"end": 2.44
+},
+{
+"word": "on",
+"start": 2.44,
+"end": 2.56
+},
+{
+"word": "what",
+"start": 2.56,
+"end": 2.76
+},
+{
+"word": "it",
+"start": 2.76,
+"end": 2.92
+},
+{
+"word": "says",
+"start": 2.92,
+"end": 3.24
+},
+{
+"word": "when",
+"start": 3.24,
+"end": 3.56
+},
+{
+"word": "it",
+"start": 3.56,
+"end": 3.72
+},
+{
+"word": "does.",
+"start": 3.72,
+"end": 4.0
+}
+]
