@@ -1,0 +1,2048 @@
+{
+ "voice": "bm_lewis",
+ "speed": 0.84,
+ "pitch": 0.93,
+ "scenes": [
+  {
+   "id": "sb06b92dd6e",
+   "text": "You wake up tired, but the day is already calling, so you get up.",
+   "th": [
+    "morning",
+    "bed"
+   ],
+   "big": "tired",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s1c3b494a18",
+   "text": "Before your feet touch the floor, your hand has found the phone.",
+   "th": [
+    "morning"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s18061f4881",
+   "text": "Other people's lives scroll past, brighter and easier than yours, and a small sting of envy settles in.",
+   "th": [
+    "crowd",
+    "portrait"
+   ],
+   "big": "envy",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s26b451532a",
+   "text": "The news is full of scandal. You feel disgust, and then, quietly, a little pride. At least you are not like them.",
+   "th": [
+    "crowd",
+    "pride"
+   ],
+   "big": "pride",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s253e326cae",
+   "text": "On the road, the traffic crawls, and you rehearse excuses for being late.",
+   "th": [
+    "road",
+    "city"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s888ba06d5f",
+   "text": "Impatience turns into anger, and under your breath you curse the strangers around you.",
+   "th": [
+    "road",
+    "anger"
+   ],
+   "big": "anger",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s0d9e1f33a8",
+   "text": "At lunch, the talk turns to money, and to the people who have too much of it, and to the people who are not in the room.",
+   "th": [
+    "feast",
+    "crowd"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s9c32aa2d23",
+   "text": "You join in. Not because you agree, but because you do not want to be left out.",
+   "th": [
+    "feast"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s38fb031333",
+   "text": "Back at work there is a colleague who is better looking, better liked, better paid. You work harder, and he barely notices you.",
+   "th": [
+    "portrait",
+    "clerk"
+   ],
+   "big": "notices",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s5ab82bda11",
+   "text": "You help someone with a task, and when he forgets to thank you, you resent him for it.",
+   "th": [
+    "clerk"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s0b8d0ff98f",
+   "text": "In the evening a stranger catches your eye, and for a moment she is not a person to you, only something to want.",
+   "th": [
+    "street",
+    "crowd"
+   ],
+   "big": "want",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "sa6d7197cec",
+   "text": "When she looks back, you look away, as if she could read your mind.",
+   "th": [
+    "street"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s4fe38bdc28",
+   "text": "On the way home you give a few coins to a man on the pavement. He says nothing, and you regret the coins.",
+   "th": [
+    "beggar"
+   ],
+   "big": "coins",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "sfc7af2e26c",
+   "text": "At home, one careless remark is enough. You snap, and you shut the door behind you.",
+   "th": [
+    "door",
+    "anger"
+   ],
+   "big": "snap",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s71cfb581e5",
+   "text": "You eat too much, though you promised yourself you would not.",
+   "th": [
+    "feast",
+    "stilllife"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s6d40ecff65",
+   "text": "The book you bought to change your life sits on the shelf, and you choose another episode instead.",
+   "th": [
+    "book",
+    "night"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "sfe00e068f6",
+   "text": "Late at night the thoughts of lust from earlier come back, and you give in to them. Then come shame and guilt.",
+   "th": [
+    "night",
+    "despair"
+   ],
+   "big": "shame",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "sfbc65864ea",
+   "text": "You wonder why you cannot be patient, and kind, and diligent, and why envy, anger and sloth keep winning.",
+   "th": [
+    "thinker",
+    "despair"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s3ee383722b",
+   "text": "Saint Paul knew the feeling: for what I want to do, I do not do; but what I hate, that I do.",
+   "th": [
+    "saint",
+    "book"
+   ],
+   "big": "hate",
+   "red": false,
+   "gap": 1.61
+  },
+  {
+   "id": "sc207cffd38",
+   "text": "You promise yourself that tomorrow will be different, and you fall asleep.",
+   "th": [
+    "night",
+    "bed"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s9d04315769",
+   "text": "You wake up tired. Your hand finds the phone. And the cycle begins again.",
+   "th": [
+    "morning"
+   ],
+   "big": "cycle",
+   "red": false,
+   "gap": 1.84
+  },
+  {
+   "id": "ch1",
+   "card": "chapter",
+   "num": "I",
+   "title": "Two worlds",
+   "len": 4.4
+  },
+  {
+   "id": "s5f9630ec35",
+   "text": "Saint Paisios, a monk of Mount Athos, taught that the whole of the spiritual life rests on our thoughts.",
+   "th": [
+    "monk",
+    "mountain"
+   ],
+   "big": "thoughts",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s800574c79f",
+   "text": "The best work a person can take up, he said, is to build a kind of factory of good thoughts.",
+   "th": [
+    "workshop",
+    "monk"
+   ],
+   "big": "factory",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s849a5393ae",
+   "text": "Look at another person as a soul, as someone loved by God, and your day becomes a feast. Look at him only with the eyes of the flesh, and you begin to sink.",
+   "th": [
+    "portrait",
+    "angel"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s6a64327e85",
+   "text": "We live in two worlds at once: a visible one, and an invisible one.",
+   "th": [
+    "landscape",
+    "angel"
+   ],
+   "big": "two",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s825cccd526",
+   "text": "And many of us sleepwalk through the second.",
+   "th": [
+    "night",
+    "bed"
+   ],
+   "big": "sleepwalk",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s03f6b69053",
+   "text": "From the moment we wake until the moment we sleep, a war is being fought, and the prize is the soul.",
+   "th": [
+    "battle",
+    "angel"
+   ],
+   "big": "soul",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s180c472220",
+   "text": "It sounds dramatic. But look honestly at a single day of your thoughts, your words and your choices, and you can see the ground being lost, inch by inch.",
+   "th": [
+    "battle",
+    "thinker"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s4364d9dce4",
+   "text": "Try this. Spend one Sunday without your phone, or at least without the internet.",
+   "th": [
+    "church",
+    "landscape"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s45b752a6bb",
+   "text": "Notice how hard it is. The restlessness, the itch, the reaching hand.",
+   "th": [
+    "thinker"
+   ],
+   "big": "restlessness",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s5886ff1a12",
+   "text": "We cling to the very things that hurt us, and then we are surprised that we feel miserable.",
+   "th": [
+    "despair"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s4af2f1a2fe",
+   "text": "There is something in us that sabotages us and lies to us about it.",
+   "th": [
+    "shadow",
+    "demon"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s277247e07e",
+   "text": "The old word for it is diabolical. It comes from the Greek diaballein: to throw across, to split apart, to slander.",
+   "th": [
+    "demon",
+    "book"
+   ],
+   "big": "diabolical",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s92083d21ba",
+   "text": "Its opposite is the symbolic: that which throws together, and makes whole.",
+   "th": [
+    "light",
+    "church"
+   ],
+   "big": "symbolic",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s8e9322c831",
+   "text": "In Paradise Lost, John Milton puts it this way: the mind is its own place, and in itself can make a heaven of hell, a hell of heaven.",
+   "th": [
+    "milton",
+    "hell"
+   ],
+   "big": "heaven",
+   "red": false,
+   "gap": 1.72
+  },
+  {
+   "id": "s9fee8a9f36",
+   "text": "A disciplined mind can find peace in a prison. A restless one can turn a palace into a torment.",
+   "th": [
+    "prison",
+    "palace"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "sb986514863",
+   "text": "Meet what happens to you with a good thought, and you are helped. Meet it with a dark one, and you come apart at the seams.",
+   "th": [
+    "light",
+    "despair"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.61
+  },
+  {
+   "id": "ch2",
+   "card": "chapter",
+   "num": "II",
+   "title": "The inner fortress",
+   "len": 4.4
+  },
+  {
+   "id": "s0dcd7ca32d",
+   "text": "Picture your mind as a fortress. At its centre, in the keep, sits a king.",
+   "th": [
+    "castle"
+   ],
+   "big": "fortress",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s9ccc0a82eb",
+   "text": "On the walls stand the guards: your good thoughts, watching.",
+   "th": [
+    "castle",
+    "knight"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s3181412087",
+   "text": "And outside the gate, always, the enemy waits.",
+   "th": [
+    "castle",
+    "demon"
+   ],
+   "big": "enemy",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s89d7c7be56",
+   "text": "He looks for the unguarded corner, the sleepy sentry, the guard who can be bought, the drawbridge lowered quietly in the night.",
+   "th": [
+    "castle",
+    "night"
+   ],
+   "big": "drawbridge",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "sed56993823",
+   "text": "And when he is inside, the walls that protected the king become the walls of his prison.",
+   "th": [
+    "prison",
+    "castle"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "sfa78cea43d",
+   "text": "But the guard who sees the enemy coming can raise the alarm.",
+   "th": [
+    "knight"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s5e8c27c71c",
+   "text": "For centuries, the alarm has been a short prayer: Lord Jesus Christ, Son of God, have mercy on me, a sinner.",
+   "th": [
+    "prayer",
+    "monk"
+   ],
+   "big": "mercy",
+   "red": false,
+   "gap": 1.61
+  },
+  {
+   "id": "s1c7486ab8c",
+   "text": "Said each time a temptation knocks, it makes the walls much harder to breach.",
+   "th": [
+    "prayer",
+    "castle"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "sd7e51d490a",
+   "text": "Christ tells his disciples again and again to watch, and to stay awake.",
+   "th": [
+    "christ",
+    "night"
+   ],
+   "big": "watch",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s1123a87b6e",
+   "text": "If instead we let the dark thoughts in, and indulge them, and forget them, by nightfall they have piled into one heavy mass on the soul.",
+   "th": [
+    "night",
+    "despair"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "sfe0350e132",
+   "text": "Lust, gluttony, greed, sloth, anger, envy and pride.",
+   "th": [
+    "demon",
+    "hell"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s896b5428cd",
+   "text": "And what lives long enough in the mind finds its way out through the mouth and the hands.",
+   "th": [
+    "anger",
+    "crowd"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s2133fa605f",
+   "text": "Aristotle said that we become what we repeatedly do. Character is built by habit.",
+   "th": [
+    "aristotle",
+    "statue"
+   ],
+   "big": "habit",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "sd7289311cb",
+   "text": "So the armour has to be put on every day.",
+   "th": [
+    "knight",
+    "armour"
+   ],
+   "big": "armour",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s3b6171c058",
+   "text": "Prayer first, which the saints called the strongest weapon we have. Many of them held the rosary in the same regard.",
+   "th": [
+    "prayer",
+    "rosary"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "sefc10c4f56",
+   "text": "Then discipline: the daily practice of saying no to the lower appetites.",
+   "th": [
+    "monk",
+    "forge"
+   ],
+   "big": "discipline",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s4d710519f5",
+   "text": "Rise early. Keep a rule for your day. Train the body. Fast. Pray. Keep silence.",
+   "th": [
+    "morning",
+    "monk"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s058da62c65",
+   "text": "In the Gospel of Luke, Christ describes an unclean spirit that leaves a man, wanders through dry places, and finds no rest.",
+   "th": [
+    "desert",
+    "christ"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s4ea89744b0",
+   "text": "So it returns, and finds its old house swept clean and put in order, and empty.",
+   "th": [
+    "interior",
+    "door"
+   ],
+   "big": "empty",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "sf67c56a493",
+   "text": "Then it brings seven other spirits worse than itself, and the last state of that man is worse than the first.",
+   "th": [
+    "demon",
+    "hell"
+   ],
+   "big": "seven",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "sa893521315",
+   "text": "Clearing the house is not enough. Someone has to live there.",
+   "th": [
+    "interior",
+    "light"
+   ],
+   "big": "live",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s0f851f5196",
+   "text": "It is not only casting out the darkness. It is inviting God in.",
+   "th": [
+    "light",
+    "church"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "sb4d81e31b2",
+   "text": "And it is never thinking that the work is done. If we say we have no sin, Saint John writes, we deceive ourselves.",
+   "th": [
+    "saint",
+    "book"
+   ],
+   "big": "deceive",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s6d122953cb",
+   "text": "The old word for sin means to miss the mark, like an archer whose arrow falls short.",
+   "th": [
+    "archer"
+   ],
+   "big": "mark",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "sc03f84e213",
+   "text": "Courage is not never missing. It is drawing the bow again.",
+   "th": [
+    "archer"
+   ],
+   "big": "again",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s9d610205ec",
+   "text": "A soul that begins with ninety bad thoughts and ten good ones, and fights, may climb higher than one that began the other way round and never had to.",
+   "th": [
+    "mountain",
+    "monk"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.72
+  },
+  {
+   "id": "ch3",
+   "card": "chapter",
+   "num": "III",
+   "title": "The enemy within",
+   "len": 4.4
+  },
+  {
+   "id": "s1085303000",
+   "text": "You pay for your groceries and wish the cashier a good day. He says nothing.",
+   "th": [
+    "market",
+    "shop"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "sd94ee24417",
+   "text": "Something in you stings. What a rude man.",
+   "th": [
+    "market",
+    "portrait"
+   ],
+   "big": "rude",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s3f951ec522",
+   "text": "You turn it over all afternoon, and the next person who greets you, you ignore. Now he is hurt too.",
+   "th": [
+    "street",
+    "crowd"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "sfeb2a0be41",
+   "text": "Or you write to a friend, and a week goes by without an answer.",
+   "th": [
+    "letter"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s4f241b32b5",
+   "text": "Each day you invent a new reason for her silence, until you send something cruel, and later learn that she had been in an accident.",
+   "th": [
+    "letter",
+    "despair"
+   ],
+   "big": "silence",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s67f5ae6310",
+   "text": "Seneca wrote that we suffer more often in imagination than in reality.",
+   "th": [
+    "seneca",
+    "statue"
+   ],
+   "big": "imagination",
+   "red": false,
+   "gap": 1.49
+  },
+  {
+   "id": "s133ca6a0b8",
+   "text": "Most of what torments us is not what other people do, but what we think about what they do.",
+   "th": [
+    "thinker"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "sd135e1db43",
+   "text": "And often what we cannot stand in others is something we carry in ourselves, cast outward without our noticing.",
+   "th": [
+    "mirror",
+    "shadow"
+   ],
+   "big": "ourselves",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s0040955d37",
+   "text": "We see the enemy out there, when he is in here.",
+   "th": [
+    "mirror"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.38
+  },
+  {
+   "id": "s1ec4230d63",
+   "text": "What we can control is how we answer.",
+   "th": [
+    "thinker",
+    "light"
+   ],
+   "big": "answer",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "sffb3b64e2a",
+   "text": "Answer coldness with goodness, and very often the other person feels it, and softens.",
+   "th": [
+    "light",
+    "portrait"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s0c32ddc080",
+   "text": "This is the beginning of humility, which the fathers called the foundation of every other virtue.",
+   "th": [
+    "monk",
+    "prayer"
+   ],
+   "big": "humility",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s3668b8c028",
+   "text": "So when the bad thought comes, replace it: the poor man must be having a hard day.",
+   "th": [
+    "beggar",
+    "light"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s01661d906f",
+   "text": "Saint Paisios taught that the one who does real spiritual work justifies others, but never himself.",
+   "th": [
+    "monk"
+   ],
+   "big": "justifies",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s7726345846",
+   "text": "Feed a bad thought, and it shapes your words and deeds, which feed the thought again, and the circle tightens like a snake around its prey.",
+   "th": [
+    "serpent"
+   ],
+   "big": "snake",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s00770306b6",
+   "text": "In the Sermon on the Mount, Christ moves the battle from the hands to the heart: to our thoughts, our desires and our intentions.",
+   "th": [
+    "christ",
+    "mountain"
+   ],
+   "big": "heart",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "saa6616438b",
+   "text": "A man can give generously and be full of pride. He can speak gently and hate. He can seem caring and be driven by lust.",
+   "th": [
+    "portrait",
+    "mask"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s852b937fe6",
+   "text": "Goodness has to start inside, or the outside is only a mask.",
+   "th": [
+    "mask"
+   ],
+   "big": "mask",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "sd01a74d58c",
+   "text": "So watch the first thing you do when you wake. In a sense, that is what you worship.",
+   "th": [
+    "morning",
+    "bed"
+   ],
+   "big": "worship",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "sd7867c2d66",
+   "text": "Notice the first thoughts too. Pause, pray, call to mind patience, humility and love, and set the tone of the day.",
+   "th": [
+    "morning",
+    "prayer"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s757f1cdf4f",
+   "text": "And before you sleep, give thanks for what you have instead of brooding over what you lack.",
+   "th": [
+    "night",
+    "prayer"
+   ],
+   "big": "thanks",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "sbd41077908",
+   "text": "Look inward. Examine yourself, not others. Ask forgiveness for the day's harmful thoughts, words and deeds.",
+   "th": [
+    "night",
+    "monk"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s246128dc0a",
+   "text": "Do not worry about tomorrow, Christ said, for tomorrow will worry about itself. Each day has enough trouble of its own.",
+   "th": [
+    "christ",
+    "landscape"
+   ],
+   "big": "tomorrow",
+   "red": false,
+   "gap": 1.49
+  },
+  {
+   "id": "sa2e19c0029",
+   "text": "Marcus Aurelius put it in a single line: the soul is dyed by the thoughts.",
+   "th": [
+    "marcus",
+    "statue"
+   ],
+   "big": "dyed",
+   "red": false,
+   "gap": 1.49
+  },
+  {
+   "id": "s8d99986aca",
+   "text": "Imagine each dark thought as smoke in a closed room. Stay with them, and the smoke thickens until you can no longer see the door.",
+   "th": [
+    "fog",
+    "interior"
+   ],
+   "big": "smoke",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "sea21d371bc",
+   "text": "Good thoughts are like opening a window. Light comes in, and the darkness has nowhere to stand.",
+   "th": [
+    "window",
+    "light"
+   ],
+   "big": "window",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s9296eea5ad",
+   "text": "At first the resistance will be enormous, like one of the labours of Hercules.",
+   "th": [
+    "hercules"
+   ],
+   "big": "Hercules",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "seca27234d7",
+   "text": "But what you resist, persists. And what you practise, grows.",
+   "th": [
+    "forge"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.72
+  },
+  {
+   "id": "ch4",
+   "card": "chapter",
+   "num": "IV",
+   "title": "Talking back",
+   "len": 4.4
+  },
+  {
+   "id": "s0be7a35729",
+   "text": "In the fourth century, a monk named Evagrius of Pontus wrote a handbook for this battle.",
+   "th": [
+    "monk",
+    "desert"
+   ],
+   "big": "Evagrius",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s07b9a5c4ff",
+   "text": "He called it Antirrhetikos, which means talking back.",
+   "th": [
+    "book",
+    "monk"
+   ],
+   "big": "talking",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s83e2be66ce",
+   "text": "When a dark thought comes, you do not argue with it in your own words. You answer it with a verse of scripture that cuts it off.",
+   "th": [
+    "book",
+    "sword"
+   ],
+   "big": "cuts",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s61b644a04f",
+   "text": "Almost every thought, he noticed, meets its opposite.",
+   "th": [
+    "thinker"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s73ff19029d",
+   "text": "The thought to give to the poor is followed at once by the thought that people will admire you for it.",
+   "th": [
+    "beggar",
+    "crowd"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s2415ac3d22",
+   "text": "Which one do you keep? The first, or the second?",
+   "th": [
+    "thinker"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.38
+  },
+  {
+   "id": "s16e416ae3f",
+   "text": "His book gathers some five hundred passages, arranged against eight thoughts.",
+   "th": [
+    "book"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s7dd80371ab",
+   "text": "Gluttony. Lust. Love of money. Sadness. Anger. Listlessness. Vainglory. Pride.",
+   "th": [
+    "demon",
+    "hell"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.61
+  },
+  {
+   "id": "sf9d187d82e",
+   "text": "Centuries later, that list became the seven deadly sins.",
+   "th": [
+    "hell",
+    "church"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "sa024de4b23",
+   "text": "Against the thought that praises a full table over the simple life, he sets Isaiah: woe to those who call evil good, and good evil.",
+   "th": [
+    "feast",
+    "book"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "se3d047601d",
+   "text": "Against the thought that regrets money already given away: let your heart be perfect with the Lord your God.",
+   "th": [
+    "beggar",
+    "prayer"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s976a928ffc",
+   "text": "Against sadness: why are you cast down, O my soul? Hope in God.",
+   "th": [
+    "despair",
+    "prayer"
+   ],
+   "big": "hope",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "sdaa4872150",
+   "text": "Against the pride that whispers you are now pure: I, who am but dust and ashes.",
+   "th": [
+    "monk",
+    "skull"
+   ],
+   "big": "dust",
+   "red": false,
+   "gap": 1.61
+  },
+  {
+   "id": "s640fc8ae51",
+   "text": "For Evagrius, these thoughts were not simply moods of the soul. They were the means by which something outside us attacks.",
+   "th": [
+    "demon",
+    "shadow"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s0ed34f1d25",
+   "text": "Scripture works against them because it does not come from us. It comes from above, and carries an authority we do not have.",
+   "th": [
+    "light",
+    "book"
+   ],
+   "big": "above",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "sff59d298bc",
+   "text": "So not every thought in your head is yours.",
+   "th": [
+    "thinker",
+    "shadow"
+   ],
+   "big": "yours",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s0aa4c07bb8",
+   "text": "Every act of self-hatred, every curse on your own body, is a small agreement with the accuser.",
+   "th": [
+    "mirror",
+    "despair"
+   ],
+   "big": "agreement",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s749376eeb0",
+   "text": "Renounce it. Say instead: I do not hate myself. I forgive myself.",
+   "th": [
+    "light",
+    "prayer"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "sdc07c0bef7",
+   "text": "When the inner voice says nobody cares for you, or that God could never forgive what you have done, you are in the battle.",
+   "th": [
+    "despair",
+    "night"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s1456ef6502",
+   "text": "Consent to it, and it becomes a contract. The darkness has no strength of its own. We lend it ours.",
+   "th": [
+    "demon",
+    "hell"
+   ],
+   "big": "contract",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "sa515e0e161",
+   "text": "In his life of Saint Anthony, Athanasius tells how the devil tried every thought on the young monk, and every disguise.",
+   "th": [
+    "anthony",
+    "desert"
+   ],
+   "big": "Anthony",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s1b35fb9e94",
+   "text": "At last the spirit of lust appeared to him as a small dark boy, boasting of all the men it had brought down.",
+   "th": [
+    "anthony",
+    "demon"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s87d12a437b",
+   "text": "Anthony called it weak as a child, and sang a psalm: the Lord is my helper, and I shall look down on my enemies.",
+   "th": [
+    "anthony",
+    "prayer"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s796acbc0f3",
+   "text": "And the spirit fled, and did not come near him again.",
+   "th": [
+    "anthony",
+    "desert"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.49
+  },
+  {
+   "id": "s436e746bdb",
+   "text": "Ignorance of scripture, Saint Jerome wrote, is ignorance of Christ.",
+   "th": [
+    "jerome",
+    "book"
+   ],
+   "big": "ignorance",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s6614bf46f9",
+   "text": "Evagrius adds one thing: answer the thought quickly, before it settles in.",
+   "th": [
+    "sword",
+    "monk"
+   ],
+   "big": "quickly",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s95f4b12f20",
+   "text": "He borrowed the idea from the Stoics, who spoke of first movements.",
+   "th": [
+    "stoic",
+    "statue"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s367a49f2f2",
+   "text": "A flash of anger at an injustice is a first movement. It is not yet a sin. What matters is what you do next.",
+   "th": [
+    "anger",
+    "thinker"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s86133f8c14",
+   "text": "Assent to it, feed it, and the first movement becomes a passion, and the passion becomes a deed.",
+   "th": [
+    "fire"
+   ],
+   "big": "passion",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s47182191b4",
+   "text": "The Stoic sage sorted his impressions, true from false. The monk sorts his thoughts, clean from unclean. The old name for this is discernment.",
+   "th": [
+    "stoic",
+    "monk"
+   ],
+   "big": "discernment",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s3a29e8100d",
+   "text": "Saint Ignatius of Loyola later taught it as a craft: to notice which movements of the soul draw us toward God, and which draw us away.",
+   "th": [
+    "ignatius",
+    "prayer"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s13090a1f5a",
+   "text": "Evagrius aimed even higher: not only to avoid sinful deeds, but to grow free of the very thoughts that lead to them.",
+   "th": [
+    "monk",
+    "light"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s00c1e9993e",
+   "text": "A thought we dwell on leaves an image behind in the memory, like a stain on glass, and it clouds the mind.",
+   "th": [
+    "window",
+    "fog"
+   ],
+   "big": "stain",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s285250afdc",
+   "text": "No evil thought, Evagrius insisted, comes from our nature. The seed the Lord sowed in his field was good.",
+   "th": [
+    "field",
+    "harvest"
+   ],
+   "big": "good",
+   "red": false,
+   "gap": 1.72
+  },
+  {
+   "id": "ch5",
+   "card": "chapter",
+   "num": "V",
+   "title": "The quiet work of the devil",
+   "len": 4.4
+  },
+  {
+   "id": "s4b5ea5aac5",
+   "text": "In the drama of the ego, I am at the centre: the author, the star, the director.",
+   "th": [
+    "mirror",
+    "portrait"
+   ],
+   "big": "ego",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s89891472c7",
+   "text": "Milton's Satan says it best: better to reign in hell than serve in heaven.",
+   "th": [
+    "milton",
+    "hell"
+   ],
+   "big": "reign",
+   "red": false,
+   "gap": 1.49
+  },
+  {
+   "id": "s45cda1267c",
+   "text": "In the drama of God, he is at the centre, and by giving ourselves to him, we strangely become more ourselves.",
+   "th": [
+    "light",
+    "church"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s935a49868b",
+   "text": "The tempter whispers: do whatever you want.",
+   "th": [
+    "demon",
+    "serpent"
+   ],
+   "big": "want",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "scedd73c18b",
+   "text": "It sounds like freedom. It is a cage, sometimes a golden one, and we end up serving the appetites we thought we ruled.",
+   "th": [
+    "prison",
+    "palace"
+   ],
+   "big": "cage",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "sd822e31bcf",
+   "text": "Freedom is not doing whatever we like. It is living the way we were made to live.",
+   "th": [
+    "landscape",
+    "light"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s74d492bf11",
+   "text": "Father Vincent Lampert, an exorcist, distinguishes the extraordinary work of the devil from the ordinary.",
+   "th": [
+    "priest",
+    "church"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s785cf4dabb",
+   "text": "The extraordinary is what fills the films: haunted places, physical attacks, obsession, and, very rarely, possession.",
+   "th": [
+    "demon",
+    "hell"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s78996b68a8",
+   "text": "He stresses that an exorcist must rule out every medical and psychological explanation first. Mistaking illness for possession can keep someone from the care they need.",
+   "th": [
+    "priest",
+    "doctor"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "se76c56f5b2",
+   "text": "But the real danger is the ordinary work. It needs no special effects.",
+   "th": [
+    "shadow"
+   ],
+   "big": "ordinary",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s4f41a3d3b4",
+   "text": "It moves quietly, bending how we see, and think, and act, and we hardly notice.",
+   "th": [
+    "fog",
+    "shadow"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s13db0bf528",
+   "text": "Father Louis Kamel describes it in four steps: deception, division, diversion and discouragement.",
+   "th": [
+    "book",
+    "demon"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.38
+  },
+  {
+   "id": "secf0f7acd0",
+   "text": "Deception first. The cleverest trick of the devil, as Baudelaire put it, is to persuade us that he does not exist.",
+   "th": [
+    "mask",
+    "demon"
+   ],
+   "big": "deception",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s6607a52821",
+   "text": "And for those who still believe, he comes dressed as an angel of light.",
+   "th": [
+    "angel",
+    "light"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s03d188c3e6",
+   "text": "One night, Saint Paisios was praying when his cell filled with light, the ceiling vanished, and a face like Christ's appeared above him.",
+   "th": [
+    "monk",
+    "vision"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s992eb38011",
+   "text": "A voice said: you have been found worthy to see Christ.",
+   "th": [
+    "vision",
+    "light"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s6173c4b26d",
+   "text": "He answered: who am I, unworthy as I am, to see Christ? And at once the light was gone, and the ceiling was back.",
+   "th": [
+    "monk",
+    "night"
+   ],
+   "big": "unworthy",
+   "red": false,
+   "gap": 1.49
+  },
+  {
+   "id": "sd895e337da",
+   "text": "Pride is the open gate. False light walks straight through it.",
+   "th": [
+    "castle",
+    "light"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "sacfbabcd4e",
+   "text": "Then comes division: from God, from one another, and from ourselves.",
+   "th": [
+    "crowd",
+    "storm"
+   ],
+   "big": "division",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s2cce7cc661",
+   "text": "Then diversion: we lose our direction, and the self takes the place of God. You may do as you wish. No one can tell you otherwise. You are your own god.",
+   "th": [
+    "road",
+    "mirror"
+   ],
+   "big": "diversion",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s819392f0ad",
+   "text": "Last comes discouragement.",
+   "th": [
+    "despair"
+   ],
+   "big": "discouragement",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s8e1ba4d0b1",
+   "text": "The desert monks called it acedia, the noonday demon: a weariness of soul, a joylessness you can see in far too many faces.",
+   "th": [
+    "desert",
+    "despair"
+   ],
+   "big": "acedia",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s04f7da00b7",
+   "text": "Its neighbour is despair, the loss of all hope.",
+   "th": [
+    "despair",
+    "night"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.84
+  },
+  {
+   "id": "ch6",
+   "card": "chapter",
+   "num": "VI",
+   "title": "Wounds and healing",
+   "len": 4.4
+  },
+  {
+   "id": "sbc4ce0d124",
+   "text": "But do not lose hope, my friend.",
+   "th": [
+    "light",
+    "landscape"
+   ],
+   "big": "hope",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "se039842fcd",
+   "text": "Everyone is broken somewhere, and what matters is what we do with it.",
+   "th": [
+    "ruins",
+    "light"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "sc7be04174a",
+   "text": "Some relationships cannot be mended in this life. We can still forgive in our hearts.",
+   "th": [
+    "portrait",
+    "prayer"
+   ],
+   "big": "forgive",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s687c89b53d",
+   "text": "When you stand praying, Christ says, forgive, if you have anything against anyone.",
+   "th": [
+    "christ",
+    "prayer"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s4cac5de4b5",
+   "text": "And sometimes the hardest person to forgive is yourself.",
+   "th": [
+    "mirror"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s133dcca089",
+   "text": "Love is patient and kind. It does not envy, does not boast, is not proud. It keeps no record of wrongs. It bears all things, hopes all things, endures all things. Love never fails.",
+   "th": [
+    "light",
+    "church"
+   ],
+   "big": "Love",
+   "red": false,
+   "gap": 1.84
+  },
+  {
+   "id": "se3bdecc7d3",
+   "text": "Many lose faith because they feel abandoned in the dark. Christ himself cried out: my God, my God, why have you forsaken me?",
+   "th": [
+    "crucifixion"
+   ],
+   "big": "forsaken",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s52332712a6",
+   "text": "And yet he also said: Father, forgive them, for they do not know what they do.",
+   "th": [
+    "crucifixion",
+    "light"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s20cfe957b8",
+   "text": "But when you are wronged, mocked or despised, and still answer with faith, hope and love, you are being purified.",
+   "th": [
+    "saint",
+    "light"
+   ],
+   "big": "purified",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "sed2d1f689b",
+   "text": "Saint Paisios said that the sweetest joy he ever knew came from accepting an injustice in silence, and letting God be the one to speak.",
+   "th": [
+    "monk",
+    "prayer"
+   ],
+   "big": "silence",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "se8f05fb31a",
+   "text": "Do not waste your pain.",
+   "th": [
+    "light"
+   ],
+   "big": "pain",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "sadd516491e",
+   "text": "Job lost everything, and his wife told him to curse God and die. He answered: shall we receive good from God, and not trouble?",
+   "th": [
+    "job"
+   ],
+   "big": "trouble",
+   "red": false,
+   "gap": 1.49
+  },
+  {
+   "id": "s9d47eecc40",
+   "text": "Pain alone does not make anyone better. It can make us bitter instead.",
+   "th": [
+    "despair",
+    "storm"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "se99c2eb566",
+   "text": "Two thieves hung beside Christ, and both suffered the same.",
+   "th": [
+    "crucifixion"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "sceb441b37b",
+   "text": "One mocked him. The other said: we are punished justly, but this man has done nothing wrong. Jesus, remember me when you come into your kingdom.",
+   "th": [
+    "crucifixion"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s70a36cc59f",
+   "text": "And he was told: today you will be with me in paradise.",
+   "th": [
+    "crucifixion",
+    "light"
+   ],
+   "big": "paradise",
+   "red": false,
+   "gap": 1.49
+  },
+  {
+   "id": "sbf75717c4e",
+   "text": "Repentance, the fathers said, is a second baptism, a baptism of tears.",
+   "th": [
+    "prayer",
+    "saint"
+   ],
+   "big": "tears",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "sd860957bf3",
+   "text": "And the further a person goes, the more clearly he sees his own faults, as if the eyes of the soul became a microscope.",
+   "th": [
+    "monk",
+    "thinker"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s5b8bf8cec5",
+   "text": "Saint Paisios urged people to find a spiritual father, as carefully as they would choose a doctor, and to go to him regularly.",
+   "th": [
+    "monk",
+    "priest"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "sddd6227a65",
+   "text": "Confession takes away the enemy's leverage. What is brought into the light can no longer be used against us in the dark.",
+   "th": [
+    "priest",
+    "light"
+   ],
+   "big": "light",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s7cdfafbe6c",
+   "text": "And do not try to fight the demons on your own, as if you could outwit them. That is pride again, and it is their ground.",
+   "th": [
+    "knight",
+    "demon"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s51dd924b0c",
+   "text": "Pride goes before destruction, and a haughty spirit before a fall.",
+   "th": [
+    "ruins",
+    "storm"
+   ],
+   "big": "fall",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "sedf7ae151b",
+   "text": "The battle is God's. Not my will, but yours, be done.",
+   "th": [
+    "prayer",
+    "light"
+   ],
+   "big": "yours",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s32008cb9e8",
+   "text": "Saint Paisios compared us to soldiers. In a real war, you will be wounded.",
+   "th": [
+    "battle",
+    "knight"
+   ],
+   "big": "wounded",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s0bda0dd6f8",
+   "text": "A wounded soldier does not hide his wound until the war is over. He goes to the doctor, has it bound, and returns to the line.",
+   "th": [
+    "battle",
+    "doctor"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s5d20e5c693",
+   "text": "Confess plainly. Do not excuse yourself. Make peace with the one you hurt, if you can.",
+   "th": [
+    "priest",
+    "portrait"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s11b0a1f32f",
+   "text": "Then grieve as much as the fault deserves, and no more, and move on.",
+   "th": [
+    "landscape",
+    "light"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.84
+  },
+  {
+   "id": "ch7",
+   "card": "chapter",
+   "num": "VII",
+   "title": "The whole armour",
+   "len": 4.4
+  },
+  {
+   "id": "s8c7e50c9e9",
+   "text": "It can seem that the darkness is winning, that evil grows stronger every year.",
+   "th": [
+    "storm",
+    "night"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s9e7214dc1e",
+   "text": "But the number of fallen angels has not grown. What has changed is us. We are less disciplined, and so more exposed.",
+   "th": [
+    "crowd",
+    "city"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s5293d2277a",
+   "text": "Father Chad Ripperger teaches that God permits this warfare for our growth.",
+   "th": [
+    "priest",
+    "light"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s65988db179",
+   "text": "Where you are attacked is where you are being trained.",
+   "th": [
+    "knight",
+    "forge"
+   ],
+   "big": "trained",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s957b153ed0",
+   "text": "Where sin abounded, Saint Paul writes, grace abounded much more.",
+   "th": [
+    "light",
+    "church"
+   ],
+   "big": "grace",
+   "red": false,
+   "gap": 1.49
+  },
+  {
+   "id": "se9ef17952e",
+   "text": "In an age of little faith, the few who seek God may receive more than the saints ever did.",
+   "th": [
+    "saint",
+    "light"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "s504031d2ef",
+   "text": "So do not waste this time. Fight each day.",
+   "th": [
+    "knight",
+    "morning"
+   ],
+   "big": "day",
+   "red": false,
+   "gap": 1.15
+  },
+  {
+   "id": "scef851c111",
+   "text": "For we do not wrestle against flesh and blood, but against the powers, against the rulers of the darkness of this world, against spiritual wickedness in high places.",
+   "th": [
+    "angel",
+    "battle"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.38
+  },
+  {
+   "id": "s9b6702fabc",
+   "text": "Therefore take up the whole armour of God, that you may be able to withstand in the evil day, and having done all, to stand.",
+   "th": [
+    "knight",
+    "armour"
+   ],
+   "big": "stand",
+   "red": false,
+   "gap": 2.76
+  }
+ ]
+}

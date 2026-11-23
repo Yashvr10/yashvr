@@ -1,0 +1,6 @@
+assets/photos/
+*.mp4
+!video/*.mp4
+assets/photos169/
+assets/cutouts/
+.film/
