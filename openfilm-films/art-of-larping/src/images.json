@@ -1,0 +1,281 @@
+{
+ "thinker": [
+  "thinker-c1",
+  "thinker-c2",
+  "thinker-c3",
+  "thinker-c4",
+  "thinker-c5",
+  "thinker-c6",
+  "thinker-c7",
+  "thinker-c8",
+  "b-thinker-c1",
+  "b-thinker-c2",
+  "b-thinker-c3",
+  "b-thinker-c4",
+  "b-thinker-c5",
+  "b-thinker-c6",
+  "b-thinker-c7",
+  "b-book-c3",
+  "b-book-c6",
+  "b-book-c8",
+  "b-book-c9"
+ ],
+ "anatomy": [
+  "anatomy-c7",
+  "anatomy-c8"
+ ],
+ "letter": [
+  "letter-c1",
+  "letter-c2",
+  "letter-c3",
+  "letter-c6",
+  "letter-c7",
+  "letter-c8",
+  "b-letter-c1",
+  "b-letter-c2",
+  "b-letter-c3",
+  "b-book-c3",
+  "b-book-c6",
+  "b-book-c8",
+  "b-book-c9"
+ ],
+ "forge": [
+  "forge-c1",
+  "forge-c2",
+  "forge-c6",
+  "forge-c7",
+  "forge-c8",
+  "b-forge-c1",
+  "b-forge-c2"
+ ],
+ "crowd": [
+  "crowd-c1",
+  "crowd-c4",
+  "crowd-c5",
+  "b-crowd-c4",
+  "b-crowd-c1",
+  "b-seneca-c3",
+  "b-crowd-c5",
+  "b-crowd-c6",
+  "b-street-c1",
+  "b-street-c3",
+  "b-morning-c7",
+  "b-market-c1",
+  "b-market-c2",
+  "b-market-c3"
+ ],
+ "child": [
+  "child-c1",
+  "child-c2",
+  "child-c3",
+  "child-c4",
+  "b-beggar-c1",
+  "b-beggar-c2",
+  "b-street-c2"
+ ],
+ "hourglass": [
+  "hourglass-c1",
+  "hourglass-c2",
+  "hourglass-c3",
+  "hourglass-c4",
+  "b-skull-c1",
+  "b-skull-c2",
+  "b-skull-c3"
+ ],
+ "sculptor": [
+  "sculptor-c1",
+  "sculptor-c2",
+  "sculptor-c3",
+  "sculptor-c4",
+  "b-statue-c2"
+ ],
+ "judge": [
+  "judge-c1",
+  "b-priest-c2",
+  "b-priest-c3",
+  "b-priest-c4",
+  "b-castle-c1",
+  "b-castle-c2",
+  "b-clerk-c1",
+  "b-castle-c4",
+  "b-castle-c5"
+ ],
+ "machine": [
+  "machine-c1",
+  "machine-c2",
+  "machine-c3"
+ ],
+ "ghost": [
+  "ghost-c1",
+  "ghost-c2",
+  "anatomy-c2",
+  "b-shadow-c3",
+  "b-morning-c2",
+  "b-shadow-c4",
+  "b-shadow-c5"
+ ],
+ "knight": [
+  "knight-c1",
+  "knight-c3",
+  "knight-c4",
+  "b-knight-c1",
+  "b-knight-c6",
+  "b-knight-c7",
+  "b-battle-c5",
+  "b-armour-c1",
+  "b-armour-c2"
+ ],
+ "body": [
+  "body-c1",
+  "body-c2",
+  "body-c3",
+  "body-c4"
+ ],
+ "fire": [
+  "fire-c2",
+  "fire-c3",
+  "fire-c4"
+ ],
+ "fear": [
+  "fear-c1",
+  "b-despair-c1",
+  "b-despair-c2",
+  "b-despair-c5",
+  "b-despair-c8",
+  "b-storm-c1",
+  "b-storm-c2",
+  "b-storm-c3",
+  "b-shadow-c1",
+  "b-morning-c3"
+ ],
+ "love": [
+  "love-c1",
+  "love-c2",
+  "love-c3",
+  "b-prayer-c1",
+  "b-prayer-c3",
+  "b-prayer-c4",
+  "b-prayer-c5",
+  "b-prayer-c6",
+  "b-landscape-c1",
+  "b-workshop-c3",
+  "b-jerome-c1",
+  "b-ignatius-c2"
+ ],
+ "road": [
+  "road-c1",
+  "road-c2",
+  "road-c3",
+  "road-c4",
+  "athlete-c3",
+  "athlete-c4",
+  "b-road-c1",
+  "b-road-c2",
+  "b-road-c3",
+  "b-landscape-c2",
+  "b-landscape-c3",
+  "b-interior-c1",
+  "b-seneca-c2",
+  "b-light-c7",
+  "b-saint-c6",
+  "b-morning-c4"
+ ],
+ "portrait": [
+  "portrait-c1",
+  "portrait-c2",
+  "portrait-c3",
+  "portrait-c4",
+  "b-portrait-c1",
+  "b-portrait-c2",
+  "b-portrait-c3",
+  "b-portrait-c4",
+  "b-book-c5",
+  "b-archer-c3",
+  "b-stoic-c3"
+ ],
+ "night": [
+  "night-c1",
+  "night-c4",
+  "b-night-c1",
+  "b-night-c5",
+  "b-night-c7",
+  "b-interior-c2",
+  "b-interior-c5"
+ ],
+ "athlete": [
+  "athlete-c1",
+  "athlete-c2"
+ ],
+ "mirror": [
+  "mirror-c1",
+  "mirror-c2",
+  "mirror-c4",
+  "b-mirror-c1"
+ ],
+ "monk": [
+  "monk-c3",
+  "monk-c4",
+  "b-monk-c3",
+  "b-monk-c4",
+  "b-monk-c6",
+  "b-monk-c7",
+  "b-monk-c8",
+  "b-monk-c11",
+  "b-monk-c12",
+  "b-monk-c13"
+ ],
+ "light": [
+  "light-c2",
+  "light-c3",
+  "light-c4",
+  "b-light-c2",
+  "b-light-c3",
+  "b-light-c7",
+  "b-fog-c1",
+  "b-fog-c3",
+  "b-light-c9",
+  "b-light-c10",
+  "b-light-c11",
+  "b-light-c12",
+  "b-light-c13",
+  "b-light-c14",
+  "b-morning-c4",
+  "b-landscape-c2",
+  "b-landscape-c3",
+  "b-interior-c1",
+  "b-seneca-c2",
+  "b-saint-c6",
+  "b-door-c3",
+  "b-window-c3"
+ ],
+ "market": [
+  "market-c1",
+  "market-c2",
+  "market-c3",
+  "market-c4"
+ ],
+ "alexander": [
+  "alexander-c1",
+  "alexander-c2",
+  "alexander-c3",
+  "alexander-c4",
+  "alexander-c5",
+  "alexander-c6",
+  "alexander-c7",
+  "alexander-c8",
+  "alexander-c9",
+  "alexander-c10"
+ ],
+ "rome": [
+  "rome-c1",
+  "rome-c2",
+  "rome-c3",
+  "rome-c4",
+  "rome-c5",
+  "rome-c6",
+  "rome-c7",
+  "rome-c8",
+  "rome-c9",
+  "rome-c10"
+ ]
+}

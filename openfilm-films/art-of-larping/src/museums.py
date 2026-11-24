@@ -1,4 +1,4 @@
-# Public-domain (CC0) art for You Were Programmed from museum open-access collections, used because Wikimedia
+# Public-domain (CC0) art for The Art of LARPING (pictures from You Were Programmed reused; new themes added here) from museum open-access collections, used because Wikimedia
 # rate-limits this machine: the Cleveland Museum of Art (full resolution) first, the Art Institute of Chicago as a fallback.
 # Themes and queries come from Q in src/commons.py. Each theme gets up to N pictures, saved as assets/photos/<theme>-c<n>.jpg
 # (longest side 2400 px), listed in src/images.json, credited in src/photo-credits.json.
@@ -41,7 +41,7 @@ for th, qs in Q.items():
             img = ((x.get("images") or {}).get("print") or {}); u = x.get("url") or f"https://clevelandart.org/art/{x.get('accession_number')}"
             if not img.get("url") or u in seen or min(int(img.get("width") or 0), int(img.get("height") or 0)) < 1000: continue
             if not KIND.search(str(x.get("type", "")) + " " + str(x.get("technique", ""))) or FAR.search(" ".join(x.get("culture") or [])): continue
-            k = f"{th}-c{max([int(f.rsplit('-c', 1)[1][:-4]) for f in os.listdir('assets/photos') if f.startswith(th + '-c')] or [0]) + 1}"
+            k = f"{th}-c{max([int(f.rsplit('-c', 1)[1][:-4]) for f in os.listdir('assets/photos') + os.listdir('assets/photos169') if f.startswith(th + '-c')] or [0]) + 1}"
             try: save(k, img["url"])
             except Exception as e: print("fail", x.get("id"), e); continue
             seen.add(u); have += 1; P.setdefault(th, []).append(k)
@@ -57,7 +57,7 @@ for th, qs in Q.items():
             if have >= NT: break
             u = f"https://www.artic.edu/artworks/{x['id']}"
             if not KIND.search(str(x.get('classification_title', ''))) or FAR.search(str(x.get('place_of_origin', ''))) or not x.get("image_id") or u in seen or ((x.get("thumbnail") or {}).get("width") or 0) < 1200: continue
-            k = f"{th}-c{max([int(f.rsplit('-c', 1)[1][:-4]) for f in os.listdir('assets/photos') if f.startswith(th + '-c')] or [0]) + 1}"
+            k = f"{th}-c{max([int(f.rsplit('-c', 1)[1][:-4]) for f in os.listdir('assets/photos') + os.listdir('assets/photos169') if f.startswith(th + '-c')] or [0]) + 1}"
             try: save(k, f"https://www.artic.edu/iiif/2/{x['image_id']}/full/1686,/0/default.jpg")
             except Exception as e: print("fail", x["id"], e); continue
             seen.add(u); have += 1; P.setdefault(th, []).append(k)

@@ -15,6 +15,7 @@ def matte(im):
     return Image.fromarray((np.clip(pha[0, 0], 0, 1) * 255).astype(np.uint8)).resize((W, H), Image.LANCZOS)
 P = json.load(open("src/images.json")); out = {}
 for k in sorted({k for v in P.values() for k in v}):
+    if os.path.exists(f"assets/photos169/{k}.jpg") and not os.path.exists(f"assets/photos/{k}.jpg"): continue   # reused, already graded
     im = Image.open(f"assets/photos/{k}.jpg").convert("RGB"); W, H = im.size
     g = cv2.cvtColor(np.asarray(im.resize((W // 4, H // 4))), cv2.COLOR_RGB2GRAY)
     f = FR.detectMultiScale(cv2.equalizeHist(g), 1.08, 7, minSize=(max(20, min(g.shape) // 10),) * 2)
