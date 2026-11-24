@@ -9,13 +9,13 @@ You wake up tired, reach for your phone, and the day's small battles begin: envy
 "The mind is its own place, and in itself can make a heaven of hell, a hell of heaven." John Milton, Paradise Lost
 
 0:00 An ordinary day
-2:36 I. Two worlds
-4:52 II. The inner fortress
-8:08 III. The enemy within
-11:48 IV. Talking back
-16:22 V. The quiet work of the devil
-19:30 VI. Wounds and healing
-23:08 VII. The whole armour
+2:31 I. Two worlds
+4:41 II. The inner fortress
+7:45 III. The enemy within
+11:14 IV. Talking back
+15:32 V. The quiet work of the devil
+18:31 VI. Wounds and healing
+21:58 VII. The whole armour
 
 Music (CC):
 "Meditation at the Full Moon" by Mark Subbotin, CC BY 3.0, https://www.jamendo.com/track/1446225
@@ -25,7 +25,7 @@ Music (CC):
 "Expanse" by Sleep Rivers, CC BY-SA 3.0, https://www.jamendo.com/track/1565359
 Art: public-domain (CC0) works from the Cleveland Museum of Art and the Art Institute of Chicago (full list below).
 Scripture quotations: World English Bible and King James Version (public domain).
-Narration voice: synthetic (Kokoro).
+Narration voice: the creator's own voice, cloned with VoiceStudio (OmniVoice).
 
 #spiritualwarfare #christianity #philosophy
 
