@@ -1,11 +1,25 @@
 {
-  "version": 1,
+  "version": 2,
   "skills": {
     "openfilm": {
       "source": "openfilm/openfilm",
       "sourceType": "github",
       "skillPath": "skills/openfilm/SKILL.md",
-      "computedHash": "055f1c391737ce3cc6d480700ecb696720fab961120b4d19361341fe51bee6de"
+      "computedHash": "c5a254e8aed6cbfd2098cae414081fa155b6e22fbd409a4460f8931565729fb1"
+    },
+    "voicestudio": {
+      "source": "debpalash/VoiceStudio",
+      "commit": "202e2139814897a438541c707668e6ae90c159d2",
+      "sourceType": "github",
+      "skillPath": "skills/voicestudio/SKILL.md",
+      "computedHash": "6be5d454355930839c1b2636f64199ce4087dc8e0243da74bd1fc5b90918932a"
+    },
+    "voicestudio-maintainer": {
+      "source": "debpalash/VoiceStudio",
+      "commit": "202e2139814897a438541c707668e6ae90c159d2",
+      "sourceType": "github",
+      "skillPath": "skills/voicestudio-maintainer/SKILL.md",
+      "computedHash": "b92c4f96f2c4d30fe8f2c994215d8da83e21f3a52b520404276733f8e1c27f19"
     }
   }
 }
