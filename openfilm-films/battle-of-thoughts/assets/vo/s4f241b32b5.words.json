@@ -2,126 +2,126 @@
 {
 "word": "Each",
 "start": 0.0,
-"end": 0.28
+"end": 0.24
 },
 {
 "word": "day",
-"start": 0.28,
-"end": 0.56
+"start": 0.24,
+"end": 0.5
 },
 {
 "word": "you",
-"start": 0.56,
-"end": 0.74
+"start": 0.5,
+"end": 0.68
 },
 {
 "word": "invent",
-"start": 0.74,
-"end": 1.1
+"start": 0.68,
+"end": 1.02
 },
 {
 "word": "a",
-"start": 1.1,
-"end": 1.52
+"start": 1.02,
+"end": 1.22
 },
 {
 "word": "new",
-"start": 1.52,
-"end": 1.74
+"start": 1.22,
+"end": 1.4
 },
 {
 "word": "reason",
-"start": 1.74,
-"end": 2.18
+"start": 1.4,
+"end": 1.72
 },
 {
 "word": "for",
-"start": 2.18,
-"end": 2.44
+"start": 1.72,
+"end": 2.02
 },
 {
 "word": "her",
-"start": 2.44,
-"end": 2.6
+"start": 2.02,
+"end": 2.18
 },
 {
 "word": "silence,",
-"start": 2.6,
-"end": 3.14
+"start": 2.18,
+"end": 2.7
 },
 {
 "word": "until",
-"start": 3.14,
-"end": 3.84
+"start": 2.7,
+"end": 3.7
 },
 {
 "word": "you",
-"start": 3.84,
-"end": 3.98
+"start": 3.7,
+"end": 3.9
 },
 {
 "word": "send",
-"start": 3.98,
-"end": 4.3
+"start": 3.9,
+"end": 4.14
 },
 {
 "word": "something",
-"start": 4.3,
-"end": 4.8
+"start": 4.14,
+"end": 4.56
 },
 {
 "word": "cruel,",
-"start": 4.8,
-"end": 5.4
+"start": 4.56,
+"end": 5.04
 },
 {
 "word": "and",
-"start": 5.4,
-"end": 6.06
+"start": 5.04,
+"end": 5.8
 },
 {
 "word": "later",
-"start": 6.06,
-"end": 6.28
+"start": 5.8,
+"end": 6.04
 },
 {
 "word": "learn",
-"start": 6.28,
-"end": 6.78
+"start": 6.04,
+"end": 6.36
 },
 {
 "word": "that",
-"start": 6.78,
-"end": 7.08
+"start": 6.36,
+"end": 6.6
 },
 {
 "word": "she",
-"start": 7.08,
-"end": 7.22
+"start": 6.6,
+"end": 6.8
 },
 {
 "word": "had",
-"start": 7.22,
-"end": 7.38
+"start": 6.8,
+"end": 6.96
 },
 {
 "word": "been",
-"start": 7.38,
-"end": 7.58
+"start": 6.96,
+"end": 7.14
 },
 {
 "word": "in",
-"start": 7.58,
-"end": 7.78
+"start": 7.14,
+"end": 7.28
 },
 {
 "word": "an",
-"start": 7.78,
-"end": 7.92
+"start": 7.28,
+"end": 7.4
 },
 {
 "word": "accident.",
-"start": 7.92,
-"end": 8.4
+"start": 7.4,
+"end": 7.76
 }
 ]

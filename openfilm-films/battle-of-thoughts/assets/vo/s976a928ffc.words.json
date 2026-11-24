@@ -2,66 +2,66 @@
 {
 "word": "Against",
 "start": 0.0,
-"end": 0.44
+"end": 0.32
 },
 {
 "word": "sadness:",
-"start": 0.44,
-"end": 1.0
+"start": 0.32,
+"end": 0.84
 },
 {
 "word": "why",
-"start": 1.5,
-"end": 1.78
+"start": 1.36,
+"end": 1.46
 },
 {
 "word": "are",
-"start": 1.78,
-"end": 1.78
+"start": 1.46,
+"end": 1.58
 },
 {
 "word": "you",
-"start": 1.78,
-"end": 2.0
+"start": 1.58,
+"end": 1.72
 },
 {
 "word": "cast",
-"start": 2.0,
-"end": 2.26
+"start": 1.72,
+"end": 1.96
 },
 {
 "word": "down,",
-"start": 2.26,
-"end": 2.7
+"start": 1.96,
+"end": 2.34
 },
 {
 "word": "O",
-"start": 2.84,
-"end": 2.88
+"start": 2.34,
+"end": 2.48
 },
 {
 "word": "my",
-"start": 2.88,
-"end": 3.1
+"start": 2.48,
+"end": 2.66
 },
 {
 "word": "soul?",
-"start": 3.1,
-"end": 3.48
+"start": 2.66,
+"end": 3.0
 },
 {
 "word": "Hope",
-"start": 4.04,
-"end": 4.16
+"start": 3.42,
+"end": 3.54
 },
 {
 "word": "in",
-"start": 4.16,
-"end": 4.46
+"start": 3.54,
+"end": 3.68
 },
 {
 "word": "God.",
-"start": 4.46,
-"end": 4.78
+"start": 3.68,
+"end": 3.94
 }
 ]

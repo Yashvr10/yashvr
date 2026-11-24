@@ -2,56 +2,56 @@
 {
 "word": "Clearing",
 "start": 0.0,
-"end": 0.48
+"end": 0.34
 },
 {
 "word": "the",
-"start": 0.48,
-"end": 0.66
+"start": 0.34,
+"end": 0.48
 },
 {
 "word": "house",
-"start": 0.66,
-"end": 0.98
+"start": 0.48,
+"end": 0.7
 },
 {
 "word": "is",
-"start": 0.98,
-"end": 1.2
+"start": 0.7,
+"end": 0.88
 },
 {
 "word": "not",
-"start": 1.2,
-"end": 1.42
+"start": 0.88,
+"end": 1.1
 },
 {
 "word": "enough.",
-"start": 1.42,
-"end": 1.84
+"start": 1.1,
+"end": 1.46
 },
 {
 "word": "Someone",
-"start": 2.42,
-"end": 2.68
+"start": 2.36,
+"end": 2.52
 },
 {
 "word": "has",
-"start": 2.68,
-"end": 3.0
+"start": 2.52,
+"end": 2.82
 },
 {
 "word": "to",
-"start": 3.0,
-"end": 3.22
+"start": 2.82,
+"end": 3.0
 },
 {
 "word": "live",
-"start": 3.22,
-"end": 3.48
+"start": 3.0,
+"end": 3.14
 },
 {
 "word": "there.",
-"start": 3.48,
-"end": 3.9
+"start": 3.14,
+"end": 3.46
 }
 ]

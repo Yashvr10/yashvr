@@ -2,116 +2,116 @@
 {
 "word": "And",
 "start": 0.0,
-"end": 0.24
+"end": 0.26
 },
 {
 "word": "it",
-"start": 0.24,
-"end": 0.34
+"start": 0.26,
+"end": 0.38
 },
 {
 "word": "is",
-"start": 0.34,
-"end": 0.48
+"start": 0.38,
+"end": 0.52
 },
 {
 "word": "never",
-"start": 0.48,
-"end": 0.76
+"start": 0.52,
+"end": 0.84
 },
 {
 "word": "thinking",
-"start": 0.76,
+"start": 0.84,
 "end": 1.24
 },
 {
 "word": "that",
 "start": 1.24,
-"end": 1.6
+"end": 1.56
 },
 {
 "word": "the",
-"start": 1.6,
-"end": 1.76
+"start": 1.56,
+"end": 1.68
 },
 {
 "word": "work",
-"start": 1.76,
-"end": 2.0
+"start": 1.68,
+"end": 1.92
 },
 {
 "word": "is",
-"start": 2.0,
-"end": 2.26
+"start": 1.92,
+"end": 2.14
 },
 {
 "word": "done.",
-"start": 2.26,
-"end": 2.56
+"start": 2.14,
+"end": 2.44
 },
 {
 "word": "If",
-"start": 3.2,
-"end": 3.4
+"start": 2.8,
+"end": 2.92
 },
 {
 "word": "we",
-"start": 3.4,
-"end": 3.54
+"start": 2.92,
+"end": 3.32
 },
 {
 "word": "say",
-"start": 3.54,
-"end": 3.82
+"start": 3.32,
+"end": 3.54
 },
 {
 "word": "we",
-"start": 3.82,
-"end": 4.02
+"start": 3.54,
+"end": 3.72
 },
 {
 "word": "have",
-"start": 4.02,
-"end": 4.16
+"start": 3.72,
+"end": 3.92
 },
 {
 "word": "no",
-"start": 4.16,
-"end": 4.4
+"start": 3.92,
+"end": 4.1
 },
 {
 "word": "sin,",
-"start": 4.4,
-"end": 4.78
+"start": 4.1,
+"end": 4.44
 },
 {
 "word": "Saint",
-"start": 4.78,
-"end": 5.46
+"start": 4.44,
+"end": 5.02
 },
 {
 "word": "John",
-"start": 5.46,
-"end": 5.78
+"start": 5.02,
+"end": 5.04
 },
 {
 "word": "writes,",
-"start": 5.78,
-"end": 6.14
+"start": 5.04,
+"end": 5.42
 },
 {
 "word": "we",
-"start": 6.52,
-"end": 6.8
+"start": 5.7,
+"end": 5.92
 },
 {
 "word": "deceive",
-"start": 6.8,
-"end": 7.24
+"start": 5.92,
+"end": 6.28
 },
 {
 "word": "ourselves.",
-"start": 7.24,
-"end": 7.8
+"start": 6.28,
+"end": 6.78
 }
 ]

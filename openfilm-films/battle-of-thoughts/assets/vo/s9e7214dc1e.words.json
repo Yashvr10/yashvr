@@ -2,111 +2,111 @@
 {
 "word": "But",
 "start": 0.0,
-"end": 0.12
+"end": 0.16
 },
 {
 "word": "the",
-"start": 0.12,
-"end": 0.22
+"start": 0.16,
+"end": 0.3
 },
 {
 "word": "number",
-"start": 0.22,
-"end": 0.46
+"start": 0.3,
+"end": 0.54
 },
 {
 "word": "of",
-"start": 0.46,
-"end": 0.72
+"start": 0.54,
+"end": 0.82
 },
 {
 "word": "fallen",
-"start": 0.72,
-"end": 1.14
+"start": 0.82,
+"end": 1.16
 },
 {
 "word": "angels",
-"start": 1.14,
-"end": 1.64
+"start": 1.16,
+"end": 1.62
 },
 {
 "word": "has",
-"start": 1.64,
-"end": 1.98
+"start": 1.62,
+"end": 2.0
 },
 {
 "word": "not",
-"start": 1.98,
-"end": 2.2
+"start": 2.0,
+"end": 2.28
 },
 {
 "word": "grown.",
-"start": 2.2,
-"end": 2.66
+"start": 2.28,
+"end": 2.72
 },
 {
 "word": "What",
-"start": 3.36,
-"end": 3.56
+"start": 3.06,
+"end": 3.1
 },
 {
 "word": "has",
-"start": 3.56,
-"end": 3.7
+"start": 3.1,
+"end": 3.28
 },
 {
 "word": "changed",
-"start": 3.7,
-"end": 4.32
+"start": 3.28,
+"end": 3.62
 },
 {
 "word": "is",
-"start": 4.32,
-"end": 4.66
+"start": 3.62,
+"end": 3.94
 },
 {
 "word": "us.",
-"start": 4.66,
-"end": 4.98
+"start": 3.94,
+"end": 4.28
 },
 {
 "word": "We",
-"start": 5.48,
-"end": 5.58
+"start": 4.82,
+"end": 4.94
 },
 {
 "word": "are",
-"start": 5.58,
-"end": 5.68
+"start": 4.94,
+"end": 5.1
 },
 {
 "word": "less",
-"start": 5.68,
-"end": 5.88
+"start": 5.1,
+"end": 5.32
 },
 {
 "word": "disciplined,",
-"start": 5.88,
-"end": 6.54
+"start": 5.32,
+"end": 5.88
 },
 {
 "word": "and",
-"start": 6.54,
-"end": 7.16
+"start": 5.88,
+"end": 6.3
 },
 {
 "word": "so",
-"start": 7.16,
-"end": 7.38
+"start": 6.3,
+"end": 6.54
 },
 {
 "word": "more",
-"start": 7.38,
-"end": 7.64
+"start": 6.54,
+"end": 6.8
 },
 {
 "word": "exposed.",
-"start": 7.64,
-"end": 8.2
+"start": 6.8,
+"end": 7.3
 }
 ]

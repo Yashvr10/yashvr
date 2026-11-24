@@ -2,126 +2,126 @@
 {
 "word": "Against",
 "start": 0.0,
-"end": 0.34
+"end": 0.3
 },
 {
 "word": "the",
-"start": 0.34,
-"end": 0.64
+"start": 0.3,
+"end": 0.6
 },
 {
 "word": "thought",
-"start": 0.64,
-"end": 0.96
+"start": 0.6,
+"end": 0.86
 },
 {
 "word": "that",
-"start": 0.96,
-"end": 1.26
+"start": 0.86,
+"end": 1.14
 },
 {
 "word": "praises",
-"start": 1.26,
-"end": 1.64
+"start": 1.14,
+"end": 1.48
 },
 {
 "word": "a",
-"start": 1.64,
-"end": 1.9
+"start": 1.48,
+"end": 1.72
 },
 {
 "word": "full",
-"start": 1.9,
-"end": 2.24
+"start": 1.72,
+"end": 2.0
 },
 {
 "word": "table",
-"start": 2.24,
-"end": 2.68
+"start": 2.0,
+"end": 2.4
 },
 {
 "word": "over",
-"start": 2.68,
-"end": 3.04
+"start": 2.4,
+"end": 2.64
 },
 {
 "word": "the",
-"start": 3.04,
-"end": 3.24
+"start": 2.64,
+"end": 2.8
 },
 {
 "word": "simple",
-"start": 3.24,
-"end": 3.54
+"start": 2.8,
+"end": 3.08
 },
 {
 "word": "life,",
-"start": 3.54,
-"end": 3.98
+"start": 3.08,
+"end": 3.54
 },
 {
 "word": "he",
-"start": 4.5,
-"end": 4.6
+"start": 3.84,
+"end": 3.9
 },
 {
 "word": "sets",
-"start": 4.6,
-"end": 4.9
+"start": 3.9,
+"end": 4.18
 },
 {
 "word": "Isaiah:",
-"start": 4.9,
-"end": 5.52
+"start": 4.18,
+"end": 4.76
 },
 {
 "word": "woe",
-"start": 6.28,
-"end": 6.6
+"start": 5.42,
+"end": 5.64
 },
 {
 "word": "to",
-"start": 6.6,
-"end": 6.72
+"start": 5.64,
+"end": 5.82
 },
 {
 "word": "those",
-"start": 6.72,
-"end": 6.96
+"start": 5.82,
+"end": 6.0
 },
 {
 "word": "who",
-"start": 6.96,
-"end": 7.26
+"start": 6.0,
+"end": 6.22
 },
 {
 "word": "call",
-"start": 7.26,
-"end": 7.56
+"start": 6.22,
+"end": 6.5
 },
 {
 "word": "evil",
-"start": 7.56,
-"end": 7.94
+"start": 6.5,
+"end": 6.86
 },
 {
 "word": "good,",
-"start": 7.94,
-"end": 8.34
+"start": 6.86,
+"end": 7.22
 },
 {
 "word": "and",
-"start": 8.34,
-"end": 8.88
+"start": 7.22,
+"end": 7.8
 },
 {
 "word": "good",
-"start": 8.88,
-"end": 9.12
+"start": 7.8,
+"end": 8.08
 },
 {
 "word": "evil.",
-"start": 9.12,
-"end": 9.52
+"start": 8.08,
+"end": 8.46
 }
 ]

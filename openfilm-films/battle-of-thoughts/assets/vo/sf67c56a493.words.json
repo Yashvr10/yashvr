@@ -2,21 +2,21 @@
 {
 "word": "Then",
 "start": 0.0,
-"end": 0.24
+"end": 0.38
 },
 {
 "word": "it",
-"start": 0.24,
-"end": 0.4
+"start": 0.38,
+"end": 0.5
 },
 {
 "word": "brings",
-"start": 0.4,
-"end": 0.64
+"start": 0.5,
+"end": 0.68
 },
 {
 "word": "seven",
-"start": 0.64,
+"start": 0.68,
 "end": 1.08
 },
 {
@@ -27,81 +27,81 @@
 {
 "word": "spirits",
 "start": 1.38,
-"end": 1.82
+"end": 1.84
 },
 {
 "word": "worse",
-"start": 1.82,
-"end": 2.22
+"start": 1.84,
+"end": 2.24
 },
 {
 "word": "than",
-"start": 2.22,
-"end": 2.52
+"start": 2.24,
+"end": 2.5
 },
 {
 "word": "itself,",
-"start": 2.52,
+"start": 2.5,
 "end": 2.96
 },
 {
 "word": "and",
-"start": 3.5,
-"end": 3.74
+"start": 3.84,
+"end": 4.08
 },
 {
 "word": "the",
-"start": 3.74,
-"end": 3.86
+"start": 4.08,
+"end": 4.22
 },
 {
 "word": "last",
-"start": 3.86,
-"end": 4.16
+"start": 4.22,
+"end": 4.46
 },
 {
 "word": "state",
-"start": 4.16,
-"end": 4.56
+"start": 4.46,
+"end": 4.76
 },
 {
 "word": "of",
-"start": 4.56,
-"end": 4.74
+"start": 4.76,
+"end": 4.9
 },
 {
 "word": "that",
-"start": 4.74,
-"end": 4.96
+"start": 4.9,
+"end": 5.08
 },
 {
 "word": "man",
-"start": 4.96,
-"end": 5.28
+"start": 5.08,
+"end": 5.34
 },
 {
 "word": "is",
-"start": 5.28,
-"end": 5.58
+"start": 5.34,
+"end": 5.56
 },
 {
 "word": "worse",
-"start": 5.58,
-"end": 5.94
+"start": 5.56,
+"end": 5.78
 },
 {
 "word": "than",
-"start": 5.94,
-"end": 6.28
+"start": 5.78,
+"end": 6.04
 },
 {
 "word": "the",
-"start": 6.28,
-"end": 6.42
+"start": 6.04,
+"end": 6.14
 },
 {
 "word": "first.",
-"start": 6.42,
-"end": 6.72
+"start": 6.14,
+"end": 6.5
 }
 ]

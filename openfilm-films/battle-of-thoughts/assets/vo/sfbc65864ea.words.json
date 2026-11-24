@@ -2,96 +2,96 @@
 {
 "word": "You",
 "start": 0.0,
-"end": 0.18
+"end": 0.16
 },
 {
 "word": "wonder",
-"start": 0.18,
-"end": 0.4
+"start": 0.16,
+"end": 0.38
 },
 {
 "word": "why",
-"start": 0.4,
-"end": 0.76
+"start": 0.38,
+"end": 0.74
 },
 {
 "word": "you",
-"start": 0.76,
-"end": 0.96
+"start": 0.74,
+"end": 0.88
 },
 {
 "word": "cannot",
-"start": 0.96,
-"end": 1.22
+"start": 0.88,
+"end": 1.12
 },
 {
 "word": "be",
-"start": 1.22,
-"end": 1.46
+"start": 1.12,
+"end": 1.34
 },
 {
 "word": "patient,",
-"start": 1.46,
-"end": 1.88
+"start": 1.34,
+"end": 1.72
 },
 {
 "word": "and",
-"start": 1.88,
-"end": 2.54
+"start": 1.72,
+"end": 2.12
 },
 {
 "word": "kind,",
-"start": 2.54,
-"end": 3.06
+"start": 2.12,
+"end": 2.58
 },
 {
 "word": "and",
-"start": 3.06,
-"end": 3.44
+"start": 2.58,
+"end": 2.9
 },
 {
 "word": "diligent,",
-"start": 3.44,
-"end": 3.84
+"start": 2.9,
+"end": 3.28
 },
 {
 "word": "and",
-"start": 4.24,
-"end": 4.6
+"start": 3.28,
+"end": 3.74
 },
 {
 "word": "why",
-"start": 4.6,
-"end": 4.88
+"start": 3.74,
+"end": 3.98
 },
 {
 "word": "envy,",
-"start": 4.88,
-"end": 5.36
+"start": 3.98,
+"end": 4.44
 },
 {
 "word": "anger",
-"start": 5.84,
-"end": 5.98
+"start": 4.8,
+"end": 4.92
 },
 {
 "word": "and",
-"start": 5.98,
-"end": 6.34
+"start": 4.92,
+"end": 5.26
 },
 {
 "word": "sloth",
-"start": 6.34,
-"end": 6.88
+"start": 5.26,
+"end": 5.68
 },
 {
 "word": "keep",
-"start": 6.88,
-"end": 7.16
+"start": 5.68,
+"end": 5.98
 },
 {
 "word": "winning.",
-"start": 7.16,
-"end": 7.44
+"start": 5.98,
+"end": 6.26
 }
 ]

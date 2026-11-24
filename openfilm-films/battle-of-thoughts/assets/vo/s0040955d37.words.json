@@ -2,56 +2,56 @@
 {
 "word": "We",
 "start": 0.0,
-"end": 0.18
+"end": 0.14
 },
 {
 "word": "see",
-"start": 0.18,
-"end": 0.4
+"start": 0.14,
+"end": 0.32
 },
 {
 "word": "the",
-"start": 0.4,
-"end": 0.56
+"start": 0.32,
+"end": 0.48
 },
 {
 "word": "enemy",
-"start": 0.56,
-"end": 0.86
+"start": 0.48,
+"end": 0.68
 },
 {
 "word": "out",
-"start": 0.86,
-"end": 1.2
+"start": 0.68,
+"end": 0.98
 },
 {
 "word": "there,",
-"start": 1.2,
-"end": 1.72
+"start": 0.98,
+"end": 1.22
 },
 {
 "word": "when",
-"start": 1.72,
-"end": 2.06
+"start": 1.22,
+"end": 1.44
 },
 {
 "word": "he",
-"start": 2.06,
-"end": 2.24
+"start": 1.44,
+"end": 1.6
 },
 {
 "word": "is",
-"start": 2.24,
-"end": 2.4
+"start": 1.6,
+"end": 1.74
 },
 {
 "word": "in",
-"start": 2.4,
-"end": 2.66
+"start": 1.74,
+"end": 1.9
 },
 {
 "word": "here.",
-"start": 2.66,
-"end": 3.04
+"start": 1.9,
+"end": 2.18
 }
 ]

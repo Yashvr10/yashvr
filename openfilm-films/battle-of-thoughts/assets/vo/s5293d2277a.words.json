@@ -2,61 +2,61 @@
 {
 "word": "Father",
 "start": 0.0,
-"end": 0.5
+"end": 0.32
 },
 {
 "word": "Chad",
-"start": 0.5,
-"end": 0.92
+"start": 0.32,
+"end": 0.72
 },
 {
 "word": "Ripperger",
-"start": 0.92,
-"end": 1.42
+"start": 0.72,
+"end": 1.24
 },
 {
 "word": "teaches",
-"start": 1.42,
-"end": 2.12
+"start": 1.24,
+"end": 1.58
 },
 {
 "word": "that",
-"start": 2.12,
-"end": 2.64
+"start": 1.58,
+"end": 2.06
 },
 {
 "word": "God",
-"start": 2.64,
-"end": 3.02
+"start": 2.06,
+"end": 2.3
 },
 {
 "word": "permits",
-"start": 3.02,
-"end": 3.56
+"start": 2.3,
+"end": 2.78
 },
 {
 "word": "this",
-"start": 3.56,
-"end": 3.82
+"start": 2.78,
+"end": 3.08
 },
 {
 "word": "warfare",
-"start": 3.82,
-"end": 4.36
+"start": 3.08,
+"end": 3.58
 },
 {
 "word": "for",
-"start": 4.36,
-"end": 4.66
+"start": 3.58,
+"end": 3.92
 },
 {
 "word": "our",
-"start": 4.66,
-"end": 4.82
+"start": 3.92,
+"end": 4.1
 },
 {
 "word": "growth.",
-"start": 4.82,
-"end": 5.2
+"start": 4.1,
+"end": 4.44
 }
 ]

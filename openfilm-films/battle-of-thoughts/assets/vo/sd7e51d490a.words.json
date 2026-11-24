@@ -2,66 +2,66 @@
 {
 "word": "Christ",
 "start": 0.0,
-"end": 0.38
+"end": 0.34
 },
 {
 "word": "tells",
-"start": 0.38,
-"end": 0.76
+"start": 0.34,
+"end": 0.7
 },
 {
 "word": "his",
-"start": 0.76,
-"end": 1.0
+"start": 0.7,
+"end": 0.96
 },
 {
 "word": "disciples",
-"start": 1.0,
-"end": 1.58
+"start": 0.96,
+"end": 1.46
 },
 {
 "word": "again",
-"start": 1.58,
+"start": 1.46,
+"end": 1.92
+},
+{
+"word": "and",
+"start": 1.92,
 "end": 2.12
 },
 {
-"word": "and",
-"start": 2.12,
-"end": 2.38
-},
-{
 "word": "again",
-"start": 2.38,
-"end": 2.68
+"start": 2.12,
+"end": 2.4
 },
 {
 "word": "to",
-"start": 2.68,
-"end": 2.92
+"start": 2.4,
+"end": 2.6
 },
 {
 "word": "watch,",
-"start": 2.92,
-"end": 3.26
+"start": 2.6,
+"end": 2.96
 },
 {
 "word": "and",
-"start": 3.26,
-"end": 3.96
+"start": 2.96,
+"end": 3.38
 },
 {
 "word": "to",
-"start": 3.96,
-"end": 4.1
+"start": 3.38,
+"end": 3.52
 },
 {
 "word": "stay",
-"start": 4.1,
-"end": 4.4
+"start": 3.52,
+"end": 3.76
 },
 {
 "word": "awake.",
-"start": 4.4,
-"end": 4.78
+"start": 3.76,
+"end": 4.12
 }
 ]

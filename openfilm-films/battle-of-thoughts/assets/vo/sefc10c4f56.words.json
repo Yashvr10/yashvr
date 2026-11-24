@@ -2,61 +2,61 @@
 {
 "word": "Then",
 "start": 0.0,
-"end": 0.42
+"end": 0.24
 },
 {
 "word": "discipline:",
-"start": 0.42,
-"end": 1.16
+"start": 0.24,
+"end": 0.76
 },
 {
 "word": "the",
-"start": 1.84,
-"end": 1.9
+"start": 1.22,
+"end": 1.36
 },
 {
 "word": "daily",
-"start": 1.9,
-"end": 2.22
+"start": 1.36,
+"end": 1.64
 },
 {
 "word": "practice",
-"start": 2.22,
-"end": 2.66
+"start": 1.64,
+"end": 2.1
 },
 {
 "word": "of",
-"start": 2.66,
-"end": 2.98
+"start": 2.1,
+"end": 2.36
 },
 {
 "word": "saying",
-"start": 2.98,
-"end": 3.26
+"start": 2.36,
+"end": 2.64
 },
 {
 "word": "no",
-"start": 3.26,
-"end": 3.66
+"start": 2.64,
+"end": 3.0
 },
 {
 "word": "to",
-"start": 3.66,
-"end": 3.98
+"start": 3.0,
+"end": 3.24
 },
 {
 "word": "the",
-"start": 3.98,
-"end": 4.14
+"start": 3.24,
+"end": 3.38
 },
 {
 "word": "lower",
-"start": 4.14,
-"end": 4.44
+"start": 3.38,
+"end": 3.64
 },
 {
 "word": "appetites.",
-"start": 4.44,
-"end": 4.88
+"start": 3.64,
+"end": 4.34
 }
 ]

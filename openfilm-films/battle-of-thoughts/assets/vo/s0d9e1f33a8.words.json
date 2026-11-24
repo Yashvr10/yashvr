@@ -2,136 +2,136 @@
 {
 "word": "At",
 "start": 0.0,
-"end": 0.3
+"end": 0.24
 },
 {
 "word": "lunch,",
-"start": 0.3,
+"start": 0.24,
 "end": 0.72
 },
 {
 "word": "the",
-"start": 1.04,
-"end": 1.16
+"start": 1.26,
+"end": 1.4
 },
 {
 "word": "talk",
-"start": 1.16,
-"end": 1.48
+"start": 1.4,
+"end": 1.62
 },
 {
 "word": "turns",
-"start": 1.48,
-"end": 1.94
+"start": 1.62,
+"end": 1.92
 },
 {
 "word": "to",
-"start": 1.94,
-"end": 2.24
+"start": 1.92,
+"end": 2.18
 },
 {
 "word": "money,",
-"start": 2.24,
-"end": 2.48
+"start": 2.18,
+"end": 2.46
 },
 {
 "word": "and",
-"start": 2.98,
-"end": 3.16
+"start": 3.12,
+"end": 3.34
 },
 {
 "word": "to",
-"start": 3.16,
-"end": 3.26
+"start": 3.34,
+"end": 3.44
 },
 {
 "word": "the",
-"start": 3.26,
-"end": 3.4
+"start": 3.44,
+"end": 3.56
 },
 {
 "word": "people",
-"start": 3.4,
-"end": 3.7
+"start": 3.56,
+"end": 3.8
 },
 {
 "word": "who",
-"start": 3.7,
-"end": 3.88
+"start": 3.8,
+"end": 4.0
 },
 {
 "word": "have",
-"start": 3.88,
-"end": 4.06
+"start": 4.0,
+"end": 4.22
 },
 {
 "word": "too",
-"start": 4.06,
-"end": 4.36
+"start": 4.22,
+"end": 4.48
 },
 {
 "word": "much",
-"start": 4.36,
-"end": 4.62
+"start": 4.48,
+"end": 4.7
 },
 {
 "word": "of",
-"start": 4.62,
-"end": 4.8
+"start": 4.7,
+"end": 4.9
 },
 {
 "word": "it,",
-"start": 4.8,
-"end": 5.02
+"start": 4.9,
+"end": 5.22
 },
 {
 "word": "and",
-"start": 5.4,
-"end": 5.52
+"start": 5.66,
+"end": 5.82
 },
 {
 "word": "to",
-"start": 5.52,
-"end": 5.64
+"start": 5.82,
+"end": 5.92
 },
 {
 "word": "the",
-"start": 5.64,
-"end": 5.78
+"start": 5.92,
+"end": 6.04
 },
 {
 "word": "people",
-"start": 5.78,
-"end": 6.1
+"start": 6.04,
+"end": 6.26
 },
 {
 "word": "who",
-"start": 6.1,
-"end": 6.38
+"start": 6.26,
+"end": 6.48
 },
 {
 "word": "are",
-"start": 6.38,
-"end": 6.5
+"start": 6.48,
+"end": 6.64
 },
 {
 "word": "not",
-"start": 6.5,
-"end": 6.66
+"start": 6.64,
+"end": 6.9
 },
 {
 "word": "in",
-"start": 6.66,
-"end": 6.88
+"start": 6.9,
+"end": 7.1
 },
 {
 "word": "the",
-"start": 6.88,
-"end": 7.0
+"start": 7.1,
+"end": 7.24
 },
 {
 "word": "room.",
-"start": 7.0,
-"end": 7.24
+"start": 7.24,
+"end": 7.52
 }
 ]

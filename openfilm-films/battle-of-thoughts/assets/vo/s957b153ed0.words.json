@@ -2,51 +2,51 @@
 {
 "word": "Where",
 "start": 0.0,
-"end": 0.32
+"end": 0.2
 },
 {
 "word": "sin",
-"start": 0.32,
-"end": 0.6
+"start": 0.2,
+"end": 0.4
 },
 {
 "word": "abounded,",
-"start": 0.6,
-"end": 1.28
+"start": 0.4,
+"end": 0.92
 },
 {
 "word": "Saint",
-"start": 1.28,
-"end": 2.06
+"start": 0.92,
+"end": 1.54
 },
 {
 "word": "Paul",
-"start": 2.06,
-"end": 2.14
+"start": 1.54,
+"end": 1.6
 },
 {
 "word": "writes,",
-"start": 2.14,
-"end": 2.52
+"start": 1.6,
+"end": 2.02
 },
 {
 "word": "grace",
-"start": 2.98,
-"end": 3.32
+"start": 2.68,
+"end": 2.78
 },
 {
 "word": "abounded",
-"start": 3.32,
-"end": 4.04
+"start": 2.78,
+"end": 3.32
 },
 {
 "word": "much",
-"start": 4.04,
-"end": 4.3
+"start": 3.32,
+"end": 3.6
 },
 {
 "word": "more.",
-"start": 4.3,
-"end": 4.68
+"start": 3.6,
+"end": 4.0
 }
 ]

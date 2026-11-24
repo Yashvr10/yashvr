@@ -2,86 +2,86 @@
 {
 "word": "And",
 "start": 0.0,
-"end": 0.2
+"end": 0.16
 },
 {
 "word": "when",
-"start": 0.2,
-"end": 0.38
+"start": 0.16,
+"end": 0.3
 },
 {
 "word": "he",
-"start": 0.38,
-"end": 0.52
+"start": 0.3,
+"end": 0.44
 },
 {
 "word": "is",
-"start": 0.52,
-"end": 0.68
+"start": 0.44,
+"end": 0.58
 },
 {
 "word": "inside,",
-"start": 0.68,
-"end": 1.28
+"start": 0.58,
+"end": 1.1
 },
 {
 "word": "the",
-"start": 1.96,
-"end": 2.0
+"start": 1.86,
+"end": 1.9
 },
 {
 "word": "walls",
-"start": 2.0,
-"end": 2.36
+"start": 1.9,
+"end": 2.26
 },
 {
 "word": "that",
-"start": 2.36,
-"end": 2.72
+"start": 2.26,
+"end": 2.54
 },
 {
 "word": "protected",
-"start": 2.72,
-"end": 3.14
+"start": 2.54,
+"end": 2.94
 },
 {
 "word": "the",
-"start": 3.14,
-"end": 3.42
+"start": 2.94,
+"end": 3.22
 },
 {
 "word": "king",
-"start": 3.42,
-"end": 3.74
+"start": 3.22,
+"end": 3.52
 },
 {
 "word": "become",
-"start": 3.74,
-"end": 4.42
+"start": 3.52,
+"end": 4.12
 },
 {
 "word": "the",
-"start": 4.42,
-"end": 4.64
+"start": 4.12,
+"end": 4.38
 },
 {
 "word": "walls",
-"start": 4.64,
-"end": 5.02
+"start": 4.38,
+"end": 4.7
 },
 {
 "word": "of",
-"start": 5.02,
-"end": 5.32
+"start": 4.7,
+"end": 4.94
 },
 {
 "word": "his",
-"start": 5.32,
-"end": 5.46
+"start": 4.94,
+"end": 5.1
 },
 {
 "word": "prison.",
-"start": 5.46,
-"end": 5.78
+"start": 5.1,
+"end": 5.42
 }
 ]

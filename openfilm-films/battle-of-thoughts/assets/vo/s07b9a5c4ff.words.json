@@ -2,41 +2,41 @@
 {
 "word": "He",
 "start": 0.0,
-"end": 0.28
+"end": 0.16
 },
 {
 "word": "called",
-"start": 0.28,
-"end": 0.58
+"start": 0.16,
+"end": 0.46
 },
 {
 "word": "it",
-"start": 0.58,
-"end": 0.82
+"start": 0.46,
+"end": 0.64
 },
 {
 "word": "Antirrhetikos,",
-"start": 0.82,
-"end": 2.28
+"start": 0.64,
+"end": 2.0
 },
 {
 "word": "which",
-"start": 2.28,
-"end": 2.46
+"start": 2.0,
+"end": 2.3
 },
 {
 "word": "means",
-"start": 2.46,
-"end": 2.82
+"start": 2.3,
+"end": 2.64
 },
 {
 "word": "talking",
-"start": 2.82,
-"end": 3.26
+"start": 2.64,
+"end": 2.98
 },
 {
 "word": "back.",
-"start": 3.26,
-"end": 3.72
+"start": 2.98,
+"end": 3.38
 }
 ]

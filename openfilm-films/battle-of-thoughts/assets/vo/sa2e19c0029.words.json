@@ -2,76 +2,76 @@
 {
 "word": "Marcus",
 "start": 0.0,
-"end": 0.58
+"end": 0.44
 },
 {
 "word": "Aurelius",
-"start": 0.58,
-"end": 1.34
+"start": 0.44,
+"end": 1.02
 },
 {
 "word": "put",
-"start": 1.34,
-"end": 1.6
+"start": 1.02,
+"end": 1.3
 },
 {
 "word": "it",
-"start": 1.6,
-"end": 1.8
+"start": 1.3,
+"end": 1.42
 },
 {
 "word": "in",
-"start": 1.8,
-"end": 1.96
+"start": 1.42,
+"end": 1.54
 },
 {
 "word": "a",
-"start": 1.96,
-"end": 2.08
+"start": 1.54,
+"end": 1.68
 },
 {
 "word": "single",
-"start": 2.08,
-"end": 2.42
+"start": 1.68,
+"end": 1.92
 },
 {
 "word": "line:",
-"start": 2.42,
-"end": 2.9
+"start": 1.92,
+"end": 2.44
 },
 {
 "word": "the",
-"start": 3.5,
-"end": 3.62
+"start": 2.94,
+"end": 3.08
 },
 {
 "word": "soul",
-"start": 3.62,
-"end": 3.94
+"start": 3.08,
+"end": 3.3
 },
 {
 "word": "is",
-"start": 3.94,
-"end": 4.22
+"start": 3.3,
+"end": 3.54
 },
 {
 "word": "dyed",
-"start": 4.22,
-"end": 4.6
+"start": 3.54,
+"end": 3.82
 },
 {
 "word": "by",
-"start": 4.6,
-"end": 4.94
+"start": 3.82,
+"end": 4.08
 },
 {
 "word": "the",
-"start": 4.94,
-"end": 5.12
+"start": 4.08,
+"end": 4.22
 },
 {
 "word": "thoughts.",
-"start": 5.12,
-"end": 5.48
+"start": 4.22,
+"end": 4.58
 }
 ]

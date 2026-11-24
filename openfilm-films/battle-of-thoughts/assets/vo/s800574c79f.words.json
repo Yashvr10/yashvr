@@ -2,101 +2,101 @@
 {
 "word": "The",
 "start": 0.0,
-"end": 0.18
+"end": 0.16
 },
 {
 "word": "best",
-"start": 0.18,
-"end": 0.46
+"start": 0.16,
+"end": 0.38
 },
 {
 "word": "work",
-"start": 0.46,
-"end": 0.64
+"start": 0.38,
+"end": 0.68
 },
 {
 "word": "a",
-"start": 0.64,
-"end": 0.82
+"start": 0.68,
+"end": 0.86
 },
 {
 "word": "person",
-"start": 0.82,
-"end": 1.2
+"start": 0.86,
+"end": 1.1
 },
 {
 "word": "can",
-"start": 1.2,
-"end": 1.48
+"start": 1.1,
+"end": 1.38
 },
 {
 "word": "take",
-"start": 1.48,
-"end": 1.76
+"start": 1.38,
+"end": 1.66
 },
 {
 "word": "up,",
-"start": 1.76,
-"end": 2.14
+"start": 1.66,
+"end": 1.96
 },
 {
 "word": "he",
-"start": 2.28,
-"end": 2.54
+"start": 1.98,
+"end": 2.1
 },
 {
 "word": "said,",
-"start": 2.54,
-"end": 2.88
+"start": 2.1,
+"end": 2.42
 },
 {
 "word": "is",
-"start": 3.28,
-"end": 3.52
+"start": 2.8,
+"end": 2.96
 },
 {
 "word": "to",
-"start": 3.52,
-"end": 3.68
+"start": 2.96,
+"end": 3.14
 },
 {
 "word": "build",
-"start": 3.68,
-"end": 3.9
+"start": 3.14,
+"end": 3.36
 },
 {
 "word": "a",
-"start": 3.9,
-"end": 4.14
+"start": 3.36,
+"end": 3.58
 },
 {
 "word": "kind",
-"start": 4.14,
-"end": 4.34
+"start": 3.58,
+"end": 3.72
 },
 {
 "word": "of",
-"start": 4.34,
-"end": 4.48
+"start": 3.72,
+"end": 3.88
 },
 {
 "word": "factory",
-"start": 4.48,
-"end": 4.94
+"start": 3.88,
+"end": 4.26
 },
 {
 "word": "of",
-"start": 4.94,
-"end": 5.28
+"start": 4.26,
+"end": 4.5
 },
 {
 "word": "good",
-"start": 5.28,
-"end": 5.5
+"start": 4.5,
+"end": 4.66
 },
 {
 "word": "thoughts.",
-"start": 5.5,
-"end": 5.98
+"start": 4.66,
+"end": 5.1
 }
 ]

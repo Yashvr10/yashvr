@@ -2,41 +2,41 @@
 {
 "word": "Almost",
 "start": 0.0,
-"end": 0.38
+"end": 0.28
 },
 {
 "word": "every",
-"start": 0.38,
-"end": 0.82
+"start": 0.28,
+"end": 0.62
 },
 {
 "word": "thought,",
-"start": 0.82,
-"end": 1.28
+"start": 0.62,
+"end": 0.98
 },
 {
 "word": "he",
-"start": 1.28,
-"end": 1.58
+"start": 0.98,
+"end": 1.2
 },
 {
 "word": "noticed,",
-"start": 1.58,
-"end": 2.08
+"start": 1.2,
+"end": 1.6
 },
 {
 "word": "meets",
-"start": 2.08,
-"end": 2.7
+"start": 1.6,
+"end": 1.96
 },
 {
 "word": "its",
-"start": 2.7,
-"end": 3.0
+"start": 1.96,
+"end": 2.22
 },
 {
 "word": "opposite.",
-"start": 3.0,
-"end": 3.32
+"start": 2.22,
+"end": 2.56
 }
 ]

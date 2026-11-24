@@ -2,121 +2,121 @@
 {
 "word": "When",
 "start": 0.0,
-"end": 0.14
-},
-{
-"word": "the",
-"start": 0.14,
-"end": 0.26
-},
-{
-"word": "inner",
-"start": 0.26,
 "end": 0.44
 },
 {
-"word": "voice",
+"word": "the",
 "start": 0.44,
-"end": 0.86
+"end": 0.58
+},
+{
+"word": "inner",
+"start": 0.58,
+"end": 0.76
+},
+{
+"word": "voice",
+"start": 0.76,
+"end": 1.06
 },
 {
 "word": "says",
-"start": 0.86,
-"end": 1.14
+"start": 1.06,
+"end": 1.3
 },
 {
 "word": "nobody",
-"start": 1.14,
-"end": 1.54
+"start": 1.3,
+"end": 1.68
 },
 {
 "word": "cares",
-"start": 1.54,
-"end": 2.04
+"start": 1.68,
+"end": 2.08
 },
 {
 "word": "for",
-"start": 2.04,
-"end": 2.36
+"start": 2.08,
+"end": 2.4
 },
 {
 "word": "you,",
-"start": 2.36,
-"end": 2.64
+"start": 2.4,
+"end": 2.8
 },
 {
 "word": "or",
-"start": 3.02,
-"end": 3.1
+"start": 3.24,
+"end": 3.36
 },
 {
 "word": "that",
-"start": 3.1,
-"end": 3.3
+"start": 3.36,
+"end": 3.6
 },
 {
 "word": "God",
-"start": 3.3,
-"end": 3.66
+"start": 3.6,
+"end": 3.84
 },
 {
 "word": "could",
-"start": 3.66,
-"end": 3.92
+"start": 3.84,
+"end": 4.1
 },
 {
 "word": "never",
-"start": 3.92,
-"end": 4.22
+"start": 4.1,
+"end": 4.42
 },
 {
 "word": "forgive",
-"start": 4.22,
-"end": 4.62
+"start": 4.42,
+"end": 4.88
 },
 {
 "word": "what",
-"start": 4.62,
-"end": 4.9
+"start": 4.88,
+"end": 5.18
 },
 {
 "word": "you",
-"start": 4.9,
-"end": 5.1
+"start": 5.18,
+"end": 5.36
 },
 {
 "word": "have",
-"start": 5.1,
-"end": 5.24
+"start": 5.36,
+"end": 5.52
 },
 {
 "word": "done,",
-"start": 5.24,
-"end": 5.54
+"start": 5.52,
+"end": 5.92
 },
 {
 "word": "you",
-"start": 6.18,
-"end": 6.3
+"start": 6.42,
+"end": 6.58
 },
 {
 "word": "are",
-"start": 6.3,
-"end": 6.56
+"start": 6.58,
+"end": 6.76
 },
 {
 "word": "in",
-"start": 6.56,
-"end": 6.74
+"start": 6.76,
+"end": 6.98
 },
 {
 "word": "the",
-"start": 6.74,
-"end": 6.9
+"start": 6.98,
+"end": 7.14
 },
 {
 "word": "battle.",
-"start": 6.9,
-"end": 7.2
+"start": 7.14,
+"end": 7.44
 }
 ]

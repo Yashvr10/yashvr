@@ -2,11 +2,11 @@
 {
 "word": "He",
 "start": 0.0,
-"end": 0.14
+"end": 0.18
 },
 {
 "word": "stresses",
-"start": 0.14,
+"start": 0.18,
 "end": 0.48
 },
 {
@@ -17,116 +17,116 @@
 {
 "word": "an",
 "start": 0.88,
-"end": 1.04
+"end": 1.02
 },
 {
 "word": "exorcist",
-"start": 1.04,
-"end": 1.86
+"start": 1.02,
+"end": 1.76
 },
 {
 "word": "must",
-"start": 1.86,
-"end": 2.26
+"start": 1.76,
+"end": 1.98
 },
 {
 "word": "rule",
-"start": 2.26,
-"end": 2.68
+"start": 1.98,
+"end": 2.3
 },
 {
 "word": "out",
-"start": 2.68,
-"end": 3.06
+"start": 2.3,
+"end": 2.56
 },
 {
 "word": "every",
-"start": 3.06,
-"end": 3.5
+"start": 2.56,
+"end": 3.0
 },
 {
 "word": "medical",
-"start": 3.5,
-"end": 3.96
+"start": 3.0,
+"end": 3.38
 },
 {
 "word": "and",
-"start": 3.96,
-"end": 4.4
+"start": 3.38,
+"end": 3.76
 },
 {
 "word": "psychological",
-"start": 4.4,
-"end": 5.06
+"start": 3.76,
+"end": 4.5
 },
 {
 "word": "explanation",
-"start": 5.06,
-"end": 5.9
+"start": 4.5,
+"end": 5.24
 },
 {
 "word": "first.",
-"start": 5.9,
-"end": 6.72
+"start": 5.24,
+"end": 6.1
 },
 {
 "word": "Mistaking",
-"start": 7.5,
-"end": 8.0
+"start": 6.92,
+"end": 7.36
 },
 {
 "word": "illness",
-"start": 8.0,
-"end": 8.52
+"start": 7.36,
+"end": 7.76
 },
 {
 "word": "for",
-"start": 8.52,
-"end": 8.82
+"start": 7.76,
+"end": 8.02
 },
 {
 "word": "possession",
-"start": 8.82,
-"end": 9.34
+"start": 8.02,
+"end": 8.56
 },
 {
 "word": "can",
-"start": 9.34,
-"end": 9.96
+"start": 8.56,
+"end": 9.12
 },
 {
 "word": "keep",
-"start": 9.96,
-"end": 10.24
+"start": 9.12,
+"end": 9.36
 },
 {
 "word": "someone",
-"start": 10.24,
-"end": 10.68
+"start": 9.36,
+"end": 9.82
 },
 {
 "word": "from",
-"start": 10.68,
-"end": 10.94
+"start": 9.82,
+"end": 10.1
 },
 {
 "word": "the",
-"start": 10.94,
-"end": 11.12
+"start": 10.1,
+"end": 10.28
 },
 {
 "word": "care",
-"start": 11.12,
-"end": 11.44
+"start": 10.28,
+"end": 10.52
 },
 {
 "word": "they",
-"start": 11.44,
-"end": 11.74
+"start": 10.52,
+"end": 10.82
 },
 {
 "word": "need.",
-"start": 11.74,
-"end": 12.08
+"start": 10.82,
+"end": 11.18
 }
 ]

@@ -2,46 +2,46 @@
 {
 "word": "So",
 "start": 0.0,
-"end": 0.22
+"end": 0.2
 },
 {
 "word": "do",
-"start": 0.22,
-"end": 0.34
+"start": 0.2,
+"end": 0.32
 },
 {
 "word": "not",
-"start": 0.34,
-"end": 0.54
+"start": 0.32,
+"end": 0.52
 },
 {
 "word": "waste",
-"start": 0.54,
-"end": 0.9
+"start": 0.52,
+"end": 0.78
 },
 {
 "word": "this",
-"start": 0.9,
-"end": 1.2
+"start": 0.78,
+"end": 1.06
 },
 {
 "word": "time.",
-"start": 1.2,
-"end": 1.58
+"start": 1.06,
+"end": 1.42
 },
 {
 "word": "Fight",
-"start": 2.02,
-"end": 2.32
+"start": 1.84,
+"end": 1.94
 },
 {
 "word": "each",
-"start": 2.32,
-"end": 2.64
+"start": 1.94,
+"end": 2.14
 },
 {
 "word": "day.",
-"start": 2.64,
-"end": 3.02
+"start": 2.14,
+"end": 2.5
 }
 ]

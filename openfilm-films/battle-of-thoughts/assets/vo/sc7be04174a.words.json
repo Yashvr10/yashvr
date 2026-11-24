@@ -7,71 +7,71 @@
 {
 "word": "relationships",
 "start": 0.3,
-"end": 1.06
+"end": 0.94
 },
 {
 "word": "cannot",
-"start": 1.06,
-"end": 1.5
+"start": 0.94,
+"end": 1.52
 },
 {
 "word": "be",
-"start": 1.5,
-"end": 1.74
+"start": 1.52,
+"end": 1.8
 },
 {
 "word": "mended",
-"start": 1.74,
-"end": 2.1
+"start": 1.8,
+"end": 2.08
 },
 {
 "word": "in",
-"start": 2.1,
-"end": 2.42
+"start": 2.08,
+"end": 2.3
 },
 {
 "word": "this",
-"start": 2.42,
-"end": 2.6
+"start": 2.3,
+"end": 2.5
 },
 {
 "word": "life.",
-"start": 2.6,
-"end": 2.92
+"start": 2.5,
+"end": 2.9
 },
 {
 "word": "We",
 "start": 3.48,
-"end": 3.58
+"end": 3.56
 },
 {
 "word": "can",
-"start": 3.58,
+"start": 3.56,
 "end": 3.74
 },
 {
 "word": "still",
 "start": 3.74,
-"end": 4.08
+"end": 4.04
 },
 {
 "word": "forgive",
-"start": 4.08,
-"end": 4.56
+"start": 4.04,
+"end": 4.4
 },
 {
 "word": "in",
-"start": 4.56,
-"end": 4.84
+"start": 4.4,
+"end": 4.58
 },
 {
 "word": "our",
-"start": 4.84,
-"end": 5.04
+"start": 4.58,
+"end": 4.72
 },
 {
 "word": "hearts.",
-"start": 5.04,
-"end": 5.46
+"start": 4.72,
+"end": 5.04
 }
 ]

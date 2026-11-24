@@ -2,51 +2,51 @@
 {
 "word": "For",
 "start": 0.0,
-"end": 0.2
+"end": 0.22
 },
 {
 "word": "Evagrius,",
-"start": 0.2,
-"end": 0.9
+"start": 0.22,
+"end": 0.94
 },
 {
 "word": "these",
-"start": 1.22,
-"end": 1.5
+"start": 1.24,
+"end": 1.46
 },
 {
 "word": "thoughts",
-"start": 1.5,
-"end": 1.86
+"start": 1.46,
+"end": 1.78
 },
 {
 "word": "were",
-"start": 1.86,
-"end": 2.08
+"start": 1.78,
+"end": 2.02
 },
 {
 "word": "not",
-"start": 2.08,
-"end": 2.26
+"start": 2.02,
+"end": 2.24
 },
 {
 "word": "simply",
-"start": 2.26,
-"end": 2.74
+"start": 2.24,
+"end": 2.7
 },
 {
 "word": "moods",
-"start": 2.74,
-"end": 3.38
+"start": 2.7,
+"end": 3.34
 },
 {
 "word": "of",
-"start": 3.38,
-"end": 3.46
+"start": 3.34,
+"end": 3.44
 },
 {
 "word": "the",
-"start": 3.46,
+"start": 3.44,
 "end": 3.62
 },
 {
@@ -56,52 +56,52 @@
 },
 {
 "word": "They",
-"start": 4.7,
-"end": 4.86
+"start": 4.78,
+"end": 4.92
 },
 {
 "word": "were",
-"start": 4.86,
-"end": 4.96
+"start": 4.92,
+"end": 5.04
 },
 {
 "word": "the",
-"start": 4.96,
-"end": 5.1
+"start": 5.04,
+"end": 5.2
 },
 {
 "word": "means",
-"start": 5.1,
-"end": 5.48
+"start": 5.2,
+"end": 5.56
 },
 {
 "word": "by",
-"start": 5.48,
-"end": 5.78
+"start": 5.56,
+"end": 5.84
 },
 {
 "word": "which",
-"start": 5.78,
-"end": 6.08
+"start": 5.84,
+"end": 6.06
 },
 {
 "word": "something",
-"start": 6.08,
-"end": 6.34
+"start": 6.06,
+"end": 6.28
 },
 {
 "word": "outside",
-"start": 6.34,
-"end": 7.16
+"start": 6.28,
+"end": 6.86
 },
 {
 "word": "us",
-"start": 7.16,
-"end": 7.46
+"start": 6.86,
+"end": 7.12
 },
 {
 "word": "attacks.",
-"start": 7.46,
-"end": 7.82
+"start": 7.12,
+"end": 7.48
 }
 ]

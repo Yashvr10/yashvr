@@ -2,86 +2,86 @@
 {
 "word": "Freedom",
 "start": 0.0,
-"end": 0.46
+"end": 0.28
 },
 {
 "word": "is",
-"start": 0.46,
-"end": 0.78
+"start": 0.28,
+"end": 0.52
 },
 {
 "word": "not",
-"start": 0.78,
-"end": 1.02
+"start": 0.52,
+"end": 0.76
 },
 {
 "word": "doing",
-"start": 1.02,
-"end": 1.46
+"start": 0.76,
+"end": 1.16
 },
 {
 "word": "whatever",
-"start": 1.46,
-"end": 1.92
+"start": 1.16,
+"end": 1.58
 },
 {
 "word": "we",
-"start": 1.92,
-"end": 2.24
+"start": 1.58,
+"end": 1.88
 },
 {
 "word": "like.",
-"start": 2.24,
-"end": 2.54
+"start": 1.88,
+"end": 2.2
 },
 {
 "word": "It",
-"start": 3.2,
-"end": 3.28
+"start": 2.76,
+"end": 2.82
 },
 {
 "word": "is",
-"start": 3.28,
-"end": 3.42
+"start": 2.82,
+"end": 2.98
 },
 {
 "word": "living",
-"start": 3.42,
-"end": 3.68
+"start": 2.98,
+"end": 3.24
 },
 {
 "word": "the",
-"start": 3.68,
-"end": 4.0
+"start": 3.24,
+"end": 3.48
 },
 {
 "word": "way",
-"start": 4.0,
-"end": 4.22
+"start": 3.48,
+"end": 3.64
 },
 {
 "word": "we",
-"start": 4.22,
-"end": 4.42
+"start": 3.64,
+"end": 3.82
 },
 {
 "word": "were",
-"start": 4.42,
-"end": 4.54
+"start": 3.82,
+"end": 3.94
 },
 {
 "word": "made",
-"start": 4.54,
-"end": 4.76
+"start": 3.94,
+"end": 4.22
 },
 {
 "word": "to",
-"start": 4.76,
-"end": 5.02
+"start": 4.22,
+"end": 4.56
 },
 {
 "word": "live.",
-"start": 5.02,
-"end": 5.28
+"start": 4.56,
+"end": 4.82
 }
 ]

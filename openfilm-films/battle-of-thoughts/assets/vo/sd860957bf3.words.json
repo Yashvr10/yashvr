@@ -2,121 +2,121 @@
 {
 "word": "And",
 "start": 0.0,
-"end": 0.22
+"end": 0.16
 },
 {
 "word": "the",
-"start": 0.22,
-"end": 0.36
+"start": 0.16,
+"end": 0.3
 },
 {
 "word": "further",
-"start": 0.36,
-"end": 0.66
+"start": 0.3,
+"end": 0.54
 },
 {
 "word": "a",
-"start": 0.66,
-"end": 0.98
+"start": 0.54,
+"end": 0.82
 },
 {
 "word": "person",
-"start": 0.98,
-"end": 1.26
+"start": 0.82,
+"end": 1.08
 },
 {
 "word": "goes,",
-"start": 1.26,
-"end": 1.84
+"start": 1.08,
+"end": 1.5
 },
 {
 "word": "the",
-"start": 2.4,
-"end": 2.5
+"start": 2.0,
+"end": 2.14
 },
 {
 "word": "more",
-"start": 2.5,
-"end": 2.68
+"start": 2.14,
+"end": 2.28
 },
 {
 "word": "clearly",
-"start": 2.68,
-"end": 3.08
+"start": 2.28,
+"end": 2.62
 },
 {
 "word": "he",
-"start": 3.08,
-"end": 3.32
+"start": 2.62,
+"end": 2.84
 },
 {
 "word": "sees",
-"start": 3.32,
-"end": 3.66
+"start": 2.84,
+"end": 3.14
 },
 {
 "word": "his",
-"start": 3.66,
-"end": 3.92
+"start": 3.14,
+"end": 3.38
 },
 {
 "word": "own",
-"start": 3.92,
-"end": 4.16
+"start": 3.38,
+"end": 3.58
 },
 {
 "word": "faults,",
-"start": 4.16,
-"end": 5.2
+"start": 3.58,
+"end": 4.04
 },
 {
 "word": "as",
-"start": 5.2,
-"end": 5.34
+"start": 4.4,
+"end": 4.64
 },
 {
 "word": "if",
-"start": 5.34,
-"end": 5.5
+"start": 4.64,
+"end": 4.8
 },
 {
 "word": "the",
-"start": 5.5,
-"end": 5.68
+"start": 4.8,
+"end": 4.98
 },
 {
 "word": "eyes",
-"start": 5.68,
-"end": 6.04
+"start": 4.98,
+"end": 5.26
 },
 {
 "word": "of",
-"start": 6.04,
-"end": 6.26
+"start": 5.26,
+"end": 5.48
 },
 {
 "word": "the",
-"start": 6.26,
-"end": 6.42
+"start": 5.48,
+"end": 5.62
 },
 {
 "word": "soul",
-"start": 6.42,
-"end": 6.78
+"start": 5.62,
+"end": 6.04
 },
 {
 "word": "became",
-"start": 6.78,
-"end": 7.28
+"start": 6.04,
+"end": 6.5
 },
 {
 "word": "a",
-"start": 7.28,
-"end": 7.54
+"start": 6.5,
+"end": 6.7
 },
 {
 "word": "microscope.",
-"start": 7.54,
-"end": 8.06
+"start": 6.7,
+"end": 7.16
 }
 ]

@@ -2,141 +2,141 @@
 {
 "word": "For",
 "start": 0.0,
-"end": 0.2
+"end": 0.16
 },
 {
 "word": "we",
-"start": 0.2,
+"start": 0.16,
 "end": 0.3
 },
 {
 "word": "do",
 "start": 0.3,
-"end": 0.44
+"end": 0.42
 },
 {
 "word": "not",
-"start": 0.44,
-"end": 0.66
+"start": 0.42,
+"end": 0.64
 },
 {
 "word": "wrestle",
-"start": 0.66,
+"start": 0.64,
 "end": 1.1
 },
 {
 "word": "against",
 "start": 1.1,
-"end": 1.48
+"end": 1.52
 },
 {
 "word": "flesh",
-"start": 1.48,
-"end": 1.94
+"start": 1.52,
+"end": 2.04
 },
 {
 "word": "and",
-"start": 1.94,
-"end": 2.3
+"start": 2.04,
+"end": 2.28
 },
 {
 "word": "blood,",
-"start": 2.3,
-"end": 2.66
+"start": 2.28,
+"end": 2.58
 },
 {
 "word": "but",
-"start": 3.22,
-"end": 3.4
+"start": 3.06,
+"end": 3.3
 },
 {
 "word": "against",
-"start": 3.4,
-"end": 3.7
+"start": 3.3,
+"end": 3.66
 },
 {
 "word": "the",
-"start": 3.7,
-"end": 3.98
+"start": 3.66,
+"end": 4.02
 },
 {
 "word": "powers,",
-"start": 3.98,
-"end": 4.46
+"start": 4.02,
+"end": 4.38
 },
 {
 "word": "against",
-"start": 5.1,
-"end": 5.26
+"start": 4.66,
+"end": 4.74
 },
 {
 "word": "the",
-"start": 5.26,
-"end": 5.6
+"start": 4.74,
+"end": 5.02
 },
 {
 "word": "rulers",
-"start": 5.6,
-"end": 5.88
+"start": 5.02,
+"end": 5.24
 },
 {
 "word": "of",
-"start": 5.88,
-"end": 6.26
+"start": 5.24,
+"end": 5.64
 },
 {
 "word": "the",
-"start": 6.26,
-"end": 6.42
+"start": 5.64,
+"end": 5.78
 },
 {
 "word": "darkness",
-"start": 6.42,
-"end": 6.84
+"start": 5.78,
+"end": 6.14
 },
 {
 "word": "of",
-"start": 6.84,
-"end": 7.16
+"start": 6.14,
+"end": 6.44
 },
 {
 "word": "this",
-"start": 7.16,
-"end": 7.36
+"start": 6.44,
+"end": 6.6
 },
 {
 "word": "world,",
-"start": 7.36,
-"end": 7.8
+"start": 6.6,
+"end": 7.04
 },
 {
 "word": "against",
-"start": 8.52,
-"end": 8.72
+"start": 7.56,
+"end": 8.18
 },
 {
 "word": "spiritual",
-"start": 8.72,
-"end": 9.48
+"start": 8.18,
+"end": 8.8
 },
 {
 "word": "wickedness",
-"start": 9.48,
-"end": 10.14
+"start": 8.8,
+"end": 9.48
 },
 {
 "word": "in",
-"start": 10.14,
-"end": 10.38
+"start": 9.48,
+"end": 9.72
 },
 {
 "word": "high",
-"start": 10.38,
-"end": 10.76
+"start": 9.72,
+"end": 9.92
 },
 {
 "word": "places.",
-"start": 10.76,
-"end": 11.28
+"start": 9.92,
+"end": 10.36
 }
 ]

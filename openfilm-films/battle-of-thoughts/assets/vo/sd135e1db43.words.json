@@ -7,91 +7,91 @@
 {
 "word": "often",
 "start": 0.18,
-"end": 0.46
+"end": 0.52
 },
 {
 "word": "what",
-"start": 0.46,
-"end": 0.72
+"start": 0.52,
+"end": 0.78
 },
 {
 "word": "we",
-"start": 0.72,
-"end": 0.9
+"start": 0.78,
+"end": 0.96
 },
 {
 "word": "cannot",
-"start": 0.9,
-"end": 1.18
+"start": 0.96,
+"end": 1.28
 },
 {
 "word": "stand",
-"start": 1.18,
-"end": 1.64
+"start": 1.28,
+"end": 1.7
 },
 {
 "word": "in",
-"start": 1.64,
-"end": 1.9
+"start": 1.7,
+"end": 1.96
 },
 {
 "word": "others",
-"start": 1.9,
-"end": 2.16
+"start": 1.96,
+"end": 2.28
 },
 {
 "word": "is",
-"start": 2.16,
-"end": 2.8
+"start": 2.28,
+"end": 2.88
 },
 {
 "word": "something",
-"start": 2.8,
+"start": 2.88,
 "end": 3.12
 },
 {
 "word": "we",
 "start": 3.12,
-"end": 3.42
+"end": 3.36
 },
 {
 "word": "carry",
-"start": 3.42,
-"end": 3.8
+"start": 3.36,
+"end": 3.66
 },
 {
 "word": "in",
-"start": 3.8,
-"end": 4.08
+"start": 3.66,
+"end": 3.94
 },
 {
 "word": "ourselves,",
-"start": 4.08,
-"end": 4.76
+"start": 3.94,
+"end": 4.66
 },
 {
 "word": "cast",
-"start": 5.36,
-"end": 5.64
+"start": 5.12,
+"end": 5.38
 },
 {
 "word": "outward",
-"start": 5.64,
-"end": 6.22
+"start": 5.38,
+"end": 5.9
 },
 {
 "word": "without",
-"start": 6.22,
-"end": 6.64
+"start": 5.9,
+"end": 6.26
 },
 {
 "word": "our",
-"start": 6.64,
-"end": 6.88
+"start": 6.26,
+"end": 6.48
 },
 {
 "word": "noticing.",
-"start": 6.88,
-"end": 7.34
+"start": 6.48,
+"end": 6.84
 }
 ]

@@ -2,116 +2,116 @@
 {
 "word": "Many",
 "start": 0.0,
-"end": 0.34
+"end": 0.28
 },
 {
 "word": "lose",
-"start": 0.34,
-"end": 0.78
+"start": 0.28,
+"end": 0.58
 },
 {
 "word": "faith",
-"start": 0.78,
-"end": 1.18
+"start": 0.58,
+"end": 0.94
 },
 {
 "word": "because",
-"start": 1.18,
-"end": 1.7
+"start": 0.94,
+"end": 1.4
 },
 {
 "word": "they",
-"start": 1.7,
-"end": 1.94
+"start": 1.4,
+"end": 1.62
 },
 {
 "word": "feel",
-"start": 1.94,
-"end": 2.26
+"start": 1.62,
+"end": 1.84
 },
 {
 "word": "abandoned",
-"start": 2.26,
-"end": 2.78
+"start": 1.84,
+"end": 2.28
 },
 {
 "word": "in",
-"start": 2.78,
-"end": 3.16
+"start": 2.28,
+"end": 2.6
 },
 {
 "word": "the",
-"start": 3.16,
-"end": 3.3
+"start": 2.6,
+"end": 2.72
 },
 {
 "word": "dark.",
-"start": 3.3,
-"end": 3.68
+"start": 2.72,
+"end": 3.04
 },
 {
 "word": "Christ",
-"start": 4.58,
-"end": 4.72
+"start": 3.88,
+"end": 3.96
 },
 {
 "word": "himself",
-"start": 4.72,
-"end": 5.22
+"start": 3.96,
+"end": 4.52
 },
 {
 "word": "cried",
-"start": 5.22,
-"end": 5.68
+"start": 4.52,
+"end": 4.9
 },
 {
 "word": "out:",
+"start": 4.9,
+"end": 5.3
+},
+{
+"word": "my",
 "start": 5.68,
-"end": 6.08
-},
-{
-"word": "my",
-"start": 6.54,
-"end": 6.76
+"end": 5.82
 },
 {
 "word": "God,",
-"start": 6.76,
-"end": 7.1
+"start": 5.82,
+"end": 6.14
 },
 {
 "word": "my",
-"start": 7.26,
-"end": 7.38
+"start": 6.28,
+"end": 6.38
 },
 {
 "word": "God,",
-"start": 7.38,
-"end": 7.74
+"start": 6.38,
+"end": 6.72
 },
 {
 "word": "why",
-"start": 8.24,
-"end": 8.36
+"start": 6.94,
+"end": 7.04
 },
 {
 "word": "have",
-"start": 8.36,
-"end": 8.52
+"start": 7.04,
+"end": 7.22
 },
 {
 "word": "you",
-"start": 8.52,
-"end": 8.66
+"start": 7.22,
+"end": 7.36
 },
 {
 "word": "forsaken",
-"start": 8.66,
-"end": 9.3
+"start": 7.36,
+"end": 7.88
 },
 {
 "word": "me?",
-"start": 9.3,
-"end": 9.58
+"start": 7.88,
+"end": 8.16
 }
 ]

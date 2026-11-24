@@ -2,131 +2,131 @@
 {
 "word": "Saint",
 "start": 0.0,
-"end": 0.36
+"end": 0.48
 },
 {
 "word": "Ignatius",
-"start": 0.36,
-"end": 1.14
+"start": 0.48,
+"end": 0.84
 },
 {
 "word": "of",
-"start": 1.14,
-"end": 1.36
+"start": 0.84,
+"end": 1.02
 },
 {
 "word": "Loyola",
-"start": 1.36,
-"end": 2.0
+"start": 1.02,
+"end": 1.5
 },
 {
 "word": "later",
-"start": 2.0,
-"end": 2.38
+"start": 1.5,
+"end": 1.78
 },
 {
 "word": "taught",
-"start": 2.38,
-"end": 2.76
+"start": 1.78,
+"end": 2.18
 },
 {
 "word": "it",
-"start": 2.76,
-"end": 2.94
+"start": 2.18,
+"end": 2.3
 },
 {
 "word": "as",
-"start": 2.94,
-"end": 3.12
+"start": 2.3,
+"end": 2.48
 },
 {
 "word": "a",
-"start": 3.12,
-"end": 3.28
+"start": 2.48,
+"end": 2.62
 },
 {
 "word": "craft:",
-"start": 3.28,
-"end": 3.74
+"start": 2.62,
+"end": 3.1
 },
 {
 "word": "to",
-"start": 4.26,
-"end": 4.56
+"start": 3.1,
+"end": 3.7
 },
 {
 "word": "notice",
-"start": 4.56,
-"end": 4.96
+"start": 3.7,
+"end": 3.96
 },
 {
 "word": "which",
-"start": 4.96,
-"end": 5.3
+"start": 3.96,
+"end": 4.26
 },
 {
 "word": "movements",
-"start": 5.3,
-"end": 5.8
+"start": 4.26,
+"end": 4.72
 },
 {
 "word": "of",
-"start": 5.8,
-"end": 6.06
+"start": 4.72,
+"end": 4.98
 },
 {
 "word": "the",
-"start": 6.06,
-"end": 6.2
+"start": 4.98,
+"end": 5.14
 },
 {
 "word": "soul",
-"start": 6.2,
-"end": 6.62
+"start": 5.14,
+"end": 5.44
 },
 {
 "word": "draw",
-"start": 6.62,
-"end": 7.0
+"start": 5.44,
+"end": 5.76
 },
 {
 "word": "us",
-"start": 7.0,
-"end": 7.26
+"start": 5.76,
+"end": 5.96
 },
 {
 "word": "toward",
-"start": 7.26,
-"end": 7.56
+"start": 5.96,
+"end": 6.14
 },
 {
 "word": "God,",
-"start": 7.56,
-"end": 8.02
+"start": 6.14,
+"end": 6.46
 },
 {
 "word": "and",
-"start": 8.02,
-"end": 8.68
+"start": 6.46,
+"end": 7.3
 },
 {
 "word": "which",
-"start": 8.68,
-"end": 8.84
+"start": 7.3,
+"end": 7.46
 },
 {
 "word": "draw",
-"start": 8.84,
-"end": 9.2
+"start": 7.46,
+"end": 7.8
 },
 {
 "word": "us",
-"start": 9.2,
-"end": 9.42
+"start": 7.8,
+"end": 8.0
 },
 {
 "word": "away.",
-"start": 9.42,
-"end": 9.72
+"start": 8.0,
+"end": 8.3
 }
 ]

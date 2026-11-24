@@ -2,81 +2,81 @@
 {
 "word": "And",
 "start": 0.0,
-"end": 0.26
+"end": 0.18
 },
 {
 "word": "yet",
-"start": 0.26,
-"end": 0.44
+"start": 0.18,
+"end": 0.34
 },
 {
 "word": "he",
-"start": 0.44,
-"end": 0.6
+"start": 0.34,
+"end": 0.52
 },
 {
 "word": "also",
-"start": 0.6,
-"end": 0.96
+"start": 0.52,
+"end": 0.82
 },
 {
 "word": "said:",
-"start": 0.96,
-"end": 1.4
+"start": 0.82,
+"end": 1.32
 },
 {
 "word": "Father,",
-"start": 2.0,
-"end": 2.4
+"start": 2.32,
+"end": 2.5
 },
 {
 "word": "forgive",
-"start": 2.4,
-"end": 3.02
+"start": 2.5,
+"end": 2.9
 },
 {
 "word": "them,",
-"start": 3.02,
-"end": 3.42
+"start": 2.9,
+"end": 3.26
 },
 {
 "word": "for",
-"start": 3.66,
-"end": 3.86
+"start": 3.54,
+"end": 3.64
 },
 {
 "word": "they",
-"start": 3.86,
-"end": 4.02
+"start": 3.64,
+"end": 3.78
 },
 {
 "word": "do",
-"start": 4.02,
-"end": 4.16
+"start": 3.78,
+"end": 3.9
 },
 {
 "word": "not",
-"start": 4.16,
-"end": 4.38
+"start": 3.9,
+"end": 4.1
 },
 {
 "word": "know",
-"start": 4.38,
-"end": 4.68
+"start": 4.1,
+"end": 4.3
 },
 {
 "word": "what",
-"start": 4.68,
-"end": 4.96
+"start": 4.3,
+"end": 4.46
 },
 {
 "word": "they",
-"start": 4.96,
-"end": 5.18
+"start": 4.46,
+"end": 4.64
 },
 {
 "word": "do.",
-"start": 5.18,
-"end": 5.52
+"start": 4.64,
+"end": 4.9
 }
 ]

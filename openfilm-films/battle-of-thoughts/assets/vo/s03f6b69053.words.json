@@ -2,106 +2,106 @@
 {
 "word": "From",
 "start": 0.0,
-"end": 0.26
+"end": 0.2
 },
 {
 "word": "the",
-"start": 0.26,
-"end": 0.42
+"start": 0.2,
+"end": 0.36
 },
 {
 "word": "moment",
-"start": 0.42,
-"end": 0.66
+"start": 0.36,
+"end": 0.52
 },
 {
 "word": "we",
-"start": 0.66,
-"end": 0.96
+"start": 0.52,
+"end": 0.82
 },
 {
 "word": "wake",
-"start": 0.96,
-"end": 1.26
+"start": 0.82,
+"end": 1.08
 },
 {
 "word": "until",
-"start": 1.26,
-"end": 1.66
+"start": 1.08,
+"end": 1.48
 },
 {
 "word": "the",
-"start": 1.66,
-"end": 1.84
+"start": 1.48,
+"end": 1.68
 },
 {
 "word": "moment",
-"start": 1.84,
-"end": 2.1
+"start": 1.68,
+"end": 1.88
 },
 {
 "word": "we",
-"start": 2.1,
-"end": 2.34
+"start": 1.88,
+"end": 2.14
 },
 {
 "word": "sleep,",
-"start": 2.34,
-"end": 2.78
+"start": 2.14,
+"end": 2.52
 },
 {
 "word": "a",
-"start": 3.34,
-"end": 3.46
+"start": 2.94,
+"end": 3.04
 },
 {
 "word": "war",
-"start": 3.46,
-"end": 3.8
+"start": 3.04,
+"end": 3.34
 },
 {
 "word": "is",
-"start": 3.8,
-"end": 4.02
+"start": 3.34,
+"end": 3.6
 },
 {
 "word": "being",
-"start": 4.02,
-"end": 4.26
+"start": 3.6,
+"end": 3.84
 },
 {
 "word": "fought,",
-"start": 4.26,
-"end": 4.76
+"start": 3.84,
+"end": 4.3
 },
 {
 "word": "and",
-"start": 4.76,
-"end": 5.32
+"start": 4.3,
+"end": 4.64
 },
 {
 "word": "the",
-"start": 5.32,
-"end": 5.46
+"start": 4.64,
+"end": 4.78
 },
 {
 "word": "prize",
-"start": 5.46,
-"end": 5.92
+"start": 4.78,
+"end": 5.04
 },
 {
 "word": "is",
-"start": 5.92,
-"end": 6.26
+"start": 5.04,
+"end": 5.26
 },
 {
 "word": "the",
-"start": 6.26,
-"end": 6.42
+"start": 5.26,
+"end": 5.48
 },
 {
 "word": "soul.",
-"start": 6.42,
-"end": 6.76
+"start": 5.48,
+"end": 5.82
 }
 ]

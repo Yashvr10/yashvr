@@ -2,81 +2,81 @@
 {
 "word": "Against",
 "start": 0.0,
-"end": 0.32
+"end": 0.3
 },
 {
 "word": "the",
-"start": 0.32,
-"end": 0.56
+"start": 0.3,
+"end": 0.58
 },
 {
 "word": "pride",
-"start": 0.56,
-"end": 0.84
+"start": 0.58,
+"end": 0.88
 },
 {
 "word": "that",
-"start": 0.84,
-"end": 1.06
+"start": 0.88,
+"end": 1.12
 },
 {
 "word": "whispers",
-"start": 1.06,
-"end": 1.42
+"start": 1.12,
+"end": 1.44
 },
 {
 "word": "you",
-"start": 1.42,
-"end": 1.72
+"start": 1.44,
+"end": 1.74
 },
 {
 "word": "are",
-"start": 1.72,
-"end": 1.84
+"start": 1.74,
+"end": 1.9
 },
 {
 "word": "now",
-"start": 1.84,
-"end": 2.08
+"start": 1.9,
+"end": 2.14
 },
 {
 "word": "pure:",
-"start": 2.08,
-"end": 2.5
+"start": 2.14,
+"end": 2.64
 },
 {
 "word": "I,",
-"start": 3.14,
-"end": 3.48
+"start": 3.44,
+"end": 3.46
 },
 {
 "word": "who",
-"start": 3.86,
-"end": 3.94
+"start": 3.46,
+"end": 3.68
 },
 {
 "word": "am",
-"start": 3.94,
-"end": 4.22
+"start": 3.68,
+"end": 3.82
 },
 {
 "word": "but",
-"start": 4.22,
-"end": 4.52
+"start": 3.82,
+"end": 3.98
 },
 {
 "word": "dust",
-"start": 4.52,
-"end": 4.92
+"start": 3.98,
+"end": 4.3
 },
 {
 "word": "and",
-"start": 4.92,
-"end": 5.38
+"start": 4.3,
+"end": 4.54
 },
 {
 "word": "ashes.",
-"start": 5.38,
-"end": 5.76
+"start": 4.54,
+"end": 4.86
 }
 ]

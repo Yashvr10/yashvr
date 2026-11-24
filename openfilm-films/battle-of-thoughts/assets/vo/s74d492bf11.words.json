@@ -2,76 +2,76 @@
 {
 "word": "Father",
 "start": 0.0,
-"end": 0.46
+"end": 0.32
 },
 {
 "word": "Vincent",
-"start": 0.46,
-"end": 1.0
+"start": 0.32,
+"end": 0.72
 },
 {
 "word": "Lampert,",
-"start": 1.0,
-"end": 2.06
+"start": 0.72,
+"end": 1.28
 },
 {
 "word": "an",
-"start": 2.06,
-"end": 2.16
+"start": 1.58,
+"end": 1.64
 },
 {
 "word": "exorcist,",
-"start": 2.16,
-"end": 3.02
+"start": 1.64,
+"end": 2.58
 },
 {
 "word": "distinguishes",
-"start": 3.92,
-"end": 3.96
+"start": 3.44,
+"end": 3.44
 },
 {
 "word": "the",
-"start": 3.96,
-"end": 4.36
+"start": 3.44,
+"end": 3.86
 },
 {
 "word": "extraordinary",
-"start": 4.36,
-"end": 5.02
+"start": 3.86,
+"end": 4.42
 },
 {
 "word": "work",
-"start": 5.02,
-"end": 5.58
+"start": 4.42,
+"end": 4.96
 },
 {
 "word": "of",
-"start": 5.58,
-"end": 5.84
+"start": 4.96,
+"end": 5.18
 },
 {
 "word": "the",
-"start": 5.84,
-"end": 6.0
+"start": 5.18,
+"end": 5.36
 },
 {
 "word": "devil",
-"start": 6.0,
-"end": 6.24
+"start": 5.36,
+"end": 5.64
 },
 {
 "word": "from",
-"start": 6.24,
-"end": 6.66
+"start": 5.64,
+"end": 6.2
 },
 {
 "word": "the",
-"start": 6.66,
-"end": 6.86
+"start": 6.2,
+"end": 6.38
 },
 {
 "word": "ordinary.",
-"start": 6.86,
-"end": 7.38
+"start": 6.38,
+"end": 6.82
 }
 ]

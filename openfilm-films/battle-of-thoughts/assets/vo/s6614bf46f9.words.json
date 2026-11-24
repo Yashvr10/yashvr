@@ -2,61 +2,61 @@
 {
 "word": "Evagrius",
 "start": 0.0,
-"end": 0.9
+"end": 0.64
 },
 {
 "word": "adds",
-"start": 0.9,
-"end": 1.24
+"start": 0.64,
+"end": 0.94
 },
 {
 "word": "one",
-"start": 1.24,
-"end": 1.58
+"start": 0.94,
+"end": 1.28
 },
 {
 "word": "thing:",
-"start": 1.58,
-"end": 2.0
+"start": 1.28,
+"end": 1.68
 },
 {
 "word": "answer",
-"start": 2.64,
-"end": 2.9
+"start": 2.26,
+"end": 2.5
 },
 {
 "word": "the",
-"start": 2.9,
-"end": 3.1
+"start": 2.5,
+"end": 2.72
 },
 {
 "word": "thought",
-"start": 3.1,
-"end": 3.44
+"start": 2.72,
+"end": 3.02
 },
 {
 "word": "quickly,",
-"start": 3.44,
-"end": 4.0
+"start": 3.02,
+"end": 3.5
 },
 {
 "word": "before",
-"start": 4.0,
-"end": 4.66
+"start": 3.5,
+"end": 4.06
 },
 {
 "word": "it",
-"start": 4.66,
-"end": 4.86
+"start": 4.06,
+"end": 4.26
 },
 {
 "word": "settles",
-"start": 4.86,
-"end": 5.18
+"start": 4.26,
+"end": 4.56
 },
 {
 "word": "in.",
-"start": 5.18,
-"end": 5.52
+"start": 4.56,
+"end": 4.9
 }
 ]

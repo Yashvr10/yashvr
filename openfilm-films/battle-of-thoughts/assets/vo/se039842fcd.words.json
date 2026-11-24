@@ -2,66 +2,66 @@
 {
 "word": "Everyone",
 "start": 0.0,
-"end": 0.52
+"end": 0.94
 },
 {
 "word": "is",
-"start": 0.52,
-"end": 0.78
+"start": 0.94,
+"end": 1.18
 },
 {
 "word": "broken",
-"start": 0.78,
-"end": 1.16
+"start": 1.18,
+"end": 1.48
 },
 {
 "word": "somewhere,",
-"start": 1.16,
-"end": 1.74
+"start": 1.48,
+"end": 2.06
 },
 {
 "word": "and",
-"start": 1.74,
-"end": 2.4
+"start": 2.48,
+"end": 2.72
 },
 {
 "word": "what",
-"start": 2.4,
-"end": 2.56
+"start": 2.72,
+"end": 2.88
 },
 {
 "word": "matters",
-"start": 2.56,
-"end": 3.06
+"start": 2.88,
+"end": 3.24
 },
 {
 "word": "is",
-"start": 3.06,
-"end": 3.62
+"start": 3.24,
+"end": 3.48
 },
 {
 "word": "what",
-"start": 3.62,
-"end": 3.82
+"start": 3.48,
+"end": 3.66
 },
 {
 "word": "we",
-"start": 3.82,
-"end": 4.04
+"start": 3.66,
+"end": 3.84
 },
 {
 "word": "do",
-"start": 4.04,
-"end": 4.28
+"start": 3.84,
+"end": 4.02
 },
 {
 "word": "with",
-"start": 4.28,
-"end": 4.52
+"start": 4.02,
+"end": 4.18
 },
 {
 "word": "it.",
-"start": 4.52,
-"end": 4.72
+"start": 4.18,
+"end": 4.4
 }
 ]

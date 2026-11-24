@@ -2,71 +2,71 @@
 {
 "word": "Said",
 "start": 0.0,
-"end": 0.24
+"end": 0.26
 },
 {
 "word": "each",
-"start": 0.24,
-"end": 0.5
+"start": 0.26,
+"end": 0.44
 },
 {
 "word": "time",
-"start": 0.5,
-"end": 0.9
+"start": 0.44,
+"end": 0.72
 },
 {
 "word": "a",
-"start": 0.9,
-"end": 1.14
+"start": 0.72,
+"end": 0.88
 },
 {
 "word": "temptation",
-"start": 1.14,
-"end": 1.64
+"start": 0.88,
+"end": 1.32
 },
 {
 "word": "knocks,",
-"start": 1.64,
-"end": 2.22
+"start": 1.32,
+"end": 1.88
 },
 {
 "word": "it",
-"start": 2.64,
-"end": 2.88
+"start": 2.36,
+"end": 2.6
 },
 {
 "word": "makes",
-"start": 2.88,
-"end": 3.12
+"start": 2.6,
+"end": 2.82
 },
 {
 "word": "the",
-"start": 3.12,
-"end": 3.36
+"start": 2.82,
+"end": 3.02
 },
 {
 "word": "walls",
-"start": 3.36,
-"end": 3.76
+"start": 3.02,
+"end": 3.28
 },
 {
 "word": "much",
-"start": 3.76,
-"end": 4.1
+"start": 3.28,
+"end": 3.6
 },
 {
 "word": "harder",
-"start": 4.1,
-"end": 4.6
+"start": 3.6,
+"end": 4.0
 },
 {
 "word": "to",
-"start": 4.6,
-"end": 4.82
+"start": 4.0,
+"end": 4.22
 },
 {
 "word": "breach.",
-"start": 4.82,
-"end": 5.08
+"start": 4.22,
+"end": 4.5
 }
 ]

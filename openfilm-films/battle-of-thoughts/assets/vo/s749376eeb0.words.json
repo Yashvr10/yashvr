@@ -2,61 +2,61 @@
 {
 "word": "Renounce",
 "start": 0.0,
-"end": 0.64
+"end": 0.48
 },
 {
 "word": "it.",
-"start": 0.64,
-"end": 1.02
+"start": 0.48,
+"end": 0.76
 },
 {
 "word": "Say",
-"start": 1.14,
-"end": 1.38
+"start": 0.96,
+"end": 1.16
 },
 {
 "word": "instead:",
-"start": 1.38,
-"end": 1.92
+"start": 1.16,
+"end": 1.52
 },
 {
 "word": "I",
-"start": 2.4,
-"end": 2.58
+"start": 1.9,
+"end": 1.94
 },
 {
 "word": "do",
-"start": 2.58,
-"end": 2.68
+"start": 1.94,
+"end": 2.06
 },
 {
 "word": "not",
-"start": 2.68,
-"end": 2.84
+"start": 2.06,
+"end": 2.26
 },
 {
 "word": "hate",
-"start": 2.84,
-"end": 3.1
+"start": 2.26,
+"end": 2.46
 },
 {
 "word": "myself.",
-"start": 3.1,
-"end": 3.6
+"start": 2.46,
+"end": 2.9
 },
 {
 "word": "I",
-"start": 4.08,
-"end": 4.14
+"start": 3.16,
+"end": 3.18
 },
 {
 "word": "forgive",
-"start": 4.14,
-"end": 4.46
+"start": 3.18,
+"end": 3.48
 },
 {
 "word": "myself.",
-"start": 4.46,
-"end": 4.98
+"start": 3.48,
+"end": 3.94
 }
 ]

@@ -2,116 +2,116 @@
 {
 "word": "One",
 "start": 0.0,
-"end": 0.28
+"end": 0.22
 },
 {
 "word": "night,",
-"start": 0.28,
-"end": 0.64
+"start": 0.22,
+"end": 0.58
 },
 {
 "word": "Saint",
-"start": 0.64,
-"end": 1.13
+"start": 0.82,
+"end": 0.96
 },
 {
 "word": "Paisios",
-"start": 1.13,
-"end": 1.62
+"start": 0.96,
+"end": 1.54
 },
 {
 "word": "was",
-"start": 1.62,
-"end": 1.84
+"start": 1.54,
+"end": 1.8
 },
 {
 "word": "praying",
-"start": 1.84,
-"end": 2.28
+"start": 1.8,
+"end": 2.24
 },
 {
 "word": "when",
-"start": 2.28,
-"end": 2.6
+"start": 2.24,
+"end": 2.56
 },
 {
 "word": "his",
-"start": 2.6,
-"end": 2.76
+"start": 2.56,
+"end": 2.74
 },
 {
 "word": "cell",
-"start": 2.76,
+"start": 2.74,
 "end": 3.1
 },
 {
 "word": "filled",
 "start": 3.1,
-"end": 3.52
+"end": 3.48
 },
 {
 "word": "with",
-"start": 3.52,
-"end": 3.8
+"start": 3.48,
+"end": 3.74
 },
 {
 "word": "light,",
-"start": 3.8,
-"end": 4.12
+"start": 3.74,
+"end": 4.08
 },
 {
 "word": "the",
-"start": 4.66,
-"end": 4.78
+"start": 4.62,
+"end": 4.72
 },
 {
 "word": "ceiling",
-"start": 4.78,
-"end": 5.18
+"start": 4.72,
+"end": 5.04
 },
 {
 "word": "vanished,",
-"start": 5.18,
-"end": 5.74
+"start": 5.04,
+"end": 5.6
 },
 {
 "word": "and",
-"start": 6.4,
-"end": 6.48
+"start": 6.06,
+"end": 6.18
 },
 {
 "word": "a",
-"start": 6.48,
-"end": 6.58
+"start": 6.18,
+"end": 6.32
 },
 {
 "word": "face",
-"start": 6.58,
-"end": 6.94
+"start": 6.32,
+"end": 6.6
 },
 {
 "word": "like",
-"start": 6.94,
-"end": 7.28
+"start": 6.6,
+"end": 6.88
 },
 {
 "word": "Christ's",
-"start": 7.28,
-"end": 8.1
+"start": 6.88,
+"end": 7.26
 },
 {
 "word": "appeared",
-"start": 8.1,
-"end": 8.46
+"start": 7.26,
+"end": 7.78
 },
 {
 "word": "above",
-"start": 8.46,
-"end": 8.86
+"start": 7.78,
+"end": 8.1
 },
 {
 "word": "him.",
-"start": 8.86,
-"end": 9.12
+"start": 8.1,
+"end": 8.38
 }
 ]

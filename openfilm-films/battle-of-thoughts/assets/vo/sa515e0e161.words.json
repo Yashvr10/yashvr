@@ -7,101 +7,101 @@
 {
 "word": "his",
 "start": 0.18,
-"end": 0.32
+"end": 0.34
 },
 {
 "word": "life",
-"start": 0.32,
+"start": 0.34,
 "end": 0.68
 },
 {
 "word": "of",
 "start": 0.68,
-"end": 0.86
+"end": 0.9
 },
 {
 "word": "Saint",
-"start": 0.86,
-"end": 1.16
+"start": 0.9,
+"end": 1.22
 },
 {
 "word": "Anthony,",
-"start": 1.16,
-"end": 1.7
+"start": 1.22,
+"end": 1.88
 },
 {
 "word": "Athanasius",
-"start": 2.28,
-"end": 2.96
+"start": 2.58,
+"end": 3.26
 },
 {
 "word": "tells",
-"start": 2.96,
-"end": 3.32
+"start": 3.26,
+"end": 3.62
 },
 {
 "word": "how",
-"start": 3.32,
-"end": 3.7
+"start": 3.62,
+"end": 3.98
 },
 {
 "word": "the",
-"start": 3.7,
-"end": 3.9
+"start": 3.98,
+"end": 4.14
 },
 {
 "word": "devil",
-"start": 3.9,
-"end": 4.18
+"start": 4.14,
+"end": 4.42
 },
 {
 "word": "tried",
-"start": 4.18,
-"end": 4.66
+"start": 4.42,
+"end": 4.82
 },
 {
 "word": "every",
-"start": 4.66,
-"end": 5.06
+"start": 4.82,
+"end": 5.08
 },
 {
 "word": "thought",
-"start": 5.06,
-"end": 5.5
+"start": 5.08,
+"end": 5.38
 },
 {
 "word": "on",
-"start": 5.5,
-"end": 5.8
+"start": 5.38,
+"end": 5.56
 },
 {
 "word": "the",
-"start": 5.8,
-"end": 5.9
+"start": 5.56,
+"end": 5.68
 },
 {
 "word": "young",
-"start": 5.9,
-"end": 6.2
+"start": 5.68,
+"end": 5.9
 },
 {
 "word": "monk,",
-"start": 6.2,
-"end": 6.6
+"start": 5.9,
+"end": 6.26
 },
 {
 "word": "and",
-"start": 6.6,
-"end": 7.28
+"start": 6.26,
+"end": 6.66
 },
 {
 "word": "every",
-"start": 7.28,
-"end": 7.62
+"start": 6.66,
+"end": 6.9
 },
 {
 "word": "disguise.",
-"start": 7.62,
-"end": 8.18
+"start": 6.9,
+"end": 7.42
 }
 ]

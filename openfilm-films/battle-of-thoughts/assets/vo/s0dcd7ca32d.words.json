@@ -2,76 +2,76 @@
 {
 "word": "Picture",
 "start": 0.0,
-"end": 0.32
+"end": 0.3
 },
 {
 "word": "your",
-"start": 0.32,
-"end": 0.6
+"start": 0.3,
+"end": 0.54
 },
 {
 "word": "mind",
-"start": 0.6,
-"end": 0.96
+"start": 0.54,
+"end": 0.82
 },
 {
 "word": "as",
-"start": 0.96,
-"end": 1.18
+"start": 0.82,
+"end": 0.98
 },
 {
 "word": "a",
-"start": 1.18,
-"end": 1.36
+"start": 0.98,
+"end": 1.12
 },
 {
 "word": "fortress.",
-"start": 1.36,
-"end": 1.8
+"start": 1.12,
+"end": 1.5
 },
 {
 "word": "At",
-"start": 2.5,
-"end": 2.62
+"start": 2.16,
+"end": 2.26
 },
 {
 "word": "its",
-"start": 2.62,
-"end": 2.78
+"start": 2.26,
+"end": 2.42
 },
 {
 "word": "centre,",
-"start": 2.78,
-"end": 3.1
+"start": 2.42,
+"end": 3.0
 },
 {
 "word": "in",
-"start": 3.1,
-"end": 3.46
+"start": 3.0,
+"end": 3.16
 },
 {
 "word": "the",
-"start": 3.46,
-"end": 3.6
+"start": 3.16,
+"end": 3.32
 },
 {
 "word": "keep,",
-"start": 3.6,
-"end": 3.94
+"start": 3.32,
+"end": 3.58
 },
 {
 "word": "sits",
-"start": 4.28,
-"end": 4.52
+"start": 3.92,
+"end": 4.0
 },
 {
 "word": "a",
-"start": 4.52,
-"end": 4.76
+"start": 4.0,
+"end": 4.18
 },
 {
 "word": "king.",
-"start": 4.76,
-"end": 5.0
+"start": 4.18,
+"end": 4.42
 }
 ]

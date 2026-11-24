@@ -2,106 +2,106 @@
 {
 "word": "Do",
 "start": 0.0,
-"end": 0.16
+"end": 0.14
 },
 {
 "word": "not",
-"start": 0.16,
-"end": 0.36
+"start": 0.14,
+"end": 0.3
 },
 {
 "word": "worry",
-"start": 0.36,
-"end": 0.74
+"start": 0.3,
+"end": 0.52
 },
 {
 "word": "about",
-"start": 0.74,
-"end": 1.12
+"start": 0.52,
+"end": 0.72
 },
 {
 "word": "tomorrow,",
-"start": 1.12,
-"end": 1.58
+"start": 0.72,
+"end": 1.22
 },
 {
 "word": "Christ",
-"start": 1.9,
-"end": 2.22
+"start": 1.52,
+"end": 1.74
 },
 {
 "word": "said,",
-"start": 2.22,
-"end": 2.68
+"start": 1.74,
+"end": 2.24
 },
 {
 "word": "for",
-"start": 3.06,
-"end": 3.24
+"start": 2.56,
+"end": 2.82
 },
 {
 "word": "tomorrow",
-"start": 3.24,
-"end": 3.58
+"start": 2.82,
+"end": 3.1
 },
 {
 "word": "will",
-"start": 3.58,
-"end": 3.94
+"start": 3.1,
+"end": 3.48
 },
 {
 "word": "worry",
-"start": 3.94,
-"end": 4.24
+"start": 3.48,
+"end": 3.76
 },
 {
 "word": "about",
-"start": 4.24,
-"end": 4.6
+"start": 3.76,
+"end": 3.98
 },
 {
 "word": "itself.",
-"start": 4.6,
-"end": 5.08
+"start": 3.98,
+"end": 4.4
 },
 {
 "word": "Each",
-"start": 5.92,
-"end": 6.14
+"start": 5.12,
+"end": 5.26
 },
 {
 "word": "day",
-"start": 6.14,
-"end": 6.5
+"start": 5.26,
+"end": 5.62
 },
 {
 "word": "has",
-"start": 6.5,
-"end": 6.78
+"start": 5.62,
+"end": 5.9
 },
 {
 "word": "enough",
-"start": 6.78,
-"end": 7.1
+"start": 5.9,
+"end": 6.14
 },
 {
 "word": "trouble",
-"start": 7.1,
-"end": 7.52
+"start": 6.14,
+"end": 6.46
 },
 {
 "word": "of",
-"start": 7.52,
-"end": 7.74
+"start": 6.46,
+"end": 6.66
 },
 {
 "word": "its",
-"start": 7.74,
-"end": 7.9
+"start": 6.66,
+"end": 6.82
 },
 {
 "word": "own.",
-"start": 7.9,
-"end": 8.22
+"start": 6.82,
+"end": 7.12
 }
 ]

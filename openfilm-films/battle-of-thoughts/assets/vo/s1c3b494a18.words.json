@@ -2,61 +2,61 @@
 {
 "word": "Before",
 "start": 0.0,
-"end": 0.3
+"end": 0.28
 },
 {
 "word": "your",
-"start": 0.3,
-"end": 0.52
+"start": 0.28,
+"end": 0.48
 },
 {
 "word": "feet",
-"start": 0.52,
-"end": 0.8
+"start": 0.48,
+"end": 0.7
 },
 {
 "word": "touch",
-"start": 0.8,
-"end": 1.12
+"start": 0.7,
+"end": 0.96
 },
 {
 "word": "the",
-"start": 1.12,
-"end": 1.36
+"start": 0.96,
+"end": 1.22
 },
 {
 "word": "floor,",
-"start": 1.36,
-"end": 1.74
+"start": 1.22,
+"end": 1.52
 },
 {
 "word": "your",
-"start": 2.32,
-"end": 2.4
+"start": 1.82,
+"end": 1.9
 },
 {
 "word": "hand",
-"start": 2.4,
-"end": 2.8
+"start": 1.9,
+"end": 2.24
 },
 {
 "word": "has",
-"start": 2.8,
-"end": 3.06
+"start": 2.24,
+"end": 2.48
 },
 {
 "word": "found",
-"start": 3.06,
-"end": 3.32
+"start": 2.48,
+"end": 2.74
 },
 {
 "word": "the",
-"start": 3.32,
-"end": 3.5
+"start": 2.74,
+"end": 2.92
 },
 {
 "word": "phone.",
-"start": 3.5,
-"end": 3.8
+"start": 2.92,
+"end": 3.2
 }
 ]

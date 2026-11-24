@@ -2,76 +2,76 @@
 {
 "word": "You",
 "start": 0.0,
-"end": 0.22
+"end": 0.16
 },
 {
 "word": "pay",
-"start": 0.22,
-"end": 0.44
+"start": 0.16,
+"end": 0.36
 },
 {
 "word": "for",
-"start": 0.44,
-"end": 0.66
+"start": 0.36,
+"end": 0.56
 },
 {
 "word": "your",
-"start": 0.66,
-"end": 0.86
+"start": 0.56,
+"end": 0.68
 },
 {
 "word": "groceries",
-"start": 0.86,
-"end": 1.42
+"start": 0.68,
+"end": 1.18
 },
 {
 "word": "and",
-"start": 1.42,
-"end": 2.02
+"start": 1.18,
+"end": 1.62
 },
 {
 "word": "wish",
-"start": 2.02,
-"end": 2.22
+"start": 1.62,
+"end": 1.8
 },
 {
 "word": "the",
-"start": 2.22,
-"end": 2.44
+"start": 1.8,
+"end": 2.0
 },
 {
 "word": "cashier",
-"start": 2.44,
-"end": 2.98
+"start": 2.0,
+"end": 2.54
 },
 {
 "word": "a",
-"start": 2.98,
-"end": 3.16
+"start": 2.54,
+"end": 2.74
 },
 {
 "word": "good",
-"start": 3.16,
-"end": 3.34
+"start": 2.74,
+"end": 2.92
 },
 {
 "word": "day.",
-"start": 3.34,
-"end": 3.8
+"start": 2.92,
+"end": 3.32
 },
 {
 "word": "He",
-"start": 4.44,
-"end": 4.56
+"start": 4.02,
+"end": 4.18
 },
 {
 "word": "says",
-"start": 4.56,
-"end": 4.78
+"start": 4.18,
+"end": 4.46
 },
 {
 "word": "nothing.",
-"start": 4.78,
-"end": 5.08
+"start": 4.46,
+"end": 4.8
 }
 ]

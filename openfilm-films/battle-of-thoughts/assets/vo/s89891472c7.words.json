@@ -2,71 +2,71 @@
 {
 "word": "Milton's",
 "start": 0.0,
-"end": 0.7
+"end": 0.4
 },
 {
 "word": "Satan",
-"start": 0.7,
-"end": 1.02
+"start": 0.4,
+"end": 0.64
 },
 {
 "word": "says",
-"start": 1.02,
-"end": 1.42
+"start": 0.64,
+"end": 1.08
 },
 {
 "word": "it",
-"start": 1.42,
-"end": 1.62
+"start": 1.08,
+"end": 1.26
 },
 {
 "word": "best:",
-"start": 1.62,
-"end": 1.9
+"start": 1.26,
+"end": 1.64
 },
 {
 "word": "better",
-"start": 2.64,
-"end": 2.8
+"start": 2.16,
+"end": 2.42
 },
 {
 "word": "to",
-"start": 2.8,
-"end": 3.04
+"start": 2.42,
+"end": 2.64
 },
 {
 "word": "reign",
-"start": 3.04,
-"end": 3.32
+"start": 2.64,
+"end": 2.88
 },
 {
 "word": "in",
-"start": 3.32,
-"end": 3.58
+"start": 2.88,
+"end": 3.08
 },
 {
 "word": "hell",
-"start": 3.58,
-"end": 3.92
+"start": 3.08,
+"end": 3.38
 },
 {
 "word": "than",
-"start": 3.92,
-"end": 4.42
+"start": 3.38,
+"end": 3.76
 },
 {
 "word": "serve",
-"start": 4.42,
-"end": 4.86
+"start": 3.76,
+"end": 4.06
 },
 {
 "word": "in",
-"start": 4.86,
-"end": 5.18
+"start": 4.06,
+"end": 4.26
 },
 {
 "word": "heaven.",
-"start": 5.18,
-"end": 5.4
+"start": 4.26,
+"end": 4.48
 }
 ]

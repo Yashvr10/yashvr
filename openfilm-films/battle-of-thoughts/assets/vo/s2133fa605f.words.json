@@ -2,71 +2,71 @@
 {
 "word": "Aristotle",
 "start": 0.0,
-"end": 0.6
+"end": 0.54
 },
 {
 "word": "said",
-"start": 0.6,
+"start": 0.54,
 "end": 1.04
 },
 {
 "word": "that",
 "start": 1.04,
-"end": 1.32
+"end": 1.38
 },
 {
 "word": "we",
-"start": 1.32,
-"end": 1.46
+"start": 1.38,
+"end": 1.56
 },
 {
 "word": "become",
-"start": 1.46,
-"end": 1.86
+"start": 1.56,
+"end": 1.92
 },
 {
 "word": "what",
-"start": 1.86,
-"end": 2.14
+"start": 1.92,
+"end": 2.12
 },
 {
 "word": "we",
-"start": 2.14,
+"start": 2.12,
 "end": 2.32
 },
 {
 "word": "repeatedly",
 "start": 2.32,
-"end": 2.82
+"end": 2.76
 },
 {
 "word": "do.",
-"start": 2.82,
-"end": 3.36
+"start": 2.76,
+"end": 3.26
 },
 {
 "word": "Character",
-"start": 4.24,
-"end": 4.46
+"start": 3.84,
+"end": 3.94
 },
 {
 "word": "is",
-"start": 4.46,
-"end": 4.9
+"start": 3.94,
+"end": 4.38
 },
 {
 "word": "built",
-"start": 4.9,
-"end": 5.18
+"start": 4.38,
+"end": 4.62
 },
 {
 "word": "by",
-"start": 5.18,
-"end": 5.64
+"start": 4.62,
+"end": 4.9
 },
 {
 "word": "habit.",
-"start": 5.64,
-"end": 6.0
+"start": 4.9,
+"end": 5.18
 }
 ]

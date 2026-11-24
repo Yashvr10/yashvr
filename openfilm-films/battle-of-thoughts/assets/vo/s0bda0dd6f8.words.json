@@ -2,131 +2,131 @@
 {
 "word": "A",
 "start": 0.0,
-"end": 0.22
+"end": 0.2
 },
 {
 "word": "wounded",
-"start": 0.22,
-"end": 0.56
+"start": 0.2,
+"end": 0.48
 },
 {
 "word": "soldier",
-"start": 0.56,
-"end": 1.04
+"start": 0.48,
+"end": 0.86
 },
 {
 "word": "does",
-"start": 1.04,
-"end": 1.44
+"start": 0.86,
+"end": 1.24
 },
 {
 "word": "not",
-"start": 1.44,
-"end": 1.68
+"start": 1.24,
+"end": 1.56
 },
 {
 "word": "hide",
-"start": 1.68,
-"end": 2.04
+"start": 1.56,
+"end": 1.86
 },
 {
 "word": "his",
-"start": 2.04,
-"end": 2.24
+"start": 1.86,
+"end": 2.12
 },
 {
 "word": "wound",
-"start": 2.24,
-"end": 2.68
+"start": 2.12,
+"end": 2.5
 },
 {
 "word": "until",
-"start": 2.68,
-"end": 3.24
+"start": 2.5,
+"end": 2.88
 },
 {
 "word": "the",
-"start": 3.24,
-"end": 3.4
+"start": 2.88,
+"end": 3.06
 },
 {
 "word": "war",
-"start": 3.4,
-"end": 3.72
+"start": 3.06,
+"end": 3.3
 },
 {
 "word": "is",
-"start": 3.72,
-"end": 3.92
+"start": 3.3,
+"end": 3.48
 },
 {
 "word": "over.",
-"start": 3.92,
-"end": 4.32
+"start": 3.48,
+"end": 3.82
 },
 {
 "word": "He",
-"start": 5.06,
-"end": 5.2
+"start": 4.44,
+"end": 4.58
 },
 {
 "word": "goes",
-"start": 5.2,
-"end": 5.44
+"start": 4.58,
+"end": 4.76
 },
 {
 "word": "to",
-"start": 5.44,
-"end": 5.7
+"start": 4.76,
+"end": 5.02
 },
 {
 "word": "the",
-"start": 5.7,
-"end": 5.86
+"start": 5.02,
+"end": 5.14
 },
 {
 "word": "doctor,",
-"start": 5.86,
-"end": 6.26
+"start": 5.14,
+"end": 5.52
 },
 {
 "word": "has",
-"start": 6.68,
-"end": 6.86
+"start": 5.74,
+"end": 5.92
 },
 {
 "word": "it",
-"start": 6.86,
-"end": 7.06
+"start": 5.92,
+"end": 6.1
 },
 {
 "word": "bound,",
-"start": 7.06,
-"end": 7.5
+"start": 6.1,
+"end": 6.42
 },
 {
 "word": "and",
-"start": 8.04,
-"end": 8.16
+"start": 6.98,
+"end": 7.12
 },
 {
 "word": "returns",
-"start": 8.16,
-"end": 8.58
+"start": 7.12,
+"end": 7.46
 },
 {
 "word": "to",
-"start": 8.58,
-"end": 8.94
+"start": 7.46,
+"end": 7.74
 },
 {
 "word": "the",
-"start": 8.94,
-"end": 9.1
+"start": 7.74,
+"end": 7.88
 },
 {
 "word": "line.",
-"start": 9.1,
-"end": 9.42
+"start": 7.88,
+"end": 8.16
 }
 ]

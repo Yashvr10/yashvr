@@ -2,51 +2,51 @@
 {
 "word": "Two",
 "start": 0.0,
-"end": 0.2
+"end": 0.24
 },
 {
 "word": "thieves",
-"start": 0.2,
-"end": 0.7
+"start": 0.24,
+"end": 0.66
 },
 {
 "word": "hung",
-"start": 0.7,
-"end": 0.94
+"start": 0.66,
+"end": 0.92
 },
 {
 "word": "beside",
-"start": 0.94,
-"end": 1.4
+"start": 0.92,
+"end": 1.38
 },
 {
 "word": "Christ,",
-"start": 1.4,
-"end": 1.94
+"start": 1.38,
+"end": 1.86
 },
 {
 "word": "and",
-"start": 2.5,
-"end": 2.68
+"start": 1.86,
+"end": 2.36
 },
 {
 "word": "both",
-"start": 2.68,
-"end": 3.02
+"start": 2.36,
+"end": 2.58
 },
 {
 "word": "suffered",
-"start": 3.02,
-"end": 3.62
+"start": 2.58,
+"end": 3.0
 },
 {
 "word": "the",
-"start": 3.62,
-"end": 3.86
+"start": 3.0,
+"end": 3.2
 },
 {
 "word": "same.",
-"start": 3.86,
-"end": 4.16
+"start": 3.2,
+"end": 3.48
 }
 ]

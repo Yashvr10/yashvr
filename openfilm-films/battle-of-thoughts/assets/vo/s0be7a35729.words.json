@@ -2,81 +2,81 @@
 {
 "word": "In",
 "start": 0.0,
-"end": 0.18
+"end": 0.14
 },
 {
 "word": "the",
-"start": 0.18,
-"end": 0.3
+"start": 0.14,
+"end": 0.26
 },
 {
 "word": "fourth",
-"start": 0.3,
-"end": 0.6
+"start": 0.26,
+"end": 0.46
 },
 {
 "word": "century,",
-"start": 0.6,
-"end": 1.18
+"start": 0.46,
+"end": 0.94
 },
 {
 "word": "a",
-"start": 1.72,
-"end": 1.8
+"start": 1.16,
+"end": 1.16
 },
 {
 "word": "monk",
-"start": 1.8,
-"end": 2.08
+"start": 1.16,
+"end": 1.34
 },
 {
 "word": "named",
-"start": 2.08,
-"end": 2.46
+"start": 1.34,
+"end": 1.72
 },
 {
 "word": "Evagrius",
-"start": 2.46,
-"end": 3.24
+"start": 1.72,
+"end": 2.38
 },
 {
 "word": "of",
-"start": 3.24,
-"end": 3.46
+"start": 2.38,
+"end": 2.58
 },
 {
 "word": "Pontus",
-"start": 3.46,
-"end": 4.08
+"start": 2.58,
+"end": 3.22
 },
 {
 "word": "wrote",
-"start": 4.08,
-"end": 4.66
+"start": 3.22,
+"end": 3.58
 },
 {
 "word": "a",
-"start": 4.66,
-"end": 4.92
+"start": 3.58,
+"end": 3.76
 },
 {
 "word": "handbook",
-"start": 4.92,
-"end": 5.44
+"start": 3.76,
+"end": 4.22
 },
 {
 "word": "for",
-"start": 5.44,
-"end": 5.64
+"start": 4.22,
+"end": 4.46
 },
 {
 "word": "this",
-"start": 5.64,
-"end": 5.84
+"start": 4.46,
+"end": 4.66
 },
 {
 "word": "battle.",
-"start": 5.84,
-"end": 6.18
+"start": 4.66,
+"end": 5.02
 }
 ]

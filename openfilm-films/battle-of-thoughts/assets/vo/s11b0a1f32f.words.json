@@ -2,71 +2,71 @@
 {
 "word": "Then",
 "start": 0.0,
-"end": 0.3
+"end": 0.54
 },
 {
 "word": "grieve",
-"start": 0.3,
-"end": 0.82
+"start": 0.54,
+"end": 0.88
 },
 {
 "word": "as",
-"start": 0.82,
-"end": 1.02
+"start": 0.88,
+"end": 1.06
 },
 {
 "word": "much",
-"start": 1.02,
-"end": 1.2
+"start": 1.06,
+"end": 1.22
 },
 {
 "word": "as",
-"start": 1.2,
-"end": 1.44
+"start": 1.22,
+"end": 1.4
 },
 {
 "word": "the",
-"start": 1.44,
-"end": 1.56
+"start": 1.4,
+"end": 1.52
 },
 {
 "word": "fault",
-"start": 1.56,
-"end": 1.88
+"start": 1.52,
+"end": 1.78
 },
 {
 "word": "deserves,",
-"start": 1.88,
-"end": 2.42
+"start": 1.78,
+"end": 2.24
 },
 {
 "word": "and",
-"start": 2.94,
-"end": 3.12
+"start": 2.24,
+"end": 2.7
 },
 {
 "word": "no",
-"start": 3.12,
-"end": 3.34
+"start": 2.7,
+"end": 2.92
 },
 {
 "word": "more,",
-"start": 3.34,
-"end": 3.68
+"start": 2.92,
+"end": 3.28
 },
 {
 "word": "and",
-"start": 4.08,
-"end": 4.22
+"start": 3.28,
+"end": 3.7
 },
 {
 "word": "move",
-"start": 4.22,
-"end": 4.42
+"start": 3.7,
+"end": 3.94
 },
 {
 "word": "on.",
-"start": 4.42,
-"end": 4.76
+"start": 3.94,
+"end": 4.26
 }
 ]

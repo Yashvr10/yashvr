@@ -2,71 +2,71 @@
 {
 "word": "You",
 "start": 0.0,
-"end": 0.24
+"end": 0.16
 },
 {
 "word": "wake",
-"start": 0.24,
-"end": 0.48
+"start": 0.16,
+"end": 0.4
 },
 {
 "word": "up",
-"start": 0.48,
-"end": 0.72
+"start": 0.4,
+"end": 0.64
 },
 {
 "word": "tired,",
-"start": 0.72,
-"end": 1.26
+"start": 0.64,
+"end": 1.14
 },
 {
 "word": "but",
-"start": 1.68,
-"end": 1.82
+"start": 1.48,
+"end": 1.66
 },
 {
 "word": "the",
-"start": 1.82,
-"end": 1.96
+"start": 1.66,
+"end": 1.82
 },
 {
 "word": "day",
-"start": 1.96,
-"end": 2.22
+"start": 1.82,
+"end": 2.02
 },
 {
 "word": "is",
-"start": 2.22,
-"end": 2.42
+"start": 2.02,
+"end": 2.18
 },
 {
 "word": "already",
-"start": 2.42,
-"end": 2.72
+"start": 2.18,
+"end": 2.48
 },
 {
 "word": "calling,",
-"start": 2.72,
-"end": 3.28
+"start": 2.48,
+"end": 2.96
 },
 {
 "word": "so",
-"start": 3.58,
-"end": 3.8
+"start": 3.24,
+"end": 3.52
 },
 {
 "word": "you",
-"start": 3.8,
-"end": 3.94
+"start": 3.52,
+"end": 3.68
 },
 {
 "word": "get",
-"start": 3.94,
-"end": 4.1
+"start": 3.68,
+"end": 3.84
 },
 {
 "word": "up.",
-"start": 4.1,
-"end": 4.36
+"start": 3.84,
+"end": 4.08
 }
 ]

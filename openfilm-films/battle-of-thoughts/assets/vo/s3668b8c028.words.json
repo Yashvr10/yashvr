@@ -2,86 +2,86 @@
 {
 "word": "So",
 "start": 0.0,
-"end": 0.24
+"end": 0.18
 },
 {
 "word": "when",
-"start": 0.24,
-"end": 0.42
+"start": 0.18,
+"end": 0.32
 },
 {
 "word": "the",
-"start": 0.42,
-"end": 0.54
+"start": 0.32,
+"end": 0.46
 },
 {
 "word": "bad",
-"start": 0.54,
-"end": 0.8
+"start": 0.46,
+"end": 0.72
 },
 {
 "word": "thought",
-"start": 0.8,
-"end": 1.14
+"start": 0.72,
+"end": 1.04
 },
 {
 "word": "comes,",
-"start": 1.14,
-"end": 1.72
+"start": 1.04,
+"end": 1.52
 },
 {
 "word": "replace",
-"start": 2.12,
-"end": 2.44
+"start": 1.66,
+"end": 1.98
 },
 {
 "word": "it:",
-"start": 2.44,
-"end": 2.8
+"start": 1.98,
+"end": 2.34
 },
 {
 "word": "the",
-"start": 3.26,
-"end": 3.38
+"start": 2.76,
+"end": 2.88
 },
 {
 "word": "poor",
-"start": 3.38,
-"end": 3.64
+"start": 2.88,
+"end": 3.1
 },
 {
 "word": "man",
-"start": 3.64,
-"end": 4.0
+"start": 3.1,
+"end": 3.46
 },
 {
 "word": "must",
-"start": 4.0,
-"end": 4.26
+"start": 3.46,
+"end": 3.66
 },
 {
 "word": "be",
-"start": 4.26,
-"end": 4.46
+"start": 3.66,
+"end": 3.86
 },
 {
 "word": "having",
-"start": 4.46,
-"end": 4.68
+"start": 3.86,
+"end": 4.1
 },
 {
 "word": "a",
-"start": 4.68,
-"end": 4.92
+"start": 4.1,
+"end": 4.32
 },
 {
 "word": "hard",
-"start": 4.92,
-"end": 5.24
+"start": 4.32,
+"end": 4.5
 },
 {
 "word": "day.",
-"start": 5.24,
-"end": 5.64
+"start": 4.5,
+"end": 4.9
 }
 ]

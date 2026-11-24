@@ -2,106 +2,106 @@
 {
 "word": "Notice",
 "start": 0.0,
-"end": 0.5
+"end": 0.24
 },
 {
 "word": "the",
-"start": 0.5,
-"end": 0.78
+"start": 0.24,
+"end": 0.48
 },
 {
 "word": "first",
-"start": 0.78,
-"end": 1.14
+"start": 0.48,
+"end": 0.66
 },
 {
 "word": "thoughts",
-"start": 1.14,
-"end": 1.54
+"start": 0.66,
+"end": 1.12
 },
 {
 "word": "too.",
-"start": 1.54,
-"end": 2.02
+"start": 1.12,
+"end": 1.52
 },
 {
 "word": "Pause,",
-"start": 2.8,
-"end": 3.24
+"start": 2.14,
+"end": 2.28
 },
 {
 "word": "pray,",
-"start": 3.32,
-"end": 3.64
+"start": 2.38,
+"end": 2.76
 },
 {
 "word": "call",
-"start": 4.1,
-"end": 4.2
+"start": 3.18,
+"end": 3.26
 },
 {
 "word": "to",
-"start": 4.2,
-"end": 4.44
+"start": 3.26,
+"end": 3.44
 },
 {
 "word": "mind",
-"start": 4.44,
-"end": 4.78
+"start": 3.44,
+"end": 3.74
 },
 {
 "word": "patience,",
-"start": 4.78,
-"end": 5.38
+"start": 3.74,
+"end": 4.26
 },
 {
 "word": "humility",
-"start": 5.94,
-"end": 6.16
+"start": 4.78,
+"end": 5.02
 },
 {
 "word": "and",
-"start": 6.16,
-"end": 6.66
+"start": 5.4,
+"end": 5.48
 },
 {
 "word": "love,",
-"start": 6.66,
-"end": 6.98
+"start": 5.48,
+"end": 5.78
 },
 {
 "word": "and",
-"start": 7.46,
-"end": 7.58
+"start": 6.08,
+"end": 6.2
 },
 {
 "word": "set",
-"start": 7.58,
-"end": 7.8
+"start": 6.2,
+"end": 6.42
 },
 {
 "word": "the",
-"start": 7.8,
-"end": 8.0
+"start": 6.42,
+"end": 6.58
 },
 {
 "word": "tone",
-"start": 8.0,
-"end": 8.3
+"start": 6.58,
+"end": 6.8
 },
 {
 "word": "of",
-"start": 8.3,
-"end": 8.54
+"start": 6.8,
+"end": 6.98
 },
 {
 "word": "the",
-"start": 8.54,
-"end": 8.68
+"start": 6.98,
+"end": 7.08
 },
 {
 "word": "day.",
-"start": 8.68,
-"end": 8.94
+"start": 7.08,
+"end": 7.34
 }
 ]

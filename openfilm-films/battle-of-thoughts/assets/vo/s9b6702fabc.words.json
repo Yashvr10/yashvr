@@ -2,126 +2,126 @@
 {
 "word": "Therefore",
 "start": 0.0,
-"end": 0.5
+"end": 0.42
 },
 {
 "word": "take",
-"start": 0.5,
-"end": 0.8
+"start": 0.42,
+"end": 0.76
 },
 {
 "word": "up",
-"start": 0.8,
-"end": 0.98
+"start": 0.76,
+"end": 0.94
 },
 {
 "word": "the",
-"start": 0.98,
-"end": 1.18
+"start": 0.94,
+"end": 1.12
 },
 {
 "word": "whole",
-"start": 1.18,
-"end": 1.48
+"start": 1.12,
+"end": 1.4
 },
 {
 "word": "armour",
-"start": 1.48,
-"end": 1.84
+"start": 1.4,
+"end": 1.7
 },
 {
 "word": "of",
-"start": 1.84,
-"end": 2.16
+"start": 1.7,
+"end": 1.94
 },
 {
 "word": "God,",
-"start": 2.16,
-"end": 2.5
+"start": 1.94,
+"end": 2.3
 },
 {
 "word": "that",
-"start": 3.02,
-"end": 3.18
+"start": 2.72,
+"end": 2.94
 },
 {
 "word": "you",
-"start": 3.18,
-"end": 3.32
+"start": 2.94,
+"end": 3.08
 },
 {
 "word": "may",
-"start": 3.32,
-"end": 3.46
+"start": 3.08,
+"end": 3.24
 },
 {
 "word": "be",
-"start": 3.46,
-"end": 3.58
+"start": 3.24,
+"end": 3.42
 },
 {
 "word": "able",
-"start": 3.58,
-"end": 3.74
+"start": 3.42,
+"end": 3.64
 },
 {
 "word": "to",
-"start": 3.74,
-"end": 3.96
+"start": 3.64,
+"end": 3.84
 },
 {
 "word": "withstand",
-"start": 3.96,
-"end": 4.48
+"start": 3.84,
+"end": 4.26
 },
 {
 "word": "in",
-"start": 4.48,
-"end": 4.86
+"start": 4.26,
+"end": 4.5
 },
 {
 "word": "the",
-"start": 4.86,
-"end": 5.0
+"start": 4.5,
+"end": 4.62
 },
 {
 "word": "evil",
-"start": 5.0,
-"end": 5.3
+"start": 4.62,
+"end": 4.88
 },
 {
 "word": "day,",
-"start": 5.3,
-"end": 5.68
+"start": 4.88,
+"end": 5.26
 },
 {
 "word": "and",
-"start": 6.22,
-"end": 6.34
+"start": 5.76,
+"end": 5.94
 },
 {
 "word": "having",
-"start": 6.34,
-"end": 6.62
+"start": 5.94,
+"end": 6.2
 },
 {
 "word": "done",
-"start": 6.62,
-"end": 6.88
+"start": 6.2,
+"end": 6.44
 },
 {
 "word": "all,",
-"start": 6.88,
-"end": 7.26
+"start": 6.44,
+"end": 6.76
 },
 {
 "word": "to",
-"start": 7.26,
-"end": 7.66
+"start": 6.76,
+"end": 7.06
 },
 {
 "word": "stand.",
-"start": 7.66,
-"end": 8.1
+"start": 7.06,
+"end": 7.46
 }
 ]

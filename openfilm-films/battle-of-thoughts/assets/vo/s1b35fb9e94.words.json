@@ -2,116 +2,116 @@
 {
 "word": "At",
 "start": 0.0,
-"end": 0.2
+"end": 0.18
 },
 {
 "word": "last",
-"start": 0.2,
+"start": 0.18,
+"end": 0.4
+},
+{
+"word": "the",
+"start": 0.4,
 "end": 0.64
 },
 {
-"word": "the",
-"start": 0.64,
-"end": 0.9
-},
-{
 "word": "spirit",
-"start": 0.9,
-"end": 1.24
+"start": 0.64,
+"end": 0.94
 },
 {
 "word": "of",
-"start": 1.24,
-"end": 1.48
+"start": 0.94,
+"end": 1.16
 },
 {
 "word": "lust",
-"start": 1.48,
-"end": 1.82
+"start": 1.16,
+"end": 1.5
 },
 {
 "word": "appeared",
-"start": 1.82,
-"end": 2.36
+"start": 1.5,
+"end": 1.96
 },
 {
 "word": "to",
-"start": 2.36,
-"end": 2.62
+"start": 1.96,
+"end": 2.24
 },
 {
 "word": "him",
-"start": 2.62,
-"end": 2.86
+"start": 2.24,
+"end": 2.48
 },
 {
 "word": "as",
-"start": 2.86,
-"end": 3.36
+"start": 2.48,
+"end": 2.68
 },
 {
 "word": "a",
-"start": 3.36,
-"end": 3.56
+"start": 2.68,
+"end": 2.9
 },
 {
 "word": "small",
-"start": 3.56,
-"end": 3.88
+"start": 2.9,
+"end": 3.22
 },
 {
 "word": "dark",
-"start": 3.88,
-"end": 4.34
+"start": 3.22,
+"end": 3.58
 },
 {
 "word": "boy,",
-"start": 4.34,
-"end": 4.88
+"start": 3.58,
+"end": 4.12
 },
 {
 "word": "boasting",
-"start": 5.62,
-"end": 5.94
+"start": 4.68,
+"end": 4.96
 },
 {
 "word": "of",
-"start": 5.94,
-"end": 6.24
+"start": 4.96,
+"end": 5.18
 },
 {
 "word": "all",
-"start": 6.24,
-"end": 6.52
+"start": 5.18,
+"end": 5.36
 },
 {
 "word": "the",
-"start": 6.52,
-"end": 6.7
+"start": 5.36,
+"end": 5.52
 },
 {
 "word": "men",
-"start": 6.7,
-"end": 6.98
+"start": 5.52,
+"end": 5.7
 },
 {
 "word": "it",
-"start": 6.98,
-"end": 7.2
+"start": 5.7,
+"end": 5.86
 },
 {
 "word": "had",
-"start": 7.2,
-"end": 7.34
+"start": 5.86,
+"end": 6.0
 },
 {
 "word": "brought",
-"start": 7.34,
-"end": 7.58
+"start": 6.0,
+"end": 6.18
 },
 {
 "word": "down.",
-"start": 7.58,
-"end": 8.04
+"start": 6.18,
+"end": 6.6
 }
 ]

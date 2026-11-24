@@ -2,71 +2,71 @@
 {
 "word": "And",
 "start": 0.0,
-"end": 0.26
+"end": 0.18
 },
 {
 "word": "for",
-"start": 0.26,
-"end": 0.38
+"start": 0.18,
+"end": 0.32
 },
 {
 "word": "those",
-"start": 0.38,
-"end": 0.64
+"start": 0.32,
+"end": 0.56
 },
 {
 "word": "who",
-"start": 0.64,
-"end": 0.88
+"start": 0.56,
+"end": 0.78
 },
 {
 "word": "still",
-"start": 0.88,
-"end": 1.16
+"start": 0.78,
+"end": 1.1
 },
 {
 "word": "believe,",
-"start": 1.16,
-"end": 1.68
+"start": 1.1,
+"end": 1.58
 },
 {
 "word": "he",
-"start": 2.2,
-"end": 2.32
+"start": 2.08,
+"end": 2.24
 },
 {
 "word": "comes",
-"start": 2.32,
-"end": 2.64
+"start": 2.24,
+"end": 2.56
 },
 {
 "word": "dressed",
-"start": 2.64,
-"end": 3.06
+"start": 2.56,
+"end": 2.84
 },
 {
 "word": "as",
-"start": 3.06,
-"end": 3.6
+"start": 2.84,
+"end": 3.16
 },
 {
 "word": "an",
-"start": 3.6,
-"end": 3.8
+"start": 3.16,
+"end": 3.36
 },
 {
 "word": "angel",
-"start": 3.8,
-"end": 4.24
+"start": 3.36,
+"end": 3.62
 },
 {
 "word": "of",
-"start": 4.24,
-"end": 4.54
+"start": 3.62,
+"end": 3.9
 },
 {
 "word": "light.",
-"start": 4.54,
-"end": 4.86
+"start": 3.9,
+"end": 4.14
 }
 ]

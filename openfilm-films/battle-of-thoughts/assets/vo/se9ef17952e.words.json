@@ -2,96 +2,96 @@
 {
 "word": "In",
 "start": 0.0,
-"end": 0.2
+"end": 0.16
 },
 {
 "word": "an",
-"start": 0.2,
-"end": 0.3
+"start": 0.16,
+"end": 0.28
 },
 {
 "word": "age",
-"start": 0.3,
-"end": 0.66
+"start": 0.28,
+"end": 0.52
 },
 {
 "word": "of",
-"start": 0.66,
-"end": 0.86
+"start": 0.52,
+"end": 0.7
 },
 {
 "word": "little",
-"start": 0.86,
-"end": 1.1
+"start": 0.7,
+"end": 0.9
 },
 {
 "word": "faith,",
-"start": 1.1,
-"end": 1.6
+"start": 0.9,
+"end": 1.38
 },
 {
 "word": "the",
-"start": 2.2,
-"end": 2.24
+"start": 1.68,
+"end": 1.72
 },
 {
 "word": "few",
-"start": 2.24,
-"end": 2.5
+"start": 1.72,
+"end": 2.0
 },
 {
 "word": "who",
-"start": 2.5,
-"end": 2.68
+"start": 2.0,
+"end": 2.2
 },
 {
 "word": "seek",
-"start": 2.68,
-"end": 3.02
+"start": 2.2,
+"end": 2.46
 },
 {
 "word": "God",
-"start": 3.02,
-"end": 3.5
+"start": 2.46,
+"end": 2.98
 },
 {
 "word": "may",
-"start": 3.5,
-"end": 3.86
+"start": 2.98,
+"end": 3.34
 },
 {
 "word": "receive",
-"start": 3.86,
-"end": 4.26
+"start": 3.34,
+"end": 3.74
 },
 {
 "word": "more",
-"start": 4.26,
-"end": 4.64
+"start": 3.74,
+"end": 4.08
 },
 {
 "word": "than",
-"start": 4.64,
-"end": 4.84
+"start": 4.08,
+"end": 4.3
 },
 {
 "word": "the",
-"start": 4.84,
-"end": 5.0
+"start": 4.3,
+"end": 4.48
 },
 {
 "word": "saints",
-"start": 5.0,
-"end": 5.24
+"start": 4.48,
+"end": 4.68
 },
 {
 "word": "ever",
-"start": 5.24,
-"end": 5.68
+"start": 4.68,
+"end": 4.96
 },
 {
 "word": "did.",
-"start": 5.68,
-"end": 6.04
+"start": 4.96,
+"end": 5.32
 }
 ]

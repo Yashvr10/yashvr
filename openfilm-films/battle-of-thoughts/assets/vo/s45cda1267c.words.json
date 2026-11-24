@@ -2,106 +2,106 @@
 {
 "word": "In",
 "start": 0.0,
-"end": 0.18
+"end": 0.54
 },
 {
 "word": "the",
-"start": 0.18,
-"end": 0.3
+"start": 0.54,
+"end": 0.64
 },
 {
 "word": "drama",
-"start": 0.3,
-"end": 0.68
+"start": 0.64,
+"end": 0.9
 },
 {
 "word": "of",
-"start": 0.68,
-"end": 1.02
+"start": 0.9,
+"end": 1.16
 },
 {
 "word": "God,",
-"start": 1.02,
-"end": 1.4
+"start": 1.16,
+"end": 1.5
 },
 {
 "word": "he",
-"start": 1.88,
-"end": 2.0
+"start": 1.72,
+"end": 1.86
 },
 {
 "word": "is",
-"start": 2.0,
-"end": 2.12
+"start": 1.86,
+"end": 2.02
 },
 {
 "word": "at",
-"start": 2.12,
-"end": 2.24
+"start": 2.02,
+"end": 2.22
 },
 {
 "word": "the",
-"start": 2.24,
+"start": 2.22,
 "end": 2.4
 },
 {
 "word": "centre,",
 "start": 2.4,
-"end": 2.78
+"end": 3.08
 },
 {
 "word": "and",
-"start": 3.4,
-"end": 3.62
+"start": 3.08,
+"end": 3.26
 },
 {
 "word": "by",
-"start": 3.62,
-"end": 3.78
+"start": 3.26,
+"end": 3.44
 },
 {
 "word": "giving",
-"start": 3.78,
-"end": 4.02
+"start": 3.44,
+"end": 3.68
 },
 {
 "word": "ourselves",
-"start": 4.02,
-"end": 4.48
+"start": 3.68,
+"end": 4.08
 },
 {
 "word": "to",
-"start": 4.48,
-"end": 4.78
+"start": 4.08,
+"end": 4.52
 },
 {
 "word": "him,",
-"start": 4.78,
-"end": 5.04
+"start": 4.52,
+"end": 4.76
 },
 {
 "word": "we",
-"start": 5.04,
-"end": 5.52
+"start": 5.0,
+"end": 5.06
 },
 {
 "word": "strangely",
-"start": 5.52,
-"end": 6.12
+"start": 5.06,
+"end": 5.44
 },
 {
 "word": "become",
-"start": 6.12,
-"end": 6.66
+"start": 5.44,
+"end": 5.88
 },
 {
 "word": "more",
-"start": 6.66,
-"end": 7.08
+"start": 5.88,
+"end": 6.24
 },
 {
 "word": "ourselves.",
-"start": 7.08,
-"end": 7.66
+"start": 6.24,
+"end": 6.84
 }
 ]

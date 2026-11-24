@@ -2,56 +2,56 @@
 {
 "word": "Courage",
 "start": 0.0,
-"end": 0.4
+"end": 0.3
 },
 {
 "word": "is",
-"start": 0.4,
-"end": 0.7
+"start": 0.3,
+"end": 0.56
 },
 {
 "word": "not",
-"start": 0.7,
-"end": 0.92
+"start": 0.56,
+"end": 0.86
 },
 {
 "word": "never",
-"start": 0.92,
-"end": 1.26
+"start": 0.86,
+"end": 1.2
 },
 {
 "word": "missing.",
-"start": 1.26,
-"end": 1.66
+"start": 1.2,
+"end": 1.58
 },
 {
 "word": "It",
-"start": 2.24,
-"end": 2.34
+"start": 2.1,
+"end": 2.18
 },
 {
 "word": "is",
-"start": 2.34,
-"end": 2.5
+"start": 2.18,
+"end": 2.32
 },
 {
 "word": "drawing",
-"start": 2.5,
-"end": 2.88
+"start": 2.32,
+"end": 2.64
 },
 {
 "word": "the",
-"start": 2.88,
-"end": 3.16
+"start": 2.64,
+"end": 2.84
 },
 {
 "word": "bow",
-"start": 3.16,
-"end": 3.44
+"start": 2.84,
+"end": 3.02
 },
 {
 "word": "again.",
-"start": 3.44,
-"end": 3.84
+"start": 3.02,
+"end": 3.38
 }
 ]

@@ -2,61 +2,61 @@
 {
 "word": "Repentance,",
 "start": 0.0,
-"end": 0.88
+"end": 0.76
 },
 {
 "word": "the",
-"start": 0.88,
-"end": 1.14
+"start": 0.82,
+"end": 0.98
 },
 {
 "word": "fathers",
-"start": 1.14,
-"end": 1.42
+"start": 0.98,
+"end": 1.2
 },
 {
 "word": "said,",
-"start": 1.42,
-"end": 1.9
+"start": 1.2,
+"end": 1.66
 },
 {
 "word": "is",
-"start": 2.16,
-"end": 2.48
+"start": 1.84,
+"end": 1.86
 },
 {
 "word": "a",
-"start": 2.48,
-"end": 2.68
+"start": 1.86,
+"end": 2.04
 },
 {
 "word": "second",
-"start": 2.68,
-"end": 2.96
+"start": 2.04,
+"end": 2.3
 },
 {
 "word": "baptism,",
-"start": 2.96,
-"end": 3.42
+"start": 2.3,
+"end": 2.76
 },
 {
 "word": "a",
-"start": 4.06,
-"end": 4.22
+"start": 3.2,
+"end": 3.34
 },
 {
 "word": "baptism",
-"start": 4.22,
-"end": 4.64
+"start": 3.34,
+"end": 3.68
 },
 {
 "word": "of",
-"start": 4.64,
-"end": 5.1
+"start": 3.68,
+"end": 4.04
 },
 {
 "word": "tears.",
-"start": 5.1,
-"end": 5.44
+"start": 4.04,
+"end": 4.36
 }
 ]

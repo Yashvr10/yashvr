@@ -2,126 +2,126 @@
 {
 "word": "A",
 "start": 0.0,
-"end": 0.16
+"end": 0.18
 },
 {
 "word": "man",
-"start": 0.16,
-"end": 0.46
+"start": 0.18,
+"end": 0.44
 },
 {
 "word": "can",
-"start": 0.46,
-"end": 0.72
+"start": 0.44,
+"end": 0.7
 },
 {
 "word": "give",
-"start": 0.72,
-"end": 0.94
+"start": 0.7,
+"end": 0.9
 },
 {
 "word": "generously",
-"start": 0.94,
-"end": 1.6
+"start": 0.9,
+"end": 1.44
 },
 {
 "word": "and",
-"start": 1.6,
-"end": 2.08
+"start": 1.44,
+"end": 1.8
 },
 {
 "word": "be",
-"start": 2.08,
-"end": 2.2
+"start": 1.8,
+"end": 1.94
 },
 {
 "word": "full",
-"start": 2.2,
-"end": 2.48
+"start": 1.94,
+"end": 2.12
 },
 {
 "word": "of",
-"start": 2.48,
-"end": 2.68
+"start": 2.12,
+"end": 2.3
 },
 {
 "word": "pride.",
-"start": 2.68,
-"end": 3.04
+"start": 2.3,
+"end": 2.68
 },
 {
 "word": "He",
-"start": 3.7,
-"end": 3.78
+"start": 3.34,
+"end": 3.42
 },
 {
 "word": "can",
-"start": 3.78,
-"end": 3.96
+"start": 3.42,
+"end": 3.58
 },
 {
 "word": "speak",
-"start": 3.96,
-"end": 4.28
+"start": 3.58,
+"end": 3.88
 },
 {
 "word": "gently",
-"start": 4.28,
-"end": 4.92
+"start": 3.88,
+"end": 4.34
 },
 {
 "word": "and",
-"start": 4.92,
-"end": 5.36
+"start": 4.34,
+"end": 4.6
 },
 {
 "word": "hate.",
-"start": 5.36,
-"end": 5.72
+"start": 4.6,
+"end": 4.86
 },
 {
 "word": "He",
-"start": 6.34,
-"end": 6.44
+"start": 5.44,
+"end": 5.54
 },
 {
 "word": "can",
-"start": 6.44,
-"end": 6.62
+"start": 5.54,
+"end": 5.7
 },
 {
 "word": "seem",
-"start": 6.62,
-"end": 6.84
+"start": 5.7,
+"end": 5.92
 },
 {
 "word": "caring",
-"start": 6.84,
-"end": 7.42
+"start": 5.92,
+"end": 6.4
 },
 {
 "word": "and",
-"start": 7.42,
-"end": 7.7
+"start": 6.4,
+"end": 6.74
 },
 {
 "word": "be",
-"start": 7.7,
-"end": 7.82
+"start": 6.74,
+"end": 6.9
 },
 {
 "word": "driven",
-"start": 7.82,
-"end": 8.1
+"start": 6.9,
+"end": 7.12
 },
 {
 "word": "by",
-"start": 8.1,
-"end": 8.44
+"start": 7.12,
+"end": 7.4
 },
 {
 "word": "lust.",
-"start": 8.44,
-"end": 8.74
+"start": 7.4,
+"end": 7.66
 }
 ]

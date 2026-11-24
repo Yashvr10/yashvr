@@ -2,71 +2,71 @@
 {
 "word": "Impatience",
 "start": 0.0,
-"end": 0.88
+"end": 0.8
 },
 {
 "word": "turns",
-"start": 0.88,
-"end": 1.22
+"start": 0.8,
+"end": 1.08
 },
 {
 "word": "into",
-"start": 1.22,
-"end": 1.68
+"start": 1.08,
+"end": 1.44
 },
 {
 "word": "anger,",
-"start": 1.68,
-"end": 2.1
+"start": 1.44,
+"end": 1.84
 },
 {
 "word": "and",
-"start": 2.58,
-"end": 2.76
+"start": 2.02,
+"end": 2.52
 },
 {
 "word": "under",
-"start": 2.76,
-"end": 2.98
+"start": 2.52,
+"end": 2.78
 },
 {
 "word": "your",
-"start": 2.98,
-"end": 3.18
+"start": 2.78,
+"end": 2.98
 },
 {
 "word": "breath",
-"start": 3.18,
-"end": 3.56
+"start": 2.98,
+"end": 3.26
 },
 {
 "word": "you",
-"start": 3.56,
-"end": 3.88
+"start": 3.26,
+"end": 3.56
 },
 {
 "word": "curse",
-"start": 3.88,
-"end": 4.16
+"start": 3.56,
+"end": 3.86
 },
 {
 "word": "the",
-"start": 4.16,
-"end": 4.4
+"start": 3.86,
+"end": 4.12
 },
 {
 "word": "strangers",
-"start": 4.4,
-"end": 4.9
+"start": 4.12,
+"end": 4.58
 },
 {
 "word": "around",
-"start": 4.9,
-"end": 5.46
+"start": 4.58,
+"end": 5.08
 },
 {
 "word": "you.",
-"start": 5.46,
-"end": 5.76
+"start": 5.08,
+"end": 5.36
 }
 ]

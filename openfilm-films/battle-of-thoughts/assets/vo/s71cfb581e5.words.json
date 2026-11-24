@@ -2,56 +2,56 @@
 {
 "word": "You",
 "start": 0.0,
-"end": 0.26
+"end": 0.22
 },
 {
 "word": "eat",
-"start": 0.26,
-"end": 0.52
+"start": 0.22,
+"end": 0.4
 },
 {
 "word": "too",
-"start": 0.52,
-"end": 0.84
+"start": 0.4,
+"end": 0.62
 },
 {
 "word": "much,",
-"start": 0.84,
-"end": 1.32
+"start": 0.62,
+"end": 1.04
 },
 {
 "word": "though",
-"start": 1.66,
-"end": 1.78
+"start": 1.42,
+"end": 1.58
 },
 {
 "word": "you",
-"start": 1.78,
-"end": 1.96
+"start": 1.58,
+"end": 1.76
 },
 {
 "word": "promised",
-"start": 1.96,
-"end": 2.3
+"start": 1.76,
+"end": 2.14
 },
 {
 "word": "yourself",
-"start": 2.3,
-"end": 2.84
+"start": 2.14,
+"end": 2.66
 },
 {
 "word": "you",
-"start": 2.84,
-"end": 3.1
+"start": 2.66,
+"end": 2.88
 },
 {
 "word": "would",
-"start": 3.1,
-"end": 3.26
+"start": 2.88,
+"end": 3.0
 },
 {
 "word": "not.",
-"start": 3.26,
-"end": 3.52
+"start": 3.0,
+"end": 3.26
 }
 ]

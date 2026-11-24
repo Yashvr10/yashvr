@@ -2,111 +2,111 @@
 {
 "word": "The",
 "start": 0.0,
-"end": 0.22
+"end": 0.16
 },
 {
 "word": "news",
-"start": 0.22,
-"end": 0.52
+"start": 0.16,
+"end": 0.42
 },
 {
 "word": "is",
-"start": 0.52,
-"end": 0.8
+"start": 0.42,
+"end": 0.66
 },
 {
 "word": "full",
-"start": 0.8,
-"end": 1.06
+"start": 0.66,
+"end": 0.92
 },
 {
 "word": "of",
-"start": 1.06,
-"end": 1.24
+"start": 0.92,
+"end": 1.04
 },
 {
 "word": "scandal.",
-"start": 1.24,
-"end": 1.72
+"start": 1.04,
+"end": 1.58
 },
 {
 "word": "You",
-"start": 2.3,
-"end": 2.48
+"start": 2.14,
+"end": 2.24
 },
 {
 "word": "feel",
-"start": 2.48,
-"end": 2.68
+"start": 2.24,
+"end": 2.5
 },
 {
 "word": "disgust,",
-"start": 2.68,
-"end": 3.3
+"start": 2.5,
+"end": 3.02
 },
 {
 "word": "and",
-"start": 3.3,
-"end": 3.96
+"start": 3.02,
+"end": 3.5
 },
 {
 "word": "then,",
-"start": 3.96,
-"end": 4.16
+"start": 3.5,
+"end": 3.7
 },
 {
 "word": "quietly,",
-"start": 4.16,
-"end": 4.8
+"start": 3.7,
+"end": 4.2
 },
 {
 "word": "a",
-"start": 4.8,
-"end": 5.08
+"start": 4.2,
+"end": 4.66
 },
 {
 "word": "little",
-"start": 5.08,
-"end": 5.3
+"start": 4.66,
+"end": 4.86
 },
 {
 "word": "pride.",
-"start": 5.3,
-"end": 5.76
+"start": 4.86,
+"end": 5.34
 },
 {
 "word": "At",
-"start": 6.44,
-"end": 6.56
+"start": 5.78,
+"end": 5.9
 },
 {
 "word": "least",
-"start": 6.56,
-"end": 6.72
+"start": 5.9,
+"end": 6.1
 },
 {
 "word": "you",
-"start": 6.72,
-"end": 6.94
+"start": 6.1,
+"end": 6.38
 },
 {
 "word": "are",
-"start": 6.94,
-"end": 7.02
+"start": 6.38,
+"end": 6.52
 },
 {
 "word": "not",
-"start": 7.02,
-"end": 7.16
+"start": 6.52,
+"end": 6.74
 },
 {
 "word": "like",
-"start": 7.16,
-"end": 7.42
+"start": 6.74,
+"end": 7.0
 },
 {
 "word": "them.",
-"start": 7.42,
-"end": 7.68
+"start": 7.0,
+"end": 7.34
 }
 ]

@@ -2,126 +2,126 @@
 {
 "word": "Imagine",
 "start": 0.0,
-"end": 0.54
+"end": 0.44
 },
 {
 "word": "each",
-"start": 0.54,
-"end": 0.9
+"start": 0.44,
+"end": 0.86
 },
 {
 "word": "dark",
-"start": 0.9,
-"end": 1.38
+"start": 0.86,
+"end": 1.26
 },
 {
 "word": "thought",
-"start": 1.38,
-"end": 1.66
+"start": 1.26,
+"end": 1.6
 },
 {
 "word": "as",
-"start": 1.66,
-"end": 1.84
+"start": 1.6,
+"end": 1.86
 },
 {
 "word": "smoke",
-"start": 1.84,
-"end": 2.24
+"start": 1.86,
+"end": 2.2
 },
 {
 "word": "in",
-"start": 2.24,
-"end": 2.56
+"start": 2.2,
+"end": 2.48
 },
 {
 "word": "a",
-"start": 2.56,
-"end": 2.82
+"start": 2.48,
+"end": 2.62
 },
 {
 "word": "closed",
-"start": 2.82,
-"end": 3.1
+"start": 2.62,
+"end": 2.88
 },
 {
 "word": "room.",
-"start": 3.1,
-"end": 3.58
+"start": 2.88,
+"end": 3.32
 },
 {
 "word": "Stay",
-"start": 4.4,
-"end": 4.64
+"start": 4.0,
+"end": 4.18
 },
 {
 "word": "with",
-"start": 4.64,
-"end": 4.88
+"start": 4.18,
+"end": 4.4
 },
 {
 "word": "them,",
-"start": 4.88,
-"end": 5.16
+"start": 4.4,
+"end": 4.68
 },
 {
 "word": "and",
-"start": 5.36,
-"end": 5.68
+"start": 4.68,
+"end": 4.98
 },
 {
 "word": "the",
-"start": 5.68,
-"end": 5.8
+"start": 4.98,
+"end": 5.1
 },
 {
 "word": "smoke",
-"start": 5.8,
-"end": 6.2
+"start": 5.1,
+"end": 5.36
 },
 {
 "word": "thickens",
-"start": 6.2,
-"end": 6.92
+"start": 5.36,
+"end": 5.98
 },
 {
 "word": "until",
-"start": 6.92,
-"end": 7.52
+"start": 5.98,
+"end": 6.36
 },
 {
 "word": "you",
-"start": 7.52,
-"end": 7.68
+"start": 6.36,
+"end": 6.52
 },
 {
 "word": "can",
-"start": 7.68,
-"end": 7.84
+"start": 6.52,
+"end": 6.64
 },
 {
 "word": "no",
-"start": 7.84,
-"end": 8.04
+"start": 6.64,
+"end": 6.82
 },
 {
 "word": "longer",
-"start": 8.04,
-"end": 8.32
+"start": 6.82,
+"end": 7.06
 },
 {
 "word": "see",
-"start": 8.32,
-"end": 8.64
+"start": 7.06,
+"end": 7.38
 },
 {
 "word": "the",
-"start": 8.64,
-"end": 8.82
+"start": 7.38,
+"end": 7.54
 },
 {
 "word": "door.",
-"start": 8.82,
-"end": 9.08
+"start": 7.54,
+"end": 7.8
 }
 ]

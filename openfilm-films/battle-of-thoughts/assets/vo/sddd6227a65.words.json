@@ -2,111 +2,111 @@
 {
 "word": "Confession",
 "start": 0.0,
-"end": 0.7
+"end": 0.48
 },
 {
 "word": "takes",
-"start": 0.7,
-"end": 1.12
+"start": 0.48,
+"end": 0.76
 },
 {
 "word": "away",
-"start": 1.12,
-"end": 1.58
+"start": 0.76,
+"end": 1.16
 },
 {
 "word": "the",
-"start": 1.58,
-"end": 1.9
+"start": 1.16,
+"end": 1.52
 },
 {
 "word": "enemy's",
-"start": 1.9,
-"end": 2.44
+"start": 1.52,
+"end": 1.96
 },
 {
 "word": "leverage.",
-"start": 2.44,
-"end": 2.88
+"start": 1.96,
+"end": 2.36
 },
 {
 "word": "What",
-"start": 3.6,
-"end": 3.74
+"start": 3.26,
+"end": 3.3
 },
 {
 "word": "is",
-"start": 3.74,
-"end": 3.92
+"start": 3.3,
+"end": 3.48
 },
 {
 "word": "brought",
-"start": 3.92,
-"end": 4.24
+"start": 3.48,
+"end": 3.76
 },
 {
 "word": "into",
-"start": 4.24,
-"end": 4.48
+"start": 3.76,
+"end": 4.0
 },
 {
 "word": "the",
-"start": 4.48,
-"end": 4.68
+"start": 4.0,
+"end": 4.2
 },
 {
 "word": "light",
-"start": 4.68,
-"end": 4.96
+"start": 4.2,
+"end": 4.5
 },
 {
 "word": "can",
-"start": 4.96,
-"end": 5.5
+"start": 4.5,
+"end": 5.04
 },
 {
 "word": "no",
-"start": 5.5,
-"end": 5.72
+"start": 5.04,
+"end": 5.26
 },
 {
 "word": "longer",
-"start": 5.72,
-"end": 5.98
+"start": 5.26,
+"end": 5.52
 },
 {
 "word": "be",
-"start": 5.98,
-"end": 6.22
+"start": 5.52,
+"end": 5.78
 },
 {
 "word": "used",
-"start": 6.22,
-"end": 6.52
+"start": 5.78,
+"end": 6.1
 },
 {
 "word": "against",
-"start": 6.52,
-"end": 6.84
+"start": 6.1,
+"end": 6.4
 },
 {
 "word": "us",
-"start": 6.84,
-"end": 7.2
+"start": 6.4,
+"end": 6.78
 },
 {
 "word": "in",
-"start": 7.2,
-"end": 7.46
+"start": 6.78,
+"end": 7.02
 },
 {
 "word": "the",
-"start": 7.46,
-"end": 7.6
+"start": 7.02,
+"end": 7.16
 },
 {
 "word": "dark.",
-"start": 7.6,
-"end": 7.92
+"start": 7.16,
+"end": 7.46
 }
 ]

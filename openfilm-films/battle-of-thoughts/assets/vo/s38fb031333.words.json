@@ -22,96 +22,96 @@
 {
 "word": "is",
 "start": 1.04,
-"end": 1.16
+"end": 1.18
 },
 {
 "word": "a",
-"start": 1.16,
+"start": 1.18,
 "end": 1.32
 },
 {
 "word": "colleague",
 "start": 1.32,
-"end": 1.7
+"end": 1.66
 },
 {
 "word": "who",
-"start": 1.7,
-"end": 1.98
+"start": 1.66,
+"end": 1.9
 },
 {
 "word": "is",
-"start": 1.98,
-"end": 2.12
+"start": 1.9,
+"end": 2.06
 },
 {
 "word": "better",
-"start": 2.12,
-"end": 2.36
+"start": 2.06,
+"end": 2.34
 },
 {
 "word": "looking,",
-"start": 2.36,
-"end": 2.78
+"start": 2.34,
+"end": 2.74
 },
 {
 "word": "better",
-"start": 3.26,
-"end": 3.38
+"start": 3.22,
+"end": 3.36
 },
 {
 "word": "liked,",
-"start": 3.38,
-"end": 3.82
+"start": 3.36,
+"end": 3.76
 },
 {
 "word": "better",
-"start": 4.26,
-"end": 4.44
+"start": 4.04,
+"end": 4.14
 },
 {
 "word": "paid.",
-"start": 4.44,
-"end": 4.9
+"start": 4.14,
+"end": 4.64
 },
 {
 "word": "You",
-"start": 5.7,
-"end": 5.82
+"start": 5.34,
+"end": 5.46
 },
 {
 "word": "work",
-"start": 5.82,
-"end": 6.1
+"start": 5.46,
+"end": 5.7
 },
 {
 "word": "harder,",
-"start": 6.1,
-"end": 6.58
+"start": 5.7,
+"end": 6.12
 },
 {
 "word": "and",
-"start": 6.58,
-"end": 7.12
+"start": 6.12,
+"end": 6.44
 },
 {
 "word": "he",
-"start": 7.12,
-"end": 7.26
+"start": 6.44,
+"end": 6.6
 },
 {
 "word": "barely",
-"start": 7.26,
-"end": 7.58
+"start": 6.6,
+"end": 6.94
 },
 {
 "word": "notices",
-"start": 7.58,
-"end": 8.16
+"start": 6.94,
+"end": 7.42
 },
 {
 "word": "you.",
-"start": 8.16,
-"end": 8.5
+"start": 7.42,
+"end": 7.8
 }
 ]

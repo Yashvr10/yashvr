@@ -2,41 +2,41 @@
 {
 "word": "What",
 "start": 0.0,
-"end": 0.2
+"end": 0.16
 },
 {
 "word": "we",
-"start": 0.2,
-"end": 0.36
+"start": 0.16,
+"end": 0.32
 },
 {
 "word": "can",
-"start": 0.36,
-"end": 0.58
+"start": 0.32,
+"end": 0.5
 },
 {
 "word": "control",
-"start": 0.58,
-"end": 1.16
+"start": 0.5,
+"end": 1.04
 },
 {
 "word": "is",
-"start": 1.16,
-"end": 1.78
+"start": 1.04,
+"end": 1.44
 },
 {
 "word": "how",
-"start": 1.78,
-"end": 2.04
+"start": 1.44,
+"end": 1.68
 },
 {
 "word": "we",
-"start": 2.04,
-"end": 2.26
+"start": 1.68,
+"end": 1.86
 },
 {
 "word": "answer.",
-"start": 2.26,
-"end": 2.68
+"start": 1.86,
+"end": 2.22
 }
 ]

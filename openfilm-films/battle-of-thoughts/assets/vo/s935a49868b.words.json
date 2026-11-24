@@ -2,36 +2,36 @@
 {
 "word": "The",
 "start": 0.0,
-"end": 0.2
+"end": 0.16
 },
 {
 "word": "tempter",
-"start": 0.2,
-"end": 0.7
+"start": 0.16,
+"end": 0.48
 },
 {
 "word": "whispers:",
-"start": 0.7,
-"end": 1.18
+"start": 0.48,
+"end": 0.82
 },
 {
 "word": "do",
-"start": 1.78,
-"end": 1.9
+"start": 1.34,
+"end": 1.5
 },
 {
 "word": "whatever",
-"start": 1.9,
-"end": 2.18
+"start": 1.5,
+"end": 1.72
 },
 {
 "word": "you",
-"start": 2.18,
-"end": 2.48
+"start": 1.72,
+"end": 1.98
 },
 {
 "word": "want.",
-"start": 2.48,
-"end": 2.76
+"start": 1.98,
+"end": 2.28
 }
 ]

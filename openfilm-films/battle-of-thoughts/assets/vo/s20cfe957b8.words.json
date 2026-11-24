@@ -2,101 +2,101 @@
 {
 "word": "But",
 "start": 0.0,
-"end": 0.14
+"end": 0.16
 },
 {
 "word": "when",
-"start": 0.14,
-"end": 0.28
+"start": 0.16,
+"end": 0.38
 },
 {
 "word": "you",
-"start": 0.28,
-"end": 0.42
-},
-{
-"word": "are",
-"start": 0.42,
+"start": 0.38,
 "end": 0.58
 },
 {
-"word": "wronged,",
+"word": "are",
 "start": 0.58,
-"end": 1.18
+"end": 0.78
+},
+{
+"word": "wronged,",
+"start": 0.78,
+"end": 1.38
 },
 {
 "word": "mocked",
-"start": 1.4,
-"end": 1.64
+"start": 1.46,
+"end": 1.72
 },
 {
 "word": "or",
-"start": 1.64,
-"end": 1.96
+"start": 1.72,
+"end": 2.02
 },
 {
 "word": "despised,",
-"start": 1.96,
+"start": 2.02,
 "end": 2.52
 },
 {
 "word": "and",
-"start": 3.08,
-"end": 3.18
+"start": 3.02,
+"end": 3.14
 },
 {
 "word": "still",
-"start": 3.18,
-"end": 3.4
+"start": 3.14,
+"end": 3.42
 },
 {
 "word": "answer",
-"start": 3.4,
-"end": 3.8
+"start": 3.42,
+"end": 3.82
 },
 {
 "word": "with",
-"start": 3.8,
-"end": 4.02
+"start": 3.82,
+"end": 4.04
 },
 {
 "word": "faith,",
-"start": 4.02,
-"end": 4.4
+"start": 4.04,
+"end": 4.42
 },
 {
 "word": "hope",
-"start": 4.84,
-"end": 4.94
+"start": 4.94,
+"end": 5.08
 },
 {
 "word": "and",
-"start": 4.94,
-"end": 5.24
+"start": 5.08,
+"end": 5.28
 },
 {
 "word": "love,",
-"start": 5.24,
-"end": 5.6
+"start": 5.28,
+"end": 5.64
 },
 {
 "word": "you",
-"start": 6.16,
-"end": 6.26
+"start": 5.98,
+"end": 6.24
 },
 {
 "word": "are",
-"start": 6.26,
-"end": 6.38
+"start": 6.24,
+"end": 6.42
 },
 {
 "word": "being",
-"start": 6.38,
-"end": 6.6
+"start": 6.42,
+"end": 6.72
 },
 {
 "word": "purified.",
-"start": 6.6,
-"end": 7.22
+"start": 6.72,
+"end": 7.26
 }
 ]

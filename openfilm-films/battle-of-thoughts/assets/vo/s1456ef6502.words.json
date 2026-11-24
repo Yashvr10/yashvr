@@ -2,101 +2,101 @@
 {
 "word": "Consent",
 "start": 0.0,
-"end": 0.46
+"end": 0.38
 },
 {
 "word": "to",
-"start": 0.46,
-"end": 0.72
+"start": 0.38,
+"end": 0.66
 },
 {
 "word": "it,",
-"start": 0.72,
-"end": 0.92
+"start": 0.66,
+"end": 0.8
 },
 {
 "word": "and",
-"start": 0.92,
-"end": 1.26
+"start": 0.8,
+"end": 0.98
 },
 {
 "word": "it",
-"start": 1.26,
-"end": 1.36
+"start": 0.98,
+"end": 1.08
 },
 {
 "word": "becomes",
-"start": 1.36,
-"end": 1.7
+"start": 1.08,
+"end": 1.34
 },
 {
 "word": "a",
-"start": 1.7,
-"end": 2.0
+"start": 1.34,
+"end": 1.56
 },
 {
 "word": "contract.",
-"start": 2.0,
-"end": 2.56
+"start": 1.56,
+"end": 2.04
 },
 {
 "word": "The",
-"start": 3.24,
-"end": 3.42
+"start": 2.74,
+"end": 2.82
 },
 {
 "word": "darkness",
-"start": 3.42,
-"end": 3.88
+"start": 2.82,
+"end": 3.12
 },
 {
 "word": "has",
-"start": 3.88,
-"end": 4.24
+"start": 3.12,
+"end": 3.4
 },
 {
 "word": "no",
-"start": 4.24,
-"end": 4.5
+"start": 3.4,
+"end": 3.68
 },
 {
 "word": "strength",
-"start": 4.5,
-"end": 4.96
+"start": 3.68,
+"end": 3.98
 },
 {
 "word": "of",
-"start": 4.96,
-"end": 5.2
+"start": 3.98,
+"end": 4.18
 },
 {
 "word": "its",
-"start": 5.2,
-"end": 5.38
+"start": 4.18,
+"end": 4.34
 },
 {
 "word": "own.",
-"start": 5.38,
-"end": 5.74
+"start": 4.34,
+"end": 4.66
 },
 {
 "word": "We",
-"start": 6.24,
-"end": 6.34
+"start": 5.2,
+"end": 5.3
 },
 {
 "word": "lend",
-"start": 6.34,
-"end": 6.58
+"start": 5.3,
+"end": 5.52
 },
 {
 "word": "it",
-"start": 6.58,
-"end": 6.82
+"start": 5.52,
+"end": 5.72
 },
 {
 "word": "ours.",
-"start": 6.82,
-"end": 7.16
+"start": 5.72,
+"end": 6.02
 }
 ]

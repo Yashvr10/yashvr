@@ -2,106 +2,106 @@
 {
 "word": "Deception",
 "start": 0.0,
-"end": 0.62
+"end": 0.64
 },
 {
 "word": "first.",
-"start": 0.62,
-"end": 1.16
+"start": 0.64,
+"end": 1.04
 },
 {
 "word": "The",
-"start": 1.86,
-"end": 2.1
+"start": 1.68,
+"end": 1.82
 },
 {
 "word": "cleverest",
-"start": 2.1,
-"end": 2.62
+"start": 1.82,
+"end": 2.36
 },
 {
 "word": "trick",
-"start": 2.62,
-"end": 2.92
+"start": 2.36,
+"end": 2.68
 },
 {
 "word": "of",
-"start": 2.92,
-"end": 3.14
+"start": 2.68,
+"end": 2.88
 },
 {
 "word": "the",
-"start": 3.14,
-"end": 3.3
+"start": 2.88,
+"end": 3.02
 },
 {
 "word": "devil,",
-"start": 3.3,
-"end": 3.6
+"start": 3.02,
+"end": 3.28
 },
 {
 "word": "as",
-"start": 4.02,
-"end": 4.16
+"start": 3.62,
+"end": 3.68
 },
 {
 "word": "Baudelaire",
-"start": 4.16,
-"end": 4.76
+"start": 3.68,
+"end": 4.14
 },
 {
 "word": "put",
-"start": 4.76,
-"end": 5.06
+"start": 4.14,
+"end": 4.42
 },
 {
 "word": "it,",
-"start": 5.06,
-"end": 5.46
+"start": 4.42,
+"end": 4.68
 },
 {
 "word": "is",
-"start": 5.58,
-"end": 5.82
+"start": 4.78,
+"end": 4.94
 },
 {
 "word": "to",
-"start": 5.82,
-"end": 5.98
+"start": 4.94,
+"end": 5.12
 },
 {
 "word": "persuade",
-"start": 5.98,
-"end": 6.4
+"start": 5.12,
+"end": 5.58
 },
 {
 "word": "us",
-"start": 6.4,
-"end": 6.74
+"start": 5.58,
+"end": 6.0
 },
 {
 "word": "that",
-"start": 6.74,
-"end": 6.94
+"start": 6.0,
+"end": 6.3
 },
 {
 "word": "he",
-"start": 6.94,
-"end": 7.08
+"start": 6.3,
+"end": 6.44
 },
 {
 "word": "does",
-"start": 7.08,
-"end": 7.26
+"start": 6.44,
+"end": 6.62
 },
 {
 "word": "not",
-"start": 7.26,
-"end": 7.58
+"start": 6.62,
+"end": 6.88
 },
 {
 "word": "exist.",
-"start": 7.58,
-"end": 8.06
+"start": 6.88,
+"end": 7.3
 }
 ]

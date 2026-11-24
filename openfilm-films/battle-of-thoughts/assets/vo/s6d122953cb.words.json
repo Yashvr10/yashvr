@@ -2,86 +2,86 @@
 {
 "word": "The",
 "start": 0.0,
-"end": 0.16
+"end": 0.14
 },
 {
 "word": "old",
-"start": 0.16,
-"end": 0.42
+"start": 0.14,
+"end": 0.3
 },
 {
 "word": "word",
-"start": 0.42,
-"end": 0.72
+"start": 0.3,
+"end": 0.52
 },
 {
 "word": "for",
-"start": 0.72,
-"end": 0.96
+"start": 0.52,
+"end": 0.78
 },
 {
 "word": "sin",
-"start": 0.96,
-"end": 1.28
+"start": 0.78,
+"end": 1.1
 },
 {
 "word": "means",
-"start": 1.28,
-"end": 1.92
+"start": 1.1,
+"end": 1.5
 },
 {
 "word": "to",
-"start": 1.92,
-"end": 2.18
+"start": 1.5,
+"end": 1.72
 },
 {
 "word": "miss",
-"start": 2.18,
-"end": 2.36
+"start": 1.72,
+"end": 1.9
 },
 {
 "word": "the",
-"start": 2.36,
-"end": 2.6
+"start": 1.9,
+"end": 2.16
 },
 {
 "word": "mark,",
-"start": 2.6,
-"end": 3.0
+"start": 2.16,
+"end": 2.48
 },
 {
 "word": "like",
-"start": 3.42,
-"end": 3.7
+"start": 2.8,
+"end": 2.94
 },
 {
 "word": "an",
-"start": 3.7,
-"end": 3.86
+"start": 2.94,
+"end": 3.08
 },
 {
 "word": "archer",
-"start": 3.86,
-"end": 4.38
+"start": 3.08,
+"end": 3.46
 },
 {
 "word": "whose",
-"start": 4.38,
-"end": 4.62
+"start": 3.46,
+"end": 3.74
 },
 {
 "word": "arrow",
-"start": 4.62,
-"end": 5.0
+"start": 3.74,
+"end": 4.18
 },
 {
 "word": "falls",
-"start": 5.0,
-"end": 5.5
+"start": 4.18,
+"end": 4.64
 },
 {
 "word": "short.",
-"start": 5.5,
-"end": 6.04
+"start": 4.64,
+"end": 5.08
 }
 ]

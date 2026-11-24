@@ -2,121 +2,121 @@
 {
 "word": "Anthony",
 "start": 0.0,
-"end": 0.5
+"end": 0.32
 },
 {
 "word": "called",
-"start": 0.5,
-"end": 0.84
+"start": 0.32,
+"end": 0.68
 },
 {
 "word": "it",
-"start": 0.84,
-"end": 1.02
+"start": 0.68,
+"end": 0.8
 },
 {
 "word": "weak",
-"start": 1.02,
-"end": 1.32
+"start": 0.8,
+"end": 1.0
 },
 {
 "word": "as",
-"start": 1.32,
-"end": 1.56
+"start": 1.0,
+"end": 1.16
 },
 {
 "word": "a",
-"start": 1.56,
-"end": 1.74
+"start": 1.16,
+"end": 1.3
 },
 {
 "word": "child,",
-"start": 1.74,
-"end": 2.22
+"start": 1.3,
+"end": 1.7
 },
 {
 "word": "and",
-"start": 2.22,
-"end": 2.8
+"start": 1.7,
+"end": 2.2
 },
 {
 "word": "sang",
-"start": 2.8,
-"end": 3.12
+"start": 2.2,
+"end": 2.46
 },
 {
 "word": "a",
-"start": 3.12,
-"end": 3.32
+"start": 2.46,
+"end": 2.64
 },
 {
 "word": "psalm:",
-"start": 3.32,
-"end": 3.94
+"start": 2.64,
+"end": 3.68
 },
 {
 "word": "the",
-"start": 4.42,
-"end": 4.58
+"start": 3.68,
+"end": 3.82
 },
 {
 "word": "Lord",
-"start": 4.58,
-"end": 4.88
+"start": 3.82,
+"end": 4.0
 },
 {
 "word": "is",
-"start": 4.88,
-"end": 5.14
+"start": 4.0,
+"end": 4.2
 },
 {
 "word": "my",
-"start": 5.14,
-"end": 5.42
+"start": 4.2,
+"end": 4.42
 },
 {
 "word": "helper,",
-"start": 5.42,
-"end": 5.84
+"start": 4.42,
+"end": 4.78
 },
 {
 "word": "and",
-"start": 5.84,
-"end": 6.42
+"start": 4.78,
+"end": 5.18
 },
 {
 "word": "I",
-"start": 6.42,
-"end": 6.58
+"start": 5.18,
+"end": 5.34
 },
 {
 "word": "shall",
-"start": 6.58,
-"end": 6.76
+"start": 5.34,
+"end": 5.52
 },
 {
 "word": "look",
-"start": 6.76,
-"end": 6.98
+"start": 5.52,
+"end": 5.72
 },
 {
 "word": "down",
-"start": 6.98,
-"end": 7.32
+"start": 5.72,
+"end": 6.1
 },
 {
 "word": "on",
-"start": 7.32,
-"end": 7.52
+"start": 6.1,
+"end": 6.32
 },
 {
 "word": "my",
-"start": 7.52,
-"end": 7.74
+"start": 6.32,
+"end": 6.5
 },
 {
 "word": "enemies.",
-"start": 7.74,
-"end": 8.12
+"start": 6.5,
+"end": 6.82
 }
 ]
