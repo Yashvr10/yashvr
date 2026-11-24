@@ -114,20 +114,6 @@
       "sourceType": "github",
       "skillPath": "skills/style-sampling/SKILL.md",
       "computedHash": "afe8039e4ca219dc6e1aa4256a273f0ff15e195b902b68096a600add55d36284"
-    },
-    "voicestudio": {
-      "source": "debpalash/VoiceStudio",
-      "commit": "202e2139814897a438541c707668e6ae90c159d2",
-      "sourceType": "github",
-      "skillPath": "skills/voicestudio/SKILL.md",
-      "computedHash": "6be5d454355930839c1b2636f64199ce4087dc8e0243da74bd1fc5b90918932a"
-    },
-    "voicestudio-maintainer": {
-      "source": "debpalash/VoiceStudio",
-      "commit": "202e2139814897a438541c707668e6ae90c159d2",
-      "sourceType": "github",
-      "skillPath": "skills/voicestudio-maintainer/SKILL.md",
-      "computedHash": "b92c4f96f2c4d30fe8f2c994215d8da83e21f3a52b520404276733f8e1c27f19"
     }
   }
 }
