@@ -1,4 +1,4 @@
-// Builds film.html and captions.html for "You Were Programmed" (same look as Becoming and The Price Of Being A Man).
+// Builds film.html and captions.html for "The Art of LARPING" (same look as You Were Programmed and The Battle of Thoughts).
 //   pictures  public-domain paintings, prints and drawings (Cleveland Museum of Art, Art Institute of Chicago), one at a
 //             time, a slow push on each, short dissolves through dark between them
 //   captions  small lowercase EB Garamond words in the middle of the frame, the sentence's key word as a big script accent
@@ -17,7 +17,7 @@ const norm = (w) => w.toLowerCase().replace(/[^a-z0-9]/g, "");
 const dur = (f) => +execFileSync("ffprobe", ["-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", path.join(ROOT, f)]).toString();
 let seed = 5; const rnd = () => ((seed = (seed * 1103515245 + 12345) % 2147483648) / 2147483648);
 
-const ALIAS = {"thinker": ["thinker", "portrait", "letter"], "anatomy": ["anatomy", "body", "thinker"], "letter": ["letter", "thinker"], "forge": ["forge", "machine"], "crowd": ["crowd", "market"], "child": ["child", "love"], "hourglass": ["hourglass", "night"], "sculptor": ["sculptor", "forge"], "judge": ["judge", "crowd"], "machine": ["machine", "forge"], "ghost": ["ghost", "night", "fear"], "knight": ["knight", "athlete"], "body": ["body", "anatomy"], "fire": ["fire", "forge"], "fear": ["fear", "ghost", "night"], "love": ["love", "child"], "road": ["road", "light"], "portrait": ["portrait", "thinker"], "night": ["night", "ghost"], "athlete": ["athlete", "knight"], "mirror": ["mirror", "portrait"], "monk": ["monk", "night"], "light": ["light", "road"], "market": ["market", "crowd"]};
+const ALIAS = {"theatre": ["theatre", "portrait", "mirror"], "alexander": ["alexander", "rome", "knight"], "rome": ["rome", "alexander", "crowd"], "myth": ["myth", "light"], "builder": ["builder", "forge", "sculptor"], "thinker": ["thinker", "portrait", "letter"], "anatomy": ["anatomy", "body", "thinker"], "letter": ["letter", "thinker"], "forge": ["forge", "machine"], "crowd": ["crowd", "market"], "child": ["child", "love"], "hourglass": ["hourglass", "night"], "sculptor": ["sculptor", "forge"], "judge": ["judge", "crowd"], "machine": ["machine", "forge"], "ghost": ["ghost", "night", "fear"], "knight": ["knight", "athlete"], "body": ["body", "anatomy"], "fire": ["fire", "forge"], "fear": ["fear", "ghost", "night"], "love": ["love", "child"], "road": ["road", "light"], "portrait": ["portrait", "thinker"], "night": ["night", "ghost"], "athlete": ["athlete", "knight"], "mirror": ["mirror", "portrait"], "monk": ["monk", "night"], "light": ["light", "road"], "market": ["market", "crowd"]};
 const uses = {}; const ALL = [...new Set(Object.values(POOLS).flat())]; ALL.forEach((k) => (uses[k] = 0));
 let recent = [];
 // a cut-out is used only when its figure leaves most of a red word visible: BAND is how much of the frame's middle the
@@ -106,7 +106,7 @@ for (const s of cfg.scenes) {
   });
   t = end;
 }
-const title = "You Were Programmed";
+const title = "The Art of LARPING";
 ends.push({ at: r3(t + 0.3), end: r3(t + 4.3), text: title });
 const FILM = r3(q(t + 4.6));
 

@@ -1,7 +1,7 @@
 {
  "thinker-c1": {
   "title": "A Philosopher",
-  "artist": "Walter Gay (American, 1856\u20131937)",
+  "artist": "Walter Gay (American, 1856–1937)",
   "date": "1882",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1915.686",
@@ -9,15 +9,15 @@
  },
  "thinker-c2": {
   "title": "The Philosopher",
-  "artist": "Alphonse Legros (French, 1837\u20131911)",
-  "date": "c. 1857\u20131911",
+  "artist": "Alphonse Legros (French, 1837–1911)",
+  "date": "c. 1857–1911",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1918.87",
   "kind": "Print"
  },
  "thinker-c3": {
   "title": "The Alchymist, in Search of the Philosopher's Stone, Discovers Phosphorus, and Prays for the Successful Conclusion of his Operation, as was the Custom of the An",
-  "artist": "William Pether (British, c. 1738\u20131821)",
+  "artist": "William Pether (British, c. 1738–1821)",
   "date": "1775",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1995.2",
@@ -25,31 +25,31 @@
  },
  "thinker-c4": {
   "title": "Various Caprices:  The Philosopher Holding a Book",
-  "artist": "Giovanni Battista Tiepolo (Italian, 1696\u20131770)",
-  "date": "1735\u201350",
+  "artist": "Giovanni Battista Tiepolo (Italian, 1696–1770)",
+  "date": "1735–50",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1964.466",
   "kind": "Print"
  },
  "thinker-c5": {
   "title": "Scherzi di Fantasia:  The Philosopher",
-  "artist": "Giovanni Battista Tiepolo (Italian, 1696\u20131770)",
-  "date": "1750\u201360",
+  "artist": "Giovanni Battista Tiepolo (Italian, 1696–1770)",
+  "date": "1750–60",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1954.737",
   "kind": "Print"
  },
  "thinker-c6": {
   "title": "A Bearded Man Wearing a Hat",
-  "artist": "Rembrandt van Rijn (Dutch, 1606\u20131669)",
-  "date": "c. 1655\u201360",
+  "artist": "Rembrandt van Rijn (Dutch, 1606–1669)",
+  "date": "c. 1655–60",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1950.252",
   "kind": "Painting"
  },
  "thinker-c7": {
   "title": "The Philosopher",
-  "artist": "\u00c9douard Manet (French, 1832\u20131883)",
+  "artist": "Édouard Manet (French, 1832–1883)",
   "date": "1866",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1922.203",
@@ -57,7 +57,7 @@
  },
  "thinker-c8": {
   "title": "Roman Ruins, Villa Pamfili",
-  "artist": "Hubert Robert (French, 1733\u20131808)",
+  "artist": "Hubert Robert (French, 1733–1808)",
   "date": "1774",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1951.485",
@@ -65,7 +65,7 @@
  },
  "anatomy-c1": {
   "title": "A Sleeping Leopard",
-  "artist": "George Stubbs (British, 1724\u20131806)",
+  "artist": "George Stubbs (British, 1724–1806)",
   "date": "1791",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1980.90",
@@ -73,7 +73,7 @@
  },
  "anatomy-c2": {
   "title": "A Eunuch's Dream",
-  "artist": "Jean Lecomte du Nou\u00ff (French, 1842\u20131923)",
+  "artist": "Jean Lecomte du Nouÿ (French, 1842–1923)",
   "date": "1874",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1991.173",
@@ -81,15 +81,15 @@
  },
  "anatomy-c3": {
   "title": "Battle of the Nudes",
-  "artist": "Antonio del Pollaiuolo (Italian, 1431/32\u20131498)",
-  "date": "1470s\u201380s",
+  "artist": "Antonio del Pollaiuolo (Italian, 1431/32–1498)",
+  "date": "1470s–80s",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1967.127",
   "kind": "Print"
  },
  "anatomy-c4": {
   "title": "Saint Sebastian",
-  "artist": "Perugino (Italian, c. 1450/55\u20131523)",
+  "artist": "Perugino (Italian, c. 1450/55–1523)",
   "date": "c. 1493",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1958.411",
@@ -97,15 +97,15 @@
  },
  "anatomy-c5": {
   "title": "Seated Male Nude",
-  "artist": "Baccio Bandinelli (Italian, 1493\u20131560)",
-  "date": "c. 1516\u201320",
+  "artist": "Baccio Bandinelli (Italian, 1493–1560)",
+  "date": "c. 1516–20",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1998.6",
   "kind": "Drawing"
  },
  "anatomy-c6": {
   "title": "Return from the Horse Fair",
-  "artist": "Rosa Bonheur (French, 1822\u20131899)",
+  "artist": "Rosa Bonheur (French, 1822–1899)",
   "date": "1873",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/2008.410",
@@ -113,7 +113,7 @@
  },
  "anatomy-c7": {
   "title": "Skeletons, also known as Allegory of Death and Fame",
-  "artist": "Agostino Veneziano (Italian, 1490\u20131540)",
+  "artist": "Agostino Veneziano (Italian, 1490–1540)",
   "date": "1518",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1993.8",
@@ -121,15 +121,15 @@
  },
  "anatomy-c8": {
   "title": "Comparative Anatomy Study",
-  "artist": "Thomas Rowlandson (British, 1756\u20131827)",
-  "date": "c. 1810\u201320",
+  "artist": "Thomas Rowlandson (British, 1756–1827)",
+  "date": "c. 1810–20",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/2013.244",
   "kind": "Drawing"
  },
  "letter-c1": {
   "title": "Portrait of a Young Man",
-  "artist": "Dosso Dossi (Italian, c. 1490\u2013after 1541)",
+  "artist": "Dosso Dossi (Italian, c. 1490–after 1541)",
   "date": "c. 1530",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1916.803",
@@ -137,7 +137,7 @@
  },
  "letter-c2": {
   "title": "Hampstead Heath, Looking Toward Harrow",
-  "artist": "John Constable (British, 1776\u20131837)",
+  "artist": "John Constable (British, 1776–1837)",
   "date": "c. 1821",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1916.1027",
@@ -145,7 +145,7 @@
  },
  "letter-c3": {
   "title": "Wineglass and a Bowl of Fruit",
-  "artist": "Willem Kalf (Dutch, 1619\u20131693)",
+  "artist": "Willem Kalf (Dutch, 1619–1693)",
   "date": "1663",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1962.292",
@@ -153,7 +153,7 @@
  },
  "letter-c4": {
   "title": "Diptych with Twelve Apostles & St. Paul",
-  "artist": "Workshop or Circle of W\u00e4ld\u00e4 Maryam (Ethiopia, active mid- to late 1600s-early 17",
+  "artist": "Workshop or Circle of Wäldä Maryam (Ethiopia, active mid- to late 1600s-early 17",
   "date": "c. 1700",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/2023.4",
@@ -161,15 +161,15 @@
  },
  "letter-c5": {
   "title": "Phryne before Her Judges",
-  "artist": "Jacques-Louis David (French, 1748\u20131825)",
-  "date": "c. 1816\u201320",
+  "artist": "Jacques-Louis David (French, 1748–1825)",
+  "date": "c. 1816–20",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/2013.249",
   "kind": "Drawing"
  },
  "letter-c6": {
   "title": "An Old Man Had Come out of One of the Houses, from \"Not Honorably Discharged\"",
-  "artist": "William Leroy Jacobs (American, 1869\u20131917)",
+  "artist": "William Leroy Jacobs (American, 1869–1917)",
   "date": "1904",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1917.277",
@@ -177,7 +177,7 @@
  },
  "letter-c7": {
   "title": "Portrait of Sir Captain West of the Dutton Indiaman",
-  "artist": "John I Smart (British, 1741\u20131811)",
+  "artist": "John I Smart (British, 1741–1811)",
   "date": "1785",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1997.79",
@@ -193,7 +193,7 @@
  },
  "forge-c1": {
   "title": "The Blacksmith",
-  "artist": "Richard Earlom (British, 1743\u20131822)",
+  "artist": "Richard Earlom (British, 1743–1822)",
   "date": "1771",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1995.69",
@@ -201,7 +201,7 @@
  },
  "forge-c2": {
   "title": "The Blacksmith",
-  "artist": "Eug\u00e8ne Delacroix (French, 1798\u20131863)",
+  "artist": "Eugène Delacroix (French, 1798–1863)",
   "date": "1833",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1929.1",
@@ -233,7 +233,7 @@
  },
  "forge-c6": {
   "title": "The Blacksmith",
-  "artist": "James McNeill Whistler (American, 1834\u20131903)",
+  "artist": "James McNeill Whistler (American, 1834–1903)",
   "date": "1895",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1924.2",
@@ -241,7 +241,7 @@
  },
  "forge-c7": {
   "title": "The Flemish Blacksmith",
-  "artist": "Th\u00e9odore G\u00e9ricault (French, 1791\u20131824)",
+  "artist": "Théodore Géricault (French, 1791–1824)",
   "date": "1822",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1961.150",
@@ -249,7 +249,7 @@
  },
  "forge-c8": {
   "title": "The Blacksmith",
-  "artist": "Eug\u00e8ne Delacroix (French, 1798\u20131863)",
+  "artist": "Eugène Delacroix (French, 1798–1863)",
   "date": "1833",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1965.260",
@@ -257,7 +257,7 @@
  },
  "crowd-c1": {
   "title": "Sketch for \"Mrs. Pottles Can't Abide a Crowd\"",
-  "artist": "John Leech (British, 1817\u20131864)",
+  "artist": "John Leech (British, 1817–1864)",
   "date": "1856",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1924.1004",
@@ -265,8 +265,8 @@
  },
  "crowd-c2": {
   "title": "The Crucifixion of Saint Andrew",
-  "artist": "Caravaggio (Italian, 1571\u20131610)",
-  "date": "1606\u20137",
+  "artist": "Caravaggio (Italian, 1571–1610)",
+  "date": "1606–7",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1976.2",
   "kind": "Painting"
@@ -281,7 +281,7 @@
  },
  "crowd-c4": {
   "title": "The Continence of Scipio",
-  "artist": "Giovanni Antonio Pellegrini (Italian, 1675\u20131741)",
+  "artist": "Giovanni Antonio Pellegrini (Italian, 1675–1741)",
   "date": "c. 1710",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1968.207",
@@ -289,7 +289,7 @@
  },
  "crowd-c5": {
   "title": "The Crowd",
-  "artist": "George Bellows (American, 1882\u20131925)",
+  "artist": "George Bellows (American, 1882–1925)",
   "date": "1923",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1936.594",
@@ -297,8 +297,8 @@
  },
  "child-c1": {
   "title": "A Genoese Lady with Her Child",
-  "artist": "Anthony van Dyck (Flemish, 1599\u20131641)",
-  "date": "c. 1623\u201325",
+  "artist": "Anthony van Dyck (Flemish, 1599–1641)",
+  "date": "c. 1623–25",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1954.392",
   "kind": "Painting"
@@ -306,14 +306,14 @@
  "child-c2": {
   "title": "Virgin and Child",
   "artist": "Hans Memling (Netherlandish, 1494)",
-  "date": "c. 1470\u201380",
+  "date": "c. 1470–80",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1934.29",
   "kind": "Painting"
  },
  "child-c3": {
   "title": "Portrait of a Child (Anton Peschka Jr.)",
-  "artist": "Egon Schiele (Austrian, 1890\u20131918)",
+  "artist": "Egon Schiele (Austrian, 1890–1918)",
   "date": "1916",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1964.285",
@@ -321,7 +321,7 @@
  },
  "child-c4": {
   "title": "Portrait of Charlotte and Sarah Carteret-Hardy",
-  "artist": "Thomas Lawrence (British, 1769\u20131830)",
+  "artist": "Thomas Lawrence (British, 1769–1830)",
   "date": "1801",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1942.642",
@@ -329,7 +329,7 @@
  },
  "hourglass-c1": {
   "title": "Knight, Death, and the Devil",
-  "artist": "Albrecht D\u00fcrer (German, 1471\u20131528)",
+  "artist": "Albrecht Dürer (German, 1471–1528)",
   "date": "1513",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1965.231",
@@ -337,7 +337,7 @@
  },
  "hourglass-c2": {
   "title": "Melencolia I",
-  "artist": "Albrecht D\u00fcrer (German, 1471\u20131528)",
+  "artist": "Albrecht Dürer (German, 1471–1528)",
   "date": "1514",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1926.211",
@@ -345,7 +345,7 @@
  },
  "hourglass-c3": {
   "title": "Memento Mori, \"To This Favour\"",
-  "artist": "William Michael Harnett (American, 1848\u20131892)",
+  "artist": "William Michael Harnett (American, 1848–1892)",
   "date": "1879",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1965.235",
@@ -353,7 +353,7 @@
  },
  "hourglass-c4": {
   "title": "The Promenade",
-  "artist": "Albrecht D\u00fcrer (German, 1471\u20131528)",
+  "artist": "Albrecht Dürer (German, 1471–1528)",
   "date": "c. 1497",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1953.139",
@@ -361,22 +361,22 @@
  },
  "sculptor-c1": {
   "title": "The Genius of the Sculptor",
-  "artist": "Auguste Rodin (French, 1840\u20131917)",
-  "date": "c. 1880\u201383",
+  "artist": "Auguste Rodin (French, 1840–1917)",
+  "date": "c. 1880–83",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/2008.404",
   "kind": "Drawing"
  },
  "sculptor-c2": {
   "title": "Portrait of Jean-Baptiste Lemoyne the Younger",
-  "artist": "Elisabeth Louise Vig\u00e9e-LeBrun (French, 1755\u20131842)",
+  "artist": "Elisabeth Louise Vigée-LeBrun (French, 1755–1842)",
   "date": "1774",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/2011.49",
   "kind": "Painting"
  },
  "sculptor-c3": {
-  "title": "Portrait of a Man, said to be the Sculptor Clodion (1738\u20131814)",
+  "title": "Portrait of a Man, said to be the Sculptor Clodion (1738–1814)",
   "artist": "Unknown",
   "date": "late 1700s",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
@@ -385,7 +385,7 @@
  },
  "sculptor-c4": {
   "title": "J. Becquet, Sculptor",
-  "artist": "James McNeill Whistler (American, 1834\u20131903)",
+  "artist": "James McNeill Whistler (American, 1834–1903)",
   "date": "1859",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1922.434",
@@ -393,8 +393,8 @@
  },
  "judge-c1": {
   "title": "The Garden Court",
-  "artist": "Edward Burne-Jones (British, 1833\u20131898)",
-  "date": "1870\u201375",
+  "artist": "Edward Burne-Jones (British, 1833–1898)",
+  "date": "1870–75",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1994.197",
   "kind": "Drawing"
@@ -417,15 +417,15 @@
  },
  "judge-c4": {
   "title": "Mosaique: The Imperial Court of Napoleon III",
-  "artist": "Andr\u00e9 Adolphe-Eug\u00e8ne Disd\u00e9ri (French, 1819\u20131889)",
+  "artist": "André Adolphe-Eugène Disdéri (French, 1819–1889)",
   "date": "c. 1866",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/2019.69",
   "kind": "Photograph"
  },
  "machine-c1": {
-  "title": "Representation des Machines qui ont servi \u00e0 eslever les deux grandes pierres qui couvrent le fronton de la principale entr\u00e9e du Louvre",
-  "artist": "S\u00e9bastien Le Clerc I (French, 1637\u20131714)",
+  "title": "Representation des Machines qui ont servi à eslever les deux grandes pierres qui couvrent le fronton de la principale entrée du Louvre",
+  "artist": "Sébastien Le Clerc I (French, 1637–1714)",
   "date": "1677",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/2021.168",
@@ -433,7 +433,7 @@
  },
  "machine-c2": {
   "title": "The Hydraulic Machine",
-  "artist": "Charles Fran\u00e7ois Daubigny (French, 1817\u20131878)",
+  "artist": "Charles François Daubigny (French, 1817–1878)",
   "date": "original impression 1862, printed in 1921",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1925.576",
@@ -441,7 +441,7 @@
  },
  "machine-c3": {
   "title": "Portrait of a Woman as Saint Catherine",
-  "artist": "Pier Francesco Foschi (Italian, 1502\u20131567)",
+  "artist": "Pier Francesco Foschi (Italian, 1502–1567)",
   "date": "c. 1560",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1916.825",
@@ -449,7 +449,7 @@
  },
  "machine-c4": {
   "title": "With the Dot",
-  "artist": "Paul Klee (German, 1879\u20131940)",
+  "artist": "Paul Klee (German, 1879–1940)",
   "date": "1916",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1961.50",
@@ -457,7 +457,7 @@
  },
  "ghost-c1": {
   "title": "The Ghost Story",
-  "artist": "Walter MacEwen (American, 1860\u20131943)",
+  "artist": "Walter MacEwen (American, 1860–1943)",
   "date": "1887",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1923.416",
@@ -465,7 +465,7 @@
  },
  "ghost-c2": {
   "title": "Hamlet: Hamlet Rushes to Follow the Ghost of His Father",
-  "artist": "Eug\u00e8ne Delacroix (French, 1798\u20131863)",
+  "artist": "Eugène Delacroix (French, 1798–1863)",
   "date": "1835",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1941.215.2",
@@ -481,7 +481,7 @@
  },
  "ghost-c4": {
   "title": "Arc de Triomphe de l'Etoile, Paris",
-  "artist": "\u00c9douard Baldus (French, 1813\u20131889)",
+  "artist": "Édouard Baldus (French, 1813–1889)",
   "date": "c. 1860s",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/2022.16",
@@ -489,7 +489,7 @@
  },
  "knight-c1": {
   "title": "The Knight and  Lansquenet",
-  "artist": "Hans Wechtlin (German, 1480/85\u2013after 1526)",
+  "artist": "Hans Wechtlin (German, 1480/85–after 1526)",
   "date": "c. 1512",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1950.241",
@@ -497,7 +497,7 @@
  },
  "knight-c2": {
   "title": "The Knight Did Not Die in the Crusade",
-  "artist": "Maurice Denis (French, 1870\u20131943)",
+  "artist": "Maurice Denis (French, 1870–1943)",
   "date": "1899",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/2021.170.6",
@@ -513,15 +513,15 @@
  },
  "knight-c4": {
   "title": "The Pleasures of Hunting",
-  "artist": "Hablot Knight Browne (British, 1815\u20131882)",
-  "date": "c. 1833\u201382",
+  "artist": "Hablot Knight Browne (British, 1815–1882)",
+  "date": "c. 1833–82",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1976.124",
   "kind": "Drawing"
  },
  "body-c1": {
   "title": "Study of Hands",
-  "artist": "Jean-Auguste-Dominique Ingres (French, 1780\u20131867)",
+  "artist": "Jean-Auguste-Dominique Ingres (French, 1780–1867)",
   "date": "1842",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/2003.37",
@@ -529,7 +529,7 @@
  },
  "body-c2": {
   "title": "Study of a Man with Hands in His Pockets",
-  "artist": "Gustave Caillebotte (French, 1848\u20131894)",
+  "artist": "Gustave Caillebotte (French, 1848–1894)",
   "date": "1893",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/2020.260",
@@ -537,7 +537,7 @@
  },
  "body-c3": {
   "title": "Study of Hands (recto)",
-  "artist": "Pierre Lenfant (French, 1704\u20131787)",
+  "artist": "Pierre Lenfant (French, 1704–1787)",
   "date": "1700s",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1946.447.a",
@@ -545,7 +545,7 @@
  },
  "body-c4": {
   "title": "Studies of Hands (recto); Sketch of a Child's Head (verso)",
-  "artist": "Carletto Caliari (Italian, 1570\u20131596)",
+  "artist": "Carletto Caliari (Italian, 1570–1596)",
   "date": "c. 1586",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1929.549",
@@ -554,14 +554,14 @@
  "fire-c1": {
   "title": "Fire Screen",
   "artist": "Herter Brothers (American)",
-  "date": "c. 1878\u201380",
+  "date": "c. 1878–80",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1997.58",
   "kind": "Furniture and woodwork"
  },
  "fire-c2": {
   "title": "The Burning of the Houses of Lords and Commons, 16 October 1834",
-  "artist": "Joseph Mallord William Turner (British, 1775\u20131851)",
+  "artist": "Joseph Mallord William Turner (British, 1775–1851)",
   "date": "1835",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1942.647",
@@ -569,7 +569,7 @@
  },
  "fire-c3": {
   "title": "Elisha and Elijah's Chariot of Fire",
-  "artist": "Jan Saenredam (Dutch, 1565\u20131607)",
+  "artist": "Jan Saenredam (Dutch, 1565–1607)",
   "date": "1604",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1991.264",
@@ -577,7 +577,7 @@
  },
  "fire-c4": {
   "title": "A Woman's Work",
-  "artist": "John Sloan (American, 1871\u20131951)",
+  "artist": "John Sloan (American, 1871–1951)",
   "date": "1912",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1964.160",
@@ -585,7 +585,7 @@
  },
  "fear-c1": {
   "title": "Fear",
-  "artist": "Odilon Redon (French, 1840\u20131916)",
+  "artist": "Odilon Redon (French, 1840–1916)",
   "date": "1866",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1998.69",
@@ -593,7 +593,7 @@
  },
  "fear-c2": {
   "title": "Sketch for \"The Thought of Death alone, the Fear Destroys\"",
-  "artist": "William Blake (British, 1757\u20131827)",
+  "artist": "William Blake (British, 1757–1827)",
   "date": "c. 1795",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1932.318",
@@ -601,7 +601,7 @@
  },
  "fear-c3": {
   "title": "The Sacrifice of Isaac",
-  "artist": "Andrea del Sarto (Italian, 1486\u20131530)",
+  "artist": "Andrea del Sarto (Italian, 1486–1530)",
   "date": "c. 1527",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1937.577",
@@ -609,7 +609,7 @@
  },
  "fear-c4": {
   "title": "Church Bells Ringing, Rainy Winter Night",
-  "artist": "Charles Burchfield (American, 1893\u20131967)",
+  "artist": "Charles Burchfield (American, 1893–1967)",
   "date": "December 1917",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1949.544",
@@ -617,7 +617,7 @@
  },
  "love-c1": {
   "title": "Art Lovers",
-  "artist": "Honor\u00e9 Daumier (French, 1808\u20131879)",
+  "artist": "Honoré Daumier (French, 1808–1879)",
   "date": "c. 1863",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1927.208",
@@ -625,7 +625,7 @@
  },
  "love-c2": {
   "title": "The Lovers",
-  "artist": "Wenzel von Olm\u00fctz (Bohemian)",
+  "artist": "Wenzel von Olmütz (Bohemian)",
   "date": "c. 1490",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/2010.262",
@@ -633,7 +633,7 @@
  },
  "love-c3": {
   "title": "The Lovers",
-  "artist": "James Tissot (French, 1836\u20131902)",
+  "artist": "James Tissot (French, 1836–1902)",
   "date": "1872",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/2022.140",
@@ -641,15 +641,15 @@
  },
  "love-c4": {
   "title": "Ornament with Dance of the Lovers",
-  "artist": "Israhel van Meckenem (German, c. 1440\u20131503)",
+  "artist": "Israhel van Meckenem (German, c. 1440–1503)",
   "date": "c. 1490",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1952.532",
   "kind": "Print"
  },
  "road-c1": {
-  "title": "The Large Plane Trees (Road Menders at Saint-R\u00e9my)",
-  "artist": "Vincent van Gogh (Dutch, 1853\u20131890)",
+  "title": "The Large Plane Trees (Road Menders at Saint-Rémy)",
+  "artist": "Vincent van Gogh (Dutch, 1853–1890)",
   "date": "1889",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1947.209",
@@ -657,7 +657,7 @@
  },
  "road-c2": {
   "title": "Road to Eaux-Chaudes, Pyrenees (recto)",
-  "artist": "Farnham Maxwell Lyte (British, 1828\u20131906)",
+  "artist": "Farnham Maxwell Lyte (British, 1828–1906)",
   "date": "c. 1855",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1995.180.a",
@@ -665,15 +665,15 @@
  },
  "road-c3": {
   "title": "Road in the Forest",
-  "artist": "Eug\u00e8ne Cuvelier (French, 1837\u20131900)",
-  "date": "1860\u20131863",
+  "artist": "Eugène Cuvelier (French, 1837–1900)",
+  "date": "1860–1863",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1989.29",
   "kind": "Photograph"
  },
  "road-c4": {
   "title": "The Old Road to the Sea",
-  "artist": "William Merritt Chase (American, 1849\u20131916)",
+  "artist": "William Merritt Chase (American, 1849–1916)",
   "date": "c. 1893",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1938.333",
@@ -681,15 +681,15 @@
  },
  "portrait-c1": {
   "title": "Portrait of a Man, Possibly Girolamo Rosati",
-  "artist": "Lorenzo Lotto (Italian, 1480\u20131556)",
-  "date": "1533\u201334",
+  "artist": "Lorenzo Lotto (Italian, 1480–1556)",
+  "date": "1533–34",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1950.250",
   "kind": "Painting"
  },
  "portrait-c2": {
   "title": "Portrait of a Woman",
-  "artist": "Rembrandt van Rijn (Dutch, 1606\u20131669)",
+  "artist": "Rembrandt van Rijn (Dutch, 1606–1669)",
   "date": "1635 or earlier",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1944.90",
@@ -697,7 +697,7 @@
  },
  "portrait-c3": {
   "title": "Portrait of a Man",
-  "artist": "Gustave Caillebotte (French, 1848\u20131894)",
+  "artist": "Gustave Caillebotte (French, 1848–1894)",
   "date": "1880",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/2009.157",
@@ -705,7 +705,7 @@
  },
  "portrait-c4": {
   "title": "Portrait of a Man",
-  "artist": "Tanzio da Varallo (Italian, c. 1575/80\u20131635)",
+  "artist": "Tanzio da Varallo (Italian, c. 1575/80–1635)",
   "date": "c. 1620",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1985.143",
@@ -713,15 +713,15 @@
  },
  "night-c1": {
   "title": "Scenes of Witchcraft: Night",
-  "artist": "Salvator Rosa (Italian, 1615\u20131673)",
-  "date": "c. 1645\u201349",
+  "artist": "Salvator Rosa (Italian, 1615–1673)",
+  "date": "c. 1645–49",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1977.37.4",
   "kind": "Painting"
  },
  "night-c2": {
-  "title": "Night Caf\u00e9",
-  "artist": "Louis Marcoussis (French, born Poland, 1883\u20131941)",
+  "title": "Night Café",
+  "artist": "Louis Marcoussis (French, born Poland, 1883–1941)",
   "date": "c. 1923",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/2006.139",
@@ -729,15 +729,15 @@
  },
  "night-c3": {
   "title": "Night",
-  "artist": "Philipp Otto Runge (German, 1777\u20131810)",
-  "date": "1803\u20135",
+  "artist": "Philipp Otto Runge (German, 1777–1810)",
+  "date": "1803–5",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/2024.2.4",
   "kind": "Print"
  },
  "night-c4": {
   "title": "A Night Class",
-  "artist": "Jehan-Georges Vibert (French, 1840\u20131902)",
+  "artist": "Jehan-Georges Vibert (French, 1840–1902)",
   "date": "c. 1881",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1980.292",
@@ -745,7 +745,7 @@
  },
  "athlete-c1": {
   "title": "Indoor Athlete",
-  "artist": "George Bellows (American, 1882\u20131925)",
+  "artist": "George Bellows (American, 1882–1925)",
   "date": "1921",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1936.581",
@@ -753,7 +753,7 @@
  },
  "athlete-c2": {
   "title": "Indoor Athlete, Second Stone",
-  "artist": "George Bellows (American, 1882\u20131925)",
+  "artist": "George Bellows (American, 1882–1925)",
   "date": "1921",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1936.592",
@@ -770,7 +770,7 @@
  "athlete-c4": {
   "title": "Ruins of the Xystus [a long open portico used for athletic exercises], the central hall of the Antonine Baths [The Baths of Caracalla], from Views of Rome",
   "artist": "Giovanni Battista Piranesi",
-  "date": "1765, published 1800\u201307",
+  "date": "1765, published 1800–07",
   "license": "Public domain (CC0, Art Institute of Chicago)",
   "source": "https://www.artic.edu/artworks/64522",
   "kind": "etching"
@@ -778,7 +778,7 @@
  "mirror-c1": {
   "title": "Woman at Her Toilette",
   "artist": "Berthe Morisot",
-  "date": "1875\u201380",
+  "date": "1875–80",
   "license": "Public domain (CC0, Art Institute of Chicago)",
   "source": "https://www.artic.edu/artworks/11723",
   "kind": "painting"
@@ -794,14 +794,14 @@
  "mirror-c3": {
   "title": "The Reflection",
   "artist": "Hand B",
-  "date": "c. 1900\u201310",
+  "date": "c. 1900–10",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1924.128",
   "kind": "Drawing"
  },
  "mirror-c4": {
   "title": "Cathedral Rocks and Reflections, Yosemite",
-  "artist": "Charles Leander Weed (American, 1824\u20131903)",
+  "artist": "Charles Leander Weed (American, 1824–1903)",
   "date": "1864",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1995.78",
@@ -809,15 +809,15 @@
  },
  "monk-c1": {
   "title": "Calvary with a Carthusian Monk",
-  "artist": "Jean de Beaumetz (French, c. 1335\u20131396)",
-  "date": "1389\u201395",
+  "artist": "Jean de Beaumetz (French, c. 1335–1396)",
+  "date": "1389–95",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1964.454",
   "kind": "Painting"
  },
  "monk-c2": {
   "title": "The Crucifixion with a Carthusian Monk",
-  "artist": "Rogier van der Weyden (Flemish, c. 1399\u20131464)",
+  "artist": "Rogier van der Weyden (Flemish, c. 1399–1464)",
   "date": "1460",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1931.449",
@@ -825,7 +825,7 @@
  },
  "monk-c3": {
   "title": "Portrait of a Monk",
-  "artist": "Gerard David (Netherlandish, 1450/60\u20131523)",
+  "artist": "Gerard David (Netherlandish, 1450/60–1523)",
   "date": "early 1500s",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1942.632",
@@ -833,7 +833,7 @@
  },
  "monk-c4": {
   "title": "A Monk Preaching",
-  "artist": "Pier Francesco Mola (Italian, 1612\u20131666)",
+  "artist": "Pier Francesco Mola (Italian, 1612–1666)",
   "date": "mid 17th century?",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1962.115",
@@ -841,7 +841,7 @@
  },
  "light-c1": {
   "title": "Apollo, God of Light, Eloquence, Poetry, and the Fine Arts with Urania, Muse of Astronomy",
-  "artist": "Charles Meynier (French, 1768\u20131832)",
+  "artist": "Charles Meynier (French, 1768–1832)",
   "date": "1798",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/2003.6.3",
@@ -849,7 +849,7 @@
  },
  "light-c2": {
   "title": "Light",
-  "artist": "Odilon Redon (French, 1840\u20131916)",
+  "artist": "Odilon Redon (French, 1840–1916)",
   "date": "1893",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1926.296",
@@ -857,7 +857,7 @@
  },
  "light-c3": {
   "title": "I Saw a Flash of Light, Large and Pale",
-  "artist": "Odilon Redon (French, 1840\u20131916)",
+  "artist": "Odilon Redon (French, 1840–1916)",
   "date": "1896",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1966.413.3",
@@ -865,15 +865,15 @@
  },
  "light-c4": {
   "title": "Boy Drinking",
-  "artist": "Annibale Carracci (Italian, c. 1560\u20131609)",
-  "date": "1582\u201383",
+  "artist": "Annibale Carracci (Italian, c. 1560–1609)",
+  "date": "1582–83",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1994.4",
   "kind": "Painting"
  },
  "market-c1": {
   "title": "The Old Market, Cleveland",
-  "artist": "Frank Wilcox (American, 1887\u20131964)",
+  "artist": "Frank Wilcox (American, 1887–1964)",
   "date": "1920",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1920.279",
@@ -881,7 +881,7 @@
  },
  "market-c2": {
   "title": "Market Place, No. 2, Cleveland, Ohio",
-  "artist": "Edwin Kaufman (American, 1906\u20131939)",
+  "artist": "Edwin Kaufman (American, 1906–1939)",
   "date": "1926",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1942.904",
@@ -889,7 +889,7 @@
  },
  "market-c3": {
   "title": "Market Place, No. 1, Cleveland, Ohio",
-  "artist": "Edwin Kaufman (American, 1906\u20131939)",
+  "artist": "Edwin Kaufman (American, 1906–1939)",
   "date": "1926",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1942.903",
@@ -897,7 +897,7 @@
  },
  "market-c4": {
   "title": "The Apple Market at Landerneau",
-  "artist": "L\u00e9on Augustin Lhermitte (French, 1844\u20131925)",
+  "artist": "Léon Augustin Lhermitte (French, 1844–1925)",
   "date": "1878",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/2008.356",
@@ -905,7 +905,7 @@
  },
  "b-thinker-c1": {
   "title": "A Philosopher",
-  "artist": "Walter Gay (American, 1856\u20131937)",
+  "artist": "Walter Gay (American, 1856–1937)",
   "date": "1882",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1915.686",
@@ -913,15 +913,15 @@
  },
  "b-thinker-c2": {
   "title": "The Philosopher",
-  "artist": "Alphonse Legros (French, 1837\u20131911)",
-  "date": "c. 1857\u20131911",
+  "artist": "Alphonse Legros (French, 1837–1911)",
+  "date": "c. 1857–1911",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1918.87",
   "kind": "Print"
  },
  "b-thinker-c3": {
   "title": "The Alchymist, in Search of the Philosopher's Stone, Discovers Phosphorus, and Prays for the Successful Conclusion of his Operation, as was the Custom of the An",
-  "artist": "William Pether (British, c. 1738\u20131821)",
+  "artist": "William Pether (British, c. 1738–1821)",
   "date": "1775",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1995.2",
@@ -929,31 +929,31 @@
  },
  "b-thinker-c4": {
   "title": "Various Caprices:  The Philosopher Holding a Book",
-  "artist": "Giovanni Battista Tiepolo (Italian, 1696\u20131770)",
-  "date": "1735\u201350",
+  "artist": "Giovanni Battista Tiepolo (Italian, 1696–1770)",
+  "date": "1735–50",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1964.466",
   "kind": "Print"
  },
  "b-thinker-c5": {
   "title": "Scherzi di Fantasia:  The Philosopher",
-  "artist": "Giovanni Battista Tiepolo (Italian, 1696\u20131770)",
-  "date": "1750\u201360",
+  "artist": "Giovanni Battista Tiepolo (Italian, 1696–1770)",
+  "date": "1750–60",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1954.737",
   "kind": "Print"
  },
  "b-thinker-c6": {
   "title": "A Bearded Man Wearing a Hat",
-  "artist": "Rembrandt van Rijn (Dutch, 1606\u20131669)",
-  "date": "c. 1655\u201360",
+  "artist": "Rembrandt van Rijn (Dutch, 1606–1669)",
+  "date": "c. 1655–60",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1950.252",
   "kind": "Painting"
  },
  "b-thinker-c7": {
   "title": "The Philosopher",
-  "artist": "\u00c9douard Manet (French, 1832\u20131883)",
+  "artist": "Édouard Manet (French, 1832–1883)",
   "date": "1866",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1922.203",
@@ -969,7 +969,7 @@
  },
  "b-book-c6": {
   "title": "Reading",
-  "artist": "Berthe Morisot (French, 1841\u20131895)",
+  "artist": "Berthe Morisot (French, 1841–1895)",
   "date": "1873",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1950.89",
@@ -977,15 +977,15 @@
  },
  "b-book-c8": {
   "title": "Sibyl Reading with a Child Holding a Torch",
-  "artist": "Ugo da Carpi (Italian, c. 1479\u2013c. 1532)",
-  "date": "1518\u201327",
+  "artist": "Ugo da Carpi (Italian, c. 1479–c. 1532)",
+  "date": "1518–27",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1979.93",
   "kind": "Print"
  },
  "b-book-c9": {
   "title": "Young Woman Reading",
-  "artist": "Alexandre-Louis-Marie Charpentier (French, 1856\u20131909)",
+  "artist": "Alexandre-Louis-Marie Charpentier (French, 1856–1909)",
   "date": "1896",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1991.228",
@@ -993,15 +993,15 @@
  },
  "b-portrait-c1": {
   "title": "Portrait of a Man, Possibly Girolamo Rosati",
-  "artist": "Lorenzo Lotto (Italian, 1480\u20131556)",
-  "date": "1533\u201334",
+  "artist": "Lorenzo Lotto (Italian, 1480–1556)",
+  "date": "1533–34",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1950.250",
   "kind": "Painting"
  },
  "b-portrait-c2": {
   "title": "Portrait of a Woman",
-  "artist": "Rembrandt van Rijn (Dutch, 1606\u20131669)",
+  "artist": "Rembrandt van Rijn (Dutch, 1606–1669)",
   "date": "1635 or earlier",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1944.90",
@@ -1009,7 +1009,7 @@
  },
  "b-portrait-c3": {
   "title": "Portrait of a Man",
-  "artist": "Gustave Caillebotte (French, 1848\u20131894)",
+  "artist": "Gustave Caillebotte (French, 1848–1894)",
   "date": "1880",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/2009.157",
@@ -1017,7 +1017,7 @@
  },
  "b-portrait-c4": {
   "title": "Portrait of a Man",
-  "artist": "Tanzio da Varallo (Italian, c. 1575/80\u20131635)",
+  "artist": "Tanzio da Varallo (Italian, c. 1575/80–1635)",
   "date": "c. 1620",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1985.143",
@@ -1049,15 +1049,15 @@
  },
  "b-night-c1": {
   "title": "Scenes of Witchcraft: Night",
-  "artist": "Salvator Rosa (Italian, 1615\u20131673)",
-  "date": "c. 1645\u201349",
+  "artist": "Salvator Rosa (Italian, 1615–1673)",
+  "date": "c. 1645–49",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1977.37.4",
   "kind": "Painting"
  },
  "b-night-c5": {
   "title": "A Night Class",
-  "artist": "Jehan-Georges Vibert (French, 1840\u20131902)",
+  "artist": "Jehan-Georges Vibert (French, 1840–1902)",
   "date": "c. 1881",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1980.292",
@@ -1065,7 +1065,7 @@
  },
  "b-night-c7": {
   "title": "Monumental Sculpture in a Moonlit Park",
-  "artist": "Giuseppe Bernardino Bison (Italian, 1762\u20131844)",
+  "artist": "Giuseppe Bernardino Bison (Italian, 1762–1844)",
   "date": "c. 1842?",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1973.174",
@@ -1073,14 +1073,14 @@
  },
  "b-interior-c2": {
   "title": "Interior",
-  "artist": "Gwen John (British, 1876\u20131939)",
+  "artist": "Gwen John (British, 1876–1939)",
   "date": "1915",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1982.6",
   "kind": "Painting"
  },
  "b-interior-c5": {
-  "title": "Ch\u00e2teau Interior",
+  "title": "Château Interior",
   "artist": "V. Germain (French)",
   "date": "1834",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
@@ -1089,7 +1089,7 @@
  },
  "b-light-c2": {
   "title": "Light",
-  "artist": "Odilon Redon (French, 1840\u20131916)",
+  "artist": "Odilon Redon (French, 1840–1916)",
   "date": "1893",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1926.296",
@@ -1097,7 +1097,7 @@
  },
  "b-light-c3": {
   "title": "I Saw a Flash of Light, Large and Pale",
-  "artist": "Odilon Redon (French, 1840\u20131916)",
+  "artist": "Odilon Redon (French, 1840–1916)",
   "date": "1896",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1966.413.3",
@@ -1105,7 +1105,7 @@
  },
  "b-light-c7": {
   "title": "Yellow Light",
-  "artist": "Ralph A. Blakelock (American, 1847\u20131919)",
+  "artist": "Ralph A. Blakelock (American, 1847–1919)",
   "date": "before 1905",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1931.440",
@@ -1113,7 +1113,7 @@
  },
  "b-fog-c1": {
   "title": "The Trailing Fog",
-  "artist": "Frank Wilcox (American, 1887\u20131964)",
+  "artist": "Frank Wilcox (American, 1887–1964)",
   "date": "c. 1928",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1929.1978",
@@ -1121,7 +1121,7 @@
  },
  "b-fog-c3": {
   "title": "Parisian Service (Haviland service): Fog (no. 1)",
-  "artist": "F\u00e9lix Bracquemond (French, 1833\u20131914)",
+  "artist": "Félix Bracquemond (French, 1833–1914)",
   "date": "1875",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1922.412.1",
@@ -1137,7 +1137,7 @@
  },
  "b-light-c10": {
   "title": "Breaking Waves, September Tide",
-  "artist": "Louis Auguste Lep\u00e8re",
+  "artist": "Louis Auguste Lepère",
   "date": "1901",
   "license": "Public domain (CC0, Art Institute of Chicago)",
   "source": "https://www.artic.edu/artworks/11311",
@@ -1162,7 +1162,7 @@
  "b-light-c13": {
   "title": "Magnolias on Light Blue Velvet Cloth",
   "artist": "Martin Johnson Heade",
-  "date": "1885\u201395",
+  "date": "1885–95",
   "license": "Public domain (CC0, Art Institute of Chicago)",
   "source": "https://www.artic.edu/artworks/100829",
   "kind": "painting"
@@ -1177,7 +1177,7 @@
  },
  "b-morning-c4": {
   "title": "Morning in New England",
-  "artist": "James M. Hart (American, born Scotland, 1828\u20131901)",
+  "artist": "James M. Hart (American, born Scotland, 1828–1901)",
   "date": "1873",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1915.694",
@@ -1185,15 +1185,15 @@
  },
  "b-landscape-c2": {
   "title": "Rocky, Wooded Landscape with a Dell and Weir",
-  "artist": "Thomas Gainsborough (British, 1727\u20131788)",
-  "date": "c. 1782\u20131783",
+  "artist": "Thomas Gainsborough (British, 1727–1788)",
+  "date": "c. 1782–1783",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1984.59",
   "kind": "Painting"
  },
  "b-landscape-c3": {
   "title": "Prater Landscape",
-  "artist": "Ferdinand Georg Waldm\u00fcller (Austrian, 1793\u20131865)",
+  "artist": "Ferdinand Georg Waldmüller (Austrian, 1793–1865)",
   "date": "c. 1831",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1983.155",
@@ -1201,7 +1201,7 @@
  },
  "b-interior-c1": {
   "title": "Wood Interior",
-  "artist": "Emil Carlsen (American, born Denmark, 1848\u20131932)",
+  "artist": "Emil Carlsen (American, born Denmark, 1848–1932)",
   "date": "c. 1910",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1926.488",
@@ -1216,8 +1216,8 @@
   "kind": "etching"
  },
  "b-saint-c6": {
-  "title": "Landscape at Saint-Andr\u00e9, Near Marseilles",
-  "artist": "Paul Guigou (French, 1834\u20131871)",
+  "title": "Landscape at Saint-André, Near Marseilles",
+  "artist": "Paul Guigou (French, 1834–1871)",
   "date": "c. 1865",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1980.265",
@@ -1225,15 +1225,15 @@
  },
  "b-door-c3": {
   "title": "The Red Kerchief",
-  "artist": "Claude Monet (French, 1840\u20131926)",
-  "date": "c. 1868\u201373",
+  "artist": "Claude Monet (French, 1840–1926)",
+  "date": "c. 1868–73",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1958.39",
   "kind": "Painting"
  },
  "b-window-c3": {
   "title": "Self-Portrait Drawing at a Window",
-  "artist": "Rembrandt van Rijn (Dutch, 1606\u20131669)",
+  "artist": "Rembrandt van Rijn (Dutch, 1606–1669)",
   "date": "1648",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1934.350",
@@ -1241,7 +1241,7 @@
  },
  "b-despair-c1": {
   "title": "Hope and Despair II",
-  "artist": "Ernst Barlach (German, 1870\u20131938)",
+  "artist": "Ernst Barlach (German, 1870–1938)",
   "date": "1931",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1953.344",
@@ -1249,7 +1249,7 @@
  },
  "b-despair-c2": {
   "title": "David Playing the Harp before Saul",
-  "artist": "Lucas van Leyden (Netherlandish, 1494\u2013about 1533)",
+  "artist": "Lucas van Leyden (Netherlandish, 1494–about 1533)",
   "date": "c. 1508",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1923.774",
@@ -1257,7 +1257,7 @@
  },
  "b-despair-c5": {
   "title": "Pregnant Woman Contemplating Suicide (recto)",
-  "artist": "K\u00e4the Kollwitz (German, 1867\u20131945)",
+  "artist": "Käthe Kollwitz (German, 1867–1945)",
   "date": "c. 1926",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1962.291.a",
@@ -1265,15 +1265,15 @@
  },
  "b-despair-c8": {
   "title": "Lamentation",
-  "artist": "Hans Baldung (German, 1484/85\u20131545)",
-  "date": "c. 1515\u201317",
+  "artist": "Hans Baldung (German, 1484/85–1545)",
+  "date": "c. 1515–17",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1936.666",
   "kind": "Print"
  },
  "b-storm-c1": {
   "title": "Storm in the Mountains",
-  "artist": "Frederic Edwin Church (American, 1826\u20131900)",
+  "artist": "Frederic Edwin Church (American, 1826–1900)",
   "date": "1847",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1969.52",
@@ -1281,7 +1281,7 @@
  },
  "b-storm-c2": {
   "title": "A Rishi Stirring Up a Storm",
-  "artist": "John La Farge (American, 1835\u20131910)",
+  "artist": "John La Farge (American, 1835–1910)",
   "date": "1897",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1939.267",
@@ -1289,7 +1289,7 @@
  },
  "b-storm-c3": {
   "title": "View of Schroon Mountain, Essex County, New York, After a Storm",
-  "artist": "Thomas Cole (American, born England,1801\u20131848)",
+  "artist": "Thomas Cole (American, born England,1801–1848)",
   "date": "1838",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1917.1335",
@@ -1297,23 +1297,23 @@
  },
  "b-shadow-c1": {
   "title": "Low Waterfall in a Wooded Landscape with a Dead Beech Tree",
-  "artist": "Jacob van Ruisdael (Dutch, 1628/29\u20131682)",
-  "date": "c. 1660\u201370",
+  "artist": "Jacob van Ruisdael (Dutch, 1628/29–1682)",
+  "date": "c. 1660–70",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1967.63",
   "kind": "Painting"
  },
  "b-morning-c3": {
   "title": "Early Morning After a Storm at Sea",
-  "artist": "Winslow Homer (American, 1836\u20131910)",
-  "date": "1900\u20131903",
+  "artist": "Winslow Homer (American, 1836–1910)",
+  "date": "1900–1903",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1924.195",
   "kind": "Painting"
  },
  "b-crowd-c4": {
   "title": "The Continence of Scipio",
-  "artist": "Giovanni Antonio Pellegrini (Italian, 1675\u20131741)",
+  "artist": "Giovanni Antonio Pellegrini (Italian, 1675–1741)",
   "date": "c. 1710",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1968.207",
@@ -1321,23 +1321,23 @@
  },
  "b-crowd-c1": {
   "title": "Sketch for \"Mrs. Pottles Can't Abide a Crowd\"",
-  "artist": "John Leech (British, 1817\u20131864)",
+  "artist": "John Leech (British, 1817–1864)",
   "date": "1856",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1924.1004",
   "kind": "Drawing"
  },
  "b-seneca-c3": {
-  "title": "A Sunday on La Grande Jatte \u2014 1884",
+  "title": "A Sunday on La Grande Jatte — 1884",
   "artist": "Georges Seurat",
-  "date": "1884\u201386, border added 1888\u201389",
+  "date": "1884–86, border added 1888–89",
   "license": "Public domain (CC0, Art Institute of Chicago)",
   "source": "https://www.artic.edu/artworks/27992",
   "kind": "oil on canvas"
  },
  "b-crowd-c5": {
   "title": "The Crowd",
-  "artist": "George Bellows (American, 1882\u20131925)",
+  "artist": "George Bellows (American, 1882–1925)",
   "date": "1923",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1936.594",
@@ -1345,7 +1345,7 @@
  },
  "b-crowd-c6": {
   "title": "A Sacrifice Interrupted",
-  "artist": "John Hamilton Mortimer (British, 1740\u20131779)",
+  "artist": "John Hamilton Mortimer (British, 1740–1779)",
   "date": "1770s",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1978.20",
@@ -1353,7 +1353,7 @@
  },
  "b-street-c1": {
   "title": "The Street",
-  "artist": "George Bellows (American, 1882\u20131925)",
+  "artist": "George Bellows (American, 1882–1925)",
   "date": "1917",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1936.547",
@@ -1361,7 +1361,7 @@
  },
  "b-street-c3": {
   "title": "Street Corner",
-  "artist": "Pierre Bonnard (French, 1867\u20131947)",
+  "artist": "Pierre Bonnard (French, 1867–1947)",
   "date": "1899",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1948.156.3",
@@ -1369,7 +1369,7 @@
  },
  "b-morning-c7": {
   "title": "Winter Morning on the Quays",
-  "artist": "F\u00e9lix Hilaire Buhot (French, 1847\u20131898)",
+  "artist": "Félix Hilaire Buhot (French, 1847–1898)",
   "date": "c. 1880",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/2025.182",
@@ -1377,7 +1377,7 @@
  },
  "b-market-c1": {
   "title": "The Old Market, Cleveland",
-  "artist": "Frank Wilcox (American, 1887\u20131964)",
+  "artist": "Frank Wilcox (American, 1887–1964)",
   "date": "1920",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1920.279",
@@ -1385,7 +1385,7 @@
  },
  "b-market-c2": {
   "title": "Market Place, No. 2, Cleveland, Ohio",
-  "artist": "Edwin Kaufman (American, 1906\u20131939)",
+  "artist": "Edwin Kaufman (American, 1906–1939)",
   "date": "1926",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1942.904",
@@ -1393,15 +1393,15 @@
  },
  "b-market-c3": {
   "title": "Market Place, No. 1, Cleveland, Ohio",
-  "artist": "Edwin Kaufman (American, 1906\u20131939)",
+  "artist": "Edwin Kaufman (American, 1906–1939)",
   "date": "1926",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1942.903",
   "kind": "Print"
  },
  "b-road-c1": {
-  "title": "The Large Plane Trees (Road Menders at Saint-R\u00e9my)",
-  "artist": "Vincent van Gogh (Dutch, 1853\u20131890)",
+  "title": "The Large Plane Trees (Road Menders at Saint-Rémy)",
+  "artist": "Vincent van Gogh (Dutch, 1853–1890)",
   "date": "1889",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1947.209",
@@ -1409,7 +1409,7 @@
  },
  "b-road-c2": {
   "title": "Road to Eaux-Chaudes, Pyrenees (recto)",
-  "artist": "Farnham Maxwell Lyte (British, 1828\u20131906)",
+  "artist": "Farnham Maxwell Lyte (British, 1828–1906)",
   "date": "c. 1855",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1995.180.a",
@@ -1417,8 +1417,8 @@
  },
  "b-road-c3": {
   "title": "Road in the Forest",
-  "artist": "Eug\u00e8ne Cuvelier (French, 1837\u20131900)",
-  "date": "1860\u20131863",
+  "artist": "Eugène Cuvelier (French, 1837–1900)",
+  "date": "1860–1863",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1989.29",
   "kind": "Photograph"
@@ -1426,14 +1426,14 @@
  "b-mirror-c1": {
   "title": "Woman at Her Toilette",
   "artist": "Berthe Morisot",
-  "date": "1875\u201380",
+  "date": "1875–80",
   "license": "Public domain (CC0, Art Institute of Chicago)",
   "source": "https://www.artic.edu/artworks/11723",
   "kind": "painting"
  },
  "b-monk-c3": {
   "title": "Portrait of a Monk",
-  "artist": "Gerard David (Netherlandish, 1450/60\u20131523)",
+  "artist": "Gerard David (Netherlandish, 1450/60–1523)",
   "date": "early 1500s",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1942.632",
@@ -1441,7 +1441,7 @@
  },
  "b-monk-c4": {
   "title": "A Monk Preaching",
-  "artist": "Pier Francesco Mola (Italian, 1612\u20131666)",
+  "artist": "Pier Francesco Mola (Italian, 1612–1666)",
   "date": "mid 17th century?",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1962.115",
@@ -1449,7 +1449,7 @@
  },
  "b-monk-c6": {
   "title": "The Hanged Monk",
-  "artist": "Francisco Jos\u00e9 de Goya y Lucientes",
+  "artist": "Francisco José de Goya y Lucientes",
   "date": "c. 1810",
   "license": "Public domain (CC0, Art Institute of Chicago)",
   "source": "https://www.artic.edu/artworks/22808",
@@ -1473,7 +1473,7 @@
  },
  "b-monk-c11": {
   "title": "St. Francis",
-  "artist": "Claude Mellan (French, 1598\u20131688)",
+  "artist": "Claude Mellan (French, 1598–1688)",
   "date": "1638",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/2023.159",
@@ -1481,7 +1481,7 @@
  },
  "b-monk-c12": {
   "title": "The Virgin and Child Appearing to Saint Francis of Assisi",
-  "artist": "Luca Giordano (Italian, 1634\u20131705)",
+  "artist": "Luca Giordano (Italian, 1634–1705)",
   "date": "1680s",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1966.125",
@@ -1489,15 +1489,15 @@
  },
  "b-monk-c13": {
   "title": "Saint Francis Receiving the Stigmata",
-  "artist": "Niccolo Boldrini (Italian, c. 1500\u2013after 1566)",
-  "date": "1535\u201345",
+  "artist": "Niccolo Boldrini (Italian, c. 1500–after 1566)",
+  "date": "1535–45",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1960.160",
   "kind": "Print"
  },
  "b-letter-c1": {
   "title": "The Letter",
-  "artist": "Karl Hofer (German, 1878\u20131955)",
+  "artist": "Karl Hofer (German, 1878–1955)",
   "date": "1934",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1939.750",
@@ -1505,15 +1505,15 @@
  },
  "b-letter-c2": {
   "title": "Woman with a Letter",
-  "artist": "Sigmond Freudeberg (Swiss, 1745\u20131801)",
-  "date": "1750\u20131800",
+  "artist": "Sigmond Freudeberg (Swiss, 1745–1801)",
+  "date": "1750–1800",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/2017.217",
   "kind": "Drawing"
  },
  "b-letter-c3": {
   "title": "The Letter of Admission, Interior of a Convent",
-  "artist": "Fran\u00e7ois Bonvin (French, 1817\u20131887)",
+  "artist": "François Bonvin (French, 1817–1887)",
   "date": "c. 1867",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1979.24",
@@ -1521,7 +1521,7 @@
  },
  "b-shadow-c3": {
   "title": "The Return of the Holy Family to Nazareth",
-  "artist": "Nicolas Poussin (French, 1594\u20131665)",
+  "artist": "Nicolas Poussin (French, 1594–1665)",
   "date": "c. 1627",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1953.156",
@@ -1529,23 +1529,23 @@
  },
  "b-morning-c2": {
   "title": "Scenes of Witchcraft: Morning",
-  "artist": "Salvator Rosa (Italian, 1615\u20131673)",
-  "date": "c. 1645\u201349",
+  "artist": "Salvator Rosa (Italian, 1615–1673)",
+  "date": "c. 1645–49",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1977.37.1",
   "kind": "Painting"
  },
  "b-shadow-c4": {
   "title": "Interior of a Synagogue",
-  "artist": "Alessandro Magnasco (Italian, 1667\u20131749)",
-  "date": "c. 1725\u201335",
+  "artist": "Alessandro Magnasco (Italian, 1667–1749)",
+  "date": "c. 1725–35",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1930.22",
   "kind": "Painting"
  },
  "b-shadow-c5": {
   "title": "Sunshine in an Interior",
-  "artist": "Peter Vilhelm Ilsted (Danish, 1861\u20131933)",
+  "artist": "Peter Vilhelm Ilsted (Danish, 1861–1933)",
   "date": "1920",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/2001.58",
@@ -1553,7 +1553,7 @@
  },
  "b-statue-c2": {
   "title": "Monsieur Filochard, ex shopkeeper, retired, feels the need of passing on his bust in marble to even remotest posterity, plate 68 from Les Bons bourgeois",
-  "artist": "Honor\u00e9-Victorin Daumier",
+  "artist": "Honoré-Victorin Daumier",
   "date": "1847",
   "license": "Public domain (CC0, Art Institute of Chicago)",
   "source": "https://www.artic.edu/artworks/79632",
@@ -1561,7 +1561,7 @@
  },
  "b-forge-c1": {
   "title": "The Blacksmith",
-  "artist": "Richard Earlom (British, 1743\u20131822)",
+  "artist": "Richard Earlom (British, 1743–1822)",
   "date": "1771",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1995.69",
@@ -1569,7 +1569,7 @@
  },
  "b-forge-c2": {
   "title": "The Blacksmith",
-  "artist": "Eug\u00e8ne Delacroix (French, 1798\u20131863)",
+  "artist": "Eugène Delacroix (French, 1798–1863)",
   "date": "1833",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1929.1",
@@ -1577,7 +1577,7 @@
  },
  "b-skull-c1": {
   "title": "Coat of Arms with a Skull",
-  "artist": "Albrecht D\u00fcrer (German, 1471\u20131528)",
+  "artist": "Albrecht Dürer (German, 1471–1528)",
   "date": "1503",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1953.9",
@@ -1585,7 +1585,7 @@
  },
  "b-skull-c2": {
   "title": "It Is a Skull Wreathed with Roses. It Dominates a Woman's Torso of Pearly Whiteness",
-  "artist": "Odilon Redon (French, 1840\u20131916)",
+  "artist": "Odilon Redon (French, 1840–1916)",
   "date": "1888",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1927.477.7",
@@ -1593,7 +1593,7 @@
  },
  "b-skull-c3": {
   "title": "Portrait of a Young Man with a Skull",
-  "artist": "Lucas van Leyden (Netherlandish, 1494\u2013about 1533)",
+  "artist": "Lucas van Leyden (Netherlandish, 1494–about 1533)",
   "date": "c. 1519",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1941.297",
@@ -1601,7 +1601,7 @@
  },
  "b-knight-c1": {
   "title": "The Knight and  Lansquenet",
-  "artist": "Hans Wechtlin (German, 1480/85\u2013after 1526)",
+  "artist": "Hans Wechtlin (German, 1480/85–after 1526)",
   "date": "c. 1512",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1950.241",
@@ -1609,7 +1609,7 @@
  },
  "b-knight-c6": {
   "title": "Equestrian Portrait of the Emperor Maximilian",
-  "artist": "Hans Burgkmair (German, 1473\u20131531)",
+  "artist": "Hans Burgkmair (German, 1473–1531)",
   "date": "1508",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1950.72",
@@ -1617,7 +1617,7 @@
  },
  "b-knight-c7": {
   "title": "Death on Horseback Chasing a Flying Knight",
-  "artist": "Sebastian Vrancx (Flemish, 1573\u20131647)",
+  "artist": "Sebastian Vrancx (Flemish, 1573–1647)",
   "date": "1631",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1980.19",
@@ -1625,16 +1625,16 @@
  },
  "b-battle-c5": {
   "title": "Portrait of Agostino Barbarigo",
-  "artist": "Paolo Veronese (Italian, 1528\u20131588)",
+  "artist": "Paolo Veronese (Italian, 1528–1588)",
   "date": "after c. 1571",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1928.16",
   "kind": "Painting"
  },
  "b-armour-c1": {
-  "title": "Pikeman\u2019s Armor",
+  "title": "Pikeman’s Armor",
   "artist": "Unknown",
-  "date": "c. 1620\u201330",
+  "date": "c. 1620–30",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1923.1063",
   "kind": "Arms and Armor"
@@ -1642,7 +1642,7 @@
  "b-armour-c2": {
   "title": "Elements from a Partial Suit of Armor",
   "artist": "Unknown",
-  "date": "c. 1510\u201330",
+  "date": "c. 1510–30",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1923.1067",
   "kind": "Arms and Armor"
@@ -1657,8 +1657,8 @@
  },
  "b-priest-c3": {
   "title": "Joachim's Offering Rejected by the High Priest",
-  "artist": "Albrecht D\u00fcrer (German, 1471\u20131528)",
-  "date": "c. 1504\u20131505",
+  "artist": "Albrecht Dürer (German, 1471–1528)",
+  "date": "c. 1504–1505",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1959.99.2",
   "kind": "Print"
@@ -1673,7 +1673,7 @@
  },
  "b-castle-c1": {
   "title": "Hunting near Hartenfels Castle",
-  "artist": "Lucas Cranach the Elder (German, 1472\u20131553)",
+  "artist": "Lucas Cranach the Elder (German, 1472–1553)",
   "date": "1540",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1958.425",
@@ -1681,7 +1681,7 @@
  },
  "b-castle-c2": {
   "title": "View of a Castle (recto)",
-  "artist": "Wolfgang Huber (Austrian, 1490\u20131553)",
+  "artist": "Wolfgang Huber (Austrian, 1490–1553)",
   "date": "1513",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1951.277.a",
@@ -1689,7 +1689,7 @@
  },
  "b-clerk-c1": {
   "title": "Borthwick Castle from the East",
-  "artist": "John Clerk of Eldin (British, 1728\u20131812)",
+  "artist": "John Clerk of Eldin (British, 1728–1812)",
   "date": "c. 1770",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1992.22",
@@ -1697,7 +1697,7 @@
  },
  "b-castle-c4": {
   "title": "Kenilworth Castle, Warwickshire, England",
-  "artist": "Adolphe Braun (French, 1812\u20131877)",
+  "artist": "Adolphe Braun (French, 1812–1877)",
   "date": "c. 1870s",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/2021.62",
@@ -1705,7 +1705,7 @@
  },
  "b-castle-c5": {
   "title": "Castle on a River",
-  "artist": "Salomon van Ruysdael (Dutch, 1602\u20131670)",
+  "artist": "Salomon van Ruysdael (Dutch, 1602–1670)",
   "date": "1644",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1973.2",
@@ -1713,7 +1713,7 @@
  },
  "b-prayer-c1": {
   "title": "St. Francis Beneath a Tree Praying",
-  "artist": "Rembrandt van Rijn (Dutch, 1606\u20131669)",
+  "artist": "Rembrandt van Rijn (Dutch, 1606–1669)",
   "date": "1657",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/2024.64",
@@ -1721,15 +1721,15 @@
  },
  "b-prayer-c3": {
   "title": "An Old Man in a Chair, Praying",
-  "artist": "Salomon Koninck (Dutch, 1609\u20131656)",
-  "date": "1624\u201356",
+  "artist": "Salomon Koninck (Dutch, 1609–1656)",
+  "date": "1624–56",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1943.586",
   "kind": "Print"
  },
  "b-prayer-c4": {
   "title": "A Praying Monk",
-  "artist": "Johann Friedrich Overbeck (German, 1789\u20131869)",
+  "artist": "Johann Friedrich Overbeck (German, 1789–1869)",
   "date": "1826",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/2006.174",
@@ -1737,7 +1737,7 @@
  },
  "b-prayer-c5": {
   "title": "The Monk Praying - St. Francis",
-  "artist": "Francis Seymour Haden (British, 1818\u20131910)",
+  "artist": "Francis Seymour Haden (British, 1818–1910)",
   "date": "1877",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1946.343",
@@ -1753,7 +1753,7 @@
  },
  "b-landscape-c1": {
   "title": "Virgin and Child in a Landscape",
-  "artist": "Jan Gossaert (Flemish, c. 1475/78\u20131532)",
+  "artist": "Jan Gossaert (Flemish, c. 1475/78–1532)",
   "date": "1531",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1972.47",
@@ -1761,7 +1761,7 @@
  },
  "b-workshop-c3": {
   "title": "Virgin and Child with the Young Saint John the Baptist",
-  "artist": "Sandro Botticelli (Italian, 1444/45\u20131510)",
+  "artist": "Sandro Botticelli (Italian, 1444/45–1510)",
   "date": "c. 1490",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1970.160",
@@ -1785,7 +1785,7 @@
  },
  "b-beggar-c1": {
   "title": "St. Catherine of Siena and the Beggar",
-  "artist": "Giovanni di Paolo (Italian, c. 1403\u20131482)",
+  "artist": "Giovanni di Paolo (Italian, c. 1403–1482)",
   "date": "1460s",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1966.3",
@@ -1793,7 +1793,7 @@
  },
  "b-beggar-c2": {
   "title": "\"Old Pat,\" The Independent Beggar",
-  "artist": "Samuel Lovett Waldo (American, 1783\u20131861)",
+  "artist": "Samuel Lovett Waldo (American, 1783–1861)",
   "date": "c. 1819",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1916.998",
@@ -1801,19 +1801,11 @@
  },
  "b-street-c2": {
   "title": "Street Singer and Child",
-  "artist": "John Opie (British, 1761\u20131807)",
+  "artist": "John Opie (British, 1761–1807)",
   "date": "1700s",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1916.1030",
   "kind": "Painting"
- },
- "alexander-c1": {
-  "title": "Man in Armor beside a Chariot",
-  "artist": "Francesco Salviati (Italian, 1510\u20131563)",
-  "date": "c. 1550",
-  "license": "Public domain (CC0, Cleveland Museum of Art)",
-  "source": "https://clevelandart.org/art/1964.99",
-  "kind": "Drawing"
  },
  "alexander-c2": {
   "title": "Alexander at the Tomb of Cyrus the Great",
@@ -1833,71 +1825,31 @@
  },
  "alexander-c4": {
   "title": "Achilles Dragging the Body of Hector",
-  "artist": "Pietro Testa (Italian, 1612\u20131650)",
+  "artist": "Pietro Testa (Italian, 1612–1650)",
   "date": "1648",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1981.95",
   "kind": "Print"
  },
- "alexander-c5": {
-  "title": "The Baptism of Achilles",
-  "artist": "Honor\u00e9 Daumier (French, 1808\u20131879)",
-  "date": "1842",
-  "license": "Public domain (CC0, Cleveland Museum of Art)",
-  "source": "https://clevelandart.org/art/2009.587",
-  "kind": "Print"
- },
- "alexander-c6": {
-  "title": "Achilles V\u00e9ron withdrawing into his tent.",
-  "artist": "Honor\u00e9 Daumier (French, 1808\u20131879)",
-  "date": "1850",
-  "license": "Public domain (CC0, Cleveland Museum of Art)",
-  "source": "https://clevelandart.org/art/1946.204",
-  "kind": "Print"
- },
  "alexander-c7": {
   "title": "The Sacrifice of Polyxena",
-  "artist": "Gerard de Lairesse (Flemish, 1641\u20131711)",
+  "artist": "Gerard de Lairesse (Flemish, 1641–1711)",
   "date": "1667",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/2021.169",
   "kind": "Print"
  },
- "alexander-c8": {
-  "title": "The Artist",
-  "artist": "Achille Dev\u00e9ria",
-  "date": "n.d.",
-  "license": "Public domain (CC0, Art Institute of Chicago)",
-  "source": "https://www.artic.edu/artworks/104332",
-  "kind": "lithograph"
- },
- "alexander-c9": {
-  "title": "Portrait of Franz Liszt",
-  "artist": "Achille Dev\u00e9ria",
-  "date": "published August 1832",
-  "license": "Public domain (CC0, Art Institute of Chicago)",
-  "source": "https://www.artic.edu/artworks/111877",
-  "kind": "lithograph"
- },
- "alexander-c10": {
-  "title": "Portrait Medallion of Goethe, title page from Faust",
-  "artist": "Achille Dev\u00e9ria",
-  "date": "1828",
-  "license": "Public domain (CC0, Art Institute of Chicago)",
-  "source": "https://www.artic.edu/artworks/136668",
-  "kind": "lithograph"
- },
  "rome-c1": {
   "title": "Julius Caesar",
-  "artist": "Mino da Fiesole (Italian, c. 1430\u20131484)",
-  "date": "c. 1455\u201360",
+  "artist": "Mino da Fiesole (Italian, c. 1430–1484)",
+  "date": "c. 1455–60",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/2009.271",
   "kind": "Sculpture"
  },
  "rome-c2": {
   "title": "A Storm Behind the Isle of Wight",
-  "artist": "Julius Caesar Ibbetson (British, 1759\u20131817)",
+  "artist": "Julius Caesar Ibbetson (British, 1759–1817)",
   "date": "c.179(?)",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1948.461",
@@ -1905,136 +1857,56 @@
  },
  "rome-c3": {
   "title": "The Triumph of Julius Caesar: Caesar Triumphant",
-  "artist": "Andrea Andreani (Italian, about 1558\u20131610)",
-  "date": "1593\u201399",
+  "artist": "Andrea Andreani (Italian, about 1558–1610)",
+  "date": "1593–99",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1994.102",
   "kind": "Print"
  },
- "rome-c4": {
-  "title": "The Triumph of Julius Caesar",
-  "artist": "Andrea Andreani (Italian, about 1558\u20131610)",
-  "date": "1593\u201399",
-  "license": "Public domain (CC0, Cleveland Museum of Art)",
-  "source": "https://clevelandart.org/art/1930.583",
-  "kind": "Print"
- },
  "rome-c5": {
   "title": "The Triumph of Julius Caesar: Colossal Statues and Siege Equipment",
-  "artist": "Andrea Andreani (Italian, about 1558\u20131610)",
-  "date": "1593\u201399",
+  "artist": "Andrea Andreani (Italian, about 1558–1610)",
+  "date": "1593–99",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1930.583.3",
   "kind": "Print"
  },
- "rome-c6": {
-  "title": "The Triumph of Julius Caesar:  Frontispiece",
-  "artist": "Andrea Andreani (Italian, about 1558\u20131610)",
-  "date": "1593\u201399",
-  "license": "Public domain (CC0, Cleveland Museum of Art)",
-  "source": "https://clevelandart.org/art/1930.583.1",
-  "kind": "Print"
- },
  "rome-c7": {
   "title": "The Triumph of Julius Caesar:  Soldiers Carrying Vases",
-  "artist": "Andrea Andreani (Italian, about 1558\u20131610)",
-  "date": "1593\u201399",
+  "artist": "Andrea Andreani (Italian, about 1558–1610)",
+  "date": "1593–99",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1930.583.5",
   "kind": "Print"
  },
  "rome-c8": {
   "title": "The Triumph of Julius Caesar: Elephants Carrying Torches",
-  "artist": "Andrea Andreani (Italian, about 1558\u20131610)",
-  "date": "1593\u201399",
+  "artist": "Andrea Andreani (Italian, about 1558–1610)",
+  "date": "1593–99",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1930.583.6",
   "kind": "Print"
  },
  "rome-c9": {
   "title": "The Triumph of Julius Caesar: Caesar Triumphant",
-  "artist": "Andrea Andreani (Italian, about 1558\u20131610)",
-  "date": "1593\u201399",
+  "artist": "Andrea Andreani (Italian, about 1558–1610)",
+  "date": "1593–99",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1930.583.10",
   "kind": "Print"
  },
  "rome-c10": {
   "title": "The Triumph of Julius Caesar: Soldiers Carrying Banners and Standards",
-  "artist": "Andrea Andreani (Italian, about 1558\u20131610)",
-  "date": "1593\u201399",
+  "artist": "Andrea Andreani (Italian, about 1558–1610)",
+  "date": "1593–99",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1930.583.9",
   "kind": "Print"
  },
- "theatre-c1": {
-  "title": "Buffalo Mask",
-  "artist": "Unknown",
-  "date": "early to mid-1900s",
-  "license": "Public domain (CC0, Cleveland Museum of Art)",
-  "source": "https://clevelandart.org/art/1969.2",
-  "kind": "Mask"
- },
- "theatre-c2": {
-  "title": "Mask (Bwoom)",
-  "artist": "Unknown",
-  "date": "mid- to late 1800s",
-  "license": "Public domain (CC0, Cleveland Museum of Art)",
-  "source": "https://clevelandart.org/art/1935.304",
-  "kind": "Mask"
- },
- "theatre-c3": {
-  "title": "Face Mask",
-  "artist": "Unknown",
-  "date": "early 1900s",
-  "license": "Public domain (CC0, Cleveland Museum of Art)",
-  "source": "https://clevelandart.org/art/1971.296",
-  "kind": "Mask"
- },
- "theatre-c4": {
-  "title": "Face Mask (Tehe gla)",
-  "artist": "Unknown",
-  "date": "early 1900s",
-  "license": "Public domain (CC0, Cleveland Museum of Art)",
-  "source": "https://clevelandart.org/art/1971.294",
-  "kind": "Mask"
- },
- "theatre-c5": {
-  "title": "Mask (Kple Kple or Kouassi Gbe)",
-  "artist": "Unknown",
-  "date": "late 1800s-early 1900s",
-  "license": "Public domain (CC0, Cleveland Museum of Art)",
-  "source": "https://clevelandart.org/art/1975.155",
-  "kind": "Mask"
- },
- "theatre-c6": {
-  "title": "Portrait Mask (mblo)",
-  "artist": "Unknown",
-  "date": "early to mid-1900s",
-  "license": "Public domain (CC0, Cleveland Museum of Art)",
-  "source": "https://clevelandart.org/art/1974.203",
-  "kind": "Mask"
- },
- "theatre-c7": {
-  "title": "Mask (ndeemba)",
-  "artist": "Unknown",
-  "date": "early 1900s",
-  "license": "Public domain (CC0, Cleveland Museum of Art)",
-  "source": "https://clevelandart.org/art/1969.8",
-  "kind": "Mask"
- },
- "theatre-c8": {
-  "title": "Mask (hemba)",
-  "artist": "Unknown",
-  "date": "late 1800s\u2013early 1900s",
-  "license": "Public domain (CC0, Cleveland Museum of Art)",
-  "source": "https://clevelandart.org/art/2010.450",
-  "kind": "Mask"
- },
  "theatre-c9": {
   "title": "Masks and faces",
   "artist": "Paul Gavarni",
-  "date": "1857\u201358",
+  "date": "1857–58",
   "license": "Public domain (CC0, Art Institute of Chicago)",
   "source": "https://www.artic.edu/artworks/11030",
   "kind": "lithograph"
@@ -2049,15 +1921,15 @@
  },
  "myth-c1": {
   "title": "Apollo on Parnassus",
-  "artist": "Marcantonio Raimondi (Italian, 1470/82\u20131527/34)",
-  "date": "c. 1517\u201320",
+  "artist": "Marcantonio Raimondi (Italian, 1470/82–1527/34)",
+  "date": "c. 1517–20",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1963.231",
   "kind": "Print"
  },
  "myth-c2": {
   "title": "Apollo Belvedere",
-  "artist": "Hendrick Goltzius (Dutch, 1558\u20131617)",
+  "artist": "Hendrick Goltzius (Dutch, 1558–1617)",
   "date": "1592",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/2022.139",
@@ -2065,7 +1937,7 @@
  },
  "myth-c3": {
   "title": "Apollo",
-  "artist": "Hendrick Goltzius (Dutch, 1558\u20131617)",
+  "artist": "Hendrick Goltzius (Dutch, 1558–1617)",
   "date": "1588",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1969.48",
@@ -2073,7 +1945,7 @@
  },
  "myth-c4": {
   "title": "Apollo and the Muses Awakened by the Call of Fame",
-  "artist": "Jacopo Palma il Giovane (Italian, c. 1548\u20131628)",
+  "artist": "Jacopo Palma il Giovane (Italian, c. 1548–1628)",
   "date": "1590s",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1926.265",
@@ -2087,14 +1959,6 @@
   "source": "https://clevelandart.org/art/1924.432.20",
   "kind": "Print"
  },
- "myth-c6": {
-  "title": "Apollo with Erato and Cupid",
-  "artist": "Johann Kellerthaler (German, c. 1560/2\u20131611)",
-  "date": "1595",
-  "license": "Public domain (CC0, Cleveland Museum of Art)",
-  "source": "https://clevelandart.org/art/2012.98",
-  "kind": "Drawing"
- },
  "myth-c7": {
   "title": "Thalia (comedy, pastoral poetry) (from the Tarocchi series D:  Apollo and the Muses, #16)",
   "artist": "Master of the E-Series Tarocchi (Italian, active 1460s)",
@@ -2103,53 +1967,13 @@
   "source": "https://clevelandart.org/art/1924.432.16",
   "kind": "Print"
  },
- "myth-c8": {
-  "title": "Study of Apollo for Marsyas (recto)",
-  "artist": "Paul Baudry (French, 1828\u20131886)",
-  "date": "late 1860s",
-  "license": "Public domain (CC0, Cleveland Museum of Art)",
-  "source": "https://clevelandart.org/art/2008.373.a",
-  "kind": "Drawing"
- },
- "myth-c9": {
-  "title": "Apollo and Marsyas",
-  "artist": "Hans Thoma",
-  "date": "1888",
-  "license": "Public domain (CC0, Art Institute of Chicago)",
-  "source": "https://www.artic.edu/artworks/192691",
-  "kind": "painting"
- },
  "myth-c10": {
   "title": "Apollo and Diana",
-  "artist": "Albrecht D\u00fcrer",
+  "artist": "Albrecht Dürer",
   "date": "1503/04",
   "license": "Public domain (CC0, Art Institute of Chicago)",
   "source": "https://www.artic.edu/artworks/84753",
   "kind": "engraving"
- },
- "builder-c1": {
-  "title": "Elizabeth Beltzhoover Mason",
-  "artist": "Gilbert Stuart (American, born The Thirteen Colonies, 1755\u20131828)",
-  "date": "c. 1803\u20135",
-  "license": "Public domain (CC0, Cleveland Museum of Art)",
-  "source": "https://clevelandart.org/art/1921.428",
-  "kind": "Painting"
- },
- "builder-c2": {
-  "title": "Still Life with Cantaloupe",
-  "artist": "William Mason Brown (American, 1828\u20131898)",
-  "date": "c. 1880",
-  "license": "Public domain (CC0, Cleveland Museum of Art)",
-  "source": "https://clevelandart.org/art/1969.20",
-  "kind": "Painting"
- },
- "builder-c3": {
-  "title": "Auntie Mason and Her Husband",
-  "artist": "George Bellows (American, 1882\u20131925)",
-  "date": "1924",
-  "license": "Public domain (CC0, Cleveland Museum of Art)",
-  "source": "https://clevelandart.org/art/1936.572",
-  "kind": "Print"
  },
  "builder-c4": {
   "title": "Conflagration of the Masonic Hall, Chestnut Street, Philadelphia, Pennsylvania",
@@ -2159,14 +1983,6 @@
   "source": "https://www.artic.edu/artworks/111295",
   "kind": "painting"
  },
- "builder-c5": {
-  "title": "Billy Mason",
-  "artist": "Anders Zorn",
-  "date": "1900",
-  "license": "Public domain (CC0, Art Institute of Chicago)",
-  "source": "https://www.artic.edu/artworks/41902",
-  "kind": "etching"
- },
  "builder-c6": {
   "title": "Masonic Temple, Boston",
   "artist": "Benjamin F. Nutting",
@@ -2175,53 +1991,13 @@
   "source": "https://www.artic.edu/artworks/148598",
   "kind": "lithograph"
  },
- "builder-c7": {
-  "title": "Martin Vanden Bogaert Desjardins",
-  "artist": "G\u00e9rard Edelinck",
-  "date": "n.d.",
-  "license": "Public domain (CC0, Art Institute of Chicago)",
-  "source": "https://www.artic.edu/artworks/111",
-  "kind": "engraving"
- },
- "mirror-c5": {
-  "title": "Banks of the Oise at Dawn",
-  "artist": "Louis Hayet (French, 1864\u20131940)",
-  "date": "1888",
-  "license": "Public domain (CC0, Cleveland Museum of Art)",
-  "source": "https://clevelandart.org/art/2019.18",
-  "kind": "Painting"
- },
  "mirror-c6": {
-  "title": "Fl\u00fcelen, from the Lake of Lucerne",
-  "artist": "Joseph Mallord William Turner (British, 1775\u20131851)",
+  "title": "Flüelen, from the Lake of Lucerne",
+  "artist": "Joseph Mallord William Turner (British, 1775–1851)",
   "date": "1845",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1954.129",
   "kind": "Drawing"
- },
- "mirror-c7": {
-  "title": "Lighthouse Village (also known as Cape Elizabeth)",
-  "artist": "Edward Hopper (American, 1882\u20131967)",
-  "date": "1929",
-  "license": "Public domain (CC0, Cleveland Museum of Art)",
-  "source": "https://clevelandart.org/art/1930.851",
-  "kind": "Drawing"
- },
- "mirror-c8": {
-  "title": "Basket of Plums",
-  "artist": "Anne Vallayer-Coster (French, 1744\u20131818)",
-  "date": "1769",
-  "license": "Public domain (CC0, Cleveland Museum of Art)",
-  "source": "https://clevelandart.org/art/1971.47",
-  "kind": "Painting"
- },
- "body-c5": {
-  "title": "Fishing Craft near the Cliffs at Collioure",
-  "artist": "Adolphe Appian",
-  "date": "1878",
-  "license": "Public domain (CC0, Art Institute of Chicago)",
-  "source": "https://www.artic.edu/artworks/65",
-  "kind": "etching"
  },
  "body-c6": {
   "title": "Interior of St. Mark's, Venice",
@@ -2231,60 +2007,108 @@
   "source": "https://www.artic.edu/artworks/9",
   "kind": "painting"
  },
- "body-c7": {
-  "title": "The Fall of the Giants",
-  "artist": "Salvator Rosa",
-  "date": "1663",
-  "license": "Public domain (CC0, Art Institute of Chicago)",
-  "source": "https://www.artic.edu/artworks/16",
-  "kind": "etching"
- },
- "body-c8": {
-  "title": "It Rocks but is Not Sunk",
-  "artist": "Charles Meryon",
-  "date": "1854",
-  "license": "Public domain (CC0, Art Institute of Chicago)",
-  "source": "https://www.artic.edu/artworks/20",
-  "kind": "etching"
- },
- "body-c9": {
-  "title": "Souvenir of Tuscany",
-  "artist": "Jean Baptiste Camille Corot",
-  "date": "c. 1845",
-  "license": "Public domain (CC0, Art Institute of Chicago)",
-  "source": "https://www.artic.edu/artworks/28",
-  "kind": "etching"
- },
- "child-c5": {
-  "title": "Study for \"Country Cousins\"",
-  "artist": "Richard Redgrave (British, 1804\u20131888)",
-  "date": "c. 1847\u201348",
-  "license": "Public domain (CC0, Cleveland Museum of Art)",
-  "source": "https://clevelandart.org/art/2011.127",
-  "kind": "Drawing"
- },
- "child-c6": {
-  "title": "Fr\u00e9d\u00e9ric Mistral: M\u00e9moires et Recits by Fr\u00e9d\u00e9ric Mistral: boy playing drum (page 79)",
-  "artist": "Auguste Brouet (French, 1872\u20131941)",
-  "date": "1937",
-  "license": "Public domain (CC0, Cleveland Museum of Art)",
-  "source": "https://clevelandart.org/art/1999.298.20",
-  "kind": "Portfolio"
- },
  "child-c7": {
   "title": "House of Cards",
-  "artist": "Pierre Filloeuil (French, 1696\u2013after 1734)",
+  "artist": "Pierre Filloeuil (French, 1696–after 1734)",
   "date": "c. 1737",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1995.265",
   "kind": "Print"
  },
- "child-c8": {
-  "title": "Landscape with Figure in Foreground",
-  "artist": "Cornelius Varley (British, 1781\u20131873)",
-  "date": "c. 1840",
+ "theatre-c13": {
+  "title": "Portrait of Edouard Molé",
+  "artist": "Robert Nanteuil",
+  "date": "1653",
+  "license": "Public domain (CC0, Art Institute of Chicago)",
+  "source": "https://www.artic.edu/artworks/24",
+  "kind": "engraving"
+ },
+ "theatre-c14": {
+  "title": "View of Ponte Lugano on the Anio, from Views of Rome",
+  "artist": "Giovanni Battista Piranesi",
+  "date": "1763, published 1800–07",
+  "license": "Public domain (CC0, Art Institute of Chicago)",
+  "source": "https://www.artic.edu/artworks/19",
+  "kind": "etching"
+ },
+ "theatre-c16": {
+  "title": "Pierrot",
+  "artist": "Paul Gavarni (French, 1804–1866)",
+  "date": "c. 1850–60",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
-  "source": "https://clevelandart.org/art/2004.40",
+  "source": "https://clevelandart.org/art/1923.854",
   "kind": "Drawing"
+ },
+ "theatre-c17": {
+  "title": "Pierrot in Criminal Court",
+  "artist": "Thomas Couture (French, 1815–1879)",
+  "date": "c. 1864–70",
+  "license": "Public domain (CC0, Cleveland Museum of Art)",
+  "source": "https://clevelandart.org/art/1980.250",
+  "kind": "Painting"
+ },
+ "theatre-c18": {
+  "title": "Study for \"The Romancer\" (Le Conteur)",
+  "artist": "Jean-Antoine Watteau (French, 1684–1721)",
+  "date": "c. 1716",
+  "license": "Public domain (CC0, Cleveland Museum of Art)",
+  "source": "https://clevelandart.org/art/1928.661",
+  "kind": "Drawing"
+ },
+ "alexander-c8": {
+  "title": "Alexander Grant",
+  "artist": "Cosmo Alexander",
+  "date": "1770",
+  "license": "Public domain (CC0, Art Institute of Chicago)",
+  "source": "https://www.artic.edu/artworks/93780",
+  "kind": "painting"
+ },
+ "alexander-c10": {
+  "title": "Study of Bucephalus for the Relief \"Alexander and Diogenes\"",
+  "artist": "Pierre Puget",
+  "date": "1675/76",
+  "license": "Public domain (CC0, Art Institute of Chicago)",
+  "source": "https://www.artic.edu/artworks/202298",
+  "kind": "drawings (visual works)"
+ },
+ "alexander-c11": {
+  "title": "Castel Sant'Angelo",
+  "artist": "Alexander Cozens",
+  "date": "1746",
+  "license": "Public domain (CC0, Art Institute of Chicago)",
+  "source": "https://www.artic.edu/artworks/111870",
+  "kind": "etching"
+ },
+ "mirror-c9": {
+  "title": "The Entombment",
+  "artist": "Andrea Schiavone (Italian, c. 1500–1563)",
+  "date": "c. 1550s",
+  "license": "Public domain (CC0, Cleveland Museum of Art)",
+  "source": "https://clevelandart.org/art/1973.130",
+  "kind": "Print"
+ },
+ "child-c8": {
+  "title": "The Boy with a Sword",
+  "artist": "Édouard Manet (French, 1832–1883)",
+  "date": "1861–62",
+  "license": "Public domain (CC0, Cleveland Museum of Art)",
+  "source": "https://clevelandart.org/art/1925.61",
+  "kind": "Print"
+ },
+ "child-c9": {
+  "title": "The Boy with a Sword, Turned to the Left III",
+  "artist": "Édouard Manet",
+  "date": "1862",
+  "license": "Public domain (CC0, Art Institute of Chicago)",
+  "source": "https://www.artic.edu/artworks/26698",
+  "kind": "etching"
+ },
+ "child-c10": {
+  "title": "Boy on a Ram",
+  "artist": "Francisco José de Goya y Lucientes",
+  "date": "1786–87",
+  "license": "Public domain (CC0, Art Institute of Chicago)",
+  "source": "https://www.artic.edu/artworks/111559",
+  "kind": "oil on canvas"
  }
 }

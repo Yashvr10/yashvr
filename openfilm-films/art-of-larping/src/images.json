@@ -72,10 +72,10 @@
   "b-beggar-c1",
   "b-beggar-c2",
   "b-street-c2",
-  "child-c5",
-  "child-c6",
   "child-c7",
-  "child-c8"
+  "child-c8",
+  "child-c9",
+  "child-c10"
  ],
  "hourglass": [
   "hourglass-c1",
@@ -133,12 +133,7 @@
   "body-c1",
   "body-c2",
   "body-c3",
-  "body-c4",
-  "body-c5",
-  "body-c6",
-  "body-c7",
-  "body-c8",
-  "body-c9"
+  "body-c4"
  ],
  "fire": [
   "fire-c2",
@@ -200,7 +195,9 @@
   "b-portrait-c4",
   "b-book-c5",
   "b-archer-c3",
-  "b-stoic-c3"
+  "b-stoic-c3",
+  "theatre-c13",
+  "alexander-c8"
  ],
  "night": [
   "night-c1",
@@ -219,11 +216,7 @@
   "mirror-c1",
   "mirror-c2",
   "mirror-c4",
-  "b-mirror-c1",
-  "mirror-c5",
-  "mirror-c6",
-  "mirror-c7",
-  "mirror-c8"
+  "b-mirror-c1"
  ],
  "monk": [
   "monk-c3",
@@ -268,40 +261,30 @@
   "market-c4"
  ],
  "alexander": [
-  "alexander-c1",
   "alexander-c2",
   "alexander-c3",
   "alexander-c4",
-  "alexander-c5",
-  "alexander-c6",
   "alexander-c7",
-  "alexander-c8",
-  "alexander-c9",
   "alexander-c10"
  ],
  "rome": [
   "rome-c1",
   "rome-c2",
   "rome-c3",
-  "rome-c4",
   "rome-c5",
-  "rome-c6",
   "rome-c7",
   "rome-c8",
   "rome-c9",
-  "rome-c10"
+  "rome-c10",
+  "alexander-c11",
+  "theatre-c14"
  ],
  "theatre": [
-  "theatre-c1",
-  "theatre-c2",
-  "theatre-c3",
-  "theatre-c4",
-  "theatre-c5",
-  "theatre-c6",
-  "theatre-c7",
-  "theatre-c8",
   "theatre-c9",
-  "theatre-c10"
+  "theatre-c10",
+  "theatre-c16",
+  "theatre-c17",
+  "theatre-c18"
  ],
  "myth": [
   "myth-c1",
@@ -309,19 +292,14 @@
   "myth-c3",
   "myth-c4",
   "myth-c5",
-  "myth-c6",
   "myth-c7",
-  "myth-c8",
-  "myth-c9",
-  "myth-c10"
+  "myth-c10",
+  "mirror-c6",
+  "mirror-c9"
  ],
  "builder": [
-  "builder-c1",
-  "builder-c2",
-  "builder-c3",
   "builder-c4",
-  "builder-c5",
   "builder-c6",
-  "builder-c7"
+  "body-c6"
  ]
 }

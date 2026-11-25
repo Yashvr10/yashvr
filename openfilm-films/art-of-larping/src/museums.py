@@ -25,7 +25,7 @@ def save(k, url):
     if min(im.size) < 700: raise ValueError("too small")
     im.thumbnail((2400, 2400)); im.save(f"assets/photos/{k}.jpg", quality=88)
 P = json.load(open("src/images.json")); C = json.load(open("src/photo-credits.json"))
-seen = {c.get("source") for c in C.values()}
+seen = {c.get("source") for c in C.values()} | set(json.load(open("src/rejected.json")) if os.path.exists("src/rejected.json") else [])
 KIND = re.compile(r"paint|print|drawing|engrav|etching|lithograph|canvas|panel|woodcut", re.I)   # pictures only, no objects or books
 FAR = re.compile(r"India|Persia|Iran|China|Chinese|Japan|Korea|Mughal|Tibet|Nepal|Islamic|Ottoman|Thai|Indones", re.I)   # European traditions suit this film
 import collections
@@ -40,7 +40,7 @@ for th, qs in Q.items():
             if have >= NT: break
             img = ((x.get("images") or {}).get("print") or {}); u = x.get("url") or f"https://clevelandart.org/art/{x.get('accession_number')}"
             if not img.get("url") or u in seen or min(int(img.get("width") or 0), int(img.get("height") or 0)) < 1000: continue
-            if not KIND.search(str(x.get("type", "")) + " " + str(x.get("technique", ""))) or FAR.search(" ".join(x.get("culture") or [])): continue
+            if not KIND.search(str(x.get("type", ""))) or re.search(r"mask|sculpt|object|textile|book", str(x.get("type", "")), re.I) or FAR.search(" ".join(x.get("culture") or [])): continue
             k = f"{th}-c{max([int(f.rsplit('-c', 1)[1][:-4]) for f in os.listdir('assets/photos') + os.listdir('assets/photos169') if f.startswith(th + '-c')] or [0]) + 1}"
             try: save(k, img["url"])
             except Exception as e: print("fail", x.get("id"), e); continue
