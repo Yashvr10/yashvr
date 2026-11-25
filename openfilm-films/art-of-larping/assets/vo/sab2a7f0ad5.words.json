@@ -1,0 +1,42 @@
+[
+{
+"word": "You",
+"start": 0.0,
+"end": 0.62
+},
+{
+"word": "can't",
+"start": 0.62,
+"end": 1.02
+},
+{
+"word": "overthink",
+"start": 1.02,
+"end": 1.42
+},
+{
+"word": "your",
+"start": 1.42,
+"end": 1.62
+},
+{
+"word": "way",
+"start": 1.62,
+"end": 1.82
+},
+{
+"word": "out",
+"start": 1.82,
+"end": 2.02
+},
+{
+"word": "of",
+"start": 2.02,
+"end": 2.16
+},
+{
+"word": "this.",
+"start": 2.16,
+"end": 2.38
+}
+]

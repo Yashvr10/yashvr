@@ -1,0 +1,47 @@
+[
+{
+"word": "Not",
+"start": 0.0,
+"end": 0.2
+},
+{
+"word": "yet",
+"start": 0.2,
+"end": 0.38
+},
+{
+"word": "born,",
+"start": 0.38,
+"end": 0.8
+},
+{
+"word": "young,",
+"start": 0.98,
+"end": 1.2
+},
+{
+"word": "old,",
+"start": 1.42,
+"end": 1.58
+},
+{
+"word": "dead,",
+"start": 1.86,
+"end": 1.96
+},
+{
+"word": "and",
+"start": 2.2,
+"end": 2.3
+},
+{
+"word": "beyond",
+"start": 2.3,
+"end": 2.58
+},
+{
+"word": "death.",
+"start": 2.58,
+"end": 2.96
+}
+]

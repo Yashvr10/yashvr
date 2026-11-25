@@ -1,0 +1,82 @@
+[
+{
+"word": "You",
+"start": 0.0,
+"end": 0.3
+},
+{
+"word": "are",
+"start": 0.3,
+"end": 0.56
+},
+{
+"word": "the",
+"start": 0.56,
+"end": 0.74
+},
+{
+"word": "creator",
+"start": 0.74,
+"end": 1.26
+},
+{
+"word": "and",
+"start": 1.74,
+"end": 1.78
+},
+{
+"word": "the",
+"start": 1.78,
+"end": 1.92
+},
+{
+"word": "reality",
+"start": 1.92,
+"end": 2.22
+},
+{
+"word": "is",
+"start": 2.22,
+"end": 2.66
+},
+{
+"word": "your",
+"start": 2.66,
+"end": 2.84
+},
+{
+"word": "creation,",
+"start": 2.84,
+"end": 3.46
+},
+{
+"word": "shaped",
+"start": 3.92,
+"end": 4.28
+},
+{
+"word": "by",
+"start": 4.28,
+"end": 4.56
+},
+{
+"word": "whatever",
+"start": 4.56,
+"end": 4.84
+},
+{
+"word": "image",
+"start": 4.84,
+"end": 5.22
+},
+{
+"word": "you",
+"start": 5.22,
+"end": 5.48
+},
+{
+"word": "want.",
+"start": 5.48,
+"end": 5.78
+}
+]

@@ -1,0 +1,62 @@
+[
+{
+"word": "Julius",
+"start": 0.0,
+"end": 0.38
+},
+{
+"word": "Caesar",
+"start": 0.38,
+"end": 0.72
+},
+{
+"word": "told",
+"start": 0.72,
+"end": 1.14
+},
+{
+"word": "all",
+"start": 1.14,
+"end": 1.54
+},
+{
+"word": "of",
+"start": 1.54,
+"end": 1.76
+},
+{
+"word": "Rome",
+"start": 1.76,
+"end": 2.08
+},
+{
+"word": "his",
+"start": 2.08,
+"end": 2.36
+},
+{
+"word": "bloodline",
+"start": 2.36,
+"end": 2.9
+},
+{
+"word": "ran",
+"start": 2.9,
+"end": 3.16
+},
+{
+"word": "back",
+"start": 3.16,
+"end": 3.46
+},
+{
+"word": "to",
+"start": 3.46,
+"end": 3.62
+},
+{
+"word": "Venus.",
+"start": 3.62,
+"end": 3.86
+}
+]

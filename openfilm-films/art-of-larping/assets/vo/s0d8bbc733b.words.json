@@ -1,0 +1,57 @@
+[
+{
+"word": "Last",
+"start": 0.0,
+"end": 0.28
+},
+{
+"word": "week",
+"start": 0.28,
+"end": 0.44
+},
+{
+"word": "runs",
+"start": 0.44,
+"end": 0.66
+},
+{
+"word": "next",
+"start": 0.66,
+"end": 1.02
+},
+{
+"word": "month,",
+"start": 1.02,
+"end": 1.36
+},
+{
+"word": "and",
+"start": 1.36,
+"end": 1.78
+},
+{
+"word": "next",
+"start": 1.78,
+"end": 2.02
+},
+{
+"word": "month",
+"start": 2.02,
+"end": 2.36
+},
+{
+"word": "the",
+"start": 2.36,
+"end": 2.64
+},
+{
+"word": "coming",
+"start": 2.64,
+"end": 2.9
+},
+{
+"word": "years.",
+"start": 2.9,
+"end": 3.36
+}
+]

@@ -1,0 +1,92 @@
+[
+{
+"word": "Max",
+"start": 0.0,
+"end": 0.3
+},
+{
+"word": "Weber",
+"start": 0.3,
+"end": 0.54
+},
+{
+"word": "called",
+"start": 0.54,
+"end": 0.94
+},
+{
+"word": "it",
+"start": 0.94,
+"end": 1.2
+},
+{
+"word": "'the",
+"start": 1.2,
+"end": 1.52
+},
+{
+"word": "disenchantment",
+"start": 1.52,
+"end": 2.28
+},
+{
+"word": "of",
+"start": 2.28,
+"end": 2.46
+},
+{
+"word": "the",
+"start": 2.46,
+"end": 2.58
+},
+{
+"word": "world':",
+"start": 2.58,
+"end": 2.94
+},
+{
+"word": "the",
+"start": 3.6,
+"end": 3.78
+},
+{
+"word": "gradual",
+"start": 3.78,
+"end": 4.18
+},
+{
+"word": "draining",
+"start": 4.18,
+"end": 4.56
+},
+{
+"word": "of",
+"start": 4.56,
+"end": 4.82
+},
+{
+"word": "magic",
+"start": 4.82,
+"end": 5.24
+},
+{
+"word": "out",
+"start": 5.24,
+"end": 5.52
+},
+{
+"word": "of",
+"start": 5.52,
+"end": 5.7
+},
+{
+"word": "human",
+"start": 5.7,
+"end": 5.88
+},
+{
+"word": "life.",
+"start": 5.88,
+"end": 6.32
+}
+]

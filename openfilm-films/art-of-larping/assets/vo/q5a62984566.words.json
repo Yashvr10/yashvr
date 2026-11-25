@@ -1,0 +1,42 @@
+[
+{
+"word": "\"I",
+"start": 0.0,
+"end": 0.2
+},
+{
+"word": "am",
+"start": 0.2,
+"end": 0.4
+},
+{
+"word": "that",
+"start": 0.4,
+"end": 0.6
+},
+{
+"word": "I",
+"start": 0.6,
+"end": 0.78
+},
+{
+"word": "am.\"",
+"start": 0.78,
+"end": 1.08
+},
+{
+"word": "Exodus,",
+"start": 1.28,
+"end": 1.56
+},
+{
+"word": "chapter",
+"start": 1.56,
+"end": 1.98
+},
+{
+"word": "three.",
+"start": 1.98,
+"end": 2.42
+}
+]

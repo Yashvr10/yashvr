@@ -1,0 +1,57 @@
+[
+{
+"word": "I",
+"start": 0.0,
+"end": 0.18
+},
+{
+"word": "wrote",
+"start": 0.18,
+"end": 0.36
+},
+{
+"word": "down",
+"start": 0.36,
+"end": 0.64
+},
+{
+"word": "the",
+"start": 0.64,
+"end": 0.82
+},
+{
+"word": "entire",
+"start": 0.82,
+"end": 1.18
+},
+{
+"word": "script,",
+"start": 1.18,
+"end": 1.66
+},
+{
+"word": "his",
+"start": 2.12,
+"end": 2.26
+},
+{
+"word": "principles",
+"start": 2.26,
+"end": 2.64
+},
+{
+"word": "and",
+"start": 2.64,
+"end": 3.18
+},
+{
+"word": "daily",
+"start": 3.18,
+"end": 3.54
+},
+{
+"word": "routines.",
+"start": 3.54,
+"end": 4.0
+}
+]

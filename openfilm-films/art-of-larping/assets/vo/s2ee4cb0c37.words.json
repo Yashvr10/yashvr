@@ -1,0 +1,82 @@
+[
+{
+"word": "Back",
+"start": 0.0,
+"end": 0.24
+},
+{
+"word": "then,",
+"start": 0.24,
+"end": 0.58
+},
+{
+"word": "when",
+"start": 0.76,
+"end": 0.86
+},
+{
+"word": "we",
+"start": 0.86,
+"end": 1.04
+},
+{
+"word": "were",
+"start": 1.04,
+"end": 1.2
+},
+{
+"word": "kids,",
+"start": 1.2,
+"end": 1.52
+},
+{
+"word": "we",
+"start": 1.92,
+"end": 1.96
+},
+{
+"word": "were",
+"start": 1.96,
+"end": 2.1
+},
+{
+"word": "knights,",
+"start": 2.1,
+"end": 2.42
+},
+{
+"word": "explorers",
+"start": 3.32,
+"end": 3.32
+},
+{
+"word": "of",
+"start": 3.32,
+"end": 3.62
+},
+{
+"word": "space,",
+"start": 3.62,
+"end": 4.02
+},
+{
+"word": "emperors",
+"start": 4.44,
+"end": 4.74
+},
+{
+"word": "of",
+"start": 4.74,
+"end": 4.96
+},
+{
+"word": "the",
+"start": 4.96,
+"end": 5.08
+},
+{
+"word": "backyard.",
+"start": 5.08,
+"end": 5.54
+}
+]

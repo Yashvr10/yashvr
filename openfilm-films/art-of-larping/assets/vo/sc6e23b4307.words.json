@@ -1,0 +1,72 @@
+[
+{
+"word": "You",
+"start": 0.0,
+"end": 0.16
+},
+{
+"word": "add",
+"start": 0.16,
+"end": 0.36
+},
+{
+"word": "stone",
+"start": 0.36,
+"end": 0.72
+},
+{
+"word": "block",
+"start": 0.72,
+"end": 1.04
+},
+{
+"word": "to",
+"start": 1.04,
+"end": 1.28
+},
+{
+"word": "stone",
+"start": 1.28,
+"end": 1.6
+},
+{
+"word": "block,",
+"start": 1.6,
+"end": 2.06
+},
+{
+"word": "until",
+"start": 2.06,
+"end": 2.8
+},
+{
+"word": "eventually",
+"start": 2.8,
+"end": 3.26
+},
+{
+"word": "it",
+"start": 3.26,
+"end": 3.6
+},
+{
+"word": "turns",
+"start": 3.6,
+"end": 3.86
+},
+{
+"word": "into",
+"start": 3.86,
+"end": 4.22
+},
+{
+"word": "a",
+"start": 4.22,
+"end": 4.38
+},
+{
+"word": "mountain.",
+"start": 4.38,
+"end": 4.64
+}
+]

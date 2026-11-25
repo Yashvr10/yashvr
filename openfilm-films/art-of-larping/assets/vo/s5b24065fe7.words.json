@@ -1,0 +1,87 @@
+[
+{
+"word": "The",
+"start": 0.0,
+"end": 0.16
+},
+{
+"word": "Corpus",
+"start": 0.16,
+"end": 0.44
+},
+{
+"word": "Hermeticum",
+"start": 0.44,
+"end": 1.06
+},
+{
+"word": "puts",
+"start": 1.06,
+"end": 1.4
+},
+{
+"word": "it",
+"start": 1.4,
+"end": 1.58
+},
+{
+"word": "directly:",
+"start": 1.58,
+"end": 1.96
+},
+{
+"word": "unless",
+"start": 2.84,
+"end": 2.92
+},
+{
+"word": "you",
+"start": 2.92,
+"end": 3.12
+},
+{
+"word": "make",
+"start": 3.12,
+"end": 3.3
+},
+{
+"word": "yourself",
+"start": 3.3,
+"end": 3.7
+},
+{
+"word": "equal",
+"start": 3.7,
+"end": 4.14
+},
+{
+"word": "to",
+"start": 4.14,
+"end": 4.36
+},
+{
+"word": "God,",
+"start": 4.36,
+"end": 4.66
+},
+{
+"word": "you",
+"start": 5.26,
+"end": 5.34
+},
+{
+"word": "cannot",
+"start": 5.34,
+"end": 5.66
+},
+{
+"word": "understand",
+"start": 5.66,
+"end": 6.28
+},
+{
+"word": "God.",
+"start": 6.28,
+"end": 6.68
+}
+]

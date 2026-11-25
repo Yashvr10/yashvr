@@ -1,0 +1,77 @@
+[
+{
+"word": "A",
+"start": 0.0,
+"end": 0.16
+},
+{
+"word": "myth",
+"start": 0.16,
+"end": 0.32
+},
+{
+"word": "that",
+"start": 0.32,
+"end": 0.54
+},
+{
+"word": "told",
+"start": 0.54,
+"end": 0.74
+},
+{
+"word": "him",
+"start": 0.74,
+"end": 0.94
+},
+{
+"word": "who",
+"start": 0.94,
+"end": 1.16
+},
+{
+"word": "he",
+"start": 1.16,
+"end": 1.32
+},
+{
+"word": "was,",
+"start": 1.32,
+"end": 1.72
+},
+{
+"word": "and",
+"start": 1.72,
+"end": 2.24
+},
+{
+"word": "what",
+"start": 2.24,
+"end": 2.38
+},
+{
+"word": "his",
+"start": 2.38,
+"end": 2.52
+},
+{
+"word": "life",
+"start": 2.52,
+"end": 2.84
+},
+{
+"word": "was",
+"start": 2.84,
+"end": 3.16
+},
+{
+"word": "meant",
+"start": 3.16,
+"end": 3.38
+},
+{
+"word": "for.",
+"start": 3.38,
+"end": 3.76
+}
+]

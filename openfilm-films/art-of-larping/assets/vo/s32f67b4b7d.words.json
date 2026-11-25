@@ -1,0 +1,42 @@
+[
+{
+"word": "That",
+"start": 0.0,
+"end": 0.2
+},
+{
+"word": "night,",
+"start": 0.2,
+"end": 0.46
+},
+{
+"word": "I",
+"start": 0.68,
+"end": 0.86
+},
+{
+"word": "didn't",
+"start": 0.86,
+"end": 1.12
+},
+{
+"word": "go",
+"start": 1.12,
+"end": 1.28
+},
+{
+"word": "back",
+"start": 1.28,
+"end": 1.56
+},
+{
+"word": "to",
+"start": 1.56,
+"end": 1.74
+},
+{
+"word": "sleep.",
+"start": 1.74,
+"end": 2.02
+}
+]

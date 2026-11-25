@@ -1,0 +1,52 @@
+[
+{
+"word": "I",
+"start": 0.0,
+"end": 0.16
+},
+{
+"word": "deleted",
+"start": 0.16,
+"end": 0.5
+},
+{
+"word": "the",
+"start": 0.5,
+"end": 0.78
+},
+{
+"word": "video",
+"start": 0.78,
+"end": 1.06
+},
+{
+"word": "games",
+"start": 1.06,
+"end": 1.48
+},
+{
+"word": "and",
+"start": 1.48,
+"end": 1.7
+},
+{
+"word": "replaced",
+"start": 1.7,
+"end": 2.0
+},
+{
+"word": "them",
+"start": 2.0,
+"end": 2.3
+},
+{
+"word": "with",
+"start": 2.3,
+"end": 2.46
+},
+{
+"word": "books.",
+"start": 2.46,
+"end": 2.84
+}
+]

@@ -1,0 +1,67 @@
+[
+{
+"word": "As",
+"start": 0.0,
+"end": 0.2
+},
+{
+"word": "William",
+"start": 0.2,
+"end": 0.46
+},
+{
+"word": "James",
+"start": 0.46,
+"end": 0.82
+},
+{
+"word": "put",
+"start": 0.82,
+"end": 1.2
+},
+{
+"word": "it:",
+"start": 1.2,
+"end": 1.44
+},
+{
+"word": "by",
+"start": 1.58,
+"end": 1.72
+},
+{
+"word": "thirty,",
+"start": 1.72,
+"end": 2.34
+},
+{
+"word": "the",
+"start": 2.34,
+"end": 2.46
+},
+{
+"word": "character",
+"start": 2.46,
+"end": 2.78
+},
+{
+"word": "has",
+"start": 2.78,
+"end": 3.08
+},
+{
+"word": "set",
+"start": 3.08,
+"end": 3.38
+},
+{
+"word": "like",
+"start": 3.38,
+"end": 3.64
+},
+{
+"word": "plaster.",
+"start": 3.64,
+"end": 4.08
+}
+]

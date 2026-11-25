@@ -1,0 +1,57 @@
+[
+{
+"word": "How",
+"start": 0.0,
+"end": 0.2
+},
+{
+"word": "does",
+"start": 0.2,
+"end": 0.38
+},
+{
+"word": "he",
+"start": 0.38,
+"end": 0.56
+},
+{
+"word": "dress,",
+"start": 0.56,
+"end": 0.92
+},
+{
+"word": "walk",
+"start": 1.18,
+"end": 1.48
+},
+{
+"word": "and",
+"start": 1.76,
+"end": 1.86
+},
+{
+"word": "carry",
+"start": 1.86,
+"end": 2.16
+},
+{
+"word": "himself",
+"start": 2.16,
+"end": 2.48
+},
+{
+"word": "in",
+"start": 2.48,
+"end": 2.86
+},
+{
+"word": "a",
+"start": 2.86,
+"end": 2.96
+},
+{
+"word": "room?",
+"start": 2.96,
+"end": 3.2
+}
+]

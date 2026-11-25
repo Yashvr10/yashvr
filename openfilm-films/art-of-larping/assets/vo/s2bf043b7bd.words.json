@@ -1,0 +1,47 @@
+[
+{
+"word": "He",
+"start": 0.0,
+"end": 0.16
+},
+{
+"word": "crossed",
+"start": 0.16,
+"end": 0.44
+},
+{
+"word": "it",
+"start": 0.44,
+"end": 0.66
+},
+{
+"word": "and",
+"start": 0.66,
+"end": 0.76
+},
+{
+"word": "exclaimed:",
+"start": 0.76,
+"end": 1.2
+},
+{
+"word": "'the",
+"start": 1.74,
+"end": 1.84
+},
+{
+"word": "die",
+"start": 1.84,
+"end": 2.14
+},
+{
+"word": "is",
+"start": 2.14,
+"end": 2.36
+},
+{
+"word": "cast.'",
+"start": 2.36,
+"end": 2.72
+}
+]

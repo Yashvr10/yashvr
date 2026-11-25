@@ -1,0 +1,72 @@
+[
+{
+"word": "This",
+"start": 0.0,
+"end": 0.2
+},
+{
+"word": "is",
+"start": 0.2,
+"end": 0.34
+},
+{
+"word": "why",
+"start": 0.34,
+"end": 0.6
+},
+{
+"word": "modern",
+"start": 0.6,
+"end": 1.0
+},
+{
+"word": "brands",
+"start": 1.0,
+"end": 1.58
+},
+{
+"word": "sell",
+"start": 1.58,
+"end": 2.02
+},
+{
+"word": "a",
+"start": 2.02,
+"end": 2.18
+},
+{
+"word": "story",
+"start": 2.18,
+"end": 2.52
+},
+{
+"word": "and",
+"start": 2.52,
+"end": 2.84
+},
+{
+"word": "a",
+"start": 2.84,
+"end": 2.94
+},
+{
+"word": "feeling,",
+"start": 2.94,
+"end": 3.26
+},
+{
+"word": "not",
+"start": 3.6,
+"end": 3.84
+},
+{
+"word": "a",
+"start": 3.84,
+"end": 3.98
+},
+{
+"word": "product.",
+"start": 3.98,
+"end": 4.28
+}
+]

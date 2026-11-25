@@ -1,0 +1,52 @@
+[
+{
+"word": "It",
+"start": 0.0,
+"end": 0.16
+},
+{
+"word": "is",
+"start": 0.16,
+"end": 0.42
+},
+{
+"word": "the",
+"start": 0.42,
+"end": 0.64
+},
+{
+"word": "result",
+"start": 0.64,
+"end": 0.94
+},
+{
+"word": "of",
+"start": 0.94,
+"end": 1.16
+},
+{
+"word": "the",
+"start": 1.16,
+"end": 1.28
+},
+{
+"word": "decision,",
+"start": 1.28,
+"end": 1.76
+},
+{
+"word": "not",
+"start": 1.96,
+"end": 2.1
+},
+{
+"word": "its",
+"start": 2.1,
+"end": 2.38
+},
+{
+"word": "condition.",
+"start": 2.38,
+"end": 2.78
+}
+]

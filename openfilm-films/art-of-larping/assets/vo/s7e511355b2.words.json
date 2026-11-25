@@ -1,0 +1,67 @@
+[
+{
+"word": "A",
+"start": 0.0,
+"end": 0.2
+},
+{
+"word": "stick",
+"start": 0.2,
+"end": 0.44
+},
+{
+"word": "was",
+"start": 0.44,
+"end": 0.7
+},
+{
+"word": "a",
+"start": 0.7,
+"end": 0.92
+},
+{
+"word": "sword,",
+"start": 0.92,
+"end": 1.26
+},
+{
+"word": "the",
+"start": 1.64,
+"end": 1.78
+},
+{
+"word": "bed",
+"start": 1.78,
+"end": 1.92
+},
+{
+"word": "a",
+"start": 1.92,
+"end": 2.06
+},
+{
+"word": "spaceship,",
+"start": 2.06,
+"end": 2.46
+},
+{
+"word": "the",
+"start": 3.04,
+"end": 3.16
+},
+{
+"word": "backyard",
+"start": 3.16,
+"end": 3.52
+},
+{
+"word": "a",
+"start": 3.52,
+"end": 3.78
+},
+{
+"word": "jungle.",
+"start": 3.78,
+"end": 4.04
+}
+]

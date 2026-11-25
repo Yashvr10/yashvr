@@ -1,0 +1,82 @@
+[
+{
+"word": "This",
+"start": 0.0,
+"end": 0.18
+},
+{
+"word": "is",
+"start": 0.18,
+"end": 0.3
+},
+{
+"word": "not",
+"start": 0.3,
+"end": 0.5
+},
+{
+"word": "the",
+"start": 0.5,
+"end": 0.68
+},
+{
+"word": "larping",
+"start": 0.68,
+"end": 1.06
+},
+{
+"word": "I'm",
+"start": 1.06,
+"end": 1.28
+},
+{
+"word": "trying",
+"start": 1.28,
+"end": 1.48
+},
+{
+"word": "to",
+"start": 1.48,
+"end": 1.68
+},
+{
+"word": "show",
+"start": 1.68,
+"end": 1.9
+},
+{
+"word": "you,",
+"start": 1.9,
+"end": 2.3
+},
+{
+"word": "as",
+"start": 2.48,
+"end": 2.74
+},
+{
+"word": "it",
+"start": 2.74,
+"end": 2.84
+},
+{
+"word": "does",
+"start": 2.84,
+"end": 2.98
+},
+{
+"word": "not",
+"start": 2.98,
+"end": 3.18
+},
+{
+"word": "lead",
+"start": 3.18,
+"end": 3.42
+},
+{
+"word": "anywhere.",
+"start": 3.42,
+"end": 3.9
+}
+]

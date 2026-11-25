@@ -1,0 +1,32 @@
+[
+{
+"word": "The",
+"start": 0.0,
+"end": 0.16
+},
+{
+"word": "lab",
+"start": 0.16,
+"end": 0.44
+},
+{
+"word": "is",
+"start": 0.44,
+"end": 0.62
+},
+{
+"word": "buried",
+"start": 0.62,
+"end": 1.02
+},
+{
+"word": "in",
+"start": 1.02,
+"end": 1.24
+},
+{
+"word": "material.",
+"start": 1.24,
+"end": 1.7
+}
+]

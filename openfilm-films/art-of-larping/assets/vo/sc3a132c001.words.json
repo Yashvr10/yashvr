@@ -1,0 +1,42 @@
+[
+{
+"word": "Rome",
+"start": 0.0,
+"end": 0.3
+},
+{
+"word": "kept",
+"start": 0.3,
+"end": 0.56
+},
+{
+"word": "producing",
+"start": 0.56,
+"end": 1.06
+},
+{
+"word": "great",
+"start": 1.06,
+"end": 1.38
+},
+{
+"word": "scholars,",
+"start": 1.38,
+"end": 2.0
+},
+{
+"word": "generals",
+"start": 2.42,
+"end": 2.6
+},
+{
+"word": "and",
+"start": 2.92,
+"end": 2.98
+},
+{
+"word": "politicians.",
+"start": 2.98,
+"end": 3.54
+}
+]

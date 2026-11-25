@@ -1,0 +1,57 @@
+[
+{
+"word": "The",
+"start": 0.0,
+"end": 0.2
+},
+{
+"word": "old",
+"start": 0.2,
+"end": 0.46
+},
+{
+"word": "role",
+"start": 0.46,
+"end": 0.7
+},
+{
+"word": "is",
+"start": 0.7,
+"end": 0.9
+},
+{
+"word": "gone,",
+"start": 0.9,
+"end": 1.2
+},
+{
+"word": "and",
+"start": 1.44,
+"end": 1.64
+},
+{
+"word": "all",
+"start": 1.64,
+"end": 1.84
+},
+{
+"word": "its",
+"start": 1.84,
+"end": 2.0
+},
+{
+"word": "limits",
+"start": 2.0,
+"end": 2.24
+},
+{
+"word": "with",
+"start": 2.24,
+"end": 2.52
+},
+{
+"word": "it.",
+"start": 2.52,
+"end": 2.7
+}
+]

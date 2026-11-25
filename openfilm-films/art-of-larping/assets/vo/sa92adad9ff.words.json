@@ -1,0 +1,57 @@
+[
+{
+"word": "You",
+"start": 0.0,
+"end": 0.16
+},
+{
+"word": "first",
+"start": 0.16,
+"end": 0.48
+},
+{
+"word": "become",
+"start": 0.48,
+"end": 0.86
+},
+{
+"word": "a",
+"start": 0.86,
+"end": 1.06
+},
+{
+"word": "hero",
+"start": 1.06,
+"end": 1.42
+},
+{
+"word": "by",
+"start": 1.42,
+"end": 1.78
+},
+{
+"word": "pretending",
+"start": 1.78,
+"end": 2.2
+},
+{
+"word": "to",
+"start": 2.2,
+"end": 2.52
+},
+{
+"word": "be",
+"start": 2.52,
+"end": 2.68
+},
+{
+"word": "a",
+"start": 2.68,
+"end": 2.8
+},
+{
+"word": "hero.",
+"start": 2.8,
+"end": 3.1
+}
+]
