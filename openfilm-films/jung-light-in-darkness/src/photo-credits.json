@@ -831,14 +831,6 @@
   "source": "https://www.artic.edu/artworks/278708",
   "kind": "prints and drawing"
  },
- "l-ghost-c1": {
-  "title": "The Ghost Story",
-  "artist": "Walter MacEwen (American, 1860–1943)",
-  "date": "1887",
-  "license": "Public domain (CC0, Cleveland Museum of Art)",
-  "source": "https://clevelandart.org/art/1923.416",
-  "kind": "Painting"
- },
  "l-ghost-c2": {
   "title": "Hamlet: Hamlet Rushes to Follow the Ghost of His Father",
   "artist": "Eugène Delacroix (French, 1798–1863)",
@@ -846,22 +838,6 @@
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1941.215.2",
   "kind": "Print"
- },
- "l-anatomy-c2": {
-  "title": "A Eunuch's Dream",
-  "artist": "Jean Lecomte du Nouÿ (French, 1842–1923)",
-  "date": "1874",
-  "license": "Public domain (CC0, Cleveland Museum of Art)",
-  "source": "https://clevelandart.org/art/1991.173",
-  "kind": "Painting"
- },
- "l-b-shadow-c3": {
-  "title": "The Return of the Holy Family to Nazareth",
-  "artist": "Nicolas Poussin (French, 1594–1665)",
-  "date": "c. 1627",
-  "license": "Public domain (CC0, Cleveland Museum of Art)",
-  "source": "https://clevelandart.org/art/1953.156",
-  "kind": "Painting"
  },
  "l-b-morning-c2": {
   "title": "Scenes of Witchcraft: Morning",
@@ -903,22 +879,6 @@
   "source": "https://clevelandart.org/art/1980.292",
   "kind": "Painting"
  },
- "l-b-night-c1": {
-  "title": "Scenes of Witchcraft: Night",
-  "artist": "Salvator Rosa (Italian, 1615–1673)",
-  "date": "c. 1645–49",
-  "license": "Public domain (CC0, Cleveland Museum of Art)",
-  "source": "https://clevelandart.org/art/1977.37.4",
-  "kind": "Painting"
- },
- "l-b-night-c5": {
-  "title": "A Night Class",
-  "artist": "Jehan-Georges Vibert (French, 1840–1902)",
-  "date": "c. 1881",
-  "license": "Public domain (CC0, Cleveland Museum of Art)",
-  "source": "https://clevelandart.org/art/1980.292",
-  "kind": "Painting"
- },
  "l-b-night-c7": {
   "title": "Monumental Sculpture in a Moonlit Park",
   "artist": "Giuseppe Bernardino Bison (Italian, 1762–1844)",
@@ -926,14 +886,6 @@
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1973.174",
   "kind": "Drawing"
- },
- "l-b-interior-c2": {
-  "title": "Interior",
-  "artist": "Gwen John (British, 1876–1939)",
-  "date": "1915",
-  "license": "Public domain (CC0, Cleveland Museum of Art)",
-  "source": "https://clevelandart.org/art/1982.6",
-  "kind": "Painting"
  },
  "l-b-interior-c5": {
   "title": "Château Interior",
@@ -952,22 +904,6 @@
   "kind": "Painting"
  },
  "l-monk-c4": {
-  "title": "A Monk Preaching",
-  "artist": "Pier Francesco Mola (Italian, 1612–1666)",
-  "date": "mid 17th century?",
-  "license": "Public domain (CC0, Cleveland Museum of Art)",
-  "source": "https://clevelandart.org/art/1962.115",
-  "kind": "Drawing"
- },
- "l-b-monk-c3": {
-  "title": "Portrait of a Monk",
-  "artist": "Gerard David (Netherlandish, 1450/60–1523)",
-  "date": "early 1500s",
-  "license": "Public domain (CC0, Cleveland Museum of Art)",
-  "source": "https://clevelandart.org/art/1942.632",
-  "kind": "Painting"
- },
- "l-b-monk-c4": {
   "title": "A Monk Preaching",
   "artist": "Pier Francesco Mola (Italian, 1612–1666)",
   "date": "mid 17th century?",
@@ -1005,14 +941,6 @@
   "date": "c. 1857–1911",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1918.87",
-  "kind": "Print"
- },
- "l-thinker-c3": {
-  "title": "The Alchymist, in Search of the Philosopher's Stone, Discovers Phosphorus, and Prays for the Successful Conclusion of his Operation, as was the Custom of the An",
-  "artist": "William Pether (British, c. 1738–1821)",
-  "date": "1775",
-  "license": "Public domain (CC0, Cleveland Museum of Art)",
-  "source": "https://clevelandart.org/art/1995.2",
   "kind": "Print"
  },
  "l-thinker-c4": {
@@ -1055,14 +983,6 @@
   "source": "https://clevelandart.org/art/1951.485",
   "kind": "Drawing"
  },
- "l-hourglass-c1": {
-  "title": "Knight, Death, and the Devil",
-  "artist": "Albrecht Dürer (German, 1471–1528)",
-  "date": "1513",
-  "license": "Public domain (CC0, Cleveland Museum of Art)",
-  "source": "https://clevelandart.org/art/1965.231",
-  "kind": "Print"
- },
  "l-hourglass-c2": {
   "title": "Melencolia I",
   "artist": "Albrecht Dürer (German, 1471–1528)",
@@ -1070,14 +990,6 @@
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1926.211",
   "kind": "Print"
- },
- "l-hourglass-c3": {
-  "title": "Memento Mori, \"To This Favour\"",
-  "artist": "William Michael Harnett (American, 1848–1892)",
-  "date": "1879",
-  "license": "Public domain (CC0, Cleveland Museum of Art)",
-  "source": "https://clevelandart.org/art/1965.235",
-  "kind": "Painting"
  },
  "l-hourglass-c4": {
   "title": "The Promenade",
@@ -1087,22 +999,6 @@
   "source": "https://clevelandart.org/art/1953.139",
   "kind": "Print"
  },
- "l-mirror-c1": {
-  "title": "Woman at Her Toilette",
-  "artist": "Berthe Morisot",
-  "date": "1875–80",
-  "license": "Public domain (CC0, Art Institute of Chicago)",
-  "source": "https://www.artic.edu/artworks/11723",
-  "kind": "painting"
- },
- "l-mirror-c2": {
-  "title": "The Bedroom",
-  "artist": "Vincent van Gogh",
-  "date": "1889",
-  "license": "Public domain (CC0, Art Institute of Chicago)",
-  "source": "https://www.artic.edu/artworks/28560",
-  "kind": "oil on canvas"
- },
  "l-mirror-c4": {
   "title": "Cathedral Rocks and Reflections, Yosemite",
   "artist": "Charles Leander Weed (American, 1824–1903)",
@@ -1110,14 +1006,6 @@
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1995.78",
   "kind": "Photograph"
- },
- "l-b-mirror-c1": {
-  "title": "Woman at Her Toilette",
-  "artist": "Berthe Morisot",
-  "date": "1875–80",
-  "license": "Public domain (CC0, Art Institute of Chicago)",
-  "source": "https://www.artic.edu/artworks/11723",
-  "kind": "painting"
  },
  "l-myth-c1": {
   "title": "Apollo on Parnassus",
@@ -1215,76 +1103,12 @@
   "source": "https://clevelandart.org/art/1966.413.3",
   "kind": "Print"
  },
- "l-light-c4": {
-  "title": "Boy Drinking",
-  "artist": "Annibale Carracci (Italian, c. 1560–1609)",
-  "date": "1582–83",
-  "license": "Public domain (CC0, Cleveland Museum of Art)",
-  "source": "https://clevelandart.org/art/1994.4",
-  "kind": "Painting"
- },
- "l-b-light-c2": {
-  "title": "Light",
-  "artist": "Odilon Redon (French, 1840–1916)",
-  "date": "1893",
-  "license": "Public domain (CC0, Cleveland Museum of Art)",
-  "source": "https://clevelandart.org/art/1926.296",
-  "kind": "Print"
- },
- "l-b-light-c3": {
-  "title": "I Saw a Flash of Light, Large and Pale",
-  "artist": "Odilon Redon (French, 1840–1916)",
-  "date": "1896",
-  "license": "Public domain (CC0, Cleveland Museum of Art)",
-  "source": "https://clevelandart.org/art/1966.413.3",
-  "kind": "Print"
- },
  "l-b-light-c7": {
   "title": "Yellow Light",
   "artist": "Ralph A. Blakelock (American, 1847–1919)",
   "date": "before 1905",
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1931.440",
-  "kind": "Painting"
- },
- "l-portrait-c1": {
-  "title": "Portrait of a Man, Possibly Girolamo Rosati",
-  "artist": "Lorenzo Lotto (Italian, 1480–1556)",
-  "date": "1533–34",
-  "license": "Public domain (CC0, Cleveland Museum of Art)",
-  "source": "https://clevelandart.org/art/1950.250",
-  "kind": "Painting"
- },
- "l-portrait-c2": {
-  "title": "Portrait of a Woman",
-  "artist": "Rembrandt van Rijn (Dutch, 1606–1669)",
-  "date": "1635 or earlier",
-  "license": "Public domain (CC0, Cleveland Museum of Art)",
-  "source": "https://clevelandart.org/art/1944.90",
-  "kind": "Painting"
- },
- "l-portrait-c3": {
-  "title": "Portrait of a Man",
-  "artist": "Gustave Caillebotte (French, 1848–1894)",
-  "date": "1880",
-  "license": "Public domain (CC0, Cleveland Museum of Art)",
-  "source": "https://clevelandart.org/art/2009.157",
-  "kind": "Painting"
- },
- "l-portrait-c4": {
-  "title": "Portrait of a Man",
-  "artist": "Tanzio da Varallo (Italian, c. 1575/80–1635)",
-  "date": "c. 1620",
-  "license": "Public domain (CC0, Cleveland Museum of Art)",
-  "source": "https://clevelandart.org/art/1985.143",
-  "kind": "Painting"
- },
- "l-b-portrait-c1": {
-  "title": "Portrait of a Man, Possibly Girolamo Rosati",
-  "artist": "Lorenzo Lotto (Italian, 1480–1556)",
-  "date": "1533–34",
-  "license": "Public domain (CC0, Cleveland Museum of Art)",
-  "source": "https://clevelandart.org/art/1950.250",
   "kind": "Painting"
  }
 }

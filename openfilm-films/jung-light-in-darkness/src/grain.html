@@ -9,14 +9,16 @@
 <title>Grain</title>
 <style>
   /* From the HyperFrames registry component grain-overlay. Its CSS keyframe loop is replaced by a jump chosen from t
-     (12 a second), so a frame is the same however it is reached; plus a vignette and a faint projector flicker. */
-  #grain { position: absolute; top: -50%; left: -50%; width: 200%; height: 200%; opacity: .16; background-size: 384px 384px; }
+     (12 a second), so a frame is the same however it is reached; plus a vignette, a faint projector flicker and rounded old-TV corners. */
+  #grain { position: absolute; top: -50%; left: -50%; width: 200%; height: 200%; opacity: .27; background-size: 384px 384px; }
   #vig { position: absolute; inset: 0; background: radial-gradient(ellipse 75% 70% at 50% 50%, transparent 62%, rgba(0,0,0,.28) 100%); }
+  /* Old-TV screen: the whole 16:9 frame with rounded corners (black outside them) and a darker rim, like a CRT's glass. */
+  #tv { position: absolute; inset: 0; border-radius: 72px; box-shadow: 0 0 0 600px #000, inset 0 0 90px rgba(0,0,0,.35); }
   #flick { position: absolute; inset: 0; background: #000; opacity: 0; }
 </style>
 </head>
 <body>
-<div id="grain"></div><div id="vig"></div><div id="flick"></div>
+<div id="grain"></div><div id="vig"></div><div id="flick"></div><div id="tv"></div>
 <script type="module">
 import { hash } from "./lib/fw.js";
 // One noise tile, made once from a seeded hash: light and dark specks at partial alpha (a page cannot blend).

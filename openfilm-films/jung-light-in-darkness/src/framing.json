@@ -1,0 +1,558 @@
+{
+ "alchemy-c1": {
+  "how": "crop top/bottom (faces kept)",
+  "faces": 1
+ },
+ "alchemy-c10": {
+  "how": "whole",
+  "faces": 2
+ },
+ "alchemy-c12": {
+  "how": "whole",
+  "faces": 4
+ },
+ "alchemy-c17": {
+  "how": "whole",
+  "faces": 4
+ },
+ "alchemy-c2": {
+  "how": "whole",
+  "faces": 2
+ },
+ "alchemy-c3": {
+  "how": "whole",
+  "faces": 0
+ },
+ "alchemy-c4": {
+  "how": "whole",
+  "faces": 5
+ },
+ "alchemy-c7": {
+  "how": "whole",
+  "faces": 2
+ },
+ "book-c2": {
+  "how": "whole",
+  "faces": 2
+ },
+ "book-c4": {
+  "how": "whole",
+  "faces": 1
+ },
+ "book-c5": {
+  "how": "whole",
+  "faces": 2
+ },
+ "book-c6": {
+  "how": "whole",
+  "faces": 6
+ },
+ "cave-c1": {
+  "how": "crop top/bottom",
+  "faces": 0
+ },
+ "cave-c2": {
+  "how": "crop top/bottom",
+  "faces": 0
+ },
+ "cave-c3": {
+  "how": "whole",
+  "faces": 0
+ },
+ "cave-c4": {
+  "how": "whole",
+  "faces": 1
+ },
+ "cave-c5": {
+  "how": "whole",
+  "faces": 0
+ },
+ "cave-c7": {
+  "how": "whole",
+  "faces": 3
+ },
+ "cave-c8": {
+  "how": "whole",
+  "faces": 1
+ },
+ "child-c3": {
+  "how": "whole",
+  "faces": 1
+ },
+ "child-c4": {
+  "how": "whole",
+  "faces": 1
+ },
+ "child-c5": {
+  "how": "whole",
+  "faces": 3
+ },
+ "child-c6": {
+  "how": "whole",
+  "faces": 2
+ },
+ "cosmos-c2": {
+  "how": "whole",
+  "faces": 2
+ },
+ "cosmos-c4": {
+  "how": "whole",
+  "faces": 1
+ },
+ "cosmos-c5": {
+  "how": "whole",
+  "faces": 0
+ },
+ "death-c1": {
+  "how": "crop top/bottom",
+  "faces": 0
+ },
+ "death-c2": {
+  "how": "whole",
+  "faces": 16
+ },
+ "death-c3": {
+  "how": "whole",
+  "faces": 0
+ },
+ "death-c4": {
+  "how": "whole",
+  "faces": 1
+ },
+ "death-c5": {
+  "how": "whole",
+  "faces": 0
+ },
+ "death-c6": {
+  "how": "whole",
+  "faces": 0
+ },
+ "doctor-c1": {
+  "how": "whole",
+  "faces": 3
+ },
+ "doctor-c2": {
+  "how": "whole",
+  "faces": 5
+ },
+ "doctor-c3": {
+  "how": "whole",
+  "faces": 0
+ },
+ "doctor-c7": {
+  "how": "whole",
+  "faces": 0
+ },
+ "doctor-c8": {
+  "how": "crop top/bottom",
+  "faces": 0
+ },
+ "double-c1": {
+  "how": "crop top/bottom",
+  "faces": 0
+ },
+ "double-c2": {
+  "how": "crop sides",
+  "faces": 0
+ },
+ "dream-c1": {
+  "how": "crop sides",
+  "faces": 1
+ },
+ "dream-c11": {
+  "how": "crop top/bottom (faces kept)",
+  "faces": 2
+ },
+ "dream-c12": {
+  "how": "crop top/bottom (faces kept)",
+  "faces": 1
+ },
+ "dream-c13": {
+  "how": "crop top/bottom (faces kept)",
+  "faces": 3
+ },
+ "dream-c14": {
+  "how": "whole",
+  "faces": 0
+ },
+ "dream-c2": {
+  "how": "crop top/bottom (faces kept)",
+  "faces": 1
+ },
+ "dream-c3": {
+  "how": "whole",
+  "faces": 0
+ },
+ "dream-c6": {
+  "how": "crop top/bottom",
+  "faces": 0
+ },
+ "dream-c7": {
+  "how": "crop top/bottom",
+  "faces": 0
+ },
+ "dream-c8": {
+  "how": "crop top/bottom (faces kept)",
+  "faces": 3
+ },
+ "dream-c9": {
+  "how": "crop top/bottom",
+  "faces": 0
+ },
+ "flood-c1": {
+  "how": "whole",
+  "faces": 2
+ },
+ "flood-c10": {
+  "how": "crop top/bottom",
+  "faces": 0
+ },
+ "flood-c4": {
+  "how": "crop top/bottom",
+  "faces": 0
+ },
+ "flood-c6": {
+  "how": "crop top/bottom (faces kept)",
+  "faces": 1
+ },
+ "flood-c8": {
+  "how": "crop top/bottom",
+  "faces": 0
+ },
+ "flood-c9": {
+  "how": "crop top/bottom (faces kept)",
+  "faces": 5
+ },
+ "god-c1": {
+  "how": "whole",
+  "faces": 0
+ },
+ "god-c2": {
+  "how": "whole",
+  "faces": 7
+ },
+ "god-c3": {
+  "how": "whole (faces spread wide)",
+  "faces": 39
+ },
+ "god-c4": {
+  "how": "whole",
+  "faces": 1
+ },
+ "god-c5": {
+  "how": "crop top/bottom (faces kept)",
+  "faces": 5
+ },
+ "idol-c2": {
+  "how": "whole",
+  "faces": 1
+ },
+ "idol-c4": {
+  "how": "whole",
+  "faces": 0
+ },
+ "idol-c5": {
+  "how": "whole",
+  "faces": 0
+ },
+ "l-athlete-c3": {
+  "how": "crop top/bottom",
+  "faces": 0
+ },
+ "l-b-interior-c5": {
+  "how": "crop sides",
+  "faces": 1
+ },
+ "l-b-light-c7": {
+  "how": "crop sides",
+  "faces": 0
+ },
+ "l-b-monk-c6": {
+  "how": "crop top/bottom (faces kept)",
+  "faces": 2
+ },
+ "l-b-monk-c7": {
+  "how": "crop top/bottom",
+  "faces": 0
+ },
+ "l-b-morning-c2": {
+  "how": "whole",
+  "faces": 1
+ },
+ "l-b-night-c7": {
+  "how": "crop top/bottom",
+  "faces": 0
+ },
+ "l-b-shadow-c4": {
+  "how": "crop top/bottom",
+  "faces": 0
+ },
+ "l-b-shadow-c5": {
+  "how": "whole",
+  "faces": 0
+ },
+ "l-ghost-c2": {
+  "how": "whole",
+  "faces": 0
+ },
+ "l-hourglass-c2": {
+  "how": "whole",
+  "faces": 1
+ },
+ "l-hourglass-c4": {
+  "how": "whole",
+  "faces": 2
+ },
+ "l-light-c2": {
+  "how": "whole",
+  "faces": 0
+ },
+ "l-light-c3": {
+  "how": "whole",
+  "faces": 0
+ },
+ "l-mirror-c4": {
+  "how": "whole",
+  "faces": 0
+ },
+ "l-monk-c3": {
+  "how": "whole",
+  "faces": 4
+ },
+ "l-monk-c4": {
+  "how": "whole",
+  "faces": 5
+ },
+ "l-myth-c1": {
+  "how": "crop top/bottom (faces kept)",
+  "faces": 8
+ },
+ "l-myth-c2": {
+  "how": "whole",
+  "faces": 5
+ },
+ "l-myth-c3": {
+  "how": "whole",
+  "faces": 1
+ },
+ "l-myth-c4": {
+  "how": "crop top/bottom (faces kept)",
+  "faces": 1
+ },
+ "l-myth-c5": {
+  "how": "whole",
+  "faces": 3
+ },
+ "l-night-c1": {
+  "how": "whole",
+  "faces": 0
+ },
+ "l-night-c4": {
+  "how": "whole",
+  "faces": 15
+ },
+ "l-road-c1": {
+  "how": "crop top/bottom (faces kept)",
+  "faces": 2
+ },
+ "l-road-c2": {
+  "how": "whole",
+  "faces": 0
+ },
+ "l-road-c3": {
+  "how": "whole",
+  "faces": 2
+ },
+ "l-road-c4": {
+  "how": "crop top/bottom",
+  "faces": 0
+ },
+ "l-thinker-c1": {
+  "how": "whole",
+  "faces": 1
+ },
+ "l-thinker-c2": {
+  "how": "crop top/bottom (faces kept)",
+  "faces": 1
+ },
+ "l-thinker-c4": {
+  "how": "crop top/bottom (faces kept)",
+  "faces": 1
+ },
+ "l-thinker-c5": {
+  "how": "whole",
+  "faces": 0
+ },
+ "l-thinker-c6": {
+  "how": "whole",
+  "faces": 2
+ },
+ "l-thinker-c7": {
+  "how": "whole",
+  "faces": 1
+ },
+ "l-thinker-c8": {
+  "how": "crop top/bottom (faces kept)",
+  "faces": 2
+ },
+ "light-c12": {
+  "how": "whole",
+  "faces": 1
+ },
+ "light-c2": {
+  "how": "whole",
+  "faces": 5
+ },
+ "light-c3": {
+  "how": "crop top/bottom (faces kept)",
+  "faces": 3
+ },
+ "light-c5": {
+  "how": "whole",
+  "faces": 6
+ },
+ "light-c8": {
+  "how": "whole",
+  "faces": 3
+ },
+ "light-c9": {
+  "how": "whole",
+  "faces": 2
+ },
+ "mandala-c1": {
+  "how": "whole",
+  "faces": 8
+ },
+ "mandala-c11": {
+  "how": "crop top/bottom",
+  "faces": 0
+ },
+ "mandala-c13": {
+  "how": "crop sides",
+  "faces": 9
+ },
+ "mandala-c2": {
+  "how": "whole",
+  "faces": 0
+ },
+ "mandala-c4": {
+  "how": "whole",
+  "faces": 0
+ },
+ "mandala-c8": {
+  "how": "whole",
+  "faces": 1
+ },
+ "nature-c1": {
+  "how": "whole",
+  "faces": 1
+ },
+ "nature-c2": {
+  "how": "whole",
+  "faces": 3
+ },
+ "nature-c3": {
+  "how": "whole",
+  "faces": 2
+ },
+ "nature-c4": {
+  "how": "crop top/bottom (faces kept)",
+  "faces": 1
+ },
+ "nature-c5": {
+  "how": "crop top/bottom (faces kept)",
+  "faces": 1
+ },
+ "nature-c6": {
+  "how": "whole",
+  "faces": 1
+ },
+ "nature-c7": {
+  "how": "whole",
+  "faces": 0
+ },
+ "nature-c8": {
+  "how": "whole",
+  "faces": 5
+ },
+ "portrait-c1": {
+  "how": "whole",
+  "faces": 3
+ },
+ "portrait-c3": {
+  "how": "whole",
+  "faces": 1
+ },
+ "portrait-c4": {
+  "how": "whole",
+  "faces": 3
+ },
+ "sage-c1": {
+  "how": "whole",
+  "faces": 3
+ },
+ "sage-c3": {
+  "how": "whole",
+  "faces": 3
+ },
+ "sage-c4": {
+  "how": "whole",
+  "faces": 2
+ },
+ "sage-c6": {
+  "how": "whole",
+  "faces": 4
+ },
+ "stone-c1": {
+  "how": "whole",
+  "faces": 0
+ },
+ "stone-c4": {
+  "how": "crop sides",
+  "faces": 0
+ },
+ "stone-c6": {
+  "how": "crop top/bottom",
+  "faces": 0
+ },
+ "stone-c7": {
+  "how": "crop sides",
+  "faces": 0
+ },
+ "stone-c8": {
+  "how": "crop sides",
+  "faces": 0
+ },
+ "storm-c1": {
+  "how": "crop sides",
+  "faces": 0
+ },
+ "storm-c2": {
+  "how": "whole",
+  "faces": 0
+ },
+ "storm-c3": {
+  "how": "crop top/bottom (faces kept)",
+  "faces": 1
+ },
+ "storm-c4": {
+  "how": "crop sides",
+  "faces": 0
+ },
+ "storm-c5": {
+  "how": "crop sides",
+  "faces": 0
+ },
+ "storm-c6": {
+  "how": "whole",
+  "faces": 6
+ },
+ "storm-c7": {
+  "how": "crop sides",
+  "faces": 0
+ },
+ "storm-c8": {
+  "how": "crop top/bottom",
+  "faces": 0
+ }
+}

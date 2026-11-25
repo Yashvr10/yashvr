@@ -12,10 +12,7 @@
   "dream-c13",
   "dream-c14",
   "alchemy-c12",
-  "l-ghost-c1",
   "l-ghost-c2",
-  "l-anatomy-c2",
-  "l-b-shadow-c3",
   "l-b-morning-c2",
   "l-b-shadow-c4",
   "l-b-shadow-c5"
@@ -49,10 +46,7 @@
   "double-c2",
   "l-night-c1",
   "l-night-c4",
-  "l-b-night-c1",
-  "l-b-night-c5",
   "l-b-night-c7",
-  "l-b-interior-c2",
   "l-b-interior-c5"
  ],
  "child": [
@@ -92,9 +86,6 @@
   "light-c12",
   "l-light-c2",
   "l-light-c3",
-  "l-light-c4",
-  "l-b-light-c2",
-  "l-b-light-c3",
   "l-b-light-c7"
  ],
  "nature": [
@@ -120,7 +111,6 @@
   "book-c6",
   "l-thinker-c1",
   "l-thinker-c2",
-  "l-thinker-c3",
   "l-thinker-c4",
   "l-thinker-c5",
   "l-thinker-c6",
@@ -135,8 +125,6 @@
   "book-c5",
   "l-monk-c3",
   "l-monk-c4",
-  "l-b-monk-c3",
-  "l-b-monk-c4",
   "l-b-monk-c6",
   "l-b-monk-c7"
  ],
@@ -148,9 +136,7 @@
   "death-c5",
   "death-c6",
   "alchemy-c17",
-  "l-hourglass-c1",
   "l-hourglass-c2",
-  "l-hourglass-c3",
   "l-hourglass-c4"
  ],
  "cosmos": [
@@ -168,12 +154,7 @@
   "portrait-c4",
   "alchemy-c4",
   "alchemy-c7",
-  "alchemy-c10",
-  "l-portrait-c1",
-  "l-portrait-c2",
-  "l-portrait-c3",
-  "l-portrait-c4",
-  "l-b-portrait-c1"
+  "alchemy-c10"
  ],
  "god": [
   "god-c1",
@@ -193,9 +174,6 @@
   "alchemy-c3"
  ],
  "double": [
-  "l-mirror-c1",
-  "l-mirror-c2",
-  "l-mirror-c4",
-  "l-b-mirror-c1"
+  "l-mirror-c4"
  ]
 }
