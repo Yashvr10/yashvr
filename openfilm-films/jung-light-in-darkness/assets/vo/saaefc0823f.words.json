@@ -1,0 +1,82 @@
+[
+{
+"word": "He",
+"start": 0.0,
+"end": 0.1
+},
+{
+"word": "meant",
+"start": 0.1,
+"end": 0.26
+},
+{
+"word": "doing",
+"start": 0.26,
+"end": 0.48
+},
+{
+"word": "your",
+"start": 0.48,
+"end": 0.72
+},
+{
+"word": "best,",
+"start": 0.72,
+"end": 1.1
+},
+{
+"word": "in",
+"start": 1.1,
+"end": 1.64
+},
+{
+"word": "the",
+"start": 1.64,
+"end": 1.76
+},
+{
+"word": "place",
+"start": 1.76,
+"end": 2.0
+},
+{
+"word": "you",
+"start": 2.0,
+"end": 2.24
+},
+{
+"word": "are",
+"start": 2.24,
+"end": 2.4
+},
+{
+"word": "in,",
+"start": 2.4,
+"end": 2.78
+},
+{
+"word": "with",
+"start": 2.78,
+"end": 3.1
+},
+{
+"word": "the",
+"start": 3.1,
+"end": 3.24
+},
+{
+"word": "means",
+"start": 3.24,
+"end": 3.44
+},
+{
+"word": "you",
+"start": 3.44,
+"end": 3.68
+},
+{
+"word": "have.",
+"start": 3.68,
+"end": 4.02
+}
+]

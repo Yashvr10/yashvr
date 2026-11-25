@@ -1,0 +1,42 @@
+[
+{
+"word": "Whatever",
+"start": 0.0,
+"end": 0.26
+},
+{
+"word": "lies",
+"start": 0.26,
+"end": 0.62
+},
+{
+"word": "beyond,",
+"start": 0.62,
+"end": 1.08
+},
+{
+"word": "life",
+"start": 1.4,
+"end": 1.52
+},
+{
+"word": "on",
+"start": 1.52,
+"end": 1.78
+},
+{
+"word": "earth",
+"start": 1.78,
+"end": 2.0
+},
+{
+"word": "matters",
+"start": 2.0,
+"end": 2.48
+},
+{
+"word": "enormously.",
+"start": 2.48,
+"end": 3.02
+}
+]

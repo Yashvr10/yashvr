@@ -1,0 +1,37 @@
+[
+{
+"word": "This",
+"start": 0.0,
+"end": 0.18
+},
+{
+"word": "is",
+"start": 0.18,
+"end": 0.3
+},
+{
+"word": "what",
+"start": 0.3,
+"end": 0.48
+},
+{
+"word": "I",
+"start": 0.48,
+"end": 0.68
+},
+{
+"word": "am,",
+"start": 0.68,
+"end": 1.0
+},
+{
+"word": "he",
+"start": 1.12,
+"end": 1.22
+},
+{
+"word": "thought.",
+"start": 1.22,
+"end": 1.52
+}
+]

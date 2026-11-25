@@ -1,0 +1,42 @@
+[
+{
+"word": "Lightning",
+"start": 0.0,
+"end": 0.34
+},
+{
+"word": "struck",
+"start": 0.34,
+"end": 0.78
+},
+{
+"word": "his",
+"start": 0.78,
+"end": 1.12
+},
+{
+"word": "favourite",
+"start": 1.12,
+"end": 1.48
+},
+{
+"word": "tree",
+"start": 1.48,
+"end": 1.92
+},
+{
+"word": "in",
+"start": 1.92,
+"end": 2.12
+},
+{
+"word": "the",
+"start": 2.12,
+"end": 2.24
+},
+{
+"word": "garden.",
+"start": 2.24,
+"end": 2.56
+}
+]

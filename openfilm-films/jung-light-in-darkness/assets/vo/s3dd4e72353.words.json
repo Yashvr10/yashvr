@@ -1,0 +1,67 @@
+[
+{
+"word": "In",
+"start": 0.0,
+"end": 0.16
+},
+{
+"word": "old",
+"start": 0.16,
+"end": 0.34
+},
+{
+"word": "age,",
+"start": 0.34,
+"end": 0.78
+},
+{
+"word": "Jung",
+"start": 0.78,
+"end": 1.18
+},
+{
+"word": "was",
+"start": 1.18,
+"end": 1.42
+},
+{
+"word": "asked",
+"start": 1.42,
+"end": 1.88
+},
+{
+"word": "again",
+"start": 1.88,
+"end": 2.38
+},
+{
+"word": "and",
+"start": 2.38,
+"end": 2.64
+},
+{
+"word": "again",
+"start": 2.64,
+"end": 2.98
+},
+{
+"word": "what",
+"start": 2.98,
+"end": 3.28
+},
+{
+"word": "happens",
+"start": 3.28,
+"end": 3.64
+},
+{
+"word": "after",
+"start": 3.64,
+"end": 4.08
+},
+{
+"word": "death.",
+"start": 4.08,
+"end": 4.38
+}
+]

@@ -1,0 +1,47 @@
+[
+{
+"word": "Everything",
+"start": 0.0,
+"end": 0.4
+},
+{
+"word": "had",
+"start": 0.4,
+"end": 0.56
+},
+{
+"word": "happened",
+"start": 0.56,
+"end": 0.96
+},
+{
+"word": "because",
+"start": 0.96,
+"end": 1.44
+},
+{
+"word": "he",
+"start": 1.44,
+"end": 1.66
+},
+{
+"word": "was",
+"start": 1.66,
+"end": 1.94
+},
+{
+"word": "who",
+"start": 1.94,
+"end": 2.22
+},
+{
+"word": "he",
+"start": 2.22,
+"end": 2.42
+},
+{
+"word": "was.",
+"start": 2.42,
+"end": 2.84
+}
+]

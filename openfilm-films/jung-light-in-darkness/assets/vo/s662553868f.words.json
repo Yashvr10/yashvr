@@ -1,0 +1,47 @@
+[
+{
+"word": "Everything",
+"start": 0.0,
+"end": 0.5
+},
+{
+"word": "he",
+"start": 0.5,
+"end": 0.74
+},
+{
+"word": "had",
+"start": 0.74,
+"end": 0.86
+},
+{
+"word": "lived,",
+"start": 0.86,
+"end": 1.18
+},
+{
+"word": "he",
+"start": 1.3,
+"end": 1.38
+},
+{
+"word": "now",
+"start": 1.38,
+"end": 1.6
+},
+{
+"word": "carried",
+"start": 1.6,
+"end": 1.9
+},
+{
+"word": "with",
+"start": 1.9,
+"end": 2.18
+},
+{
+"word": "him.",
+"start": 2.18,
+"end": 2.46
+}
+]

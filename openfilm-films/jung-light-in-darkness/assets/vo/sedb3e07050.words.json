@@ -1,0 +1,47 @@
+[
+{
+"word": "The",
+"start": 0.0,
+"end": 0.16
+},
+{
+"word": "question",
+"start": 0.16,
+"end": 0.42
+},
+{
+"word": "is",
+"start": 0.42,
+"end": 0.9
+},
+{
+"word": "whether",
+"start": 0.9,
+"end": 1.18
+},
+{
+"word": "you",
+"start": 1.18,
+"end": 1.42
+},
+{
+"word": "answered",
+"start": 1.42,
+"end": 1.82
+},
+{
+"word": "your",
+"start": 1.82,
+"end": 2.06
+},
+{
+"word": "own",
+"start": 2.06,
+"end": 2.3
+},
+{
+"word": "calling.",
+"start": 2.3,
+"end": 2.68
+}
+]
