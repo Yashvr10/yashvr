@@ -1,0 +1,2278 @@
+{
+ "scenes": [
+  {
+   "id": "s786e9b5f56",
+   "text": "At the end of his life, Carl Jung said that his story was not the story of what happened to him.",
+   "th": [
+    "dream"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s4c1315a140",
+   "text": "It was the story of what rose up from inside him.",
+   "th": [
+    "dream"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "s0174d8c524",
+   "text": "He compared a human life to a plant that lives on its rhizome.",
+   "th": [
+    "nature"
+   ],
+   "big": "rhizome",
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s78931566e2",
+   "text": "The real life is hidden underground, in the root.",
+   "th": [
+    "cave",
+    "mandala"
+   ],
+   "big": "root",
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s63c5a90cd4",
+   "text": "What shows above the soil is only a flower, and the flower lasts a single summer.",
+   "th": [
+    "nature"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "s8c005b2c96",
+   "text": "So when he finally told his story, in his eighties, he barely mentioned the outer events: the jobs, the honours, the travels.",
+   "th": [
+    "dream"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "sa88099ad6a",
+   "text": "He said they had faded, that they felt hollow next to the other thing.",
+   "th": [
+    "dream"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "sba2f4fbff4",
+   "text": "What he remembered with total clarity were his dreams, his visions, and his long struggle with the unconscious.",
+   "th": [
+    "dream"
+   ],
+   "big": "unconscious",
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s11ce8b801b",
+   "text": "Those, he said, were the raw material of everything he ever did.",
+   "th": [
+    "dream"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "scb7a9eb7f7",
+   "text": "This is that other story.",
+   "th": [
+    "dream"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s5baba8f39e",
+   "text": "The story underneath.",
+   "th": [
+    "dream"
+   ],
+   "big": "underneath",
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "ch1",
+   "card": "chapter",
+   "num": "I",
+   "title": "The Thing Under the Ground",
+   "len": 4.4
+  },
+  {
+   "id": "qc9d703aa59",
+   "text": "\"The dream is a little hidden door in the innermost and most secret recesses of the soul.\" Carl Jung, The Meaning of Psychology for Modern Man.",
+   "quote": true,
+   "th": [
+    "child",
+    "dream"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.6
+  },
+  {
+   "id": "s5a45ee1e2a",
+   "text": "It begins in a parsonage in Switzerland, with a little boy, barely three or four years old, and a dream he would never forget.",
+   "th": [
+    "child",
+    "dream"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "sa0ebee50be",
+   "text": "In the dream, he is in a meadow near his home, and he finds a hole in the ground, lined with stone.",
+   "th": [
+    "cave",
+    "stone"
+   ],
+   "big": "stone",
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s30e375b823",
+   "text": "A stairway leads down into the dark.",
+   "th": [
+    "cave",
+    "storm"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "sda5d2c4358",
+   "text": "Afraid, but curious, he goes down.",
+   "th": [
+    "dream"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "sa677df11a9",
+   "text": "At the bottom there is an arched doorway, closed by a heavy green curtain.",
+   "th": [
+    "cave"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "sbeaf1bacc4",
+   "text": "He pushes it aside.",
+   "th": [
+    "dream"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "sb832c9080b",
+   "text": "Behind it is a long stone chamber, and at the far end, on a golden throne, stands something enormous.",
+   "th": [
+    "cave",
+    "idol"
+   ],
+   "big": "throne",
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s8c985d8e31",
+   "text": "At first he thinks it is a tree trunk.",
+   "th": [
+    "nature"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "s691b54a61b",
+   "text": "But it is made of skin and flesh.",
+   "th": [
+    "dream"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "sf5afed79eb",
+   "text": "At its top is a round head with no face and no hair, and a single eye, staring upward without moving.",
+   "th": [
+    "idol",
+    "flood"
+   ],
+   "big": "eye",
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "s2d35a2aa1a",
+   "text": "The boy is frozen with terror.",
+   "th": [
+    "child"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s33c5ee6f62",
+   "text": "Then, from somewhere above, he hears his mother's voice: \"Look at him.",
+   "th": [
+    "child"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "sa5c0dfc594",
+   "text": "That is the man-eater!",
+   "th": [
+    "idol"
+   ],
+   "big": "man-eater",
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s9efac2c92e",
+   "text": "He wakes up drenched in sweat.",
+   "th": [
+    "dream"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "s29eb360f0f",
+   "text": "Decades later, Jung understood that the thing on the throne was an ancient ritual symbol, an underground god, a god of the earth and of the body, the opposite of the gentle Jesus his father preached about every Sunday.",
+   "th": [
+    "cave",
+    "idol"
+   ],
+   "big": "throne",
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "s5853386162",
+   "text": "Every time the adults spoke too sweetly about Lord Jesus, the boy would think of the other one, the one under the ground.",
+   "th": [
+    "cave",
+    "child"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "s8ac0322e04",
+   "text": "He later said that this dream was his initiation.",
+   "th": [
+    "dream"
+   ],
+   "big": "initiation",
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "sb65eb525a8",
+   "text": "Before he knew anything about light, he had been shown the darkness.",
+   "th": [
+    "light",
+    "storm"
+   ],
+   "big": "light",
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "sfead63bc22",
+   "text": "There was another secret.",
+   "th": [
+    "dream"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s2f5700d325",
+   "text": "In the garden, on a slope, there was a stone that stuck out of the earth.",
+   "th": [
+    "stone",
+    "nature"
+   ],
+   "big": "stone",
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "sa3602c72b7",
+   "text": "He called it his stone.",
+   "th": [
+    "stone"
+   ],
+   "big": "stone",
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "s524b274647",
+   "text": "He would sit on it for hours and play a strange game with himself.",
+   "th": [
+    "mandala"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s051cfdcdd8",
+   "text": "Am I the one sitting on the stone?",
+   "th": [
+    "stone"
+   ],
+   "big": "stone",
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s4d4ef1ecc9",
+   "text": "Or am I the stone, and he is sitting on me?",
+   "th": [
+    "stone"
+   ],
+   "big": "stone",
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "s918a824d59",
+   "text": "As he grew, the boy noticed that he seemed to be two people.",
+   "th": [
+    "child",
+    "double"
+   ],
+   "big": "two",
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "sac26b62269",
+   "text": "The first was the son of his parents: a schoolboy, awkward, often lazy, not as clever or as clean as the other boys.",
+   "th": [
+    "child",
+    "flood"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "se236ccc4ca",
+   "text": "Jung later called him personality number one.",
+   "th": [
+    "double"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "sa2d024bdb1",
+   "text": "The second was old.",
+   "th": [
+    "dream"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "sff34f3ce90",
+   "text": "Sceptical, solitary, distant from people but close to nature, to the night, to dreams, and to God.",
+   "th": [
+    "storm",
+    "dream"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "sd28b058ca1",
+   "text": "Personality number two.",
+   "th": [
+    "double"
+   ],
+   "big": "two",
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "sdc6e01d841",
+   "text": "For years he thought something was wrong with him.",
+   "th": [
+    "dream"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s67aed84ab8",
+   "text": "Only much later did he realise that this was not a split or a sickness.",
+   "th": [
+    "double"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s0de161cf4f",
+   "text": "It is the play of opposites that lives inside every one of us.",
+   "th": [
+    "double"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "ch2",
+   "card": "chapter",
+   "num": "II",
+   "title": "The Little Light",
+   "len": 4.4
+  },
+  {
+   "id": "qc516eba01d",
+   "text": "\"The sole purpose of human existence is to kindle a light in the darkness of mere being.\" Carl Jung, Memories, Dreams, Reflections.",
+   "quote": true,
+   "th": [
+    "light",
+    "storm"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.6
+  },
+  {
+   "id": "sc07efb7cbd",
+   "text": "As school ended, Jung was torn.",
+   "th": [
+    "child"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s924a69b09b",
+   "text": "He loved nature and science.",
+   "th": [
+    "nature"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s80b31b815a",
+   "text": "He also loved history, philosophy, the ancient worlds of Egypt and Babylon.",
+   "th": [
+    "dream"
+   ],
+   "big": "history",
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s7fb7b02aa5",
+   "text": "He dreamed of becoming an archaeologist, but his family had no money.",
+   "th": [
+    "dream"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "s58ea080f94",
+   "text": "Then came a dream.",
+   "th": [
+    "dream"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s311c8c4f24",
+   "text": "Deep in a forest he found a hidden pool, and lying in the clear water was a wonderful creature, round, shimmering with every colour, made of countless tiny cells.",
+   "th": [
+    "flood",
+    "mandala"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "se9d2e9f913",
+   "text": "He woke with his heart pounding, burning to know.",
+   "th": [
+    "dream"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "sd6621b6ef4",
+   "text": "He would study the natural sciences.",
+   "th": [
+    "dream"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "sa6db726f08",
+   "text": "He would study medicine.",
+   "th": [
+    "doctor"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "s3eb9c02f67",
+   "text": "And yet, even then, he hadn't found his path.",
+   "th": [
+    "dream"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s97d309bef0",
+   "text": "At the very end of his studies, he opened the last textbook on his list, the one on psychiatry.",
+   "th": [
+    "doctor",
+    "book"
+   ],
+   "big": "psychiatry",
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s67f4ffb351",
+   "text": "He expected nothing from it.",
+   "th": [
+    "dream"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "sfcd0d24768",
+   "text": "In the preface, the author called mental illnesses \"diseases of the personality\".",
+   "th": [
+    "flood",
+    "book"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s44e12084ce",
+   "text": "Jung's heart began to pound so hard that he had to stand up.",
+   "th": [
+    "dream"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "sd9d9dae83e",
+   "text": "In a flash he saw that here, and only here, nature and spirit met.",
+   "th": [
+    "nature"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s15e4b2cd5d",
+   "text": "His two personalities could finally flow into one river.",
+   "th": [
+    "double"
+   ],
+   "big": "two",
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "s854c7e59c2",
+   "text": "Around then, he had a dream.",
+   "th": [
+    "dream",
+    "mandala"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "sdd7bf15b5b",
+   "text": "It was night, and he was walking against a violent wind, through thick fog, holding a tiny flame cupped in his hands.",
+   "th": [
+    "light",
+    "storm"
+   ],
+   "big": "flame",
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s5249738b4b",
+   "text": "It could go out at any moment.",
+   "th": [
+    "dream"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "s9c5f7b0933",
+   "text": "He looked back, and saw a gigantic black figure following him.",
+   "th": [
+    "dream"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "sb13913a30f",
+   "text": "And yet, in the middle of his terror, he knew one thing: whatever happened, he had to keep that little light alive.",
+   "th": [
+    "child",
+    "light"
+   ],
+   "big": "light",
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "s406b59b2a7",
+   "text": "When he woke, he understood.",
+   "th": [
+    "dream"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s634d55971b",
+   "text": "The giant was only his own shadow, cast by the very light he was carrying.",
+   "th": [
+    "double",
+    "light"
+   ],
+   "big": "shadow",
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "sf32a298c7b",
+   "text": "And the light was his consciousness: tiny and fragile against the dark, but the only light he had.",
+   "th": [
+    "light",
+    "storm"
+   ],
+   "big": "light",
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "sd1f9a60fc2",
+   "text": "He took a post at the Burghölzli, a large asylum in Zurich.",
+   "th": [
+    "doctor"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "sa98d1d4be9",
+   "text": "In those days, psychiatry mostly sorted patients into categories and locked them away.",
+   "th": [
+    "doctor"
+   ],
+   "big": "psychiatry",
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s32b5f31e2d",
+   "text": "The person behind the illness hardly mattered.",
+   "th": [
+    "dream"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "s9ee269dca5",
+   "text": "Jung began to do something unusual.",
+   "th": [
+    "dream"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s06e69f33f5",
+   "text": "He listened.",
+   "th": [
+    "dream"
+   ],
+   "big": "listened",
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "s4d6c03961b",
+   "text": "He found that even the wildest delusions had meaning.",
+   "th": [
+    "dream"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s54aa316f51",
+   "text": "Behind every breakdown there was a story, a hidden life, a secret, and if you could find that secret, you held the key to the cure.",
+   "th": [
+    "dream"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "s4fadfc95d5",
+   "text": "One patient was a young woman who had stopped speaking entirely.",
+   "th": [
+    "doctor"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s5c5aa9dbe3",
+   "text": "Over many weeks, very slowly, Jung earned her trust, and finally she told him: she had been living on the moon.",
+   "th": [
+    "cosmos"
+   ],
+   "big": "moon",
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "sd48a3501e0",
+   "text": "By telling Jung her story, she broke the spell of that other world.",
+   "th": [
+    "dream"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s290cce6ed1",
+   "text": "She came back down to earth.",
+   "th": [
+    "dream"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s7f650e6345",
+   "text": "She recovered, and later she even married.",
+   "th": [
+    "dream"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "sbbba4224f4",
+   "text": "From that moment, Jung never saw the mentally ill the same way.",
+   "th": [
+    "doctor"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "sf591b1485a",
+   "text": "Their inner worlds were not noise.",
+   "th": [
+    "dream"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s9447b39f31",
+   "text": "They were rich, real, and full of meaning.",
+   "th": [
+    "dream"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "s658fd7900c",
+   "text": "He came to believe that a doctor cannot heal from behind a desk.",
+   "th": [
+    "doctor"
+   ],
+   "big": "doctor",
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "sf16b96a877",
+   "text": "He has to meet the patient face to face, one human being to another, and he has to be touched by the patient's suffering himself.",
+   "th": [
+    "doctor",
+    "mandala"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "sbda82755a0",
+   "text": "As he would later put it, \"Only the wounded physician heals.\"",
+   "th": [
+    "doctor"
+   ],
+   "big": "wounded",
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "ch3",
+   "card": "chapter",
+   "num": "III",
+   "title": "The Descent",
+   "len": 4.4
+  },
+  {
+   "id": "q7c581c1b6c",
+   "text": "\"One does not become enlightened by imagining figures of light, but by making the darkness conscious.\" Carl Jung, The Philosophical Tree.",
+   "quote": true,
+   "th": [
+    "light",
+    "storm"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.6
+  },
+  {
+   "id": "sed2da1c51d",
+   "text": "For a few years, Jung was the favourite son of Sigmund Freud.",
+   "th": [
+    "portrait"
+   ],
+   "big": "freud",
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s4d4f81ff1f",
+   "text": "Freud even called him his crown prince.",
+   "th": [
+    "portrait"
+   ],
+   "big": "freud",
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "s8d2eaf3da7",
+   "text": "But Jung could not accept that everything in the psyche came down to sex.",
+   "th": [
+    "dream"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s4431489e79",
+   "text": "In nineteen twelve he published his own ideas, and the friendship broke apart.",
+   "th": [
+    "dream"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "se102937906",
+   "text": "He lost his mentor and most of his colleagues.",
+   "th": [
+    "portrait"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s97d6805b57",
+   "text": "Suddenly he was standing on nothing.",
+   "th": [
+    "dream"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "saf61082d2b",
+   "text": "He felt a terrible pressure building inside him, so strong that he wondered if he was losing his mind.",
+   "th": [
+    "dream"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "s3bdf1e8629",
+   "text": "So he made a strange decision.",
+   "th": [
+    "dream"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "sa5335057d3",
+   "text": "Since he knew nothing at all, he would simply do whatever came to him.",
+   "th": [
+    "dream"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s1fc4acaea2",
+   "text": "He would surrender to the unconscious.",
+   "th": [
+    "dream"
+   ],
+   "big": "unconscious",
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "se31a5d2a9a",
+   "text": "The first thing that came up was a memory: himself, as a boy of ten or eleven, playing for hours with building blocks, making little houses and castles.",
+   "th": [
+    "stone",
+    "child"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "sabd1936c34",
+   "text": "And the memory came with a wave of emotion.",
+   "th": [
+    "dream"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s8075806c23",
+   "text": "That little boy still had something alive in him, something creative that the grown man had lost.",
+   "th": [
+    "child"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "sac74e040ea",
+   "text": "He gathered stones from the lake shore, and every day, after lunch and before his patients arrived, he played.",
+   "th": [
+    "stone",
+    "doctor"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s96ac058419",
+   "text": "He built cottages, a castle, a whole village.",
+   "th": [
+    "cave",
+    "stone"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "sb060b0269d",
+   "text": "Then, in October of nineteen thirteen, on a train journey, a vision hit him.",
+   "th": [
+    "dream"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "s9ef158b1ba",
+   "text": "He saw a monstrous flood covering all of Europe, from the North Sea to the Alps.",
+   "th": [
+    "flood"
+   ],
+   "big": "flood",
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "sfcf1819406",
+   "text": "He saw the rubble of civilisation floating in yellow waves, and the drowned bodies of countless thousands.",
+   "th": [
+    "flood"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s36e56e3707",
+   "text": "Then the whole sea turned to blood.",
+   "th": [
+    "cave",
+    "flood"
+   ],
+   "big": "blood",
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "s56c7f687b7",
+   "text": "He was sure he was going mad.",
+   "th": [
+    "doctor"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "sc938b8ed0e",
+   "text": "Then, on the first of August, nineteen fourteen, the First World War broke out.",
+   "th": [
+    "flood"
+   ],
+   "big": "war",
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "sda739f132b",
+   "text": "Now his task was clear.",
+   "th": [
+    "dream"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s46704e29e9",
+   "text": "He had to understand what had happened, and how his own inner experience was tied to the fate of the whole world.",
+   "th": [
+    "cave"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "s17ecaf20ce",
+   "text": "For years he let the fantasies come.",
+   "th": [
+    "dream"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "saa106328d7",
+   "text": "He wrote them down in black notebooks, and later copied and painted them, by hand, into a great red leather book.",
+   "th": [
+    "book"
+   ],
+   "big": "red",
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "sa835282c3f",
+   "text": "He learned something that saved his life: as long as he could turn the raw emotions into images, he was calm.",
+   "th": [
+    "dream"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s1ff072a7c6",
+   "text": "If he had left the images buried in the emotions, they would have torn him apart.",
+   "th": [
+    "dream"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "s98dbf1d0ec",
+   "text": "In these depths he met figures who seemed to have a life of their own.",
+   "th": [
+    "cave",
+    "sage"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s49fc84f558",
+   "text": "The most important was an old man with the horns of a bull and the wings of a kingfisher.",
+   "th": [
+    "sage"
+   ],
+   "big": "kingfisher",
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "see35426d13",
+   "text": "He called him Philemon.",
+   "th": [
+    "sage"
+   ],
+   "big": "philemon",
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "s421f847402",
+   "text": "Philemon told him something that changed everything.",
+   "th": [
+    "sage"
+   ],
+   "big": "philemon",
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s02ea60d451",
+   "text": "Thoughts are not things you make.",
+   "th": [
+    "dream"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s70f0dd1cd4",
+   "text": "They are like animals in a forest, or people in a room, or birds in the air.",
+   "th": [
+    "nature"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "sdc3a11d3fa",
+   "text": "You do not create them.",
+   "th": [
+    "dream"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s753e131a0d",
+   "text": "You meet them.",
+   "th": [
+    "dream"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "s44bd50c33c",
+   "text": "But Jung knew how dangerous this road was.",
+   "th": [
+    "dream"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "sfb9270051d",
+   "text": "He had seen what happened to Nietzsche, who lived only in the world of his thoughts until they swallowed him.",
+   "th": [
+    "portrait"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "s73df9d30d7",
+   "text": "So he held on to the earth.",
+   "th": [
+    "dream"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "sc76e733212",
+   "text": "To his wife and children.",
+   "th": [
+    "child"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "sf41e1ac2ba",
+   "text": "To his patients.",
+   "th": [
+    "doctor"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "sf68575e2b4",
+   "text": "To ordinary daily life.",
+   "th": [
+    "dream"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s6f2eee2c8f",
+   "text": "Every night he went down into the dark, and every morning he came back up.",
+   "th": [
+    "cave",
+    "storm"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "s01847e92bf",
+   "text": "And slowly, a new shape began to appear.",
+   "th": [
+    "dream"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s10b0be41c0",
+   "text": "Every morning he sketched a small circle in a notebook: a mandala.",
+   "th": [
+    "book",
+    "mandala"
+   ],
+   "big": "mandala",
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "se1458bc418",
+   "text": "And each one showed him, exactly, the state of his soul that day.",
+   "th": [
+    "god"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "sfd7fe0671c",
+   "text": "In time, he saw that all of his paths, all of his wandering, were circling around a single point.",
+   "th": [
+    "mandala"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "sa4d87021e8",
+   "text": "The centre.",
+   "th": [
+    "mandala"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "sc6dffe0224",
+   "text": "What he would call the Self.",
+   "th": [
+    "mandala"
+   ],
+   "big": "self",
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "ch4",
+   "card": "chapter",
+   "num": "IV",
+   "title": "Stone and Water",
+   "len": 4.4
+  },
+  {
+   "id": "qe03ad3a721",
+   "text": "\"In all chaos there is a cosmos, in all disorder a secret order.\" Carl Jung, The Archetypes and the Collective Unconscious.",
+   "quote": true,
+   "th": [
+    "cosmos"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.6
+  },
+  {
+   "id": "s10f229a6f4",
+   "text": "For the next twenty years, Jung searched for proof that what he had gone through was not just personal madness.",
+   "th": [
+    "flood"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s8efe5796b8",
+   "text": "Had anyone walked this road before?",
+   "th": [
+    "dream"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "sb3ae8d0f37",
+   "text": "He found the answer in the most unexpected place: in old, dusty books of alchemy.",
+   "th": [
+    "book",
+    "alchemy"
+   ],
+   "big": "alchemy",
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "s97fd55cddf",
+   "text": "On the surface, the alchemists were trying to turn lead into gold.",
+   "th": [
+    "alchemy"
+   ],
+   "big": "gold",
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s0490e889c1",
+   "text": "But Jung saw that their strange pictures, of kings and queens, dragons and suns, death and rebirth in the sealed vessel, were really maps of the soul.",
+   "th": [
+    "flood",
+    "alchemy"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "s345cbc808a",
+   "text": "The alchemists had been projecting their inner transformation into matter.",
+   "th": [
+    "alchemy"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s26a867554b",
+   "text": "Their work was his work.",
+   "th": [
+    "dream"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "sfba0c2b831",
+   "text": "Their world was his world.",
+   "th": [
+    "dream"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "sb18fa75fd2",
+   "text": "But words on paper were not enough for him.",
+   "th": [
+    "book"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s73710234e4",
+   "text": "He wanted to make a confession of faith in stone.",
+   "th": [
+    "stone",
+    "god"
+   ],
+   "big": "stone",
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "se3f769585c",
+   "text": "So on the shore of Lake Zurich, at a place called Bollingen, he built himself a tower with his own hands.",
+   "th": [
+    "stone",
+    "flood"
+   ],
+   "big": "bollingen",
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "sf6612fb889",
+   "text": "He had no electricity, no running water.",
+   "th": [
+    "flood"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s7acd93fd4a",
+   "text": "He pumped water from the well, chopped his own wood, lit the oil lamps at night, and cooked his own food.",
+   "th": [
+    "light",
+    "storm"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "s5414ab7802",
+   "text": "These simple acts make a man simple, he said.",
+   "th": [
+    "dream"
+   ],
+   "big": "simple",
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s5a48b78b3b",
+   "text": "And how difficult it is to be simple!",
+   "th": [
+    "dream"
+   ],
+   "big": "simple",
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "sc2ba7c2a52",
+   "text": "For him, the tower was a kind of womb, a place where he could become what he was, what he is, and what he would be.",
+   "th": [
+    "stone"
+   ],
+   "big": "tower",
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "sbcdfb8340a",
+   "text": "He felt reborn in stone.",
+   "th": [
+    "stone"
+   ],
+   "big": "stone",
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "sb88aac235c",
+   "text": "And he never forgot the stone from his childhood garden.",
+   "th": [
+    "stone",
+    "child"
+   ],
+   "big": "stone",
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "ch5",
+   "card": "chapter",
+   "num": "V",
+   "title": "The Edge of the World",
+   "len": 4.4
+  },
+  {
+   "id": "qfd63b73c6b",
+   "text": "\"Death is psychologically as important as birth, and, like it, is an integral part of life.\" Carl Jung, The Soul and Death.",
+   "quote": true,
+   "th": [
+    "death"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.6
+  },
+  {
+   "id": "sf6c4ab0aae",
+   "text": "In nineteen forty-four, Jung slipped on the ice, broke his foot, and then suffered a heart attack.",
+   "th": [
+    "death"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s7ce0a6e2b3",
+   "text": "For days, he hung between life and death.",
+   "th": [
+    "death"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "s25af0ca4e8",
+   "text": "And on that edge he had the most powerful visions of his life.",
+   "th": [
+    "dream"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "s75cee93fa3",
+   "text": "He found himself high above the earth.",
+   "th": [
+    "mandala"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s35508ca535",
+   "text": "Far below, he saw the globe, bathed in a glorious blue light.",
+   "th": [
+    "light",
+    "cosmos"
+   ],
+   "big": "light",
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "sf0d6a18c55",
+   "text": "He saw the deserts of Arabia, the snowy Himalayas, the dark sea.",
+   "th": [
+    "storm",
+    "flood"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "sd6b5bedd9a",
+   "text": "Then he turned, and floating in space next to him was a huge block of dark stone, hollowed into a temple.",
+   "th": [
+    "stone",
+    "storm"
+   ],
+   "big": "stone",
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s459ee09293",
+   "text": "At its entrance, an Indian sage sat silently, waiting for him.",
+   "th": [
+    "sage"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "s394f96402f",
+   "text": "As he walked toward the entrance, everything he had wished for, everything he had aimed for, the whole show of earthly life, was stripped away from him.",
+   "th": [
+    "cave",
+    "flood"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s9c2ee4d7af",
+   "text": "It was painful.",
+   "th": [
+    "dream"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "sbff733cba6",
+   "text": "And yet something remained.",
+   "th": [
+    "dream"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s96e9f67d64",
+   "text": "He was made of his own history.",
+   "th": [
+    "dream"
+   ],
+   "big": "history",
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s662553868f",
+   "text": "Everything he had lived, he now carried with him.",
+   "th": [
+    "dream"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s68f4f7ce53",
+   "text": "This is what I am, he thought.",
+   "th": [
+    "dream"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "s3c1ce21a1f",
+   "text": "And he knew that inside the temple, he would finally understand where he came from, why he had been born, and where his life was flowing.",
+   "th": [
+    "sage"
+   ],
+   "big": "temple",
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "s27792bd90c",
+   "text": "But before he could enter, his own doctor appeared, floating up from the earth, with a message: he had no right to leave yet.",
+   "th": [
+    "doctor",
+    "sage"
+   ],
+   "big": "doctor",
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "sdf3753924e",
+   "text": "He had to go back.",
+   "th": [
+    "dream"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "s6ba3cba7f4",
+   "text": "And the vision ended.",
+   "th": [
+    "dream"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "sac8aac36f0",
+   "text": "Jung was bitterly disappointed.",
+   "th": [
+    "dream"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "scc96e65f0f",
+   "text": "For weeks, the real world looked to him like a painted curtain with black holes in it.",
+   "th": [
+    "cave"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "sb9c49785d8",
+   "text": "Life felt like a prison of little boxes, where each person sat alone in his own box.",
+   "th": [
+    "child"
+   ],
+   "big": "boxes",
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "s77b929aeed",
+   "text": "But at night, around midnight, the visions returned.",
+   "th": [
+    "storm",
+    "dream"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "sf64b607acb",
+   "text": "He felt as though he were floating in the womb of the universe, in an infinite void, filled with a happiness he could not describe.",
+   "th": [
+    "cosmos"
+   ],
+   "big": "womb",
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "ch6",
+   "card": "chapter",
+   "num": "VI",
+   "title": "Kindle a Light",
+   "len": 4.4
+  },
+  {
+   "id": "q85962b9c10",
+   "text": "\"Who looks outside, dreams. Who looks inside, awakes.\" Carl Jung, in a letter.",
+   "quote": true,
+   "th": [
+    "dream",
+    "book"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.6
+  },
+  {
+   "id": "s3dd4e72353",
+   "text": "In old age, Jung was asked again and again what happens after death.",
+   "th": [
+    "death"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s38ccffa68d",
+   "text": "He did not pretend to know.",
+   "th": [
+    "dream"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "sdcfe8ba82e",
+   "text": "But he was sure of one thing.",
+   "th": [
+    "dream"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s2e5e0dd31e",
+   "text": "Whatever lies beyond, life on earth matters enormously.",
+   "th": [
+    "dream"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s26b7ae2051",
+   "text": "Because only here, where the opposites clash, where we suffer and choose, can consciousness grow.",
+   "th": [
+    "double",
+    "light"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "sf4b8acd57c",
+   "text": "And that, he believed, is our task.",
+   "th": [
+    "dream"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s83e2ea2466",
+   "text": "Not to escape the darkness, but to carry a small light into it.",
+   "th": [
+    "light",
+    "storm"
+   ],
+   "big": "light",
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "sc6bd761b25",
+   "text": "He said the decisive question for any human being is this: are you related to something infinite, or not?",
+   "th": [
+    "cosmos"
+   ],
+   "big": "infinite",
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "s227abb9c85",
+   "text": "If you feel, even here, even now, a link to the infinite, then your desires change.",
+   "th": [
+    "cosmos"
+   ],
+   "big": "infinite",
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "sccf204f288",
+   "text": "Your whole attitude changes.",
+   "th": [
+    "cave"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "s89118ff9bf",
+   "text": "And he did not mean anything grand.",
+   "th": [
+    "dream"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "saaefc0823f",
+   "text": "He meant doing your best, in the place you are in, with the means you have.",
+   "th": [
+    "dream"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "sedf0fdc2f7",
+   "text": "Even something small, done with all your heart, moves the whole of humanity forward.",
+   "th": [
+    "cave",
+    "flood"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "sd09cbee4a8",
+   "text": "The question is not whether your life was big.",
+   "th": [
+    "dream"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "sedb3e07050",
+   "text": "The question is whether you answered your own calling.",
+   "th": [
+    "dream"
+   ],
+   "big": "calling",
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "sb389615b68",
+   "text": "Because if you don't, Jung warned, the problem doesn't disappear.",
+   "th": [
+    "flood"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s95154e5571",
+   "text": "It goes into a neurosis.",
+   "th": [
+    "doctor"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s30e207dace",
+   "text": "Or it passes down to your children, who must carry the weight of your unlived life on top of their own.",
+   "th": [
+    "child"
+   ],
+   "big": "unlived",
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "s8cb99cec84",
+   "text": "So he chose to suffer, if he had to, for things that were truly his own.",
+   "th": [
+    "dream"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "s48834c03cf",
+   "text": "Near the end, he looked back and said he was satisfied.",
+   "th": [
+    "dream"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s827071076b",
+   "text": "Nothing had gone as he expected.",
+   "th": [
+    "dream"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s845f4fe6f3",
+   "text": "Everything had happened because he was who he was.",
+   "th": [
+    "dream"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "s3578592e31",
+   "text": "The older he got, the less certain he felt about himself, and the more he felt a kinship with all things: plants, animals, clouds, day and night.",
+   "th": [
+    "storm",
+    "mandala"
+   ],
+   "big": "kinship",
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "s579db8b03b",
+   "text": "A few days before he died, he described one last dream.",
+   "th": [
+    "dream",
+    "death"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "s104c513660",
+   "text": "He saw a great round stone in a high place, in the full sun.",
+   "th": [
+    "stone",
+    "mandala"
+   ],
+   "big": "stone",
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "sb997336421",
+   "text": "Carved into it were words telling him that this was a sign of the wholeness he had achieved.",
+   "th": [
+    "cave",
+    "book"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "s97ef1f2905",
+   "text": "Then he saw trees, their roots reaching up from the ground and wrapping around him, threaded with gold.",
+   "th": [
+    "mandala",
+    "nature"
+   ],
+   "big": "gold",
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "s5ab48ddf7c",
+   "text": "Those around him said he smiled often, and was happy.",
+   "th": [
+    "mandala"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "sf7ae574f7f",
+   "text": "Carl Gustav Jung died on the sixth of June, nineteen sixty-one, at his home by the lake.",
+   "th": [
+    "flood",
+    "death"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "sdc0277a04b",
+   "text": "A short while later, a great storm broke over the house.",
+   "th": [
+    "storm"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s9b4608042d",
+   "text": "Lightning struck his favourite tree in the garden.",
+   "th": [
+    "light",
+    "storm"
+   ],
+   "big": "lightning",
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "sb8fad6f7cd",
+   "text": "Above the door of that house he had carved an old Latin saying, and today it is carved on his grave too.",
+   "th": [
+    "book",
+    "death"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s87210ae9b4",
+   "text": "Vocatus atque non vocatus, deus aderit.",
+   "th": [
+    "god"
+   ],
+   "big": "vocatus",
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s5f68307e48",
+   "text": "Called or not called, God will be present.",
+   "th": [
+    "god"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "se91ccf65c8",
+   "text": "The flower has passed.",
+   "th": [
+    "nature"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "sb8478d80c0",
+   "text": "The root remains.",
+   "th": [
+    "dream"
+   ],
+   "big": "root",
+   "red": false,
+   "gap": 1.55
+  }
+ ]
+}
