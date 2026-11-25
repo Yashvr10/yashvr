@@ -2,8 +2,8 @@
 # dark, slightly contrasty grade with film grain (black-and-white prints stay black and white).
 #   faces     found with OpenCV's YuNet detector (src/models, from opencv_zoo, MIT licence), plus the Haar frontal and
 #             profile cascades as a back-up; each face gets room above (hair, hat) and below (chin, collar).
-#   wide      pictures (wider than 1.6:1) lose only their sides, and the crop is slid to keep every face in.
-#   landscape pictures (1.2:1 to 1.6:1) are cropped top and bottom only when every face still fits with room to spare.
+#   wide      pictures (wider than 16:9) lose only their sides, and the crop is slid to keep every face in.
+#   landscape pictures (1.2:1 to 16:9) are cropped top and bottom only when every face still fits with room to spare.
 #   the rest  (tall or square pictures, or faces that would not fit) are shown whole, full height, centred on a blurred,
 #             darkened copy of themselves, so nothing is cut.
 # Writes assets/photos169/<k>.jpg and src/framing.json (how each picture was framed; checked in a contact sheet).
@@ -31,12 +31,22 @@ def faces(im):
         boxes.append((max(0, x - 0.35 * ww), max(0, y - 0.7 * hh), min(W, x + 1.35 * ww), min(H, y + 1.45 * hh)))
     return boxes
 def union(b): return (min(x[0] for x in b), min(x[1] for x in b), max(x[2] for x in b), max(x[3] for x in b))
+def trim(im):   # cut dark scan borders (rows/columns that are nearly black and flat) off each edge
+    g = np.asarray(im.convert("L")).astype(np.float32); H, W = g.shape
+    dark = lambda v: v.mean() < 28 and v.std() < 14
+    t, b, l, r = 0, H, 0, W
+    while t < H * 0.12 and dark(g[t, l:r]): t += 1
+    while b > H * 0.88 and dark(g[b - 1, l:r]): b -= 1
+    while l < W * 0.12 and dark(g[t:b, l]): l += 1
+    while r > W * 0.88 and dark(g[t:b, r - 1]): r -= 1
+    return im.crop((l + (4 if l else 0), t + (4 if t else 0), r - (4 if r < W else 0), b - (4 if b < H else 0))) if (t, b, l, r) != (0, H, 0, W) else im
 def frame(im):
-    W, H = im.size; a = W / H; b = faces(im); u = union(b) if b else None
-    if a >= 1.6:                                              # wide: lose the sides only
+    im = trim(im); W, H = im.size; a = W / H; b = faces(im); u = union(b) if b else None
+    if a >= 16 / 9:                                           # wide: lose the sides only
         w2 = round(H * 16 / 9); cx = (u[0] + u[2]) / 2 if u else W / 2
         x0 = int(np.clip(cx - w2 / 2, 0, W - w2))
         if u: x0 = int(np.clip(x0, max(0, u[2] - w2), min(W - w2, u[0])))   # keep every face in when they fit
+        x0 = int(np.clip(x0, 0, W - w2))
         if u and (u[0] < x0 or u[2] > x0 + w2): return panel(im), "whole (faces spread wide)", len(b)
         return im.crop((x0, 0, x0 + w2, H)).resize((FW, FH), Image.LANCZOS), "crop sides", len(b)
     if a >= 1.2:                                              # landscape: lose top and bottom only if faces fit
@@ -45,6 +55,7 @@ def frame(im):
         if u[3] - u[1] <= h2 * 0.9:
             y0 = int(np.clip((u[1] + u[3]) / 2 - h2 * 0.45, 0, H - h2))
             y0 = int(np.clip(y0, max(0, u[3] - h2 + 0.04 * h2), min(H - h2, u[1] - 0.04 * h2)))
+            y0 = int(np.clip(y0, 0, H - h2))
             return im.crop((0, y0, W, y0 + h2)).resize((FW, FH), Image.LANCZOS), "crop top/bottom (faces kept)", len(b)
     return panel(im), "whole", len(b)
 def panel(im):

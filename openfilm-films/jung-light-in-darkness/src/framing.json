@@ -9,7 +9,7 @@
  },
  "alchemy-c12": {
   "how": "whole",
-  "faces": 4
+  "faces": 5
  },
  "alchemy-c17": {
   "how": "whole",
@@ -129,7 +129,7 @@
  },
  "doctor-c1": {
   "how": "whole",
-  "faces": 3
+  "faces": 4
  },
  "doctor-c2": {
   "how": "whole",
@@ -156,7 +156,7 @@
   "faces": 0
  },
  "dream-c1": {
-  "how": "crop sides",
+  "how": "crop top/bottom (faces kept)",
   "faces": 1
  },
  "dream-c11": {
@@ -260,16 +260,16 @@
   "faces": 0
  },
  "l-b-interior-c5": {
-  "how": "crop sides",
+  "how": "crop top/bottom (faces kept)",
   "faces": 1
  },
  "l-b-light-c7": {
-  "how": "crop sides",
+  "how": "crop top/bottom",
   "faces": 0
  },
  "l-b-monk-c6": {
   "how": "crop top/bottom (faces kept)",
-  "faces": 2
+  "faces": 1
  },
  "l-b-monk-c7": {
   "how": "crop top/bottom",
@@ -277,7 +277,7 @@
  },
  "l-b-morning-c2": {
   "how": "whole",
-  "faces": 1
+  "faces": 0
  },
  "l-b-night-c7": {
   "how": "crop top/bottom",
@@ -417,7 +417,7 @@
  },
  "light-c9": {
   "how": "whole",
-  "faces": 2
+  "faces": 1
  },
  "mandala-c1": {
   "how": "whole",
@@ -485,7 +485,7 @@
  },
  "portrait-c4": {
   "how": "whole",
-  "faces": 3
+  "faces": 2
  },
  "sage-c1": {
   "how": "whole",
@@ -508,7 +508,7 @@
   "faces": 0
  },
  "stone-c4": {
-  "how": "crop sides",
+  "how": "crop top/bottom",
   "faces": 0
  },
  "stone-c6": {
@@ -516,15 +516,15 @@
   "faces": 0
  },
  "stone-c7": {
-  "how": "crop sides",
+  "how": "crop top/bottom",
   "faces": 0
  },
  "stone-c8": {
-  "how": "crop sides",
+  "how": "crop top/bottom",
   "faces": 0
  },
  "storm-c1": {
-  "how": "crop sides",
+  "how": "crop top/bottom",
   "faces": 0
  },
  "storm-c2": {
@@ -536,7 +536,7 @@
   "faces": 1
  },
  "storm-c4": {
-  "how": "crop sides",
+  "how": "crop top/bottom",
   "faces": 0
  },
  "storm-c5": {
@@ -548,7 +548,7 @@
   "faces": 6
  },
  "storm-c7": {
-  "how": "crop sides",
+  "how": "crop top/bottom",
   "faces": 0
  },
  "storm-c8": {
