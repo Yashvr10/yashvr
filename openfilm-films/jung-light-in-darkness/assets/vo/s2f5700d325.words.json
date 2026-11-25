@@ -1,0 +1,82 @@
+[
+{
+"word": "In",
+"start": 0.0,
+"end": 0.18
+},
+{
+"word": "the",
+"start": 0.18,
+"end": 0.3
+},
+{
+"word": "garden,",
+"start": 0.3,
+"end": 0.62
+},
+{
+"word": "on",
+"start": 0.62,
+"end": 0.86
+},
+{
+"word": "a",
+"start": 0.86,
+"end": 1.04
+},
+{
+"word": "slope,",
+"start": 1.04,
+"end": 1.4
+},
+{
+"word": "there",
+"start": 1.88,
+"end": 1.98
+},
+{
+"word": "was",
+"start": 1.98,
+"end": 2.1
+},
+{
+"word": "a",
+"start": 2.1,
+"end": 2.36
+},
+{
+"word": "stone",
+"start": 2.36,
+"end": 2.58
+},
+{
+"word": "that",
+"start": 2.58,
+"end": 2.84
+},
+{
+"word": "stuck",
+"start": 2.84,
+"end": 3.16
+},
+{
+"word": "out",
+"start": 3.16,
+"end": 3.4
+},
+{
+"word": "of",
+"start": 3.4,
+"end": 3.56
+},
+{
+"word": "the",
+"start": 3.56,
+"end": 3.68
+},
+{
+"word": "earth.",
+"start": 3.68,
+"end": 3.88
+}
+]

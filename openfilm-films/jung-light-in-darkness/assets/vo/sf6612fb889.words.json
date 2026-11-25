@@ -1,0 +1,37 @@
+[
+{
+"word": "He",
+"start": 0.0,
+"end": 0.16
+},
+{
+"word": "had",
+"start": 0.16,
+"end": 0.34
+},
+{
+"word": "no",
+"start": 0.34,
+"end": 0.62
+},
+{
+"word": "electricity,",
+"start": 0.62,
+"end": 1.1
+},
+{
+"word": "no",
+"start": 1.7,
+"end": 1.88
+},
+{
+"word": "running",
+"start": 1.88,
+"end": 2.16
+},
+{
+"word": "water.",
+"start": 2.16,
+"end": 2.52
+}
+]

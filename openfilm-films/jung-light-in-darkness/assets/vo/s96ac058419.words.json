@@ -1,0 +1,42 @@
+[
+{
+"word": "He",
+"start": 0.0,
+"end": 0.18
+},
+{
+"word": "built",
+"start": 0.18,
+"end": 0.46
+},
+{
+"word": "cottages,",
+"start": 0.46,
+"end": 1.1
+},
+{
+"word": "a",
+"start": 1.38,
+"end": 1.48
+},
+{
+"word": "castle,",
+"start": 1.48,
+"end": 1.86
+},
+{
+"word": "a",
+"start": 2.08,
+"end": 2.14
+},
+{
+"word": "whole",
+"start": 2.14,
+"end": 2.32
+},
+{
+"word": "village.",
+"start": 2.32,
+"end": 2.66
+}
+]

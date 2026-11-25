@@ -1,0 +1,62 @@
+[
+{
+"word": "He",
+"start": 0.0,
+"end": 0.16
+},
+{
+"word": "also",
+"start": 0.16,
+"end": 0.44
+},
+{
+"word": "loved",
+"start": 0.44,
+"end": 0.9
+},
+{
+"word": "history,",
+"start": 0.9,
+"end": 1.4
+},
+{
+"word": "philosophy,",
+"start": 1.92,
+"end": 2.18
+},
+{
+"word": "the",
+"start": 2.68,
+"end": 2.7
+},
+{
+"word": "ancient",
+"start": 2.7,
+"end": 2.98
+},
+{
+"word": "worlds",
+"start": 2.98,
+"end": 3.36
+},
+{
+"word": "of",
+"start": 3.36,
+"end": 3.62
+},
+{
+"word": "Egypt",
+"start": 3.62,
+"end": 4.0
+},
+{
+"word": "and",
+"start": 4.0,
+"end": 4.32
+},
+{
+"word": "Babylon.",
+"start": 4.32,
+"end": 4.64
+}
+]
