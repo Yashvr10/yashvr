@@ -1,4 +1,4 @@
-// Builds film.html and captions.html for "The Art of LARPING" (same look as You Were Programmed and The Battle of Thoughts).
+// Builds film.html and captions.html for "Carl Jung: The Light in the Darkness" (same look as You Were Programmed and The Battle of Thoughts).
 //   pictures  public-domain paintings, prints and drawings (Cleveland Museum of Art, Art Institute of Chicago), one at a
 //             time, a slow push on each, short dissolves through dark between them
 //   captions  small lowercase EB Garamond words in the middle of the frame, the sentence's key word as a big script accent
@@ -106,7 +106,7 @@ for (const s of cfg.scenes) {
   });
   t = end;
 }
-const title = "The Art of LARPING";
+const title = "Carl Jung: The Light in the Darkness";
 ends.push({ at: r3(t + 0.3), end: r3(t + 4.3), text: title });
 const FILM = r3(q(t + 4.6));
 

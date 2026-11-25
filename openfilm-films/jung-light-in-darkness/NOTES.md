@@ -10,3 +10,4 @@
   Symbolist and Romantic paintings (Redon, Böcklin, Friedrich, Blake, Doré), mandalas and Tibetan thangkas from museum
   open-access collections. Photos of Jung himself are not used.
 - Voice: the user's own "My Voice".
+- Music: the same four tracks as The Art of LARPING, at the user's request (credits in src/music-credits.json).
