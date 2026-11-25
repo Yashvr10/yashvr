@@ -1,1 +1,48 @@
-{}
+{
+ "dream": [
+  "dream-c1",
+  "dream-c2",
+  "dream-c3",
+  "dream-c4",
+  "dream-c5",
+  "dream-c6",
+  "dream-c7",
+  "dream-c8",
+  "dream-c9",
+  "dream-c10",
+  "dream-c11",
+  "dream-c12",
+  "dream-c13",
+  "dream-c14"
+ ],
+ "cave": [
+  "cave-c1",
+  "cave-c2",
+  "cave-c3",
+  "cave-c4",
+  "cave-c5",
+  "cave-c6",
+  "cave-c7",
+  "cave-c8"
+ ],
+ "flood": [
+  "flood-c1",
+  "flood-c2",
+  "flood-c3",
+  "flood-c4",
+  "flood-c5",
+  "flood-c6",
+  "flood-c7",
+  "flood-c8"
+ ],
+ "storm": [
+  "storm-c1",
+  "storm-c2",
+  "storm-c3",
+  "storm-c4",
+  "storm-c5",
+  "storm-c6",
+  "storm-c7",
+  "storm-c8"
+ ]
+}
