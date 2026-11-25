@@ -1,4 +1,4 @@
-# Look for "The Price Of Being A Man" (as Becoming): each picture cropped to 16:9 (centred on a face when one is found),
+# Look for "Carl Jung: The Light in the Darkness" (as Becoming): each picture cropped to 16:9 (centred on a face when one is found),
 # a warm, dark, slightly contrasty grade with fine film grain (the reference video's look; black-and-white photographs stay
 # black and white), and, where a figure is found by Robust Video Matting, a cut-out of that figure
 # (assets/cutouts/<k>.png) so the caption words can sit behind it, as in the caption reel Dd0NzeWxryg.

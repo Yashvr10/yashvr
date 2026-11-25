@@ -3,17 +3,22 @@
   "dream-c1",
   "dream-c2",
   "dream-c3",
-  "dream-c4",
-  "dream-c5",
   "dream-c6",
   "dream-c7",
   "dream-c8",
   "dream-c9",
-  "dream-c10",
   "dream-c11",
   "dream-c12",
   "dream-c13",
-  "dream-c14"
+  "dream-c14",
+  "alchemy-c12",
+  "l-ghost-c1",
+  "l-ghost-c2",
+  "l-anatomy-c2",
+  "l-b-shadow-c3",
+  "l-b-morning-c2",
+  "l-b-shadow-c4",
+  "l-b-shadow-c5"
  ],
  "cave": [
   "cave-c1",
@@ -21,19 +26,16 @@
   "cave-c3",
   "cave-c4",
   "cave-c5",
-  "cave-c6",
   "cave-c7",
   "cave-c8"
  ],
  "flood": [
   "flood-c1",
-  "flood-c2",
-  "flood-c3",
   "flood-c4",
-  "flood-c5",
   "flood-c6",
-  "flood-c7",
-  "flood-c8"
+  "flood-c8",
+  "flood-c9",
+  "flood-c10"
  ],
  "storm": [
   "storm-c1",
@@ -43,6 +45,157 @@
   "storm-c5",
   "storm-c6",
   "storm-c7",
-  "storm-c8"
+  "storm-c8",
+  "double-c2",
+  "l-night-c1",
+  "l-night-c4",
+  "l-b-night-c1",
+  "l-b-night-c5",
+  "l-b-night-c7",
+  "l-b-interior-c2",
+  "l-b-interior-c5"
+ ],
+ "child": [
+  "child-c3",
+  "child-c4",
+  "child-c5",
+  "child-c6",
+  "nature-c3"
+ ],
+ "stone": [
+  "stone-c1",
+  "stone-c4",
+  "stone-c6",
+  "stone-c7",
+  "stone-c8",
+  "cosmos-c5"
+ ],
+ "mandala": [
+  "mandala-c1",
+  "mandala-c2",
+  "mandala-c4",
+  "mandala-c8",
+  "mandala-c11",
+  "mandala-c13"
+ ],
+ "doctor": [
+  "doctor-c1",
+  "doctor-c2",
+  "doctor-c7"
+ ],
+ "light": [
+  "light-c2",
+  "light-c3",
+  "light-c5",
+  "light-c8",
+  "light-c9",
+  "light-c12",
+  "l-light-c2",
+  "l-light-c3",
+  "l-light-c4",
+  "l-b-light-c2",
+  "l-b-light-c3",
+  "l-b-light-c7"
+ ],
+ "nature": [
+  "nature-c1",
+  "nature-c2",
+  "nature-c4",
+  "nature-c5",
+  "nature-c6",
+  "nature-c7",
+  "nature-c8",
+  "doctor-c3",
+  "doctor-c8",
+  "double-c1",
+  "l-road-c1",
+  "l-road-c2",
+  "l-road-c3",
+  "l-road-c4",
+  "l-athlete-c3"
+ ],
+ "book": [
+  "book-c2",
+  "book-c4",
+  "book-c6",
+  "l-thinker-c1",
+  "l-thinker-c2",
+  "l-thinker-c3",
+  "l-thinker-c4",
+  "l-thinker-c5",
+  "l-thinker-c6",
+  "l-thinker-c7",
+  "l-thinker-c8"
+ ],
+ "sage": [
+  "sage-c1",
+  "sage-c3",
+  "sage-c4",
+  "sage-c6",
+  "book-c5",
+  "l-monk-c3",
+  "l-monk-c4",
+  "l-b-monk-c3",
+  "l-b-monk-c4",
+  "l-b-monk-c6",
+  "l-b-monk-c7"
+ ],
+ "death": [
+  "death-c1",
+  "death-c2",
+  "death-c3",
+  "death-c4",
+  "death-c5",
+  "death-c6",
+  "alchemy-c17",
+  "l-hourglass-c1",
+  "l-hourglass-c2",
+  "l-hourglass-c3",
+  "l-hourglass-c4"
+ ],
+ "cosmos": [
+  "cosmos-c2",
+  "cosmos-c4"
+ ],
+ "idol": [
+  "idol-c2",
+  "idol-c4",
+  "idol-c5"
+ ],
+ "portrait": [
+  "portrait-c1",
+  "portrait-c3",
+  "portrait-c4",
+  "alchemy-c4",
+  "alchemy-c7",
+  "alchemy-c10",
+  "l-portrait-c1",
+  "l-portrait-c2",
+  "l-portrait-c3",
+  "l-portrait-c4",
+  "l-b-portrait-c1"
+ ],
+ "god": [
+  "god-c1",
+  "god-c2",
+  "god-c3",
+  "god-c4",
+  "god-c5",
+  "l-myth-c1",
+  "l-myth-c2",
+  "l-myth-c3",
+  "l-myth-c4",
+  "l-myth-c5"
+ ],
+ "alchemy": [
+  "alchemy-c1",
+  "alchemy-c2",
+  "alchemy-c3"
+ ],
+ "double": [
+  "l-mirror-c1",
+  "l-mirror-c2",
+  "l-mirror-c4",
+  "l-b-mirror-c1"
  ]
 }
