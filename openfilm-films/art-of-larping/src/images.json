@@ -71,7 +71,11 @@
   "child-c4",
   "b-beggar-c1",
   "b-beggar-c2",
-  "b-street-c2"
+  "b-street-c2",
+  "child-c5",
+  "child-c6",
+  "child-c7",
+  "child-c8"
  ],
  "hourglass": [
   "hourglass-c1",
@@ -129,7 +133,12 @@
   "body-c1",
   "body-c2",
   "body-c3",
-  "body-c4"
+  "body-c4",
+  "body-c5",
+  "body-c6",
+  "body-c7",
+  "body-c8",
+  "body-c9"
  ],
  "fire": [
   "fire-c2",
@@ -210,7 +219,11 @@
   "mirror-c1",
   "mirror-c2",
   "mirror-c4",
-  "b-mirror-c1"
+  "b-mirror-c1",
+  "mirror-c5",
+  "mirror-c6",
+  "mirror-c7",
+  "mirror-c8"
  ],
  "monk": [
   "monk-c3",
@@ -277,5 +290,38 @@
   "rome-c8",
   "rome-c9",
   "rome-c10"
+ ],
+ "theatre": [
+  "theatre-c1",
+  "theatre-c2",
+  "theatre-c3",
+  "theatre-c4",
+  "theatre-c5",
+  "theatre-c6",
+  "theatre-c7",
+  "theatre-c8",
+  "theatre-c9",
+  "theatre-c10"
+ ],
+ "myth": [
+  "myth-c1",
+  "myth-c2",
+  "myth-c3",
+  "myth-c4",
+  "myth-c5",
+  "myth-c6",
+  "myth-c7",
+  "myth-c8",
+  "myth-c9",
+  "myth-c10"
+ ],
+ "builder": [
+  "builder-c1",
+  "builder-c2",
+  "builder-c3",
+  "builder-c4",
+  "builder-c5",
+  "builder-c6",
+  "builder-c7"
  ]
 }

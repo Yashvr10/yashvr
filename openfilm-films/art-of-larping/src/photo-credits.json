@@ -1966,5 +1966,325 @@
   "license": "Public domain (CC0, Cleveland Museum of Art)",
   "source": "https://clevelandart.org/art/1930.583.9",
   "kind": "Print"
+ },
+ "theatre-c1": {
+  "title": "Buffalo Mask",
+  "artist": "Unknown",
+  "date": "early to mid-1900s",
+  "license": "Public domain (CC0, Cleveland Museum of Art)",
+  "source": "https://clevelandart.org/art/1969.2",
+  "kind": "Mask"
+ },
+ "theatre-c2": {
+  "title": "Mask (Bwoom)",
+  "artist": "Unknown",
+  "date": "mid- to late 1800s",
+  "license": "Public domain (CC0, Cleveland Museum of Art)",
+  "source": "https://clevelandart.org/art/1935.304",
+  "kind": "Mask"
+ },
+ "theatre-c3": {
+  "title": "Face Mask",
+  "artist": "Unknown",
+  "date": "early 1900s",
+  "license": "Public domain (CC0, Cleveland Museum of Art)",
+  "source": "https://clevelandart.org/art/1971.296",
+  "kind": "Mask"
+ },
+ "theatre-c4": {
+  "title": "Face Mask (Tehe gla)",
+  "artist": "Unknown",
+  "date": "early 1900s",
+  "license": "Public domain (CC0, Cleveland Museum of Art)",
+  "source": "https://clevelandart.org/art/1971.294",
+  "kind": "Mask"
+ },
+ "theatre-c5": {
+  "title": "Mask (Kple Kple or Kouassi Gbe)",
+  "artist": "Unknown",
+  "date": "late 1800s-early 1900s",
+  "license": "Public domain (CC0, Cleveland Museum of Art)",
+  "source": "https://clevelandart.org/art/1975.155",
+  "kind": "Mask"
+ },
+ "theatre-c6": {
+  "title": "Portrait Mask (mblo)",
+  "artist": "Unknown",
+  "date": "early to mid-1900s",
+  "license": "Public domain (CC0, Cleveland Museum of Art)",
+  "source": "https://clevelandart.org/art/1974.203",
+  "kind": "Mask"
+ },
+ "theatre-c7": {
+  "title": "Mask (ndeemba)",
+  "artist": "Unknown",
+  "date": "early 1900s",
+  "license": "Public domain (CC0, Cleveland Museum of Art)",
+  "source": "https://clevelandart.org/art/1969.8",
+  "kind": "Mask"
+ },
+ "theatre-c8": {
+  "title": "Mask (hemba)",
+  "artist": "Unknown",
+  "date": "late 1800s\u2013early 1900s",
+  "license": "Public domain (CC0, Cleveland Museum of Art)",
+  "source": "https://clevelandart.org/art/2010.450",
+  "kind": "Mask"
+ },
+ "theatre-c9": {
+  "title": "Masks and faces",
+  "artist": "Paul Gavarni",
+  "date": "1857\u201358",
+  "license": "Public domain (CC0, Art Institute of Chicago)",
+  "source": "https://www.artic.edu/artworks/11030",
+  "kind": "lithograph"
+ },
+ "theatre-c10": {
+  "title": "The Masked Ball",
+  "artist": "Paul Gavarni",
+  "date": "1834",
+  "license": "Public domain (CC0, Art Institute of Chicago)",
+  "source": "https://www.artic.edu/artworks/13586",
+  "kind": "lithograph"
+ },
+ "myth-c1": {
+  "title": "Apollo on Parnassus",
+  "artist": "Marcantonio Raimondi (Italian, 1470/82\u20131527/34)",
+  "date": "c. 1517\u201320",
+  "license": "Public domain (CC0, Cleveland Museum of Art)",
+  "source": "https://clevelandart.org/art/1963.231",
+  "kind": "Print"
+ },
+ "myth-c2": {
+  "title": "Apollo Belvedere",
+  "artist": "Hendrick Goltzius (Dutch, 1558\u20131617)",
+  "date": "1592",
+  "license": "Public domain (CC0, Cleveland Museum of Art)",
+  "source": "https://clevelandart.org/art/2022.139",
+  "kind": "Print"
+ },
+ "myth-c3": {
+  "title": "Apollo",
+  "artist": "Hendrick Goltzius (Dutch, 1558\u20131617)",
+  "date": "1588",
+  "license": "Public domain (CC0, Cleveland Museum of Art)",
+  "source": "https://clevelandart.org/art/1969.48",
+  "kind": "Print"
+ },
+ "myth-c4": {
+  "title": "Apollo and the Muses Awakened by the Call of Fame",
+  "artist": "Jacopo Palma il Giovane (Italian, c. 1548\u20131628)",
+  "date": "1590s",
+  "license": "Public domain (CC0, Cleveland Museum of Art)",
+  "source": "https://clevelandart.org/art/1926.265",
+  "kind": "Drawing"
+ },
+ "myth-c5": {
+  "title": "Apollo (from the Tarocchi, series D:  Apollo and the Muses, #20)",
+  "artist": "Master of the E-Series Tarocchi (Italian, active 1460s)",
+  "date": "before 1467",
+  "license": "Public domain (CC0, Cleveland Museum of Art)",
+  "source": "https://clevelandart.org/art/1924.432.20",
+  "kind": "Print"
+ },
+ "myth-c6": {
+  "title": "Apollo with Erato and Cupid",
+  "artist": "Johann Kellerthaler (German, c. 1560/2\u20131611)",
+  "date": "1595",
+  "license": "Public domain (CC0, Cleveland Museum of Art)",
+  "source": "https://clevelandart.org/art/2012.98",
+  "kind": "Drawing"
+ },
+ "myth-c7": {
+  "title": "Thalia (comedy, pastoral poetry) (from the Tarocchi series D:  Apollo and the Muses, #16)",
+  "artist": "Master of the E-Series Tarocchi (Italian, active 1460s)",
+  "date": "before 1467",
+  "license": "Public domain (CC0, Cleveland Museum of Art)",
+  "source": "https://clevelandart.org/art/1924.432.16",
+  "kind": "Print"
+ },
+ "myth-c8": {
+  "title": "Study of Apollo for Marsyas (recto)",
+  "artist": "Paul Baudry (French, 1828\u20131886)",
+  "date": "late 1860s",
+  "license": "Public domain (CC0, Cleveland Museum of Art)",
+  "source": "https://clevelandart.org/art/2008.373.a",
+  "kind": "Drawing"
+ },
+ "myth-c9": {
+  "title": "Apollo and Marsyas",
+  "artist": "Hans Thoma",
+  "date": "1888",
+  "license": "Public domain (CC0, Art Institute of Chicago)",
+  "source": "https://www.artic.edu/artworks/192691",
+  "kind": "painting"
+ },
+ "myth-c10": {
+  "title": "Apollo and Diana",
+  "artist": "Albrecht D\u00fcrer",
+  "date": "1503/04",
+  "license": "Public domain (CC0, Art Institute of Chicago)",
+  "source": "https://www.artic.edu/artworks/84753",
+  "kind": "engraving"
+ },
+ "builder-c1": {
+  "title": "Elizabeth Beltzhoover Mason",
+  "artist": "Gilbert Stuart (American, born The Thirteen Colonies, 1755\u20131828)",
+  "date": "c. 1803\u20135",
+  "license": "Public domain (CC0, Cleveland Museum of Art)",
+  "source": "https://clevelandart.org/art/1921.428",
+  "kind": "Painting"
+ },
+ "builder-c2": {
+  "title": "Still Life with Cantaloupe",
+  "artist": "William Mason Brown (American, 1828\u20131898)",
+  "date": "c. 1880",
+  "license": "Public domain (CC0, Cleveland Museum of Art)",
+  "source": "https://clevelandart.org/art/1969.20",
+  "kind": "Painting"
+ },
+ "builder-c3": {
+  "title": "Auntie Mason and Her Husband",
+  "artist": "George Bellows (American, 1882\u20131925)",
+  "date": "1924",
+  "license": "Public domain (CC0, Cleveland Museum of Art)",
+  "source": "https://clevelandart.org/art/1936.572",
+  "kind": "Print"
+ },
+ "builder-c4": {
+  "title": "Conflagration of the Masonic Hall, Chestnut Street, Philadelphia, Pennsylvania",
+  "artist": "Samuel Jones",
+  "date": "1819",
+  "license": "Public domain (CC0, Art Institute of Chicago)",
+  "source": "https://www.artic.edu/artworks/111295",
+  "kind": "painting"
+ },
+ "builder-c5": {
+  "title": "Billy Mason",
+  "artist": "Anders Zorn",
+  "date": "1900",
+  "license": "Public domain (CC0, Art Institute of Chicago)",
+  "source": "https://www.artic.edu/artworks/41902",
+  "kind": "etching"
+ },
+ "builder-c6": {
+  "title": "Masonic Temple, Boston",
+  "artist": "Benjamin F. Nutting",
+  "date": "1832",
+  "license": "Public domain (CC0, Art Institute of Chicago)",
+  "source": "https://www.artic.edu/artworks/148598",
+  "kind": "lithograph"
+ },
+ "builder-c7": {
+  "title": "Martin Vanden Bogaert Desjardins",
+  "artist": "G\u00e9rard Edelinck",
+  "date": "n.d.",
+  "license": "Public domain (CC0, Art Institute of Chicago)",
+  "source": "https://www.artic.edu/artworks/111",
+  "kind": "engraving"
+ },
+ "mirror-c5": {
+  "title": "Banks of the Oise at Dawn",
+  "artist": "Louis Hayet (French, 1864\u20131940)",
+  "date": "1888",
+  "license": "Public domain (CC0, Cleveland Museum of Art)",
+  "source": "https://clevelandart.org/art/2019.18",
+  "kind": "Painting"
+ },
+ "mirror-c6": {
+  "title": "Fl\u00fcelen, from the Lake of Lucerne",
+  "artist": "Joseph Mallord William Turner (British, 1775\u20131851)",
+  "date": "1845",
+  "license": "Public domain (CC0, Cleveland Museum of Art)",
+  "source": "https://clevelandart.org/art/1954.129",
+  "kind": "Drawing"
+ },
+ "mirror-c7": {
+  "title": "Lighthouse Village (also known as Cape Elizabeth)",
+  "artist": "Edward Hopper (American, 1882\u20131967)",
+  "date": "1929",
+  "license": "Public domain (CC0, Cleveland Museum of Art)",
+  "source": "https://clevelandart.org/art/1930.851",
+  "kind": "Drawing"
+ },
+ "mirror-c8": {
+  "title": "Basket of Plums",
+  "artist": "Anne Vallayer-Coster (French, 1744\u20131818)",
+  "date": "1769",
+  "license": "Public domain (CC0, Cleveland Museum of Art)",
+  "source": "https://clevelandart.org/art/1971.47",
+  "kind": "Painting"
+ },
+ "body-c5": {
+  "title": "Fishing Craft near the Cliffs at Collioure",
+  "artist": "Adolphe Appian",
+  "date": "1878",
+  "license": "Public domain (CC0, Art Institute of Chicago)",
+  "source": "https://www.artic.edu/artworks/65",
+  "kind": "etching"
+ },
+ "body-c6": {
+  "title": "Interior of St. Mark's, Venice",
+  "artist": "David Dalhoff Neal",
+  "date": "1869",
+  "license": "Public domain (CC0, Art Institute of Chicago)",
+  "source": "https://www.artic.edu/artworks/9",
+  "kind": "painting"
+ },
+ "body-c7": {
+  "title": "The Fall of the Giants",
+  "artist": "Salvator Rosa",
+  "date": "1663",
+  "license": "Public domain (CC0, Art Institute of Chicago)",
+  "source": "https://www.artic.edu/artworks/16",
+  "kind": "etching"
+ },
+ "body-c8": {
+  "title": "It Rocks but is Not Sunk",
+  "artist": "Charles Meryon",
+  "date": "1854",
+  "license": "Public domain (CC0, Art Institute of Chicago)",
+  "source": "https://www.artic.edu/artworks/20",
+  "kind": "etching"
+ },
+ "body-c9": {
+  "title": "Souvenir of Tuscany",
+  "artist": "Jean Baptiste Camille Corot",
+  "date": "c. 1845",
+  "license": "Public domain (CC0, Art Institute of Chicago)",
+  "source": "https://www.artic.edu/artworks/28",
+  "kind": "etching"
+ },
+ "child-c5": {
+  "title": "Study for \"Country Cousins\"",
+  "artist": "Richard Redgrave (British, 1804\u20131888)",
+  "date": "c. 1847\u201348",
+  "license": "Public domain (CC0, Cleveland Museum of Art)",
+  "source": "https://clevelandart.org/art/2011.127",
+  "kind": "Drawing"
+ },
+ "child-c6": {
+  "title": "Fr\u00e9d\u00e9ric Mistral: M\u00e9moires et Recits by Fr\u00e9d\u00e9ric Mistral: boy playing drum (page 79)",
+  "artist": "Auguste Brouet (French, 1872\u20131941)",
+  "date": "1937",
+  "license": "Public domain (CC0, Cleveland Museum of Art)",
+  "source": "https://clevelandart.org/art/1999.298.20",
+  "kind": "Portfolio"
+ },
+ "child-c7": {
+  "title": "House of Cards",
+  "artist": "Pierre Filloeuil (French, 1696\u2013after 1734)",
+  "date": "c. 1737",
+  "license": "Public domain (CC0, Cleveland Museum of Art)",
+  "source": "https://clevelandart.org/art/1995.265",
+  "kind": "Print"
+ },
+ "child-c8": {
+  "title": "Landscape with Figure in Foreground",
+  "artist": "Cornelius Varley (British, 1781\u20131873)",
+  "date": "c. 1840",
+  "license": "Public domain (CC0, Cleveland Museum of Art)",
+  "source": "https://clevelandart.org/art/2004.40",
+  "kind": "Drawing"
  }
 }
