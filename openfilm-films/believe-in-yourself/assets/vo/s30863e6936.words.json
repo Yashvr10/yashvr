@@ -1,0 +1,57 @@
+[
+{
+"word": "You",
+"start": 0.0,
+"end": 0.16
+},
+{
+"word": "stop",
+"start": 0.16,
+"end": 0.48
+},
+{
+"word": "reading",
+"start": 0.48,
+"end": 0.8
+},
+{
+"word": "every",
+"start": 0.8,
+"end": 1.22
+},
+{
+"word": "rejection",
+"start": 1.22,
+"end": 1.66
+},
+{
+"word": "as",
+"start": 1.66,
+"end": 2.02
+},
+{
+"word": "a",
+"start": 2.02,
+"end": 2.14
+},
+{
+"word": "verdict",
+"start": 2.14,
+"end": 2.34
+},
+{
+"word": "on",
+"start": 2.34,
+"end": 2.58
+},
+{
+"word": "your",
+"start": 2.58,
+"end": 2.74
+},
+{
+"word": "worth.",
+"start": 2.74,
+"end": 3.12
+}
+]

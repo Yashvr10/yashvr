@@ -1,0 +1,77 @@
+[
+{
+"word": "You",
+"start": 0.0,
+"end": 0.14
+},
+{
+"word": "notice",
+"start": 0.14,
+"end": 0.32
+},
+{
+"word": "that",
+"start": 0.32,
+"end": 0.56
+},
+{
+"word": "some",
+"start": 0.56,
+"end": 0.78
+},
+{
+"word": "people",
+"start": 0.78,
+"end": 1.06
+},
+{
+"word": "are",
+"start": 1.06,
+"end": 1.3
+},
+{
+"word": "warmest",
+"start": 1.3,
+"end": 1.84
+},
+{
+"word": "towards",
+"start": 1.84,
+"end": 2.12
+},
+{
+"word": "you",
+"start": 2.12,
+"end": 2.54
+},
+{
+"word": "when",
+"start": 2.54,
+"end": 3.14
+},
+{
+"word": "you",
+"start": 3.14,
+"end": 3.3
+},
+{
+"word": "are",
+"start": 3.3,
+"end": 3.48
+},
+{
+"word": "unsure",
+"start": 3.48,
+"end": 4.1
+},
+{
+"word": "of",
+"start": 4.1,
+"end": 4.44
+},
+{
+"word": "yourself.",
+"start": 4.44,
+"end": 4.88
+}
+]

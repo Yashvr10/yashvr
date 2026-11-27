@@ -1,0 +1,52 @@
+[
+{
+"word": "And",
+"start": 0.0,
+"end": 0.16
+},
+{
+"word": "not",
+"start": 0.16,
+"end": 0.32
+},
+{
+"word": "everyone",
+"start": 0.32,
+"end": 0.7
+},
+{
+"word": "wants",
+"start": 0.7,
+"end": 1.04
+},
+{
+"word": "to",
+"start": 1.04,
+"end": 1.22
+},
+{
+"word": "see",
+"start": 1.22,
+"end": 1.42
+},
+{
+"word": "what",
+"start": 1.42,
+"end": 1.6
+},
+{
+"word": "is",
+"start": 1.6,
+"end": 1.74
+},
+{
+"word": "in",
+"start": 1.74,
+"end": 1.9
+},
+{
+"word": "it.",
+"start": 1.9,
+"end": 2.08
+}
+]

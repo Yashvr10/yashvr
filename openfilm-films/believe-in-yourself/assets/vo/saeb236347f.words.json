@@ -1,0 +1,47 @@
+[
+{
+"word": "The",
+"start": 0.0,
+"end": 0.14
+},
+{
+"word": "one",
+"start": 0.14,
+"end": 0.3
+},
+{
+"word": "who",
+"start": 0.3,
+"end": 0.48
+},
+{
+"word": "checked",
+"start": 0.48,
+"end": 0.74
+},
+{
+"word": "with",
+"start": 0.74,
+"end": 0.96
+},
+{
+"word": "them",
+"start": 0.96,
+"end": 1.2
+},
+{
+"word": "before",
+"start": 1.2,
+"end": 1.58
+},
+{
+"word": "every",
+"start": 1.58,
+"end": 2.04
+},
+{
+"word": "decision.",
+"start": 2.04,
+"end": 2.48
+}
+]

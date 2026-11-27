@@ -1,0 +1,32 @@
+[
+{
+"word": "A",
+"start": 0.0,
+"end": 0.18
+},
+{
+"word": "teacher",
+"start": 0.18,
+"end": 0.5
+},
+{
+"word": "needs",
+"start": 0.5,
+"end": 0.84
+},
+{
+"word": "a",
+"start": 0.84,
+"end": 1.06
+},
+{
+"word": "steady",
+"start": 1.06,
+"end": 1.38
+},
+{
+"word": "voice.",
+"start": 1.38,
+"end": 1.76
+}
+]

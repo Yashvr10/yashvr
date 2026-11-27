@@ -1,0 +1,42 @@
+[
+{
+"word": "Just",
+"start": 0.0,
+"end": 0.3
+},
+{
+"word": "a",
+"start": 0.3,
+"end": 0.52
+},
+{
+"word": "shift",
+"start": 0.52,
+"end": 0.78
+},
+{
+"word": "in",
+"start": 0.78,
+"end": 1.04
+},
+{
+"word": "what",
+"start": 1.04,
+"end": 1.26
+},
+{
+"word": "they",
+"start": 1.26,
+"end": 1.48
+},
+{
+"word": "can",
+"start": 1.48,
+"end": 1.62
+},
+{
+"word": "see.",
+"start": 1.62,
+"end": 2.02
+}
+]

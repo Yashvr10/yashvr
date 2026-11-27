@@ -1,0 +1,57 @@
+[
+{
+"word": "The",
+"start": 0.0,
+"end": 0.18
+},
+{
+"word": "person",
+"start": 0.18,
+"end": 0.52
+},
+{
+"word": "who",
+"start": 0.52,
+"end": 0.8
+},
+{
+"word": "pleased",
+"start": 0.8,
+"end": 1.18
+},
+{
+"word": "everyone",
+"start": 1.18,
+"end": 1.68
+},
+{
+"word": "simply",
+"start": 1.68,
+"end": 2.12
+},
+{
+"word": "leaves,",
+"start": 2.12,
+"end": 2.68
+},
+{
+"word": "and",
+"start": 3.32,
+"end": 3.5
+},
+{
+"word": "nobody",
+"start": 3.5,
+"end": 3.76
+},
+{
+"word": "understands",
+"start": 3.76,
+"end": 4.4
+},
+{
+"word": "why.",
+"start": 4.4,
+"end": 4.9
+}
+]

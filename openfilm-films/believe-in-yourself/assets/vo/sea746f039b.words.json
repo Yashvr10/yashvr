@@ -1,0 +1,52 @@
+[
+{
+"word": "A",
+"start": 0.0,
+"end": 0.18
+},
+{
+"word": "person",
+"start": 0.18,
+"end": 0.44
+},
+{
+"word": "who",
+"start": 0.44,
+"end": 0.64
+},
+{
+"word": "believes",
+"start": 0.64,
+"end": 0.92
+},
+{
+"word": "in",
+"start": 0.92,
+"end": 1.16
+},
+{
+"word": "themselves",
+"start": 1.16,
+"end": 1.6
+},
+{
+"word": "is",
+"start": 1.6,
+"end": 1.96
+},
+{
+"word": "harder",
+"start": 1.96,
+"end": 2.26
+},
+{
+"word": "to",
+"start": 2.26,
+"end": 2.52
+},
+{
+"word": "move.",
+"start": 2.52,
+"end": 2.82
+}
+]

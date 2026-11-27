@@ -1,0 +1,42 @@
+[
+{
+"word": "The",
+"start": 0.0,
+"end": 0.16
+},
+{
+"word": "friend",
+"start": 0.16,
+"end": 0.44
+},
+{
+"word": "who",
+"start": 0.44,
+"end": 0.74
+},
+{
+"word": "always",
+"start": 0.74,
+"end": 1.0
+},
+{
+"word": "said",
+"start": 1.0,
+"end": 1.28
+},
+{
+"word": "yes",
+"start": 1.28,
+"end": 1.56
+},
+{
+"word": "goes",
+"start": 1.56,
+"end": 1.98
+},
+{
+"word": "distant.",
+"start": 1.98,
+"end": 2.42
+}
+]

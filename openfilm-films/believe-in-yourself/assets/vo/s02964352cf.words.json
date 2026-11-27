@@ -1,0 +1,47 @@
+[
+{
+"word": "Someone",
+"start": 0.0,
+"end": 0.28
+},
+{
+"word": "you",
+"start": 0.28,
+"end": 0.42
+},
+{
+"word": "used",
+"start": 0.42,
+"end": 0.58
+},
+{
+"word": "to",
+"start": 0.58,
+"end": 0.74
+},
+{
+"word": "be,",
+"start": 0.74,
+"end": 1.08
+},
+{
+"word": "or",
+"start": 1.4,
+"end": 1.5
+},
+{
+"word": "might",
+"start": 1.5,
+"end": 1.66
+},
+{
+"word": "have",
+"start": 1.66,
+"end": 1.8
+},
+{
+"word": "been.",
+"start": 1.8,
+"end": 2.02
+}
+]

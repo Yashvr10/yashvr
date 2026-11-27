@@ -1,0 +1,57 @@
+[
+{
+"word": "Distance",
+"start": 0.0,
+"end": 0.48
+},
+{
+"word": "between",
+"start": 0.48,
+"end": 1.08
+},
+{
+"word": "the",
+"start": 1.08,
+"end": 1.24
+},
+{
+"word": "person",
+"start": 1.24,
+"end": 1.54
+},
+{
+"word": "they",
+"start": 1.54,
+"end": 1.72
+},
+{
+"word": "show",
+"start": 1.72,
+"end": 2.08
+},
+{
+"word": "and",
+"start": 2.08,
+"end": 2.44
+},
+{
+"word": "the",
+"start": 2.44,
+"end": 2.58
+},
+{
+"word": "person",
+"start": 2.58,
+"end": 2.84
+},
+{
+"word": "they",
+"start": 2.84,
+"end": 3.06
+},
+{
+"word": "are.",
+"start": 3.06,
+"end": 3.34
+}
+]

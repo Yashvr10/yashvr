@@ -1,0 +1,32 @@
+[
+{
+"word": "A",
+"start": 0.0,
+"end": 0.2
+},
+{
+"word": "doctor",
+"start": 0.2,
+"end": 0.44
+},
+{
+"word": "needs",
+"start": 0.44,
+"end": 0.76
+},
+{
+"word": "a",
+"start": 0.76,
+"end": 1.02
+},
+{
+"word": "calm",
+"start": 1.02,
+"end": 1.26
+},
+{
+"word": "face.",
+"start": 1.26,
+"end": 1.64
+}
+]

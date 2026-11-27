@@ -1,0 +1,72 @@
+[
+{
+"word": "Who",
+"start": 0.0,
+"end": 0.18
+},
+{
+"word": "cries",
+"start": 0.18,
+"end": 0.68
+},
+{
+"word": "and",
+"start": 0.68,
+"end": 0.94
+},
+{
+"word": "is",
+"start": 0.94,
+"end": 1.1
+},
+{
+"word": "told",
+"start": 1.1,
+"end": 1.34
+},
+{
+"word": "that",
+"start": 1.34,
+"end": 1.58
+},
+{
+"word": "big",
+"start": 1.58,
+"end": 1.84
+},
+{
+"word": "boys,",
+"start": 1.84,
+"end": 2.24
+},
+{
+"word": "or",
+"start": 2.24,
+"end": 2.54
+},
+{
+"word": "good",
+"start": 2.54,
+"end": 2.76
+},
+{
+"word": "girls,",
+"start": 2.76,
+"end": 3.26
+},
+{
+"word": "don't",
+"start": 3.48,
+"end": 3.68
+},
+{
+"word": "do",
+"start": 3.68,
+"end": 3.84
+},
+{
+"word": "that.",
+"start": 3.84,
+"end": 4.16
+}
+]

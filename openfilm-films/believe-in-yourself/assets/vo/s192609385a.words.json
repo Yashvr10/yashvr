@@ -1,0 +1,37 @@
+[
+{
+"word": "This",
+"start": 0.0,
+"end": 0.2
+},
+{
+"word": "is",
+"start": 0.2,
+"end": 0.32
+},
+{
+"word": "what",
+"start": 0.32,
+"end": 0.48
+},
+{
+"word": "happens",
+"start": 0.48,
+"end": 0.84
+},
+{
+"word": "on",
+"start": 0.84,
+"end": 1.1
+},
+{
+"word": "that",
+"start": 1.1,
+"end": 1.26
+},
+{
+"word": "road.",
+"start": 1.26,
+"end": 1.56
+}
+]

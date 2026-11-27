@@ -1,0 +1,62 @@
+[
+{
+"word": "They",
+"start": 0.0,
+"end": 0.16
+},
+{
+"word": "want",
+"start": 0.16,
+"end": 0.34
+},
+{
+"word": "the",
+"start": 0.34,
+"end": 0.5
+},
+{
+"word": "version",
+"start": 0.5,
+"end": 0.8
+},
+{
+"word": "of",
+"start": 0.8,
+"end": 1.02
+},
+{
+"word": "you",
+"start": 1.02,
+"end": 1.22
+},
+{
+"word": "they",
+"start": 1.22,
+"end": 1.4
+},
+{
+"word": "already",
+"start": 1.4,
+"end": 1.74
+},
+{
+"word": "know",
+"start": 1.74,
+"end": 2.08
+},
+{
+"word": "how",
+"start": 2.08,
+"end": 2.3
+},
+{
+"word": "to",
+"start": 2.3,
+"end": 2.5
+},
+{
+"word": "handle.",
+"start": 2.5,
+"end": 2.86
+}
+]

@@ -1,0 +1,92 @@
+[
+{
+"word": "Some",
+"start": 0.0,
+"end": 0.3
+},
+{
+"word": "people",
+"start": 0.3,
+"end": 0.64
+},
+{
+"word": "who",
+"start": 0.64,
+"end": 0.98
+},
+{
+"word": "always",
+"start": 0.98,
+"end": 1.36
+},
+{
+"word": "seemed",
+"start": 1.36,
+"end": 1.68
+},
+{
+"word": "supportive",
+"start": 1.68,
+"end": 2.22
+},
+{
+"word": "pull",
+"start": 2.22,
+"end": 2.52
+},
+{
+"word": "away,",
+"start": 2.52,
+"end": 2.92
+},
+{
+"word": "at",
+"start": 3.6,
+"end": 3.76
+},
+{
+"word": "exactly",
+"start": 3.76,
+"end": 4.2
+},
+{
+"word": "the",
+"start": 4.2,
+"end": 4.48
+},
+{
+"word": "moment",
+"start": 4.48,
+"end": 4.72
+},
+{
+"word": "you",
+"start": 4.72,
+"end": 5.0
+},
+{
+"word": "stop",
+"start": 5.0,
+"end": 5.3
+},
+{
+"word": "asking",
+"start": 5.3,
+"end": 5.78
+},
+{
+"word": "for",
+"start": 5.78,
+"end": 6.04
+},
+{
+"word": "their",
+"start": 6.04,
+"end": 6.2
+},
+{
+"word": "reassurance.",
+"start": 6.2,
+"end": 6.84
+}
+]

@@ -1,0 +1,27 @@
+[
+{
+"word": "You",
+"start": 0.0,
+"end": 0.16
+},
+{
+"word": "stop",
+"start": 0.16,
+"end": 0.48
+},
+{
+"word": "defending",
+"start": 0.48,
+"end": 1.04
+},
+{
+"word": "every",
+"start": 1.04,
+"end": 1.5
+},
+{
+"word": "choice.",
+"start": 1.5,
+"end": 1.92
+}
+]

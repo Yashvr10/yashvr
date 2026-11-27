@@ -1,0 +1,57 @@
+[
+{
+"word": "Some",
+"start": 0.0,
+"end": 0.24
+},
+{
+"word": "people",
+"start": 0.24,
+"end": 0.48
+},
+{
+"word": "were",
+"start": 0.48,
+"end": 0.72
+},
+{
+"word": "most",
+"start": 0.72,
+"end": 1.0
+},
+{
+"word": "comfortable",
+"start": 1.0,
+"end": 1.48
+},
+{
+"word": "with",
+"start": 1.48,
+"end": 1.92
+},
+{
+"word": "the",
+"start": 1.92,
+"end": 2.16
+},
+{
+"word": "uncertain",
+"start": 2.16,
+"end": 2.68
+},
+{
+"word": "version",
+"start": 2.68,
+"end": 3.1
+},
+{
+"word": "of",
+"start": 3.1,
+"end": 3.38
+},
+{
+"word": "you.",
+"start": 3.38,
+"end": 3.6
+}
+]

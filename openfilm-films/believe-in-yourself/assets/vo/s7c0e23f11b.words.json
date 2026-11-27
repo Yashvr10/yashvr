@@ -1,0 +1,82 @@
+[
+{
+"word": "Jung",
+"start": 0.0,
+"end": 0.3
+},
+{
+"word": "noticed",
+"start": 0.3,
+"end": 0.72
+},
+{
+"word": "that",
+"start": 0.72,
+"end": 1.12
+},
+{
+"word": "nothing",
+"start": 1.12,
+"end": 1.48
+},
+{
+"word": "shapes",
+"start": 1.48,
+"end": 1.88
+},
+{
+"word": "a",
+"start": 1.88,
+"end": 2.08
+},
+{
+"word": "child",
+"start": 2.08,
+"end": 2.52
+},
+{
+"word": "more",
+"start": 2.52,
+"end": 2.9
+},
+{
+"word": "powerfully",
+"start": 2.9,
+"end": 3.48
+},
+{
+"word": "than",
+"start": 3.48,
+"end": 4.1
+},
+{
+"word": "the",
+"start": 4.1,
+"end": 4.24
+},
+{
+"word": "life",
+"start": 4.24,
+"end": 4.48
+},
+{
+"word": "their",
+"start": 4.48,
+"end": 4.72
+},
+{
+"word": "parents",
+"start": 4.72,
+"end": 5.1
+},
+{
+"word": "never",
+"start": 5.1,
+"end": 5.48
+},
+{
+"word": "lived.",
+"start": 5.48,
+"end": 5.9
+}
+]

@@ -1,0 +1,52 @@
+[
+{
+"word": "Real",
+"start": 0.0,
+"end": 0.28
+},
+{
+"word": "self-belief",
+"start": 0.28,
+"end": 1.0
+},
+{
+"word": "is",
+"start": 1.0,
+"end": 1.2
+},
+{
+"word": "quieter",
+"start": 1.2,
+"end": 1.56
+},
+{
+"word": "than",
+"start": 1.56,
+"end": 1.84
+},
+{
+"word": "that,",
+"start": 1.84,
+"end": 2.2
+},
+{
+"word": "and",
+"start": 2.66,
+"end": 2.86
+},
+{
+"word": "far",
+"start": 2.86,
+"end": 3.1
+},
+{
+"word": "more",
+"start": 3.1,
+"end": 3.3
+},
+{
+"word": "dangerous.",
+"start": 3.3,
+"end": 3.78
+}
+]

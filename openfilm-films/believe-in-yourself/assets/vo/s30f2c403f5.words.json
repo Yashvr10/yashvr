@@ -1,0 +1,42 @@
+[
+{
+"word": "The",
+"start": 0.0,
+"end": 0.18
+},
+{
+"word": "loneliness",
+"start": 0.18,
+"end": 0.5
+},
+{
+"word": "is",
+"start": 0.5,
+"end": 0.84
+},
+{
+"word": "a",
+"start": 0.84,
+"end": 0.98
+},
+{
+"word": "passage,",
+"start": 0.98,
+"end": 1.38
+},
+{
+"word": "not",
+"start": 1.52,
+"end": 1.74
+},
+{
+"word": "a",
+"start": 1.74,
+"end": 1.9
+},
+{
+"word": "destination.",
+"start": 1.9,
+"end": 2.38
+}
+]
