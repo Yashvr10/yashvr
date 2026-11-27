@@ -3,7 +3,8 @@
 # assets/vo/<id>.vtt (caption cues with a timestamp at each word). The script's own words are kept; Whisper supplies
 # the times (difflib alignment; words Whisper heard differently get times interpolated between their neighbours).
 #   python3 src/align_whisper.py .  [model]      (default model: small.en)
-import json, sys, re, difflib
+import json, sys, re, difflib, os
+ONLY = set(os.environ.get("ONLY", "").split())  # optional: re-align just these ids
 import whisper
 P = sys.argv[1]; MODEL = sys.argv[2] if len(sys.argv) > 2 else "small.en"
 cfg = json.load(open(f"{P}/src/scenes.json"))
@@ -11,7 +12,7 @@ model = whisper.load_model(MODEL, device="cpu")
 norm = lambda w: re.sub(r"[^a-z0-9]", "", w.lower())
 def ts(t): h = int(t // 3600); m = int(t % 3600 // 60); return f"{h:02d}:{m:02d}:{t % 60:06.3f}"
 for s in cfg["scenes"]:
-    if "text" not in s: continue
+    if "text" not in s or (ONLY and s["id"] not in ONLY): continue
     r = model.transcribe(f"{P}/assets/vo/{s['id']}.mp3", word_timestamps=True, language="en", fp16=False, condition_on_previous_text=False)
     heard = [w for seg in r["segments"] for w in seg.get("words", [])]
     script = s["text"].split()

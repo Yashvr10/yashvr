@@ -1,0 +1,82 @@
+[
+{
+"word": "If",
+"start": 0.0,
+"end": 0.4
+},
+{
+"word": "you",
+"start": 0.4,
+"end": 0.54
+},
+{
+"word": "never",
+"start": 0.54,
+"end": 0.82
+},
+{
+"word": "fully",
+"start": 0.82,
+"end": 1.2
+},
+{
+"word": "try,",
+"start": 1.2,
+"end": 1.66
+},
+{
+"word": "you",
+"start": 2.14,
+"end": 2.18
+},
+{
+"word": "never",
+"start": 2.18,
+"end": 2.38
+},
+{
+"word": "have",
+"start": 2.38,
+"end": 2.6
+},
+{
+"word": "to",
+"start": 2.6,
+"end": 2.8
+},
+{
+"word": "find",
+"start": 2.8,
+"end": 3.02
+},
+{
+"word": "out",
+"start": 3.02,
+"end": 3.28
+},
+{
+"word": "what",
+"start": 3.28,
+"end": 3.5
+},
+{
+"word": "you",
+"start": 3.5,
+"end": 3.64
+},
+{
+"word": "could",
+"start": 3.64,
+"end": 3.82
+},
+{
+"word": "have",
+"start": 3.82,
+"end": 3.92
+},
+{
+"word": "been.",
+"start": 3.92,
+"end": 4.18
+}
+]

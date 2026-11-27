@@ -2,26 +2,26 @@
 {
 "word": "That",
 "start": 0.0,
-"end": 0.18
+"end": 0.2
 },
 {
 "word": "knowing",
-"start": 0.18,
-"end": 0.52
+"start": 0.2,
+"end": 0.54
 },
 {
 "word": "is",
-"start": 0.52,
-"end": 0.76
+"start": 0.54,
+"end": 0.8
 },
 {
 "word": "not",
-"start": 0.76,
-"end": 1.0
+"start": 0.8,
+"end": 1.02
 },
 {
 "word": "paranoia.",
-"start": 1.0,
-"end": 1.64
+"start": 1.02,
+"end": 1.52
 }
 ]

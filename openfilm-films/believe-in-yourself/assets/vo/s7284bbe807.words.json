@@ -1,0 +1,42 @@
+[
+{
+"word": "A",
+"start": 0.0,
+"end": 0.2
+},
+{
+"word": "limit",
+"start": 0.2,
+"end": 0.46
+},
+{
+"word": "gives",
+"start": 0.46,
+"end": 0.78
+},
+{
+"word": "you",
+"start": 0.78,
+"end": 0.98
+},
+{
+"word": "an",
+"start": 0.98,
+"end": 1.1
+},
+{
+"word": "excuse",
+"start": 1.1,
+"end": 1.54
+},
+{
+"word": "in",
+"start": 1.54,
+"end": 1.78
+},
+{
+"word": "advance.",
+"start": 1.78,
+"end": 2.16
+}
+]

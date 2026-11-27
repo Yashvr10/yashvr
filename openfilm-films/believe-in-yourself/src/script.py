@@ -48,7 +48,7 @@ for para in open("src/narration.txt").read().strip().split("\n"):
         if not t: continue
         last = i == len(sents) - 1
         S.append(dict(id="s" + hashlib.sha1(t.encode()).hexdigest()[:10], text=t, th=theme(t), big=big(t), red=False,
-                      gap=round((1.35 if last else 0.75) * 1.15, 2)))
+                      gap=round((0.95 if last else 0.5) * 1.15, 2)))
 json.dump(dict(scenes=S), open("src/scenes.json", "w"), indent=1, ensure_ascii=False)
 lines = {x["id"]: x["text"] for x in S if "text" in x}
 json.dump(lines, open("src/lines.json", "w"), indent=1, ensure_ascii=False)

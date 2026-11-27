@@ -1,0 +1,82 @@
+[
+{
+"word": "That's",
+"start": 0.0,
+"end": 0.3
+},
+{
+"word": "why",
+"start": 0.3,
+"end": 0.42
+},
+{
+"word": "two",
+"start": 0.42,
+"end": 0.7
+},
+{
+"word": "people",
+"start": 0.7,
+"end": 1.02
+},
+{
+"word": "can",
+"start": 1.02,
+"end": 1.26
+},
+{
+"word": "walk",
+"start": 1.26,
+"end": 1.52
+},
+{
+"word": "into",
+"start": 1.52,
+"end": 1.74
+},
+{
+"word": "the",
+"start": 1.74,
+"end": 1.94
+},
+{
+"word": "same",
+"start": 1.94,
+"end": 2.22
+},
+{
+"word": "room",
+"start": 2.22,
+"end": 2.62
+},
+{
+"word": "and",
+"start": 2.62,
+"end": 3.16
+},
+{
+"word": "live",
+"start": 3.16,
+"end": 3.34
+},
+{
+"word": "in",
+"start": 3.34,
+"end": 3.52
+},
+{
+"word": "two",
+"start": 3.52,
+"end": 3.78
+},
+{
+"word": "different",
+"start": 3.78,
+"end": 4.06
+},
+{
+"word": "worlds.",
+"start": 4.06,
+"end": 4.48
+}
+]

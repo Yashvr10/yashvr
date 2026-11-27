@@ -2,36 +2,36 @@
 {
 "word": "Being",
 "start": 0.0,
-"end": 0.22
+"end": 0.26
 },
 {
 "word": "fully",
-"start": 0.22,
-"end": 0.5
+"start": 0.26,
+"end": 0.64
 },
 {
 "word": "yourself",
-"start": 0.5,
-"end": 1.02
+"start": 0.64,
+"end": 1.2
 },
 {
 "word": "can",
-"start": 1.02,
-"end": 1.5
+"start": 1.2,
+"end": 1.6
 },
 {
 "word": "cost",
-"start": 1.5,
-"end": 1.84
+"start": 1.6,
+"end": 1.88
 },
 {
 "word": "you",
-"start": 1.84,
-"end": 2.06
+"start": 1.88,
+"end": 2.1
 },
 {
 "word": "love.",
-"start": 2.06,
-"end": 2.34
+"start": 2.1,
+"end": 2.42
 }
 ]

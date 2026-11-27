@@ -1,0 +1,82 @@
+[
+{
+"word": "And",
+"start": 0.0,
+"end": 0.16
+},
+{
+"word": "bit",
+"start": 0.16,
+"end": 0.32
+},
+{
+"word": "by",
+"start": 0.32,
+"end": 0.58
+},
+{
+"word": "bit,",
+"start": 0.58,
+"end": 1.02
+},
+{
+"word": "they",
+"start": 1.4,
+"end": 1.66
+},
+{
+"word": "hand",
+"start": 1.66,
+"end": 1.94
+},
+{
+"word": "the",
+"start": 1.94,
+"end": 2.14
+},
+{
+"word": "authority",
+"start": 2.14,
+"end": 2.62
+},
+{
+"word": "over",
+"start": 2.62,
+"end": 3.04
+},
+{
+"word": "their",
+"start": 3.04,
+"end": 3.24
+},
+{
+"word": "own",
+"start": 3.24,
+"end": 3.52
+},
+{
+"word": "lives",
+"start": 3.52,
+"end": 3.92
+},
+{
+"word": "to",
+"start": 3.92,
+"end": 4.16
+},
+{
+"word": "other",
+"start": 4.16,
+"end": 4.36
+},
+{
+"word": "people's",
+"start": 4.36,
+"end": 4.86
+},
+{
+"word": "opinions.",
+"start": 4.86,
+"end": 5.18
+}
+]

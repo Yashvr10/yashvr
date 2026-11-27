@@ -2,26 +2,26 @@
 {
 "word": "Just",
 "start": 0.0,
-"end": 0.24
+"end": 0.28
 },
 {
 "word": "a",
-"start": 0.24,
-"end": 0.46
+"start": 0.28,
+"end": 0.52
 },
 {
 "word": "dull",
-"start": 0.46,
-"end": 0.82
+"start": 0.52,
+"end": 0.84
 },
 {
 "word": "grey",
-"start": 0.82,
-"end": 1.22
+"start": 0.84,
+"end": 1.2
 },
 {
 "word": "hum.",
-"start": 1.22,
+"start": 1.2,
 "end": 1.54
 }
 ]
