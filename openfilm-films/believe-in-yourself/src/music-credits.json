@@ -1,43 +1,47 @@
 [
  {
-  "key": "meditation-3",
-  "file": "meditation-3.mp3",
-  "title": "Free BGM For Meditation #3",
-  "artist": "Ambient Samurai - Ichiro NAKAGAWA",
-  "license": "CC BY 3.0",
-  "source": "https://www.jamendo.com/track/1074586"
+  "key": "dreamer",
+  "file": "dreamer.mp3",
+  "title": "Dreamer",
+  "artist": "Kevin MacLeod (incompetech.com)",
+  "license": "CC BY 4.0",
+  "source": "https://incompetech.com",
+  "attribution": "\"Dreamer\" Kevin MacLeod (incompetech.com). Licensed under Creative Commons: By Attribution 4.0 License. http://creativecommons.org/licenses/by/4.0/"
  },
  {
-  "key": "gymnopedie-1",
-  "file": "gymnopedie-1.mp3",
-  "title": "Gymnop\u00e9die No. 1 (Satie)",
-  "artist": "Felted Classics",
-  "license": "CC BY 3.0",
-  "source": "https://www.jamendo.com/track/2327352"
+  "key": "ossuary-air",
+  "file": "ossuary-air.mp3",
+  "title": "Ossuary 6 - Air",
+  "artist": "Kevin MacLeod (incompetech.com)",
+  "license": "CC BY 4.0",
+  "source": "https://incompetech.com",
+  "attribution": "\"Ossuary 6 - Air\" Kevin MacLeod (incompetech.com). Licensed under Creative Commons: By Attribution 4.0 License. http://creativecommons.org/licenses/by/4.0/"
  },
  {
-  "key": "full-moon",
-  "file": "full-moon.mp3",
-  "title": "Meditation at the Full Moon",
-  "artist": "Mark Subbotin",
-  "license": "CC BY 3.0",
-  "source": "https://www.jamendo.com/track/1446225"
+  "key": "healing",
+  "file": "healing.mp3",
+  "title": "Healing",
+  "artist": "Kevin MacLeod (incompetech.com)",
+  "license": "CC BY 4.0",
+  "source": "https://incompetech.com",
+  "attribution": "\"Healing\" Kevin MacLeod (incompetech.com). Licensed under Creative Commons: By Attribution 4.0 License. http://creativecommons.org/licenses/by/4.0/"
  },
  {
-  "key": "reverie",
-  "file": "reverie.mp3",
-  "title": "R&ecirc;verie (Debussy)",
-  "artist": "Felted Classics",
-  "license": "by 3.0",
-  "source": "https://www.jamendo.com/track/2327354",
-  "attribution": "\"R&ecirc;verie (Debussy)\" by Felted Classics is licensed under CC BY 3.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/3.0/."
+  "key": "lightless-dawn",
+  "file": "lightless-dawn.mp3",
+  "title": "Lightless Dawn",
+  "artist": "Kevin MacLeod (incompetech.com)",
+  "license": "CC BY 4.0",
+  "source": "https://incompetech.com",
+  "attribution": "\"Lightless Dawn\" Kevin MacLeod (incompetech.com). Licensed under Creative Commons: By Attribution 4.0 License. http://creativecommons.org/licenses/by/4.0/"
  },
  {
-  "key": "expanse",
-  "file": "expanse.mp3",
-  "title": "Expanse",
-  "artist": "Sleep Rivers",
-  "license": "by-sa 3.0",
-  "source": "https://www.jamendo.com/track/1565359"
+  "key": "bittersweet",
+  "file": "bittersweet.mp3",
+  "title": "Bittersweet",
+  "artist": "Kevin MacLeod (incompetech.com)",
+  "license": "CC BY 4.0",
+  "source": "https://incompetech.com",
+  "attribution": "\"Bittersweet\" Kevin MacLeod (incompetech.com). Licensed under Creative Commons: By Attribution 4.0 License. http://creativecommons.org/licenses/by/4.0/"
  }
 ]

@@ -1,9 +1,9 @@
-// Builds film.html and captions.html for "Carl Jung: The Light in the Darkness" (same look as You Were Programmed and The Battle of Thoughts).
+// Builds film.html and captions.html for "Why Believing in Yourself Feels So Lonely" (same look as You Were Programmed and The Battle of Thoughts).
 //   pictures  public-domain paintings, prints and drawings (Cleveland Museum of Art, Art Institute of Chicago), one at a
 //             time, a slow push on each, short dissolves through dark between them
 //   captions  small lowercase EB Garamond words in the middle of the frame, the sentence's key word as a big script accent
 //   chapters  roman numeral and a small spaced title on black; a title card at the end
-//   music     calm public-domain-style CC tracks in a row, crossfaded
+//   music     calm Kevin MacLeod (CC BY 4.0) tracks in a row, crossfaded
 //   node src/build.mjs
 import fs from "node:fs";
 import path from "node:path";
@@ -17,7 +17,7 @@ const norm = (w) => w.toLowerCase().replace(/[^a-z0-9]/g, "");
 const dur = (f) => +execFileSync("ffprobe", ["-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", path.join(ROOT, f)]).toString();
 let seed = 5; const rnd = () => ((seed = (seed * 1103515245 + 12345) % 2147483648) / 2147483648);
 
-const ALIAS = {"dream": ["dream", "storm", "cosmos"], "cave": ["cave", "dream", "idol"], "idol": ["idol", "cave", "god"], "stone": ["stone", "nature"], "child": ["child", "nature"], "double": ["double", "portrait", "dream"], "light": ["light", "storm", "cosmos"], "storm": ["storm", "flood"], "doctor": ["doctor", "portrait", "sage"], "cosmos": ["cosmos", "storm", "mandala"], "portrait": ["portrait", "doctor"], "flood": ["flood", "storm", "death"], "book": ["book", "sage", "alchemy"], "sage": ["sage", "book"], "mandala": ["mandala", "cosmos", "alchemy"], "alchemy": ["alchemy", "book", "mandala"], "nature": ["nature", "stone"], "death": ["death", "storm"], "god": ["god", "sage", "cosmos"]};
+const ALIAS = {"mask": ["mask", "crowd", "mirror"], "mirror": ["mirror", "mask", "alone"], "crowd": ["crowd", "judge", "mask"], "alone": ["alone", "road", "nature"], "child": ["child", "kind"], "shadow": ["shadow", "storm", "sleep"], "light": ["light", "road"], "storm": ["storm", "shadow"], "cage": ["cage", "shadow", "judge"], "gold": ["gold", "light", "sage"], "road": ["road", "alone", "nature"], "sleep": ["sleep", "shadow", "alone"], "kind": ["kind", "child", "crowd"], "sage": ["sage", "alone"], "nature": ["nature", "road"], "judge": ["judge", "crowd", "cage"]};
 const uses = {}; const ALL = [...new Set(Object.values(POOLS).flat())]; ALL.forEach((k) => (uses[k] = 0));
 let recent = [];
 // a cut-out is used only when its figure leaves most of a red word visible: BAND is how much of the frame's middle the
@@ -106,13 +106,13 @@ for (const s of cfg.scenes) {
   });
   t = end;
 }
-const title = "Carl Jung: The Light in the Darkness";
+const title = "Why Believing in Yourself Feels So Lonely";
 ends.push({ at: r3(t + 0.3), end: r3(t + 4.3), text: title });
 const FILM = r3(q(t + 4.6));
 
 // ---- music: five calm tracks in a row, 5 s crossfades
 const MV = 0.42;
-const tracks = [["full-moon.mp3", 0, 0], ["gymnopedie-1.mp3", 0, 0], ["meditation-3.mp3", 0, 0], ["reverie.mp3", 0, 0], ["expanse.mp3", 0, 0]];
+const tracks = [["dreamer.mp3", 0, 0], ["ossuary-air.mp3", 0, 0], ["healing.mp3", 0, 0], ["lightless-dawn.mp3", 0, 0], ["bittersweet.mp3", 0, 0]];
 let mt = 0; const music = [];
 for (const [f] of tracks) {
   if (FILM - mt < 15) break;

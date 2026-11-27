@@ -1,4 +1,4 @@
-# Look for "Carl Jung: The Light in the Darkness": every picture made 1920x1080 without cutting off a face, then a warm,
+# Look for "Why Believing in Yourself Feels So Lonely": every picture made 1920x1080 without cutting off a face, then a warm,
 # dark, slightly contrasty grade with film grain (black-and-white prints stay black and white).
 #   faces     found with OpenCV's YuNet detector (src/models, from opencv_zoo, MIT licence), plus the Haar frontal and
 #             profile cascades as a back-up; each face gets room above (hair, hat) and below (chin, collar).
@@ -66,10 +66,11 @@ def panel(im):
     sh = Image.new("L", (FW, FH), 0); sh.paste(255, ((FW - pw) // 2 - 10, (FH - ph) // 2, (FW + pw) // 2 + 10, (FH + ph) // 2))
     bg.paste(Image.new("RGB", (FW, FH), 0), (0, 0), sh.filter(ImageFilter.GaussianBlur(28)).point(lambda v: int(v * 0.55)))
     bg.paste(im.resize((pw, ph), Image.LANCZOS), ((FW - pw) // 2, (FH - ph) // 2)); return bg
+WHOLE = {"mask-c12"}                                                     # crops checked on a contact sheet; these cut a figure
 P = json.load(open("src/images.json")); F = {}
-for k in sorted({k for v in P.values() for k in v}):
+for k in sorted({k for v in P.values() for k in v if not k.startswith("j-")}):   # j- pictures come already framed from the Jung film
     im = Image.open(f"assets/photos/{k}.jpg").convert("RGB")
-    c, how, nf = frame(im); F[k] = dict(how=how, faces=nf)
+    c, how, nf = (panel(im), "whole (by hand)", 0) if k in WHOLE else frame(im); F[k] = dict(how=how, faces=nf)
     a = np.asarray(c).astype(np.float32) / 255
     bw = np.abs(a[..., 0] - a[..., 2]).mean() < 0.035                        # a black-and-white print
     c = ImageEnhance.Contrast(c).enhance(1.14)
