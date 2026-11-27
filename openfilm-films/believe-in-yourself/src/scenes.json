@@ -1,0 +1,3730 @@
+{
+ "scenes": [
+  {
+   "id": "s31a2fb5f8f",
+   "text": "Most people think believing in yourself looks like confidence.",
+   "th": [
+    "crowd"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s92eed4958c",
+   "text": "A straighter back, a louder voice, a face that shows no fear.",
+   "th": [
+    "mirror"
+   ],
+   "big": "no",
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "s8a33126161",
+   "text": "But that is not belief.",
+   "th": [
+    "alone"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "sda004f7ff7",
+   "text": "That is a costume.",
+   "th": [
+    "mask"
+   ],
+   "big": "costume",
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s6d22bfa250",
+   "text": "And costumes come off the moment the room turns against you.",
+   "th": [
+    "mask",
+    "crowd"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "se02f32e7c4",
+   "text": "Real self-belief is quieter than that, and far more dangerous.",
+   "th": [
+    "alone",
+    "shadow"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s936b62a4e7",
+   "text": "Because the day you truly start trusting yourself, you stop asking the world for permission.",
+   "th": [
+    "alone"
+   ],
+   "big": "permission",
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "s143f1d2f4d",
+   "text": "And there are people in your life, some of them very close, whose comfort depends on you asking.",
+   "th": [
+    "crowd"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "s79ea41f920",
+   "text": "Carl Jung spent his whole life studying this moment: the moment a person stops being who they were told to be, and starts becoming who they are.",
+   "th": [
+    "sage"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "sc58384752a",
+   "text": "He called it individuation.",
+   "th": [
+    "sage"
+   ],
+   "big": "individuation",
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s6609f2ee20",
+   "text": "He also warned that it is the loneliest road a human being can walk.",
+   "th": [
+    "alone",
+    "road"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "s192609385a",
+   "text": "This is what happens on that road.",
+   "th": [
+    "road"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s1a00f53825",
+   "text": "And why so few people finish it.",
+   "th": [
+    "crowd"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "ch1",
+   "card": "chapter",
+   "num": "I",
+   "title": "The Version They Preferred",
+   "len": 4.4
+  },
+  {
+   "id": "q189a5dc46d",
+   "text": "\"Everything that irritates us about others can lead us to an understanding of ourselves.\" Carl Jung, Memories, Dreams, Reflections.",
+   "quote": true,
+   "th": [
+    "mirror",
+    "sage"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.6
+  },
+  {
+   "id": "sadb291e278",
+   "text": "At first, nothing dramatic happens.",
+   "th": [
+    "alone"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s384e7c351c",
+   "text": "There is no thunder.",
+   "th": [
+    "storm"
+   ],
+   "big": "no",
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s5dc66996a1",
+   "text": "You just start to notice things.",
+   "th": [
+    "alone"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "s3b1464db7c",
+   "text": "You notice that some people are warmest towards you when you are unsure of yourself.",
+   "th": [
+    "crowd"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "sf3c41f8998",
+   "text": "You notice that a joke you make is called funny when it is at your own expense, and arrogant when it isn't.",
+   "th": [
+    "alone"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "s324985d09e",
+   "text": "You notice that a friendship goes cold the very week you stop making yourself smaller around it.",
+   "th": [
+    "crowd"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "s14366cf93d",
+   "text": "And slowly, an uncomfortable thought takes shape.",
+   "th": [
+    "alone"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "sa0e5d77bbf",
+   "text": "Some of the people who say they love you were really attached to a version of you.",
+   "th": [
+    "crowd"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s088464d08d",
+   "text": "The version that doubted itself.",
+   "th": [
+    "alone"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "s6135988390",
+   "text": "Self-doubt makes a person easy to predict.",
+   "th": [
+    "alone"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "sae484ce53d",
+   "text": "Easy to steer.",
+   "th": [
+    "alone"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s7cdf17ba45",
+   "text": "Easy to keep in place.",
+   "th": [
+    "alone"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "sea746f039b",
+   "text": "A person who believes in themselves is harder to move.",
+   "th": [
+    "alone"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s66b3ef1d10",
+   "text": "They can be persuaded, but they can't be pushed.",
+   "th": [
+    "alone"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "s93090459cd",
+   "text": "That is why so many people learn, very early, to take their own confidence apart before anyone else has the chance.",
+   "th": [
+    "crowd",
+    "alone"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "sa32227c714",
+   "text": "They learn that being seen carries a risk.",
+   "th": [
+    "alone"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "s32e1065016",
+   "text": "So they grow quieter.",
+   "th": [
+    "alone",
+    "nature"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "sdc1d1a897f",
+   "text": "Softer.",
+   "th": [
+    "alone"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s94478943eb",
+   "text": "Easier to swallow.",
+   "th": [
+    "alone"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "sc100225499",
+   "text": "And after enough years, they stop noticing they're doing it.",
+   "th": [
+    "alone"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s09d7e7d453",
+   "text": "They call it humility.",
+   "th": [
+    "alone"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "sf02f3811f6",
+   "text": "They call it being easy-going.",
+   "th": [
+    "alone"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "s1f999b4b24",
+   "text": "But some part of them knows.",
+   "th": [
+    "alone"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s5969cecab8",
+   "text": "Some part of them is keeping count.",
+   "th": [
+    "alone"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "sf6266060e0",
+   "text": "It shows up in small ways.",
+   "th": [
+    "alone"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s63434aa168",
+   "text": "In the hobby they quietly dropped.",
+   "th": [
+    "alone"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s50cb8c55d3",
+   "text": "In the opinion they never shared at dinner.",
+   "th": [
+    "crowd"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "sf677006b63",
+   "text": "In the way they go silent the second someone important walks into the room.",
+   "th": [
+    "crowd",
+    "alone"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "s01632fa336",
+   "text": "And somewhere in the back of your mind, you probably already know exactly who would be uncomfortable if you began to change.",
+   "th": [
+    "alone"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "s83fd43ddd9",
+   "text": "That knowing is not paranoia.",
+   "th": [
+    "alone"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "sbb7043244d",
+   "text": "It's the first sign that you're waking up.",
+   "th": [
+    "light"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "ch2",
+   "card": "chapter",
+   "num": "II",
+   "title": "The Mask",
+   "len": 4.4
+  },
+  {
+   "id": "qffe10ec7fb",
+   "text": "\"The persona is ... a kind of mask, designed on the one hand to make a definite impression upon others, and, on the other, to conceal the true nature of the individual.\" Carl Jung, Two Essays on Analytical Psychology.",
+   "quote": true,
+   "th": [
+    "mask",
+    "kind"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.6
+  },
+  {
+   "id": "sf3e662d777",
+   "text": "There is a moment that happens quietly inside some people.",
+   "th": [
+    "crowd",
+    "alone"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s19570e7894",
+   "text": "No applause.",
+   "th": [
+    "alone"
+   ],
+   "big": "no",
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "sc89d58c30b",
+   "text": "No breakthrough you could film.",
+   "th": [
+    "alone"
+   ],
+   "big": "no",
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s46a1b8ea97",
+   "text": "Just a shift in what they can see.",
+   "th": [
+    "alone"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "s981a344d32",
+   "text": "They begin to realise how much of their personality was built to survive.",
+   "th": [
+    "mask"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "s0d85369ba8",
+   "text": "The agreeable tone of voice.",
+   "th": [
+    "alone"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s0a7caee00b",
+   "text": "The over-explaining.",
+   "th": [
+    "alone"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "sffd51d754f",
+   "text": "The nervous laugh.",
+   "th": [
+    "alone"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "seb1860a39a",
+   "text": "The habit of saying sorry before saying anything at all.",
+   "th": [
+    "alone"
+   ],
+   "big": "sorry",
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "scabeeff44a",
+   "text": "None of it is an accident.",
+   "th": [
+    "alone"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s4e343c2bf7",
+   "text": "All of it was learned.",
+   "th": [
+    "alone"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "s9fa4fc1e9b",
+   "text": "Picture a child who comes home bursting with an idea, and is told to calm down.",
+   "th": [
+    "child"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s5610854c1d",
+   "text": "Who shows a drawing and watches an adult glance at it and look away.",
+   "th": [
+    "child"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s056f9002b3",
+   "text": "Who cries and is told that big boys, or good girls, don't do that.",
+   "th": [
+    "child"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "s0f227f3b65",
+   "text": "None of these moments is a catastrophe.",
+   "th": [
+    "alone"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "sfeec2342b4",
+   "text": "But a child is always learning which parts of them are welcome.",
+   "th": [
+    "child"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s0f51acec48",
+   "text": "And the parts that aren't, they put away.",
+   "th": [
+    "alone"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "s2e83ce78c5",
+   "text": "Somewhere, in childhood, in a classroom, in one humiliating afternoon, the mind learned a rule.",
+   "th": [
+    "crowd",
+    "child"
+   ],
+   "big": "rule",
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s9302bc3389",
+   "text": "Being fully yourself can cost you love.",
+   "th": [
+    "alone"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "s97b3db1dc9",
+   "text": "So it built a mask.",
+   "th": [
+    "mask"
+   ],
+   "big": "mask",
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s507a87def1",
+   "text": "Jung called it the persona: the face we show the world so that we can live in it.",
+   "th": [
+    "mask",
+    "mirror"
+   ],
+   "big": "persona",
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "sdea600941f",
+   "text": "And the persona is not the enemy.",
+   "th": [
+    "mask"
+   ],
+   "big": "persona",
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s3edbd01e74",
+   "text": "Everybody needs one.",
+   "th": [
+    "alone"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s41c3ad834d",
+   "text": "A doctor needs a calm face.",
+   "th": [
+    "mirror"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "sbf8b3e730e",
+   "text": "A teacher needs a steady voice.",
+   "th": [
+    "alone"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "sc154e43a50",
+   "text": "The trouble begins when you forget it's a mask.",
+   "th": [
+    "mask"
+   ],
+   "big": "mask",
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "sfcf89cf721",
+   "text": "When the role swallows the actor.",
+   "th": [
+    "mask"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s8cd0ff7195",
+   "text": "When you rehearse every sentence before you speak it.",
+   "th": [
+    "mask"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "sfc87538f59",
+   "text": "When you read other people's faces like weather reports, looking for the first sign of a storm.",
+   "th": [
+    "mirror",
+    "crowd"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "sc75dd26bb4",
+   "text": "You want desperately to be understood, and at the same time you hide everything that is real about you.",
+   "th": [
+    "shadow"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "sb83a0f7c94",
+   "text": "Those two wishes cannot both be granted.",
+   "th": [
+    "alone"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "sc037c297a8",
+   "text": "And so something inside starts to crack.",
+   "th": [
+    "alone"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "sd882572dd9",
+   "text": "Because the mind can carry pain for a very long time.",
+   "th": [
+    "alone"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s1941cc4d71",
+   "text": "What it carries badly is self-betrayal.",
+   "th": [
+    "alone"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "s66cd506751",
+   "text": "This is why some people feel empty even when their life looks fine from the outside.",
+   "th": [
+    "crowd"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "sdd54de1b5f",
+   "text": "The problem isn't failure.",
+   "th": [
+    "alone"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s7bec765d71",
+   "text": "The problem is distance.",
+   "th": [
+    "alone"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "scf291bcbf1",
+   "text": "Distance between the person they show and the person they are.",
+   "th": [
+    "alone"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "s99bb4f54a6",
+   "text": "Live inside that distance long enough and a kind of numbness sets in.",
+   "th": [
+    "alone",
+    "sleep"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "sb5475e154c",
+   "text": "Not sadness.",
+   "th": [
+    "alone"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s8c239b2918",
+   "text": "Not anger.",
+   "th": [
+    "shadow"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s0cc4fd81e4",
+   "text": "Just a dull grey hum.",
+   "th": [
+    "sleep"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "sb0bc318be7",
+   "text": "Numb people don't cause scenes.",
+   "th": [
+    "crowd",
+    "sleep"
+   ],
+   "big": "numb",
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "sd09d65ce14",
+   "text": "They simply stop wanting things.",
+   "th": [
+    "alone"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "s2c1538df5a",
+   "text": "They stay in jobs that drain them.",
+   "th": [
+    "alone"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s3dbbfde010",
+   "text": "They stay in relationships where they feel safe and slowly disappear.",
+   "th": [
+    "crowd"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "s5004255b58",
+   "text": "And then one morning, they look in the mirror and realise they have become someone they would never have chosen to be.",
+   "th": [
+    "mirror",
+    "sleep"
+   ],
+   "big": "mirror",
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "ch3",
+   "card": "chapter",
+   "num": "III",
+   "title": "The Gold in the Shadow",
+   "len": 4.4
+  },
+  {
+   "id": "qfce9c84440",
+   "text": "\"Everyone carries a shadow, and the less it is embodied in the individual's conscious life, the blacker and denser it is.\" Carl Jung, Psychology and Religion.",
+   "quote": true,
+   "th": [
+    "crowd",
+    "shadow"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.6
+  },
+  {
+   "id": "s0967a3413f",
+   "text": "Jung believed every one of us has a shadow.",
+   "th": [
+    "shadow",
+    "sage"
+   ],
+   "big": "shadow",
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s92f735222f",
+   "text": "It holds the parts of ourselves we learned to reject, pushed down beneath manners and habit.",
+   "th": [
+    "alone"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "sc63075b60c",
+   "text": "Most people imagine the shadow as something ugly.",
+   "th": [
+    "crowd",
+    "shadow"
+   ],
+   "big": "shadow",
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s4e8d125ccb",
+   "text": "Rage.",
+   "th": [
+    "shadow"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s08e65ae3c8",
+   "text": "Envy.",
+   "th": [
+    "shadow"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s5dd573c29f",
+   "text": "Cruelty.",
+   "th": [
+    "shadow"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "s36ac8b15c0",
+   "text": "And sometimes it is.",
+   "th": [
+    "alone"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s9c4a6a2332",
+   "text": "But Jung noticed something stranger.",
+   "th": [
+    "shadow",
+    "sage"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s345784f774",
+   "text": "The shadow also holds gold.",
+   "th": [
+    "shadow",
+    "gold"
+   ],
+   "big": "shadow",
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "sc19de9f16d",
+   "text": "Your ambition can end up in the shadow.",
+   "th": [
+    "shadow",
+    "gold"
+   ],
+   "big": "shadow",
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s8c51fe8f57",
+   "text": "Your intelligence.",
+   "th": [
+    "alone"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s8969172810",
+   "text": "Your intensity.",
+   "th": [
+    "gold"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s8c9a79f091",
+   "text": "Your hunger.",
+   "th": [
+    "gold"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "se910a33007",
+   "text": "Your talent.",
+   "th": [
+    "gold"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "s21e2c76478",
+   "text": "Anything you were quietly taught was \"too much\" gets buried there, right next to the things you are ashamed of.",
+   "th": [
+    "alone",
+    "shadow"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "s2f04b8b63e",
+   "text": "And what is buried does not die.",
+   "th": [
+    "shadow"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s1a530b3281",
+   "text": "It waits.",
+   "th": [
+    "alone"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s58bdaed3cb",
+   "text": "It leaks.",
+   "th": [
+    "alone"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "sd903e45731",
+   "text": "It leaks as a strange tiredness around successful people.",
+   "th": [
+    "crowd",
+    "sleep"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s1e0c6e7f04",
+   "text": "As irritation with anyone who seems too sure of themselves.",
+   "th": [
+    "alone"
+   ],
+   "big": "irritation",
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s746cbc0ebe",
+   "text": "As suspicion of people who live freely.",
+   "th": [
+    "crowd"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "s4f33769463",
+   "text": "Not because you hate them.",
+   "th": [
+    "alone"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s44df4f7c96",
+   "text": "Because they remind you of someone you left behind.",
+   "th": [
+    "alone"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s02964352cf",
+   "text": "Someone you used to be, or might have been.",
+   "th": [
+    "alone"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "sffadeb4655",
+   "text": "This is why Jung said that what irritates us in other people can teach us about ourselves.",
+   "th": [
+    "crowd",
+    "sage"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "sf63dd81342",
+   "text": "The irritation is a map.",
+   "th": [
+    "alone"
+   ],
+   "big": "irritation",
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s6cb33f6339",
+   "text": "It points back to what you buried.",
+   "th": [
+    "shadow"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "s8ad63f4ec0",
+   "text": "And the same is true from the other side.",
+   "th": [
+    "alone"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "sd6495b7d3d",
+   "text": "People rarely resent you for being weak.",
+   "th": [
+    "crowd"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s63916bde61",
+   "text": "They resent the possibility that you might outgrow them.",
+   "th": [
+    "nature"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "sa872dc4e3b",
+   "text": "When you begin to change, you hold up a mirror.",
+   "th": [
+    "mirror"
+   ],
+   "big": "mirror",
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s9d3b76628f",
+   "text": "And not everyone wants to see what is in it.",
+   "th": [
+    "crowd",
+    "light"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "s9da552f5e9",
+   "text": "There is no motivation speech that fixes this.",
+   "th": [
+    "alone"
+   ],
+   "big": "no",
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s2f1e1aecad",
+   "text": "It doesn't begin with motivation at all.",
+   "th": [
+    "alone"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "sf1fed3cdce",
+   "text": "It begins with recognition.",
+   "th": [
+    "alone"
+   ],
+   "big": "recognition",
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s82573d9ed8",
+   "text": "With seeing clearly what you hid, and why, and from whom.",
+   "th": [
+    "shadow",
+    "light"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "ch4",
+   "card": "chapter",
+   "num": "IV",
+   "title": "The Price of Being Nice",
+   "len": 4.4
+  },
+  {
+   "id": "q8bd38fbc6d",
+   "text": "\"Knowing your own darkness is the best method for dealing with the darknesses of other people.\" Carl Jung, in a letter.",
+   "quote": true,
+   "th": [
+    "crowd",
+    "shadow"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.6
+  },
+  {
+   "id": "sfe143d3bc2",
+   "text": "Kindness is one of the best things a human being can offer.",
+   "th": [
+    "kind"
+   ],
+   "big": "kindness",
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s3d5c4d2ebf",
+   "text": "But kindness without a single boundary quietly teaches people how to use you.",
+   "th": [
+    "crowd",
+    "alone"
+   ],
+   "big": "kindness",
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "s018893750c",
+   "text": "Most people learn this late.",
+   "th": [
+    "crowd"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "s2a14b5897f",
+   "text": "Because nobody teaches it.",
+   "th": [
+    "alone"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "sda7c010516",
+   "text": "We are taught to share, to be polite, to think of others first.",
+   "th": [
+    "kind"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "sf5e846a6ec",
+   "text": "Almost nobody is taught where their own edges are, or that they're allowed to have them.",
+   "th": [
+    "cage"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "saf7796a07a",
+   "text": "At first, everyone praises your patience.",
+   "th": [
+    "crowd",
+    "kind"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "sb72af7ad0a",
+   "text": "Your understanding.",
+   "th": [
+    "alone"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s11a0e01829",
+   "text": "The way you never make a fuss.",
+   "th": [
+    "alone"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "s8377fcd431",
+   "text": "But underneath ordinary politeness, people test limits.",
+   "th": [
+    "crowd",
+    "cage"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "se095c3c8ec",
+   "text": "Not cruelly.",
+   "th": [
+    "shadow"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s785724b76b",
+   "text": "Not even consciously.",
+   "th": [
+    "alone"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s1a16231485",
+   "text": "It's simply what people do.",
+   "th": [
+    "crowd"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "s1fad2bca26",
+   "text": "And if you always give up your own needs to keep the peace, people slowly stop seeing a person with edges.",
+   "th": [
+    "crowd",
+    "cage"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "s8ae15af940",
+   "text": "They start seeing a service.",
+   "th": [
+    "kind"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s61690f9947",
+   "text": "Something reliable.",
+   "th": [
+    "alone"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s34f95cfb9c",
+   "text": "Something always available.",
+   "th": [
+    "alone"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s2de0fb5346",
+   "text": "Something that exists to keep them comfortable.",
+   "th": [
+    "alone"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "s9318016fcf",
+   "text": "This is the uncomfortable truth.",
+   "th": [
+    "alone"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "sa94fa399e5",
+   "text": "Endless self-sacrifice rarely earns respect.",
+   "th": [
+    "kind",
+    "judge"
+   ],
+   "big": "respect",
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "sceeae71e05",
+   "text": "More often, it earns entitlement.",
+   "th": [
+    "alone"
+   ],
+   "big": "entitlement",
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "sa04ef189e1",
+   "text": "That's why everyone is shocked when the quiet one finally changes.",
+   "th": [
+    "crowd",
+    "alone"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "s57b72b6f76",
+   "text": "The friend who always said yes goes distant.",
+   "th": [
+    "crowd",
+    "kind"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s200b2433c6",
+   "text": "The patient partner turns cold.",
+   "th": [
+    "crowd",
+    "kind"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s1bbab1450d",
+   "text": "The person who pleased everyone simply leaves, and nobody understands why.",
+   "th": [
+    "crowd",
+    "road"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "s9817845f40",
+   "text": "But it didn't happen overnight.",
+   "th": [
+    "sleep"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s7dd72b1de9",
+   "text": "It was years of swallowed words, quietly piling up until there was no room left.",
+   "th": [
+    "crowd",
+    "alone"
+   ],
+   "big": "no",
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "s781f133fb8",
+   "text": "Because deep down, every person wants to be real.",
+   "th": [
+    "alone"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "sa7ea311634",
+   "text": "And sooner or later, the soul begins to punish every version of you that was only built to keep other people happy.",
+   "th": [
+    "crowd",
+    "sage"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "sed8d0ee42c",
+   "text": "That punishment wears ordinary clothes.",
+   "th": [
+    "alone"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s823374c43f",
+   "text": "Anxiety.",
+   "th": [
+    "alone"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s5560ea0ccd",
+   "text": "Exhaustion.",
+   "th": [
+    "sleep"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "sd16f6c8aa5",
+   "text": "Overthinking.",
+   "th": [
+    "alone"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s74c0e32a30",
+   "text": "A heaviness that has no obvious cause.",
+   "th": [
+    "alone"
+   ],
+   "big": "no",
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "scfbfe5f04d",
+   "text": "Not every kind of suffering means this.",
+   "th": [
+    "kind"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "sa9e1913ad0",
+   "text": "The mind is complicated.",
+   "th": [
+    "alone"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "sd2d35d3d14",
+   "text": "But sometimes suffering is simply the bill for abandoning yourself for too long.",
+   "th": [
+    "alone"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "se5bf6aece8",
+   "text": "Jung understood that you cannot deal honestly with other people's darkness until you have met your own.",
+   "th": [
+    "crowd",
+    "shadow"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "s66ce84f6ad",
+   "text": "The person who keeps no boundaries is often afraid of their own anger.",
+   "th": [
+    "shadow",
+    "cage"
+   ],
+   "big": "boundaries",
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s0237a8359a",
+   "text": "So they give it away, a little at a time, as resentment.",
+   "th": [
+    "alone"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "seae63b67f3",
+   "text": "And the person who finally learns to say no, calmly, without a speech, often discovers that the anger was never the danger.",
+   "th": [
+    "shadow"
+   ],
+   "big": "no",
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "sfecdb5111a",
+   "text": "The silence was.",
+   "th": [
+    "alone"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "ch5",
+   "card": "chapter",
+   "num": "V",
+   "title": "Walking Alone",
+   "len": 4.4
+  },
+  {
+   "id": "q160414355d",
+   "text": "\"Loneliness does not come from having no people about one, but from being unable to communicate the things that seem important to oneself.\" Carl Jung, Memories, Dreams, Reflections.",
+   "quote": true,
+   "th": [
+    "mirror",
+    "crowd"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.6
+  },
+  {
+   "id": "s786fad5aa8",
+   "text": "Here is the strange thing about believing in yourself.",
+   "th": [
+    "alone"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s802efc31f1",
+   "text": "In the beginning, it rarely feels powerful.",
+   "th": [
+    "judge"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "sa962961fbe",
+   "text": "It feels lonely.",
+   "th": [
+    "alone"
+   ],
+   "big": "lonely",
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "s7513304f44",
+   "text": "Because once you stop needing constant approval, the ground shifts under every relationship you have.",
+   "th": [
+    "crowd",
+    "judge"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "s52de0db23b",
+   "text": "Conversations feel different.",
+   "th": [
+    "alone"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "sd099fe8d5b",
+   "text": "Friendships reveal conditions you never knew were there.",
+   "th": [
+    "crowd"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "scb99a16a0f",
+   "text": "Some people who always seemed supportive pull away, at exactly the moment you stop asking for their reassurance.",
+   "th": [
+    "crowd"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "seece6f2e33",
+   "text": "At first this confuses you.",
+   "th": [
+    "alone"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "sf77bc19581",
+   "text": "Then you start to see the pattern.",
+   "th": [
+    "light"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "s72591203ad",
+   "text": "Some people were most comfortable with the uncertain version of you.",
+   "th": [
+    "crowd"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "saeb236347f",
+   "text": "The one who checked with them before every decision.",
+   "th": [
+    "alone"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "sef959c7a12",
+   "text": "The one who needed them.",
+   "th": [
+    "alone"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "s0fd5f4e9f1",
+   "text": "Confidence changes the balance of power between two people.",
+   "th": [
+    "crowd",
+    "judge"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s1cd36f3adc",
+   "text": "And power, even quiet emotional power, makes people uneasy.",
+   "th": [
+    "crowd",
+    "alone"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "se0d3d57539",
+   "text": "Many relationships don't end when respect disappears.",
+   "th": [
+    "crowd",
+    "judge"
+   ],
+   "big": "respect",
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s411aae0376",
+   "text": "They end when awareness appears.",
+   "th": [
+    "alone"
+   ],
+   "big": "awareness",
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "sfccb20b4f9",
+   "text": "People say they want honesty.",
+   "th": [
+    "crowd",
+    "light"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "se57479f85a",
+   "text": "Often, what they want is predictability.",
+   "th": [
+    "alone"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s27cb1f7e0e",
+   "text": "They want the version of you they already know how to handle.",
+   "th": [
+    "alone"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "s281c40b968",
+   "text": "So when you start trusting your own judgement, invisible agreements begin to break.",
+   "th": [
+    "judge"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "s8d45985969",
+   "text": "You stop over-explaining.",
+   "th": [
+    "alone"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s7ca5f0c5fa",
+   "text": "You stop defending every choice.",
+   "th": [
+    "alone"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s3347c4a561",
+   "text": "You stop begging to be understood.",
+   "th": [
+    "alone"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "s26826cbd48",
+   "text": "And strangely, your calm can provoke people more than any argument ever did.",
+   "th": [
+    "crowd"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "sc15c1952c9",
+   "text": "Jung saw that becoming yourself means letting go of every false self that once kept you accepted.",
+   "th": [
+    "sage",
+    "judge"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "scac6ff7272",
+   "text": "The obedient child.",
+   "th": [
+    "child"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "sc8cae37990",
+   "text": "The friend who never disagreed.",
+   "th": [
+    "crowd"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "saf7b652196",
+   "text": "The one who kept the peace at any price.",
+   "th": [
+    "kind"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "s1e34efb110",
+   "text": "Each of those selves protected you once.",
+   "th": [
+    "alone"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s3b36ee2179",
+   "text": "But protection, kept too long, becomes a prison.",
+   "th": [
+    "cage"
+   ],
+   "big": "prison",
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "s487f02b58c",
+   "text": "And letting them go is a kind of grief.",
+   "th": [
+    "kind"
+   ],
+   "big": "grief",
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s939acce9ff",
+   "text": "You are mourning people you used to be.",
+   "th": [
+    "crowd"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "s4b7d82ca12",
+   "text": "Then a day comes when staying small hurts more than being judged.",
+   "th": [
+    "judge"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "sf8291df9d8",
+   "text": "That is usually the day the real change starts.",
+   "th": [
+    "alone"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "sc8066d056f",
+   "text": "Not on the outside.",
+   "th": [
+    "alone"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s9ad688f5ac",
+   "text": "On the inside.",
+   "th": [
+    "alone"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "scc07b0fc12",
+   "text": "You stop chasing people who keep pulling away.",
+   "th": [
+    "crowd",
+    "road"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s57e63dba66",
+   "text": "You stop panicking when you are misunderstood.",
+   "th": [
+    "alone"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s30863e6936",
+   "text": "You stop reading every rejection as a verdict on your worth.",
+   "th": [
+    "gold",
+    "judge"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "s52acd6f170",
+   "text": "And you begin to watch people with a calm, almost unsettling clarity.",
+   "th": [
+    "crowd",
+    "light"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "sf70a3e6bf7",
+   "text": "It's not that you become suspicious of everyone.",
+   "th": [
+    "crowd"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s005f9c89b2",
+   "text": "It's that you stop being hypnotised.",
+   "th": [
+    "alone"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "sd40b9dec76",
+   "text": "You start to watch what people do, and not only what they say.",
+   "th": [
+    "crowd"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "s89d3feec53",
+   "text": "You notice who is happy for you in private as well as in public.",
+   "th": [
+    "alone"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "secb548a2a7",
+   "text": "You notice whose support fades the moment you stop needing it.",
+   "th": [
+    "alone"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "sb0a3081743",
+   "text": "You notice who speaks well of others when they aren't in the room.",
+   "th": [
+    "crowd"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "s030a8f1e11",
+   "text": "You see how often people project their own fears onto others.",
+   "th": [
+    "crowd",
+    "light"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s62b2af1b2f",
+   "text": "How much criticism is just envy in a respectable coat.",
+   "th": [
+    "shadow",
+    "judge"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s6bf89cd504",
+   "text": "How many unwritten rules exist mainly to keep everyone in line.",
+   "th": [
+    "crowd"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "s6162ea3735",
+   "text": "And you see something else, too.",
+   "th": [
+    "light"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "see613feee1",
+   "text": "Jung insisted that this road is not about cutting yourself off.",
+   "th": [
+    "road",
+    "sage"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "s8865896db2",
+   "text": "The point was never to stand alone on a mountain, looking down on everyone who still wears a mask.",
+   "th": [
+    "mask",
+    "crowd"
+   ],
+   "big": "mask",
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s4db961705d",
+   "text": "Everyone wears one.",
+   "th": [
+    "crowd"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s5e2704dc62",
+   "text": "Including you.",
+   "th": [
+    "alone"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "se86d144b9c",
+   "text": "Including Jung.",
+   "th": [
+    "sage"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "s359199891c",
+   "text": "Individuation, he wrote, does not shut you out from the world.",
+   "th": [
+    "sage"
+   ],
+   "big": "individuation",
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s8776c4696e",
+   "text": "It gathers the world to you.",
+   "th": [
+    "alone"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "s30f2c403f5",
+   "text": "The loneliness is a passage, not a destination.",
+   "th": [
+    "alone",
+    "road"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s36e3d9fbb9",
+   "text": "On the far side of it are people who can meet the real you, because now there is a real you to meet.",
+   "th": [
+    "crowd",
+    "road"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "ch6",
+   "card": "chapter",
+   "num": "VI",
+   "title": "The Inherited Cage",
+   "len": 4.4
+  },
+  {
+   "id": "q09c2168e69",
+   "text": "\"The shoe that fits one person pinches another; there is no recipe for living that suits all cases.\" Carl Jung, Modern Man in Search of a Soul.",
+   "quote": true,
+   "th": [
+    "sage"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.6
+  },
+  {
+   "id": "sa61ae88254",
+   "text": "Most of us didn't build our cages alone.",
+   "th": [
+    "alone",
+    "cage"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "se2aa91b23f",
+   "text": "We inherited them.",
+   "th": [
+    "alone"
+   ],
+   "big": "inherited",
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "s7c0e23f11b",
+   "text": "Jung noticed that nothing shapes a child more powerfully than the life their parents never lived.",
+   "th": [
+    "child",
+    "sage"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "saf24a06b42",
+   "text": "Think about how many fears are handed down like heirlooms.",
+   "th": [
+    "child"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "sd23d571661",
+   "text": "Parents who gave up on their dreams teach caution.",
+   "th": [
+    "child"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s1bb73a6402",
+   "text": "Hurt people teach avoidance.",
+   "th": [
+    "crowd"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s902a15cd79",
+   "text": "Anxious people teach you to fit in.",
+   "th": [
+    "crowd"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "sd3af542e40",
+   "text": "Whole generations pass down survival habits, and call them wisdom.",
+   "th": [
+    "child"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "se9c0782471",
+   "text": "Don't stand out.",
+   "th": [
+    "alone"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s9b2934d42f",
+   "text": "Be realistic.",
+   "th": [
+    "alone"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "se12c431099",
+   "text": "Play it safe.",
+   "th": [
+    "alone"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s4c5e00468b",
+   "text": "Don't think too much of yourself.",
+   "th": [
+    "alone"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "sb6a637f659",
+   "text": "None of this is said with cruelty.",
+   "th": [
+    "shadow"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s99056bcdb1",
+   "text": "Most of it is said with love.",
+   "th": [
+    "alone"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s24b1ab4e8b",
+   "text": "That's what makes it so hard to question.",
+   "th": [
+    "alone"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "sd04a1e9d4e",
+   "text": "And slowly, the wild part of a person is tamed.",
+   "th": [
+    "cage",
+    "nature"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s2d965228d5",
+   "text": "Not destroyed.",
+   "th": [
+    "alone"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "sf268eb7f5b",
+   "text": "Just fenced in.",
+   "th": [
+    "cage"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s4c5cfe157b",
+   "text": "Enough to function.",
+   "th": [
+    "alone"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "sede5a0f26c",
+   "text": "Enough to fit.",
+   "th": [
+    "alone"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "sa8bf3f3698",
+   "text": "Enough to survive.",
+   "th": [
+    "alone"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "sb5bc73f451",
+   "text": "But a life of survival without meaning leaves a kind of hunger behind.",
+   "th": [
+    "gold",
+    "road"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "se15bf830dd",
+   "text": "In some people, that hunger becomes anxiety.",
+   "th": [
+    "crowd",
+    "gold"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s20f9f71d21",
+   "text": "In others, numbness.",
+   "th": [
+    "sleep"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s8811311159",
+   "text": "In others, endless distraction.",
+   "th": [
+    "alone"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "sec38652f5c",
+   "text": "In others, a hard cynicism, because cynicism feels safer than hope.",
+   "th": [
+    "alone"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "sc54aa9ce14",
+   "text": "And underneath, the wound is the same.",
+   "th": [
+    "alone"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s78ddb59682",
+   "text": "They never got to become themselves.",
+   "th": [
+    "alone"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "sb4c7c1e949",
+   "text": "And here is the part almost nobody admits.",
+   "th": [
+    "alone"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s82749b193a",
+   "text": "Many of us are more afraid of our potential than of our limits.",
+   "th": [
+    "cage",
+    "gold"
+   ],
+   "big": "potential",
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "s20eb8e0112",
+   "text": "Limits are familiar.",
+   "th": [
+    "cage"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "sa8ad822e22",
+   "text": "Potential is not.",
+   "th": [
+    "gold"
+   ],
+   "big": "potential",
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s7284bbe807",
+   "text": "A limit gives you an excuse in advance.",
+   "th": [
+    "cage"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s570dd34f9a",
+   "text": "If you never fully try, you never have to find out what you could have been.",
+   "th": [
+    "alone"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "s45a0913a77",
+   "text": "So we build quiet sentences and live inside them.",
+   "th": [
+    "alone"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s7c6434b4bc",
+   "text": "I'm just not a confident person.",
+   "th": [
+    "alone"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s251dfd038e",
+   "text": "I'm not talented enough.",
+   "th": [
+    "gold"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s4cc8041ede",
+   "text": "People like me don't do things like that.",
+   "th": [
+    "crowd"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "s57cfb28fac",
+   "text": "At first they sound like observations.",
+   "th": [
+    "alone"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s7ae0b70ee0",
+   "text": "Repeat them long enough and they become an identity.",
+   "th": [
+    "alone"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s71fd66050e",
+   "text": "And the mind will defend an identity even when it hurts.",
+   "th": [
+    "alone"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "s7ee96e403b",
+   "text": "Jung believed that what we refuse to look at inside ourselves doesn't disappear.",
+   "th": [
+    "sage"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s2765ccf44a",
+   "text": "It comes back to meet us from the outside, as if it were fate.",
+   "th": [
+    "alone"
+   ],
+   "big": "fate",
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "sf2a75f14b6",
+   "text": "Most of what we call personality is partly habit.",
+   "th": [
+    "mask"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s013646c90a",
+   "text": "Old fear, old shame, old lessons still running the nervous system years after they stopped being useful.",
+   "th": [
+    "alone"
+   ],
+   "big": "fear",
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "sc542ea21f9",
+   "text": "That's why two people can walk into the same room and live in two different worlds.",
+   "th": [
+    "crowd",
+    "road"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s84fe7a16ae",
+   "text": "One sees a chance.",
+   "th": [
+    "alone"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "sdb5566ff00",
+   "text": "The other sees a jury.",
+   "th": [
+    "judge"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "s85a29f99b3",
+   "text": "Seen this way, believing in yourself isn't optimism.",
+   "th": [
+    "alone"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "scf509a6929",
+   "text": "It's a slow, patient rebellion against everything fear taught you.",
+   "th": [
+    "storm",
+    "kind"
+   ],
+   "big": "rebellion",
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "s451a901d95",
+   "text": "And the frightened part of you will not go quietly.",
+   "th": [
+    "alone"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s374118e2c3",
+   "text": "It will tell you to stay invisible.",
+   "th": [
+    "alone"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s2793386d02",
+   "text": "To keep your head down.",
+   "th": [
+    "alone"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s541baf9a27",
+   "text": "To silence yourself before someone else can.",
+   "th": [
+    "alone"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "sd4c21baad8",
+   "text": "It sounds convincing, because for years it kept you safe.",
+   "th": [
+    "alone"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s96265adb42",
+   "text": "But protection and imprisonment often wear the same face.",
+   "th": [
+    "mirror",
+    "cage"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "s717ba015ac",
+   "text": "The armour you put on as a child made sense at the time.",
+   "th": [
+    "child",
+    "storm"
+   ],
+   "big": "armour",
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s5c35e755f0",
+   "text": "The war was real then.",
+   "th": [
+    "storm"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s2dd507e3aa",
+   "text": "But many of us are still wearing it decades later, long after the war has ended, and wondering why we are so tired.",
+   "th": [
+    "storm",
+    "sleep"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "s538447ed58",
+   "text": "We call it personality.",
+   "th": [
+    "mask"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s3d17bd67bb",
+   "text": "Very often, it's just old fear that never got told it could rest.",
+   "th": [
+    "alone"
+   ],
+   "big": "fear",
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "ch7",
+   "card": "chapter",
+   "num": "VII",
+   "title": "Coming Home",
+   "len": 4.4
+  },
+  {
+   "id": "q85962b9c10",
+   "text": "\"Who looks outside, dreams. Who looks inside, awakes.\" Carl Jung, in a letter.",
+   "quote": true,
+   "th": [
+    "light",
+    "sage"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.6
+  },
+  {
+   "id": "sd1670cadae",
+   "text": "For a long time, the question running your life is simple.",
+   "th": [
+    "alone"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "sf3c5fc5899",
+   "text": "Will they accept me?",
+   "th": [
+    "judge"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "sd188293e12",
+   "text": "And then, usually after enough disappointment, enough loneliness, enough nights staring at the ceiling, a different question arrives.",
+   "th": [
+    "alone",
+    "sleep"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "s57c1e5d8a5",
+   "text": "Can I respect myself if I keep living like this?",
+   "th": [
+    "judge"
+   ],
+   "big": "respect",
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "s5d622cdf1d",
+   "text": "That question changes everything.",
+   "th": [
+    "alone"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s25490df9dd",
+   "text": "It marks a separation.",
+   "th": [
+    "alone"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s7462e096f3",
+   "text": "Not from other people.",
+   "th": [
+    "crowd"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "se1b8aff92c",
+   "text": "From illusion.",
+   "th": [
+    "alone"
+   ],
+   "big": "illusion",
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "sed541f1206",
+   "text": "It doesn't make you colder.",
+   "th": [
+    "alone"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s939eb79b2f",
+   "text": "If anything, it makes you warmer, because you are no longer giving with one hand and keeping score with the other.",
+   "th": [
+    "alone"
+   ],
+   "big": "no",
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s62d522dafd",
+   "text": "When you say yes, you mean it.",
+   "th": [
+    "kind"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s8fc71d5506",
+   "text": "When you say no, you mean that too.",
+   "th": [
+    "alone"
+   ],
+   "big": "no",
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "s3136fca933",
+   "text": "Because once self-respect matters more than approval, you begin to see how much of the social world is theatre.",
+   "th": [
+    "mask",
+    "crowd"
+   ],
+   "big": "theatre",
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "s6506244a5a",
+   "text": "Everyone adjusting.",
+   "th": [
+    "crowd"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "sc6d82cc79c",
+   "text": "Everyone performing.",
+   "th": [
+    "mask",
+    "crowd"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "se194c66c80",
+   "text": "Everyone protecting an image they hope will be loved.",
+   "th": [
+    "mask",
+    "crowd"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "sc9f51f94b0",
+   "text": "Underneath it is a quiet, very human fear: the fear of not mattering.",
+   "th": [
+    "alone"
+   ],
+   "big": "fear",
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "s32ca75f69d",
+   "text": "That is why approval feels so good.",
+   "th": [
+    "judge"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s45fc64f4a4",
+   "text": "It works like an anaesthetic.",
+   "th": [
+    "sleep"
+   ],
+   "big": "anaesthetic",
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s5d238abb33",
+   "text": "For a moment, the fear goes quiet.",
+   "th": [
+    "alone"
+   ],
+   "big": "fear",
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "s0fbd0cc29d",
+   "text": "But an anaesthetic is not a cure.",
+   "th": [
+    "sleep"
+   ],
+   "big": "anaesthetic",
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s1306c9c98f",
+   "text": "The relief wears off.",
+   "th": [
+    "alone"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s26262e2a8c",
+   "text": "So people go back for more attention, more reassurance, more proof.",
+   "th": [
+    "crowd"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "s406abd552b",
+   "text": "And bit by bit, they hand the authority over their own lives to other people's opinions.",
+   "th": [
+    "crowd"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "s65b198259b",
+   "text": "That is why criticism can flatten someone completely.",
+   "th": [
+    "judge"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s7394b2f969",
+   "text": "It doesn't just sting.",
+   "th": [
+    "alone"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s40418b0125",
+   "text": "It shakes the floor they are standing on.",
+   "th": [
+    "alone"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "sc098d40ff9",
+   "text": "But when a person begins to believe in themselves at a deeper level, criticism changes its meaning.",
+   "th": [
+    "judge"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "se8b0c0fac2",
+   "text": "It still hurts.",
+   "th": [
+    "alone"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s02540dd1b9",
+   "text": "But it no longer decides what is true.",
+   "th": [
+    "alone"
+   ],
+   "big": "no",
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s0ba0067061",
+   "text": "Because underneath, something solid has finally formed.",
+   "th": [
+    "alone"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "sd86aa60a96",
+   "text": "Not ego.",
+   "th": [
+    "alone"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "se9257f36c4",
+   "text": "Something better.",
+   "th": [
+    "alone"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s6d019801e9",
+   "text": "Call it alignment.",
+   "th": [
+    "alone"
+   ],
+   "big": "alignment",
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "s99c58d5d98",
+   "text": "Alignment is when what you think, what you say and what you do finally point in the same direction.",
+   "th": [
+    "alone"
+   ],
+   "big": "alignment",
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "scbca6cb66c",
+   "text": "It is not a feeling of superiority.",
+   "th": [
+    "alone"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s4ec11e6c1f",
+   "text": "It is the absence of a fight inside you.",
+   "th": [
+    "storm"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "s911ad5b058",
+   "text": "The ego needs to win.",
+   "th": [
+    "alone"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "scffa2cc6b1",
+   "text": "Alignment only needs to be honest.",
+   "th": [
+    "light"
+   ],
+   "big": "alignment",
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s143ff109a1",
+   "text": "The ego collapses when it is challenged.",
+   "th": [
+    "alone"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s0b7c03aa14",
+   "text": "Alignment gets clearer.",
+   "th": [
+    "light"
+   ],
+   "big": "alignment",
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "s262cc2380b",
+   "text": "And this is the point most people miss.",
+   "th": [
+    "crowd"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s6badad9e39",
+   "text": "Believing in yourself was never about becoming louder than everyone else.",
+   "th": [
+    "crowd"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "s215ac882a9",
+   "text": "It was about becoming honest enough to stop abandoning yourself in silence.",
+   "th": [
+    "alone",
+    "light"
+   ],
+   "big": "honest",
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "sea4d04aa13",
+   "text": "The strongest person in a room is rarely the loudest one.",
+   "th": [
+    "crowd"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s930736d04c",
+   "text": "It's the one who no longer needs the room's approval to know what they are worth.",
+   "th": [
+    "crowd",
+    "gold"
+   ],
+   "big": "no",
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "s076baeaed9",
+   "text": "They see through manipulation without becoming bitter.",
+   "th": [
+    "light"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s6200a3bfc7",
+   "text": "They understand people without despising them.",
+   "th": [
+    "crowd"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s61fe880a08",
+   "text": "They are kind, and they have edges.",
+   "th": [
+    "cage",
+    "kind"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "sc821aefb71",
+   "text": "Most people wear their masks so tightly, for so long, that they forget there was ever a face underneath.",
+   "th": [
+    "mask",
+    "mirror"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "s794171935d",
+   "text": "But some people wake up.",
+   "th": [
+    "crowd",
+    "light"
+   ],
+   "big": "wake",
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s49f45b9e21",
+   "text": "And once you wake up, you can't quite go back to sleep.",
+   "th": [
+    "light",
+    "sleep"
+   ],
+   "big": "wake",
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "sc508f1f126",
+   "text": "You don't need to burn your whole life down.",
+   "th": [
+    "alone"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "sfb4334c146",
+   "text": "Start smaller.",
+   "th": [
+    "alone"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s31d8febffd",
+   "text": "Notice the next time you apologise for taking up space.",
+   "th": [
+    "alone"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s1f87e351fe",
+   "text": "Notice the next time you say yes and mean no.",
+   "th": [
+    "kind"
+   ],
+   "big": "no",
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "sfd5184395d",
+   "text": "Notice who you become around certain people, and who you are when you are alone.",
+   "th": [
+    "crowd",
+    "alone"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "s318dd3033d",
+   "text": "That noticing is the light.",
+   "th": [
+    "light"
+   ],
+   "big": "light",
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s4705360df1",
+   "text": "Jung would say it's the only light we have.",
+   "th": [
+    "light",
+    "sage"
+   ],
+   "big": "light",
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "s54e570e4a8",
+   "text": "So let me leave you with a question.",
+   "th": [
+    "road"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "s58689f710b",
+   "text": "When did you first realise you were living for other people, instead of for yourself?",
+   "th": [
+    "crowd"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  },
+  {
+   "id": "s541b772217",
+   "text": "Tell me in the comments.",
+   "th": [
+    "alone"
+   ],
+   "big": "comments",
+   "red": false,
+   "gap": 0.86
+  },
+  {
+   "id": "sdb96aa25cf",
+   "text": "Someone reading them might need to know they are not the only one.",
+   "th": [
+    "alone"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.55
+  }
+ ]
+}
