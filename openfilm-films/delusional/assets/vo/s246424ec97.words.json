@@ -1,0 +1,57 @@
+[
+{
+"word": "A",
+"start": 0.0,
+"end": 0.2
+},
+{
+"word": "side",
+"start": 0.2,
+"end": 0.48
+},
+{
+"word": "quest,",
+"start": 0.48,
+"end": 0.98
+},
+{
+"word": "to",
+"start": 0.98,
+"end": 1.44
+},
+{
+"word": "see",
+"start": 1.44,
+"end": 1.62
+},
+{
+"word": "if",
+"start": 1.62,
+"end": 1.8
+},
+{
+"word": "you're",
+"start": 1.8,
+"end": 1.98
+},
+{
+"word": "really",
+"start": 1.98,
+"end": 2.2
+},
+{
+"word": "built",
+"start": 2.2,
+"end": 2.48
+},
+{
+"word": "for",
+"start": 2.48,
+"end": 2.72
+},
+{
+"word": "this.",
+"start": 2.72,
+"end": 2.98
+}
+]

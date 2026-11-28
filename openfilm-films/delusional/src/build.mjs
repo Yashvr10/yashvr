@@ -110,15 +110,15 @@ const title = "Delusional Until It Becomes Real";
 ends.push({ at: r3(t + 0.3), end: r3(t + 4.3), text: title });
 const FILM = r3(q(t + 4.6));
 
-// ---- music: three mysterious, suspenseful tracks in a row, 5 s crossfades
+// ---- music: three mysterious, suspenseful tracks, one per chapter, 5 s crossfades
 const MV = 0.42;
 const tracks = [["hiding-your-reality.mp3", 0, 0], ["interloper.mp3", 0, 0], ["crypto.mp3", 0, 0]];
-let mt = 0; const music = [];
-for (const [f] of tracks) {
-  if (FILM - mt < 15) break;
-  const L = Math.min(dur("assets/music/" + f) - 1.5, FILM - mt + 0.1);
-  music.push({ f, at: r3(mt), len: r3(L) }); mt = mt + L - 5;
-}
+// one track per stretch: the first under the opening and chapter I, then a new track as each later chapter's card begins
+const starts = [0, ...chaps.slice(1).map((c) => c.at)];
+const music = tracks.map(([f], i) => {
+  const at = Math.max(0, starts[i] - (i ? 2.5 : 0)), end = i + 1 < starts.length ? starts[i + 1] + 2.5 : FILM + 0.1;
+  return { f, at: r3(at), len: r3(Math.min(dur("assets/music/" + f) - 1.5, end - at)) };
+});
 
 // ---- pages
 const tpl = fs.readFileSync(path.join(ROOT, "src/captions.html"), "utf8");

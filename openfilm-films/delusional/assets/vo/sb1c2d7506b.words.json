@@ -1,0 +1,42 @@
+[
+{
+"word": "No",
+"start": 0.0,
+"end": 0.22
+},
+{
+"word": "anger,",
+"start": 0.22,
+"end": 0.48
+},
+{
+"word": "no",
+"start": 0.78,
+"end": 0.84
+},
+{
+"word": "hurt,",
+"start": 0.84,
+"end": 1.12
+},
+{
+"word": "no",
+"start": 1.3,
+"end": 1.4
+},
+{
+"word": "reaction",
+"start": 1.4,
+"end": 1.82
+},
+{
+"word": "at",
+"start": 1.82,
+"end": 2.04
+},
+{
+"word": "all.",
+"start": 2.04,
+"end": 2.34
+}
+]

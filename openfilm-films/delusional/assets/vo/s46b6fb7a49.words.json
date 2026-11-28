@@ -1,0 +1,167 @@
+[
+{
+"word": "I've",
+"start": 0.0,
+"end": 0.26
+},
+{
+"word": "spent",
+"start": 0.26,
+"end": 0.46
+},
+{
+"word": "long",
+"start": 0.46,
+"end": 0.8
+},
+{
+"word": "nights",
+"start": 0.8,
+"end": 1.18
+},
+{
+"word": "studying",
+"start": 1.18,
+"end": 1.58
+},
+{
+"word": "the",
+"start": 1.58,
+"end": 1.88
+},
+{
+"word": "people",
+"start": 1.88,
+"end": 2.18
+},
+{
+"word": "who",
+"start": 2.18,
+"end": 2.4
+},
+{
+"word": "made",
+"start": 2.4,
+"end": 2.62
+},
+{
+"word": "it",
+"start": 2.62,
+"end": 2.74
+},
+{
+"word": "out,",
+"start": 2.74,
+"end": 3.08
+},
+{
+"word": "with",
+"start": 3.52,
+"end": 3.82
+},
+{
+"word": "nothing",
+"start": 3.82,
+"end": 4.1
+},
+{
+"word": "but",
+"start": 4.1,
+"end": 4.42
+},
+{
+"word": "coffee",
+"start": 4.42,
+"end": 4.88
+},
+{
+"word": "and",
+"start": 4.88,
+"end": 5.22
+},
+{
+"word": "painkillers",
+"start": 5.22,
+"end": 5.84
+},
+{
+"word": "on",
+"start": 5.84,
+"end": 6.1
+},
+{
+"word": "the",
+"start": 6.1,
+"end": 6.24
+},
+{
+"word": "desk,",
+"start": 6.24,
+"end": 6.66
+},
+{
+"word": "trying",
+"start": 7.3,
+"end": 7.48
+},
+{
+"word": "to",
+"start": 7.48,
+"end": 7.68
+},
+{
+"word": "understand",
+"start": 7.68,
+"end": 8.18
+},
+{
+"word": "why",
+"start": 8.18,
+"end": 8.5
+},
+{
+"word": "going",
+"start": 8.5,
+"end": 8.72
+},
+{
+"word": "a",
+"start": 8.72,
+"end": 8.92
+},
+{
+"word": "little",
+"start": 8.92,
+"end": 9.1
+},
+{
+"word": "insane",
+"start": 9.1,
+"end": 9.66
+},
+{
+"word": "seems",
+"start": 9.66,
+"end": 10.42
+},
+{
+"word": "to",
+"start": 10.42,
+"end": 10.68
+},
+{
+"word": "come",
+"start": 10.68,
+"end": 10.96
+},
+{
+"word": "before",
+"start": 10.96,
+"end": 11.34
+},
+{
+"word": "success.",
+"start": 11.34,
+"end": 11.86
+}
+]

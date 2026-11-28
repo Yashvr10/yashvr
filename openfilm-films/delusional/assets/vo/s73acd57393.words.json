@@ -1,0 +1,62 @@
+[
+{
+"word": "Something",
+"start": 0.0,
+"end": 0.44
+},
+{
+"word": "that",
+"start": 0.44,
+"end": 0.68
+},
+{
+"word": "knows,",
+"start": 0.68,
+"end": 1.28
+},
+{
+"word": "deep",
+"start": 1.28,
+"end": 1.96
+},
+{
+"word": "down,",
+"start": 1.96,
+"end": 2.5
+},
+{
+"word": "I'm",
+"start": 2.5,
+"end": 2.86
+},
+{
+"word": "supposed",
+"start": 2.86,
+"end": 3.08
+},
+{
+"word": "to",
+"start": 3.08,
+"end": 3.26
+},
+{
+"word": "live",
+"start": 3.26,
+"end": 3.42
+},
+{
+"word": "bigger",
+"start": 3.42,
+"end": 3.7
+},
+{
+"word": "than",
+"start": 3.7,
+"end": 3.92
+},
+{
+"word": "this.",
+"start": 3.92,
+"end": 4.22
+}
+]

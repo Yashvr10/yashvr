@@ -1,0 +1,37 @@
+[
+{
+"word": "Hold",
+"start": 0.0,
+"end": 0.24
+},
+{
+"word": "the",
+"start": 0.24,
+"end": 0.42
+},
+{
+"word": "picture",
+"start": 0.42,
+"end": 0.68
+},
+{
+"word": "longer",
+"start": 0.68,
+"end": 0.98
+},
+{
+"word": "than",
+"start": 0.98,
+"end": 1.36
+},
+{
+"word": "seems",
+"start": 1.36,
+"end": 1.74
+},
+{
+"word": "reasonable.",
+"start": 1.74,
+"end": 2.32
+}
+]

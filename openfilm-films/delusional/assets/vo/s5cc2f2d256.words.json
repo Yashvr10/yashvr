@@ -1,0 +1,82 @@
+[
+{
+"word": "Just",
+"start": 0.0,
+"end": 0.24
+},
+{
+"word": "one",
+"start": 0.24,
+"end": 0.52
+},
+{
+"word": "person",
+"start": 0.52,
+"end": 0.92
+},
+{
+"word": "who",
+"start": 0.92,
+"end": 1.16
+},
+{
+"word": "insists",
+"start": 1.16,
+"end": 1.58
+},
+{
+"word": "on",
+"start": 1.58,
+"end": 1.98
+},
+{
+"word": "living",
+"start": 1.98,
+"end": 2.16
+},
+{
+"word": "in",
+"start": 2.16,
+"end": 2.36
+},
+{
+"word": "a",
+"start": 2.36,
+"end": 2.48
+},
+{
+"word": "different",
+"start": 2.48,
+"end": 2.8
+},
+{
+"word": "world",
+"start": 2.8,
+"end": 3.26
+},
+{
+"word": "that",
+"start": 3.26,
+"end": 3.48
+},
+{
+"word": "only",
+"start": 3.48,
+"end": 3.76
+},
+{
+"word": "he",
+"start": 3.76,
+"end": 4.1
+},
+{
+"word": "can",
+"start": 4.1,
+"end": 4.3
+},
+{
+"word": "see.",
+"start": 4.3,
+"end": 4.7
+}
+]

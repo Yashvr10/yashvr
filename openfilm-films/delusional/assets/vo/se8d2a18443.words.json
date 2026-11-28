@@ -1,0 +1,32 @@
+[
+{
+"word": "I",
+"start": 0.0,
+"end": 0.5
+},
+{
+"word": "believe",
+"start": 0.5,
+"end": 0.7
+},
+{
+"word": "I've",
+"start": 0.7,
+"end": 0.96
+},
+{
+"word": "paid",
+"start": 0.96,
+"end": 1.12
+},
+{
+"word": "the",
+"start": 1.12,
+"end": 1.3
+},
+{
+"word": "price.",
+"start": 1.3,
+"end": 1.58
+}
+]

@@ -1,0 +1,37 @@
+[
+{
+"word": "I",
+"start": 0.0,
+"end": 0.2
+},
+{
+"word": "lost",
+"start": 0.2,
+"end": 0.42
+},
+{
+"word": "almost",
+"start": 0.42,
+"end": 0.72
+},
+{
+"word": "every",
+"start": 0.72,
+"end": 1.12
+},
+{
+"word": "friend",
+"start": 1.12,
+"end": 1.44
+},
+{
+"word": "I",
+"start": 1.44,
+"end": 1.72
+},
+{
+"word": "had.",
+"start": 1.72,
+"end": 2.04
+}
+]

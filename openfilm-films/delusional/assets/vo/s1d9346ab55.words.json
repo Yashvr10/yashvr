@@ -1,0 +1,52 @@
+[
+{
+"word": "I",
+"start": 0.0,
+"end": 0.2
+},
+{
+"word": "stored",
+"start": 0.2,
+"end": 0.5
+},
+{
+"word": "them",
+"start": 0.5,
+"end": 0.72
+},
+{
+"word": "away,",
+"start": 0.72,
+"end": 1.08
+},
+{
+"word": "like",
+"start": 1.08,
+"end": 1.54
+},
+{
+"word": "an",
+"start": 1.54,
+"end": 1.68
+},
+{
+"word": "archive,",
+"start": 1.68,
+"end": 2.12
+},
+{
+"word": "to",
+"start": 2.12,
+"end": 2.54
+},
+{
+"word": "study",
+"start": 2.54,
+"end": 2.82
+},
+{
+"word": "later.",
+"start": 2.82,
+"end": 3.2
+}
+]

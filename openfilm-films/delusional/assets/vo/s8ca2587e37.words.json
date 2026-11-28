@@ -1,0 +1,47 @@
+[
+{
+"word": "Talking",
+"start": 0.0,
+"end": 0.32
+},
+{
+"word": "about",
+"start": 0.32,
+"end": 0.62
+},
+{
+"word": "building",
+"start": 0.62,
+"end": 1.02
+},
+{
+"word": "empires",
+"start": 1.02,
+"end": 1.6
+},
+{
+"word": "while",
+"start": 1.6,
+"end": 1.98
+},
+{
+"word": "eating",
+"start": 1.98,
+"end": 2.24
+},
+{
+"word": "rice",
+"start": 2.24,
+"end": 2.56
+},
+{
+"word": "and",
+"start": 2.56,
+"end": 2.8
+},
+{
+"word": "beans.",
+"start": 2.8,
+"end": 3.16
+}
+]
