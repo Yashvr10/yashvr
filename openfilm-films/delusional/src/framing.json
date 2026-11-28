@@ -1,0 +1,142 @@
+{
+ "door-c1": {
+  "how": "whole",
+  "faces": 2
+ },
+ "dream-c3": {
+  "how": "whole",
+  "faces": 0
+ },
+ "dream-c6": {
+  "how": "whole",
+  "faces": 3
+ },
+ "dream-c8": {
+  "how": "crop top/bottom (faces kept)",
+  "faces": 1
+ },
+ "empire-c1": {
+  "how": "crop top/bottom",
+  "faces": 0
+ },
+ "empire-c2": {
+  "how": "whole",
+  "faces": 0
+ },
+ "empire-c3": {
+  "how": "crop top/bottom (faces kept)",
+  "faces": 1
+ },
+ "empire-c4": {
+  "how": "whole",
+  "faces": 0
+ },
+ "empire-c5": {
+  "how": "crop top/bottom",
+  "faces": 0
+ },
+ "empire-c6": {
+  "how": "whole",
+  "faces": 6
+ },
+ "empire-c7": {
+  "how": "whole",
+  "faces": 0
+ },
+ "empire-c8": {
+  "how": "crop top/bottom",
+  "faces": 0
+ },
+ "faith-c1": {
+  "how": "whole",
+  "faces": 3
+ },
+ "faith-c4": {
+  "how": "whole",
+  "faces": 0
+ },
+ "faith-c5": {
+  "how": "whole",
+  "faces": 6
+ },
+ "faith-c6": {
+  "how": "crop top/bottom",
+  "faces": 0
+ },
+ "fire-c1": {
+  "how": "crop top/bottom",
+  "faces": 0
+ },
+ "fire-c2": {
+  "how": "whole",
+  "faces": 0
+ },
+ "fire-c4": {
+  "how": "whole",
+  "faces": 0
+ },
+ "fire-c6": {
+  "how": "crop top/bottom",
+  "faces": 0
+ },
+ "fire-c7": {
+  "how": "whole",
+  "faces": 0
+ },
+ "madness-c1": {
+  "how": "whole",
+  "faces": 0
+ },
+ "madness-c2": {
+  "how": "crop sides",
+  "faces": 1
+ },
+ "madness-c4": {
+  "how": "whole",
+  "faces": 1
+ },
+ "madness-c5": {
+  "how": "whole",
+  "faces": 4
+ },
+ "madness-c7": {
+  "how": "whole",
+  "faces": 1
+ },
+ "war-c1": {
+  "how": "crop top/bottom",
+  "faces": 0
+ },
+ "war-c10": {
+  "how": "whole",
+  "faces": 1
+ },
+ "war-c3": {
+  "how": "whole",
+  "faces": 0
+ },
+ "war-c4": {
+  "how": "whole",
+  "faces": 0
+ },
+ "war-c5": {
+  "how": "whole",
+  "faces": 0
+ },
+ "war-c6": {
+  "how": "whole",
+  "faces": 0
+ },
+ "war-c7": {
+  "how": "whole",
+  "faces": 2
+ },
+ "war-c8": {
+  "how": "whole",
+  "faces": 0
+ },
+ "war-c9": {
+  "how": "crop top/bottom",
+  "faces": 0
+ }
+}

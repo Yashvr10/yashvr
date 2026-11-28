@@ -66,9 +66,9 @@ def panel(im):
     sh = Image.new("L", (FW, FH), 0); sh.paste(255, ((FW - pw) // 2 - 10, (FH - ph) // 2, (FW + pw) // 2 + 10, (FH + ph) // 2))
     bg.paste(Image.new("RGB", (FW, FH), 0), (0, 0), sh.filter(ImageFilter.GaussianBlur(28)).point(lambda v: int(v * 0.55)))
     bg.paste(im.resize((pw, ph), Image.LANCZOS), ((FW - pw) // 2, (FH - ph) // 2)); return bg
-WHOLE = {"mask-c12"}                                                     # crops checked on a contact sheet; these cut a figure
+WHOLE = set()                                                     # crops checked on a contact sheet; these cut a figure
 P = json.load(open("src/images.json")); F = {}
-for k in sorted({k for v in P.values() for k in v if not k.startswith("j-")}):   # j- pictures come already framed from the Jung film
+for k in sorted({k for v in P.values() for k in v if not k.startswith(("j-", "b-"))}):   # j- and b- pictures come already framed from the Jung and Believe films
     im = Image.open(f"assets/photos/{k}.jpg").convert("RGB")
     c, how, nf = (panel(im), "whole (by hand)", 0) if k in WHOLE else frame(im); F[k] = dict(how=how, faces=nf)
     a = np.asarray(c).astype(np.float32) / 255

@@ -1,0 +1,240 @@
+{
+ "mask": [
+  "b-mask-c1",
+  "b-mask-c2",
+  "b-mask-c3",
+  "b-mask-c4",
+  "b-mask-c5",
+  "b-mask-c6",
+  "b-mask-c7",
+  "b-mask-c8",
+  "b-mask-c9",
+  "b-mask-c10",
+  "b-mask-c11",
+  "b-mask-c12"
+ ],
+ "mirror": [
+  "b-mirror-c1",
+  "b-mirror-c2",
+  "b-mirror-c3",
+  "b-mirror-c4",
+  "b-mirror-c5",
+  "b-mirror-c7",
+  "b-mirror-c8",
+  "b-mirror-c9",
+  "j-portrait-c1",
+  "j-portrait-c3",
+  "j-portrait-c4",
+  "j-alchemy-c7",
+  "j-mirror-c4"
+ ],
+ "crowd": [
+  "b-crowd-c5",
+  "b-crowd-c6",
+  "b-crowd-c7",
+  "b-crowd-c8",
+  "b-crowd-c9",
+  "b-crowd-c10",
+  "b-crowd-c11",
+  "b-crowd-c12",
+  "b-crowd-c13",
+  "b-crowd-c14",
+  "b-crowd-c15",
+  "b-crowd-c16",
+  "b-crowd-c18",
+  "b-crowd-c19",
+  "b-crowd-c20"
+ ],
+ "alone": [
+  "b-alone-c1",
+  "b-alone-c5",
+  "b-alone-c6",
+  "b-alone-c7",
+  "b-alone-c9",
+  "b-alone-c10",
+  "b-alone-c11",
+  "b-alone-c13",
+  "b-alone-c14",
+  "b-alone-c15",
+  "b-alone-c16",
+  "b-alone-c18",
+  "b-alone-c19",
+  "b-alone-c20",
+  "b-alone-c22",
+  "b-alone-c23"
+ ],
+ "child": [
+  "b-child-c1",
+  "b-child-c2",
+  "b-child-c3",
+  "b-child-c4",
+  "b-child-c5",
+  "b-child-c6",
+  "b-child-c7",
+  "b-child-c8",
+  "j-child-c3",
+  "j-child-c4",
+  "j-child-c5"
+ ],
+ "shadow": [
+  "b-shadow-c1",
+  "b-shadow-c3",
+  "b-shadow-c4",
+  "b-shadow-c5",
+  "b-shadow-c7",
+  "b-shadow-c8",
+  "b-shadow-c9",
+  "b-shadow-c11",
+  "j-dream-c1",
+  "j-dream-c2",
+  "j-dream-c3",
+  "j-dream-c6",
+  "j-dream-c7"
+ ],
+ "light": [
+  "b-light-c1",
+  "b-light-c2",
+  "b-light-c3",
+  "b-light-c4",
+  "b-light-c5",
+  "b-light-c8",
+  "b-light-c9",
+  "j-light-c8"
+ ],
+ "storm": [
+  "b-storm-c1",
+  "b-storm-c2",
+  "b-storm-c3",
+  "b-storm-c4",
+  "b-storm-c5",
+  "b-storm-c6",
+  "j-flood-c1",
+  "j-flood-c4",
+  "j-flood-c6"
+ ],
+ "cage": [
+  "b-cage-c1",
+  "b-cage-c2",
+  "b-cage-c4",
+  "b-cage-c5"
+ ],
+ "gold": [
+  "b-gold-c1",
+  "b-gold-c2",
+  "b-gold-c4",
+  "b-gold-c5"
+ ],
+ "road": [
+  "b-road-c1",
+  "b-road-c2",
+  "b-road-c3",
+  "b-road-c4",
+  "b-road-c5",
+  "b-road-c6",
+  "j-nature-c8"
+ ],
+ "sleep": [
+  "b-sleep-c2",
+  "b-sleep-c3",
+  "b-sleep-c4",
+  "b-sleep-c6",
+  "b-sleep-c7",
+  "b-sleep-c8",
+  "b-sleep-c9",
+  "j-dream-c9",
+  "j-dream-c11",
+  "j-dream-c12",
+  "j-dream-c13"
+ ],
+ "kind": [
+  "b-kind-c1",
+  "b-kind-c2",
+  "b-kind-c3",
+  "b-kind-c4",
+  "b-kind-c6",
+  "b-kind-c7",
+  "b-kind-c8",
+  "b-kind-c10"
+ ],
+ "sage": [
+  "b-sage-c1",
+  "b-sage-c2",
+  "b-sage-c3",
+  "b-sage-c4",
+  "b-sage-c5",
+  "b-sage-c6",
+  "j-sage-c1",
+  "j-sage-c3",
+  "j-sage-c4",
+  "j-sage-c6",
+  "j-book-c5"
+ ],
+ "nature": [
+  "b-nature-c1",
+  "b-nature-c2",
+  "b-nature-c3",
+  "b-nature-c4",
+  "j-nature-c1",
+  "j-nature-c2",
+  "j-nature-c4",
+  "j-nature-c5",
+  "j-nature-c7"
+ ],
+ "judge": [
+  "b-judge-c2",
+  "b-judge-c4",
+  "b-judge-c5",
+  "b-judge-c6",
+  "b-judge-c8",
+  "b-judge-c9"
+ ],
+ "war": [
+  "war-c1",
+  "war-c3",
+  "war-c4",
+  "war-c5",
+  "war-c6",
+  "war-c7",
+  "war-c8",
+  "war-c9",
+  "war-c10"
+ ],
+ "empire": [
+  "empire-c1",
+  "empire-c2",
+  "empire-c3",
+  "empire-c4",
+  "empire-c5",
+  "empire-c6",
+  "empire-c7",
+  "empire-c8"
+ ],
+ "fire": [
+  "fire-c1",
+  "fire-c2",
+  "fire-c4",
+  "fire-c6",
+  "fire-c7"
+ ],
+ "dream": [
+  "dream-c3",
+  "dream-c6",
+  "dream-c8"
+ ],
+ "faith": [
+  "faith-c1",
+  "faith-c4",
+  "faith-c5",
+  "faith-c6"
+ ],
+ "madness": [
+  "madness-c1",
+  "madness-c2",
+  "madness-c4",
+  "madness-c5",
+  "madness-c7"
+ ],
+ "door": [
+  "door-c1"
+ ]
+}
