@@ -1,0 +1,1120 @@
+{
+ "scenes": [
+  {
+   "id": "sc50403501f",
+   "text": "They will call you delusional.",
+   "th": [
+    "madness"
+   ],
+   "big": "delusional",
+   "red": false,
+   "gap": 0.57
+  },
+  {
+   "id": "s825d5113d3",
+   "text": "Long before they call you successful, they will call you crazy.",
+   "th": [
+    "empire",
+    "madness"
+   ],
+   "big": "crazy",
+   "red": false,
+   "gap": 1.09
+  },
+  {
+   "id": "sa20c925d4f",
+   "text": "And here's the strange part.",
+   "th": [
+    "road"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.57
+  },
+  {
+   "id": "sbefa3d5e4b",
+   "text": "They might be right.",
+   "th": [
+    "road"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.09
+  },
+  {
+   "id": "sfe3ef89a63",
+   "text": "Because every great thing you have ever seen started as one person's belief in something that did not exist yet.",
+   "th": [
+    "alone",
+    "faith"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.09
+  },
+  {
+   "id": "s4ff323312a",
+   "text": "This is about that kind of belief.",
+   "th": [
+    "faith"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.57
+  },
+  {
+   "id": "sed18bd436b",
+   "text": "The kind that looks like madness, right up until the day it looks like vision.",
+   "th": [
+    "dream",
+    "madness"
+   ],
+   "big": "madness",
+   "red": false,
+   "gap": 1.09
+  },
+  {
+   "id": "ch1",
+   "card": "chapter",
+   "num": "I",
+   "title": "The Stares",
+   "len": 4.4
+  },
+  {
+   "id": "q4fe2cbfe34",
+   "text": "\"All men dream, but not equally. The dreamers of the day are dangerous men, for they may act their dream with open eyes, to make it possible.\" T. E. Lawrence, Seven Pillars of Wisdom.",
+   "quote": true,
+   "th": [
+    "judge",
+    "crowd"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.6
+  },
+  {
+   "id": "s5175117ed7",
+   "text": "All my life, I've been looked down on.",
+   "th": [
+    "judge"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.57
+  },
+  {
+   "id": "s5b98ed3da7",
+   "text": "By people who never built anything, judging the one who was trying to.",
+   "th": [
+    "judge",
+    "crowd"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.09
+  },
+  {
+   "id": "s4ba84d86e2",
+   "text": "And I learned to do something strange.",
+   "th": [
+    "road"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.57
+  },
+  {
+   "id": "s7e5da94f67",
+   "text": "I smiled back.",
+   "th": [
+    "mask"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.57
+  },
+  {
+   "id": "s4686804728",
+   "text": "I gave them nothing.",
+   "th": [
+    "crowd",
+    "mask"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.57
+  },
+  {
+   "id": "sb1c2d7506b",
+   "text": "No anger, no hurt, no reaction at all.",
+   "th": [
+    "mask"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.09
+  },
+  {
+   "id": "s23ef8212ff",
+   "text": "Because somewhere deep down, I knew how this ends.",
+   "th": [
+    "road"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.57
+  },
+  {
+   "id": "s0ef1f9752d",
+   "text": "I knew I would be the one on top.",
+   "th": [
+    "empire"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.09
+  },
+  {
+   "id": "s15998c0d3e",
+   "text": "A quieter part of me said, stay humble.",
+   "th": [
+    "road"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.57
+  },
+  {
+   "id": "sb15bba8191",
+   "text": "Keep a balance.",
+   "th": [
+    "road"
+   ],
+   "big": "balance",
+   "red": false,
+   "gap": 0.57
+  },
+  {
+   "id": "s8904df28e4",
+   "text": "Don't want too much.",
+   "th": [
+    "road"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.09
+  },
+  {
+   "id": "s389015d795",
+   "text": "Forget balance.",
+   "th": [
+    "road"
+   ],
+   "big": "balance",
+   "red": false,
+   "gap": 1.09
+  },
+  {
+   "id": "sb192396c10",
+   "text": "I started collecting those looks.",
+   "th": [
+    "road"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.57
+  },
+  {
+   "id": "s68f77b13be",
+   "text": "Every smirk, every raised eyebrow, every \"who does he think he is\".",
+   "th": [
+    "judge"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.57
+  },
+  {
+   "id": "s1d9346ab55",
+   "text": "I stored them away, like an archive, to study later.",
+   "th": [
+    "crowd"
+   ],
+   "big": "archive",
+   "red": false,
+   "gap": 1.09
+  },
+  {
+   "id": "s6f3752fb06",
+   "text": "And somewhere along the way, I stopped hating them.",
+   "th": [
+    "crowd",
+    "empire"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.09
+  },
+  {
+   "id": "sd904b3192b",
+   "text": "Don't get me wrong.",
+   "th": [
+    "road"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.57
+  },
+  {
+   "id": "s352aaaa535",
+   "text": "I still don't think much of the crowd.",
+   "th": [
+    "crowd"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.57
+  },
+  {
+   "id": "s38c5869249",
+   "text": "But I finally understood what those looks really were.",
+   "th": [
+    "road"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.09
+  },
+  {
+   "id": "s052a7c78f2",
+   "text": "They were not doubt.",
+   "th": [
+    "road"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.57
+  },
+  {
+   "id": "s2318a10a1c",
+   "text": "They were self-defence.",
+   "th": [
+    "road"
+   ],
+   "big": "self-defence",
+   "red": false,
+   "gap": 1.09
+  },
+  {
+   "id": "s4ba0e89972",
+   "text": "Because think about it.",
+   "th": [
+    "road"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.57
+  },
+  {
+   "id": "s8df3ab85ae",
+   "text": "If the life I'm chasing is actually possible, then what does that say about the last ten years of theirs?",
+   "th": [
+    "crowd",
+    "road"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.09
+  },
+  {
+   "id": "s643ef10b9f",
+   "text": "Nobody survives that question.",
+   "th": [
+    "war"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.57
+  },
+  {
+   "id": "se500995940",
+   "text": "Not comfortably.",
+   "th": [
+    "road"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.57
+  },
+  {
+   "id": "s7da8d160ba",
+   "text": "Not a sane person.",
+   "th": [
+    "crowd"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.09
+  },
+  {
+   "id": "sc894bdc7a2",
+   "text": "So they look at you with a little envy, and an awkward smirk behind a mask.",
+   "th": [
+    "judge",
+    "mask"
+   ],
+   "big": "mask",
+   "red": false,
+   "gap": 0.57
+  },
+  {
+   "id": "sb144933ad4",
+   "text": "And in their eyes, you're still crazy.",
+   "th": [
+    "judge",
+    "crowd"
+   ],
+   "big": "crazy",
+   "red": false,
+   "gap": 1.09
+  },
+  {
+   "id": "s72b378b326",
+   "text": "Fine.",
+   "th": [
+    "road"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.57
+  },
+  {
+   "id": "s6b48508d6a",
+   "text": "If that's what helps them sleep at night, I'll be crazy then.",
+   "th": [
+    "crowd",
+    "dream"
+   ],
+   "big": "crazy",
+   "red": false,
+   "gap": 0.57
+  },
+  {
+   "id": "s0fbc5a3355",
+   "text": "I don't mind.",
+   "th": [
+    "road"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.09
+  },
+  {
+   "id": "ch2",
+   "card": "chapter",
+   "num": "II",
+   "title": "Faith That Hasn't Clocked In",
+   "len": 4.4
+  },
+  {
+   "id": "q57d5f41e4c",
+   "text": "\"Self-trust is the first secret of success.\" Ralph Waldo Emerson, Society and Solitude.",
+   "quote": true,
+   "th": [
+    "empire",
+    "sage"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.6
+  },
+  {
+   "id": "s0e601fe38c",
+   "text": "To me, delusion is simply faith that hasn't clocked in yet.",
+   "th": [
+    "faith",
+    "madness"
+   ],
+   "big": "delusion",
+   "red": false,
+   "gap": 1.09
+  },
+  {
+   "id": "s2d9d5e93a1",
+   "text": "Think about what you're actually asking a person to do.",
+   "th": [
+    "road"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.09
+  },
+  {
+   "id": "s6eb5128766",
+   "text": "Believe in something that does not exist.",
+   "th": [
+    "faith"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.57
+  },
+  {
+   "id": "s93a4d37ef7",
+   "text": "No results to show.",
+   "th": [
+    "road"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.57
+  },
+  {
+   "id": "s66a61fd70c",
+   "text": "Nobody clapping.",
+   "th": [
+    "alone"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.09
+  },
+  {
+   "id": "s5cc2f2d256",
+   "text": "Just one person who insists on living in a different world that only he can see.",
+   "th": [
+    "alone",
+    "dream"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.57
+  },
+  {
+   "id": "s59a522a872",
+   "text": "For months.",
+   "th": [
+    "road"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.57
+  },
+  {
+   "id": "sb9c9a3600a",
+   "text": "Maybe for years.",
+   "th": [
+    "road"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.09
+  },
+  {
+   "id": "s3d5e36d999",
+   "text": "While everyone around him gangs up on him and tells him to quit.",
+   "th": [
+    "crowd",
+    "war"
+   ],
+   "big": "quit",
+   "red": false,
+   "gap": 1.09
+  },
+  {
+   "id": "sfb3296ac0d",
+   "text": "That's not a mindset.",
+   "th": [
+    "road"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.57
+  },
+  {
+   "id": "s0c6464a06e",
+   "text": "It's closer to a religion.",
+   "th": [
+    "faith"
+   ],
+   "big": "religion",
+   "red": false,
+   "gap": 1.09
+  },
+  {
+   "id": "s20c671313f",
+   "text": "Staying in the game that long, with a fire burning inside you, and still being hungry?",
+   "th": [
+    "fire",
+    "war"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.09
+  },
+  {
+   "id": "sa7327271cb",
+   "text": "That always comes down to the delusional.",
+   "th": [
+    "madness"
+   ],
+   "big": "delusional",
+   "red": false,
+   "gap": 0.57
+  },
+  {
+   "id": "s73c394f4e9",
+   "text": "It always has.",
+   "th": [
+    "road"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.09
+  },
+  {
+   "id": "sd8bc4c2c88",
+   "text": "Every founder you admire looked crazy at some point.",
+   "th": [
+    "empire",
+    "madness"
+   ],
+   "big": "crazy",
+   "red": false,
+   "gap": 0.57
+  },
+  {
+   "id": "s8ca2587e37",
+   "text": "Talking about building empires while eating rice and beans.",
+   "th": [
+    "empire"
+   ],
+   "big": "empires",
+   "red": false,
+   "gap": 1.09
+  },
+  {
+   "id": "sd4e4eb5a20",
+   "text": "Writing perfect ads for zero followers.",
+   "th": [
+    "road"
+   ],
+   "big": "zero",
+   "red": false,
+   "gap": 0.57
+  },
+  {
+   "id": "s684206dea7",
+   "text": "Training for a war nobody else could see coming.",
+   "th": [
+    "war"
+   ],
+   "big": "war",
+   "red": false,
+   "gap": 1.09
+  },
+  {
+   "id": "s46b6fb7a49",
+   "text": "I've spent long nights studying the people who made it out, with nothing but coffee and painkillers on the desk, trying to understand why going a little insane seems to come before success.",
+   "th": [
+    "crowd",
+    "dream"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.09
+  },
+  {
+   "id": "s2103b4560b",
+   "text": "And here's what I found.",
+   "th": [
+    "road"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.57
+  },
+  {
+   "id": "sfddd5bf6fe",
+   "text": "Even the ones at the top now never had it easy.",
+   "th": [
+    "empire"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.09
+  },
+  {
+   "id": "sa45f065b8f",
+   "text": "Today they're drowning in money.",
+   "th": [
+    "empire"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.57
+  },
+  {
+   "id": "sfd7f241ce8",
+   "text": "But back then?",
+   "th": [
+    "road"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.57
+  },
+  {
+   "id": "s978b53e43a",
+   "text": "Even their own mothers had doubts.",
+   "th": [
+    "crowd",
+    "family"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.09
+  },
+  {
+   "id": "sb9e1075948",
+   "text": "Nobody warns you that the phase of being doubted is necessary.",
+   "th": [
+    "war"
+   ],
+   "big": "doubted",
+   "red": false,
+   "gap": 0.57
+  },
+  {
+   "id": "s281b516d18",
+   "text": "There is no way around it.",
+   "th": [
+    "road"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.09
+  },
+  {
+   "id": "s16430380cb",
+   "text": "The deep worry of the people who love you the most is a test.",
+   "th": [
+    "crowd",
+    "family"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.57
+  },
+  {
+   "id": "s246424ec97",
+   "text": "A side quest, to see if you're really built for this.",
+   "th": [
+    "road"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.09
+  },
+  {
+   "id": "s7d79c712a5",
+   "text": "I've argued for years with my mother.",
+   "th": [
+    "family",
+    "road"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.57
+  },
+  {
+   "id": "s3edd358c44",
+   "text": "With the people closest to me.",
+   "th": [
+    "crowd",
+    "family"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.57
+  },
+  {
+   "id": "sdc24fe9836",
+   "text": "I lost almost every friend I had.",
+   "th": [
+    "crowd",
+    "alone"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.09
+  },
+  {
+   "id": "se8d2a18443",
+   "text": "I believe I've paid the price.",
+   "th": [
+    "faith"
+   ],
+   "big": "price",
+   "red": false,
+   "gap": 0.57
+  },
+  {
+   "id": "s5508305c10",
+   "text": "And there's no shame in that.",
+   "th": [
+    "road"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.09
+  },
+  {
+   "id": "s07531bf8f4",
+   "text": "I'd talk to myself about this obsession, in the mirror, late at night.",
+   "th": [
+    "mirror",
+    "dream"
+   ],
+   "big": "mirror",
+   "red": false,
+   "gap": 0.57
+  },
+  {
+   "id": "scdb7876685",
+   "text": "And I'd hear my own voice answer back.",
+   "th": [
+    "mirror"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.09
+  },
+  {
+   "id": "s61ddca546c",
+   "text": "What kept me going was never talent.",
+   "th": [
+    "road"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.57
+  },
+  {
+   "id": "sa6efa9e630",
+   "text": "It was the refusal to quit, and the ability to bounce back.",
+   "th": [
+    "war"
+   ],
+   "big": "quit",
+   "red": false,
+   "gap": 1.09
+  },
+  {
+   "id": "se6fed16760",
+   "text": "At one point I almost quit.",
+   "th": [
+    "war"
+   ],
+   "big": "quit",
+   "red": false,
+   "gap": 0.57
+  },
+  {
+   "id": "s34ccea66cb",
+   "text": "I really did.",
+   "th": [
+    "road"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.57
+  },
+  {
+   "id": "sdb01172c8c",
+   "text": "But we're still in the game.",
+   "th": [
+    "war"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.09
+  },
+  {
+   "id": "s4ffbd9891b",
+   "text": "And honestly, I don't fully understand why I didn't stop.",
+   "th": [
+    "empire"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.09
+  },
+  {
+   "id": "ch3",
+   "card": "chapter",
+   "num": "III",
+   "title": "Refuse to Wake Up",
+   "len": 4.4
+  },
+  {
+   "id": "qb43e3ce906",
+   "text": "\"Hope is a waking dream.\" Aristotle, as recorded by Diogenes Laërtius.",
+   "quote": true,
+   "th": [
+    "dream",
+    "faith"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.6
+  },
+  {
+   "id": "s458ad50fd0",
+   "text": "Part of me would love a quiet life.",
+   "th": [
+    "alone"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.57
+  },
+  {
+   "id": "s99832728b0",
+   "text": "No worries.",
+   "th": [
+    "road"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.57
+  },
+  {
+   "id": "secc2948890",
+   "text": "Reply to a few emails, make enough to get by.",
+   "th": [
+    "road"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.09
+  },
+  {
+   "id": "sac07fec0db",
+   "text": "But the more I think about it, the more I understand I'm not built for that life.",
+   "th": [
+    "road"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.09
+  },
+  {
+   "id": "sb7d685fcc7",
+   "text": "There's a kind of stubbornness that lives below thought.",
+   "th": [
+    "fire"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.57
+  },
+  {
+   "id": "s73acd57393",
+   "text": "Something that knows, deep down, I'm supposed to live bigger than this.",
+   "th": [
+    "road"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.09
+  },
+  {
+   "id": "sa840f9dc15",
+   "text": "I could feel the life I was meant to live, tapping on the glass.",
+   "th": [
+    "door"
+   ],
+   "big": "glass",
+   "red": false,
+   "gap": 1.09
+  },
+  {
+   "id": "s019f56c3db",
+   "text": "And the day I decided to open it, everything changed.",
+   "th": [
+    "door"
+   ],
+   "big": "everything",
+   "red": false,
+   "gap": 0.57
+  },
+  {
+   "id": "s53a26e8ca2",
+   "text": "Literally everything.",
+   "th": [
+    "road"
+   ],
+   "big": "everything",
+   "red": false,
+   "gap": 1.09
+  },
+  {
+   "id": "sa3c7f5b2c9",
+   "text": "So here's my point.",
+   "th": [
+    "road"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.09
+  },
+  {
+   "id": "sf1e3346dca",
+   "text": "The world doesn't reward realistic people.",
+   "th": [
+    "crowd",
+    "war"
+   ],
+   "big": "realistic",
+   "red": false,
+   "gap": 0.57
+  },
+  {
+   "id": "scf86272310",
+   "text": "It employs them.",
+   "th": [
+    "crowd",
+    "empire"
+   ],
+   "big": "employs",
+   "red": false,
+   "gap": 1.09
+  },
+  {
+   "id": "s03a57a84dc",
+   "text": "Only the ones crazy enough to keep going will survive this game.",
+   "th": [
+    "war",
+    "madness"
+   ],
+   "big": "crazy",
+   "red": false,
+   "gap": 1.09
+  },
+  {
+   "id": "scd5c031a02",
+   "text": "I'd rather die chasing it the right way than live it the wrong way.",
+   "th": [
+    "road"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.09
+  },
+  {
+   "id": "sd304ece919",
+   "text": "I'd rather burn years on something that sounds too fanatical, too delusional to some, than keep myself small to live a life I never wanted.",
+   "th": [
+    "fire",
+    "madness"
+   ],
+   "big": "delusional",
+   "red": false,
+   "gap": 1.09
+  },
+  {
+   "id": "sa8a35f6eb8",
+   "text": "Look around you.",
+   "th": [
+    "road"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.57
+  },
+  {
+   "id": "sf5d96d163c",
+   "text": "Everything you see, every building, every machine, every song, was once one person's inner dream that they refused to wake up from.",
+   "th": [
+    "alone",
+    "dream"
+   ],
+   "big": "everything",
+   "red": false,
+   "gap": 1.09
+  },
+  {
+   "id": "s58cfc520e2",
+   "text": "Think about that.",
+   "th": [
+    "road"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.09
+  },
+  {
+   "id": "s54ba141ffa",
+   "text": "And then refuse to wake up from yours.",
+   "th": [
+    "dream"
+   ],
+   "big": "wake",
+   "red": false,
+   "gap": 1.09
+  },
+  {
+   "id": "se484c06fb9",
+   "text": "That's the whole game.",
+   "th": [
+    "war"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 0.57
+  },
+  {
+   "id": "s8cedcdeb01",
+   "text": "It always comes back to this.",
+   "th": [
+    "road"
+   ],
+   "big": null,
+   "red": false,
+   "gap": 1.09
+  },
+  {
+   "id": "sabf565f5d7",
+   "text": "Hold the picture longer than seems reasonable.",
+   "th": [
+    "dream",
+    "road"
+   ],
+   "big": "picture",
+   "red": false,
+   "gap": 1.09
+  },
+  {
+   "id": "s7ada68b7be",
+   "text": "Reality catches up eventually.",
+   "th": [
+    "road"
+   ],
+   "big": "reality",
+   "red": false,
+   "gap": 0.57
+  },
+  {
+   "id": "s4d1cc4b1aa",
+   "text": "It always catches up to the ones crazy enough to wait for it.",
+   "th": [
+    "madness",
+    "road"
+   ],
+   "big": "crazy",
+   "red": false,
+   "gap": 1.09
+  }
+ ]
+}
